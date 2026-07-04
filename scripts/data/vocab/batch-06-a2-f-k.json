@@ -1,0 +1,2203 @@
+[
+  {
+    "lemma": "Fahrer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 620,
+    "noun": { "gender": "m", "plural": "Fahrer" },
+    "senses": [
+      {
+        "en": "driver",
+        "example_de": "Der Fahrer wartet vor dem Hotel.",
+        "example_en": "The driver is waiting in front of the hotel."
+      }
+    ]
+  },
+  {
+    "lemma": "Fahrplan",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": { "gender": "m", "plural": "Fahrpläne", "genitive": "Fahrplans" },
+    "senses": [
+      {
+        "en": "timetable, schedule",
+        "example_de": "Der Fahrplan hängt an der Haltestelle.",
+        "example_en": "The timetable is hanging at the stop."
+      }
+    ]
+  },
+  {
+    "lemma": "Fahrstuhl",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": "Fahrstühle", "genitive": "Fahrstuhls" },
+    "senses": [
+      {
+        "en": "elevator, lift",
+        "example_de": "Der Fahrstuhl ist heute kaputt.",
+        "example_en": "The elevator is broken today.",
+        "note": "= der Aufzug"
+      }
+    ]
+  },
+  {
+    "lemma": "Fahrt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 520,
+    "noun": { "gender": "f", "plural": "Fahrten" },
+    "senses": [
+      {
+        "en": "trip, journey, ride",
+        "example_de": "Die Fahrt dauert zwei Stunden.",
+        "example_en": "The trip takes two hours.",
+        "note": "Gute Fahrt! = have a good trip!"
+      }
+    ]
+  },
+  {
+    "lemma": "fallen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 380,
+    "verb": {
+      "aux": "sein",
+      "du": "fällst",
+      "er": "fällt",
+      "praeteritum": "fiel",
+      "partizip2": "gefallen"
+    },
+    "senses": [
+      {
+        "en": "to fall",
+        "example_de": "Das Kind ist vom Stuhl gefallen.",
+        "example_en": "The child fell off the chair."
+      }
+    ]
+  },
+  {
+    "lemma": "Familienstand",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "m", "plural": null, "genitive": "Familienstands" },
+    "senses": [
+      {
+        "en": "marital status",
+        "example_de": "Familienstand: ledig oder verheiratet?",
+        "example_en": "Marital status: single or married?",
+        "note": "auf Formularen"
+      }
+    ]
+  },
+  {
+    "lemma": "Fan",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 950,
+    "noun": { "gender": "m", "plural": "Fans" },
+    "senses": [
+      {
+        "en": "fan (supporter)",
+        "example_de": "Er ist ein großer Fußball-Fan.",
+        "example_en": "He is a big football fan."
+      }
+    ]
+  },
+  {
+    "lemma": "fast",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 210,
+    "senses": [
+      {
+        "en": "almost, nearly",
+        "example_de": "Es ist fast zwölf Uhr.",
+        "example_en": "It is almost twelve o'clock."
+      }
+    ]
+  },
+  {
+    "lemma": "Fax",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "n", "plural": "Faxe", "genitive": "Faxes" },
+    "senses": [
+      {
+        "en": "fax",
+        "example_de": "Bitte schicken Sie uns ein Fax.",
+        "example_en": "Please send us a fax."
+      }
+    ]
+  },
+  {
+    "lemma": "Feiertag",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": "Feiertage", "genitive": "Feiertags" },
+    "senses": [
+      {
+        "en": "public holiday",
+        "example_de": "Morgen ist ein Feiertag.",
+        "example_en": "Tomorrow is a public holiday."
+      }
+    ]
+  },
+  {
+    "lemma": "Feld",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 750,
+    "noun": { "gender": "n", "plural": "Felder", "genitive": "Feldes" },
+    "senses": [
+      {
+        "en": "field",
+        "example_de": "Hinter dem Haus ist ein Feld.",
+        "example_en": "Behind the house there is a field."
+      }
+    ]
+  },
+  {
+    "lemma": "fett",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "fatty, greasy",
+        "example_de": "Das Essen ist mir zu fett.",
+        "example_en": "The food is too greasy for me."
+      }
+    ]
+  },
+  {
+    "lemma": "Feuer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 700,
+    "noun": { "gender": "n", "plural": "Feuer" },
+    "senses": [
+      {
+        "en": "fire",
+        "example_de": "Vorsicht, das Feuer ist heiß!",
+        "example_en": "Careful, the fire is hot!"
+      }
+    ]
+  },
+  {
+    "lemma": "Feuerwehr",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1050,
+    "noun": { "gender": "f", "plural": "Feuerwehren" },
+    "senses": [
+      {
+        "en": "fire brigade, fire department",
+        "example_de": "Die Feuerwehr war schnell da.",
+        "example_en": "The fire brigade was there quickly.",
+        "note": "Notruf: 112"
+      }
+    ]
+  },
+  {
+    "lemma": "Finger",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 640,
+    "noun": { "gender": "m", "plural": "Finger" },
+    "senses": [
+      {
+        "en": "finger",
+        "example_de": "Mein Finger tut weh.",
+        "example_en": "My finger hurts."
+      }
+    ]
+  },
+  {
+    "lemma": "fit",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1150,
+    "adj": { "comparative": "fitter", "superlative": "fittest" },
+    "senses": [
+      {
+        "en": "fit, in good shape",
+        "example_de": "Er macht Sport und ist sehr fit.",
+        "example_en": "He does sports and is very fit."
+      }
+    ]
+  },
+  {
+    "lemma": "Flohmarkt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": { "gender": "m", "plural": "Flohmärkte", "genitive": "Flohmarkts" },
+    "senses": [
+      {
+        "en": "flea market",
+        "example_de": "Ich habe die Lampe auf dem Flohmarkt gekauft.",
+        "example_en": "I bought the lamp at the flea market."
+      }
+    ]
+  },
+  {
+    "lemma": "Flug",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 680,
+    "noun": { "gender": "m", "plural": "Flüge", "genitive": "Flugs" },
+    "senses": [
+      {
+        "en": "flight",
+        "example_de": "Der Flug nach Berlin dauert eine Stunde.",
+        "example_en": "The flight to Berlin takes one hour."
+      }
+    ]
+  },
+  {
+    "lemma": "Flur",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1250,
+    "noun": { "gender": "m", "plural": "Flure" },
+    "senses": [
+      {
+        "en": "hallway, corridor",
+        "example_de": "Die Schuhe stehen im Flur.",
+        "example_en": "The shoes are in the hallway."
+      }
+    ]
+  },
+  {
+    "lemma": "Fluss",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 720,
+    "noun": { "gender": "m", "plural": "Flüsse" },
+    "senses": [
+      {
+        "en": "river",
+        "example_de": "Wir schwimmen im Fluss.",
+        "example_en": "We swim in the river."
+      }
+    ]
+  },
+  {
+    "lemma": "folgen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 430,
+    "verb": { "aux": "sein" },
+    "senses": [
+      {
+        "en": "to follow",
+        "example_de": "Bitte folgen Sie mir!",
+        "example_en": "Please follow me!",
+        "note": "+ Dativ"
+      }
+    ]
+  },
+  {
+    "lemma": "fotografieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 980,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to photograph, to take pictures",
+        "example_de": "Er fotografiert gern alte Häuser.",
+        "example_en": "He likes taking pictures of old houses."
+      }
+    ]
+  },
+  {
+    "lemma": "fremd",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 560,
+    "senses": [
+      {
+        "en": "foreign, strange, unfamiliar",
+        "example_de": "Ich bin fremd hier.",
+        "example_en": "I am a stranger here."
+      }
+    ]
+  },
+  {
+    "lemma": "Fremdsprache",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1050,
+    "noun": { "gender": "f", "plural": "Fremdsprachen" },
+    "senses": [
+      {
+        "en": "foreign language",
+        "example_de": "Englisch ist eine Fremdsprache.",
+        "example_en": "English is a foreign language."
+      }
+    ]
+  },
+  {
+    "lemma": "Freude",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 590,
+    "noun": { "gender": "f", "plural": "Freuden" },
+    "senses": [
+      {
+        "en": "joy, pleasure",
+        "example_de": "Das Geschenk macht ihr große Freude.",
+        "example_en": "The present gives her great joy."
+      }
+    ]
+  },
+  {
+    "lemma": "freundlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 480,
+    "senses": [
+      {
+        "en": "friendly, kind",
+        "example_de": "Die Verkäuferin ist sehr freundlich.",
+        "example_en": "The saleswoman is very friendly.",
+        "note": "Mit freundlichen Grüßen (Briefschluss)"
+      }
+    ]
+  },
+  {
+    "lemma": "frieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": { "aux": "haben", "praeteritum": "fror", "partizip2": "gefroren" },
+    "senses": [
+      {
+        "en": "to freeze, to be cold",
+        "example_de": "Ohne Jacke habe ich gefroren.",
+        "example_en": "Without a jacket I was freezing."
+      }
+    ]
+  },
+  {
+    "lemma": "frisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 540,
+    "senses": [
+      {
+        "en": "fresh",
+        "example_de": "Das Brot ist noch frisch.",
+        "example_en": "The bread is still fresh."
+      }
+    ]
+  },
+  {
+    "lemma": "Frisör",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "m", "plural": "Frisöre" },
+    "senses": [
+      {
+        "en": "hairdresser",
+        "example_de": "Ich gehe morgen zum Frisör.",
+        "example_en": "I am going to the hairdresser tomorrow.",
+        "note": "auch: Friseur"
+      }
+    ]
+  },
+  {
+    "lemma": "froh",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 500,
+    "senses": [
+      {
+        "en": "glad, happy",
+        "example_de": "Ich bin froh, dass du da bist.",
+        "example_en": "I am glad that you are here."
+      }
+    ]
+  },
+  {
+    "lemma": "fühlen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 350,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to feel",
+        "example_de": "Ich fühle mich heute nicht gut.",
+        "example_en": "I don't feel well today.",
+        "note": "meist reflexiv: sich fühlen"
+      }
+    ]
+  },
+  {
+    "lemma": "führen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 400,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to lead, to guide",
+        "example_de": "Sie führt uns durch das Museum.",
+        "example_en": "She guides us through the museum."
+      }
+    ]
+  },
+  {
+    "lemma": "Führung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "f", "plural": "Führungen" },
+    "senses": [
+      {
+        "en": "guided tour",
+        "example_de": "Die Führung beginnt um zehn Uhr.",
+        "example_en": "The guided tour starts at ten o'clock."
+      }
+    ]
+  },
+  {
+    "lemma": "Fundbüro",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1650,
+    "noun": { "gender": "n", "plural": "Fundbüros" },
+    "senses": [
+      {
+        "en": "lost and found office",
+        "example_de": "Dein Schlüssel ist vielleicht im Fundbüro.",
+        "example_en": "Your key might be at the lost and found office."
+      }
+    ]
+  },
+  {
+    "lemma": "furchtbar",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 800,
+    "senses": [
+      {
+        "en": "terrible, awful",
+        "example_de": "Das Wetter war furchtbar.",
+        "example_en": "The weather was terrible."
+      }
+    ]
+  },
+  {
+    "lemma": "Fußgänger",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": "Fußgänger" },
+    "senses": [
+      {
+        "en": "pedestrian",
+        "example_de": "Fußgänger müssen hier warten.",
+        "example_en": "Pedestrians have to wait here."
+      }
+    ]
+  },
+  {
+    "lemma": "füttern",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1400,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to feed (an animal)",
+        "example_de": "Die Kinder füttern die Katze.",
+        "example_en": "The children are feeding the cat."
+      }
+    ]
+  },
+  {
+    "lemma": "Gabel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1250,
+    "noun": { "gender": "f", "plural": "Gabeln" },
+    "senses": [
+      {
+        "en": "fork",
+        "example_de": "Messer und Gabel liegen auf dem Tisch.",
+        "example_en": "Knife and fork are on the table."
+      }
+    ]
+  },
+  {
+    "lemma": "Garage",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1150,
+    "noun": { "gender": "f", "plural": "Garagen" },
+    "senses": [
+      {
+        "en": "garage",
+        "example_de": "Das Auto steht in der Garage.",
+        "example_en": "The car is in the garage."
+      }
+    ]
+  },
+  {
+    "lemma": "Gebäude",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 600,
+    "noun": { "gender": "n", "plural": "Gebäude", "genitive": "Gebäudes" },
+    "senses": [
+      {
+        "en": "building",
+        "example_de": "Das Gebäude ist sehr alt.",
+        "example_en": "The building is very old."
+      }
+    ]
+  },
+  {
+    "lemma": "gebraucht",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      {
+        "en": "used, second-hand",
+        "example_de": "Er kauft ein gebrauchtes Auto.",
+        "example_en": "He is buying a used car."
+      }
+    ]
+  },
+  {
+    "lemma": "gefährlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 550,
+    "senses": [
+      {
+        "en": "dangerous",
+        "example_de": "Die Straße ist gefährlich.",
+        "example_en": "The street is dangerous."
+      }
+    ]
+  },
+  {
+    "lemma": "Gegend",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 700,
+    "noun": { "gender": "f", "plural": "Gegenden" },
+    "senses": [
+      {
+        "en": "area, region, neighborhood",
+        "example_de": "Die Gegend ist ruhig und schön.",
+        "example_en": "The area is quiet and beautiful."
+      }
+    ]
+  },
+  {
+    "lemma": "Gegenteil",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 950,
+    "noun": { "gender": "n", "plural": "Gegenteile" },
+    "senses": [
+      {
+        "en": "opposite",
+        "example_de": "Nein, das Gegenteil ist richtig.",
+        "example_en": "No, the opposite is true.",
+        "note": "im Gegenteil = on the contrary"
+      }
+    ]
+  },
+  {
+    "lemma": "gegenüber",
+    "pos": "prep",
+    "level": "A2",
+    "freq": 620,
+    "senses": [
+      {
+        "en": "opposite, across from",
+        "example_de": "Die Post ist gegenüber dem Bahnhof.",
+        "example_en": "The post office is opposite the station.",
+        "note": "+ Dativ; oft nachgestellt: dem Bahnhof gegenüber"
+      }
+    ]
+  },
+  {
+    "lemma": "Geheimnis",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": { "gender": "n", "plural": "Geheimnisse", "genitive": "Geheimnisses" },
+    "senses": [
+      {
+        "en": "secret",
+        "example_de": "Das bleibt unser Geheimnis.",
+        "example_en": "That stays our secret."
+      }
+    ]
+  },
+  {
+    "lemma": "gemeinsam",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 470,
+    "senses": [
+      {
+        "en": "together, common, joint",
+        "example_de": "Wir kochen gemeinsam das Abendessen.",
+        "example_en": "We cook dinner together."
+      }
+    ]
+  },
+  {
+    "lemma": "gemütlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 850,
+    "senses": [
+      {
+        "en": "cozy, comfortable",
+        "example_de": "Das Café ist klein und gemütlich.",
+        "example_en": "The café is small and cozy."
+      }
+    ]
+  },
+  {
+    "lemma": "genug",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 300,
+    "senses": [
+      {
+        "en": "enough",
+        "example_de": "Wir haben genug Zeit.",
+        "example_en": "We have enough time."
+      }
+    ]
+  },
+  {
+    "lemma": "Geschichte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 380,
+    "noun": { "gender": "f", "plural": "Geschichten" },
+    "senses": [
+      {
+        "en": "story",
+        "example_de": "Oma erzählt eine Geschichte.",
+        "example_en": "Grandma is telling a story."
+      },
+      {
+        "en": "history",
+        "example_de": "Die Stadt hat eine lange Geschichte.",
+        "example_en": "The city has a long history."
+      }
+    ]
+  },
+  {
+    "lemma": "Gesicht",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 520,
+    "noun": { "gender": "n", "plural": "Gesichter" },
+    "senses": [
+      {
+        "en": "face",
+        "example_de": "Sie wäscht ihr Gesicht.",
+        "example_en": "She is washing her face."
+      }
+    ]
+  },
+  {
+    "lemma": "Gesundheit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 600,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "health",
+        "example_de": "Rauchen ist schlecht für die Gesundheit.",
+        "example_en": "Smoking is bad for your health.",
+        "note": "Gesundheit! = bless you! (nach dem Niesen)"
+      }
+    ]
+  },
+  {
+    "lemma": "gewinnen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 420,
+    "verb": { "aux": "haben", "praeteritum": "gewann", "partizip2": "gewonnen" },
+    "senses": [
+      {
+        "en": "to win",
+        "example_de": "Er hat das Spiel gewonnen.",
+        "example_en": "He won the game."
+      }
+    ]
+  },
+  {
+    "lemma": "Gewitter",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "n", "plural": "Gewitter" },
+    "senses": [
+      {
+        "en": "thunderstorm",
+        "example_de": "Heute Abend kommt ein Gewitter.",
+        "example_en": "A thunderstorm is coming this evening."
+      }
+    ]
+  },
+  {
+    "lemma": "gießen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1150,
+    "verb": { "aux": "haben", "praeteritum": "goss", "partizip2": "gegossen" },
+    "senses": [
+      {
+        "en": "to water (plants), to pour",
+        "example_de": "Ich gieße die Blumen.",
+        "example_en": "I am watering the flowers."
+      }
+    ]
+  },
+  {
+    "lemma": "Gitarre",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": "Gitarren" },
+    "senses": [
+      {
+        "en": "guitar",
+        "example_de": "Er spielt Gitarre.",
+        "example_en": "He plays the guitar."
+      }
+    ]
+  },
+  {
+    "lemma": "Gleis",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1050,
+    "noun": { "gender": "n", "plural": "Gleise", "genitive": "Gleises" },
+    "senses": [
+      {
+        "en": "platform, track",
+        "example_de": "Der Zug fährt von Gleis fünf ab.",
+        "example_en": "The train departs from platform five."
+      }
+    ]
+  },
+  {
+    "lemma": "Grad",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 780,
+    "noun": { "gender": "m", "plural": "Grade", "genitive": "Grades" },
+    "senses": [
+      {
+        "en": "degree",
+        "example_de": "Heute sind es 30 Grad.",
+        "example_en": "It is 30 degrees today.",
+        "note": "nach Zahlen bleibt der Plural Grad: 30 Grad"
+      }
+    ]
+  },
+  {
+    "lemma": "gratulieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to congratulate",
+        "example_de": "Wir gratulieren dir zum Geburtstag!",
+        "example_en": "We congratulate you on your birthday!",
+        "note": "+ Dativ (jemandem zu etwas gratulieren)"
+      }
+    ]
+  },
+  {
+    "lemma": "grau",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 750,
+    "senses": [
+      {
+        "en": "gray",
+        "example_de": "Der Himmel ist grau.",
+        "example_en": "The sky is gray."
+      }
+    ]
+  },
+  {
+    "lemma": "Grenze",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 650,
+    "noun": { "gender": "f", "plural": "Grenzen" },
+    "senses": [
+      {
+        "en": "border, limit",
+        "example_de": "An der Grenze braucht man einen Pass.",
+        "example_en": "You need a passport at the border."
+      }
+    ]
+  },
+  {
+    "lemma": "grillen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1250,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to barbecue, to grill",
+        "example_de": "Am Samstag grillen wir im Garten.",
+        "example_en": "On Saturday we barbecue in the garden."
+      }
+    ]
+  },
+  {
+    "lemma": "Grippe",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "flu",
+        "example_de": "Sie liegt mit Grippe im Bett.",
+        "example_en": "She is in bed with the flu."
+      }
+    ]
+  },
+  {
+    "lemma": "Grund",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 340,
+    "noun": { "gender": "m", "plural": "Gründe", "genitive": "Grundes" },
+    "senses": [
+      {
+        "en": "reason",
+        "example_de": "Was ist der Grund für die Verspätung?",
+        "example_en": "What is the reason for the delay?"
+      }
+    ]
+  },
+  {
+    "lemma": "gucken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 900,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to look, to watch",
+        "example_de": "Guck mal, da ist ein Hund!",
+        "example_en": "Look, there is a dog!",
+        "note": "umgangssprachlich"
+      }
+    ]
+  },
+  {
+    "lemma": "gültig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1150,
+    "senses": [
+      {
+        "en": "valid",
+        "example_de": "Der Ausweis ist noch zwei Jahre gültig.",
+        "example_en": "The ID card is valid for two more years."
+      }
+    ]
+  },
+  {
+    "lemma": "günstig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 700,
+    "senses": [
+      {
+        "en": "cheap, reasonable, favorable",
+        "example_de": "Das Hotel ist günstig und gut.",
+        "example_en": "The hotel is cheap and good."
+      }
+    ]
+  },
+  {
+    "lemma": "Gymnasium",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "n", "plural": "Gymnasien" },
+    "senses": [
+      {
+        "en": "grammar school, academic high school",
+        "example_de": "Meine Tochter geht aufs Gymnasium.",
+        "example_en": "My daughter goes to grammar school."
+      }
+    ]
+  },
+  {
+    "lemma": "Haar",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 450,
+    "noun": { "gender": "n", "plural": "Haare", "genitive": "Haares" },
+    "senses": [
+      {
+        "en": "hair",
+        "example_de": "Sie hat lange Haare.",
+        "example_en": "She has long hair.",
+        "note": "meist Plural: die Haare"
+      }
+    ]
+  },
+  {
+    "lemma": "Hafen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 950,
+    "noun": { "gender": "m", "plural": "Häfen" },
+    "senses": [
+      {
+        "en": "harbor, port",
+        "example_de": "Im Hafen liegen viele Schiffe.",
+        "example_en": "There are many ships in the harbor."
+      }
+    ]
+  },
+  {
+    "lemma": "Hähnchen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "n", "plural": "Hähnchen" },
+    "senses": [
+      {
+        "en": "chicken (food)",
+        "example_de": "Ich nehme das Hähnchen mit Reis.",
+        "example_en": "I'll have the chicken with rice."
+      }
+    ]
+  },
+  {
+    "lemma": "Hälfte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 600,
+    "noun": { "gender": "f", "plural": "Hälften" },
+    "senses": [
+      {
+        "en": "half",
+        "example_de": "Ich gebe dir die Hälfte.",
+        "example_en": "I'll give you half."
+      }
+    ]
+  },
+  {
+    "lemma": "halten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 220,
+    "verb": {
+      "aux": "haben",
+      "du": "hältst",
+      "er": "hält",
+      "praeteritum": "hielt",
+      "partizip2": "gehalten"
+    },
+    "senses": [
+      {
+        "en": "to hold",
+        "example_de": "Kannst du kurz meine Tasche halten?",
+        "example_en": "Can you hold my bag for a moment?"
+      },
+      {
+        "en": "to stop (vehicle)",
+        "example_de": "Der Bus hält direkt am Bahnhof.",
+        "example_en": "The bus stops right at the station."
+      }
+    ]
+  },
+  {
+    "lemma": "Hals",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 800,
+    "noun": { "gender": "m", "plural": "Hälse" },
+    "senses": [
+      {
+        "en": "neck, throat",
+        "example_de": "Mein Hals tut weh.",
+        "example_en": "My throat hurts."
+      }
+    ]
+  },
+  {
+    "lemma": "Hand",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 200,
+    "noun": { "gender": "f", "plural": "Hände" },
+    "senses": [
+      {
+        "en": "hand",
+        "example_de": "Er gibt mir die Hand.",
+        "example_en": "He shakes my hand."
+      }
+    ]
+  },
+  {
+    "lemma": "Handtuch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "n", "plural": "Handtücher", "genitive": "Handtuchs" },
+    "senses": [
+      {
+        "en": "towel",
+        "example_de": "Das Handtuch hängt im Bad.",
+        "example_en": "The towel is hanging in the bathroom."
+      }
+    ]
+  },
+  {
+    "lemma": "hängen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 480,
+    "verb": { "aux": "haben", "praeteritum": "hing", "partizip2": "gehangen" },
+    "senses": [
+      {
+        "en": "to hang, to be hanging",
+        "example_de": "Das Bild hängt an der Wand.",
+        "example_en": "The picture is hanging on the wall.",
+        "note": "transitiv (etwas aufhängen) schwach: hängte, gehängt"
+      }
+    ]
+  },
+  {
+    "lemma": "hart",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 500,
+    "adj": { "comparative": "härter", "superlative": "härtest" },
+    "senses": [
+      {
+        "en": "hard, tough",
+        "example_de": "Das Brot ist hart.",
+        "example_en": "The bread is hard."
+      }
+    ]
+  },
+  {
+    "lemma": "hässlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1050,
+    "senses": [
+      {
+        "en": "ugly",
+        "example_de": "Ich finde das Gebäude hässlich.",
+        "example_en": "I find the building ugly."
+      }
+    ]
+  },
+  {
+    "lemma": "Hauptbahnhof",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 850,
+    "noun": { "gender": "m", "plural": "Hauptbahnhöfe", "genitive": "Hauptbahnhofs" },
+    "senses": [
+      {
+        "en": "main station, central station",
+        "example_de": "Wir treffen uns am Hauptbahnhof.",
+        "example_en": "We are meeting at the main station."
+      }
+    ]
+  },
+  {
+    "lemma": "Hauptstadt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 800,
+    "noun": { "gender": "f", "plural": "Hauptstädte" },
+    "senses": [
+      {
+        "en": "capital city",
+        "example_de": "Berlin ist die Hauptstadt von Deutschland.",
+        "example_en": "Berlin is the capital of Germany."
+      }
+    ]
+  },
+  {
+    "lemma": "heben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 750,
+    "verb": { "aux": "haben", "praeteritum": "hob", "partizip2": "gehoben" },
+    "senses": [
+      {
+        "en": "to lift, to raise",
+        "example_de": "Ich kann den Koffer nicht heben.",
+        "example_en": "I can't lift the suitcase."
+      }
+    ]
+  },
+  {
+    "lemma": "Heimat",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 850,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "home, homeland",
+        "example_de": "Meine Heimat ist die Türkei.",
+        "example_en": "Turkey is my homeland."
+      }
+    ]
+  },
+  {
+    "lemma": "heiraten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 650,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to marry, to get married",
+        "example_de": "Sie heiraten im Mai.",
+        "example_en": "They are getting married in May."
+      }
+    ]
+  },
+  {
+    "lemma": "heiß",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 330,
+    "senses": [
+      {
+        "en": "hot",
+        "example_de": "Vorsicht, die Suppe ist heiß!",
+        "example_en": "Careful, the soup is hot!"
+      }
+    ]
+  },
+  {
+    "lemma": "Hemd",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1050,
+    "noun": { "gender": "n", "plural": "Hemden", "genitive": "Hemds" },
+    "senses": [
+      {
+        "en": "shirt",
+        "example_de": "Das Hemd ist neu.",
+        "example_en": "The shirt is new."
+      }
+    ]
+  },
+  {
+    "lemma": "Herz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 400,
+    "noun": { "gender": "n", "plural": "Herzen", "genitive": "Herzens" },
+    "senses": [
+      {
+        "en": "heart",
+        "example_de": "Sein Herz ist gesund.",
+        "example_en": "His heart is healthy.",
+        "note": "unregelmäßig: das Herz, dem Herzen, des Herzens"
+      }
+    ]
+  },
+  {
+    "lemma": "Himmel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 600,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "sky, heaven",
+        "example_de": "Am Himmel sind viele Wolken.",
+        "example_en": "There are many clouds in the sky."
+      }
+    ]
+  },
+  {
+    "lemma": "Hochzeit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 750,
+    "noun": { "gender": "f", "plural": "Hochzeiten" },
+    "senses": [
+      {
+        "en": "wedding",
+        "example_de": "Die Hochzeit ist im Juni.",
+        "example_en": "The wedding is in June."
+      }
+    ]
+  },
+  {
+    "lemma": "hoffen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 320,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to hope",
+        "example_de": "Ich hoffe, es geht dir gut.",
+        "example_en": "I hope you are well.",
+        "note": "hoffen auf + Akkusativ"
+      }
+    ]
+  },
+  {
+    "lemma": "hoffentlich",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 550,
+    "senses": [
+      {
+        "en": "hopefully",
+        "example_de": "Hoffentlich regnet es morgen nicht.",
+        "example_en": "Hopefully it won't rain tomorrow."
+      }
+    ]
+  },
+  {
+    "lemma": "höflich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 950,
+    "senses": [
+      {
+        "en": "polite",
+        "example_de": "Der Kellner ist sehr höflich.",
+        "example_en": "The waiter is very polite."
+      }
+    ]
+  },
+  {
+    "lemma": "Honig",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "honey",
+        "example_de": "Ich esse Brot mit Honig.",
+        "example_en": "I eat bread with honey."
+      }
+    ]
+  },
+  {
+    "lemma": "Hose",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 800,
+    "noun": { "gender": "f", "plural": "Hosen" },
+    "senses": [
+      {
+        "en": "trousers, pants",
+        "example_de": "Die Hose ist mir zu groß.",
+        "example_en": "The trousers are too big for me.",
+        "note": "im Deutschen Singular: die Hose"
+      }
+    ]
+  },
+  {
+    "lemma": "hübsch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "pretty, cute",
+        "example_de": "Das ist ein hübsches Kleid.",
+        "example_en": "That is a pretty dress."
+      }
+    ]
+  },
+  {
+    "lemma": "Husten",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": null, "genitive": "Hustens" },
+    "senses": [
+      {
+        "en": "cough",
+        "example_de": "Ich habe Husten und Fieber.",
+        "example_en": "I have a cough and a fever."
+      }
+    ]
+  },
+  {
+    "lemma": "Hut",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1150,
+    "noun": { "gender": "m", "plural": "Hüte", "genitive": "Hutes" },
+    "senses": [
+      {
+        "en": "hat",
+        "example_de": "Der Mann trägt einen Hut.",
+        "example_en": "The man is wearing a hat."
+      }
+    ]
+  },
+  {
+    "lemma": "Imbiss",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": { "gender": "m", "plural": "Imbisse" },
+    "senses": [
+      {
+        "en": "snack, snack bar",
+        "example_de": "Wir essen schnell etwas am Imbiss.",
+        "example_en": "We quickly eat something at the snack bar."
+      }
+    ]
+  },
+  {
+    "lemma": "informieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 600,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to inform",
+        "example_de": "Bitte informieren Sie mich per E-Mail.",
+        "example_en": "Please inform me by email.",
+        "note": "sich informieren über + Akkusativ"
+      }
+    ]
+  },
+  {
+    "lemma": "Ingenieur",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": "Ingenieure" },
+    "senses": [
+      {
+        "en": "engineer",
+        "example_de": "Mein Bruder ist Ingenieur.",
+        "example_en": "My brother is an engineer."
+      }
+    ]
+  },
+  {
+    "lemma": "Insel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 780,
+    "noun": { "gender": "f", "plural": "Inseln" },
+    "senses": [
+      {
+        "en": "island",
+        "example_de": "Wir machen Urlaub auf einer Insel.",
+        "example_en": "We are on vacation on an island."
+      }
+    ]
+  },
+  {
+    "lemma": "Interesse",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 500,
+    "noun": { "gender": "n", "plural": "Interessen" },
+    "senses": [
+      {
+        "en": "interest",
+        "example_de": "Haben Sie Interesse an dem Kurs?",
+        "example_en": "Are you interested in the course?",
+        "note": "Interesse an + Dativ"
+      }
+    ]
+  },
+  {
+    "lemma": "interessieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 450,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to interest",
+        "example_de": "Ich interessiere mich für Musik.",
+        "example_en": "I am interested in music.",
+        "note": "sich interessieren für + Akkusativ"
+      }
+    ]
+  },
+  {
+    "lemma": "Interview",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 950,
+    "noun": { "gender": "n", "plural": "Interviews" },
+    "senses": [
+      {
+        "en": "interview",
+        "example_de": "Im Radio läuft ein Interview.",
+        "example_en": "An interview is on the radio."
+      }
+    ]
+  },
+  {
+    "lemma": "irgendwann",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 700,
+    "senses": [
+      {
+        "en": "sometime, at some point",
+        "example_de": "Irgendwann möchte ich nach Japan reisen.",
+        "example_en": "I want to travel to Japan sometime."
+      }
+    ]
+  },
+  {
+    "lemma": "irgendwo",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 800,
+    "senses": [
+      {
+        "en": "somewhere",
+        "example_de": "Mein Schlüssel liegt irgendwo im Zimmer.",
+        "example_en": "My key is somewhere in the room."
+      }
+    ]
+  },
+  {
+    "lemma": "jemand",
+    "pos": "pron",
+    "level": "A2",
+    "freq": 350,
+    "senses": [
+      {
+        "en": "someone, somebody",
+        "example_de": "Da ist jemand an der Tür.",
+        "example_en": "There is someone at the door.",
+        "note": "jemanden (Akk.) · jemandem (Dat.)"
+      }
+    ]
+  },
+  {
+    "lemma": "joggen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": { "aux": "sein" },
+    "senses": [
+      {
+        "en": "to jog",
+        "example_de": "Sie joggt jeden Morgen im Park.",
+        "example_en": "She jogs in the park every morning."
+      }
+    ]
+  },
+  {
+    "lemma": "Journalist",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": { "gender": "m", "plural": "Journalisten", "genitive": "Journalisten" },
+    "senses": [
+      {
+        "en": "journalist",
+        "example_de": "Der Journalist schreibt für eine Zeitung.",
+        "example_en": "The journalist writes for a newspaper.",
+        "note": "n-Deklination: den/dem/des Journalisten"
+      }
+    ]
+  },
+  {
+    "lemma": "Jugendliche",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 750,
+    "noun": { "gender": "m", "plural": "Jugendlichen", "genitive": "Jugendlichen" },
+    "senses": [
+      {
+        "en": "young person, teenager",
+        "example_de": "Viele Jugendliche machen hier Sport.",
+        "example_en": "Many young people do sports here.",
+        "note": "adjektivische Deklination: ein Jugendlicher, die Jugendliche (f)"
+      }
+    ]
+  },
+  {
+    "lemma": "Kalender",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": "Kalender" },
+    "senses": [
+      {
+        "en": "calendar",
+        "example_de": "Der Termin steht im Kalender.",
+        "example_en": "The appointment is in the calendar."
+      }
+    ]
+  },
+  {
+    "lemma": "Kamera",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": { "gender": "f", "plural": "Kameras" },
+    "senses": [
+      {
+        "en": "camera",
+        "example_de": "Die Kamera macht gute Fotos.",
+        "example_en": "The camera takes good photos."
+      }
+    ]
+  },
+  {
+    "lemma": "Kanne",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "f", "plural": "Kannen" },
+    "senses": [
+      {
+        "en": "pot, jug",
+        "example_de": "Auf dem Tisch steht eine Kanne Tee.",
+        "example_en": "There is a pot of tea on the table."
+      }
+    ]
+  },
+  {
+    "lemma": "Kantine",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "f", "plural": "Kantinen" },
+    "senses": [
+      {
+        "en": "canteen, cafeteria",
+        "example_de": "Mittags essen wir in der Kantine.",
+        "example_en": "At noon we eat in the canteen."
+      }
+    ]
+  },
+  {
+    "lemma": "kaputtmachen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1350,
+    "verb": { "aux": "haben", "separablePrefix": "kaputt" },
+    "senses": [
+      {
+        "en": "to break (something)",
+        "example_de": "Wer hat die Lampe kaputtgemacht?",
+        "example_en": "Who broke the lamp?"
+      }
+    ]
+  },
+  {
+    "lemma": "Karriere",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 950,
+    "noun": { "gender": "f", "plural": "Karrieren" },
+    "senses": [
+      {
+        "en": "career",
+        "example_de": "Sie macht Karriere in der Firma.",
+        "example_en": "She is making a career in the company."
+      }
+    ]
+  },
+  {
+    "lemma": "Katze",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 600,
+    "noun": { "gender": "f", "plural": "Katzen" },
+    "senses": [
+      {
+        "en": "cat",
+        "example_de": "Unsere Katze schläft auf dem Sofa.",
+        "example_en": "Our cat is sleeping on the sofa."
+      }
+    ]
+  },
+  {
+    "lemma": "kaum",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 420,
+    "senses": [
+      {
+        "en": "hardly, barely",
+        "example_de": "Ich habe kaum Zeit.",
+        "example_en": "I hardly have any time."
+      }
+    ]
+  },
+  {
+    "lemma": "Kaufhaus",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1250,
+    "noun": { "gender": "n", "plural": "Kaufhäuser", "genitive": "Kaufhauses" },
+    "senses": [
+      {
+        "en": "department store",
+        "example_de": "Im Kaufhaus gibt es alles.",
+        "example_en": "The department store has everything."
+      }
+    ]
+  },
+  {
+    "lemma": "Keller",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 850,
+    "noun": { "gender": "m", "plural": "Keller" },
+    "senses": [
+      {
+        "en": "cellar, basement",
+        "example_de": "Die Fahrräder stehen im Keller.",
+        "example_en": "The bicycles are in the basement."
+      }
+    ]
+  },
+  {
+    "lemma": "Kellner",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": "Kellner" },
+    "senses": [
+      {
+        "en": "waiter",
+        "example_de": "Der Kellner bringt die Speisekarte.",
+        "example_en": "The waiter brings the menu."
+      }
+    ]
+  },
+  {
+    "lemma": "Kenntnisse",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1050,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      {
+        "en": "knowledge, skills",
+        "example_de": "Gute Kenntnisse in Englisch sind wichtig.",
+        "example_en": "Good knowledge of English is important.",
+        "note": "meist Plural; Singular: die Kenntnis"
+      }
+    ]
+  },
+  {
+    "lemma": "Kirche",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 550,
+    "noun": { "gender": "f", "plural": "Kirchen" },
+    "senses": [
+      {
+        "en": "church",
+        "example_de": "Die Kirche ist über 500 Jahre alt.",
+        "example_en": "The church is over 500 years old."
+      }
+    ]
+  },
+  {
+    "lemma": "klappen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 750,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to work out, to go well",
+        "example_de": "Hat alles geklappt?",
+        "example_en": "Did everything work out?",
+        "note": "unpersönlich: es klappt"
+      }
+    ]
+  },
+  {
+    "lemma": "Kleid",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 850,
+    "noun": { "gender": "n", "plural": "Kleider", "genitive": "Kleides" },
+    "senses": [
+      {
+        "en": "dress",
+        "example_de": "Sie kauft ein Kleid für die Hochzeit.",
+        "example_en": "She is buying a dress for the wedding.",
+        "note": "Plural Kleider auch: clothes"
+      }
+    ]
+  },
+  {
+    "lemma": "klettern",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1250,
+    "verb": { "aux": "sein" },
+    "senses": [
+      {
+        "en": "to climb",
+        "example_de": "Die Kinder klettern auf den Baum.",
+        "example_en": "The children are climbing the tree."
+      }
+    ]
+  },
+  {
+    "lemma": "Klima",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "climate",
+        "example_de": "Das Klima ist hier warm.",
+        "example_en": "The climate here is warm."
+      }
+    ]
+  },
+  {
+    "lemma": "klingeln",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 950,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to ring (bell, phone)",
+        "example_de": "Das Telefon klingelt.",
+        "example_en": "The phone is ringing."
+      }
+    ]
+  },
+  {
+    "lemma": "klopfen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to knock",
+        "example_de": "Jemand klopft an die Tür.",
+        "example_en": "Someone is knocking on the door."
+      }
+    ]
+  },
+  {
+    "lemma": "Kneipe",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Kneipen" },
+    "senses": [
+      {
+        "en": "pub, bar",
+        "example_de": "Wir trinken ein Bier in der Kneipe.",
+        "example_en": "We are having a beer in the pub."
+      }
+    ]
+  },
+  {
+    "lemma": "Koch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1050,
+    "noun": { "gender": "m", "plural": "Köche", "genitive": "Kochs" },
+    "senses": [
+      {
+        "en": "cook, chef",
+        "example_de": "Der Koch arbeitet in der Küche.",
+        "example_en": "The cook works in the kitchen."
+      }
+    ]
+  },
+  {
+    "lemma": "komisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 700,
+    "senses": [
+      {
+        "en": "funny",
+        "example_de": "Der Film war sehr komisch.",
+        "example_en": "The film was very funny."
+      },
+      {
+        "en": "strange, odd",
+        "example_de": "Komisch, die Tür ist offen.",
+        "example_en": "Strange, the door is open."
+      }
+    ]
+  },
+  {
+    "lemma": "Kontakt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 650,
+    "noun": { "gender": "m", "plural": "Kontakte" },
+    "senses": [
+      {
+        "en": "contact",
+        "example_de": "Wir haben noch Kontakt per E-Mail.",
+        "example_en": "We are still in contact by email."
+      }
+    ]
+  },
+  {
+    "lemma": "Konto",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": { "gender": "n", "plural": "Konten" },
+    "senses": [
+      {
+        "en": "bank account",
+        "example_de": "Ich habe ein Konto bei der Bank.",
+        "example_en": "I have an account at the bank."
+      }
+    ]
+  },
+  {
+    "lemma": "kontrollieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 800,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to check, to inspect",
+        "example_de": "Der Mann kontrolliert die Tickets.",
+        "example_en": "The man checks the tickets."
+      }
+    ]
+  },
+  {
+    "lemma": "Kopf",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 250,
+    "noun": { "gender": "m", "plural": "Köpfe", "genitive": "Kopfes" },
+    "senses": [
+      {
+        "en": "head",
+        "example_de": "Mein Kopf tut weh.",
+        "example_en": "My head hurts."
+      }
+    ]
+  },
+  {
+    "lemma": "Kopfschmerzen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      {
+        "en": "headache",
+        "example_de": "Ich habe seit gestern Kopfschmerzen.",
+        "example_en": "I have had a headache since yesterday.",
+        "note": "im Deutschen Plural"
+      }
+    ]
+  },
+  {
+    "lemma": "kopieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1150,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to copy",
+        "example_de": "Kannst du das Formular kopieren?",
+        "example_en": "Can you copy the form?"
+      }
+    ]
+  },
+  {
+    "lemma": "Körper",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 500,
+    "noun": { "gender": "m", "plural": "Körper" },
+    "senses": [
+      {
+        "en": "body",
+        "example_de": "Sport ist gut für den Körper.",
+        "example_en": "Sport is good for the body."
+      }
+    ]
+  },
+  {
+    "lemma": "korrigieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1050,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to correct",
+        "example_de": "Die Lehrerin korrigiert die Fehler.",
+        "example_en": "The teacher corrects the mistakes."
+      }
+    ]
+  },
+  {
+    "lemma": "Kosten",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 550,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      {
+        "en": "costs, expenses",
+        "example_de": "Die Firma bezahlt die Kosten.",
+        "example_en": "The company pays the costs.",
+        "note": "nur Plural"
+      }
+    ]
+  },
+  {
+    "lemma": "kostenlos",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 850,
+    "senses": [
+      {
+        "en": "free of charge",
+        "example_de": "Das Parken ist hier kostenlos.",
+        "example_en": "Parking is free here."
+      }
+    ]
+  },
+  {
+    "lemma": "Krankenkasse",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "f", "plural": "Krankenkassen" },
+    "senses": [
+      {
+        "en": "health insurance (company)",
+        "example_de": "Die Krankenkasse bezahlt das Medikament.",
+        "example_en": "The health insurance pays for the medicine."
+      }
+    ]
+  },
+  {
+    "lemma": "Krankenwagen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": "Krankenwagen" },
+    "senses": [
+      {
+        "en": "ambulance",
+        "example_de": "Der Krankenwagen war nach fünf Minuten da.",
+        "example_en": "The ambulance arrived after five minutes."
+      }
+    ]
+  },
+  {
+    "lemma": "Kreuzung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1150,
+    "noun": { "gender": "f", "plural": "Kreuzungen" },
+    "senses": [
+      {
+        "en": "crossroads, intersection",
+        "example_de": "An der Kreuzung fahren Sie links.",
+        "example_en": "At the intersection you turn left."
+      }
+    ]
+  },
+  {
+    "lemma": "kriegen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 480,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to get, to receive",
+        "example_de": "Ich kriege noch zehn Euro von dir.",
+        "example_en": "You still owe me ten euros.",
+        "note": "umgangssprachlich für bekommen"
+      }
+    ]
+  },
+  {
+    "lemma": "Krimi",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1250,
+    "noun": { "gender": "m", "plural": "Krimis" },
+    "senses": [
+      {
+        "en": "crime story, detective film",
+        "example_de": "Abends sehe ich gern einen Krimi.",
+        "example_en": "In the evening I like watching a crime show."
+      }
+    ]
+  },
+  {
+    "lemma": "kritisieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to criticize",
+        "example_de": "Der Chef kritisiert meine Arbeit.",
+        "example_en": "The boss criticizes my work."
+      }
+    ]
+  },
+  {
+    "lemma": "kühl",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 950,
+    "senses": [
+      {
+        "en": "cool, chilly",
+        "example_de": "Abends wird es kühl.",
+        "example_en": "In the evening it gets cool."
+      }
+    ]
+  },
+  {
+    "lemma": "Kultur",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 600,
+    "noun": { "gender": "f", "plural": "Kulturen" },
+    "senses": [
+      {
+        "en": "culture",
+        "example_de": "Sie interessiert sich für Kunst und Kultur.",
+        "example_en": "She is interested in art and culture."
+      }
+    ]
+  },
+  {
+    "lemma": "Kunde",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 450,
+    "noun": { "gender": "m", "plural": "Kunden", "genitive": "Kunden" },
+    "senses": [
+      {
+        "en": "customer",
+        "example_de": "Der Kunde bezahlt an der Kasse.",
+        "example_en": "The customer pays at the till.",
+        "note": "n-Deklination: den/dem/des Kunden"
+      }
+    ]
+  },
+  {
+    "lemma": "kündigen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1050,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to quit, to cancel (contract, job)",
+        "example_de": "Er hat seinen Job gekündigt.",
+        "example_en": "He quit his job.",
+        "note": "jemandem kündigen (+ Dativ) = to dismiss someone"
+      }
+    ]
+  },
+  {
+    "lemma": "Kunst",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 550,
+    "noun": { "gender": "f", "plural": "Künste" },
+    "senses": [
+      {
+        "en": "art",
+        "example_de": "Wir sehen moderne Kunst im Museum.",
+        "example_en": "We look at modern art in the museum."
+      }
+    ]
+  },
+  {
+    "lemma": "kürzlich",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "recently",
+        "example_de": "Ich habe ihn kürzlich getroffen.",
+        "example_en": "I met him recently."
+      }
+    ]
+  },
+  {
+    "lemma": "küssen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to kiss",
+        "example_de": "Sie küsst das Baby.",
+        "example_en": "She kisses the baby."
+      }
+    ]
+  }
+]

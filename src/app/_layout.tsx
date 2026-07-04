@@ -12,6 +12,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 
 import { initDatabase } from '@/db/client';
+import { useSettings } from '@/store/settings';
 import { palettes } from '@/ui/theme';
 import { useThemeName } from '@/ui/useTheme';
 
@@ -32,6 +33,7 @@ export default function RootLayout() {
 
   useEffect(() => {
     initDatabase()
+      .then(() => useSettings.getState().hydrate())
       .then(() => setDbReady(true))
       .catch((err) => {
         console.error('Database init failed', err);

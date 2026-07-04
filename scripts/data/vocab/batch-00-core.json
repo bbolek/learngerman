@@ -1,0 +1,424 @@
+[
+  {
+    "lemma": "sein",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1,
+    "verb": {
+      "aux": "sein",
+      "praesens": { "ich": "bin", "du": "bist", "er": "ist", "wir": "sind", "ihr": "seid", "sie": "sind" },
+      "praeteritum": "war",
+      "partizip2": "gewesen"
+    },
+    "senses": [
+      { "en": "to be", "example_de": "Ich bin müde.", "example_en": "I am tired." }
+    ]
+  },
+  {
+    "lemma": "haben",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 2,
+    "verb": {
+      "aux": "haben",
+      "du": "hast",
+      "er": "hat",
+      "praeteritum": "hatte",
+      "partizip2": "gehabt"
+    },
+    "senses": [
+      { "en": "to have", "example_de": "Ich habe eine Frage.", "example_en": "I have a question." }
+    ]
+  },
+  {
+    "lemma": "werden",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 3,
+    "verb": {
+      "aux": "sein",
+      "praesens": { "ich": "werde", "du": "wirst", "er": "wird", "wir": "werden", "ihr": "werdet", "sie": "werden" },
+      "praeteritum": "wurde",
+      "partizip2": "geworden"
+    },
+    "senses": [
+      { "en": "to become; will (future)", "example_de": "Es wird kalt.", "example_en": "It is getting cold." }
+    ]
+  },
+  {
+    "lemma": "machen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 8,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to make, to do", "example_de": "Was machst du am Wochenende?", "example_en": "What are you doing on the weekend?" },
+      { "en": "to matter", "note": "colloquial", "example_de": "Das macht nichts!", "example_en": "It doesn't matter!" }
+    ]
+  },
+  {
+    "lemma": "gehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 5,
+    "verb": { "aux": "sein", "praeteritum": "ging", "partizip2": "gegangen" },
+    "senses": [
+      { "en": "to go, to walk", "example_de": "Wir gehen nach Hause.", "example_en": "We are going home." }
+    ]
+  },
+  {
+    "lemma": "kommen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 6,
+    "verb": { "aux": "sein", "praeteritum": "kam", "partizip2": "gekommen" },
+    "senses": [
+      { "en": "to come", "example_de": "Woher kommst du?", "example_en": "Where do you come from?" }
+    ]
+  },
+  {
+    "lemma": "fahren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 12,
+    "verb": { "aux": "sein", "du": "fährst", "er": "fährt", "praeteritum": "fuhr", "partizip2": "gefahren" },
+    "senses": [
+      { "en": "to drive, to ride, to travel", "example_de": "Sie fährt mit dem Bus.", "example_en": "She takes the bus." }
+    ]
+  },
+  {
+    "lemma": "arbeiten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 20,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to work", "example_de": "Er arbeitet in Berlin.", "example_en": "He works in Berlin." }
+    ]
+  },
+  {
+    "lemma": "heißen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 15,
+    "verb": { "aux": "haben", "praeteritum": "hieß", "partizip2": "geheißen" },
+    "senses": [
+      { "en": "to be called", "example_de": "Wie heißt du?", "example_en": "What is your name?" }
+    ]
+  },
+  {
+    "lemma": "sprechen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 14,
+    "verb": { "aux": "haben", "du": "sprichst", "er": "spricht", "praeteritum": "sprach", "partizip2": "gesprochen" },
+    "senses": [
+      { "en": "to speak", "example_de": "Sprechen Sie Deutsch?", "example_en": "Do you speak German?" }
+    ]
+  },
+  {
+    "lemma": "essen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 16,
+    "verb": { "aux": "haben", "du": "isst", "er": "isst", "praeteritum": "aß", "partizip2": "gegessen" },
+    "senses": [
+      { "en": "to eat", "example_de": "Was isst du gern?", "example_en": "What do you like to eat?" }
+    ]
+  },
+  {
+    "lemma": "lesen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 22,
+    "verb": { "aux": "haben", "du": "liest", "er": "liest", "praeteritum": "las", "partizip2": "gelesen" },
+    "senses": [
+      { "en": "to read", "example_de": "Ich lese ein Buch.", "example_en": "I am reading a book." }
+    ]
+  },
+  {
+    "lemma": "wissen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 18,
+    "verb": {
+      "aux": "haben",
+      "praesens": { "ich": "weiß", "du": "weißt", "er": "weiß", "wir": "wissen", "ihr": "wisst", "sie": "wissen" },
+      "praeteritum": "wusste",
+      "partizip2": "gewusst"
+    },
+    "senses": [
+      { "en": "to know (a fact)", "example_de": "Ich weiß es nicht.", "example_en": "I don't know." }
+    ]
+  },
+  {
+    "lemma": "helfen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 25,
+    "verb": { "aux": "haben", "du": "hilfst", "er": "hilft", "praeteritum": "half", "partizip2": "geholfen" },
+    "senses": [
+      { "en": "to help", "note": "+ Dativ", "example_de": "Er hilft der Frau.", "example_en": "He helps the woman." }
+    ]
+  },
+  {
+    "lemma": "wohnen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 21,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to live, to reside", "example_de": "Wo wohnst du?", "example_en": "Where do you live?" }
+    ]
+  },
+  {
+    "lemma": "aufmachen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 60,
+    "verb": { "aux": "haben", "separablePrefix": "auf" },
+    "senses": [
+      { "en": "to open", "note": "separable", "example_de": "Kannst du das Fenster aufmachen?", "example_en": "Can you open the window?" }
+    ]
+  },
+  {
+    "lemma": "Haus",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 30,
+    "noun": { "gender": "n", "plural": "Häuser", "genitive": "Hauses" },
+    "senses": [
+      { "en": "house", "example_de": "Das Haus ist alt.", "example_en": "The house is old." }
+    ]
+  },
+  {
+    "lemma": "Mann",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 31,
+    "noun": { "gender": "m", "plural": "Männer", "genitive": "Mannes" },
+    "senses": [
+      { "en": "man; husband", "example_de": "Der Mann liest die Zeitung.", "example_en": "The man is reading the newspaper." }
+    ]
+  },
+  {
+    "lemma": "Frau",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 32,
+    "noun": { "gender": "f", "plural": "Frauen" },
+    "senses": [
+      { "en": "woman; wife; Mrs.", "example_de": "Die Frau wohnt in Hamburg.", "example_en": "The woman lives in Hamburg." }
+    ]
+  },
+  {
+    "lemma": "Kind",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 33,
+    "noun": { "gender": "n", "plural": "Kinder", "genitive": "Kindes" },
+    "senses": [
+      { "en": "child", "example_de": "Das Kind spielt im Garten.", "example_en": "The child is playing in the garden." }
+    ]
+  },
+  {
+    "lemma": "Schlüssel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 70,
+    "noun": { "gender": "m", "plural": "Schlüssel" },
+    "senses": [
+      { "en": "key", "example_de": "Wo ist mein Schlüssel?", "example_en": "Where is my key?" }
+    ]
+  },
+  {
+    "lemma": "Straße",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 45,
+    "noun": { "gender": "f", "plural": "Straßen" },
+    "senses": [
+      { "en": "street, road", "example_de": "Die Straße ist lang.", "example_en": "The street is long." }
+    ]
+  },
+  {
+    "lemma": "Stadt",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 40,
+    "noun": { "gender": "f", "plural": "Städte" },
+    "senses": [
+      { "en": "city, town", "example_de": "Berlin ist eine große Stadt.", "example_en": "Berlin is a big city." }
+    ]
+  },
+  {
+    "lemma": "Apfel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 80,
+    "noun": { "gender": "m", "plural": "Äpfel" },
+    "senses": [
+      { "en": "apple", "example_de": "Ich esse einen Apfel.", "example_en": "I am eating an apple." }
+    ]
+  },
+  {
+    "lemma": "Buch",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 42,
+    "noun": { "gender": "n", "plural": "Bücher", "genitive": "Buches" },
+    "senses": [
+      { "en": "book", "example_de": "Das Buch ist interessant.", "example_en": "The book is interesting." }
+    ]
+  },
+  {
+    "lemma": "Lehrer",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 50,
+    "noun": { "gender": "m", "plural": "Lehrer" },
+    "senses": [
+      { "en": "teacher (male)", "example_de": "Der Lehrer erklärt die Grammatik.", "example_en": "The teacher explains the grammar." }
+    ]
+  },
+  {
+    "lemma": "Eltern",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 48,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      { "en": "parents", "note": "plural only", "example_de": "Meine Eltern wohnen in Izmir.", "example_en": "My parents live in Izmir." }
+    ]
+  },
+  {
+    "lemma": "Auto",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 44,
+    "noun": { "gender": "n", "plural": "Autos" },
+    "senses": [
+      { "en": "car", "example_de": "Das Auto ist neu.", "example_en": "The car is new." }
+    ]
+  },
+  {
+    "lemma": "gut",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 10,
+    "adj": { "comparative": "besser", "superlative": "best" },
+    "senses": [
+      { "en": "good", "example_de": "Das Essen ist gut.", "example_en": "The food is good." }
+    ]
+  },
+  {
+    "lemma": "groß",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 26,
+    "adj": { "comparative": "größer", "superlative": "größt" },
+    "senses": [
+      { "en": "big, tall", "example_de": "Er hat eine große Familie.", "example_en": "He has a big family." }
+    ]
+  },
+  {
+    "lemma": "klein",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 27,
+    "senses": [
+      { "en": "small, little", "example_de": "Die Wohnung ist klein.", "example_en": "The apartment is small." }
+    ]
+  },
+  {
+    "lemma": "alt",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 28,
+    "adj": { "comparative": "älter", "superlative": "ältest" },
+    "senses": [
+      { "en": "old", "example_de": "Wie alt bist du?", "example_en": "How old are you?" }
+    ]
+  },
+  {
+    "lemma": "neu",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 29,
+    "senses": [
+      { "en": "new", "example_de": "Ich habe ein neues Handy.", "example_en": "I have a new phone." }
+    ]
+  },
+  {
+    "lemma": "teuer",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 55,
+    "senses": [
+      { "en": "expensive", "example_de": "Das Hotel ist zu teuer.", "example_en": "The hotel is too expensive." }
+    ]
+  },
+  {
+    "lemma": "heute",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 35,
+    "senses": [
+      { "en": "today", "example_de": "Heute ist Freitag.", "example_en": "Today is Friday." }
+    ]
+  },
+  {
+    "lemma": "gern",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 36,
+    "senses": [
+      { "en": "gladly, with pleasure", "note": "expresses liking: etwas gern machen", "example_de": "Ich trinke gern Kaffee.", "example_en": "I like drinking coffee." }
+    ]
+  },
+  {
+    "lemma": "mit",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 9,
+    "senses": [
+      { "en": "with", "note": "+ Dativ", "example_de": "Ich fahre mit dem Zug.", "example_en": "I travel by train." }
+    ]
+  },
+  {
+    "lemma": "für",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 11,
+    "senses": [
+      { "en": "for", "note": "+ Akkusativ", "example_de": "Das Geschenk ist für dich.", "example_en": "The present is for you." }
+    ]
+  },
+  {
+    "lemma": "in",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 4,
+    "senses": [
+      { "en": "in, into", "note": "Wechselpräposition: + Dativ (wo?) / + Akkusativ (wohin?)", "example_de": "Wir sind in der Stadt.", "example_en": "We are in the city." }
+    ]
+  },
+  {
+    "lemma": "ich",
+    "pos": "pron",
+    "level": "A1",
+    "freq": 7,
+    "senses": [
+      { "en": "I", "note": "mich (Akk.) · mir (Dat.)", "example_de": "Ich lerne Deutsch.", "example_en": "I am learning German." }
+    ]
+  },
+  {
+    "lemma": "du",
+    "pos": "pron",
+    "level": "A1",
+    "freq": 13,
+    "senses": [
+      { "en": "you (informal)", "note": "dich (Akk.) · dir (Dat.)", "example_de": "Kommst du mit?", "example_en": "Are you coming along?" }
+    ]
+  }
+]

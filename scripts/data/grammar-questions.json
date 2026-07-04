@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "akkusativ",
+    "title": "Akkusativ",
+    "explainer_md": "The **Akkusativ** marks the direct object — the thing the action happens *to*.\n\nAsk: **Wen oder was?** (whom or what?)\n\nOnly the masculine article changes: **der → den**, ein → einen.\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | der | die | das | die |\n| Akkusativ | **den** | die | das | die |\n\n*Ich sehe **den** Mann.* — I see the man.",
+    "questions": [
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich sehe ___ Mann.",
+          "options": ["der", "den", "dem", "des"],
+          "correctIndex": 1,
+          "explanation": "„sehen“ takes a direct object → Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er kauft ___ Apfel. (ein)",
+          "accept": ["einen"],
+          "hint": "kaufen + Akkusativ, der Apfel",
+          "explanation": "„kaufen“ takes the Akkusativ; masculine ein → einen."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["Ich", "einen", "kaufe", "Apfel"],
+          "solutions": [["Ich", "kaufe", "einen", "Apfel"]],
+          "translation": "I am buying an apple.",
+          "explanation": "The verb is in second position; the Akkusativ object follows."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Die Frau liest **das Buch**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It is the direct object of „lesen“",
+            "It is the indirect object (recipient)",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "„lesen“ acts on das Buch → direct object → Akkusativ. (Neuter das stays das.)"
+        }
+      }
+    ]
+  },
+  { "slug": "dativ", "title": "Dativ", "explainer_md": "The **Dativ** marks the indirect object — usually the person something is given to, said to, or done for.\n\nAsk: **Wem?** (to whom?)\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | der | die | das | die |\n| Dativ | **dem** | **der** | **dem** | **den +n** |\n\n*Ich gebe **dem** Kind einen Apfel.* — I give the child an apple.", "questions": [] },
+  { "slug": "akk-preps", "title": "Präpositionen + Akkusativ", "explainer_md": "These prepositions ALWAYS take the Akkusativ:\n\n**durch, für, gegen, ohne, um**\n\nMemory aid: *do-gfou!*\n\n*Das Geschenk ist **für den** Mann.*", "questions": [] },
+  { "slug": "dat-preps", "title": "Präpositionen + Dativ", "explainer_md": "These prepositions ALWAYS take the Dativ:\n\n**aus, bei, mit, nach, seit, von, zu**\n\n*Ich fahre **mit dem** Zug.* — I travel by train.", "questions": [] },
+  { "slug": "two-way-preps", "title": "Wechselpräpositionen", "explainer_md": "Nine prepositions take **Akkusativ or Dativ**:\n\n**an, auf, hinter, in, neben, über, unter, vor, zwischen**\n\n- **Wohin?** (movement to) → Akkusativ: *Ich gehe **in die** Küche.*\n- **Wo?** (location) → Dativ: *Ich bin **in der** Küche.*", "questions": [] },
+  { "slug": "dative-verbs", "title": "Verben mit Dativ", "explainer_md": "Some verbs take their object in the **Dativ**, not the Akkusativ:\n\n**helfen, danken, gefallen, gehören, antworten, glauben, schmecken**\n\n*Er hilft **der** Frau.* — He helps the woman.", "questions": [] },
+  { "slug": "personal-pronouns", "title": "Personalpronomen", "explainer_md": "Pronouns change with case:\n\n| Nom | Akk | Dat |\n|---|---|---|\n| ich | mich | mir |\n| du | dich | dir |\n| er | ihn | ihm |\n| sie | sie | ihr |\n| es | es | ihm |\n| wir | uns | uns |\n| ihr | euch | euch |\n\n*Siehst du **mich**? Hilfst du **mir**?*", "questions": [] },
+  { "slug": "possessive-articles", "title": "Possessivartikel", "explainer_md": "**mein, dein, sein, ihr, unser, euer** take the same endings as *ein*:\n\n- Akkusativ m: mein → **meinen**\n- Dativ m/n: mein → **meinem**\n- Dativ f: mein → **meiner**\n\n*Ich helfe **meinem** Bruder.*", "questions": [] }
+]

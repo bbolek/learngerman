@@ -1,0 +1,1610 @@
+[
+  {
+    "lemma": "Saft",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 620,
+    "noun": { "gender": "m", "plural": "Säfte", "genitive": "Saftes" },
+    "senses": [
+      { "en": "juice", "example_de": "Möchtest du einen Saft?", "example_en": "Would you like a juice?" }
+    ]
+  },
+  {
+    "lemma": "sagen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 17,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to say, to tell", "example_de": "Was sagst du?", "example_en": "What are you saying?" }
+    ]
+  },
+  {
+    "lemma": "Sahne",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 800,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "cream", "example_de": "Kaffee mit Sahne, bitte.", "example_en": "Coffee with cream, please." }
+    ]
+  },
+  {
+    "lemma": "Salat",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 610,
+    "noun": { "gender": "m", "plural": "Salate" },
+    "senses": [
+      { "en": "salad; lettuce", "example_de": "Ich esse einen Salat.", "example_en": "I am eating a salad." }
+    ]
+  },
+  {
+    "lemma": "Salz",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 650,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "salt", "example_de": "Das Salz steht auf dem Tisch.", "example_en": "The salt is on the table." }
+    ]
+  },
+  {
+    "lemma": "Samstag",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 210,
+    "noun": { "gender": "m", "plural": "Samstage" },
+    "senses": [
+      { "en": "Saturday", "note": "norddeutsch auch: Sonnabend", "example_de": "Am Samstag spiele ich Fußball.", "example_en": "On Saturday I play soccer." }
+    ]
+  },
+  {
+    "lemma": "Satz",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 560,
+    "noun": { "gender": "m", "plural": "Sätze", "genitive": "Satzes" },
+    "senses": [
+      { "en": "sentence", "example_de": "Lesen Sie den Satz, bitte.", "example_en": "Read the sentence, please." }
+    ]
+  },
+  {
+    "lemma": "S-Bahn",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 700,
+    "noun": { "gender": "f", "plural": "S-Bahnen" },
+    "senses": [
+      { "en": "suburban train, city railway", "example_de": "Ich fahre mit der S-Bahn.", "example_en": "I take the suburban train." }
+    ]
+  },
+  {
+    "lemma": "schade",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 480,
+    "adj": { "indeclinable": true },
+    "senses": [
+      { "en": "a pity, a shame", "note": "only predicative: Das ist schade!", "example_de": "Das ist aber schade!", "example_en": "What a pity!" }
+    ]
+  },
+  {
+    "lemma": "schicken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 340,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to send", "example_de": "Ich schicke dir eine E-Mail.", "example_en": "I am sending you an email." }
+    ]
+  },
+  {
+    "lemma": "Schild",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 750,
+    "noun": { "gender": "n", "plural": "Schilder", "genitive": "Schildes" },
+    "senses": [
+      { "en": "sign", "example_de": "Was steht auf dem Schild?", "example_en": "What does the sign say?" }
+    ]
+  },
+  {
+    "lemma": "Schinken",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 850,
+    "noun": { "gender": "m", "plural": "Schinken" },
+    "senses": [
+      { "en": "ham", "example_de": "Ein Brot mit Schinken, bitte.", "example_en": "A sandwich with ham, please." }
+    ]
+  },
+  {
+    "lemma": "schlafen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 120,
+    "verb": { "aux": "haben", "du": "schläfst", "er": "schläft", "praeteritum": "schlief", "partizip2": "geschlafen" },
+    "senses": [
+      { "en": "to sleep", "example_de": "Das Kind schläft schon.", "example_en": "The child is already sleeping." }
+    ]
+  },
+  {
+    "lemma": "schlecht",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 95,
+    "senses": [
+      { "en": "bad", "example_de": "Das Wetter ist heute schlecht.", "example_en": "The weather is bad today." }
+    ]
+  },
+  {
+    "lemma": "schließen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 290,
+    "verb": { "aux": "haben", "praeteritum": "schloss", "partizip2": "geschlossen" },
+    "senses": [
+      { "en": "to close, to shut", "example_de": "Wir schließen um acht Uhr.", "example_en": "We close at eight o'clock." }
+    ]
+  },
+  {
+    "lemma": "schmecken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 330,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to taste (good)", "note": "+ Dativ: Es schmeckt mir.", "example_de": "Die Suppe schmeckt gut.", "example_en": "The soup tastes good." }
+    ]
+  },
+  {
+    "lemma": "schnell",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 90,
+    "senses": [
+      { "en": "fast, quick", "example_de": "Der Zug ist sehr schnell.", "example_en": "The train is very fast." }
+    ]
+  },
+  {
+    "lemma": "Schokolade",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 720,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "chocolate", "example_de": "Ich esse gern Schokolade.", "example_en": "I like eating chocolate." }
+    ]
+  },
+  {
+    "lemma": "schon",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 40,
+    "senses": [
+      { "en": "already", "example_de": "Ich bin schon fertig.", "example_en": "I am already done." }
+    ]
+  },
+  {
+    "lemma": "schön",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 47,
+    "senses": [
+      { "en": "beautiful, nice", "example_de": "Das ist ein schönes Haus.", "example_en": "That is a beautiful house." }
+    ]
+  },
+  {
+    "lemma": "schreiben",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 65,
+    "verb": { "aux": "haben", "praeteritum": "schrieb", "partizip2": "geschrieben" },
+    "senses": [
+      { "en": "to write", "example_de": "Ich schreibe einen Brief.", "example_en": "I am writing a letter." }
+    ]
+  },
+  {
+    "lemma": "Schuh",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 430,
+    "noun": { "gender": "m", "plural": "Schuhe" },
+    "senses": [
+      { "en": "shoe", "example_de": "Die Schuhe sind neu.", "example_en": "The shoes are new." }
+    ]
+  },
+  {
+    "lemma": "Schule",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 85,
+    "noun": { "gender": "f", "plural": "Schulen" },
+    "senses": [
+      { "en": "school", "example_de": "Die Kinder gehen in die Schule.", "example_en": "The children go to school." }
+    ]
+  },
+  {
+    "lemma": "Schüler",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 300,
+    "noun": { "gender": "m", "plural": "Schüler" },
+    "senses": [
+      { "en": "pupil, student (male, at school)", "example_de": "Der Schüler lernt Deutsch.", "example_en": "The pupil is learning German." }
+    ]
+  },
+  {
+    "lemma": "Schülerin",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 310,
+    "noun": { "gender": "f", "plural": "Schülerinnen" },
+    "senses": [
+      { "en": "pupil, student (female, at school)", "example_de": "Die Schülerin ist elf Jahre alt.", "example_en": "The pupil is eleven years old." }
+    ]
+  },
+  {
+    "lemma": "schwer",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 160,
+    "senses": [
+      { "en": "heavy", "example_de": "Die Tasche ist sehr schwer.", "example_en": "The bag is very heavy." },
+      { "en": "difficult, hard", "example_de": "Die Aufgabe ist schwer.", "example_en": "The task is difficult." }
+    ]
+  },
+  {
+    "lemma": "Schwester",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 140,
+    "noun": { "gender": "f", "plural": "Schwestern" },
+    "senses": [
+      { "en": "sister", "example_de": "Meine Schwester ist sehr nett.", "example_en": "My sister is very nice." }
+    ]
+  },
+  {
+    "lemma": "Schwimmbad",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 690,
+    "noun": { "gender": "n", "plural": "Schwimmbäder", "genitive": "Schwimmbades" },
+    "senses": [
+      { "en": "swimming pool", "example_de": "Wir gehen ins Schwimmbad.", "example_en": "We are going to the swimming pool." }
+    ]
+  },
+  {
+    "lemma": "schwimmen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 320,
+    "verb": { "aux": "sein", "praeteritum": "schwamm", "partizip2": "geschwommen" },
+    "senses": [
+      { "en": "to swim", "example_de": "Er schwimmt jeden Tag.", "example_en": "He swims every day." }
+    ]
+  },
+  {
+    "lemma": "sechs",
+    "pos": "num",
+    "level": "A1",
+    "freq": 130,
+    "senses": [
+      { "en": "six", "example_de": "Der Kurs beginnt um sechs Uhr.", "example_en": "The course starts at six o'clock." }
+    ]
+  },
+  {
+    "lemma": "sechzig",
+    "pos": "num",
+    "level": "A1",
+    "freq": 520,
+    "senses": [
+      { "en": "sixty", "example_de": "Meine Oma ist sechzig Jahre alt.", "example_en": "My grandma is sixty years old." }
+    ]
+  },
+  {
+    "lemma": "sehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 24,
+    "verb": { "aux": "haben", "du": "siehst", "er": "sieht", "praeteritum": "sah", "partizip2": "gesehen" },
+    "senses": [
+      { "en": "to see", "example_de": "Siehst du das Auto dort?", "example_en": "Do you see the car over there?" }
+    ]
+  },
+  {
+    "lemma": "sehr",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 34,
+    "senses": [
+      { "en": "very", "example_de": "Das Essen ist sehr gut.", "example_en": "The food is very good." }
+    ]
+  },
+  {
+    "lemma": "seit",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 110,
+    "senses": [
+      { "en": "since, for (time)", "note": "+ Dativ", "example_de": "Ich lerne seit einem Jahr Deutsch.", "example_en": "I have been learning German for a year." }
+    ]
+  },
+  {
+    "lemma": "Seite",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 260,
+    "noun": { "gender": "f", "plural": "Seiten" },
+    "senses": [
+      { "en": "page; side", "example_de": "Lesen Sie Seite zehn, bitte.", "example_en": "Read page ten, please." }
+    ]
+  },
+  {
+    "lemma": "September",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 450,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "September", "example_de": "Im September beginnt die Schule.", "example_en": "School starts in September." }
+    ]
+  },
+  {
+    "lemma": "sich",
+    "pos": "pron",
+    "level": "A1",
+    "freq": 20,
+    "senses": [
+      { "en": "oneself, himself, herself, themselves", "note": "Reflexivpronomen (3. Person & Sie)", "example_de": "Das Kind wäscht sich.", "example_en": "The child is washing itself." }
+    ]
+  },
+  {
+    "lemma": "sie",
+    "pos": "pron",
+    "level": "A1",
+    "freq": 8,
+    "senses": [
+      { "en": "she", "note": "sie (Akk.) · ihr (Dat.)", "example_de": "Sie kommt aus Italien.", "example_en": "She comes from Italy." },
+      { "en": "they", "note": "sie (Akk.) · ihnen (Dat.)", "example_de": "Sie spielen Fußball.", "example_en": "They are playing soccer." },
+      { "en": "you (formal: Sie)", "note": "Sie (Akk.) · Ihnen (Dat.), immer großgeschrieben", "example_de": "Kommen Sie bitte mit!", "example_en": "Please come along!" }
+    ]
+  },
+  {
+    "lemma": "sieben",
+    "pos": "num",
+    "level": "A1",
+    "freq": 135,
+    "senses": [
+      { "en": "seven", "example_de": "Ich stehe um sieben Uhr auf.", "example_en": "I get up at seven o'clock." }
+    ]
+  },
+  {
+    "lemma": "siebzig",
+    "pos": "num",
+    "level": "A1",
+    "freq": 530,
+    "senses": [
+      { "en": "seventy", "example_de": "Mein Opa ist siebzig Jahre alt.", "example_en": "My grandpa is seventy years old." }
+    ]
+  },
+  {
+    "lemma": "so",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 23,
+    "senses": [
+      { "en": "so, like this", "example_de": "Das Wetter ist heute so schön!", "example_en": "The weather is so nice today!" }
+    ]
+  },
+  {
+    "lemma": "Sofa",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 760,
+    "noun": { "gender": "n", "plural": "Sofas" },
+    "senses": [
+      { "en": "sofa, couch", "example_de": "Die Katze schläft auf dem Sofa.", "example_en": "The cat is sleeping on the sofa." }
+    ]
+  },
+  {
+    "lemma": "sofort",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 250,
+    "senses": [
+      { "en": "immediately, right away", "example_de": "Ich komme sofort!", "example_en": "I am coming right away!" }
+    ]
+  },
+  {
+    "lemma": "Sohn",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 145,
+    "noun": { "gender": "m", "plural": "Söhne", "genitive": "Sohnes" },
+    "senses": [
+      { "en": "son", "example_de": "Mein Sohn ist fünf Jahre alt.", "example_en": "My son is five years old." }
+    ]
+  },
+  {
+    "lemma": "sollen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 38,
+    "verb": {
+      "aux": "haben",
+      "praesens": { "ich": "soll", "du": "sollst", "er": "soll", "wir": "sollen", "ihr": "sollt", "sie": "sollen" },
+      "praeteritum": "sollte",
+      "partizip2": "gesollt"
+    },
+    "senses": [
+      { "en": "to be supposed to, should", "note": "Modalverb", "example_de": "Soll ich das Fenster aufmachen?", "example_en": "Should I open the window?" }
+    ]
+  },
+  {
+    "lemma": "Sommer",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 230,
+    "noun": { "gender": "m", "plural": "Sommer" },
+    "senses": [
+      { "en": "summer", "example_de": "Im Sommer fahren wir nach Italien.", "example_en": "In summer we travel to Italy." }
+    ]
+  },
+  {
+    "lemma": "Sonne",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 240,
+    "noun": { "gender": "f", "plural": "Sonnen" },
+    "senses": [
+      { "en": "sun", "example_de": "Die Sonne scheint.", "example_en": "The sun is shining." }
+    ]
+  },
+  {
+    "lemma": "Sonntag",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 205,
+    "noun": { "gender": "m", "plural": "Sonntage" },
+    "senses": [
+      { "en": "Sunday", "example_de": "Am Sonntag arbeite ich nicht.", "example_en": "On Sunday I don't work." }
+    ]
+  },
+  {
+    "lemma": "sonst",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 350,
+    "senses": [
+      { "en": "otherwise; else", "example_de": "Sonst noch etwas?", "example_en": "Anything else?" }
+    ]
+  },
+  {
+    "lemma": "Spaß",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 270,
+    "noun": { "gender": "m", "plural": "Späße" },
+    "senses": [
+      { "en": "fun", "note": "Spaß machen: to be fun", "example_de": "Das Spiel macht Spaß.", "example_en": "The game is fun." }
+    ]
+  },
+  {
+    "lemma": "spät",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 100,
+    "senses": [
+      { "en": "late", "example_de": "Wie spät ist es?", "example_en": "What time is it?" }
+    ]
+  },
+  {
+    "lemma": "Speisekarte",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 820,
+    "noun": { "gender": "f", "plural": "Speisekarten" },
+    "senses": [
+      { "en": "menu", "example_de": "Die Speisekarte, bitte!", "example_en": "The menu, please!" }
+    ]
+  },
+  {
+    "lemma": "Spiel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 280,
+    "noun": { "gender": "n", "plural": "Spiele", "genitive": "Spieles" },
+    "senses": [
+      { "en": "game", "example_de": "Das Spiel beginnt um drei Uhr.", "example_en": "The game starts at three o'clock." }
+    ]
+  },
+  {
+    "lemma": "spielen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 55,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to play", "example_de": "Die Kinder spielen im Garten.", "example_en": "The children are playing in the garden." }
+    ]
+  },
+  {
+    "lemma": "Sport",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 220,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "sport, sports", "note": "Sport machen: to do sports", "example_de": "Machst du gern Sport?", "example_en": "Do you like doing sports?" }
+    ]
+  },
+  {
+    "lemma": "Sprache",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 190,
+    "noun": { "gender": "f", "plural": "Sprachen" },
+    "senses": [
+      { "en": "language", "example_de": "Deutsch ist eine schöne Sprache.", "example_en": "German is a beautiful language." }
+    ]
+  },
+  {
+    "lemma": "stehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 60,
+    "verb": { "aux": "haben", "praeteritum": "stand", "partizip2": "gestanden" },
+    "senses": [
+      { "en": "to stand", "example_de": "Der Stuhl steht am Fenster.", "example_en": "The chair stands by the window." },
+      { "en": "to say, to be written", "example_de": "Das steht in der Zeitung.", "example_en": "It says so in the newspaper." }
+    ]
+  },
+  {
+    "lemma": "Stock",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 640,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "floor, storey", "note": "im ersten Stock: on the first floor", "example_de": "Wir wohnen im dritten Stock.", "example_en": "We live on the third floor." }
+    ]
+  },
+  {
+    "lemma": "Straßenbahn",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 710,
+    "noun": { "gender": "f", "plural": "Straßenbahnen" },
+    "senses": [
+      { "en": "tram, streetcar", "example_de": "Die Straßenbahn kommt gleich.", "example_en": "The tram is coming soon." }
+    ]
+  },
+  {
+    "lemma": "Student",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 235,
+    "noun": { "gender": "m", "plural": "Studenten", "genitive": "Studenten" },
+    "senses": [
+      { "en": "student (male, at university)", "note": "n-Deklination: den/dem Studenten", "example_de": "Der Student wohnt in München.", "example_en": "The student lives in Munich." }
+    ]
+  },
+  {
+    "lemma": "Studentin",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 245,
+    "noun": { "gender": "f", "plural": "Studentinnen" },
+    "senses": [
+      { "en": "student (female, at university)", "example_de": "Die Studentin lernt für die Prüfung.", "example_en": "The student is studying for the exam." }
+    ]
+  },
+  {
+    "lemma": "studieren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 255,
+    "verb": { "aux": "haben", "partizip2": "studiert" },
+    "senses": [
+      { "en": "to study (at university)", "example_de": "Sie studiert in Berlin.", "example_en": "She studies in Berlin." }
+    ]
+  },
+  {
+    "lemma": "Stück",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 390,
+    "noun": { "gender": "n", "plural": "Stücke", "genitive": "Stückes" },
+    "senses": [
+      { "en": "piece", "example_de": "Ein Stück Kuchen, bitte.", "example_en": "A piece of cake, please." }
+    ]
+  },
+  {
+    "lemma": "Stuhl",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 420,
+    "noun": { "gender": "m", "plural": "Stühle", "genitive": "Stuhles" },
+    "senses": [
+      { "en": "chair", "example_de": "Der Stuhl ist frei.", "example_en": "The chair is free." }
+    ]
+  },
+  {
+    "lemma": "Stunde",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 105,
+    "noun": { "gender": "f", "plural": "Stunden" },
+    "senses": [
+      { "en": "hour; lesson", "example_de": "Der Film dauert zwei Stunden.", "example_en": "The film lasts two hours." }
+    ]
+  },
+  {
+    "lemma": "suchen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 115,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to look for, to search", "example_de": "Ich suche meine Brille.", "example_en": "I am looking for my glasses." }
+    ]
+  },
+  {
+    "lemma": "Supermarkt",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 410,
+    "noun": { "gender": "m", "plural": "Supermärkte" },
+    "senses": [
+      { "en": "supermarket", "example_de": "Ich gehe in den Supermarkt.", "example_en": "I am going to the supermarket." }
+    ]
+  },
+  {
+    "lemma": "Suppe",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 630,
+    "noun": { "gender": "f", "plural": "Suppen" },
+    "senses": [
+      { "en": "soup", "example_de": "Die Suppe ist heiß.", "example_en": "The soup is hot." }
+    ]
+  },
+  {
+    "lemma": "Tag",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 37,
+    "noun": { "gender": "m", "plural": "Tage", "genitive": "Tages" },
+    "senses": [
+      { "en": "day", "example_de": "Guten Tag, Frau Müller!", "example_en": "Good day, Mrs. Müller!" }
+    ]
+  },
+  {
+    "lemma": "tanzen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 400,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to dance", "example_de": "Wir tanzen gern.", "example_en": "We like to dance." }
+    ]
+  },
+  {
+    "lemma": "Tasche",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 360,
+    "noun": { "gender": "f", "plural": "Taschen" },
+    "senses": [
+      { "en": "bag; pocket", "example_de": "Die Tasche ist schwer.", "example_en": "The bag is heavy." }
+    ]
+  },
+  {
+    "lemma": "Tasse",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 540,
+    "noun": { "gender": "f", "plural": "Tassen" },
+    "senses": [
+      { "en": "cup", "example_de": "Eine Tasse Kaffee, bitte.", "example_en": "A cup of coffee, please." }
+    ]
+  },
+  {
+    "lemma": "tausend",
+    "pos": "num",
+    "level": "A1",
+    "freq": 470,
+    "senses": [
+      { "en": "thousand", "example_de": "Das Auto kostet tausend Euro.", "example_en": "The car costs a thousand euros." }
+    ]
+  },
+  {
+    "lemma": "Taxi",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 550,
+    "noun": { "gender": "n", "plural": "Taxis" },
+    "senses": [
+      { "en": "taxi, cab", "example_de": "Wir nehmen ein Taxi.", "example_en": "We are taking a taxi." }
+    ]
+  },
+  {
+    "lemma": "Tee",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 370,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "tea", "example_de": "Trinkst du Tee mit Zucker?", "example_en": "Do you drink tea with sugar?" }
+    ]
+  },
+  {
+    "lemma": "Telefon",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 200,
+    "noun": { "gender": "n", "plural": "Telefone" },
+    "senses": [
+      { "en": "telephone", "example_de": "Wo ist das Telefon?", "example_en": "Where is the telephone?" }
+    ]
+  },
+  {
+    "lemma": "telefonieren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 305,
+    "verb": { "aux": "haben", "partizip2": "telefoniert" },
+    "senses": [
+      { "en": "to phone, to talk on the phone", "note": "telefonieren mit + Dativ", "example_de": "Ich telefoniere mit meiner Mutter.", "example_en": "I am talking to my mother on the phone." }
+    ]
+  },
+  {
+    "lemma": "Termin",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 265,
+    "noun": { "gender": "m", "plural": "Termine" },
+    "senses": [
+      { "en": "appointment", "example_de": "Ich habe morgen einen Termin.", "example_en": "I have an appointment tomorrow." }
+    ]
+  },
+  {
+    "lemma": "Text",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 380,
+    "noun": { "gender": "m", "plural": "Texte", "genitive": "Textes" },
+    "senses": [
+      { "en": "text", "example_de": "Lesen Sie den Text, bitte.", "example_en": "Read the text, please." }
+    ]
+  },
+  {
+    "lemma": "Theater",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 500,
+    "noun": { "gender": "n", "plural": "Theater" },
+    "senses": [
+      { "en": "theater", "example_de": "Wir gehen heute ins Theater.", "example_en": "We are going to the theater today." }
+    ]
+  },
+  {
+    "lemma": "Ticket",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 510,
+    "noun": { "gender": "n", "plural": "Tickets" },
+    "senses": [
+      { "en": "ticket", "example_de": "Das Ticket kostet zehn Euro.", "example_en": "The ticket costs ten euros." }
+    ]
+  },
+  {
+    "lemma": "Tisch",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 170,
+    "noun": { "gender": "m", "plural": "Tische", "genitive": "Tisches" },
+    "senses": [
+      { "en": "table", "example_de": "Das Essen steht auf dem Tisch.", "example_en": "The food is on the table." }
+    ]
+  },
+  {
+    "lemma": "Tochter",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 150,
+    "noun": { "gender": "f", "plural": "Töchter" },
+    "senses": [
+      { "en": "daughter", "example_de": "Meine Tochter geht in die Schule.", "example_en": "My daughter goes to school." }
+    ]
+  },
+  {
+    "lemma": "Toilette",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 490,
+    "noun": { "gender": "f", "plural": "Toiletten" },
+    "senses": [
+      { "en": "toilet, restroom", "example_de": "Wo ist die Toilette, bitte?", "example_en": "Where is the restroom, please?" }
+    ]
+  },
+  {
+    "lemma": "toll",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 285,
+    "senses": [
+      { "en": "great, fantastic", "example_de": "Der Film war toll!", "example_en": "The film was great!" }
+    ]
+  },
+  {
+    "lemma": "Tomate",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 730,
+    "noun": { "gender": "f", "plural": "Tomaten" },
+    "senses": [
+      { "en": "tomato", "example_de": "Ich kaufe ein Kilo Tomaten.", "example_en": "I am buying a kilo of tomatoes." }
+    ]
+  },
+  {
+    "lemma": "trinken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 70,
+    "verb": { "aux": "haben", "praeteritum": "trank", "partizip2": "getrunken" },
+    "senses": [
+      { "en": "to drink", "example_de": "Was möchtest du trinken?", "example_en": "What would you like to drink?" }
+    ]
+  },
+  {
+    "lemma": "tschüs",
+    "pos": "other",
+    "level": "A1",
+    "freq": 180,
+    "senses": [
+      { "en": "bye (informal)", "note": "auch: tschüss", "example_de": "Tschüs, bis morgen!", "example_en": "Bye, see you tomorrow!" }
+    ]
+  },
+  {
+    "lemma": "tun",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 75,
+    "verb": {
+      "aux": "haben",
+      "praesens": { "ich": "tue", "du": "tust", "er": "tut", "wir": "tun", "ihr": "tut", "sie": "tun" },
+      "praeteritum": "tat",
+      "partizip2": "getan"
+    },
+    "senses": [
+      { "en": "to do", "example_de": "Was kann ich für Sie tun?", "example_en": "What can I do for you?" }
+    ]
+  },
+  {
+    "lemma": "Tür",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 165,
+    "noun": { "gender": "f", "plural": "Türen" },
+    "senses": [
+      { "en": "door", "example_de": "Die Tür ist offen.", "example_en": "The door is open." }
+    ]
+  },
+  {
+    "lemma": "U-Bahn",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 580,
+    "noun": { "gender": "f", "plural": "U-Bahnen" },
+    "senses": [
+      { "en": "subway, underground", "example_de": "Ich fahre mit der U-Bahn zur Arbeit.", "example_en": "I take the subway to work." }
+    ]
+  },
+  {
+    "lemma": "Uhr",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 80,
+    "noun": { "gender": "f", "plural": "Uhren" },
+    "senses": [
+      { "en": "o'clock (time)", "example_de": "Es ist acht Uhr.", "example_en": "It is eight o'clock." },
+      { "en": "clock, watch", "example_de": "Die Uhr ist kaputt.", "example_en": "The clock is broken." }
+    ]
+  },
+  {
+    "lemma": "um",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 50,
+    "senses": [
+      { "en": "at (time); around", "note": "+ Akkusativ; Uhrzeit: um 8 Uhr", "example_de": "Der Kurs beginnt um neun Uhr.", "example_en": "The course starts at nine o'clock." }
+    ]
+  },
+  {
+    "lemma": "und",
+    "pos": "conj",
+    "level": "A1",
+    "freq": 6,
+    "senses": [
+      { "en": "and", "example_de": "Ich nehme Kaffee und Kuchen.", "example_en": "I'll have coffee and cake." }
+    ]
+  },
+  {
+    "lemma": "unterschreiben",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 570,
+    "verb": { "aux": "haben", "praeteritum": "unterschrieb", "partizip2": "unterschrieben" },
+    "senses": [
+      { "en": "to sign", "note": "untrennbar, kein ge-", "example_de": "Unterschreiben Sie hier, bitte.", "example_en": "Sign here, please." }
+    ]
+  },
+  {
+    "lemma": "Unterschrift",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 590,
+    "noun": { "gender": "f", "plural": "Unterschriften" },
+    "senses": [
+      { "en": "signature", "example_de": "Ihre Unterschrift, bitte.", "example_en": "Your signature, please." }
+    ]
+  },
+  {
+    "lemma": "Urlaub",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 225,
+    "noun": { "gender": "m", "plural": "Urlaube", "genitive": "Urlaubs" },
+    "senses": [
+      { "en": "vacation, holiday", "note": "Urlaub machen: to go on vacation", "example_de": "Im August habe ich Urlaub.", "example_en": "In August I am on vacation." }
+    ]
+  },
+  {
+    "lemma": "Vater",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 125,
+    "noun": { "gender": "m", "plural": "Väter" },
+    "senses": [
+      { "en": "father", "example_de": "Mein Vater arbeitet in Bonn.", "example_en": "My father works in Bonn." }
+    ]
+  },
+  {
+    "lemma": "verboten",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 440,
+    "senses": [
+      { "en": "forbidden, prohibited", "example_de": "Rauchen ist hier verboten.", "example_en": "Smoking is prohibited here." }
+    ]
+  },
+  {
+    "lemma": "verheiratet",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 295,
+    "senses": [
+      { "en": "married", "example_de": "Sind Sie verheiratet?", "example_en": "Are you married?" }
+    ]
+  },
+  {
+    "lemma": "verkaufen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 275,
+    "verb": { "aux": "haben", "partizip2": "verkauft" },
+    "senses": [
+      { "en": "to sell", "example_de": "Er verkauft sein Auto.", "example_en": "He is selling his car." }
+    ]
+  },
+  {
+    "lemma": "Verkäufer",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 460,
+    "noun": { "gender": "m", "plural": "Verkäufer" },
+    "senses": [
+      { "en": "salesman, shop assistant (male)", "example_de": "Der Verkäufer ist sehr nett.", "example_en": "The salesman is very nice." }
+    ]
+  },
+  {
+    "lemma": "Verkäuferin",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 465,
+    "noun": { "gender": "f", "plural": "Verkäuferinnen" },
+    "senses": [
+      { "en": "saleswoman, shop assistant (female)", "example_de": "Die Verkäuferin hilft mir.", "example_en": "The saleswoman is helping me." }
+    ]
+  },
+  {
+    "lemma": "vermieten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 600,
+    "verb": { "aux": "haben", "partizip2": "vermietet" },
+    "senses": [
+      { "en": "to rent out", "example_de": "Wir vermieten ein Zimmer.", "example_en": "We are renting out a room." }
+    ]
+  },
+  {
+    "lemma": "verstehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 62,
+    "verb": { "aux": "haben", "praeteritum": "verstand", "partizip2": "verstanden" },
+    "senses": [
+      { "en": "to understand", "example_de": "Ich verstehe die Frage nicht.", "example_en": "I don't understand the question." }
+    ]
+  },
+  {
+    "lemma": "viel",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 30,
+    "senses": [
+      { "en": "much, a lot", "note": "Steigerung: mehr · am meisten", "example_de": "Ich habe heute viel Arbeit.", "example_en": "I have a lot of work today." }
+    ]
+  },
+  {
+    "lemma": "vielleicht",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 98,
+    "senses": [
+      { "en": "maybe, perhaps", "example_de": "Vielleicht komme ich morgen.", "example_en": "Maybe I'll come tomorrow." }
+    ]
+  },
+  {
+    "lemma": "von",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 15,
+    "senses": [
+      { "en": "from, of", "note": "+ Dativ", "example_de": "Das Geschenk ist von meiner Oma.", "example_en": "The present is from my grandma." }
+    ]
+  },
+  {
+    "lemma": "vor",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 45,
+    "senses": [
+      { "en": "in front of; before", "note": "Wechselpräposition: + Dativ (wo?) / + Akkusativ (wohin?); Zeit: Viertel vor acht", "example_de": "Das Auto steht vor dem Haus.", "example_en": "The car is in front of the house." }
+    ]
+  },
+  {
+    "lemma": "Vormittag",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 385,
+    "noun": { "gender": "m", "plural": "Vormittage" },
+    "senses": [
+      { "en": "morning, forenoon", "example_de": "Am Vormittag lerne ich Deutsch.", "example_en": "In the morning I study German." }
+    ]
+  },
+  {
+    "lemma": "Vorname",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 355,
+    "noun": { "gender": "m", "plural": "Vornamen", "genitive": "Vornamens" },
+    "senses": [
+      { "en": "first name", "example_de": "Mein Vorname ist Anna.", "example_en": "My first name is Anna." }
+    ]
+  },
+  {
+    "lemma": "Vorsicht",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 660,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "caution, careful!", "example_de": "Vorsicht, das ist heiß!", "example_en": "Careful, that is hot!" }
+    ]
+  },
+  {
+    "lemma": "wann",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 88,
+    "senses": [
+      { "en": "when", "example_de": "Wann beginnt der Film?", "example_en": "When does the film start?" }
+    ]
+  },
+  {
+    "lemma": "warm",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 215,
+    "adj": { "comparative": "wärmer", "superlative": "wärmst" },
+    "senses": [
+      { "en": "warm", "example_de": "Das Essen ist noch warm.", "example_en": "The food is still warm." }
+    ]
+  },
+  {
+    "lemma": "warten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 108,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to wait", "note": "warten auf + Akkusativ", "example_de": "Wir warten auf den Bus.", "example_en": "We are waiting for the bus." }
+    ]
+  },
+  {
+    "lemma": "warum",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 92,
+    "senses": [
+      { "en": "why", "example_de": "Warum lernst du Deutsch?", "example_en": "Why are you learning German?" }
+    ]
+  },
+  {
+    "lemma": "was",
+    "pos": "pron",
+    "level": "A1",
+    "freq": 26,
+    "senses": [
+      { "en": "what", "example_de": "Was ist das?", "example_en": "What is that?" }
+    ]
+  },
+  {
+    "lemma": "waschen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 345,
+    "verb": { "aux": "haben", "du": "wäschst", "er": "wäscht", "praeteritum": "wusch", "partizip2": "gewaschen" },
+    "senses": [
+      { "en": "to wash", "example_de": "Er wäscht das Auto.", "example_en": "He is washing the car." }
+    ]
+  },
+  {
+    "lemma": "Wasser",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 96,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "water", "example_de": "Ein Glas Wasser, bitte.", "example_en": "A glass of water, please." }
+    ]
+  },
+  {
+    "lemma": "Wein",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 375,
+    "noun": { "gender": "m", "plural": "Weine" },
+    "senses": [
+      { "en": "wine", "example_de": "Möchten Sie Wein oder Bier?", "example_en": "Would you like wine or beer?" }
+    ]
+  },
+  {
+    "lemma": "weit",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 315,
+    "senses": [
+      { "en": "far", "example_de": "Wie weit ist es bis zum Bahnhof?", "example_en": "How far is it to the train station?" }
+    ]
+  },
+  {
+    "lemma": "welcher",
+    "pos": "pron",
+    "level": "A1",
+    "freq": 102,
+    "senses": [
+      { "en": "which", "note": "welcher (m) · welche (f/Pl.) · welches (n)", "example_de": "Welcher Bus fährt zum Bahnhof?", "example_en": "Which bus goes to the train station?" }
+    ]
+  },
+  {
+    "lemma": "wenig",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 195,
+    "senses": [
+      { "en": "little, few", "note": "ein wenig: a little", "example_de": "Ich habe wenig Zeit.", "example_en": "I have little time." }
+    ]
+  },
+  {
+    "lemma": "wer",
+    "pos": "pron",
+    "level": "A1",
+    "freq": 58,
+    "senses": [
+      { "en": "who", "note": "wen (Akk.) · wem (Dat.)", "example_de": "Wer ist das?", "example_en": "Who is that?" }
+    ]
+  },
+  {
+    "lemma": "Wetter",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 175,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "weather", "example_de": "Das Wetter ist heute schön.", "example_en": "The weather is nice today." }
+    ]
+  },
+  {
+    "lemma": "wichtig",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 155,
+    "senses": [
+      { "en": "important", "example_de": "Der Termin ist sehr wichtig.", "example_en": "The appointment is very important." }
+    ]
+  },
+  {
+    "lemma": "wie",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 19,
+    "senses": [
+      { "en": "how", "example_de": "Wie geht es dir?", "example_en": "How are you?" },
+      { "en": "like, as", "example_de": "Er ist groß wie sein Vater.", "example_en": "He is tall like his father." }
+    ]
+  },
+  {
+    "lemma": "wieder",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 52,
+    "senses": [
+      { "en": "again", "example_de": "Er ist wieder gesund.", "example_en": "He is healthy again." }
+    ]
+  },
+  {
+    "lemma": "wiederholen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 425,
+    "verb": { "aux": "haben", "partizip2": "wiederholt" },
+    "senses": [
+      { "en": "to repeat", "note": "untrennbar, kein ge-", "example_de": "Können Sie das bitte wiederholen?", "example_en": "Can you please repeat that?" }
+    ]
+  },
+  {
+    "lemma": "wie viel",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 85,
+    "senses": [
+      { "en": "how much, how many", "example_de": "Wie viel kostet das?", "example_en": "How much does that cost?" }
+    ]
+  },
+  {
+    "lemma": "willkommen",
+    "pos": "other",
+    "level": "A1",
+    "freq": 435,
+    "senses": [
+      { "en": "welcome", "example_de": "Herzlich willkommen in Berlin!", "example_en": "Welcome to Berlin!" }
+    ]
+  },
+  {
+    "lemma": "Winter",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 232,
+    "noun": { "gender": "m", "plural": "Winter" },
+    "senses": [
+      { "en": "winter", "example_de": "Im Winter ist es kalt.", "example_en": "In winter it is cold." }
+    ]
+  },
+  {
+    "lemma": "wir",
+    "pos": "pron",
+    "level": "A1",
+    "freq": 16,
+    "senses": [
+      { "en": "we", "note": "uns (Akk. und Dat.)", "example_de": "Wir lernen zusammen Deutsch.", "example_en": "We are learning German together." }
+    ]
+  },
+  {
+    "lemma": "wo",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 43,
+    "senses": [
+      { "en": "where", "example_de": "Wo wohnst du?", "example_en": "Where do you live?" }
+    ]
+  },
+  {
+    "lemma": "Woche",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 78,
+    "noun": { "gender": "f", "plural": "Wochen" },
+    "senses": [
+      { "en": "week", "example_de": "Nächste Woche habe ich Urlaub.", "example_en": "Next week I am on vacation." }
+    ]
+  },
+  {
+    "lemma": "Wochenende",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 185,
+    "noun": { "gender": "n", "plural": "Wochenenden" },
+    "senses": [
+      { "en": "weekend", "example_de": "Am Wochenende schlafe ich lange.", "example_en": "On the weekend I sleep in." }
+    ]
+  },
+  {
+    "lemma": "woher",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 148,
+    "senses": [
+      { "en": "where from", "example_de": "Woher kommst du?", "example_en": "Where do you come from?" }
+    ]
+  },
+  {
+    "lemma": "wohin",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 152,
+    "senses": [
+      { "en": "where to", "example_de": "Wohin fährst du im Urlaub?", "example_en": "Where are you going on vacation?" }
+    ]
+  },
+  {
+    "lemma": "Wohnung",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 118,
+    "noun": { "gender": "f", "plural": "Wohnungen" },
+    "senses": [
+      { "en": "apartment, flat", "example_de": "Die Wohnung hat drei Zimmer.", "example_en": "The apartment has three rooms." }
+    ]
+  },
+  {
+    "lemma": "wollen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 22,
+    "verb": {
+      "aux": "haben",
+      "praesens": { "ich": "will", "du": "willst", "er": "will", "wir": "wollen", "ihr": "wollt", "sie": "wollen" },
+      "praeteritum": "wollte",
+      "partizip2": "gewollt"
+    },
+    "senses": [
+      { "en": "to want", "note": "Modalverb", "example_de": "Wir wollen nach Hause gehen.", "example_en": "We want to go home." }
+    ]
+  },
+  {
+    "lemma": "Wort",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 112,
+    "noun": { "gender": "n", "plural": "Wörter", "genitive": "Wortes" },
+    "senses": [
+      { "en": "word", "example_de": "Was bedeutet dieses Wort?", "example_en": "What does this word mean?" }
+    ]
+  },
+  {
+    "lemma": "wünschen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 395,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to wish, to want", "example_de": "Was wünschen Sie?", "example_en": "What would you like?" }
+    ]
+  },
+  {
+    "lemma": "Wurst",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 670,
+    "noun": { "gender": "f", "plural": "Würste" },
+    "senses": [
+      { "en": "sausage", "example_de": "Ich esse ein Brot mit Wurst.", "example_en": "I am eating bread with sausage." }
+    ]
+  },
+  {
+    "lemma": "Zahl",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 365,
+    "noun": { "gender": "f", "plural": "Zahlen" },
+    "senses": [
+      { "en": "number", "example_de": "Schreiben Sie die Zahlen, bitte.", "example_en": "Write the numbers, please." }
+    ]
+  },
+  {
+    "lemma": "zahlen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 245,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to pay", "example_de": "Ich möchte zahlen, bitte.", "example_en": "I would like to pay, please." }
+    ]
+  },
+  {
+    "lemma": "zehn",
+    "pos": "num",
+    "level": "A1",
+    "freq": 128,
+    "senses": [
+      { "en": "ten", "example_de": "Der Bus kommt in zehn Minuten.", "example_en": "The bus is coming in ten minutes." }
+    ]
+  },
+  {
+    "lemma": "zeigen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 235,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to show", "note": "+ Dativ (Person) + Akkusativ (Sache)", "example_de": "Können Sie mir den Weg zeigen?", "example_en": "Can you show me the way?" }
+    ]
+  },
+  {
+    "lemma": "Zeit",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 39,
+    "noun": { "gender": "f", "plural": "Zeiten" },
+    "senses": [
+      { "en": "time", "example_de": "Hast du morgen Zeit?", "example_en": "Do you have time tomorrow?" }
+    ]
+  },
+  {
+    "lemma": "Zeitung",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 198,
+    "noun": { "gender": "f", "plural": "Zeitungen" },
+    "senses": [
+      { "en": "newspaper", "example_de": "Mein Vater liest die Zeitung.", "example_en": "My father is reading the newspaper." }
+    ]
+  },
+  {
+    "lemma": "Zentrum",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 480,
+    "noun": { "gender": "n", "plural": "Zentren" },
+    "senses": [
+      { "en": "center (of town)", "example_de": "Das Hotel liegt im Zentrum.", "example_en": "The hotel is located in the center." }
+    ]
+  },
+  {
+    "lemma": "Zigarette",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 780,
+    "noun": { "gender": "f", "plural": "Zigaretten" },
+    "senses": [
+      { "en": "cigarette", "example_de": "Zigaretten sind nicht gesund.", "example_en": "Cigarettes are not healthy." }
+    ]
+  },
+  {
+    "lemma": "Zimmer",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 132,
+    "noun": { "gender": "n", "plural": "Zimmer" },
+    "senses": [
+      { "en": "room", "example_de": "Das Zimmer ist groß und schön.", "example_en": "The room is big and beautiful." }
+    ]
+  },
+  {
+    "lemma": "zu",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 14,
+    "senses": [
+      { "en": "to (a person/place)", "note": "+ Dativ; zu dem = zum, zu der = zur", "example_de": "Ich gehe zum Arzt.", "example_en": "I am going to the doctor." }
+    ]
+  },
+  {
+    "lemma": "zu",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 68,
+    "senses": [
+      { "en": "too (excessively)", "example_de": "Die Jacke ist zu teuer.", "example_en": "The jacket is too expensive." },
+      { "en": "closed", "note": "umgangssprachlich: Die Tür ist zu.", "example_de": "Der Supermarkt ist heute zu.", "example_en": "The supermarket is closed today." }
+    ]
+  },
+  {
+    "lemma": "Zucker",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 560,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "sugar", "example_de": "Ich trinke Kaffee ohne Zucker.", "example_en": "I drink coffee without sugar." }
+    ]
+  },
+  {
+    "lemma": "zufrieden",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 325,
+    "senses": [
+      { "en": "satisfied, content", "example_de": "Ich bin sehr zufrieden.", "example_en": "I am very satisfied." }
+    ]
+  },
+  {
+    "lemma": "Zug",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 142,
+    "noun": { "gender": "m", "plural": "Züge", "genitive": "Zuges" },
+    "senses": [
+      { "en": "train", "example_de": "Der Zug fährt um zwei Uhr ab.", "example_en": "The train departs at two o'clock." }
+    ]
+  },
+  {
+    "lemma": "zumachen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 335,
+    "verb": { "aux": "haben", "separablePrefix": "zu" },
+    "senses": [
+      { "en": "to close, to shut", "note": "separable", "example_de": "Mach bitte die Tür zu!", "example_en": "Please close the door!" }
+    ]
+  },
+  {
+    "lemma": "zurück",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 158,
+    "senses": [
+      { "en": "back", "note": "hin und zurück: round trip", "example_de": "Wann kommst du zurück?", "example_en": "When are you coming back?" }
+    ]
+  },
+  {
+    "lemma": "zusammen",
+    "pos": "adv",
+    "level": "A1",
+    "freq": 138,
+    "senses": [
+      { "en": "together", "example_de": "Wir kochen heute zusammen.", "example_en": "We are cooking together today." }
+    ]
+  },
+  {
+    "lemma": "zwanzig",
+    "pos": "num",
+    "level": "A1",
+    "freq": 168,
+    "senses": [
+      { "en": "twenty", "example_de": "Sie ist zwanzig Jahre alt.", "example_en": "She is twenty years old." }
+    ]
+  },
+  {
+    "lemma": "zwei",
+    "pos": "num",
+    "level": "A1",
+    "freq": 33,
+    "senses": [
+      { "en": "two", "example_de": "Ich habe zwei Brüder.", "example_en": "I have two brothers." }
+    ]
+  },
+  {
+    "lemma": "zwischen",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 172,
+    "senses": [
+      { "en": "between", "note": "Wechselpräposition: + Dativ (wo?) / + Akkusativ (wohin?)", "example_de": "Komm zwischen acht und neun Uhr!", "example_en": "Come between eight and nine o'clock!" }
+    ]
+  },
+  {
+    "lemma": "zwölf",
+    "pos": "num",
+    "level": "A1",
+    "freq": 162,
+    "senses": [
+      { "en": "twelve", "example_de": "Um zwölf Uhr essen wir.", "example_en": "At twelve o'clock we eat." }
+    ]
+  }
+]

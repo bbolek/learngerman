@@ -15,6 +15,156 @@
         }
       },
       {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wir haben ___ Hund.",
+          "options": ["ein", "einen", "einem"],
+          "correctIndex": 1,
+          "explanation": "„haben“ takes the Akkusativ. Masculine ein → einen (der Hund)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Sie sucht ___ Katze.",
+          "options": ["die", "den", "der"],
+          "correctIndex": 0,
+          "explanation": "„suchen“ takes the Akkusativ, but feminine die stays die — only masculine changes."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich esse ___ Apfel.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„essen“ takes a direct object → Akkusativ. Masculine: der → den (der Apfel)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er trinkt ___ Wasser.",
+          "options": ["das", "den", "dem"],
+          "correctIndex": 0,
+          "explanation": "„trinken“ takes the Akkusativ, but neuter das stays das — only masculine changes."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich finde ___ Buch.",
+          "options": ["das", "den", "dem"],
+          "correctIndex": 0,
+          "explanation": "„finden“ takes the Akkusativ. Neuter das Buch stays das in the Akkusativ."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er kauft ___ Tisch.",
+          "options": ["der", "den", "dem", "des"],
+          "correctIndex": 1,
+          "explanation": "„kaufen“ takes a direct object → Akkusativ. Masculine: der → den (der Tisch)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Sie braucht ___ Stuhl.",
+          "options": ["ein", "einen", "einem"],
+          "correctIndex": 1,
+          "explanation": "„brauchen“ takes the Akkusativ. Masculine ein → einen (der Stuhl)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Ich sehe ___ Frau.",
+          "options": ["der", "die", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„sehen“ takes the Akkusativ, but feminine die stays die — only masculine der changes to den."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Wir brauchen ___ Auto.",
+          "options": ["ein", "einen", "einem"],
+          "correctIndex": 0,
+          "explanation": "„brauchen“ takes the Akkusativ, but neuter ein stays ein (das Auto) — only masculine becomes einen."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Er sucht ___ Tasche.",
+          "options": ["eine", "einen", "einer"],
+          "correctIndex": 0,
+          "explanation": "„suchen“ takes the Akkusativ. Feminine eine stays eine (die Tasche) — no change."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Wir suchen ___ Lehrer.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„suchen“ takes a direct object → Akkusativ. Masculine: der → den (der Lehrer)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Die Frau kauft ___ Äpfel.",
+          "options": ["die", "den", "der"],
+          "correctIndex": 0,
+          "explanation": "„kaufen“ takes the Akkusativ, but plural die stays die — only masculine singular changes."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Er findet ___ Schlüssel nicht.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„finden“ takes the Akkusativ. Masculine: der → den (der Schlüssel), even with „nicht“ in the sentence."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Ich habe ___ Bruder und eine Schwester.",
+          "options": ["ein", "einen", "einem"],
+          "correctIndex": 1,
+          "explanation": "„haben“ takes the Akkusativ. Masculine ein → einen (der Bruder); feminine eine Schwester stays the same."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "___ Hund sehe ich nicht.",
+          "options": ["Der", "Den", "Dem"],
+          "correctIndex": 1,
+          "explanation": "The object of „sehen“ is fronted, but it is still Akkusativ: der → den. The subject is „ich“."
+        }
+      },
+      {
         "qtype": "fill",
         "difficulty": 1,
         "payload": {
@@ -25,6 +175,96 @@
         }
       },
       {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich sehe ___ Hund. (der)",
+          "accept": ["den"],
+          "hint": "sehen + Akkusativ, der Hund",
+          "explanation": "„sehen“ takes a direct object → Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Sie kauft ___ Buch. (das)",
+          "accept": ["das"],
+          "hint": "kaufen + Akkusativ, das Buch",
+          "explanation": "„kaufen“ takes the Akkusativ, but neuter das stays das — only masculine changes."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich trinke ___ Milch. (die)",
+          "accept": ["die"],
+          "hint": "trinken + Akkusativ, die Milch",
+          "explanation": "„trinken“ takes the Akkusativ, but feminine die stays die — no change."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er braucht ___ Stuhl. (ein)",
+          "accept": ["einen"],
+          "hint": "brauchen + Akkusativ, der Stuhl",
+          "explanation": "„brauchen“ takes the Akkusativ; masculine ein → einen."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Er sucht ___ Katze. (eine)",
+          "accept": ["eine"],
+          "hint": "suchen + Akkusativ, die Katze",
+          "explanation": "„suchen“ takes the Akkusativ, but feminine eine stays eine — only masculine becomes einen."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Wir sehen ___ Lehrer. (der)",
+          "accept": ["den"],
+          "hint": "sehen + Akkusativ, der Lehrer",
+          "explanation": "„sehen“ takes a direct object → Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Ich finde ___ Tasche nicht. (die)",
+          "accept": ["die"],
+          "hint": "finden + Akkusativ, die Tasche",
+          "explanation": "„finden“ takes the Akkusativ, but feminine die stays die — no change."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "___ Apfel esse ich. (der)",
+          "accept": ["Den", "den"],
+          "hint": "essen + Akkusativ, der Apfel — the object is fronted",
+          "explanation": "Even at the start of the sentence, the object of „essen“ is Akkusativ: der → den. The subject is „ich“."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Sie hat ___ Hund und eine Katze. (ein)",
+          "accept": ["einen"],
+          "hint": "haben + Akkusativ, der Hund",
+          "explanation": "„haben“ takes the Akkusativ; masculine ein → einen. Feminine eine Katze stays the same."
+        }
+      },
+      {
         "qtype": "order",
         "difficulty": 1,
         "payload": {
@@ -32,6 +272,79 @@
           "solutions": [["Ich", "kaufe", "einen", "Apfel"]],
           "translation": "I am buying an apple.",
           "explanation": "The verb is in second position; the Akkusativ object follows."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["eine", "Wir", "Katze", "haben"],
+          "solutions": [["Wir", "haben", "eine", "Katze"]],
+          "translation": "We have a cat.",
+          "explanation": "„haben“ takes the Akkusativ; feminine eine Katze stays unchanged. The verb is in second position."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["das", "Wasser", "Er", "trinkt"],
+          "solutions": [["Er", "trinkt", "das", "Wasser"]],
+          "translation": "He is drinking the water.",
+          "explanation": "„trinken“ takes the Akkusativ; neuter das Wasser stays das. Subject, verb, then object."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["den", "Sie", "Hund", "sucht"],
+          "solutions": [["Sie", "sucht", "den", "Hund"]],
+          "translation": "She is looking for the dog.",
+          "explanation": "„suchen“ takes the Akkusativ: der → den (der Hund). The verb stands in second position."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["einen", "Tisch", "Ich", "und", "Stuhl", "brauche", "einen"],
+          "solutions": [
+            ["Ich", "brauche", "einen", "Tisch", "und", "einen", "Stuhl"],
+            ["Ich", "brauche", "einen", "Stuhl", "und", "einen", "Tisch"]
+          ],
+          "translation": "I need a table and a chair.",
+          "explanation": "„brauchen“ takes the Akkusativ: both masculine objects use einen. The two objects can come in either order."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["kauft", "das", "Der", "Auto", "Mann"],
+          "solutions": [["Der", "Mann", "kauft", "das", "Auto"]],
+          "translation": "The man is buying the car.",
+          "explanation": "„kaufen“ takes the Akkusativ; neuter das Auto stays das. Der Mann is the Nominativ subject."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["isst", "Kind", "Den", "das", "Apfel"],
+          "solutions": [["Den", "Apfel", "isst", "das", "Kind"]],
+          "translation": "The child is eating the apple.",
+          "explanation": "The Akkusativ object „den Apfel“ (der → den, triggered by „essen“) is fronted; the verb stays in second position and the subject „das Kind“ follows."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["den", "ich", "Heute", "Lehrer", "sehe"],
+          "solutions": [["Heute", "sehe", "ich", "den", "Lehrer"]],
+          "translation": "Today I am seeing the teacher.",
+          "explanation": "With „Heute“ fronted, the verb stays in second position and the subject „ich“ follows it. „sehen“ takes the Akkusativ: der → den."
         }
       },
       {
@@ -49,13 +362,998 @@
           "correctReasonIndex": 1,
           "explanation": "„lesen“ acts on das Buch → direct object → Akkusativ. (Neuter das stays das.)"
         }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Ich kaufe **den Tisch**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It follows a dative preposition",
+            "It is the direct object of „kaufen“",
+            "It shows possession"
+          ],
+          "correctReasonIndex": 2,
+          "explanation": "„kaufen“ acts on den Tisch → direct object → Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "**Der Hund** sieht die Katze.",
+          "correctCase": "nominativ",
+          "reasons": [
+            "It is the subject doing the seeing",
+            "It is the direct object of „sehen“",
+            "It is the indirect object (recipient)",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "Der Hund is the one who sees → subject → Nominativ, so der stays der. „Die Katze“ is the Akkusativ object of „sehen“."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Der Mann isst **einen Apfel**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It follows a dative preposition",
+            "It shows possession",
+            "It is the direct object of „essen“"
+          ],
+          "correctReasonIndex": 3,
+          "explanation": "„essen“ acts on einen Apfel → direct object → Akkusativ. Masculine ein → einen."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Wir sehen **die Frau**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the direct object of „sehen“",
+            "It is the subject of the sentence",
+            "It is the indirect object (recipient)",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "„sehen“ acts on die Frau → direct object → Akkusativ. Feminine die stays die, so only the sentence role shows the case."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 3,
+        "payload": {
+          "sentence": "**Den Mann** sieht die Frau.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the subject because it comes first",
+            "It is the fronted direct object of „sehen“",
+            "It is the indirect object (recipient)",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "Word order can change, but the article shows the case: den Mann is Akkusativ (der → den), so die Frau is the subject who sees."
+        }
       }
     ]
   },
-  { "slug": "dativ", "title": "Dativ", "explainer_md": "The **Dativ** marks the indirect object — usually the person something is given to, said to, or done for.\n\nAsk: **Wem?** (to whom?)\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | der | die | das | die |\n| Dativ | **dem** | **der** | **dem** | **den +n** |\n\n*Ich gebe **dem** Kind einen Apfel.* — I give the child an apple.", "questions": [] },
+  {
+    "slug": "dativ",
+    "title": "Dativ",
+    "explainer_md": "The **Dativ** marks the indirect object — usually the person something is given to, said to, or done for.\n\nAsk: **Wem?** (to whom?)\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | der | die | das | die |\n| Dativ | **dem** | **der** | **dem** | **den +n** |\n\n*Ich gebe **dem** Kind einen Apfel.* — I give the child an apple.",
+    "questions": [
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich gebe ___ Mann das Buch.",
+          "options": ["der", "den", "dem", "des"],
+          "correctIndex": 2,
+          "explanation": "„geben“ takes a Dativ recipient. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Sie zeigt ___ Kind das Foto.",
+          "options": ["das", "dem", "den"],
+          "correctIndex": 1,
+          "explanation": "„zeigen“ takes a Dativ recipient. Neuter: das → dem (das Kind)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er schenkt ___ Frau eine Tasche.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 1,
+          "explanation": "„schenken“ takes a Dativ recipient. Feminine: die → der (die Frau)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wir bringen ___ Lehrer einen Stuhl.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 2,
+          "explanation": "„bringen“ takes a Dativ recipient. Masculine: der → dem (der Lehrer)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich gebe ___ Hund das Essen.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 2,
+          "explanation": "„geben“ takes a Dativ recipient. Masculine: der → dem (der Hund); das Essen is the Akkusativ object."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Der Lehrer erklärt ___ Schüler das Wort.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 2,
+          "explanation": "„erklären“ takes a Dativ recipient. Masculine: der → dem (der Schüler)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er gibt ___ Schwester ein Buch.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 1,
+          "explanation": "„geben“ takes a Dativ recipient. Feminine: die → der (die Schwester)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich zeige ___ Mutter die Schule.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 1,
+          "explanation": "„zeigen“ takes a Dativ recipient. Feminine: die → der (die Mutter)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Wir geben ___ Kindern die Äpfel.",
+          "options": ["die", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„geben“ takes a Dativ recipient. Plural: die → den, and the noun adds -n (die Kinder → den Kindern)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie schenkt ___ Eltern Blumen.",
+          "options": ["die", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„schenken“ takes a Dativ recipient. Plural: die → den (die Eltern → den Eltern; the noun already ends in -n)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Er bringt ___ Freund die Tasche.",
+          "options": ["ein", "einen", "einem"],
+          "correctIndex": 2,
+          "explanation": "„bringen“ takes a Dativ recipient. Masculine ein → einem (der Freund)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie zeigt ___ Frau den Weg.",
+          "options": ["eine", "einer", "einen"],
+          "correctIndex": 1,
+          "explanation": "„zeigen“ takes a Dativ recipient. Feminine eine → einer (die Frau); den Weg is the Akkusativ object."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Der Mann gibt ___ Katze die Milch.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 1,
+          "explanation": "„geben“ takes a Dativ recipient. Feminine: die → der (die Katze)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Ich gebe es ___ Lehrer.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 2,
+          "explanation": "The recipient of „geben“ is Dativ even after the pronoun „es“. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Sie zeigt ___ Männern das Haus.",
+          "options": ["die", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„zeigen“ takes a Dativ recipient. Plural: die → den, and the noun adds -n (die Männer → den Männern)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Der Vater gibt ___ Sohn den Schlüssel.",
+          "options": ["der", "dem", "den"],
+          "correctIndex": 1,
+          "explanation": "The recipient of „geben“ is Dativ: der → dem (der Sohn). „den Schlüssel“ is the Akkusativ object — don't mix them up."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich gebe ___ Frau das Buch. (die)",
+          "accept": ["der"],
+          "hint": "geben + Dativ recipient, die Frau",
+          "explanation": "„geben“ takes a Dativ recipient. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er zeigt ___ Mann den Weg. (der)",
+          "accept": ["dem"],
+          "hint": "zeigen + Dativ recipient, der Mann",
+          "explanation": "„zeigen“ takes a Dativ recipient. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Sie bringt ___ Kind einen Apfel. (das)",
+          "accept": ["dem"],
+          "hint": "bringen + Dativ recipient, das Kind",
+          "explanation": "„bringen“ takes a Dativ recipient. Neuter: das → dem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wir schenken ___ Mutter Blumen. (die)",
+          "accept": ["der"],
+          "hint": "schenken + Dativ recipient, die Mutter",
+          "explanation": "„schenken“ takes a Dativ recipient. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Der Lehrer gibt ___ Schüler ein Buch. (der)",
+          "accept": ["dem"],
+          "hint": "geben + Dativ recipient, der Schüler",
+          "explanation": "„geben“ takes a Dativ recipient. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Er erklärt ___ Schwester das Spiel. (die)",
+          "accept": ["der"],
+          "hint": "erklären + Dativ recipient, die Schwester",
+          "explanation": "„erklären“ takes a Dativ recipient. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie zeigt ___ Kindern das Haus. (die)",
+          "accept": ["den"],
+          "hint": "zeigen + Dativ recipient, plural die Kinder",
+          "explanation": "„zeigen“ takes a Dativ recipient. Plural: die → den, and the noun adds -n (Kindern)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Er bringt ___ Freund ein Buch. (ein)",
+          "accept": ["einem"],
+          "hint": "bringen + Dativ recipient, der Freund",
+          "explanation": "„bringen“ takes a Dativ recipient. Masculine ein → einem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Sie schenkt ___ Eltern ein Foto. (die)",
+          "accept": ["den"],
+          "hint": "schenken + Dativ recipient, plural die Eltern",
+          "explanation": "„schenken“ takes a Dativ recipient. Plural: die → den (den Eltern)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "___ Kind gebe ich einen Apfel. (das)",
+          "accept": ["Dem", "dem"],
+          "hint": "geben + Dativ recipient, das Kind — the recipient is fronted",
+          "explanation": "Even at the start of the sentence, the recipient of „geben“ is Dativ: das → dem. „einen Apfel“ is the Akkusativ object."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["dem", "einen", "Ich", "Apfel", "gebe", "Kind"],
+          "solutions": [
+            ["Ich", "gebe", "dem", "Kind", "einen", "Apfel"],
+            ["Ich", "gebe", "einen", "Apfel", "dem", "Kind"]
+          ],
+          "translation": "I give the child an apple.",
+          "explanation": "„geben“ takes a Dativ recipient (das → dem) and an Akkusativ object (ein → einen). The Dativ noun usually comes first."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["das", "der", "zeigt", "Auto", "Er", "Frau"],
+          "solutions": [
+            ["Er", "zeigt", "der", "Frau", "das", "Auto"],
+            ["Er", "zeigt", "das", "Auto", "der", "Frau"]
+          ],
+          "translation": "He shows the woman the car.",
+          "explanation": "„zeigen“ takes a Dativ recipient: die → der (die Frau). The neuter Akkusativ object das Auto stays das."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["ein", "dem", "Buch", "Sie", "Mann", "schenkt"],
+          "solutions": [
+            ["Sie", "schenkt", "dem", "Mann", "ein", "Buch"],
+            ["Sie", "schenkt", "ein", "Buch", "dem", "Mann"]
+          ],
+          "translation": "She gives the man a book (as a present).",
+          "explanation": "„schenken“ takes a Dativ recipient: der → dem (der Mann). „ein Buch“ is the neuter Akkusativ object."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["die", "der", "Wir", "Tasche", "bringen", "Lehrerin"],
+          "solutions": [
+            ["Wir", "bringen", "der", "Lehrerin", "die", "Tasche"],
+            ["Wir", "bringen", "die", "Tasche", "der", "Lehrerin"]
+          ],
+          "translation": "We bring the teacher the bag.",
+          "explanation": "„bringen“ takes a Dativ recipient: die → der (die Lehrerin). Feminine Akkusativ die Tasche stays die."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["das", "gibt", "dem", "Der", "Geld", "Sohn", "Vater"],
+          "solutions": [
+            ["Der", "Vater", "gibt", "dem", "Sohn", "das", "Geld"],
+            ["Der", "Vater", "gibt", "das", "Geld", "dem", "Sohn"]
+          ],
+          "translation": "The father gives the son the money.",
+          "explanation": "„geben“ takes a Dativ recipient: der → dem (der Sohn). Der Vater is the Nominativ subject, das Geld the Akkusativ object."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["dem", "das", "erklärt", "Kind", "Die", "Spiel", "Mutter"],
+          "solutions": [
+            ["Die", "Mutter", "erklärt", "dem", "Kind", "das", "Spiel"],
+            ["Die", "Mutter", "erklärt", "das", "Spiel", "dem", "Kind"]
+          ],
+          "translation": "The mother explains the game to the child.",
+          "explanation": "„erklären“ takes a Dativ recipient: das → dem (das Kind). „das Spiel“ is the Akkusativ object."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["gebe", "das", "Dem", "Buch", "ich", "Mann"],
+          "solutions": [["Dem", "Mann", "gebe", "ich", "das", "Buch"]],
+          "translation": "I give the book to the man.",
+          "explanation": "The Dativ recipient „dem Mann“ (der → dem, triggered by „geben“) is fronted; the verb stays in second position and the subject „ich“ follows."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["die", "den", "Heute", "Schule", "ich", "Kindern", "zeige"],
+          "solutions": [
+            ["Heute", "zeige", "ich", "den", "Kindern", "die", "Schule"],
+            ["Heute", "zeige", "ich", "die", "Schule", "den", "Kindern"]
+          ],
+          "translation": "Today I am showing the children the school.",
+          "explanation": "With „Heute“ fronted, the verb stays second and „ich“ follows. „zeigen“ takes a plural Dativ recipient: die → den + -n (den Kindern)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Der Lehrer gibt **dem Schüler** ein Buch.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It is the direct object of „geben“",
+            "It is the indirect object — the person who receives the book",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 2,
+          "explanation": "The Schüler receives the book → indirect object → Dativ. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Ich zeige **der Frau** den Weg.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the indirect object — the person shown the way",
+            "It is the subject of the sentence",
+            "It is the direct object of „zeigen“",
+            "It shows possession"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "The Frau is shown the way → indirect object of „zeigen“ → Dativ. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Sie gibt dem Kind **einen Apfel**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the indirect object (recipient)",
+            "It is the direct object — the thing being given",
+            "It is the subject of the sentence",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "The apple is the thing given → direct object of „geben“ → Akkusativ (ein → einen). The recipient „dem Kind“ is Dativ."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "**Die Mutter** schenkt dem Kind ein Buch.",
+          "correctCase": "nominativ",
+          "reasons": [
+            "It is the indirect object (recipient)",
+            "It is the direct object of „schenken“",
+            "It is the subject — the person doing the giving",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 2,
+          "explanation": "Die Mutter is the one giving → subject → Nominativ, so die stays die. The Dativ recipient is „dem Kind“."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Er bringt **den Kindern** die Äpfel.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the masculine direct object of „bringen“",
+            "It is the plural indirect object — the recipients of the apples",
+            "It is the subject of the sentence",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "The Kinder receive the apples → indirect object → Dativ plural: die → den and the noun adds -n (Kindern). It only looks like masculine Akkusativ."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 3,
+        "payload": {
+          "sentence": "**Dem Mann** gebe ich das Auto.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the subject because it comes first",
+            "It is the direct object of „geben“",
+            "It follows a dative preposition",
+            "It is the fronted indirect object — the recipient of the car"
+          ],
+          "correctReasonIndex": 3,
+          "explanation": "Word order changes, but the article shows the case: dem Mann is Dativ (der → dem), the recipient of „geben“. The subject is „ich“."
+        }
+      }
+    ]
+  },
   { "slug": "akk-preps", "title": "Präpositionen + Akkusativ", "explainer_md": "These prepositions ALWAYS take the Akkusativ:\n\n**durch, für, gegen, ohne, um**\n\nMemory aid: *do-gfou!*\n\n*Das Geschenk ist **für den** Mann.*", "questions": [] },
   { "slug": "dat-preps", "title": "Präpositionen + Dativ", "explainer_md": "These prepositions ALWAYS take the Dativ:\n\n**aus, bei, mit, nach, seit, von, zu**\n\n*Ich fahre **mit dem** Zug.* — I travel by train.", "questions": [] },
-  { "slug": "two-way-preps", "title": "Wechselpräpositionen", "explainer_md": "Nine prepositions take **Akkusativ or Dativ**:\n\n**an, auf, hinter, in, neben, über, unter, vor, zwischen**\n\n- **Wohin?** (movement to) → Akkusativ: *Ich gehe **in die** Küche.*\n- **Wo?** (location) → Dativ: *Ich bin **in der** Küche.*", "questions": [] },
+  {
+    "slug": "two-way-preps",
+    "title": "Wechselpräpositionen",
+    "explainer_md": "Nine prepositions take **Akkusativ or Dativ**:\n\n**an, auf, hinter, in, neben, über, unter, vor, zwischen**\n\n- **Wohin?** (movement to) → Akkusativ: *Ich gehe **in die** Küche.*\n- **Wo?** (location) → Dativ: *Ich bin **in der** Küche.*",
+    "questions": [
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich gehe in ___ Küche.",
+          "options": ["die", "der", "das"],
+          "correctIndex": 0,
+          "explanation": "„gehen“ answers Wohin? (movement) → „in“ + Akkusativ. Feminine die stays die."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich bin in ___ Küche.",
+          "options": ["die", "der", "das"],
+          "correctIndex": 1,
+          "explanation": "„sein“ answers Wo? (location) → „in“ + Dativ. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er legt das Buch auf ___ Tisch.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„legen“ answers Wohin? (movement) → „auf“ + Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Das Buch liegt auf ___ Tisch.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 2,
+          "explanation": "„liegen“ answers Wo? (location) → „auf“ + Dativ. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Die Katze läuft unter ___ Stuhl.",
+          "options": ["den", "dem", "der"],
+          "correctIndex": 0,
+          "explanation": "„laufen“ (running to a place) answers Wohin? → „unter“ + Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Die Katze schläft unter ___ Tisch.",
+          "options": ["den", "dem", "der"],
+          "correctIndex": 1,
+          "explanation": "„schlafen“ answers Wo? (location) → „unter“ + Dativ. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wir gehen an ___ Fenster.",
+          "options": ["das", "dem", "den"],
+          "correctIndex": 0,
+          "explanation": "„gehen“ answers Wohin? (movement) → „an“ + Akkusativ. Neuter das stays das."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er steht an ___ Fenster.",
+          "options": ["das", "dem", "den"],
+          "correctIndex": 1,
+          "explanation": "„stehen“ answers Wo? (location) → „an“ + Dativ. Neuter: das → dem."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie hängt das Bild über ___ Bett.",
+          "options": ["das", "dem", "den"],
+          "correctIndex": 0,
+          "explanation": "„hängen“ here is an action to a place (Wohin?) → „über“ + Akkusativ. Neuter das stays das."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Das Bild hängt über ___ Bett.",
+          "options": ["das", "dem", "den"],
+          "correctIndex": 1,
+          "explanation": "Here „hängen“ describes a position (Wo?) → „über“ + Dativ. Neuter: das → dem."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Ich stelle die Tasche neben ___ Stuhl.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„stellen“ answers Wohin? (movement) → „neben“ + Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Die Tasche steht neben ___ Tür.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 1,
+          "explanation": "„stehen“ answers Wo? (location) → „neben“ + Dativ. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Das Auto steht vor ___ Haus.",
+          "options": ["das", "dem", "den"],
+          "correctIndex": 1,
+          "explanation": "„stehen“ answers Wo? (location) → „vor“ + Dativ. Neuter: das → dem."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Er stellt die Lampe zwischen ___ Tisch und den Stuhl.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„stellen“ answers Wohin? (movement) → „zwischen“ + Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Sie setzt sich auf ___ Stuhl.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„sich setzen“ is a movement onto the chair (Wohin?) → „auf“ + Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Das Kind sitzt zwischen ___ Mutter und dem Vater.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 1,
+          "explanation": "„sitzen“ answers Wo? (location) → „zwischen“ + Dativ. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich gehe in ___ Schule. (die)",
+          "accept": ["die"],
+          "hint": "Wohin? → in + Akkusativ",
+          "explanation": "„gehen“ shows movement (Wohin?) → „in“ + Akkusativ. Feminine die stays die."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich bin in ___ Schule. (die)",
+          "accept": ["der"],
+          "hint": "Wo? → in + Dativ",
+          "explanation": "„sein“ shows location (Wo?) → „in“ + Dativ. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er legt das Buch auf ___ Stuhl. (der)",
+          "accept": ["den"],
+          "hint": "Wohin? → auf + Akkusativ",
+          "explanation": "„legen“ shows movement (Wohin?) → „auf“ + Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Die Katze sitzt auf ___ Stuhl. (der)",
+          "accept": ["dem"],
+          "hint": "Wo? → auf + Dativ",
+          "explanation": "„sitzen“ shows location (Wo?) → „auf“ + Dativ. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wir fahren in ___ Stadt. (die)",
+          "accept": ["die"],
+          "hint": "Wohin? → in + Akkusativ",
+          "explanation": "„fahren“ shows movement (Wohin?) → „in“ + Akkusativ. Feminine die stays die."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Das Bild hängt an ___ Wand. (die)",
+          "accept": ["der"],
+          "hint": "Wo? → an + Dativ",
+          "explanation": "The picture is in position (Wo?) → „an“ + Dativ. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie hängt das Bild an ___ Wand. (die)",
+          "accept": ["die"],
+          "hint": "Wohin? → an + Akkusativ",
+          "explanation": "She moves the picture to the wall (Wohin?) → „an“ + Akkusativ. Feminine die stays die."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Der Hund schläft vor ___ Tür. (die)",
+          "accept": ["der"],
+          "hint": "Wo? → vor + Dativ",
+          "explanation": "„schlafen“ shows location (Wo?) → „vor“ + Dativ. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Er stellt das Auto hinter ___ Haus. (das)",
+          "accept": ["das"],
+          "hint": "Wohin? → hinter + Akkusativ",
+          "explanation": "„stellen“ shows movement (Wohin?) → „hinter“ + Akkusativ. Neuter das stays das."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Das Fahrrad steht zwischen ___ Auto und dem Haus. (das)",
+          "accept": ["dem"],
+          "hint": "Wo? → zwischen + Dativ",
+          "explanation": "„stehen“ shows location (Wo?) → „zwischen“ + Dativ. Neuter: das → dem."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["die", "in", "Küche", "Ich", "gehe"],
+          "solutions": [["Ich", "gehe", "in", "die", "Küche"]],
+          "translation": "I am going into the kitchen.",
+          "explanation": "„gehen“ shows movement (Wohin?) → „in“ + Akkusativ: in die Küche."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["der", "Küche", "bin", "in", "Ich"],
+          "solutions": [["Ich", "bin", "in", "der", "Küche"]],
+          "translation": "I am in the kitchen.",
+          "explanation": "„sein“ shows location (Wo?) → „in“ + Dativ: die → der (in der Küche)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["unter", "dem", "Katze", "Tisch", "Die", "schläft"],
+          "solutions": [["Die", "Katze", "schläft", "unter", "dem", "Tisch"]],
+          "translation": "The cat is sleeping under the table.",
+          "explanation": "„schlafen“ shows location (Wo?) → „unter“ + Dativ: der → dem (unter dem Tisch)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["auf", "Buch", "den", "Er", "Tisch", "legt", "das"],
+          "solutions": [["Er", "legt", "das", "Buch", "auf", "den", "Tisch"]],
+          "translation": "He puts the book on the table.",
+          "explanation": "„legen“ shows movement (Wohin?) → „auf“ + Akkusativ: der → den (auf den Tisch)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["vor", "steht", "Haus", "Das", "dem", "Auto"],
+          "solutions": [["Das", "Auto", "steht", "vor", "dem", "Haus"]],
+          "translation": "The car is (parked) in front of the house.",
+          "explanation": "„stehen“ shows location (Wo?) → „vor“ + Dativ: das → dem (vor dem Haus)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["neben", "die", "Fenster", "stellt", "das", "Sie", "Tasche"],
+          "solutions": [["Sie", "stellt", "die", "Tasche", "neben", "das", "Fenster"]],
+          "translation": "She puts the bag next to the window.",
+          "explanation": "„stellen“ shows movement (Wohin?) → „neben“ + Akkusativ. Neuter das Fenster stays das."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["ein", "wartet", "der", "Mann", "Vor", "Schule"],
+          "solutions": [["Vor", "der", "Schule", "wartet", "ein", "Mann"]],
+          "translation": "A man is waiting in front of the school.",
+          "explanation": "„warten“ shows location (Wo?) → „vor“ + Dativ: die → der. The fronted phrase pushes the subject after the verb."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["spielt", "das", "Haus", "Kind", "Hinter", "dem"],
+          "solutions": [["Hinter", "dem", "Haus", "spielt", "das", "Kind"]],
+          "translation": "The child is playing behind the house.",
+          "explanation": "„spielen“ shows location (Wo?) → „hinter“ + Dativ: das → dem. With the phrase fronted, the verb stays in second position."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Ich gehe in **die Küche**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "„in“ always takes the Akkusativ",
+            "It answers Wohin? — movement into the kitchen",
+            "It is the direct object of „gehen“",
+            "It answers Wo? — a fixed location"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "„gehen“ shows movement (Wohin?), so the two-way preposition „in“ takes the Akkusativ. Feminine die stays die."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Ich bin in **der Küche**.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It answers Wohin? — movement into the kitchen",
+            "„in“ always takes the Dativ",
+            "It answers Wo? — a fixed location",
+            "It is the indirect object of „sein“"
+          ],
+          "correctReasonIndex": 2,
+          "explanation": "„sein“ shows location (Wo?), so the two-way preposition „in“ takes the Dativ. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Das Buch liegt auf **dem Tisch**.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It answers Wo? — the book's location",
+            "It answers Wohin? — movement onto the table",
+            "It is the indirect object of „liegen“",
+            "„auf“ always takes the Dativ"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "„liegen“ shows location (Wo?), so the two-way preposition „auf“ takes the Dativ. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Er legt das Buch auf **den Tisch**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It answers Wo? — a fixed location",
+            "It is the direct object of „legen“",
+            "It answers Wohin? — the book is moved onto the table",
+            "„auf“ always takes the Akkusativ"
+          ],
+          "correctReasonIndex": 2,
+          "explanation": "„legen“ shows movement (Wohin?), so the two-way preposition „auf“ takes the Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Die Lampe hängt über **dem Tisch**.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It answers Wohin? — movement over the table",
+            "„über“ always takes the Dativ",
+            "It is the indirect object of „hängen“",
+            "It answers Wo? — the lamp's position"
+          ],
+          "correctReasonIndex": 3,
+          "explanation": "Here „hängen“ describes a position (Wo?), so the two-way preposition „über“ takes the Dativ. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 3,
+        "payload": {
+          "sentence": "Sie stellt den Stuhl vor **das Fenster**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It answers Wohin? — the chair is moved to the window",
+            "It answers Wo? — a fixed location",
+            "„vor“ always takes the Akkusativ"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "„stellen“ shows movement (Wohin?), so „vor“ takes the Akkusativ. Neuter das stays das — the role, not the article, reveals the case."
+        }
+      }
+    ]
+  },
   { "slug": "dative-verbs", "title": "Verben mit Dativ", "explainer_md": "Some verbs take their object in the **Dativ**, not the Akkusativ:\n\n**helfen, danken, gefallen, gehören, antworten, glauben, schmecken**\n\n*Er hilft **der** Frau.* — He helps the woman.", "questions": [] },
   { "slug": "personal-pronouns", "title": "Personalpronomen", "explainer_md": "Pronouns change with case:\n\n| Nom | Akk | Dat |\n|---|---|---|\n| ich | mich | mir |\n| du | dich | dir |\n| er | ihn | ihm |\n| sie | sie | ihr |\n| es | es | ihm |\n| wir | uns | uns |\n| ihr | euch | euch |\n\n*Siehst du **mich**? Hilfst du **mir**?*", "questions": [] },
   { "slug": "possessive-articles", "title": "Possessivartikel", "explainer_md": "**mein, dein, sein, ihr, unser, euer** take the same endings as *ein*:\n\n- Akkusativ m: mein → **meinen**\n- Dativ m/n: mein → **meinem**\n- Dativ f: mein → **meiner**\n\n*Ich helfe **meinem** Bruder.*", "questions": [] }

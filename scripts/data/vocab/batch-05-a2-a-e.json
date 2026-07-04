@@ -1,159 +1,3609 @@
 [
-  { "lemma": "ab und zu", "pos": "adv", "level": "A2", "freq": 900, "senses": [{ "en": "now and then, occasionally", "example_de": "Ab und zu gehe ich ins Kino.", "example_en": "Now and then I go to the cinema." }] },
-  { "lemma": "Abfall", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "m", "plural": "Abfälle" }, "senses": [{ "en": "garbage, waste", "example_de": "Der Abfall kommt in die Tonne.", "example_en": "The garbage goes in the bin." }] },
-  { "lemma": "abgeben", "pos": "verb", "level": "A2", "freq": 950, "verb": { "aux": "haben", "separablePrefix": "ab", "du": "gibst", "er": "gibt", "praeteritum": "gab", "partizip2": "abgegeben" }, "senses": [{ "en": "to hand in, to hand over", "note": "separable", "example_de": "Bitte geben Sie das Formular ab.", "example_en": "Please hand in the form." }] },
-  { "lemma": "Abitur", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "n", "plural": null }, "senses": [{ "en": "school-leaving exam (grammar school)", "example_de": "Meine Schwester macht dieses Jahr Abitur.", "example_en": "My sister is taking her Abitur this year." }] },
-  { "lemma": "abschließen", "pos": "verb", "level": "A2", "freq": 1100, "verb": { "aux": "haben", "separablePrefix": "ab", "praeteritum": "schloss", "partizip2": "abgeschlossen" }, "senses": [{ "en": "to lock; to complete", "note": "separable", "example_de": "Hast du die Tür abgeschlossen?", "example_en": "Did you lock the door?" }] },
-  { "lemma": "Absender", "pos": "noun", "level": "A2", "freq": 1500, "noun": { "gender": "m", "plural": "Absender" }, "senses": [{ "en": "sender (of a letter)", "example_de": "Der Brief hat keinen Absender.", "example_en": "The letter has no sender." }] },
-  { "lemma": "ähnlich", "pos": "adj", "level": "A2", "freq": 800, "senses": [{ "en": "similar", "note": "+ Dativ", "example_de": "Du bist deinem Vater sehr ähnlich.", "example_en": "You are very similar to your father." }] },
-  { "lemma": "Ahnung", "pos": "noun", "level": "A2", "freq": 850, "noun": { "gender": "f", "plural": "Ahnungen" }, "senses": [{ "en": "idea, clue", "note": "keine Ahnung! = no idea!", "example_de": "Ich habe keine Ahnung, wo er ist.", "example_en": "I have no idea where he is." }] },
-  { "lemma": "Alkohol", "pos": "noun", "level": "A2", "freq": 1000, "noun": { "gender": "m", "plural": null }, "senses": [{ "en": "alcohol", "example_de": "Er trinkt keinen Alkohol.", "example_en": "He does not drink alcohol." }] },
-  { "lemma": "als", "pos": "conj", "level": "A2", "freq": 300, "senses": [{ "en": "when (single past event); than; as", "note": "Vergangenheit: Als ich ein Kind war …", "example_de": "Als Kind wohnte ich in Berlin.", "example_en": "As a child I lived in Berlin." }, { "en": "than (comparison)", "example_de": "Mein Bruder ist älter als ich.", "example_en": "My brother is older than me." }] },
-  { "lemma": "also", "pos": "adv", "level": "A2", "freq": 350, "senses": [{ "en": "so, therefore, well", "example_de": "Es regnet, also bleiben wir zu Hause.", "example_en": "It is raining, so we stay at home." }] },
-  { "lemma": "Alter", "pos": "noun", "level": "A2", "freq": 900, "noun": { "gender": "n", "plural": null }, "senses": [{ "en": "age", "example_de": "Wir sind im gleichen Alter.", "example_en": "We are the same age." }] },
-  { "lemma": "anbieten", "pos": "verb", "level": "A2", "freq": 700, "verb": { "aux": "haben", "separablePrefix": "an", "praeteritum": "bot", "partizip2": "angeboten" }, "senses": [{ "en": "to offer", "note": "separable", "example_de": "Darf ich Ihnen einen Kaffee anbieten?", "example_en": "May I offer you a coffee?" }] },
-  { "lemma": "ändern", "pos": "verb", "level": "A2", "freq": 750, "verb": { "aux": "haben" }, "senses": [{ "en": "to change, to alter", "note": "auch reflexiv: sich ändern", "example_de": "Ich möchte meinen Termin ändern.", "example_en": "I would like to change my appointment." }] },
-  { "lemma": "anders", "pos": "adv", "level": "A2", "freq": 650, "senses": [{ "en": "differently, else", "example_de": "In Deutschland ist vieles anders.", "example_en": "In Germany many things are different." }] },
-  { "lemma": "Anfänger", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "m", "plural": "Anfänger" }, "senses": [{ "en": "beginner", "example_de": "Dieser Kurs ist für Anfänger.", "example_en": "This course is for beginners." }] },
-  { "lemma": "Angebot", "pos": "noun", "level": "A2", "freq": 800, "noun": { "gender": "n", "plural": "Angebote" }, "senses": [{ "en": "offer; special deal", "example_de": "Die Äpfel sind heute im Angebot.", "example_en": "The apples are on special offer today." }] },
-  { "lemma": "angenehm", "pos": "adj", "level": "A2", "freq": 1100, "senses": [{ "en": "pleasant", "note": "Angenehm! = nice to meet you", "example_de": "Das Wetter ist heute sehr angenehm.", "example_en": "The weather is very pleasant today." }] },
-  { "lemma": "Angst", "pos": "noun", "level": "A2", "freq": 600, "noun": { "gender": "f", "plural": "Ängste" }, "senses": [{ "en": "fear, anxiety", "note": "Angst haben vor + Dativ", "example_de": "Sie hat Angst vor Hunden.", "example_en": "She is afraid of dogs." }] },
-  { "lemma": "anklicken", "pos": "verb", "level": "A2", "freq": 1600, "verb": { "aux": "haben", "separablePrefix": "an" }, "senses": [{ "en": "to click on", "note": "separable", "example_de": "Klicken Sie das Bild an.", "example_en": "Click on the picture." }] },
-  { "lemma": "ankreuzen", "pos": "verb", "level": "A2", "freq": 1700, "verb": { "aux": "haben", "separablePrefix": "an" }, "senses": [{ "en": "to tick, to mark with a cross", "note": "separable", "example_de": "Kreuzen Sie die richtige Antwort an.", "example_en": "Tick the correct answer." }] },
-  { "lemma": "anprobieren", "pos": "verb", "level": "A2", "freq": 1500, "verb": { "aux": "haben", "separablePrefix": "an", "partizip2": "anprobiert" }, "senses": [{ "en": "to try on (clothes)", "note": "separable", "example_de": "Kann ich die Hose anprobieren?", "example_en": "Can I try on the trousers?" }] },
-  { "lemma": "Anruf", "pos": "noun", "level": "A2", "freq": 800, "noun": { "gender": "m", "plural": "Anrufe" }, "senses": [{ "en": "phone call", "example_de": "Danke für deinen Anruf.", "example_en": "Thanks for your call." }] },
-  { "lemma": "Anrufbeantworter", "pos": "noun", "level": "A2", "freq": 1800, "noun": { "gender": "m", "plural": "Anrufbeantworter" }, "senses": [{ "en": "answering machine", "example_de": "Sprechen Sie auf den Anrufbeantworter.", "example_en": "Speak onto the answering machine." }] },
-  { "lemma": "anschauen", "pos": "verb", "level": "A2", "freq": 700, "verb": { "aux": "haben", "separablePrefix": "an" }, "senses": [{ "en": "to look at, to watch", "note": "separable; auch: sich etwas anschauen", "example_de": "Wir schauen uns einen Film an.", "example_en": "We are watching a film." }] },
-  { "lemma": "ansehen", "pos": "verb", "level": "A2", "freq": 650, "verb": { "aux": "haben", "separablePrefix": "an", "du": "siehst", "er": "sieht", "praeteritum": "sah", "partizip2": "angesehen" }, "senses": [{ "en": "to look at, to view", "note": "separable; auch: sich etwas ansehen", "example_de": "Sieh dir das Foto an!", "example_en": "Look at the photo!" }] },
-  { "lemma": "anstrengend", "pos": "adj", "level": "A2", "freq": 900, "senses": [{ "en": "exhausting, strenuous", "example_de": "Die Arbeit war sehr anstrengend.", "example_en": "The work was very exhausting." }] },
-  { "lemma": "Anzeige", "pos": "noun", "level": "A2", "freq": 1200, "noun": { "gender": "f", "plural": "Anzeigen" }, "senses": [{ "en": "advertisement, ad", "example_de": "Ich habe die Anzeige in der Zeitung gelesen.", "example_en": "I read the ad in the newspaper." }] },
-  { "lemma": "anziehen", "pos": "verb", "level": "A2", "freq": 600, "verb": { "aux": "haben", "separablePrefix": "an", "praeteritum": "zog", "partizip2": "angezogen" }, "senses": [{ "en": "to put on (clothes), to dress", "note": "separable; reflexiv: sich anziehen", "example_de": "Zieh eine warme Jacke an!", "example_en": "Put on a warm jacket!" }] },
-  { "lemma": "Anzug", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "m", "plural": "Anzüge" }, "senses": [{ "en": "suit (clothing)", "example_de": "Er trägt heute einen schwarzen Anzug.", "example_en": "He is wearing a black suit today." }] },
-  { "lemma": "Arbeitsplatz", "pos": "noun", "level": "A2", "freq": 1000, "noun": { "gender": "m", "plural": "Arbeitsplätze" }, "senses": [{ "en": "workplace, job", "example_de": "Er sucht einen neuen Arbeitsplatz.", "example_en": "He is looking for a new job." }] },
-  { "lemma": "ärgern", "pos": "verb", "level": "A2", "freq": 950, "verb": { "aux": "haben" }, "senses": [{ "en": "to annoy; to be annoyed", "note": "reflexiv: sich ärgern über + Akk.", "example_de": "Ich ärgere mich über den Fehler.", "example_en": "I am annoyed about the mistake." }] },
-  { "lemma": "arm", "pos": "adj", "level": "A2", "freq": 850, "adj": { "comparative": "ärmer", "superlative": "ärmst" }, "senses": [{ "en": "poor", "example_de": "Die Familie war früher sehr arm.", "example_en": "The family used to be very poor." }] },
-  { "lemma": "aufpassen", "pos": "verb", "level": "A2", "freq": 700, "verb": { "aux": "haben", "separablePrefix": "auf" }, "senses": [{ "en": "to pay attention, to watch out", "note": "separable; aufpassen auf + Akk.", "example_de": "Pass auf, das Auto kommt!", "example_en": "Watch out, the car is coming!" }] },
-  { "lemma": "aufräumen", "pos": "verb", "level": "A2", "freq": 900, "verb": { "aux": "haben", "separablePrefix": "auf" }, "senses": [{ "en": "to tidy up, to clean up", "note": "separable", "example_de": "Räum bitte dein Zimmer auf!", "example_en": "Please tidy up your room!" }] },
-  { "lemma": "aufwachen", "pos": "verb", "level": "A2", "freq": 850, "verb": { "aux": "sein", "separablePrefix": "auf" }, "senses": [{ "en": "to wake up", "note": "separable; Perfekt mit sein", "example_de": "Ich bin heute früh aufgewacht.", "example_en": "I woke up early today." }] },
-  { "lemma": "Augenblick", "pos": "noun", "level": "A2", "freq": 800, "noun": { "gender": "m", "plural": "Augenblicke" }, "senses": [{ "en": "moment, instant", "note": "Einen Augenblick, bitte!", "example_de": "Einen Augenblick, bitte, ich komme gleich.", "example_en": "One moment please, I am coming." }] },
-  { "lemma": "Ausbildung", "pos": "noun", "level": "A2", "freq": 750, "noun": { "gender": "f", "plural": "Ausbildungen" }, "senses": [{ "en": "vocational training, education", "example_de": "Er macht eine Ausbildung als Koch.", "example_en": "He is doing training as a cook." }] },
-  { "lemma": "ausdrucken", "pos": "verb", "level": "A2", "freq": 1400, "verb": { "aux": "haben", "separablePrefix": "aus" }, "senses": [{ "en": "to print out", "note": "separable", "example_de": "Ich drucke das Ticket aus.", "example_en": "I am printing out the ticket." }] },
-  { "lemma": "ausfallen", "pos": "verb", "level": "A2", "freq": 1100, "verb": { "aux": "sein", "separablePrefix": "aus", "du": "fällst", "er": "fällt", "praeteritum": "fiel", "partizip2": "ausgefallen" }, "senses": [{ "en": "to be cancelled", "note": "separable; Perfekt mit sein", "example_de": "Der Kurs fällt heute aus.", "example_en": "The course is cancelled today." }] },
-  { "lemma": "ausgeben", "pos": "verb", "level": "A2", "freq": 800, "verb": { "aux": "haben", "separablePrefix": "aus", "du": "gibst", "er": "gibt", "praeteritum": "gab", "partizip2": "ausgegeben" }, "senses": [{ "en": "to spend (money)", "note": "separable", "example_de": "Ich gebe zu viel Geld aus.", "example_en": "I spend too much money." }] },
-  { "lemma": "Auskunft", "pos": "noun", "level": "A2", "freq": 1100, "noun": { "gender": "f", "plural": "Auskünfte" }, "senses": [{ "en": "information (desk)", "example_de": "Fragen Sie bitte an der Auskunft.", "example_en": "Please ask at the information desk." }] },
-  { "lemma": "Ausländer", "pos": "noun", "level": "A2", "freq": 1200, "noun": { "gender": "m", "plural": "Ausländer" }, "senses": [{ "en": "foreigner", "example_de": "Viele Ausländer lernen hier Deutsch.", "example_en": "Many foreigners learn German here." }] },
-  { "lemma": "ausleihen", "pos": "verb", "level": "A2", "freq": 1300, "verb": { "aux": "haben", "separablePrefix": "aus", "praeteritum": "lieh", "partizip2": "ausgeliehen" }, "senses": [{ "en": "to borrow, to lend out", "note": "separable; sich etwas ausleihen", "example_de": "Ich leihe mir ein Buch aus.", "example_en": "I am borrowing a book." }] },
-  { "lemma": "ausmachen", "pos": "verb", "level": "A2", "freq": 750, "verb": { "aux": "haben", "separablePrefix": "aus" }, "senses": [{ "en": "to turn off, to switch off", "note": "separable", "example_de": "Mach bitte das Licht aus!", "example_en": "Please turn off the light!" }, { "en": "to arrange, to agree on", "example_de": "Wir machen einen Termin aus.", "example_en": "We are arranging an appointment." }] },
-  { "lemma": "ausruhen", "pos": "verb", "level": "A2", "freq": 1000, "verb": { "aux": "haben", "separablePrefix": "aus" }, "senses": [{ "en": "to rest, to relax", "note": "separable; reflexiv: sich ausruhen", "example_de": "Nach der Arbeit ruhe ich mich aus.", "example_en": "After work I rest." }] },
-  { "lemma": "ausschalten", "pos": "verb", "level": "A2", "freq": 1200, "verb": { "aux": "haben", "separablePrefix": "aus" }, "senses": [{ "en": "to switch off", "note": "separable", "example_de": "Schalte den Computer aus!", "example_en": "Switch off the computer!" }] },
-  { "lemma": "außerdem", "pos": "adv", "level": "A2", "freq": 600, "senses": [{ "en": "besides, in addition", "example_de": "Ich bin müde, außerdem habe ich Hunger.", "example_en": "I am tired; besides, I am hungry." }] },
-  { "lemma": "Ausstellung", "pos": "noun", "level": "A2", "freq": 1100, "noun": { "gender": "f", "plural": "Ausstellungen" }, "senses": [{ "en": "exhibition", "example_de": "Die Ausstellung im Museum ist interessant.", "example_en": "The exhibition in the museum is interesting." }] },
-  { "lemma": "aussuchen", "pos": "verb", "level": "A2", "freq": 1200, "verb": { "aux": "haben", "separablePrefix": "aus" }, "senses": [{ "en": "to choose, to pick out", "note": "separable; sich etwas aussuchen", "example_de": "Such dir einen Kuchen aus!", "example_en": "Pick out a cake!" }] },
-  { "lemma": "ausziehen", "pos": "verb", "level": "A2", "freq": 950, "verb": { "aux": "haben", "separablePrefix": "aus", "praeteritum": "zog", "partizip2": "ausgezogen" }, "senses": [{ "en": "to take off (clothes)", "note": "separable; reflexiv: sich ausziehen", "example_de": "Zieh die Schuhe aus, bitte!", "example_en": "Take off your shoes, please!" }, { "en": "to move out", "note": "Perfekt mit sein: Er ist ausgezogen.", "example_de": "Er zieht am Montag aus.", "example_en": "He is moving out on Monday." }] },
-  { "lemma": "backen", "pos": "verb", "level": "A2", "freq": 900, "verb": { "aux": "haben", "praeteritum": "backte", "partizip2": "gebacken" }, "senses": [{ "en": "to bake", "example_de": "Oma backt einen Kuchen.", "example_en": "Grandma is baking a cake." }] },
-  { "lemma": "Badewanne", "pos": "noun", "level": "A2", "freq": 1600, "noun": { "gender": "f", "plural": "Badewannen" }, "senses": [{ "en": "bathtub", "example_de": "Das Bad hat eine große Badewanne.", "example_en": "The bathroom has a big bathtub." }] },
-  { "lemma": "Ball", "pos": "noun", "level": "A2", "freq": 800, "noun": { "gender": "m", "plural": "Bälle" }, "senses": [{ "en": "ball", "example_de": "Die Kinder spielen mit dem Ball.", "example_en": "The children are playing with the ball." }] },
-  { "lemma": "Bart", "pos": "noun", "level": "A2", "freq": 1500, "noun": { "gender": "m", "plural": "Bärte" }, "senses": [{ "en": "beard", "example_de": "Mein Vater hat einen langen Bart.", "example_en": "My father has a long beard." }] },
-  { "lemma": "Batterie", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "f", "plural": "Batterien" }, "senses": [{ "en": "battery", "example_de": "Die Batterie ist leer.", "example_en": "The battery is dead." }] },
-  { "lemma": "Bauch", "pos": "noun", "level": "A2", "freq": 900, "noun": { "gender": "m", "plural": "Bäuche" }, "senses": [{ "en": "belly, stomach", "example_de": "Mein Bauch tut weh.", "example_en": "My stomach hurts." }] },
-  { "lemma": "bauen", "pos": "verb", "level": "A2", "freq": 700, "verb": { "aux": "haben" }, "senses": [{ "en": "to build", "example_de": "Sie bauen ein neues Haus.", "example_en": "They are building a new house." }] },
-  { "lemma": "Bauer", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "m", "plural": "Bauern", "genitive": "Bauern" }, "senses": [{ "en": "farmer", "note": "n-Deklination: den/dem Bauern", "example_de": "Der Bauer verkauft Obst auf dem Markt.", "example_en": "The farmer sells fruit at the market." }] },
-  { "lemma": "Baustelle", "pos": "noun", "level": "A2", "freq": 1500, "noun": { "gender": "f", "plural": "Baustellen" }, "senses": [{ "en": "construction site", "example_de": "Auf der Straße ist eine Baustelle.", "example_en": "There is a construction site on the road." }] },
-  { "lemma": "beantworten", "pos": "verb", "level": "A2", "freq": 850, "verb": { "aux": "haben", "partizip2": "beantwortet" }, "senses": [{ "en": "to answer (something)", "note": "+ Akkusativ: eine Frage beantworten", "example_de": "Bitte beantworten Sie die Fragen.", "example_en": "Please answer the questions." }] },
-  { "lemma": "beeilen", "pos": "verb", "level": "A2", "freq": 1000, "verb": { "aux": "haben", "partizip2": "beeilt" }, "senses": [{ "en": "to hurry", "note": "reflexiv: sich beeilen", "example_de": "Beeil dich, der Zug fährt gleich!", "example_en": "Hurry up, the train is leaving soon!" }] },
-  { "lemma": "begrüßen", "pos": "verb", "level": "A2", "freq": 1100, "verb": { "aux": "haben", "partizip2": "begrüßt" }, "senses": [{ "en": "to greet, to welcome", "example_de": "Der Chef begrüßt die Gäste.", "example_en": "The boss greets the guests." }] },
-  { "lemma": "benutzen", "pos": "verb", "level": "A2", "freq": 650, "verb": { "aux": "haben", "partizip2": "benutzt" }, "senses": [{ "en": "to use", "example_de": "Darf ich dein Handy benutzen?", "example_en": "May I use your phone?" }] },
-  { "lemma": "Benzin", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "n", "plural": null }, "senses": [{ "en": "petrol, gasoline", "example_de": "Das Benzin ist wieder teurer.", "example_en": "Petrol is more expensive again." }] },
-  { "lemma": "bequem", "pos": "adj", "level": "A2", "freq": 950, "senses": [{ "en": "comfortable", "example_de": "Das Sofa ist sehr bequem.", "example_en": "The sofa is very comfortable." }] },
-  { "lemma": "Berg", "pos": "noun", "level": "A2", "freq": 700, "noun": { "gender": "m", "plural": "Berge" }, "senses": [{ "en": "mountain", "example_de": "Im Urlaub fahren wir in die Berge.", "example_en": "On holiday we go to the mountains." }] },
-  { "lemma": "berühmt", "pos": "adj", "level": "A2", "freq": 1000, "senses": [{ "en": "famous", "example_de": "Dieses Museum ist sehr berühmt.", "example_en": "This museum is very famous." }] },
-  { "lemma": "Bescheid", "pos": "noun", "level": "A2", "freq": 900, "noun": { "gender": "m", "plural": "Bescheide" }, "senses": [{ "en": "notice, information", "note": "Bescheid sagen/geben = to let someone know", "example_de": "Sag mir bitte morgen Bescheid.", "example_en": "Please let me know tomorrow." }] },
-  { "lemma": "beschreiben", "pos": "verb", "level": "A2", "freq": 800, "verb": { "aux": "haben", "praeteritum": "beschrieb", "partizip2": "beschrieben" }, "senses": [{ "en": "to describe", "example_de": "Können Sie den Weg beschreiben?", "example_en": "Can you describe the way?" }] },
-  { "lemma": "besichtigen", "pos": "verb", "level": "A2", "freq": 1100, "verb": { "aux": "haben", "partizip2": "besichtigt" }, "senses": [{ "en": "to visit, to tour (sights)", "example_de": "Wir besichtigen morgen die Stadt.", "example_en": "We are touring the city tomorrow." }] },
-  { "lemma": "besonders", "pos": "adv", "level": "A2", "freq": 500, "senses": [{ "en": "especially, particularly", "example_de": "Ich mag Obst, besonders Äpfel.", "example_en": "I like fruit, especially apples." }] },
-  { "lemma": "Besserung", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "f", "plural": null }, "senses": [{ "en": "improvement, recovery", "note": "Gute Besserung! = get well soon!", "example_de": "Du bist krank? Gute Besserung!", "example_en": "You are ill? Get well soon!" }] },
-  { "lemma": "bestehen", "pos": "verb", "level": "A2", "freq": 900, "verb": { "aux": "haben", "praeteritum": "bestand", "partizip2": "bestanden" }, "senses": [{ "en": "to pass (an exam)", "example_de": "Sie hat die Prüfung bestanden.", "example_en": "She passed the exam." }] },
-  { "lemma": "bestimmt", "pos": "adv", "level": "A2", "freq": 550, "senses": [{ "en": "certainly, surely", "example_de": "Er kommt bestimmt noch.", "example_en": "He will surely still come." }] },
-  { "lemma": "bevor", "pos": "conj", "level": "A2", "freq": 700, "senses": [{ "en": "before (conjunction)", "note": "Nebensatz: Verb am Ende", "example_de": "Bevor ich esse, wasche ich die Hände.", "example_en": "Before I eat, I wash my hands." }] },
-  { "lemma": "Bewerbung", "pos": "noun", "level": "A2", "freq": 1000, "noun": { "gender": "f", "plural": "Bewerbungen" }, "senses": [{ "en": "application (for a job)", "example_de": "Ich schreibe eine Bewerbung für den Job.", "example_en": "I am writing an application for the job." }] },
-  { "lemma": "bewerben", "pos": "verb", "level": "A2", "freq": 1050, "verb": { "aux": "haben", "du": "bewirbst", "er": "bewirbt", "praeteritum": "bewarb", "partizip2": "beworben" }, "senses": [{ "en": "to apply (for a job)", "note": "reflexiv: sich bewerben um/bei + Akk./Dat.", "example_de": "Er bewirbt sich bei einer Firma.", "example_en": "He is applying to a company." }] },
-  { "lemma": "bewölkt", "pos": "adj", "level": "A2", "freq": 1600, "senses": [{ "en": "cloudy, overcast", "example_de": "Heute ist der Himmel bewölkt.", "example_en": "Today the sky is cloudy." }] },
-  { "lemma": "Bildschirm", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "m", "plural": "Bildschirme" }, "senses": [{ "en": "screen, monitor", "example_de": "Der Bildschirm ist zu dunkel.", "example_en": "The screen is too dark." }] },
-  { "lemma": "Birne", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "f", "plural": "Birnen" }, "senses": [{ "en": "pear", "example_de": "Ich esse gern Birnen.", "example_en": "I like eating pears." }] },
-  { "lemma": "bitten", "pos": "verb", "level": "A2", "freq": 600, "verb": { "aux": "haben", "praeteritum": "bat", "partizip2": "gebeten" }, "senses": [{ "en": "to ask (for), to request", "note": "bitten um + Akkusativ", "example_de": "Ich bitte dich um Hilfe.", "example_en": "I am asking you for help." }] },
-  { "lemma": "bitter", "pos": "adj", "level": "A2", "freq": 1300, "senses": [{ "en": "bitter", "example_de": "Der Kaffee ist mir zu bitter.", "example_en": "The coffee is too bitter for me." }] },
-  { "lemma": "Blatt", "pos": "noun", "level": "A2", "freq": 1000, "noun": { "gender": "n", "plural": "Blätter", "genitive": "Blattes" }, "senses": [{ "en": "sheet (of paper); leaf", "example_de": "Nimm ein Blatt Papier.", "example_en": "Take a sheet of paper." }] },
-  { "lemma": "blau", "pos": "adj", "level": "A2", "freq": 450, "senses": [{ "en": "blue", "example_de": "Der Himmel ist heute blau.", "example_en": "The sky is blue today." }] },
-  { "lemma": "blond", "pos": "adj", "level": "A2", "freq": 1200, "senses": [{ "en": "blond", "example_de": "Sie hat lange blonde Haare.", "example_en": "She has long blond hair." }] },
-  { "lemma": "Bluse", "pos": "noun", "level": "A2", "freq": 1500, "noun": { "gender": "f", "plural": "Blusen" }, "senses": [{ "en": "blouse", "example_de": "Die Bluse passt gut zum Rock.", "example_en": "The blouse goes well with the skirt." }] },
-  { "lemma": "Boden", "pos": "noun", "level": "A2", "freq": 800, "noun": { "gender": "m", "plural": "Böden" }, "senses": [{ "en": "floor, ground", "example_de": "Die Tasche steht auf dem Boden.", "example_en": "The bag is on the floor." }] },
-  { "lemma": "Boot", "pos": "noun", "level": "A2", "freq": 1200, "noun": { "gender": "n", "plural": "Boote" }, "senses": [{ "en": "boat", "example_de": "Wir fahren mit dem Boot über den See.", "example_en": "We are crossing the lake by boat." }] },
-  { "lemma": "böse", "pos": "adj", "level": "A2", "freq": 800, "senses": [{ "en": "angry; bad, evil", "note": "böse sein auf + Akk.", "example_de": "Bist du böse auf mich?", "example_en": "Are you angry with me?" }] },
-  { "lemma": "braun", "pos": "adj", "level": "A2", "freq": 700, "senses": [{ "en": "brown", "example_de": "Sie hat braune Augen.", "example_en": "She has brown eyes." }] },
-  { "lemma": "breit", "pos": "adj", "level": "A2", "freq": 900, "senses": [{ "en": "wide, broad", "example_de": "Die Straße ist sehr breit.", "example_en": "The street is very wide." }] },
-  { "lemma": "Briefkasten", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "m", "plural": "Briefkästen" }, "senses": [{ "en": "letterbox, mailbox", "example_de": "Der Brief liegt im Briefkasten.", "example_en": "The letter is in the mailbox." }] },
-  { "lemma": "Brücke", "pos": "noun", "level": "A2", "freq": 900, "noun": { "gender": "f", "plural": "Brücken" }, "senses": [{ "en": "bridge", "example_de": "Wir gehen über die Brücke.", "example_en": "We are walking across the bridge." }] },
-  { "lemma": "Buchstabe", "pos": "noun", "level": "A2", "freq": 1100, "noun": { "gender": "m", "plural": "Buchstaben", "genitive": "Buchstabens" }, "senses": [{ "en": "letter (of the alphabet)", "note": "n-Deklination: den Buchstaben", "example_de": "Das Wort hat sieben Buchstaben.", "example_en": "The word has seven letters." }] },
-  { "lemma": "bunt", "pos": "adj", "level": "A2", "freq": 1100, "senses": [{ "en": "colourful", "example_de": "Das Kleid ist schön bunt.", "example_en": "The dress is nicely colourful." }] },
-  { "lemma": "Campingplatz", "pos": "noun", "level": "A2", "freq": 1600, "noun": { "gender": "m", "plural": "Campingplätze" }, "senses": [{ "en": "campsite", "example_de": "Im Sommer schlafen wir auf dem Campingplatz.", "example_en": "In summer we sleep at the campsite." }] },
-  { "lemma": "chatten", "pos": "verb", "level": "A2", "freq": 1500, "verb": { "aux": "haben" }, "senses": [{ "en": "to chat (online)", "example_de": "Ich chatte oft mit meinen Freunden.", "example_en": "I often chat with my friends." }] },
-  { "lemma": "Cousin", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "m", "plural": "Cousins" }, "senses": [{ "en": "cousin (male)", "example_de": "Mein Cousin wohnt in Wien.", "example_en": "My cousin lives in Vienna." }] },
-  { "lemma": "Cousine", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "f", "plural": "Cousinen" }, "senses": [{ "en": "cousin (female)", "example_de": "Meine Cousine besucht uns am Sonntag.", "example_en": "My cousin is visiting us on Sunday." }] },
-  { "lemma": "dabei", "pos": "adv", "level": "A2", "freq": 500, "senses": [{ "en": "with it; there, present", "note": "dabei sein = to be there / take part", "example_de": "Ich habe kein Geld dabei.", "example_en": "I have no money with me." }] },
-  { "lemma": "Dach", "pos": "noun", "level": "A2", "freq": 1000, "noun": { "gender": "n", "plural": "Dächer" }, "senses": [{ "en": "roof", "example_de": "Das Haus hat ein rotes Dach.", "example_en": "The house has a red roof." }] },
-  { "lemma": "dafür", "pos": "adv", "level": "A2", "freq": 550, "senses": [{ "en": "for it, in favour of it", "example_de": "Ich bin dafür, wir fahren morgen.", "example_en": "I am in favour, we leave tomorrow." }] },
-  { "lemma": "dagegen", "pos": "adv", "level": "A2", "freq": 650, "senses": [{ "en": "against it", "example_de": "Er ist gegen den Plan, ich bin auch dagegen.", "example_en": "He is against the plan, I am against it too." }] },
-  { "lemma": "damals", "pos": "adv", "level": "A2", "freq": 700, "senses": [{ "en": "back then, at that time", "example_de": "Damals hatten wir kein Internet.", "example_en": "Back then we had no internet." }] },
-  { "lemma": "damit", "pos": "conj", "level": "A2", "freq": 600, "senses": [{ "en": "so that", "note": "Nebensatz: Verb am Ende", "example_de": "Ich lerne viel, damit ich die Prüfung bestehe.", "example_en": "I study a lot so that I pass the exam." }] },
-  { "lemma": "danach", "pos": "adv", "level": "A2", "freq": 500, "senses": [{ "en": "afterwards, after that", "example_de": "Wir essen, danach gehen wir spazieren.", "example_en": "We eat, afterwards we go for a walk." }] },
-  { "lemma": "Datum", "pos": "noun", "level": "A2", "freq": 900, "noun": { "gender": "n", "plural": "Daten" }, "senses": [{ "en": "date (calendar)", "example_de": "Welches Datum haben wir heute?", "example_en": "What is the date today?" }] },
-  { "lemma": "Decke", "pos": "noun", "level": "A2", "freq": 1100, "noun": { "gender": "f", "plural": "Decken" }, "senses": [{ "en": "blanket", "example_de": "Mir ist kalt, gib mir eine Decke.", "example_en": "I am cold, give me a blanket." }, { "en": "ceiling", "example_de": "Die Lampe hängt an der Decke.", "example_en": "The lamp hangs from the ceiling." }] },
-  { "lemma": "denken", "pos": "verb", "level": "A2", "freq": 250, "verb": { "aux": "haben", "praeteritum": "dachte", "partizip2": "gedacht" }, "senses": [{ "en": "to think", "note": "denken an + Akkusativ", "example_de": "Ich denke oft an dich.", "example_en": "I often think of you." }] },
-  { "lemma": "deshalb", "pos": "adv", "level": "A2", "freq": 450, "senses": [{ "en": "therefore, that is why", "example_de": "Ich bin krank, deshalb bleibe ich zu Hause.", "example_en": "I am ill, that is why I stay home." }] },
-  { "lemma": "dick", "pos": "adj", "level": "A2", "freq": 800, "senses": [{ "en": "thick; fat", "example_de": "Im Winter trage ich eine dicke Jacke.", "example_en": "In winter I wear a thick jacket." }] },
-  { "lemma": "direkt", "pos": "adj", "level": "A2", "freq": 600, "senses": [{ "en": "direct(ly)", "example_de": "Der Zug fährt direkt nach München.", "example_en": "The train goes directly to Munich." }] },
-  { "lemma": "Disco", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "f", "plural": "Discos" }, "senses": [{ "en": "disco, club", "example_de": "Am Samstag gehen wir in die Disco.", "example_en": "On Saturday we go to the disco." }] },
-  { "lemma": "Doktor", "pos": "noun", "level": "A2", "freq": 1000, "noun": { "gender": "m", "plural": "Doktoren" }, "senses": [{ "en": "doctor (title)", "example_de": "Frau Doktor Meier hat heute keine Zeit.", "example_en": "Doctor Meier has no time today." }] },
-  { "lemma": "Dokument", "pos": "noun", "level": "A2", "freq": 1200, "noun": { "gender": "n", "plural": "Dokumente" }, "senses": [{ "en": "document", "example_de": "Bringen Sie bitte alle Dokumente mit.", "example_en": "Please bring all documents with you." }] },
-  { "lemma": "Dose", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "f", "plural": "Dosen" }, "senses": [{ "en": "can, tin", "example_de": "Er kauft eine Dose Tomaten.", "example_en": "He buys a can of tomatoes." }] },
-  { "lemma": "draußen", "pos": "adv", "level": "A2", "freq": 600, "senses": [{ "en": "outside", "example_de": "Die Kinder spielen draußen.", "example_en": "The children are playing outside." }] },
-  { "lemma": "dringend", "pos": "adj", "level": "A2", "freq": 900, "senses": [{ "en": "urgent(ly)", "example_de": "Ich muss dringend mit dir sprechen.", "example_en": "I urgently need to speak with you." }] },
-  { "lemma": "drinnen", "pos": "adv", "level": "A2", "freq": 1000, "senses": [{ "en": "inside, indoors", "example_de": "Bei Regen bleiben wir drinnen.", "example_en": "When it rains we stay inside." }] },
-  { "lemma": "Drogerie", "pos": "noun", "level": "A2", "freq": 1500, "noun": { "gender": "f", "plural": "Drogerien" }, "senses": [{ "en": "drugstore", "example_de": "Shampoo kaufe ich in der Drogerie.", "example_en": "I buy shampoo at the drugstore." }] },
-  { "lemma": "drüben", "pos": "adv", "level": "A2", "freq": 1200, "senses": [{ "en": "over there", "example_de": "Die Post ist da drüben.", "example_en": "The post office is over there." }] },
-  { "lemma": "drucken", "pos": "verb", "level": "A2", "freq": 1100, "verb": { "aux": "haben" }, "senses": [{ "en": "to print", "example_de": "Ich drucke den Brief zweimal.", "example_en": "I am printing the letter twice." }] },
-  { "lemma": "Drucker", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "m", "plural": "Drucker" }, "senses": [{ "en": "printer", "example_de": "Der Drucker ist schon wieder kaputt.", "example_en": "The printer is broken again." }] },
-  { "lemma": "drücken", "pos": "verb", "level": "A2", "freq": 1000, "verb": { "aux": "haben" }, "senses": [{ "en": "to press, to push", "note": "an Türen: Drücken / Ziehen", "example_de": "Drücken Sie bitte den roten Knopf.", "example_en": "Please press the red button." }] },
-  { "lemma": "dumm", "pos": "adj", "level": "A2", "freq": 900, "adj": { "comparative": "dümmer", "superlative": "dümmst" }, "senses": [{ "en": "stupid, silly", "example_de": "Das war eine dumme Idee.", "example_en": "That was a stupid idea." }] },
-  { "lemma": "dünn", "pos": "adj", "level": "A2", "freq": 1000, "senses": [{ "en": "thin", "example_de": "Das Buch ist ganz dünn.", "example_en": "The book is very thin." }] },
-  { "lemma": "durch", "pos": "prep", "level": "A2", "freq": 300, "senses": [{ "en": "through", "note": "+ Akkusativ", "example_de": "Wir gehen durch den Park.", "example_en": "We are walking through the park." }] },
-  { "lemma": "Durchsage", "pos": "noun", "level": "A2", "freq": 1700, "noun": { "gender": "f", "plural": "Durchsagen" }, "senses": [{ "en": "announcement (over loudspeaker)", "example_de": "Hören Sie die Durchsage am Bahnhof?", "example_en": "Do you hear the announcement at the station?" }] },
-  { "lemma": "echt", "pos": "adj", "level": "A2", "freq": 550, "senses": [{ "en": "real, genuine; really", "note": "umgangssprachlich: echt gut = really good", "example_de": "Der Film war echt gut.", "example_en": "The film was really good." }] },
-  { "lemma": "egal", "pos": "adj", "level": "A2", "freq": 650, "adj": { "indeclinable": true }, "senses": [{ "en": "all the same, no matter", "note": "Das ist mir egal. (nur prädikativ)", "example_de": "Das ist mir egal.", "example_en": "I do not care." }] },
-  { "lemma": "Ehefrau", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "f", "plural": "Ehefrauen" }, "senses": [{ "en": "wife", "example_de": "Seine Ehefrau arbeitet als Ärztin.", "example_en": "His wife works as a doctor." }] },
-  { "lemma": "Ehemann", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "m", "plural": "Ehemänner" }, "senses": [{ "en": "husband", "example_de": "Ihr Ehemann kocht sehr gern.", "example_en": "Her husband loves cooking." }] },
-  { "lemma": "eigentlich", "pos": "adv", "level": "A2", "freq": 400, "senses": [{ "en": "actually, really", "example_de": "Eigentlich wollte ich heute schwimmen gehen.", "example_en": "Actually I wanted to go swimming today." }] },
-  { "lemma": "einige", "pos": "pron", "level": "A2", "freq": 500, "senses": [{ "en": "some, a few", "example_de": "Einige Schüler sind heute krank.", "example_en": "Some pupils are ill today." }] },
-  { "lemma": "einpacken", "pos": "verb", "level": "A2", "freq": 1300, "verb": { "aux": "haben", "separablePrefix": "ein" }, "senses": [{ "en": "to pack, to wrap up", "note": "separable", "example_de": "Ich packe die Koffer ein.", "example_en": "I am packing the suitcases." }] },
-  { "lemma": "einschalten", "pos": "verb", "level": "A2", "freq": 1200, "verb": { "aux": "haben", "separablePrefix": "ein" }, "senses": [{ "en": "to switch on", "note": "separable", "example_de": "Schalte bitte das Radio ein.", "example_en": "Please switch on the radio." }] },
-  { "lemma": "einschlafen", "pos": "verb", "level": "A2", "freq": 1000, "verb": { "aux": "sein", "separablePrefix": "ein", "du": "schläfst", "er": "schläft", "praeteritum": "schlief", "partizip2": "eingeschlafen" }, "senses": [{ "en": "to fall asleep", "note": "separable; Perfekt mit sein", "example_de": "Das Kind schläft schnell ein.", "example_en": "The child falls asleep quickly." }] },
-  { "lemma": "Eintritt", "pos": "noun", "level": "A2", "freq": 1200, "noun": { "gender": "m", "plural": null }, "senses": [{ "en": "admission, entry (fee)", "note": "Eintritt frei = free admission", "example_de": "Der Eintritt kostet fünf Euro.", "example_en": "Admission costs five euros." }] },
-  { "lemma": "Eintrittskarte", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "f", "plural": "Eintrittskarten" }, "senses": [{ "en": "admission ticket", "example_de": "Ich habe zwei Eintrittskarten für das Konzert.", "example_en": "I have two tickets for the concert." }] },
-  { "lemma": "einverstanden", "pos": "adj", "level": "A2", "freq": 800, "adj": { "indeclinable": true }, "senses": [{ "en": "in agreement, agreed", "note": "einverstanden sein mit + Dativ (nur prädikativ)", "example_de": "Ich bin mit dem Plan einverstanden.", "example_en": "I agree with the plan." }] },
-  { "lemma": "empfehlen", "pos": "verb", "level": "A2", "freq": 850, "verb": { "aux": "haben", "du": "empfiehlst", "er": "empfiehlt", "praeteritum": "empfahl", "partizip2": "empfohlen" }, "senses": [{ "en": "to recommend", "note": "+ Dativ (Person) + Akkusativ (Sache)", "example_de": "Der Kellner empfiehlt uns den Fisch.", "example_en": "The waiter recommends the fish to us." }] },
-  { "lemma": "endlich", "pos": "adv", "level": "A2", "freq": 400, "senses": [{ "en": "finally, at last", "example_de": "Endlich sind die Ferien da!", "example_en": "Finally the holidays are here!" }] },
-  { "lemma": "eng", "pos": "adj", "level": "A2", "freq": 1000, "senses": [{ "en": "narrow; tight", "example_de": "Die Hose ist mir zu eng.", "example_en": "The trousers are too tight for me." }] },
-  { "lemma": "Enkel", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "m", "plural": "Enkel" }, "senses": [{ "en": "grandson, grandchild", "example_de": "Oma besucht heute ihre Enkel.", "example_en": "Grandma is visiting her grandchildren today." }] },
-  { "lemma": "entscheiden", "pos": "verb", "level": "A2", "freq": 700, "verb": { "aux": "haben", "praeteritum": "entschied", "partizip2": "entschieden" }, "senses": [{ "en": "to decide", "note": "oft reflexiv: sich entscheiden für + Akk.", "example_de": "Ich entscheide mich für das rote Auto.", "example_en": "I decide on the red car." }] },
-  { "lemma": "entweder", "pos": "conj", "level": "A2", "freq": 900, "senses": [{ "en": "either", "note": "entweder … oder = either … or", "example_de": "Wir fahren entweder ans Meer oder in die Berge.", "example_en": "We go either to the sea or to the mountains." }] },
-  { "lemma": "Erdbeere", "pos": "noun", "level": "A2", "freq": 1400, "noun": { "gender": "f", "plural": "Erdbeeren" }, "senses": [{ "en": "strawberry", "example_de": "Im Juni essen wir viele Erdbeeren.", "example_en": "In June we eat lots of strawberries." }] },
-  { "lemma": "Erfolg", "pos": "noun", "level": "A2", "freq": 700, "noun": { "gender": "m", "plural": "Erfolge" }, "senses": [{ "en": "success", "note": "Viel Erfolg! = good luck!", "example_de": "Viel Erfolg bei der Prüfung!", "example_en": "Good luck with the exam!" }] },
-  { "lemma": "erinnern", "pos": "verb", "level": "A2", "freq": 750, "verb": { "aux": "haben", "partizip2": "erinnert" }, "senses": [{ "en": "to remember; to remind", "note": "reflexiv: sich erinnern an + Akk.", "example_de": "Ich erinnere mich gut an den Urlaub.", "example_en": "I remember the holiday well." }] },
-  { "lemma": "erkältet", "pos": "adj", "level": "A2", "freq": 1300, "senses": [{ "en": "having a cold", "note": "erkältet sein = to have a cold", "example_de": "Ich bin erkältet und bleibe im Bett.", "example_en": "I have a cold and stay in bed." }] },
-  { "lemma": "Erkältung", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "f", "plural": "Erkältungen" }, "senses": [{ "en": "a cold (illness)", "example_de": "Er hat eine starke Erkältung.", "example_en": "He has a bad cold." }] },
-  { "lemma": "erlauben", "pos": "verb", "level": "A2", "freq": 900, "verb": { "aux": "haben", "partizip2": "erlaubt" }, "senses": [{ "en": "to allow, to permit", "note": "+ Dativ (Person)", "example_de": "Meine Eltern erlauben mir die Party.", "example_en": "My parents allow me the party." }] },
-  { "lemma": "erreichen", "pos": "verb", "level": "A2", "freq": 800, "verb": { "aux": "haben", "partizip2": "erreicht" }, "senses": [{ "en": "to reach; to catch (a train)", "example_de": "Wir erreichen den Zug noch.", "example_en": "We will still catch the train." }, { "en": "to reach (by phone)", "example_de": "Sie erreichen mich unter dieser Nummer.", "example_en": "You can reach me at this number." }] },
-  { "lemma": "Etage", "pos": "noun", "level": "A2", "freq": 1300, "noun": { "gender": "f", "plural": "Etagen" }, "senses": [{ "en": "floor, storey", "example_de": "Das Büro ist in der dritten Etage.", "example_en": "The office is on the third floor." }] },
-  { "lemma": "etwa", "pos": "adv", "level": "A2", "freq": 600, "senses": [{ "en": "approximately, about", "example_de": "Die Fahrt dauert etwa zwei Stunden.", "example_en": "The journey takes about two hours." }] },
-  { "lemma": "extra", "pos": "adv", "level": "A2", "freq": 1200, "senses": [{ "en": "extra, specially", "example_de": "Ich bin extra früh gekommen.", "example_en": "I came specially early." }] }
+  {
+    "lemma": "ab und zu",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "now and then, occasionally",
+        "example_de": "Ab und zu gehe ich ins Kino.",
+        "example_en": "Now and then I go to the cinema."
+      }
+    ]
+  },
+  {
+    "lemma": "Abfall",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Abfälle"
+    },
+    "senses": [
+      {
+        "en": "garbage, waste",
+        "example_de": "Der Abfall kommt in die Tonne.",
+        "example_en": "The garbage goes in the bin."
+      }
+    ]
+  },
+  {
+    "lemma": "abgeben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 950,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab",
+      "du": "gibst",
+      "er": "gibt",
+      "praeteritum": "gab",
+      "partizip2": "abgegeben"
+    },
+    "senses": [
+      {
+        "en": "to hand in, to hand over",
+        "note": "separable",
+        "example_de": "Bitte geben Sie das Formular ab.",
+        "example_en": "Please hand in the form."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich gebe den Schlüssel an der Rezeption ab.",
+        "en": "I hand in the key at the reception."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie gab die Hausaufgaben zu spät ab.",
+        "en": "She handed in the homework too late."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du den Test schon abgegeben?",
+        "en": "Have you handed in the test yet?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Gib das Paket bei der Post ab!",
+        "en": "Drop the package off at the post office!"
+      }
+    ]
+  },
+  {
+    "lemma": "Abitur",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "school-leaving exam (grammar school)",
+        "example_de": "Meine Schwester macht dieses Jahr Abitur.",
+        "example_en": "My sister is taking her Abitur this year."
+      }
+    ]
+  },
+  {
+    "lemma": "abschließen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab",
+      "praeteritum": "schloss",
+      "partizip2": "abgeschlossen"
+    },
+    "senses": [
+      {
+        "en": "to lock; to complete",
+        "note": "separable",
+        "example_de": "Hast du die Tür abgeschlossen?",
+        "example_en": "Did you lock the door?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich schließe abends immer die Haustür ab.",
+        "en": "In the evening I always lock the front door."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er schloss sein Fahrrad ab.",
+        "en": "He locked his bicycle."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Büro abgeschlossen.",
+        "en": "We locked the office."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Schließ bitte das Auto ab!",
+        "en": "Please lock the car!"
+      }
+    ]
+  },
+  {
+    "lemma": "Absender",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "m",
+      "plural": "Absender"
+    },
+    "senses": [
+      {
+        "en": "sender (of a letter)",
+        "example_de": "Der Brief hat keinen Absender.",
+        "example_en": "The letter has no sender."
+      }
+    ]
+  },
+  {
+    "lemma": "ähnlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 800,
+    "senses": [
+      {
+        "en": "similar",
+        "note": "+ Dativ",
+        "example_de": "Du bist deinem Vater sehr ähnlich.",
+        "example_en": "You are very similar to your father."
+      }
+    ]
+  },
+  {
+    "lemma": "Ahnung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 850,
+    "noun": {
+      "gender": "f",
+      "plural": "Ahnungen"
+    },
+    "senses": [
+      {
+        "en": "idea, clue",
+        "note": "keine Ahnung! = no idea!",
+        "example_de": "Ich habe keine Ahnung, wo er ist.",
+        "example_en": "I have no idea where he is."
+      }
+    ]
+  },
+  {
+    "lemma": "Alkohol",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "alcohol",
+        "example_de": "Er trinkt keinen Alkohol.",
+        "example_en": "He does not drink alcohol."
+      }
+    ]
+  },
+  {
+    "lemma": "als",
+    "pos": "conj",
+    "level": "A2",
+    "freq": 300,
+    "senses": [
+      {
+        "en": "when (single past event); than; as",
+        "note": "Vergangenheit: Als ich ein Kind war …",
+        "example_de": "Als Kind wohnte ich in Berlin.",
+        "example_en": "As a child I lived in Berlin."
+      },
+      {
+        "en": "than (comparison)",
+        "example_de": "Mein Bruder ist älter als ich.",
+        "example_en": "My brother is older than me."
+      }
+    ]
+  },
+  {
+    "lemma": "also",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 350,
+    "senses": [
+      {
+        "en": "so, therefore, well",
+        "example_de": "Es regnet, also bleiben wir zu Hause.",
+        "example_en": "It is raining, so we stay at home."
+      }
+    ]
+  },
+  {
+    "lemma": "Alter",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "age",
+        "example_de": "Wir sind im gleichen Alter.",
+        "example_en": "We are the same age."
+      }
+    ]
+  },
+  {
+    "lemma": "anbieten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 700,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "praeteritum": "bot",
+      "partizip2": "angeboten"
+    },
+    "senses": [
+      {
+        "en": "to offer",
+        "note": "separable",
+        "example_de": "Darf ich Ihnen einen Kaffee anbieten?",
+        "example_en": "May I offer you a coffee?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie bietet den Gästen Kuchen an.",
+        "en": "She offers the guests cake."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er bot mir seine Hilfe an.",
+        "en": "He offered me his help."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Firma hat mir einen Job angeboten.",
+        "en": "The company offered me a job."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Biete deinem Gast einen Stuhl an!",
+        "en": "Offer your guest a chair!"
+      }
+    ]
+  },
+  {
+    "lemma": "ändern",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 750,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to change, to alter",
+        "note": "auch reflexiv: sich ändern",
+        "example_de": "Ich möchte meinen Termin ändern.",
+        "example_en": "I would like to change my appointment."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Wetter ändert sich schnell.",
+        "en": "The weather changes quickly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Nach dem Umzug änderte sich viel.",
+        "en": "After the move a lot changed."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Stadt hat sich sehr geändert.",
+        "en": "The city has changed a lot."
+      }
+    ]
+  },
+  {
+    "lemma": "anders",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 650,
+    "senses": [
+      {
+        "en": "differently, else",
+        "example_de": "In Deutschland ist vieles anders.",
+        "example_en": "In Germany many things are different."
+      }
+    ]
+  },
+  {
+    "lemma": "Anfänger",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "m",
+      "plural": "Anfänger"
+    },
+    "senses": [
+      {
+        "en": "beginner",
+        "example_de": "Dieser Kurs ist für Anfänger.",
+        "example_en": "This course is for beginners."
+      }
+    ]
+  },
+  {
+    "lemma": "Angebot",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 800,
+    "noun": {
+      "gender": "n",
+      "plural": "Angebote"
+    },
+    "senses": [
+      {
+        "en": "offer; special deal",
+        "example_de": "Die Äpfel sind heute im Angebot.",
+        "example_en": "The apples are on special offer today."
+      }
+    ]
+  },
+  {
+    "lemma": "angenehm",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      {
+        "en": "pleasant",
+        "note": "Angenehm! = nice to meet you",
+        "example_de": "Das Wetter ist heute sehr angenehm.",
+        "example_en": "The weather is very pleasant today."
+      }
+    ]
+  },
+  {
+    "lemma": "Angst",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 600,
+    "noun": {
+      "gender": "f",
+      "plural": "Ängste"
+    },
+    "senses": [
+      {
+        "en": "fear, anxiety",
+        "note": "Angst haben vor + Dativ",
+        "example_de": "Sie hat Angst vor Hunden.",
+        "example_en": "She is afraid of dogs."
+      }
+    ]
+  },
+  {
+    "lemma": "anklicken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1600,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to click on",
+        "note": "separable",
+        "example_de": "Klicken Sie das Bild an.",
+        "example_en": "Click on the picture."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er klickt die E-Mail an.",
+        "en": "He clicks on the email."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie klickte das falsche Foto an.",
+        "en": "She clicked on the wrong photo."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du das Video angeklickt?",
+        "en": "Did you click on the video?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Klick den Link an!",
+        "en": "Click on the link!"
+      }
+    ]
+  },
+  {
+    "lemma": "ankreuzen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1700,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to tick, to mark with a cross",
+        "note": "separable",
+        "example_de": "Kreuzen Sie die richtige Antwort an.",
+        "example_en": "Tick the correct answer."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich kreuze die Lösung an.",
+        "en": "I mark the solution with a cross."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er kreuzte das falsche Datum an.",
+        "en": "He checked the wrong date."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat zwei Antworten angekreuzt.",
+        "en": "She checked two answers."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Kreuz ja oder nein an!",
+        "en": "Check yes or no!"
+      }
+    ]
+  },
+  {
+    "lemma": "anprobieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1500,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "partizip2": "anprobiert"
+    },
+    "senses": [
+      {
+        "en": "to try on (clothes)",
+        "note": "separable",
+        "example_de": "Kann ich die Hose anprobieren?",
+        "example_en": "Can I try on the trousers?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie probiert das Kleid an.",
+        "en": "She is trying on the dress."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er probierte drei Jacken an.",
+        "en": "He tried on three jackets."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Schuhe anprobiert.",
+        "en": "I tried on the shoes."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Probier den Pullover an!",
+        "en": "Try on the sweater!"
+      }
+    ]
+  },
+  {
+    "lemma": "Anruf",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 800,
+    "noun": {
+      "gender": "m",
+      "plural": "Anrufe"
+    },
+    "senses": [
+      {
+        "en": "phone call",
+        "example_de": "Danke für deinen Anruf.",
+        "example_en": "Thanks for your call."
+      }
+    ]
+  },
+  {
+    "lemma": "Anrufbeantworter",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1800,
+    "noun": {
+      "gender": "m",
+      "plural": "Anrufbeantworter"
+    },
+    "senses": [
+      {
+        "en": "answering machine",
+        "example_de": "Sprechen Sie auf den Anrufbeantworter.",
+        "example_en": "Speak onto the answering machine."
+      }
+    ]
+  },
+  {
+    "lemma": "anschauen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 700,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to look at, to watch",
+        "note": "separable; auch: sich etwas anschauen",
+        "example_de": "Wir schauen uns einen Film an.",
+        "example_en": "We are watching a film."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich schaue mir die Fotos an.",
+        "en": "I am looking at the photos."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir schauten uns die Stadt an.",
+        "en": "We looked around the city."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Habt ihr euch das Spiel angeschaut?",
+        "en": "Did you watch the game?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Schau dir dieses Bild an!",
+        "en": "Look at this picture!"
+      }
+    ]
+  },
+  {
+    "lemma": "ansehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 650,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "du": "siehst",
+      "er": "sieht",
+      "praeteritum": "sah",
+      "partizip2": "angesehen"
+    },
+    "senses": [
+      {
+        "en": "to look at, to view",
+        "note": "separable; auch: sich etwas ansehen",
+        "example_de": "Sieh dir das Foto an!",
+        "example_en": "Look at the photo!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich sehe mir den Film heute an.",
+        "en": "I am watching the movie today."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie sah sich die Wohnung an.",
+        "en": "She had a look at the apartment."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns das Museum angesehen.",
+        "en": "We looked around the museum."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Sieh dir den Plan genau an!",
+        "en": "Look at the plan carefully!"
+      }
+    ]
+  },
+  {
+    "lemma": "anstrengend",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "exhausting, strenuous",
+        "example_de": "Die Arbeit war sehr anstrengend.",
+        "example_en": "The work was very exhausting."
+      }
+    ]
+  },
+  {
+    "lemma": "Anzeige",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": {
+      "gender": "f",
+      "plural": "Anzeigen"
+    },
+    "senses": [
+      {
+        "en": "advertisement, ad",
+        "example_de": "Ich habe die Anzeige in der Zeitung gelesen.",
+        "example_en": "I read the ad in the newspaper."
+      }
+    ]
+  },
+  {
+    "lemma": "anziehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 600,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "praeteritum": "zog",
+      "partizip2": "angezogen"
+    },
+    "senses": [
+      {
+        "en": "to put on (clothes), to dress",
+        "note": "separable; reflexiv: sich anziehen",
+        "example_de": "Zieh eine warme Jacke an!",
+        "example_en": "Put on a warm jacket!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich ziehe mich schnell an.",
+        "en": "I get dressed quickly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Das Kind zog sich allein an.",
+        "en": "The child got dressed by itself."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du dich schon angezogen?",
+        "en": "Have you gotten dressed yet?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Zieh dich warm an!",
+        "en": "Dress warmly!"
+      }
+    ]
+  },
+  {
+    "lemma": "Anzug",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Anzüge"
+    },
+    "senses": [
+      {
+        "en": "suit (clothing)",
+        "example_de": "Er trägt heute einen schwarzen Anzug.",
+        "example_en": "He is wearing a black suit today."
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitsplatz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": {
+      "gender": "m",
+      "plural": "Arbeitsplätze"
+    },
+    "senses": [
+      {
+        "en": "workplace, job",
+        "example_de": "Er sucht einen neuen Arbeitsplatz.",
+        "example_en": "He is looking for a new job."
+      }
+    ]
+  },
+  {
+    "lemma": "ärgern",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 950,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to annoy; to be annoyed",
+        "note": "reflexiv: sich ärgern über + Akk.",
+        "example_de": "Ich ärgere mich über den Fehler.",
+        "example_en": "I am annoyed about the mistake."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er ärgert sich über das Wetter.",
+        "en": "He is annoyed about the weather."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie ärgerte sich über ihren Bruder.",
+        "en": "She was annoyed with her brother."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns über den Lärm geärgert.",
+        "en": "We were annoyed about the noise."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Ärgere dich nicht!",
+        "en": "Don't be upset!"
+      }
+    ]
+  },
+  {
+    "lemma": "arm",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 850,
+    "adj": {
+      "comparative": "ärmer",
+      "superlative": "ärmst"
+    },
+    "senses": [
+      {
+        "en": "poor",
+        "example_de": "Die Familie war früher sehr arm.",
+        "example_en": "The family used to be very poor."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Das Land ist ärmer als seine Nachbarn.",
+        "en": "The country is poorer than its neighbors."
+      },
+      {
+        "tag": "superlativ",
+        "de": "Er war der ärmste Mann im Dorf.",
+        "en": "He was the poorest man in the village."
+      }
+    ]
+  },
+  {
+    "lemma": "aufpassen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 700,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf"
+    },
+    "senses": [
+      {
+        "en": "to pay attention, to watch out",
+        "note": "separable; aufpassen auf + Akk.",
+        "example_de": "Pass auf, das Auto kommt!",
+        "example_en": "Watch out, the car is coming!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Oma passt heute auf die Kinder auf.",
+        "en": "Grandma is watching the children today."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er passte im Unterricht nicht auf.",
+        "en": "He did not pay attention in class."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe gut aufgepasst.",
+        "en": "I paid close attention."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Pass auf der Straße bitte auf!",
+        "en": "Please be careful on the street!"
+      }
+    ]
+  },
+  {
+    "lemma": "aufräumen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 900,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf"
+    },
+    "senses": [
+      {
+        "en": "to tidy up, to clean up",
+        "note": "separable",
+        "example_de": "Räum bitte dein Zimmer auf!",
+        "example_en": "Please tidy up your room!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich räume am Samstag die Küche auf.",
+        "en": "I tidy up the kitchen on Saturday."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie räumte den Schreibtisch auf.",
+        "en": "She tidied up the desk."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Garage aufgeräumt.",
+        "en": "We tidied up the garage."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Räum bitte deine Sachen auf!",
+        "en": "Please tidy up your things!"
+      }
+    ]
+  },
+  {
+    "lemma": "aufwachen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 850,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "auf"
+    },
+    "senses": [
+      {
+        "en": "to wake up",
+        "note": "separable; Perfekt mit sein",
+        "example_de": "Ich bin heute früh aufgewacht.",
+        "example_en": "I woke up early today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Baby wacht oft in der Nacht auf.",
+        "en": "The baby often wakes up at night."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er wachte um sechs Uhr auf.",
+        "en": "He woke up at six o'clock."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie ist erst um zehn Uhr aufgewacht.",
+        "en": "She did not wake up until ten o'clock."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Wach auf, wir müssen los!",
+        "en": "Wake up, we have to go!"
+      }
+    ]
+  },
+  {
+    "lemma": "Augenblick",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 800,
+    "noun": {
+      "gender": "m",
+      "plural": "Augenblicke"
+    },
+    "senses": [
+      {
+        "en": "moment, instant",
+        "note": "Einen Augenblick, bitte!",
+        "example_de": "Einen Augenblick, bitte, ich komme gleich.",
+        "example_en": "One moment please, I am coming."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausbildung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 750,
+    "noun": {
+      "gender": "f",
+      "plural": "Ausbildungen"
+    },
+    "senses": [
+      {
+        "en": "vocational training, education",
+        "example_de": "Er macht eine Ausbildung als Koch.",
+        "example_en": "He is doing training as a cook."
+      }
+    ]
+  },
+  {
+    "lemma": "ausdrucken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1400,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to print out",
+        "note": "separable",
+        "example_de": "Ich drucke das Ticket aus.",
+        "example_en": "I am printing out the ticket."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er druckt die Rechnung aus.",
+        "en": "He prints out the invoice."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie druckte den Plan für mich aus.",
+        "en": "She printed out the plan for me."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Formular ausgedruckt.",
+        "en": "I printed out the form."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Druck bitte die Liste aus!",
+        "en": "Please print out the list!"
+      }
+    ]
+  },
+  {
+    "lemma": "ausfallen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "aus",
+      "du": "fällst",
+      "er": "fällt",
+      "praeteritum": "fiel",
+      "partizip2": "ausgefallen"
+    },
+    "senses": [
+      {
+        "en": "to be cancelled",
+        "note": "separable; Perfekt mit sein",
+        "example_de": "Der Kurs fällt heute aus.",
+        "example_en": "The course is cancelled today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die zweite Stunde fällt morgen aus.",
+        "en": "The second lesson is canceled tomorrow."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Das Konzert fiel wegen des Regens aus.",
+        "en": "The concert was canceled because of the rain."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Zug ist heute ausgefallen.",
+        "en": "The train was canceled today."
+      }
+    ]
+  },
+  {
+    "lemma": "ausgeben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 800,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus",
+      "du": "gibst",
+      "er": "gibt",
+      "praeteritum": "gab",
+      "partizip2": "ausgegeben"
+    },
+    "senses": [
+      {
+        "en": "to spend (money)",
+        "note": "separable",
+        "example_de": "Ich gebe zu viel Geld aus.",
+        "example_en": "I spend too much money."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie gibt viel Geld für Kleidung aus.",
+        "en": "She spends a lot of money on clothes."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er gab im Urlaub dreihundert Euro aus.",
+        "en": "He spent three hundred euros on vacation."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben heute wenig Geld ausgegeben.",
+        "en": "We spent little money today."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Gib nicht alles sofort aus!",
+        "en": "Don't spend everything right away!"
+      }
+    ]
+  },
+  {
+    "lemma": "Auskunft",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": {
+      "gender": "f",
+      "plural": "Auskünfte"
+    },
+    "senses": [
+      {
+        "en": "information (desk)",
+        "example_de": "Fragen Sie bitte an der Auskunft.",
+        "example_en": "Please ask at the information desk."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausländer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": {
+      "gender": "m",
+      "plural": "Ausländer"
+    },
+    "senses": [
+      {
+        "en": "foreigner",
+        "example_de": "Viele Ausländer lernen hier Deutsch.",
+        "example_en": "Many foreigners learn German here."
+      }
+    ]
+  },
+  {
+    "lemma": "ausleihen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus",
+      "praeteritum": "lieh",
+      "partizip2": "ausgeliehen"
+    },
+    "senses": [
+      {
+        "en": "to borrow, to lend out",
+        "note": "separable; sich etwas ausleihen",
+        "example_de": "Ich leihe mir ein Buch aus.",
+        "example_en": "I am borrowing a book."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir leihen uns Fahrräder aus.",
+        "en": "We are borrowing bicycles."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie lieh sich mein Wörterbuch aus.",
+        "en": "She borrowed my dictionary."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mir einen Film ausgeliehen.",
+        "en": "I borrowed a movie."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Leih dir doch einen Schirm aus!",
+        "en": "Just borrow an umbrella!"
+      }
+    ]
+  },
+  {
+    "lemma": "ausmachen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 750,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to turn off, to switch off",
+        "note": "separable",
+        "example_de": "Mach bitte das Licht aus!",
+        "example_en": "Please turn off the light!"
+      },
+      {
+        "en": "to arrange, to agree on",
+        "example_de": "Wir machen einen Termin aus.",
+        "example_en": "We are arranging an appointment."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich mache den Fernseher aus.",
+        "en": "I turn off the TV."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie machte das Radio aus.",
+        "en": "She turned off the radio."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du den Herd ausgemacht?",
+        "en": "Did you turn off the stove?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Mach dein Handy im Kino aus!",
+        "en": "Turn off your phone in the cinema!"
+      }
+    ]
+  },
+  {
+    "lemma": "ausruhen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to rest, to relax",
+        "note": "separable; reflexiv: sich ausruhen",
+        "example_de": "Nach der Arbeit ruhe ich mich aus.",
+        "example_en": "After work I rest."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Opa ruht sich nach dem Essen aus.",
+        "en": "Grandpa rests after the meal."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir ruhten uns am Strand aus.",
+        "en": "We rested on the beach."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich am Wochenende gut ausgeruht.",
+        "en": "I rested well on the weekend."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Ruh dich ein bisschen aus!",
+        "en": "Rest a little!"
+      }
+    ]
+  },
+  {
+    "lemma": "ausschalten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to switch off",
+        "note": "separable",
+        "example_de": "Schalte den Computer aus!",
+        "example_en": "Switch off the computer!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich schalte das Licht im Flur aus.",
+        "en": "I turn off the light in the hallway."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er schaltete abends sein Handy aus.",
+        "en": "He turned off his phone in the evening."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Maschine ausgeschaltet.",
+        "en": "We turned off the machine."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Schalt bitte die Musik aus!",
+        "en": "Please turn off the music!"
+      }
+    ]
+  },
+  {
+    "lemma": "außerdem",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 600,
+    "senses": [
+      {
+        "en": "besides, in addition",
+        "example_de": "Ich bin müde, außerdem habe ich Hunger.",
+        "example_en": "I am tired; besides, I am hungry."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausstellung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": {
+      "gender": "f",
+      "plural": "Ausstellungen"
+    },
+    "senses": [
+      {
+        "en": "exhibition",
+        "example_de": "Die Ausstellung im Museum ist interessant.",
+        "example_en": "The exhibition in the museum is interesting."
+      }
+    ]
+  },
+  {
+    "lemma": "aussuchen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to choose, to pick out",
+        "note": "separable; sich etwas aussuchen",
+        "example_de": "Such dir einen Kuchen aus!",
+        "example_en": "Pick out a cake!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie sucht sich ein Kleid aus.",
+        "en": "She is picking out a dress."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er suchte sich einen Platz am Fenster aus.",
+        "en": "He picked a seat by the window."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mir ein Geschenk ausgesucht.",
+        "en": "I picked out a present."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Such dir eine Postkarte aus!",
+        "en": "Pick out a postcard!"
+      }
+    ]
+  },
+  {
+    "lemma": "ausziehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 950,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus",
+      "praeteritum": "zog",
+      "partizip2": "ausgezogen"
+    },
+    "senses": [
+      {
+        "en": "to take off (clothes)",
+        "note": "separable; reflexiv: sich ausziehen",
+        "example_de": "Zieh die Schuhe aus, bitte!",
+        "example_en": "Take off your shoes, please!"
+      },
+      {
+        "en": "to move out",
+        "note": "Perfekt mit sein: Er ist ausgezogen.",
+        "example_de": "Er zieht am Montag aus.",
+        "example_en": "He is moving out on Monday."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich ziehe mir den Mantel aus.",
+        "en": "I take off my coat."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er zog sich die nassen Schuhe aus.",
+        "en": "He took off his wet shoes."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Kind hat sich schon ausgezogen.",
+        "en": "The child has already undressed."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Zieh dir die Stiefel aus!",
+        "en": "Take off your boots!"
+      }
+    ]
+  },
+  {
+    "lemma": "backen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 900,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "backte",
+      "partizip2": "gebacken"
+    },
+    "senses": [
+      {
+        "en": "to bake",
+        "example_de": "Oma backt einen Kuchen.",
+        "example_en": "Grandma is baking a cake."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir backen heute Brot.",
+        "en": "We are baking bread today."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie backte Kekse für die Kinder.",
+        "en": "She baked cookies for the children."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe eine Pizza gebacken.",
+        "en": "I baked a pizza."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Back doch einen Apfelkuchen!",
+        "en": "Why don't you bake an apple cake!"
+      }
+    ]
+  },
+  {
+    "lemma": "Badewanne",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "f",
+      "plural": "Badewannen"
+    },
+    "senses": [
+      {
+        "en": "bathtub",
+        "example_de": "Das Bad hat eine große Badewanne.",
+        "example_en": "The bathroom has a big bathtub."
+      }
+    ]
+  },
+  {
+    "lemma": "Ball",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 800,
+    "noun": {
+      "gender": "m",
+      "plural": "Bälle"
+    },
+    "senses": [
+      {
+        "en": "ball",
+        "example_de": "Die Kinder spielen mit dem Ball.",
+        "example_en": "The children are playing with the ball."
+      }
+    ]
+  },
+  {
+    "lemma": "Bart",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "m",
+      "plural": "Bärte"
+    },
+    "senses": [
+      {
+        "en": "beard",
+        "example_de": "Mein Vater hat einen langen Bart.",
+        "example_en": "My father has a long beard."
+      }
+    ]
+  },
+  {
+    "lemma": "Batterie",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": "Batterien"
+    },
+    "senses": [
+      {
+        "en": "battery",
+        "example_de": "Die Batterie ist leer.",
+        "example_en": "The battery is dead."
+      }
+    ]
+  },
+  {
+    "lemma": "Bauch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": {
+      "gender": "m",
+      "plural": "Bäuche"
+    },
+    "senses": [
+      {
+        "en": "belly, stomach",
+        "example_de": "Mein Bauch tut weh.",
+        "example_en": "My stomach hurts."
+      }
+    ]
+  },
+  {
+    "lemma": "bauen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 700,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to build",
+        "example_de": "Sie bauen ein neues Haus.",
+        "example_en": "They are building a new house."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Kinder bauen ein Haus aus Sand.",
+        "en": "The children are building a house out of sand."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Firma baute hier viele Wohnungen.",
+        "en": "The company built many apartments here."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben eine Garage gebaut.",
+        "en": "They built a garage."
+      }
+    ]
+  },
+  {
+    "lemma": "Bauer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Bauern",
+      "genitive": "Bauern"
+    },
+    "senses": [
+      {
+        "en": "farmer",
+        "note": "n-Deklination: den/dem Bauern",
+        "example_de": "Der Bauer verkauft Obst auf dem Markt.",
+        "example_en": "The farmer sells fruit at the market."
+      }
+    ]
+  },
+  {
+    "lemma": "Baustelle",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": "Baustellen"
+    },
+    "senses": [
+      {
+        "en": "construction site",
+        "example_de": "Auf der Straße ist eine Baustelle.",
+        "example_en": "There is a construction site on the road."
+      }
+    ]
+  },
+  {
+    "lemma": "beantworten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 850,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beantwortet"
+    },
+    "senses": [
+      {
+        "en": "to answer (something)",
+        "note": "+ Akkusativ: eine Frage beantworten",
+        "example_de": "Bitte beantworten Sie die Fragen.",
+        "example_en": "Please answer the questions."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich beantworte deine E-Mail morgen.",
+        "en": "I will answer your email tomorrow."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Chef beantwortete meine Frage nicht.",
+        "en": "The boss did not answer my question."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du alle Fragen beantwortet?",
+        "en": "Did you answer all the questions?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Beantworte bitte meine Nachricht!",
+        "en": "Please answer my message!"
+      }
+    ]
+  },
+  {
+    "lemma": "beeilen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beeilt"
+    },
+    "senses": [
+      {
+        "en": "to hurry",
+        "note": "reflexiv: sich beeilen",
+        "example_de": "Beeil dich, der Zug fährt gleich!",
+        "example_en": "Hurry up, the train is leaving soon!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich beeile mich mit dem Frühstück.",
+        "en": "I hurry with breakfast."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir beeilten uns auf dem Weg zum Bahnhof.",
+        "en": "We hurried on the way to the station."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich sehr beeilt.",
+        "en": "She hurried a lot."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Beeilt euch, das Kino beginnt gleich!",
+        "en": "Hurry up, the movie starts soon!"
+      }
+    ]
+  },
+  {
+    "lemma": "begrüßen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "begrüßt"
+    },
+    "senses": [
+      {
+        "en": "to greet, to welcome",
+        "example_de": "Der Chef begrüßt die Gäste.",
+        "example_en": "The boss greets the guests."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Lehrerin begrüßt jeden Morgen die Klasse.",
+        "en": "The teacher greets the class every morning."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er begrüßte uns sehr freundlich.",
+        "en": "He greeted us very warmly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die neuen Nachbarn begrüßt.",
+        "en": "We greeted the new neighbors."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Begrüß bitte unsere Gäste!",
+        "en": "Please greet our guests!"
+      }
+    ]
+  },
+  {
+    "lemma": "benutzen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 650,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "benutzt"
+    },
+    "senses": [
+      {
+        "en": "to use",
+        "example_de": "Darf ich dein Handy benutzen?",
+        "example_en": "May I use your phone?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich benutze das Wörterbuch oft.",
+        "en": "I use the dictionary often."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie benutzte mein Fahrrad.",
+        "en": "She used my bicycle."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Aufzug benutzt.",
+        "en": "We used the elevator."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Benutz bitte die zweite Tür!",
+        "en": "Please use the second door!"
+      }
+    ]
+  },
+  {
+    "lemma": "Benzin",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "petrol, gasoline",
+        "example_de": "Das Benzin ist wieder teurer.",
+        "example_en": "Petrol is more expensive again."
+      }
+    ]
+  },
+  {
+    "lemma": "bequem",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 950,
+    "senses": [
+      {
+        "en": "comfortable",
+        "example_de": "Das Sofa ist sehr bequem.",
+        "example_en": "The sofa is very comfortable."
+      }
+    ]
+  },
+  {
+    "lemma": "Berg",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 700,
+    "noun": {
+      "gender": "m",
+      "plural": "Berge"
+    },
+    "senses": [
+      {
+        "en": "mountain",
+        "example_de": "Im Urlaub fahren wir in die Berge.",
+        "example_en": "On holiday we go to the mountains."
+      }
+    ]
+  },
+  {
+    "lemma": "berühmt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "famous",
+        "example_de": "Dieses Museum ist sehr berühmt.",
+        "example_en": "This museum is very famous."
+      }
+    ]
+  },
+  {
+    "lemma": "Bescheid",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": {
+      "gender": "m",
+      "plural": "Bescheide"
+    },
+    "senses": [
+      {
+        "en": "notice, information",
+        "note": "Bescheid sagen/geben = to let someone know",
+        "example_de": "Sag mir bitte morgen Bescheid.",
+        "example_en": "Please let me know tomorrow."
+      }
+    ]
+  },
+  {
+    "lemma": "beschreiben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 800,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "beschrieb",
+      "partizip2": "beschrieben"
+    },
+    "senses": [
+      {
+        "en": "to describe",
+        "example_de": "Können Sie den Weg beschreiben?",
+        "example_en": "Can you describe the way?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er beschreibt mir seine neue Wohnung.",
+        "en": "He describes his new apartment to me."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie beschrieb den Mann ganz genau.",
+        "en": "She described the man very precisely."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat das Bild mit einfachen Worten beschrieben.",
+        "en": "He described the picture in simple words."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Beschreib bitte dein Zimmer!",
+        "en": "Please describe your room!"
+      }
+    ]
+  },
+  {
+    "lemma": "besichtigen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "besichtigt"
+    },
+    "senses": [
+      {
+        "en": "to visit, to tour (sights)",
+        "example_de": "Wir besichtigen morgen die Stadt.",
+        "example_en": "We are touring the city tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Touristen besichtigen das Schloss.",
+        "en": "The tourists are visiting the castle."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir besichtigten gestern die alte Kirche.",
+        "en": "We visited the old church yesterday."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Habt ihr das Museum besichtigt?",
+        "en": "Did you visit the museum?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Besichtigen Sie auch das Rathaus!",
+        "en": "Also visit the town hall!"
+      }
+    ]
+  },
+  {
+    "lemma": "besonders",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 500,
+    "senses": [
+      {
+        "en": "especially, particularly",
+        "example_de": "Ich mag Obst, besonders Äpfel.",
+        "example_en": "I like fruit, especially apples."
+      }
+    ]
+  },
+  {
+    "lemma": "Besserung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "improvement, recovery",
+        "note": "Gute Besserung! = get well soon!",
+        "example_de": "Du bist krank? Gute Besserung!",
+        "example_en": "You are ill? Get well soon!"
+      }
+    ]
+  },
+  {
+    "lemma": "bestehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 900,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "bestand",
+      "partizip2": "bestanden"
+    },
+    "senses": [
+      {
+        "en": "to pass (an exam)",
+        "example_de": "Sie hat die Prüfung bestanden.",
+        "example_en": "She passed the exam."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er besteht den Test bestimmt.",
+        "en": "He will surely pass the test."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie bestand die Prüfung ohne Probleme.",
+        "en": "She passed the exam without problems."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Deutschtest bestanden.",
+        "en": "We passed the German test."
+      }
+    ]
+  },
+  {
+    "lemma": "bestimmt",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 550,
+    "senses": [
+      {
+        "en": "certainly, surely",
+        "example_de": "Er kommt bestimmt noch.",
+        "example_en": "He will surely still come."
+      }
+    ]
+  },
+  {
+    "lemma": "bevor",
+    "pos": "conj",
+    "level": "A2",
+    "freq": 700,
+    "senses": [
+      {
+        "en": "before (conjunction)",
+        "note": "Nebensatz: Verb am Ende",
+        "example_de": "Bevor ich esse, wasche ich die Hände.",
+        "example_en": "Before I eat, I wash my hands."
+      }
+    ]
+  },
+  {
+    "lemma": "Bewerbung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": {
+      "gender": "f",
+      "plural": "Bewerbungen"
+    },
+    "senses": [
+      {
+        "en": "application (for a job)",
+        "example_de": "Ich schreibe eine Bewerbung für den Job.",
+        "example_en": "I am writing an application for the job."
+      }
+    ]
+  },
+  {
+    "lemma": "bewerben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben",
+      "du": "bewirbst",
+      "er": "bewirbt",
+      "praeteritum": "bewarb",
+      "partizip2": "beworben"
+    },
+    "senses": [
+      {
+        "en": "to apply (for a job)",
+        "note": "reflexiv: sich bewerben um/bei + Akk./Dat.",
+        "example_de": "Er bewirbt sich bei einer Firma.",
+        "example_en": "He is applying to a company."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich bewerbe mich um die Stelle.",
+        "en": "I am applying for the position."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er bewarb sich um einen Job in Köln.",
+        "en": "He applied for a job in Cologne."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich bei drei Firmen beworben.",
+        "en": "I applied to three companies."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Bewirb dich schnell um das Praktikum!",
+        "en": "Apply for the internship quickly!"
+      }
+    ]
+  },
+  {
+    "lemma": "bewölkt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "cloudy, overcast",
+        "example_de": "Heute ist der Himmel bewölkt.",
+        "example_en": "Today the sky is cloudy."
+      }
+    ]
+  },
+  {
+    "lemma": "Bildschirm",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "m",
+      "plural": "Bildschirme"
+    },
+    "senses": [
+      {
+        "en": "screen, monitor",
+        "example_de": "Der Bildschirm ist zu dunkel.",
+        "example_en": "The screen is too dark."
+      }
+    ]
+  },
+  {
+    "lemma": "Birne",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "f",
+      "plural": "Birnen"
+    },
+    "senses": [
+      {
+        "en": "pear",
+        "example_de": "Ich esse gern Birnen.",
+        "example_en": "I like eating pears."
+      }
+    ]
+  },
+  {
+    "lemma": "bitten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 600,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "bat",
+      "partizip2": "gebeten"
+    },
+    "senses": [
+      {
+        "en": "to ask (for), to request",
+        "note": "bitten um + Akkusativ",
+        "example_de": "Ich bitte dich um Hilfe.",
+        "example_en": "I am asking you for help."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie bittet um ein Glas Wasser.",
+        "en": "She asks for a glass of water."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er bat mich um meine Adresse.",
+        "en": "He asked me for my address."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben um die Rechnung gebeten.",
+        "en": "We asked for the bill."
+      }
+    ]
+  },
+  {
+    "lemma": "bitter",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "bitter",
+        "example_de": "Der Kaffee ist mir zu bitter.",
+        "example_en": "The coffee is too bitter for me."
+      }
+    ]
+  },
+  {
+    "lemma": "Blatt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": {
+      "gender": "n",
+      "plural": "Blätter",
+      "genitive": "Blattes"
+    },
+    "senses": [
+      {
+        "en": "sheet (of paper); leaf",
+        "example_de": "Nimm ein Blatt Papier.",
+        "example_en": "Take a sheet of paper."
+      }
+    ]
+  },
+  {
+    "lemma": "blau",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 450,
+    "senses": [
+      {
+        "en": "blue",
+        "example_de": "Der Himmel ist heute blau.",
+        "example_en": "The sky is blue today."
+      }
+    ]
+  },
+  {
+    "lemma": "blond",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "blond",
+        "example_de": "Sie hat lange blonde Haare.",
+        "example_en": "She has long blond hair."
+      }
+    ]
+  },
+  {
+    "lemma": "Bluse",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": "Blusen"
+    },
+    "senses": [
+      {
+        "en": "blouse",
+        "example_de": "Die Bluse passt gut zum Rock.",
+        "example_en": "The blouse goes well with the skirt."
+      }
+    ]
+  },
+  {
+    "lemma": "Boden",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 800,
+    "noun": {
+      "gender": "m",
+      "plural": "Böden"
+    },
+    "senses": [
+      {
+        "en": "floor, ground",
+        "example_de": "Die Tasche steht auf dem Boden.",
+        "example_en": "The bag is on the floor."
+      }
+    ]
+  },
+  {
+    "lemma": "Boot",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": {
+      "gender": "n",
+      "plural": "Boote"
+    },
+    "senses": [
+      {
+        "en": "boat",
+        "example_de": "Wir fahren mit dem Boot über den See.",
+        "example_en": "We are crossing the lake by boat."
+      }
+    ]
+  },
+  {
+    "lemma": "böse",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 800,
+    "senses": [
+      {
+        "en": "angry; bad, evil",
+        "note": "böse sein auf + Akk.",
+        "example_de": "Bist du böse auf mich?",
+        "example_en": "Are you angry with me?"
+      }
+    ]
+  },
+  {
+    "lemma": "braun",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 700,
+    "senses": [
+      {
+        "en": "brown",
+        "example_de": "Sie hat braune Augen.",
+        "example_en": "She has brown eyes."
+      }
+    ]
+  },
+  {
+    "lemma": "breit",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "wide, broad",
+        "example_de": "Die Straße ist sehr breit.",
+        "example_en": "The street is very wide."
+      }
+    ]
+  },
+  {
+    "lemma": "Briefkasten",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "m",
+      "plural": "Briefkästen"
+    },
+    "senses": [
+      {
+        "en": "letterbox, mailbox",
+        "example_de": "Der Brief liegt im Briefkasten.",
+        "example_en": "The letter is in the mailbox."
+      }
+    ]
+  },
+  {
+    "lemma": "Brücke",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": {
+      "gender": "f",
+      "plural": "Brücken"
+    },
+    "senses": [
+      {
+        "en": "bridge",
+        "example_de": "Wir gehen über die Brücke.",
+        "example_en": "We are walking across the bridge."
+      }
+    ]
+  },
+  {
+    "lemma": "Buchstabe",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": {
+      "gender": "m",
+      "plural": "Buchstaben",
+      "genitive": "Buchstabens"
+    },
+    "senses": [
+      {
+        "en": "letter (of the alphabet)",
+        "note": "n-Deklination: den Buchstaben",
+        "example_de": "Das Wort hat sieben Buchstaben.",
+        "example_en": "The word has seven letters."
+      }
+    ]
+  },
+  {
+    "lemma": "bunt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      {
+        "en": "colourful",
+        "example_de": "Das Kleid ist schön bunt.",
+        "example_en": "The dress is nicely colourful."
+      }
+    ]
+  },
+  {
+    "lemma": "Campingplatz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "m",
+      "plural": "Campingplätze"
+    },
+    "senses": [
+      {
+        "en": "campsite",
+        "example_de": "Im Sommer schlafen wir auf dem Campingplatz.",
+        "example_en": "In summer we sleep at the campsite."
+      }
+    ]
+  },
+  {
+    "lemma": "chatten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1500,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to chat (online)",
+        "example_de": "Ich chatte oft mit meinen Freunden.",
+        "example_en": "I often chat with my friends."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie chattet abends mit ihrer Freundin.",
+        "en": "She chats with her friend in the evening."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir chatteten gestern lange.",
+        "en": "We chatted for a long time yesterday."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mit meinem Bruder gechattet.",
+        "en": "I chatted with my brother."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Chatte nicht im Unterricht!",
+        "en": "Don't chat during class!"
+      }
+    ]
+  },
+  {
+    "lemma": "Cousin",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Cousins"
+    },
+    "senses": [
+      {
+        "en": "cousin (male)",
+        "example_de": "Mein Cousin wohnt in Wien.",
+        "example_en": "My cousin lives in Vienna."
+      }
+    ]
+  },
+  {
+    "lemma": "Cousine",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "f",
+      "plural": "Cousinen"
+    },
+    "senses": [
+      {
+        "en": "cousin (female)",
+        "example_de": "Meine Cousine besucht uns am Sonntag.",
+        "example_en": "My cousin is visiting us on Sunday."
+      }
+    ]
+  },
+  {
+    "lemma": "dabei",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 500,
+    "senses": [
+      {
+        "en": "with it; there, present",
+        "note": "dabei sein = to be there / take part",
+        "example_de": "Ich habe kein Geld dabei.",
+        "example_en": "I have no money with me."
+      }
+    ]
+  },
+  {
+    "lemma": "Dach",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": {
+      "gender": "n",
+      "plural": "Dächer"
+    },
+    "senses": [
+      {
+        "en": "roof",
+        "example_de": "Das Haus hat ein rotes Dach.",
+        "example_en": "The house has a red roof."
+      }
+    ]
+  },
+  {
+    "lemma": "dafür",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 550,
+    "senses": [
+      {
+        "en": "for it, in favour of it",
+        "example_de": "Ich bin dafür, wir fahren morgen.",
+        "example_en": "I am in favour, we leave tomorrow."
+      }
+    ]
+  },
+  {
+    "lemma": "dagegen",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 650,
+    "senses": [
+      {
+        "en": "against it",
+        "example_de": "Er ist gegen den Plan, ich bin auch dagegen.",
+        "example_en": "He is against the plan, I am against it too."
+      }
+    ]
+  },
+  {
+    "lemma": "damals",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 700,
+    "senses": [
+      {
+        "en": "back then, at that time",
+        "example_de": "Damals hatten wir kein Internet.",
+        "example_en": "Back then we had no internet."
+      }
+    ]
+  },
+  {
+    "lemma": "damit",
+    "pos": "conj",
+    "level": "A2",
+    "freq": 600,
+    "senses": [
+      {
+        "en": "so that",
+        "note": "Nebensatz: Verb am Ende",
+        "example_de": "Ich lerne viel, damit ich die Prüfung bestehe.",
+        "example_en": "I study a lot so that I pass the exam."
+      }
+    ]
+  },
+  {
+    "lemma": "danach",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 500,
+    "senses": [
+      {
+        "en": "afterwards, after that",
+        "example_de": "Wir essen, danach gehen wir spazieren.",
+        "example_en": "We eat, afterwards we go for a walk."
+      }
+    ]
+  },
+  {
+    "lemma": "Datum",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 900,
+    "noun": {
+      "gender": "n",
+      "plural": "Daten"
+    },
+    "senses": [
+      {
+        "en": "date (calendar)",
+        "example_de": "Welches Datum haben wir heute?",
+        "example_en": "What is the date today?"
+      }
+    ]
+  },
+  {
+    "lemma": "Decke",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": {
+      "gender": "f",
+      "plural": "Decken"
+    },
+    "senses": [
+      {
+        "en": "blanket",
+        "example_de": "Mir ist kalt, gib mir eine Decke.",
+        "example_en": "I am cold, give me a blanket."
+      },
+      {
+        "en": "ceiling",
+        "example_de": "Die Lampe hängt an der Decke.",
+        "example_en": "The lamp hangs from the ceiling."
+      }
+    ]
+  },
+  {
+    "lemma": "denken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 250,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "dachte",
+      "partizip2": "gedacht"
+    },
+    "senses": [
+      {
+        "en": "to think",
+        "note": "denken an + Akkusativ",
+        "example_de": "Ich denke oft an dich.",
+        "example_en": "I often think of you."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Was denkst du über den Plan?",
+        "en": "What do you think about the plan?"
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie dachte an ihren Urlaub.",
+        "en": "She thought about her vacation."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe an deinen Geburtstag gedacht.",
+        "en": "I remembered your birthday."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Denk bitte an die Tickets!",
+        "en": "Please remember the tickets!"
+      }
+    ]
+  },
+  {
+    "lemma": "deshalb",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 450,
+    "senses": [
+      {
+        "en": "therefore, that is why",
+        "example_de": "Ich bin krank, deshalb bleibe ich zu Hause.",
+        "example_en": "I am ill, that is why I stay home."
+      }
+    ]
+  },
+  {
+    "lemma": "dick",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 800,
+    "senses": [
+      {
+        "en": "thick; fat",
+        "example_de": "Im Winter trage ich eine dicke Jacke.",
+        "example_en": "In winter I wear a thick jacket."
+      }
+    ]
+  },
+  {
+    "lemma": "direkt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 600,
+    "senses": [
+      {
+        "en": "direct(ly)",
+        "example_de": "Der Zug fährt direkt nach München.",
+        "example_en": "The train goes directly to Munich."
+      }
+    ]
+  },
+  {
+    "lemma": "Disco",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": "Discos"
+    },
+    "senses": [
+      {
+        "en": "disco, club",
+        "example_de": "Am Samstag gehen wir in die Disco.",
+        "example_en": "On Saturday we go to the disco."
+      }
+    ]
+  },
+  {
+    "lemma": "Doktor",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": {
+      "gender": "m",
+      "plural": "Doktoren"
+    },
+    "senses": [
+      {
+        "en": "doctor (title)",
+        "example_de": "Frau Doktor Meier hat heute keine Zeit.",
+        "example_en": "Doctor Meier has no time today."
+      }
+    ]
+  },
+  {
+    "lemma": "Dokument",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": {
+      "gender": "n",
+      "plural": "Dokumente"
+    },
+    "senses": [
+      {
+        "en": "document",
+        "example_de": "Bringen Sie bitte alle Dokumente mit.",
+        "example_en": "Please bring all documents with you."
+      }
+    ]
+  },
+  {
+    "lemma": "Dose",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": "Dosen"
+    },
+    "senses": [
+      {
+        "en": "can, tin",
+        "example_de": "Er kauft eine Dose Tomaten.",
+        "example_en": "He buys a can of tomatoes."
+      }
+    ]
+  },
+  {
+    "lemma": "draußen",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 600,
+    "senses": [
+      {
+        "en": "outside",
+        "example_de": "Die Kinder spielen draußen.",
+        "example_en": "The children are playing outside."
+      }
+    ]
+  },
+  {
+    "lemma": "dringend",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "urgent(ly)",
+        "example_de": "Ich muss dringend mit dir sprechen.",
+        "example_en": "I urgently need to speak with you."
+      }
+    ]
+  },
+  {
+    "lemma": "drinnen",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "inside, indoors",
+        "example_de": "Bei Regen bleiben wir drinnen.",
+        "example_en": "When it rains we stay inside."
+      }
+    ]
+  },
+  {
+    "lemma": "Drogerie",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": "Drogerien"
+    },
+    "senses": [
+      {
+        "en": "drugstore",
+        "example_de": "Shampoo kaufe ich in der Drogerie.",
+        "example_en": "I buy shampoo at the drugstore."
+      }
+    ]
+  },
+  {
+    "lemma": "drüben",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "over there",
+        "example_de": "Die Post ist da drüben.",
+        "example_en": "The post office is over there."
+      }
+    ]
+  },
+  {
+    "lemma": "drucken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to print",
+        "example_de": "Ich drucke den Brief zweimal.",
+        "example_en": "I am printing the letter twice."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Drucker druckt sehr langsam.",
+        "en": "The printer prints very slowly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie druckte zehn Seiten.",
+        "en": "She printed ten pages."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Einladung gedruckt.",
+        "en": "I printed the invitation."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Druck den Text bitte in Farbe!",
+        "en": "Please print the text in color!"
+      }
+    ]
+  },
+  {
+    "lemma": "Drucker",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Drucker"
+    },
+    "senses": [
+      {
+        "en": "printer",
+        "example_de": "Der Drucker ist schon wieder kaputt.",
+        "example_en": "The printer is broken again."
+      }
+    ]
+  },
+  {
+    "lemma": "drücken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to press, to push",
+        "note": "an Türen: Drücken / Ziehen",
+        "example_de": "Drücken Sie bitte den roten Knopf.",
+        "example_en": "Please press the red button."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich drücke den Knopf für den dritten Stock.",
+        "en": "I press the button for the third floor."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er drückte auf die Klingel.",
+        "en": "He pressed the doorbell."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die falsche Taste gedrückt.",
+        "en": "She pressed the wrong key."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Drück hier, dann geht die Tür auf!",
+        "en": "Press here, then the door opens!"
+      }
+    ]
+  },
+  {
+    "lemma": "dumm",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 900,
+    "adj": {
+      "comparative": "dümmer",
+      "superlative": "dümmst"
+    },
+    "senses": [
+      {
+        "en": "stupid, silly",
+        "example_de": "Das war eine dumme Idee.",
+        "example_en": "That was a stupid idea."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Diese Idee ist noch dümmer als die erste.",
+        "en": "This idea is even dumber than the first one."
+      },
+      {
+        "tag": "superlativ",
+        "de": "Das war der dümmste Fehler meines Lebens.",
+        "en": "That was the dumbest mistake of my life."
+      }
+    ]
+  },
+  {
+    "lemma": "dünn",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "thin",
+        "example_de": "Das Buch ist ganz dünn.",
+        "example_en": "The book is very thin."
+      }
+    ]
+  },
+  {
+    "lemma": "durch",
+    "pos": "prep",
+    "level": "A2",
+    "freq": 300,
+    "senses": [
+      {
+        "en": "through",
+        "note": "+ Akkusativ",
+        "example_de": "Wir gehen durch den Park.",
+        "example_en": "We are walking through the park."
+      }
+    ]
+  },
+  {
+    "lemma": "Durchsage",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1700,
+    "noun": {
+      "gender": "f",
+      "plural": "Durchsagen"
+    },
+    "senses": [
+      {
+        "en": "announcement (over loudspeaker)",
+        "example_de": "Hören Sie die Durchsage am Bahnhof?",
+        "example_en": "Do you hear the announcement at the station?"
+      }
+    ]
+  },
+  {
+    "lemma": "echt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 550,
+    "senses": [
+      {
+        "en": "real, genuine; really",
+        "note": "umgangssprachlich: echt gut = really good",
+        "example_de": "Der Film war echt gut.",
+        "example_en": "The film was really good."
+      }
+    ]
+  },
+  {
+    "lemma": "egal",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 650,
+    "adj": {
+      "indeclinable": true
+    },
+    "senses": [
+      {
+        "en": "all the same, no matter",
+        "note": "Das ist mir egal. (nur prädikativ)",
+        "example_de": "Das ist mir egal.",
+        "example_en": "I do not care."
+      }
+    ]
+  },
+  {
+    "lemma": "Ehefrau",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "f",
+      "plural": "Ehefrauen"
+    },
+    "senses": [
+      {
+        "en": "wife",
+        "example_de": "Seine Ehefrau arbeitet als Ärztin.",
+        "example_en": "His wife works as a doctor."
+      }
+    ]
+  },
+  {
+    "lemma": "Ehemann",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Ehemänner"
+    },
+    "senses": [
+      {
+        "en": "husband",
+        "example_de": "Ihr Ehemann kocht sehr gern.",
+        "example_en": "Her husband loves cooking."
+      }
+    ]
+  },
+  {
+    "lemma": "eigentlich",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 400,
+    "senses": [
+      {
+        "en": "actually, really",
+        "example_de": "Eigentlich wollte ich heute schwimmen gehen.",
+        "example_en": "Actually I wanted to go swimming today."
+      }
+    ]
+  },
+  {
+    "lemma": "einige",
+    "pos": "pron",
+    "level": "A2",
+    "freq": 500,
+    "senses": [
+      {
+        "en": "some, a few",
+        "example_de": "Einige Schüler sind heute krank.",
+        "example_en": "Some pupils are ill today."
+      }
+    ]
+  },
+  {
+    "lemma": "einpacken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to pack, to wrap up",
+        "note": "separable",
+        "example_de": "Ich packe die Koffer ein.",
+        "example_en": "I am packing the suitcases."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie packt die Geschenke ein.",
+        "en": "She is wrapping the presents."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er packte seine Sachen ein.",
+        "en": "He packed his things."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du den Badeanzug eingepackt?",
+        "en": "Did you pack the swimsuit?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Pack warme Kleidung ein!",
+        "en": "Pack warm clothes!"
+      }
+    ]
+  },
+  {
+    "lemma": "einschalten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to switch on",
+        "note": "separable",
+        "example_de": "Schalte bitte das Radio ein.",
+        "example_en": "Please switch on the radio."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich schalte morgens zuerst den Computer ein.",
+        "en": "In the morning I turn on the computer first."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schaltete das Licht ein.",
+        "en": "She turned on the light."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Heizung eingeschaltet.",
+        "en": "He turned on the heating."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Schalt bitte den Fernseher ein!",
+        "en": "Please turn on the TV!"
+      }
+    ]
+  },
+  {
+    "lemma": "einschlafen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "ein",
+      "du": "schläfst",
+      "er": "schläft",
+      "praeteritum": "schlief",
+      "partizip2": "eingeschlafen"
+    },
+    "senses": [
+      {
+        "en": "to fall asleep",
+        "note": "separable; Perfekt mit sein",
+        "example_de": "Das Kind schläft schnell ein.",
+        "example_en": "The child falls asleep quickly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich schlafe vor dem Fernseher oft ein.",
+        "en": "I often fall asleep in front of the TV."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schlief erst nach Mitternacht ein.",
+        "en": "She did not fall asleep until after midnight."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Baby ist im Auto eingeschlafen.",
+        "en": "The baby fell asleep in the car."
+      }
+    ]
+  },
+  {
+    "lemma": "Eintritt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "admission, entry (fee)",
+        "note": "Eintritt frei = free admission",
+        "example_de": "Der Eintritt kostet fünf Euro.",
+        "example_en": "Admission costs five euros."
+      }
+    ]
+  },
+  {
+    "lemma": "Eintrittskarte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": "Eintrittskarten"
+    },
+    "senses": [
+      {
+        "en": "admission ticket",
+        "example_de": "Ich habe zwei Eintrittskarten für das Konzert.",
+        "example_en": "I have two tickets for the concert."
+      }
+    ]
+  },
+  {
+    "lemma": "einverstanden",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 800,
+    "adj": {
+      "indeclinable": true
+    },
+    "senses": [
+      {
+        "en": "in agreement, agreed",
+        "note": "einverstanden sein mit + Dativ (nur prädikativ)",
+        "example_de": "Ich bin mit dem Plan einverstanden.",
+        "example_en": "I agree with the plan."
+      }
+    ]
+  },
+  {
+    "lemma": "empfehlen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 850,
+    "verb": {
+      "aux": "haben",
+      "du": "empfiehlst",
+      "er": "empfiehlt",
+      "praeteritum": "empfahl",
+      "partizip2": "empfohlen"
+    },
+    "senses": [
+      {
+        "en": "to recommend",
+        "note": "+ Dativ (Person) + Akkusativ (Sache)",
+        "example_de": "Der Kellner empfiehlt uns den Fisch.",
+        "example_en": "The waiter recommends the fish to us."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie empfiehlt mir dieses Hotel.",
+        "en": "She recommends this hotel to me."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Arzt empfahl ihm mehr Sport.",
+        "en": "The doctor recommended more exercise to him."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Meine Freundin hat mir das Buch empfohlen.",
+        "en": "My friend recommended the book to me."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Empfiehl mir bitte ein gutes Restaurant!",
+        "en": "Please recommend a good restaurant to me!"
+      }
+    ]
+  },
+  {
+    "lemma": "endlich",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 400,
+    "senses": [
+      {
+        "en": "finally, at last",
+        "example_de": "Endlich sind die Ferien da!",
+        "example_en": "Finally the holidays are here!"
+      }
+    ]
+  },
+  {
+    "lemma": "eng",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "narrow; tight",
+        "example_de": "Die Hose ist mir zu eng.",
+        "example_en": "The trousers are too tight for me."
+      }
+    ]
+  },
+  {
+    "lemma": "Enkel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Enkel"
+    },
+    "senses": [
+      {
+        "en": "grandson, grandchild",
+        "example_de": "Oma besucht heute ihre Enkel.",
+        "example_en": "Grandma is visiting her grandchildren today."
+      }
+    ]
+  },
+  {
+    "lemma": "entscheiden",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 700,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "entschied",
+      "partizip2": "entschieden"
+    },
+    "senses": [
+      {
+        "en": "to decide",
+        "note": "oft reflexiv: sich entscheiden für + Akk.",
+        "example_de": "Ich entscheide mich für das rote Auto.",
+        "example_en": "I decide on the red car."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er entscheidet sich immer sehr langsam.",
+        "en": "He always decides very slowly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir entschieden uns für das kleine Hotel.",
+        "en": "We decided on the small hotel."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich für den Job entschieden.",
+        "en": "I decided on the job."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Entscheide dich bis morgen!",
+        "en": "Make up your mind by tomorrow!"
+      }
+    ]
+  },
+  {
+    "lemma": "entweder",
+    "pos": "conj",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "either",
+        "note": "entweder … oder = either … or",
+        "example_de": "Wir fahren entweder ans Meer oder in die Berge.",
+        "example_en": "We go either to the sea or to the mountains."
+      }
+    ]
+  },
+  {
+    "lemma": "Erdbeere",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": "Erdbeeren"
+    },
+    "senses": [
+      {
+        "en": "strawberry",
+        "example_de": "Im Juni essen wir viele Erdbeeren.",
+        "example_en": "In June we eat lots of strawberries."
+      }
+    ]
+  },
+  {
+    "lemma": "Erfolg",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 700,
+    "noun": {
+      "gender": "m",
+      "plural": "Erfolge"
+    },
+    "senses": [
+      {
+        "en": "success",
+        "note": "Viel Erfolg! = good luck!",
+        "example_de": "Viel Erfolg bei der Prüfung!",
+        "example_en": "Good luck with the exam!"
+      }
+    ]
+  },
+  {
+    "lemma": "erinnern",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 750,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erinnert"
+    },
+    "senses": [
+      {
+        "en": "to remember; to remind",
+        "note": "reflexiv: sich erinnern an + Akk.",
+        "example_de": "Ich erinnere mich gut an den Urlaub.",
+        "example_en": "I remember the holiday well."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er erinnert sich nicht an den Namen.",
+        "en": "He does not remember the name."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie erinnerte sich an ihre erste Lehrerin.",
+        "en": "She remembered her first teacher."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns an die Schulzeit erinnert.",
+        "en": "We remembered our school days."
+      }
+    ]
+  },
+  {
+    "lemma": "erkältet",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "having a cold",
+        "note": "erkältet sein = to have a cold",
+        "example_de": "Ich bin erkältet und bleibe im Bett.",
+        "example_en": "I have a cold and stay in bed."
+      }
+    ]
+  },
+  {
+    "lemma": "Erkältung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "f",
+      "plural": "Erkältungen"
+    },
+    "senses": [
+      {
+        "en": "a cold (illness)",
+        "example_de": "Er hat eine starke Erkältung.",
+        "example_en": "He has a bad cold."
+      }
+    ]
+  },
+  {
+    "lemma": "erlauben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 900,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erlaubt"
+    },
+    "senses": [
+      {
+        "en": "to allow, to permit",
+        "note": "+ Dativ (Person)",
+        "example_de": "Meine Eltern erlauben mir die Party.",
+        "example_en": "My parents allow me the party."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Vater erlaubt dem Kind ein Eis.",
+        "en": "The father allows the child an ice cream."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Lehrerin erlaubte uns eine Pause.",
+        "en": "The teacher allowed us a break."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wer hat dir das erlaubt?",
+        "en": "Who allowed you to do that?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Erlauben Sie mir eine Frage!",
+        "en": "Allow me a question!"
+      }
+    ]
+  },
+  {
+    "lemma": "erreichen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 800,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erreicht"
+    },
+    "senses": [
+      {
+        "en": "to reach; to catch (a train)",
+        "example_de": "Wir erreichen den Zug noch.",
+        "example_en": "We will still catch the train."
+      },
+      {
+        "en": "to reach (by phone)",
+        "example_de": "Sie erreichen mich unter dieser Nummer.",
+        "example_en": "You can reach me at this number."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Man erreicht mich am besten per E-Mail.",
+        "en": "You can reach me best by email."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie erreichte den Bus gerade noch.",
+        "en": "She just barely caught the bus."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe dich gestern nicht erreicht.",
+        "en": "I could not reach you yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "Etage",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "f",
+      "plural": "Etagen"
+    },
+    "senses": [
+      {
+        "en": "floor, storey",
+        "example_de": "Das Büro ist in der dritten Etage.",
+        "example_en": "The office is on the third floor."
+      }
+    ]
+  },
+  {
+    "lemma": "etwa",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 600,
+    "senses": [
+      {
+        "en": "approximately, about",
+        "example_de": "Die Fahrt dauert etwa zwei Stunden.",
+        "example_en": "The journey takes about two hours."
+      }
+    ]
+  },
+  {
+    "lemma": "extra",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "extra, specially",
+        "example_de": "Ich bin extra früh gekommen.",
+        "example_en": "I came specially early."
+      }
+    ]
+  }
 ]

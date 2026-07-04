@@ -7,6 +7,12 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to laugh", "example_de": "Das Kind lacht laut.", "example_en": "The child is laughing loudly." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Warum lachst du?", "en": "Why are you laughing?" },
+      { "tag": "präteritum", "de": "Alle lachten über den Witz.", "en": "Everyone laughed at the joke." },
+      { "tag": "perfekt", "de": "Wir haben gestern viel gelacht.", "en": "We laughed a lot yesterday." },
+      { "tag": "imperativ", "de": "Lach doch mal!", "en": "Come on, laugh!" }
     ]
   },
   {
@@ -28,6 +34,9 @@
     "senses": [
       { "en": "country", "example_de": "Deutschland ist ein schönes Land.", "example_en": "Germany is a beautiful country." },
       { "en": "countryside", "note": "auf dem Land", "example_de": "Meine Oma wohnt auf dem Land.", "example_en": "My grandma lives in the countryside." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich war schon in vier Ländern.", "en": "I have already been to four countries." }
     ]
   },
   {
@@ -38,6 +47,10 @@
     "adj": { "comparative": "länger", "superlative": "längst" },
     "senses": [
       { "en": "long", "example_de": "Der Film ist sehr lang.", "example_en": "The film is very long." }
+    ],
+    "examples": [
+      { "tag": "komparativ", "de": "Dieser Film ist länger als der andere.", "en": "This movie is longer than the other one." },
+      { "tag": "superlativ", "de": "Im Juni sind die Tage am längsten.", "en": "The days are longest in June." }
     ]
   },
   {
@@ -57,6 +70,12 @@
     "verb": { "aux": "sein", "du": "läufst", "er": "läuft", "praeteritum": "lief", "partizip2": "gelaufen" },
     "senses": [
       { "en": "to run; to walk", "example_de": "Wir laufen zum Bahnhof.", "example_en": "We are walking to the station." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie läuft jeden Morgen im Park.", "en": "She runs in the park every morning." },
+      { "tag": "präteritum", "de": "Er lief schnell zur Haltestelle.", "en": "He ran quickly to the stop." },
+      { "tag": "perfekt", "de": "Wir sind heute zehn Kilometer gelaufen.", "en": "We ran ten kilometers today." },
+      { "tag": "imperativ", "de": "Lauf schnell, der Bus kommt!", "en": "Run fast, the bus is coming!" }
     ]
   },
   {
@@ -76,6 +95,11 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to live", "example_de": "Meine Familie lebt in Berlin.", "example_en": "My family lives in Berlin." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Viele Menschen leben allein.", "en": "Many people live alone." },
+      { "tag": "präteritum", "de": "Früher lebten wir auf dem Land.", "en": "We used to live in the countryside." },
+      { "tag": "perfekt", "de": "Er hat lange in Österreich gelebt.", "en": "He lived in Austria for a long time." }
     ]
   },
   {
@@ -130,6 +154,11 @@
     },
     "senses": [
       { "en": "to be sorry", "note": "+ Dativ: Das tut mir leid.", "example_de": "Das tut mir sehr leid.", "example_en": "I am very sorry." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Fehler tut mir leid.", "en": "I am sorry about the mistake." },
+      { "tag": "präteritum", "de": "Das tat ihr sehr leid.", "en": "She was very sorry about that." },
+      { "tag": "perfekt", "de": "Es hat ihm wirklich leidgetan.", "en": "He was really sorry." }
     ]
   },
   {
@@ -149,6 +178,12 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to learn, to study", "example_de": "Ich lerne Deutsch.", "example_en": "I am learning German." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er lernt jeden Tag neue Wörter.", "en": "He learns new words every day." },
+      { "tag": "präteritum", "de": "Sie lernte Deutsch in der Schule.", "en": "She learned German at school." },
+      { "tag": "perfekt", "de": "Ich habe heute viel gelernt.", "en": "I learned a lot today." },
+      { "tag": "imperativ", "de": "Lern für die Prüfung!", "en": "Study for the exam!" }
     ]
   },
   {
@@ -178,6 +213,9 @@
     "noun": { "gender": "n", "plural": "Lichter" },
     "senses": [
       { "en": "light", "example_de": "Mach bitte das Licht an!", "example_en": "Please turn on the light!" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Lichter in der Stadt sind schön.", "en": "The lights in the city are beautiful." }
     ]
   },
   {
@@ -197,6 +235,11 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to love", "example_de": "Ich liebe meine Familie.", "example_en": "I love my family." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er liebt das Meer.", "en": "He loves the sea." },
+      { "tag": "präteritum", "de": "Sie liebte ihn sehr.", "en": "She loved him very much." },
+      { "tag": "perfekt", "de": "Ich habe diese Stadt immer geliebt.", "en": "I have always loved this city." }
     ]
   },
   {
@@ -225,6 +268,11 @@
     "verb": { "aux": "haben", "praeteritum": "lag", "partizip2": "gelegen" },
     "senses": [
       { "en": "to lie, to be located", "example_de": "Das Buch liegt auf dem Tisch.", "example_en": "The book is lying on the table." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Zeitung liegt auf dem Stuhl.", "en": "The newspaper is lying on the chair." },
+      { "tag": "präteritum", "de": "Der Schlüssel lag unter der Jacke.", "en": "The key was lying under the jacket." },
+      { "tag": "perfekt", "de": "Ich habe den ganzen Tag im Bett gelegen.", "en": "I lay in bed all day." }
     ]
   },
   {
@@ -283,6 +331,9 @@
     "noun": { "gender": "n", "plural": "Mädchen" },
     "senses": [
       { "en": "girl", "example_de": "Das Mädchen heißt Lena.", "example_en": "The girl is called Lena." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Zwei Mädchen spielen vor dem Haus.", "en": "Two girls are playing in front of the house." }
     ]
   },
   {
@@ -330,6 +381,9 @@
     "noun": { "gender": "m", "plural": "Märkte", "genitive": "Marktes" },
     "senses": [
       { "en": "market", "example_de": "Auf dem Markt kaufe ich Obst.", "example_en": "I buy fruit at the market." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "In Berlin gibt es viele Märkte.", "en": "There are many markets in Berlin." }
     ]
   },
   {
@@ -360,6 +414,9 @@
     "noun": { "gender": "n", "plural": "Medikamente" },
     "senses": [
       { "en": "medicine, medication", "example_de": "Ich nehme ein Medikament.", "example_en": "I am taking a medication." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Medikamente liegen im Schrank.", "en": "The medications are in the cupboard." }
     ]
   },
   {
@@ -370,6 +427,9 @@
     "noun": { "gender": "n", "plural": "Meere" },
     "senses": [
       { "en": "sea, ocean", "example_de": "Wir fahren ans Meer.", "example_en": "We are going to the sea." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Auf der Karte sind die Meere blau.", "en": "On the map the seas are blue." }
     ]
   },
   {
@@ -398,6 +458,11 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to think, to mean (an opinion)", "example_de": "Was meinen Sie?", "example_en": "What do you think?" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich meine, das ist eine gute Idee.", "en": "I think that is a good idea." },
+      { "tag": "präteritum", "de": "Sie meinte, das Hotel ist zu teuer.", "en": "She thought the hotel was too expensive." },
+      { "tag": "perfekt", "de": "So habe ich das nicht gemeint.", "en": "I didn't mean it like that." }
     ]
   },
   {
@@ -408,6 +473,9 @@
     "noun": { "gender": "m", "plural": "Menschen", "genitive": "Menschen" },
     "senses": [
       { "en": "human, person", "note": "n-Deklination: den/dem Menschen", "example_de": "Viele Menschen wohnen in der Stadt.", "example_en": "Many people live in the city." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Bus waren heute nur wenige Menschen.", "en": "There were only a few people on the bus today." }
     ]
   },
   {
@@ -418,6 +486,9 @@
     "noun": { "gender": "m", "plural": "Meter" },
     "senses": [
       { "en": "meter", "example_de": "Das Zimmer ist vier Meter lang.", "example_en": "The room is four meters long." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Straße ist hundert Meter lang.", "en": "The street is a hundred meters long." }
     ]
   },
   {
@@ -438,6 +509,11 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to rent", "example_de": "Wir mieten eine Wohnung.", "example_en": "We are renting an apartment." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie mieten ein Auto für den Urlaub.", "en": "They are renting a car for the vacation." },
+      { "tag": "präteritum", "de": "Wir mieteten ein kleines Haus am Meer.", "en": "We rented a small house by the sea." },
+      { "tag": "perfekt", "de": "Er hat ein Zimmer in der Stadt gemietet.", "en": "He rented a room in the city." }
     ]
   },
   {
@@ -468,6 +544,9 @@
     "noun": { "gender": "f", "plural": "Minuten" },
     "senses": [
       { "en": "minute", "example_de": "Der Bus kommt in fünf Minuten.", "example_en": "The bus comes in five minutes." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Der Film dauert neunzig Minuten.", "en": "The movie lasts ninety minutes." }
     ]
   },
   {
@@ -478,6 +557,12 @@
     "verb": { "aux": "haben", "separablePrefix": "mit", "praeteritum": "brachte", "partizip2": "mitgebracht" },
     "senses": [
       { "en": "to bring along", "note": "separable", "example_de": "Ich bringe einen Kuchen mit.", "example_en": "I am bringing a cake along." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie bringt einen Salat zur Party mit.", "en": "She is bringing a salad to the party." },
+      { "tag": "präteritum", "de": "Er brachte Blumen mit.", "en": "He brought flowers along." },
+      { "tag": "perfekt", "de": "Was hast du aus dem Urlaub mitgebracht?", "en": "What did you bring back from vacation?" },
+      { "tag": "imperativ", "de": "Bring bitte Brot vom Supermarkt mit!", "en": "Please bring bread from the supermarket!" }
     ]
   },
   {
@@ -488,6 +573,12 @@
     "verb": { "aux": "sein", "separablePrefix": "mit", "praeteritum": "kam", "partizip2": "mitgekommen" },
     "senses": [
       { "en": "to come along", "note": "separable", "example_de": "Kommst du mit?", "example_en": "Are you coming along?" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Meine Schwester kommt heute Abend mit.", "en": "My sister is coming along tonight." },
+      { "tag": "präteritum", "de": "Sie kam gestern nicht mit.", "en": "She didn't come along yesterday." },
+      { "tag": "perfekt", "de": "Warum bist du nicht mitgekommen?", "en": "Why didn't you come along?" },
+      { "tag": "imperativ", "de": "Komm doch mit ins Kino!", "en": "Come along to the cinema!" }
     ]
   },
   {
@@ -498,6 +589,12 @@
     "verb": { "aux": "haben", "separablePrefix": "mit" },
     "senses": [
       { "en": "to join in, to take part", "note": "separable", "example_de": "Machst du beim Spiel mit?", "example_en": "Are you joining in the game?" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Beim Sport machen alle Kinder mit.", "en": "All the children join in during sports." },
+      { "tag": "präteritum", "de": "Beim Fest machten alle Nachbarn mit.", "en": "All the neighbors took part in the celebration." },
+      { "tag": "perfekt", "de": "Alle haben gut mitgemacht.", "en": "Everyone joined in well." },
+      { "tag": "imperativ", "de": "Mach doch mit, das macht Spaß!", "en": "Join in, it's fun!" }
     ]
   },
   {
@@ -508,6 +605,12 @@
     "verb": { "aux": "haben", "separablePrefix": "mit", "du": "nimmst", "er": "nimmt", "praeteritum": "nahm", "partizip2": "mitgenommen" },
     "senses": [
       { "en": "to take along", "note": "separable", "example_de": "Ich nehme das Buch mit.", "example_en": "I am taking the book along." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er nimmt immer eine Flasche Wasser mit.", "en": "He always takes a bottle of water along." },
+      { "tag": "präteritum", "de": "Sie nahm den Regenschirm mit.", "en": "She took the umbrella along." },
+      { "tag": "perfekt", "de": "Ich habe zu viel Gepäck mitgenommen.", "en": "I took too much luggage along." },
+      { "tag": "imperativ", "de": "Nimm deine Jacke mit, es ist kalt!", "en": "Take your jacket, it's cold!" }
     ]
   },
   {
@@ -518,6 +621,9 @@
     "noun": { "gender": "m", "plural": "Mittage" },
     "senses": [
       { "en": "noon, midday", "note": "zu Mittag essen", "example_de": "Was isst du zu Mittag?", "example_en": "What are you eating for lunch?" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Mittage im Sommer sind sehr heiß.", "en": "The middays in summer are very hot." }
     ]
   },
   {
@@ -564,6 +670,11 @@
     "senses": [
       { "en": "to like", "example_de": "Ich mag Musik.", "example_en": "I like music." },
       { "en": "would like", "note": "möchte = Konjunktiv II: ich möchte, du möchtest, er möchte", "example_de": "Ich möchte einen Kaffee, bitte.", "example_en": "I would like a coffee, please." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er mag keinen Fisch.", "en": "He doesn't like fish." },
+      { "tag": "präteritum", "de": "Als Kind mochte ich keine Tomaten.", "en": "As a child I didn't like tomatoes." },
+      { "tag": "perfekt", "de": "Sie hat den Lehrer immer gemocht.", "en": "She always liked the teacher." }
     ]
   },
   {
@@ -583,6 +694,9 @@
     "noun": { "gender": "m", "plural": "Momente" },
     "senses": [
       { "en": "moment", "example_de": "Einen Moment, bitte!", "example_en": "One moment, please!" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Der Urlaub hatte viele schöne Momente.", "en": "The vacation had many beautiful moments." }
     ]
   },
   {
@@ -593,6 +707,9 @@
     "noun": { "gender": "m", "plural": "Monate" },
     "senses": [
       { "en": "month", "example_de": "Der Kurs dauert drei Monate.", "example_en": "The course lasts three months." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Das Baby ist acht Monate alt.", "en": "The baby is eight months old." }
     ]
   },
   {
@@ -622,6 +739,9 @@
     "noun": { "gender": "m", "plural": "Morgen" },
     "senses": [
       { "en": "morning", "example_de": "Guten Morgen!", "example_en": "Good morning!" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Winter sind die Morgen dunkel.", "en": "In winter the mornings are dark." }
     ]
   },
   {
@@ -666,6 +786,11 @@
     },
     "senses": [
       { "en": "must, to have to", "example_de": "Ich muss jetzt gehen.", "example_en": "I have to go now." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wir müssen um sechs Uhr aufstehen.", "en": "We have to get up at six o'clock." },
+      { "tag": "präteritum", "de": "Er musste gestern lange arbeiten.", "en": "He had to work late yesterday." },
+      { "tag": "perfekt", "de": "Er hat gestern zum Arzt gemusst.", "en": "He had to go to the doctor yesterday." }
     ]
   },
   {
@@ -676,6 +801,9 @@
     "noun": { "gender": "f", "plural": "Mütter" },
     "senses": [
       { "en": "mother", "example_de": "Meine Mutter kocht gern.", "example_en": "My mother likes to cook." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Mütter warten vor dem Kindergarten.", "en": "The mothers are waiting in front of the kindergarten." }
     ]
   },
   {
@@ -696,6 +824,9 @@
     "noun": { "gender": "m", "plural": "Nachbarn", "genitive": "Nachbarn" },
     "senses": [
       { "en": "neighbor", "note": "n-Deklination: den/dem Nachbarn", "example_de": "Mein Nachbar ist sehr nett.", "example_en": "My neighbor is very nice." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich kenne alle Nachbarn im Haus.", "en": "I know all the neighbors in the building." }
     ]
   },
   {
@@ -706,6 +837,9 @@
     "noun": { "gender": "m", "plural": "Nachmittage" },
     "senses": [
       { "en": "afternoon", "example_de": "Am Nachmittag trinke ich Kaffee.", "example_en": "In the afternoon I drink coffee." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Am Wochenende sind die Nachmittage frei.", "en": "On weekends the afternoons are free." }
     ]
   },
   {
@@ -716,6 +850,9 @@
     "noun": { "gender": "f", "plural": "Nachrichten" },
     "senses": [
       { "en": "message; news", "example_de": "Ich schreibe dir eine Nachricht.", "example_en": "I am writing you a message." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich habe zwei neue Nachrichten auf dem Handy.", "en": "I have two new messages on my phone." }
     ]
   },
   {
@@ -726,6 +863,9 @@
     "noun": { "gender": "f", "plural": "Nächte" },
     "senses": [
       { "en": "night", "example_de": "Gute Nacht!", "example_en": "Good night!" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Sommer sind die Nächte kurz.", "en": "In summer the nights are short." }
     ]
   },
   {
@@ -755,6 +895,9 @@
     "noun": { "gender": "m", "plural": "Namen", "genitive": "Namens" },
     "senses": [
       { "en": "name", "example_de": "Wie ist Ihr Name?", "example_en": "What is your name?" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Namen der Kinder stehen an der Tür.", "en": "The children's names are on the door." }
     ]
   },
   {
@@ -783,6 +926,12 @@
     "verb": { "aux": "haben", "du": "nimmst", "er": "nimmt", "praeteritum": "nahm", "partizip2": "genommen" },
     "senses": [
       { "en": "to take", "example_de": "Ich nehme den Bus.", "example_en": "I take the bus." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie nimmt jeden Tag die U-Bahn.", "en": "She takes the subway every day." },
+      { "tag": "präteritum", "de": "Er nahm das letzte Stück Kuchen.", "en": "He took the last piece of cake." },
+      { "tag": "perfekt", "de": "Ich habe ein Taxi genommen.", "en": "I took a taxi." },
+      { "tag": "imperativ", "de": "Nimm den Zug um acht Uhr!", "en": "Take the train at eight o'clock!" }
     ]
   },
   {
@@ -894,6 +1043,9 @@
     "noun": { "gender": "f", "plural": "Nummern" },
     "senses": [
       { "en": "number", "example_de": "Wie ist deine Nummer?", "example_en": "What is your number?" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Nummern stehen auf der Liste.", "en": "The numbers are on the list." }
     ]
   },
   {
@@ -941,6 +1093,12 @@
     "verb": { "aux": "haben", "du": "öffnest", "er": "öffnet" },
     "senses": [
       { "en": "to open", "example_de": "Das Geschäft öffnet um neun Uhr.", "example_en": "The shop opens at nine o'clock." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie öffnet das Paket.", "en": "She opens the package." },
+      { "tag": "präteritum", "de": "Er öffnete das Fenster im Schlafzimmer.", "en": "He opened the window in the bedroom." },
+      { "tag": "perfekt", "de": "Ich habe den Brief noch nicht geöffnet.", "en": "I haven't opened the letter yet." },
+      { "tag": "imperativ", "de": "Öffnen Sie bitte Ihren Koffer!", "en": "Please open your suitcase!" }
     ]
   },
   {
@@ -979,6 +1137,9 @@
     "noun": { "gender": "f", "plural": "Omas" },
     "senses": [
       { "en": "grandma", "note": "informal for Großmutter", "example_de": "Meine Oma wohnt bei uns.", "example_en": "My grandma lives with us." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Meine beiden Omas leben noch.", "en": "Both of my grandmas are still alive." }
     ]
   },
   {
@@ -989,6 +1150,9 @@
     "noun": { "gender": "m", "plural": "Opas" },
     "senses": [
       { "en": "grandpa", "note": "informal for Großvater", "example_de": "Mein Opa ist achtzig Jahre alt.", "example_en": "My grandpa is eighty years old." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Beide Opas kommen am Sonntag zu Besuch.", "en": "Both grandpas are coming to visit on Sunday." }
     ]
   },
   {
@@ -999,6 +1163,9 @@
     "noun": { "gender": "f", "plural": "Ordnungen" },
     "senses": [
       { "en": "order", "note": "in Ordnung = okay, all right", "example_de": "Alles ist in Ordnung.", "example_en": "Everything is all right." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Jedes Land hat seine eigenen Ordnungen.", "en": "Every country has its own rules." }
     ]
   },
   {
@@ -1009,6 +1176,9 @@
     "noun": { "gender": "m", "plural": "Orte", "genitive": "Ortes" },
     "senses": [
       { "en": "place, town", "example_de": "Bitte schreiben Sie Ort und Datum.", "example_en": "Please write place and date." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wir besuchen viele schöne Orte.", "en": "We visit many beautiful places." }
     ]
   },
   {
@@ -1020,6 +1190,9 @@
     "senses": [
       { "en": "paper", "example_de": "Ich brauche Papier und einen Stift.", "example_en": "I need paper and a pen." },
       { "en": "documents, papers", "note": "Papiere (Pl.)", "example_de": "Ihre Papiere, bitte!", "example_en": "Your documents, please!" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Meine Papiere sind in der Tasche.", "en": "My documents are in the bag." }
     ]
   },
   {
@@ -1030,6 +1203,11 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to park", "example_de": "Hier dürfen Sie nicht parken.", "example_en": "You may not park here." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er parkt das Auto vor dem Haus.", "en": "He parks the car in front of the house." },
+      { "tag": "präteritum", "de": "Sie parkte direkt am Bahnhof.", "en": "She parked right at the station." },
+      { "tag": "perfekt", "de": "Wo hast du geparkt?", "en": "Where did you park?" }
     ]
   },
   {
@@ -1050,6 +1228,9 @@
     "noun": { "gender": "m", "plural": "Pässe" },
     "senses": [
       { "en": "passport", "example_de": "Hier ist mein Pass.", "example_en": "Here is my passport." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Unsere Pässe sind im Koffer.", "en": "Our passports are in the suitcase." }
     ]
   },
   {
@@ -1070,6 +1251,9 @@
     "noun": { "gender": "f", "plural": "Pausen" },
     "senses": [
       { "en": "break, pause", "example_de": "Wir machen zehn Minuten Pause.", "example_en": "We are taking a ten-minute break." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wir machen heute zwei Pausen.", "en": "We are taking two breaks today." }
     ]
   },
   {
@@ -1080,6 +1264,9 @@
     "noun": { "gender": "f", "plural": "Personen" },
     "senses": [
       { "en": "person", "example_de": "Ein Tisch für vier Personen, bitte.", "example_en": "A table for four people, please." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Kurs sind fünfzehn Personen.", "en": "There are fifteen people in the course." }
     ]
   },
   {
@@ -1091,6 +1278,9 @@
     "senses": [
       { "en": "seat, place; space", "example_de": "Ist dieser Platz frei?", "example_en": "Is this seat free?" },
       { "en": "square (in a town)", "example_de": "Das Café ist am Platz.", "example_en": "The café is on the square." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Zug sind noch Plätze frei.", "en": "There are still free seats on the train." }
     ]
   },
   {
@@ -1161,6 +1351,9 @@
     "noun": { "gender": "m", "plural": "Preise" },
     "senses": [
       { "en": "price", "example_de": "Die Preise sind hier sehr hoch.", "example_en": "The prices here are very high." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Supermarkt vergleiche ich die Preise.", "en": "I compare prices at the supermarket." }
     ]
   },
   {
@@ -1199,6 +1392,9 @@
     "noun": { "gender": "n", "plural": "Probleme" },
     "senses": [
       { "en": "problem", "example_de": "Kein Problem!", "example_en": "No problem!" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wir hatten im Urlaub keine Probleme.", "en": "We had no problems on vacation." }
     ]
   },
   {
@@ -1219,6 +1415,9 @@
     "noun": { "gender": "f", "plural": "Prüfungen" },
     "senses": [
       { "en": "exam, test", "example_de": "Ich mache im Juni eine Prüfung.", "example_en": "I am taking an exam in June." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Prüfungen beginnen nächste Woche.", "en": "The exams start next week." }
     ]
   },
   {
@@ -1229,6 +1428,9 @@
     "noun": { "gender": "n", "plural": "Radios" },
     "senses": [
       { "en": "radio", "example_de": "Ich höre morgens Radio.", "example_en": "I listen to the radio in the morning." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Alte Radios sind heute teuer.", "en": "Old radios are expensive today." }
     ]
   },
   {
@@ -1239,6 +1441,12 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to smoke", "example_de": "Rauchen ist hier verboten.", "example_en": "Smoking is forbidden here." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er raucht zu viel.", "en": "He smokes too much." },
+      { "tag": "präteritum", "de": "Früher rauchte sie viel.", "en": "She used to smoke a lot." },
+      { "tag": "perfekt", "de": "Ich habe nie geraucht.", "en": "I have never smoked." },
+      { "tag": "imperativ", "de": "Rauch bitte nicht in der Wohnung!", "en": "Please don't smoke in the apartment!" }
     ]
   },
   {
@@ -1249,6 +1457,9 @@
     "noun": { "gender": "f", "plural": "Rechnungen" },
     "senses": [
       { "en": "bill, invoice", "example_de": "Die Rechnung, bitte!", "example_en": "The bill, please!" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich bezahle die Rechnungen am Computer.", "en": "I pay the bills on the computer." }
     ]
   },
   {
@@ -1278,6 +1489,11 @@
     "verb": { "aux": "haben", "du": "regnest", "er": "regnet" },
     "senses": [
       { "en": "to rain", "note": "unpersönlich: es regnet", "example_de": "Es regnet heute viel.", "example_en": "It is raining a lot today." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Regnet es noch?", "en": "Is it still raining?" },
+      { "tag": "präteritum", "de": "Gestern regnete es den ganzen Tag.", "en": "Yesterday it rained all day." },
+      { "tag": "perfekt", "de": "Es hat in der Nacht geregnet.", "en": "It rained during the night." }
     ]
   },
   {
@@ -1298,6 +1514,9 @@
     "noun": { "gender": "f", "plural": "Reisen" },
     "senses": [
       { "en": "trip, journey", "example_de": "Gute Reise!", "example_en": "Have a good trip!" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wir machen dieses Jahr zwei Reisen.", "en": "We are taking two trips this year." }
     ]
   },
   {
@@ -1318,6 +1537,11 @@
     "verb": { "aux": "sein" },
     "senses": [
       { "en": "to travel", "example_de": "Wir reisen gern nach Italien.", "example_en": "We like traveling to Italy." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie reist gern allein.", "en": "She likes traveling alone." },
+      { "tag": "präteritum", "de": "Früher reisten wir oft nach Frankreich.", "en": "We used to travel to France often." },
+      { "tag": "perfekt", "de": "Er ist durch viele Länder gereist.", "en": "He has traveled through many countries." }
     ]
   },
   {
@@ -1328,6 +1552,11 @@
     "verb": { "aux": "haben", "partizip2": "repariert" },
     "senses": [
       { "en": "to repair", "note": "kein ge- im Partizip (-ieren)", "example_de": "Er repariert das Fahrrad.", "example_en": "He is repairing the bicycle." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Mann repariert die Waschmaschine.", "en": "The man is repairing the washing machine." },
+      { "tag": "präteritum", "de": "Er reparierte den alten Fernseher.", "en": "He repaired the old TV." },
+      { "tag": "perfekt", "de": "Sie hat die Lampe selbst repariert.", "en": "She repaired the lamp herself." }
     ]
   },
   {
@@ -1338,6 +1567,9 @@
     "noun": { "gender": "n", "plural": "Restaurants" },
     "senses": [
       { "en": "restaurant", "example_de": "Wir essen heute im Restaurant.", "example_en": "We are eating at the restaurant today." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "In dieser Straße gibt es viele Restaurants.", "en": "There are many restaurants on this street." }
     ]
   },
   {
@@ -1357,6 +1589,10 @@
     "adj": { "comparative": "röter", "superlative": "rötest" },
     "senses": [
       { "en": "red", "example_de": "Der Apfel ist rot.", "example_en": "The apple is red." }
+    ],
+    "examples": [
+      { "tag": "komparativ", "de": "Diese Tomaten sind röter als die anderen.", "en": "These tomatoes are redder than the others." },
+      { "tag": "superlativ", "de": "Im Herbst sind die Blätter am rötesten.", "en": "In autumn the leaves are at their reddest." }
     ]
   },
   {
@@ -1377,6 +1613,12 @@
     "verb": { "aux": "haben", "praeteritum": "rief", "partizip2": "gerufen" },
     "senses": [
       { "en": "to call, to shout", "example_de": "Das Kind ruft die Mutter.", "example_en": "The child is calling its mother." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er ruft laut meinen Namen.", "en": "He calls my name loudly." },
+      { "tag": "präteritum", "de": "Sie rief um Hilfe.", "en": "She called for help." },
+      { "tag": "perfekt", "de": "Wir haben ein Taxi gerufen.", "en": "We called a taxi." },
+      { "tag": "imperativ", "de": "Ruf schnell einen Arzt!", "en": "Quick, call a doctor!" }
     ]
   },
   {

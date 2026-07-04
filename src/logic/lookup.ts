@@ -2,7 +2,7 @@ import { asciiFold, normalize } from '@/logic/normalize';
 
 /** Minimal query surface — expo-sqlite satisfies it directly; tests adapt better-sqlite3. */
 export interface QueryDb {
-  getAllAsync<T>(sql: string, params?: (string | number)[]): Promise<T[]>;
+  getAllAsync<T>(sql: string, params: (string | number)[]): Promise<T[]>;
 }
 
 export interface LemmaHit {

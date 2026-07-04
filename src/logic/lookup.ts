@@ -52,36 +52,44 @@ export async function lookupGerman(db: QueryDb, input: string, limit = 20): Prom
   const fold = asciiFold(q);
   const plain = plainFold(q);
 
-  const lemmaRows = await db.getAllAsync<Omit<LemmaHit, 'gloss' | 'via'>>(
-    `SELECT ${LEMMA_COLS} FROM lemmas l
+  const lemmaRows = await db.getAllAsync<
+    Omit<LemmaHit, 'gloss' | 'via'> & { exact: number }
+  >(
+    `SELECT ${LEMMA_COLS}, (l.lemma_norm = ?) AS exact FROM lemmas l
      WHERE l.lemma_norm = ? OR l.lemma_fold = ? OR l.lemma_plain = ?
-     ORDER BY l.freq_rank IS NULL, l.freq_rank`,
-    [q, fold, plain]
+     ORDER BY exact DESC, l.freq_rank IS NULL, l.freq_rank`,
+    [q, q, fold, plain]
   );
 
   const formRows = await db.getAllAsync<Omit<LemmaHit, 'gloss' | 'via'> & {
     matchedForm: string;
     matchedTag: string;
+    exact: number;
   }>(
-    `SELECT ${LEMMA_COLS}, f.form AS matchedForm, MIN(f.tag) AS matchedTag
+    `SELECT ${LEMMA_COLS}, f.form AS matchedForm, MIN(f.tag) AS matchedTag,
+            MAX(f.form_norm = ?) AS exact
      FROM forms f JOIN lemmas l ON l.id = f.lemma_id
      WHERE f.form_norm = ? OR f.form_fold = ? OR f.form_plain = ?
      GROUP BY l.id
-     ORDER BY l.freq_rank IS NULL, l.freq_rank`,
-    [q, fold, plain]
+     ORDER BY exact DESC, l.freq_rank IS NULL, l.freq_rank`,
+    [q, q, fold, plain]
   );
 
+  // Precision tiers: exact-spelling lemma > exact-spelling form >
+  // umlaut-folded lemma > umlaut-folded form ("fährt" → fahren, not Fahrt;
+  // "fahrt" → Fahrt first, then fahren).
   const seen = new Set<number>();
   const hits: Omit<LemmaHit, 'gloss'>[] = [];
-  for (const r of lemmaRows) {
+  const push = (r: (typeof lemmaRows)[number] | (typeof formRows)[number], via: 'lemma' | 'form') => {
+    if (seen.has(r.lemmaId)) return;
     seen.add(r.lemmaId);
-    hits.push({ ...r, via: 'lemma' });
-  }
-  for (const r of formRows) {
-    if (seen.has(r.lemmaId)) continue;
-    seen.add(r.lemmaId);
-    hits.push({ ...r, via: 'form' });
-  }
+    const { exact: _exact, ...rest } = r;
+    hits.push({ ...rest, via });
+  };
+  for (const r of lemmaRows) if (r.exact) push(r, 'lemma');
+  for (const r of formRows) if (r.exact) push(r, 'form');
+  for (const r of lemmaRows) if (!r.exact) push(r, 'lemma');
+  for (const r of formRows) if (!r.exact) push(r, 'form');
 
   if (hits.length === 0 && q.length >= 3) {
     const prefixRows = await db.getAllAsync<Omit<LemmaHit, 'gloss' | 'via'>>(

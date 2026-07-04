@@ -909,8 +909,574 @@
       }
     ]
   },
-  { "slug": "akk-preps", "title": "Präpositionen + Akkusativ", "explainer_md": "These prepositions ALWAYS take the Akkusativ:\n\n**durch, für, gegen, ohne, um**\n\nMemory aid: *do-gfou!*\n\n*Das Geschenk ist **für den** Mann.*", "questions": [] },
-  { "slug": "dat-preps", "title": "Präpositionen + Dativ", "explainer_md": "These prepositions ALWAYS take the Dativ:\n\n**aus, bei, mit, nach, seit, von, zu**\n\n*Ich fahre **mit dem** Zug.* — I travel by train.", "questions": [] },
+  {
+    "slug": "akk-preps",
+    "title": "Präpositionen + Akkusativ",
+    "explainer_md": "These prepositions ALWAYS take the Akkusativ:\n\n**durch, für, gegen, ohne, um**\n\nMemory aid: *do-gfou!*\n\n*Das Geschenk ist **für den** Mann.*",
+    "questions": [
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wir gehen durch ___ Park.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„durch“ always takes the Akkusativ. Masculine: der → den (der Park)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Das Geschenk ist für ___ Kind.",
+          "options": ["das", "dem", "den"],
+          "correctIndex": 0,
+          "explanation": "„für“ always takes the Akkusativ, but neuter das stays das (das Kind)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Das Auto fährt gegen ___ Wand.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 0,
+          "explanation": "„gegen“ always takes the Akkusativ; feminine die stays die (die Wand)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich komme ohne ___ Bruder. (mein)",
+          "options": ["mein", "meinen", "meinem"],
+          "correctIndex": 1,
+          "explanation": "„ohne“ always takes the Akkusativ. Masculine: mein → meinen (der Bruder)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wir sitzen um ___ Tisch.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1,
+          "explanation": "„um“ always takes the Akkusativ. Masculine: der → den (der Tisch)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie geht um ___ Ecke.",
+          "options": ["die", "der", "das"],
+          "correctIndex": 0,
+          "explanation": "„um“ takes the Akkusativ; feminine die stays die (die Ecke)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Ich kaufe Blumen für ___ Lehrerin.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 0,
+          "explanation": "„für“ takes the Akkusativ; feminine die stays die (die Lehrerin)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Ohne ___ Auto fahren wir mit dem Bus.",
+          "options": ["das", "dem", "den"],
+          "correctIndex": 0,
+          "explanation": "„ohne“ takes the Akkusativ; neuter das stays das (das Auto)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Das Geschenk ist für ___. (er)",
+          "options": ["ihn", "ihm", "er"],
+          "correctIndex": 0,
+          "explanation": "„für“ always takes the Akkusativ, also with pronouns: er → ihn."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Ich gehe nicht ohne ___. (du)",
+          "options": ["dich", "dir", "du"],
+          "correctIndex": 0,
+          "explanation": "„ohne“ always takes the Akkusativ, also with pronouns: du → dich."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Der Hund läuft durch ___ Garten. (der)",
+          "accept": ["den"],
+          "hint": "durch + Akkusativ, der Garten",
+          "explanation": "„durch“ always takes the Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich backe einen Kuchen für ___ Mutter. (die)",
+          "accept": ["die"],
+          "hint": "für + Akkusativ, die Mutter",
+          "explanation": "„für“ takes the Akkusativ, but feminine die stays die."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wir laufen um ___ See. (der)",
+          "accept": ["den"],
+          "hint": "um + Akkusativ, der See",
+          "explanation": "„um“ always takes the Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Das Fahrrad fährt gegen ___ Baum. (der)",
+          "accept": ["den"],
+          "hint": "gegen + Akkusativ, der Baum",
+          "explanation": "„gegen“ always takes the Akkusativ. Masculine: der → den."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Er geht ohne ___ Jacke nach Hause. (seine)",
+          "accept": ["seine"],
+          "hint": "ohne + Akkusativ, die Jacke",
+          "explanation": "„ohne“ takes the Akkusativ, but feminine seine stays seine (die Jacke)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Sie kauft ein Geschenk für ___ Bruder. (ihr)",
+          "accept": ["ihren"],
+          "hint": "für + Akkusativ, der Bruder",
+          "explanation": "„für“ takes the Akkusativ. Masculine: ihr → ihren (der Bruder)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["gehen", "den", "Wir", "durch", "Park"],
+          "solutions": [["Wir", "gehen", "durch", "den", "Park"]],
+          "translation": "We are walking through the park.",
+          "explanation": "„durch“ takes the Akkusativ: der → den. The verb stands in second position."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["ist", "für", "Das", "dich", "Geschenk"],
+          "solutions": [["Das", "Geschenk", "ist", "für", "dich"]],
+          "translation": "The present is for you.",
+          "explanation": "„für“ always takes the Akkusativ, also with pronouns: du → dich."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["kommt", "ohne", "seinen", "Er", "Bruder"],
+          "solutions": [["Er", "kommt", "ohne", "seinen", "Bruder"]],
+          "translation": "He is coming without his brother.",
+          "explanation": "„ohne“ takes the Akkusativ. Masculine: sein → seinen (der Bruder)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["fährt", "die", "Der", "um", "Ecke", "Bus"],
+          "solutions": [["Der", "Bus", "fährt", "um", "die", "Ecke"]],
+          "translation": "The bus is driving around the corner.",
+          "explanation": "„um“ takes the Akkusativ; feminine die stays die. Der Bus is the Nominativ subject."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["kaufe", "für", "Ich", "ihn", "ein", "Buch"],
+          "solutions": [
+            ["Ich", "kaufe", "ein", "Buch", "für", "ihn"],
+            ["Ich", "kaufe", "für", "ihn", "ein", "Buch"]
+          ],
+          "translation": "I am buying a book for him.",
+          "explanation": "„für“ always takes the Akkusativ: er → ihn. The für-phrase can stand before or after the object."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Wir gehen durch **den Park**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It follows „durch“, which always takes the Akkusativ",
+            "It is the subject of the sentence",
+            "It follows a dative preposition",
+            "It is the indirect object (recipient)"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "„durch“ is an Akkusativ preposition, so der Park becomes den Park."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Das Geschenk ist für **das Kind**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It follows „für“, which always takes the Akkusativ",
+            "It is the indirect object (recipient)",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "„für“ is an Akkusativ preposition; neuter das stays das, so the case is invisible but still Akkusativ."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Er kommt ohne **seinen Bruder**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It is the indirect object (recipient)",
+            "It follows „ohne“, which always takes the Akkusativ",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 2,
+          "explanation": "„ohne“ is an Akkusativ preposition. Masculine: sein → seinen (der Bruder)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 3,
+        "payload": {
+          "sentence": "**Der Ball** fliegt gegen die Wand.",
+          "correctCase": "nominativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It follows „gegen“, which always takes the Akkusativ",
+            "It is the direct object of the verb",
+            "It is the indirect object (recipient)"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "Der Ball is the one flying → subject → Nominativ. Only „die Wand“ follows the Akkusativ preposition „gegen“."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "dat-preps",
+    "title": "Präpositionen + Dativ",
+    "explainer_md": "These prepositions ALWAYS take the Dativ:\n\n**aus, bei, mit, nach, seit, von, zu**\n\n*Ich fahre **mit dem** Zug.* — I travel by train.",
+    "questions": [
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich fahre mit ___ Bus.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 2,
+          "explanation": "„mit“ always takes the Dativ. Masculine: der → dem (der Bus)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Sie kommt aus ___ Türkei.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 1,
+          "explanation": "„aus“ always takes the Dativ. Feminine: die → der (die Türkei)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Nach ___ Schule gehe ich nach Hause.",
+          "options": ["die", "der", "dem"],
+          "correctIndex": 1,
+          "explanation": "„nach“ always takes the Dativ. Feminine: die → der (die Schule)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er wohnt bei ___ Eltern.",
+          "options": ["die", "den", "der"],
+          "correctIndex": 1,
+          "explanation": "„bei“ always takes the Dativ. Plural: die → den (den Eltern)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich gehe ___ Arzt. (zu + dem)",
+          "options": ["zum", "zur", "zu den"],
+          "correctIndex": 0,
+          "explanation": "„zu“ takes the Dativ; zu + dem contracts to „zum“ (der Arzt)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Wir lernen Deutsch seit ___ Jahr.",
+          "options": ["ein", "einen", "einem"],
+          "correctIndex": 2,
+          "explanation": "„seit“ always takes the Dativ. Neuter: ein → einem (das Jahr)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Das Brot kommt ___ Bäcker. (von + dem)",
+          "options": ["vom", "zum", "beim"],
+          "correctIndex": 0,
+          "explanation": "„von“ takes the Dativ; von + dem contracts to „vom“ (der Bäcker)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Er ist gerade ___ Friseur. (bei + dem)",
+          "options": ["beim", "vom", "zur"],
+          "correctIndex": 0,
+          "explanation": "„bei“ takes the Dativ; bei + dem contracts to „beim“ (der Friseur)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Kommst du mit ___? (ich)",
+          "options": ["mir", "mich", "ich"],
+          "correctIndex": 0,
+          "explanation": "„mit“ always takes the Dativ, also with pronouns: ich → mir."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Wir fahren zu ___ Großeltern. (unsere)",
+          "options": ["unseren", "unsere", "unserem"],
+          "correctIndex": 0,
+          "explanation": "„zu“ takes the Dativ. Plural: unsere → unseren (die Großeltern)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich gehe mit ___ Schwester ins Kino. (meine)",
+          "accept": ["meiner"],
+          "hint": "mit + Dativ, die Schwester",
+          "explanation": "„mit“ always takes the Dativ. Feminine: meine → meiner."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er kommt aus ___ Schule. (die)",
+          "accept": ["der"],
+          "hint": "aus + Dativ, die Schule",
+          "explanation": "„aus“ always takes the Dativ. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Nach ___ Essen trinken wir Kaffee. (das)",
+          "accept": ["dem"],
+          "hint": "nach + Dativ, das Essen",
+          "explanation": "„nach“ always takes the Dativ. Neuter: das → dem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie arbeitet seit ___ Monat hier. (ein)",
+          "accept": ["einem"],
+          "hint": "seit + Dativ, der Monat",
+          "explanation": "„seit“ always takes the Dativ. Masculine: ein → einem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Das ist ein Geschenk von ___ Oma. (meine)",
+          "accept": ["meiner"],
+          "hint": "von + Dativ, die Oma",
+          "explanation": "„von“ always takes the Dativ. Feminine: meine → meiner."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Wir fahren zu ___ Freunden. (unsere)",
+          "accept": ["unseren"],
+          "hint": "zu + Dativ, plural die Freunde",
+          "explanation": "„zu“ takes the Dativ. Plural: unsere → unseren, and the noun adds -n (Freunden)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["fahre", "mit", "Ich", "dem", "Bus"],
+          "solutions": [["Ich", "fahre", "mit", "dem", "Bus"]],
+          "translation": "I am going by bus.",
+          "explanation": "„mit“ takes the Dativ: der → dem. The verb stands in second position."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["kommt", "aus", "Sie", "der", "Türkei"],
+          "solutions": [["Sie", "kommt", "aus", "der", "Türkei"]],
+          "translation": "She comes from Turkey.",
+          "explanation": "„aus“ takes the Dativ. Feminine: die → der (die Türkei)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["wohne", "seit", "Ich", "einem", "Jahr", "hier"],
+          "solutions": [
+            ["Ich", "wohne", "seit", "einem", "Jahr", "hier"],
+            ["Ich", "wohne", "hier", "seit", "einem", "Jahr"]
+          ],
+          "translation": "I have been living here for a year.",
+          "explanation": "„seit“ takes the Dativ: ein → einem (das Jahr). The time phrase and „hier“ can come in either order."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["wohnt", "bei", "Sie", "ihren", "Eltern"],
+          "solutions": [["Sie", "wohnt", "bei", "ihren", "Eltern"]],
+          "translation": "She lives with her parents.",
+          "explanation": "„bei“ takes the Dativ. Plural: ihre → ihren (die Eltern)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["ist", "seit", "Er", "einer", "Woche", "krank"],
+          "solutions": [["Er", "ist", "seit", "einer", "Woche", "krank"]],
+          "translation": "He has been ill for a week.",
+          "explanation": "„seit“ takes the Dativ. Feminine: eine → einer (die Woche)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Ich fahre mit **dem Bus**.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It follows „mit“, which always takes the Dativ",
+            "It is the direct object of the verb",
+            "It is the subject of the sentence",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "„mit“ is a Dativ preposition, so der Bus becomes dem Bus."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Sie kommt aus **der Türkei**.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It follows „aus“, which always takes the Dativ",
+            "It is the direct object of the verb",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "„aus“ is a Dativ preposition. Feminine: die → der (die Türkei)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Nach **der Schule** spielen wir Fußball.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the direct object of the verb",
+            "It is the subject of the sentence",
+            "It follows „nach“, which always takes the Dativ",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 2,
+          "explanation": "„nach“ is a Dativ preposition. Feminine: die → der (die Schule)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 3,
+        "payload": {
+          "sentence": "**Der Zug** kommt aus Berlin.",
+          "correctCase": "nominativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It follows „aus“, which always takes the Dativ",
+            "It is the direct object of the verb",
+            "It is the indirect object (recipient)"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "Der Zug is the one arriving → subject → Nominativ. Only „Berlin“ follows the Dativ preposition „aus“."
+        }
+      }
+    ]
+  },
   {
     "slug": "two-way-preps",
     "title": "Wechselpräpositionen",
@@ -1354,7 +1920,794 @@
       }
     ]
   },
-  { "slug": "dative-verbs", "title": "Verben mit Dativ", "explainer_md": "Some verbs take their object in the **Dativ**, not the Akkusativ:\n\n**helfen, danken, gefallen, gehören, antworten, glauben, schmecken**\n\n*Er hilft **der** Frau.* — He helps the woman.", "questions": [] },
-  { "slug": "personal-pronouns", "title": "Personalpronomen", "explainer_md": "Pronouns change with case:\n\n| Nom | Akk | Dat |\n|---|---|---|\n| ich | mich | mir |\n| du | dich | dir |\n| er | ihn | ihm |\n| sie | sie | ihr |\n| es | es | ihm |\n| wir | uns | uns |\n| ihr | euch | euch |\n\n*Siehst du **mich**? Hilfst du **mir**?*", "questions": [] },
-  { "slug": "possessive-articles", "title": "Possessivartikel", "explainer_md": "**mein, dein, sein, ihr, unser, euer** take the same endings as *ein*:\n\n- Akkusativ m: mein → **meinen**\n- Dativ m/n: mein → **meinem**\n- Dativ f: mein → **meiner**\n\n*Ich helfe **meinem** Bruder.*", "questions": [] }
+  {
+    "slug": "dative-verbs",
+    "title": "Verben mit Dativ",
+    "explainer_md": "Some verbs take their object in the **Dativ**, not the Akkusativ:\n\n**helfen, danken, gefallen, gehören, antworten, glauben, schmecken**\n\n*Er hilft **der** Frau.* — He helps the woman.",
+    "questions": [
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich helfe ___ Mann.",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 2,
+          "explanation": "„helfen“ always takes a Dativ object. Masculine: der → dem (der Mann)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wir danken ___ Lehrer.",
+          "options": ["dem", "den", "der"],
+          "correctIndex": 0,
+          "explanation": "„danken“ takes the Dativ. Masculine: der → dem (der Lehrer)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Der Film gefällt ___ Frau.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 1,
+          "explanation": "„gefallen“ takes the Dativ. Feminine: die → der (die Frau)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Das Buch gehört ___ Kind.",
+          "options": ["das", "dem", "den"],
+          "correctIndex": 1,
+          "explanation": "„gehören“ takes the Dativ. Neuter: das → dem (das Kind)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Hilfst du ___? (ich)",
+          "options": ["mir", "mich", "ich"],
+          "correctIndex": 0,
+          "explanation": "„helfen“ takes the Dativ, also with pronouns: ich → mir."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie antwortet ___ Lehrerin.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 1,
+          "explanation": "„antworten“ takes the Dativ. Feminine: die → der (die Lehrerin)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Ich glaube ___ nicht. (du)",
+          "options": ["dir", "dich", "du"],
+          "correctIndex": 0,
+          "explanation": "„glauben“ (a person) takes the Dativ: du → dir."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Die Pizza schmeckt ___ Kindern.",
+          "options": ["die", "den", "der"],
+          "correctIndex": 1,
+          "explanation": "„schmecken“ takes the Dativ. Plural: die → den, and the noun adds -n (Kindern)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Die Schuhe gefallen ___. (ich)",
+          "options": ["mir", "mich", "meiner"],
+          "correctIndex": 0,
+          "explanation": "With „gefallen“ the thing (die Schuhe) is the plural subject; the person is the Dativ object: ich → mir."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Das Auto gehört ___ Eltern. (meine)",
+          "options": ["meinen", "meine", "meinem"],
+          "correctIndex": 0,
+          "explanation": "„gehören“ takes the Dativ. Plural: meine → meinen (die Eltern)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er hilft ___ Frau. (die)",
+          "accept": ["der"],
+          "hint": "helfen + Dativ, die Frau",
+          "explanation": "„helfen“ always takes a Dativ object. Feminine: die → der."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Das Fahrrad gehört ___ Bruder. (mein)",
+          "accept": ["meinem"],
+          "hint": "gehören + Dativ, der Bruder",
+          "explanation": "„gehören“ takes the Dativ. Masculine: mein → meinem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Der Kuchen schmeckt ___ Opa. (der)",
+          "accept": ["dem"],
+          "hint": "schmecken + Dativ, der Opa",
+          "explanation": "„schmecken“ takes the Dativ. Masculine: der → dem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Wir danken ___ Freunden. (unsere)",
+          "accept": ["unseren"],
+          "hint": "danken + Dativ, plural die Freunde",
+          "explanation": "„danken“ takes the Dativ. Plural: unsere → unseren, and the noun adds -n (Freunden)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Antwortest du ___ Vater? (dein)",
+          "accept": ["deinem"],
+          "hint": "antworten + Dativ, der Vater",
+          "explanation": "„antworten“ takes the Dativ. Masculine: dein → deinem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Die Bilder gefallen ___ Gästen. (die)",
+          "accept": ["den"],
+          "hint": "gefallen + Dativ, plural die Gäste",
+          "explanation": "The plural subject is die Bilder; the people are the Dativ object. Plural: die → den (Gästen)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["helfe", "meiner", "Ich", "Mutter"],
+          "solutions": [["Ich", "helfe", "meiner", "Mutter"]],
+          "translation": "I am helping my mother.",
+          "explanation": "„helfen“ takes the Dativ. Feminine: meine → meiner (die Mutter)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["gehört", "Buch", "Das", "ihm"],
+          "solutions": [["Das", "Buch", "gehört", "ihm"]],
+          "translation": "The book belongs to him.",
+          "explanation": "„gehören“ takes the Dativ pronoun: er → ihm. Das Buch is the Nominativ subject."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["gefällt", "Film", "Der", "uns"],
+          "solutions": [["Der", "Film", "gefällt", "uns"]],
+          "translation": "We like the film.",
+          "explanation": "With „gefallen“ the thing (der Film) is the subject; the person is in the Dativ: wir → uns."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["danken", "dem", "Wir", "Lehrer"],
+          "solutions": [["Wir", "danken", "dem", "Lehrer"]],
+          "translation": "We thank the teacher.",
+          "explanation": "„danken“ takes the Dativ. Masculine: der → dem (der Lehrer)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["schmeckt", "Suppe", "Die", "meinem", "Vater", "nicht"],
+          "solutions": [["Die", "Suppe", "schmeckt", "meinem", "Vater", "nicht"]],
+          "translation": "My father does not like the soup.",
+          "explanation": "„schmecken“ takes the Dativ: mein → meinem (der Vater). „nicht“ stands at the end."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Ich helfe **dem Schüler**.",
+          "correctCase": "dativ",
+          "reasons": [
+            "„helfen“ always takes a Dativ object",
+            "It is the direct object of the verb",
+            "It is the subject of the sentence",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "„helfen“ is a Dativ verb, so der Schüler becomes dem Schüler."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Das Handy gehört **der Lehrerin**.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "„gehören“ always takes a Dativ object",
+            "It is the direct object of the verb",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "„gehören“ is a Dativ verb. Feminine: die → der (die Lehrerin)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Der Film gefällt **meinem Freund**.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It is the direct object of the verb",
+            "„gefallen“ always takes a Dativ object",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 2,
+          "explanation": "„gefallen“ is a Dativ verb: mein → meinem (der Freund). Der Film is the subject."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 3,
+        "payload": {
+          "sentence": "**Die Schuhe** gefallen mir.",
+          "correctCase": "nominativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It is the Dativ object of „gefallen“",
+            "It is the direct object of the verb",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "With „gefallen“ the thing liked is the subject → Nominativ; that is why the verb is plural (gefallen). „mir“ is the Dativ object."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "personal-pronouns",
+    "title": "Personalpronomen",
+    "explainer_md": "Pronouns change with case:\n\n| Nom | Akk | Dat |\n|---|---|---|\n| ich | mich | mir |\n| du | dich | dir |\n| er | ihn | ihm |\n| sie | sie | ihr |\n| es | es | ihm |\n| wir | uns | uns |\n| ihr | euch | euch |\n\n*Siehst du **mich**? Hilfst du **mir**?*",
+    "questions": [
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Siehst du ___? (ich)",
+          "options": ["mich", "mir", "ich"],
+          "correctIndex": 0,
+          "explanation": "„sehen“ takes a direct object → Akkusativ: ich → mich."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Hilfst du ___? (ich)",
+          "options": ["mir", "mich", "ich"],
+          "correctIndex": 0,
+          "explanation": "„helfen“ takes the Dativ: ich → mir — compare „Siehst du mich?“ (Akkusativ)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich sehe den Mann. → Ich sehe ___.",
+          "options": ["ihn", "ihm", "er"],
+          "correctIndex": 0,
+          "explanation": "Den Mann is Akkusativ, so the pronoun is also Akkusativ: er → ihn."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich liebe ___. (du)",
+          "options": ["dich", "dir", "du"],
+          "correctIndex": 0,
+          "explanation": "„lieben“ takes a direct object → Akkusativ: du → dich."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Wie geht es ___? (du)",
+          "options": ["dir", "dich", "du"],
+          "correctIndex": 0,
+          "explanation": "In „Wie geht es …?“ the person is always in the Dativ: du → dir."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Ich helfe der Frau. → Ich helfe ___.",
+          "options": ["ihr", "sie", "ihm"],
+          "correctIndex": 0,
+          "explanation": "„helfen“ takes the Dativ; the feminine Dativ pronoun is ihr (sie → ihr)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Wir besuchen ___ morgen. (ihr)",
+          "options": ["euch", "ihr", "eure"],
+          "correctIndex": 0,
+          "explanation": "„besuchen“ takes the Akkusativ: ihr → euch."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Der Lehrer dankt ___. (wir)",
+          "options": ["uns", "wir", "unser"],
+          "correctIndex": 0,
+          "explanation": "„danken“ takes the Dativ: wir → uns (uns is both Akkusativ and Dativ)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Ich gebe es ___. (er)",
+          "options": ["ihm", "ihn", "er"],
+          "correctIndex": 0,
+          "explanation": "The recipient is Dativ: er → ihm. With two pronouns, the Akkusativ (es) comes before the Dativ (ihm)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Kaufst du das Buch für ___? (sie)",
+          "options": ["sie", "ihr", "ihnen"],
+          "correctIndex": 0,
+          "explanation": "„für“ always takes the Akkusativ, so sie stays sie — not the Dativ ihr."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich sehe die Frau. → Ich sehe ___.",
+          "accept": ["sie"],
+          "hint": "Akkusativ pronoun for die Frau",
+          "explanation": "Die Frau is a feminine Akkusativ object; the pronoun is sie (unchanged in the Akkusativ)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er fragt ___. (du)",
+          "accept": ["dich"],
+          "hint": "fragen + Akkusativ",
+          "explanation": "„fragen“ takes a direct object → Akkusativ: du → dich."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Der Film gefällt ___. (wir)",
+          "accept": ["uns"],
+          "hint": "gefallen + Dativ",
+          "explanation": "„gefallen“ takes the Dativ: wir → uns."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Das Buch gehört ___. (er)",
+          "accept": ["ihm"],
+          "hint": "gehören + Dativ",
+          "explanation": "„gehören“ takes the Dativ: er → ihm."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Ich danke ___. (ihr)",
+          "accept": ["euch"],
+          "hint": "danken + Dativ",
+          "explanation": "„danken“ takes the Dativ: ihr → euch (euch is both Akkusativ and Dativ)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Sie gibt es ___. (ich)",
+          "accept": ["mir"],
+          "hint": "recipient → Dativ",
+          "explanation": "The recipient of „geben“ is Dativ: ich → mir. The Akkusativ pronoun es comes first."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["du", "Kannst", "mir", "helfen"],
+          "solutions": [["Kannst", "du", "mir", "helfen"]],
+          "translation": "Can you help me?",
+          "explanation": "In a yes/no question the verb comes first. „helfen“ takes the Dativ: ich → mir."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["Lehrer", "hilft", "Der", "uns"],
+          "solutions": [["Der", "Lehrer", "hilft", "uns"]],
+          "translation": "The teacher is helping us.",
+          "explanation": "„helfen“ takes the Dativ: wir → uns. Der Lehrer is the Nominativ subject."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["du", "Siehst", "ihn", "heute"],
+          "solutions": [["Siehst", "du", "ihn", "heute"]],
+          "translation": "Are you seeing him today?",
+          "explanation": "„sehen“ takes the Akkusativ: er → ihn. The pronoun stands before the time word."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["gefällt", "Bild", "Das", "ihr"],
+          "solutions": [["Das", "Bild", "gefällt", "ihr"]],
+          "translation": "She likes the picture.",
+          "explanation": "„gefallen“ takes the Dativ; the feminine Dativ pronoun is ihr. Das Bild is the subject."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["gebe", "es", "Ich", "ihm"],
+          "solutions": [["Ich", "gebe", "es", "ihm"]],
+          "translation": "I am giving it to him.",
+          "explanation": "With two pronoun objects, the Akkusativ (es) comes before the Dativ (ihm)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Der Lehrer fragt **mich**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the direct object of „fragen“",
+            "It is the subject of the sentence",
+            "It is the indirect object (recipient)",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "„fragen“ takes a direct object → Akkusativ: ich → mich."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Siehst du **ihn**?",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It is the direct object of „sehen“",
+            "It is the indirect object (recipient)",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "„sehen“ takes a direct object → Akkusativ: er → ihn."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Meine Oma dankt **ihm**.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the direct object of the verb",
+            "It is the subject of the sentence",
+            "„danken“ always takes a Dativ object",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 2,
+          "explanation": "„danken“ is a Dativ verb: er → ihm."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 3,
+        "payload": {
+          "sentence": "Ich gebe **ihr** das Buch.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the direct object of „geben“",
+            "It is the indirect object (recipient)",
+            "It is the subject of the sentence",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "The recipient of „geben“ is the indirect object → Dativ: sie → ihr. Das Buch is the Akkusativ object."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "possessive-articles",
+    "title": "Possessivartikel",
+    "explainer_md": "**mein, dein, sein, ihr, unser, euer** take the same endings as *ein*:\n\n- Akkusativ m: mein → **meinen**\n- Dativ m/n: mein → **meinem**\n- Dativ f: mein → **meiner**\n\n*Ich helfe **meinem** Bruder.*",
+    "questions": [
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Das ist ___ Bruder. (ich)",
+          "options": ["mein", "meinen", "meinem"],
+          "correctIndex": 0,
+          "explanation": "After „sein“ (to be) the noun stays in the Nominativ: mein Bruder."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich besuche ___ Bruder. (ich)",
+          "options": ["mein", "meinen", "meinem"],
+          "correctIndex": 1,
+          "explanation": "„besuchen“ takes the Akkusativ. Masculine: mein → meinen (der Bruder)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Er liebt ___ Mutter. (er)",
+          "options": ["seine", "sein", "seinen"],
+          "correctIndex": 0,
+          "explanation": "The owner is male → sein-. „lieben“ takes the Akkusativ; feminine: seine (die Mutter)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Anna sucht ___ Schlüssel. (sie)",
+          "options": ["ihren", "seinen", "ihrem"],
+          "correctIndex": 0,
+          "explanation": "The owner (Anna) is female → ihr-. „suchen“ takes the Akkusativ: ihr → ihren (der Schlüssel)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Wir helfen ___ Bruder. (wir)",
+          "options": ["unserem", "unseren", "unser"],
+          "correctIndex": 0,
+          "explanation": "„helfen“ takes the Dativ. Masculine: unser → unserem (der Bruder)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Ist das ___ Katze? (ihr)",
+          "options": ["eure", "euere", "euer"],
+          "correctIndex": 0,
+          "explanation": "euer drops the middle -e- before an ending: euer + e → eure (die Katze, Nominativ)."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie spielt mit ___ Schwester. (sie)",
+          "options": ["ihrer", "ihre", "seiner"],
+          "correctIndex": 0,
+          "explanation": "„mit“ takes the Dativ. Feminine: ihre → ihrer (die Schwester); the owner is female → ihr-."
+        }
+      },
+      {
+        "qtype": "mc",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Peter fährt mit ___ Auto. (er)",
+          "options": ["seinem", "ihrem", "seinen"],
+          "correctIndex": 0,
+          "explanation": "The owner (Peter) is male → sein-. „mit“ takes the Dativ; neuter: sein → seinem (das Auto)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Ich sehe ___ Bruder. (mein)",
+          "accept": ["meinen"],
+          "hint": "sehen + Akkusativ, der Bruder",
+          "explanation": "„sehen“ takes the Akkusativ. Masculine: mein → meinen."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 1,
+        "payload": {
+          "prompt": "Das ist ___ Tasche. (dein)",
+          "accept": ["deine"],
+          "hint": "Nominativ, die Tasche",
+          "explanation": "After „sein“ (to be) → Nominativ. Feminine: dein → deine (die Tasche)."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Wir danken ___ Lehrer. (unser)",
+          "accept": ["unserem"],
+          "hint": "danken + Dativ, der Lehrer",
+          "explanation": "„danken“ takes the Dativ. Masculine: unser → unserem."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 2,
+        "payload": {
+          "prompt": "Sie kommt ohne ___ Bruder. (ihr)",
+          "accept": ["ihren"],
+          "hint": "ohne + Akkusativ, der Bruder",
+          "explanation": "„ohne“ takes the Akkusativ. Masculine: ihr → ihren."
+        }
+      },
+      {
+        "qtype": "fill",
+        "difficulty": 3,
+        "payload": {
+          "prompt": "Kommt ihr mit ___ Kindern? (euer)",
+          "accept": ["euren"],
+          "hint": "mit + Dativ, plural die Kinder",
+          "explanation": "„mit“ takes the Dativ. Plural: euer → euren — euer drops the middle -e- before an ending."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["ist", "meine", "Das", "Schwester"],
+          "solutions": [["Das", "ist", "meine", "Schwester"]],
+          "translation": "That is my sister.",
+          "explanation": "After „sein“ (to be) → Nominativ. Feminine: meine (die Schwester)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 1,
+        "payload": {
+          "tokens": ["suche", "meinen", "Ich", "Schlüssel"],
+          "solutions": [["Ich", "suche", "meinen", "Schlüssel"]],
+          "translation": "I am looking for my key.",
+          "explanation": "„suchen“ takes the Akkusativ. Masculine: mein → meinen (der Schlüssel)."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 2,
+        "payload": {
+          "tokens": ["hilft", "seinem", "Er", "Vater", "heute"],
+          "solutions": [
+            ["Er", "hilft", "heute", "seinem", "Vater"],
+            ["Er", "hilft", "seinem", "Vater", "heute"]
+          ],
+          "translation": "He is helping his father today.",
+          "explanation": "„helfen“ takes the Dativ: sein → seinem (der Vater). „heute“ can stand before or after the object."
+        }
+      },
+      {
+        "qtype": "order",
+        "difficulty": 3,
+        "payload": {
+          "tokens": ["gehört", "Auto", "Das", "ihrer", "Mutter"],
+          "solutions": [["Das", "Auto", "gehört", "ihrer", "Mutter"]],
+          "translation": "The car belongs to her mother.",
+          "explanation": "„gehören“ takes the Dativ. Feminine: ihre → ihrer (die Mutter)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 1,
+        "payload": {
+          "sentence": "Ich besuche **meinen Onkel**.",
+          "correctCase": "akkusativ",
+          "reasons": [
+            "It is the direct object of „besuchen“",
+            "It is the subject of the sentence",
+            "It is the indirect object (recipient)",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "„besuchen“ takes a direct object → Akkusativ. Masculine: mein → meinen (der Onkel)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 2,
+        "payload": {
+          "sentence": "Sie fährt mit **ihrer Schwester** in die Stadt.",
+          "correctCase": "dativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It follows „mit“, which always takes the Dativ",
+            "It is the direct object of the verb",
+            "It follows an accusative preposition"
+          ],
+          "correctReasonIndex": 1,
+          "explanation": "„mit“ is a Dativ preposition. Feminine: ihre → ihrer (die Schwester)."
+        }
+      },
+      {
+        "qtype": "case_id",
+        "difficulty": 3,
+        "payload": {
+          "sentence": "**Euer Haus** ist sehr schön.",
+          "correctCase": "nominativ",
+          "reasons": [
+            "It is the subject of the sentence",
+            "It is the direct object of the verb",
+            "It is the indirect object (recipient)",
+            "It follows a dative preposition"
+          ],
+          "correctReasonIndex": 0,
+          "explanation": "Euer Haus is the subject → Nominativ, so euer keeps its base form (no ending, no elision)."
+        }
+      }
+    ]
+  }
 ]

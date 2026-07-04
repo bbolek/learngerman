@@ -18,11 +18,25 @@ const VOCAB_DIR = path.join(ROOT, 'scripts/data/vocab');
 const GRAMMAR_FILE = path.join(ROOT, 'scripts/data/grammar-questions.json');
 const OUT_FILE = path.join(ROOT, 'assets/db/dictionary.db');
 
-const CONTENT_VERSION = 1;
+const CONTENT_VERSION = 2;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
 const LEVELS = new Set(['A1', 'A2', 'B1']);
 const QTYPES = new Set(['mc', 'fill', 'order', 'case_id']);
+const EXAMPLE_TAGS = new Set([
+  'präsens',
+  'präteritum',
+  'perfekt',
+  'imperativ',
+  'frage',
+  'negation',
+  'plural',
+  'dativ',
+  'akkusativ',
+  'komparativ',
+  'superlativ',
+  'allgemein',
+]);
 
 function normalize(input: string): string {
   return input.normalize('NFC').trim().toLowerCase();
@@ -70,6 +84,16 @@ function loadVocab(): VocabEntry[] {
       }
       if (e.pos === 'verb' && !e.verb)
         return void errors.push(`${where}: verb entry needs 'verb' block`);
+      if (e.examples != null) {
+        if (!Array.isArray(e.examples))
+          return void errors.push(`${where}: examples must be an array`);
+        for (const ex of e.examples) {
+          if (!EXAMPLE_TAGS.has(ex.tag))
+            return void errors.push(`${where}: bad example tag '${ex.tag}'`);
+          if (!ex.de || !ex.en)
+            return void errors.push(`${where}: example needs both 'de' and 'en'`);
+        }
+      }
       const key = `${e.lemma}|${e.pos}`;
       const dup = seen.get(key);
       if (dup) return void errors.push(`${where}: duplicate of entry in ${dup}`);
@@ -210,6 +234,16 @@ function build() {
     CREATE INDEX idx_senses_en ON senses(en_norm);
     CREATE VIRTUAL TABLE senses_fts USING fts5(en, content='senses', content_rowid='id');
 
+    CREATE TABLE examples (
+      id INTEGER PRIMARY KEY,
+      lemma_id INTEGER NOT NULL REFERENCES lemmas(id),
+      tag TEXT NOT NULL,
+      de TEXT NOT NULL,
+      en TEXT NOT NULL,
+      sort_order INTEGER NOT NULL
+    );
+    CREATE INDEX idx_examples_lemma ON examples(lemma_id);
+
     CREATE TABLE grammar_topics (
       id INTEGER PRIMARY KEY,
       slug TEXT UNIQUE NOT NULL,
@@ -238,8 +272,12 @@ function build() {
   const insSense = db.prepare(`
     INSERT INTO senses (lemma_id, sense_order, en, en_norm, example_de, example_en, note)
     VALUES (?, ?, ?, ?, ?, ?, ?)`);
+  const insExample = db.prepare(
+    'INSERT INTO examples (lemma_id, tag, de, en, sort_order) VALUES (?, ?, ?, ?, ?)'
+  );
 
   let formCount = 0;
+  let exampleCount = 0;
   const insertAll = db.transaction(() => {
     for (const e of vocab) {
       const norm = normalize(e.lemma);
@@ -282,6 +320,11 @@ function build() {
           s.note ?? null
         );
       });
+
+      (e.examples ?? []).forEach((ex, i) => {
+        insExample.run(lemmaId, ex.tag, ex.de, ex.en, i + 1);
+        exampleCount++;
+      });
     }
 
     grammar.forEach((t, ti) => {
@@ -314,7 +357,7 @@ function build() {
   const sizeKb = Math.round(fs.statSync(OUT_FILE).size / 1024);
   console.log(
     `✓ dictionary.db built: ${lemmaCount} lemmas, ${formCount} forms, ${senseCount} senses, ` +
-      `${grammar.length} topics, ${qCount} questions — ${sizeKb} KB`
+      `${exampleCount} examples, ${grammar.length} topics, ${qCount} questions — ${sizeKb} KB`
   );
 }
 

@@ -60,6 +60,27 @@ adv/prep/pron/conj/num/other take no morphology block. For prepositions put
 the case in `note` (`"+ Dativ"`, `"+ Akkusativ"`, `"Wechselpräposition: …"`).
 For pronouns list case forms in `note` (`"mich (Akk.) · mir (Dat.)"`).
 
+### Form examples (`examples`, optional)
+
+Extra example sentences that demonstrate specific tenses/forms, shown in a
+"Beispiele" section on the word-detail screen (the per-sense `example_de` stays
+the primary example):
+
+```jsonc
+"examples": [
+  { "tag": "präsens",    "de": "Was machst du am Wochenende?", "en": "What are you doing on the weekend?" },
+  { "tag": "präteritum", "de": "Er machte seine Hausaufgaben.", "en": "He did his homework." },
+  { "tag": "perfekt",    "de": "Ich habe das Essen gemacht.",   "en": "I made the food." },
+  { "tag": "imperativ",  "de": "Mach das Fenster zu!",          "en": "Close the window!" }
+]
+```
+
+Allowed tags: `präsens` `präteritum` `perfekt` `imperativ` `frage` `negation`
+`plural` `dativ` `akkusativ` `komparativ` `superlativ` `allgemein`.
+Guidelines: verbs get präsens/präteritum/perfekt (+ imperativ where natural);
+adjectives with comparison get komparativ + superlativ; common nouns get a
+plural example. The sentence MUST actually use the tagged form of the lemma.
+
 ## Style rules
 
 - Example sentences use ONLY A1-level vocabulary, ≤ 8 words where possible.

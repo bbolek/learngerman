@@ -45,6 +45,13 @@ export interface AdjSpec {
   indeclinable?: boolean;
 }
 
+export interface FormExample {
+  /** Which form/tense the sentence demonstrates (validated tag set). */
+  tag: string;
+  de: string;
+  en: string;
+}
+
 export interface VocabEntry {
   lemma: string;
   pos: 'verb' | 'noun' | 'adj' | 'adv' | 'prep' | 'pron' | 'conj' | 'num' | 'other';
@@ -54,6 +61,8 @@ export interface VocabEntry {
   noun?: NounSpec;
   adj?: AdjSpec;
   senses: Sense[];
+  /** Extra examples per tense/form, shown on the word-detail screen. */
+  examples?: FormExample[];
 }
 
 export interface Form {

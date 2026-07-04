@@ -44,6 +44,19 @@ export async function getSenses(lemmaId: number): Promise<SenseRow[]> {
   );
 }
 
+export interface ExampleRow {
+  tag: string;
+  de: string;
+  en: string;
+}
+
+export async function getExamples(lemmaId: number): Promise<ExampleRow[]> {
+  return getDb().getAllAsync<ExampleRow>(
+    'SELECT tag, de, en FROM examples WHERE lemma_id = ? ORDER BY sort_order',
+    [lemmaId]
+  );
+}
+
 export async function getForms(lemmaId: number): Promise<FormRow[]> {
   return getDb().getAllAsync<FormRow>(
     `SELECT form, tag FROM forms WHERE lemma_id = ? ORDER BY id`,

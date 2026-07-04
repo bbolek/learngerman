@@ -5,15 +5,17 @@ import { useEffect, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import {
+  getExamples,
   getForms,
   getLemma,
   getSenses,
+  type ExampleRow,
   type FormRow,
   type LemmaDetail,
   type SenseRow,
 } from '@/db/dictionaryRepo';
 import { isSaved, saveWord, unsaveWord } from '@/db/vocabRepo';
-import { articleFor } from '@/logic/formLabels';
+import { articleFor, exampleTagLabel } from '@/logic/formLabels';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -43,19 +45,25 @@ export default function WordDetailScreen() {
   const [lemma, setLemma] = useState<LemmaDetail | null>(null);
   const [senses, setSenses] = useState<SenseRow[]>([]);
   const [forms, setForms] = useState<FormRow[]>([]);
+  const [examples, setExamples] = useState<ExampleRow[]>([]);
   const [saved, setSaved] = useState(false);
   const [showForms, setShowForms] = useState(false);
 
   useEffect(() => {
     if (!Number.isFinite(lemmaId)) return;
-    Promise.all([getLemma(lemmaId), getSenses(lemmaId), getForms(lemmaId), isSaved(lemmaId)]).then(
-      ([l, s, f, sv]) => {
-        setLemma(l);
-        setSenses(s);
-        setForms(f);
-        setSaved(sv);
-      }
-    );
+    Promise.all([
+      getLemma(lemmaId),
+      getSenses(lemmaId),
+      getForms(lemmaId),
+      getExamples(lemmaId),
+      isSaved(lemmaId),
+    ]).then(([l, s, f, ex, sv]) => {
+      setLemma(l);
+      setSenses(s);
+      setForms(f);
+      setExamples(ex);
+      setSaved(sv);
+    });
   }, [lemmaId]);
 
   if (!lemma) return <Screen scroll={false}>{null}</Screen>;
@@ -137,6 +145,27 @@ export default function WordDetailScreen() {
           )}
         </Card>
       ))}
+
+      {examples.length > 0 && (
+        <Card style={styles.formsCard}>
+          <AppText variant="subtitle">Beispiele</AppText>
+          <View style={{ marginTop: spacing.sm, gap: spacing.md }}>
+            {examples.map((ex, i) => (
+              <View key={i} style={[styles.example, i > 0 && { borderTopWidth: 1, borderTopColor: t.line }]}>
+                <View style={styles.exampleTag}>
+                  <Chip label={exampleTagLabel(ex.tag)} kind="case" small />
+                </View>
+                <AppText variant="body" style={{ fontFamily: fonts.serif, fontSize: 16.5, lineHeight: 23 }}>
+                  {ex.de}
+                </AppText>
+                <AppText variant="secondary" muted style={{ marginTop: 2 }}>
+                  {ex.en}
+                </AppText>
+              </View>
+            ))}
+          </View>
+        </Card>
+      )}
 
       {forms.length > 0 && (
         <Card style={styles.formsCard}>
@@ -250,6 +279,8 @@ const styles = StyleSheet.create({
   senseHead: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, flexWrap: 'wrap' },
   formsCard: { marginTop: spacing.md },
   formsHead: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+  example: { paddingTop: spacing.sm },
+  exampleTag: { flexDirection: 'row', marginBottom: 5 },
   tr: {
     flexDirection: 'row',
     alignItems: 'center',

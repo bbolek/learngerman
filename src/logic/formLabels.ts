@@ -21,6 +21,26 @@ const LABELS: Record<string, string> = {
   dekliniert: 'deklinierte Form',
 };
 
+/** Labels for the example-sentence tags shown on the word-detail screen. */
+const EXAMPLE_TAG_LABELS: Record<string, string> = {
+  präsens: 'Präsens',
+  präteritum: 'Präteritum',
+  perfekt: 'Perfekt',
+  imperativ: 'Imperativ',
+  frage: 'Frage',
+  negation: 'Verneinung',
+  plural: 'Plural',
+  dativ: 'Dativ',
+  akkusativ: 'Akkusativ',
+  komparativ: 'Komparativ',
+  superlativ: 'Superlativ',
+  allgemein: 'Beispiel',
+};
+
+export function exampleTagLabel(tag: string): string {
+  return EXAMPLE_TAG_LABELS[tag] ?? tag;
+}
+
 export function formLabel(tag: string | undefined | null): string | null {
   if (!tag) return null;
   return LABELS[tag] ?? null;

@@ -16,6 +16,9 @@
     "noun": { "gender": "m", "plural": "Abende" },
     "senses": [
       { "en": "evening", "note": "am Abend · Guten Abend!", "example_de": "Am Abend lese ich.", "example_en": "In the evening I read." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Abende im Herbst sind lang.", "en": "The evenings in autumn are long." }
     ]
   },
   {
@@ -45,6 +48,11 @@
     "verb": { "aux": "sein", "separablePrefix": "ab", "du": "fährst", "er": "fährt", "praeteritum": "fuhr", "partizip2": "abgefahren" },
     "senses": [
       { "en": "to depart, to leave", "note": "separable", "example_de": "Der Zug fährt um neun Uhr ab.", "example_en": "The train departs at nine o'clock." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Bus fährt gleich ab.", "en": "The bus is leaving soon." },
+      { "tag": "präteritum", "de": "Der Zug fuhr pünktlich ab.", "en": "The train departed on time." },
+      { "tag": "perfekt", "de": "Wir sind früh am Morgen abgefahren.", "en": "We departed early in the morning." }
     ]
   },
   {
@@ -65,6 +73,12 @@
     "verb": { "aux": "haben", "separablePrefix": "ab" },
     "senses": [
       { "en": "to pick up, to collect", "note": "separable", "example_de": "Ich hole dich vom Bahnhof ab.", "example_en": "I will pick you up from the station." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie holt die Kinder von der Schule ab.", "en": "She picks the children up from school." },
+      { "tag": "präteritum", "de": "Er holte mich gestern vom Bahnhof ab.", "en": "He picked me up from the station yesterday." },
+      { "tag": "perfekt", "de": "Ich habe das Paket abgeholt.", "en": "I picked up the package." },
+      { "tag": "imperativ", "de": "Hol mich bitte um acht ab!", "en": "Please pick me up at eight!" }
     ]
   },
   {
@@ -102,6 +116,9 @@
     "noun": { "gender": "f", "plural": "Adressen" },
     "senses": [
       { "en": "address", "example_de": "Wie ist deine Adresse?", "example_en": "What is your address?" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Adressen stehen auf der Liste.", "en": "The addresses are on the list." }
     ]
   },
   {
@@ -158,6 +175,9 @@
     "noun": { "gender": "m", "plural": "Anfänge" },
     "senses": [
       { "en": "beginning, start", "example_de": "Am Anfang war es schwer.", "example_en": "In the beginning it was hard." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Anfänge sind oft schwer.", "en": "Beginnings are often hard." }
     ]
   },
   {
@@ -168,6 +188,12 @@
     "verb": { "aux": "haben", "separablePrefix": "an", "du": "fängst", "er": "fängt", "praeteritum": "fing", "partizip2": "angefangen" },
     "senses": [
       { "en": "to begin, to start", "note": "separable", "example_de": "Der Film fängt um acht an.", "example_en": "The film starts at eight." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Schule fängt um acht an.", "en": "School starts at eight." },
+      { "tag": "präteritum", "de": "Der Film fing spät an.", "en": "The film started late." },
+      { "tag": "perfekt", "de": "Der Kurs hat gestern angefangen.", "en": "The course started yesterday." },
+      { "tag": "imperativ", "de": "Fang bitte ohne mich an!", "en": "Please start without me!" }
     ]
   },
   {
@@ -178,6 +204,11 @@
     "verb": { "aux": "sein", "separablePrefix": "an", "praeteritum": "kam", "partizip2": "angekommen" },
     "senses": [
       { "en": "to arrive", "note": "separable", "example_de": "Wir kommen um zehn Uhr an.", "example_en": "We arrive at ten o'clock." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Zug kommt um zwölf an.", "en": "The train arrives at twelve." },
+      { "tag": "präteritum", "de": "Wir kamen spät in Berlin an.", "en": "We arrived in Berlin late." },
+      { "tag": "perfekt", "de": "Bist du gut zu Hause angekommen?", "en": "Did you get home safely?" }
     ]
   },
   {
@@ -198,6 +229,12 @@
     "verb": { "aux": "haben", "separablePrefix": "an" },
     "senses": [
       { "en": "to register, to sign up", "note": "separable; sich anmelden für + Akk.", "example_de": "Ich melde mich für den Kurs an.", "example_en": "I am signing up for the course." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er meldet seinen Sohn in der Schule an.", "en": "He is registering his son at the school." },
+      { "tag": "präteritum", "de": "Sie meldete sich für den Deutschkurs an.", "en": "She signed up for the German course." },
+      { "tag": "perfekt", "de": "Ich habe mich für den Kurs angemeldet.", "en": "I signed up for the course." },
+      { "tag": "imperativ", "de": "Melde dich bitte bis Freitag an!", "en": "Please register by Friday!" }
     ]
   },
   {
@@ -218,6 +255,12 @@
     "verb": { "aux": "haben", "separablePrefix": "an", "praeteritum": "rief", "partizip2": "angerufen" },
     "senses": [
       { "en": "to call (on the phone)", "note": "separable; + Akkusativ", "example_de": "Ich rufe dich morgen an.", "example_en": "I will call you tomorrow." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich rufe meine Oma jeden Sonntag an.", "en": "I call my grandma every Sunday." },
+      { "tag": "präteritum", "de": "Sie rief mich gestern Abend an.", "en": "She called me yesterday evening." },
+      { "tag": "perfekt", "de": "Hast du den Arzt angerufen?", "en": "Did you call the doctor?" },
+      { "tag": "imperativ", "de": "Ruf mich bitte morgen an!", "en": "Please call me tomorrow!" }
     ]
   },
   {
@@ -228,6 +271,9 @@
     "noun": { "gender": "f", "plural": "Antworten" },
     "senses": [
       { "en": "answer, reply", "example_de": "Die Antwort ist richtig.", "example_en": "The answer is correct." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Deine Antworten sind alle richtig.", "en": "Your answers are all correct." }
     ]
   },
   {
@@ -238,6 +284,12 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to answer, to reply", "note": "+ Dativ (jemandem antworten)", "example_de": "Er antwortet nicht.", "example_en": "He does not answer." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie antwortet immer sehr schnell.", "en": "She always answers very quickly." },
+      { "tag": "präteritum", "de": "Er antwortete nicht auf meine Frage.", "en": "He did not answer my question." },
+      { "tag": "perfekt", "de": "Der Lehrer hat mir freundlich geantwortet.", "en": "The teacher answered me kindly." },
+      { "tag": "imperativ", "de": "Antworte bitte auf meine E-Mail!", "en": "Please reply to my email!" }
     ]
   },
   {
@@ -268,6 +320,9 @@
     "noun": { "gender": "f", "plural": "Arbeiten" },
     "senses": [
       { "en": "work, job", "example_de": "Die Arbeit macht Spaß.", "example_en": "The work is fun." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wir schreiben diese Woche zwei Arbeiten.", "en": "We are writing two tests this week." }
     ]
   },
   {
@@ -288,6 +343,9 @@
     "noun": { "gender": "m", "plural": "Ärzte", "genitive": "Arztes" },
     "senses": [
       { "en": "doctor (male)", "note": "die Ärztin = female doctor", "example_de": "Ich gehe morgen zum Arzt.", "example_en": "I am going to the doctor tomorrow." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Ärzte im Krankenhaus sind sehr nett.", "en": "The doctors at the hospital are very nice." }
     ]
   },
   {
@@ -316,6 +374,9 @@
     "noun": { "gender": "f", "plural": "Aufgaben" },
     "senses": [
       { "en": "task, exercise", "example_de": "Die Aufgabe ist einfach.", "example_en": "The task is easy." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Aufgaben sind heute leicht.", "en": "The tasks are easy today." }
     ]
   },
   {
@@ -326,6 +387,12 @@
     "verb": { "aux": "haben", "separablePrefix": "auf" },
     "senses": [
       { "en": "to stop, to quit", "note": "separable; aufhören mit + Dat.", "example_de": "Der Regen hört bald auf.", "example_en": "The rain will stop soon." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Kurs hört um neun auf.", "en": "The course ends at nine." },
+      { "tag": "präteritum", "de": "Der Regen hörte am Abend auf.", "en": "The rain stopped in the evening." },
+      { "tag": "perfekt", "de": "Die Musik hat plötzlich aufgehört.", "en": "The music suddenly stopped." },
+      { "tag": "imperativ", "de": "Hör bitte sofort damit auf!", "en": "Please stop that right now!" }
     ]
   },
   {
@@ -336,6 +403,12 @@
     "verb": { "aux": "sein", "separablePrefix": "auf", "praeteritum": "stand", "partizip2": "aufgestanden" },
     "senses": [
       { "en": "to get up, to stand up", "note": "separable", "example_de": "Ich stehe um sieben Uhr auf.", "example_en": "I get up at seven o'clock." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie steht jeden Tag um sechs auf.", "en": "She gets up at six every day." },
+      { "tag": "präteritum", "de": "Er stand heute sehr früh auf.", "en": "He got up very early today." },
+      { "tag": "perfekt", "de": "Ich bin um acht Uhr aufgestanden.", "en": "I got up at eight o'clock." },
+      { "tag": "imperativ", "de": "Steh auf, es ist schon spät!", "en": "Get up, it is already late!" }
     ]
   },
   {
@@ -356,6 +429,9 @@
     "noun": { "gender": "n", "plural": "Augen" },
     "senses": [
       { "en": "eye", "example_de": "Das Kind hat blaue Augen.", "example_en": "The child has blue eyes." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Meine Augen sind müde.", "en": "My eyes are tired." }
     ]
   },
   {
@@ -395,6 +471,12 @@
     "verb": { "aux": "haben", "separablePrefix": "aus" },
     "senses": [
       { "en": "to fill out (a form)", "note": "separable", "example_de": "Bitte füllen Sie das Formular aus.", "example_en": "Please fill out the form." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er füllt das Formular langsam aus.", "en": "He fills out the form slowly." },
+      { "tag": "präteritum", "de": "Sie füllte das Formular im Büro aus.", "en": "She filled out the form in the office." },
+      { "tag": "perfekt", "de": "Ich habe das Formular schon ausgefüllt.", "en": "I have already filled out the form." },
+      { "tag": "imperativ", "de": "Füll bitte dieses Formular aus!", "en": "Please fill out this form!" }
     ]
   },
   {
@@ -425,6 +507,11 @@
     "verb": { "aux": "haben", "separablePrefix": "aus", "du": "siehst", "er": "sieht", "praeteritum": "sah", "partizip2": "ausgesehen" },
     "senses": [
       { "en": "to look, to appear", "note": "separable", "example_de": "Du siehst müde aus.", "example_en": "You look tired." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das Kleid sieht schön aus.", "en": "The dress looks beautiful." },
+      { "tag": "präteritum", "de": "Er sah gestern sehr müde aus.", "en": "He looked very tired yesterday." },
+      { "tag": "perfekt", "de": "Das Essen hat lecker ausgesehen.", "en": "The food looked delicious." }
     ]
   },
   {
@@ -435,6 +522,12 @@
     "verb": { "aux": "sein", "separablePrefix": "aus", "praeteritum": "stieg", "partizip2": "ausgestiegen" },
     "senses": [
       { "en": "to get off, to get out (of a vehicle)", "note": "separable", "example_de": "Wir steigen am Bahnhof aus.", "example_en": "We get off at the station." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich steige an der nächsten Station aus.", "en": "I get off at the next station." },
+      { "tag": "präteritum", "de": "Sie stieg vor dem Hotel aus.", "en": "She got out in front of the hotel." },
+      { "tag": "perfekt", "de": "Er ist an der falschen Haltestelle ausgestiegen.", "en": "He got off at the wrong stop." },
+      { "tag": "imperativ", "de": "Steig bitte am Bahnhof aus!", "en": "Please get off at the station!" }
     ]
   },
   {
@@ -485,6 +578,9 @@
     "noun": { "gender": "n", "plural": "Bäder", "genitive": "Bades" },
     "senses": [
       { "en": "bathroom; bath", "example_de": "Die Wohnung hat ein kleines Bad.", "example_en": "The apartment has a small bathroom." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Wohnung hat zwei Bäder.", "en": "The apartment has two bathrooms." }
     ]
   },
   {
@@ -495,6 +591,12 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to bathe, to swim", "example_de": "Die Kinder baden im See.", "example_en": "The children are bathing in the lake." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das Kind badet am Abend.", "en": "The child takes a bath in the evening." },
+      { "tag": "präteritum", "de": "Wir badeten im Sommer im See.", "en": "In summer we swam in the lake." },
+      { "tag": "perfekt", "de": "Habt ihr im Meer gebadet?", "en": "Did you swim in the sea?" },
+      { "tag": "imperativ", "de": "Bade bitte nicht zu lange!", "en": "Please don't bathe too long!" }
     ]
   },
   {
@@ -505,6 +607,9 @@
     "noun": { "gender": "f", "plural": "Bahnen" },
     "senses": [
       { "en": "train, railway", "note": "mit der Bahn = by train", "example_de": "Ich fahre mit der Bahn zur Arbeit.", "example_en": "I go to work by train." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Am Sonntag fahren die Bahnen seltener.", "en": "On Sundays the trains run less often." }
     ]
   },
   {
@@ -515,6 +620,9 @@
     "noun": { "gender": "m", "plural": "Bahnhöfe" },
     "senses": [
       { "en": "train station", "example_de": "Ich bin am Bahnhof.", "example_en": "I am at the train station." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "In Berlin gibt es viele Bahnhöfe.", "en": "There are many train stations in Berlin." }
     ]
   },
   {
@@ -564,6 +672,9 @@
     "noun": { "gender": "f", "plural": "Banken" },
     "senses": [
       { "en": "bank (for money)", "note": "die Bank, Bänke = bench", "example_de": "Ich hole Geld von der Bank.", "example_en": "I am getting money from the bank." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Banken sind am Sonntag geschlossen.", "en": "The banks are closed on Sunday." }
     ]
   },
   {
@@ -584,6 +695,11 @@
     "verb": { "aux": "haben", "partizip2": "bedeutet" },
     "senses": [
       { "en": "to mean", "example_de": "Was bedeutet dieses Wort?", "example_en": "What does this word mean?" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Was bedeutet dieser Satz?", "en": "What does this sentence mean?" },
+      { "tag": "präteritum", "de": "Das Wort bedeutete früher etwas anderes.", "en": "The word used to mean something else." },
+      { "tag": "perfekt", "de": "Was hat das bedeutet?", "en": "What did that mean?" }
     ]
   },
   {
@@ -594,6 +710,11 @@
     "verb": { "aux": "haben", "praeteritum": "begann", "partizip2": "begonnen" },
     "senses": [
       { "en": "to begin, to start", "example_de": "Der Kurs beginnt im Mai.", "example_en": "The course begins in May." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das Konzert beginnt um acht Uhr.", "en": "The concert begins at eight o'clock." },
+      { "tag": "präteritum", "de": "Der Film begann pünktlich.", "en": "The film began on time." },
+      { "tag": "perfekt", "de": "Die Ferien haben gestern begonnen.", "en": "The holidays began yesterday." }
     ]
   },
   {
@@ -632,6 +753,9 @@
     "noun": { "gender": "n", "plural": "Beispiele" },
     "senses": [
       { "en": "example", "note": "zum Beispiel (z. B.) = for example", "example_de": "Kannst du ein Beispiel geben?", "example_en": "Can you give an example?" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Der Lehrer gibt uns zwei Beispiele.", "en": "The teacher gives us two examples." }
     ]
   },
   {
@@ -651,6 +775,11 @@
     "verb": { "aux": "haben", "praeteritum": "bekam", "partizip2": "bekommen" },
     "senses": [
       { "en": "to get, to receive", "example_de": "Ich bekomme einen Brief.", "example_en": "I am getting a letter." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie bekommt viele E-Mails.", "en": "She gets many emails." },
+      { "tag": "präteritum", "de": "Er bekam ein Geschenk zum Geburtstag.", "en": "He got a present for his birthday." },
+      { "tag": "perfekt", "de": "Ich habe deine Nachricht bekommen.", "en": "I received your message." }
     ]
   },
   {
@@ -661,6 +790,9 @@
     "noun": { "gender": "m", "plural": "Berufe" },
     "senses": [
       { "en": "profession, occupation", "example_de": "Was sind Sie von Beruf?", "example_en": "What is your profession?" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Meine Eltern haben interessante Berufe.", "en": "My parents have interesting professions." }
     ]
   },
   {
@@ -680,6 +812,12 @@
     "verb": { "aux": "haben", "partizip2": "bestellt" },
     "senses": [
       { "en": "to order (food, goods)", "example_de": "Wir bestellen zwei Kaffee.", "example_en": "We are ordering two coffees." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er bestellt eine Pizza.", "en": "He is ordering a pizza." },
+      { "tag": "präteritum", "de": "Sie bestellte einen Salat.", "en": "She ordered a salad." },
+      { "tag": "perfekt", "de": "Ich habe das Buch im Internet bestellt.", "en": "I ordered the book on the internet." },
+      { "tag": "imperativ", "de": "Bestell mir bitte einen Tee!", "en": "Please order me a tea!" }
     ]
   },
   {
@@ -700,6 +838,12 @@
     "verb": { "aux": "haben", "partizip2": "besucht" },
     "senses": [
       { "en": "to visit", "example_de": "Ich besuche meine Oma.", "example_en": "I am visiting my grandma." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wir besuchen am Sonntag unsere Freunde.", "en": "We are visiting our friends on Sunday." },
+      { "tag": "präteritum", "de": "Sie besuchte letzte Woche ihre Tante.", "en": "She visited her aunt last week." },
+      { "tag": "perfekt", "de": "Hast du das Museum besucht?", "en": "Did you visit the museum?" },
+      { "tag": "imperativ", "de": "Besuch uns bald wieder!", "en": "Visit us again soon!" }
     ]
   },
   {
@@ -710,6 +854,9 @@
     "noun": { "gender": "n", "plural": "Betten", "genitive": "Bettes" },
     "senses": [
       { "en": "bed", "example_de": "Das Kind liegt im Bett.", "example_en": "The child is lying in bed." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Das Zimmer hat zwei Betten.", "en": "The room has two beds." }
     ]
   },
   {
@@ -720,6 +867,12 @@
     "verb": { "aux": "haben", "partizip2": "bezahlt" },
     "senses": [
       { "en": "to pay", "example_de": "Ich möchte bitte bezahlen.", "example_en": "I would like to pay, please." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er bezahlt mit Karte.", "en": "He pays by card." },
+      { "tag": "präteritum", "de": "Sie bezahlte die Rechnung.", "en": "She paid the bill." },
+      { "tag": "perfekt", "de": "Ich habe schon bezahlt.", "en": "I have already paid." },
+      { "tag": "imperativ", "de": "Bezahl bitte an der Kasse!", "en": "Please pay at the checkout!" }
     ]
   },
   {
@@ -750,6 +903,9 @@
     "noun": { "gender": "n", "plural": "Bilder", "genitive": "Bildes" },
     "senses": [
       { "en": "picture, image", "example_de": "Das Bild ist schön.", "example_en": "The picture is beautiful." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Bilder hängen an der Wand.", "en": "The pictures are hanging on the wall." }
     ]
   },
   {
@@ -796,6 +952,12 @@
     "verb": { "aux": "sein", "praeteritum": "blieb", "partizip2": "geblieben" },
     "senses": [
       { "en": "to stay, to remain", "example_de": "Wir bleiben heute zu Hause.", "example_en": "We are staying home today." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er bleibt noch eine Woche in Berlin.", "en": "He is staying in Berlin for another week." },
+      { "tag": "präteritum", "de": "Sie blieb gestern lange im Büro.", "en": "She stayed in the office late yesterday." },
+      { "tag": "perfekt", "de": "Wir sind am Wochenende zu Hause geblieben.", "en": "We stayed home on the weekend." },
+      { "tag": "imperativ", "de": "Bleib bitte hier!", "en": "Please stay here!" }
     ]
   },
   {
@@ -826,6 +988,11 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to need", "example_de": "Ich brauche deine Hilfe.", "example_en": "I need your help." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wir brauchen noch Milch und Brot.", "en": "We still need milk and bread." },
+      { "tag": "präteritum", "de": "Er brauchte gestern das Auto.", "en": "He needed the car yesterday." },
+      { "tag": "perfekt", "de": "Wir haben viel Zeit gebraucht.", "en": "We needed a lot of time." }
     ]
   },
   {
@@ -836,6 +1003,9 @@
     "noun": { "gender": "m", "plural": "Briefe", "genitive": "Briefes" },
     "senses": [
       { "en": "letter (mail)", "example_de": "Der Brief ist für dich.", "example_en": "The letter is for you." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich schreibe heute drei Briefe.", "en": "I am writing three letters today." }
     ]
   },
   {
@@ -866,6 +1036,12 @@
     "verb": { "aux": "haben", "praeteritum": "brachte", "partizip2": "gebracht" },
     "senses": [
       { "en": "to bring, to take (somewhere)", "example_de": "Er bringt mir einen Kaffee.", "example_en": "He brings me a coffee." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie bringt die Kinder zur Schule.", "en": "She takes the children to school." },
+      { "tag": "präteritum", "de": "Er brachte mir Blumen.", "en": "He brought me flowers." },
+      { "tag": "perfekt", "de": "Der Kellner hat das Essen gebracht.", "en": "The waiter brought the food." },
+      { "tag": "imperativ", "de": "Bring mir bitte ein Glas Wasser!", "en": "Please bring me a glass of water!" }
     ]
   },
   {
@@ -876,6 +1052,9 @@
     "noun": { "gender": "n", "plural": "Brote", "genitive": "Brotes" },
     "senses": [
       { "en": "bread", "example_de": "Das Brot ist frisch.", "example_en": "The bread is fresh." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Der Bäcker verkauft viele Brote.", "en": "The baker sells many loaves of bread." }
     ]
   },
   {
@@ -896,6 +1075,9 @@
     "noun": { "gender": "m", "plural": "Brüder" },
     "senses": [
       { "en": "brother", "example_de": "Mein Bruder ist zwölf.", "example_en": "My brother is twelve." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Meine Brüder wohnen in Köln.", "en": "My brothers live in Cologne." }
     ]
   },
   {
@@ -906,6 +1088,12 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to book (a trip, a room)", "example_de": "Wir buchen ein Zimmer.", "example_en": "We are booking a room." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie bucht ein Hotel in München.", "en": "She is booking a hotel in Munich." },
+      { "tag": "präteritum", "de": "Wir buchten die Reise im Januar.", "en": "We booked the trip in January." },
+      { "tag": "perfekt", "de": "Ich habe den Flug schon gebucht.", "en": "I have already booked the flight." },
+      { "tag": "imperativ", "de": "Buch das Zimmer bitte heute!", "en": "Please book the room today!" }
     ]
   },
   {
@@ -916,6 +1104,12 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to spell", "example_de": "Buchstabieren Sie bitte Ihren Namen.", "example_en": "Please spell your name." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er buchstabiert seinen Namen langsam.", "en": "He spells his name slowly." },
+      { "tag": "präteritum", "de": "Sie buchstabierte das Wort für mich.", "en": "She spelled the word for me." },
+      { "tag": "perfekt", "de": "Ich habe meinen Namen buchstabiert.", "en": "I spelled my name." },
+      { "tag": "imperativ", "de": "Buchstabiere bitte das Wort!", "en": "Please spell the word!" }
     ]
   },
   {
@@ -926,6 +1120,9 @@
     "noun": { "gender": "n", "plural": "Büros" },
     "senses": [
       { "en": "office", "example_de": "Sie arbeitet im Büro.", "example_en": "She works in the office." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Büros sind im ersten Stock.", "en": "The offices are on the first floor." }
     ]
   },
   {
@@ -936,6 +1133,9 @@
     "noun": { "gender": "m", "plural": "Busse", "genitive": "Busses" },
     "senses": [
       { "en": "bus", "example_de": "Der Bus kommt gleich.", "example_en": "The bus is coming soon." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Busse fahren alle zehn Minuten.", "en": "The buses run every ten minutes." }
     ]
   },
   {
@@ -976,6 +1176,9 @@
     "noun": { "gender": "m", "plural": "Computer" },
     "senses": [
       { "en": "computer", "example_de": "Der Computer ist neu.", "example_en": "The computer is new." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Computer in der Schule sind alt.", "en": "The computers at school are old." }
     ]
   },
   {
@@ -1015,6 +1218,11 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to thank", "note": "+ Dativ", "example_de": "Ich danke dir für die Hilfe.", "example_en": "I thank you for the help." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er dankt dem Arzt.", "en": "He thanks the doctor." },
+      { "tag": "präteritum", "de": "Sie dankte mir für das Geschenk.", "en": "She thanked me for the present." },
+      { "tag": "perfekt", "de": "Wir haben ihr herzlich gedankt.", "en": "We thanked her warmly." }
     ]
   },
   {
@@ -1043,6 +1251,11 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to last, to take (time)", "example_de": "Der Film dauert zwei Stunden.", "example_en": "The film lasts two hours." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Fahrt dauert eine Stunde.", "en": "The journey takes an hour." },
+      { "tag": "präteritum", "de": "Das Gespräch dauerte sehr lange.", "en": "The conversation lasted very long." },
+      { "tag": "perfekt", "de": "Der Kurs hat drei Monate gedauert.", "en": "The course lasted three months." }
     ]
   },
   {
@@ -1110,6 +1323,9 @@
     "noun": { "gender": "n", "plural": "Dinge", "genitive": "Dinges" },
     "senses": [
       { "en": "thing", "example_de": "Ich muss noch viele Dinge kaufen.", "example_en": "I still have to buy many things." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Diese Dinge brauche ich nicht mehr.", "en": "I don't need these things anymore." }
     ]
   },
   {
@@ -1210,6 +1426,11 @@
     },
     "senses": [
       { "en": "to be allowed to, may", "note": "modal verb", "example_de": "Darf ich hier rauchen?", "example_en": "May I smoke here?" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Hier darf man nicht rauchen.", "en": "Smoking is not allowed here." },
+      { "tag": "präteritum", "de": "Als Kind durfte ich nicht lange fernsehen.", "en": "As a child I was not allowed to watch TV for long." },
+      { "tag": "perfekt", "de": "Das haben wir nicht gedurft.", "en": "We were not allowed to do that." }
     ]
   },
   {
@@ -1240,6 +1461,12 @@
     "verb": { "aux": "haben" },
     "senses": [
       { "en": "to shower", "note": "also: sich duschen", "example_de": "Ich dusche jeden Morgen.", "example_en": "I shower every morning." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er duscht nach dem Sport.", "en": "He showers after exercising." },
+      { "tag": "präteritum", "de": "Sie duschte schnell vor der Arbeit.", "en": "She showered quickly before work." },
+      { "tag": "perfekt", "de": "Ich habe heute Morgen geduscht.", "en": "I showered this morning." },
+      { "tag": "imperativ", "de": "Dusch schnell, wir müssen gehen!", "en": "Shower quickly, we have to go!" }
     ]
   },
   {
@@ -1250,6 +1477,9 @@
     "noun": { "gender": "f", "plural": "E-Mails" },
     "senses": [
       { "en": "email", "example_de": "Ich schreibe dir eine E-Mail.", "example_en": "I am writing you an email." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich habe heute viele E-Mails bekommen.", "en": "I received many emails today." }
     ]
   },
   {
@@ -1300,6 +1530,12 @@
     "verb": { "aux": "haben", "separablePrefix": "ein" },
     "senses": [
       { "en": "to shop, to go shopping", "note": "separable; einkaufen gehen", "example_de": "Wir kaufen im Supermarkt ein.", "example_en": "We shop at the supermarket." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie kauft am Samstag ein.", "en": "She goes shopping on Saturday." },
+      { "tag": "präteritum", "de": "Er kaufte gestern im Supermarkt ein.", "en": "He shopped at the supermarket yesterday." },
+      { "tag": "perfekt", "de": "Wir haben für das Wochenende eingekauft.", "en": "We shopped for the weekend." },
+      { "tag": "imperativ", "de": "Kauf bitte Obst und Brot ein!", "en": "Please buy fruit and bread!" }
     ]
   },
   {
@@ -1310,6 +1546,12 @@
     "verb": { "aux": "haben", "separablePrefix": "ein", "du": "lädst", "er": "lädt", "praeteritum": "lud", "partizip2": "eingeladen" },
     "senses": [
       { "en": "to invite", "note": "separable; + Akkusativ", "example_de": "Ich lade dich zum Essen ein.", "example_en": "I am inviting you to dinner." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er lädt seine Freunde zur Party ein.", "en": "He is inviting his friends to the party." },
+      { "tag": "präteritum", "de": "Sie lud mich zum Kaffee ein.", "en": "She invited me for coffee." },
+      { "tag": "perfekt", "de": "Wir haben zwanzig Gäste eingeladen.", "en": "We invited twenty guests." },
+      { "tag": "imperativ", "de": "Lade doch deine Schwester ein!", "en": "Why don't you invite your sister!" }
     ]
   },
   {
@@ -1349,6 +1591,12 @@
     "verb": { "aux": "sein", "separablePrefix": "ein", "praeteritum": "stieg", "partizip2": "eingestiegen" },
     "senses": [
       { "en": "to get in, to get on (a vehicle)", "note": "separable", "example_de": "Wir steigen in den Bus ein.", "example_en": "We get on the bus." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wir steigen in die U-Bahn ein.", "en": "We get on the subway." },
+      { "tag": "präteritum", "de": "Er stieg in das Taxi ein.", "en": "He got into the taxi." },
+      { "tag": "perfekt", "de": "Sie ist in den falschen Zug eingestiegen.", "en": "She got on the wrong train." },
+      { "tag": "imperativ", "de": "Steig schnell ein, wir fahren los!", "en": "Get in quickly, we are leaving!" }
     ]
   },
   {
@@ -1388,6 +1636,9 @@
     "noun": { "gender": "n", "plural": "Enden" },
     "senses": [
       { "en": "end", "note": "zu Ende = over, finished", "example_de": "Der Kurs ist zu Ende.", "example_en": "The course is over." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Diese Geschichten haben schöne Enden.", "en": "These stories have nice endings." }
     ]
   },
   {
@@ -1398,6 +1649,12 @@
     "verb": { "aux": "haben", "partizip2": "entschuldigt" },
     "senses": [
       { "en": "to excuse", "note": "sich entschuldigen = to apologize", "example_de": "Entschuldigen Sie, wo ist der Bahnhof?", "example_en": "Excuse me, where is the station?" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er entschuldigt sich für die Verspätung.", "en": "He apologizes for the delay." },
+      { "tag": "präteritum", "de": "Sie entschuldigte sich bei der Lehrerin.", "en": "She apologized to the teacher." },
+      { "tag": "perfekt", "de": "Ich habe mich schon entschuldigt.", "en": "I have already apologized." },
+      { "tag": "imperativ", "de": "Entschuldige bitte, ich bin zu spät!", "en": "Sorry, I am late!" }
     ]
   },
   {
@@ -1408,6 +1665,9 @@
     "noun": { "gender": "f", "plural": "Entschuldigungen" },
     "senses": [
       { "en": "excuse me, sorry; apology", "example_de": "Entschuldigung, wie spät ist es?", "example_en": "Excuse me, what time is it?" }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich will keine Entschuldigungen hören!", "en": "I don't want to hear any excuses!" }
     ]
   },
   {
@@ -1437,6 +1697,12 @@
     "verb": { "aux": "haben", "partizip2": "erklärt" },
     "senses": [
       { "en": "to explain", "example_de": "Die Lehrerin erklärt die Aufgabe.", "example_en": "The teacher explains the task." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er erklärt mir den Weg.", "en": "He explains the way to me." },
+      { "tag": "präteritum", "de": "Die Lehrerin erklärte die Grammatik noch einmal.", "en": "The teacher explained the grammar again." },
+      { "tag": "perfekt", "de": "Er hat mir alles genau erklärt.", "en": "He explained everything to me exactly." },
+      { "tag": "imperativ", "de": "Erklär mir bitte dieses Wort!", "en": "Please explain this word to me!" }
     ]
   },
   {
@@ -1456,6 +1722,12 @@
     "verb": { "aux": "haben", "partizip2": "erzählt" },
     "senses": [
       { "en": "to tell, to narrate", "note": "erzählen von + Dat.", "example_de": "Er erzählt von seiner Reise.", "example_en": "He is telling about his trip." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Oma erzählt den Kindern eine Geschichte.", "en": "Grandma tells the children a story." },
+      { "tag": "präteritum", "de": "Er erzählte mir von seinem Urlaub.", "en": "He told me about his vacation." },
+      { "tag": "perfekt", "de": "Sie hat mir alles erzählt.", "en": "She told me everything." },
+      { "tag": "imperativ", "de": "Erzähl mir von deinem Tag!", "en": "Tell me about your day!" }
     ]
   },
   {
@@ -1475,6 +1747,9 @@
     "noun": { "gender": "n", "plural": "Essen" },
     "senses": [
       { "en": "food, meal", "example_de": "Das Essen schmeckt gut.", "example_en": "The food tastes good." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Essen in der Kantine schmecken gut.", "en": "The meals in the cafeteria taste good." }
     ]
   },
   {
@@ -1503,6 +1778,9 @@
     "noun": { "gender": "m", "plural": "Euros" },
     "senses": [
       { "en": "euro", "note": "after numbers usually unchanged: zehn Euro", "example_de": "Das kostet zehn Euro.", "example_en": "That costs ten euros." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich habe nur noch ein paar Euros.", "en": "I only have a few euros left." }
     ]
   }
 ]

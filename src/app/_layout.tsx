@@ -1,0 +1,70 @@
+import { Fraunces_600SemiBold } from '@expo-google-fonts/fraunces';
+import {
+  Nunito_400Regular,
+  Nunito_600SemiBold,
+  Nunito_700Bold,
+  Nunito_800ExtraBold,
+  useFonts,
+} from '@expo-google-fonts/nunito';
+import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
+import { StatusBar } from 'expo-status-bar';
+import { useEffect, useState } from 'react';
+
+import { initDatabase } from '@/db/client';
+import { useSettings } from '@/store/settings';
+import { palettes } from '@/ui/theme';
+import { useThemeName } from '@/ui/useTheme';
+
+SplashScreen.preventAutoHideAsync();
+
+export default function RootLayout() {
+  const themeName = useThemeName();
+  const palette = palettes[themeName];
+  const [dbReady, setDbReady] = useState(false);
+
+  const [fontsLoaded] = useFonts({
+    Fraunces_600SemiBold,
+    Nunito_400Regular,
+    Nunito_600SemiBold,
+    Nunito_700Bold,
+    Nunito_800ExtraBold,
+  });
+
+  useEffect(() => {
+    initDatabase()
+      .then(() => useSettings.getState().hydrate())
+      .then(() => setDbReady(true))
+      .catch((err) => {
+        console.error('Database init failed', err);
+      });
+  }, []);
+
+  useEffect(() => {
+    if (fontsLoaded && dbReady) SplashScreen.hideAsync();
+  }, [fontsLoaded, dbReady]);
+
+  if (!fontsLoaded || !dbReady) return null;
+
+  const navTheme = {
+    ...(themeName === 'dark' ? DarkTheme : DefaultTheme),
+    colors: {
+      ...(themeName === 'dark' ? DarkTheme : DefaultTheme).colors,
+      background: palette.bg,
+      card: palette.surface,
+      text: palette.ink,
+      border: palette.line,
+      primary: palette.primary,
+    },
+  };
+
+  return (
+    <ThemeProvider value={navTheme}>
+      <StatusBar style={themeName === 'dark' ? 'light' : 'dark'} />
+      <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: palette.bg } }}>
+        <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="review" options={{ gestureEnabled: false }} />
+      </Stack>
+    </ThemeProvider>
+  );
+}

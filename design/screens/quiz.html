@@ -1,0 +1,67 @@
+<!-- @dsCard group="Screens" -->
+<meta charset="utf-8">
+<title>LernGerman — Grammar Quiz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Nunito:wght@400;600;700;800&display=swap');
+*{box-sizing:border-box;margin:0}
+body{font-family:'Nunito',system-ui,sans-serif;background:#EBE4D8;padding:28px;display:flex;gap:28px;flex-wrap:wrap}
+.phone{width:375px;border-radius:38px;padding:14px 14px 10px;background:#1A1511;box-shadow:0 18px 44px #0006}
+.scr{--bg:#FBF7F0;--surface:#fff;--primary:#E8871E;--pdim:#FCE8D2;--ink:#2B2118;--muted:#8A7B6E;--line:#EFE7DB;
+  background:var(--bg);color:var(--ink);border-radius:28px;overflow:hidden;height:730px;display:flex;flex-direction:column;padding:18px}
+.top{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.x{color:var(--muted);font-size:19px;font-weight:800}
+.bar{flex:1;height:9px;border-radius:999px;background:#EFE7DB;overflow:hidden}
+.bar i{display:block;height:100%;width:40%;border-radius:999px;background:linear-gradient(90deg,#E8871E,#F49B3F)}
+.cnt{font-size:13px;color:var(--muted);font-weight:800}
+.topic{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:800;margin-bottom:8px}
+.q{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:24px;line-height:1.35;margin-bottom:18px}
+.q .blank{display:inline-block;min-width:74px;border-bottom:3px solid var(--primary);text-align:center;color:var(--primary)}
+.opt{background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:15px 18px;font-size:17px;font-weight:800;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 8px #2b21180e}
+.opt.sel{border-color:#2A9D8F;background:#D8EEEB;color:#155E56}
+.opt.sel::after{content:'✓';font-size:16px}
+.fb{border-radius:14px;padding:13px 16px;font-weight:700;background:#D8EEEB;color:#155E56;margin-top:auto}
+.fb small{display:block;font-weight:600;opacity:.9;margin-top:2px}
+.next{margin-top:10px;background:#2A9D8F;color:#fff;text-align:center;font-weight:800;font-size:16px;border-radius:13px;padding:15px}
+/* ordering */
+.slot{min-height:112px;background:var(--surface);border:1.5px dashed #D9CDBC;border-radius:16px;padding:12px;display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start;margin-bottom:14px}
+.tile{background:var(--pdim);color:#B05F06;border:1.5px solid #E8871E55;border-radius:11px;padding:9px 14px;font-weight:800;font-size:15.5px}
+.pool{display:flex;flex-wrap:wrap;gap:8px}
+.pool .tile{background:var(--surface);color:var(--ink);border-color:var(--line);box-shadow:0 2px 6px #2b211810}
+.pool .tile.used{opacity:.28}
+.trans{color:var(--muted);font-size:13.5px;font-weight:700;margin-bottom:12px}
+.hintchip{margin-top:auto;background:#EDE6F4;color:#6B4C93;border-radius:999px;padding:6px 14px;font-size:12.5px;font-weight:800;align-self:flex-start}
+.lbl{width:100%;text-align:center;color:#5c5245;font-weight:800;font-size:13px;margin:10px 0 -14px}
+</style>
+
+<div>
+<div class="lbl">QUIZ · Multiple choice (answered ✓)</div><br>
+<div class="phone"><div class="scr">
+  <div class="top"><span class="x">✕</span><div class="bar"><i></i></div><span class="cnt">4/10</span></div>
+  <div class="topic">Akkusativ · Frage 4</div>
+  <div class="q">Ich sehe <span class="blank">den</span> Mann.</div>
+  <div class="opt">der</div>
+  <div class="opt sel">den</div>
+  <div class="opt">dem</div>
+  <div class="opt">des</div>
+  <div class="fb">✓ Richtig!<small>„sehen“ braucht ein direktes Objekt → Akkusativ. der → <b>den</b></small></div>
+  <div class="next">Weiter →</div>
+</div></div>
+</div>
+
+<div>
+<div class="lbl">QUIZ · Sentence ordering (tap-to-place)</div><br>
+<div class="phone"><div class="scr">
+  <div class="top"><span class="x">✕</span><div class="bar" ><i style="width:70%"></i></div><span class="cnt">7/10</span></div>
+  <div class="topic">Dativ · Satzbau · Frage 7</div>
+  <div class="trans">“I give the child an apple.”</div>
+  <div class="slot">
+    <span class="tile">Ich</span><span class="tile">gebe</span><span class="tile">dem</span><span class="tile">Kind</span>
+  </div>
+  <div class="pool">
+    <span class="tile used">gebe</span><span class="tile">einen</span><span class="tile used">dem</span>
+    <span class="tile">Apfel</span><span class="tile used">Ich</span><span class="tile used">Kind</span>
+  </div>
+  <div class="hintchip">💡 Verb an Position 2 · Dativ vor Akkusativ</div>
+  <div class="next" style="background:#E8871E">Prüfen</div>
+</div></div>
+</div>

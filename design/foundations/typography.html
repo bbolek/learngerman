@@ -1,0 +1,41 @@
+<!-- @dsCard group="Foundations" -->
+<meta charset="utf-8">
+<title>LernGerman — Typography</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Nunito:wght@400;600;700;800&display=swap');
+:root{--bg:#FBF7F0;--surface:#fff;--ink:#2B2118;--muted:#8A7B6E;--line:#EFE7DB;--primary:#E8871E}
+*{box-sizing:border-box;margin:0}
+body{font-family:'Nunito',system-ui,sans-serif;background:var(--bg);color:var(--ink);padding:32px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:28px}
+.sub{color:var(--muted);font-size:14px;margin:4px 0 28px}
+.spec{display:grid;grid-template-columns:210px 1fr;gap:10px 24px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 28px;box-shadow:0 2px 10px #2b211814}
+.label{font-size:12px;color:var(--muted);font-family:ui-monospace,monospace}
+.fr{font-family:'Fraunces',Georgia,serif;font-weight:600}
+.headword{font-size:40px}.h1{font-size:32px}.h2{font-size:24px}
+.body{font-size:16px}.small{font-size:14px;color:var(--muted)}.caption{font-size:12px;color:var(--muted)}
+.demo{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 28px;margin-top:18px;box-shadow:0 2px 10px #2b211814}
+.demo .hw{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:34px}
+.demo .art{color:#7FA96B;font-weight:400}
+.demo .pron{color:var(--muted);font-size:15px;margin:2px 0 10px}
+.demo .sense{font-size:17px;font-weight:700}
+.demo .ex{font-size:15px;margin-top:6px}
+.demo .ex i{color:var(--muted);font-style:normal}
+</style>
+<h1>Typografie · Typography</h1>
+<div class="sub"><b>Fraunces</b> (SemiBold) for German headwords &amp; screen titles — a warm serif with dictionary character. <b>Nunito</b> for UI, body, buttons.</div>
+
+<div class="spec">
+  <div class="label">Headword · Fraunces 600 · 40</div><div class="fr headword">Schmetterling</div>
+  <div class="label">Title · Fraunces 600 · 32</div><div class="fr h1">Guten Morgen!</div>
+  <div class="label">Section · Fraunces 600 · 24</div><div class="fr h2">Meine Wörter</div>
+  <div class="label">Body · Nunito 400/600 · 16</div><div class="body">Ich lerne jeden Tag zehn neue Wörter. <b>Weiter so!</b></div>
+  <div class="label">Secondary · Nunito 400 · 14</div><div class="small">Zuletzt geübt: heute · 12 Wörter fällig</div>
+  <div class="label">Caption · Nunito 600 · 12</div><div class="caption">NOMINATIV · AKKUSATIV · DATIV</div>
+</div>
+
+<div class="demo">
+  <div class="hw"><span class="art">das</span> Haus</div>
+  <div class="pron">noun · plural: die Häuser</div>
+  <div class="sense">house</div>
+  <div class="ex">Das Haus ist alt. <i>— The house is old.</i></div>
+</div>

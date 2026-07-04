@@ -78,6 +78,11 @@
         "example_de": "Ich lasse mein Fahrrad reparieren.",
         "example_en": "I am having my bike repaired."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie lässt die Kinder im Garten spielen.", "en": "She lets the children play in the garden." },
+      { "tag": "präteritum", "de": "Er ließ das Fenster offen.", "en": "He left the window open." },
+      { "tag": "perfekt", "de": "Ich habe meinen Schirm im Büro gelassen.", "en": "I left my umbrella at the office." }
     ]
   },
   {
@@ -152,6 +157,11 @@
         "example_de": "Kannst du mir dein Fahrrad leihen?",
         "example_en": "Can you lend me your bike?"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich leihe dir gern mein Wörterbuch.", "en": "I will gladly lend you my dictionary." },
+      { "tag": "präteritum", "de": "Sie lieh mir zehn Euro.", "en": "She lent me ten euros." },
+      { "tag": "perfekt", "de": "Er hat mir sein Auto geliehen.", "en": "He lent me his car." }
     ]
   },
   {
@@ -180,6 +190,11 @@
         "example_de": "Der Supermarkt liefert das Essen nach Hause.",
         "example_en": "The supermarket delivers the food to your home."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Firma liefert die Möbel am Freitag.", "en": "The company delivers the furniture on Friday." },
+      { "tag": "präteritum", "de": "Der Laden lieferte alles pünktlich.", "en": "The shop delivered everything on time." },
+      { "tag": "perfekt", "de": "Sie haben das Sofa gestern geliefert.", "en": "They delivered the sofa yesterday." }
     ]
   },
   {
@@ -298,6 +313,11 @@
         "example_de": "Warum lügst du?",
         "example_en": "Why are you lying?"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Kinder lügen manchmal aus Angst.", "en": "Children sometimes lie out of fear." },
+      { "tag": "präteritum", "de": "Er log und wurde rot.", "en": "He lied and turned red." },
+      { "tag": "perfekt", "de": "Sie hat noch nie gelogen.", "en": "She has never lied." }
     ]
   },
   {
@@ -340,6 +360,11 @@
         "example_de": "Das Kind malt ein Bild.",
         "example_en": "The child is painting a picture."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Meine Tochter malt gern mit bunten Farben.", "en": "My daughter likes painting with bright colors." },
+      { "tag": "präteritum", "de": "Sie malte als Kind viele Bilder.", "en": "As a child she painted many pictures." },
+      { "tag": "perfekt", "de": "Er hat ein Bild für Oma gemalt.", "en": "He painted a picture for Grandma." }
     ]
   },
   {
@@ -469,6 +494,11 @@
         "example_de": "Bitte melden Sie sich am Eingang.",
         "example_en": "Please report at the entrance."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Schüler meldet sich im Unterricht.", "en": "The pupil raises his hand in class." },
+      { "tag": "präteritum", "de": "Sie meldete sich gestern per Telefon.", "en": "She got in touch by phone yesterday." },
+      { "tag": "perfekt", "de": "Er hat sich lange nicht gemeldet.", "en": "He has not been in touch for a long time." }
     ]
   },
   {
@@ -714,6 +744,11 @@
         "example_de": "Ich muss über deine Frage nachdenken.",
         "example_en": "I have to think about your question."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich denke oft über die Zukunft nach.", "en": "I often think about the future." },
+      { "tag": "präteritum", "de": "Sie dachte lange über das Angebot nach.", "en": "She thought about the offer for a long time." },
+      { "tag": "perfekt", "de": "Hast du über meinen Vorschlag nachgedacht?", "en": "Have you thought about my suggestion?" }
     ]
   },
   {
@@ -783,6 +818,10 @@
         "example_de": "Meine Schuhe sind ganz nass.",
         "example_en": "My shoes are completely wet."
       }
+    ],
+    "examples": [
+      { "tag": "komparativ", "de": "Deine Jacke ist nasser als meine.", "en": "Your jacket is wetter than mine." },
+      { "tag": "superlativ", "de": "Meine Socken sind am nassesten.", "en": "My socks are the wettest." }
     ]
   },
   {
@@ -1099,6 +1138,11 @@
         "example_de": "Wer organisiert das Fest?",
         "example_en": "Who is organizing the party?"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie organisiert die Party für Samstag.", "en": "She is organizing the party for Saturday." },
+      { "tag": "präteritum", "de": "Er organisierte den Ausflug für die Klasse.", "en": "He organized the trip for the class." },
+      { "tag": "perfekt", "de": "Wir haben alles gut organisiert.", "en": "We organized everything well." }
     ]
   },
   {
@@ -1191,6 +1235,11 @@
         "example_de": "Passt dir der Termin am Montag?",
         "example_en": "Does the appointment on Monday suit you?"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Mantel passt dir sehr gut.", "en": "The coat fits you very well." },
+      { "tag": "präteritum", "de": "Das Kleid passte ihr nicht mehr.", "en": "The dress did not fit her anymore." },
+      { "tag": "perfekt", "de": "Die Schuhe haben mir nicht gepasst.", "en": "The shoes did not fit me." }
     ]
   },
   {
@@ -1205,6 +1254,11 @@
         "example_de": "Was ist passiert?",
         "example_en": "What happened?"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "So ein Fehler passiert jedem mal.", "en": "A mistake like that happens to everyone sometimes." },
+      { "tag": "präteritum", "de": "Der Unfall passierte am frühen Morgen.", "en": "The accident happened in the early morning." },
+      { "tag": "perfekt", "de": "Zum Glück ist nichts Schlimmes passiert.", "en": "Luckily nothing bad happened." }
     ]
   },
   {
@@ -1304,6 +1358,11 @@
         "example_de": "Sie pflegt ihre kranke Mutter.",
         "example_en": "She looks after her sick mother."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Krankenschwester pflegt die Patienten.", "en": "The nurse takes care of the patients." },
+      { "tag": "präteritum", "de": "Sie pflegte den Garten jeden Sonntag.", "en": "She tended the garden every Sunday." },
+      { "tag": "perfekt", "de": "Er hat seine kranke Tante gepflegt.", "en": "He cared for his sick aunt." }
     ]
   },
   {
@@ -1404,6 +1463,11 @@
         "example_de": "Wir planen eine Reise nach Italien.",
         "example_en": "We are planning a trip to Italy."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wir planen ein großes Fest.", "en": "We are planning a big party." },
+      { "tag": "präteritum", "de": "Er plante die Feier ganz genau.", "en": "He planned the celebration in detail." },
+      { "tag": "perfekt", "de": "Habt ihr den Urlaub schon geplant?", "en": "Have you already planned the vacation?" }
     ]
   },
   {
@@ -1515,6 +1579,12 @@
         "example_de": "Probier mal den Kuchen!",
         "example_en": "Try the cake!"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich probiere gern neues Essen.", "en": "I like trying new food." },
+      { "tag": "präteritum", "de": "Er probierte den Käse auf dem Markt.", "en": "He tried the cheese at the market." },
+      { "tag": "perfekt", "de": "Hast du den Salat schon probiert?", "en": "Have you tried the salad yet?" },
+      { "tag": "imperativ", "de": "Probier doch mal diesen Tee!", "en": "Do try this tea!" }
     ]
   },
   {
@@ -1558,6 +1628,11 @@
         "example_de": "Die Studenten protestieren gegen die Pläne.",
         "example_en": "The students are protesting against the plans."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Nachbarn protestieren gegen den Lärm.", "en": "The neighbors are protesting against the noise." },
+      { "tag": "präteritum", "de": "Die Schüler protestierten gegen die neuen Regeln.", "en": "The pupils protested against the new rules." },
+      { "tag": "perfekt", "de": "Sie haben laut protestiert.", "en": "They protested loudly." }
     ]
   },
   {
@@ -1572,6 +1647,12 @@
         "example_de": "Bitte prüfen Sie die Rechnung.",
         "example_en": "Please check the invoice."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er prüft jeden Morgen seine E-Mails.", "en": "He checks his emails every morning." },
+      { "tag": "präteritum", "de": "Der Lehrer prüfte die Antworten.", "en": "The teacher checked the answers." },
+      { "tag": "perfekt", "de": "Ich habe die Adresse noch einmal geprüft.", "en": "I checked the address again." },
+      { "tag": "imperativ", "de": "Prüfen Sie bitte Ihre Daten!", "en": "Please check your data!" }
     ]
   },
   {
@@ -1643,6 +1724,11 @@
         "example_de": "Am Samstag putze ich die Wohnung.",
         "example_en": "On Saturday I clean the apartment."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich putze mir morgens die Zähne.", "en": "I brush my teeth in the morning." },
+      { "tag": "präteritum", "de": "Sie putzte gestern alle Fenster.", "en": "She cleaned all the windows yesterday." },
+      { "tag": "perfekt", "de": "Wir haben die ganze Küche geputzt.", "en": "We cleaned the whole kitchen." }
     ]
   },
   {
@@ -1715,6 +1801,11 @@
         "example_de": "Er rasiert sich jeden Morgen.",
         "example_en": "He shaves every morning."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Mein Vater rasiert sich vor der Arbeit.", "en": "My father shaves before work." },
+      { "tag": "präteritum", "de": "Er rasierte sich für das Fest.", "en": "He shaved for the party." },
+      { "tag": "perfekt", "de": "Ich habe mich heute nicht rasiert.", "en": "I did not shave today." }
     ]
   },
   {
@@ -1755,6 +1846,11 @@
         "example_de": "Rate mal, wer heute kommt!",
         "example_en": "Guess who is coming today!"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Arzt rät mir zu mehr Bewegung.", "en": "The doctor advises me to get more exercise." },
+      { "tag": "präteritum", "de": "Sie riet ihm zu einer Pause.", "en": "She advised him to take a break." },
+      { "tag": "perfekt", "de": "Man hat uns zu diesem Hotel geraten.", "en": "We were advised to choose this hotel." }
     ]
   },
   {
@@ -1797,6 +1893,11 @@
         "example_de": "Wir realisieren das Projekt zusammen.",
         "example_en": "We are carrying out the project together."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Stadt realisiert einen neuen Spielplatz.", "en": "The city is realizing a new playground." },
+      { "tag": "präteritum", "de": "Er realisierte seinen Traum von einem Café.", "en": "He realized his dream of a café." },
+      { "tag": "perfekt", "de": "Sie hat ihre Idee endlich realisiert.", "en": "She finally realized her idea." }
     ]
   },
   {
@@ -1812,6 +1913,11 @@
         "example_de": "Die Schüler rechnen ohne Computer.",
         "example_en": "The pupils calculate without a computer."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich rechne schnell im Kopf.", "en": "I calculate quickly in my head." },
+      { "tag": "präteritum", "de": "Wir rechneten mit schlechtem Wetter.", "en": "We were expecting bad weather." },
+      { "tag": "perfekt", "de": "Damit habe ich nicht gerechnet.", "en": "I did not expect that." }
     ]
   },
   {
@@ -1842,6 +1948,12 @@
         "example_de": "Wir reden über die Arbeit.",
         "example_en": "We are talking about work."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie redet gern mit den Nachbarn.", "en": "She likes talking with the neighbors." },
+      { "tag": "präteritum", "de": "Wir redeten den ganzen Abend.", "en": "We talked the whole evening." },
+      { "tag": "perfekt", "de": "Habt ihr über das Problem geredet?", "en": "Did you talk about the problem?" },
+      { "tag": "imperativ", "de": "Red nicht so laut, das Baby schläft!", "en": "Don't talk so loudly, the baby is sleeping!" }
     ]
   },
   {
@@ -2051,6 +2163,11 @@
         "example_de": "Ich möchte einen Tisch reservieren.",
         "example_en": "I would like to reserve a table."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er reserviert ein Zimmer für zwei Nächte.", "en": "He is reserving a room for two nights." },
+      { "tag": "präteritum", "de": "Sie reservierte zwei Plätze im Theater.", "en": "She reserved two seats at the theater." },
+      { "tag": "perfekt", "de": "Wir haben Karten für das Kino reserviert.", "en": "We reserved tickets for the cinema." }
     ]
   },
   {
@@ -2154,6 +2271,10 @@
         "example_de": "Rohes Fleisch esse ich nicht.",
         "example_en": "I don't eat raw meat."
       }
+    ],
+    "examples": [
+      { "tag": "komparativ", "de": "Das Fleisch ist innen noch roher als außen.", "en": "The meat is even rawer inside than outside." },
+      { "tag": "superlativ", "de": "Dieses Stück ist am rohesten.", "en": "This piece is the rawest." }
     ]
   },
   {
@@ -2184,6 +2305,11 @@
         "example_de": "Der Ball rollt auf die Straße.",
         "example_en": "The ball is rolling onto the street."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Ball rollt unter das Sofa.", "en": "The ball rolls under the sofa." },
+      { "tag": "präteritum", "de": "Die Orange rollte vom Tisch.", "en": "The orange rolled off the table." },
+      { "tag": "perfekt", "de": "Der Ball ist ins Wasser gerollt.", "en": "The ball rolled into the water." }
     ]
   },
   {
@@ -2261,6 +2387,10 @@
         "example_de": "Die Fahrt dauert rund zwei Stunden.",
         "example_en": "The trip takes about two hours."
       }
+    ],
+    "examples": [
+      { "tag": "komparativ", "de": "Der Ball ist runder als das Ei.", "en": "The ball is rounder than the egg." },
+      { "tag": "superlativ", "de": "Dieser Teller ist am rundesten.", "en": "This plate is the roundest." }
     ]
   }
 ]

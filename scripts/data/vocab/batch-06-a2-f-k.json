@@ -75,6 +75,11 @@
         "example_de": "Das Kind ist vom Stuhl gefallen.",
         "example_en": "The child fell off the chair."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Im Herbst fallen die Blätter von den Bäumen.", "en": "In autumn the leaves fall from the trees." },
+      { "tag": "präteritum", "de": "Gestern fiel viel Schnee.", "en": "A lot of snow fell yesterday." },
+      { "tag": "perfekt", "de": "Der Teller ist vom Tisch gefallen.", "en": "The plate fell off the table." }
     ]
   },
   {
@@ -229,6 +234,10 @@
         "example_de": "Er macht Sport und ist sehr fit.",
         "example_en": "He does sports and is very fit."
       }
+    ],
+    "examples": [
+      { "tag": "komparativ", "de": "Meine Schwester ist fitter als ich.", "en": "My sister is fitter than me." },
+      { "tag": "superlativ", "de": "Morgens bin ich am fittesten.", "en": "In the morning I am the fittest." }
     ]
   },
   {
@@ -300,6 +309,11 @@
         "example_en": "Please follow me!",
         "note": "+ Dativ"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Hund folgt dem Kind überall.", "en": "The dog follows the child everywhere." },
+      { "tag": "präteritum", "de": "Wir folgten dem Weg bis zum See.", "en": "We followed the path to the lake." },
+      { "tag": "perfekt", "de": "Ich bin deinem Rat gefolgt.", "en": "I followed your advice." }
     ]
   },
   {
@@ -314,6 +328,11 @@
         "example_de": "Er fotografiert gern alte Häuser.",
         "example_en": "He likes taking pictures of old houses."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie fotografiert im Urlaub sehr viel.", "en": "She takes a lot of photos on vacation." },
+      { "tag": "präteritum", "de": "Er fotografierte die alte Kirche.", "en": "He photographed the old church." },
+      { "tag": "perfekt", "de": "Wir haben die Berge fotografiert.", "en": "We photographed the mountains." }
     ]
   },
   {
@@ -383,6 +402,11 @@
         "example_de": "Ohne Jacke habe ich gefroren.",
         "example_en": "Without a jacket I was freezing."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ohne Mütze friere ich im Winter.", "en": "Without a hat I freeze in winter." },
+      { "tag": "präteritum", "de": "Wir froren an der Haltestelle.", "en": "We were freezing at the stop." },
+      { "tag": "perfekt", "de": "Die Kinder haben im Schnee gefroren.", "en": "The children were freezing in the snow." }
     ]
   },
   {
@@ -439,6 +463,11 @@
         "example_en": "I don't feel well today.",
         "note": "meist reflexiv: sich fühlen"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wie fühlst du dich in der neuen Wohnung?", "en": "How do you feel in the new apartment?" },
+      { "tag": "präteritum", "de": "Sie fühlte sich gestern nicht wohl.", "en": "She did not feel well yesterday." },
+      { "tag": "perfekt", "de": "Nach dem Schlaf habe ich mich besser gefühlt.", "en": "After sleeping I felt better." }
     ]
   },
   {
@@ -453,6 +482,11 @@
         "example_de": "Sie führt uns durch das Museum.",
         "example_en": "She guides us through the museum."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Dieser Weg führt zum Bahnhof.", "en": "This path leads to the train station." },
+      { "tag": "präteritum", "de": "Der Chef führte die Gäste durch die Firma.", "en": "The boss led the guests through the company." },
+      { "tag": "perfekt", "de": "Sie hat uns durch die Stadt geführt.", "en": "She guided us through the city." }
     ]
   },
   {
@@ -522,6 +556,12 @@
         "example_de": "Die Kinder füttern die Katze.",
         "example_en": "The children are feeding the cat."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich füttere jeden Abend die Fische.", "en": "I feed the fish every evening." },
+      { "tag": "präteritum", "de": "Sie fütterte das Baby um sechs Uhr.", "en": "She fed the baby at six o'clock." },
+      { "tag": "perfekt", "de": "Hast du den Hund schon gefüttert?", "en": "Have you already fed the dog?" },
+      { "tag": "imperativ", "de": "Füttere bitte den Hund vor der Schule!", "en": "Please feed the dog before school!" }
     ]
   },
   {
@@ -748,6 +788,11 @@
         "example_de": "Er hat das Spiel gewonnen.",
         "example_en": "He won the game."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Unsere Mannschaft gewinnt heute bestimmt.", "en": "Our team will surely win today." },
+      { "tag": "präteritum", "de": "Sie gewann eine Reise nach Paris.", "en": "She won a trip to Paris." },
+      { "tag": "perfekt", "de": "Wir haben im Lotto gewonnen.", "en": "We won the lottery." }
     ]
   },
   {
@@ -776,6 +821,12 @@
         "example_de": "Ich gieße die Blumen.",
         "example_en": "I am watering the flowers."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er gießt jeden Morgen den Garten.", "en": "He waters the garden every morning." },
+      { "tag": "präteritum", "de": "Sie goss Wasser in das Glas.", "en": "She poured water into the glass." },
+      { "tag": "perfekt", "de": "Hast du die Pflanzen gegossen?", "en": "Did you water the plants?" },
+      { "tag": "imperativ", "de": "Gieß bitte die Blumen im Urlaub!", "en": "Please water the flowers during the vacation!" }
     ]
   },
   {
@@ -834,6 +885,11 @@
         "example_en": "We congratulate you on your birthday!",
         "note": "+ Dativ (jemandem zu etwas gratulieren)"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich gratuliere dir zur neuen Stelle.", "en": "I congratulate you on the new job." },
+      { "tag": "präteritum", "de": "Die Kollegen gratulierten ihr zur Hochzeit.", "en": "The colleagues congratulated her on her wedding." },
+      { "tag": "perfekt", "de": "Hast du Oma schon gratuliert?", "en": "Have you already congratulated Grandma?" }
     ]
   },
   {
@@ -875,6 +931,11 @@
         "example_de": "Am Samstag grillen wir im Garten.",
         "example_en": "On Saturday we barbecue in the garden."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wir grillen heute Fisch und Gemüse.", "en": "We are grilling fish and vegetables today." },
+      { "tag": "präteritum", "de": "Im Sommer grillten wir oft am See.", "en": "In summer we often barbecued at the lake." },
+      { "tag": "perfekt", "de": "Gestern haben wir im Park gegrillt.", "en": "Yesterday we barbecued in the park." }
     ]
   },
   {
@@ -918,6 +979,12 @@
         "example_en": "Look, there is a dog!",
         "note": "umgangssprachlich"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Kinder gucken den ganzen Tag Fernsehen.", "en": "The children watch TV all day." },
+      { "tag": "präteritum", "de": "Er guckte aus dem Fenster.", "en": "He looked out of the window." },
+      { "tag": "perfekt", "de": "Wir haben gestern einen Film geguckt.", "en": "We watched a movie yesterday." },
+      { "tag": "imperativ", "de": "Guck nicht so viel aufs Handy!", "en": "Don't look at your phone so much!" }
     ]
   },
   {
@@ -1040,6 +1107,11 @@
         "example_de": "Der Bus hält direkt am Bahnhof.",
         "example_en": "The bus stops right at the station."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Zug hält nicht an jedem Bahnhof.", "en": "The train does not stop at every station." },
+      { "tag": "präteritum", "de": "Das Taxi hielt direkt vor der Tür.", "en": "The taxi stopped right in front of the door." },
+      { "tag": "perfekt", "de": "Sie hat das Baby im Arm gehalten.", "en": "She held the baby in her arms." }
     ]
   },
   {
@@ -1068,6 +1140,9 @@
         "example_de": "Er gibt mir die Hand.",
         "example_en": "He shakes my hand."
       }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wasch dir bitte die Hände!", "en": "Please wash your hands!" }
     ]
   },
   {
@@ -1097,6 +1172,11 @@
         "example_en": "The picture is hanging on the wall.",
         "note": "transitiv (etwas aufhängen) schwach: hängte, gehängt"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Schlüssel hängt neben der Tür.", "en": "The key is hanging next to the door." },
+      { "tag": "präteritum", "de": "Früher hing hier ein Spiegel.", "en": "A mirror used to hang here." },
+      { "tag": "perfekt", "de": "Der Mantel hat im Schrank gehangen.", "en": "The coat was hanging in the wardrobe." }
     ]
   },
   {
@@ -1111,6 +1191,10 @@
         "example_de": "Das Brot ist hart.",
         "example_en": "The bread is hard."
       }
+    ],
+    "examples": [
+      { "tag": "komparativ", "de": "Das alte Brot ist härter als das frische.", "en": "The old bread is harder than the fresh one." },
+      { "tag": "superlativ", "de": "Dieser Käse ist am härtesten.", "en": "This cheese is the hardest." }
     ]
   },
   {
@@ -1166,6 +1250,11 @@
         "example_de": "Ich kann den Koffer nicht heben.",
         "example_en": "I can't lift the suitcase."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er hebt die schwere Kiste alleine.", "en": "He lifts the heavy box by himself." },
+      { "tag": "präteritum", "de": "Der Schüler hob die Hand.", "en": "The pupil raised his hand." },
+      { "tag": "perfekt", "de": "Ich habe die Tasche ins Auto gehoben.", "en": "I lifted the bag into the car." }
     ]
   },
   {
@@ -1194,6 +1283,11 @@
         "example_de": "Sie heiraten im Mai.",
         "example_en": "They are getting married in May."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Meine Schwester heiratet nächsten Sommer.", "en": "My sister is getting married next summer." },
+      { "tag": "präteritum", "de": "Meine Eltern heirateten vor dreißig Jahren.", "en": "My parents got married thirty years ago." },
+      { "tag": "perfekt", "de": "Sie haben letztes Jahr geheiratet.", "en": "They got married last year." }
     ]
   },
   {
@@ -1279,6 +1373,11 @@
         "example_en": "I hope you are well.",
         "note": "hoffen auf + Akkusativ"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wir hoffen auf gutes Wetter.", "en": "We are hoping for good weather." },
+      { "tag": "präteritum", "de": "Sie hoffte auf eine schnelle Antwort.", "en": "She hoped for a quick answer." },
+      { "tag": "perfekt", "de": "Ich habe lange auf einen Brief gehofft.", "en": "I hoped for a letter for a long time." }
     ]
   },
   {
@@ -1404,6 +1503,11 @@
         "example_en": "Please inform me by email.",
         "note": "sich informieren über + Akkusativ"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich informiere mich über die Kurse.", "en": "I am finding out about the courses." },
+      { "tag": "präteritum", "de": "Er informierte die Kunden über die Preise.", "en": "He informed the customers about the prices." },
+      { "tag": "perfekt", "de": "Wir haben uns über das Hotel informiert.", "en": "We found out about the hotel." }
     ]
   },
   {
@@ -1462,6 +1566,11 @@
         "example_en": "I am interested in music.",
         "note": "sich interessieren für + Akkusativ"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er interessiert sich für alte Autos.", "en": "He is interested in old cars." },
+      { "tag": "präteritum", "de": "Schon als Kind interessierte sie sich für Tiere.", "en": "Even as a child she was interested in animals." },
+      { "tag": "perfekt", "de": "Ich habe mich nie für Fußball interessiert.", "en": "I was never interested in soccer." }
     ]
   },
   {
@@ -1530,6 +1639,11 @@
         "example_de": "Sie joggt jeden Morgen im Park.",
         "example_en": "She jogs in the park every morning."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich jogge zweimal pro Woche.", "en": "I jog twice a week." },
+      { "tag": "präteritum", "de": "Früher joggte er jeden Tag.", "en": "He used to jog every day." },
+      { "tag": "perfekt", "de": "Wir sind heute Morgen im Wald gejoggt.", "en": "We jogged in the forest this morning." }
     ]
   },
   {
@@ -1630,6 +1744,11 @@
         "example_de": "Wer hat die Lampe kaputtgemacht?",
         "example_en": "Who broke the lamp?"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das Kind macht das Spielzeug kaputt.", "en": "The child is breaking the toy." },
+      { "tag": "präteritum", "de": "Er machte beim Spielen die Brille kaputt.", "en": "He broke the glasses while playing." },
+      { "tag": "perfekt", "de": "Ich habe leider dein Radio kaputtgemacht.", "en": "Unfortunately I broke your radio." }
     ]
   },
   {
@@ -1757,6 +1876,11 @@
         "example_en": "Did everything work out?",
         "note": "unpersönlich: es klappt"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Hoffentlich klappt alles mit dem Umzug.", "en": "Hopefully everything works out with the move." },
+      { "tag": "präteritum", "de": "Beim ersten Versuch klappte es nicht.", "en": "It did not work on the first try." },
+      { "tag": "perfekt", "de": "Mit dem Termin hat es gut geklappt.", "en": "It worked out well with the appointment." }
     ]
   },
   {
@@ -1786,6 +1910,11 @@
         "example_de": "Die Kinder klettern auf den Baum.",
         "example_en": "The children are climbing the tree."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Katze klettert auf das Dach.", "en": "The cat climbs onto the roof." },
+      { "tag": "präteritum", "de": "Als Kind kletterte ich auf jeden Baum.", "en": "As a child I climbed every tree." },
+      { "tag": "perfekt", "de": "Sie ist auf den Berg geklettert.", "en": "She climbed up the mountain." }
     ]
   },
   {
@@ -1814,6 +1943,11 @@
         "example_de": "Das Telefon klingelt.",
         "example_en": "The phone is ringing."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Mein Wecker klingelt um sechs Uhr.", "en": "My alarm clock rings at six o'clock." },
+      { "tag": "präteritum", "de": "Plötzlich klingelte es an der Tür.", "en": "Suddenly the doorbell rang." },
+      { "tag": "perfekt", "de": "Hat das Handy gerade geklingelt?", "en": "Did the phone just ring?" }
     ]
   },
   {
@@ -1828,6 +1962,12 @@
         "example_de": "Jemand klopft an die Tür.",
         "example_en": "Someone is knocking on the door."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Mein Herz klopft vor der Prüfung schnell.", "en": "My heart beats fast before the exam." },
+      { "tag": "präteritum", "de": "Er klopfte dreimal an die Tür.", "en": "He knocked on the door three times." },
+      { "tag": "perfekt", "de": "Jemand hat ans Fenster geklopft.", "en": "Someone knocked on the window." },
+      { "tag": "imperativ", "de": "Klopf bitte, bevor du hereinkommst!", "en": "Please knock before you come in!" }
     ]
   },
   {
@@ -1916,6 +2056,11 @@
         "example_de": "Der Mann kontrolliert die Tickets.",
         "example_en": "The man checks the tickets."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Polizei kontrolliert die Autos.", "en": "The police are checking the cars." },
+      { "tag": "präteritum", "de": "Der Lehrer kontrollierte die Hausaufgaben.", "en": "The teacher checked the homework." },
+      { "tag": "perfekt", "de": "Hast du die Rechnung kontrolliert?", "en": "Did you check the bill?" }
     ]
   },
   {
@@ -1930,6 +2075,9 @@
         "example_de": "Mein Kopf tut weh.",
         "example_en": "My head hurts."
       }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Zwei Köpfe sind besser als einer.", "en": "Two heads are better than one." }
     ]
   },
   {
@@ -1959,6 +2107,11 @@
         "example_de": "Kannst du das Formular kopieren?",
         "example_en": "Can you copy the form?"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich kopiere den Text für den Kurs.", "en": "I am copying the text for the course." },
+      { "tag": "präteritum", "de": "Er kopierte die Seite zweimal.", "en": "He copied the page twice." },
+      { "tag": "perfekt", "de": "Ich habe das Formular schon kopiert.", "en": "I have already copied the form." }
     ]
   },
   {
@@ -1987,6 +2140,11 @@
         "example_de": "Die Lehrerin korrigiert die Fehler.",
         "example_en": "The teacher corrects the mistakes."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Lehrer korrigiert die Tests am Wochenende.", "en": "The teacher corrects the tests on the weekend." },
+      { "tag": "präteritum", "de": "Sie korrigierte meinen Brief.", "en": "She corrected my letter." },
+      { "tag": "perfekt", "de": "Ich habe den Fehler sofort korrigiert.", "en": "I corrected the mistake immediately." }
     ]
   },
   {
@@ -2072,6 +2230,11 @@
         "example_en": "You still owe me ten euros.",
         "note": "umgangssprachlich für bekommen"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wir kriegen morgen Besuch von Oma.", "en": "We are getting a visit from Grandma tomorrow." },
+      { "tag": "präteritum", "de": "Er kriegte zum Geburtstag ein Fahrrad.", "en": "He got a bicycle for his birthday." },
+      { "tag": "perfekt", "de": "Ich habe deine Nachricht gekriegt.", "en": "I got your message." }
     ]
   },
   {
@@ -2100,6 +2263,11 @@
         "example_de": "Der Chef kritisiert meine Arbeit.",
         "example_en": "The boss criticizes my work."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er kritisiert immer mein Essen.", "en": "He always criticizes my food." },
+      { "tag": "präteritum", "de": "Die Zeitung kritisierte den neuen Film.", "en": "The newspaper criticized the new film." },
+      { "tag": "perfekt", "de": "Der Trainer hat die Mannschaft kritisiert.", "en": "The coach criticized the team." }
     ]
   },
   {
@@ -2157,6 +2325,11 @@
         "example_en": "He quit his job.",
         "note": "jemandem kündigen (+ Dativ) = to dismiss someone"
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie kündigt zum Ende des Monats.", "en": "She is quitting at the end of the month." },
+      { "tag": "präteritum", "de": "Er kündigte nach zehn Jahren in der Firma.", "en": "He quit after ten years at the company." },
+      { "tag": "perfekt", "de": "Ich habe meine Wohnung gekündigt.", "en": "I gave notice on my apartment." }
     ]
   },
   {
@@ -2198,6 +2371,11 @@
         "example_de": "Sie küsst das Baby.",
         "example_en": "She kisses the baby."
       }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er küsst seine Frau zum Abschied.", "en": "He kisses his wife goodbye." },
+      { "tag": "präteritum", "de": "Sie küsste ihn am Bahnhof.", "en": "She kissed him at the train station." },
+      { "tag": "perfekt", "de": "Er hat sie zum ersten Mal geküsst.", "en": "He kissed her for the first time." }
     ]
   }
 ]

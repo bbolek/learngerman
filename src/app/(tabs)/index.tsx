@@ -1,3 +1,4 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
@@ -57,12 +58,22 @@ export default function HomeScreen() {
 
   return (
     <Screen>
-      <AppText variant="title" style={{ fontSize: 26 }}>
-        {greeting}
-      </AppText>
-      <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-        {dateLabel}
-      </AppText>
+      <View style={styles.headerRow}>
+        <View style={{ flex: 1 }}>
+          <AppText variant="title" style={{ fontSize: 26 }}>
+            {greeting}
+          </AppText>
+          <AppText variant="secondary" muted style={{ marginTop: 2 }}>
+            {dateLabel}
+          </AppText>
+        </View>
+        <Pressable hitSlop={8} onPress={() => router.push('/stats')} style={[styles.iconBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
+          <Ionicons name="bar-chart-outline" size={20} color={t.inkMuted} />
+        </Pressable>
+        <Pressable hitSlop={8} onPress={() => router.push('/settings')} style={[styles.iconBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
+          <Ionicons name="settings-outline" size={20} color={t.inkMuted} />
+        </Pressable>
+      </View>
 
       <View style={[styles.streak, { backgroundColor: streakGradient[0] }]}>
         <AppText style={{ fontSize: 30 }}>🔥</AppText>
@@ -169,6 +180,15 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
+  headerRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
+  iconBtn: {
+    width: 40,
+    height: 40,
+    borderRadius: 999,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   streak: {
     flexDirection: 'row',
     alignItems: 'center',

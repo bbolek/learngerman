@@ -92,5 +92,5 @@ const styles = StyleSheet.create({
     borderWidth: 0,
   },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.md },
-  topic: { width: '47.5%' as unknown as number, flexGrow: 1 },
+  topic: { width: '47.5%', flexGrow: 1 },
 });

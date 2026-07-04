@@ -1,0 +1,71 @@
+<!-- @dsCard group="Screens" -->
+<meta charset="utf-8">
+<title>LernGerman — Flashcard Review</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Nunito:wght@400;600;700;800&display=swap');
+*{box-sizing:border-box;margin:0}
+body{font-family:'Nunito',system-ui,sans-serif;background:#EBE4D8;padding:28px;display:flex;gap:28px;flex-wrap:wrap}
+.phone{width:375px;border-radius:38px;padding:14px 14px 10px;background:#1A1511;box-shadow:0 18px 44px #0006}
+.scr{--bg:#FBF7F0;--surface:#fff;--primary:#E8871E;--ink:#2B2118;--muted:#8A7B6E;--line:#EFE7DB;
+  background:var(--bg);color:var(--ink);border-radius:28px;overflow:hidden;height:730px;display:flex;flex-direction:column;padding:18px}
+.top{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.x{color:var(--muted);font-size:19px;font-weight:800}
+.bar{flex:1;height:9px;border-radius:999px;background:#EFE7DB;overflow:hidden}
+.bar i{display:block;height:100%;width:64%;border-radius:999px;background:linear-gradient(90deg,#E8871E,#F49B3F)}
+.cnt{font-size:13px;color:var(--muted);font-weight:800}
+.card{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:24px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 10px 28px #2b21181c;padding:28px;text-align:center;position:relative}
+.card .tag{position:absolute;top:18px;left:18px;font-size:11.5px;font-weight:800;padding:4px 11px;border-radius:999px;background:#E9F1E3;color:#5C8447}
+.card .lvl{position:absolute;top:18px;right:18px;font-size:11.5px;font-weight:800;padding:4px 11px;border-radius:999px;background:#FCE8D2;color:#B05F06}
+.front .de{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:42px}
+.front .de em{font-style:normal;color:#7FA96B}
+.hint{margin-top:16px;color:var(--muted);font-size:13.5px;font-weight:700}
+.back .de{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:30px}
+.back .de em{font-style:normal;color:#7FA96B}
+.rule{width:56px;height:3px;border-radius:99px;background:var(--primary);margin:16px auto}
+.back .en{font-size:22px;font-weight:800}
+.back .plural{color:var(--muted);font-size:14px;margin-top:4px}
+.back .ex{margin-top:14px;font-size:15px;font-family:'Fraunces',Georgia,serif}
+.back .ex i{display:block;font-family:'Nunito';font-style:normal;color:var(--muted);font-size:13.5px;margin-top:3px}
+.rating{display:flex;gap:8px;margin-top:16px}
+.rate{flex:1;border-radius:13px;padding:11px 4px;text-align:center}
+.rate b{display:block;font-size:14.5px;font-weight:800}
+.rate span{font-size:11px;opacity:.8;font-weight:700}
+.r-again{background:#FBE3DC;color:#C0492B}.r-hard{background:#FCE8D2;color:#B05F06}
+.r-good{background:#D8EEEB;color:#1D7269}.r-easy{background:#E3EFDC;color:#4C7639}
+.tap{margin-top:16px;text-align:center;color:var(--muted);font-weight:800;font-size:13px;background:var(--surface);border:1.5px dashed var(--line);border-radius:13px;padding:13px}
+.lbl{width:100%;text-align:center;color:#5c5245;font-weight:800;font-size:13px;margin:10px 0 -14px}
+</style>
+
+<div>
+<div class="lbl">REVIEW · Front (tap to flip)</div><br>
+<div class="phone"><div class="scr">
+  <div class="top"><span class="x">✕</span><div class="bar"><i></i></div><span class="cnt">16/25</span></div>
+  <div class="card front">
+    <span class="tag">das</span><span class="lvl">A1</span>
+    <div class="de"><em>das</em> Haus</div>
+    <div class="hint">Was heißt das auf Englisch?</div>
+  </div>
+  <div class="tap">Tippen zum Umdrehen</div>
+</div></div>
+</div>
+
+<div>
+<div class="lbl">REVIEW · Back (rate recall)</div><br>
+<div class="phone"><div class="scr">
+  <div class="top"><span class="x">✕</span><div class="bar"><i></i></div><span class="cnt">16/25</span></div>
+  <div class="card back">
+    <span class="tag">das</span><span class="lvl">A1</span>
+    <div class="de"><em>das</em> Haus</div>
+    <div class="rule"></div>
+    <div class="en">house</div>
+    <div class="plural">Plural: die Häuser</div>
+    <div class="ex">„Das Haus ist alt.“<i>The house is old.</i></div>
+  </div>
+  <div class="rating">
+    <div class="rate r-again"><b>Nochmal</b><span>10 Min</span></div>
+    <div class="rate r-hard"><b>Schwer</b><span>1 Tag</span></div>
+    <div class="rate r-good"><b>Gut</b><span>3 Tage</span></div>
+    <div class="rate r-easy"><b>Einfach</b><span>7 Tage</span></div>
+  </div>
+</div></div>
+</div>

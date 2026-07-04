@@ -1,0 +1,62 @@
+<!-- @dsCard group="Components" -->
+<meta charset="utf-8">
+<title>LernGerman — Inputs & Progress</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Nunito:wght@400;600;700;800&display=swap');
+:root{--bg:#FBF7F0;--surface:#fff;--primary:#E8871E;--primary-dim:#FCE8D2;--accent:#2A9D8F;--danger:#E76F51;--ink:#2B2118;--muted:#8A7B6E;--line:#EFE7DB}
+*{box-sizing:border-box;margin:0}
+body{font-family:'Nunito',system-ui,sans-serif;background:var(--bg);color:var(--ink);padding:32px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:28px;margin-bottom:24px}
+h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:26px 0 12px}
+.search{display:flex;align-items:center;gap:10px;background:var(--surface);border:1.5px solid var(--line);border-radius:16px;padding:14px 18px;max-width:420px;box-shadow:0 2px 10px #2b211812}
+.search.focus{border-color:var(--primary);box-shadow:0 0 0 4px #E8871E22}
+.search input{border:0;outline:0;font:inherit;font-size:17px;flex:1;background:none;color:var(--ink)}
+.search input::placeholder{color:#B5A99C}
+.umlauts{display:flex;gap:8px;margin-top:10px}
+.uml{width:44px;height:40px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);font:inherit;font-size:17px;font-weight:700;cursor:pointer}
+.bar{max-width:420px;height:10px;border-radius:999px;background:#EFE7DB;overflow:hidden}
+.bar i{display:block;height:100%;width:64%;border-radius:999px;background:linear-gradient(90deg,#E8871E,#F49B3F)}
+.rings{display:flex;gap:26px;align-items:center}
+.ring{border-radius:999px;display:grid;place-items:center}
+.ring i{border-radius:999px;background:var(--bg);display:grid;place-items:center;font-style:normal;font-weight:800}
+.r1{width:120px;height:120px;background:conic-gradient(#E8871E 0 66%,#EFE7DB 66% 100%)}
+.r1 i{width:96px;height:96px;font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:26px}
+.r1 i small{display:block;font-family:'Nunito';font-size:11px;color:var(--muted);font-weight:700;text-align:center}
+.r2{width:76px;height:76px;background:conic-gradient(#2A9D8F 0 88%,#EFE7DB 88% 100%)}
+.r2 i{width:58px;height:58px;font-size:14px;color:#1D7269}
+.fb{max-width:420px;border-radius:14px;padding:14px 18px;font-weight:700;display:flex;gap:10px;align-items:center}
+.fb-ok{background:#D8EEEB;color:#155E56}
+.fb-no{background:#FBE3DC;color:#B03E20}
+.fb small{display:block;font-weight:600;opacity:.85}
+.heat{display:flex;gap:5px}
+.heat i{width:22px;height:22px;border-radius:6px}
+</style>
+<h1>Inputs &amp; Progress</h1>
+
+<h2>Search bar (idle / focused) + umlaut helper keys</h2>
+<div class="search"><span>🔍</span><input placeholder="Deutsch oder English…"></div>
+<div style="height:12px"></div>
+<div class="search focus"><span>🔍</span><input value="gemacht"></div>
+<div class="umlauts"><button class="uml">ä</button><button class="uml">ö</button><button class="uml">ü</button><button class="uml">ß</button></div>
+
+<h2>Session progress bar · 16 / 25</h2>
+<div class="bar"><i></i></div>
+
+<h2>Progress rings — daily goal · topic mastery</h2>
+<div class="rings">
+  <div class="ring r1"><i>12<small>von 18 fällig</small></i></div>
+  <div class="ring r2"><i>88%</i></div>
+</div>
+
+<h2>Answer feedback banners</h2>
+<div class="fb fb-ok">✓ Richtig! <small>helfen + Dativ → „Er hilft der Frau.“</small></div>
+<div style="height:10px"></div>
+<div class="fb fb-no">✗ Nicht ganz — richtig ist „den“ <small>sehen braucht Akkusativ: der → den</small></div>
+
+<h2>Streak heat strip (last 14 days)</h2>
+<div class="heat">
+  <i style="background:#EFE7DB"></i><i style="background:#FCE8D2"></i><i style="background:#F8C98F"></i><i style="background:#E8871E"></i>
+  <i style="background:#E8871E"></i><i style="background:#F8C98F"></i><i style="background:#EFE7DB"></i><i style="background:#F8C98F"></i>
+  <i style="background:#E8871E"></i><i style="background:#E8871E"></i><i style="background:#E8871E"></i><i style="background:#F8C98F"></i>
+  <i style="background:#FCE8D2"></i><i style="background:#E8871E;outline:2px solid #2B2118;outline-offset:1px"></i>
+</div>

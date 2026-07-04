@@ -1,0 +1,94 @@
+<!-- @dsCard group="Screens" -->
+<meta charset="utf-8">
+<title>LernGerman — Dictionary & Word Detail</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Nunito:wght@400;600;700;800&display=swap');
+*{box-sizing:border-box;margin:0}
+body{font-family:'Nunito',system-ui,sans-serif;background:#EBE4D8;padding:28px;display:flex;gap:28px;flex-wrap:wrap}
+.phone{width:375px;border-radius:38px;padding:14px 14px 10px;background:#1A1511;box-shadow:0 18px 44px #0006}
+.scr{--bg:#FBF7F0;--surface:#fff;--primary:#E8871E;--pdim:#FCE8D2;--ink:#2B2118;--muted:#8A7B6E;--line:#EFE7DB;
+  background:var(--bg);color:var(--ink);border-radius:28px;overflow:hidden;height:730px;display:flex;flex-direction:column}
+.body{flex:1;overflow:hidden;padding:18px}
+.title{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:24px;margin-bottom:14px}
+.search{display:flex;align-items:center;gap:10px;background:var(--surface);border:1.5px solid var(--primary);border-radius:15px;padding:13px 16px;box-shadow:0 0 0 4px #E8871E1c;font-size:16.5px}
+.search b{font-weight:600}
+.caret{display:inline-block;width:2px;height:20px;background:var(--primary);vertical-align:middle}
+.uml{display:flex;gap:8px;margin-top:10px}
+.uml span{width:42px;height:36px;border-radius:9px;border:1.5px solid var(--line);background:var(--surface);display:grid;place-items:center;font-weight:700;font-size:15px}
+.sect{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:800;margin:16px 2px 8px}
+.res{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:13px 15px;margin-bottom:9px;box-shadow:0 2px 8px #2b21180e}
+.res .top{display:flex;align-items:center;gap:9px}
+.res .de{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:17.5px;flex:1}
+.res .en{color:var(--muted);font-size:13.5px;margin-top:1px}
+.chip{padding:3px 10px;border-radius:999px;font-size:11.5px;font-weight:800}
+.c-das{background:#E9F1E3;color:#5C8447}.c-lvl{background:var(--pdim);color:#B05F06}
+.formof{margin-top:7px;font-size:12px;background:var(--pdim);color:#B05F06;display:inline-block;padding:3px 10px;border-radius:999px;font-weight:700}
+/* detail phone */
+.back{color:var(--muted);font-weight:800;font-size:14px;margin-bottom:10px}
+.hw{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:34px}
+.hw em{font-style:normal;color:#7FA96B}
+.parts{color:var(--muted);font-size:14px;margin:4px 0 12px}
+.chips{display:flex;gap:7px;margin-bottom:14px}
+.sense{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:14px 16px;margin-bottom:10px;box-shadow:0 2px 8px #2b21180e}
+.sense b{font-size:16.5px}
+.sense .note{display:inline-block;margin-left:7px;font-size:11.5px;background:#EDE6F4;color:#6B4C93;padding:2px 9px;border-radius:999px;font-weight:800}
+.sense .ex{font-size:13.5px;margin-top:6px}
+.sense .ex i{color:var(--muted);font-style:normal}
+.tbl{background:var(--surface);border:1px solid var(--line);border-radius:15px;overflow:hidden;box-shadow:0 2px 8px #2b21180e}
+.tbl .hd{display:flex;justify-content:space-between;padding:13px 16px;font-weight:800;font-size:14px;border-bottom:1px solid var(--line)}
+.tbl .hd span{color:var(--muted)}
+.tr{display:flex;padding:9px 16px;font-size:14px;border-bottom:1px solid var(--line)}
+.tr:last-child{border:0}
+.tr .k{width:118px;color:var(--muted);font-weight:700;font-size:12.5px;padding-top:2px}
+.tr .v b{font-weight:800;color:#B05F06}
+.fab{position:absolute;right:26px;bottom:88px;width:56px;height:56px;border-radius:999px;background:#FBE3DC;border:1.5px solid #E76F51;display:grid;place-items:center;font-size:23px;box-shadow:0 8px 20px #e76f5140}
+.wrap{position:relative}
+.lbl{width:100%;text-align:center;color:#5c5245;font-weight:800;font-size:13px;margin:10px 0 -14px}
+</style>
+
+<div>
+<div class="lbl">DICTIONARY · Search "gemacht"</div><br>
+<div class="phone"><div class="scr">
+  <div class="body">
+    <div class="title">Wörterbuch</div>
+    <div class="search">🔍 <b>gemacht</b><span class="caret"></span></div>
+    <div class="uml"><span>ä</span><span>ö</span><span>ü</span><span>ß</span></div>
+    <div class="sect">Deutsch → English</div>
+    <div class="res">
+      <div class="top"><div><div class="de">machen</div><div class="en">to make, to do</div></div><span style="flex:1"></span><span class="chip c-lvl">A1</span></div>
+      <div class="formof">gemacht → Partizip II von „machen“</div>
+    </div>
+    <div class="res">
+      <div class="top"><div><div class="de">aufmachen</div><div class="en">to open</div></div><span style="flex:1"></span><span class="chip c-lvl">A1</span></div>
+      <div class="formof">aufgemacht → Partizip II</div>
+    </div>
+    <div class="sect">English → Deutsch</div>
+    <div class="res"><div class="top"><div><div class="de">die Macht</div><div class="en">power, might</div></div><span style="flex:1"></span><span class="chip c-lvl">B1</span></div></div>
+  </div>
+</div></div>
+</div>
+
+<div>
+<div class="lbl">WORD DETAIL · machen</div><br>
+<div class="phone wrap"><div class="scr">
+  <div class="body">
+    <div class="back">← Wörterbuch</div>
+    <div class="hw">machen</div>
+    <div class="parts">macht · machte · <b style="color:#B05F06">hat gemacht</b></div>
+    <div class="chips"><span class="chip c-lvl">A1</span><span class="chip" style="background:#E4EBF4;color:#4A6B99">Verb · regelmäßig</span></div>
+    <div class="sense"><b>1 · to make, to do</b><div class="ex">Was machst du am Wochenende? <i>— What are you doing on the weekend?</i></div></div>
+    <div class="sense"><b>2 · to matter</b><span class="note">umg.</span><div class="ex">Das macht nichts! <i>— It doesn't matter!</i></div></div>
+    <div class="tbl">
+      <div class="hd">Konjugation · Präsens <span>▾</span></div>
+      <div class="tr"><div class="k">ich</div><div class="v">mache</div></div>
+      <div class="tr"><div class="k">du</div><div class="v">machst</div></div>
+      <div class="tr"><div class="k">er/sie/es</div><div class="v"><b>macht</b></div></div>
+      <div class="tr"><div class="k">wir / sie / Sie</div><div class="v">machen</div></div>
+      <div class="tr"><div class="k">ihr</div><div class="v">macht</div></div>
+      <div class="tr"><div class="k">Perfekt</div><div class="v">hat <b>gemacht</b></div></div>
+    </div>
+  </div>
+</div>
+<div class="fab">❤️</div>
+</div>
+</div>

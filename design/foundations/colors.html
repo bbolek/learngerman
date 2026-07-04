@@ -1,0 +1,63 @@
+<!-- @dsCard group="Foundations" -->
+<meta charset="utf-8">
+<title>LernGerman — Colors</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Nunito:wght@400;600;700;800&display=swap');
+:root{
+  --bg:#FBF7F0; --surface:#FFFFFF; --primary:#E8871E; --primary-dim:#FCE8D2;
+  --accent:#2A9D8F; --accent-dim:#D8EEEB; --danger:#E76F51; --danger-dim:#FBE3DC;
+  --ink:#2B2118; --muted:#8A7B6E; --line:#EFE7DB;
+  --der:#6C8EBF; --die:#C97B84; --das:#7FA96B;
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:'Nunito',system-ui,sans-serif;background:var(--bg);color:var(--ink);padding:32px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:28px;margin-bottom:4px}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:28px 0 12px}
+.row{display:flex;flex-wrap:wrap;gap:14px}
+.swatch{width:150px;border-radius:16px;overflow:hidden;background:var(--surface);box-shadow:0 2px 10px #2b211814;border:1px solid var(--line)}
+.chip-color{height:74px}
+.meta{padding:10px 14px}
+.meta b{display:block;font-size:14px}
+.meta span{font-size:12px;color:var(--muted);font-family:ui-monospace,monospace}
+.dark-strip{background:#1C1814;border-radius:20px;padding:24px;margin-top:10px}
+.dark-strip h2{color:#A69684;margin-top:0}
+.dark-strip .swatch{background:#26211B;border-color:#3A322A;box-shadow:none}
+.dark-strip .meta b{color:#F2EAE0}
+.dark-strip .meta span{color:#A69684}
+.genders{display:flex;gap:10px;margin-top:6px}
+.gchip{padding:7px 16px;border-radius:999px;color:#fff;font-weight:800;font-size:14px}
+</style>
+<h1>Farben · Colors</h1>
+<div class="sub">Warm “paper &amp; marigold” palette — friendly, bookish, high-contrast for reading German text.</div>
+
+<h2>Light theme</h2>
+<div class="row">
+  <div class="swatch"><div class="chip-color" style="background:#FBF7F0;border-bottom:1px solid #EFE7DB"></div><div class="meta"><b>Background</b><span>#FBF7F0</span></div></div>
+  <div class="swatch"><div class="chip-color" style="background:#FFFFFF;border-bottom:1px solid #EFE7DB"></div><div class="meta"><b>Surface</b><span>#FFFFFF</span></div></div>
+  <div class="swatch"><div class="chip-color" style="background:#E8871E"></div><div class="meta"><b>Primary · Marigold</b><span>#E8871E</span></div></div>
+  <div class="swatch"><div class="chip-color" style="background:#FCE8D2"></div><div class="meta"><b>Primary dim</b><span>#FCE8D2</span></div></div>
+  <div class="swatch"><div class="chip-color" style="background:#2A9D8F"></div><div class="meta"><b>Accent · Teal</b><span>#2A9D8F</span></div></div>
+  <div class="swatch"><div class="chip-color" style="background:#E76F51"></div><div class="meta"><b>Danger · Terracotta</b><span>#E76F51</span></div></div>
+  <div class="swatch"><div class="chip-color" style="background:#2B2118"></div><div class="meta"><b>Ink</b><span>#2B2118</span></div></div>
+  <div class="swatch"><div class="chip-color" style="background:#8A7B6E"></div><div class="meta"><b>Ink muted</b><span>#8A7B6E</span></div></div>
+</div>
+
+<h2>Noun-gender mnemonics</h2>
+<div class="genders">
+  <div class="gchip" style="background:#6C8EBF">der · masculine</div>
+  <div class="gchip" style="background:#C97B84">die · feminine</div>
+  <div class="gchip" style="background:#7FA96B">das · neuter</div>
+</div>
+
+<div class="dark-strip">
+  <h2>Dark theme</h2>
+  <div class="row">
+    <div class="swatch"><div class="chip-color" style="background:#1C1814;border-bottom:1px solid #3A322A"></div><div class="meta"><b>Background</b><span>#1C1814</span></div></div>
+    <div class="swatch"><div class="chip-color" style="background:#26211B"></div><div class="meta"><b>Surface</b><span>#26211B</span></div></div>
+    <div class="swatch"><div class="chip-color" style="background:#F49B3F"></div><div class="meta"><b>Primary</b><span>#F49B3F</span></div></div>
+    <div class="swatch"><div class="chip-color" style="background:#43B3A5"></div><div class="meta"><b>Accent</b><span>#43B3A5</span></div></div>
+    <div class="swatch"><div class="chip-color" style="background:#F2836B"></div><div class="meta"><b>Danger</b><span>#F2836B</span></div></div>
+    <div class="swatch"><div class="chip-color" style="background:#F2EAE0"></div><div class="meta"><b>Ink</b><span>#F2EAE0</span></div></div>
+  </div>
+</div>

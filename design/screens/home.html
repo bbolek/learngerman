@@ -1,0 +1,107 @@
+<!-- @dsCard group="Screens" -->
+<meta charset="utf-8">
+<title>LernGerman — Home</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Nunito:wght@400;600;700;800&display=swap');
+*{box-sizing:border-box;margin:0}
+body{font-family:'Nunito',system-ui,sans-serif;background:#EBE4D8;padding:28px;display:flex;gap:28px;flex-wrap:wrap}
+.phone{width:375px;border-radius:38px;padding:14px 14px 10px;background:#1A1511;box-shadow:0 18px 44px #0006}
+.scr{border-radius:28px;overflow:hidden;height:730px;display:flex;flex-direction:column}
+/* light */
+.lt{--bg:#FBF7F0;--surface:#fff;--primary:#E8871E;--pdim:#FCE8D2;--accent:#2A9D8F;--ink:#2B2118;--muted:#8A7B6E;--line:#EFE7DB}
+.dk{--bg:#1C1814;--surface:#26211B;--primary:#F49B3F;--pdim:#3A2C1B;--accent:#43B3A5;--ink:#F2EAE0;--muted:#A69684;--line:#3A322A}
+.scr{background:var(--bg);color:var(--ink)}
+.body{flex:1;overflow:hidden;padding:18px 18px 0}
+.hi{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:26px}
+.date{color:var(--muted);font-size:13.5px;font-weight:700;margin:2px 0 16px}
+.streak{display:flex;align-items:center;gap:14px;background:linear-gradient(135deg,#E8871E,#F49B3F);border-radius:18px;padding:16px 18px;color:#fff;box-shadow:0 8px 20px #e8871e42}
+.streak .n{font-family:'Fraunces',Georgia,serif;font-size:26px;font-weight:600}
+.streak p{font-size:12.5px;opacity:.92;font-weight:700}
+.daily{display:flex;gap:16px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin-top:14px;box-shadow:0 2px 10px #2b211810}
+.ring{width:86px;height:86px;border-radius:999px;background:conic-gradient(var(--primary) 0 66%,var(--line) 66% 100%);display:grid;place-items:center;flex:none}
+.ring i{width:66px;height:66px;border-radius:999px;background:var(--surface);display:grid;place-items:center;font-style:normal;font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:21px}
+.daily b{font-size:16px}
+.daily p{font-size:13px;color:var(--muted);margin:2px 0 10px}
+.cta{display:inline-block;background:var(--primary);color:#fff;font-weight:800;font-size:14px;border-radius:11px;padding:9px 16px;box-shadow:0 4px 12px #e8871e55}
+.two{display:flex;gap:12px;margin-top:14px}
+.mini{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:14px 15px;box-shadow:0 2px 10px #2b211810}
+.mini .k{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:800}
+.mini .v{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:19px;margin-top:5px}
+.mini .s{font-size:12px;color:var(--muted);margin-top:2px}
+.mini .badge{margin-top:9px;display:inline-block;background:var(--pdim);color:#B05F06;font-size:11.5px;font-weight:800;border-radius:999px;padding:3px 10px}
+.dk .mini .badge{color:#F8C98F}
+.wotd{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin-top:14px;box-shadow:0 2px 10px #2b211810}
+.wotd .k{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:800}
+.wotd .w{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:23px;margin-top:6px}
+.wotd .w em{font-style:normal;color:#7FA96B}
+.wotd .m{font-size:14px;color:var(--muted);margin-top:1px}
+.wotd .ex{font-size:13.5px;margin-top:7px}
+.wotd .ex i{color:var(--muted);font-style:normal}
+.tabs{display:flex;border-top:1px solid var(--line);background:var(--surface);padding:10px 6px 14px}
+.tab{flex:1;text-align:center;font-size:10.5px;font-weight:800;color:var(--muted)}
+.tab.on{color:var(--primary)}
+.tab span{display:block;font-size:20px;margin-bottom:2px}
+.lbl{width:100%;text-align:center;color:#5c5245;font-weight:800;font-size:13px;margin:10px 0 -14px}
+</style>
+
+<div>
+<div class="lbl">HOME · Light</div><br>
+<div class="phone"><div class="scr lt">
+  <div class="body">
+    <div class="hi">Guten Morgen! ☀️</div>
+    <div class="date">Samstag, 4. Juli</div>
+    <div class="streak"><span style="font-size:30px">🔥</span><div><div class="n">7 Tage</div><p>Lernserie — weiter so!</p></div></div>
+    <div class="daily">
+      <div class="ring"><i>12/18</i></div>
+      <div><b>Heute fällig</b><p>12 von 18 Karten geschafft</p><span class="cta">6 Karten üben →</span></div>
+    </div>
+    <div class="two">
+      <div class="mini"><div class="k">Schwächstes Thema</div><div class="v">Dativ</div><div class="s">54% richtig</div><span class="badge">Jetzt üben</span></div>
+      <div class="mini"><div class="k">Meine Wörter</div><div class="v">86</div><div class="s">+4 diese Woche</div><span class="badge">Ansehen</span></div>
+    </div>
+    <div class="wotd">
+      <div class="k">Wort des Tages</div>
+      <div class="w"><em>der</em> Schlüssel</div>
+      <div class="m">key</div>
+      <div class="ex">Wo ist mein Schlüssel? <i>— Where is my key?</i></div>
+    </div>
+  </div>
+  <div class="tabs">
+    <div class="tab on"><span>🏠</span>Start</div>
+    <div class="tab"><span>🔍</span>Wörterbuch</div>
+    <div class="tab"><span>❤️</span>Wörter</div>
+    <div class="tab"><span>🎯</span>Üben</div>
+  </div>
+</div></div>
+</div>
+
+<div>
+<div class="lbl">HOME · Dark</div><br>
+<div class="phone"><div class="scr dk">
+  <div class="body">
+    <div class="hi">Guten Abend! 🌙</div>
+    <div class="date">Samstag, 4. Juli</div>
+    <div class="streak"><span style="font-size:30px">🔥</span><div><div class="n">7 Tage</div><p>Lernserie — weiter so!</p></div></div>
+    <div class="daily">
+      <div class="ring"><i>12/18</i></div>
+      <div><b>Heute fällig</b><p>12 von 18 Karten geschafft</p><span class="cta">6 Karten üben →</span></div>
+    </div>
+    <div class="two">
+      <div class="mini"><div class="k">Schwächstes Thema</div><div class="v">Dativ</div><div class="s">54% richtig</div><span class="badge">Jetzt üben</span></div>
+      <div class="mini"><div class="k">Meine Wörter</div><div class="v">86</div><div class="s">+4 diese Woche</div><span class="badge">Ansehen</span></div>
+    </div>
+    <div class="wotd">
+      <div class="k">Wort des Tages</div>
+      <div class="w"><em>der</em> Schlüssel</div>
+      <div class="m">key</div>
+      <div class="ex">Wo ist mein Schlüssel? <i>— Where is my key?</i></div>
+    </div>
+  </div>
+  <div class="tabs">
+    <div class="tab on"><span>🏠</span>Start</div>
+    <div class="tab"><span>🔍</span>Wörterbuch</div>
+    <div class="tab"><span>❤️</span>Wörter</div>
+    <div class="tab"><span>🎯</span>Üben</div>
+  </div>
+</div></div>
+</div>

@@ -1,0 +1,1264 @@
+[
+  {
+    "lemma": "Notruf",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1320,
+    "noun": {
+      "gender": "m",
+      "plural": "Notrufe"
+    },
+    "senses": [
+      {
+        "en": "emergency call",
+        "note": "Notruf 112 (Feuerwehr/Rettung), 110 (Polizei)",
+        "example_de": "Bei einem Unfall wählst du den Notruf 112.",
+        "example_en": "In an accident you dial the emergency number 112."
+      }
+    ]
+  },
+  {
+    "lemma": "Polizist",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1340,
+    "noun": {
+      "gender": "m",
+      "plural": "Polizisten",
+      "genitive": "Polizisten"
+    },
+    "senses": [
+      {
+        "en": "police officer, policeman",
+        "note": "n-Deklination: den/dem/des Polizisten",
+        "example_de": "Der Polizist steht an der Straße.",
+        "example_en": "The police officer is standing by the street."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Zwei Polizisten kommen zu unserem Haus.",
+        "en": "Two police officers are coming to our house."
+      },
+      {
+        "tag": "akkusativ",
+        "de": "Ich frage den Polizisten nach dem Weg.",
+        "en": "I ask the police officer for directions."
+      }
+    ]
+  },
+  {
+    "lemma": "Dieb",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1370,
+    "noun": {
+      "gender": "m",
+      "plural": "Diebe",
+      "genitive": "Diebes"
+    },
+    "senses": [
+      {
+        "en": "thief",
+        "example_de": "Der Dieb nimmt die Tasche und läuft weg.",
+        "example_en": "The thief takes the bag and runs away."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Polizei sucht die beiden Diebe.",
+        "en": "The police are looking for the two thieves."
+      }
+    ]
+  },
+  {
+    "lemma": "klauen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1410,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to steal, to pinch",
+        "note": "umgangssprachlich",
+        "example_de": "Jemand hat mein Fahrrad geklaut!",
+        "example_en": "Someone stole my bike!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er klaut Schokolade aus dem Laden.",
+        "en": "He steals chocolate from the shop."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Früher klaute er oft Süßigkeiten.",
+        "en": "He often used to steal sweets."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat mir das Handy geklaut.",
+        "en": "Someone stole my phone."
+      }
+    ]
+  },
+  {
+    "lemma": "Rauch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "smoke",
+        "example_de": "Aus dem Fenster kommt schwarzer Rauch.",
+        "example_en": "Black smoke is coming out of the window."
+      }
+    ]
+  },
+  {
+    "lemma": "brennen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1490,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "brannte",
+      "partizip2": "gebrannt"
+    },
+    "senses": [
+      {
+        "en": "to burn, to be on fire",
+        "example_de": "Das Haus brennt! Ruf die Feuerwehr!",
+        "example_en": "The house is on fire! Call the fire brigade!"
+      },
+      {
+        "en": "to be on (light)",
+        "example_de": "Im Zimmer brennt noch Licht.",
+        "example_en": "The light is still on in the room."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Kerze brennt auf dem Tisch.",
+        "en": "The candle is burning on the table."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Wald brannte drei Tage lang.",
+        "en": "The forest burned for three days."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Gestern hat es in der Küche gebrannt.",
+        "en": "Yesterday there was a fire in the kitchen."
+      }
+    ]
+  },
+  {
+    "lemma": "Gefahr",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1530,
+    "noun": {
+      "gender": "f",
+      "plural": "Gefahren"
+    },
+    "senses": [
+      {
+        "en": "danger, risk",
+        "note": "in Gefahr sein · außer Gefahr",
+        "example_de": "Achtung, hier ist Gefahr!",
+        "example_en": "Attention, there is danger here!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Winter gibt es viele Gefahren auf der Straße.",
+        "en": "In winter there are many dangers on the road."
+      }
+    ]
+  },
+  {
+    "lemma": "Sicherheit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1570,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "safety, security",
+        "note": "zur Sicherheit = to be safe",
+        "example_de": "Die Sicherheit der Kinder ist am wichtigsten.",
+        "example_en": "The children's safety is the most important thing."
+      }
+    ]
+  },
+  {
+    "lemma": "Alarm",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1610,
+    "noun": {
+      "gender": "m",
+      "plural": "Alarme"
+    },
+    "senses": [
+      {
+        "en": "alarm, alert",
+        "note": "Alarm schlagen = to raise the alarm",
+        "example_de": "Der Alarm ist sehr laut.",
+        "example_en": "The alarm is very loud."
+      }
+    ]
+  },
+  {
+    "lemma": "Notausgang",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1660,
+    "noun": {
+      "gender": "m",
+      "plural": "Notausgänge"
+    },
+    "senses": [
+      {
+        "en": "emergency exit",
+        "example_de": "Der Notausgang ist hinten links.",
+        "example_en": "The emergency exit is at the back on the left."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Das Kino hat drei Notausgänge.",
+        "en": "The cinema has three emergency exits."
+      }
+    ]
+  },
+  {
+    "lemma": "Rettungswagen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1910,
+    "noun": {
+      "gender": "m",
+      "plural": "Rettungswagen"
+    },
+    "senses": [
+      {
+        "en": "ambulance",
+        "example_de": "Der Rettungswagen kommt in fünf Minuten.",
+        "example_en": "The ambulance is coming in five minutes."
+      }
+    ]
+  },
+  {
+    "lemma": "Sanitäter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1930,
+    "noun": {
+      "gender": "m",
+      "plural": "Sanitäter"
+    },
+    "senses": [
+      {
+        "en": "paramedic, first-aid worker",
+        "example_de": "Die Sanitäter helfen dem verletzten Mann.",
+        "example_en": "The paramedics are helping the injured man."
+      }
+    ]
+  },
+  {
+    "lemma": "Notarzt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "m",
+      "plural": "Notärzte",
+      "genitive": "Notarztes"
+    },
+    "senses": [
+      {
+        "en": "emergency doctor",
+        "example_de": "Der Notarzt war schnell vor Ort.",
+        "example_en": "The emergency doctor was quickly on the scene."
+      }
+    ]
+  },
+  {
+    "lemma": "Rettung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1970,
+    "noun": {
+      "gender": "f",
+      "plural": "Rettungen"
+    },
+    "senses": [
+      {
+        "en": "rescue, salvation",
+        "example_de": "Die Rettung kam in letzter Minute.",
+        "example_en": "The rescue came at the last minute."
+      }
+    ]
+  },
+  {
+    "lemma": "Zeuge",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1990,
+    "noun": {
+      "gender": "m",
+      "plural": "Zeugen",
+      "genitive": "Zeugen"
+    },
+    "senses": [
+      {
+        "en": "witness",
+        "note": "n-Deklination: den/dem/des Zeugen",
+        "example_de": "Die Polizei sucht Zeugen für den Unfall.",
+        "example_en": "The police are looking for witnesses to the accident."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Drei Zeugen haben den Einbruch gesehen.",
+        "en": "Three witnesses saw the break-in."
+      }
+    ]
+  },
+  {
+    "lemma": "Diebstahl",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": {
+      "gender": "m",
+      "plural": "Diebstähle"
+    },
+    "senses": [
+      {
+        "en": "theft",
+        "example_de": "Sie meldet den Diebstahl bei der Polizei.",
+        "example_en": "She reports the theft to the police."
+      }
+    ]
+  },
+  {
+    "lemma": "Einbruch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2030,
+    "noun": {
+      "gender": "m",
+      "plural": "Einbrüche"
+    },
+    "senses": [
+      {
+        "en": "break-in, burglary",
+        "example_de": "Nach dem Einbruch fehlte der Schmuck.",
+        "example_en": "After the break-in, the jewelry was missing."
+      }
+    ]
+  },
+  {
+    "lemma": "einbrechen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2050,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "ein",
+      "du": "brichst",
+      "er": "bricht",
+      "praeteritum": "brach",
+      "partizip2": "eingebrochen"
+    },
+    "senses": [
+      {
+        "en": "to break in, to burgle",
+        "note": "trennbar; in + Akkusativ: in ein Haus einbrechen",
+        "example_de": "Jemand ist in unsere Wohnung eingebrochen.",
+        "example_en": "Someone broke into our apartment."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Dieb bricht in das Büro ein.",
+        "en": "The thief is breaking into the office."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Nachts brach er in den Laden ein.",
+        "en": "At night he broke into the shop."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Bei uns ist noch nie jemand eingebrochen.",
+        "en": "No one has ever broken into our place."
+      }
+    ]
+  },
+  {
+    "lemma": "Räuber",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2070,
+    "noun": {
+      "gender": "m",
+      "plural": "Räuber"
+    },
+    "senses": [
+      {
+        "en": "robber",
+        "example_de": "Der Räuber trug eine schwarze Maske.",
+        "example_en": "The robber wore a black mask."
+      }
+    ]
+  },
+  {
+    "lemma": "Raub",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2090,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "robbery",
+        "example_de": "Der Raub passierte am helllichten Tag.",
+        "example_en": "The robbery happened in broad daylight."
+      }
+    ]
+  },
+  {
+    "lemma": "überfallen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2110,
+    "verb": {
+      "aux": "haben",
+      "du": "überfällst",
+      "er": "überfällt",
+      "praeteritum": "überfiel",
+      "partizip2": "überfallen"
+    },
+    "senses": [
+      {
+        "en": "to attack, to rob, to mug",
+        "note": "untrennbar; + Akkusativ",
+        "example_de": "Zwei Männer haben die Bank überfallen.",
+        "example_en": "Two men robbed the bank."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Räuber überfällt den Laden am Abend.",
+        "en": "The robber holds up the shop in the evening."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie überfielen den alten Mann im Park.",
+        "en": "They attacked the old man in the park."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat ihn auf dem Heimweg überfallen.",
+        "en": "He was mugged on his way home."
+      }
+    ]
+  },
+  {
+    "lemma": "Überfall",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2130,
+    "noun": {
+      "gender": "m",
+      "plural": "Überfälle"
+    },
+    "senses": [
+      {
+        "en": "attack, robbery, raid",
+        "example_de": "Der Überfall auf die Bank dauerte nur zwei Minuten.",
+        "example_en": "The bank robbery took only two minutes."
+      }
+    ]
+  },
+  {
+    "lemma": "Täter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": {
+      "gender": "m",
+      "plural": "Täter"
+    },
+    "senses": [
+      {
+        "en": "perpetrator, offender",
+        "example_de": "Die Polizei hat den Täter noch nicht gefunden.",
+        "example_en": "The police have not found the perpetrator yet."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Täter sind mit dem Auto geflohen.",
+        "en": "The perpetrators fled by car."
+      }
+    ]
+  },
+  {
+    "lemma": "Opfer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2170,
+    "noun": {
+      "gender": "n",
+      "plural": "Opfer"
+    },
+    "senses": [
+      {
+        "en": "victim",
+        "example_de": "Das Opfer musste ins Krankenhaus.",
+        "example_en": "The victim had to go to the hospital."
+      },
+      {
+        "en": "sacrifice",
+        "example_de": "Sie bringt große Opfer für ihre Familie.",
+        "example_en": "She makes big sacrifices for her family."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Bei dem Brand gab es keine Opfer.",
+        "en": "There were no casualties in the fire."
+      }
+    ]
+  },
+  {
+    "lemma": "verdächtig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2190,
+    "senses": [
+      {
+        "en": "suspicious, suspect",
+        "example_de": "Ein verdächtiger Mann steht vor der Tür.",
+        "example_en": "A suspicious man is standing at the door."
+      }
+    ]
+  },
+  {
+    "lemma": "Verdacht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2210,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "suspicion",
+        "note": "unter Verdacht stehen · Verdacht haben",
+        "example_de": "Die Polizei hat einen Verdacht gegen den Nachbarn.",
+        "example_en": "The police have a suspicion against the neighbor."
+      }
+    ]
+  },
+  {
+    "lemma": "anzeigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2230,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to report (to the police)",
+        "note": "trennbar; jemanden anzeigen",
+        "example_de": "Sie zeigt den Dieb bei der Polizei an.",
+        "example_en": "She reports the thief to the police."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er zeigt seinen Nachbarn wegen Lärm an.",
+        "en": "He reports his neighbor for noise."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Frau zeigte den Mann an.",
+        "en": "The woman reported the man."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Diebstahl sofort angezeigt.",
+        "en": "We reported the theft immediately."
+      }
+    ]
+  },
+  {
+    "lemma": "Alarmanlage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": {
+      "gender": "f",
+      "plural": "Alarmanlagen"
+    },
+    "senses": [
+      {
+        "en": "alarm system",
+        "example_de": "Die Alarmanlage schützt das Haus vor Einbrechern.",
+        "example_en": "The alarm system protects the house from burglars."
+      }
+    ]
+  },
+  {
+    "lemma": "Rauchmelder",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2270,
+    "noun": {
+      "gender": "m",
+      "plural": "Rauchmelder"
+    },
+    "senses": [
+      {
+        "en": "smoke detector",
+        "example_de": "In jedem Schlafzimmer hängt ein Rauchmelder.",
+        "example_en": "There is a smoke detector in every bedroom."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Rauchmelder sind in Deutschland Pflicht.",
+        "en": "Smoke detectors are mandatory in Germany."
+      }
+    ]
+  },
+  {
+    "lemma": "Feuerlöscher",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2290,
+    "noun": {
+      "gender": "m",
+      "plural": "Feuerlöscher"
+    },
+    "senses": [
+      {
+        "en": "fire extinguisher",
+        "example_de": "Der Feuerlöscher hängt neben der Tür.",
+        "example_en": "The fire extinguisher hangs next to the door."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Gebäude gibt es viele Feuerlöscher.",
+        "en": "There are many fire extinguishers in the building."
+      }
+    ]
+  },
+  {
+    "lemma": "Brand",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2310,
+    "noun": {
+      "gender": "m",
+      "plural": "Brände",
+      "genitive": "Brandes"
+    },
+    "senses": [
+      {
+        "en": "fire, blaze",
+        "note": "in Brand geraten = to catch fire",
+        "example_de": "Der Brand zerstörte das ganze Haus.",
+        "example_en": "The fire destroyed the whole house."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Sommer gibt es oft Brände im Wald.",
+        "en": "In summer there are often fires in the forest."
+      }
+    ]
+  },
+  {
+    "lemma": "fliehen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2330,
+    "verb": {
+      "aux": "sein",
+      "praeteritum": "floh",
+      "partizip2": "geflohen"
+    },
+    "senses": [
+      {
+        "en": "to flee, to escape",
+        "note": "vor + Dativ: vor der Gefahr fliehen",
+        "example_de": "Der Täter floh vor der Polizei.",
+        "example_en": "The perpetrator fled from the police."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Menschen fliehen vor dem Feuer.",
+        "en": "The people are fleeing from the fire."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er floh durch das Fenster.",
+        "en": "He fled through the window."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Dieb ist über die Grenze geflohen.",
+        "en": "The thief fled across the border."
+      }
+    ]
+  },
+  {
+    "lemma": "Blutung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": {
+      "gender": "f",
+      "plural": "Blutungen"
+    },
+    "senses": [
+      {
+        "en": "bleeding, hemorrhage",
+        "example_de": "Der Arzt stoppt die starke Blutung.",
+        "example_en": "The doctor stops the heavy bleeding."
+      }
+    ]
+  },
+  {
+    "lemma": "ausrutschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2370,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to slip (and fall)",
+        "note": "trennbar",
+        "example_de": "Sie ist auf dem Eis ausgerutscht.",
+        "example_en": "She slipped on the ice."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Auf dem nassen Boden rutscht man leicht aus.",
+        "en": "You easily slip on the wet floor."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er rutschte im Bad aus.",
+        "en": "He slipped in the bathroom."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich bin auf der Treppe ausgerutscht.",
+        "en": "I slipped on the stairs."
+      }
+    ]
+  },
+  {
+    "lemma": "Sturz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2390,
+    "noun": {
+      "gender": "m",
+      "plural": "Stürze"
+    },
+    "senses": [
+      {
+        "en": "fall (accident)",
+        "example_de": "Nach dem Sturz tat ihr das Bein weh.",
+        "example_en": "After the fall her leg hurt."
+      }
+    ]
+  },
+  {
+    "lemma": "Warnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2410,
+    "noun": {
+      "gender": "f",
+      "plural": "Warnungen"
+    },
+    "senses": [
+      {
+        "en": "warning",
+        "example_de": "Im Radio gibt es eine Warnung vor dem Sturm.",
+        "example_en": "There is a storm warning on the radio."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Er hat alle Warnungen ignoriert.",
+        "en": "He ignored all warnings."
+      }
+    ]
+  },
+  {
+    "lemma": "Waffe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2430,
+    "noun": {
+      "gender": "f",
+      "plural": "Waffen"
+    },
+    "senses": [
+      {
+        "en": "weapon",
+        "example_de": "Der Mann hatte keine Waffe bei sich.",
+        "example_en": "The man had no weapon on him."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Polizei fand zwei Waffen im Auto.",
+        "en": "The police found two weapons in the car."
+      }
+    ]
+  },
+  {
+    "lemma": "Verbrechen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": {
+      "gender": "n",
+      "plural": "Verbrechen"
+    },
+    "senses": [
+      {
+        "en": "crime",
+        "note": "ein Verbrechen begehen = to commit a crime",
+        "example_de": "In dieser Stadt gibt es wenige Verbrechen.",
+        "example_en": "There are few crimes in this city."
+      }
+    ]
+  },
+  {
+    "lemma": "festnehmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2470,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "fest",
+      "du": "nimmst",
+      "er": "nimmt",
+      "praeteritum": "nahm",
+      "partizip2": "festgenommen"
+    },
+    "senses": [
+      {
+        "en": "to arrest, to detain",
+        "note": "trennbar; + Akkusativ",
+        "example_de": "Die Polizei nimmt den Dieb fest.",
+        "example_en": "The police arrest the thief."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Beamten nehmen den Mann fest.",
+        "en": "The officers are arresting the man."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Man nahm ihn am Bahnhof fest.",
+        "en": "He was arrested at the train station."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Polizei hat zwei Täter festgenommen.",
+        "en": "The police arrested two perpetrators."
+      }
+    ]
+  },
+  {
+    "lemma": "verhaften",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2490,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to arrest",
+        "note": "+ Akkusativ",
+        "example_de": "Die Polizei verhaftet den Verdächtigen.",
+        "example_en": "The police arrest the suspect."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Man verhaftet ihn direkt am Flughafen.",
+        "en": "He is arrested right at the airport."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Polizei verhaftete den Räuber nach zwei Tagen.",
+        "en": "The police arrested the robber after two days."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Täter wurde noch nicht verhaftet.",
+        "en": "The perpetrator has not been arrested yet."
+      }
+    ]
+  },
+  {
+    "lemma": "Gefängnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2510,
+    "noun": {
+      "gender": "n",
+      "plural": "Gefängnisse",
+      "genitive": "Gefängnisses"
+    },
+    "senses": [
+      {
+        "en": "prison, jail",
+        "note": "ins Gefängnis kommen = to go to prison",
+        "example_de": "Der Dieb muss für zwei Jahre ins Gefängnis.",
+        "example_en": "The thief has to go to prison for two years."
+      }
+    ]
+  },
+  {
+    "lemma": "Sirene",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2530,
+    "noun": {
+      "gender": "f",
+      "plural": "Sirenen"
+    },
+    "senses": [
+      {
+        "en": "siren",
+        "example_de": "Ich höre die Sirene von weitem.",
+        "example_en": "I hear the siren from far away."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Nachts hört man oft Sirenen in der Stadt.",
+        "en": "At night you often hear sirens in the city."
+      }
+    ]
+  },
+  {
+    "lemma": "drohen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2550,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to threaten",
+        "note": "+ Dativ: jemandem drohen",
+        "example_de": "Der Mann droht dem Zeugen.",
+        "example_en": "The man is threatening the witness."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er droht ihr mit der Polizei.",
+        "en": "He threatens her with the police."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Räuber drohte den Kunden.",
+        "en": "The robber threatened the customers."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat seinem Nachbarn gedroht.",
+        "en": "He threatened his neighbor."
+      }
+    ]
+  },
+  {
+    "lemma": "Beweis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2570,
+    "noun": {
+      "gender": "m",
+      "plural": "Beweise"
+    },
+    "senses": [
+      {
+        "en": "proof, evidence",
+        "example_de": "Die Polizei hat keinen Beweis gegen ihn.",
+        "example_en": "The police have no evidence against him."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ohne Beweise kann man niemanden verhaften.",
+        "en": "Without evidence you cannot arrest anyone."
+      }
+    ]
+  },
+  {
+    "lemma": "Spur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2590,
+    "noun": {
+      "gender": "f",
+      "plural": "Spuren"
+    },
+    "senses": [
+      {
+        "en": "trace, track, clue",
+        "example_de": "Der Täter hat keine Spur hinterlassen.",
+        "example_en": "The perpetrator left no trace."
+      },
+      {
+        "en": "lane (road)",
+        "example_de": "Die Autobahn hat hier drei Spuren.",
+        "example_en": "The highway has three lanes here."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Schnee sieht man frische Spuren.",
+        "en": "You can see fresh tracks in the snow."
+      }
+    ]
+  },
+  {
+    "lemma": "Fluchtweg",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3050,
+    "noun": {
+      "gender": "m",
+      "plural": "Fluchtwege"
+    },
+    "senses": [
+      {
+        "en": "escape route",
+        "example_de": "Der Fluchtweg muss immer frei bleiben.",
+        "example_en": "The escape route must always remain clear."
+      }
+    ]
+  },
+  {
+    "lemma": "Vergiftung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3150,
+    "noun": {
+      "gender": "f",
+      "plural": "Vergiftungen"
+    },
+    "senses": [
+      {
+        "en": "poisoning",
+        "example_de": "Das Kind kam mit einer Vergiftung ins Krankenhaus.",
+        "example_en": "The child was taken to the hospital with poisoning."
+      }
+    ]
+  },
+  {
+    "lemma": "ersticken",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3250,
+    "verb": {
+      "aux": "sein"
+    },
+    "senses": [
+      {
+        "en": "to suffocate, to choke",
+        "note": "an + Dativ: an dem Rauch ersticken",
+        "example_de": "Die Menschen wären fast am Rauch erstickt.",
+        "example_en": "The people almost suffocated from the smoke."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ohne frische Luft erstickt man schnell.",
+        "en": "Without fresh air you suffocate quickly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Hund erstickte fast an dem Ball.",
+        "en": "The dog almost choked on the ball."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Zum Glück ist niemand erstickt.",
+        "en": "Fortunately no one suffocated."
+      }
+    ]
+  },
+  {
+    "lemma": "ertrinken",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3350,
+    "verb": {
+      "aux": "sein",
+      "praeteritum": "ertrank",
+      "partizip2": "ertrunken"
+    },
+    "senses": [
+      {
+        "en": "to drown",
+        "example_de": "Ohne Hilfe wäre der Junge ertrunken.",
+        "example_en": "Without help the boy would have drowned."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "In diesem Fluss ertrinken jedes Jahr Menschen.",
+        "en": "People drown in this river every year."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Schwimmer ertrank trotz der Rettung fast.",
+        "en": "The swimmer almost drowned despite the rescue."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Zum Glück ist niemand im See ertrunken.",
+        "en": "Fortunately no one drowned in the lake."
+      }
+    ]
+  },
+  {
+    "lemma": "Zusammenstoß",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3450,
+    "noun": {
+      "gender": "m",
+      "plural": "Zusammenstöße"
+    },
+    "senses": [
+      {
+        "en": "collision, crash",
+        "example_de": "Bei dem Zusammenstoß wurde niemand verletzt.",
+        "example_en": "No one was hurt in the collision."
+      }
+    ]
+  },
+  {
+    "lemma": "Abschleppdienst",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3550,
+    "noun": {
+      "gender": "m",
+      "plural": "Abschleppdienste"
+    },
+    "senses": [
+      {
+        "en": "towing service",
+        "example_de": "Nach der Panne rief ich den Abschleppdienst.",
+        "example_en": "After the breakdown I called the towing service."
+      }
+    ]
+  },
+  {
+    "lemma": "evakuieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3650,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to evacuate",
+        "note": "+ Akkusativ",
+        "example_de": "Die Feuerwehr evakuierte das ganze Gebäude.",
+        "example_en": "The fire brigade evacuated the whole building."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Polizei evakuiert die Schule.",
+        "en": "The police are evacuating the school."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Man evakuierte alle Bewohner des Hauses.",
+        "en": "All residents of the house were evacuated."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Bahnhof wurde wegen des Alarms evakuiert.",
+        "en": "The station was evacuated because of the alarm."
+      }
+    ]
+  }
+]

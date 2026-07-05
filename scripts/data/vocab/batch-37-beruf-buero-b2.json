@@ -1,0 +1,1092 @@
+[
+  {
+    "lemma": "Auftrag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "m",
+      "plural": "Aufträge"
+    },
+    "senses": [
+      {
+        "en": "order, assignment, commission",
+        "example_de": "Die Firma bekam einen großen Auftrag aus China.",
+        "example_en": "The company got a big order from China."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir haben im Moment mehr Aufträge als Zeit.",
+        "en": "At the moment we have more orders than time."
+      }
+    ]
+  },
+  {
+    "lemma": "Sitzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "f",
+      "plural": "Sitzungen"
+    },
+    "senses": [
+      {
+        "en": "meeting, session",
+        "example_de": "Die Sitzung beginnt pünktlich um neun Uhr.",
+        "example_en": "The meeting starts at nine o'clock sharp."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Diese Woche haben wir drei lange Sitzungen.",
+        "en": "This week we have three long meetings."
+      }
+    ]
+  },
+  {
+    "lemma": "Überstunden",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "overtime (hours)",
+        "example_de": "Diesen Monat habe ich viele Überstunden gemacht.",
+        "example_en": "I've done a lot of overtime this month.",
+        "note": "nur Plural"
+      }
+    ]
+  },
+  {
+    "lemma": "Motivation",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "motivation",
+        "example_de": "Ohne Motivation macht die Arbeit keinen Spaß.",
+        "example_en": "Without motivation, work is no fun."
+      }
+    ]
+  },
+  {
+    "lemma": "Position",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": {
+      "gender": "f",
+      "plural": "Positionen"
+    },
+    "senses": [
+      {
+        "en": "position (job/rank)",
+        "example_de": "Sie hat eine hohe Position in der Firma.",
+        "example_en": "She has a high position in the company."
+      }
+    ]
+  },
+  {
+    "lemma": "Protokoll",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": {
+      "gender": "n",
+      "plural": "Protokolle"
+    },
+    "senses": [
+      {
+        "en": "minutes (of a meeting), record",
+        "example_de": "Wer schreibt heute das Protokoll der Sitzung?",
+        "example_en": "Who is taking the minutes of the meeting today?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Protokolle liegen im gemeinsamen Ordner.",
+        "en": "All the minutes are in the shared folder."
+      }
+    ]
+  },
+  {
+    "lemma": "Bewerber",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": {
+      "gender": "m",
+      "plural": "Bewerber"
+    },
+    "senses": [
+      {
+        "en": "applicant, candidate",
+        "example_de": "Der erste Bewerber hat uns sehr überzeugt.",
+        "example_en": "The first applicant impressed us a lot.",
+        "note": "weiblich: die Bewerberin"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Viele Bewerber haben sich auf die Stelle gemeldet.",
+        "en": "Many applicants applied for the position."
+      }
+    ]
+  },
+  {
+    "lemma": "Absage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": {
+      "gender": "f",
+      "plural": "Absagen"
+    },
+    "senses": [
+      {
+        "en": "rejection (of an application), cancellation",
+        "example_de": "Nach dem Gespräch bekam er leider eine Absage.",
+        "example_en": "Unfortunately, he got a rejection after the interview."
+      }
+    ]
+  },
+  {
+    "lemma": "Konkurrenz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "competition, competitors",
+        "example_de": "Die Konkurrenz auf dem Markt ist groß.",
+        "example_en": "The competition on the market is strong."
+      }
+    ]
+  },
+  {
+    "lemma": "kurzfristig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2500,
+    "senses": [
+      {
+        "en": "short-term, at short notice",
+        "example_de": "Der Termin wurde kurzfristig abgesagt.",
+        "example_en": "The appointment was cancelled at short notice."
+      }
+    ]
+  },
+  {
+    "lemma": "langfristig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2550,
+    "senses": [
+      {
+        "en": "long-term",
+        "example_de": "Wir planen langfristig mit neuen Kunden.",
+        "example_en": "We are planning long-term with new customers."
+      }
+    ]
+  },
+  {
+    "lemma": "Umsatz",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3000,
+    "noun": {
+      "gender": "m",
+      "plural": "Umsätze"
+    },
+    "senses": [
+      {
+        "en": "turnover, revenue, sales",
+        "example_de": "Der Umsatz ist dieses Jahr stark gestiegen.",
+        "example_en": "Revenue has risen sharply this year."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Sommer sind die Umsätze meistens niedriger.",
+        "en": "In summer, sales are usually lower."
+      }
+    ]
+  },
+  {
+    "lemma": "Branche",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3040,
+    "noun": {
+      "gender": "f",
+      "plural": "Branchen"
+    },
+    "senses": [
+      {
+        "en": "industry, (business) sector",
+        "example_de": "In dieser Branche ändert sich alles sehr schnell.",
+        "example_en": "In this industry, everything changes very quickly.",
+        "note": "Aussprache: [ˈbʁãːʃə]"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Manche Branchen suchen dringend neue Leute.",
+        "en": "Some industries are urgently looking for new people."
+      }
+    ]
+  },
+  {
+    "lemma": "Zusage",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3050,
+    "noun": {
+      "gender": "f",
+      "plural": "Zusagen"
+    },
+    "senses": [
+      {
+        "en": "acceptance, (firm) commitment",
+        "example_de": "Gestern kam die Zusage für den neuen Job.",
+        "example_en": "The acceptance for the new job came yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "einhalten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3060,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein",
+      "du": "hältst",
+      "er": "hält",
+      "praeteritum": "hielt",
+      "partizip2": "eingehalten"
+    },
+    "senses": [
+      {
+        "en": "to meet (a deadline), to keep to (a rule/agreement)",
+        "example_de": "Wir halten alle Termine zuverlässig ein.",
+        "example_en": "We reliably meet all deadlines."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er hält die Regeln der Firma immer ein.",
+        "en": "He always follows the company's rules."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Firma hielt den Vertrag nicht ein.",
+        "en": "The company did not honor the contract."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat den Termin trotz Stress eingehalten.",
+        "en": "She met the deadline despite the stress."
+      }
+    ]
+  },
+  {
+    "lemma": "Geschäftsreise",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3080,
+    "noun": {
+      "gender": "f",
+      "plural": "Geschäftsreisen"
+    },
+    "senses": [
+      {
+        "en": "business trip",
+        "example_de": "Er ist nächste Woche auf Geschäftsreise in Wien.",
+        "example_en": "He is on a business trip in Vienna next week."
+      }
+    ]
+  },
+  {
+    "lemma": "Tagesordnung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3110,
+    "noun": {
+      "gender": "f",
+      "plural": "Tagesordnungen"
+    },
+    "senses": [
+      {
+        "en": "agenda (of a meeting)",
+        "example_de": "Das Thema steht heute nicht auf der Tagesordnung.",
+        "example_en": "The topic is not on today's agenda."
+      }
+    ]
+  },
+  {
+    "lemma": "Vereinbarung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3130,
+    "noun": {
+      "gender": "f",
+      "plural": "Vereinbarungen"
+    },
+    "senses": [
+      {
+        "en": "agreement, arrangement",
+        "example_de": "Beide Seiten halten sich an die Vereinbarung.",
+        "example_en": "Both sides are keeping to the agreement."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Solche Vereinbarungen müssen schriftlich sein.",
+        "en": "Such agreements have to be in writing."
+      }
+    ]
+  },
+  {
+    "lemma": "weiterleiten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3140,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "weiter"
+    },
+    "senses": [
+      {
+        "en": "to forward, to pass on",
+        "example_de": "Ich leite die E-Mail gleich an dich weiter.",
+        "example_en": "I'll forward the email to you right away.",
+        "note": "+ an + Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie leitet die Nachricht sofort an den Chef weiter.",
+        "en": "She forwards the message to the boss immediately."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Rechnung an die Buchhaltung weitergeleitet.",
+        "en": "He forwarded the invoice to the accounting department."
+      }
+    ]
+  },
+  {
+    "lemma": "Projektleiter",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3150,
+    "noun": {
+      "gender": "m",
+      "plural": "Projektleiter"
+    },
+    "senses": [
+      {
+        "en": "project manager",
+        "example_de": "Der Projektleiter plant die nächsten Schritte.",
+        "example_en": "The project manager is planning the next steps.",
+        "note": "weiblich: die Projektleiterin"
+      }
+    ]
+  },
+  {
+    "lemma": "Abteilungsleiter",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3170,
+    "noun": {
+      "gender": "m",
+      "plural": "Abteilungsleiter"
+    },
+    "senses": [
+      {
+        "en": "head of department",
+        "example_de": "Der Abteilungsleiter lobte das ganze Team.",
+        "example_en": "The head of department praised the whole team.",
+        "note": "weiblich: die Abteilungsleiterin"
+      }
+    ]
+  },
+  {
+    "lemma": "Elternzeit",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3200,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "parental leave",
+        "example_de": "Nach der Geburt nahm er ein Jahr Elternzeit.",
+        "example_en": "After the birth, he took a year of parental leave."
+      }
+    ]
+  },
+  {
+    "lemma": "aufsteigen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3220,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "auf",
+      "praeteritum": "stieg",
+      "partizip2": "aufgestiegen"
+    },
+    "senses": [
+      {
+        "en": "to be promoted, to move up (in one's career)",
+        "example_de": "Sie steigt in der Firma schnell auf.",
+        "example_en": "She is moving up quickly in the company."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er steigt nächstes Jahr zum Leiter auf.",
+        "en": "He is being promoted to manager next year."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie stieg innerhalb von drei Jahren auf.",
+        "en": "She moved up within three years."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er ist zum Chef der Abteilung aufgestiegen.",
+        "en": "He has risen to head of the department."
+      }
+    ]
+  },
+  {
+    "lemma": "effizient",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3240,
+    "senses": [
+      {
+        "en": "efficient",
+        "example_de": "Das neue System ist viel effizienter als das alte.",
+        "example_en": "The new system is much more efficient than the old one."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Zu zweit arbeiten wir effizienter.",
+        "en": "Working in pairs, we are more efficient."
+      }
+    ]
+  },
+  {
+    "lemma": "Buchhaltung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3250,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "accounting (department), bookkeeping",
+        "example_de": "Die Buchhaltung prüft alle Rechnungen.",
+        "example_en": "The accounting department checks all invoices."
+      }
+    ]
+  },
+  {
+    "lemma": "Aufstieg",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3280,
+    "noun": {
+      "gender": "m",
+      "plural": "Aufstiege"
+    },
+    "senses": [
+      {
+        "en": "rise, career advancement",
+        "example_de": "Sein Aufstieg zum Chef dauerte nur fünf Jahre.",
+        "example_en": "His rise to boss took only five years."
+      }
+    ]
+  },
+  {
+    "lemma": "kürzen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3290,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to cut, to reduce (budget/salary)",
+        "example_de": "Die Firma kürzt das Budget für Reisen.",
+        "example_en": "The company is cutting the travel budget."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Chef kürzt die Ausgaben jedes Jahr.",
+        "en": "The boss cuts expenses every year."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat unser Budget stark gekürzt.",
+        "en": "Our budget has been cut sharply."
+      }
+    ]
+  },
+  {
+    "lemma": "Gehaltsverhandlung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": {
+      "gender": "f",
+      "plural": "Gehaltsverhandlungen"
+    },
+    "senses": [
+      {
+        "en": "salary negotiation",
+        "example_de": "Vor der Gehaltsverhandlung war sie sehr nervös.",
+        "example_en": "She was very nervous before the salary negotiation."
+      }
+    ]
+  },
+  {
+    "lemma": "Bilanz",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3320,
+    "noun": {
+      "gender": "f",
+      "plural": "Bilanzen"
+    },
+    "senses": [
+      {
+        "en": "balance sheet, (overall) result",
+        "example_de": "Die Bilanz des Jahres fällt positiv aus.",
+        "example_en": "The year's results are positive.",
+        "note": "auch: Bilanz ziehen = to take stock"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Der Chef vergleicht die Bilanzen der letzten Jahre.",
+        "en": "The boss compares the balance sheets of recent years."
+      }
+    ]
+  },
+  {
+    "lemma": "Entlassung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3350,
+    "noun": {
+      "gender": "f",
+      "plural": "Entlassungen"
+    },
+    "senses": [
+      {
+        "en": "dismissal, layoff",
+        "example_de": "Die Entlassung kam für ihn völlig überraschend.",
+        "example_en": "The dismissal came as a complete surprise to him."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Nach der Krise gab es viele Entlassungen.",
+        "en": "After the crisis, there were many layoffs."
+      }
+    ]
+  },
+  {
+    "lemma": "Quartal",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3380,
+    "noun": {
+      "gender": "n",
+      "plural": "Quartale"
+    },
+    "senses": [
+      {
+        "en": "quarter (three months)",
+        "example_de": "Im ersten Quartal lief das Geschäft sehr gut.",
+        "example_en": "In the first quarter, business went very well."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Zahlen der letzten Quartale waren schwach.",
+        "en": "The figures for the last quarters were weak."
+      }
+    ]
+  },
+  {
+    "lemma": "Schichtarbeit",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3400,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "shift work",
+        "example_de": "Schichtarbeit ist auf Dauer sehr anstrengend.",
+        "example_en": "Shift work is very exhausting in the long run."
+      }
+    ]
+  },
+  {
+    "lemma": "verfassen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3420,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verfasst"
+    },
+    "senses": [
+      {
+        "en": "to write, to compose (a formal text)",
+        "example_de": "Sie verfasst den Bericht für die Leitung.",
+        "example_en": "She is writing the report for the management."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er verfasst gerade eine wichtige E-Mail.",
+        "en": "He is composing an important email right now."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat das Protokoll allein verfasst.",
+        "en": "She wrote the minutes by herself."
+      }
+    ]
+  },
+  {
+    "lemma": "Abgabetermin",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3450,
+    "noun": {
+      "gender": "m",
+      "plural": "Abgabetermine"
+    },
+    "senses": [
+      {
+        "en": "deadline, due date",
+        "example_de": "Der Abgabetermin für den Bericht ist am Freitag.",
+        "example_en": "The deadline for the report is on Friday."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir müssen alle Abgabetermine genau planen.",
+        "en": "We have to plan all due dates carefully."
+      }
+    ]
+  },
+  {
+    "lemma": "Konferenzraum",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3500,
+    "noun": {
+      "gender": "m",
+      "plural": "Konferenzräume"
+    },
+    "senses": [
+      {
+        "en": "conference room",
+        "example_de": "Das Meeting findet im großen Konferenzraum statt.",
+        "example_en": "The meeting takes place in the large conference room."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Beide Konferenzräume sind heute leider besetzt.",
+        "en": "Unfortunately, both conference rooms are occupied today."
+      }
+    ]
+  },
+  {
+    "lemma": "protokollieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3520,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to take minutes, to record (in writing)",
+        "example_de": "Sie protokolliert jede Sitzung sehr genau.",
+        "example_en": "She takes very precise minutes of every meeting."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er protokolliert heute die Besprechung.",
+        "en": "He is taking the minutes of the meeting today."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat alle Ergebnisse protokolliert.",
+        "en": "She has recorded all the results."
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitsklima",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3550,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "working atmosphere",
+        "example_de": "Das Arbeitsklima in unserem Team ist sehr gut.",
+        "example_en": "The working atmosphere in our team is very good."
+      }
+    ]
+  },
+  {
+    "lemma": "absprechen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3580,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab",
+      "du": "sprichst",
+      "er": "spricht",
+      "praeteritum": "sprach",
+      "partizip2": "abgesprochen"
+    },
+    "senses": [
+      {
+        "en": "to agree on, to coordinate (with someone)",
+        "example_de": "Wir sprechen die nächsten Schritte gemeinsam ab.",
+        "example_en": "We coordinate the next steps together.",
+        "note": "auch reflexiv: sich absprechen mit + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie spricht den Termin mit dem Team ab.",
+        "en": "She is agreeing on the date with the team."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das haben wir so nicht abgesprochen!",
+        "en": "That's not what we agreed on!"
+      }
+    ]
+  },
+  {
+    "lemma": "Referenz",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3600,
+    "noun": {
+      "gender": "f",
+      "plural": "Referenzen"
+    },
+    "senses": [
+      {
+        "en": "reference (for a job application)",
+        "example_de": "Ihre alte Chefin gab ihr eine gute Referenz.",
+        "example_en": "Her former boss gave her a good reference."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Bitte nennen Sie zwei Referenzen in Ihrer Bewerbung.",
+        "en": "Please name two references in your application."
+      }
+    ]
+  },
+  {
+    "lemma": "verbindlich",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3620,
+    "senses": [
+      {
+        "en": "binding, firm (offer/answer)",
+        "example_de": "Wir brauchen bis Freitag eine verbindliche Antwort.",
+        "example_en": "We need a firm answer by Friday."
+      }
+    ]
+  },
+  {
+    "lemma": "Urlaubsantrag",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3650,
+    "noun": {
+      "gender": "m",
+      "plural": "Urlaubsanträge"
+    },
+    "senses": [
+      {
+        "en": "vacation request, leave application",
+        "example_de": "Sie stellt einen Urlaubsantrag für zwei Wochen im Juli.",
+        "example_en": "She is submitting a vacation request for two weeks in July."
+      }
+    ]
+  },
+  {
+    "lemma": "abwickeln",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3680,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to handle, to process (an order/transaction)",
+        "example_de": "Die Firma wickelt alle Bestellungen online ab.",
+        "example_en": "The company processes all orders online."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie wickelt den Auftrag schnell ab.",
+        "en": "She is handling the order quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Geschäft ohne Probleme abgewickelt.",
+        "en": "We completed the deal without any problems."
+      }
+    ]
+  },
+  {
+    "lemma": "Spesen",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3700,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "expenses (business travel costs)",
+        "example_de": "Die Firma zahlt die Spesen für die Reise.",
+        "example_en": "The company pays the expenses for the trip.",
+        "note": "nur Plural"
+      }
+    ]
+  },
+  {
+    "lemma": "Tarifvertrag",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3720,
+    "noun": {
+      "gender": "m",
+      "plural": "Tarifverträge"
+    },
+    "senses": [
+      {
+        "en": "collective wage agreement",
+        "example_de": "Der neue Tarifvertrag bringt mehr Geld und Urlaub.",
+        "example_en": "The new collective agreement brings more money and vacation."
+      }
+    ]
+  },
+  {
+    "lemma": "Vergütung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3750,
+    "noun": {
+      "gender": "f",
+      "plural": "Vergütungen"
+    },
+    "senses": [
+      {
+        "en": "remuneration, compensation, pay",
+        "example_de": "Die Vergütung für das Praktikum ist ziemlich niedrig.",
+        "example_en": "The pay for the internship is quite low."
+      }
+    ]
+  },
+  {
+    "lemma": "priorisieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3780,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to prioritize",
+        "example_de": "Wir priorisieren die wichtigsten Aufgaben zuerst.",
+        "example_en": "We prioritize the most important tasks first."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie priorisiert ihre Aufgaben jeden Morgen neu.",
+        "en": "She reprioritizes her tasks every morning."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Projekt hoch priorisiert.",
+        "en": "We have given the project high priority."
+      }
+    ]
+  },
+  {
+    "lemma": "Belegschaft",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3800,
+    "noun": {
+      "gender": "f",
+      "plural": "Belegschaften"
+    },
+    "senses": [
+      {
+        "en": "workforce, staff (of a company)",
+        "example_de": "Die ganze Belegschaft war bei der Feier dabei.",
+        "example_en": "The whole staff was at the party."
+      }
+    ]
+  },
+  {
+    "lemma": "Gleitzeit",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3850,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "flexitime, flexible working hours",
+        "example_de": "Mit Gleitzeit kann ich morgens später anfangen.",
+        "example_en": "With flexitime, I can start later in the morning."
+      }
+    ]
+  },
+  {
+    "lemma": "erwirtschaften",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3880,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erwirtschaftet"
+    },
+    "senses": [
+      {
+        "en": "to generate (profit/revenue)",
+        "example_de": "Die Firma erwirtschaftet jedes Jahr gute Gewinne.",
+        "example_en": "The company generates good profits every year."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der kleine Laden erwirtschaftet jeden Monat mehr.",
+        "en": "The small shop generates more every month."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben dieses Jahr einen Gewinn erwirtschaftet.",
+        "en": "We have generated a profit this year."
+      }
+    ]
+  },
+  {
+    "lemma": "netzwerken",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3900,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to network (professionally)",
+        "example_de": "Auf Messen kann man sehr gut netzwerken.",
+        "example_en": "Trade fairs are a great place to network.",
+        "note": "umgangssprachlich, aus dem Englischen"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie netzwerkt gern auf Konferenzen.",
+        "en": "She likes to network at conferences."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat auf der Messe fleißig genetzwerkt.",
+        "en": "He networked busily at the trade fair."
+      }
+    ]
+  }
+]

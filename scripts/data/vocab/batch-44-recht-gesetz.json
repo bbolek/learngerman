@@ -1,0 +1,1187 @@
+[
+  {
+    "lemma": "Klage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": {
+      "gender": "f",
+      "plural": "Klagen"
+    },
+    "senses": [
+      {
+        "en": "lawsuit, legal complaint",
+        "note": "eine Klage einreichen",
+        "example_de": "Der Mieter hat eine Klage gegen den Vermieter eingereicht.",
+        "example_en": "The tenant filed a lawsuit against the landlord."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Gerichte bekommen jedes Jahr viele Klagen.",
+        "en": "The courts receive many lawsuits every year."
+      }
+    ]
+  },
+  {
+    "lemma": "klagen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1920,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to sue, to take legal action",
+        "note": "klagen gegen + Akkusativ",
+        "example_de": "Die Familie klagt gegen die Stadt.",
+        "example_en": "The family is suing the city."
+      },
+      {
+        "en": "to complain",
+        "note": "klagen über + Akkusativ",
+        "example_de": "Er klagt oft über Schmerzen.",
+        "example_en": "He often complains about pain."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Kunde klagt vor Gericht gegen die Firma.",
+        "en": "The customer is suing the company in court."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Viele Mieter klagten gegen die hohe Miete.",
+        "en": "Many tenants sued over the high rent."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat gegen den Bescheid geklagt.",
+        "en": "She took legal action against the official decision."
+      }
+    ]
+  },
+  {
+    "lemma": "verklagen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1940,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verklagt"
+    },
+    "senses": [
+      {
+        "en": "to sue (someone)",
+        "example_de": "Er will die Firma verklagen.",
+        "example_en": "He wants to sue the company."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie verklagt ihren Nachbarn wegen des Lärms.",
+        "en": "She is suing her neighbor over the noise."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Frau verklagte die Versicherung.",
+        "en": "The woman sued the insurance company."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Kunde hat den Laden verklagt.",
+        "en": "The customer sued the shop."
+      }
+    ]
+  },
+  {
+    "lemma": "Kläger",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3000,
+    "noun": {
+      "gender": "m",
+      "plural": "Kläger"
+    },
+    "senses": [
+      {
+        "en": "plaintiff, claimant",
+        "example_de": "Der Kläger fordert sein Geld zurück.",
+        "example_en": "The plaintiff is demanding his money back."
+      }
+    ]
+  },
+  {
+    "lemma": "Prozess",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1965,
+    "noun": {
+      "gender": "m",
+      "plural": "Prozesse"
+    },
+    "senses": [
+      {
+        "en": "trial, lawsuit",
+        "example_de": "Der Prozess beginnt nächste Woche.",
+        "example_en": "The trial starts next week."
+      },
+      {
+        "en": "process",
+        "example_de": "Lernen ist ein langer Prozess.",
+        "example_en": "Learning is a long process."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Solche Prozesse dauern oft mehrere Jahre.",
+        "en": "Trials like these often take several years."
+      }
+    ]
+  },
+  {
+    "lemma": "Verfahren",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1985,
+    "noun": {
+      "gender": "n",
+      "plural": "Verfahren"
+    },
+    "senses": [
+      {
+        "en": "(legal) proceedings, procedure",
+        "example_de": "Das Verfahren vor Gericht dauert schon zwei Monate.",
+        "example_en": "The court proceedings have already been going on for two months."
+      },
+      {
+        "en": "method, process",
+        "example_de": "Die Firma nutzt ein neues Verfahren.",
+        "example_en": "The company uses a new method."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Gegen die Firma laufen mehrere Verfahren.",
+        "en": "Several proceedings are underway against the company."
+      }
+    ]
+  },
+  {
+    "lemma": "Rechtsanwalt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2005,
+    "noun": {
+      "gender": "m",
+      "plural": "Rechtsanwälte"
+    },
+    "senses": [
+      {
+        "en": "lawyer, attorney",
+        "example_de": "Mein Rechtsanwalt hilft mir bei dem Vertrag.",
+        "example_en": "My lawyer is helping me with the contract."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Beide Rechtsanwälte sprechen mit dem Richter.",
+        "en": "Both lawyers are talking to the judge."
+      }
+    ]
+  },
+  {
+    "lemma": "Verteidiger",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2030,
+    "noun": {
+      "gender": "m",
+      "plural": "Verteidiger"
+    },
+    "senses": [
+      {
+        "en": "defense lawyer, defender",
+        "example_de": "Der Verteidiger stellt dem Zeugen eine Frage.",
+        "example_en": "The defense lawyer asks the witness a question."
+      }
+    ]
+  },
+  {
+    "lemma": "Staatsanwalt",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3045,
+    "noun": {
+      "gender": "m",
+      "plural": "Staatsanwälte"
+    },
+    "senses": [
+      {
+        "en": "public prosecutor",
+        "example_de": "Der Staatsanwalt fordert zwei Jahre Gefängnis.",
+        "example_en": "The prosecutor is demanding two years in prison."
+      }
+    ]
+  },
+  {
+    "lemma": "Gerichtstermin",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": {
+      "gender": "m",
+      "plural": "Gerichtstermine"
+    },
+    "senses": [
+      {
+        "en": "court date, court hearing",
+        "example_de": "Der Gerichtstermin ist am Montag um neun Uhr.",
+        "example_en": "The court date is on Monday at nine o'clock."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Diesen Monat gibt es zwei Gerichtstermine.",
+        "en": "There are two court dates this month."
+      }
+    ]
+  },
+  {
+    "lemma": "Anklage",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3090,
+    "noun": {
+      "gender": "f",
+      "plural": "Anklagen"
+    },
+    "senses": [
+      {
+        "en": "charge, indictment",
+        "note": "Anklage erheben (gegen + Akkusativ)",
+        "example_de": "Die Anklage lautet auf Betrug.",
+        "example_en": "The charge is fraud."
+      }
+    ]
+  },
+  {
+    "lemma": "aussagen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3135,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to testify, to give evidence",
+        "note": "vor Gericht / bei der Polizei aussagen",
+        "example_de": "Der Zeuge sagt vor Gericht aus.",
+        "example_en": "The witness testifies in court."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie sagt heute gegen den Täter aus.",
+        "en": "She is testifying against the perpetrator today."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Nachbarin sagte als Zeugin aus.",
+        "en": "The neighbor testified as a witness."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat bei der Polizei ausgesagt.",
+        "en": "He gave a statement to the police."
+      }
+    ]
+  },
+  {
+    "lemma": "Zeugenaussage",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3180,
+    "noun": {
+      "gender": "f",
+      "plural": "Zeugenaussagen"
+    },
+    "senses": [
+      {
+        "en": "witness statement, testimony",
+        "example_de": "Die Zeugenaussage war sehr wichtig für das Urteil.",
+        "example_en": "The witness statement was very important for the verdict."
+      }
+    ]
+  },
+  {
+    "lemma": "schwören",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3225,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "schwor",
+      "partizip2": "geschworen"
+    },
+    "senses": [
+      {
+        "en": "to swear (an oath)",
+        "example_de": "Der Zeuge schwört, die Wahrheit zu sagen.",
+        "example_en": "The witness swears to tell the truth."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie schwört vor dem Richter.",
+        "en": "She swears before the judge."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er schwor vor Gericht die Wahrheit.",
+        "en": "He swore the truth in court."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Zeuge hat einen Eid geschworen.",
+        "en": "The witness swore an oath."
+      }
+    ]
+  },
+  {
+    "lemma": "Eid",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3270,
+    "noun": {
+      "gender": "m",
+      "plural": "Eide"
+    },
+    "senses": [
+      {
+        "en": "oath",
+        "note": "einen Eid leisten / schwören",
+        "example_de": "Der Zeuge leistet vor Gericht einen Eid.",
+        "example_en": "The witness takes an oath in court."
+      }
+    ]
+  },
+  {
+    "lemma": "urteilen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2070,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to judge, to pass judgment",
+        "note": "urteilen über + Akkusativ",
+        "example_de": "Das Gericht urteilt am Ende des Prozesses.",
+        "example_en": "The court passes judgment at the end of the trial."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Richter urteilt nach dem Gesetz.",
+        "en": "The judge rules according to the law."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Gericht hat mild geurteilt.",
+        "en": "The court passed a mild judgment."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Urteile nicht zu schnell über andere Menschen!",
+        "en": "Don't judge other people too quickly!"
+      }
+    ]
+  },
+  {
+    "lemma": "schuldig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2090,
+    "senses": [
+      {
+        "en": "guilty",
+        "note": "jemanden schuldig sprechen",
+        "example_de": "Das Gericht erklärt den Mann für schuldig.",
+        "example_en": "The court declares the man guilty."
+      }
+    ]
+  },
+  {
+    "lemma": "unschuldig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2110,
+    "senses": [
+      {
+        "en": "innocent, not guilty",
+        "example_de": "Sie ist unschuldig und kommt frei.",
+        "example_en": "She is innocent and is being released."
+      }
+    ]
+  },
+  {
+    "lemma": "Schuld",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2135,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "guilt, fault, blame",
+        "note": "Schuld haben an + Dativ",
+        "example_de": "Der Fahrer hat Schuld an dem Unfall.",
+        "example_en": "The driver is to blame for the accident."
+      }
+    ]
+  },
+  {
+    "lemma": "Strafe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2155,
+    "noun": {
+      "gender": "f",
+      "plural": "Strafen"
+    },
+    "senses": [
+      {
+        "en": "punishment, penalty",
+        "example_de": "Die Strafe für Diebstahl ist hoch.",
+        "example_en": "The punishment for theft is severe."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Für zu schnelles Fahren gibt es hohe Strafen.",
+        "en": "There are heavy penalties for driving too fast."
+      }
+    ]
+  },
+  {
+    "lemma": "bestrafen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2175,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "bestraft"
+    },
+    "senses": [
+      {
+        "en": "to punish",
+        "example_de": "Der Richter bestraft den Täter hart.",
+        "example_en": "The judge punishes the offender severely."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Gesetz bestraft Diebstahl mit Geldstrafe oder Gefängnis.",
+        "en": "The law punishes theft with a fine or prison."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Früher bestrafte man das sehr hart.",
+        "en": "In the past this was punished very severely."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Gericht hat ihn mit 500 Euro bestraft.",
+        "en": "The court punished him with a 500 euro fine."
+      }
+    ]
+  },
+  {
+    "lemma": "Geldstrafe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2195,
+    "noun": {
+      "gender": "f",
+      "plural": "Geldstrafen"
+    },
+    "senses": [
+      {
+        "en": "fine, monetary penalty",
+        "example_de": "Er muss eine hohe Geldstrafe zahlen.",
+        "example_en": "He has to pay a large fine."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Bei kleinen Delikten gibt es meist nur Geldstrafen.",
+        "en": "Minor offenses usually only result in fines."
+      }
+    ]
+  },
+  {
+    "lemma": "Bußgeld",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2215,
+    "noun": {
+      "gender": "n",
+      "plural": "Bußgelder"
+    },
+    "senses": [
+      {
+        "en": "fine (for a minor offense)",
+        "example_de": "Für falsches Parken zahlt man ein Bußgeld.",
+        "example_en": "You pay a fine for parking incorrectly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Stadt hat die Bußgelder erhöht.",
+        "en": "The city has increased the fines."
+      }
+    ]
+  },
+  {
+    "lemma": "freisprechen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3315,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "frei",
+      "du": "sprichst",
+      "er": "spricht",
+      "praeteritum": "sprach",
+      "partizip2": "freigesprochen"
+    },
+    "senses": [
+      {
+        "en": "to acquit",
+        "example_de": "Das Gericht spricht die Frau frei.",
+        "example_en": "The court acquits the woman."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Richter spricht den Mann frei.",
+        "en": "The judge acquits the man."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Das Gericht sprach ihn nach zwei Jahren frei.",
+        "en": "The court acquitted him after two years."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat sie gestern freigesprochen.",
+        "en": "She was acquitted yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "Freispruch",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3360,
+    "noun": {
+      "gender": "m",
+      "plural": "Freisprüche"
+    },
+    "senses": [
+      {
+        "en": "acquittal",
+        "example_de": "Der Prozess endet mit einem Freispruch.",
+        "example_en": "The trial ends in an acquittal."
+      }
+    ]
+  },
+  {
+    "lemma": "Berufung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3405,
+    "noun": {
+      "gender": "f",
+      "plural": "Berufungen"
+    },
+    "senses": [
+      {
+        "en": "appeal (against a court decision)",
+        "note": "Berufung einlegen gegen + Akkusativ",
+        "example_de": "Der Anwalt legt Berufung gegen das Urteil ein.",
+        "example_en": "The lawyer files an appeal against the verdict."
+      }
+    ]
+  },
+  {
+    "lemma": "Einspruch",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3450,
+    "noun": {
+      "gender": "m",
+      "plural": "Einsprüche"
+    },
+    "senses": [
+      {
+        "en": "objection, formal appeal",
+        "note": "Einspruch einlegen (gegen + Akkusativ)",
+        "example_de": "Sie legt Einspruch gegen den Bescheid ein.",
+        "example_en": "She files an objection against the official decision."
+      }
+    ]
+  },
+  {
+    "lemma": "Betrug",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2240,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "fraud, deception",
+        "example_de": "Er sitzt wegen Betrugs im Gefängnis.",
+        "example_en": "He is in prison for fraud."
+      }
+    ]
+  },
+  {
+    "lemma": "betrügen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2260,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "betrog",
+      "partizip2": "betrogen"
+    },
+    "senses": [
+      {
+        "en": "to cheat, to defraud",
+        "example_de": "Er betrügt seine Kunden beim Preis.",
+        "example_en": "He cheats his customers on the price."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Händler betrügt niemanden.",
+        "en": "The dealer does not cheat anyone."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Firma betrog ihre Kunden jahrelang.",
+        "en": "The company defrauded its customers for years."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat mich beim Verkauf betrogen.",
+        "en": "He cheated me on the sale."
+      }
+    ]
+  },
+  {
+    "lemma": "fälschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to forge, to fake",
+        "example_de": "Der Mann fälscht Dokumente.",
+        "example_en": "The man forges documents."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fälscht die Unterschrift seines Chefs.",
+        "en": "He forges his boss's signature."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Bande fälschte Geld.",
+        "en": "The gang counterfeited money."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Jemand hat den Ausweis gefälscht.",
+        "en": "Someone forged the ID card."
+      }
+    ]
+  },
+  {
+    "lemma": "Fälschung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3495,
+    "noun": {
+      "gender": "f",
+      "plural": "Fälschungen"
+    },
+    "senses": [
+      {
+        "en": "forgery, fake",
+        "example_de": "Das Bild ist eine Fälschung.",
+        "example_en": "The painting is a forgery."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Der Zoll findet oft Fälschungen.",
+        "en": "Customs often finds fakes."
+      }
+    ]
+  },
+  {
+    "lemma": "Verbot",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": {
+      "gender": "n",
+      "plural": "Verbote"
+    },
+    "senses": [
+      {
+        "en": "ban, prohibition",
+        "example_de": "Es gibt ein Verbot für laute Musik nach 22 Uhr.",
+        "example_en": "There is a ban on loud music after 10 p.m."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Park gibt es viele Verbote.",
+        "en": "There are many prohibitions in the park."
+      }
+    ]
+  },
+  {
+    "lemma": "Erlaubnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2320,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "permission, permit",
+        "example_de": "Ohne Erlaubnis darfst du hier nicht parken.",
+        "example_en": "You are not allowed to park here without permission."
+      }
+    ]
+  },
+  {
+    "lemma": "Paragraf",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2345,
+    "noun": {
+      "gender": "m",
+      "plural": "Paragrafen",
+      "genitive": "Paragrafen"
+    },
+    "senses": [
+      {
+        "en": "section, paragraph (of a law)",
+        "note": "schwache Deklination: des Paragrafen",
+        "example_de": "Dieser Paragraf regelt die Kündigung.",
+        "example_en": "This section regulates termination."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Das Gesetz hat über hundert Paragrafen.",
+        "en": "The law has over a hundred sections."
+      }
+    ]
+  },
+  {
+    "lemma": "rechtlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2365,
+    "senses": [
+      {
+        "en": "legal (relating to the law)",
+        "example_de": "Wir prüfen zuerst die rechtliche Lage.",
+        "example_en": "First we examine the legal situation."
+      }
+    ]
+  },
+  {
+    "lemma": "strafbar",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3540,
+    "senses": [
+      {
+        "en": "punishable, criminal (act)",
+        "note": "sich strafbar machen",
+        "example_de": "Diebstahl ist strafbar.",
+        "example_en": "Theft is a punishable offense."
+      }
+    ]
+  },
+  {
+    "lemma": "Justiz",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3585,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "judiciary, justice system",
+        "example_de": "Die Justiz arbeitet unabhängig von der Politik.",
+        "example_en": "The judiciary works independently of politics."
+      }
+    ]
+  },
+  {
+    "lemma": "Grundgesetz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2385,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "Basic Law (Germany's constitution)",
+        "example_de": "Das Grundgesetz gilt seit 1949.",
+        "example_en": "The Basic Law has been in force since 1949."
+      }
+    ]
+  },
+  {
+    "lemma": "Menschenrechte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2405,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "human rights",
+        "example_de": "Die Menschenrechte gelten für alle Menschen.",
+        "example_en": "Human rights apply to all people."
+      }
+    ]
+  },
+  {
+    "lemma": "Eigentum",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2425,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "property, ownership",
+        "example_de": "Das Haus ist mein Eigentum.",
+        "example_en": "The house is my property."
+      }
+    ]
+  },
+  {
+    "lemma": "Mahnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": {
+      "gender": "f",
+      "plural": "Mahnungen"
+    },
+    "senses": [
+      {
+        "en": "payment reminder, warning letter",
+        "example_de": "Ich habe eine Mahnung von der Bank bekommen.",
+        "example_en": "I received a payment reminder from the bank."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Nach drei Mahnungen geht der Fall vor Gericht.",
+        "en": "After three reminders the case goes to court."
+      }
+    ]
+  },
+  {
+    "lemma": "verpflichten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3630,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verpflichtet"
+    },
+    "senses": [
+      {
+        "en": "to oblige, to bind (legally)",
+        "note": "verpflichtet sein zu + Dativ; reflexiv: sich verpflichten",
+        "example_de": "Der Vertrag verpflichtet ihn zur Zahlung.",
+        "example_en": "The contract obliges him to pay."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Gesetz verpflichtet alle Fahrer zu einer Versicherung.",
+        "en": "The law obliges all drivers to have insurance."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich zu einem Jahr Arbeit verpflichtet.",
+        "en": "He committed himself to one year of work."
+      }
+    ]
+  },
+  {
+    "lemma": "Haftung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3675,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "liability",
+        "note": "Haftung für + Akkusativ",
+        "example_de": "Die Firma übernimmt keine Haftung für Schäden.",
+        "example_en": "The company accepts no liability for damage."
+      }
+    ]
+  },
+  {
+    "lemma": "haften",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3720,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to be liable",
+        "note": "haften für + Akkusativ",
+        "example_de": "Eltern haften für ihre Kinder.",
+        "example_en": "Parents are liable for their children."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Mieter haftet für Schäden in der Wohnung.",
+        "en": "The tenant is liable for damage in the apartment."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Firma hat für den Schaden gehaftet.",
+        "en": "The company was liable for the damage."
+      }
+    ]
+  },
+  {
+    "lemma": "Schadensersatz",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3765,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "damages, compensation",
+        "note": "Schadensersatz fordern / verlangen",
+        "example_de": "Sie fordert Schadensersatz von der Versicherung.",
+        "example_en": "She is demanding compensation from the insurance company."
+      }
+    ]
+  },
+  {
+    "lemma": "Notar",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3810,
+    "noun": {
+      "gender": "m",
+      "plural": "Notare"
+    },
+    "senses": [
+      {
+        "en": "notary",
+        "example_de": "Der Notar prüft den Kaufvertrag für das Haus.",
+        "example_en": "The notary reviews the purchase contract for the house."
+      }
+    ]
+  },
+  {
+    "lemma": "Testament",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2470,
+    "noun": {
+      "gender": "n",
+      "plural": "Testamente"
+    },
+    "senses": [
+      {
+        "en": "will, testament",
+        "example_de": "Die alte Dame schreibt ihr Testament.",
+        "example_en": "The old lady is writing her will."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Manche Menschen ändern ihre Testamente mehrmals.",
+        "en": "Some people change their wills several times."
+      }
+    ]
+  },
+  {
+    "lemma": "Erbe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2490,
+    "noun": {
+      "gender": "m",
+      "plural": "Erben",
+      "genitive": "Erben"
+    },
+    "senses": [
+      {
+        "en": "heir",
+        "note": "schwache Deklination: des Erben",
+        "example_de": "Der Erbe bekommt das Haus und das Geld.",
+        "example_en": "The heir gets the house and the money."
+      }
+    ]
+  },
+  {
+    "lemma": "erben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2510,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to inherit",
+        "example_de": "Sie erbt das Haus ihrer Großmutter.",
+        "example_en": "She inherits her grandmother's house."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Kinder erben alles.",
+        "en": "The children inherit everything."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie erbte den Schmuck ihrer Mutter.",
+        "en": "She inherited her mother's jewelry."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat viel Geld von seinem Onkel geerbt.",
+        "en": "He inherited a lot of money from his uncle."
+      }
+    ]
+  },
+  {
+    "lemma": "Erbschaft",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3855,
+    "noun": {
+      "gender": "f",
+      "plural": "Erbschaften"
+    },
+    "senses": [
+      {
+        "en": "inheritance",
+        "example_de": "Nach dem Tod des Onkels bekam sie eine Erbschaft.",
+        "example_en": "After her uncle's death she received an inheritance."
+      }
+    ]
+  },
+  {
+    "lemma": "ungültig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2535,
+    "senses": [
+      {
+        "en": "invalid, void",
+        "example_de": "Der Vertrag ist ohne Unterschrift ungültig.",
+        "example_en": "The contract is invalid without a signature."
+      }
+    ]
+  },
+  {
+    "lemma": "Schutz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2560,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "protection",
+        "example_de": "Das Gesetz bietet Schutz für Mieter.",
+        "example_en": "The law offers protection for tenants."
+      }
+    ]
+  }
+]

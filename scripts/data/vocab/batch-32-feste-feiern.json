@@ -1,0 +1,955 @@
+[
+  {
+    "lemma": "Weihnachten",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "Christmas",
+        "note": "zu/an Weihnachten",
+        "example_de": "Wir feiern Weihnachten mit der Familie.",
+        "example_en": "We celebrate Christmas with the family."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Zu Weihnachten fahren wir zu Oma.",
+        "en": "At Christmas we go to Grandma's."
+      },
+      {
+        "tag": "frage",
+        "de": "Was wünschst du dir zu Weihnachten?",
+        "en": "What do you want for Christmas?"
+      }
+    ]
+  },
+  {
+    "lemma": "Heiligabend",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1360,
+    "noun": { "gender": "m", "plural": "Heiligabende" },
+    "senses": [
+      {
+        "en": "Christmas Eve",
+        "note": "an Heiligabend",
+        "example_de": "An Heiligabend gibt es Geschenke.",
+        "example_en": "There are presents on Christmas Eve."
+      }
+    ]
+  },
+  {
+    "lemma": "Weihnachtsmarkt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1330,
+    "noun": { "gender": "m", "plural": "Weihnachtsmärkte" },
+    "senses": [
+      {
+        "en": "Christmas market",
+        "example_de": "Wir gehen auf den Weihnachtsmarkt.",
+        "example_en": "We are going to the Christmas market."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Viele Städte haben schöne Weihnachtsmärkte.",
+        "en": "Many cities have beautiful Christmas markets."
+      }
+    ]
+  },
+  {
+    "lemma": "Weihnachtsbaum",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1345,
+    "noun": { "gender": "m", "plural": "Weihnachtsbäume" },
+    "senses": [
+      {
+        "en": "Christmas tree",
+        "example_de": "Der Weihnachtsbaum steht im Wohnzimmer.",
+        "example_en": "The Christmas tree is in the living room."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Auf dem Markt gibt es viele Weihnachtsbäume.",
+        "en": "There are many Christmas trees at the market."
+      }
+    ]
+  },
+  {
+    "lemma": "Adventskalender",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1520,
+    "noun": { "gender": "m", "plural": "Adventskalender" },
+    "senses": [
+      {
+        "en": "Advent calendar",
+        "example_de": "Im Adventskalender ist Schokolade.",
+        "example_en": "There is chocolate in the Advent calendar."
+      }
+    ]
+  },
+  {
+    "lemma": "Advent",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1480,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "Advent (the weeks before Christmas)",
+        "note": "im Advent",
+        "example_de": "Im Advent backen wir Plätzchen.",
+        "example_en": "During Advent we bake cookies."
+      }
+    ]
+  },
+  {
+    "lemma": "Silvester",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1310,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "New Year's Eve",
+        "note": "an Silvester",
+        "example_de": "An Silvester gibt es ein Feuerwerk.",
+        "example_en": "On New Year's Eve there are fireworks."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "frage",
+        "de": "Was machst du an Silvester?",
+        "en": "What are you doing on New Year's Eve?"
+      }
+    ]
+  },
+  {
+    "lemma": "Neujahr",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "New Year, New Year's Day",
+        "note": "an Neujahr; Frohes neues Jahr!",
+        "example_de": "An Neujahr schlafen wir lange.",
+        "example_en": "On New Year's Day we sleep in."
+      }
+    ]
+  },
+  {
+    "lemma": "Feuerwerk",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1370,
+    "noun": { "gender": "n", "plural": "Feuerwerke" },
+    "senses": [
+      {
+        "en": "fireworks",
+        "example_de": "Das Feuerwerk beginnt um Mitternacht.",
+        "example_en": "The fireworks start at midnight."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Feuerwerke sind laut und bunt.",
+        "en": "Fireworks are loud and colorful."
+      }
+    ]
+  },
+  {
+    "lemma": "Karneval",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1420,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "carnival",
+        "note": "regional auch: Fasching, Fastnacht",
+        "example_de": "Beim Karneval verkleiden sich viele Menschen.",
+        "example_en": "At carnival, many people dress up."
+      }
+    ]
+  },
+  {
+    "lemma": "Fasching",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "carnival (in southern Germany and Austria)",
+        "example_de": "Im Fasching feiern die Kinder in der Schule.",
+        "example_en": "During carnival the children celebrate at school."
+      }
+    ]
+  },
+  {
+    "lemma": "verkleiden",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1540,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verkleidet"
+    },
+    "senses": [
+      {
+        "en": "to dress up (in a costume)",
+        "note": "reflexiv: sich verkleiden (als)",
+        "example_de": "Ich verkleide mich als Pirat.",
+        "example_en": "I am dressing up as a pirate."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Kind verkleidet sich als Katze.",
+        "en": "The child is dressing up as a cat."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich als Clown verkleidet.",
+        "en": "He dressed up as a clown."
+      },
+      {
+        "tag": "frage",
+        "de": "Als was verkleidest du dich?",
+        "en": "What are you dressing up as?"
+      }
+    ]
+  },
+  {
+    "lemma": "Osterei",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1580,
+    "noun": { "gender": "n", "plural": "Ostereier" },
+    "senses": [
+      {
+        "en": "Easter egg",
+        "example_de": "Das Osterei ist bunt.",
+        "example_en": "The Easter egg is colorful."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Kinder suchen Ostereier im Garten.",
+        "en": "The children are looking for Easter eggs in the garden."
+      }
+    ]
+  },
+  {
+    "lemma": "Osterhase",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "m", "plural": "Osterhasen", "genitive": "Osterhasen" },
+    "senses": [
+      {
+        "en": "Easter bunny",
+        "example_de": "Der Osterhase bringt die Eier.",
+        "example_en": "The Easter bunny brings the eggs."
+      }
+    ]
+  },
+  {
+    "lemma": "Geburtstagsfeier",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": { "gender": "f", "plural": "Geburtstagsfeiern" },
+    "senses": [
+      {
+        "en": "birthday party",
+        "example_de": "Die Geburtstagsfeier beginnt um drei Uhr.",
+        "example_en": "The birthday party starts at three o'clock."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Kinder lieben Geburtstagsfeiern.",
+        "en": "Children love birthday parties."
+      }
+    ]
+  },
+  {
+    "lemma": "Sekt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1440,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "sparkling wine",
+        "example_de": "Um Mitternacht trinken wir ein Glas Sekt.",
+        "example_en": "At midnight we drink a glass of sparkling wine."
+      }
+    ]
+  },
+  {
+    "lemma": "Luftballon",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "m", "plural": "Luftballons" },
+    "senses": [
+      {
+        "en": "balloon",
+        "example_de": "Der Luftballon ist rot.",
+        "example_en": "The balloon is red."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Zimmer hängen viele bunte Luftballons.",
+        "en": "There are many colorful balloons hanging in the room."
+      }
+    ]
+  },
+  {
+    "lemma": "Dekoration",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1460,
+    "noun": { "gender": "f", "plural": "Dekorationen" },
+    "senses": [
+      {
+        "en": "decoration",
+        "note": "umgangssprachlich kurz: die Deko",
+        "example_de": "Die Dekoration für die Party ist fertig.",
+        "example_en": "The decoration for the party is ready."
+      }
+    ]
+  },
+  {
+    "lemma": "dekorieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1610,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "dekoriert"
+    },
+    "senses": [
+      {
+        "en": "to decorate",
+        "example_de": "Wir dekorieren den Raum für das Fest.",
+        "example_en": "We are decorating the room for the party."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie dekoriert den Tisch mit Blumen.",
+        "en": "She is decorating the table with flowers."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Zimmer schön dekoriert.",
+        "en": "We decorated the room nicely."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Dekoriere bitte den Tisch!",
+        "en": "Please decorate the table!"
+      }
+    ]
+  },
+  {
+    "lemma": "schmücken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1570,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to decorate, to adorn",
+        "example_de": "Wir schmücken den Weihnachtsbaum.",
+        "example_en": "We are decorating the Christmas tree."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Familie schmückt das Haus.",
+        "en": "The family is decorating the house."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schmückte den Tisch für die Gäste.",
+        "en": "She decorated the table for the guests."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Baum geschmückt.",
+        "en": "We have decorated the tree."
+      }
+    ]
+  },
+  {
+    "lemma": "Muttertag",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1620,
+    "noun": { "gender": "m", "plural": "Muttertage" },
+    "senses": [
+      {
+        "en": "Mother's Day",
+        "note": "am/zum Muttertag",
+        "example_de": "Zum Muttertag schenke ich Blumen.",
+        "example_en": "For Mother's Day I give flowers."
+      }
+    ]
+  },
+  {
+    "lemma": "Vatertag",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1660,
+    "noun": { "gender": "m", "plural": "Vatertage" },
+    "senses": [
+      {
+        "en": "Father's Day",
+        "example_de": "Am Vatertag machen wir einen Ausflug.",
+        "example_en": "On Father's Day we go on a trip."
+      }
+    ]
+  },
+  {
+    "lemma": "Nikolaus",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1530,
+    "noun": { "gender": "m", "plural": "Nikoläuse" },
+    "senses": [
+      {
+        "en": "St. Nicholas; St. Nicholas Day",
+        "note": "am 6. Dezember",
+        "example_de": "Der Nikolaus bringt kleine Geschenke.",
+        "example_en": "St. Nicholas brings small presents."
+      }
+    ]
+  },
+  {
+    "lemma": "Plätzchen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1490,
+    "noun": { "gender": "n", "plural": "Plätzchen" },
+    "senses": [
+      {
+        "en": "(Christmas) cookie",
+        "example_de": "Oma backt Plätzchen.",
+        "example_en": "Grandma is baking cookies."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Plätzchen schmecken sehr gut.",
+        "en": "The cookies taste very good."
+      }
+    ]
+  },
+  {
+    "lemma": "Lebkuchen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1640,
+    "noun": { "gender": "m", "plural": "Lebkuchen" },
+    "senses": [
+      {
+        "en": "gingerbread",
+        "example_de": "Ich esse gern Lebkuchen.",
+        "example_en": "I like eating gingerbread."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Auf dem Markt gibt es viele Lebkuchen.",
+        "en": "There is a lot of gingerbread at the market."
+      }
+    ]
+  },
+  {
+    "lemma": "Glühwein",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1590,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "mulled wine",
+        "example_de": "Auf dem Weihnachtsmarkt trinken wir Glühwein.",
+        "example_en": "At the Christmas market we drink mulled wine."
+      }
+    ]
+  },
+  {
+    "lemma": "Stimmung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1410,
+    "noun": { "gender": "f", "plural": "Stimmungen" },
+    "senses": [
+      {
+        "en": "mood, atmosphere",
+        "example_de": "Die Stimmung auf der Party ist super.",
+        "example_en": "The mood at the party is great."
+      }
+    ]
+  },
+  {
+    "lemma": "Mitternacht",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1430,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "midnight",
+        "note": "um Mitternacht",
+        "example_de": "Um Mitternacht beginnt das neue Jahr.",
+        "example_en": "At midnight the new year begins."
+      }
+    ]
+  },
+  {
+    "lemma": "Torte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1390,
+    "noun": { "gender": "f", "plural": "Torten" },
+    "senses": [
+      {
+        "en": "layer cake, gateau",
+        "example_de": "Zum Geburtstag gibt es eine Torte.",
+        "example_en": "For the birthday there is a cake."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In dem Café gibt es viele Torten.",
+        "en": "There are many cakes in the café."
+      }
+    ]
+  },
+  {
+    "lemma": "verpacken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1630,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verpackt"
+    },
+    "senses": [
+      {
+        "en": "to wrap (up), to pack",
+        "example_de": "Ich verpacke das Geschenk.",
+        "example_en": "I am wrapping the present."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie verpackt die Geschenke schön.",
+        "en": "She wraps the presents nicely."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben alles verpackt.",
+        "en": "We have wrapped everything."
+      },
+      {
+        "tag": "frage",
+        "de": "Verpackst du das Buch für mich?",
+        "en": "Will you wrap the book for me?"
+      }
+    ]
+  },
+  {
+    "lemma": "festlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1680,
+    "senses": [
+      {
+        "en": "festive",
+        "example_de": "Alle tragen festliche Kleidung.",
+        "example_en": "Everyone is wearing festive clothing."
+      }
+    ]
+  },
+  {
+    "lemma": "Engel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1470,
+    "noun": { "gender": "m", "plural": "Engel" },
+    "senses": [
+      {
+        "en": "angel",
+        "example_de": "Auf dem Baum sitzt ein kleiner Engel.",
+        "example_en": "A little angel sits on the tree."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Kinder singen wie Engel.",
+        "en": "The children sing like angels."
+      }
+    ]
+  },
+  {
+    "lemma": "Rakete",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1650,
+    "noun": { "gender": "f", "plural": "Raketen" },
+    "senses": [
+      {
+        "en": "rocket, firework rocket",
+        "example_de": "Die Rakete fliegt in den Himmel.",
+        "example_en": "The rocket flies into the sky."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "An Silvester steigen viele Raketen.",
+        "en": "On New Year's Eve many rockets go up."
+      }
+    ]
+  },
+  {
+    "lemma": "Maske",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1550,
+    "noun": { "gender": "f", "plural": "Masken" },
+    "senses": [
+      {
+        "en": "mask",
+        "example_de": "Er trägt eine lustige Maske.",
+        "example_en": "He is wearing a funny mask."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Beim Karneval sieht man viele Masken.",
+        "en": "At carnival you see many masks."
+      }
+    ]
+  },
+  {
+    "lemma": "Blumenstrauß",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1670,
+    "noun": { "gender": "m", "plural": "Blumensträuße" },
+    "senses": [
+      {
+        "en": "bouquet of flowers",
+        "example_de": "Ich schenke ihr einen Blumenstrauß.",
+        "example_en": "I am giving her a bouquet of flowers."
+      }
+    ]
+  },
+  {
+    "lemma": "Glückwunschkarte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1690,
+    "noun": { "gender": "f", "plural": "Glückwunschkarten" },
+    "senses": [
+      {
+        "en": "greeting card",
+        "example_de": "Ich schreibe eine Glückwunschkarte zum Geburtstag.",
+        "example_en": "I am writing a birthday card."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Laden gibt es schöne Glückwunschkarten.",
+        "en": "There are nice greeting cards in the shop."
+      }
+    ]
+  },
+  {
+    "lemma": "Pfingsten",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "Pentecost, Whitsun",
+        "note": "an/zu Pfingsten",
+        "example_de": "An Pfingsten haben wir frei.",
+        "example_en": "At Pentecost we have time off."
+      }
+    ]
+  },
+  {
+    "lemma": "Braut",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": { "gender": "f", "plural": "Bräute" },
+    "senses": [
+      {
+        "en": "bride",
+        "example_de": "Die Braut trägt ein weißes Kleid.",
+        "example_en": "The bride is wearing a white dress."
+      }
+    ]
+  },
+  {
+    "lemma": "Bräutigam",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": { "gender": "m", "plural": "Bräutigame" },
+    "senses": [
+      {
+        "en": "groom, bridegroom",
+        "example_de": "Der Bräutigam wartet vor der Kirche.",
+        "example_en": "The groom is waiting in front of the church."
+      }
+    ]
+  },
+  {
+    "lemma": "Trauung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "f", "plural": "Trauungen" },
+    "senses": [
+      {
+        "en": "wedding ceremony",
+        "note": "kirchliche/standesamtliche Trauung",
+        "example_de": "Die Trauung findet in der Kirche statt.",
+        "example_en": "The wedding ceremony takes place in the church."
+      }
+    ]
+  },
+  {
+    "lemma": "Gastgeber",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": { "gender": "m", "plural": "Gastgeber" },
+    "senses": [
+      {
+        "en": "host",
+        "example_de": "Der Gastgeber begrüßt alle Gäste.",
+        "example_en": "The host greets all the guests."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Gastgeber haben sehr gut gekocht.",
+        "en": "The hosts cooked very well."
+      }
+    ]
+  },
+  {
+    "lemma": "Girlande",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": { "gender": "f", "plural": "Girlanden" },
+    "senses": [
+      {
+        "en": "garland, streamer",
+        "example_de": "Die Girlande hängt über der Tür.",
+        "example_en": "The garland hangs above the door."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir hängen bunte Girlanden auf.",
+        "en": "We are hanging up colorful garlands."
+      }
+    ]
+  },
+  {
+    "lemma": "Sitte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": { "gender": "f", "plural": "Sitten" },
+    "senses": [
+      {
+        "en": "custom, tradition",
+        "example_de": "Das ist eine alte Sitte.",
+        "example_en": "That is an old custom."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Andere Länder, andere Sitten.",
+        "en": "Other countries, other customs."
+      }
+    ]
+  },
+  {
+    "lemma": "Jubiläum",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "n", "plural": "Jubiläen" },
+    "senses": [
+      {
+        "en": "anniversary, jubilee",
+        "example_de": "Die Firma feiert ihr Jubiläum.",
+        "example_en": "The company is celebrating its anniversary."
+      }
+    ]
+  },
+  {
+    "lemma": "Wunderkerze",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2550,
+    "noun": { "gender": "f", "plural": "Wunderkerzen" },
+    "senses": [
+      {
+        "en": "sparkler",
+        "example_de": "Das Kind hält eine Wunderkerze.",
+        "example_en": "The child is holding a sparkler."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "An Silvester brennen viele Wunderkerzen.",
+        "en": "On New Year's Eve many sparklers burn."
+      }
+    ]
+  },
+  {
+    "lemma": "Konfetti",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2600,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "confetti",
+        "example_de": "Konfetti fliegt durch die Luft.",
+        "example_en": "Confetti is flying through the air."
+      }
+    ]
+  },
+  {
+    "lemma": "Bescherung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "f", "plural": "Bescherungen" },
+    "senses": [
+      {
+        "en": "gift-giving (on Christmas Eve)",
+        "note": "traditionell an Heiligabend",
+        "example_de": "Die Bescherung ist nach dem Essen.",
+        "example_en": "The gift-giving is after dinner."
+      }
+    ]
+  },
+  {
+    "lemma": "zuprosten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2480,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zu"
+    },
+    "senses": [
+      {
+        "en": "to raise one's glass (to someone)",
+        "note": "+ Dativ: jemandem zuprosten",
+        "example_de": "Wir prosten den Gästen zu.",
+        "example_en": "We raise our glasses to the guests."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er prostet seiner Frau zu.",
+        "en": "He raises his glass to his wife."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Alle haben dem Paar zugeprostet.",
+        "en": "Everyone raised their glasses to the couple."
+      }
+    ]
+  },
+  {
+    "lemma": "Jahreswechsel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": { "gender": "m", "plural": "Jahreswechsel" },
+    "senses": [
+      {
+        "en": "turn of the year",
+        "note": "zum Jahreswechsel",
+        "example_de": "Zum Jahreswechsel wünschen wir alles Gute.",
+        "example_en": "At the turn of the year we wish all the best."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorsatz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": { "gender": "m", "plural": "Vorsätze" },
+    "senses": [
+      {
+        "en": "resolution, intention",
+        "note": "gute Vorsätze für das neue Jahr",
+        "example_de": "Mein Vorsatz ist mehr Sport.",
+        "example_en": "My resolution is more exercise."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Gute Vorsätze sind schnell vergessen.",
+        "en": "Good resolutions are quickly forgotten."
+      }
+    ]
+  }
+]

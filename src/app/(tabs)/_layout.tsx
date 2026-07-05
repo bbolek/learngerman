@@ -44,6 +44,15 @@ export default function TabsLayout() {
           tabBarIcon: ({ color, size }) => <Ionicons name="school" size={size} color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="games"
+        options={{
+          title: 'Spiele',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="game-controller" size={size} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }

@@ -1,0 +1,1145 @@
+[
+  {
+    "lemma": "Arzttermin",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": {
+      "gender": "m",
+      "plural": "Arzttermine"
+    },
+    "senses": [
+      {
+        "en": "doctor's appointment",
+        "example_de": "Ich habe morgen früh einen Arzttermin.",
+        "example_en": "I have a doctor's appointment tomorrow morning."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Arzttermine bekommt man oft erst nach Wochen.",
+        "en": "You often only get doctor's appointments after weeks."
+      }
+    ]
+  },
+  {
+    "lemma": "Arztpraxis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1917,
+    "noun": {
+      "gender": "f",
+      "plural": "Arztpraxen"
+    },
+    "senses": [
+      {
+        "en": "doctor's office, medical practice",
+        "example_de": "Die Arztpraxis ist mittwochs geschlossen.",
+        "example_en": "The doctor's office is closed on Wednesdays."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Viele Arztpraxen schließen am Freitagnachmittag.",
+        "en": "Many doctor's offices close on Friday afternoon."
+      }
+    ]
+  },
+  {
+    "lemma": "Krankmeldung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1934,
+    "noun": {
+      "gender": "f",
+      "plural": "Krankmeldungen"
+    },
+    "senses": [
+      {
+        "en": "sick note, notification of illness",
+        "example_de": "Schick die Krankmeldung an deinen Arbeitgeber.",
+        "example_en": "Send the sick note to your employer."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Winter gibt es besonders viele Krankmeldungen.",
+        "en": "In winter there are especially many sick notes."
+      }
+    ]
+  },
+  {
+    "lemma": "Krankenversicherung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1951,
+    "noun": {
+      "gender": "f",
+      "plural": "Krankenversicherungen"
+    },
+    "senses": [
+      {
+        "en": "health insurance",
+        "example_de": "In Deutschland ist die Krankenversicherung Pflicht.",
+        "example_en": "In Germany health insurance is mandatory.",
+        "note": "gesetzliche oder private Krankenversicherung"
+      }
+    ]
+  },
+  {
+    "lemma": "Versichertenkarte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1968,
+    "noun": {
+      "gender": "f",
+      "plural": "Versichertenkarten"
+    },
+    "senses": [
+      {
+        "en": "health insurance card",
+        "example_de": "Bitte geben Sie mir Ihre Versichertenkarte.",
+        "example_en": "Please give me your health insurance card.",
+        "note": "wird an der Anmeldung in der Praxis vorgezeigt"
+      }
+    ]
+  },
+  {
+    "lemma": "Überweisungsschein",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1985,
+    "noun": {
+      "gender": "m",
+      "plural": "Überweisungsscheine"
+    },
+    "senses": [
+      {
+        "en": "referral slip (to a specialist)",
+        "example_de": "Der Hausarzt gibt mir einen Überweisungsschein.",
+        "example_en": "The family doctor gives me a referral slip."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Ohne Überweisungsschein wartet man beim Facharzt länger.",
+        "en": "Without a referral slip you wait longer at the specialist."
+      }
+    ]
+  },
+  {
+    "lemma": "Attest",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2002,
+    "noun": {
+      "gender": "n",
+      "plural": "Atteste"
+    },
+    "senses": [
+      {
+        "en": "medical certificate, doctor's note",
+        "example_de": "Die Schule verlangt ein Attest vom Arzt.",
+        "example_en": "The school requires a doctor's note."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Atteste bekommt man beim Hausarzt.",
+        "en": "You get medical certificates from your family doctor."
+      }
+    ]
+  },
+  {
+    "lemma": "Beschwerden",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2019,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "(medical) complaints, symptoms",
+        "example_de": "Seit wann haben Sie diese Beschwerden?",
+        "example_en": "Since when have you had these symptoms?",
+        "note": "nur Plural in dieser Bedeutung; Singular Beschwerde = complaint"
+      }
+    ]
+  },
+  {
+    "lemma": "Befund",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2036,
+    "noun": {
+      "gender": "m",
+      "plural": "Befunde"
+    },
+    "senses": [
+      {
+        "en": "(medical) result, findings",
+        "example_de": "Der Befund war zum Glück gut.",
+        "example_en": "Fortunately the result was good.",
+        "note": "ohne Befund = nothing abnormal found"
+      }
+    ]
+  },
+  {
+    "lemma": "Halsschmerzen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2053,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "sore throat",
+        "example_de": "Ich habe seit gestern starke Halsschmerzen.",
+        "example_en": "I've had a bad sore throat since yesterday."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "negation",
+        "de": "Heute habe ich keine Halsschmerzen mehr.",
+        "en": "Today I no longer have a sore throat."
+      }
+    ]
+  },
+  {
+    "lemma": "Rückenschmerzen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2070,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "back pain",
+        "example_de": "Vom langen Sitzen bekommt er Rückenschmerzen.",
+        "example_en": "He gets back pain from sitting for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "Durchfall",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2087,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "diarrhea",
+        "example_de": "Das Kind hat Fieber und Durchfall.",
+        "example_en": "The child has a fever and diarrhea."
+      }
+    ]
+  },
+  {
+    "lemma": "Verstopfung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2104,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "constipation",
+        "example_de": "Zu wenig Trinken kann zu Verstopfung führen.",
+        "example_en": "Drinking too little can lead to constipation."
+      }
+    ]
+  },
+  {
+    "lemma": "Heiserkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2121,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "hoarseness",
+        "example_de": "Warmer Tee hilft gegen Heiserkeit.",
+        "example_en": "Warm tea helps against hoarseness."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausschlag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2138,
+    "noun": {
+      "gender": "m",
+      "plural": "Ausschläge"
+    },
+    "senses": [
+      {
+        "en": "rash",
+        "example_de": "Nach der Tablette bekam sie einen Ausschlag.",
+        "example_en": "After the pill she got a rash."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Manche Medikamente verursachen Ausschläge.",
+        "en": "Some medications cause rashes."
+      }
+    ]
+  },
+  {
+    "lemma": "Dosis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2155,
+    "noun": {
+      "gender": "f",
+      "plural": "Dosen",
+      "genitive": "Dosis"
+    },
+    "senses": [
+      {
+        "en": "dose",
+        "example_de": "Der Arzt erhöht die Dosis langsam.",
+        "example_en": "The doctor increases the dose slowly."
+      }
+    ]
+  },
+  {
+    "lemma": "Heilung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2172,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "healing, cure",
+        "example_de": "Ruhe ist wichtig für die Heilung.",
+        "example_en": "Rest is important for healing."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorsorge",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2189,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "preventive care, prevention",
+        "example_de": "Vorsorge ist besser als eine lange Behandlung.",
+        "example_en": "Prevention is better than a long treatment."
+      }
+    ]
+  },
+  {
+    "lemma": "Hausmittel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2206,
+    "noun": {
+      "gender": "n",
+      "plural": "Hausmittel"
+    },
+    "senses": [
+      {
+        "en": "home remedy",
+        "example_de": "Honig ist ein bekanntes Hausmittel gegen Husten.",
+        "example_en": "Honey is a well-known home remedy for coughs."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Viele Hausmittel helfen bei einer Erkältung.",
+        "en": "Many home remedies help with a cold."
+      }
+    ]
+  },
+  {
+    "lemma": "Kamillentee",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2223,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "chamomile tea",
+        "example_de": "Bei Bauchschmerzen trinkt sie Kamillentee.",
+        "example_en": "She drinks chamomile tea when she has a stomachache."
+      }
+    ]
+  },
+  {
+    "lemma": "Hustensaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2240,
+    "noun": {
+      "gender": "m",
+      "plural": "Hustensäfte"
+    },
+    "senses": [
+      {
+        "en": "cough syrup",
+        "example_de": "Der Hustensaft schmeckt süß.",
+        "example_en": "The cough syrup tastes sweet."
+      }
+    ]
+  },
+  {
+    "lemma": "Nasenspray",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2257,
+    "noun": {
+      "gender": "n",
+      "plural": "Nasensprays"
+    },
+    "senses": [
+      {
+        "en": "nasal spray",
+        "example_de": "Benutz das Nasenspray nicht zu lange.",
+        "example_en": "Don't use the nasal spray for too long."
+      }
+    ]
+  },
+  {
+    "lemma": "Wärmflasche",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2274,
+    "noun": {
+      "gender": "f",
+      "plural": "Wärmflaschen"
+    },
+    "senses": [
+      {
+        "en": "hot-water bottle",
+        "example_de": "Bei Bauchschmerzen hilft eine Wärmflasche.",
+        "example_en": "A hot-water bottle helps with a stomachache."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Winter benutzen wir zwei Wärmflaschen.",
+        "en": "In winter we use two hot-water bottles."
+      }
+    ]
+  },
+  {
+    "lemma": "Bettruhe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2291,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "bed rest",
+        "example_de": "Der Arzt verordnet drei Tage Bettruhe.",
+        "example_en": "The doctor prescribes three days of bed rest."
+      }
+    ]
+  },
+  {
+    "lemma": "Thermometer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2308,
+    "noun": {
+      "gender": "n",
+      "plural": "Thermometer"
+    },
+    "senses": [
+      {
+        "en": "thermometer",
+        "example_de": "Das Thermometer zeigt 39 Grad.",
+        "example_en": "The thermometer shows 39 degrees."
+      }
+    ]
+  },
+  {
+    "lemma": "Notdienst",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2325,
+    "noun": {
+      "gender": "m",
+      "plural": "Notdienste"
+    },
+    "senses": [
+      {
+        "en": "emergency service, on-call duty",
+        "example_de": "Am Sonntag hat eine Apotheke Notdienst.",
+        "example_en": "On Sunday one pharmacy is on emergency duty."
+      }
+    ]
+  },
+  {
+    "lemma": "Apotheker",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2342,
+    "noun": {
+      "gender": "m",
+      "plural": "Apotheker"
+    },
+    "senses": [
+      {
+        "en": "pharmacist",
+        "example_de": "Der Apotheker erklärt mir das Medikament.",
+        "example_en": "The pharmacist explains the medication to me."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Apotheker beraten auch bei rezeptfreien Medikamenten.",
+        "en": "Pharmacists also give advice on over-the-counter medications."
+      }
+    ]
+  },
+  {
+    "lemma": "Patientin",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2359,
+    "noun": {
+      "gender": "f",
+      "plural": "Patientinnen"
+    },
+    "senses": [
+      {
+        "en": "(female) patient",
+        "example_de": "Die Patientin wartet im Wartezimmer.",
+        "example_en": "The patient is waiting in the waiting room."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Ärztin hat heute viele Patientinnen.",
+        "en": "The doctor has many patients today."
+      }
+    ]
+  },
+  {
+    "lemma": "Therapie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2376,
+    "noun": {
+      "gender": "f",
+      "plural": "Therapien"
+    },
+    "senses": [
+      {
+        "en": "therapy, treatment",
+        "example_de": "Die Therapie dauert sechs Wochen.",
+        "example_en": "The therapy takes six weeks."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Es gibt verschiedene Therapien gegen Rückenschmerzen.",
+        "en": "There are different therapies for back pain."
+      }
+    ]
+  },
+  {
+    "lemma": "krankschreiben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2393,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "krank",
+      "praeteritum": "schrieb",
+      "partizip2": "krankgeschrieben"
+    },
+    "senses": [
+      {
+        "en": "to give someone a sick note, to sign someone off sick",
+        "example_de": "Der Arzt schreibt mich eine Woche krank.",
+        "example_en": "The doctor signs me off sick for a week.",
+        "note": "oft Passiv: krankgeschrieben sein/werden"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Ärztin schreibt ihn drei Tage krank.",
+        "en": "The doctor signs him off sick for three days."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Arzt schrieb sie zwei Wochen krank.",
+        "en": "The doctor signed her off sick for two weeks."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat mich bis Freitag krankgeschrieben.",
+        "en": "I've been signed off sick until Friday."
+      }
+    ]
+  },
+  {
+    "lemma": "erbrechen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2410,
+    "verb": {
+      "aux": "haben",
+      "du": "erbrichst",
+      "er": "erbricht",
+      "praeteritum": "erbrach",
+      "partizip2": "erbrochen"
+    },
+    "senses": [
+      {
+        "en": "to vomit",
+        "example_de": "Das Kind musste sich nachts erbrechen.",
+        "example_en": "The child had to vomit during the night.",
+        "note": "reflexiv: sich erbrechen"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Bei Migräne erbricht sie sich manchmal.",
+        "en": "With migraines she sometimes vomits."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er erbrach sich mehrmals in der Nacht.",
+        "en": "He vomited several times during the night."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Patient hat sich heute Morgen erbrochen.",
+        "en": "The patient vomited this morning."
+      }
+    ]
+  },
+  {
+    "lemma": "verordnen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2427,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verordnet"
+    },
+    "senses": [
+      {
+        "en": "to prescribe (medication, treatment)",
+        "example_de": "Die Ärztin verordnet ihm Bettruhe.",
+        "example_en": "The doctor prescribes bed rest for him."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Arzt verordnet eine Salbe gegen den Ausschlag.",
+        "en": "The doctor prescribes an ointment for the rash."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie verordnete ihm ein starkes Schmerzmittel.",
+        "en": "She prescribed him a strong painkiller."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat ihr eine Therapie verordnet.",
+        "en": "She has been prescribed a therapy."
+      }
+    ]
+  },
+  {
+    "lemma": "auskurieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2444,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus",
+      "partizip2": "auskuriert"
+    },
+    "senses": [
+      {
+        "en": "to cure completely, to recover fully from",
+        "example_de": "Du musst die Erkältung richtig auskurieren.",
+        "example_en": "You have to fully recover from the cold.",
+        "note": "auch reflexiv: sich auskurieren"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er kuriert seine Grippe zu Hause aus.",
+        "en": "He is recovering from his flu at home."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie kurierte die Erkältung im Bett aus.",
+        "en": "She recovered from the cold in bed."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Husten endlich auskuriert.",
+        "en": "I've finally gotten over the cough."
+      }
+    ]
+  },
+  {
+    "lemma": "allergisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2461,
+    "senses": [
+      {
+        "en": "allergic",
+        "example_de": "Ich bin allergisch gegen Nüsse.",
+        "example_en": "I'm allergic to nuts.",
+        "note": "+ gegen + Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "frage",
+        "de": "Bist du gegen Pollen allergisch?",
+        "en": "Are you allergic to pollen?"
+      }
+    ]
+  },
+  {
+    "lemma": "heiser",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2478,
+    "senses": [
+      {
+        "en": "hoarse",
+        "example_de": "Nach dem Konzert war sie ganz heiser.",
+        "example_en": "After the concert she was completely hoarse."
+      }
+    ]
+  },
+  {
+    "lemma": "nüchtern",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2495,
+    "senses": [
+      {
+        "en": "with an empty stomach (before an examination)",
+        "example_de": "Kommen Sie bitte nüchtern zur Blutprobe.",
+        "example_en": "Please come to the blood test with an empty stomach.",
+        "note": "auch: sober; sachlich"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Für die Untersuchung müssen Sie nüchtern sein.",
+        "en": "You have to have an empty stomach for the examination."
+      }
+    ]
+  },
+  {
+    "lemma": "geschwollen",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2512,
+    "senses": [
+      {
+        "en": "swollen",
+        "example_de": "Sein Knöchel ist dick geschwollen.",
+        "example_en": "His ankle is badly swollen."
+      }
+    ]
+  },
+  {
+    "lemma": "rezeptfrei",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2529,
+    "senses": [
+      {
+        "en": "over-the-counter, available without prescription",
+        "example_de": "Diese Tabletten sind rezeptfrei.",
+        "example_en": "These pills are available without a prescription."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "frage",
+        "de": "Gibt es diesen Hustensaft rezeptfrei?",
+        "en": "Is this cough syrup available without a prescription?"
+      }
+    ]
+  },
+  {
+    "lemma": "rezeptpflichtig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2546,
+    "senses": [
+      {
+        "en": "available on prescription only",
+        "example_de": "Starke Schmerzmittel sind rezeptpflichtig.",
+        "example_en": "Strong painkillers are prescription-only."
+      }
+    ]
+  },
+  {
+    "lemma": "versichert",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2563,
+    "senses": [
+      {
+        "en": "insured",
+        "example_de": "Jeder in Deutschland muss versichert sein.",
+        "example_en": "Everyone in Germany must be insured.",
+        "note": "gesetzlich oder privat versichert"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "frage",
+        "de": "Bei welcher Krankenkasse sind Sie versichert?",
+        "en": "Which health insurance fund are you insured with?"
+      }
+    ]
+  },
+  {
+    "lemma": "Zuzahlung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3000,
+    "noun": {
+      "gender": "f",
+      "plural": "Zuzahlungen"
+    },
+    "senses": [
+      {
+        "en": "co-payment (for medication, treatment)",
+        "example_de": "Für das Medikament zahlt man fünf Euro Zuzahlung.",
+        "example_en": "You pay a five-euro co-payment for the medication."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Für Kinder gibt es keine Zuzahlungen.",
+        "en": "There are no co-payments for children."
+      }
+    ]
+  },
+  {
+    "lemma": "Privatpatient",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3055,
+    "noun": {
+      "gender": "m",
+      "plural": "Privatpatienten",
+      "genitive": "Privatpatienten"
+    },
+    "senses": [
+      {
+        "en": "private patient (privately insured)",
+        "example_de": "Als Privatpatient bekommt er schneller einen Termin.",
+        "example_en": "As a private patient he gets an appointment faster."
+      }
+    ]
+  },
+  {
+    "lemma": "Kassenpatient",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3110,
+    "noun": {
+      "gender": "m",
+      "plural": "Kassenpatienten",
+      "genitive": "Kassenpatienten"
+    },
+    "senses": [
+      {
+        "en": "patient with statutory health insurance",
+        "example_de": "Als Kassenpatient braucht er einen Überweisungsschein.",
+        "example_en": "As a statutorily insured patient he needs a referral slip."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorsorgeuntersuchung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3165,
+    "noun": {
+      "gender": "f",
+      "plural": "Vorsorgeuntersuchungen"
+    },
+    "senses": [
+      {
+        "en": "preventive checkup, screening",
+        "example_de": "Die Krankenkasse bezahlt diese Vorsorgeuntersuchung.",
+        "example_en": "The health insurance fund pays for this preventive checkup."
+      }
+    ]
+  },
+  {
+    "lemma": "Erreger",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3220,
+    "noun": {
+      "gender": "m",
+      "plural": "Erreger"
+    },
+    "senses": [
+      {
+        "en": "pathogen, germ",
+        "example_de": "Das Labor sucht nach dem Erreger.",
+        "example_en": "The lab is looking for the pathogen."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Viren und Bakterien sind häufige Erreger.",
+        "en": "Viruses and bacteria are common pathogens."
+      }
+    ]
+  },
+  {
+    "lemma": "Wirkstoff",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3275,
+    "noun": {
+      "gender": "m",
+      "plural": "Wirkstoffe"
+    },
+    "senses": [
+      {
+        "en": "active ingredient",
+        "example_de": "Beide Medikamente enthalten denselben Wirkstoff.",
+        "example_en": "Both medications contain the same active ingredient."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Manche Wirkstoffe machen müde.",
+        "en": "Some active ingredients make you tired."
+      }
+    ]
+  },
+  {
+    "lemma": "Beipackzettel",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3330,
+    "noun": {
+      "gender": "m",
+      "plural": "Beipackzettel"
+    },
+    "senses": [
+      {
+        "en": "package insert (medication leaflet)",
+        "example_de": "Lies zuerst den Beipackzettel.",
+        "example_en": "Read the package insert first."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Beipackzettel erklären alle Nebenwirkungen.",
+        "en": "Package inserts explain all side effects."
+      }
+    ]
+  },
+  {
+    "lemma": "Arzneimittel",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3385,
+    "noun": {
+      "gender": "n",
+      "plural": "Arzneimittel"
+    },
+    "senses": [
+      {
+        "en": "medicine, pharmaceutical drug",
+        "example_de": "Dieses Arzneimittel gibt es nur auf Rezept.",
+        "example_en": "This medicine is only available on prescription.",
+        "note": "formeller als Medikament"
+      }
+    ]
+  },
+  {
+    "lemma": "Blutbild",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3440,
+    "noun": {
+      "gender": "n",
+      "plural": "Blutbilder"
+    },
+    "senses": [
+      {
+        "en": "blood count (test)",
+        "example_de": "Der Arzt macht ein großes Blutbild.",
+        "example_en": "The doctor does a complete blood count."
+      }
+    ]
+  },
+  {
+    "lemma": "Ultraschall",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3495,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "ultrasound",
+        "example_de": "Beim Ultraschall war alles in Ordnung.",
+        "example_en": "Everything was fine on the ultrasound."
+      }
+    ]
+  },
+  {
+    "lemma": "Atemnot",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3550,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "shortness of breath",
+        "example_de": "Bei Atemnot sofort einen Arzt rufen.",
+        "example_en": "In case of shortness of breath, call a doctor immediately."
+      }
+    ]
+  },
+  {
+    "lemma": "abklären",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3605,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to clarify, to check out (medically)",
+        "example_de": "Der Arzt will die Ursache abklären.",
+        "example_en": "The doctor wants to clarify the cause."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Ärztin klärt die Werte mit einer Blutprobe ab.",
+        "en": "The doctor checks the values with a blood sample."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Man klärte den Verdacht im Krankenhaus ab.",
+        "en": "The suspicion was checked out in the hospital."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Facharzt hat alles gründlich abgeklärt.",
+        "en": "The specialist has checked everything thoroughly."
+      }
+    ]
+  },
+  {
+    "lemma": "ambulant",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3660,
+    "senses": [
+      {
+        "en": "outpatient",
+        "example_de": "Die kleine Operation wird ambulant gemacht.",
+        "example_en": "The minor surgery is done as an outpatient procedure.",
+        "note": "Gegenteil: stationär"
+      }
+    ]
+  },
+  {
+    "lemma": "stationär",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3715,
+    "senses": [
+      {
+        "en": "inpatient",
+        "example_de": "Er wurde eine Woche stationär behandelt.",
+        "example_en": "He was treated as an inpatient for a week.",
+        "note": "Gegenteil: ambulant"
+      }
+    ]
+  },
+  {
+    "lemma": "arbeitsunfähig",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3770,
+    "senses": [
+      {
+        "en": "unfit for work",
+        "example_de": "Sie ist für zwei Wochen arbeitsunfähig.",
+        "example_en": "She is unfit for work for two weeks.",
+        "note": "steht so auf der Krankschreibung"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1175 @@
+[
+  {
+    "lemma": "Vermieter",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1310,
+    "noun": {
+      "gender": "m",
+      "plural": "Vermieter"
+    },
+    "senses": [
+      {
+        "en": "landlord",
+        "example_de": "Der Vermieter wohnt im ersten Stock.",
+        "example_en": "The landlord lives on the first floor."
+      }
+    ]
+  },
+  {
+    "lemma": "Mieter",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1330,
+    "noun": {
+      "gender": "m",
+      "plural": "Mieter"
+    },
+    "senses": [
+      {
+        "en": "tenant, renter",
+        "example_de": "Der neue Mieter ist sehr freundlich.",
+        "example_en": "The new tenant is very friendly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Mieter bekommen einen Brief.",
+        "en": "All tenants receive a letter."
+      }
+    ]
+  },
+  {
+    "lemma": "Mietvertrag",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": {
+      "gender": "m",
+      "plural": "Mietverträge"
+    },
+    "senses": [
+      {
+        "en": "rental contract, lease",
+        "example_de": "Ich lese den Mietvertrag genau.",
+        "example_en": "I read the rental contract carefully."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Mietverträge liegen auf dem Tisch.",
+        "en": "The rental contracts are on the table."
+      }
+    ]
+  },
+  {
+    "lemma": "Kaution",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1380,
+    "noun": {
+      "gender": "f",
+      "plural": "Kautionen"
+    },
+    "senses": [
+      {
+        "en": "deposit (for a rental)",
+        "note": "meist drei Monatsmieten",
+        "example_de": "Die Kaution kostet zwei Monatsmieten.",
+        "example_en": "The deposit costs two months' rent."
+      }
+    ]
+  },
+  {
+    "lemma": "Nebenkosten",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "utility costs, additional costs",
+        "note": "nur Plural",
+        "example_de": "Die Nebenkosten sind in diesem Jahr hoch.",
+        "example_en": "The utility costs are high this year."
+      }
+    ]
+  },
+  {
+    "lemma": "Stockwerk",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1420,
+    "noun": {
+      "gender": "n",
+      "plural": "Stockwerke"
+    },
+    "senses": [
+      {
+        "en": "floor, storey",
+        "example_de": "Wir wohnen im dritten Stockwerk.",
+        "example_en": "We live on the third floor."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Das Haus hat fünf Stockwerke.",
+        "en": "The building has five storeys."
+      }
+    ]
+  },
+  {
+    "lemma": "Terrasse",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1440,
+    "noun": {
+      "gender": "f",
+      "plural": "Terrassen"
+    },
+    "senses": [
+      {
+        "en": "terrace, patio",
+        "example_de": "Wir essen im Sommer auf der Terrasse.",
+        "example_en": "In summer we eat on the terrace."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Beide Wohnungen haben große Terrassen.",
+        "en": "Both apartments have large terraces."
+      }
+    ]
+  },
+  {
+    "lemma": "Karton",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1460,
+    "noun": {
+      "gender": "m",
+      "plural": "Kartons"
+    },
+    "senses": [
+      {
+        "en": "cardboard box",
+        "example_de": "Die Bücher sind im Karton.",
+        "example_en": "The books are in the box."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Flur stehen zehn Kartons.",
+        "en": "There are ten boxes in the hallway."
+      }
+    ]
+  },
+  {
+    "lemma": "Umzugskarton",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1480,
+    "noun": {
+      "gender": "m",
+      "plural": "Umzugskartons"
+    },
+    "senses": [
+      {
+        "en": "moving box",
+        "example_de": "Der Umzugskarton ist schon voll.",
+        "example_en": "The moving box is already full."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir brauchen noch mehr Umzugskartons.",
+        "en": "We still need more moving boxes."
+      }
+    ]
+  },
+  {
+    "lemma": "Haustür",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": "Haustüren"
+    },
+    "senses": [
+      {
+        "en": "front door (of a building)",
+        "example_de": "Die Haustür ist abends immer zu.",
+        "example_en": "The front door is always closed in the evening."
+      }
+    ]
+  },
+  {
+    "lemma": "Kleiderschrank",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1520,
+    "noun": {
+      "gender": "m",
+      "plural": "Kleiderschränke"
+    },
+    "senses": [
+      {
+        "en": "wardrobe, closet",
+        "example_de": "Der Kleiderschrank steht im Schlafzimmer.",
+        "example_en": "The wardrobe is in the bedroom."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die alten Kleiderschränke sind sehr schwer.",
+        "en": "The old wardrobes are very heavy."
+      }
+    ]
+  },
+  {
+    "lemma": "Wasserhahn",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1540,
+    "noun": {
+      "gender": "m",
+      "plural": "Wasserhähne"
+    },
+    "senses": [
+      {
+        "en": "tap, faucet",
+        "example_de": "Der Wasserhahn in der Küche ist kaputt.",
+        "example_en": "The tap in the kitchen is broken."
+      }
+    ]
+  },
+  {
+    "lemma": "Heizkörper",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": {
+      "gender": "m",
+      "plural": "Heizkörper"
+    },
+    "senses": [
+      {
+        "en": "radiator",
+        "example_de": "Der Heizkörper im Bad bleibt kalt.",
+        "example_en": "The radiator in the bathroom stays cold."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Heizkörper sind im Winter warm.",
+        "en": "All radiators are warm in winter."
+      }
+    ]
+  },
+  {
+    "lemma": "Nachbarschaft",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1580,
+    "noun": {
+      "gender": "f",
+      "plural": "Nachbarschaften"
+    },
+    "senses": [
+      {
+        "en": "neighbourhood",
+        "example_de": "In unserer Nachbarschaft gibt es viele Kinder.",
+        "example_en": "There are many children in our neighbourhood."
+      }
+    ]
+  },
+  {
+    "lemma": "Innenstadt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "f",
+      "plural": "Innenstädte"
+    },
+    "senses": [
+      {
+        "en": "city centre, downtown",
+        "example_de": "Die Wohnung liegt direkt in der Innenstadt.",
+        "example_en": "The apartment is right in the city centre."
+      }
+    ]
+  },
+  {
+    "lemma": "Hochhaus",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1620,
+    "noun": {
+      "gender": "n",
+      "plural": "Hochhäuser"
+    },
+    "senses": [
+      {
+        "en": "high-rise building",
+        "example_de": "Sie wohnt in einem Hochhaus am Stadtrand.",
+        "example_en": "She lives in a high-rise on the edge of town."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In der Stadt stehen viele Hochhäuser.",
+        "en": "There are many high-rise buildings in the city."
+      }
+    ]
+  },
+  {
+    "lemma": "heizen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1660,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to heat",
+        "example_de": "Im Winter heizen wir jeden Tag.",
+        "example_en": "In winter we heat every day."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er heizt nur das Wohnzimmer.",
+        "en": "He only heats the living room."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben im Oktober noch nicht geheizt.",
+        "en": "We had not heated yet in October."
+      },
+      {
+        "tag": "negation",
+        "de": "Im Sommer heizen wir nicht.",
+        "en": "In summer we do not heat."
+      }
+    ]
+  },
+  {
+    "lemma": "möbliert",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1690,
+    "senses": [
+      {
+        "en": "furnished",
+        "example_de": "Das Zimmer ist möbliert und hat ein Bett.",
+        "example_en": "The room is furnished and has a bed."
+      }
+    ]
+  },
+  {
+    "lemma": "Besichtigung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": {
+      "gender": "f",
+      "plural": "Besichtigungen"
+    },
+    "senses": [
+      {
+        "en": "viewing (of a flat), inspection",
+        "example_de": "Die Besichtigung der Wohnung ist am Montag.",
+        "example_en": "The viewing of the apartment is on Monday."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Diese Woche habe ich drei Besichtigungen.",
+        "en": "This week I have three viewings."
+      }
+    ]
+  },
+  {
+    "lemma": "Einzug",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1925,
+    "noun": {
+      "gender": "m",
+      "plural": "Einzüge"
+    },
+    "senses": [
+      {
+        "en": "moving in",
+        "example_de": "Vor dem Einzug streichen wir die Wände.",
+        "example_en": "Before moving in, we paint the walls."
+      }
+    ]
+  },
+  {
+    "lemma": "Auszug",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "m",
+      "plural": "Auszüge"
+    },
+    "senses": [
+      {
+        "en": "moving out",
+        "example_de": "Beim Auszug muss die Wohnung sauber sein.",
+        "example_en": "When moving out, the apartment must be clean."
+      }
+    ]
+  },
+  {
+    "lemma": "Makler",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1975,
+    "noun": {
+      "gender": "m",
+      "plural": "Makler"
+    },
+    "senses": [
+      {
+        "en": "real estate agent, broker",
+        "example_de": "Der Makler zeigt uns heute zwei Wohnungen.",
+        "example_en": "The agent is showing us two apartments today."
+      }
+    ]
+  },
+  {
+    "lemma": "Untermiete",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "subletting, sublease",
+        "note": "zur Untermiete wohnen",
+        "example_de": "Er wohnt zur Untermiete bei einer Familie.",
+        "example_en": "He lives as a subtenant with a family."
+      }
+    ]
+  },
+  {
+    "lemma": "Nachmieter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": {
+      "gender": "m",
+      "plural": "Nachmieter"
+    },
+    "senses": [
+      {
+        "en": "next tenant, subsequent tenant",
+        "example_de": "Wir suchen einen Nachmieter für unsere Wohnung.",
+        "example_en": "We are looking for a next tenant for our apartment."
+      }
+    ]
+  },
+  {
+    "lemma": "Hausmeister",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": {
+      "gender": "m",
+      "plural": "Hausmeister"
+    },
+    "senses": [
+      {
+        "en": "caretaker, janitor",
+        "example_de": "Der Hausmeister repariert die Haustür.",
+        "example_en": "The caretaker is repairing the front door."
+      }
+    ]
+  },
+  {
+    "lemma": "Renovierung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2075,
+    "noun": {
+      "gender": "f",
+      "plural": "Renovierungen"
+    },
+    "senses": [
+      {
+        "en": "renovation, redecoration",
+        "example_de": "Nach der Renovierung sieht die Küche neu aus.",
+        "example_en": "After the renovation, the kitchen looks new."
+      }
+    ]
+  },
+  {
+    "lemma": "Quadratmeter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "m",
+      "plural": "Quadratmeter"
+    },
+    "senses": [
+      {
+        "en": "square metre",
+        "note": "Abkürzung: m² oder qm",
+        "example_de": "Die Wohnung hat sechzig Quadratmeter.",
+        "example_en": "The apartment has sixty square metres."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wie viele Quadratmeter hat das Zimmer?",
+        "en": "How many square metres does the room have?"
+      }
+    ]
+  },
+  {
+    "lemma": "Altbau",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2125,
+    "noun": {
+      "gender": "m",
+      "plural": "Altbauten"
+    },
+    "senses": [
+      {
+        "en": "old building (pre-war)",
+        "note": "hohe Decken, oft vor 1949 gebaut",
+        "example_de": "Sie liebt die hohen Zimmer im Altbau.",
+        "example_en": "She loves the high-ceilinged rooms in the old building."
+      }
+    ]
+  },
+  {
+    "lemma": "Neubau",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": {
+      "gender": "m",
+      "plural": "Neubauten"
+    },
+    "senses": [
+      {
+        "en": "new building, newly built house",
+        "example_de": "Der Neubau hat einen Aufzug und einen Keller.",
+        "example_en": "The new building has an elevator and a basement."
+      }
+    ]
+  },
+  {
+    "lemma": "Abstellraum",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2175,
+    "noun": {
+      "gender": "m",
+      "plural": "Abstellräume"
+    },
+    "senses": [
+      {
+        "en": "storage room, boxroom",
+        "example_de": "Die Fahrräder stehen im Abstellraum.",
+        "example_en": "The bicycles are in the storage room."
+      }
+    ]
+  },
+  {
+    "lemma": "Eigentümer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": {
+      "gender": "m",
+      "plural": "Eigentümer"
+    },
+    "senses": [
+      {
+        "en": "owner (of a property)",
+        "example_de": "Der Eigentümer des Hauses wohnt in München.",
+        "example_en": "The owner of the house lives in Munich."
+      }
+    ]
+  },
+  {
+    "lemma": "Wohnfläche",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2225,
+    "noun": {
+      "gender": "f",
+      "plural": "Wohnflächen"
+    },
+    "senses": [
+      {
+        "en": "living space, floor area",
+        "example_de": "Die Wohnfläche beträgt achtzig Quadratmeter.",
+        "example_en": "The living space is eighty square metres."
+      }
+    ]
+  },
+  {
+    "lemma": "Hausordnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": {
+      "gender": "f",
+      "plural": "Hausordnungen"
+    },
+    "senses": [
+      {
+        "en": "house rules",
+        "example_de": "Die Hausordnung hängt im Treppenhaus.",
+        "example_en": "The house rules are posted in the stairwell."
+      }
+    ]
+  },
+  {
+    "lemma": "Treppenhaus",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2265,
+    "noun": {
+      "gender": "n",
+      "plural": "Treppenhäuser"
+    },
+    "senses": [
+      {
+        "en": "stairwell, staircase (area)",
+        "example_de": "Im Treppenhaus darf man nichts abstellen.",
+        "example_en": "You may not leave anything in the stairwell."
+      }
+    ]
+  },
+  {
+    "lemma": "Stromrechnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2275,
+    "noun": {
+      "gender": "f",
+      "plural": "Stromrechnungen"
+    },
+    "senses": [
+      {
+        "en": "electricity bill",
+        "example_de": "Die Stromrechnung kommt einmal im Jahr.",
+        "example_en": "The electricity bill comes once a year."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ich sammle alle Stromrechnungen in einem Ordner.",
+        "en": "I keep all electricity bills in a folder."
+      }
+    ]
+  },
+  {
+    "lemma": "Wohnungssuche",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "flat hunting, search for an apartment",
+        "example_de": "Die Wohnungssuche in Berlin dauert oft Monate.",
+        "example_en": "Flat hunting in Berlin often takes months."
+      }
+    ]
+  },
+  {
+    "lemma": "Einrichtung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2325,
+    "noun": {
+      "gender": "f",
+      "plural": "Einrichtungen"
+    },
+    "senses": [
+      {
+        "en": "furnishings, interior",
+        "example_de": "Die Einrichtung der Wohnung ist modern.",
+        "example_en": "The furnishings of the apartment are modern."
+      },
+      {
+        "en": "institution, facility",
+        "example_de": "Die Stadt baut eine neue soziale Einrichtung.",
+        "example_en": "The city is building a new social facility."
+      }
+    ]
+  },
+  {
+    "lemma": "Umzugswagen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": {
+      "gender": "m",
+      "plural": "Umzugswagen"
+    },
+    "senses": [
+      {
+        "en": "moving van",
+        "example_de": "Der Umzugswagen steht vor der Haustür.",
+        "example_en": "The moving van is parked in front of the door."
+      }
+    ]
+  },
+  {
+    "lemma": "Wohngemeinschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2375,
+    "noun": {
+      "gender": "f",
+      "plural": "Wohngemeinschaften"
+    },
+    "senses": [
+      {
+        "en": "shared flat, flat-share",
+        "note": "kurz: WG",
+        "example_de": "Sie wohnt mit drei Studenten in einer Wohngemeinschaft.",
+        "example_en": "She lives with three students in a shared flat."
+      }
+    ]
+  },
+  {
+    "lemma": "Mitbewohner",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": {
+      "gender": "m",
+      "plural": "Mitbewohner"
+    },
+    "senses": [
+      {
+        "en": "flatmate, roommate",
+        "example_de": "Mein Mitbewohner kocht heute für uns.",
+        "example_en": "My flatmate is cooking for us today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Meine Mitbewohner sind am Wochenende weg.",
+        "en": "My flatmates are away on the weekend."
+      }
+    ]
+  },
+  {
+    "lemma": "Stellplatz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2425,
+    "noun": {
+      "gender": "m",
+      "plural": "Stellplätze"
+    },
+    "senses": [
+      {
+        "en": "parking space (assigned)",
+        "example_de": "Zur Wohnung gehört ein Stellplatz für das Auto.",
+        "example_en": "The apartment comes with a parking space for the car."
+      }
+    ]
+  },
+  {
+    "lemma": "Lage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": {
+      "gender": "f",
+      "plural": "Lagen"
+    },
+    "senses": [
+      {
+        "en": "location, position",
+        "example_de": "Die Wohnung hat eine ruhige Lage am Park.",
+        "example_en": "The apartment has a quiet location by the park."
+      },
+      {
+        "en": "situation",
+        "example_de": "Die Lage auf dem Wohnungsmarkt ist schwierig.",
+        "example_en": "The situation on the housing market is difficult."
+      }
+    ]
+  },
+  {
+    "lemma": "geräumig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2460,
+    "senses": [
+      {
+        "en": "spacious, roomy",
+        "example_de": "Die Küche ist hell und geräumig.",
+        "example_en": "The kitchen is bright and spacious."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Die neue Wohnung ist geräumiger als die alte.",
+        "en": "The new apartment is more spacious than the old one."
+      }
+    ]
+  },
+  {
+    "lemma": "renovieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2500,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "renoviert"
+    },
+    "senses": [
+      {
+        "en": "to renovate, to redecorate",
+        "note": "kein ge- im Partizip (-ieren)",
+        "example_de": "Wir renovieren das Bad im Frühling.",
+        "example_en": "We are renovating the bathroom in spring."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er renoviert gerade das Wohnzimmer.",
+        "en": "He is renovating the living room right now."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie renovierten die Wohnung vor dem Einzug.",
+        "en": "They renovated the apartment before moving in."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die ganze Wohnung renoviert.",
+        "en": "We have renovated the whole apartment."
+      }
+    ]
+  },
+  {
+    "lemma": "ummelden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "um"
+    },
+    "senses": [
+      {
+        "en": "to re-register (change of address)",
+        "note": "reflexiv: sich ummelden (beim Amt)",
+        "example_de": "Nach dem Umzug melde ich mich um.",
+        "example_en": "After the move I re-register."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie meldet sich diese Woche um.",
+        "en": "She is re-registering this week."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du dich schon umgemeldet?",
+        "en": "Have you re-registered yet?"
+      },
+      {
+        "tag": "negation",
+        "de": "Er hat sich noch nicht umgemeldet.",
+        "en": "He has not re-registered yet."
+      }
+    ]
+  },
+  {
+    "lemma": "ablesen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2540,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab",
+      "du": "liest",
+      "er": "liest",
+      "praeteritum": "las",
+      "partizip2": "abgelesen"
+    },
+    "senses": [
+      {
+        "en": "to read (a meter)",
+        "example_de": "Der Hausmeister liest den Zähler ab.",
+        "example_en": "The caretaker reads the meter."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich lese jeden Monat den Stand ab.",
+        "en": "I read the meter reading every month."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Zähler gestern abgelesen.",
+        "en": "We read the meter yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "schleppen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2560,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to lug, to drag (something heavy)",
+        "example_de": "Wir schleppen die Kartons in den vierten Stock.",
+        "example_en": "We are lugging the boxes up to the fourth floor."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schleppt das schwere Sofa allein.",
+        "en": "He is lugging the heavy sofa alone."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den ganzen Tag Möbel geschleppt.",
+        "en": "We lugged furniture all day."
+      }
+    ]
+  },
+  {
+    "lemma": "einleben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2580,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to settle in",
+        "note": "reflexiv: sich einleben",
+        "example_de": "Wir leben uns langsam in der neuen Stadt ein.",
+        "example_en": "We are slowly settling into the new city."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie lebt sich schnell in der Wohnung ein.",
+        "en": "She is settling into the apartment quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Habt ihr euch gut eingelebt?",
+        "en": "Have you settled in well?"
+      }
+    ]
+  },
+  {
+    "lemma": "defekt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2590,
+    "senses": [
+      {
+        "en": "defective, broken",
+        "example_de": "Der Aufzug ist seit Montag defekt.",
+        "example_en": "The elevator has been out of order since Monday."
+      }
+    ]
+  },
+  {
+    "lemma": "lüften",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2600,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to air, to ventilate",
+        "note": "gegen Schimmel: täglich lüften",
+        "example_de": "Ich lüfte morgens alle Zimmer.",
+        "example_en": "I air all the rooms in the morning."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie lüftet das Schlafzimmer zweimal am Tag.",
+        "en": "She airs the bedroom twice a day."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du heute schon gelüftet?",
+        "en": "Have you aired the room today?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Lüfte bitte kurz die Küche!",
+        "en": "Please air the kitchen briefly!"
+      }
+    ]
+  },
+  {
+    "lemma": "Nebenkostenabrechnung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3050,
+    "noun": {
+      "gender": "f",
+      "plural": "Nebenkostenabrechnungen"
+    },
+    "senses": [
+      {
+        "en": "utility bill statement (annual)",
+        "example_de": "Die Nebenkostenabrechnung kommt jedes Jahr im Sommer.",
+        "example_en": "The utility statement comes every year in the summer."
+      }
+    ]
+  },
+  {
+    "lemma": "Übergabeprotokoll",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3250,
+    "noun": {
+      "gender": "n",
+      "plural": "Übergabeprotokolle"
+    },
+    "senses": [
+      {
+        "en": "handover report (for a flat)",
+        "note": "beim Einzug und Auszug unterschreiben",
+        "example_de": "Im Übergabeprotokoll stehen alle Mängel der Wohnung.",
+        "example_en": "The handover report lists all defects of the apartment."
+      }
+    ]
+  },
+  {
+    "lemma": "Mieterhöhung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3450,
+    "noun": {
+      "gender": "f",
+      "plural": "Mieterhöhungen"
+    },
+    "senses": [
+      {
+        "en": "rent increase",
+        "example_de": "Der Vermieter hat eine Mieterhöhung angekündigt.",
+        "example_en": "The landlord has announced a rent increase."
+      }
+    ]
+  },
+  {
+    "lemma": "sanieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3600,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "saniert"
+    },
+    "senses": [
+      {
+        "en": "to refurbish, to redevelop (a building)",
+        "note": "kein ge- im Partizip (-ieren)",
+        "example_de": "Die Stadt saniert die alten Häuser im Zentrum.",
+        "example_en": "The city is refurbishing the old houses in the centre."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Eigentümer saniert das ganze Haus.",
+        "en": "The owner is refurbishing the whole building."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Eigentümer hat den Altbau komplett saniert.",
+        "en": "The owner has completely refurbished the old building."
+      }
+    ]
+  },
+  {
+    "lemma": "untervermieten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3780,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "untervermietet"
+    },
+    "senses": [
+      {
+        "en": "to sublet",
+        "note": "nur mit Erlaubnis des Vermieters",
+        "example_de": "Sie untervermietet ihr Zimmer für drei Monate.",
+        "example_en": "She is subletting her room for three months."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er untervermietet die Wohnung an einen Studenten.",
+        "en": "He is subletting the apartment to a student."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das kleine Zimmer untervermietet.",
+        "en": "We have sublet the small room."
+      }
+    ]
+  }
+]

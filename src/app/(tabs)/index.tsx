@@ -88,7 +88,9 @@ export default function HomeScreen() {
     return {
       key,
       initial: d.toLocaleDateString('de-DE', { weekday: 'short' }).slice(0, 2),
-      active: ((a?.reviews_done ?? 0) + (a?.quiz_done ?? 0) + (a?.words_saved ?? 0)) > 0,
+      active:
+        (a?.reviews_done ?? 0) + (a?.quiz_done ?? 0) + (a?.words_saved ?? 0) + (a?.games_played ?? 0) >
+        0,
       isToday: i === 6,
     };
   });

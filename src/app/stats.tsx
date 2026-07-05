@@ -38,12 +38,13 @@ export default function StatsScreen() {
     days.push({
       day,
       reviews: a?.reviews_done ?? 0,
-      total: (a?.reviews_done ?? 0) + (a?.quiz_done ?? 0),
+      total: (a?.reviews_done ?? 0) + (a?.quiz_done ?? 0) + (a?.games_played ?? 0),
     });
   }
   const maxTotal = Math.max(1, ...days.map((d) => d.total));
   const totalReviews = activity.reduce((sum, a) => sum + a.reviews_done, 0);
   const totalQuiz = activity.reduce((sum, a) => sum + a.quiz_done, 0);
+  const totalGames = activity.reduce((sum, a) => sum + a.games_played, 0);
 
   return (
     <Screen>
@@ -77,7 +78,7 @@ export default function StatsScreen() {
         <Card style={styles.tile}>
           <AppText style={{ fontSize: 22 }}>✅</AppText>
           <AppText variant="section" style={{ marginTop: 4 }}>
-            {totalReviews + totalQuiz}
+            {totalReviews + totalQuiz + totalGames}
           </AppText>
           <AppText variant="caption" muted>
             Übungen (14 T.)

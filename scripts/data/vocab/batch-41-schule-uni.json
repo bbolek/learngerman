@@ -1,0 +1,1294 @@
+[
+  {
+    "lemma": "Note",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "f",
+      "plural": "Noten"
+    },
+    "senses": [
+      {
+        "en": "grade, mark (in school)",
+        "note": "Schulnoten: 1 (sehr gut) bis 6 (ungenügend)",
+        "example_de": "Ich habe eine gute Note in Mathe.",
+        "example_en": "I got a good grade in math."
+      },
+      {
+        "en": "note (in music)",
+        "example_de": "Sie liest die Noten sehr schnell.",
+        "example_en": "She reads the musical notes very quickly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Seine Noten sind dieses Jahr besser.",
+        "en": "His grades are better this year."
+      }
+    ]
+  },
+  {
+    "lemma": "Tafel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1315,
+    "noun": {
+      "gender": "f",
+      "plural": "Tafeln"
+    },
+    "senses": [
+      {
+        "en": "blackboard, board",
+        "example_de": "Der Lehrer schreibt das Wort an die Tafel.",
+        "example_en": "The teacher writes the word on the board."
+      },
+      {
+        "en": "bar (of chocolate)",
+        "example_de": "Ich kaufe eine Tafel Schokolade.",
+        "example_en": "I am buying a bar of chocolate."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Tafeln in unserer Schule sind neu.",
+        "en": "The boards in our school are new."
+      }
+    ]
+  },
+  {
+    "lemma": "Kreide",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1330,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "chalk",
+        "example_de": "Die Kreide für die Tafel ist weg.",
+        "example_en": "The chalk for the board is gone."
+      }
+    ]
+  },
+  {
+    "lemma": "Klassenzimmer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1345,
+    "noun": {
+      "gender": "n",
+      "plural": "Klassenzimmer"
+    },
+    "senses": [
+      {
+        "en": "classroom",
+        "example_de": "Unser Klassenzimmer ist im ersten Stock.",
+        "example_en": "Our classroom is on the first floor."
+      }
+    ]
+  },
+  {
+    "lemma": "Schulhof",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1360,
+    "noun": {
+      "gender": "m",
+      "plural": "Schulhöfe"
+    },
+    "senses": [
+      {
+        "en": "schoolyard, playground",
+        "example_de": "In der Pause spielen wir auf dem Schulhof.",
+        "example_en": "During the break we play in the schoolyard."
+      }
+    ]
+  },
+  {
+    "lemma": "Turnhalle",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1375,
+    "noun": {
+      "gender": "f",
+      "plural": "Turnhallen"
+    },
+    "senses": [
+      {
+        "en": "gym, gymnasium (sports hall)",
+        "example_de": "Der Sportunterricht ist heute in der Turnhalle.",
+        "example_en": "PE class is in the gym today."
+      }
+    ]
+  },
+  {
+    "lemma": "Schulranzen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1390,
+    "noun": {
+      "gender": "m",
+      "plural": "Schulranzen"
+    },
+    "senses": [
+      {
+        "en": "school satchel, school bag",
+        "example_de": "Der Schulranzen ist heute sehr schwer.",
+        "example_en": "The school bag is very heavy today."
+      }
+    ]
+  },
+  {
+    "lemma": "Füller",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1405,
+    "noun": {
+      "gender": "m",
+      "plural": "Füller"
+    },
+    "senses": [
+      {
+        "en": "fountain pen",
+        "example_de": "In der Schule schreiben wir mit dem Füller.",
+        "example_en": "At school we write with a fountain pen."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Diese Füller schreiben sehr gut.",
+        "en": "These fountain pens write very well."
+      }
+    ]
+  },
+  {
+    "lemma": "Radiergummi",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1420,
+    "noun": {
+      "gender": "m",
+      "plural": "Radiergummis"
+    },
+    "senses": [
+      {
+        "en": "eraser, rubber",
+        "example_de": "Kannst du mir deinen Radiergummi geben?",
+        "example_en": "Can you give me your eraser?"
+      }
+    ]
+  },
+  {
+    "lemma": "Lineal",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1435,
+    "noun": {
+      "gender": "n",
+      "plural": "Lineale"
+    },
+    "senses": [
+      {
+        "en": "ruler (for drawing lines)",
+        "example_de": "Ich zeichne die Linie mit dem Lineal.",
+        "example_en": "I draw the line with the ruler."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir brauchen für Mathe zwei Lineale.",
+        "en": "We need two rulers for math."
+      }
+    ]
+  },
+  {
+    "lemma": "Mäppchen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": {
+      "gender": "n",
+      "plural": "Mäppchen"
+    },
+    "senses": [
+      {
+        "en": "pencil case",
+        "example_de": "Die Stifte sind in meinem Mäppchen.",
+        "example_en": "The pens are in my pencil case."
+      }
+    ]
+  },
+  {
+    "lemma": "Klassenarbeit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1465,
+    "noun": {
+      "gender": "f",
+      "plural": "Klassenarbeiten"
+    },
+    "senses": [
+      {
+        "en": "class test, written test (in school)",
+        "example_de": "Morgen schreiben wir eine Klassenarbeit in Deutsch.",
+        "example_en": "Tomorrow we are taking a class test in German."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir schreiben drei Klassenarbeiten pro Halbjahr.",
+        "en": "We take three class tests per half-year."
+      }
+    ]
+  },
+  {
+    "lemma": "Diktat",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1480,
+    "noun": {
+      "gender": "n",
+      "plural": "Diktate"
+    },
+    "senses": [
+      {
+        "en": "dictation (spelling exercise)",
+        "example_de": "Im Diktat hatte ich nur zwei Fehler.",
+        "example_en": "I only had two mistakes in the dictation."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir üben Diktate jede Woche.",
+        "en": "We practice dictations every week."
+      }
+    ]
+  },
+  {
+    "lemma": "Schulfach",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1495,
+    "noun": {
+      "gender": "n",
+      "plural": "Schulfächer"
+    },
+    "senses": [
+      {
+        "en": "school subject",
+        "example_de": "Mein liebstes Schulfach ist Musik.",
+        "example_en": "My favorite school subject is music."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Welche Schulfächer magst du?",
+        "en": "Which school subjects do you like?"
+      }
+    ]
+  },
+  {
+    "lemma": "Schuljahr",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1510,
+    "noun": {
+      "gender": "n",
+      "plural": "Schuljahre"
+    },
+    "senses": [
+      {
+        "en": "school year",
+        "example_de": "Das neue Schuljahr beginnt im September.",
+        "example_en": "The new school year starts in September."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die letzten zwei Schuljahre waren schwer.",
+        "en": "The last two school years were hard."
+      }
+    ]
+  },
+  {
+    "lemma": "Klassenfahrt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1525,
+    "noun": {
+      "gender": "f",
+      "plural": "Klassenfahrten"
+    },
+    "senses": [
+      {
+        "en": "class trip, school trip",
+        "example_de": "Unsere Klassenfahrt geht dieses Jahr nach Berlin.",
+        "example_en": "Our class trip goes to Berlin this year."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Klassenfahrten machen allen Spaß.",
+        "en": "Class trips are fun for everyone."
+      }
+    ]
+  },
+  {
+    "lemma": "Pausenbrot",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1540,
+    "noun": {
+      "gender": "n",
+      "plural": "Pausenbrote"
+    },
+    "senses": [
+      {
+        "en": "snack sandwich (for the school break)",
+        "example_de": "Mama macht mir jeden Morgen ein Pausenbrot.",
+        "example_en": "Mom makes me a break-time sandwich every morning."
+      }
+    ]
+  },
+  {
+    "lemma": "Mitschüler",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1555,
+    "noun": {
+      "gender": "m",
+      "plural": "Mitschüler"
+    },
+    "senses": [
+      {
+        "en": "classmate, fellow pupil",
+        "note": "weiblich: die Mitschülerin",
+        "example_de": "Ich helfe meinem Mitschüler bei den Hausaufgaben.",
+        "example_en": "I help my classmate with the homework."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Meine Mitschüler sind sehr nett.",
+        "en": "My classmates are very nice."
+      }
+    ]
+  },
+  {
+    "lemma": "Aufsatz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1570,
+    "noun": {
+      "gender": "m",
+      "plural": "Aufsätze"
+    },
+    "senses": [
+      {
+        "en": "essay, composition (in school)",
+        "example_de": "Wir schreiben heute einen Aufsatz über den Sommer.",
+        "example_en": "Today we are writing an essay about summer."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Unsere Aufsätze waren viel zu lang.",
+        "en": "Our essays were much too long."
+      }
+    ]
+  },
+  {
+    "lemma": "auswendig",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1590,
+    "senses": [
+      {
+        "en": "by heart, from memory",
+        "note": "auswendig lernen = to memorize",
+        "example_de": "Ich lerne das Gedicht auswendig.",
+        "example_en": "I am learning the poem by heart."
+      }
+    ]
+  },
+  {
+    "lemma": "benoten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1900,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "benotet"
+    },
+    "senses": [
+      {
+        "en": "to grade, to mark (schoolwork)",
+        "example_de": "Die Lehrerin benotet unsere Aufsätze heute.",
+        "example_en": "The teacher is grading our essays today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Lehrer benotet die Klassenarbeit streng.",
+        "en": "The teacher grades the class test strictly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie benotete alle Hefte am Wochenende.",
+        "en": "She graded all the notebooks over the weekend."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat den Test noch nicht benotet.",
+        "en": "He has not graded the test yet."
+      }
+    ]
+  },
+  {
+    "lemma": "schwänzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1935,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to skip (school, a class), to play truant",
+        "note": "umgangssprachlich",
+        "example_de": "Er schwänzt heute die Schule.",
+        "example_en": "He is skipping school today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie schwänzt oft den Unterricht.",
+        "en": "She often skips class."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er schwänzte früher oft den Sport.",
+        "en": "He often used to skip PE."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben gestern die letzte Stunde geschwänzt.",
+        "en": "We skipped the last lesson yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "versetzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1965,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "versetzt"
+    },
+    "senses": [
+      {
+        "en": "to move up (a pupil) to the next grade",
+        "note": "Schule: in die nächste Klasse versetzt werden",
+        "example_de": "Anna wird in die achte Klasse versetzt.",
+        "example_en": "Anna is being moved up to eighth grade."
+      },
+      {
+        "en": "to transfer (someone to another place)",
+        "example_de": "Die Firma versetzt ihn nach Hamburg.",
+        "example_en": "The company is transferring him to Hamburg."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Schule versetzt ihn trotz der schlechten Noten.",
+        "en": "The school moves him up despite the bad grades."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat alle Schüler versetzt.",
+        "en": "All pupils were moved up."
+      }
+    ]
+  },
+  {
+    "lemma": "Versetzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1995,
+    "noun": {
+      "gender": "f",
+      "plural": "Versetzungen"
+    },
+    "senses": [
+      {
+        "en": "promotion to the next grade (school)",
+        "example_de": "Seine Versetzung ist wegen der Noten in Gefahr.",
+        "example_en": "His promotion to the next grade is at risk because of his grades."
+      }
+    ]
+  },
+  {
+    "lemma": "abschreiben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2025,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab",
+      "praeteritum": "schrieb",
+      "partizip2": "abgeschrieben"
+    },
+    "senses": [
+      {
+        "en": "to copy (from someone), to crib",
+        "note": "trennbar: von + Dativ abschreiben",
+        "example_de": "Er schreibt die Hausaufgaben von mir ab.",
+        "example_en": "He copies the homework from me."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie schreibt in der Prüfung ab.",
+        "en": "She is cheating by copying in the exam."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Ich schrieb den Satz von der Tafel ab.",
+        "en": "I copied the sentence from the board."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Lösung vom Nachbarn abgeschrieben.",
+        "en": "He copied the answer from his neighbor."
+      },
+      {
+        "tag": "negation",
+        "de": "Schreib nicht bei mir ab!",
+        "en": "Don't copy from me!"
+      }
+    ]
+  },
+  {
+    "lemma": "nachsitzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2055,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "nach",
+      "praeteritum": "saß",
+      "partizip2": "nachgesessen"
+    },
+    "senses": [
+      {
+        "en": "to stay in detention (after school)",
+        "example_de": "Timo muss heute eine Stunde nachsitzen.",
+        "example_en": "Timo has to stay in detention for an hour today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er sitzt heute nach der Schule nach.",
+        "en": "He is staying in detention after school today."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat noch nie nachgesessen.",
+        "en": "She has never been in detention."
+      }
+    ]
+  },
+  {
+    "lemma": "pauken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2085,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to cram, to study hard",
+        "note": "umgangssprachlich",
+        "example_de": "Vor der Prüfung pauken wir jeden Abend.",
+        "example_en": "Before the exam we cram every evening."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie paukt Vokabeln für den Test.",
+        "en": "She is cramming vocabulary for the test."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er paukte die ganze Nacht Grammatik.",
+        "en": "He crammed grammar all night."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das ganze Wochenende gepaukt.",
+        "en": "I crammed all weekend."
+      }
+    ]
+  },
+  {
+    "lemma": "Spickzettel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2115,
+    "noun": {
+      "gender": "m",
+      "plural": "Spickzettel"
+    },
+    "senses": [
+      {
+        "en": "cheat sheet, crib note",
+        "example_de": "Der Lehrer findet den Spickzettel unter dem Heft.",
+        "example_en": "The teacher finds the cheat sheet under the notebook."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Spickzettel sind in Prüfungen verboten.",
+        "en": "Cheat sheets are forbidden in exams."
+      }
+    ]
+  },
+  {
+    "lemma": "Streber",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2145,
+    "noun": {
+      "gender": "m",
+      "plural": "Streber"
+    },
+    "senses": [
+      {
+        "en": "swot, teacher's pet (overly eager student)",
+        "note": "abwertend; weiblich: die Streberin",
+        "example_de": "Die anderen nennen ihn einen Streber.",
+        "example_en": "The others call him a swot."
+      }
+    ]
+  },
+  {
+    "lemma": "Direktor",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2175,
+    "noun": {
+      "gender": "m",
+      "plural": "Direktoren"
+    },
+    "senses": [
+      {
+        "en": "principal, headmaster; director",
+        "note": "weiblich: die Direktorin",
+        "example_de": "Der Direktor spricht heute mit unserer Klasse.",
+        "example_en": "The principal is speaking with our class today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Direktoren treffen sich einmal im Monat.",
+        "en": "The principals meet once a month."
+      }
+    ]
+  },
+  {
+    "lemma": "Hauptschule",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2205,
+    "noun": {
+      "gender": "f",
+      "plural": "Hauptschulen"
+    },
+    "senses": [
+      {
+        "en": "secondary general school (basic track in Germany)",
+        "note": "Schulform neben Realschule und Gymnasium",
+        "example_de": "Nach der Grundschule ging er auf die Hauptschule.",
+        "example_en": "After primary school he went to the Hauptschule."
+      }
+    ]
+  },
+  {
+    "lemma": "Elternabend",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2235,
+    "noun": {
+      "gender": "m",
+      "plural": "Elternabende"
+    },
+    "senses": [
+      {
+        "en": "parents' evening (at school)",
+        "example_de": "Am Donnerstag ist Elternabend in der Schule.",
+        "example_en": "On Thursday there is a parents' evening at school."
+      }
+    ]
+  },
+  {
+    "lemma": "Schulabschluss",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2265,
+    "noun": {
+      "gender": "m",
+      "plural": "Schulabschlüsse"
+    },
+    "senses": [
+      {
+        "en": "school-leaving qualification",
+        "example_de": "Ohne Schulabschluss findet man schwer eine Arbeit.",
+        "example_en": "Without a school-leaving qualification it is hard to find a job."
+      }
+    ]
+  },
+  {
+    "lemma": "Notendurchschnitt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2295,
+    "noun": {
+      "gender": "m",
+      "plural": "Notendurchschnitte"
+    },
+    "senses": [
+      {
+        "en": "grade average, GPA",
+        "example_de": "Für Medizin braucht man einen sehr guten Notendurchschnitt.",
+        "example_en": "For medicine you need a very good grade average."
+      }
+    ]
+  },
+  {
+    "lemma": "mündlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2325,
+    "senses": [
+      {
+        "en": "oral, spoken",
+        "example_de": "Die mündliche Prüfung dauert zwanzig Minuten.",
+        "example_en": "The oral exam lasts twenty minutes."
+      }
+    ]
+  },
+  {
+    "lemma": "schriftlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2355,
+    "senses": [
+      {
+        "en": "written, in writing",
+        "example_de": "Der schriftliche Test ist am Freitag.",
+        "example_en": "The written test is on Friday."
+      }
+    ]
+  },
+  {
+    "lemma": "Studium",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2385,
+    "noun": {
+      "gender": "n",
+      "plural": "Studien"
+    },
+    "senses": [
+      {
+        "en": "(university) studies, degree course",
+        "example_de": "Nach dem Studium will sie als Ärztin arbeiten.",
+        "example_en": "After her studies she wants to work as a doctor."
+      }
+    ]
+  },
+  {
+    "lemma": "Hörsaal",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2415,
+    "noun": {
+      "gender": "m",
+      "plural": "Hörsäle"
+    },
+    "senses": [
+      {
+        "en": "lecture hall",
+        "example_de": "Die Vorlesung findet im großen Hörsaal statt.",
+        "example_en": "The lecture takes place in the large lecture hall."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Hörsäle sind am Morgen voll.",
+        "en": "The lecture halls are full in the morning."
+      }
+    ]
+  },
+  {
+    "lemma": "Mensa",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2445,
+    "noun": {
+      "gender": "f",
+      "plural": "Mensen"
+    },
+    "senses": [
+      {
+        "en": "university cafeteria",
+        "example_de": "Mittags essen wir zusammen in der Mensa.",
+        "example_en": "At noon we eat together in the university cafeteria."
+      }
+    ]
+  },
+  {
+    "lemma": "Wohnheim",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2475,
+    "noun": {
+      "gender": "n",
+      "plural": "Wohnheime"
+    },
+    "senses": [
+      {
+        "en": "dormitory, hall of residence",
+        "note": "oft: Studentenwohnheim",
+        "example_de": "Im ersten Semester wohnt er im Wohnheim.",
+        "example_en": "In his first semester he lives in the dorm."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Wohnheime sind oft günstig.",
+        "en": "The dorms are often cheap."
+      }
+    ]
+  },
+  {
+    "lemma": "Bachelor",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2505,
+    "noun": {
+      "gender": "m",
+      "plural": "Bachelors"
+    },
+    "senses": [
+      {
+        "en": "bachelor's degree",
+        "note": "erster Abschluss, meist nach sechs Semestern",
+        "example_de": "Sie macht ihren Bachelor in Biologie.",
+        "example_en": "She is doing her bachelor's degree in biology."
+      }
+    ]
+  },
+  {
+    "lemma": "Master",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2535,
+    "noun": {
+      "gender": "m",
+      "plural": "Master"
+    },
+    "senses": [
+      {
+        "en": "master's degree",
+        "example_de": "Nach dem Bachelor beginnt er den Master.",
+        "example_en": "After the bachelor's he starts the master's degree."
+      }
+    ]
+  },
+  {
+    "lemma": "Semesterferien",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2565,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "semester break",
+        "note": "nur Plural",
+        "example_de": "In den Semesterferien arbeitet sie im Café.",
+        "example_en": "During the semester break she works at the café."
+      }
+    ]
+  },
+  {
+    "lemma": "mitschreiben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2590,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "mit",
+      "praeteritum": "schrieb",
+      "partizip2": "mitgeschrieben"
+    },
+    "senses": [
+      {
+        "en": "to take notes (during a lecture or class)",
+        "example_de": "In der Vorlesung schreibe ich alles mit.",
+        "example_en": "In the lecture I take notes on everything."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schreibt im Seminar immer mit.",
+        "en": "He always takes notes in the seminar."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schrieb jedes Wort mit.",
+        "en": "She wrote down every word."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe gestern leider nichts mitgeschrieben.",
+        "en": "Unfortunately I did not take any notes yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "Abgabe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2600,
+    "noun": {
+      "gender": "f",
+      "plural": "Abgaben"
+    },
+    "senses": [
+      {
+        "en": "submission, hand-in (of an assignment)",
+        "example_de": "Die Abgabe der Hausarbeit ist am Montag.",
+        "example_en": "The submission of the term paper is on Monday."
+      },
+      {
+        "en": "levy, duty (money paid to the state)",
+        "example_de": "Auf den Lohn zahlt man Steuern und Abgaben.",
+        "example_en": "One pays taxes and levies on wages."
+      }
+    ]
+  },
+  {
+    "lemma": "Kommilitone",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3000,
+    "noun": {
+      "gender": "m",
+      "plural": "Kommilitonen",
+      "genitive": "Kommilitonen"
+    },
+    "senses": [
+      {
+        "en": "fellow student (at university)",
+        "note": "schwaches Nomen; weiblich: die Kommilitonin",
+        "example_de": "Ein Kommilitone leiht mir seine Notizen.",
+        "example_en": "A fellow student lends me his notes."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Meine Kommilitonen lernen in der Bibliothek.",
+        "en": "My fellow students are studying in the library."
+      },
+      {
+        "tag": "akkusativ",
+        "de": "Ich frage einen Kommilitonen nach dem Termin.",
+        "en": "I ask a fellow student about the date."
+      }
+    ]
+  },
+  {
+    "lemma": "Campus",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3070,
+    "noun": {
+      "gender": "m",
+      "plural": "Campus",
+      "genitive": "Campus"
+    },
+    "senses": [
+      {
+        "en": "campus",
+        "example_de": "Die Mensa liegt mitten auf dem Campus.",
+        "example_en": "The cafeteria is in the middle of the campus."
+      }
+    ]
+  },
+  {
+    "lemma": "Institut",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3140,
+    "noun": {
+      "gender": "n",
+      "plural": "Institute"
+    },
+    "senses": [
+      {
+        "en": "institute (university department)",
+        "example_de": "Das Institut für Chemie sucht neue Mitarbeiter.",
+        "example_en": "The chemistry institute is looking for new staff."
+      }
+    ]
+  },
+  {
+    "lemma": "immatrikulieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3210,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "immatrikuliert"
+    },
+    "senses": [
+      {
+        "en": "to enroll, to matriculate (at a university)",
+        "note": "reflexiv: sich immatrikulieren (an + Dativ)",
+        "example_de": "Ich immatrikuliere mich an der Universität Köln.",
+        "example_en": "I am enrolling at the University of Cologne."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie immatrikuliert sich für Medizin.",
+        "en": "She is enrolling in medicine."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich letzte Woche immatrikuliert.",
+        "en": "He enrolled last week."
+      }
+    ]
+  },
+  {
+    "lemma": "exmatrikulieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3280,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "exmatrikuliert"
+    },
+    "senses": [
+      {
+        "en": "to deregister, to remove from the student register",
+        "note": "reflexiv: sich exmatrikulieren; oft passiv: exmatrikuliert werden",
+        "example_de": "Nach dem Abschluss exmatrikuliert er sich.",
+        "example_en": "After graduating he deregisters from the university."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie exmatrikuliert sich zum Ende des Semesters.",
+        "en": "She is deregistering at the end of the semester."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Uni hat ihn nach zehn Semestern exmatrikuliert.",
+        "en": "The university deregistered him after ten semesters."
+      }
+    ]
+  },
+  {
+    "lemma": "Tutorium",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3350,
+    "noun": {
+      "gender": "n",
+      "plural": "Tutorien"
+    },
+    "senses": [
+      {
+        "en": "tutorial (small practice class at university)",
+        "example_de": "Im Tutorium üben wir die Aufgaben aus der Vorlesung.",
+        "example_en": "In the tutorial we practice the exercises from the lecture."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Tutorien beginnen nächste Woche.",
+        "en": "The tutorials start next week."
+      }
+    ]
+  },
+  {
+    "lemma": "Skript",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3420,
+    "noun": {
+      "gender": "n",
+      "plural": "Skripte"
+    },
+    "senses": [
+      {
+        "en": "lecture notes, course handout",
+        "example_de": "Das Skript zur Vorlesung steht online.",
+        "example_en": "The lecture notes are available online."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ich drucke mir alle Skripte aus.",
+        "en": "I print out all the lecture notes."
+      }
+    ]
+  },
+  {
+    "lemma": "Erstsemester",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3490,
+    "noun": {
+      "gender": "n",
+      "plural": "Erstsemester"
+    },
+    "senses": [
+      {
+        "en": "first-year student, freshman",
+        "note": "auch für die Person: das Erstsemester",
+        "example_de": "Als Erstsemester kennt sie den Campus noch nicht.",
+        "example_en": "As a first-year student she does not know the campus yet."
+      }
+    ]
+  },
+  {
+    "lemma": "Studiengebühren",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3560,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "tuition fees",
+        "note": "nur Plural",
+        "example_de": "In Deutschland gibt es fast keine Studiengebühren.",
+        "example_en": "In Germany there are almost no tuition fees."
+      }
+    ]
+  },
+  {
+    "lemma": "promovieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3630,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "promoviert"
+    },
+    "senses": [
+      {
+        "en": "to do a doctorate, to earn a PhD",
+        "example_de": "Sie promoviert in Chemie.",
+        "example_en": "She is doing her doctorate in chemistry."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er promoviert an der Universität Wien.",
+        "en": "He is doing his doctorate at the University of Vienna."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat vor zwei Jahren promoviert.",
+        "en": "She earned her PhD two years ago."
+      }
+    ]
+  },
+  {
+    "lemma": "Promotion",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3700,
+    "noun": {
+      "gender": "f",
+      "plural": "Promotionen"
+    },
+    "senses": [
+      {
+        "en": "doctorate, PhD (process and degree)",
+        "note": "nicht Beförderung im Beruf — falscher Freund zu Englisch \"promotion\"",
+        "example_de": "Nach der Promotion arbeitet er in der Forschung.",
+        "example_en": "After his doctorate he works in research."
+      }
+    ]
+  },
+  {
+    "lemma": "Absolvent",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3770,
+    "noun": {
+      "gender": "m",
+      "plural": "Absolventen",
+      "genitive": "Absolventen"
+    },
+    "senses": [
+      {
+        "en": "graduate (of a school or university)",
+        "note": "schwaches Nomen; weiblich: die Absolventin",
+        "example_de": "Viele Absolventen finden schnell eine Stelle.",
+        "example_en": "Many graduates quickly find a job."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "dativ",
+        "de": "Die Firma bietet dem Absolventen einen Vertrag an.",
+        "en": "The company offers the graduate a contract."
+      }
+    ]
+  }
+]

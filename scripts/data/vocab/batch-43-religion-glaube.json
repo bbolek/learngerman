@@ -1,0 +1,1034 @@
+[
+  {
+    "lemma": "Religion",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": { "gender": "f", "plural": "Religionen" },
+    "senses": [
+      {
+        "en": "religion",
+        "example_de": "Jede Religion hat ihre eigenen Feste.",
+        "example_en": "Every religion has its own festivals."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In Deutschland gibt es viele verschiedene Religionen.",
+        "en": "There are many different religions in Germany."
+      }
+    ]
+  },
+  {
+    "lemma": "religiös",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1915,
+    "senses": [
+      {
+        "en": "religious",
+        "example_de": "Seine Familie ist sehr religiös.",
+        "example_en": "His family is very religious."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Es gibt religiöse und weltliche Feste.",
+        "en": "There are religious and secular festivals."
+      }
+    ]
+  },
+  {
+    "lemma": "Glaube",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1930,
+    "noun": { "gender": "m", "genitive": "Glaubens", "plural": null },
+    "senses": [
+      {
+        "en": "faith, belief",
+        "note": "der Glaube an + Akkusativ",
+        "example_de": "Der Glaube gibt ihr viel Kraft.",
+        "example_en": "Faith gives her a lot of strength."
+      }
+    ]
+  },
+  {
+    "lemma": "Gott",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1945,
+    "noun": { "gender": "m", "genitive": "Gottes", "plural": "Götter" },
+    "senses": [
+      {
+        "en": "god; God",
+        "example_de": "Viele Menschen glauben an Gott.",
+        "example_en": "Many people believe in God."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die alten Griechen hatten viele Götter.",
+        "en": "The ancient Greeks had many gods."
+      }
+    ]
+  },
+  {
+    "lemma": "beten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1960,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to pray",
+        "example_de": "Sie betet jeden Abend vor dem Schlafen.",
+        "example_en": "She prays every evening before sleeping."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er betet jeden Morgen in der Moschee.",
+        "en": "He prays in the mosque every morning."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie betete leise für ihre Familie.",
+        "en": "She prayed quietly for her family."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben gemeinsam gebetet.",
+        "en": "We prayed together."
+      }
+    ]
+  },
+  {
+    "lemma": "Gebet",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1975,
+    "noun": { "gender": "n", "plural": "Gebete" },
+    "senses": [
+      {
+        "en": "prayer",
+        "example_de": "Das Gebet dauert nur wenige Minuten.",
+        "example_en": "The prayer takes only a few minutes."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Islam gibt es fünf Gebete am Tag.",
+        "en": "In Islam there are five prayers a day."
+      }
+    ]
+  },
+  {
+    "lemma": "Bibel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1990,
+    "noun": { "gender": "f", "plural": "Bibeln" },
+    "senses": [
+      {
+        "en": "Bible",
+        "example_de": "Die Bibel ist das heilige Buch der Christen.",
+        "example_en": "The Bible is the holy book of Christians."
+      }
+    ]
+  },
+  {
+    "lemma": "Koran",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2005,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "Quran",
+        "example_de": "Der Koran ist das heilige Buch des Islams.",
+        "example_en": "The Quran is the holy book of Islam."
+      }
+    ]
+  },
+  {
+    "lemma": "Moschee",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2020,
+    "noun": { "gender": "f", "plural": "Moscheen" },
+    "senses": [
+      {
+        "en": "mosque",
+        "example_de": "Freitags gehen viele Muslime in die Moschee.",
+        "example_en": "On Fridays many Muslims go to the mosque."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In Berlin gibt es viele Moscheen.",
+        "en": "There are many mosques in Berlin."
+      }
+    ]
+  },
+  {
+    "lemma": "Synagoge",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2035,
+    "noun": { "gender": "f", "plural": "Synagogen" },
+    "senses": [
+      {
+        "en": "synagogue",
+        "example_de": "Am Samstag geht die Familie in die Synagoge.",
+        "example_en": "On Saturday the family goes to the synagogue."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In der Stadt gibt es zwei Synagogen.",
+        "en": "There are two synagogues in the city."
+      }
+    ]
+  },
+  {
+    "lemma": "Tempel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": { "gender": "m", "plural": "Tempel" },
+    "senses": [
+      {
+        "en": "temple",
+        "example_de": "Der Tempel ist über tausend Jahre alt.",
+        "example_en": "The temple is over a thousand years old."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In Asien haben wir viele Tempel besucht.",
+        "en": "In Asia we visited many temples."
+      }
+    ]
+  },
+  {
+    "lemma": "Gottesdienst",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2065,
+    "noun": { "gender": "m", "genitive": "Gottesdienstes", "plural": "Gottesdienste" },
+    "senses": [
+      {
+        "en": "church service, worship service",
+        "example_de": "Der Gottesdienst beginnt am Sonntag um zehn Uhr.",
+        "example_en": "The church service starts on Sunday at ten o'clock."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "An Feiertagen gibt es mehrere Gottesdienste.",
+        "en": "On holidays there are several services."
+      }
+    ]
+  },
+  {
+    "lemma": "Gemeinde",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2080,
+    "noun": { "gender": "f", "plural": "Gemeinden" },
+    "senses": [
+      {
+        "en": "congregation, religious community",
+        "example_de": "Die Gemeinde singt gemeinsam ein Lied.",
+        "example_en": "The congregation sings a song together."
+      },
+      {
+        "en": "municipality, local community",
+        "example_de": "Unsere Gemeinde baut einen neuen Spielplatz.",
+        "example_en": "Our municipality is building a new playground."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Beide Gemeinden feiern das Fest zusammen.",
+        "en": "Both congregations celebrate the festival together."
+      }
+    ]
+  },
+  {
+    "lemma": "Pfarrer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2095,
+    "noun": { "gender": "m", "plural": "Pfarrer" },
+    "senses": [
+      {
+        "en": "pastor, parish priest",
+        "example_de": "Der Pfarrer spricht nach dem Gottesdienst mit der Familie.",
+        "example_en": "The pastor talks with the family after the service."
+      }
+    ]
+  },
+  {
+    "lemma": "Mönch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2110,
+    "noun": { "gender": "m", "plural": "Mönche" },
+    "senses": [
+      {
+        "en": "monk",
+        "example_de": "Der Mönch lebt seit vielen Jahren im Kloster.",
+        "example_en": "The monk has lived in the monastery for many years."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Mönche leben einfach und still.",
+        "en": "The monks live simply and quietly."
+      }
+    ]
+  },
+  {
+    "lemma": "Nonne",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2125,
+    "noun": { "gender": "f", "plural": "Nonnen" },
+    "senses": [
+      {
+        "en": "nun",
+        "example_de": "Die Nonne arbeitet in einem Krankenhaus.",
+        "example_en": "The nun works in a hospital."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Nonnen arbeiten im Garten des Klosters.",
+        "en": "The nuns work in the monastery garden."
+      }
+    ]
+  },
+  {
+    "lemma": "Kloster",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2140,
+    "noun": { "gender": "n", "plural": "Klöster" },
+    "senses": [
+      {
+        "en": "monastery, convent",
+        "example_de": "Das Kloster liegt ruhig in den Bergen.",
+        "example_en": "The monastery lies quietly in the mountains."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Viele alte Klöster sind heute Museen.",
+        "en": "Many old monasteries are museums today."
+      }
+    ]
+  },
+  {
+    "lemma": "Taufe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2155,
+    "noun": { "gender": "f", "plural": "Taufen" },
+    "senses": [
+      {
+        "en": "baptism, christening",
+        "example_de": "Die ganze Familie kommt zur Taufe.",
+        "example_en": "The whole family is coming to the baptism."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In unserer Gemeinde gibt es viele Taufen.",
+        "en": "There are many baptisms in our congregation."
+      }
+    ]
+  },
+  {
+    "lemma": "taufen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2170,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to baptize, to christen",
+        "example_de": "Der Pfarrer tauft das Baby am Sonntag.",
+        "example_en": "The pastor is baptizing the baby on Sunday."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Pfarrer tauft heute zwei Kinder.",
+        "en": "The pastor is baptizing two children today."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Man taufte das Kind in der alten Kirche.",
+        "en": "The child was baptized in the old church."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Pfarrer hat das Baby getauft.",
+        "en": "The pastor baptized the baby."
+      }
+    ]
+  },
+  {
+    "lemma": "Beerdigung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2185,
+    "noun": { "gender": "f", "plural": "Beerdigungen" },
+    "senses": [
+      {
+        "en": "funeral, burial",
+        "example_de": "Viele Freunde kamen zur Beerdigung.",
+        "example_en": "Many friends came to the funeral."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Beerdigungen finden meist auf dem Friedhof statt.",
+        "en": "Funerals usually take place at the cemetery."
+      }
+    ]
+  },
+  {
+    "lemma": "Friedhof",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "m", "plural": "Friedhöfe" },
+    "senses": [
+      {
+        "en": "cemetery, graveyard",
+        "example_de": "Der Friedhof liegt am Rand der Stadt.",
+        "example_en": "The cemetery is on the edge of the town."
+      }
+    ]
+  },
+  {
+    "lemma": "Grab",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2215,
+    "noun": { "gender": "n", "genitive": "Grabes", "plural": "Gräber" },
+    "senses": [
+      {
+        "en": "grave",
+        "example_de": "Sie legt Blumen auf das Grab.",
+        "example_en": "She puts flowers on the grave."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Auf dem Friedhof gibt es viele alte Gräber.",
+        "en": "There are many old graves in the cemetery."
+      }
+    ]
+  },
+  {
+    "lemma": "Seele",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2230,
+    "noun": { "gender": "f", "plural": "Seelen" },
+    "senses": [
+      {
+        "en": "soul",
+        "example_de": "Viele Religionen sagen, die Seele lebt weiter.",
+        "example_en": "Many religions say the soul lives on."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In manchen Religionen wandern die Seelen weiter.",
+        "en": "In some religions souls move on."
+      }
+    ]
+  },
+  {
+    "lemma": "Hölle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2245,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "hell",
+        "example_de": "In vielen Religionen ist die Hölle ein Ort der Strafe.",
+        "example_en": "In many religions hell is a place of punishment."
+      }
+    ]
+  },
+  {
+    "lemma": "Paradies",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2260,
+    "noun": { "gender": "n", "plural": "Paradiese" },
+    "senses": [
+      {
+        "en": "paradise",
+        "example_de": "Das Paradies ist in vielen Religionen ein schöner Ort.",
+        "example_en": "In many religions paradise is a beautiful place."
+      }
+    ]
+  },
+  {
+    "lemma": "Sünde",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2275,
+    "noun": { "gender": "f", "plural": "Sünden" },
+    "senses": [
+      {
+        "en": "sin",
+        "example_de": "In vielen Religionen gilt Lügen als Sünde.",
+        "example_en": "In many religions lying counts as a sin."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Er denkt über seine Sünden nach.",
+        "en": "He is reflecting on his sins."
+      }
+    ]
+  },
+  {
+    "lemma": "Segen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2290,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "blessing",
+        "example_de": "Der Pfarrer gibt dem Paar den Segen.",
+        "example_en": "The pastor gives the couple the blessing."
+      }
+    ]
+  },
+  {
+    "lemma": "segnen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2305,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to bless",
+        "example_de": "Am Ende segnet der Pfarrer die Gemeinde.",
+        "example_en": "At the end the pastor blesses the congregation."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Pfarrer segnet die Kinder.",
+        "en": "The pastor blesses the children."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er segnete das Brot vor dem Essen.",
+        "en": "He blessed the bread before the meal."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Pfarrer hat das neue Haus gesegnet.",
+        "en": "The pastor blessed the new house."
+      }
+    ]
+  },
+  {
+    "lemma": "heilig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2320,
+    "senses": [
+      {
+        "en": "holy, sacred",
+        "example_de": "Der Sonntag ist für viele Christen ein heiliger Tag.",
+        "example_en": "For many Christians Sunday is a holy day."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Diese Stadt ist für drei Religionen heilig.",
+        "en": "This city is sacred to three religions."
+      }
+    ]
+  },
+  {
+    "lemma": "Wunder",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2335,
+    "noun": { "gender": "n", "plural": "Wunder" },
+    "senses": [
+      {
+        "en": "miracle, wonder",
+        "example_de": "Für die Eltern war die Geburt ein Wunder.",
+        "example_en": "For the parents the birth was a miracle."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Bibel erzählt von vielen Wundern.",
+        "en": "The Bible tells of many miracles."
+      }
+    ]
+  },
+  {
+    "lemma": "Teufel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "m", "plural": "Teufel" },
+    "senses": [
+      {
+        "en": "devil",
+        "example_de": "In vielen Geschichten ist der Teufel böse.",
+        "example_en": "In many stories the devil is evil."
+      }
+    ]
+  },
+  {
+    "lemma": "ewig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2365,
+    "senses": [
+      {
+        "en": "eternal, everlasting",
+        "example_de": "Viele Religionen sprechen von ewigem Leben.",
+        "example_en": "Many religions speak of eternal life."
+      },
+      {
+        "en": "forever, for ages",
+        "note": "umgangssprachlich, als Adverb",
+        "example_de": "Der Bus kommt heute mal wieder ewig nicht.",
+        "example_en": "Once again the bus is taking forever today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Nichts auf der Welt ist ewig.",
+        "en": "Nothing in the world is eternal."
+      }
+    ]
+  },
+  {
+    "lemma": "Schicksal",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2380,
+    "noun": { "gender": "n", "plural": "Schicksale" },
+    "senses": [
+      {
+        "en": "fate, destiny",
+        "example_de": "Sie glaubt fest an das Schicksal.",
+        "example_en": "She firmly believes in fate."
+      }
+    ]
+  },
+  {
+    "lemma": "Gewissen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2395,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "conscience",
+        "note": "ein gutes/schlechtes Gewissen haben",
+        "example_de": "Nach der Lüge hat er ein schlechtes Gewissen.",
+        "example_en": "After the lie he has a guilty conscience."
+      }
+    ]
+  },
+  {
+    "lemma": "moralisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2410,
+    "senses": [
+      {
+        "en": "moral, ethical",
+        "example_de": "Das ist für mich eine moralische Frage.",
+        "example_en": "For me that is a moral question."
+      }
+    ]
+  },
+  {
+    "lemma": "evangelisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2425,
+    "senses": [
+      {
+        "en": "Protestant (Lutheran)",
+        "example_de": "Sie ist evangelisch, ihr Mann ist katholisch.",
+        "example_en": "She is Protestant, her husband is Catholic."
+      }
+    ]
+  },
+  {
+    "lemma": "katholisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2440,
+    "senses": [
+      {
+        "en": "Catholic",
+        "example_de": "Viele Menschen in Bayern sind katholisch.",
+        "example_en": "Many people in Bavaria are Catholic."
+      }
+    ]
+  },
+  {
+    "lemma": "Christentum",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2455,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "Christianity",
+        "example_de": "Das Christentum ist die größte Religion der Welt.",
+        "example_en": "Christianity is the largest religion in the world."
+      }
+    ]
+  },
+  {
+    "lemma": "Islam",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2470,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "Islam",
+        "example_de": "Der Islam ist die zweitgrößte Religion der Welt.",
+        "example_en": "Islam is the second-largest religion in the world."
+      }
+    ]
+  },
+  {
+    "lemma": "fasten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2485,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to fast",
+        "example_de": "Viele Muslime fasten im Ramadan.",
+        "example_en": "Many Muslims fast during Ramadan."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie fastet von morgens bis abends.",
+        "en": "She fasts from morning until evening."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Früher fasteten viele Christen vor Ostern.",
+        "en": "In the past many Christians fasted before Easter."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat einen ganzen Monat gefastet.",
+        "en": "He fasted for a whole month."
+      }
+    ]
+  },
+  {
+    "lemma": "Theologie",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3000,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "theology",
+        "example_de": "Er studiert Theologie an der Universität.",
+        "example_en": "He is studying theology at the university."
+      }
+    ]
+  },
+  {
+    "lemma": "Philosophie",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3060,
+    "noun": { "gender": "f", "plural": "Philosophien" },
+    "senses": [
+      {
+        "en": "philosophy",
+        "example_de": "Die Philosophie fragt nach dem Sinn des Lebens.",
+        "example_en": "Philosophy asks about the meaning of life."
+      }
+    ]
+  },
+  {
+    "lemma": "Philosoph",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3120,
+    "noun": { "gender": "m", "genitive": "Philosophen", "plural": "Philosophen" },
+    "senses": [
+      {
+        "en": "philosopher",
+        "note": "schwaches Maskulinum: den/dem/des Philosophen",
+        "example_de": "Sokrates war ein griechischer Philosoph.",
+        "example_en": "Socrates was a Greek philosopher."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die griechischen Philosophen sind bis heute wichtig.",
+        "en": "The Greek philosophers are important to this day."
+      }
+    ]
+  },
+  {
+    "lemma": "philosophisch",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3180,
+    "senses": [
+      {
+        "en": "philosophical",
+        "example_de": "Was ist Glück? Das ist eine philosophische Frage.",
+        "example_en": "What is happiness? That is a philosophical question."
+      }
+    ]
+  },
+  {
+    "lemma": "Ethik",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3240,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "ethics",
+        "note": "auch Schulfach als Alternative zum Religionsunterricht",
+        "example_de": "In der Schule hat sie das Fach Ethik.",
+        "example_en": "At school she takes the subject ethics."
+      }
+    ]
+  },
+  {
+    "lemma": "Weltanschauung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": { "gender": "f", "plural": "Weltanschauungen" },
+    "senses": [
+      {
+        "en": "worldview",
+        "example_de": "Jeder Mensch hat seine eigene Weltanschauung.",
+        "example_en": "Every person has their own worldview."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In der Klasse treffen viele Weltanschauungen aufeinander.",
+        "en": "Many worldviews meet in the class."
+      }
+    ]
+  },
+  {
+    "lemma": "Atheist",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3360,
+    "noun": { "gender": "m", "genitive": "Atheisten", "plural": "Atheisten" },
+    "senses": [
+      {
+        "en": "atheist",
+        "note": "schwaches Maskulinum: den/dem/des Atheisten",
+        "example_de": "Als Atheist glaubt er an keinen Gott.",
+        "example_en": "As an atheist he does not believe in any god."
+      }
+    ]
+  },
+  {
+    "lemma": "Konfession",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3420,
+    "noun": { "gender": "f", "plural": "Konfessionen" },
+    "senses": [
+      {
+        "en": "denomination, religious affiliation",
+        "note": "z. B. evangelisch oder katholisch",
+        "example_de": "Auf dem Formular steht eine Frage zur Konfession.",
+        "example_en": "There is a question about denomination on the form."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In Deutschland gibt es zwei große christliche Konfessionen.",
+        "en": "In Germany there are two large Christian denominations."
+      }
+    ]
+  },
+  {
+    "lemma": "Buddhismus",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3480,
+    "noun": { "gender": "m", "genitive": "Buddhismus", "plural": null },
+    "senses": [
+      {
+        "en": "Buddhism",
+        "example_de": "Der Buddhismus kommt ursprünglich aus Indien.",
+        "example_en": "Buddhism originally comes from India."
+      }
+    ]
+  },
+  {
+    "lemma": "Rabbiner",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3540,
+    "noun": { "gender": "m", "plural": "Rabbiner" },
+    "senses": [
+      {
+        "en": "rabbi",
+        "example_de": "Der Rabbiner leitet den Gottesdienst in der Synagoge.",
+        "example_en": "The rabbi leads the service in the synagogue."
+      }
+    ]
+  },
+  {
+    "lemma": "Imam",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3600,
+    "noun": { "gender": "m", "plural": "Imame" },
+    "senses": [
+      {
+        "en": "imam",
+        "example_de": "Der Imam leitet das Gebet in der Moschee.",
+        "example_en": "The imam leads the prayer in the mosque."
+      }
+    ]
+  },
+  {
+    "lemma": "pilgern",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3660,
+    "verb": { "aux": "sein" },
+    "senses": [
+      {
+        "en": "to go on a pilgrimage",
+        "example_de": "Sie pilgert im Sommer nach Santiago.",
+        "example_en": "She is going on a pilgrimage to Santiago in the summer."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Jedes Jahr pilgern Tausende nach Mekka.",
+        "en": "Every year thousands make the pilgrimage to Mecca."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Im Mittelalter pilgerten viele Menschen nach Rom.",
+        "en": "In the Middle Ages many people went on pilgrimages to Rome."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er ist zu Fuß nach Jerusalem gepilgert.",
+        "en": "He made the pilgrimage to Jerusalem on foot."
+      }
+    ]
+  },
+  {
+    "lemma": "Wallfahrt",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3720,
+    "noun": { "gender": "f", "plural": "Wallfahrten" },
+    "senses": [
+      {
+        "en": "pilgrimage",
+        "example_de": "Die Wallfahrt führt zu einer alten Kirche.",
+        "example_en": "The pilgrimage leads to an old church."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wallfahrten haben in Bayern eine lange Tradition.",
+        "en": "Pilgrimages have a long tradition in Bavaria."
+      }
+    ]
+  },
+  {
+    "lemma": "göttlich",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3780,
+    "senses": [
+      {
+        "en": "divine",
+        "example_de": "In alten Geschichten haben Könige göttliche Kräfte.",
+        "example_en": "In old stories kings have divine powers."
+      }
+    ]
+  },
+  {
+    "lemma": "Aberglaube",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3840,
+    "noun": { "gender": "m", "genitive": "Aberglaubens", "plural": null },
+    "senses": [
+      {
+        "en": "superstition",
+        "example_de": "Eine schwarze Katze bringt Unglück? Das ist Aberglaube.",
+        "example_en": "A black cat brings bad luck? That is superstition."
+      }
+    ]
+  }
+]

@@ -10,7 +10,7 @@ pairs across files fail the build.
 {
   "lemma": "machen",          // dictionary form; nouns capitalized
   "pos": "verb",              // verb|noun|adj|adv|prep|pron|conj|num|other
-  "level": "A1",              // A1|A2|B1
+  "level": "A1",              // A1|A2|B1|B2|C1
   "freq": 8,                  // approximate frequency rank (1 = most common)
   "verb": { ... },            // required for pos=verb
   "noun": { ... },            // required for pos=noun
@@ -78,10 +78,28 @@ Rules:
   network; the build fails loudly if the file is missing.
 - Only map words whose meaning the picture shows **unambiguously** (concrete
   nouns, mostly A1/A2). When two candidates compete for one emoji, the more
-  concrete/common word wins; abstract words stay imageless on purpose.
+  concrete/common word wins; abstract words stay imageless on purpose. Never
+  map two lemmas to the same emoji/icon — the Bilderrätsel game would show
+  one picture with two valid answers.
 - The SVG text ships inside the DB (`lemma_images` content table) and is
   covered by the content hash, so image changes reach installed apps via the
   normal in-place content update.
+
+Besides Noto emoji, entries can reference other vendored icon sets via
+`icon` + `source` instead of `emoji`:
+
+```jsonc
+[{ "lemma": "Stethoskop", "pos": "noun",
+   "icon": "filled/devices/stethoscope", "source": "healthicons" }]
+```
+
+- `source` names a vendor dir under `scripts/data/images/<source>/`; the icon
+  path resolves to `<source>/<icon>.svg`. Known sources: `noto` (emoji,
+  OFL/Apache-2.0), `healthicons` ([healthicons.org](https://healthicons.org),
+  MIT — medical/hospital objects that have no emoji).
+- Monochrome sets must draw with `fill="currentColor"` — the app tints them
+  at render time with the tile's gender foreground so dark mode works.
+  Health Icons "filled" variants already do this.
 For pronouns list case forms in `note` (`"mich (Akk.) · mir (Dat.)"`).
 
 ### Form examples (`examples`, optional)
@@ -107,7 +125,9 @@ plural example. The sentence MUST actually use the tagged form of the lemma.
 
 ## Style rules
 
-- Example sentences use ONLY A1-level vocabulary, ≤ 8 words where possible.
+- Example sentences use vocabulary at or below the entry's level (A1/A2
+  entries: A1 only), ≤ 8 words where possible; B2/C1 examples may run longer
+  but keep the surrounding words simpler than the headword.
 - Glosses are lowercase except proper nouns; verbs start with "to".
 - `freq`: rough rank within the whole seed dictionary (1–3000); don't agonize.
 - German spelling: ß/ä/ö/ü used properly (no ASCII folding in content).

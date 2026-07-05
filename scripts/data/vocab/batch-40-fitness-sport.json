@@ -1,0 +1,1076 @@
+[
+  {
+    "lemma": "Fitnessstudio",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1310,
+    "noun": { "gender": "n", "plural": "Fitnessstudios" },
+    "senses": [
+      {
+        "en": "gym, fitness studio",
+        "example_de": "Ich gehe zweimal pro Woche ins Fitnessstudio.",
+        "example_en": "I go to the gym twice a week."
+      }
+    ]
+  },
+  {
+    "lemma": "Training",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1325,
+    "noun": { "gender": "n", "plural": "Trainings" },
+    "senses": [
+      {
+        "en": "training, workout",
+        "example_de": "Das Training beginnt um sieben Uhr.",
+        "example_en": "The training starts at seven o'clock."
+      }
+    ]
+  },
+  {
+    "lemma": "Übung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1340,
+    "noun": { "gender": "f", "plural": "Übungen" },
+    "senses": [
+      {
+        "en": "exercise, practice",
+        "example_de": "Diese Übung ist gut für den Rücken.",
+        "example_en": "This exercise is good for the back."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir machen heute drei neue Übungen.",
+        "en": "We are doing three new exercises today."
+      }
+    ]
+  },
+  {
+    "lemma": "Bewegung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1355,
+    "noun": { "gender": "f", "plural": "Bewegungen" },
+    "senses": [
+      {
+        "en": "movement, exercise (physical activity)",
+        "example_de": "Bewegung ist wichtig für die Gesundheit.",
+        "example_en": "Exercise is important for your health."
+      }
+    ]
+  },
+  {
+    "lemma": "Kraft",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1370,
+    "noun": { "gender": "f", "plural": "Kräfte" },
+    "senses": [
+      {
+        "en": "strength, power",
+        "example_de": "Für diese Übung braucht man viel Kraft.",
+        "example_en": "You need a lot of strength for this exercise."
+      }
+    ]
+  },
+  {
+    "lemma": "Muskel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1385,
+    "noun": { "gender": "m", "plural": "Muskeln" },
+    "senses": [
+      {
+        "en": "muscle",
+        "example_de": "Nach dem Sport tut mir jeder Muskel weh.",
+        "example_en": "After sports every muscle hurts."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Er hat starke Muskeln in den Armen.",
+        "en": "He has strong muscles in his arms."
+      }
+    ]
+  },
+  {
+    "lemma": "Gewicht",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "n", "plural": "Gewichte" },
+    "senses": [
+      {
+        "en": "weight",
+        "example_de": "Das Gewicht ist zu schwer für mich.",
+        "example_en": "The weight is too heavy for me."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Studio liegen viele schwere Gewichte.",
+        "en": "There are many heavy weights in the gym."
+      }
+    ]
+  },
+  {
+    "lemma": "Hantel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1420,
+    "noun": { "gender": "f", "plural": "Hanteln" },
+    "senses": [
+      {
+        "en": "dumbbell, barbell",
+        "example_de": "Er hebt die Hantel über den Kopf.",
+        "example_en": "He lifts the dumbbell over his head."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Hanteln liegen neben der Bank.",
+        "en": "The dumbbells are lying next to the bench."
+      }
+    ]
+  },
+  {
+    "lemma": "Laufband",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1440,
+    "noun": { "gender": "n", "plural": "Laufbänder" },
+    "senses": [
+      {
+        "en": "treadmill",
+        "example_de": "Sie läuft eine halbe Stunde auf dem Laufband.",
+        "example_en": "She runs on the treadmill for half an hour."
+      }
+    ]
+  },
+  {
+    "lemma": "Matte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1460,
+    "noun": { "gender": "f", "plural": "Matten" },
+    "senses": [
+      {
+        "en": "mat (exercise mat)",
+        "example_de": "Leg dich auf die Matte!",
+        "example_en": "Lie down on the mat!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die blauen Matten liegen in der Ecke.",
+        "en": "The blue mats are lying in the corner."
+      }
+    ]
+  },
+  {
+    "lemma": "Umkleide",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1480,
+    "noun": { "gender": "f", "plural": "Umkleiden" },
+    "senses": [
+      {
+        "en": "changing room, locker room",
+        "example_de": "Die Umkleide für Frauen ist links.",
+        "example_en": "The women's changing room is on the left."
+      }
+    ]
+  },
+  {
+    "lemma": "Sporttasche",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "f", "plural": "Sporttaschen" },
+    "senses": [
+      {
+        "en": "sports bag, gym bag",
+        "example_de": "Meine Sporttasche steht schon an der Tür.",
+        "example_en": "My gym bag is already at the door."
+      }
+    ]
+  },
+  {
+    "lemma": "Sportschuh",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1520,
+    "noun": { "gender": "m", "plural": "Sportschuhe" },
+    "senses": [
+      {
+        "en": "sports shoe, trainer",
+        "example_de": "Ohne Sportschuhe darfst du hier nicht trainieren.",
+        "example_en": "You are not allowed to train here without sports shoes."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ich habe mir neue Sportschuhe gekauft.",
+        "en": "I bought myself new sports shoes."
+      }
+    ]
+  },
+  {
+    "lemma": "Trinkflasche",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1540,
+    "noun": { "gender": "f", "plural": "Trinkflaschen" },
+    "senses": [
+      {
+        "en": "water bottle, drinking bottle",
+        "example_de": "Vergiss deine Trinkflasche nicht!",
+        "example_en": "Don't forget your water bottle!"
+      }
+    ]
+  },
+  {
+    "lemma": "Fitness",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "fitness (physical condition)",
+        "example_de": "Er macht viel für seine Fitness.",
+        "example_en": "He does a lot for his fitness."
+      }
+    ]
+  },
+  {
+    "lemma": "Yoga",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1580,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "yoga",
+        "example_de": "Am Montag mache ich immer Yoga.",
+        "example_en": "On Mondays I always do yoga."
+      }
+    ]
+  },
+  {
+    "lemma": "Schweiß",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "sweat",
+        "example_de": "Nach dem Laufen ist sein Hemd voller Schweiß.",
+        "example_en": "After running his shirt is full of sweat."
+      }
+    ]
+  },
+  {
+    "lemma": "Fett",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1620,
+    "noun": { "gender": "n", "plural": "Fette" },
+    "senses": [
+      {
+        "en": "fat",
+        "example_de": "Beim Sport verliert der Körper Fett.",
+        "example_en": "During sports the body loses fat."
+      }
+    ]
+  },
+  {
+    "lemma": "dehnen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1645,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to stretch",
+        "note": "reflexiv: sich dehnen",
+        "example_de": "Nach dem Training dehne ich mich immer.",
+        "example_en": "After training I always stretch."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie dehnt ihre Beine vor dem Laufen.",
+        "en": "She stretches her legs before running."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir dehnten uns nach dem Kurs.",
+        "en": "We stretched after the class."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du dich heute schon gedehnt?",
+        "en": "Have you already stretched today?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Dehn dich langsam und ruhig!",
+        "en": "Stretch slowly and calmly!"
+      }
+    ]
+  },
+  {
+    "lemma": "strecken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1665,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to stretch (out), to extend",
+        "note": "auch reflexiv: sich strecken",
+        "example_de": "Streck die Arme nach oben!",
+        "example_en": "Stretch your arms upwards!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er streckt die Beine unter dem Tisch.",
+        "en": "He stretches his legs under the table."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Katze streckte sich in der Sonne.",
+        "en": "The cat stretched in the sun."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Rücken gestreckt.",
+        "en": "I stretched my back."
+      }
+    ]
+  },
+  {
+    "lemma": "anstrengen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1690,
+    "verb": { "aux": "haben", "separablePrefix": "an" },
+    "senses": [
+      {
+        "en": "to make an effort, to exert oneself",
+        "note": "reflexiv, trennbar: sich anstrengen",
+        "example_de": "Du musst dich beim Training mehr anstrengen.",
+        "example_en": "You have to make more of an effort during training."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie strengt sich bei jeder Übung an.",
+        "en": "She makes an effort in every exercise."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er strengte sich im Kurs sehr an.",
+        "en": "He tried very hard in the class."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns heute richtig angestrengt.",
+        "en": "We really exerted ourselves today."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Streng dich noch ein bisschen an!",
+        "en": "Try a little harder!"
+      }
+    ]
+  },
+  {
+    "lemma": "Mitgliedschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1910,
+    "noun": { "gender": "f", "plural": "Mitgliedschaften" },
+    "senses": [
+      {
+        "en": "membership",
+        "example_de": "Die Mitgliedschaft im Studio kostet dreißig Euro.",
+        "example_en": "Membership at the gym costs thirty euros."
+      }
+    ]
+  },
+  {
+    "lemma": "Mitgliedsbeitrag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1935,
+    "noun": { "gender": "m", "plural": "Mitgliedsbeiträge" },
+    "senses": [
+      {
+        "en": "membership fee",
+        "example_de": "Der Mitgliedsbeitrag wird jeden Monat bezahlt.",
+        "example_en": "The membership fee is paid every month."
+      }
+    ]
+  },
+  {
+    "lemma": "Probetraining",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1960,
+    "noun": { "gender": "n", "plural": "Probetrainings" },
+    "senses": [
+      {
+        "en": "trial workout, trial training session",
+        "example_de": "Das erste Probetraining ist bei uns kostenlos.",
+        "example_en": "The first trial workout is free with us."
+      }
+    ]
+  },
+  {
+    "lemma": "Trainingsplan",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1985,
+    "noun": { "gender": "m", "plural": "Trainingspläne" },
+    "senses": [
+      {
+        "en": "training plan, workout plan",
+        "example_de": "Der Trainer schreibt mir einen neuen Trainingsplan.",
+        "example_en": "The trainer is writing me a new training plan."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Für Anfänger gibt es einfache Trainingspläne.",
+        "en": "There are simple training plans for beginners."
+      }
+    ]
+  },
+  {
+    "lemma": "Krafttraining",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "strength training, weight training",
+        "example_de": "Krafttraining macht die Muskeln stärker.",
+        "example_en": "Strength training makes the muscles stronger."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausdauertraining",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2035,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "endurance training, cardio training",
+        "example_de": "Ausdauertraining ist gut für das Herz.",
+        "example_en": "Endurance training is good for the heart."
+      }
+    ]
+  },
+  {
+    "lemma": "Wiederholung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2060,
+    "noun": { "gender": "f", "plural": "Wiederholungen" },
+    "senses": [
+      {
+        "en": "repetition, rep",
+        "example_de": "Mach zehn Wiederholungen mit leichtem Gewicht.",
+        "example_en": "Do ten repetitions with a light weight."
+      },
+      {
+        "en": "repeat, rerun",
+        "example_de": "Im Fernsehen läuft nur eine Wiederholung.",
+        "example_en": "Only a rerun is on TV."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Drei Sätze mit zwölf Wiederholungen, bitte.",
+        "en": "Three sets of twelve repetitions, please."
+      }
+    ]
+  },
+  {
+    "lemma": "Liegestütz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2085,
+    "noun": { "gender": "m", "plural": "Liegestütze" },
+    "senses": [
+      {
+        "en": "push-up",
+        "example_de": "Er schafft zwanzig Liegestütze ohne Pause.",
+        "example_en": "He manages twenty push-ups without a break."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Liegestütze trainieren Arme und Brust.",
+        "en": "Push-ups train the arms and chest."
+      }
+    ]
+  },
+  {
+    "lemma": "Kniebeuge",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2110,
+    "noun": { "gender": "f", "plural": "Kniebeugen" },
+    "senses": [
+      {
+        "en": "squat (exercise)",
+        "example_de": "Die Kniebeuge ist eine wichtige Übung.",
+        "example_en": "The squat is an important exercise."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ich mache jeden Morgen fünfzehn Kniebeugen.",
+        "en": "I do fifteen squats every morning."
+      }
+    ]
+  },
+  {
+    "lemma": "Klimmzug",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2135,
+    "noun": { "gender": "m", "plural": "Klimmzüge" },
+    "senses": [
+      {
+        "en": "pull-up, chin-up",
+        "example_de": "Ein Klimmzug ist am Anfang sehr schwer.",
+        "example_en": "A pull-up is very hard at the beginning."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wie viele Klimmzüge schaffst du?",
+        "en": "How many pull-ups can you manage?"
+      }
+    ]
+  },
+  {
+    "lemma": "Bauchmuskeln",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      {
+        "en": "abdominal muscles, abs",
+        "note": "meist im Plural",
+        "example_de": "Diese Übung trainiert die Bauchmuskeln.",
+        "example_en": "This exercise trains the abdominal muscles."
+      }
+    ]
+  },
+  {
+    "lemma": "Muskelkater",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2185,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "sore muscles, muscle soreness",
+        "example_de": "Nach dem ersten Training hatte ich starken Muskelkater.",
+        "example_en": "After the first workout I had very sore muscles."
+      }
+    ]
+  },
+  {
+    "lemma": "Gleichgewicht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2210,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "balance, equilibrium",
+        "example_de": "Beim Yoga übt man das Gleichgewicht.",
+        "example_en": "In yoga you practice balance."
+      }
+    ]
+  },
+  {
+    "lemma": "Kalorie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2235,
+    "noun": { "gender": "f", "plural": "Kalorien" },
+    "senses": [
+      {
+        "en": "calorie",
+        "note": "meist im Plural: Kalorien",
+        "example_de": "Beim Laufen verbrennt man viele Kalorien.",
+        "example_en": "You burn a lot of calories when running."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wie viele Kalorien hat dieser Shake?",
+        "en": "How many calories does this shake have?"
+      }
+    ]
+  },
+  {
+    "lemma": "Eiweiß",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2260,
+    "noun": { "gender": "n", "plural": "Eiweiße" },
+    "senses": [
+      {
+        "en": "protein",
+        "example_de": "Nach dem Training isst er viel Eiweiß.",
+        "example_en": "After training he eats a lot of protein."
+      },
+      {
+        "en": "egg white",
+        "example_de": "Für den Kuchen brauchst du nur das Eiweiß.",
+        "example_en": "For the cake you only need the egg white."
+      }
+    ]
+  },
+  {
+    "lemma": "Spind",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2285,
+    "noun": { "gender": "m", "plural": "Spinde" },
+    "senses": [
+      {
+        "en": "locker",
+        "example_de": "Ich schließe meine Tasche in den Spind.",
+        "example_en": "I lock my bag in the locker."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Spinde stehen in der Umkleide.",
+        "en": "The lockers are in the changing room."
+      }
+    ]
+  },
+  {
+    "lemma": "Kurzhantel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2310,
+    "noun": { "gender": "f", "plural": "Kurzhanteln" },
+    "senses": [
+      {
+        "en": "dumbbell (short barbell)",
+        "example_de": "Für diese Übung nimmst du zwei Kurzhanteln.",
+        "example_en": "For this exercise you take two dumbbells."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Kurzhanteln wiegen je fünf Kilo.",
+        "en": "The dumbbells weigh five kilos each."
+      }
+    ]
+  },
+  {
+    "lemma": "Trainingsgerät",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2335,
+    "noun": { "gender": "n", "plural": "Trainingsgeräte" },
+    "senses": [
+      {
+        "en": "exercise machine, training equipment",
+        "example_de": "Der Trainer erklärt mir das neue Trainingsgerät.",
+        "example_en": "The trainer explains the new exercise machine to me."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Trainingsgeräte sind heute frei.",
+        "en": "All exercise machines are free today."
+      }
+    ]
+  },
+  {
+    "lemma": "Oberkörper",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2360,
+    "noun": { "gender": "m", "plural": "Oberkörper" },
+    "senses": [
+      {
+        "en": "upper body, torso",
+        "example_de": "Heute trainieren wir nur den Oberkörper.",
+        "example_en": "Today we are only training the upper body."
+      }
+    ]
+  },
+  {
+    "lemma": "Belastung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2385,
+    "noun": { "gender": "f", "plural": "Belastungen" },
+    "senses": [
+      {
+        "en": "strain, load, stress",
+        "example_de": "Zu viel Belastung ist schlecht für die Gelenke.",
+        "example_en": "Too much strain is bad for the joints."
+      }
+    ]
+  },
+  {
+    "lemma": "Verspannung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2410,
+    "noun": { "gender": "f", "plural": "Verspannungen" },
+    "senses": [
+      {
+        "en": "muscle tension, tightness",
+        "note": "oft im Plural: Verspannungen",
+        "example_de": "Ich habe eine Verspannung im Nacken.",
+        "example_en": "I have muscle tension in my neck."
+      }
+    ]
+  },
+  {
+    "lemma": "verspannt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2435,
+    "senses": [
+      {
+        "en": "tense, tight (muscles)",
+        "example_de": "Mein Rücken ist vom Sitzen total verspannt.",
+        "example_en": "My back is totally tense from sitting."
+      }
+    ]
+  },
+  {
+    "lemma": "stemmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2460,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to lift (weights), to press up",
+        "example_de": "Er stemmt hundert Kilo auf der Bank.",
+        "example_en": "He lifts a hundred kilos on the bench."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie stemmt jeden Tag schwere Gewichte.",
+        "en": "She lifts heavy weights every day."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er stemmte die Hantel nur einmal.",
+        "en": "He lifted the barbell only once."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe heute achtzig Kilo gestemmt.",
+        "en": "I lifted eighty kilos today."
+      }
+    ]
+  },
+  {
+    "lemma": "verbrennen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2485,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "verbrannte",
+      "partizip2": "verbrannt"
+    },
+    "senses": [
+      {
+        "en": "to burn (calories, fat)",
+        "example_de": "Eine Stunde Sport verbrennt viele Kalorien.",
+        "example_en": "An hour of sports burns a lot of calories."
+      },
+      {
+        "en": "to burn (destroy by fire)",
+        "example_de": "Er verbrennt das alte Papier im Garten.",
+        "example_en": "He burns the old paper in the garden."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Beim Laufen verbrennt der Körper Fett.",
+        "en": "When running the body burns fat."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie verbrannte beim Training viele Kalorien.",
+        "en": "She burned a lot of calories during the workout."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Heute habe ich fünfhundert Kalorien verbrannt.",
+        "en": "Today I burned five hundred calories."
+      }
+    ]
+  },
+  {
+    "lemma": "steigern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2510,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to increase, to improve",
+        "note": "auch reflexiv: sich steigern (to get better)",
+        "example_de": "Er steigert das Gewicht jede Woche.",
+        "example_en": "He increases the weight every week."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie steigert langsam ihr Tempo.",
+        "en": "She slowly increases her pace."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er steigerte sich von Monat zu Monat.",
+        "en": "He improved from month to month."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe meine Kraft deutlich gesteigert.",
+        "en": "I have increased my strength significantly."
+      }
+    ]
+  },
+  {
+    "lemma": "beugen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2535,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to bend",
+        "example_de": "Beuge die Knie bei dieser Übung!",
+        "example_en": "Bend your knees in this exercise!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er beugt langsam den Oberkörper nach vorn.",
+        "en": "He slowly bends his upper body forward."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie beugte die Arme und hob das Gewicht.",
+        "en": "She bent her arms and lifted the weight."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Du hast den Rücken zu stark gebeugt.",
+        "en": "You bent your back too much."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Beug die Beine ein bisschen mehr!",
+        "en": "Bend your legs a little more!"
+      }
+    ]
+  },
+  {
+    "lemma": "durchhalten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2560,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "durch",
+      "du": "hältst",
+      "er": "hält",
+      "praeteritum": "hielt",
+      "partizip2": "durchgehalten"
+    },
+    "senses": [
+      {
+        "en": "to hold out, to keep going, to persevere",
+        "note": "trennbar",
+        "example_de": "Beim Training musst du bis zum Ende durchhalten.",
+        "example_en": "In training you have to keep going until the end."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie hält beim Laufen immer lange durch.",
+        "en": "She always holds out for a long time when running."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er hielt eine ganze Stunde durch.",
+        "en": "He held out for a whole hour."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben bis zur letzten Übung durchgehalten.",
+        "en": "We kept going until the last exercise."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Halt durch, nur noch zwei Minuten!",
+        "en": "Hold on, only two more minutes!"
+      }
+    ]
+  },
+  {
+    "lemma": "Muskelaufbau",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3050,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "muscle building, muscle growth",
+        "example_de": "Für den Muskelaufbau braucht der Körper Eiweiß.",
+        "example_en": "The body needs protein for muscle building."
+      }
+    ]
+  },
+  {
+    "lemma": "Rumpf",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3200,
+    "noun": { "gender": "m", "plural": "Rümpfe" },
+    "senses": [
+      {
+        "en": "trunk, torso, core",
+        "example_de": "Ein starker Rumpf schützt den Rücken.",
+        "example_en": "A strong core protects the back."
+      }
+    ]
+  },
+  {
+    "lemma": "Sehne",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3350,
+    "noun": { "gender": "f", "plural": "Sehnen" },
+    "senses": [
+      {
+        "en": "tendon, sinew",
+        "example_de": "Die Sehne verbindet den Muskel mit dem Knochen.",
+        "example_en": "The tendon connects the muscle to the bone."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ohne Aufwärmen können die Sehnen leicht reißen.",
+        "en": "Without warming up the tendons can easily tear."
+      }
+    ]
+  },
+  {
+    "lemma": "Zerrung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3500,
+    "noun": { "gender": "f", "plural": "Zerrungen" },
+    "senses": [
+      {
+        "en": "strained muscle, pulled muscle",
+        "example_de": "Er hat eine Zerrung im linken Bein.",
+        "example_en": "He has a pulled muscle in his left leg."
+      }
+    ]
+  },
+  {
+    "lemma": "auspowern",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3650,
+    "verb": { "aux": "haben", "separablePrefix": "aus" },
+    "senses": [
+      {
+        "en": "to wear oneself out, to push oneself to the limit",
+        "note": "reflexiv, trennbar, umgangssprachlich: sich auspowern",
+        "example_de": "Beim Boxen kann ich mich richtig auspowern.",
+        "example_en": "When boxing I can really wear myself out."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er powert sich im Studio komplett aus.",
+        "en": "He completely wears himself out at the gym."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie powerte sich beim Kurs total aus.",
+        "en": "She totally wore herself out in the class."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns heute richtig ausgepowert.",
+        "en": "We really wore ourselves out today."
+      }
+    ]
+  },
+  {
+    "lemma": "schweißtreibend",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3780,
+    "senses": [
+      {
+        "en": "sweat-inducing, strenuous",
+        "example_de": "Der Kurs war kurz, aber sehr schweißtreibend.",
+        "example_en": "The class was short but very sweat-inducing."
+      }
+    ]
+  }
+]

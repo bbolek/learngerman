@@ -56,6 +56,23 @@ export const MIGRATIONS: string[] = [
   `
   ALTER TABLE user_saved_words ADD COLUMN learned_at TEXT;
   `,
+  // v3 — arcade games: per-round results (no content FKs — survives content swaps)
+  // and a daily_activity column so games count toward the streak
+  `
+  CREATE TABLE IF NOT EXISTS game_results (
+    id INTEGER PRIMARY KEY,
+    game_key TEXT NOT NULL,
+    score INTEGER NOT NULL,
+    correct INTEGER NOT NULL,
+    total INTEGER NOT NULL,
+    best_streak INTEGER NOT NULL DEFAULT 0,
+    duration_ms INTEGER,
+    played_at TEXT NOT NULL
+  );
+  CREATE INDEX IF NOT EXISTS idx_game_results_key ON game_results(game_key, score DESC);
+
+  ALTER TABLE daily_activity ADD COLUMN games_played INTEGER NOT NULL DEFAULT 0;
+  `,
 ];
 
 export async function runMigrations(db: SQLiteDatabase): Promise<void> {

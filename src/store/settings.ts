@@ -1,7 +1,10 @@
 import { create } from 'zustand';
 
 import { loadSettings, persistSettings } from '@/db/settingsRepo';
-import { rescheduleNotifications } from '@/services/notificationScheduler';
+import {
+  rescheduleNotifications,
+  type NotificationScheduleStatus,
+} from '@/services/notificationScheduler';
 
 export type ThemePreference = 'system' | 'light' | 'dark';
 
@@ -21,8 +24,12 @@ interface SettingsState {
   notificationStartHour: number;
   notificationEndHour: number;
   notificationIntervalMinutes: number;
+  /** Outcome of the last scheduling attempt — surfaces silent failures. */
+  notificationStatus: NotificationScheduleStatus | 'unknown';
   hydrated: boolean;
   hydrate: () => Promise<void>;
+  /** Re-fill the pending-notification buffer (called on app foreground). */
+  refreshNotifications: () => void;
   setThemePreference: (pref: ThemePreference) => void;
   setHapticsEnabled: (on: boolean) => void;
   setDailyNewLimit: (n: number) => void;
@@ -62,7 +69,10 @@ function persist(get: () => SettingsState) {
   }).catch(() => {});
 }
 
-function reschedule(get: () => SettingsState) {
+function reschedule(
+  get: () => SettingsState,
+  set: (partial: Partial<SettingsState>) => void
+) {
   const { notificationsEnabled, notificationDays, notificationStartHour, notificationEndHour, notificationIntervalMinutes } =
     get();
   rescheduleNotifications(
@@ -74,7 +84,9 @@ function reschedule(get: () => SettingsState) {
       intervalMinutes: notificationIntervalMinutes,
     },
     new Date()
-  ).catch(() => {});
+  )
+    .then((notificationStatus) => set({ notificationStatus }))
+    .catch(() => {});
 }
 
 export const useSettings = create<SettingsState>((set, get) => ({
@@ -88,12 +100,16 @@ export const useSettings = create<SettingsState>((set, get) => ({
   notificationStartHour: 9,
   notificationEndHour: 21,
   notificationIntervalMinutes: 180,
+  notificationStatus: 'unknown',
   hydrated: false,
 
   hydrate: async () => {
     const stored = await loadSettings();
     set({ ...stored, hydrated: true });
-    if (get().notificationsEnabled) reschedule(get);
+    if (get().notificationsEnabled) reschedule(get, set);
+  },
+  refreshNotifications: () => {
+    if (get().notificationsEnabled) reschedule(get, set);
   },
   setThemePreference: (themePreference) => {
     set({ themePreference });
@@ -118,26 +134,26 @@ export const useSettings = create<SettingsState>((set, get) => ({
   setNotificationsEnabled: (notificationsEnabled) => {
     set({ notificationsEnabled });
     persist(get);
-    reschedule(get);
+    reschedule(get, set);
   },
   setNotificationDays: (notificationDays) => {
     set({ notificationDays });
     persist(get);
-    reschedule(get);
+    reschedule(get, set);
   },
   setNotificationStartHour: (notificationStartHour) => {
     set({ notificationStartHour });
     persist(get);
-    reschedule(get);
+    reschedule(get, set);
   },
   setNotificationEndHour: (notificationEndHour) => {
     set({ notificationEndHour });
     persist(get);
-    reschedule(get);
+    reschedule(get, set);
   },
   setNotificationIntervalMinutes: (notificationIntervalMinutes) => {
     set({ notificationIntervalMinutes });
     persist(get);
-    reschedule(get);
+    reschedule(get, set);
   },
 }));

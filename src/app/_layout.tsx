@@ -11,6 +11,7 @@ import * as ScreenOrientation from 'expo-screen-orientation';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
+import { AppState } from 'react-native';
 
 import { initDatabase } from '@/db/client';
 import { useSettings } from '@/store/settings';
@@ -48,6 +49,17 @@ export default function RootLayout() {
     if (fontsLoaded && dbReady) SplashScreen.hideAsync();
   }, [fontsLoaded, dbReady]);
 
+  // Top up the pending-notification buffer whenever the app returns to the
+  // foreground — only ~60 local notifications can be scheduled ahead, so at
+  // short intervals the supply runs dry if it's refilled only at cold start.
+  useEffect(() => {
+    if (!dbReady) return;
+    const sub = AppState.addEventListener('change', (state) => {
+      if (state === 'active') useSettings.getState().refreshNotifications();
+    });
+    return () => sub.remove();
+  }, [dbReady]);
+
   if (!fontsLoaded || !dbReady) return null;
 
   const navTheme = {
@@ -68,6 +80,10 @@ export default function RootLayout() {
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: palette.bg } }}>
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="review" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="game/wortblitz" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="game/bilderraetsel" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="game/derdiedas" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="game/wortpaare" options={{ gestureEnabled: false }} />
       </Stack>
     </ThemeProvider>
   );

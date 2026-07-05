@@ -1,0 +1,1172 @@
+[
+  {
+    "lemma": "Klinik",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": {
+      "gender": "f",
+      "plural": "Kliniken"
+    },
+    "senses": [
+      {
+        "en": "clinic, hospital",
+        "example_de": "Meine Tante arbeitet in einer Klinik in Hamburg.",
+        "example_en": "My aunt works at a hospital in Hamburg."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In dieser Stadt gibt es drei Kliniken.",
+        "en": "There are three hospitals in this city."
+      }
+    ]
+  },
+  {
+    "lemma": "Station",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1915,
+    "noun": {
+      "gender": "f",
+      "plural": "Stationen"
+    },
+    "senses": [
+      {
+        "en": "ward (in a hospital)",
+        "example_de": "Der Patient liegt auf Station drei.",
+        "example_en": "The patient is on ward three.",
+        "note": "im Krankenhaus: die Abteilung"
+      },
+      {
+        "en": "station, stop"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Klinik hat zehn verschiedene Stationen.",
+        "en": "The hospital has ten different wards."
+      }
+    ]
+  },
+  {
+    "lemma": "Krankenpfleger",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1930,
+    "noun": {
+      "gender": "m",
+      "plural": "Krankenpfleger"
+    },
+    "senses": [
+      {
+        "en": "(male) nurse",
+        "example_de": "Der Krankenpfleger bringt dem Mann sein Essen.",
+        "example_en": "The nurse brings the man his food."
+      }
+    ]
+  },
+  {
+    "lemma": "Pfleger",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1945,
+    "noun": {
+      "gender": "m",
+      "plural": "Pfleger"
+    },
+    "senses": [
+      {
+        "en": "nurse, caregiver",
+        "example_de": "Der Pfleger hilft der alten Frau beim Aufstehen.",
+        "example_en": "The caregiver helps the old woman get up."
+      }
+    ]
+  },
+  {
+    "lemma": "Chefarzt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1960,
+    "noun": {
+      "gender": "m",
+      "plural": "Chefärzte",
+      "genitive": "Chefarztes"
+    },
+    "senses": [
+      {
+        "en": "head physician, chief physician",
+        "example_de": "Der Chefarzt spricht heute mit meiner Familie.",
+        "example_en": "The head physician is talking to my family today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Chefärzte treffen sich jeden Montag.",
+        "en": "The head physicians meet every Monday."
+      }
+    ]
+  },
+  {
+    "lemma": "Chirurg",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": {
+      "gender": "m",
+      "plural": "Chirurgen",
+      "genitive": "Chirurgen"
+    },
+    "senses": [
+      {
+        "en": "surgeon",
+        "example_de": "Der Chirurg hat die Operation gut gemacht.",
+        "example_en": "The surgeon performed the operation well."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In der Klinik arbeiten fünf Chirurgen.",
+        "en": "Five surgeons work at the hospital."
+      }
+    ]
+  },
+  {
+    "lemma": "Hebamme",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": {
+      "gender": "f",
+      "plural": "Hebammen"
+    },
+    "senses": [
+      {
+        "en": "midwife",
+        "example_de": "Die Hebamme hilft der Mutter bei der Geburt.",
+        "example_en": "The midwife helps the mother during the birth."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Viele Hebammen arbeiten auch nachts.",
+        "en": "Many midwives also work at night."
+      }
+    ]
+  },
+  {
+    "lemma": "Krücke",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2020,
+    "noun": {
+      "gender": "f",
+      "plural": "Krücken"
+    },
+    "senses": [
+      {
+        "en": "crutch",
+        "example_de": "Nach dem Unfall ging er mit einer Krücke.",
+        "example_en": "After the accident he walked with a crutch."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Sie läuft seit zwei Wochen auf Krücken.",
+        "en": "She has been walking on crutches for two weeks."
+      }
+    ]
+  },
+  {
+    "lemma": "Infusion",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": {
+      "gender": "f",
+      "plural": "Infusionen"
+    },
+    "senses": [
+      {
+        "en": "infusion, IV drip",
+        "example_de": "Die Patientin bekommt eine Infusion mit Salzwasser.",
+        "example_en": "The patient is getting an infusion with saline."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Er bekommt jeden Tag zwei Infusionen.",
+        "en": "He gets two infusions every day."
+      }
+    ]
+  },
+  {
+    "lemma": "Röntgenbild",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2060,
+    "noun": {
+      "gender": "n",
+      "plural": "Röntgenbilder"
+    },
+    "senses": [
+      {
+        "en": "X-ray image",
+        "example_de": "Auf dem Röntgenbild sieht man den gebrochenen Arm.",
+        "example_en": "You can see the broken arm on the X-ray."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Ärztin zeigt uns die Röntgenbilder.",
+        "en": "The doctor shows us the X-ray images."
+      }
+    ]
+  },
+  {
+    "lemma": "Krankenbett",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2080,
+    "noun": {
+      "gender": "n",
+      "plural": "Krankenbetten"
+    },
+    "senses": [
+      {
+        "en": "hospital bed, sickbed",
+        "example_de": "Er liegt seit einer Woche im Krankenbett.",
+        "example_en": "He has been in his hospital bed for a week."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Auf der Station stehen zwanzig Krankenbetten.",
+        "en": "There are twenty hospital beds on the ward."
+      }
+    ]
+  },
+  {
+    "lemma": "Blutabnahme",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "f",
+      "plural": "Blutabnahmen"
+    },
+    "senses": [
+      {
+        "en": "blood draw, blood sample",
+        "example_de": "Kommen Sie bitte morgen früh zur Blutabnahme.",
+        "example_en": "Please come for the blood draw tomorrow morning.",
+        "note": "davor oft nichts essen"
+      }
+    ]
+  },
+  {
+    "lemma": "Reha",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2120,
+    "noun": {
+      "gender": "f",
+      "plural": "Rehas"
+    },
+    "senses": [
+      {
+        "en": "rehab, rehabilitation",
+        "example_de": "Nach der Operation geht sie drei Wochen in Reha.",
+        "example_en": "After the operation she is going to rehab for three weeks.",
+        "note": "kurz für: Rehabilitation"
+      }
+    ]
+  },
+  {
+    "lemma": "Physiotherapie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2140,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "physical therapy, physiotherapy",
+        "example_de": "Die Physiotherapie hilft ihm nach dem Unfall.",
+        "example_en": "The physical therapy is helping him after the accident."
+      }
+    ]
+  },
+  {
+    "lemma": "Visite",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": {
+      "gender": "f",
+      "plural": "Visiten"
+    },
+    "senses": [
+      {
+        "en": "doctor's rounds (in a hospital)",
+        "example_de": "Bei der Visite fragt der Arzt nach den Schmerzen.",
+        "example_en": "During rounds the doctor asks about the pain.",
+        "note": "der Arzt besucht die Patienten am Bett"
+      }
+    ]
+  },
+  {
+    "lemma": "Ambulanz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2180,
+    "noun": {
+      "gender": "f",
+      "plural": "Ambulanzen"
+    },
+    "senses": [
+      {
+        "en": "outpatient department (of a hospital)",
+        "example_de": "Die Ambulanz ist auch am Wochenende offen.",
+        "example_en": "The outpatient department is also open on weekends."
+      },
+      {
+        "en": "ambulance",
+        "note": "häufiger: der Krankenwagen"
+      }
+    ]
+  },
+  {
+    "lemma": "Besuchszeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": {
+      "gender": "f",
+      "plural": "Besuchszeiten"
+    },
+    "senses": [
+      {
+        "en": "visiting hours",
+        "example_de": "Die Besuchszeit endet um acht Uhr abends.",
+        "example_en": "Visiting hours end at eight in the evening."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Besuchszeiten stehen an der Tür.",
+        "en": "The visiting hours are posted on the door."
+      }
+    ]
+  },
+  {
+    "lemma": "Aufnahme",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2220,
+    "noun": {
+      "gender": "f",
+      "plural": "Aufnahmen"
+    },
+    "senses": [
+      {
+        "en": "admission (to a hospital)",
+        "example_de": "Die Aufnahme ins Krankenhaus dauerte zwei Stunden.",
+        "example_en": "Admission to the hospital took two hours.",
+        "note": "hier meldet man sich zuerst"
+      },
+      {
+        "en": "recording; photo"
+      }
+    ]
+  },
+  {
+    "lemma": "Labor",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2240,
+    "noun": {
+      "gender": "n",
+      "plural": "Labore"
+    },
+    "senses": [
+      {
+        "en": "laboratory, lab",
+        "example_de": "Das Blut wird im Labor untersucht.",
+        "example_en": "The blood is examined in the lab."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Klinik hat zwei moderne Labore.",
+        "en": "The hospital has two modern laboratories."
+      }
+    ]
+  },
+  {
+    "lemma": "Blutgruppe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2260,
+    "noun": {
+      "gender": "f",
+      "plural": "Blutgruppen"
+    },
+    "senses": [
+      {
+        "en": "blood type",
+        "example_de": "Weißt du, welche Blutgruppe du hast?",
+        "example_en": "Do you know what blood type you have?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Es gibt vier verschiedene Blutgruppen.",
+        "en": "There are four different blood types."
+      }
+    ]
+  },
+  {
+    "lemma": "Operationssaal",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2280,
+    "noun": {
+      "gender": "m",
+      "plural": "Operationssäle"
+    },
+    "senses": [
+      {
+        "en": "operating room",
+        "example_de": "Der Patient wird in den Operationssaal gebracht.",
+        "example_en": "The patient is being taken to the operating room.",
+        "note": "kurz: der OP"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Klinik hat acht Operationssäle.",
+        "en": "The hospital has eight operating rooms."
+      }
+    ]
+  },
+  {
+    "lemma": "Eingriff",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": {
+      "gender": "m",
+      "plural": "Eingriffe"
+    },
+    "senses": [
+      {
+        "en": "(surgical) procedure, operation",
+        "example_de": "Der Eingriff dauert nur eine halbe Stunde.",
+        "example_en": "The procedure only takes half an hour.",
+        "note": "eine kleine Operation"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Kleine Eingriffe macht man heute oft ambulant.",
+        "en": "Minor procedures are often done as outpatient treatment today."
+      }
+    ]
+  },
+  {
+    "lemma": "Kittel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2320,
+    "noun": {
+      "gender": "m",
+      "plural": "Kittel"
+    },
+    "senses": [
+      {
+        "en": "(doctor's) coat, gown",
+        "example_de": "Der Arzt trägt einen weißen Kittel.",
+        "example_en": "The doctor wears a white coat."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die weißen Kittel hängen im Schrank.",
+        "en": "The white coats are hanging in the closet."
+      }
+    ]
+  },
+  {
+    "lemma": "Organ",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2340,
+    "noun": {
+      "gender": "n",
+      "plural": "Organe"
+    },
+    "senses": [
+      {
+        "en": "organ (of the body)",
+        "example_de": "Das Herz ist ein wichtiges Organ.",
+        "example_en": "The heart is an important organ."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Ärzte untersuchen alle Organe genau.",
+        "en": "The doctors examine all the organs carefully."
+      }
+    ]
+  },
+  {
+    "lemma": "Blutspende",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2360,
+    "noun": {
+      "gender": "f",
+      "plural": "Blutspenden"
+    },
+    "senses": [
+      {
+        "en": "blood donation",
+        "example_de": "Nach der Blutspende soll man viel trinken.",
+        "example_en": "After donating blood you should drink a lot."
+      }
+    ]
+  },
+  {
+    "lemma": "Hygiene",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2380,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "hygiene",
+        "example_de": "Im Krankenhaus ist Hygiene sehr wichtig.",
+        "example_en": "Hygiene is very important in a hospital."
+      }
+    ]
+  },
+  {
+    "lemma": "Desinfektionsmittel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": {
+      "gender": "n",
+      "plural": "Desinfektionsmittel"
+    },
+    "senses": [
+      {
+        "en": "disinfectant",
+        "example_de": "Am Eingang steht Desinfektionsmittel für die Hände.",
+        "example_en": "There is hand disinfectant at the entrance."
+      }
+    ]
+  },
+  {
+    "lemma": "Pflegeheim",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2420,
+    "noun": {
+      "gender": "n",
+      "plural": "Pflegeheime"
+    },
+    "senses": [
+      {
+        "en": "nursing home",
+        "example_de": "Seine Oma wohnt jetzt in einem Pflegeheim.",
+        "example_en": "His grandma now lives in a nursing home."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In der Stadt gibt es mehrere Pflegeheime.",
+        "en": "There are several nursing homes in the city."
+      }
+    ]
+  },
+  {
+    "lemma": "Pflege",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2440,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "care, nursing",
+        "example_de": "Die alte Dame braucht jetzt viel Pflege.",
+        "example_en": "The old lady now needs a lot of care."
+      }
+    ]
+  },
+  {
+    "lemma": "Krankenakte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2460,
+    "noun": {
+      "gender": "f",
+      "plural": "Krankenakten"
+    },
+    "senses": [
+      {
+        "en": "medical record, patient file",
+        "example_de": "Die Ärztin liest zuerst die Krankenakte.",
+        "example_en": "The doctor reads the medical record first."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Krankenakten liegen im Büro der Station.",
+        "en": "The patient files are kept in the ward office."
+      }
+    ]
+  },
+  {
+    "lemma": "verlegen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2480,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verlegt"
+    },
+    "senses": [
+      {
+        "en": "to transfer, to move (a patient)",
+        "example_de": "Der Patient wird morgen auf eine andere Station verlegt.",
+        "example_en": "The patient will be transferred to another ward tomorrow.",
+        "note": "auf eine Station / in eine Klinik verlegen"
+      },
+      {
+        "en": "to postpone; to misplace"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Man verlegt ihn heute auf Station zwei.",
+        "en": "They are moving him to ward two today."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Arzt verlegte die Operation auf Freitag.",
+        "en": "The doctor postponed the operation to Friday."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Klinik hat ihn gestern verlegt.",
+        "en": "The hospital transferred him yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "Kaiserschnitt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": {
+      "gender": "m",
+      "plural": "Kaiserschnitte"
+    },
+    "senses": [
+      {
+        "en": "Caesarean section",
+        "example_de": "Das Baby kam per Kaiserschnitt zur Welt.",
+        "example_en": "The baby was born by Caesarean section."
+      }
+    ]
+  },
+  {
+    "lemma": "Stethoskop",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2520,
+    "noun": {
+      "gender": "n",
+      "plural": "Stethoskope"
+    },
+    "senses": [
+      {
+        "en": "stethoscope",
+        "example_de": "Die Ärztin hört das Herz mit dem Stethoskop ab.",
+        "example_en": "The doctor listens to the heart with the stethoscope."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die jungen Ärzte tragen ihre Stethoskope um den Hals.",
+        "en": "The young doctors wear their stethoscopes around their necks."
+      }
+    ]
+  },
+  {
+    "lemma": "Keim",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2540,
+    "noun": {
+      "gender": "m",
+      "plural": "Keime"
+    },
+    "senses": [
+      {
+        "en": "germ, pathogen",
+        "example_de": "Durch die Wunde kam ein Keim in den Körper.",
+        "example_en": "A germ entered the body through the wound."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Desinfektionsmittel tötet die meisten Keime.",
+        "en": "Disinfectant kills most germs."
+      }
+    ]
+  },
+  {
+    "lemma": "Intensivstation",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3000,
+    "noun": {
+      "gender": "f",
+      "plural": "Intensivstationen"
+    },
+    "senses": [
+      {
+        "en": "intensive care unit",
+        "example_de": "Nach dem Unfall lag er drei Tage auf der Intensivstation.",
+        "example_en": "After the accident he spent three days in the intensive care unit."
+      }
+    ]
+  },
+  {
+    "lemma": "Oberarzt",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3050,
+    "noun": {
+      "gender": "m",
+      "plural": "Oberärzte",
+      "genitive": "Oberarztes"
+    },
+    "senses": [
+      {
+        "en": "senior physician",
+        "example_de": "Der Oberarzt entscheidet über die weitere Behandlung.",
+        "example_en": "The senior physician decides on the further treatment."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Zwei Oberärzte leiten die Station.",
+        "en": "Two senior physicians run the ward."
+      }
+    ]
+  },
+  {
+    "lemma": "Anästhesie",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3100,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "anesthesia",
+        "example_de": "Die Anästhesie beginnt kurz vor der Operation.",
+        "example_en": "The anesthesia starts shortly before the operation.",
+        "note": "auch: die Narkose"
+      }
+    ]
+  },
+  {
+    "lemma": "Bestrahlung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3150,
+    "noun": {
+      "gender": "f",
+      "plural": "Bestrahlungen"
+    },
+    "senses": [
+      {
+        "en": "radiation therapy",
+        "example_de": "Nach der Operation braucht sie noch Bestrahlung.",
+        "example_en": "After the operation she still needs radiation therapy."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Bestrahlungen dauern insgesamt sechs Wochen.",
+        "en": "The radiation treatments last six weeks in total."
+      }
+    ]
+  },
+  {
+    "lemma": "Chemotherapie",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3200,
+    "noun": {
+      "gender": "f",
+      "plural": "Chemotherapien"
+    },
+    "senses": [
+      {
+        "en": "chemotherapy",
+        "example_de": "Die Chemotherapie beginnt nächste Woche.",
+        "example_en": "The chemotherapy starts next week.",
+        "note": "Behandlung gegen Krebs"
+      }
+    ]
+  },
+  {
+    "lemma": "Transplantation",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3250,
+    "noun": {
+      "gender": "f",
+      "plural": "Transplantationen"
+    },
+    "senses": [
+      {
+        "en": "transplant, transplantation",
+        "example_de": "Er wartet seit zwei Jahren auf eine Transplantation.",
+        "example_en": "He has been waiting for a transplant for two years."
+      }
+    ]
+  },
+  {
+    "lemma": "Entbindung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": {
+      "gender": "f",
+      "plural": "Entbindungen"
+    },
+    "senses": [
+      {
+        "en": "delivery, childbirth",
+        "example_de": "Die Entbindung verlief ohne Probleme.",
+        "example_en": "The delivery went without any problems.",
+        "note": "die Geburt aus Sicht der Klinik"
+      }
+    ]
+  },
+  {
+    "lemma": "Organspende",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3350,
+    "noun": {
+      "gender": "f",
+      "plural": "Organspenden"
+    },
+    "senses": [
+      {
+        "en": "organ donation",
+        "example_de": "Eine Organspende kann anderen Menschen das Leben retten.",
+        "example_en": "An organ donation can save other people's lives."
+      }
+    ]
+  },
+  {
+    "lemma": "Gewebe",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3400,
+    "noun": {
+      "gender": "n",
+      "plural": "Gewebe"
+    },
+    "senses": [
+      {
+        "en": "tissue (of the body)",
+        "example_de": "Der Arzt untersucht das Gewebe im Labor.",
+        "example_en": "The doctor examines the tissue in the lab."
+      },
+      {
+        "en": "fabric, weave"
+      }
+    ]
+  },
+  {
+    "lemma": "entnehmen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3450,
+    "verb": {
+      "aux": "haben",
+      "du": "entnimmst",
+      "er": "entnimmt",
+      "praeteritum": "entnahm",
+      "partizip2": "entnommen"
+    },
+    "senses": [
+      {
+        "en": "to take (a sample), to remove",
+        "example_de": "Der Arzt entnimmt eine kleine Probe für das Labor.",
+        "example_en": "The doctor takes a small sample for the lab.",
+        "note": "+ Dativ: dem Patienten Blut entnehmen"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Ärztin entnimmt dem Patienten etwas Blut.",
+        "en": "The doctor takes some blood from the patient."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Chirurg entnahm ein Stück Gewebe.",
+        "en": "The surgeon removed a piece of tissue."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat dem Kind Blut entnommen.",
+        "en": "They took blood from the child."
+      }
+    ]
+  },
+  {
+    "lemma": "Tumor",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3500,
+    "noun": {
+      "gender": "m",
+      "plural": "Tumoren"
+    },
+    "senses": [
+      {
+        "en": "tumor",
+        "example_de": "Die Ärzte haben den Tumor früh gefunden.",
+        "example_en": "The doctors found the tumor early."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Nicht alle Tumoren sind gefährlich.",
+        "en": "Not all tumors are dangerous."
+      }
+    ]
+  },
+  {
+    "lemma": "gutartig",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3550,
+    "senses": [
+      {
+        "en": "benign",
+        "example_de": "Der Tumor ist zum Glück gutartig.",
+        "example_en": "Fortunately, the tumor is benign.",
+        "note": "Gegenteil: bösartig"
+      }
+    ]
+  },
+  {
+    "lemma": "bösartig",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3580,
+    "senses": [
+      {
+        "en": "malignant",
+        "example_de": "Ein bösartiger Tumor muss schnell behandelt werden.",
+        "example_en": "A malignant tumor must be treated quickly.",
+        "note": "Gegenteil: gutartig"
+      },
+      {
+        "en": "malicious, vicious"
+      }
+    ]
+  },
+  {
+    "lemma": "Beatmung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3620,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "(artificial) ventilation, respiration",
+        "example_de": "Der Patient braucht auf der Intensivstation Beatmung.",
+        "example_en": "The patient needs ventilation in the intensive care unit."
+      }
+    ]
+  },
+  {
+    "lemma": "beatmen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3660,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beatmet"
+    },
+    "senses": [
+      {
+        "en": "to ventilate (a patient)",
+        "example_de": "Die Maschine beatmet den Patienten während der Operation.",
+        "example_en": "The machine ventilates the patient during the operation."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Maschine beatmet den Kranken Tag und Nacht.",
+        "en": "The machine ventilates the sick man day and night."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Sanitäter haben den Verletzten sofort beatmet.",
+        "en": "The paramedics ventilated the injured man immediately."
+      }
+    ]
+  },
+  {
+    "lemma": "Wiederbelebung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3710,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "resuscitation",
+        "example_de": "Durch die schnelle Wiederbelebung hat er überlebt.",
+        "example_en": "He survived thanks to the quick resuscitation."
+      }
+    ]
+  },
+  {
+    "lemma": "wiederbeleben",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3750,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "wieder",
+      "partizip2": "wiederbelebt"
+    },
+    "senses": [
+      {
+        "en": "to resuscitate, to revive",
+        "example_de": "Die Ärzte konnten den Mann wiederbeleben.",
+        "example_en": "The doctors were able to resuscitate the man."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Notarzt belebt den Patienten wieder.",
+        "en": "The emergency doctor resuscitates the patient."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Sanitäter haben die Frau wiederbelebt.",
+        "en": "The paramedics resuscitated the woman."
+      }
+    ]
+  },
+  {
+    "lemma": "Herzstillstand",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3800,
+    "noun": {
+      "gender": "m",
+      "plural": "Herzstillstände"
+    },
+    "senses": [
+      {
+        "en": "cardiac arrest",
+        "example_de": "Bei einem Herzstillstand zählt jede Minute.",
+        "example_en": "In a cardiac arrest, every minute counts."
+      }
+    ]
+  },
+  {
+    "lemma": "Hospiz",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3850,
+    "noun": {
+      "gender": "n",
+      "plural": "Hospize"
+    },
+    "senses": [
+      {
+        "en": "hospice",
+        "example_de": "Im Hospiz werden schwer kranke Menschen begleitet.",
+        "example_en": "In the hospice, seriously ill people are cared for."
+      }
+    ]
+  },
+  {
+    "lemma": "Aufwachraum",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3890,
+    "noun": {
+      "gender": "m",
+      "plural": "Aufwachräume"
+    },
+    "senses": [
+      {
+        "en": "recovery room",
+        "example_de": "Nach der Operation kommt man zuerst in den Aufwachraum.",
+        "example_en": "After the operation you first go to the recovery room.",
+        "note": "hier wacht man aus der Narkose auf"
+      }
+    ]
+  }
+]

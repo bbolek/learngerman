@@ -106,12 +106,13 @@ export interface DayActivity {
   reviews_done: number;
   quiz_done: number;
   words_saved: number;
+  games_played: number;
 }
 
 export async function recentActivity(days: number, now: Date): Promise<DayActivity[]> {
   const since = new Date(now.getTime() - days * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   return getDb().getAllAsync<DayActivity>(
-    'SELECT day, reviews_done, quiz_done, words_saved FROM daily_activity WHERE day >= ? ORDER BY day',
+    'SELECT day, reviews_done, quiz_done, words_saved, games_played FROM daily_activity WHERE day >= ? ORDER BY day',
     [since]
   );
 }
@@ -119,7 +120,7 @@ export async function recentActivity(days: number, now: Date): Promise<DayActivi
 /** Consecutive active days ending today or yesterday. */
 export async function currentStreak(now: Date): Promise<number> {
   const rows = await getDb().getAllAsync<{ day: string }>(
-    'SELECT day FROM daily_activity WHERE reviews_done > 0 OR quiz_done > 0 OR words_saved > 0 ORDER BY day DESC LIMIT 400'
+    'SELECT day FROM daily_activity WHERE reviews_done > 0 OR quiz_done > 0 OR words_saved > 0 OR games_played > 0 ORDER BY day DESC LIMIT 400'
   );
   const active = new Set(rows.map((r) => r.day));
   const DAY = 24 * 60 * 60 * 1000;

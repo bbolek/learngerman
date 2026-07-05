@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { getLemmaImages } from '@/db/dictionaryRepo';
 import { applyRating, buildQueue, type ReviewCard } from '@/db/srsRepo';
 import { articleFor } from '@/logic/formLabels';
 import { previewInterval, type Rating } from '@/logic/sm2';
@@ -13,6 +14,7 @@ import { AppText } from '@/ui/components/AppText';
 import { FlipCard } from '@/ui/components/FlipCard';
 import { ProgressRing } from '@/ui/components/ProgressRing';
 import { Chip } from '@/ui/components/Chip';
+import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
@@ -33,9 +35,11 @@ export default function ReviewScreen() {
   const [flipped, setFlipped] = useState(false);
   const [stats, setStats] = useState<SessionStats>({ again: 0, hard: 0, good: 0, easy: 0 });
   const [totalPlanned, setTotalPlanned] = useState(0);
+  const [images, setImages] = useState<Map<number, string>>(new Map());
 
   useEffect(() => {
-    buildQueue(new Date(), sessionCap, dailyNewLimit).then((cards) => {
+    buildQueue(new Date(), sessionCap, dailyNewLimit).then(async (cards) => {
+      setImages(await getLemmaImages(cards.map((c) => c.lemma_id)));
       setQueue(cards);
       setTotalPlanned(cards.length);
     });
@@ -150,6 +154,14 @@ export default function ReviewScreen() {
           back={
             <>
               <CardChips card={card} />
+              {images.has(card.lemma_id) && (
+                <VocabImage
+                  svg={images.get(card.lemma_id)!}
+                  gender={card.gender}
+                  size={72}
+                  style={{ marginBottom: spacing.md }}
+                />
+              )}
               <AppText variant="section" style={{ textAlign: 'center' }}>
                 {article ? (
                   <AppText variant="section" color={t.success}>

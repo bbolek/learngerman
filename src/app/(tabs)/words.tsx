@@ -4,12 +4,14 @@ import { useCallback, useState } from 'react';
 import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { getLemmaImages } from '@/db/dictionaryRepo';
 import { listSavedWords, setLearned, unsaveWord, type SavedWordRow } from '@/db/vocabRepo';
 import { phaseOf } from '@/logic/sm2';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
+import { VocabImage } from '@/ui/components/VocabImage';
 import { spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
@@ -17,10 +19,14 @@ export default function WordsScreen() {
   const t = useTheme();
   const insets = useSafeAreaInsets();
   const [words, setWords] = useState<SavedWordRow[] | null>(null);
+  const [images, setImages] = useState<Map<number, string>>(new Map());
   const showLearned = useSettings((s) => s.showLearnedWords);
 
   const reload = useCallback(() => {
-    listSavedWords(showLearned).then(setWords);
+    listSavedWords(showLearned).then(async (rows) => {
+      setImages(await getLemmaImages(rows.map((w) => w.lemma_id)));
+      setWords(rows);
+    });
   }, [showLearned]);
   useFocusEffect(reload);
 
@@ -47,7 +53,12 @@ export default function WordsScreen() {
         keyExtractor={(w) => String(w.lemma_id)}
         contentContainerStyle={[styles.pad, { paddingBottom: spacing.xxl, paddingTop: spacing.md }]}
         renderItem={({ item }) => (
-          <WordRow word={item} onRemove={remove} onToggleLearned={toggleLearned} />
+          <WordRow
+            word={item}
+            image={images.get(item.lemma_id) ?? null}
+            onRemove={remove}
+            onToggleLearned={toggleLearned}
+          />
         )}
         ListEmptyComponent={
           words ? (
@@ -69,10 +80,12 @@ export default function WordsScreen() {
 
 function WordRow({
   word,
+  image,
   onRemove,
   onToggleLearned,
 }: {
   word: SavedWordRow;
+  image: string | null;
   onRemove: (id: number) => void;
   onToggleLearned: (id: number, learned: boolean) => void;
 }) {
@@ -97,6 +110,7 @@ function WordRow({
       onPress={() => router.push({ pathname: '/word/[id]', params: { id: String(word.lemma_id) } })}
       style={[styles.row, isLearned && { opacity: 0.55 }]}>
       <View style={styles.rowInner}>
+        {image && <VocabImage svg={image} gender={word.gender} size={44} />}
         <View style={{ flex: 1 }}>
           <AppText variant="subtitle" style={{ fontFamily: 'Fraunces_600SemiBold', fontSize: 19 }}>
             {word.gender === 'm' ? 'der ' : word.gender === 'f' ? 'die ' : word.gender === 'n' ? 'das ' : ''}

@@ -3,7 +3,7 @@ import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
-import { getWordOfTheDay } from '@/db/dictionaryRepo';
+import { getLemmaImage, getWordOfTheDay } from '@/db/dictionaryRepo';
 import { listTopics, type TopicRow } from '@/db/grammarRepo';
 import { currentStreak, dueCounts, recentActivity, type DayActivity } from '@/db/srsRepo';
 import { learnedCount, savedCount } from '@/db/vocabRepo';
@@ -12,6 +12,7 @@ import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { ProgressRing } from '@/ui/components/ProgressRing';
 import { Screen } from '@/ui/components/Screen';
+import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, radius, spacing, streakGradient } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
@@ -25,6 +26,7 @@ interface HomeData {
   week: DayActivity[];
   next: NextTopic<TopicRow> | null;
   wotd: Awaited<ReturnType<typeof getWordOfTheDay>>;
+  wotdImage: string | null;
 }
 
 export default function HomeScreen() {
@@ -43,8 +45,9 @@ export default function HomeScreen() {
         learnedCount(),
         listTopics(),
         getWordOfTheDay(today),
-      ]).then(([streak, counts, week, saved, learned, topics, wotd]) => {
+      ]).then(async ([streak, counts, week, saved, learned, topics, wotd]) => {
         const doneToday = week.find((a) => a.day === today)?.reviews_done ?? 0;
+        const wotdImage = wotd ? await getLemmaImage(wotd.id) : null;
         setData({
           streak,
           due: counts.due,
@@ -55,6 +58,7 @@ export default function HomeScreen() {
           week,
           next: pickNextTopic(topics, today),
           wotd,
+          wotdImage,
         });
       });
     }, [])
@@ -202,7 +206,7 @@ export default function HomeScreen() {
         </Card>
       </View>
 
-      {data?.wotd && <WordOfTheDay wotd={data.wotd} />}
+      {data?.wotd && <WordOfTheDay wotd={data.wotd} image={data.wotdImage} />}
     </Screen>
   );
 }
@@ -268,7 +272,13 @@ function GrammarCard({ next }: { next: NextTopic<TopicRow> }) {
   );
 }
 
-function WordOfTheDay({ wotd }: { wotd: NonNullable<HomeData['wotd']> }) {
+function WordOfTheDay({
+  wotd,
+  image,
+}: {
+  wotd: NonNullable<HomeData['wotd']>;
+  image: string | null;
+}) {
   const t = useTheme();
   const article =
     wotd.gender === 'm' ? 'der' : wotd.gender === 'f' ? 'die' : wotd.gender === 'n' ? 'das' : null;
@@ -282,24 +292,29 @@ function WordOfTheDay({ wotd }: { wotd: NonNullable<HomeData['wotd']> }) {
     <Card
       style={styles.wotd}
       onPress={() => router.push({ pathname: '/word/[id]', params: { id: String(wotd.id) } })}>
-      <AppText variant="label" muted>
-        Wort des Tages
-      </AppText>
-      <View style={styles.wotdRow}>
-        {article && (
-          <View style={[styles.articleChip, { backgroundColor: articleColors.bg }]}>
-            <AppText variant="caption" color={articleColors.fg} style={{ fontFamily: fonts.extrabold }}>
-              {article}
+      <View style={styles.wotdBody}>
+        <View style={{ flex: 1 }}>
+          <AppText variant="label" muted>
+            Wort des Tages
+          </AppText>
+          <View style={styles.wotdRow}>
+            {article && (
+              <View style={[styles.articleChip, { backgroundColor: articleColors.bg }]}>
+                <AppText variant="caption" color={articleColors.fg} style={{ fontFamily: fonts.extrabold }}>
+                  {article}
+                </AppText>
+              </View>
+            )}
+            <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 24 }}>
+              {wotd.lemma}
             </AppText>
           </View>
-        )}
-        <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 24 }}>
-          {wotd.lemma}
-        </AppText>
+          <AppText variant="secondary" muted>
+            {wotd.gloss}
+          </AppText>
+        </View>
+        {image && <VocabImage svg={image} gender={wotd.gender} size={64} />}
       </View>
-      <AppText variant="secondary" muted>
-        {wotd.gloss}
-      </AppText>
       {wotd.example_de && (
         <View style={[styles.example, { borderLeftColor: t.primaryDim }]}>
           <AppText variant="secondary">{wotd.example_de}</AppText>
@@ -386,6 +401,7 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
   },
   wotd: { marginTop: spacing.md },
+  wotdBody: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
   wotdRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, marginTop: 6, marginBottom: 2 },
   articleChip: { borderRadius: 999, paddingHorizontal: 9, paddingVertical: 3 },
   example: {

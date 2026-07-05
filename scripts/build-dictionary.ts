@@ -17,10 +17,12 @@ import { expandForms, type VocabEntry } from './inflect';
 const ROOT = path.join(__dirname, '..');
 const VOCAB_DIR = path.join(ROOT, 'scripts/data/vocab');
 const GRAMMAR_DIR = path.join(ROOT, 'scripts/data/grammar');
+const IMAGES_FILE = path.join(ROOT, 'scripts/data/images.json');
+const NOTO_DIR = path.join(ROOT, 'scripts/data/images/noto');
 const OUT_FILE = path.join(ROOT, 'assets/db/dictionary.db');
 const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 
-const CONTENT_VERSION = 3;
+const CONTENT_VERSION = 4;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
 const LEVELS = new Set(['A1', 'A2', 'B1']);
@@ -110,6 +112,62 @@ function loadVocab(): VocabEntry[] {
     process.exit(1);
   }
   return entries;
+}
+
+// ---------- load & validate images ----------
+
+interface ImageEntry {
+  lemma: string;
+  pos: string;
+  emoji: string;
+}
+
+/** Noto emoji asset name: codepoints joined by _, variation selectors dropped. */
+function notoFileName(emoji: string): string {
+  const cps = [...emoji]
+    .map((c) => c.codePointAt(0)!)
+    .filter((cp) => cp !== 0xfe0f)
+    .map((cp) => cp.toString(16));
+  return `emoji_u${cps.join('_')}.svg`;
+}
+
+/**
+ * scripts/data/images.json maps lemma+pos → emoji; the matching Noto SVG must
+ * be vendored under scripts/data/images/noto/ (see AUTHORING.md). The SVG text
+ * ships inside the DB (lemma_images) so the app renders it offline via SvgXml.
+ */
+function loadImages(vocab: VocabEntry[]): (ImageEntry & { svg: string })[] {
+  if (!fs.existsSync(IMAGES_FILE)) return [];
+  const entries = JSON.parse(fs.readFileSync(IMAGES_FILE, 'utf8')) as ImageEntry[];
+  const known = new Set(vocab.map((e) => `${e.lemma}|${e.pos}`));
+  const seen = new Set<string>();
+  const errors: string[] = [];
+  const out: (ImageEntry & { svg: string })[] = [];
+
+  for (const img of entries) {
+    const where = `images.json ${img?.lemma ?? '?'}`;
+    if (!img.lemma || !img.pos || !img.emoji) {
+      errors.push(`${where}: needs lemma/pos/emoji`);
+      continue;
+    }
+    const key = `${img.lemma}|${img.pos}`;
+    if (seen.has(key)) errors.push(`${where}: duplicate mapping`);
+    seen.add(key);
+    if (!known.has(key)) errors.push(`${where}: no vocab entry for ${key}`);
+    const file = path.join(NOTO_DIR, notoFileName(img.emoji));
+    if (!fs.existsSync(file)) {
+      errors.push(`${where}: missing vendored SVG ${notoFileName(img.emoji)}`);
+      continue;
+    }
+    out.push({ ...img, svg: fs.readFileSync(file, 'utf8').trim() });
+  }
+
+  if (errors.length) {
+    console.error(`✗ image validation failed (${errors.length} errors):`);
+    for (const err of errors.slice(0, 40)) console.error('  -', err);
+    process.exit(1);
+  }
+  return out;
 }
 
 // ---------- load & validate grammar ----------
@@ -247,6 +305,7 @@ function validateVocabMarkers(topics: GrammarTopic[], vocab: VocabEntry[]) {
 function build() {
   const vocab = loadVocab();
   const grammar = loadGrammar();
+  const images = loadImages(vocab);
   validateVocabMarkers(grammar, vocab);
 
   // Fingerprint of everything that ends up in the DB. The app compares this
@@ -254,7 +313,7 @@ function build() {
   // content update when they differ (src/logic/contentUpdate.ts).
   const contentHash = crypto
     .createHash('sha1')
-    .update(JSON.stringify({ contentVersion: CONTENT_VERSION, vocab, grammar }))
+    .update(JSON.stringify({ contentVersion: CONTENT_VERSION, vocab, grammar, images }))
     .digest('hex');
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
@@ -338,6 +397,12 @@ function build() {
       difficulty INTEGER NOT NULL DEFAULT 1
     );
     CREATE INDEX idx_gq_topic ON grammar_questions(topic_id);
+
+    CREATE TABLE lemma_images (
+      lemma_id INTEGER PRIMARY KEY REFERENCES lemmas(id),
+      svg TEXT NOT NULL,
+      source TEXT NOT NULL
+    );
   `);
 
   const insLemma = db.prepare(`
@@ -354,8 +419,11 @@ function build() {
     'INSERT INTO examples (lemma_id, tag, de, en, sort_order) VALUES (?, ?, ?, ?, ?)'
   );
 
+  const insImage = db.prepare('INSERT INTO lemma_images (lemma_id, svg, source) VALUES (?, ?, ?)');
+
   let formCount = 0;
   let exampleCount = 0;
+  const lemmaIds = new Map<string, number>(); // lemma|pos -> id (for images)
   const insertAll = db.transaction(() => {
     for (const e of vocab) {
       const norm = normalize(e.lemma);
@@ -374,6 +442,7 @@ function build() {
         e.freq ?? null
       );
       const lemmaId = info.lastInsertRowid as number;
+      lemmaIds.set(`${e.lemma}|${e.pos}`, lemmaId);
 
       const forms = expandForms(e);
       const seenForms = new Set<string>();
@@ -403,6 +472,10 @@ function build() {
         insExample.run(lemmaId, ex.tag, ex.de, ex.en, i + 1);
         exampleCount++;
       });
+    }
+
+    for (const img of images) {
+      insImage.run(lemmaIds.get(`${img.lemma}|${img.pos}`)!, img.svg, 'noto');
     }
 
     grammar.forEach((t, ti) => {
@@ -443,7 +516,7 @@ function build() {
   const sizeKb = Math.round(fs.statSync(OUT_FILE).size / 1024);
   console.log(
     `✓ dictionary.db built: ${lemmaCount} lemmas, ${formCount} forms, ${senseCount} senses, ` +
-      `${exampleCount} examples, ${grammar.length} topics, ${qCount} questions — ${sizeKb} KB ` +
+      `${exampleCount} examples, ${images.length} images, ${grammar.length} topics, ${qCount} questions — ${sizeKb} KB ` +
       `(content ${contentHash.slice(0, 8)})`
   );
 }

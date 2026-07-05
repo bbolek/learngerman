@@ -1,5 +1,5 @@
 /**
- * LernGerman design tokens — "paper & marigold".
+ * Deutschly design tokens — "paper & marigold".
  * Mirrors design/ previews; keep both in sync when tuning.
  */
 

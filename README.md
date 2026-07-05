@@ -1,4 +1,4 @@
-# LernGerman 🇩🇪
+# Deutschly 🇩🇪
 
 A beautiful, **fully offline** German learning app for A1–A2 learners, built with
 React Native (Expo). Warm "paper & marigold" design in light and dark mode.

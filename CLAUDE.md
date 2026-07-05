@@ -1,4 +1,4 @@
-# LernGerman — development notes
+# Deutschly — development notes
 
 Offline German learning app (Expo SDK 57, TypeScript, expo-router, expo-sqlite).
 

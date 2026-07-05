@@ -258,7 +258,7 @@ export default function SettingsScreen() {
       </Card>
 
       <Card style={styles.section}>
-        <AppText variant="subtitle">Über LernGerman</AppText>
+        <AppText variant="subtitle">Über Deutschly</AppText>
         <AppText variant="secondary" muted style={{ marginTop: 6, lineHeight: 21 }}>
           Offline Deutsch-Lern-App: Wörterbuch (Goethe A1/A2-Wortschatz), Karteikarten
           mit Spaced Repetition und Grammatik-Übungen zu den Fällen. Alle Daten bleiben

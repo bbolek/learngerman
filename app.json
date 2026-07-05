@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "LernGerman",
-    "slug": "learngerman",
+    "name": "Deutschly",
+    "slug": "deutschly",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/images/icon.png",
-    "scheme": "lerngerman",
+    "scheme": "deutschly",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.bbolek.deutschly",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -17,7 +21,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.bbolek.learngerman"
+      "package": "com.bbolek.deutschly"
     },
     "web": {
       "output": "static",
@@ -58,6 +62,13 @@
     },
     "assetBundlePatterns": [
       "assets/**/*"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "19df8a29-c25a-4daa-9c51-8a06d2e1e2c6"
+      }
+    },
+    "owner": "bbolek"
   }
 }

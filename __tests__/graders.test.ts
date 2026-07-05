@@ -95,4 +95,13 @@ describe('shuffled', () => {
     expect([...shuffled(items, 7)].sort()).toEqual([...items].sort());
     expect(items).toEqual(['a', 'b', 'c', 'd', 'e']);
   });
+
+  it('produces different permutations for nearby Date.now()-sized seeds', () => {
+    const items = ['a', 'b', 'c', 'd', 'e'];
+    const base = 1751700000000 & 0x7fffffff;
+    const perms = new Set(
+      Array.from({ length: 8 }, (_, i) => shuffled(items, base + i).join(''))
+    );
+    expect(perms.size).toBeGreaterThan(4);
+  });
 });

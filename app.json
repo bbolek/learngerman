@@ -3,7 +3,7 @@
     "name": "LernGerman",
     "slug": "learngerman",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "lerngerman",
     "userInterfaceStyle": "automatic",
@@ -38,6 +38,12 @@
       ],
       "expo-sqlite",
       "expo-asset",
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "PORTRAIT_UP"
+        }
+      ],
       [
         "expo-notifications",
         {

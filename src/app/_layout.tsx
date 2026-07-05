@@ -7,6 +7,7 @@ import {
   useFonts,
 } from '@expo-google-fonts/nunito';
 import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
+import * as ScreenOrientation from 'expo-screen-orientation';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
@@ -32,6 +33,9 @@ export default function RootLayout() {
   });
 
   useEffect(() => {
+    // Native config allows all orientations (needed so fullscreen tables can
+    // rotate); the app itself stays portrait via this runtime lock.
+    ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
     initDatabase()
       .then(() => useSettings.getState().hydrate())
       .then(() => setDbReady(true))

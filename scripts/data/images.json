@@ -40,6 +40,11 @@
     "emoji": "🧑‍⚕️"
   },
   {
+    "lemma": "Atom",
+    "pos": "noun",
+    "emoji": "⚛️"
+  },
+  {
     "lemma": "Auge",
     "pos": "noun",
     "emoji": "👁️"
@@ -83,6 +88,11 @@
     "lemma": "Bahnhof",
     "pos": "noun",
     "emoji": "🚉"
+  },
+  {
+    "lemma": "Bakterie",
+    "pos": "noun",
+    "emoji": "🦠"
   },
   {
     "lemma": "Ball",
@@ -511,6 +521,11 @@
     "emoji": "🦊"
   },
   {
+    "lemma": "Füller",
+    "pos": "noun",
+    "emoji": "🖋️"
+  },
+  {
     "lemma": "Fuß",
     "pos": "noun",
     "emoji": "🦶"
@@ -524,6 +539,11 @@
     "lemma": "Garten",
     "pos": "noun",
     "emoji": "🌻"
+  },
+  {
+    "lemma": "Gebet",
+    "pos": "noun",
+    "emoji": "🙏"
   },
   {
     "lemma": "Geburtstag",
@@ -554,6 +574,11 @@
     "lemma": "Gemüse",
     "pos": "noun",
     "emoji": "🥦"
+  },
+  {
+    "lemma": "Gen",
+    "pos": "noun",
+    "emoji": "🧬"
   },
   {
     "lemma": "Gericht",
@@ -644,6 +669,12 @@
     "lemma": "Handy",
     "pos": "noun",
     "emoji": "📱"
+  },
+  {
+    "lemma": "Hantel",
+    "pos": "noun",
+    "icon": "filled/specialties/gym",
+    "source": "healthicons"
   },
   {
     "lemma": "Hase",
@@ -950,6 +981,11 @@
     "emoji": "🎶"
   },
   {
+    "lemma": "Lineal",
+    "pos": "noun",
+    "emoji": "📏"
+  },
+  {
     "lemma": "Lkw",
     "pos": "noun",
     "emoji": "🚚"
@@ -973,6 +1009,11 @@
     "lemma": "Mädchen",
     "pos": "noun",
     "emoji": "👧"
+  },
+  {
+    "lemma": "Magnet",
+    "pos": "noun",
+    "emoji": "🧲"
   },
   {
     "lemma": "Mann",
@@ -1023,6 +1064,11 @@
     "lemma": "Milch",
     "pos": "noun",
     "emoji": "🥛"
+  },
+  {
+    "lemma": "Moschee",
+    "pos": "noun",
+    "emoji": "🕌"
   },
   {
     "lemma": "Motorrad",
@@ -1549,6 +1595,11 @@
     "emoji": "🍲"
   },
   {
+    "lemma": "Synagoge",
+    "pos": "noun",
+    "emoji": "🕍"
+  },
+  {
     "lemma": "Tankstelle",
     "pos": "noun",
     "emoji": "⛽"
@@ -1577,6 +1628,16 @@
     "lemma": "Telefon",
     "pos": "noun",
     "emoji": "☎️"
+  },
+  {
+    "lemma": "Tempel",
+    "pos": "noun",
+    "emoji": "🛕"
+  },
+  {
+    "lemma": "Teufel",
+    "pos": "noun",
+    "emoji": "😈"
   },
   {
     "lemma": "Theater",
@@ -1748,6 +1809,11 @@
     "lemma": "Wut",
     "pos": "noun",
     "emoji": "😠"
+  },
+  {
+    "lemma": "Yoga",
+    "pos": "noun",
+    "emoji": "🧘"
   },
   {
     "lemma": "Zahn",

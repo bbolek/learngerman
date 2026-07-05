@@ -4,7 +4,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3100,
-    "noun": { "gender": "f", "plural": "Naturwissenschaften" },
+    "noun": {
+      "gender": "f",
+      "plural": "Naturwissenschaften"
+    },
     "senses": [
       {
         "en": "natural science",
@@ -13,7 +16,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Chemie und Biologie sind Naturwissenschaften.", "en": "Chemistry and biology are natural sciences." }
+      {
+        "tag": "plural",
+        "de": "Chemie und Biologie sind Naturwissenschaften.",
+        "en": "Chemistry and biology are natural sciences."
+      }
     ]
   },
   {
@@ -21,7 +28,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 1950,
-    "noun": { "gender": "f", "plural": null },
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
     "senses": [
       {
         "en": "chemistry",
@@ -48,7 +58,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 1980,
-    "noun": { "gender": "f", "plural": null },
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
     "senses": [
       {
         "en": "biology",
@@ -62,7 +75,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2010,
-    "noun": { "gender": "f", "plural": null },
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
     "senses": [
       {
         "en": "physics",
@@ -90,7 +106,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2470,
-    "noun": { "gender": "f", "plural": "Theorien" },
+    "noun": {
+      "gender": "f",
+      "plural": "Theorien"
+    },
     "senses": [
       {
         "en": "theory",
@@ -99,7 +118,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Es gibt viele Theorien über das Weltall.", "en": "There are many theories about the universe." }
+      {
+        "tag": "plural",
+        "de": "Es gibt viele Theorien über das Weltall.",
+        "en": "There are many theories about the universe."
+      }
     ]
   },
   {
@@ -107,7 +130,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3700,
-    "noun": { "gender": "f", "plural": "Hypothesen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Hypothesen"
+    },
     "senses": [
       {
         "en": "hypothesis",
@@ -121,7 +147,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2050,
-    "noun": { "gender": "n", "plural": "Experimente" },
+    "noun": {
+      "gender": "n",
+      "plural": "Experimente"
+    },
     "senses": [
       {
         "en": "experiment",
@@ -130,7 +159,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Die Schüler machen einfache Experimente.", "en": "The pupils do simple experiments." }
+      {
+        "tag": "plural",
+        "de": "Die Schüler machen einfache Experimente.",
+        "en": "The pupils do simple experiments."
+      }
     ]
   },
   {
@@ -138,7 +171,9 @@
     "pos": "verb",
     "level": "B2",
     "freq": 3200,
-    "verb": { "aux": "haben" },
+    "verb": {
+      "aux": "haben"
+    },
     "senses": [
       {
         "en": "to experiment",
@@ -147,9 +182,21 @@
       }
     ],
     "examples": [
-      { "tag": "präsens", "de": "Der Forscher experimentiert im Labor.", "en": "The researcher experiments in the lab." },
-      { "tag": "präteritum", "de": "Sie experimentierte mit neuen Stoffen.", "en": "She experimented with new substances." },
-      { "tag": "perfekt", "de": "Wir haben lange experimentiert.", "en": "We experimented for a long time." }
+      {
+        "tag": "präsens",
+        "de": "Der Forscher experimentiert im Labor.",
+        "en": "The researcher experiments in the lab."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie experimentierte mit neuen Stoffen.",
+        "en": "She experimented with new substances."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben lange experimentiert.",
+        "en": "We experimented for a long time."
+      }
     ]
   },
   {
@@ -157,7 +204,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2100,
-    "noun": { "gender": "m", "plural": "Versuche" },
+    "noun": {
+      "gender": "m",
+      "plural": "Versuche"
+    },
     "senses": [
       {
         "en": "experiment, trial, attempt",
@@ -166,7 +216,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Die Versuche liefen ohne Probleme.", "en": "The experiments ran without problems." }
+      {
+        "tag": "plural",
+        "de": "Die Versuche liefen ohne Probleme.",
+        "en": "The experiments ran without problems."
+      }
     ]
   },
   {
@@ -174,7 +228,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3150,
-    "noun": { "gender": "f", "plural": "Beobachtungen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Beobachtungen"
+    },
     "senses": [
       {
         "en": "observation",
@@ -183,7 +240,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Die Forscher schreiben ihre Beobachtungen auf.", "en": "The researchers write down their observations." }
+      {
+        "tag": "plural",
+        "de": "Die Forscher schreiben ihre Beobachtungen auf.",
+        "en": "The researchers write down their observations."
+      }
     ]
   },
   {
@@ -191,7 +252,11 @@
     "pos": "verb",
     "level": "B1",
     "freq": 1960,
-    "verb": { "aux": "haben", "du": "beobachtest", "er": "beobachtet" },
+    "verb": {
+      "aux": "haben",
+      "du": "beobachtest",
+      "er": "beobachtet"
+    },
     "senses": [
       {
         "en": "to observe, to watch",
@@ -200,9 +265,21 @@
       }
     ],
     "examples": [
-      { "tag": "präsens", "de": "Der Biologe beobachtet die Tiere.", "en": "The biologist observes the animals." },
-      { "tag": "präteritum", "de": "Sie beobachtete das Experiment genau.", "en": "She observed the experiment closely." },
-      { "tag": "perfekt", "de": "Ich habe den Vogel lange beobachtet.", "en": "I watched the bird for a long time." }
+      {
+        "tag": "präsens",
+        "de": "Der Biologe beobachtet die Tiere.",
+        "en": "The biologist observes the animals."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie beobachtete das Experiment genau.",
+        "en": "She observed the experiment closely."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Vogel lange beobachtet.",
+        "en": "I watched the bird for a long time."
+      }
     ]
   },
   {
@@ -210,7 +287,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3250,
-    "noun": { "gender": "f", "plural": "Messungen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Messungen"
+    },
     "senses": [
       {
         "en": "measurement",
@@ -219,7 +299,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Die Messungen dauern mehrere Tage.", "en": "The measurements take several days." }
+      {
+        "tag": "plural",
+        "de": "Die Messungen dauern mehrere Tage.",
+        "en": "The measurements take several days."
+      }
     ]
   },
   {
@@ -227,7 +311,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2150,
-    "noun": { "gender": "n", "plural": "Elemente" },
+    "noun": {
+      "gender": "n",
+      "plural": "Elemente"
+    },
     "senses": [
       {
         "en": "element",
@@ -236,7 +323,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Wasser besteht aus zwei Elementen.", "en": "Water consists of two elements." }
+      {
+        "tag": "plural",
+        "de": "Wasser besteht aus zwei Elementen.",
+        "en": "Water consists of two elements."
+      }
     ]
   },
   {
@@ -244,7 +335,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2200,
-    "noun": { "gender": "m", "plural": "Stoffe" },
+    "noun": {
+      "gender": "m",
+      "plural": "Stoffe"
+    },
     "senses": [
       {
         "en": "substance, material",
@@ -253,7 +347,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Manche Stoffe sind gefährlich.", "en": "Some substances are dangerous." }
+      {
+        "tag": "plural",
+        "de": "Manche Stoffe sind gefährlich.",
+        "en": "Some substances are dangerous."
+      }
     ]
   },
   {
@@ -261,7 +359,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2250,
-    "noun": { "gender": "m", "plural": null },
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
     "senses": [
       {
         "en": "oxygen",
@@ -275,7 +376,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3300,
-    "noun": { "gender": "m", "plural": null },
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
     "senses": [
       {
         "en": "hydrogen",
@@ -289,7 +393,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3350,
-    "noun": { "gender": "f", "plural": "Säuren" },
+    "noun": {
+      "gender": "f",
+      "plural": "Säuren"
+    },
     "senses": [
       {
         "en": "acid",
@@ -298,7 +405,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Manche Säuren greifen Metall an.", "en": "Some acids attack metal." }
+      {
+        "tag": "plural",
+        "de": "Manche Säuren greifen Metall an.",
+        "en": "Some acids attack metal."
+      }
     ]
   },
   {
@@ -306,7 +417,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3400,
-    "noun": { "gender": "f", "plural": "Flüssigkeiten" },
+    "noun": {
+      "gender": "f",
+      "plural": "Flüssigkeiten"
+    },
     "senses": [
       {
         "en": "liquid, fluid",
@@ -315,7 +429,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Öl und Wasser sind verschiedene Flüssigkeiten.", "en": "Oil and water are different liquids." }
+      {
+        "tag": "plural",
+        "de": "Öl und Wasser sind verschiedene Flüssigkeiten.",
+        "en": "Oil and water are different liquids."
+      }
     ]
   },
   {
@@ -363,7 +481,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2320,
-    "noun": { "gender": "n", "plural": "Gase" },
+    "noun": {
+      "gender": "n",
+      "plural": "Gase"
+    },
     "senses": [
       {
         "en": "gas",
@@ -372,7 +493,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Manche Gase kann man nicht riechen.", "en": "You cannot smell some gases." }
+      {
+        "tag": "plural",
+        "de": "Manche Gase kann man nicht riechen.",
+        "en": "You cannot smell some gases."
+      }
     ]
   },
   {
@@ -380,7 +505,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2000,
-    "noun": { "gender": "f", "plural": "Reaktionen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Reaktionen"
+    },
     "senses": [
       {
         "en": "reaction",
@@ -389,7 +517,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Chemische Reaktionen laufen unterschiedlich schnell.", "en": "Chemical reactions run at different speeds." }
+      {
+        "tag": "plural",
+        "de": "Chemische Reaktionen laufen unterschiedlich schnell.",
+        "en": "Chemical reactions run at different speeds."
+      }
     ]
   },
   {
@@ -397,7 +529,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2400,
-    "noun": { "gender": "f", "plural": "Mischungen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Mischungen"
+    },
     "senses": [
       {
         "en": "mixture",
@@ -411,7 +546,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2420,
-    "noun": { "gender": "f", "plural": "Formeln" },
+    "noun": {
+      "gender": "f",
+      "plural": "Formeln"
+    },
     "senses": [
       {
         "en": "formula",
@@ -420,7 +558,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "In Physik muss man viele Formeln lernen.", "en": "In physics you have to learn many formulas." }
+      {
+        "tag": "plural",
+        "de": "In Physik muss man viele Formeln lernen.",
+        "en": "In physics you have to learn many formulas."
+      }
     ]
   },
   {
@@ -428,7 +570,10 @@
     "pos": "verb",
     "level": "B1",
     "freq": 2350,
-    "verb": { "aux": "haben", "separablePrefix": "auf" },
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf"
+    },
     "senses": [
       {
         "en": "to dissolve",
@@ -438,9 +583,21 @@
       }
     ],
     "examples": [
-      { "tag": "präsens", "de": "Das Salz löst sich langsam auf.", "en": "The salt dissolves slowly." },
-      { "tag": "präteritum", "de": "Die Tablette löste sich im Wasser auf.", "en": "The tablet dissolved in the water." },
-      { "tag": "perfekt", "de": "Der Zucker hat sich ganz aufgelöst.", "en": "The sugar has dissolved completely." }
+      {
+        "tag": "präsens",
+        "de": "Das Salz löst sich langsam auf.",
+        "en": "The salt dissolves slowly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Tablette löste sich im Wasser auf.",
+        "en": "The tablet dissolved in the water."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Zucker hat sich ganz aufgelöst.",
+        "en": "The sugar has dissolved completely."
+      }
     ]
   },
   {
@@ -448,7 +605,9 @@
     "pos": "verb",
     "level": "B2",
     "freq": 3450,
-    "verb": { "aux": "sein" },
+    "verb": {
+      "aux": "sein"
+    },
     "senses": [
       {
         "en": "to evaporate, to vaporize",
@@ -457,9 +616,21 @@
       }
     ],
     "examples": [
-      { "tag": "präsens", "de": "Das Wasser verdampft in der Sonne.", "en": "The water evaporates in the sun." },
-      { "tag": "präteritum", "de": "Die Flüssigkeit verdampfte im Topf.", "en": "The liquid evaporated in the pot." },
-      { "tag": "perfekt", "de": "Das ganze Wasser ist verdampft.", "en": "All the water has evaporated." }
+      {
+        "tag": "präsens",
+        "de": "Das Wasser verdampft in der Sonne.",
+        "en": "The water evaporates in the sun."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Flüssigkeit verdampfte im Topf.",
+        "en": "The liquid evaporated in the pot."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das ganze Wasser ist verdampft.",
+        "en": "All the water has evaporated."
+      }
     ]
   },
   {
@@ -467,7 +638,11 @@
     "pos": "verb",
     "level": "B2",
     "freq": 3500,
-    "verb": { "aux": "sein", "praeteritum": "gefror", "partizip2": "gefroren" },
+    "verb": {
+      "aux": "sein",
+      "praeteritum": "gefror",
+      "partizip2": "gefroren"
+    },
     "senses": [
       {
         "en": "to freeze (turn to ice)",
@@ -476,9 +651,21 @@
       }
     ],
     "examples": [
-      { "tag": "präsens", "de": "Der See gefriert im Winter.", "en": "The lake freezes in winter." },
-      { "tag": "präteritum", "de": "Das Wasser gefror über Nacht.", "en": "The water froze overnight." },
-      { "tag": "perfekt", "de": "Der Boden ist hart gefroren.", "en": "The ground has frozen hard." }
+      {
+        "tag": "präsens",
+        "de": "Der See gefriert im Winter.",
+        "en": "The lake freezes in winter."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Das Wasser gefror über Nacht.",
+        "en": "The water froze overnight."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Boden ist hart gefroren.",
+        "en": "The ground has frozen hard."
+      }
     ]
   },
   {
@@ -486,7 +673,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2450,
-    "noun": { "gender": "f", "plural": "Zellen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Zellen"
+    },
     "senses": [
       {
         "en": "cell (biology)",
@@ -495,7 +685,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Der Körper hat Millionen kleiner Zellen.", "en": "The body has millions of tiny cells." }
+      {
+        "tag": "plural",
+        "de": "Der Körper hat Millionen kleiner Zellen.",
+        "en": "The body has millions of tiny cells."
+      }
     ]
   },
   {
@@ -503,7 +697,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2500,
-    "noun": { "gender": "n", "plural": "Gene" },
+    "noun": {
+      "gender": "n",
+      "plural": "Gene"
+    },
     "senses": [
       {
         "en": "gene",
@@ -512,7 +709,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Kinder erben die Gene ihrer Eltern.", "en": "Children inherit their parents' genes." }
+      {
+        "tag": "plural",
+        "de": "Kinder erben die Gene ihrer Eltern.",
+        "en": "Children inherit their parents' genes."
+      }
     ]
   },
   {
@@ -520,7 +721,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3550,
-    "noun": { "gender": "f", "plural": null },
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
     "senses": [
       {
         "en": "evolution",
@@ -534,7 +738,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2470,
-    "noun": { "gender": "f", "plural": "Arten" },
+    "noun": {
+      "gender": "f",
+      "plural": "Arten"
+    },
     "senses": [
       {
         "en": "species; kind, type",
@@ -543,7 +750,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Viele Arten von Tieren sind bedroht.", "en": "Many species of animals are endangered." }
+      {
+        "tag": "plural",
+        "de": "Viele Arten von Tieren sind bedroht.",
+        "en": "Many species of animals are endangered."
+      }
     ]
   },
   {
@@ -551,7 +762,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3600,
-    "noun": { "gender": "n", "plural": "Lebewesen" },
+    "noun": {
+      "gender": "n",
+      "plural": "Lebewesen"
+    },
     "senses": [
       {
         "en": "living being, organism",
@@ -560,7 +774,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Im Meer leben viele kleine Lebewesen.", "en": "Many small living beings live in the sea." }
+      {
+        "tag": "plural",
+        "de": "Im Meer leben viele kleine Lebewesen.",
+        "en": "Many small living beings live in the sea."
+      }
     ]
   },
   {
@@ -568,7 +786,11 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3650,
-    "noun": { "gender": "m", "plural": "Organismen", "genitive": "Organismus" },
+    "noun": {
+      "gender": "m",
+      "plural": "Organismen",
+      "genitive": "Organismus"
+    },
     "senses": [
       {
         "en": "organism",
@@ -577,7 +799,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Bakterien sind sehr kleine Organismen.", "en": "Bacteria are very small organisms." }
+      {
+        "tag": "plural",
+        "de": "Bakterien sind sehr kleine Organismen.",
+        "en": "Bacteria are very small organisms."
+      }
     ]
   },
   {
@@ -585,7 +811,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3300,
-    "noun": { "gender": "f", "plural": "Bakterien" },
+    "noun": {
+      "gender": "f",
+      "plural": "Bakterien"
+    },
     "senses": [
       {
         "en": "bacterium",
@@ -595,7 +824,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Seife tötet viele Bakterien.", "en": "Soap kills many bacteria." }
+      {
+        "tag": "plural",
+        "de": "Seife tötet viele Bakterien.",
+        "en": "Soap kills many bacteria."
+      }
     ]
   },
   {
@@ -603,7 +836,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3200,
-    "noun": { "gender": "n", "plural": "Viren" },
+    "noun": {
+      "gender": "n",
+      "plural": "Viren"
+    },
     "senses": [
       {
         "en": "virus",
@@ -612,7 +848,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Viren verbreiten sich sehr schnell.", "en": "Viruses spread very quickly." }
+      {
+        "tag": "plural",
+        "de": "Viren verbreiten sich sehr schnell.",
+        "en": "Viruses spread very quickly."
+      }
     ]
   },
   {
@@ -620,7 +860,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3850,
-    "noun": { "gender": "f", "plural": null },
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
     "senses": [
       {
         "en": "photosynthesis",
@@ -634,7 +877,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3750,
-    "noun": { "gender": "f", "plural": null },
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
     "senses": [
       {
         "en": "reproduction (biology)",
@@ -648,7 +894,9 @@
     "pos": "verb",
     "level": "B2",
     "freq": 3550,
-    "verb": { "aux": "haben" },
+    "verb": {
+      "aux": "haben"
+    },
     "senses": [
       {
         "en": "to pass on (genetically), to bequeath",
@@ -657,9 +905,21 @@
       }
     ],
     "examples": [
-      { "tag": "präsens", "de": "Die Mutter vererbt die Augenfarbe.", "en": "The mother passes on the eye colour." },
-      { "tag": "präteritum", "de": "Er vererbte seinem Sohn das Haus.", "en": "He bequeathed the house to his son." },
-      { "tag": "perfekt", "de": "Sie hat ihm die Krankheit vererbt.", "en": "She passed the illness on to him." }
+      {
+        "tag": "präsens",
+        "de": "Die Mutter vererbt die Augenfarbe.",
+        "en": "The mother passes on the eye colour."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er vererbte seinem Sohn das Haus.",
+        "en": "He bequeathed the house to his son."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat ihm die Krankheit vererbt.",
+        "en": "She passed the illness on to him."
+      }
     ]
   },
   {
@@ -667,7 +927,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2380,
-    "noun": { "gender": "n", "plural": "Atome" },
+    "noun": {
+      "gender": "n",
+      "plural": "Atome"
+    },
     "senses": [
       {
         "en": "atom",
@@ -676,7 +939,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Alle Stoffe bestehen aus Atomen.", "en": "All substances consist of atoms." }
+      {
+        "tag": "plural",
+        "de": "Alle Stoffe bestehen aus Atomen.",
+        "en": "All substances consist of atoms."
+      }
     ]
   },
   {
@@ -684,7 +951,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3400,
-    "noun": { "gender": "n", "plural": "Moleküle" },
+    "noun": {
+      "gender": "n",
+      "plural": "Moleküle"
+    },
     "senses": [
       {
         "en": "molecule",
@@ -693,7 +963,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Große Moleküle bestehen aus vielen Atomen.", "en": "Large molecules consist of many atoms." }
+      {
+        "tag": "plural",
+        "de": "Große Moleküle bestehen aus vielen Atomen.",
+        "en": "Large molecules consist of many atoms."
+      }
     ]
   },
   {
@@ -701,7 +975,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3450,
-    "noun": { "gender": "n", "plural": "Teilchen" },
+    "noun": {
+      "gender": "n",
+      "plural": "Teilchen"
+    },
     "senses": [
       {
         "en": "particle",
@@ -710,7 +987,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Die Teilchen bewegen sich sehr schnell.", "en": "The particles move very fast." }
+      {
+        "tag": "plural",
+        "de": "Die Teilchen bewegen sich sehr schnell.",
+        "en": "The particles move very fast."
+      }
     ]
   },
   {
@@ -718,7 +999,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 1900,
-    "noun": { "gender": "f", "plural": "Energien" },
+    "noun": {
+      "gender": "f",
+      "plural": "Energien"
+    },
     "senses": [
       {
         "en": "energy",
@@ -728,28 +1012,14 @@
     ]
   },
   {
-    "lemma": "Kraft",
-    "pos": "noun",
-    "level": "B1",
-    "freq": 1930,
-    "noun": { "gender": "f", "plural": "Kräfte" },
-    "senses": [
-      {
-        "en": "force, strength",
-        "example_de": "Mit viel Kraft schiebt er den Stein.",
-        "example_en": "With a lot of force he pushes the stone."
-      }
-    ],
-    "examples": [
-      { "tag": "plural", "de": "In der Natur wirken viele Kräfte.", "en": "Many forces act in nature." }
-    ]
-  },
-  {
     "lemma": "Schwerkraft",
     "pos": "noun",
     "level": "B2",
     "freq": 3500,
-    "noun": { "gender": "f", "plural": null },
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
     "senses": [
       {
         "en": "gravity",
@@ -763,7 +1033,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2550,
-    "noun": { "gender": "f", "plural": "Geschwindigkeiten" },
+    "noun": {
+      "gender": "f",
+      "plural": "Geschwindigkeiten"
+    },
     "senses": [
       {
         "en": "speed, velocity",
@@ -777,7 +1050,9 @@
     "pos": "verb",
     "level": "B2",
     "freq": 3250,
-    "verb": { "aux": "haben" },
+    "verb": {
+      "aux": "haben"
+    },
     "senses": [
       {
         "en": "to accelerate, to speed up",
@@ -786,22 +1061,20 @@
       }
     ],
     "examples": [
-      { "tag": "präsens", "de": "Der Zug beschleunigt nach dem Bahnhof.", "en": "The train speeds up after the station." },
-      { "tag": "präteritum", "de": "Die Kugel beschleunigte im Fall.", "en": "The ball accelerated as it fell." },
-      { "tag": "perfekt", "de": "Der Wagen hat stark beschleunigt.", "en": "The car accelerated strongly." }
-    ]
-  },
-  {
-    "lemma": "Gewicht",
-    "pos": "noun",
-    "level": "B1",
-    "freq": 2130,
-    "noun": { "gender": "n", "plural": "Gewichte" },
-    "senses": [
       {
-        "en": "weight",
-        "example_de": "Das Gewicht des Steins ist sehr hoch.",
-        "example_en": "The weight of the stone is very high."
+        "tag": "präsens",
+        "de": "Der Zug beschleunigt nach dem Bahnhof.",
+        "en": "The train speeds up after the station."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Kugel beschleunigte im Fall.",
+        "en": "The ball accelerated as it fell."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Wagen hat stark beschleunigt.",
+        "en": "The car accelerated strongly."
       }
     ]
   },
@@ -810,7 +1083,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2170,
-    "noun": { "gender": "m", "plural": "Drücke" },
+    "noun": {
+      "gender": "m",
+      "plural": "Drücke"
+    },
     "senses": [
       {
         "en": "pressure",
@@ -824,7 +1100,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2020,
-    "noun": { "gender": "f", "plural": "Temperaturen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Temperaturen"
+    },
     "senses": [
       {
         "en": "temperature",
@@ -833,7 +1112,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Im Winter fallen die Temperaturen stark.", "en": "In winter the temperatures drop a lot." }
+      {
+        "tag": "plural",
+        "de": "Im Winter fallen die Temperaturen stark.",
+        "en": "In winter the temperatures drop a lot."
+      }
     ]
   },
   {
@@ -841,7 +1124,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2600,
-    "noun": { "gender": "f", "plural": "Wellen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Wellen"
+    },
     "senses": [
       {
         "en": "wave",
@@ -850,7 +1136,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "Das Radio nutzt unsichtbare Wellen.", "en": "The radio uses invisible waves." }
+      {
+        "tag": "plural",
+        "de": "Das Radio nutzt unsichtbare Wellen.",
+        "en": "The radio uses invisible waves."
+      }
     ]
   },
   {
@@ -858,7 +1148,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3600,
-    "noun": { "gender": "f", "plural": "Strahlungen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Strahlungen"
+    },
     "senses": [
       {
         "en": "radiation",
@@ -872,7 +1165,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3300,
-    "noun": { "gender": "m", "plural": "Magnete" },
+    "noun": {
+      "gender": "m",
+      "plural": "Magnete"
+    },
     "senses": [
       {
         "en": "magnet",
@@ -881,7 +1177,11 @@
       }
     ],
     "examples": [
-      { "tag": "plural", "de": "An der Tür hängen viele Magnete.", "en": "Many magnets hang on the door." }
+      {
+        "tag": "plural",
+        "de": "An der Tür hängen viele Magnete.",
+        "en": "Many magnets hang on the door."
+      }
     ]
   },
   {

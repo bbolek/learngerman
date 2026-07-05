@@ -91,10 +91,11 @@ function stemOf(infinitive: string): string {
   return infinitive;
 }
 
-/** Stems like arbeit-, öffn-, atm- need an e before -st/-t. */
+/** Stems like arbeit-, öffn-, atm- need an e before -st/-t. Doubled consonants
+ * (komm-, stimm-, renn-) don't, so m/n count as "easy" precedents too. */
 function needsE(stem: string): boolean {
   if (/[dt]$/.test(stem)) return true;
-  return /[^aeiouäöülrh][mn]$/.test(stem);
+  return /[^aeiouäöülrhmn][mn]$/.test(stem);
 }
 
 /** du-form after s/ß/x/z stems drops the s of -st (heißen → du heißt). */

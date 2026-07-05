@@ -988,6 +988,20 @@
     ]
   },
   {
+    "lemma": "guck mal",
+    "pos": "other",
+    "level": "A2",
+    "freq": 950,
+    "senses": [
+      {
+        "en": "look, check this out",
+        "example_de": "Guck mal, da ist ein Hund!",
+        "example_en": "Look, there is a dog!",
+        "note": "umgangssprachlich; Imperativ von gucken + mal"
+      }
+    ]
+  },
+  {
     "lemma": "gültig",
     "pos": "adj",
     "level": "A2",

@@ -1,0 +1,2653 @@
+[
+  {
+    "lemma": "schminken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to put on makeup",
+        "note": "reflexiv: sich schminken",
+        "example_de": "Sie schminkt sich vor der Arbeit.",
+        "example_en": "She puts on makeup before work."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich schminke mich selten.",
+        "en": "I rarely wear makeup."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich für die Party geschminkt.",
+        "en": "She put on makeup for the party."
+      }
+    ]
+  },
+  {
+    "lemma": "setzen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 850,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to sit down, to put (upright)",
+        "note": "reflexiv: sich setzen",
+        "example_de": "Er setzt sich auf den Stuhl.",
+        "example_en": "He sits down on the chair."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich setze mich neben dich.",
+        "en": "I sit down next to you."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich ans Fenster gesetzt.",
+        "en": "She sat down by the window."
+      }
+    ]
+  },
+  {
+    "lemma": "ausschlafen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus",
+      "du": "schläfst",
+      "er": "schläft",
+      "praeteritum": "schlief",
+      "partizip2": "ausgeschlafen"
+    },
+    "senses": [
+      {
+        "en": "to sleep in, to sleep enough",
+        "note": "separable",
+        "example_de": "Am Sonntag schlafe ich aus.",
+        "example_en": "On Sunday I sleep in."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schläft am Wochenende aus.",
+        "en": "He sleeps in on the weekend."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schlief endlich einmal aus.",
+        "en": "She finally slept in for once."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe heute ausgeschlafen.",
+        "en": "I slept in today."
+      }
+    ]
+  },
+  {
+    "lemma": "staubsaugen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to vacuum",
+        "example_de": "Ich staubsauge das Wohnzimmer.",
+        "example_en": "I vacuum the living room."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er staubsaugt jeden Samstag.",
+        "en": "He vacuums every Saturday."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat schon gestaubsaugt.",
+        "en": "She has already vacuumed."
+      }
+    ]
+  },
+  {
+    "lemma": "abräumen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to clear (the table)",
+        "note": "separable · den Tisch abräumen",
+        "example_de": "Ich räume den Tisch ab.",
+        "example_en": "I clear the table."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er räumt das Geschirr ab.",
+        "en": "He clears the dishes."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Tisch abgeräumt.",
+        "en": "We cleared the table."
+      }
+    ]
+  },
+  {
+    "lemma": "nähen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to sew",
+        "example_de": "Meine Oma näht gern.",
+        "example_en": "My grandma likes to sew."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie näht ein Kleid.",
+        "en": "She is sewing a dress."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat den Knopf angenäht.",
+        "en": "He sewed on the button."
+      }
+    ]
+  },
+  {
+    "lemma": "stricken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to knit",
+        "example_de": "Sie strickt einen Pullover.",
+        "example_en": "She is knitting a sweater."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Meine Mutter strickt oft.",
+        "en": "My mother often knits."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe eine Mütze gestrickt.",
+        "en": "I knitted a hat."
+      }
+    ]
+  },
+  {
+    "lemma": "mähen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to mow",
+        "note": "den Rasen mähen",
+        "example_de": "Er mäht den Rasen.",
+        "example_en": "He mows the lawn."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir mähen den Garten am Samstag.",
+        "en": "We mow the garden on Saturday."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat den Rasen gemäht.",
+        "en": "She mowed the lawn."
+      }
+    ]
+  },
+  {
+    "lemma": "kehren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to sweep",
+        "example_de": "Ich kehre den Boden.",
+        "example_en": "I sweep the floor."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er kehrt den Hof.",
+        "en": "He sweeps the yard."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Küche gekehrt.",
+        "en": "She swept the kitchen."
+      }
+    ]
+  },
+  {
+    "lemma": "fegen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1350,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to sweep",
+        "example_de": "Sie fegt die Treppe.",
+        "example_en": "She sweeps the stairs."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich fege den Flur.",
+        "en": "I sweep the hallway."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat den Balkon gefegt.",
+        "en": "He swept the balcony."
+      }
+    ]
+  },
+  {
+    "lemma": "trocknen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to dry (something)",
+        "example_de": "Ich trockne die Wäsche.",
+        "example_en": "I dry the laundry."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Sonne trocknet die Kleidung.",
+        "en": "The sun dries the clothes."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Haare getrocknet.",
+        "en": "She dried her hair."
+      }
+    ]
+  },
+  {
+    "lemma": "spazierengehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 900,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "spazieren",
+      "praeteritum": "ging",
+      "partizip2": "spazierengegangen"
+    },
+    "senses": [
+      {
+        "en": "to go for a walk",
+        "note": "separable",
+        "example_de": "Wir gehen im Park spazieren.",
+        "example_en": "We go for a walk in the park."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er geht jeden Abend spazieren.",
+        "en": "He goes for a walk every evening."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie ging am Fluss spazieren.",
+        "en": "She went for a walk by the river."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind lange spazierengegangen.",
+        "en": "We went for a long walk."
+      }
+    ]
+  },
+  {
+    "lemma": "tauchen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "sein"
+    },
+    "senses": [
+      {
+        "en": "to dive",
+        "example_de": "Er taucht gern im Meer.",
+        "example_en": "He likes to dive in the sea."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie taucht unter das Wasser.",
+        "en": "She dives under the water."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind im See getaucht.",
+        "en": "We dived in the lake."
+      }
+    ]
+  },
+  {
+    "lemma": "angeln",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "praesens": {
+        "ich": "angle",
+        "du": "angelst",
+        "er": "angelt",
+        "wir": "angeln",
+        "ihr": "angelt",
+        "sie": "angeln"
+      }
+    },
+    "senses": [
+      {
+        "en": "to fish",
+        "example_de": "Mein Opa angelt am Fluss.",
+        "example_en": "My grandpa fishes by the river."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir angeln am Wochenende.",
+        "en": "We go fishing on the weekend."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat einen Fisch geangelt.",
+        "en": "He caught a fish."
+      }
+    ]
+  },
+  {
+    "lemma": "rennen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 950,
+    "verb": {
+      "aux": "sein",
+      "du": "rennst",
+      "er": "rennt",
+      "praeteritum": "rannte",
+      "partizip2": "gerannt"
+    },
+    "senses": [
+      {
+        "en": "to run",
+        "example_de": "Er rennt zur Bushaltestelle.",
+        "example_en": "He runs to the bus stop."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir rennen um die Wette.",
+        "en": "We race each other."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie rannte nach Hause.",
+        "en": "She ran home."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich bin schnell gerannt.",
+        "en": "I ran fast."
+      }
+    ]
+  },
+  {
+    "lemma": "rutschen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1350,
+    "verb": {
+      "aux": "sein"
+    },
+    "senses": [
+      {
+        "en": "to slide, to slip",
+        "example_de": "Das Kind rutscht auf dem Eis.",
+        "example_en": "The child slides on the ice."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er rutscht die Rutsche hinunter.",
+        "en": "He slides down the slide."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie ist auf dem Boden gerutscht.",
+        "en": "She slipped on the floor."
+      }
+    ]
+  },
+  {
+    "lemma": "drehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to turn (something), to rotate",
+        "note": "reflexiv: sich drehen",
+        "example_de": "Er dreht den Schlüssel.",
+        "example_en": "He turns the key."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Rad dreht sich schnell.",
+        "en": "The wheel turns quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich zu mir gedreht.",
+        "en": "She turned toward me."
+      }
+    ]
+  },
+  {
+    "lemma": "berühren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "berührt"
+    },
+    "senses": [
+      {
+        "en": "to touch",
+        "example_de": "Bitte das Bild nicht berühren.",
+        "example_en": "Please do not touch the picture."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie berührt seine Hand.",
+        "en": "She touches his hand."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Wand berührt.",
+        "en": "I touched the wall."
+      }
+    ]
+  },
+  {
+    "lemma": "gähnen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to yawn",
+        "example_de": "Er gähnt vor Müdigkeit.",
+        "example_en": "He yawns from tiredness."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Baby gähnt oft.",
+        "en": "The baby often yawns."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe laut gegähnt.",
+        "en": "I yawned loudly."
+      }
+    ]
+  },
+  {
+    "lemma": "schnarchen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1350,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to snore",
+        "example_de": "Mein Vater schnarcht laut.",
+        "example_en": "My father snores loudly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schnarcht die ganze Nacht.",
+        "en": "He snores all night."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat wieder geschnarcht.",
+        "en": "She snored again."
+      }
+    ]
+  },
+  {
+    "lemma": "lächeln",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "praesens": {
+        "ich": "lächle",
+        "du": "lächelst",
+        "er": "lächelt",
+        "wir": "lächeln",
+        "ihr": "lächelt",
+        "sie": "lächeln"
+      }
+    },
+    "senses": [
+      {
+        "en": "to smile",
+        "example_de": "Sie lächelt mich an.",
+        "example_en": "She smiles at me."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er lächelt oft.",
+        "en": "He often smiles."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Kind hat glücklich gelächelt.",
+        "en": "The child smiled happily."
+      }
+    ]
+  },
+  {
+    "lemma": "schreien",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "schrie",
+      "partizip2": "geschrien"
+    },
+    "senses": [
+      {
+        "en": "to shout, to scream",
+        "example_de": "Das Baby schreit laut.",
+        "example_en": "The baby screams loudly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schreit vor Angst.",
+        "en": "He screams from fear."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schrie um Hilfe.",
+        "en": "She screamed for help."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben laut geschrien.",
+        "en": "We screamed loudly."
+      }
+    ]
+  },
+  {
+    "lemma": "flüstern",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to whisper",
+        "example_de": "Sie flüstert mir etwas zu.",
+        "example_en": "She whispers something to me."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er flüstert im Kino.",
+        "en": "He whispers in the cinema."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat den Namen geflüstert.",
+        "en": "She whispered the name."
+      }
+    ]
+  },
+  {
+    "lemma": "vergessen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 750,
+    "verb": {
+      "aux": "haben",
+      "du": "vergisst",
+      "er": "vergisst",
+      "praeteritum": "vergaß",
+      "partizip2": "vergessen"
+    },
+    "senses": [
+      {
+        "en": "to forget",
+        "example_de": "Ich vergesse oft meinen Schlüssel.",
+        "example_en": "I often forget my key."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er vergisst ihren Geburtstag nie.",
+        "en": "He never forgets her birthday."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie vergaß das Buch zu Hause.",
+        "en": "She forgot the book at home."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Termin vergessen.",
+        "en": "I forgot the appointment."
+      }
+    ]
+  },
+  {
+    "lemma": "merken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to notice, to remember",
+        "note": "reflexiv: sich etwas merken",
+        "example_de": "Ich merke mir die Nummer.",
+        "example_en": "I'm memorizing the number."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er merkt sich alle Namen.",
+        "en": "He remembers everyone's name."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat den Fehler gemerkt.",
+        "en": "She noticed the mistake."
+      }
+    ]
+  },
+  {
+    "lemma": "auswählen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to select, to pick",
+        "note": "separable",
+        "example_de": "Ich wähle ein Kleid aus.",
+        "example_en": "I pick out a dress."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er wählt einen Film aus.",
+        "en": "He selects a movie."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat das Geschenk ausgewählt.",
+        "en": "She picked out the gift."
+      }
+    ]
+  },
+  {
+    "lemma": "testen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to test",
+        "example_de": "Ich teste das neue Handy.",
+        "example_en": "I test the new phone."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er testet das Auto.",
+        "en": "He test-drives the car."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die App getestet.",
+        "en": "She tested the app."
+      }
+    ]
+  },
+  {
+    "lemma": "senden",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to send, to transmit",
+        "example_de": "Ich sende dir ein Foto.",
+        "example_en": "I'll send you a photo."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er sendet die E-Mail sofort.",
+        "en": "He sends the email right away."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Datei gesendet.",
+        "en": "She sent the file."
+      }
+    ]
+  },
+  {
+    "lemma": "packen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 900,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to pack",
+        "example_de": "Ich packe den Koffer.",
+        "example_en": "I pack the suitcase."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie packt ihre Sachen.",
+        "en": "She packs her things."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Tasche gepackt.",
+        "en": "He packed the bag."
+      }
+    ]
+  },
+  {
+    "lemma": "legen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 800,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to lay, to put (flat)",
+        "example_de": "Ich lege das Buch auf den Tisch.",
+        "example_en": "I put the book on the table."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie legt die Karte auf den Stuhl.",
+        "en": "She lays the map on the chair."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat das Handy weggelegt.",
+        "en": "He put the phone away."
+      }
+    ]
+  },
+  {
+    "lemma": "stellen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 800,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to put, to place (upright)",
+        "example_de": "Ich stelle das Glas auf den Tisch.",
+        "example_en": "I put the glass on the table."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er stellt die Schuhe vor die Tür.",
+        "en": "He puts the shoes by the door."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Vase ins Fenster gestellt.",
+        "en": "She placed the vase in the window."
+      }
+    ]
+  },
+  {
+    "lemma": "aufheben",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf",
+      "praeteritum": "hob",
+      "partizip2": "aufgehoben"
+    },
+    "senses": [
+      {
+        "en": "to pick up, to keep",
+        "note": "separable",
+        "example_de": "Ich hebe den Stift auf.",
+        "example_en": "I pick up the pen."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er hebt das Geld auf.",
+        "en": "He picks up the money."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie hob den Ball auf.",
+        "en": "She picked up the ball."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Zettel aufgehoben.",
+        "en": "We kept the notes."
+      }
+    ]
+  },
+  {
+    "lemma": "bedanken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "bedankt"
+    },
+    "senses": [
+      {
+        "en": "to thank, to say thank you",
+        "note": "reflexiv: sich bedanken",
+        "example_de": "Ich bedanke mich für das Geschenk.",
+        "example_en": "I thank you for the gift."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie bedankt sich bei ihm.",
+        "en": "She thanks him."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns herzlich bedankt.",
+        "en": "We thanked him warmly."
+      }
+    ]
+  },
+  {
+    "lemma": "anzünden",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to light, to ignite",
+        "note": "separable",
+        "example_de": "Ich zünde die Kerze an.",
+        "example_en": "I light the candle."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er zündet das Feuer an.",
+        "en": "He lights the fire."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Kerzen angezündet.",
+        "en": "She lit the candles."
+      }
+    ]
+  },
+  {
+    "lemma": "abkühlen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to cool down",
+        "note": "separable",
+        "example_de": "Das Essen kühlt ab.",
+        "example_en": "The food cools down."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Tee kühlt schnell ab.",
+        "en": "The tea cools down quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Suppe ist schon abgekühlt.",
+        "en": "The soup has already cooled down."
+      }
+    ]
+  },
+  {
+    "lemma": "einatmen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to breathe in, to inhale",
+        "note": "separable",
+        "example_de": "Atme tief die Luft ein.",
+        "example_en": "Breathe the air in deeply."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er atmet die frische Luft ein.",
+        "en": "He breathes in the fresh air."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat tief eingeatmet.",
+        "en": "She inhaled deeply."
+      }
+    ]
+  },
+  {
+    "lemma": "ausatmen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to breathe out, to exhale",
+        "note": "separable",
+        "example_de": "Atme langsam aus.",
+        "example_en": "Breathe out slowly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie atmet langsam aus.",
+        "en": "She exhales slowly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat laut ausgeatmet.",
+        "en": "He exhaled loudly."
+      }
+    ]
+  },
+  {
+    "lemma": "umdrehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "um"
+    },
+    "senses": [
+      {
+        "en": "to turn around",
+        "note": "separable · reflexiv: sich umdrehen",
+        "example_de": "Er dreht sich zu mir um.",
+        "example_en": "He turns around to me."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie dreht sich schnell um.",
+        "en": "She turns around quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich noch einmal umgedreht.",
+        "en": "I turned around once more."
+      }
+    ]
+  },
+  {
+    "lemma": "reinigen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to clean",
+        "example_de": "Ich reinige das Fenster.",
+        "example_en": "I clean the window."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie reinigt die Küche.",
+        "en": "She cleans the kitchen."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat das Auto gereinigt.",
+        "en": "He cleaned the car."
+      }
+    ]
+  },
+  {
+    "lemma": "zerbrechen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "sein",
+      "du": "zerbrichst",
+      "er": "zerbricht",
+      "praeteritum": "zerbrach",
+      "partizip2": "zerbrochen"
+    },
+    "senses": [
+      {
+        "en": "to break, to shatter",
+        "example_de": "Das Glas zerbricht leicht.",
+        "example_en": "The glass breaks easily."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Vase zerbricht schnell.",
+        "en": "The vase breaks quickly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Teller zerbrach auf dem Boden.",
+        "en": "The plate shattered on the floor."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Tasse ist zerbrochen.",
+        "en": "The cup has broken."
+      }
+    ]
+  },
+  {
+    "lemma": "kaputtgehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 900,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "kaputt",
+      "praeteritum": "ging",
+      "partizip2": "kaputtgegangen"
+    },
+    "senses": [
+      {
+        "en": "to break, to stop working",
+        "note": "separable",
+        "example_de": "Mein Handy geht kaputt.",
+        "example_en": "My phone is breaking."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Fernseher geht oft kaputt.",
+        "en": "The TV often breaks."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Waschmaschine ging kaputt.",
+        "en": "The washing machine broke."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Mein Laptop ist kaputtgegangen.",
+        "en": "My laptop broke."
+      }
+    ]
+  },
+  {
+    "lemma": "föhnen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to blow-dry (hair)",
+        "note": "reflexiv: sich föhnen",
+        "example_de": "Ich föhne mir die Haare.",
+        "example_en": "I blow-dry my hair."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie föhnt ihre Haare jeden Morgen.",
+        "en": "She blow-dries her hair every morning."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich die Haare geföhnt.",
+        "en": "He blow-dried his hair."
+      }
+    ]
+  },
+  {
+    "lemma": "eincremen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to put on lotion, to moisturize",
+        "note": "separable · reflexiv: sich eincremen",
+        "example_de": "Ich creme mich nach dem Duschen ein.",
+        "example_en": "I put on lotion after showering."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie cremt ihr Gesicht ein.",
+        "en": "She moisturizes her face."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich die Hände eingecremt.",
+        "en": "He put lotion on his hands."
+      }
+    ]
+  },
+  {
+    "lemma": "abschminken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1350,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to remove makeup",
+        "note": "separable · reflexiv: sich abschminken",
+        "example_de": "Ich schminke mich vor dem Schlafen ab.",
+        "example_en": "I remove my makeup before sleeping."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie schminkt sich abends ab.",
+        "en": "She removes her makeup in the evening."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich schon abgeschminkt.",
+        "en": "I have already removed my makeup."
+      }
+    ]
+  },
+  {
+    "lemma": "abspülen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to rinse, to wash up (dishes)",
+        "note": "separable",
+        "example_de": "Ich spüle die Gläser ab.",
+        "example_en": "I rinse the glasses."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er spült die Tassen ab.",
+        "en": "He rinses the cups."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Geschirr abgespült.",
+        "en": "We washed up the dishes."
+      }
+    ]
+  },
+  {
+    "lemma": "reiben",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "rieb",
+      "partizip2": "gerieben"
+    },
+    "senses": [
+      {
+        "en": "to rub",
+        "example_de": "Ich reibe mir die Augen.",
+        "example_en": "I rub my eyes."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er reibt sich die Hände.",
+        "en": "He rubs his hands."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie rieb den Käse.",
+        "en": "She grated the cheese."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mir die Augen gerieben.",
+        "en": "I rubbed my eyes."
+      }
+    ]
+  },
+  {
+    "lemma": "kratzen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to scratch",
+        "example_de": "Die Katze kratzt den Stuhl.",
+        "example_en": "The cat scratches the chair."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Pullover kratzt am Hals.",
+        "en": "The sweater scratches at the neck."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich am Arm gekratzt.",
+        "en": "He scratched his arm."
+      }
+    ]
+  },
+  {
+    "lemma": "treten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben",
+      "du": "trittst",
+      "er": "tritt",
+      "praeteritum": "trat",
+      "partizip2": "getreten"
+    },
+    "senses": [
+      {
+        "en": "to kick, to step",
+        "example_de": "Er tritt gegen den Ball.",
+        "example_en": "He kicks the ball."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie tritt auf die Bremse.",
+        "en": "She steps on the brake."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er trat versehentlich auf meinen Fuß.",
+        "en": "He accidentally stepped on my foot."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Kind hat den Ball getreten.",
+        "en": "The child kicked the ball."
+      }
+    ]
+  },
+  {
+    "lemma": "stoßen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "du": "stößt",
+      "er": "stößt",
+      "praeteritum": "stieß",
+      "partizip2": "gestoßen"
+    },
+    "senses": [
+      {
+        "en": "to push, to bump",
+        "example_de": "Er stößt die Tür auf.",
+        "example_en": "He pushes the door open."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie stößt mich versehentlich an.",
+        "en": "She accidentally bumps into me."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er stieß mit dem Kopf an die Tür.",
+        "en": "He bumped his head on the door."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Glas gestoßen.",
+        "en": "I bumped the glass."
+      }
+    ]
+  },
+  {
+    "lemma": "lecken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1350,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to lick",
+        "example_de": "Der Hund leckt meine Hand.",
+        "example_en": "The dog licks my hand."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Katze leckt die Milch.",
+        "en": "The cat licks the milk."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich die Finger geleckt.",
+        "en": "He licked his fingers."
+      }
+    ]
+  },
+  {
+    "lemma": "ordnen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to organize, to put in order",
+        "example_de": "Ich ordne meine Bücher.",
+        "example_en": "I organize my books."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er ordnet die Papiere.",
+        "en": "He organizes the papers."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Fotos geordnet.",
+        "en": "She sorted the photos."
+      }
+    ]
+  },
+  {
+    "lemma": "sichern",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to secure, to save (a file)",
+        "example_de": "Ich sichere die Datei.",
+        "example_en": "I save the file."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er sichert seine Daten.",
+        "en": "He backs up his data."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat das Dokument gesichert.",
+        "en": "She saved the document."
+      }
+    ]
+  },
+  {
+    "lemma": "wagen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to dare, to risk",
+        "note": "reflexiv: sich wagen",
+        "example_de": "Ich wage es nicht.",
+        "example_en": "I don't dare do it."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er wagt einen Sprung.",
+        "en": "He risks a jump."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich endlich gewagt.",
+        "en": "She finally dared to."
+      }
+    ]
+  },
+  {
+    "lemma": "aufwecken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf"
+    },
+    "senses": [
+      {
+        "en": "to wake (someone) up",
+        "note": "separable",
+        "example_de": "Bitte weck mich um sieben auf.",
+        "example_en": "Please wake me up at seven."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Wecker weckt mich auf.",
+        "en": "The alarm clock wakes me up."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat ihn nicht aufgeweckt.",
+        "en": "She didn't wake him up."
+      }
+    ]
+  },
+  {
+    "lemma": "aufschließen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf",
+      "praeteritum": "schloss",
+      "partizip2": "aufgeschlossen"
+    },
+    "senses": [
+      {
+        "en": "to unlock",
+        "note": "separable",
+        "example_de": "Ich schließe die Tür auf.",
+        "example_en": "I unlock the door."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schließt das Auto auf.",
+        "en": "He unlocks the car."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schloss die Wohnung auf.",
+        "en": "She unlocked the apartment."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Büro aufgeschlossen.",
+        "en": "I unlocked the office."
+      }
+    ]
+  },
+  {
+    "lemma": "zuschließen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zu",
+      "praeteritum": "schloss",
+      "partizip2": "zugeschlossen"
+    },
+    "senses": [
+      {
+        "en": "to lock",
+        "note": "separable",
+        "example_de": "Ich schließe die Tür zu.",
+        "example_en": "I lock the door."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schließt das Fahrrad zu.",
+        "en": "He locks the bike."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat das Haus zugeschlossen.",
+        "en": "She locked the house."
+      }
+    ]
+  },
+  {
+    "lemma": "hämmern",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1350,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to hammer",
+        "example_de": "Er hämmert einen Nagel in die Wand.",
+        "example_en": "He hammers a nail into the wall."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie hämmert das Brett fest.",
+        "en": "She hammers the board tight."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat den ganzen Tag gehämmert.",
+        "en": "He hammered all day."
+      }
+    ]
+  },
+  {
+    "lemma": "bohren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to drill",
+        "example_de": "Er bohrt ein Loch in die Wand.",
+        "example_en": "He drills a hole in the wall."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie bohrt ein Loch für das Bild.",
+        "en": "She drills a hole for the picture."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat drei Löcher gebohrt.",
+        "en": "He drilled three holes."
+      }
+    ]
+  },
+  {
+    "lemma": "läuten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to ring (a bell)",
+        "example_de": "Die Glocke läutet.",
+        "example_en": "The bell rings."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Es läutet an der Tür.",
+        "en": "The doorbell is ringing."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Kirchenglocke hat geläutet.",
+        "en": "The church bell rang."
+      }
+    ]
+  },
+  {
+    "lemma": "einrichten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to furnish, to set up",
+        "note": "separable",
+        "example_de": "Wir richten die Wohnung ein.",
+        "example_en": "We furnish the apartment."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie richtet ihr Zimmer neu ein.",
+        "en": "She furnishes her room anew."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Küche eingerichtet.",
+        "en": "We set up the kitchen."
+      }
+    ]
+  },
+  {
+    "lemma": "aufbauen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf"
+    },
+    "senses": [
+      {
+        "en": "to set up, to assemble",
+        "note": "separable",
+        "example_de": "Ich baue das Zelt auf.",
+        "example_en": "I set up the tent."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er baut das Regal auf.",
+        "en": "He assembles the shelf."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Schrank aufgebaut.",
+        "en": "We assembled the wardrobe."
+      }
+    ]
+  },
+  {
+    "lemma": "abbauen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to dismantle, to take down",
+        "note": "separable",
+        "example_de": "Wir bauen das Zelt ab.",
+        "example_en": "We take down the tent."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er baut die Bühne ab.",
+        "en": "He dismantles the stage."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben den Stand abgebaut.",
+        "en": "They took down the stand."
+      }
+    ]
+  },
+  {
+    "lemma": "hinfallen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1000,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "hin",
+      "du": "fällst",
+      "er": "fällt",
+      "praeteritum": "fiel",
+      "partizip2": "hingefallen"
+    },
+    "senses": [
+      {
+        "en": "to fall down",
+        "note": "separable",
+        "example_de": "Das Kind fällt hin.",
+        "example_en": "The child falls down."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fällt beim Laufen hin.",
+        "en": "He falls down while running."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie fiel auf dem Eis hin.",
+        "en": "She fell down on the ice."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich bin auf der Treppe hingefallen.",
+        "en": "I fell down on the stairs."
+      }
+    ]
+  },
+  {
+    "lemma": "stolpern",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "sein"
+    },
+    "senses": [
+      {
+        "en": "to trip, to stumble",
+        "example_de": "Ich stolpere über den Teppich.",
+        "example_en": "I trip over the carpet."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er stolpert über den Stein.",
+        "en": "He stumbles over the stone."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie ist über die Stufe gestolpert.",
+        "en": "She tripped over the step."
+      }
+    ]
+  },
+  {
+    "lemma": "umfallen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "um",
+      "du": "fällst",
+      "er": "fällt",
+      "praeteritum": "fiel",
+      "partizip2": "umgefallen"
+    },
+    "senses": [
+      {
+        "en": "to fall over, to tip over",
+        "note": "separable",
+        "example_de": "Die Vase fällt um.",
+        "example_en": "The vase tips over."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Stuhl fällt um.",
+        "en": "The chair tips over."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Das Fahrrad fiel im Wind um.",
+        "en": "The bike fell over in the wind."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Flasche ist umgefallen.",
+        "en": "The bottle tipped over."
+      }
+    ]
+  },
+  {
+    "lemma": "anstoßen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "du": "stößt",
+      "er": "stößt",
+      "praeteritum": "stieß",
+      "partizip2": "angestoßen"
+    },
+    "senses": [
+      {
+        "en": "to toast (with glasses), to nudge",
+        "note": "separable",
+        "example_de": "Wir stoßen auf dich an.",
+        "example_en": "We toast to you."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er stößt mit dem Glas an.",
+        "en": "He clinks his glass."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben auf das neue Jahr angestoßen.",
+        "en": "We toasted to the new year."
+      }
+    ]
+  },
+  {
+    "lemma": "begleiten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "begleitet"
+    },
+    "senses": [
+      {
+        "en": "to accompany",
+        "example_de": "Ich begleite dich nach Hause.",
+        "example_en": "I'll accompany you home."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er begleitet seine Tochter zur Schule.",
+        "en": "He accompanies his daughter to school."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat mich zum Arzt begleitet.",
+        "en": "She accompanied me to the doctor."
+      }
+    ]
+  },
+  {
+    "lemma": "hinstellen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "hin"
+    },
+    "senses": [
+      {
+        "en": "to put, to place (upright)",
+        "note": "separable",
+        "example_de": "Ich stelle die Vase hin.",
+        "example_en": "I put the vase there."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er stellt die Tasche hin.",
+        "en": "He puts the bag down."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat den Karton hingestellt.",
+        "en": "She put the box there."
+      }
+    ]
+  },
+  {
+    "lemma": "wegstellen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "weg"
+    },
+    "senses": [
+      {
+        "en": "to put away (upright)",
+        "note": "separable",
+        "example_de": "Ich stelle die Schuhe weg.",
+        "example_en": "I put the shoes away."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er stellt das Glas weg.",
+        "en": "He puts the glass away."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Bücher weggestellt.",
+        "en": "She put the books away."
+      }
+    ]
+  },
+  {
+    "lemma": "umstellen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "um"
+    },
+    "senses": [
+      {
+        "en": "to rearrange, to move (furniture)",
+        "note": "separable",
+        "example_de": "Wir stellen die Möbel um.",
+        "example_en": "We rearrange the furniture."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie stellt das Sofa um.",
+        "en": "She rearranges the sofa."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat den Schrank umgestellt.",
+        "en": "He moved the wardrobe."
+      }
+    ]
+  },
+  {
+    "lemma": "verstellen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verstellt"
+    },
+    "senses": [
+      {
+        "en": "to adjust, to move out of place",
+        "example_de": "Ich verstelle den Sitz.",
+        "example_en": "I adjust the seat."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er verstellt den Spiegel.",
+        "en": "He adjusts the mirror."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Uhrzeit verstellt.",
+        "en": "She changed the time setting."
+      }
+    ]
+  },
+  {
+    "lemma": "aufhängen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf"
+    },
+    "senses": [
+      {
+        "en": "to hang up",
+        "note": "separable",
+        "example_de": "Ich hänge das Bild auf.",
+        "example_en": "I hang up the picture."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie hängt die Wäsche auf.",
+        "en": "She hangs up the laundry."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat den Mantel aufgehängt.",
+        "en": "He hung up the coat."
+      }
+    ]
+  },
+  {
+    "lemma": "weglegen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "weg"
+    },
+    "senses": [
+      {
+        "en": "to put away, to set aside",
+        "note": "separable",
+        "example_de": "Ich lege das Handy weg.",
+        "example_en": "I put the phone away."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er legt die Zeitung weg.",
+        "en": "He sets the newspaper aside."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Karten weggelegt.",
+        "en": "She put the cards away."
+      }
+    ]
+  },
+  {
+    "lemma": "wegräumen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "weg"
+    },
+    "senses": [
+      {
+        "en": "to put away, to tidy up",
+        "note": "separable",
+        "example_de": "Ich räume mein Spielzeug weg.",
+        "example_en": "I put my toys away."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie räumt die Kleidung weg.",
+        "en": "She tidies away the clothes."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Werkzeuge weggeräumt.",
+        "en": "He put away the tools."
+      }
+    ]
+  },
+  {
+    "lemma": "zurückstellen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zurück"
+    },
+    "senses": [
+      {
+        "en": "to put back, to set back (a clock)",
+        "note": "separable",
+        "example_de": "Ich stelle die Uhr zurück.",
+        "example_en": "I set the clock back."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er stellt die Flasche zurück.",
+        "en": "He puts the bottle back."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Uhr zurückgestellt.",
+        "en": "She set the clock back."
+      }
+    ]
+  },
+  {
+    "lemma": "aufschreiben",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf",
+      "praeteritum": "schrieb",
+      "partizip2": "aufgeschrieben"
+    },
+    "senses": [
+      {
+        "en": "to write down",
+        "note": "separable",
+        "example_de": "Ich schreibe die Adresse auf.",
+        "example_en": "I write down the address."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schreibt die Nummer auf.",
+        "en": "He writes down the number."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schrieb den Namen auf.",
+        "en": "She wrote down the name."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben alles aufgeschrieben.",
+        "en": "We wrote everything down."
+      }
+    ]
+  },
+  {
+    "lemma": "zurückgehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "zurück",
+      "praeteritum": "ging",
+      "partizip2": "zurückgegangen"
+    },
+    "senses": [
+      {
+        "en": "to go back",
+        "note": "separable",
+        "example_de": "Ich gehe zum Auto zurück.",
+        "example_en": "I go back to the car."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er geht ins Haus zurück.",
+        "en": "He goes back into the house."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie ging zur Schule zurück.",
+        "en": "She went back to school."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind schnell zurückgegangen.",
+        "en": "We went back quickly."
+      }
+    ]
+  },
+  {
+    "lemma": "hingehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "hin",
+      "praeteritum": "ging",
+      "partizip2": "hingegangen"
+    },
+    "senses": [
+      {
+        "en": "to go there",
+        "note": "separable",
+        "example_de": "Ich gehe morgen hin.",
+        "example_en": "I'll go there tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er geht jeden Tag hin.",
+        "en": "He goes there every day."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie ist gestern hingegangen.",
+        "en": "She went there yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "mitgehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "mit",
+      "praeteritum": "ging",
+      "partizip2": "mitgegangen"
+    },
+    "senses": [
+      {
+        "en": "to come along, to go along",
+        "note": "separable",
+        "example_de": "Gehst du mit?",
+        "example_en": "Are you coming along?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er geht ins Kino mit.",
+        "en": "He comes along to the cinema."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie ist zum Markt mitgegangen.",
+        "en": "She came along to the market."
+      }
+    ]
+  },
+  {
+    "lemma": "hinausgehen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "hinaus",
+      "praeteritum": "ging",
+      "partizip2": "hinausgegangen"
+    },
+    "senses": [
+      {
+        "en": "to go out(side)",
+        "note": "separable",
+        "example_de": "Ich gehe kurz hinaus.",
+        "example_en": "I'm going outside for a bit."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er geht in den Garten hinaus.",
+        "en": "He goes out into the garden."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie ist auf den Balkon hinausgegangen.",
+        "en": "She went out onto the balcony."
+      }
+    ]
+  },
+  {
+    "lemma": "wegbringen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "weg",
+      "praeteritum": "brachte",
+      "partizip2": "weggebracht"
+    },
+    "senses": [
+      {
+        "en": "to take away",
+        "note": "separable",
+        "example_de": "Ich bringe den Müll weg.",
+        "example_en": "I take out the trash."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er bringt das Auto weg.",
+        "en": "He takes the car away."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie brachte die Kiste weg.",
+        "en": "She took the box away."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den alten Schrank weggebracht.",
+        "en": "We took away the old wardrobe."
+      }
+    ]
+  },
+  {
+    "lemma": "abstellen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to put down, to turn off (an appliance)",
+        "note": "separable",
+        "example_de": "Ich stelle die Tasche ab.",
+        "example_en": "I put down the bag."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er stellt den Motor ab.",
+        "en": "He turns off the engine."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat das Fahrrad abgestellt.",
+        "en": "She parked the bike."
+      }
+    ]
+  },
+  {
+    "lemma": "einstecken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to plug in, to put in one's pocket",
+        "note": "separable",
+        "example_de": "Ich stecke das Handy ein.",
+        "example_en": "I put the phone in my pocket."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er steckt den Schlüssel ein.",
+        "en": "He puts the key in his pocket."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat das Ladekabel eingesteckt.",
+        "en": "She plugged in the charging cable."
+      }
+    ]
+  },
+  {
+    "lemma": "hinbringen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "hin",
+      "praeteritum": "brachte",
+      "partizip2": "hingebracht"
+    },
+    "senses": [
+      {
+        "en": "to take (someone/something) there",
+        "note": "separable",
+        "example_de": "Ich bringe die Kinder zur Schule hin.",
+        "example_en": "I take the children to school."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er bringt das Paket hin.",
+        "en": "He takes the package there."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie brachte ihn zum Bahnhof hin.",
+        "en": "She took him to the station."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Möbel hingebracht.",
+        "en": "We took the furniture there."
+      }
+    ]
+  },
+  {
+    "lemma": "festhalten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "fest",
+      "du": "hältst",
+      "er": "hält",
+      "praeteritum": "hielt",
+      "partizip2": "festgehalten"
+    },
+    "senses": [
+      {
+        "en": "to hold on (to), to hold tight",
+        "note": "separable · reflexiv: sich festhalten (an + Dativ)",
+        "example_de": "Halt dich gut fest!",
+        "example_en": "Hold on tight!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie hält sich am Geländer fest.",
+        "en": "She holds on to the railing."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er hielt das Seil fest.",
+        "en": "He held onto the rope."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich am Stuhl festgehalten.",
+        "en": "I held on to the chair."
+      }
+    ]
+  }
+]

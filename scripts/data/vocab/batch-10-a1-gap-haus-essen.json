@@ -1,0 +1,981 @@
+[
+  {
+    "lemma": "Teller",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 750,
+    "noun": { "gender": "m", "plural": "Teller" },
+    "senses": [
+      { "en": "plate", "example_de": "Der Teller ist leer.", "example_en": "The plate is empty." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Teller stehen im Schrank.", "en": "The plates are in the cupboard." }
+    ]
+  },
+  {
+    "lemma": "Schüssel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 900,
+    "noun": { "gender": "f", "plural": "Schüsseln" },
+    "senses": [
+      { "en": "bowl", "example_de": "Die Schüssel ist voll.", "example_en": "The bowl is full." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Schüsseln sind aus Glas.", "en": "The bowls are made of glass." }
+    ]
+  },
+  {
+    "lemma": "Pfanne",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 850,
+    "noun": { "gender": "f", "plural": "Pfannen" },
+    "senses": [
+      { "en": "frying pan, pan", "example_de": "Die Pfanne ist heiß.", "example_en": "The pan is hot." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wir haben drei Pfannen.", "en": "We have three pans." }
+    ]
+  },
+  {
+    "lemma": "Besteck",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 950,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "cutlery, silverware", "example_de": "Das Besteck liegt auf dem Tisch.", "example_en": "The cutlery is on the table." }
+    ]
+  },
+  {
+    "lemma": "Geschirr",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 820,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "dishes, crockery", "example_de": "Ich spüle das Geschirr.", "example_en": "I am washing the dishes." }
+    ]
+  },
+  {
+    "lemma": "Serviette",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1050,
+    "noun": { "gender": "f", "plural": "Servietten" },
+    "senses": [
+      { "en": "napkin", "example_de": "Die Serviette liegt neben dem Teller.", "example_en": "The napkin is next to the plate." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Servietten sind rot.", "en": "The napkins are red." }
+    ]
+  },
+  {
+    "lemma": "Mikrowelle",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 980,
+    "noun": { "gender": "f", "plural": "Mikrowellen" },
+    "senses": [
+      { "en": "microwave (oven)", "example_de": "Ich wärme die Suppe in der Mikrowelle.", "example_en": "I warm up the soup in the microwave." }
+    ]
+  },
+  {
+    "lemma": "Waschmaschine",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 890,
+    "noun": { "gender": "f", "plural": "Waschmaschinen" },
+    "senses": [
+      { "en": "washing machine", "example_de": "Die Waschmaschine ist kaputt.", "example_en": "The washing machine is broken." }
+    ]
+  },
+  {
+    "lemma": "Geschirrspüler",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": "Geschirrspüler" },
+    "senses": [
+      { "en": "dishwasher", "example_de": "Der Geschirrspüler ist voll.", "example_en": "The dishwasher is full." }
+    ]
+  },
+  {
+    "lemma": "Toaster",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1150,
+    "noun": { "gender": "m", "plural": "Toaster" },
+    "senses": [
+      { "en": "toaster", "example_de": "Der Toaster steht in der Küche.", "example_en": "The toaster is in the kitchen." }
+    ]
+  },
+  {
+    "lemma": "Wasserkocher",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1120,
+    "noun": { "gender": "m", "plural": "Wasserkocher" },
+    "senses": [
+      { "en": "electric kettle", "example_de": "Der Wasserkocher kocht das Wasser.", "example_en": "The kettle boils the water." }
+    ]
+  },
+  {
+    "lemma": "Spüle",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1080,
+    "noun": { "gender": "f", "plural": "Spülen" },
+    "senses": [
+      { "en": "kitchen sink", "example_de": "Das Geschirr steht in der Spüle.", "example_en": "The dishes are in the sink." }
+    ]
+  },
+  {
+    "lemma": "Deckel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": "Deckel" },
+    "senses": [
+      { "en": "lid, cover", "example_de": "Der Deckel passt nicht.", "example_en": "The lid does not fit." }
+    ]
+  },
+  {
+    "lemma": "Sieb",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1200,
+    "noun": { "gender": "n", "plural": "Siebe", "genitive": "Siebes" },
+    "senses": [
+      { "en": "strainer, sieve", "example_de": "Ich gieße die Nudeln durch das Sieb.", "example_en": "I drain the pasta through the strainer." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wir brauchen zwei Siebe.", "en": "We need two strainers." }
+    ]
+  },
+  {
+    "lemma": "Kerze",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 870,
+    "noun": { "gender": "f", "plural": "Kerzen" },
+    "senses": [
+      { "en": "candle", "example_de": "Die Kerze brennt auf dem Tisch.", "example_en": "The candle is burning on the table." }
+    ]
+  },
+  {
+    "lemma": "Schrank",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 700,
+    "noun": { "gender": "m", "plural": "Schränke" },
+    "senses": [
+      { "en": "cupboard, wardrobe, cabinet", "example_de": "Die Kleider hängen im Schrank.", "example_en": "The clothes are hanging in the wardrobe." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Schränke sind aus Holz.", "en": "The cupboards are made of wood." }
+    ]
+  },
+  {
+    "lemma": "Sessel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 950,
+    "noun": { "gender": "m", "plural": "Sessel" },
+    "senses": [
+      { "en": "armchair", "example_de": "Er sitzt im Sessel.", "example_en": "He is sitting in the armchair." }
+    ]
+  },
+  {
+    "lemma": "Kissen",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 780,
+    "noun": { "gender": "n", "plural": "Kissen" },
+    "senses": [
+      { "en": "pillow, cushion", "example_de": "Das Kissen ist weich.", "example_en": "The pillow is soft." }
+    ]
+  },
+  {
+    "lemma": "Vorhang",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1020,
+    "noun": { "gender": "m", "plural": "Vorhänge" },
+    "senses": [
+      { "en": "curtain", "example_de": "Der Vorhang ist zu.", "example_en": "The curtain is closed." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Vorhänge sind blau.", "en": "The curtains are blue." }
+    ]
+  },
+  {
+    "lemma": "Vase",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1010,
+    "noun": { "gender": "f", "plural": "Vasen" },
+    "senses": [
+      { "en": "vase", "example_de": "Die Blumen stehen in der Vase.", "example_en": "The flowers are in the vase." }
+    ]
+  },
+  {
+    "lemma": "Matratze",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1150,
+    "noun": { "gender": "f", "plural": "Matratzen" },
+    "senses": [
+      { "en": "mattress", "example_de": "Die Matratze ist neu.", "example_en": "The mattress is new." }
+    ]
+  },
+  {
+    "lemma": "Schublade",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 920,
+    "noun": { "gender": "f", "plural": "Schubladen" },
+    "senses": [
+      { "en": "drawer", "example_de": "Die Gabeln liegen in der Schublade.", "example_en": "The forks are in the drawer." }
+    ]
+  },
+  {
+    "lemma": "Waschbecken",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 990,
+    "noun": { "gender": "n", "plural": "Waschbecken" },
+    "senses": [
+      { "en": "washbasin, sink", "example_de": "Das Waschbecken ist sauber.", "example_en": "The washbasin is clean." }
+    ]
+  },
+  {
+    "lemma": "Zahnbürste",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 860,
+    "noun": { "gender": "f", "plural": "Zahnbürsten" },
+    "senses": [
+      { "en": "toothbrush", "example_de": "Meine Zahnbürste ist rot.", "example_en": "My toothbrush is red." }
+    ]
+  },
+  {
+    "lemma": "Zahnpasta",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 880,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "toothpaste", "example_de": "Die Zahnpasta ist fast leer.", "example_en": "The toothpaste is almost empty." }
+    ]
+  },
+  {
+    "lemma": "Mülleimer",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 940,
+    "noun": { "gender": "m", "plural": "Mülleimer" },
+    "senses": [
+      { "en": "trash can, garbage bin", "example_de": "Der Mülleimer ist voll.", "example_en": "The trash can is full." }
+    ]
+  },
+  {
+    "lemma": "Bügeleisen",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1180,
+    "noun": { "gender": "n", "plural": "Bügeleisen" },
+    "senses": [
+      { "en": "iron (for clothes)", "example_de": "Das Bügeleisen ist heiß.", "example_en": "The iron is hot." }
+    ]
+  },
+  {
+    "lemma": "Staubsauger",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1030,
+    "noun": { "gender": "m", "plural": "Staubsauger" },
+    "senses": [
+      { "en": "vacuum cleaner", "example_de": "Der Staubsauger ist laut.", "example_en": "The vacuum cleaner is loud." }
+    ]
+  },
+  {
+    "lemma": "Besen",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1090,
+    "noun": { "gender": "m", "plural": "Besen" },
+    "senses": [
+      { "en": "broom", "example_de": "Der Besen steht in der Ecke.", "example_en": "The broom is standing in the corner." }
+    ]
+  },
+  {
+    "lemma": "Eimer",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 970,
+    "noun": { "gender": "m", "plural": "Eimer" },
+    "senses": [
+      { "en": "bucket", "example_de": "Der Eimer ist aus Plastik.", "example_en": "The bucket is made of plastic." }
+    ]
+  },
+  {
+    "lemma": "Steckdose",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1130,
+    "noun": { "gender": "f", "plural": "Steckdosen" },
+    "senses": [
+      { "en": "electrical outlet, socket", "example_de": "Die Steckdose ist neben dem Bett.", "example_en": "The outlet is next to the bed." }
+    ]
+  },
+  {
+    "lemma": "Stecker",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1160,
+    "noun": { "gender": "m", "plural": "Stecker" },
+    "senses": [
+      { "en": "plug", "example_de": "Der Stecker passt nicht.", "example_en": "The plug does not fit." }
+    ]
+  },
+  {
+    "lemma": "Kabel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1140,
+    "noun": { "gender": "n", "plural": "Kabel" },
+    "senses": [
+      { "en": "cable, cord", "example_de": "Das Kabel ist zu kurz.", "example_en": "The cable is too short." }
+    ]
+  },
+  {
+    "lemma": "Joghurt",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 800,
+    "noun": { "gender": "m", "plural": "Joghurts" },
+    "senses": [
+      { "en": "yogurt", "note": "auch: das Joghurt", "example_de": "Ich esse Joghurt zum Frühstück.", "example_en": "I eat yogurt for breakfast." }
+    ]
+  },
+  {
+    "lemma": "Quark",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1250,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "quark (soft cheese)", "example_de": "Der Quark schmeckt frisch.", "example_en": "The quark tastes fresh." }
+    ]
+  },
+  {
+    "lemma": "Senf",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1060,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "mustard", "example_de": "Ich mag Senf auf der Wurst.", "example_en": "I like mustard on the sausage." }
+    ]
+  },
+  {
+    "lemma": "Ketchup",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1070,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "ketchup", "note": "auch: das Ketchup", "example_de": "Er isst Pommes mit Ketchup.", "example_en": "He eats fries with ketchup." }
+    ]
+  },
+  {
+    "lemma": "Essig",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1170,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "vinegar", "example_de": "Der Salat braucht Essig und Öl.", "example_en": "The salad needs vinegar and oil." }
+    ]
+  },
+  {
+    "lemma": "Mehl",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1040,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "flour", "example_de": "Ich brauche Mehl zum Backen.", "example_en": "I need flour for baking." }
+    ]
+  },
+  {
+    "lemma": "Karotte",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 760,
+    "noun": { "gender": "f", "plural": "Karotten" },
+    "senses": [
+      { "en": "carrot", "example_de": "Die Karotten sind orange.", "example_en": "The carrots are orange." }
+    ]
+  },
+  {
+    "lemma": "Gurke",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 810,
+    "noun": { "gender": "f", "plural": "Gurken" },
+    "senses": [
+      { "en": "cucumber", "example_de": "Die Gurke ist frisch.", "example_en": "The cucumber is fresh." }
+    ]
+  },
+  {
+    "lemma": "Paprika",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 930,
+    "noun": { "gender": "f", "plural": "Paprikas" },
+    "senses": [
+      { "en": "bell pepper", "example_de": "Die Paprika ist rot.", "example_en": "The bell pepper is red." }
+    ]
+  },
+  {
+    "lemma": "Orange",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 790,
+    "noun": { "gender": "f", "plural": "Orangen" },
+    "senses": [
+      { "en": "orange (fruit)", "example_de": "Die Orange schmeckt süß.", "example_en": "The orange tastes sweet." }
+    ]
+  },
+  {
+    "lemma": "Zitrone",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 830,
+    "noun": { "gender": "f", "plural": "Zitronen" },
+    "senses": [
+      { "en": "lemon", "example_de": "Der Tee schmeckt nach Zitrone.", "example_en": "The tea tastes like lemon." }
+    ]
+  },
+  {
+    "lemma": "Traube",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 960,
+    "noun": { "gender": "f", "plural": "Trauben" },
+    "senses": [
+      { "en": "grape", "example_de": "Ich esse gern Trauben.", "example_en": "I like eating grapes." }
+    ]
+  },
+  {
+    "lemma": "Kirsche",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 910,
+    "noun": { "gender": "f", "plural": "Kirschen" },
+    "senses": [
+      { "en": "cherry", "example_de": "Die Kirschen sind süß.", "example_en": "The cherries are sweet." }
+    ]
+  },
+  {
+    "lemma": "Keks",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 720,
+    "noun": { "gender": "m", "plural": "Kekse" },
+    "senses": [
+      { "en": "cookie, biscuit", "example_de": "Das Kind isst einen Keks.", "example_en": "The child eats a cookie." }
+    ]
+  },
+  {
+    "lemma": "Pizza",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 730,
+    "noun": { "gender": "f", "plural": "Pizzen" },
+    "senses": [
+      { "en": "pizza", "example_de": "Wir bestellen eine Pizza.", "example_en": "We order a pizza." }
+    ]
+  },
+  {
+    "lemma": "Soße",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 840,
+    "noun": { "gender": "f", "plural": "Soßen" },
+    "senses": [
+      { "en": "sauce, gravy", "example_de": "Die Soße ist lecker.", "example_en": "The sauce is delicious." }
+    ]
+  },
+  {
+    "lemma": "Frucht",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 770,
+    "noun": { "gender": "f", "plural": "Früchte" },
+    "senses": [
+      { "en": "fruit (a piece of fruit)", "example_de": "Diese Frucht ist süß.", "example_en": "This fruit is sweet." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich esse gern Früchte.", "en": "I like eating fruit." }
+    ]
+  },
+  {
+    "lemma": "Cola",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 740,
+    "noun": { "gender": "f", "plural": "Colas" },
+    "senses": [
+      { "en": "cola, coke", "note": "auch: das Cola", "example_de": "Ich trinke eine Cola.", "example_en": "I am drinking a cola." }
+    ]
+  },
+  {
+    "lemma": "Limonade",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1010,
+    "noun": { "gender": "f", "plural": "Limonaden" },
+    "senses": [
+      { "en": "lemonade, soda", "example_de": "Die Limonade ist kalt.", "example_en": "The lemonade is cold." }
+    ]
+  },
+  {
+    "lemma": "Butterbrot",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1200,
+    "noun": { "gender": "n", "plural": "Butterbrote", "genitive": "Butterbrotes" },
+    "senses": [
+      { "en": "bread and butter, sandwich", "example_de": "Ich esse ein Butterbrot.", "example_en": "I am eating a sandwich." }
+    ]
+  },
+  {
+    "lemma": "Pfannkuchen",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1220,
+    "noun": { "gender": "m", "plural": "Pfannkuchen" },
+    "senses": [
+      { "en": "pancake", "example_de": "Die Pfannkuchen schmecken gut.", "example_en": "The pancakes taste good." }
+    ]
+  },
+  {
+    "lemma": "Nuss",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1090,
+    "noun": { "gender": "f", "plural": "Nüsse" },
+    "senses": [
+      { "en": "nut", "example_de": "Ich esse gern Nüsse.", "example_en": "I like eating nuts." }
+    ]
+  },
+  {
+    "lemma": "braten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": { "aux": "haben", "du": "brätst", "er": "brät", "praeteritum": "briet", "partizip2": "gebraten" },
+    "senses": [
+      { "en": "to fry, to roast", "example_de": "Ich brate das Fleisch in der Pfanne.", "example_en": "I am frying the meat in the pan." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie brät den Fisch in der Pfanne.", "en": "She fries the fish in the pan." },
+      { "tag": "präteritum", "de": "Er briet das Hähnchen im Ofen.", "en": "He roasted the chicken in the oven." },
+      { "tag": "perfekt", "de": "Ich habe das Fleisch gebraten.", "en": "I fried the meat." },
+      { "tag": "imperativ", "de": "Brat das Fleisch nicht zu lange!", "en": "Don't fry the meat too long!" }
+    ]
+  },
+  {
+    "lemma": "schälen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1080,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to peel", "example_de": "Ich schäle die Kartoffeln.", "example_en": "I am peeling the potatoes." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie schält einen Apfel.", "en": "She peels an apple." },
+      { "tag": "präteritum", "de": "Er schälte die Kartoffeln schnell.", "en": "He peeled the potatoes quickly." },
+      { "tag": "perfekt", "de": "Ich habe die Karotte geschält.", "en": "I peeled the carrot." },
+      { "tag": "imperativ", "de": "Schäl bitte die Äpfel!", "en": "Please peel the apples!" }
+    ]
+  },
+  {
+    "lemma": "rühren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 950,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to stir", "example_de": "Ich rühre die Soße.", "example_en": "I am stirring the sauce." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie rührt die Soße.", "en": "She stirs the sauce." },
+      { "tag": "präteritum", "de": "Er rührte die Suppe langsam.", "en": "He stirred the soup slowly." },
+      { "tag": "perfekt", "de": "Ich habe die Soße gerührt.", "en": "I stirred the sauce." },
+      { "tag": "imperativ", "de": "Rühr die Suppe gut!", "en": "Stir the soup well!" }
+    ]
+  },
+  {
+    "lemma": "mischen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1000,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to mix", "example_de": "Ich mische Mehl und Wasser.", "example_en": "I am mixing flour and water." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie mischt den Salat.", "en": "She mixes the salad." },
+      { "tag": "präteritum", "de": "Er mischte Zucker und Butter.", "en": "He mixed sugar and butter." },
+      { "tag": "perfekt", "de": "Ich habe die Farben gemischt.", "en": "I mixed the colors." },
+      { "tag": "imperativ", "de": "Misch alles gut!", "en": "Mix everything well!" }
+    ]
+  },
+  {
+    "lemma": "abwaschen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 900,
+    "verb": { "aux": "haben", "separablePrefix": "ab", "du": "wäschst", "er": "wäscht", "praeteritum": "wusch", "partizip2": "abgewaschen" },
+    "senses": [
+      { "en": "to wash (the dishes)", "note": "separable", "example_de": "Ich wasche das Geschirr ab.", "example_en": "I am washing the dishes." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er wäscht die Teller ab.", "en": "He washes the plates." },
+      { "tag": "präteritum", "de": "Sie wusch das Geschirr ab.", "en": "She washed the dishes." },
+      { "tag": "perfekt", "de": "Ich habe das Geschirr abgewaschen.", "en": "I washed the dishes." },
+      { "tag": "imperativ", "de": "Wasch bitte das Geschirr ab!", "en": "Please wash the dishes!" }
+    ]
+  },
+  {
+    "lemma": "bügeln",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to iron (clothes)", "example_de": "Ich bügle mein Hemd.", "example_en": "I am ironing my shirt." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie bügelt die Hose.", "en": "She irons the trousers." },
+      { "tag": "präteritum", "de": "Er bügelte das Kleid.", "en": "He ironed the dress." },
+      { "tag": "perfekt", "de": "Ich habe das Hemd gebügelt.", "en": "I ironed the shirt." },
+      { "tag": "imperativ", "de": "Bügel bitte das Hemd!", "en": "Please iron the shirt!" }
+    ]
+  },
+  {
+    "lemma": "decken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 870,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to lay, to set (the table)", "note": "den Tisch decken", "example_de": "Ich decke den Tisch.", "example_en": "I am setting the table." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie deckt den Tisch für vier Personen.", "en": "She sets the table for four people." },
+      { "tag": "präteritum", "de": "Er deckte den Tisch schnell.", "en": "He set the table quickly." },
+      { "tag": "perfekt", "de": "Ich habe den Tisch gedeckt.", "en": "I set the table." },
+      { "tag": "imperativ", "de": "Deck bitte den Tisch!", "en": "Please set the table!" }
+    ]
+  },
+  {
+    "lemma": "abtrocknen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": { "aux": "haben", "separablePrefix": "ab", "du": "trocknest", "er": "trocknet" },
+    "senses": [
+      { "en": "to dry (dishes, hands)", "note": "separable", "example_de": "Ich trockne die Teller ab.", "example_en": "I am drying the plates." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er trocknet die Gläser ab.", "en": "He dries the glasses." },
+      { "tag": "präteritum", "de": "Sie trocknete das Geschirr ab.", "en": "She dried the dishes." },
+      { "tag": "perfekt", "de": "Ich habe die Teller abgetrocknet.", "en": "I dried the plates." },
+      { "tag": "imperativ", "de": "Trockne bitte die Teller ab!", "en": "Please dry the plates!" }
+    ]
+  },
+  {
+    "lemma": "riechen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 780,
+    "verb": { "aux": "haben", "praeteritum": "roch", "partizip2": "gerochen" },
+    "senses": [
+      { "en": "to smell", "example_de": "Das Essen riecht gut.", "example_en": "The food smells good." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Suppe riecht lecker.", "en": "The soup smells delicious." },
+      { "tag": "präteritum", "de": "Das Brot roch frisch.", "en": "The bread smelled fresh." },
+      { "tag": "perfekt", "de": "Hast du den Kuchen gerochen?", "en": "Did you smell the cake?" }
+    ]
+  },
+  {
+    "lemma": "einschenken",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1160,
+    "verb": { "aux": "haben", "separablePrefix": "ein" },
+    "senses": [
+      { "en": "to pour (a drink)", "note": "separable", "example_de": "Ich schenke dir Saft ein.", "example_en": "I am pouring you juice." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er schenkt den Wein ein.", "en": "He pours the wine." },
+      { "tag": "präteritum", "de": "Sie schenkte Kaffee ein.", "en": "She poured coffee." },
+      { "tag": "perfekt", "de": "Ich habe dir Wasser eingeschenkt.", "en": "I poured you water." },
+      { "tag": "imperativ", "de": "Schenk mir bitte Tee ein!", "en": "Please pour me some tea!" }
+    ]
+  },
+  {
+    "lemma": "kühlen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to cool, to chill", "example_de": "Die Milch kühlt im Kühlschrank.", "example_en": "The milk is cooling in the fridge." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Saft kühlt im Kühlschrank.", "en": "The juice is cooling in the fridge." },
+      { "tag": "präteritum", "de": "Das Bier kühlte im Eis.", "en": "The beer cooled in the ice." },
+      { "tag": "perfekt", "de": "Ich habe den Kuchen gekühlt.", "en": "I cooled the cake." }
+    ]
+  },
+  {
+    "lemma": "aufwärmen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": { "aux": "haben", "separablePrefix": "auf" },
+    "senses": [
+      { "en": "to warm up, to reheat", "note": "separable", "example_de": "Ich wärme die Suppe auf.", "example_en": "I am warming up the soup." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie wärmt das Essen auf.", "en": "She warms up the food." },
+      { "tag": "präteritum", "de": "Er wärmte die Pizza auf.", "en": "He warmed up the pizza." },
+      { "tag": "perfekt", "de": "Ich habe die Suppe aufgewärmt.", "en": "I warmed up the soup." },
+      { "tag": "imperativ", "de": "Wärm das Essen bitte auf!", "en": "Please warm up the food!" }
+    ]
+  },
+  {
+    "lemma": "füllen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 890,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to fill", "example_de": "Ich fülle das Glas mit Wasser.", "example_en": "I am filling the glass with water." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie füllt die Flasche mit Milch.", "en": "She fills the bottle with milk." },
+      { "tag": "präteritum", "de": "Er füllte den Eimer mit Wasser.", "en": "He filled the bucket with water." },
+      { "tag": "perfekt", "de": "Ich habe das Glas gefüllt.", "en": "I filled the glass." }
+    ]
+  },
+  {
+    "lemma": "leeren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1180,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to empty", "example_de": "Ich leere den Mülleimer.", "example_en": "I am emptying the trash can." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er leert die Tasche.", "en": "He empties the bag." },
+      { "tag": "präteritum", "de": "Sie leerte das Glas schnell.", "en": "She emptied the glass quickly." },
+      { "tag": "perfekt", "de": "Ich habe den Eimer geleert.", "en": "I emptied the bucket." },
+      { "tag": "imperativ", "de": "Leer bitte den Mülleimer!", "en": "Please empty the trash can!" }
+    ]
+  },
+  {
+    "lemma": "wischen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1120,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to wipe", "example_de": "Ich wische den Tisch.", "example_en": "I am wiping the table." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie wischt den Boden.", "en": "She wipes the floor." },
+      { "tag": "präteritum", "de": "Er wischte die Küche.", "en": "He wiped the kitchen." },
+      { "tag": "perfekt", "de": "Ich habe den Tisch gewischt.", "en": "I wiped the table." },
+      { "tag": "imperativ", "de": "Wisch bitte den Tisch!", "en": "Please wipe the table!" }
+    ]
+  },
+  {
+    "lemma": "zubereiten",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 820,
+    "verb": { "aux": "haben", "separablePrefix": "zu", "partizip2": "zubereitet" },
+    "senses": [
+      { "en": "to prepare (food)", "note": "separable", "example_de": "Sie bereitet das Essen zu.", "example_en": "She is preparing the food." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er bereitet das Frühstück zu.", "en": "He prepares breakfast." },
+      { "tag": "präteritum", "de": "Sie bereitete das Abendessen zu.", "en": "She prepared the dinner." },
+      { "tag": "perfekt", "de": "Ich habe das Essen zubereitet.", "en": "I prepared the food." },
+      { "tag": "imperativ", "de": "Bereite das Essen bitte zu!", "en": "Please prepare the food!" }
+    ]
+  },
+  {
+    "lemma": "umrühren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": { "aux": "haben", "separablePrefix": "um" },
+    "senses": [
+      { "en": "to stir (well)", "note": "separable", "example_de": "Ich rühre die Suppe um.", "example_en": "I stir the soup." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie rührt die Milch um.", "en": "She stirs the milk." },
+      { "tag": "präteritum", "de": "Er rührte die Soße um.", "en": "He stirred the sauce." },
+      { "tag": "perfekt", "de": "Ich habe die Suppe umgerührt.", "en": "I stirred the soup." },
+      { "tag": "imperativ", "de": "Rühr die Soße gut um!", "en": "Stir the sauce well!" }
+    ]
+  },
+  {
+    "lemma": "erhitzen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1230,
+    "verb": { "aux": "haben", "partizip2": "erhitzt" },
+    "senses": [
+      { "en": "to heat up", "example_de": "Ich erhitze die Milch.", "example_en": "I am heating up the milk." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie erhitzt das Wasser.", "en": "She heats up the water." },
+      { "tag": "präteritum", "de": "Er erhitzte die Suppe.", "en": "He heated up the soup." },
+      { "tag": "perfekt", "de": "Ich habe das Öl erhitzt.", "en": "I heated up the oil." }
+    ]
+  },
+  {
+    "lemma": "servieren",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 950,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to serve (food)", "example_de": "Der Kellner serviert das Essen.", "example_en": "The waiter serves the food." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie serviert den Kaffee.", "en": "She serves the coffee." },
+      { "tag": "präteritum", "de": "Er servierte das Abendessen.", "en": "He served the dinner." },
+      { "tag": "perfekt", "de": "Ich habe die Suppe serviert.", "en": "I served the soup." }
+    ]
+  },
+  {
+    "lemma": "einräumen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1090,
+    "verb": { "aux": "haben", "separablePrefix": "ein" },
+    "senses": [
+      { "en": "to put away, to load (the dishwasher)", "note": "separable", "example_de": "Ich räume den Geschirrspüler ein.", "example_en": "I am loading the dishwasher." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er räumt die Gläser ein.", "en": "He puts away the glasses." },
+      { "tag": "präteritum", "de": "Sie räumte das Geschirr ein.", "en": "She loaded the dishes." },
+      { "tag": "perfekt", "de": "Ich habe den Schrank eingeräumt.", "en": "I put away the cupboard." },
+      { "tag": "imperativ", "de": "Räum bitte den Geschirrspüler ein!", "en": "Please load the dishwasher!" }
+    ]
+  },
+  {
+    "lemma": "sauber",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 700,
+    "senses": [
+      { "en": "clean", "example_de": "Die Küche ist sauber.", "example_en": "The kitchen is clean." }
+    ]
+  },
+  {
+    "lemma": "lecker",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 750,
+    "senses": [
+      { "en": "delicious, tasty", "example_de": "Das Essen schmeckt lecker.", "example_en": "The food tastes delicious." }
+    ]
+  },
+  {
+    "lemma": "salzig",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 950,
+    "senses": [
+      { "en": "salty", "example_de": "Die Suppe ist zu salzig.", "example_en": "The soup is too salty." }
+    ]
+  },
+  {
+    "lemma": "voll",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 710,
+    "senses": [
+      { "en": "full", "example_de": "Der Kühlschrank ist voll.", "example_en": "The fridge is full." }
+    ]
+  },
+  {
+    "lemma": "gekocht",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1000,
+    "senses": [
+      { "en": "cooked, boiled", "example_de": "Ich esse gekochte Eier.", "example_en": "I am eating boiled eggs." }
+    ]
+  },
+  {
+    "lemma": "gebraten",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1050,
+    "senses": [
+      { "en": "fried, roasted", "example_de": "Das gebratene Hähnchen ist lecker.", "example_en": "The fried chicken is delicious." }
+    ]
+  },
+  {
+    "lemma": "mild",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1100,
+    "senses": [
+      { "en": "mild (not spicy)", "example_de": "Der Käse schmeckt mild.", "example_en": "The cheese tastes mild." }
+    ]
+  },
+  {
+    "lemma": "würzig",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1150,
+    "senses": [
+      { "en": "spicy, flavorful, savory", "example_de": "Die Soße ist sehr würzig.", "example_en": "The sauce is very spicy." }
+    ]
+  },
+  {
+    "lemma": "hausgemacht",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1200,
+    "senses": [
+      { "en": "homemade", "example_de": "Die Suppe ist hausgemacht.", "example_en": "The soup is homemade." }
+    ]
+  },
+  {
+    "lemma": "vegetarisch",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1080,
+    "senses": [
+      { "en": "vegetarian", "example_de": "Ich esse vegetarisches Essen.", "example_en": "I eat vegetarian food." }
+    ]
+  }
+]

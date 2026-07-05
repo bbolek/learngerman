@@ -1,0 +1,1729 @@
+[
+  {
+    "lemma": "Studiengang",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": {
+      "gender": "m",
+      "plural": "Studiengänge"
+    },
+    "senses": [
+      {
+        "en": "degree program, course of study",
+        "example_de": "Sie hat einen anspruchsvollen Studiengang gewählt.",
+        "example_en": "She chose a demanding degree program."
+      }
+    ]
+  },
+  {
+    "lemma": "Prüfungsordnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1515,
+    "noun": {
+      "gender": "f",
+      "plural": "Prüfungsordnungen"
+    },
+    "senses": [
+      {
+        "en": "examination regulations",
+        "example_de": "Die Prüfungsordnung regelt alle Prüfungen genau.",
+        "example_en": "The examination regulations govern all exams precisely."
+      }
+    ]
+  },
+  {
+    "lemma": "Abschluss",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1530,
+    "noun": {
+      "gender": "m",
+      "plural": "Abschlüsse"
+    },
+    "senses": [
+      {
+        "en": "degree, qualification, completion",
+        "example_de": "Er hat einen guten Abschluss gemacht.",
+        "example_en": "He got a good degree."
+      }
+    ]
+  },
+  {
+    "lemma": "Forschung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1545,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "research",
+        "example_de": "Die Forschung braucht viel Zeit und Geld.",
+        "example_en": "Research needs a lot of time and money."
+      }
+    ]
+  },
+  {
+    "lemma": "Erkenntnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1560,
+    "noun": {
+      "gender": "f",
+      "plural": "Erkenntnisse"
+    },
+    "senses": [
+      {
+        "en": "insight, finding",
+        "example_de": "Diese Erkenntnis überrascht viele Wissenschaftler.",
+        "example_en": "This finding surprises many scientists."
+      }
+    ]
+  },
+  {
+    "lemma": "Wissenschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1575,
+    "noun": {
+      "gender": "f",
+      "plural": "Wissenschaften"
+    },
+    "senses": [
+      {
+        "en": "science",
+        "example_de": "Sie interessiert sich für Wissenschaft und Technik.",
+        "example_en": "She's interested in science and technology."
+      }
+    ]
+  },
+  {
+    "lemma": "Wissenschaftler",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1590,
+    "noun": {
+      "gender": "m",
+      "plural": "Wissenschaftler"
+    },
+    "senses": [
+      {
+        "en": "scientist, researcher",
+        "example_de": "Ein Wissenschaftler erklärte das Experiment.",
+        "example_en": "A scientist explained the experiment."
+      }
+    ]
+  },
+  {
+    "lemma": "Forscher",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1605,
+    "noun": {
+      "gender": "m",
+      "plural": "Forscher"
+    },
+    "senses": [
+      {
+        "en": "researcher",
+        "example_de": "Die Forscher untersuchen ein neues Medikament.",
+        "example_en": "The researchers are investigating a new medicine."
+      }
+    ]
+  },
+  {
+    "lemma": "Universität",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": {
+      "gender": "f",
+      "plural": "Universitäten"
+    },
+    "senses": [
+      {
+        "en": "university",
+        "example_de": "Er studiert Medizin an der Universität.",
+        "example_en": "He studies medicine at the university."
+      }
+    ]
+  },
+  {
+    "lemma": "Hochschule",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1635,
+    "noun": {
+      "gender": "f",
+      "plural": "Hochschulen"
+    },
+    "senses": [
+      {
+        "en": "college, university of applied sciences",
+        "example_de": "Die Hochschule bietet viele praktische Kurse an.",
+        "example_en": "The college offers many practical courses."
+      }
+    ]
+  },
+  {
+    "lemma": "Fakultät",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1650,
+    "noun": {
+      "gender": "f",
+      "plural": "Fakultäten"
+    },
+    "senses": [
+      {
+        "en": "faculty, department (university)",
+        "example_de": "Die Fakultät hat drei neue Professoren.",
+        "example_en": "The faculty has three new professors."
+      }
+    ]
+  },
+  {
+    "lemma": "Seminar",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1665,
+    "noun": {
+      "gender": "n",
+      "plural": "Seminare"
+    },
+    "senses": [
+      {
+        "en": "seminar",
+        "example_de": "Das Seminar findet dienstags statt.",
+        "example_en": "The seminar takes place on Tuesdays."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorlesung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1680,
+    "noun": {
+      "gender": "f",
+      "plural": "Vorlesungen"
+    },
+    "senses": [
+      {
+        "en": "lecture",
+        "example_de": "Die Vorlesung beginnt um neun Uhr.",
+        "example_en": "The lecture starts at nine o'clock."
+      }
+    ]
+  },
+  {
+    "lemma": "Dozent",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1695,
+    "noun": {
+      "gender": "m",
+      "plural": "Dozenten",
+      "genitive": "Dozenten"
+    },
+    "senses": [
+      {
+        "en": "lecturer, instructor",
+        "example_de": "Der Dozent erklärt das Thema sehr klar.",
+        "example_en": "The lecturer explains the topic very clearly."
+      }
+    ]
+  },
+  {
+    "lemma": "Professor",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1710,
+    "noun": {
+      "gender": "m",
+      "plural": "Professoren"
+    },
+    "senses": [
+      {
+        "en": "professor",
+        "example_de": "Der Professor hält heute keine Vorlesung.",
+        "example_en": "The professor isn't giving a lecture today."
+      }
+    ]
+  },
+  {
+    "lemma": "Stipendium",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1725,
+    "noun": {
+      "gender": "n",
+      "plural": "Stipendien"
+    },
+    "senses": [
+      {
+        "en": "scholarship, grant",
+        "example_de": "Sie bekommt ein Stipendium für ihr Studium.",
+        "example_en": "She gets a scholarship for her studies."
+      }
+    ]
+  },
+  {
+    "lemma": "Klausur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": {
+      "gender": "f",
+      "plural": "Klausuren"
+    },
+    "senses": [
+      {
+        "en": "exam, test (university)",
+        "example_de": "Morgen schreibe ich eine wichtige Klausur.",
+        "example_en": "Tomorrow I'm writing an important exam."
+      }
+    ]
+  },
+  {
+    "lemma": "Hausarbeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1755,
+    "noun": {
+      "gender": "f",
+      "plural": "Hausarbeiten"
+    },
+    "senses": [
+      {
+        "en": "term paper, essay",
+        "example_de": "Die Hausarbeit muss bis Freitag fertig sein.",
+        "example_en": "The term paper must be finished by Friday."
+      }
+    ]
+  },
+  {
+    "lemma": "Referat",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1770,
+    "noun": {
+      "gender": "n",
+      "plural": "Referate"
+    },
+    "senses": [
+      {
+        "en": "presentation, oral report",
+        "example_de": "Ich halte morgen ein Referat über Klimawandel.",
+        "example_en": "Tomorrow I'm giving a presentation on climate change."
+      }
+    ]
+  },
+  {
+    "lemma": "Vortrag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1785,
+    "noun": {
+      "gender": "m",
+      "plural": "Vorträge"
+    },
+    "senses": [
+      {
+        "en": "talk, lecture",
+        "example_de": "Der Vortrag dauerte fast eine Stunde.",
+        "example_en": "The talk lasted almost an hour."
+      }
+    ]
+  },
+  {
+    "lemma": "Diplom",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": {
+      "gender": "n",
+      "plural": "Diplome"
+    },
+    "senses": [
+      {
+        "en": "diploma",
+        "example_de": "Nach fünf Jahren bekam er sein Diplom.",
+        "example_en": "After five years, he got his diploma."
+      }
+    ]
+  },
+  {
+    "lemma": "Abschlussarbeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1815,
+    "noun": {
+      "gender": "f",
+      "plural": "Abschlussarbeiten"
+    },
+    "senses": [
+      {
+        "en": "final thesis",
+        "example_de": "Ihre Abschlussarbeit handelt von erneuerbarer Energie.",
+        "example_en": "Her final thesis is about renewable energy."
+      }
+    ]
+  },
+  {
+    "lemma": "Doktorarbeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1830,
+    "noun": {
+      "gender": "f",
+      "plural": "Doktorarbeiten"
+    },
+    "senses": [
+      {
+        "en": "doctoral thesis",
+        "example_de": "Er schreibt seit zwei Jahren an seiner Doktorarbeit.",
+        "example_en": "He has been writing his doctoral thesis for two years."
+      }
+    ]
+  },
+  {
+    "lemma": "Studienfach",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1845,
+    "noun": {
+      "gender": "n",
+      "plural": "Studienfächer"
+    },
+    "senses": [
+      {
+        "en": "subject of study, major",
+        "example_de": "Welches Studienfach hast du gewählt?",
+        "example_en": "Which subject did you choose to study?"
+      }
+    ]
+  },
+  {
+    "lemma": "Studienplatz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1860,
+    "noun": {
+      "gender": "m",
+      "plural": "Studienplätze"
+    },
+    "senses": [
+      {
+        "en": "university place, study slot",
+        "example_de": "Sie hat endlich einen Studienplatz bekommen.",
+        "example_en": "She finally got a university place."
+      }
+    ]
+  },
+  {
+    "lemma": "Fachbereich",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1875,
+    "noun": {
+      "gender": "m",
+      "plural": "Fachbereiche"
+    },
+    "senses": [
+      {
+        "en": "department, academic field",
+        "example_de": "Der Fachbereich Chemie ist sehr bekannt.",
+        "example_en": "The chemistry department is very well-known."
+      }
+    ]
+  },
+  {
+    "lemma": "Lehrplan",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1890,
+    "noun": {
+      "gender": "m",
+      "plural": "Lehrpläne"
+    },
+    "senses": [
+      {
+        "en": "curriculum, syllabus",
+        "example_de": "Der neue Lehrplan enthält mehr Sprachen.",
+        "example_en": "The new curriculum includes more languages."
+      }
+    ]
+  },
+  {
+    "lemma": "Lehrkraft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1905,
+    "noun": {
+      "gender": "f",
+      "plural": "Lehrkräfte"
+    },
+    "senses": [
+      {
+        "en": "teacher, teaching staff",
+        "example_de": "Die Schule sucht eine neue Lehrkraft.",
+        "example_en": "The school is looking for a new teacher."
+      }
+    ]
+  },
+  {
+    "lemma": "Bildung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "education",
+        "example_de": "Gute Bildung ist für alle wichtig.",
+        "example_en": "Good education is important for everyone."
+      }
+    ]
+  },
+  {
+    "lemma": "Erziehung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1935,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "upbringing, education of children",
+        "example_de": "Eltern tragen Verantwortung für die Erziehung.",
+        "example_en": "Parents bear responsibility for the upbringing."
+      }
+    ]
+  },
+  {
+    "lemma": "Fähigkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "f",
+      "plural": "Fähigkeiten"
+    },
+    "senses": [
+      {
+        "en": "ability, skill",
+        "example_de": "Er hat eine besondere Fähigkeit zum Zeichnen.",
+        "example_en": "He has a special ability for drawing."
+      }
+    ]
+  },
+  {
+    "lemma": "Begabung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1965,
+    "noun": {
+      "gender": "f",
+      "plural": "Begabungen"
+    },
+    "senses": [
+      {
+        "en": "talent, gift",
+        "example_de": "Ihre Begabung für Musik ist offensichtlich.",
+        "example_en": "Her talent for music is obvious."
+      }
+    ]
+  },
+  {
+    "lemma": "Grundschule",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": {
+      "gender": "f",
+      "plural": "Grundschulen"
+    },
+    "senses": [
+      {
+        "en": "primary school",
+        "example_de": "Mein Sohn geht noch in die Grundschule.",
+        "example_en": "My son still goes to primary school."
+      }
+    ]
+  },
+  {
+    "lemma": "Realschule",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1995,
+    "noun": {
+      "gender": "f",
+      "plural": "Realschulen"
+    },
+    "senses": [
+      {
+        "en": "secondary school (intermediate track)",
+        "example_de": "Nach der Realschule machte sie eine Ausbildung.",
+        "example_en": "After secondary school, she did an apprenticeship."
+      }
+    ]
+  },
+  {
+    "lemma": "Berufsschule",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": {
+      "gender": "f",
+      "plural": "Berufsschulen"
+    },
+    "senses": [
+      {
+        "en": "vocational school",
+        "example_de": "Er besucht einmal pro Woche die Berufsschule.",
+        "example_en": "He attends vocational school once a week."
+      }
+    ]
+  },
+  {
+    "lemma": "Zulassung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": {
+      "gender": "f",
+      "plural": "Zulassungen"
+    },
+    "senses": [
+      {
+        "en": "admission, approval",
+        "example_de": "Die Zulassung zum Studium war schwierig.",
+        "example_en": "Admission to the program was difficult."
+      }
+    ]
+  },
+  {
+    "lemma": "Einschreibung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": {
+      "gender": "f",
+      "plural": "Einschreibungen"
+    },
+    "senses": [
+      {
+        "en": "enrollment, registration",
+        "example_de": "Die Einschreibung endet am dreißigsten September.",
+        "example_en": "Enrollment ends on the thirtieth of September."
+      }
+    ]
+  },
+  {
+    "lemma": "Stundenplan",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2055,
+    "noun": {
+      "gender": "m",
+      "plural": "Stundenpläne"
+    },
+    "senses": [
+      {
+        "en": "timetable, schedule",
+        "example_de": "Mein Stundenplan ist dieses Semester sehr voll.",
+        "example_en": "My timetable is very full this semester."
+      }
+    ]
+  },
+  {
+    "lemma": "Grundlage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "f",
+      "plural": "Grundlagen"
+    },
+    "senses": [
+      {
+        "en": "basis, foundation",
+        "example_de": "Mathematik ist die Grundlage vieler Fächer.",
+        "example_en": "Mathematics is the basis of many subjects."
+      }
+    ]
+  },
+  {
+    "lemma": "Azubi",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2115,
+    "noun": {
+      "gender": "m",
+      "plural": "Azubis"
+    },
+    "senses": [
+      {
+        "en": "trainee, apprentice",
+        "example_de": "Die Azubis lernen im Betrieb und in der Schule.",
+        "example_en": "The trainees learn at the company and at school.",
+        "note": "der/die Azubi; kurz für Auszubildende(r)"
+      }
+    ]
+  },
+  {
+    "lemma": "Fachliteratur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2130,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "specialist literature",
+        "example_de": "Für die Arbeit braucht sie viel Fachliteratur.",
+        "example_en": "For the paper, she needs a lot of specialist literature."
+      }
+    ]
+  },
+  {
+    "lemma": "Quelle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2145,
+    "noun": {
+      "gender": "f",
+      "plural": "Quellen"
+    },
+    "senses": [
+      {
+        "en": "source (reference)",
+        "example_de": "Bitte gib die Quelle für dieses Zitat an.",
+        "example_en": "Please cite the source for this quote."
+      }
+    ]
+  },
+  {
+    "lemma": "Nachhilfe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "tutoring, extra lessons",
+        "example_de": "Er bekommt Nachhilfe in Mathematik.",
+        "example_en": "He gets tutoring in math."
+      }
+    ]
+  },
+  {
+    "lemma": "erforschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2175,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erforscht"
+    },
+    "senses": [
+      {
+        "en": "to research, to explore scientifically",
+        "example_de": "Forscher erforschen die Ursachen des Klimawandels.",
+        "example_en": "Researchers are researching the causes of climate change."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Firma erforschte neue Materialien.",
+        "en": "The company researched new materials."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben das Problem gründlich erforscht.",
+        "en": "They have thoroughly researched the problem."
+      }
+    ]
+  },
+  {
+    "lemma": "nachweisen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2190,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "nach",
+      "praeteritum": "wies",
+      "partizip2": "nachgewiesen"
+    },
+    "senses": [
+      {
+        "en": "to prove, to demonstrate",
+        "example_de": "Die Studie weist einen klaren Zusammenhang nach.",
+        "example_en": "The study demonstrates a clear connection.",
+        "note": "+ Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Test weist den Fehler nach.",
+        "en": "The test proves the error."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie wies ihre Qualifikation nach.",
+        "en": "She proved her qualification."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat seine Unschuld nachgewiesen.",
+        "en": "He has proven his innocence."
+      }
+    ]
+  },
+  {
+    "lemma": "begründen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2205,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "begründet"
+    },
+    "senses": [
+      {
+        "en": "to justify, to give reasons for",
+        "example_de": "Bitte begründen Sie Ihre Antwort kurz.",
+        "example_en": "Please justify your answer briefly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er begründete seine Entscheidung ausführlich.",
+        "en": "He explained his decision in detail."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat ihre Meinung gut begründet.",
+        "en": "She has justified her opinion well."
+      }
+    ]
+  },
+  {
+    "lemma": "vermitteln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2220,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "vermittelt"
+    },
+    "senses": [
+      {
+        "en": "to convey, to impart (knowledge)",
+        "example_de": "Die Lehrerin vermittelt den Schülern wichtiges Wissen.",
+        "example_en": "The teacher conveys important knowledge to the students.",
+        "note": "+ Dativ der Person"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er vermittelte den Stoff sehr anschaulich.",
+        "en": "He conveyed the material very clearly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat uns die Grammatik gut vermittelt.",
+        "en": "She conveyed the grammar to us well."
+      }
+    ]
+  },
+  {
+    "lemma": "unterrichten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2235,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "unterrichtet"
+    },
+    "senses": [
+      {
+        "en": "to teach",
+        "example_de": "Er unterrichtet seit zehn Jahren Deutsch.",
+        "example_en": "He has been teaching German for ten years."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie unterrichtete an einer Grundschule.",
+        "en": "She taught at a primary school."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat Physik unterrichtet.",
+        "en": "He has taught physics."
+      }
+    ]
+  },
+  {
+    "lemma": "erlernen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2250,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erlernt"
+    },
+    "senses": [
+      {
+        "en": "to learn, to acquire a skill",
+        "example_de": "Er möchte einen neuen Beruf erlernen.",
+        "example_en": "He wants to learn a new profession."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie erlernte das Handwerk in drei Jahren.",
+        "en": "She learned the trade in three years."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Grundlagen schnell erlernt.",
+        "en": "I quickly learned the basics."
+      }
+    ]
+  },
+  {
+    "lemma": "forschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2295,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to do research, to investigate",
+        "example_de": "Sie forscht an einer neuen Impfung.",
+        "example_en": "She's researching a new vaccine.",
+        "note": "+ an/über + Dativ/Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er forschte viele Jahre über Bakterien.",
+        "en": "He did research on bacteria for many years."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben lange zu diesem Thema geforscht.",
+        "en": "They have done research on this topic for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "analysieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2310,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to analyze",
+        "example_de": "Die Forscher analysieren die Ergebnisse genau.",
+        "example_en": "The researchers analyze the results carefully."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er analysierte die Daten sorgfältig.",
+        "en": "He carefully analyzed the data."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Text ausführlich analysiert.",
+        "en": "We have analyzed the text in detail."
+      }
+    ]
+  },
+  {
+    "lemma": "interpretieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2325,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to interpret",
+        "example_de": "Wie interpretieren Sie dieses Gedicht?",
+        "example_en": "How do you interpret this poem?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie interpretierte die Grafik falsch.",
+        "en": "She interpreted the chart incorrectly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat das Ergebnis richtig interpretiert.",
+        "en": "He has interpreted the result correctly."
+      }
+    ]
+  },
+  {
+    "lemma": "zitieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2340,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to quote, to cite",
+        "example_de": "Er zitiert oft berühmte Wissenschaftler.",
+        "example_en": "He often quotes famous scientists."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie zitierte den Professor genau.",
+        "en": "She quoted the professor exactly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Quelle richtig zitiert.",
+        "en": "I have cited the source correctly."
+      }
+    ]
+  },
+  {
+    "lemma": "belegen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2355,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "belegt"
+    },
+    "senses": [
+      {
+        "en": "to enroll in, to take a course",
+        "example_de": "Sie belegt dieses Semester zwei Seminare.",
+        "example_en": "She's taking two seminars this semester."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er belegte einen Kurs in Statistik.",
+        "en": "He took a course in statistics."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Kurs schon belegt.",
+        "en": "I have already taken the course."
+      }
+    ]
+  },
+  {
+    "lemma": "ausbilden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2370,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to train, to educate professionally",
+        "example_de": "Die Firma bildet jedes Jahr Azubis aus.",
+        "example_en": "The company trains apprentices every year."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er bildete junge Mechaniker aus.",
+        "en": "He trained young mechanics."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben viele Praktikanten ausgebildet.",
+        "en": "We have trained many interns."
+      }
+    ]
+  },
+  {
+    "lemma": "erweitern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2385,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erweitert"
+    },
+    "senses": [
+      {
+        "en": "to expand, to broaden (knowledge)",
+        "example_de": "Das Seminar erweitert unser Wissen deutlich.",
+        "example_en": "The seminar broadens our knowledge significantly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie erweiterte ihre Kenntnisse im Ausland.",
+        "en": "She broadened her knowledge abroad."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat seinen Wortschatz stark erweitert.",
+        "en": "He has greatly expanded his vocabulary."
+      }
+    ]
+  },
+  {
+    "lemma": "vertiefen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "vertieft"
+    },
+    "senses": [
+      {
+        "en": "to deepen (knowledge)",
+        "example_de": "Er vertieft sein Wissen durch Fachliteratur.",
+        "example_en": "He deepens his knowledge through specialist literature.",
+        "note": "oft reflexiv: sich vertiefen in + Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie vertiefte sich ganz in das Buch.",
+        "en": "She immersed herself completely in the book."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Thema im Seminar vertieft.",
+        "en": "We have deepened the topic in the seminar."
+      }
+    ]
+  },
+  {
+    "lemma": "auswerten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2430,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to evaluate, to analyze data",
+        "example_de": "Die Forscher werten die Umfrage sorgfältig aus.",
+        "example_en": "The researchers carefully evaluate the survey."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie wertete die Testergebnisse schnell aus.",
+        "en": "She quickly evaluated the test results."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Statistik ausgewertet.",
+        "en": "We have analyzed the statistics."
+      }
+    ]
+  },
+  {
+    "lemma": "diskutieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2475,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to discuss",
+        "example_de": "Die Studenten diskutieren über neue Theorien.",
+        "example_en": "The students discuss new theories."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie diskutierten lange über das Thema.",
+        "en": "They discussed the topic for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Frage ausführlich diskutiert.",
+        "en": "We have discussed the question in detail."
+      }
+    ]
+  },
+  {
+    "lemma": "aneignen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2490,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to acquire, to learn a skill",
+        "example_de": "Kinder eignen sich Sprache spielerisch an.",
+        "example_en": "Children acquire language playfully.",
+        "note": "reflexiv: sich etwas aneignen"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er eignete sich das Wissen selbst an.",
+        "en": "He acquired the knowledge on his own."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich viel Erfahrung angeeignet.",
+        "en": "She has acquired a lot of experience."
+      }
+    ]
+  },
+  {
+    "lemma": "beherrschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2505,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beherrscht"
+    },
+    "senses": [
+      {
+        "en": "to master, to have command of",
+        "example_de": "Sie beherrscht drei Fremdsprachen fließend.",
+        "example_en": "She has fluent command of three foreign languages."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er beherrschte das Fach sehr gut.",
+        "en": "He had a very good command of the subject."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Technik endlich beherrscht.",
+        "en": "I have finally mastered the technique."
+      }
+    ]
+  },
+  {
+    "lemma": "erwerben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": {
+      "aux": "haben",
+      "du": "erwirbst",
+      "er": "erwirbt",
+      "praeteritum": "erwarb",
+      "partizip2": "erworben"
+    },
+    "senses": [
+      {
+        "en": "to acquire, to gain (knowledge, skills)",
+        "example_de": "Man erwirbt Wissen nicht über Nacht.",
+        "example_en": "One doesn't acquire knowledge overnight."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie erwirbt praktische Erfahrung im Praktikum.",
+        "en": "She's gaining practical experience during the internship."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er erwarb sein Diplom vor zwei Jahren.",
+        "en": "He earned his diploma two years ago."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben neue Fähigkeiten erworben.",
+        "en": "We have acquired new skills."
+      }
+    ]
+  },
+  {
+    "lemma": "beweisen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2535,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "bewies",
+      "partizip2": "bewiesen"
+    },
+    "senses": [
+      {
+        "en": "to prove",
+        "example_de": "Die Studie beweist einen klaren Effekt.",
+        "example_en": "The study proves a clear effect."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er bewies seine These mit Zahlen.",
+        "en": "He proved his thesis with figures."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat ihren Punkt überzeugend bewiesen.",
+        "en": "She has proven her point convincingly."
+      }
+    ]
+  },
+  {
+    "lemma": "einschreiben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2565,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein",
+      "praeteritum": "schrieb",
+      "partizip2": "eingeschrieben"
+    },
+    "senses": [
+      {
+        "en": "to enroll, to register",
+        "example_de": "Sie schreibt sich für den Studiengang ein.",
+        "example_en": "She's enrolling in the degree program.",
+        "note": "reflexiv: sich einschreiben für/an"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er schrieb sich an der Universität ein.",
+        "en": "He enrolled at the university."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns online eingeschrieben.",
+        "en": "We have enrolled online."
+      }
+    ]
+  },
+  {
+    "lemma": "vortragen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2580,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "vor",
+      "du": "trägst",
+      "er": "trägt",
+      "praeteritum": "trug",
+      "partizip2": "vorgetragen"
+    },
+    "senses": [
+      {
+        "en": "to give a talk, to present orally",
+        "example_de": "Sie trägt ihre Ergebnisse dem Publikum vor.",
+        "example_en": "She presents her results to the audience."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er trägt sein Referat frei vor.",
+        "en": "He gives his presentation without notes."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie trug ihre Thesen überzeugend vor.",
+        "en": "She presented her theses convincingly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe meinen Vortrag gut vorgetragen.",
+        "en": "I have delivered my talk well."
+      }
+    ]
+  },
+  {
+    "lemma": "verdeutlichen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2595,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verdeutlicht"
+    },
+    "senses": [
+      {
+        "en": "to clarify, to illustrate",
+        "example_de": "Ein Beispiel verdeutlicht die Theorie am besten.",
+        "example_en": "An example illustrates the theory best."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie verdeutlichte ihren Standpunkt mit Zahlen.",
+        "en": "She clarified her position with figures."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat seine Idee anschaulich verdeutlicht.",
+        "en": "He has clearly illustrated his idea."
+      }
+    ]
+  },
+  {
+    "lemma": "wissenschaftlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2625,
+    "senses": [
+      {
+        "en": "scientific",
+        "example_de": "Das ist eine rein wissenschaftliche Frage.",
+        "example_en": "That's a purely scientific question."
+      }
+    ]
+  },
+  {
+    "lemma": "theoretisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2640,
+    "senses": [
+      {
+        "en": "theoretical",
+        "example_de": "Der Kurs ist eher theoretisch als praktisch.",
+        "example_en": "The course is more theoretical than practical."
+      }
+    ]
+  },
+  {
+    "lemma": "akademisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2655,
+    "senses": [
+      {
+        "en": "academic",
+        "example_de": "Sie hat einen akademischen Hintergrund.",
+        "example_en": "She has an academic background."
+      }
+    ]
+  },
+  {
+    "lemma": "fachlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2670,
+    "senses": [
+      {
+        "en": "professional, subject-specific",
+        "example_de": "Er braucht fachliche Unterstützung bei der Arbeit.",
+        "example_en": "He needs professional support with the work."
+      }
+    ]
+  },
+  {
+    "lemma": "obligatorisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2685,
+    "senses": [
+      {
+        "en": "mandatory, compulsory",
+        "example_de": "Die Teilnahme am Seminar ist obligatorisch.",
+        "example_en": "Attendance at the seminar is mandatory."
+      }
+    ]
+  },
+  {
+    "lemma": "verpflichtend",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2700,
+    "senses": [
+      {
+        "en": "obligatory, binding",
+        "example_de": "Dieser Kurs ist für alle verpflichtend.",
+        "example_en": "This course is obligatory for everyone."
+      }
+    ]
+  },
+  {
+    "lemma": "anspruchsvoll",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2715,
+    "senses": [
+      {
+        "en": "demanding, challenging",
+        "example_de": "Die Prüfung war sehr anspruchsvoll.",
+        "example_en": "The exam was very demanding."
+      }
+    ]
+  },
+  {
+    "lemma": "begabt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2730,
+    "senses": [
+      {
+        "en": "talented, gifted",
+        "example_de": "Sie ist besonders begabt in Mathematik.",
+        "example_en": "She's especially talented in math."
+      }
+    ]
+  },
+  {
+    "lemma": "gebildet",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2760,
+    "senses": [
+      {
+        "en": "educated",
+        "example_de": "Er ist ein sehr gebildeter Mann.",
+        "example_en": "He's a very educated man."
+      }
+    ]
+  },
+  {
+    "lemma": "anschaulich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2775,
+    "senses": [
+      {
+        "en": "illustrative, vivid, clear",
+        "example_de": "Die Lehrerin erklärt alles sehr anschaulich.",
+        "example_en": "The teacher explains everything very clearly."
+      }
+    ]
+  },
+  {
+    "lemma": "sachlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2790,
+    "senses": [
+      {
+        "en": "objective, factual",
+        "example_de": "Bitte bleiben Sie in der Diskussion sachlich.",
+        "example_en": "Please stay objective in the discussion."
+      }
+    ]
+  },
+  {
+    "lemma": "nachvollziehbar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2805,
+    "senses": [
+      {
+        "en": "comprehensible, understandable",
+        "example_de": "Seine Argumentation ist gut nachvollziehbar.",
+        "example_en": "His reasoning is easy to follow."
+      }
+    ]
+  },
+  {
+    "lemma": "fundiert",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2820,
+    "senses": [
+      {
+        "en": "well-founded, sound",
+        "example_de": "Sie hat fundierte Kenntnisse in Chemie.",
+        "example_en": "She has solid knowledge of chemistry."
+      }
+    ]
+  },
+  {
+    "lemma": "lehrreich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2835,
+    "senses": [
+      {
+        "en": "instructive, educational",
+        "example_de": "Der Ausflug ins Museum war sehr lehrreich.",
+        "example_en": "The trip to the museum was very instructive."
+      }
+    ]
+  },
+  {
+    "lemma": "beispielsweise",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2850,
+    "senses": [
+      {
+        "en": "for example",
+        "example_de": "Man kann beispielsweise ein Praktikum machen.",
+        "example_en": "One can, for example, do an internship."
+      }
+    ]
+  },
+  {
+    "lemma": "demnach",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2865,
+    "senses": [
+      {
+        "en": "accordingly, therefore",
+        "example_de": "Die Note war gut, demnach freut er sich.",
+        "example_en": "The grade was good, so he's pleased."
+      }
+    ]
+  },
+  {
+    "lemma": "somit",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2880,
+    "senses": [
+      {
+        "en": "thus, therefore",
+        "example_de": "Sie hat bestanden und ist somit zugelassen.",
+        "example_en": "She passed and is thus admitted."
+      }
+    ]
+  },
+  {
+    "lemma": "dementsprechend",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2895,
+    "senses": [
+      {
+        "en": "accordingly, correspondingly",
+        "example_de": "Er lernte viel und wurde dementsprechend besser.",
+        "example_en": "He studied a lot and improved accordingly."
+      }
+    ]
+  },
+  {
+    "lemma": "zudem",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2910,
+    "senses": [
+      {
+        "en": "moreover, in addition",
+        "example_de": "Sie ist fleißig und zudem sehr begabt.",
+        "example_en": "She's hardworking and moreover very talented."
+      }
+    ]
+  },
+  {
+    "lemma": "letztlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2925,
+    "senses": [
+      {
+        "en": "ultimately, in the end",
+        "example_de": "Letztlich hat er die Prüfung bestanden.",
+        "example_en": "Ultimately, he passed the exam."
+      }
+    ]
+  },
+  {
+    "lemma": "insofern",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2955,
+    "senses": [
+      {
+        "en": "in that respect, insofar",
+        "example_de": "Insofern hat sie völlig recht.",
+        "example_en": "In that respect, she's completely right."
+      }
+    ]
+  },
+  {
+    "lemma": "zumindest",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2970,
+    "senses": [
+      {
+        "en": "at least",
+        "example_de": "Er hat zumindest die Klausur bestanden.",
+        "example_en": "He at least passed the exam."
+      }
+    ]
+  },
+  {
+    "lemma": "vor allem",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2985,
+    "senses": [
+      {
+        "en": "above all, especially",
+        "example_de": "Vor allem die Forschung braucht mehr Geld.",
+        "example_en": "Above all, research needs more money."
+      }
+    ]
+  }
+]

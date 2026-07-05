@@ -52,6 +52,10 @@ const MIGRATIONS: string[] = [
 
   CREATE TABLE IF NOT EXISTS user_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
   `,
+  // v2 — user-marked "learned" words: hidden from review/notifications until unmarked
+  `
+  ALTER TABLE user_saved_words ADD COLUMN learned_at TEXT;
+  `,
 ];
 
 export async function runMigrations(db: SQLiteDatabase): Promise<void> {

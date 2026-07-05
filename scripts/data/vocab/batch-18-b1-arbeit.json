@@ -1,0 +1,1576 @@
+[
+  {
+    "lemma": "Bewerbungsgespräch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1515,
+    "noun": {
+      "gender": "n",
+      "plural": "Bewerbungsgespräche"
+    },
+    "senses": [
+      {
+        "en": "job interview (application interview)",
+        "example_de": "Das Bewerbungsgespräch dauerte fast eine Stunde.",
+        "example_en": "The job interview lasted almost an hour."
+      }
+    ]
+  },
+  {
+    "lemma": "Kündigungsfrist",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1545,
+    "noun": {
+      "gender": "f",
+      "plural": "Kündigungsfristen"
+    },
+    "senses": [
+      {
+        "en": "notice period",
+        "example_de": "Die Kündigungsfrist beträgt drei Monate.",
+        "example_en": "The notice period is three months."
+      }
+    ]
+  },
+  {
+    "lemma": "Berufserfahrung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1575,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "professional experience, work experience",
+        "example_de": "Für die Stelle braucht man Berufserfahrung.",
+        "example_en": "The position requires professional experience."
+      }
+    ]
+  },
+  {
+    "lemma": "Teamarbeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1605,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "teamwork",
+        "example_de": "Gute Teamarbeit macht das Projekt erfolgreich.",
+        "example_en": "Good teamwork makes the project successful."
+      }
+    ]
+  },
+  {
+    "lemma": "Fortbildung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": {
+      "gender": "f",
+      "plural": "Fortbildungen"
+    },
+    "senses": [
+      {
+        "en": "continuing education, training course",
+        "example_de": "Nächste Woche besuche ich eine Fortbildung.",
+        "example_en": "Next week I'm attending a training course."
+      }
+    ]
+  },
+  {
+    "lemma": "Weiterbildung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1635,
+    "noun": {
+      "gender": "f",
+      "plural": "Weiterbildungen"
+    },
+    "senses": [
+      {
+        "en": "further training, continuing education",
+        "example_de": "Die Firma bezahlt seine berufliche Weiterbildung.",
+        "example_en": "The company pays for his professional development."
+      }
+    ]
+  },
+  {
+    "lemma": "Betrieb",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1725,
+    "noun": {
+      "gender": "m",
+      "plural": "Betriebe"
+    },
+    "senses": [
+      {
+        "en": "business, company, operation",
+        "example_de": "Der Betrieb beschäftigt viele junge Leute.",
+        "example_en": "The business employs many young people."
+      }
+    ]
+  },
+  {
+    "lemma": "Unternehmen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": {
+      "gender": "n",
+      "plural": "Unternehmen"
+    },
+    "senses": [
+      {
+        "en": "company, enterprise",
+        "example_de": "Das Unternehmen wächst seit fünf Jahren.",
+        "example_en": "The company has been growing for five years."
+      }
+    ]
+  },
+  {
+    "lemma": "Geschäftsführer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1755,
+    "noun": {
+      "gender": "m",
+      "plural": "Geschäftsführer"
+    },
+    "senses": [
+      {
+        "en": "managing director, CEO",
+        "example_de": "Der Geschäftsführer trifft alle wichtigen Entscheidungen.",
+        "example_en": "The managing director makes all important decisions."
+      }
+    ]
+  },
+  {
+    "lemma": "Führungskraft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1770,
+    "noun": {
+      "gender": "f",
+      "plural": "Führungskräfte"
+    },
+    "senses": [
+      {
+        "en": "executive, manager",
+        "example_de": "Als Führungskraft trägt sie viel Verantwortung.",
+        "example_en": "As an executive, she carries a lot of responsibility."
+      }
+    ]
+  },
+  {
+    "lemma": "Fachkraft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1785,
+    "noun": {
+      "gender": "f",
+      "plural": "Fachkräfte"
+    },
+    "senses": [
+      {
+        "en": "skilled worker, specialist",
+        "example_de": "Die Firma sucht dringend qualifizierte Fachkräfte.",
+        "example_en": "The company urgently needs skilled workers."
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitsagentur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1815,
+    "noun": {
+      "gender": "f",
+      "plural": "Arbeitsagenturen"
+    },
+    "senses": [
+      {
+        "en": "employment agency",
+        "example_de": "Er meldete sich bei der Arbeitsagentur arbeitslos.",
+        "example_en": "He registered as unemployed at the job center."
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitslosigkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1830,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "unemployment",
+        "example_de": "Die Arbeitslosigkeit ist in dieser Region hoch.",
+        "example_en": "Unemployment is high in this region."
+      }
+    ]
+  },
+  {
+    "lemma": "Qualifikation",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1860,
+    "noun": {
+      "gender": "f",
+      "plural": "Qualifikationen"
+    },
+    "senses": [
+      {
+        "en": "qualification",
+        "example_de": "Für den Job braucht man besondere Qualifikationen.",
+        "example_en": "The job requires special qualifications."
+      }
+    ]
+  },
+  {
+    "lemma": "Bewerbungsunterlagen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1875,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "application documents",
+        "example_de": "Bitte schicken Sie Ihre vollständigen Bewerbungsunterlagen.",
+        "example_en": "Please send your complete application documents.",
+        "note": "nur Plural"
+      }
+    ]
+  },
+  {
+    "lemma": "Stellenangebot",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1890,
+    "noun": {
+      "gender": "n",
+      "plural": "Stellenangebote"
+    },
+    "senses": [
+      {
+        "en": "job offer, job posting",
+        "example_de": "Im Internet fand sie ein passendes Stellenangebot.",
+        "example_en": "She found a suitable job posting online."
+      }
+    ]
+  },
+  {
+    "lemma": "Stellenanzeige",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1905,
+    "noun": {
+      "gender": "f",
+      "plural": "Stellenanzeigen"
+    },
+    "senses": [
+      {
+        "en": "job advertisement",
+        "example_de": "Die Stellenanzeige stand in der Zeitung.",
+        "example_en": "The job ad was in the newspaper."
+      }
+    ]
+  },
+  {
+    "lemma": "Beförderung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "f",
+      "plural": "Beförderungen"
+    },
+    "senses": [
+      {
+        "en": "promotion (at work)",
+        "example_de": "Nach zwei Jahren bekam sie eine Beförderung.",
+        "example_en": "After two years, she got a promotion.",
+        "note": "auch: Beförderung = Transport"
+      }
+    ]
+  },
+  {
+    "lemma": "Gehaltsabrechnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "f",
+      "plural": "Gehaltsabrechnungen"
+    },
+    "senses": [
+      {
+        "en": "payslip, salary statement",
+        "example_de": "Die Gehaltsabrechnung kommt jeden Monat per E-Mail.",
+        "example_en": "The payslip arrives by email every month."
+      }
+    ]
+  },
+  {
+    "lemma": "Personalabteilung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1965,
+    "noun": {
+      "gender": "f",
+      "plural": "Personalabteilungen"
+    },
+    "senses": [
+      {
+        "en": "human resources department",
+        "example_de": "Fragen Sie bitte die Personalabteilung nach Ihrem Vertrag.",
+        "example_en": "Please ask HR about your contract."
+      }
+    ]
+  },
+  {
+    "lemma": "Betriebsrat",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": {
+      "gender": "m",
+      "plural": "Betriebsräte"
+    },
+    "senses": [
+      {
+        "en": "works council",
+        "example_de": "Der Betriebsrat vertritt die Interessen der Mitarbeiter.",
+        "example_en": "The works council represents the employees' interests."
+      }
+    ]
+  },
+  {
+    "lemma": "Gewerkschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1995,
+    "noun": {
+      "gender": "f",
+      "plural": "Gewerkschaften"
+    },
+    "senses": [
+      {
+        "en": "labor union, trade union",
+        "example_de": "Viele Arbeiter sind Mitglied einer Gewerkschaft.",
+        "example_en": "Many workers are members of a union."
+      }
+    ]
+  },
+  {
+    "lemma": "Vollzeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "full-time (work)",
+        "example_de": "Er sucht eine Stelle in Vollzeit.",
+        "example_en": "He's looking for a full-time position."
+      }
+    ]
+  },
+  {
+    "lemma": "Dienstreise",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2055,
+    "noun": {
+      "gender": "f",
+      "plural": "Dienstreisen"
+    },
+    "senses": [
+      {
+        "en": "business trip",
+        "example_de": "Nächste Woche fliegt er auf Dienstreise nach Berlin.",
+        "example_en": "Next week he's flying to Berlin on a business trip."
+      }
+    ]
+  },
+  {
+    "lemma": "Zuständigkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2085,
+    "noun": {
+      "gender": "f",
+      "plural": "Zuständigkeiten"
+    },
+    "senses": [
+      {
+        "en": "area of responsibility, competence",
+        "example_de": "Diese Aufgabe fällt nicht in seine Zuständigkeit.",
+        "example_en": "This task isn't within his area of responsibility."
+      }
+    ]
+  },
+  {
+    "lemma": "qualifizieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2145,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to qualify (oneself)",
+        "example_de": "Sie qualifiziert sich für eine höhere Position.",
+        "example_en": "She's qualifying herself for a higher position.",
+        "note": "reflexiv: sich qualifizieren für"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er qualifizierte sich durch eine Zusatzausbildung.",
+        "en": "He qualified through extra training."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich für die Stelle qualifiziert.",
+        "en": "She has qualified for the position."
+      }
+    ]
+  },
+  {
+    "lemma": "beauftragen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2160,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beauftragt"
+    },
+    "senses": [
+      {
+        "en": "to commission, to task (someone with something)",
+        "example_de": "Die Firma beauftragt einen externen Berater.",
+        "example_en": "The company is commissioning an outside consultant.",
+        "note": "+ Akkusativ + mit + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie beauftragte ihn mit der Planung.",
+        "en": "She tasked him with the planning."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben eine neue Agentur beauftragt.",
+        "en": "We have hired a new agency."
+      }
+    ]
+  },
+  {
+    "lemma": "delegieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2175,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to delegate",
+        "example_de": "Gute Chefs delegieren Aufgaben an ihr Team.",
+        "example_en": "Good bosses delegate tasks to their team.",
+        "note": "+ Akkusativ + an + Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er delegierte die Aufgabe an seine Kollegin.",
+        "en": "He delegated the task to his colleague."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Verantwortung delegiert.",
+        "en": "She has delegated the responsibility."
+      }
+    ]
+  },
+  {
+    "lemma": "verhandeln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2190,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verhandelt"
+    },
+    "senses": [
+      {
+        "en": "to negotiate",
+        "example_de": "Wir verhandeln morgen über das Gehalt.",
+        "example_en": "Tomorrow we're negotiating about the salary.",
+        "note": "+ über + Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie verhandelten lange über den Vertrag.",
+        "en": "They negotiated the contract for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat erfolgreich mit dem Kunden verhandelt.",
+        "en": "He has negotiated successfully with the client."
+      }
+    ]
+  },
+  {
+    "lemma": "absolvieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2220,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to complete, to finish (training/studies)",
+        "example_de": "Er absolvierte letztes Jahr seine Ausbildung.",
+        "example_en": "He completed his training last year."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "perfekt",
+        "de": "Sie hat ein Praktikum bei uns absolviert.",
+        "en": "She has completed an internship with us."
+      }
+    ]
+  },
+  {
+    "lemma": "koordinieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2235,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to coordinate",
+        "example_de": "Sie koordiniert die Termine für das ganze Team.",
+        "example_en": "She coordinates the appointments for the whole team."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "perfekt",
+        "de": "Er hat das ganze Projekt koordiniert.",
+        "en": "He has coordinated the entire project."
+      }
+    ]
+  },
+  {
+    "lemma": "einteilen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2265,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to divide up, to allocate (tasks/time)",
+        "example_de": "Der Chef teilt die Aufgaben im Team ein.",
+        "example_en": "The boss allocates the tasks within the team."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie teilte ihre Zeit sehr gut ein.",
+        "en": "She organized her time very well."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Schichten schon eingeteilt.",
+        "en": "He has already scheduled the shifts."
+      }
+    ]
+  },
+  {
+    "lemma": "einarbeiten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to familiarize oneself with a new job",
+        "example_de": "Die neue Kollegin arbeitet sich schnell ein.",
+        "example_en": "The new colleague is settling in quickly.",
+        "note": "reflexiv: sich einarbeiten"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er arbeitete sich in wenigen Wochen ein.",
+        "en": "He got up to speed within a few weeks."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich gut eingearbeitet.",
+        "en": "She has settled into the job well."
+      }
+    ]
+  },
+  {
+    "lemma": "bewähren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2295,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "bewährt"
+    },
+    "senses": [
+      {
+        "en": "to prove oneself",
+        "example_de": "Er hat sich in der neuen Position bewährt.",
+        "example_en": "He has proven himself in the new position.",
+        "note": "reflexiv: sich bewähren"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie bewährte sich schon in der Probezeit.",
+        "en": "She proved herself during the probation period."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das neue System hat sich bewährt.",
+        "en": "The new system has proven itself."
+      }
+    ]
+  },
+  {
+    "lemma": "verantworten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2310,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verantwortet"
+    },
+    "senses": [
+      {
+        "en": "to answer for, to take responsibility for",
+        "example_de": "Sie verantwortet das gesamte Budget der Abteilung.",
+        "example_en": "She is responsible for the department's entire budget."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er verantwortete das Projekt allein.",
+        "en": "He was responsible for the project alone."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat diese Entscheidung selbst verantwortet.",
+        "en": "She has taken responsibility for this decision herself."
+      }
+    ]
+  },
+  {
+    "lemma": "vertreten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2325,
+    "verb": {
+      "aux": "haben",
+      "du": "vertrittst",
+      "er": "vertritt",
+      "praeteritum": "vertrat",
+      "partizip2": "vertreten"
+    },
+    "senses": [
+      {
+        "en": "to represent, to stand in for (a colleague)",
+        "example_de": "Sie vertritt ihren Kollegen während seines Urlaubs.",
+        "example_en": "She's covering for her colleague during his vacation."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er vertritt die Firma bei der Messe.",
+        "en": "He represents the company at the trade fair."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie vertrat den Chef in der Sitzung.",
+        "en": "She stood in for the boss at the meeting."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe meine Chefin letzte Woche vertreten.",
+        "en": "I covered for my boss last week."
+      }
+    ]
+  },
+  {
+    "lemma": "zusammenarbeiten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2340,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zusammen"
+    },
+    "senses": [
+      {
+        "en": "to collaborate, to work together",
+        "example_de": "Beide Abteilungen arbeiten eng zusammen.",
+        "example_en": "Both departments work closely together.",
+        "note": "+ mit + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Wir arbeiteten monatelang an dem Projekt zusammen.",
+        "en": "We worked together on the project for months."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben erfolgreich zusammengearbeitet.",
+        "en": "They have collaborated successfully."
+      }
+    ]
+  },
+  {
+    "lemma": "weiterbilden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2355,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "weiter"
+    },
+    "senses": [
+      {
+        "en": "to further train oneself, to continue one's education",
+        "example_de": "Sie bildet sich regelmäßig beruflich weiter.",
+        "example_en": "She regularly continues her professional education.",
+        "note": "reflexiv: sich weiterbilden"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er bildete sich in seiner Freizeit weiter.",
+        "en": "He continued his education in his free time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich im letzten Jahr weitergebildet.",
+        "en": "I have continued my training over the last year."
+      }
+    ]
+  },
+  {
+    "lemma": "antreten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2370,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "du": "trittst",
+      "er": "tritt",
+      "praeteritum": "trat",
+      "partizip2": "angetreten"
+    },
+    "senses": [
+      {
+        "en": "to start, to take up (a job/position)",
+        "example_de": "Sie tritt ihre neue Stelle im März an.",
+        "example_en": "She's starting her new job in March."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er tritt die Stelle nächsten Monat an.",
+        "en": "He's taking up the position next month."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie trat die Stelle sofort an.",
+        "en": "She started the job right away."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat seine neue Stelle schon angetreten.",
+        "en": "He has already started his new job."
+      }
+    ]
+  },
+  {
+    "lemma": "einreichen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2385,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to submit, to hand in (an application)",
+        "example_de": "Sie reicht ihre Bewerbung online ein.",
+        "example_en": "She's submitting her application online."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er reichte seine Unterlagen rechtzeitig ein.",
+        "en": "He submitted his documents on time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Bewerbung schon eingereicht.",
+        "en": "I have already submitted the application."
+      }
+    ]
+  },
+  {
+    "lemma": "ablehnen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to reject, to decline (an application/offer)",
+        "example_de": "Die Firma lehnt seine Bewerbung leider ab.",
+        "example_en": "Unfortunately, the company is rejecting his application."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie lehnte das Angebot höflich ab.",
+        "en": "She politely declined the offer."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat den Vorschlag abgelehnt.",
+        "en": "He has rejected the proposal."
+      }
+    ]
+  },
+  {
+    "lemma": "annehmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2415,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "du": "nimmst",
+      "er": "nimmt",
+      "praeteritum": "nahm",
+      "partizip2": "angenommen"
+    },
+    "senses": [
+      {
+        "en": "to accept (a job offer)",
+        "example_de": "Sie nimmt das Jobangebot sofort an.",
+        "example_en": "She's accepting the job offer right away."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er nimmt jede Herausforderung gern an.",
+        "en": "He gladly accepts every challenge."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie nahm die neue Stelle sofort an.",
+        "en": "She accepted the new position immediately."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Angebot dankend angenommen.",
+        "en": "I have gratefully accepted the offer."
+      }
+    ]
+  },
+  {
+    "lemma": "krankmelden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2430,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "krank"
+    },
+    "senses": [
+      {
+        "en": "to call in sick",
+        "example_de": "Er meldet sich heute wegen Fieber krank.",
+        "example_en": "He's calling in sick today because of a fever.",
+        "note": "reflexiv: sich krankmelden"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie meldete sich gestern krank.",
+        "en": "She called in sick yesterday."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich diese Woche zweimal krankgemeldet.",
+        "en": "He has called in sick twice this week."
+      }
+    ]
+  },
+  {
+    "lemma": "pendeln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2445,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to commute",
+        "example_de": "Sie pendelt täglich eine Stunde zur Arbeit.",
+        "example_en": "She commutes an hour to work every day."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er pendelte jahrelang zwischen den Städten.",
+        "en": "He commuted between the cities for years."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe zwei Jahre lang gependelt.",
+        "en": "I commuted for two years."
+      }
+    ]
+  },
+  {
+    "lemma": "aushelfen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2460,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus",
+      "du": "hilfst",
+      "er": "hilft",
+      "praeteritum": "half",
+      "partizip2": "ausgeholfen"
+    },
+    "senses": [
+      {
+        "en": "to help out, to fill in (temporarily)",
+        "example_de": "Sie hilft heute in der Küche aus.",
+        "example_en": "She's filling in at the kitchen today.",
+        "note": "+ Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er half in der Filiale aus.",
+        "en": "He filled in at the branch."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe letzten Sommer im Büro ausgeholfen.",
+        "en": "I helped out in the office last summer."
+      }
+    ]
+  },
+  {
+    "lemma": "optimieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2475,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to optimize, to improve (a process)",
+        "example_de": "Die Firma optimiert ständig ihre Arbeitsabläufe.",
+        "example_en": "The company constantly optimizes its work processes."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Ablauf deutlich optimiert.",
+        "en": "We have significantly optimized the process."
+      }
+    ]
+  },
+  {
+    "lemma": "dokumentieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2490,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to document",
+        "example_de": "Er dokumentiert jeden Schritt des Projekts.",
+        "example_en": "He documents every step of the project."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "perfekt",
+        "de": "Sie hat alle Ergebnisse genau dokumentiert.",
+        "en": "She has documented all the results precisely."
+      }
+    ]
+  },
+  {
+    "lemma": "präsentieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2505,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to present",
+        "example_de": "Morgen präsentiert er die neuen Zahlen.",
+        "example_en": "Tomorrow he's presenting the new figures."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie präsentierte das Projekt vor dem Team.",
+        "en": "She presented the project to the team."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Ergebnisse dem Chef präsentiert.",
+        "en": "He has presented the results to the boss."
+      }
+    ]
+  },
+  {
+    "lemma": "motivieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to motivate",
+        "example_de": "Die Chefin motiviert ihr Team sehr gut.",
+        "example_en": "The boss motivates her team very well."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "perfekt",
+        "de": "Er hat seine Kollegen immer motiviert.",
+        "en": "He has always motivated his colleagues."
+      }
+    ]
+  },
+  {
+    "lemma": "verwalten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2535,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verwaltet"
+    },
+    "senses": [
+      {
+        "en": "to administer, to manage",
+        "example_de": "Sie verwaltet die Finanzen der Abteilung.",
+        "example_en": "She manages the department's finances."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er verwaltete das Lager mehrere Jahre.",
+        "en": "He managed the warehouse for several years."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat das Projektbudget verwaltet.",
+        "en": "She has managed the project budget."
+      }
+    ]
+  },
+  {
+    "lemma": "anleiten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2550,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to instruct, to guide, to train (someone)",
+        "example_de": "Sie leitet neue Praktikanten geduldig an.",
+        "example_en": "She patiently guides new interns."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er leitete die Auszubildenden im Betrieb an.",
+        "en": "He trained the apprentices at the company."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat den neuen Kollegen angeleitet.",
+        "en": "She has trained the new colleague."
+      }
+    ]
+  },
+  {
+    "lemma": "anordnen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2580,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to order, to direct (someone to do something)",
+        "example_de": "Der Chef ordnet eine Überprüfung aller Berichte an.",
+        "example_en": "The boss orders a review of all the reports."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie ordnete eine sofortige Pause an.",
+        "en": "She ordered an immediate break."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat neue Sicherheitsregeln angeordnet.",
+        "en": "He has ordered new safety rules."
+      }
+    ]
+  },
+  {
+    "lemma": "durchsetzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2595,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "durch"
+    },
+    "senses": [
+      {
+        "en": "to assert oneself, to prevail",
+        "example_de": "Sie setzt sich auch in schwierigen Meetings durch.",
+        "example_en": "She asserts herself even in difficult meetings.",
+        "note": "reflexiv: sich durchsetzen"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er setzte sich mit seiner Idee durch.",
+        "en": "He prevailed with his idea."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich im Team durchgesetzt.",
+        "en": "She has asserted herself within the team."
+      }
+    ]
+  },
+  {
+    "lemma": "übernehmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2610,
+    "verb": {
+      "aux": "haben",
+      "du": "übernimmst",
+      "er": "übernimmt",
+      "praeteritum": "übernahm",
+      "partizip2": "übernommen"
+    },
+    "senses": [
+      {
+        "en": "to take over, to take on (a task/responsibility)",
+        "example_de": "Sie übernimmt die Verantwortung für das Projekt.",
+        "example_en": "She's taking on responsibility for the project."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er übernimmt die Leitung der Abteilung.",
+        "en": "He's taking over the management of the department."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie übernahm die Aufgabe ohne zu zögern.",
+        "en": "She took on the task without hesitating."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe seine Schicht übernommen.",
+        "en": "I have taken over his shift."
+      }
+    ]
+  },
+  {
+    "lemma": "beruflich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2625,
+    "senses": [
+      {
+        "en": "professional, career-related",
+        "example_de": "Er möchte sich beruflich weiterentwickeln.",
+        "example_en": "He wants to develop further in his career."
+      }
+    ]
+  },
+  {
+    "lemma": "arbeitslos",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2640,
+    "senses": [
+      {
+        "en": "unemployed",
+        "example_de": "Seit einem Monat ist sie arbeitslos.",
+        "example_en": "She has been unemployed for a month."
+      }
+    ]
+  },
+  {
+    "lemma": "teamfähig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2655,
+    "senses": [
+      {
+        "en": "able to work in a team, team-oriented",
+        "example_de": "Für diese Stelle muss man teamfähig sein.",
+        "example_en": "For this position you have to be a team player."
+      }
+    ]
+  },
+  {
+    "lemma": "belastbar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2670,
+    "senses": [
+      {
+        "en": "resilient, able to handle stress/workload",
+        "example_de": "Sie ist auch unter Zeitdruck sehr belastbar.",
+        "example_en": "She copes very well even under time pressure."
+      }
+    ]
+  },
+  {
+    "lemma": "flexibel",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2685,
+    "senses": [
+      {
+        "en": "flexible",
+        "example_de": "Unsere Arbeitszeiten sind ziemlich flexibel.",
+        "example_en": "Our working hours are quite flexible."
+      }
+    ]
+  },
+  {
+    "lemma": "hauptberuflich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2730,
+    "senses": [
+      {
+        "en": "as a main occupation, full-time (professionally)",
+        "example_de": "Er arbeitet hauptberuflich als Programmierer.",
+        "example_en": "He works full-time as a programmer."
+      }
+    ]
+  },
+  {
+    "lemma": "nebenberuflich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2745,
+    "senses": [
+      {
+        "en": "as a side job, part-time alongside one's main job",
+        "example_de": "Sie unterrichtet nebenberuflich Deutschkurse.",
+        "example_en": "She teaches German courses as a side job."
+      }
+    ]
+  },
+  {
+    "lemma": "ehrenamtlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2760,
+    "senses": [
+      {
+        "en": "voluntary, on a volunteer basis",
+        "example_de": "Er arbeitet ehrenamtlich im Kindergarten mit.",
+        "example_en": "He works as a volunteer at the kindergarten."
+      }
+    ]
+  },
+  {
+    "lemma": "kompetent",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2775,
+    "senses": [
+      {
+        "en": "competent",
+        "example_de": "Die neue Kollegin wirkt sehr kompetent.",
+        "example_en": "The new colleague seems very competent."
+      }
+    ]
+  },
+  {
+    "lemma": "motiviert",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2805,
+    "senses": [
+      {
+        "en": "motivated",
+        "example_de": "Das ganze Team ist sehr motiviert.",
+        "example_en": "The whole team is very motivated."
+      }
+    ]
+  },
+  {
+    "lemma": "engagiert",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2820,
+    "senses": [
+      {
+        "en": "committed, dedicated",
+        "example_de": "Sie arbeitet sehr engagiert an dem Projekt.",
+        "example_en": "She works very dedicatedly on the project."
+      }
+    ]
+  },
+  {
+    "lemma": "überlastet",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2835,
+    "senses": [
+      {
+        "en": "overworked, overburdened",
+        "example_de": "Viele Mitarbeiter fühlen sich völlig überlastet.",
+        "example_en": "Many employees feel completely overworked."
+      }
+    ]
+  },
+  {
+    "lemma": "gemäß",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2850,
+    "senses": [
+      {
+        "en": "according to, in accordance with",
+        "example_de": "Gemäß dem Vertrag beginnt die Arbeit um acht.",
+        "example_en": "According to the contract, work starts at eight.",
+        "note": "+ Dativ (oft nachgestellt)"
+      }
+    ]
+  },
+  {
+    "lemma": "bezüglich",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2865,
+    "senses": [
+      {
+        "en": "regarding, concerning",
+        "example_de": "Bezüglich Ihrer Bewerbung haben wir noch Fragen.",
+        "example_en": "Regarding your application, we still have questions.",
+        "note": "+ Genitiv"
+      }
+    ]
+  },
+  {
+    "lemma": "hinsichtlich",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2880,
+    "senses": [
+      {
+        "en": "with regard to, in terms of",
+        "example_de": "Hinsichtlich des Gehalts sind wir uns einig.",
+        "example_en": "Regarding the salary, we agree.",
+        "note": "+ Genitiv"
+      }
+    ]
+  },
+  {
+    "lemma": "laut",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2895,
+    "senses": [
+      {
+        "en": "according to",
+        "example_de": "Laut Vertrag hat sie dreißig Urlaubstage.",
+        "example_en": "According to the contract, she has thirty vacation days.",
+        "note": "+ Genitiv (oder Dativ)"
+      }
+    ]
+  },
+  {
+    "lemma": "seitens",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2910,
+    "senses": [
+      {
+        "en": "on the part of, on behalf of",
+        "example_de": "Seitens der Firma gab es keine Einwände.",
+        "example_en": "There were no objections on the part of the company.",
+        "note": "+ Genitiv"
+      }
+    ]
+  },
+  {
+    "lemma": "sofern",
+    "pos": "conj",
+    "level": "B1",
+    "freq": 2925,
+    "senses": [
+      {
+        "en": "provided that, insofar as",
+        "example_de": "Sofern nötig, arbeiten wir auch samstags.",
+        "example_en": "If necessary, we also work on Saturdays."
+      }
+    ]
+  },
+  {
+    "lemma": "sobald",
+    "pos": "conj",
+    "level": "B1",
+    "freq": 2940,
+    "senses": [
+      {
+        "en": "as soon as",
+        "example_de": "Sobald du fertig bist, melde dich bitte.",
+        "example_en": "As soon as you're done, please let me know."
+      }
+    ]
+  },
+  {
+    "lemma": "diesbezüglich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2955,
+    "senses": [
+      {
+        "en": "in this regard, concerning this matter",
+        "example_de": "Diesbezüglich müssen wir noch etwas klären.",
+        "example_en": "We still need to clarify something in this regard."
+      }
+    ]
+  },
+  {
+    "lemma": "vorerst",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2970,
+    "senses": [
+      {
+        "en": "for now, for the time being",
+        "example_de": "Die Stelle bleibt vorerst unbesetzt.",
+        "example_en": "The position remains unfilled for now."
+      }
+    ]
+  },
+  {
+    "lemma": "beziehungsweise",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2985,
+    "senses": [
+      {
+        "en": "or rather, respectively",
+        "example_de": "Der Termin ist am Montag beziehungsweise Dienstag.",
+        "example_en": "The appointment is on Monday, or Tuesday, respectively."
+      }
+    ]
+  }
+]

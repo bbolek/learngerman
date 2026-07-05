@@ -1,0 +1,2444 @@
+[
+  {
+    "lemma": "unterhalten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 900,
+    "verb": {
+      "aux": "haben",
+      "du": "unterhältst",
+      "er": "unterhält",
+      "praeteritum": "unterhielt",
+      "partizip2": "unterhalten"
+    },
+    "senses": [
+      {
+        "en": "to talk, to chat (with someone)",
+        "note": "reflexiv: sich unterhalten (mit + Dativ)",
+        "example_de": "Wir unterhalten uns über das Wetter.",
+        "example_en": "We are chatting about the weather."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er unterhält sich mit seinem Freund.",
+        "en": "He is talking with his friend."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir unterhielten uns lange.",
+        "en": "We talked for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben sich gut unterhalten.",
+        "en": "They had a nice chat."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Unterhaltet euch nicht so laut!",
+        "en": "Don't talk so loudly!"
+      }
+    ]
+  },
+  {
+    "lemma": "verlieben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 910,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verliebt"
+    },
+    "senses": [
+      {
+        "en": "to fall in love (with)",
+        "note": "reflexiv: sich verlieben (in + Akkusativ)",
+        "example_de": "Ich verliebe mich in dich.",
+        "example_en": "I am falling in love with you."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er verliebt sich in Anna.",
+        "en": "He is falling in love with Anna."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie verliebte sich schnell.",
+        "en": "She fell in love quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns verliebt.",
+        "en": "We fell in love."
+      }
+    ]
+  },
+  {
+    "lemma": "verabschieden",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 920,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verabschiedet"
+    },
+    "senses": [
+      {
+        "en": "to say goodbye (to)",
+        "note": "reflexiv: sich verabschieden (von + Dativ)",
+        "example_de": "Ich verabschiede mich von dir.",
+        "example_en": "I am saying goodbye to you."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie verabschiedet sich von den Gästen.",
+        "en": "She says goodbye to the guests."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er verabschiedete sich höflich.",
+        "en": "He said goodbye politely."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns schon verabschiedet.",
+        "en": "We have already said goodbye."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Verabschiede dich bitte!",
+        "en": "Please say goodbye!"
+      }
+    ]
+  },
+  {
+    "lemma": "langweilen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 940,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to be bored",
+        "note": "reflexiv: sich langweilen",
+        "example_de": "Die Kinder langweilen sich zu Hause.",
+        "example_en": "The children are bored at home."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich langweile mich im Unterricht.",
+        "en": "I am bored in class."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir langweilten uns im Museum.",
+        "en": "We were bored at the museum."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich am Sonntag gelangweilt.",
+        "en": "He was bored on Sunday."
+      }
+    ]
+  },
+  {
+    "lemma": "entspannen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 950,
+    "verb": {
+      "aux": "haben",
+      "du": "entspannst",
+      "er": "entspannt",
+      "praeteritum": "entspannte",
+      "partizip2": "entspannt"
+    },
+    "senses": [
+      {
+        "en": "to relax",
+        "note": "reflexiv: sich entspannen",
+        "example_de": "Ich entspanne mich am Wochenende.",
+        "example_en": "I relax on the weekend."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie entspannt sich im Garten.",
+        "en": "She relaxes in the garden."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir entspannten uns nach der Arbeit.",
+        "en": "We relaxed after work."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich im Urlaub entspannt.",
+        "en": "He relaxed on vacation."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Entspann dich, alles wird gut!",
+        "en": "Relax, everything will be fine!"
+      }
+    ]
+  },
+  {
+    "lemma": "abmelden",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 960,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to log off, to deregister (oneself)",
+        "note": "reflexiv, trennbar: sich abmelden",
+        "example_de": "Ich melde mich vom Kurs ab.",
+        "example_en": "I am deregistering from the course."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er meldet sich vom System ab.",
+        "en": "He logs off the system."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie meldete sich krank ab.",
+        "en": "She reported herself sick."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns schon abgemeldet.",
+        "en": "We have already logged off."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Melde dich bitte ab!",
+        "en": "Please log off!"
+      }
+    ]
+  },
+  {
+    "lemma": "bewegen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 970,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "bewegt"
+    },
+    "senses": [
+      {
+        "en": "to move (oneself), to exercise",
+        "note": "reflexiv: sich bewegen",
+        "example_de": "Ich bewege mich jeden Tag.",
+        "example_en": "I move (exercise) every day."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er bewegt sich nicht gern.",
+        "en": "He doesn't like to move."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie bewegte sich langsam.",
+        "en": "She moved slowly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns viel bewegt.",
+        "en": "We moved a lot."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Beweg dich mehr!",
+        "en": "Move more!"
+      }
+    ]
+  },
+  {
+    "lemma": "gewöhnen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 990,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "gewöhnt"
+    },
+    "senses": [
+      {
+        "en": "to get used (to)",
+        "note": "reflexiv: sich gewöhnen (an + Akkusativ)",
+        "example_de": "Ich gewöhne mich an das Wetter.",
+        "example_en": "I am getting used to the weather."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er gewöhnt sich an die Stadt.",
+        "en": "He is getting used to the city."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie gewöhnte sich schnell daran.",
+        "en": "She got used to it quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns daran gewöhnt.",
+        "en": "We got used to it."
+      }
+    ]
+  },
+  {
+    "lemma": "verfahren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1010,
+    "verb": {
+      "aux": "haben",
+      "du": "verfährst",
+      "er": "verfährt",
+      "praeteritum": "verfuhr",
+      "partizip2": "verfahren"
+    },
+    "senses": [
+      {
+        "en": "to get lost (while driving)",
+        "note": "reflexiv: sich verfahren",
+        "example_de": "Wir verfahren uns oft auf Reisen.",
+        "example_en": "We often get lost while traveling."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er verfährt sich auf der Autobahn.",
+        "en": "He gets lost on the highway."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie verfuhr sich in der Nacht.",
+        "en": "She got lost at night."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns verfahren.",
+        "en": "We got lost (driving)."
+      }
+    ]
+  },
+  {
+    "lemma": "hinsetzen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1040,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "hin"
+    },
+    "senses": [
+      {
+        "en": "to sit down",
+        "note": "reflexiv, trennbar: sich hinsetzen",
+        "example_de": "Ich setze mich auf den Stuhl.",
+        "example_en": "I sit down on the chair."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er setzt sich schnell hin.",
+        "en": "He sits down quickly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie setzte sich müde hin.",
+        "en": "She sat down tiredly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich hingesetzt.",
+        "en": "I sat down."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Setz dich bitte hin!",
+        "en": "Please sit down!"
+      }
+    ]
+  },
+  {
+    "lemma": "hinlegen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "hin"
+    },
+    "senses": [
+      {
+        "en": "to lie down",
+        "note": "reflexiv, trennbar: sich hinlegen",
+        "example_de": "Ich lege mich jetzt hin.",
+        "example_en": "I am lying down now."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er legt sich früh hin.",
+        "en": "He lies down early."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie legte sich sofort hin.",
+        "en": "She lay down immediately."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns kurz hingelegt.",
+        "en": "We lay down briefly."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Leg dich einfach hin!",
+        "en": "Just lie down!"
+      }
+    ]
+  },
+  {
+    "lemma": "wundern",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1060,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to be surprised (about)",
+        "note": "reflexiv: sich wundern (über + Akkusativ)",
+        "example_de": "Ich wundere mich über nichts mehr.",
+        "example_en": "I am no longer surprised by anything."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er wundert sich über den Preis.",
+        "en": "He is surprised by the price."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie wunderte sich über die Antwort.",
+        "en": "She was surprised by the answer."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns sehr gewundert.",
+        "en": "We were very surprised."
+      }
+    ]
+  },
+  {
+    "lemma": "schämen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1070,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to be ashamed",
+        "note": "reflexiv: sich schämen",
+        "example_de": "Ich schäme mich für den Fehler.",
+        "example_en": "I am ashamed of the mistake."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schämt sich für nichts.",
+        "en": "He is ashamed of nothing."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schämte sich sehr.",
+        "en": "She was very ashamed."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns geschämt.",
+        "en": "We were ashamed."
+      }
+    ]
+  },
+  {
+    "lemma": "engagieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1080,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to get involved (in), to commit oneself (to)",
+        "note": "reflexiv: sich engagieren (für + Akkusativ)",
+        "example_de": "Ich engagiere mich für die Umwelt.",
+        "example_en": "I am committed to the environment."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er engagiert sich im Verein.",
+        "en": "He is involved in the club."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie engagierte sich für Kinder.",
+        "en": "She was involved for children."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns dafür engagiert.",
+        "en": "We got involved in that."
+      }
+    ]
+  },
+  {
+    "lemma": "absagen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1090,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to cancel, to call off",
+        "note": "trennbar: ab-",
+        "example_de": "Ich sage den Termin ab.",
+        "example_en": "I am cancelling the appointment."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er sagt die Party ab.",
+        "en": "He cancels the party."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie sagte das Treffen ab.",
+        "en": "She cancelled the meeting."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Termin abgesagt.",
+        "en": "We cancelled the appointment."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Sag bitte rechtzeitig ab!",
+        "en": "Please cancel in time!"
+      }
+    ]
+  },
+  {
+    "lemma": "zusagen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zu"
+    },
+    "senses": [
+      {
+        "en": "to accept, to agree (to an invitation)",
+        "note": "trennbar: zu-",
+        "example_de": "Ich sage der Einladung zu.",
+        "example_en": "I accept the invitation."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er sagt sofort zu.",
+        "en": "He agrees right away."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie sagte dem Plan zu.",
+        "en": "She agreed to the plan."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben schnell zugesagt.",
+        "en": "We agreed quickly."
+      }
+    ]
+  },
+  {
+    "lemma": "vorlesen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1110,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "vor",
+      "du": "liest",
+      "er": "liest",
+      "praeteritum": "las",
+      "partizip2": "vorgelesen"
+    },
+    "senses": [
+      {
+        "en": "to read aloud (to someone)",
+        "note": "trennbar: vor-; + Dativ",
+        "example_de": "Ich lese dem Kind ein Buch vor.",
+        "example_en": "I read a book to the child."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie liest den Schülern vor.",
+        "en": "She reads aloud to the students."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er las die Geschichte vor.",
+        "en": "He read the story aloud."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Gedicht vorgelesen.",
+        "en": "We read the poem aloud."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Lies mir bitte etwas vor!",
+        "en": "Please read something to me!"
+      }
+    ]
+  },
+  {
+    "lemma": "vorziehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1120,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "vor",
+      "praeteritum": "zog",
+      "partizip2": "vorgezogen"
+    },
+    "senses": [
+      {
+        "en": "to prefer",
+        "note": "trennbar: vor-",
+        "example_de": "Ich ziehe Tee dem Kaffee vor.",
+        "example_en": "I prefer tea to coffee."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er zieht den Zug dem Auto vor.",
+        "en": "He prefers the train to the car."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie zog die Ruhe vor.",
+        "en": "She preferred the quiet."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Haus vorgezogen.",
+        "en": "We preferred the house."
+      }
+    ]
+  },
+  {
+    "lemma": "anhalten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1130,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "du": "hältst",
+      "er": "hält",
+      "praeteritum": "hielt",
+      "partizip2": "angehalten"
+    },
+    "senses": [
+      {
+        "en": "to stop",
+        "note": "trennbar: an-",
+        "example_de": "Der Bus hält an der Ampel an.",
+        "example_en": "The bus stops at the traffic light."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er hält vor dem Haus an.",
+        "en": "He stops in front of the house."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie hielt kurz an.",
+        "en": "She stopped briefly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben sofort angehalten.",
+        "en": "We stopped immediately."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Halt bitte hier an!",
+        "en": "Please stop here!"
+      }
+    ]
+  },
+  {
+    "lemma": "weggehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1140,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "weg",
+      "praeteritum": "ging",
+      "partizip2": "weggegangen"
+    },
+    "senses": [
+      {
+        "en": "to leave, to go away",
+        "note": "trennbar: weg-",
+        "example_de": "Ich gehe jetzt schnell weg.",
+        "example_en": "I am leaving quickly now."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er geht früh von zu Hause weg.",
+        "en": "He leaves home early."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie ging ohne Wort weg.",
+        "en": "She left without a word."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind schon weggegangen.",
+        "en": "We already left."
+      }
+    ]
+  },
+  {
+    "lemma": "wegfahren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1150,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "weg",
+      "du": "fährst",
+      "er": "fährt",
+      "praeteritum": "fuhr",
+      "partizip2": "weggefahren"
+    },
+    "senses": [
+      {
+        "en": "to drive away, to leave (by vehicle)",
+        "note": "trennbar: weg-",
+        "example_de": "Wir fahren morgen früh weg.",
+        "example_en": "We are driving away tomorrow morning."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fährt am Montag weg.",
+        "en": "He is driving away on Monday."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie fuhr sofort weg.",
+        "en": "She drove away immediately."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind gestern weggefahren.",
+        "en": "We drove away yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "wegwerfen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1160,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "weg",
+      "du": "wirfst",
+      "er": "wirft",
+      "praeteritum": "warf",
+      "partizip2": "weggeworfen"
+    },
+    "senses": [
+      {
+        "en": "to throw away",
+        "note": "trennbar: weg-",
+        "example_de": "Ich werfe den Müll weg.",
+        "example_en": "I throw away the trash."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er wirft die Zeitung weg.",
+        "en": "He throws away the newspaper."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie warf die Reste weg.",
+        "en": "She threw away the leftovers."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben alles weggeworfen.",
+        "en": "We threw everything away."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Wirf das bitte weg!",
+        "en": "Please throw that away!"
+      }
+    ]
+  },
+  {
+    "lemma": "zurückkommen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1170,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "zurück",
+      "du": "kommst",
+      "er": "kommt",
+      "praeteritum": "kam",
+      "partizip2": "zurückgekommen"
+    },
+    "senses": [
+      {
+        "en": "to come back, to return",
+        "note": "trennbar: zurück-",
+        "example_de": "Ich komme bald zurück.",
+        "example_en": "I am coming back soon."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er kommt am Abend zurück.",
+        "en": "He comes back in the evening."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie kam spät zurück.",
+        "en": "She came back late."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind gestern zurückgekommen.",
+        "en": "We came back yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "zurückrufen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1190,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zurück",
+      "praeteritum": "rief",
+      "partizip2": "zurückgerufen"
+    },
+    "senses": [
+      {
+        "en": "to call back",
+        "note": "trennbar: zurück-",
+        "example_de": "Ich rufe dich später zurück.",
+        "example_en": "I will call you back later."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er ruft seinen Chef zurück.",
+        "en": "He calls his boss back."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie rief mich sofort zurück.",
+        "en": "She called me back immediately."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben ihn zurückgerufen.",
+        "en": "We called him back."
+      }
+    ]
+  },
+  {
+    "lemma": "zurückfahren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "zurück",
+      "du": "fährst",
+      "er": "fährt",
+      "praeteritum": "fuhr",
+      "partizip2": "zurückgefahren"
+    },
+    "senses": [
+      {
+        "en": "to drive back",
+        "note": "trennbar: zurück-",
+        "example_de": "Wir fahren am Sonntag zurück.",
+        "example_en": "We are driving back on Sunday."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fährt nach Hause zurück.",
+        "en": "He drives back home."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie fuhr allein zurück.",
+        "en": "She drove back alone."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind spät zurückgefahren.",
+        "en": "We drove back late."
+      }
+    ]
+  },
+  {
+    "lemma": "zurückbringen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1210,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zurück",
+      "praeteritum": "brachte",
+      "partizip2": "zurückgebracht"
+    },
+    "senses": [
+      {
+        "en": "to bring back, to return (something)",
+        "note": "trennbar: zurück-",
+        "example_de": "Ich bringe das Auto zurück.",
+        "example_en": "I am bringing the car back."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er bringt die Bücher zurück.",
+        "en": "He brings the books back."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie brachte den Koffer zurück.",
+        "en": "She brought the suitcase back."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben alles zurückgebracht.",
+        "en": "We brought everything back."
+      }
+    ]
+  },
+  {
+    "lemma": "weitermachen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1230,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "weiter"
+    },
+    "senses": [
+      {
+        "en": "to continue, to keep going",
+        "note": "trennbar: weiter-",
+        "example_de": "Wir machen morgen weiter.",
+        "example_en": "We will continue tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er macht mit der Arbeit weiter.",
+        "en": "He continues with the work."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie machte trotzdem weiter.",
+        "en": "She continued anyway."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben einfach weitergemacht.",
+        "en": "We just kept going."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Mach bitte weiter!",
+        "en": "Please continue!"
+      }
+    ]
+  },
+  {
+    "lemma": "weitergehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1240,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "weiter",
+      "praeteritum": "ging",
+      "partizip2": "weitergegangen"
+    },
+    "senses": [
+      {
+        "en": "to go on, to continue (walking, happening)",
+        "note": "trennbar: weiter-",
+        "example_de": "Wir gehen jetzt weiter.",
+        "example_en": "We are moving on now."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Weg geht geradeaus weiter.",
+        "en": "The path continues straight ahead."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Es ging langsam weiter.",
+        "en": "It continued slowly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind zusammen weitergegangen.",
+        "en": "We continued walking together."
+      }
+    ]
+  },
+  {
+    "lemma": "durchfallen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1250,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "durch",
+      "du": "fällst",
+      "er": "fällt",
+      "praeteritum": "fiel",
+      "partizip2": "durchgefallen"
+    },
+    "senses": [
+      {
+        "en": "to fail (an exam)",
+        "note": "trennbar: durch-",
+        "example_de": "Ich falle bei der Prüfung durch.",
+        "example_en": "I am failing the exam."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fällt oft in Mathe durch.",
+        "en": "He often fails in math."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie fiel bei der Prüfung durch.",
+        "en": "She failed the exam."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind leider durchgefallen.",
+        "en": "We unfortunately failed."
+      }
+    ]
+  },
+  {
+    "lemma": "mitteilen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1260,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "mit"
+    },
+    "senses": [
+      {
+        "en": "to inform, to tell (someone something)",
+        "note": "trennbar: mit-; + Dativ",
+        "example_de": "Ich teile dir die Nachricht mit.",
+        "example_en": "I am telling you the news."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er teilt uns den Termin mit.",
+        "en": "He tells us the appointment."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie teilte mir alles mit.",
+        "en": "She told me everything."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben es ihm mitgeteilt.",
+        "en": "We told him."
+      }
+    ]
+  },
+  {
+    "lemma": "vorbeikommen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1270,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "vorbei",
+      "du": "kommst",
+      "er": "kommt",
+      "praeteritum": "kam",
+      "partizip2": "vorbeigekommen"
+    },
+    "senses": [
+      {
+        "en": "to come by, to visit briefly",
+        "note": "trennbar: vorbei-",
+        "example_de": "Ich komme heute Abend vorbei.",
+        "example_en": "I am coming by this evening."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er kommt morgen vorbei.",
+        "en": "He is coming by tomorrow."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie kam kurz vorbei.",
+        "en": "She came by briefly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind gestern vorbeigekommen.",
+        "en": "We came by yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "vorbeigehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1280,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "vorbei",
+      "praeteritum": "ging",
+      "partizip2": "vorbeigegangen"
+    },
+    "senses": [
+      {
+        "en": "to go past, to pass by",
+        "note": "trennbar: vorbei-",
+        "example_de": "Ich gehe am Park vorbei.",
+        "example_en": "I walk past the park."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er geht an der Schule vorbei.",
+        "en": "He walks past the school."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie ging schnell vorbei.",
+        "en": "She walked past quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind daran vorbeigegangen.",
+        "en": "We walked past it."
+      }
+    ]
+  },
+  {
+    "lemma": "nachschauen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1290,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "nach"
+    },
+    "senses": [
+      {
+        "en": "to check, to have a look",
+        "note": "trennbar: nach-",
+        "example_de": "Ich schaue kurz im Kalender nach.",
+        "example_en": "I quickly check the calendar."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schaut im Internet nach.",
+        "en": "He looks it up online."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schaute im Buch nach.",
+        "en": "She checked in the book."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben im Plan nachgeschaut.",
+        "en": "We checked the schedule."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Schau bitte kurz nach!",
+        "en": "Please have a quick look!"
+      }
+    ]
+  },
+  {
+    "lemma": "nachfragen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "nach"
+    },
+    "senses": [
+      {
+        "en": "to ask again, to inquire",
+        "note": "trennbar: nach-",
+        "example_de": "Ich frage morgen noch mal nach.",
+        "example_en": "I will ask again tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fragt bei der Bank nach.",
+        "en": "He inquires at the bank."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie fragte höflich nach.",
+        "en": "She politely asked again."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben nochmal nachgefragt.",
+        "en": "We asked again."
+      }
+    ]
+  },
+  {
+    "lemma": "aufgeben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1310,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf",
+      "du": "gibst",
+      "er": "gibt",
+      "praeteritum": "gab",
+      "partizip2": "aufgegeben"
+    },
+    "senses": [
+      {
+        "en": "to give up",
+        "note": "trennbar: auf-",
+        "example_de": "Ich gebe nicht so schnell auf.",
+        "example_en": "I don't give up so quickly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er gibt bei Problemen nicht auf.",
+        "en": "He doesn't give up during problems."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie gab das Rauchen auf.",
+        "en": "She gave up smoking."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben nie aufgegeben.",
+        "en": "We never gave up."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Gib jetzt nicht auf!",
+        "en": "Don't give up now!"
+      }
+    ]
+  },
+  {
+    "lemma": "ausgehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1320,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "aus",
+      "praeteritum": "ging",
+      "partizip2": "ausgegangen"
+    },
+    "senses": [
+      {
+        "en": "to go out (socially)",
+        "note": "trennbar: aus-",
+        "example_de": "Wir gehen am Freitag aus.",
+        "example_en": "We are going out on Friday."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er geht gern mit Freunden aus.",
+        "en": "He likes going out with friends."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie ging selten abends aus.",
+        "en": "She rarely went out at night."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind gestern ausgegangen.",
+        "en": "We went out yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "anfassen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1330,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to touch",
+        "note": "trennbar: an-",
+        "example_de": "Bitte nicht die Bilder anfassen!",
+        "example_en": "Please don't touch the pictures!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fasst die Blumen nicht an.",
+        "en": "He doesn't touch the flowers."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie fasste das Baby vorsichtig an.",
+        "en": "She touched the baby carefully."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben nichts angefasst.",
+        "en": "We didn't touch anything."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Fass das bitte nicht an!",
+        "en": "Please don't touch that!"
+      }
+    ]
+  },
+  {
+    "lemma": "anmachen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1340,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to turn on (a light, a device)",
+        "note": "trennbar: an-",
+        "example_de": "Ich mache das Licht an.",
+        "example_en": "I am turning on the light."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er macht den Fernseher an.",
+        "en": "He turns on the TV."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie machte die Heizung an.",
+        "en": "She turned on the heating."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Lampe angemacht.",
+        "en": "We turned on the lamp."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Mach bitte das Radio an!",
+        "en": "Please turn on the radio!"
+      }
+    ]
+  },
+  {
+    "lemma": "einziehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1350,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "ein",
+      "praeteritum": "zog",
+      "partizip2": "eingezogen"
+    },
+    "senses": [
+      {
+        "en": "to move in (to a home)",
+        "note": "trennbar: ein-",
+        "example_de": "Wir ziehen nächste Woche ein.",
+        "example_en": "We are moving in next week."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er zieht in die neue Wohnung ein.",
+        "en": "He is moving into the new apartment."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie zog im Mai ein.",
+        "en": "She moved in in May."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind letzten Monat eingezogen.",
+        "en": "We moved in last month."
+      }
+    ]
+  },
+  {
+    "lemma": "auspacken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1360,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to unpack",
+        "note": "trennbar: aus-",
+        "example_de": "Ich packe den Koffer aus.",
+        "example_en": "I am unpacking the suitcase."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er packt die Geschenke aus.",
+        "en": "He unpacks the presents."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie packte die Tasche aus.",
+        "en": "She unpacked the bag."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben schon alles ausgepackt.",
+        "en": "We already unpacked everything."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Pack bitte den Koffer aus!",
+        "en": "Please unpack the suitcase!"
+      }
+    ]
+  },
+  {
+    "lemma": "aufwachsen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1380,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "auf",
+      "du": "wächst",
+      "er": "wächst",
+      "praeteritum": "wuchs",
+      "partizip2": "aufgewachsen"
+    },
+    "senses": [
+      {
+        "en": "to grow up",
+        "note": "trennbar: auf-",
+        "example_de": "Er wächst in der Stadt auf.",
+        "example_en": "He is growing up in the city."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie wächst bei den Großeltern auf.",
+        "en": "She is growing up with her grandparents."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Ich wuchs auf dem Land auf.",
+        "en": "I grew up in the countryside."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind zusammen aufgewachsen.",
+        "en": "We grew up together."
+      }
+    ]
+  },
+  {
+    "lemma": "zuhören",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1390,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zu"
+    },
+    "senses": [
+      {
+        "en": "to listen (to someone)",
+        "note": "trennbar: zu-; + Dativ",
+        "example_de": "Ich höre dir gern zu.",
+        "example_en": "I like listening to you."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er hört der Lehrerin zu.",
+        "en": "He listens to the teacher."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie hörte aufmerksam zu.",
+        "en": "She listened attentively."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben gut zugehört.",
+        "en": "We listened well."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Hör mir bitte zu!",
+        "en": "Please listen to me!"
+      }
+    ]
+  },
+  {
+    "lemma": "zusehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1400,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zu",
+      "du": "siehst",
+      "er": "sieht",
+      "praeteritum": "sah",
+      "partizip2": "zugesehen"
+    },
+    "senses": [
+      {
+        "en": "to watch, to look on",
+        "note": "trennbar: zu-; + Dativ",
+        "example_de": "Ich sehe den Kindern zu.",
+        "example_en": "I am watching the children."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er sieht dem Spiel zu.",
+        "en": "He watches the game."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie sah der Show zu.",
+        "en": "She watched the show."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben lange zugesehen.",
+        "en": "We watched for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "vorhaben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1410,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "vor",
+      "praesens": {
+        "ich": "habe",
+        "du": "hast",
+        "er": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie": "haben"
+      },
+      "praeteritum": "hatte",
+      "partizip2": "vorgehabt"
+    },
+    "senses": [
+      {
+        "en": "to plan, to intend (to do)",
+        "note": "trennbar: vor-",
+        "example_de": "Was hast du heute vor?",
+        "example_en": "What do you have planned today?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er hat viel am Wochenende vor.",
+        "en": "He has a lot planned for the weekend."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie hatte eine Reise vor.",
+        "en": "She had planned a trip."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben nichts Besonderes vorgehabt.",
+        "en": "We hadn't planned anything special."
+      }
+    ]
+  },
+  {
+    "lemma": "herunterladen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1450,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "herunter",
+      "du": "lädst",
+      "er": "lädt",
+      "praeteritum": "lud",
+      "partizip2": "heruntergeladen"
+    },
+    "senses": [
+      {
+        "en": "to download",
+        "note": "trennbar: herunter-",
+        "example_de": "Ich lade die App herunter.",
+        "example_en": "I am downloading the app."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er lädt das Foto herunter.",
+        "en": "He downloads the photo."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie lud die Musik herunter.",
+        "en": "She downloaded the music."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Programm heruntergeladen.",
+        "en": "We downloaded the program."
+      }
+    ]
+  },
+  {
+    "lemma": "aufladen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1460,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf",
+      "du": "lädst",
+      "er": "lädt",
+      "praeteritum": "lud",
+      "partizip2": "aufgeladen"
+    },
+    "senses": [
+      {
+        "en": "to charge (a phone, a battery)",
+        "note": "trennbar: auf-",
+        "example_de": "Ich lade mein Handy auf.",
+        "example_en": "I am charging my phone."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er lädt den Akku auf.",
+        "en": "He charges the battery."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie lud das Handy über Nacht auf.",
+        "en": "She charged the phone overnight."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Handy aufgeladen.",
+        "en": "We charged the phone."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Lad bitte dein Handy auf!",
+        "en": "Please charge your phone!"
+      }
+    ]
+  },
+  {
+    "lemma": "vermissen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1490,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "vermisst"
+    },
+    "senses": [
+      {
+        "en": "to miss (someone)",
+        "example_de": "Ich vermisse meine Familie sehr.",
+        "example_en": "I miss my family a lot."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er vermisst seine alten Freunde.",
+        "en": "He misses his old friends."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie vermisste ihre Heimat.",
+        "en": "She missed her homeland."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben dich sehr vermisst.",
+        "en": "We missed you a lot."
+      }
+    ]
+  },
+  {
+    "lemma": "erwarten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1500,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erwartet"
+    },
+    "senses": [
+      {
+        "en": "to expect",
+        "example_de": "Ich erwarte einen Anruf.",
+        "example_en": "I am expecting a call."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er erwartet Besuch am Abend.",
+        "en": "He expects visitors in the evening."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie erwartete eine Antwort.",
+        "en": "She expected an answer."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben viel erwartet.",
+        "en": "We expected a lot."
+      }
+    ]
+  },
+  {
+    "lemma": "erleben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1510,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erlebt"
+    },
+    "senses": [
+      {
+        "en": "to experience",
+        "example_de": "Ich erlebe gern neue Dinge.",
+        "example_en": "I like experiencing new things."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er erlebt viel auf Reisen.",
+        "en": "He experiences a lot while traveling."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie erlebte einen schönen Tag.",
+        "en": "She experienced a nice day."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben viel Schönes erlebt.",
+        "en": "We experienced a lot of nice things."
+      }
+    ]
+  },
+  {
+    "lemma": "ergänzen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1520,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "ergänzt"
+    },
+    "senses": [
+      {
+        "en": "to complete, to add (to something)",
+        "example_de": "Bitte ergänzen Sie den Satz.",
+        "example_en": "Please complete the sentence."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er ergänzt die Liste.",
+        "en": "He completes the list."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie ergänzte die Antwort.",
+        "en": "She added to the answer."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Text ergänzt.",
+        "en": "We completed the text."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Ergänze bitte die Tabelle!",
+        "en": "Please complete the table!"
+      }
+    ]
+  },
+  {
+    "lemma": "entdecken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1530,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "entdeckt"
+    },
+    "senses": [
+      {
+        "en": "to discover",
+        "example_de": "Ich entdecke gern neue Orte.",
+        "example_en": "I like discovering new places."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er entdeckt einen Fehler.",
+        "en": "He discovers a mistake."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie entdeckte ein neues Café.",
+        "en": "She discovered a new café."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben viel entdeckt.",
+        "en": "We discovered a lot."
+      }
+    ]
+  },
+  {
+    "lemma": "klingen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1550,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "klang",
+      "partizip2": "geklungen"
+    },
+    "senses": [
+      {
+        "en": "to sound",
+        "example_de": "Das klingt sehr gut.",
+        "example_en": "That sounds very good."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Musik klingt schön.",
+        "en": "The music sounds beautiful."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Es klang wie ein Witz.",
+        "en": "It sounded like a joke."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das hat komisch geklungen.",
+        "en": "That sounded strange."
+      }
+    ]
+  },
+  {
+    "lemma": "scheinen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1560,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "schien",
+      "partizip2": "geschienen"
+    },
+    "senses": [
+      {
+        "en": "to shine; to seem",
+        "note": "die Sonne scheint; es scheint, dass …",
+        "example_de": "Die Sonne scheint heute stark.",
+        "example_en": "The sun is shining strongly today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er scheint müde zu sein.",
+        "en": "He seems to be tired."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Sonne schien den ganzen Tag.",
+        "en": "The sun shone all day."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Sonne hat geschienen.",
+        "en": "The sun shone."
+      }
+    ]
+  },
+  {
+    "lemma": "reichen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1570,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to be enough, to suffice",
+        "note": "Das reicht.",
+        "example_de": "Das Geld reicht nicht mehr.",
+        "example_en": "The money is no longer enough."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Zwei Stunden reichen völlig.",
+        "en": "Two hours are completely enough."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Das Geld reichte kaum.",
+        "en": "The money barely sufficed."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das hat leider nicht gereicht.",
+        "en": "That unfortunately wasn't enough."
+      }
+    ]
+  },
+  {
+    "lemma": "achten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1580,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to pay attention (to), to watch out (for)",
+        "note": "achten auf + Akkusativ",
+        "example_de": "Ich achte auf meine Gesundheit.",
+        "example_en": "I pay attention to my health."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er achtet auf die Zeit.",
+        "en": "He pays attention to the time."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie achtete auf jedes Wort.",
+        "en": "She paid attention to every word."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben darauf geachtet.",
+        "en": "We paid attention to that."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Achte bitte auf die Kinder!",
+        "en": "Please watch the children!"
+      }
+    ]
+  },
+  {
+    "lemma": "sorgen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1590,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to take care (of), to provide (for)",
+        "note": "sorgen für + Akkusativ",
+        "example_de": "Ich sorge für meine Familie.",
+        "example_en": "I provide for my family."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er sorgt für gutes Essen.",
+        "en": "He provides good food."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie sorgte für Ruhe im Haus.",
+        "en": "She ensured quiet in the house."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben für alles gesorgt.",
+        "en": "We took care of everything."
+      }
+    ]
+  },
+  {
+    "lemma": "schlagen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1600,
+    "verb": {
+      "aux": "haben",
+      "du": "schlägst",
+      "er": "schlägt",
+      "praeteritum": "schlug",
+      "partizip2": "geschlagen"
+    },
+    "senses": [
+      {
+        "en": "to hit, to beat",
+        "example_de": "Das Herz schlägt sehr schnell.",
+        "example_en": "The heart beats very fast."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schlägt den Ball weit.",
+        "en": "He hits the ball far."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Ihr Herz schlug schnell.",
+        "en": "Her heart beat fast."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat kräftig geschlagen.",
+        "en": "He hit hard."
+      }
+    ]
+  },
+  {
+    "lemma": "werfen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1610,
+    "verb": {
+      "aux": "haben",
+      "du": "wirfst",
+      "er": "wirft",
+      "praeteritum": "warf",
+      "partizip2": "geworfen"
+    },
+    "senses": [
+      {
+        "en": "to throw",
+        "example_de": "Er wirft den Ball ins Tor.",
+        "example_en": "He throws the ball into the goal."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie wirft den Schlüssel herunter.",
+        "en": "She throws down the key."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er warf den Ball hoch.",
+        "en": "He threw the ball high."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Ball geworfen.",
+        "en": "We threw the ball."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Wirf mir bitte den Ball!",
+        "en": "Please throw me the ball!"
+      }
+    ]
+  },
+  {
+    "lemma": "schieben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1650,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "schob",
+      "partizip2": "geschoben"
+    },
+    "senses": [
+      {
+        "en": "to push",
+        "example_de": "Ich schiebe den Wagen langsam.",
+        "example_en": "I am pushing the cart slowly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schiebt das Fahrrad nach Hause.",
+        "en": "He pushes the bike home."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie schob den Kinderwagen.",
+        "en": "She pushed the stroller."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Auto geschoben.",
+        "en": "We pushed the car."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Schieb den Wagen bitte langsam!",
+        "en": "Push the cart slowly, please!"
+      }
+    ]
+  },
+  {
+    "lemma": "ziehen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1660,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "zog",
+      "partizip2": "gezogen"
+    },
+    "senses": [
+      {
+        "en": "to pull",
+        "example_de": "Ich ziehe kräftig an der Tür.",
+        "example_en": "I pull hard on the door."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er zieht das Seil nach oben.",
+        "en": "He pulls the rope up."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie zog kräftig am Seil.",
+        "en": "She pulled hard on the rope."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben am Seil gezogen.",
+        "en": "We pulled on the rope."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Zieh bitte an der Tür!",
+        "en": "Please pull the door!"
+      }
+    ]
+  },
+  {
+    "lemma": "stornieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1670,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to cancel (a booking, a reservation)",
+        "example_de": "Ich storniere meine Reservierung.",
+        "example_en": "I am cancelling my reservation."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er storniert den Flug.",
+        "en": "He cancels the flight."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie stornierte das Zimmer.",
+        "en": "She cancelled the room."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Buchung storniert.",
+        "en": "We cancelled the booking."
+      }
+    ]
+  },
+  {
+    "lemma": "messen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1680,
+    "verb": {
+      "aux": "haben",
+      "du": "misst",
+      "er": "misst",
+      "praeteritum": "maß",
+      "partizip2": "gemessen"
+    },
+    "senses": [
+      {
+        "en": "to measure",
+        "example_de": "Ich messe das Fieber.",
+        "example_en": "I am measuring the fever."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er misst die Temperatur.",
+        "en": "He measures the temperature."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie maß seinen Puls.",
+        "en": "She measured his pulse."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Fieber gemessen.",
+        "en": "We measured the fever."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Miss bitte das Fieber!",
+        "en": "Please measure the fever!"
+      }
+    ]
+  },
+  {
+    "lemma": "schneien",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1690,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to snow",
+        "note": "unpersönlich: es schneit",
+        "example_de": "Es schneit heute den ganzen Tag.",
+        "example_en": "It is snowing all day today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Im Winter schneit es oft.",
+        "en": "It often snows in winter."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Gestern schneite es stark.",
+        "en": "Yesterday it snowed heavily."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Es hat die ganze Nacht geschneit.",
+        "en": "It snowed all night."
+      }
+    ]
+  },
+  {
+    "lemma": "bremsen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1740,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to brake",
+        "example_de": "Der Fahrer bremst plötzlich.",
+        "example_en": "The driver brakes suddenly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er bremst vor der Ampel.",
+        "en": "He brakes before the traffic light."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie bremste zu spät.",
+        "en": "She braked too late."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben rechtzeitig gebremst.",
+        "en": "We braked in time."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1373 @@
+[
+  {
+    "lemma": "Gehalt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 950,
+    "noun": { "gender": "n", "plural": "Gehälter" },
+    "senses": [
+      {
+        "en": "salary, pay",
+        "example_de": "Mein Gehalt kommt jeden Monat.",
+        "example_en": "My salary arrives every month."
+      }
+    ]
+  },
+  {
+    "lemma": "Überstunde",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Überstunden" },
+    "senses": [
+      {
+        "en": "overtime hour",
+        "example_de": "Er macht heute viele Überstunden.",
+        "example_en": "He is working a lot of overtime today."
+      }
+    ]
+  },
+  {
+    "lemma": "Kündigung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "f", "plural": "Kündigungen" },
+    "senses": [
+      {
+        "en": "notice of termination, resignation",
+        "example_de": "Sie hat die Kündigung bekommen.",
+        "example_en": "She received the notice of termination."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorstellungsgespräch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "n", "plural": "Vorstellungsgespräche" },
+    "senses": [
+      {
+        "en": "job interview",
+        "example_de": "Ich habe morgen ein Vorstellungsgespräch.",
+        "example_en": "I have a job interview tomorrow."
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitgeber",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": "Arbeitgeber" },
+    "senses": [
+      {
+        "en": "employer",
+        "example_de": "Mein Arbeitgeber ist sehr nett.",
+        "example_en": "My employer is very nice."
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitnehmer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": "Arbeitnehmer" },
+    "senses": [
+      {
+        "en": "employee",
+        "example_de": "Viele Arbeitnehmer arbeiten heute zu Hause.",
+        "example_en": "Many employees work from home today."
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitsamt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "n", "plural": "Arbeitsämter" },
+    "senses": [
+      {
+        "en": "employment office",
+        "example_de": "Er geht zum Arbeitsamt.",
+        "example_en": "He is going to the employment office."
+      }
+    ]
+  },
+  {
+    "lemma": "Abteilung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "f", "plural": "Abteilungen" },
+    "senses": [
+      {
+        "en": "department",
+        "example_de": "Sie arbeitet in einer neuen Abteilung.",
+        "example_en": "She works in a new department."
+      }
+    ]
+  },
+  {
+    "lemma": "Besprechung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": "Besprechungen" },
+    "senses": [
+      {
+        "en": "meeting",
+        "example_de": "Die Besprechung beginnt um neun Uhr.",
+        "example_en": "The meeting starts at nine o'clock."
+      }
+    ]
+  },
+  {
+    "lemma": "Konferenz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "f", "plural": "Konferenzen" },
+    "senses": [
+      {
+        "en": "conference",
+        "example_de": "Der Chef ist auf einer Konferenz.",
+        "example_en": "The boss is at a conference."
+      }
+    ]
+  },
+  {
+    "lemma": "Mitarbeiter",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 950,
+    "noun": { "gender": "m", "plural": "Mitarbeiter" },
+    "senses": [
+      {
+        "en": "employee, staff member",
+        "example_de": "Die Firma hat hundert Mitarbeiter.",
+        "example_en": "The company has one hundred employees."
+      }
+    ]
+  },
+  {
+    "lemma": "Büroklammer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1700,
+    "noun": { "gender": "f", "plural": "Büroklammern" },
+    "senses": [
+      {
+        "en": "paper clip",
+        "example_de": "Hast du eine Büroklammer für mich?",
+        "example_en": "Do you have a paper clip for me?"
+      }
+    ]
+  },
+  {
+    "lemma": "Schreibtisch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": "Schreibtische" },
+    "senses": [
+      {
+        "en": "desk",
+        "example_de": "Mein Schreibtisch ist sehr voll.",
+        "example_en": "My desk is very full."
+      }
+    ]
+  },
+  {
+    "lemma": "Kopierer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "m", "plural": "Kopierer" },
+    "senses": [
+      {
+        "en": "photocopier",
+        "example_de": "Der Kopierer im Büro ist kaputt.",
+        "example_en": "The photocopier in the office is broken."
+      }
+    ]
+  },
+  {
+    "lemma": "Kollegin",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "f", "plural": "Kolleginnen" },
+    "senses": [
+      {
+        "en": "female colleague",
+        "example_de": "Meine Kollegin heißt Anna.",
+        "example_en": "My colleague is called Anna."
+      }
+    ]
+  },
+  {
+    "lemma": "Chefin",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": "Chefinnen" },
+    "senses": [
+      {
+        "en": "female boss",
+        "example_de": "Unsere Chefin kommt aus Berlin.",
+        "example_en": "Our boss is from Berlin."
+      }
+    ]
+  },
+  {
+    "lemma": "Teilzeit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "part-time (work)",
+        "example_de": "Sie arbeitet nur Teilzeit.",
+        "example_en": "She only works part-time."
+      }
+    ]
+  },
+  {
+    "lemma": "Schicht",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Schichten" },
+    "senses": [
+      {
+        "en": "shift (work)",
+        "example_de": "Meine Schicht beginnt um sechs.",
+        "example_en": "My shift starts at six."
+      }
+    ]
+  },
+  {
+    "lemma": "Feierabend",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "end of the workday",
+        "note": "Feierabend haben/machen = to finish work",
+        "example_de": "Endlich ist Feierabend!",
+        "example_en": "Finally, the workday is over!"
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitsvertrag",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "m", "plural": "Arbeitsverträge" },
+    "senses": [
+      {
+        "en": "employment contract",
+        "example_de": "Ich unterschreibe den Arbeitsvertrag morgen.",
+        "example_en": "I am signing the employment contract tomorrow."
+      }
+    ]
+  },
+  {
+    "lemma": "Homeoffice",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "home office, remote work",
+        "example_de": "Ich arbeite heute im Homeoffice.",
+        "example_en": "I am working from home today."
+      }
+    ]
+  },
+  {
+    "lemma": "Aushilfe",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "f", "plural": "Aushilfen" },
+    "senses": [
+      {
+        "en": "temporary worker, helper",
+        "example_de": "Wir suchen eine Aushilfe für die Kasse.",
+        "example_en": "We are looking for a temp for the register."
+      }
+    ]
+  },
+  {
+    "lemma": "Nebenjob",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": "Nebenjobs" },
+    "senses": [
+      {
+        "en": "side job",
+        "example_de": "Er hat einen Nebenjob im Café.",
+        "example_en": "He has a side job at the café."
+      }
+    ]
+  },
+  {
+    "lemma": "Gehaltserhöhung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "f", "plural": "Gehaltserhöhungen" },
+    "senses": [
+      {
+        "en": "pay raise",
+        "example_de": "Ich bitte um eine Gehaltserhöhung.",
+        "example_en": "I am asking for a pay raise."
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitszeugnis",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "n", "plural": "Arbeitszeugnisse" },
+    "senses": [
+      {
+        "en": "letter of reference (from an employer)",
+        "example_de": "Der Chef schreibt mir ein Arbeitszeugnis.",
+        "example_en": "The boss is writing me a reference letter."
+      }
+    ]
+  },
+  {
+    "lemma": "Probezeit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Probezeiten" },
+    "senses": [
+      {
+        "en": "probation period",
+        "example_de": "Die Probezeit dauert sechs Monate.",
+        "example_en": "The probation period lasts six months."
+      }
+    ]
+  },
+  {
+    "lemma": "Rabatt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": "Rabatte" },
+    "senses": [
+      {
+        "en": "discount",
+        "example_de": "Ich bekomme zehn Prozent Rabatt.",
+        "example_en": "I get ten percent discount."
+      }
+    ]
+  },
+  {
+    "lemma": "Umtausch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "exchange (of goods)",
+        "example_de": "Der Umtausch ist hier kostenlos.",
+        "example_en": "The exchange is free here."
+      }
+    ]
+  },
+  {
+    "lemma": "Kassenbon",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "m", "plural": "Kassenbons" },
+    "senses": [
+      {
+        "en": "receipt (from the till)",
+        "example_de": "Bitte heben Sie den Kassenbon auf.",
+        "example_en": "Please keep the receipt."
+      }
+    ]
+  },
+  {
+    "lemma": "Einkaufswagen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": "Einkaufswagen" },
+    "senses": [
+      {
+        "en": "shopping cart",
+        "example_de": "Der Einkaufswagen ist sehr voll.",
+        "example_en": "The shopping cart is very full."
+      }
+    ]
+  },
+  {
+    "lemma": "Einkaufskorb",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": "Einkaufskörbe" },
+    "senses": [
+      {
+        "en": "shopping basket",
+        "example_de": "Nimm bitte einen Einkaufskorb mit.",
+        "example_en": "Please take a shopping basket."
+      }
+    ]
+  },
+  {
+    "lemma": "Umkleidekabine",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "f", "plural": "Umkleidekabinen" },
+    "senses": [
+      {
+        "en": "fitting room",
+        "example_de": "Die Umkleidekabine ist frei.",
+        "example_en": "The fitting room is free."
+      }
+    ]
+  },
+  {
+    "lemma": "Kundendienst",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "customer service",
+        "example_de": "Der Kundendienst hilft Ihnen gern.",
+        "example_en": "Customer service is happy to help you."
+      }
+    ]
+  },
+  {
+    "lemma": "Lieferung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "f", "plural": "Lieferungen" },
+    "senses": [
+      {
+        "en": "delivery",
+        "example_de": "Die Lieferung kommt morgen früh.",
+        "example_en": "The delivery arrives tomorrow morning."
+      }
+    ]
+  },
+  {
+    "lemma": "Versand",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "shipping",
+        "example_de": "Der Versand kostet fünf Euro.",
+        "example_en": "Shipping costs five euros."
+      }
+    ]
+  },
+  {
+    "lemma": "Ware",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "f", "plural": "Waren" },
+    "senses": [
+      {
+        "en": "goods, merchandise",
+        "example_de": "Die Ware ist heute angekommen.",
+        "example_en": "The goods arrived today."
+      }
+    ]
+  },
+  {
+    "lemma": "Sonderangebot",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "n", "plural": "Sonderangebote" },
+    "senses": [
+      {
+        "en": "special offer",
+        "example_de": "Der Kaffee ist im Sonderangebot.",
+        "example_en": "The coffee is on special offer."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausverkauf",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "m", "plural": "Ausverkäufe" },
+    "senses": [
+      {
+        "en": "clearance sale",
+        "example_de": "Im Laden ist gerade Ausverkauf.",
+        "example_en": "There is a clearance sale in the shop right now."
+      }
+    ]
+  },
+  {
+    "lemma": "Gutschein",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": "Gutscheine" },
+    "senses": [
+      {
+        "en": "voucher, gift card",
+        "example_de": "Ich habe einen Gutschein für dich.",
+        "example_en": "I have a voucher for you."
+      }
+    ]
+  },
+  {
+    "lemma": "Kassierer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": "Kassierer" },
+    "senses": [
+      {
+        "en": "cashier",
+        "example_de": "Der Kassierer zählt das Geld.",
+        "example_en": "The cashier counts the money."
+      }
+    ]
+  },
+  {
+    "lemma": "Kassiererin",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Kassiererinnen" },
+    "senses": [
+      {
+        "en": "cashier (female)",
+        "example_de": "Die Kassiererin lächelt freundlich.",
+        "example_en": "The cashier smiles kindly."
+      }
+    ]
+  },
+  {
+    "lemma": "Filiale",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "f", "plural": "Filialen" },
+    "senses": [
+      {
+        "en": "branch (of a shop or bank)",
+        "example_de": "Diese Filiale schließt um acht.",
+        "example_en": "This branch closes at eight."
+      }
+    ]
+  },
+  {
+    "lemma": "Öffnungszeit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "f", "plural": "Öffnungszeiten" },
+    "senses": [
+      {
+        "en": "opening hours",
+        "note": "meist im Plural: die Öffnungszeiten",
+        "example_de": "Die Öffnungszeiten stehen an der Tür.",
+        "example_en": "The opening hours are on the door."
+      }
+    ]
+  },
+  {
+    "lemma": "Schaufenster",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "n", "plural": "Schaufenster" },
+    "senses": [
+      {
+        "en": "shop window",
+        "example_de": "Das Kleid liegt im Schaufenster.",
+        "example_en": "The dress is in the shop window."
+      }
+    ]
+  },
+  {
+    "lemma": "Preisschild",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "n", "plural": "Preisschilder" },
+    "senses": [
+      {
+        "en": "price tag",
+        "example_de": "Wo ist das Preisschild?",
+        "example_en": "Where is the price tag?"
+      }
+    ]
+  },
+  {
+    "lemma": "Etikett",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "n", "plural": "Etiketten" },
+    "senses": [
+      {
+        "en": "label, tag",
+        "example_de": "Lies das Etikett genau.",
+        "example_en": "Read the label carefully."
+      }
+    ]
+  },
+  {
+    "lemma": "Geldschein",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "m", "plural": "Geldscheine" },
+    "senses": [
+      {
+        "en": "banknote",
+        "example_de": "Er hat nur einen Geldschein.",
+        "example_en": "He only has one banknote."
+      }
+    ]
+  },
+  {
+    "lemma": "Münze",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": "Münzen" },
+    "senses": [
+      {
+        "en": "coin",
+        "example_de": "Ich suche eine Münze für den Automaten.",
+        "example_en": "I am looking for a coin for the machine."
+      }
+    ]
+  },
+  {
+    "lemma": "Kleingeld",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "small change",
+        "example_de": "Hast du etwas Kleingeld?",
+        "example_en": "Do you have some small change?"
+      }
+    ]
+  },
+  {
+    "lemma": "Wechselgeld",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "change (money returned)",
+        "example_de": "Vergiss dein Wechselgeld nicht!",
+        "example_en": "Don't forget your change!"
+      }
+    ]
+  },
+  {
+    "lemma": "Portemonnaie",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "n", "plural": "Portemonnaies" },
+    "senses": [
+      {
+        "en": "wallet, purse",
+        "example_de": "Mein Portemonnaie ist leer.",
+        "example_en": "My wallet is empty."
+      }
+    ]
+  },
+  {
+    "lemma": "Girokonto",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "n", "plural": "Girokonten" },
+    "senses": [
+      {
+        "en": "checking account",
+        "example_de": "Ich habe ein neues Girokonto.",
+        "example_en": "I have a new checking account."
+      }
+    ]
+  },
+  {
+    "lemma": "Sparbuch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "n", "plural": "Sparbücher" },
+    "senses": [
+      {
+        "en": "savings passbook",
+        "example_de": "Meine Oma hat ein Sparbuch.",
+        "example_en": "My grandma has a savings book."
+      }
+    ]
+  },
+  {
+    "lemma": "Überweisung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": "Überweisungen" },
+    "senses": [
+      {
+        "en": "bank transfer",
+        "example_de": "Die Überweisung dauert zwei Tage.",
+        "example_en": "The bank transfer takes two days."
+      }
+    ]
+  },
+  {
+    "lemma": "Kontoauszug",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "m", "plural": "Kontoauszüge" },
+    "senses": [
+      {
+        "en": "bank statement",
+        "example_de": "Ich prüfe meinen Kontoauszug online.",
+        "example_en": "I check my bank statement online."
+      }
+    ]
+  },
+  {
+    "lemma": "einzahlen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to deposit (money)",
+        "note": "separable",
+        "example_de": "Ich zahle Geld auf mein Konto ein.",
+        "example_en": "I am depositing money into my account."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er zahlt hundert Euro ein.", "en": "He deposits one hundred euros." },
+      { "tag": "präteritum", "de": "Sie zahlte das Geld sofort ein.", "en": "She deposited the money right away." },
+      { "tag": "perfekt", "de": "Ich habe Geld eingezahlt.", "en": "I deposited money." },
+      { "tag": "imperativ", "de": "Zahl das Geld bitte ein!", "en": "Please deposit the money!" }
+    ]
+  },
+  {
+    "lemma": "abheben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab",
+      "praeteritum": "hob",
+      "partizip2": "abgehoben"
+    },
+    "senses": [
+      {
+        "en": "to withdraw (money)",
+        "note": "separable",
+        "example_de": "Ich hebe Geld am Automaten ab.",
+        "example_en": "I withdraw money at the ATM."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie hebt zweihundert Euro ab.", "en": "She withdraws two hundred euros." },
+      { "tag": "präteritum", "de": "Er hob gestern Geld ab.", "en": "He withdrew money yesterday." },
+      { "tag": "perfekt", "de": "Ich habe Geld abgehoben.", "en": "I withdrew money." },
+      { "tag": "imperativ", "de": "Heb bitte etwas Geld ab!", "en": "Please withdraw some money!" }
+    ]
+  },
+  {
+    "lemma": "zurückgeben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zurück",
+      "du": "gibst",
+      "er": "gibt",
+      "praeteritum": "gab",
+      "partizip2": "zurückgegeben"
+    },
+    "senses": [
+      {
+        "en": "to give back, to return (an item)",
+        "note": "separable",
+        "example_de": "Ich gebe das Buch zurück.",
+        "example_en": "I am returning the book."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er gibt die Jacke zurück.", "en": "He returns the jacket." },
+      { "tag": "präteritum", "de": "Sie gab die Schuhe zurück.", "en": "She returned the shoes." },
+      { "tag": "perfekt", "de": "Ich habe das Hemd zurückgegeben.", "en": "I returned the shirt." },
+      { "tag": "imperativ", "de": "Gib mir das Buch zurück!", "en": "Give me the book back!" }
+    ]
+  },
+  {
+    "lemma": "einstellen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to hire, to employ",
+        "note": "separable",
+        "example_de": "Die Firma stellt neue Leute ein.",
+        "example_en": "The company is hiring new people."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wir stellen einen Koch ein.", "en": "We are hiring a cook." },
+      { "tag": "präteritum", "de": "Sie stellten mich letztes Jahr ein.", "en": "They hired me last year." },
+      { "tag": "perfekt", "de": "Die Firma hat mich eingestellt.", "en": "The company hired me." }
+    ]
+  },
+  {
+    "lemma": "entlassen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "du": "entlässt",
+      "er": "entlässt",
+      "praeteritum": "entließ",
+      "partizip2": "entlassen"
+    },
+    "senses": [
+      {
+        "en": "to dismiss, to lay off",
+        "example_de": "Die Firma hat ihn entlassen.",
+        "example_en": "The company dismissed him."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Chef entlässt zwei Mitarbeiter.", "en": "The boss dismisses two employees." },
+      { "tag": "präteritum", "de": "Sie entließ den Kollegen sofort.", "en": "She dismissed the colleague immediately." },
+      { "tag": "perfekt", "de": "Die Firma hat ihn entlassen.", "en": "The company has dismissed him." }
+    ]
+  },
+  {
+    "lemma": "reklamieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to complain about, to file a complaint (about a product)",
+        "example_de": "Ich reklamiere die kaputte Lampe.",
+        "example_en": "I am complaining about the broken lamp."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er reklamiert den Fernseher.", "en": "He complains about the TV." },
+      { "tag": "präteritum", "de": "Sie reklamierte die Schuhe im Laden.", "en": "She complained about the shoes in the shop." },
+      { "tag": "perfekt", "de": "Ich habe die Ware reklamiert.", "en": "I complained about the goods." },
+      { "tag": "imperativ", "de": "Reklamiere das doch im Geschäft!", "en": "Just complain about it in the shop!" }
+    ]
+  },
+  {
+    "lemma": "aushandeln",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to negotiate, to work out (a deal)",
+        "note": "separable",
+        "example_de": "Wir handeln einen guten Preis aus.",
+        "example_en": "We are negotiating a good price."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie handelt einen neuen Vertrag aus.", "en": "She negotiates a new contract." },
+      { "tag": "präteritum", "de": "Er handelte ein höheres Gehalt aus.", "en": "He negotiated a higher salary." },
+      { "tag": "perfekt", "de": "Wir haben den Preis ausgehandelt.", "en": "We negotiated the price." }
+    ]
+  },
+  {
+    "lemma": "befördern",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1400,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "befördert"
+    },
+    "senses": [
+      {
+        "en": "to promote",
+        "example_de": "Die Firma befördert ihn bald.",
+        "example_en": "The company will promote him soon."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Chef befördert eine Kollegin.", "en": "The boss promotes a colleague." },
+      { "tag": "präteritum", "de": "Sie beförderten ihn letztes Jahr.", "en": "They promoted him last year." },
+      { "tag": "perfekt", "de": "Sie haben mich befördert.", "en": "They promoted me." }
+    ]
+  },
+  {
+    "lemma": "beschweren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beschwert"
+    },
+    "senses": [
+      {
+        "en": "to complain",
+        "note": "reflexiv: sich beschweren über + Akk.",
+        "example_de": "Ich beschwere mich über den Service.",
+        "example_en": "I am complaining about the service."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er beschwert sich über die Kälte.", "en": "He complains about the cold." },
+      { "tag": "präteritum", "de": "Sie beschwerte sich beim Kellner.", "en": "She complained to the waiter." },
+      { "tag": "perfekt", "de": "Wir haben uns beschwert.", "en": "We complained." },
+      { "tag": "imperativ", "de": "Beschwer dich doch beim Chef!", "en": "Just complain to the boss!" }
+    ]
+  },
+  {
+    "lemma": "quittieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1700,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to sign for, to acknowledge receipt of",
+        "example_de": "Bitte quittieren Sie den Empfang.",
+        "example_en": "Please sign to confirm receipt."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er quittiert das Paket.", "en": "He signs for the package." },
+      { "tag": "präteritum", "de": "Sie quittierte die Lieferung sofort.", "en": "She signed for the delivery immediately." },
+      { "tag": "perfekt", "de": "Ich habe die Rechnung quittiert.", "en": "I signed for the invoice." }
+    ]
+  },
+  {
+    "lemma": "anstellen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to queue up, to line up",
+        "note": "separable; reflexiv: sich anstellen",
+        "example_de": "Wir müssen uns anstellen.",
+        "example_en": "We have to line up."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er stellt sich an der Kasse an.", "en": "He lines up at the checkout." },
+      { "tag": "präteritum", "de": "Sie stellten sich lange an.", "en": "They lined up for a long time." },
+      { "tag": "perfekt", "de": "Wir haben uns angestellt.", "en": "We lined up." },
+      { "tag": "imperativ", "de": "Stell dich bitte hinten an!", "en": "Please line up at the back!" }
+    ]
+  },
+  {
+    "lemma": "erledigen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erledigt"
+    },
+    "senses": [
+      {
+        "en": "to take care of, to get (something) done",
+        "example_de": "Ich erledige das morgen.",
+        "example_en": "I will take care of that tomorrow."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie erledigt die Einkäufe schnell.", "en": "She quickly takes care of the shopping." },
+      { "tag": "präteritum", "de": "Er erledigte alles vor der Pause.", "en": "He got everything done before the break." },
+      { "tag": "perfekt", "de": "Ich habe die Arbeit erledigt.", "en": "I got the work done." }
+    ]
+  },
+  {
+    "lemma": "leiten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to manage, to head (a department, team)",
+        "example_de": "Sie leitet die neue Abteilung.",
+        "example_en": "She heads the new department."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er leitet ein großes Team.", "en": "He manages a big team." },
+      { "tag": "präteritum", "de": "Sie leitete das Projekt zwei Jahre.", "en": "She led the project for two years." },
+      { "tag": "perfekt", "de": "Ich habe das Büro geleitet.", "en": "I managed the office." }
+    ]
+  },
+  {
+    "lemma": "zurückschicken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zurück"
+    },
+    "senses": [
+      {
+        "en": "to send back (an item)",
+        "note": "separable",
+        "example_de": "Ich schicke das Paket zurück.",
+        "example_en": "I am sending the package back."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er schickt die Ware zurück.", "en": "He sends the goods back." },
+      { "tag": "präteritum", "de": "Sie schickte den Pullover zurück.", "en": "She sent the sweater back." },
+      { "tag": "perfekt", "de": "Wir haben das Hemd zurückgeschickt.", "en": "We sent the shirt back." },
+      { "tag": "imperativ", "de": "Schick den Artikel bitte zurück!", "en": "Please send the item back!" }
+    ]
+  },
+  {
+    "lemma": "kassieren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1400,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to charge, to collect payment",
+        "example_de": "Der Kellner kassiert die Rechnung.",
+        "example_en": "The waiter collects the payment."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie kassiert an der Kasse.", "en": "She takes payments at the register." },
+      { "tag": "präteritum", "de": "Er kassierte schnell das Geld.", "en": "He quickly collected the money." },
+      { "tag": "perfekt", "de": "Ich habe schon kassiert.", "en": "I already collected the payment." }
+    ]
+  },
+  {
+    "lemma": "umbuchen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1500,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "um"
+    },
+    "senses": [
+      {
+        "en": "to rebook, to change a booking",
+        "note": "separable",
+        "example_de": "Ich möchte den Flug umbuchen.",
+        "example_en": "I would like to rebook the flight."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er bucht das Zimmer um.", "en": "He rebooks the room." },
+      { "tag": "präteritum", "de": "Sie buchte den Termin um.", "en": "She rebooked the appointment." },
+      { "tag": "perfekt", "de": "Wir haben die Reise umgebucht.", "en": "We rebooked the trip." }
+    ]
+  },
+  {
+    "lemma": "erstatten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1400,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erstattet"
+    },
+    "senses": [
+      {
+        "en": "to refund, to reimburse",
+        "example_de": "Die Firma erstattet die Kosten.",
+        "example_en": "The company reimburses the costs."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er erstattet mir das Geld.", "en": "He refunds me the money." },
+      { "tag": "präteritum", "de": "Sie erstattete die Fahrtkosten.", "en": "She reimbursed the travel costs." },
+      { "tag": "perfekt", "de": "Man hat mir das Geld erstattet.", "en": "I was refunded the money." }
+    ]
+  },
+  {
+    "lemma": "einlösen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to redeem (a voucher)",
+        "note": "separable",
+        "example_de": "Ich löse den Gutschein ein.",
+        "example_en": "I am redeeming the voucher."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er löst die Karte ein.", "en": "He redeems the card." },
+      { "tag": "präteritum", "de": "Sie löste den Gutschein sofort ein.", "en": "She redeemed the voucher right away." },
+      { "tag": "perfekt", "de": "Ich habe den Gutschein eingelöst.", "en": "I redeemed the voucher." },
+      { "tag": "imperativ", "de": "Lös den Gutschein bald ein!", "en": "Redeem the voucher soon!" }
+    ]
+  },
+  {
+    "lemma": "kümmern",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 900,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to take care of, to look after",
+        "note": "reflexiv: sich kümmern um + Akk.",
+        "example_de": "Ich kümmere mich um die Bestellung.",
+        "example_en": "I am taking care of the order."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie kümmert sich um Kunden.", "en": "She takes care of customers." },
+      { "tag": "präteritum", "de": "Er kümmerte sich um den Fehler.", "en": "He took care of the mistake." },
+      { "tag": "perfekt", "de": "Wir haben uns darum gekümmert.", "en": "We took care of it." },
+      { "tag": "imperativ", "de": "Kümmere dich bitte darum!", "en": "Please take care of that!" }
+    ]
+  },
+  {
+    "lemma": "ausstellen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to issue (an invoice, document)",
+        "note": "separable",
+        "example_de": "Die Firma stellt eine Rechnung aus.",
+        "example_en": "The company issues an invoice."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er stellt eine Quittung aus.", "en": "He issues a receipt." },
+      { "tag": "präteritum", "de": "Sie stellte den Vertrag aus.", "en": "She issued the contract." },
+      { "tag": "perfekt", "de": "Ich habe die Rechnung ausgestellt.", "en": "I issued the invoice." }
+    ]
+  },
+  {
+    "lemma": "reduziert",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "reduced, discounted (price)",
+        "example_de": "Die Jacke ist stark reduziert.",
+        "example_en": "The jacket is heavily discounted."
+      }
+    ]
+  },
+  {
+    "lemma": "brutto",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "adj": { "indeclinable": true },
+    "senses": [
+      {
+        "en": "gross (before deductions)",
+        "example_de": "Er verdient dreitausend Euro brutto.",
+        "example_en": "He earns three thousand euros gross."
+      }
+    ]
+  },
+  {
+    "lemma": "netto",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "adj": { "indeclinable": true },
+    "senses": [
+      {
+        "en": "net (after deductions)",
+        "example_de": "Ich bekomme zweitausend Euro netto.",
+        "example_en": "I get two thousand euros net."
+      }
+    ]
+  },
+  {
+    "lemma": "bar",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 950,
+    "senses": [
+      {
+        "en": "in cash",
+        "note": "bar bezahlen = to pay in cash",
+        "example_de": "Ich bezahle lieber bar.",
+        "example_en": "I prefer to pay in cash."
+      }
+    ]
+  },
+  {
+    "lemma": "befristet",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "temporary, fixed-term",
+        "example_de": "Mein Vertrag ist befristet.",
+        "example_en": "My contract is temporary."
+      }
+    ]
+  },
+  {
+    "lemma": "unbefristet",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "permanent, open-ended",
+        "example_de": "Sie hat einen unbefristeten Vertrag.",
+        "example_en": "She has a permanent contract."
+      }
+    ]
+  },
+  {
+    "lemma": "freiberuflich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "freelance, self-employed",
+        "example_de": "Er arbeitet freiberuflich als Lehrer.",
+        "example_en": "He works freelance as a teacher."
+      }
+    ]
+  },
+  {
+    "lemma": "qualifiziert",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "qualified, skilled",
+        "example_de": "Sie ist sehr qualifiziert für den Job.",
+        "example_en": "She is very qualified for the job."
+      }
+    ]
+  },
+  {
+    "lemma": "gratis",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1000,
+    "adj": { "indeclinable": true },
+    "senses": [
+      {
+        "en": "free of charge",
+        "example_de": "Der Kaffee ist heute gratis.",
+        "example_en": "The coffee is free today."
+      }
+    ]
+  },
+  {
+    "lemma": "vorübergehend",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "temporary, temporarily",
+        "example_de": "Das Geschäft ist vorübergehend geschlossen.",
+        "example_en": "The shop is temporarily closed."
+      }
+    ]
+  }
+]

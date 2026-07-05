@@ -4,8 +4,9 @@ import { useCallback, useState } from 'react';
 import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { listSavedWords, unsaveWord, type SavedWordRow } from '@/db/vocabRepo';
+import { listSavedWords, setLearned, unsaveWord, type SavedWordRow } from '@/db/vocabRepo';
 import { phaseOf } from '@/logic/sm2';
+import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
@@ -16,14 +17,20 @@ export default function WordsScreen() {
   const t = useTheme();
   const insets = useSafeAreaInsets();
   const [words, setWords] = useState<SavedWordRow[] | null>(null);
+  const showLearned = useSettings((s) => s.showLearnedWords);
 
   const reload = useCallback(() => {
-    listSavedWords().then(setWords);
-  }, []);
+    listSavedWords(showLearned).then(setWords);
+  }, [showLearned]);
   useFocusEffect(reload);
 
   const remove = async (lemmaId: number) => {
     await unsaveWord(lemmaId);
+    reload();
+  };
+
+  const toggleLearned = async (lemmaId: number, learned: boolean) => {
+    await setLearned(lemmaId, learned, new Date());
     reload();
   };
 
@@ -39,7 +46,9 @@ export default function WordsScreen() {
         data={words ?? []}
         keyExtractor={(w) => String(w.lemma_id)}
         contentContainerStyle={[styles.pad, { paddingBottom: spacing.xxl, paddingTop: spacing.md }]}
-        renderItem={({ item }) => <WordRow word={item} onRemove={remove} />}
+        renderItem={({ item }) => (
+          <WordRow word={item} onRemove={remove} onToggleLearned={toggleLearned} />
+        )}
         ListEmptyComponent={
           words ? (
             <View style={styles.empty}>
@@ -61,11 +70,14 @@ export default function WordsScreen() {
 function WordRow({
   word,
   onRemove,
+  onToggleLearned,
 }: {
   word: SavedWordRow;
   onRemove: (id: number) => void;
+  onToggleLearned: (id: number, learned: boolean) => void;
 }) {
   const t = useTheme();
+  const isLearned = word.learned_at != null;
   const state =
     word.reps == null
       ? null
@@ -76,14 +88,14 @@ function WordRow({
     const due = new Date(word.due_at);
     if (state.reps > 0 && due.getTime() <= Date.now()) srsChip = { label: 'Fällig', kind: 'due' };
     else if (phaseOf({ ...state, intervalDays: 22 }) === 'review' && state.reps >= 6)
-      srsChip = { label: 'Gelernt', kind: 'learning' };
+      srsChip = { label: 'Reif', kind: 'learning' };
     else if (state.reps > 0) srsChip = { label: 'Lernen', kind: 'learning' };
   }
 
   return (
     <Card
       onPress={() => router.push({ pathname: '/word/[id]', params: { id: String(word.lemma_id) } })}
-      style={styles.row}>
+      style={[styles.row, isLearned && { opacity: 0.55 }]}>
       <View style={styles.rowInner}>
         <View style={{ flex: 1 }}>
           <AppText variant="subtitle" style={{ fontFamily: 'Fraunces_600SemiBold', fontSize: 19 }}>
@@ -96,8 +108,15 @@ function WordRow({
         </View>
         <View style={styles.chips}>
           <GenderChip gender={word.gender} small />
-          <Chip label={srsChip.label} kind={srsChip.kind} small />
+          {isLearned ? <Chip label="Gelernt" kind="learning" small /> : <Chip label={srsChip.label} kind={srsChip.kind} small />}
         </View>
+        <Pressable hitSlop={10} onPress={() => onToggleLearned(word.lemma_id, !isLearned)}>
+          <Ionicons
+            name={isLearned ? 'checkmark-circle' : 'checkmark-circle-outline'}
+            size={20}
+            color={isLearned ? t.accent : t.inkFaint}
+          />
+        </Pressable>
         <Pressable hitSlop={10} onPress={() => onRemove(word.lemma_id)}>
           <Ionicons name="trash-outline" size={19} color={t.inkFaint} />
         </Pressable>

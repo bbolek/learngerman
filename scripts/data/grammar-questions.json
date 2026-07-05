@@ -2485,7 +2485,7 @@
   {
     "slug": "possessive-articles",
     "title": "Possessivartikel",
-    "explainer_md": "**mein, dein, sein, ihr, unser, euer** take the same endings as *ein*:\n\n- Akkusativ m: mein → **meinen**\n- Dativ m/n: mein → **meinem**\n- Dativ f: mein → **meiner**\n\n*Ich helfe **meinem** Bruder.*",
+    "explainer_md": "**mein, dein, sein, ihr, unser, euer** take the same endings as *ein* — shown here with *mein*, but the pattern is identical for all of them:\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | mein | meine | mein | meine |\n| Akkusativ | **meinen** | meine | mein | meine |\n| Dativ | **meinem** | **meiner** | **meinem** | **meinen** |\n\n*Ich helfe **meinem** Bruder.*",
     "questions": [
       {
         "qtype": "mc",

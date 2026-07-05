@@ -1,0 +1,1953 @@
+[
+  {
+    "lemma": "Anwendung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": "Anwendungen"
+    },
+    "senses": [
+      {
+        "en": "application, app",
+        "example_de": "Ich habe eine neue Anwendung installiert.",
+        "example_en": "I installed a new application."
+      }
+    ]
+  },
+  {
+    "lemma": "Gerät",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1515,
+    "noun": {
+      "gender": "n",
+      "plural": "Geräte"
+    },
+    "senses": [
+      {
+        "en": "device",
+        "example_de": "Dieses Gerät braucht einen neuen Akku.",
+        "example_en": "This device needs a new battery."
+      }
+    ]
+  },
+  {
+    "lemma": "Datenschutz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1530,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "data protection, privacy",
+        "example_de": "Der Datenschutz ist bei Apps sehr wichtig.",
+        "example_en": "Data protection is very important with apps."
+      }
+    ]
+  },
+  {
+    "lemma": "Verbindung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1545,
+    "noun": {
+      "gender": "f",
+      "plural": "Verbindungen"
+    },
+    "senses": [
+      {
+        "en": "connection",
+        "example_de": "Die Verbindung zum Internet ist unterbrochen.",
+        "example_en": "The connection to the internet is interrupted."
+      }
+    ]
+  },
+  {
+    "lemma": "Werbung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1560,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "advertising",
+        "example_de": "Diese Werbung nervt mich total.",
+        "example_en": "This advertisement really annoys me."
+      }
+    ]
+  },
+  {
+    "lemma": "Berichterstattung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1575,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "reporting, coverage",
+        "example_de": "Die Berichterstattung über die Wahl war fair.",
+        "example_en": "The coverage of the election was fair."
+      }
+    ]
+  },
+  {
+    "lemma": "Software",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1590,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "software",
+        "example_de": "Die Software wird kostenlos aktualisiert.",
+        "example_en": "The software is updated for free."
+      }
+    ]
+  },
+  {
+    "lemma": "Netzwerk",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1605,
+    "noun": {
+      "gender": "n",
+      "plural": "Netzwerke"
+    },
+    "senses": [
+      {
+        "en": "network",
+        "example_de": "Er verbindet den Computer mit dem Netzwerk.",
+        "example_en": "He connects the computer to the network."
+      }
+    ]
+  },
+  {
+    "lemma": "Webseite",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": {
+      "gender": "f",
+      "plural": "Webseiten"
+    },
+    "senses": [
+      {
+        "en": "website",
+        "example_de": "Diese Webseite lädt sehr langsam.",
+        "example_en": "This website loads very slowly."
+      }
+    ]
+  },
+  {
+    "lemma": "Browser",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1635,
+    "noun": {
+      "gender": "m",
+      "plural": "Browser"
+    },
+    "senses": [
+      {
+        "en": "browser",
+        "example_de": "Welchen Browser benutzt du am liebsten?",
+        "example_en": "Which browser do you like to use most?"
+      }
+    ]
+  },
+  {
+    "lemma": "Passwort",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1650,
+    "noun": {
+      "gender": "n",
+      "plural": "Passwörter"
+    },
+    "senses": [
+      {
+        "en": "password",
+        "example_de": "Ich habe mein Passwort leider vergessen.",
+        "example_en": "Unfortunately I forgot my password."
+      }
+    ]
+  },
+  {
+    "lemma": "Datei",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1665,
+    "noun": {
+      "gender": "f",
+      "plural": "Dateien"
+    },
+    "senses": [
+      {
+        "en": "file",
+        "example_de": "Kannst du mir die Datei schicken?",
+        "example_en": "Can you send me the file?"
+      }
+    ]
+  },
+  {
+    "lemma": "Ordner",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1680,
+    "noun": {
+      "gender": "m",
+      "plural": "Ordner"
+    },
+    "senses": [
+      {
+        "en": "folder",
+        "example_de": "Alle Fotos liegen in diesem Ordner.",
+        "example_en": "All the photos are in this folder."
+      }
+    ]
+  },
+  {
+    "lemma": "Speicher",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1695,
+    "noun": {
+      "gender": "m",
+      "plural": "Speicher"
+    },
+    "senses": [
+      {
+        "en": "storage, memory",
+        "example_de": "Der Speicher meines Handys ist fast voll.",
+        "example_en": "My phone's storage is almost full."
+      }
+    ]
+  },
+  {
+    "lemma": "Server",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1710,
+    "noun": {
+      "gender": "m",
+      "plural": "Server"
+    },
+    "senses": [
+      {
+        "en": "server",
+        "example_de": "Der Server war heute Nacht offline.",
+        "example_en": "The server was offline last night."
+      }
+    ]
+  },
+  {
+    "lemma": "Chat",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1725,
+    "noun": {
+      "gender": "m",
+      "plural": "Chats"
+    },
+    "senses": [
+      {
+        "en": "chat",
+        "example_de": "Wir schreiben oft im Chat miteinander.",
+        "example_en": "We often write to each other in the chat."
+      }
+    ]
+  },
+  {
+    "lemma": "Ladekabel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": {
+      "gender": "n",
+      "plural": "Ladekabel"
+    },
+    "senses": [
+      {
+        "en": "charging cable",
+        "example_de": "Ich habe mein Ladekabel vergessen.",
+        "example_en": "I forgot my charging cable."
+      }
+    ]
+  },
+  {
+    "lemma": "Akku",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1755,
+    "noun": {
+      "gender": "m",
+      "plural": "Akkus"
+    },
+    "senses": [
+      {
+        "en": "(rechargeable) battery",
+        "example_de": "Mein Akku ist schon wieder leer.",
+        "example_en": "My battery is already empty again."
+      }
+    ]
+  },
+  {
+    "lemma": "Tastatur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1770,
+    "noun": {
+      "gender": "f",
+      "plural": "Tastaturen"
+    },
+    "senses": [
+      {
+        "en": "keyboard",
+        "example_de": "Eine Taste auf der Tastatur klemmt.",
+        "example_en": "A key on the keyboard is stuck."
+      }
+    ]
+  },
+  {
+    "lemma": "Lautsprecher",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1785,
+    "noun": {
+      "gender": "m",
+      "plural": "Lautsprecher"
+    },
+    "senses": [
+      {
+        "en": "speaker",
+        "example_de": "Die Lautsprecher klingen wirklich gut.",
+        "example_en": "The speakers sound really good."
+      }
+    ]
+  },
+  {
+    "lemma": "Kopfhörer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": {
+      "gender": "m",
+      "plural": "Kopfhörer"
+    },
+    "senses": [
+      {
+        "en": "headphones",
+        "example_de": "Ich höre Musik meistens mit Kopfhörern.",
+        "example_en": "I usually listen to music with headphones."
+      }
+    ]
+  },
+  {
+    "lemma": "Mikrofon",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1815,
+    "noun": {
+      "gender": "n",
+      "plural": "Mikrofone"
+    },
+    "senses": [
+      {
+        "en": "microphone",
+        "example_de": "Bitte sprich direkt ins Mikrofon.",
+        "example_en": "Please speak directly into the microphone."
+      }
+    ]
+  },
+  {
+    "lemma": "Podcast",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1830,
+    "noun": {
+      "gender": "m",
+      "plural": "Podcasts"
+    },
+    "senses": [
+      {
+        "en": "podcast",
+        "example_de": "Sie hört jeden Morgen einen Podcast.",
+        "example_en": "She listens to a podcast every morning."
+      }
+    ]
+  },
+  {
+    "lemma": "Beitrag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1845,
+    "noun": {
+      "gender": "m",
+      "plural": "Beiträge"
+    },
+    "senses": [
+      {
+        "en": "post, contribution",
+        "example_de": "Er hat einen langen Beitrag gepostet.",
+        "example_en": "He posted a long post."
+      }
+    ]
+  },
+  {
+    "lemma": "Kommentar",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1860,
+    "noun": {
+      "gender": "m",
+      "plural": "Kommentare"
+    },
+    "senses": [
+      {
+        "en": "comment",
+        "example_de": "Schreib doch einen Kommentar dazu!",
+        "example_en": "Go ahead and write a comment on that!"
+      }
+    ]
+  },
+  {
+    "lemma": "Sender",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1875,
+    "noun": {
+      "gender": "m",
+      "plural": "Sender"
+    },
+    "senses": [
+      {
+        "en": "broadcaster, channel",
+        "example_de": "Dieser Sender zeigt viele Nachrichtensendungen.",
+        "example_en": "This broadcaster shows many news programs."
+      }
+    ]
+  },
+  {
+    "lemma": "Empfänger",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1890,
+    "noun": {
+      "gender": "m",
+      "plural": "Empfänger"
+    },
+    "senses": [
+      {
+        "en": "recipient, receiver",
+        "example_de": "Der Empfänger hat die Nachricht nicht bekommen.",
+        "example_en": "The recipient didn't get the message."
+      }
+    ]
+  },
+  {
+    "lemma": "Reichweite",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1905,
+    "noun": {
+      "gender": "f",
+      "plural": "Reichweiten"
+    },
+    "senses": [
+      {
+        "en": "reach, range",
+        "example_de": "Das WLAN hat eine begrenzte Reichweite.",
+        "example_en": "The WiFi has a limited range."
+      }
+    ]
+  },
+  {
+    "lemma": "Plattform",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "f",
+      "plural": "Plattformen"
+    },
+    "senses": [
+      {
+        "en": "platform",
+        "example_de": "Viele nutzen diese Plattform für Videos.",
+        "example_en": "Many people use this platform for videos."
+      }
+    ]
+  },
+  {
+    "lemma": "Presse",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1935,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "the press (media)",
+        "example_de": "Die Presse berichtet über den Skandal.",
+        "example_en": "The press is reporting on the scandal."
+      }
+    ]
+  },
+  {
+    "lemma": "Rundfunk",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "broadcasting",
+        "example_de": "Der Rundfunk informiert über das Wetter.",
+        "example_en": "The broadcaster reports on the weather."
+      }
+    ]
+  },
+  {
+    "lemma": "Übertragung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1965,
+    "noun": {
+      "gender": "f",
+      "plural": "Übertragungen"
+    },
+    "senses": [
+      {
+        "en": "transmission, broadcast",
+        "example_de": "Die Übertragung des Spiels beginnt gleich.",
+        "example_en": "The broadcast of the game starts soon."
+      }
+    ]
+  },
+  {
+    "lemma": "Sicherheitslücke",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": {
+      "gender": "f",
+      "plural": "Sicherheitslücken"
+    },
+    "senses": [
+      {
+        "en": "security vulnerability",
+        "example_de": "Die Firma schließt die Sicherheitslücke schnell.",
+        "example_en": "The company closes the security gap quickly."
+      }
+    ]
+  },
+  {
+    "lemma": "Verschlüsselung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1995,
+    "noun": {
+      "gender": "f",
+      "plural": "Verschlüsselungen"
+    },
+    "senses": [
+      {
+        "en": "encryption",
+        "example_de": "Die Verschlüsselung schützt deine Daten.",
+        "example_en": "The encryption protects your data."
+      }
+    ]
+  },
+  {
+    "lemma": "Schnittstelle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": {
+      "gender": "f",
+      "plural": "Schnittstellen"
+    },
+    "senses": [
+      {
+        "en": "interface, port",
+        "example_de": "Der Laptop hat eine USB-Schnittstelle.",
+        "example_en": "The laptop has a USB interface."
+      }
+    ]
+  },
+  {
+    "lemma": "Anleitung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": {
+      "gender": "f",
+      "plural": "Anleitungen"
+    },
+    "senses": [
+      {
+        "en": "instructions, manual",
+        "example_de": "Lies zuerst die Anleitung genau durch.",
+        "example_en": "First read the instructions carefully."
+      }
+    ]
+  },
+  {
+    "lemma": "Digitalisierung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "digitalization",
+        "example_de": "Die Digitalisierung verändert unsere Arbeit.",
+        "example_en": "Digitalization is changing our work."
+      }
+    ]
+  },
+  {
+    "lemma": "Kommunikation",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2055,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "communication",
+        "example_de": "Digitale Kommunikation ist heute selbstverständlich.",
+        "example_en": "Digital communication is taken for granted today."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausstrahlung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2070,
+    "noun": {
+      "gender": "f",
+      "plural": "Ausstrahlungen"
+    },
+    "senses": [
+      {
+        "en": "broadcast, airing",
+        "example_de": "Die Ausstrahlung wurde kurzfristig verschoben.",
+        "example_en": "The broadcast was postponed at short notice."
+      }
+    ]
+  },
+  {
+    "lemma": "Nutzer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2085,
+    "noun": {
+      "gender": "m",
+      "plural": "Nutzer"
+    },
+    "senses": [
+      {
+        "en": "user",
+        "example_de": "Die App hat Millionen von Nutzern.",
+        "example_en": "The app has millions of users."
+      }
+    ]
+  },
+  {
+    "lemma": "Anbieter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "m",
+      "plural": "Anbieter"
+    },
+    "senses": [
+      {
+        "en": "provider",
+        "example_de": "Ich wechsle zu einem billigeren Anbieter.",
+        "example_en": "I'm switching to a cheaper provider."
+      }
+    ]
+  },
+  {
+    "lemma": "Tarif",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2115,
+    "noun": {
+      "gender": "m",
+      "plural": "Tarife"
+    },
+    "senses": [
+      {
+        "en": "rate, plan",
+        "example_de": "Welchen Tarif hast du bei deinem Handy?",
+        "example_en": "Which plan do you have for your phone?"
+      }
+    ]
+  },
+  {
+    "lemma": "Zielgruppe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2130,
+    "noun": {
+      "gender": "f",
+      "plural": "Zielgruppen"
+    },
+    "senses": [
+      {
+        "en": "target audience",
+        "example_de": "Die Werbung erreicht die falsche Zielgruppe.",
+        "example_en": "The ad reaches the wrong target audience."
+      }
+    ]
+  },
+  {
+    "lemma": "Redaktion",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2145,
+    "noun": {
+      "gender": "f",
+      "plural": "Redaktionen"
+    },
+    "senses": [
+      {
+        "en": "editorial team",
+        "example_de": "Die Redaktion prüft jeden Artikel genau.",
+        "example_en": "The editorial team checks every article carefully."
+      }
+    ]
+  },
+  {
+    "lemma": "Moderator",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": {
+      "gender": "m",
+      "plural": "Moderatoren"
+    },
+    "senses": [
+      {
+        "en": "host, moderator",
+        "example_de": "Der Moderator stellt spannende Fragen.",
+        "example_en": "The host asks exciting questions."
+      }
+    ]
+  },
+  {
+    "lemma": "hochladen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2190,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "hoch",
+      "du": "lädst",
+      "er": "lädt",
+      "praeteritum": "lud",
+      "partizip2": "hochgeladen"
+    },
+    "senses": [
+      {
+        "en": "to upload",
+        "example_de": "Ich lade die Fotos gerade hoch.",
+        "example_en": "I'm uploading the photos right now."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie lädt ein neues Video hoch.",
+        "en": "She uploads a new video."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er lud das Dokument sofort hoch.",
+        "en": "He uploaded the document immediately."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Bilder schon hochgeladen.",
+        "en": "We've already uploaded the pictures."
+      }
+    ]
+  },
+  {
+    "lemma": "speichern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2205,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to save",
+        "example_de": "Vergiss nicht, das Dokument zu speichern.",
+        "example_en": "Don't forget to save the document."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er speicherte die Datei auf dem Server.",
+        "en": "He saved the file on the server."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Änderungen gespeichert.",
+        "en": "I've saved the changes."
+      }
+    ]
+  },
+  {
+    "lemma": "löschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2220,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to delete",
+        "example_de": "Sie löscht die alte E-Mail sofort.",
+        "example_en": "She deletes the old email right away."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er löschte versehentlich das ganze Foto.",
+        "en": "He accidentally deleted the whole photo."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Nachricht schon gelöscht.",
+        "en": "I've already deleted the message."
+      }
+    ]
+  },
+  {
+    "lemma": "veröffentlichen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2235,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "veröffentlicht"
+    },
+    "senses": [
+      {
+        "en": "to publish",
+        "example_de": "Der Autor veröffentlicht ein neues Buch.",
+        "example_en": "The author is publishing a new book."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie veröffentlichte den Artikel online.",
+        "en": "She published the article online."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Ergebnisse veröffentlicht.",
+        "en": "We've published the results."
+      }
+    ]
+  },
+  {
+    "lemma": "installieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2250,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to install",
+        "example_de": "Ich installiere gerade eine neue App.",
+        "example_en": "I'm installing a new app right now."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er installierte das Programm schnell.",
+        "en": "He installed the program quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Software installiert.",
+        "en": "She has installed the software."
+      }
+    ]
+  },
+  {
+    "lemma": "aktualisieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2265,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to update",
+        "example_de": "Bitte aktualisiere deine Kontaktdaten.",
+        "example_en": "Please update your contact details."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Das System aktualisierte sich automatisch.",
+        "en": "The system updated itself automatically."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die App aktualisiert.",
+        "en": "I've updated the app."
+      }
+    ]
+  },
+  {
+    "lemma": "abstürzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to crash (computer)",
+        "example_de": "Mein Computer stürzt ständig ab.",
+        "example_en": "My computer keeps crashing."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Das Programm stürzte plötzlich ab.",
+        "en": "The program suddenly crashed."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Server ist heute abgestürzt.",
+        "en": "The server crashed today."
+      }
+    ]
+  },
+  {
+    "lemma": "klicken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2295,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to click",
+        "example_de": "Klicken Sie hier für mehr Informationen.",
+        "example_en": "Click here for more information."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie klickte versehentlich auf den Link.",
+        "en": "She accidentally clicked on the link."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe auf den falschen Button geklickt.",
+        "en": "I've clicked the wrong button."
+      }
+    ]
+  },
+  {
+    "lemma": "tippen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2310,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to type",
+        "example_de": "Er tippt die Nachricht sehr schnell.",
+        "example_en": "He types the message very quickly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie tippte die ganze Nacht am Laptop.",
+        "en": "She typed on the laptop all night."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Text schon getippt.",
+        "en": "I've already typed the text."
+      }
+    ]
+  },
+  {
+    "lemma": "scannen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2325,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to scan",
+        "example_de": "Ich scanne den Code mit dem Handy.",
+        "example_en": "I scan the code with my phone."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er scannte das Dokument für die Bewerbung.",
+        "en": "He scanned the document for the application."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat den QR-Code gescannt.",
+        "en": "She's scanned the QR code."
+      }
+    ]
+  },
+  {
+    "lemma": "surfen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2340,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to surf (the internet)",
+        "example_de": "Am Abend surft er im Internet.",
+        "example_en": "In the evening he surfs the internet."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Wir surften stundenlang im Netz.",
+        "en": "We surfed the net for hours."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat lange im Internet gesurft.",
+        "en": "She has surfed the internet for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "streamen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2355,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to stream",
+        "example_de": "Wir streamen den Film heute Abend.",
+        "example_en": "We're streaming the movie tonight."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er streamte das Konzert live.",
+        "en": "He streamed the concert live."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben das ganze Spiel gestreamt.",
+        "en": "They've streamed the whole game."
+      }
+    ]
+  },
+  {
+    "lemma": "posten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2370,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to post (online)",
+        "example_de": "Sie postet jeden Tag ein neues Foto.",
+        "example_en": "She posts a new photo every day."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er postete das Video ohne Erlaubnis.",
+        "en": "He posted the video without permission."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Beitrag schon gepostet.",
+        "en": "I've already posted the post."
+      }
+    ]
+  },
+  {
+    "lemma": "verbreiten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2385,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verbreitet"
+    },
+    "senses": [
+      {
+        "en": "to spread, to disseminate",
+        "example_de": "Falsche Nachrichten verbreiten sich schnell.",
+        "example_en": "Fake news spreads quickly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Das Gerücht verbreitete sich im Netz.",
+        "en": "The rumor spread on the internet."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Nachricht hat sich schnell verbreitet.",
+        "en": "The news has spread quickly."
+      }
+    ]
+  },
+  {
+    "lemma": "kommentieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to comment (on)",
+        "example_de": "Viele Nutzer kommentieren den Beitrag.",
+        "example_en": "Many users comment on the post."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie kommentierte das Video sehr kritisch.",
+        "en": "She commented on the video very critically."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat den Artikel positiv kommentiert.",
+        "en": "He has commented positively on the article."
+      }
+    ]
+  },
+  {
+    "lemma": "bearbeiten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2415,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "bearbeitet"
+    },
+    "senses": [
+      {
+        "en": "to edit, to process",
+        "example_de": "Ich bearbeite gerade das Foto.",
+        "example_en": "I'm editing the photo right now."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er bearbeitete den Text noch einmal.",
+        "en": "He edited the text once more."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Anfrage schon bearbeitet.",
+        "en": "She has already processed the request."
+      }
+    ]
+  },
+  {
+    "lemma": "blockieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2430,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to block",
+        "example_de": "Sie blockiert unbekannte Nummern sofort.",
+        "example_en": "She blocks unknown numbers immediately."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er blockierte den Absender der Werbung.",
+        "en": "He blocked the sender of the ad."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe diesen Nutzer blockiert.",
+        "en": "I've blocked this user."
+      }
+    ]
+  },
+  {
+    "lemma": "verschlüsseln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2445,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verschlüsselt"
+    },
+    "senses": [
+      {
+        "en": "to encrypt",
+        "example_de": "Die App verschlüsselt alle Nachrichten.",
+        "example_en": "The app encrypts all messages."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Der Dienst verschlüsselte die Daten automatisch.",
+        "en": "The service encrypted the data automatically."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Verbindung verschlüsselt.",
+        "en": "We've encrypted the connection."
+      }
+    ]
+  },
+  {
+    "lemma": "einloggen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2460,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to log in",
+        "example_de": "Ich logge mich in mein Konto ein.",
+        "example_en": "I'm logging into my account."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er loggte sich mit dem Passwort ein.",
+        "en": "He logged in with the password."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich gerade eingeloggt.",
+        "en": "She has just logged in."
+      }
+    ]
+  },
+  {
+    "lemma": "ausloggen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2475,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to log out",
+        "example_de": "Bitte logg dich am Ende aus.",
+        "example_en": "Please log out at the end."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie loggte sich sofort wieder aus.",
+        "en": "She logged out again immediately."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich schon ausgeloggt.",
+        "en": "I've already logged out."
+      }
+    ]
+  },
+  {
+    "lemma": "verschicken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2490,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verschickt"
+    },
+    "senses": [
+      {
+        "en": "to send",
+        "example_de": "Er verschickt die E-Mail an alle Kollegen.",
+        "example_en": "He sends the email to all colleagues."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie verschickte die Einladung per E-Mail.",
+        "en": "She sent the invitation by email."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Datei bereits verschickt.",
+        "en": "I've already sent the file."
+      }
+    ]
+  },
+  {
+    "lemma": "empfangen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2505,
+    "verb": {
+      "aux": "haben",
+      "du": "empfängst",
+      "er": "empfängt",
+      "praeteritum": "empfing",
+      "partizip2": "empfangen"
+    },
+    "senses": [
+      {
+        "en": "to receive (a signal)",
+        "example_de": "Hier empfängt das Handy kein Signal.",
+        "example_en": "The phone doesn't receive any signal here."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Fernseher empfängt viele Sender.",
+        "en": "The TV receives many channels."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir empfingen die Nachricht sofort.",
+        "en": "We received the message right away."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe deine Nachricht empfangen.",
+        "en": "I've received your message."
+      }
+    ]
+  },
+  {
+    "lemma": "übertragen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": {
+      "aux": "haben",
+      "du": "überträgst",
+      "er": "überträgt",
+      "praeteritum": "übertrug",
+      "partizip2": "übertragen"
+    },
+    "senses": [
+      {
+        "en": "to transmit, to broadcast",
+        "example_de": "Der Sender überträgt das Spiel live.",
+        "example_en": "The broadcaster is broadcasting the game live."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Radio überträgt die Nachrichten.",
+        "en": "The radio broadcasts the news."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie übertrugen die Show im Internet.",
+        "en": "They broadcast the show on the internet."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Konzert live übertragen.",
+        "en": "We've broadcast the concert live."
+      }
+    ]
+  },
+  {
+    "lemma": "anschließen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2535,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "du": "schließt",
+      "er": "schließt",
+      "praeteritum": "schloss",
+      "partizip2": "angeschlossen"
+    },
+    "senses": [
+      {
+        "en": "to connect (a device)",
+        "example_de": "Er schließt den Drucker an den Computer an.",
+        "example_en": "He connects the printer to the computer."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie schloss die Kamera ans Netzwerk an.",
+        "en": "She connected the camera to the network."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Kabel richtig angeschlossen.",
+        "en": "I've connected the cable correctly."
+      }
+    ]
+  },
+  {
+    "lemma": "programmieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2550,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to program",
+        "example_de": "Sie programmiert eine neue Anwendung.",
+        "example_en": "She's programming a new application."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er programmierte die App in drei Monaten.",
+        "en": "He programmed the app in three months."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Software selbst programmiert.",
+        "en": "We've programmed the software ourselves."
+      }
+    ]
+  },
+  {
+    "lemma": "recherchieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2565,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to research (a topic)",
+        "example_de": "Der Journalist recherchiert zu diesem Thema.",
+        "example_en": "The journalist is researching this topic."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie recherchierte lange für den Artikel.",
+        "en": "She researched for the article for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat gründlich recherchiert.",
+        "en": "He has researched thoroughly."
+      }
+    ]
+  },
+  {
+    "lemma": "berichten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2580,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "berichtet"
+    },
+    "senses": [
+      {
+        "en": "to report",
+        "example_de": "Die Zeitung berichtet über den Unfall.",
+        "example_en": "The newspaper reports on the accident."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er berichtete ausführlich über die Reise.",
+        "en": "He reported in detail about the trip."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat live vom Ereignis berichtet.",
+        "en": "She has reported live from the event."
+      }
+    ]
+  },
+  {
+    "lemma": "ausstrahlen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2595,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to broadcast, to air",
+        "example_de": "Der Sender strahlt den Film heute aus.",
+        "example_en": "The channel is airing the movie today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie strahlten die Sendung live aus.",
+        "en": "They aired the program live."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Interview wurde gestern ausgestrahlt.",
+        "en": "The interview was aired yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "abonnieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2610,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to subscribe (to)",
+        "example_de": "Ich abonniere seinen Kanal sofort.",
+        "example_en": "I'm subscribing to his channel right away."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie abonnierte die Zeitschrift vor Jahren.",
+        "en": "She subscribed to the magazine years ago."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Newsletter abonniert.",
+        "en": "We've subscribed to the newsletter."
+      }
+    ]
+  },
+  {
+    "lemma": "digital",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2625,
+    "senses": [
+      {
+        "en": "digital",
+        "example_de": "Wir lesen die Zeitung digital.",
+        "example_en": "We read the newspaper digitally."
+      }
+    ]
+  },
+  {
+    "lemma": "virtuell",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2640,
+    "senses": [
+      {
+        "en": "virtual",
+        "example_de": "Das Meeting findet virtuell statt.",
+        "example_en": "The meeting takes place virtually."
+      }
+    ]
+  },
+  {
+    "lemma": "technisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2655,
+    "senses": [
+      {
+        "en": "technical",
+        "example_de": "Das Gerät hat ein technisches Problem.",
+        "example_en": "The device has a technical problem."
+      }
+    ]
+  },
+  {
+    "lemma": "elektronisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2670,
+    "senses": [
+      {
+        "en": "electronic",
+        "example_de": "Wir bezahlen die Rechnung elektronisch.",
+        "example_en": "We pay the bill electronically."
+      }
+    ]
+  },
+  {
+    "lemma": "drahtlos",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2685,
+    "senses": [
+      {
+        "en": "wireless",
+        "example_de": "Die Tastatur funktioniert drahtlos.",
+        "example_en": "The keyboard works wirelessly."
+      }
+    ]
+  },
+  {
+    "lemma": "mobil",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2700,
+    "senses": [
+      {
+        "en": "mobile",
+        "example_de": "Ich nutze das Internet mobil.",
+        "example_en": "I use the internet on my mobile."
+      }
+    ]
+  },
+  {
+    "lemma": "online",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2715,
+    "senses": [
+      {
+        "en": "online",
+        "example_de": "Bist du gerade online?",
+        "example_en": "Are you online right now?"
+      }
+    ],
+    "adj": {
+      "indeclinable": true
+    }
+  },
+  {
+    "lemma": "interaktiv",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2730,
+    "senses": [
+      {
+        "en": "interactive",
+        "example_de": "Die Webseite bietet interaktive Inhalte.",
+        "example_en": "The website offers interactive content."
+      }
+    ]
+  },
+  {
+    "lemma": "anonym",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2745,
+    "senses": [
+      {
+        "en": "anonymous",
+        "example_de": "Er schreibt den Kommentar anonym.",
+        "example_en": "He writes the comment anonymously."
+      }
+    ]
+  },
+  {
+    "lemma": "kompatibel",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2760,
+    "senses": [
+      {
+        "en": "compatible",
+        "example_de": "Ist das Gerät mit meinem Handy kompatibel?",
+        "example_en": "Is the device compatible with my phone?"
+      }
+    ]
+  },
+  {
+    "lemma": "vernetzt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2775,
+    "senses": [
+      {
+        "en": "networked, connected",
+        "example_de": "Alle Geräte sind miteinander vernetzt.",
+        "example_en": "All devices are networked with each other."
+      }
+    ]
+  },
+  {
+    "lemma": "veraltet",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2790,
+    "senses": [
+      {
+        "en": "outdated",
+        "example_de": "Diese Software ist leider veraltet.",
+        "example_en": "Unfortunately this software is outdated."
+      }
+    ]
+  },
+  {
+    "lemma": "benutzerfreundlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2805,
+    "senses": [
+      {
+        "en": "user-friendly",
+        "example_de": "Die App ist wirklich benutzerfreundlich.",
+        "example_en": "The app is really user-friendly."
+      }
+    ]
+  },
+  {
+    "lemma": "verfügbar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2820,
+    "senses": [
+      {
+        "en": "available",
+        "example_de": "Das Update ist noch nicht verfügbar.",
+        "example_en": "The update is not yet available."
+      }
+    ]
+  },
+  {
+    "lemma": "vertraulich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2835,
+    "senses": [
+      {
+        "en": "confidential",
+        "example_de": "Diese Daten sind streng vertraulich.",
+        "example_en": "This data is strictly confidential."
+      }
+    ]
+  },
+  {
+    "lemma": "live",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2850,
+    "senses": [
+      {
+        "en": "live, in real time",
+        "example_de": "Das Konzert wird heute live gesendet.",
+        "example_en": "The concert is being broadcast live today."
+      }
+    ]
+  },
+  {
+    "lemma": "automatisch",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2865,
+    "senses": [
+      {
+        "en": "automatically",
+        "example_de": "Die Datei wird automatisch gespeichert.",
+        "example_en": "The file is saved automatically."
+      }
+    ]
+  },
+  {
+    "lemma": "offline",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2880,
+    "senses": [
+      {
+        "en": "offline",
+        "example_de": "Der Server ist zurzeit offline.",
+        "example_en": "The server is currently offline."
+      }
+    ]
+  },
+  {
+    "lemma": "sowie",
+    "pos": "conj",
+    "level": "B1",
+    "freq": 2895,
+    "senses": [
+      {
+        "en": "as well as",
+        "example_de": "Er nutzt Apps sowie soziale Netzwerke.",
+        "example_en": "He uses apps as well as social networks."
+      }
+    ]
+  },
+  {
+    "lemma": "mittels",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2910,
+    "senses": [
+      {
+        "en": "by means of",
+        "example_de": "Mittels einer App bezahlt man schnell.",
+        "example_en": "You pay quickly by means of an app.",
+        "note": "+ Genitiv"
+      }
+    ]
+  },
+  {
+    "lemma": "anhand",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2925,
+    "senses": [
+      {
+        "en": "on the basis of, using",
+        "example_de": "Anhand der Daten erkennt man den Fehler.",
+        "example_en": "Based on the data, you can identify the error.",
+        "note": "+ Genitiv (auch: anhand von + Dativ)"
+      }
+    ]
+  },
+  {
+    "lemma": "beziehungsweise",
+    "pos": "conj",
+    "level": "B1",
+    "freq": 2940,
+    "senses": [
+      {
+        "en": "or rather, respectively",
+        "example_de": "Er schreibt eine SMS beziehungsweise E-Mail.",
+        "example_en": "He writes a text message, or rather an email.",
+        "note": "Abkürzung: bzw."
+      }
+    ]
+  },
+  {
+    "lemma": "zeitnah",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2955,
+    "senses": [
+      {
+        "en": "promptly, in a timely manner",
+        "example_de": "Die Redaktion antwortet zeitnah auf Anfragen.",
+        "example_en": "The editorial team responds promptly to inquiries."
+      }
+    ]
+  },
+  {
+    "lemma": "jederzeit",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2970,
+    "senses": [
+      {
+        "en": "anytime, at any time",
+        "example_de": "Du kannst die Nachricht jederzeit löschen.",
+        "example_en": "You can delete the message at any time."
+      }
+    ]
+  },
+  {
+    "lemma": "kontinuierlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2985,
+    "senses": [
+      {
+        "en": "continuously",
+        "example_de": "Die Software wird kontinuierlich verbessert.",
+        "example_en": "The software is continuously improved."
+      }
+    ]
+  }
+]

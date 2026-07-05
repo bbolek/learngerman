@@ -1,0 +1,1098 @@
+[
+  {
+    "lemma": "Reiseveranstalter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": { "gender": "m", "plural": "Reiseveranstalter" },
+    "senses": [
+      { "en": "tour operator", "example_de": "Der Reiseveranstalter bietet günstige Pauschalreisen an.", "example_en": "The tour operator offers affordable package tours." }
+    ]
+  },
+  {
+    "lemma": "Verkehrsteilnehmer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1515,
+    "noun": { "gender": "m", "plural": "Verkehrsteilnehmer" },
+    "senses": [
+      { "en": "road user", "example_de": "Alle Verkehrsteilnehmer müssen die Regeln beachten.", "example_en": "All road users must follow the rules." }
+    ]
+  },
+  {
+    "lemma": "Stau",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1530,
+    "noun": { "gender": "m", "plural": "Staus" },
+    "senses": [
+      { "en": "traffic jam", "example_de": "Wir standen zwei Stunden im Stau.", "example_en": "We were stuck in traffic for two hours." }
+    ]
+  },
+  {
+    "lemma": "Verkehrsaufkommen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1545,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "traffic volume", "example_de": "Das Verkehrsaufkommen steigt am Wochenende stark.", "example_en": "Traffic volume rises sharply on weekends." }
+    ]
+  },
+  {
+    "lemma": "Reisewarnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1560,
+    "noun": { "gender": "f", "plural": "Reisewarnungen" },
+    "senses": [
+      { "en": "travel warning, travel advisory", "example_de": "Das Auswärtige Amt gab eine Reisewarnung heraus.", "example_en": "The foreign office issued a travel warning." }
+    ]
+  },
+  {
+    "lemma": "Anschluss",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1575,
+    "noun": { "gender": "m", "plural": "Anschlüsse" },
+    "senses": [
+      { "en": "connection (train, flight)", "example_de": "Ich habe meinen Anschluss knapp verpasst.", "example_en": "I just missed my connection." }
+    ]
+  },
+  {
+    "lemma": "Reisedokument",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1590,
+    "noun": { "gender": "n", "plural": "Reisedokumente" },
+    "senses": [
+      { "en": "travel document", "example_de": "Bitte halten Sie Ihre Reisedokumente bereit.", "example_en": "Please have your travel documents ready." }
+    ]
+  },
+  {
+    "lemma": "Sicherheitskontrolle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1605,
+    "noun": { "gender": "f", "plural": "Sicherheitskontrollen" },
+    "senses": [
+      { "en": "security check(point)", "example_de": "Die Sicherheitskontrolle am Flughafen dauerte lange.", "example_en": "The security check at the airport took a long time." }
+    ]
+  },
+  {
+    "lemma": "Raststätte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": { "gender": "f", "plural": "Raststätten" },
+    "senses": [
+      { "en": "rest stop, service area", "example_de": "Wir machen an der Raststätte eine Pause.", "example_en": "We're taking a break at the rest stop." }
+    ]
+  },
+  {
+    "lemma": "Stoßzeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1635,
+    "noun": { "gender": "f", "plural": "Stoßzeiten" },
+    "senses": [
+      { "en": "rush hour, peak time", "example_de": "In der Stoßzeit ist die U-Bahn sehr voll.", "example_en": "During rush hour, the subway is very crowded." }
+    ]
+  },
+  {
+    "lemma": "Rundreise",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1650,
+    "noun": { "gender": "f", "plural": "Rundreisen" },
+    "senses": [
+      { "en": "round trip, tour", "example_de": "Wir machen eine Rundreise durch Italien.", "example_en": "We're taking a tour through Italy." }
+    ]
+  },
+  {
+    "lemma": "Anreise",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1665,
+    "noun": { "gender": "f", "plural": "Anreisen" },
+    "senses": [
+      { "en": "arrival, journey there", "example_de": "Die Anreise dauerte fast zehn Stunden.", "example_en": "The journey there took almost ten hours." }
+    ]
+  },
+  {
+    "lemma": "Abreise",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1680,
+    "noun": { "gender": "f", "plural": "Abreisen" },
+    "senses": [
+      { "en": "departure", "example_de": "Die Abreise ist für Montag geplant.", "example_en": "The departure is planned for Monday." }
+    ]
+  },
+  {
+    "lemma": "Gepäckband",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1695,
+    "noun": { "gender": "n", "plural": "Gepäckbänder" },
+    "senses": [
+      { "en": "luggage carousel", "example_de": "Unser Koffer kam nicht am Gepäckband an.", "example_en": "Our suitcase didn't arrive at the luggage carousel." }
+    ]
+  },
+  {
+    "lemma": "Mitfahrgelegenheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1710,
+    "noun": { "gender": "f", "plural": "Mitfahrgelegenheiten" },
+    "senses": [
+      { "en": "ride share", "example_de": "Er sucht eine Mitfahrgelegenheit nach Berlin.", "example_en": "He's looking for a ride share to Berlin." }
+    ]
+  },
+  {
+    "lemma": "Gepäckwagen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1725,
+    "noun": { "gender": "m", "plural": "Gepäckwagen" },
+    "senses": [
+      { "en": "luggage cart, trolley", "example_de": "Am Bahnhof gibt es kostenlose Gepäckwagen.", "example_en": "There are free luggage carts at the station." }
+    ]
+  },
+  {
+    "lemma": "Grenzkontrolle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": { "gender": "f", "plural": "Grenzkontrollen" },
+    "senses": [
+      { "en": "border control", "example_de": "Die Grenzkontrolle dauerte nur wenige Minuten.", "example_en": "The border control only took a few minutes." }
+    ]
+  },
+  {
+    "lemma": "Wohnmobil",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1755,
+    "noun": { "gender": "n", "plural": "Wohnmobile" },
+    "senses": [
+      { "en": "motorhome, RV", "example_de": "Sie reisen mit dem Wohnmobil durch Europa.", "example_en": "They're traveling through Europe by RV." }
+    ]
+  },
+  {
+    "lemma": "Verkehrsschild",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1770,
+    "noun": { "gender": "n", "plural": "Verkehrsschilder", "genitive": "Verkehrsschildes" },
+    "senses": [
+      { "en": "traffic sign", "example_de": "Das Verkehrsschild zeigt eine Geschwindigkeitsbegrenzung.", "example_en": "The traffic sign shows a speed limit." }
+    ]
+  },
+  {
+    "lemma": "Maut",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1785,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "toll", "example_de": "Auf dieser Autobahn muss man Maut zahlen.", "example_en": "You have to pay a toll on this highway." }
+    ]
+  },
+  {
+    "lemma": "Fahrtrichtung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": { "gender": "f", "plural": "Fahrtrichtungen" },
+    "senses": [
+      { "en": "direction of travel", "example_de": "Bitte bleiben Sie in Ihrer Fahrtrichtung.", "example_en": "Please stay in your direction of travel." }
+    ]
+  },
+  {
+    "lemma": "Kurzurlaub",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1815,
+    "noun": { "gender": "m", "plural": "Kurzurlaube" },
+    "senses": [
+      { "en": "short vacation, mini-break", "example_de": "Wir machen einen Kurzurlaub ans Meer.", "example_en": "We're taking a short vacation to the seaside." }
+    ]
+  },
+  {
+    "lemma": "Fahrpreis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1830,
+    "noun": { "gender": "m", "plural": "Fahrpreise" },
+    "senses": [
+      { "en": "fare", "example_de": "Der Fahrpreis hängt von der Entfernung ab.", "example_en": "The fare depends on the distance." }
+    ]
+  },
+  {
+    "lemma": "Gepäckaufbewahrung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1845,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "luggage storage", "example_de": "Ich habe meinen Koffer in der Gepäckaufbewahrung gelassen.", "example_en": "I left my suitcase in the luggage storage." }
+    ]
+  },
+  {
+    "lemma": "Fahrzeug",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1860,
+    "noun": { "gender": "n", "plural": "Fahrzeuge" },
+    "senses": [
+      { "en": "vehicle", "example_de": "Das Fahrzeug wurde an der Grenze gründlich kontrolliert.", "example_en": "The vehicle was thoroughly inspected at the border." }
+    ]
+  },
+  {
+    "lemma": "Strecke",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1875,
+    "noun": { "gender": "f", "plural": "Strecken" },
+    "senses": [
+      { "en": "route, stretch, distance", "example_de": "Diese Strecke fahre ich fast jeden Tag.", "example_en": "I drive this route almost every day." }
+    ]
+  },
+  {
+    "lemma": "Route",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1890,
+    "noun": { "gender": "f", "plural": "Routen" },
+    "senses": [
+      { "en": "route", "example_de": "Die App zeigt uns die schnellste Route.", "example_en": "The app shows us the fastest route." }
+    ]
+  },
+  {
+    "lemma": "Fahrkartenautomat",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1905,
+    "noun": { "gender": "m", "plural": "Fahrkartenautomaten", "genitive": "Fahrkartenautomaten" },
+    "senses": [
+      { "en": "ticket vending machine", "example_de": "Am Fahrkartenautomaten kann man bar bezahlen.", "example_en": "You can pay in cash at the ticket machine." }
+    ]
+  },
+  {
+    "lemma": "Nahverkehr",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "local (public) transport", "example_de": "Der Nahverkehr ist in dieser Stadt gut ausgebaut.", "example_en": "Local transport is well developed in this city." }
+    ]
+  },
+  {
+    "lemma": "Fernverkehr",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1935,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "long-distance transport", "example_de": "Der Fernverkehr wurde wegen des Sturms gestrichen.", "example_en": "Long-distance transport was cancelled because of the storm." }
+    ]
+  },
+  {
+    "lemma": "Pendler",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": { "gender": "m", "plural": "Pendler" },
+    "senses": [
+      { "en": "commuter", "example_de": "Viele Pendler fahren täglich in die Stadt.", "example_en": "Many commuters travel into the city daily." }
+    ]
+  },
+  {
+    "lemma": "Streckennetz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1965,
+    "noun": { "gender": "n", "plural": "Streckennetze" },
+    "senses": [
+      { "en": "route network", "example_de": "Das Streckennetz der Bahn ist sehr dicht.", "example_en": "The rail network is very dense." }
+    ]
+  },
+  {
+    "lemma": "Reisegruppe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": { "gender": "f", "plural": "Reisegruppen" },
+    "senses": [
+      { "en": "tour group", "example_de": "Die Reisegruppe besichtigt heute das Museum.", "example_en": "The tour group is visiting the museum today." }
+    ]
+  },
+  {
+    "lemma": "Pauschalreise",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1995,
+    "noun": { "gender": "f", "plural": "Pauschalreisen" },
+    "senses": [
+      { "en": "package tour", "example_de": "Eine Pauschalreise ist oft günstiger als Einzelbuchungen.", "example_en": "A package tour is often cheaper than individual bookings." }
+    ]
+  },
+  {
+    "lemma": "Touristeninformation",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": { "gender": "f", "plural": "Touristeninformationen" },
+    "senses": [
+      { "en": "tourist information (office)", "example_de": "Wir haben Karten bei der Touristeninformation geholt.", "example_en": "We got maps at the tourist information office." }
+    ]
+  },
+  {
+    "lemma": "Inlandsflug",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": { "gender": "m", "plural": "Inlandsflüge" },
+    "senses": [
+      { "en": "domestic flight", "example_de": "Ein Inlandsflug ist meistens kürzer als erwartet.", "example_en": "A domestic flight is usually shorter than expected." }
+    ]
+  },
+  {
+    "lemma": "Auslandsreise",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": { "gender": "f", "plural": "Auslandsreisen" },
+    "senses": [
+      { "en": "trip abroad", "example_de": "Für die Auslandsreise braucht sie einen Reisepass.", "example_en": "She needs a passport for the trip abroad." }
+    ]
+  },
+  {
+    "lemma": "Kreuzfahrt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2055,
+    "noun": { "gender": "f", "plural": "Kreuzfahrten" },
+    "senses": [
+      { "en": "cruise", "example_de": "Sie machen eine Kreuzfahrt durch die Karibik.", "example_en": "They're going on a cruise through the Caribbean." }
+    ]
+  },
+  {
+    "lemma": "Umweg",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2070,
+    "noun": { "gender": "m", "plural": "Umwege" },
+    "senses": [
+      { "en": "detour, roundabout way", "example_de": "Wir mussten wegen des Staus einen Umweg fahren.", "example_en": "We had to take a detour because of the traffic jam." }
+    ]
+  },
+  {
+    "lemma": "Engpass",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2085,
+    "noun": { "gender": "m", "plural": "Engpässe" },
+    "senses": [
+      { "en": "bottleneck", "example_de": "Auf der Autobahn gibt es einen Engpass.", "example_en": "There's a bottleneck on the highway." }
+    ]
+  },
+  {
+    "lemma": "Fahrverbot",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "n", "plural": "Fahrverbote" },
+    "senses": [
+      { "en": "driving ban", "example_de": "Bei starkem Smog gilt oft ein Fahrverbot.", "example_en": "A driving ban often applies during heavy smog." }
+    ]
+  },
+  {
+    "lemma": "Tempolimit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2115,
+    "noun": { "gender": "n", "plural": "Tempolimits" },
+    "senses": [
+      { "en": "speed limit", "example_de": "Auf dieser Straße gilt ein Tempolimit von 30.", "example_en": "A speed limit of 30 applies on this street." }
+    ]
+  },
+  {
+    "lemma": "Verkehrsregel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2130,
+    "noun": { "gender": "f", "plural": "Verkehrsregeln" },
+    "senses": [
+      { "en": "traffic rule", "example_de": "Radfahrer müssen die Verkehrsregeln auch beachten.", "example_en": "Cyclists must also follow the traffic rules." }
+    ]
+  },
+  {
+    "lemma": "Grenzübergang",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2145,
+    "noun": { "gender": "m", "plural": "Grenzübergänge" },
+    "senses": [
+      { "en": "border crossing", "example_de": "Der Grenzübergang war überraschend leer.", "example_en": "The border crossing was surprisingly empty." }
+    ]
+  },
+  {
+    "lemma": "Jetlag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "jet lag", "example_de": "Nach dem Langstreckenflug hatte sie starken Jetlag.", "example_en": "After the long-haul flight, she had bad jet lag." }
+    ]
+  },
+  {
+    "lemma": "orientieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2175,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to orient oneself", "example_de": "Sie orientiert sich mit der Karte.", "example_en": "She orients herself with the map.", "note": "reflexiv: sich orientieren an/in + Dativ" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er orientierte sich schnell am Bahnhof.", "en": "He quickly got his bearings at the station." },
+      { "tag": "perfekt", "de": "Wir haben uns mit dem Handy orientiert.", "en": "We used our phone to find our way." }
+    ]
+  },
+  {
+    "lemma": "abreisen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2190,
+    "verb": { "aux": "sein", "separablePrefix": "ab" },
+    "senses": [
+      { "en": "to depart, to set off on a trip", "example_de": "Wir reisen morgen früh ab.", "example_en": "We're departing early tomorrow." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie reisten am Montag ab.", "en": "They departed on Monday." },
+      { "tag": "perfekt", "de": "Er ist schon vor einer Stunde abgereist.", "en": "He already departed an hour ago." }
+    ]
+  },
+  {
+    "lemma": "anreisen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2205,
+    "verb": { "aux": "sein", "separablePrefix": "an" },
+    "senses": [
+      { "en": "to arrive, to travel to a place", "example_de": "Die Gäste reisen einzeln an.", "example_en": "The guests are arriving individually." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie reiste einen Tag früher an.", "en": "She arrived one day earlier." },
+      { "tag": "perfekt", "de": "Wir sind mit dem Zug angereist.", "en": "We arrived by train." }
+    ]
+  },
+  {
+    "lemma": "verzögern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2220,
+    "verb": { "aux": "haben", "partizip2": "verzögert" },
+    "senses": [
+      { "en": "to delay", "example_de": "Der Abflug verzögert sich um eine Stunde.", "example_en": "The departure is delayed by an hour.", "note": "oft reflexiv: sich verzögern" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Flug verzögerte sich stundenlang.", "en": "The flight was delayed for hours." },
+      { "tag": "perfekt", "de": "Die Ankunft hat sich verzögert.", "en": "The arrival has been delayed." }
+    ]
+  },
+  {
+    "lemma": "vorbeifahren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2235,
+    "verb": { "aux": "sein", "separablePrefix": "vorbei", "du": "fährst", "er": "fährt", "praeteritum": "fuhr", "partizip2": "vorbeigefahren" },
+    "senses": [
+      { "en": "to drive past", "example_de": "Der Bus fährt an unserem Haus vorbei.", "example_en": "The bus drives past our house." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Wir fuhren am Museum vorbei.", "en": "We drove past the museum." },
+      { "tag": "perfekt", "de": "Der Zug ist ohne Halt vorbeigefahren.", "en": "The train drove past without stopping." }
+    ]
+  },
+  {
+    "lemma": "abfliegen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2250,
+    "verb": { "aux": "sein", "separablePrefix": "ab", "praeteritum": "flog", "partizip2": "abgeflogen" },
+    "senses": [
+      { "en": "to depart (by plane), to take off", "example_de": "Die Maschine fliegt pünktlich ab.", "example_en": "The plane departs on time." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Flug flog eine Stunde später ab.", "en": "The flight departed an hour later." },
+      { "tag": "perfekt", "de": "Das Flugzeug ist gerade abgeflogen.", "en": "The plane has just taken off." }
+    ]
+  },
+  {
+    "lemma": "durchqueren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2265,
+    "verb": { "aux": "haben", "partizip2": "durchquert" },
+    "senses": [
+      { "en": "to cross, to travel through", "example_de": "Wir durchqueren das Land mit dem Zug.", "example_en": "We're crossing the country by train." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie durchquerten die Wüste in drei Tagen.", "en": "They crossed the desert in three days." },
+      { "tag": "perfekt", "de": "Wir haben ganz Frankreich durchquert.", "en": "We've crossed all of France." }
+    ]
+  },
+  {
+    "lemma": "zurücklegen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": { "aux": "haben", "separablePrefix": "zurück" },
+    "senses": [
+      { "en": "to cover (a distance)", "example_de": "Wir haben eine weite Strecke zurückgelegt.", "example_en": "We've covered a long distance.", "note": "oft: eine Strecke zurücklegen" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie legten hundert Kilometer zurück.", "en": "They covered a hundred kilometers." },
+      { "tag": "perfekt", "de": "Er hat den Weg zu Fuß zurückgelegt.", "en": "He covered the distance on foot." }
+    ]
+  },
+  {
+    "lemma": "vorfahren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2295,
+    "verb": { "aux": "sein", "separablePrefix": "vor", "du": "fährst", "er": "fährt", "praeteritum": "fuhr", "partizip2": "vorgefahren" },
+    "senses": [
+      { "en": "to pull up, to drive up (in front of)", "example_de": "Das Taxi fährt vor dem Hotel vor.", "example_en": "The taxi pulls up in front of the hotel." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Bus fuhr direkt vor den Eingang vor.", "en": "The bus pulled up right in front of the entrance." },
+      { "tag": "perfekt", "de": "Der Wagen ist schon vorgefahren.", "en": "The car has already pulled up." }
+    ]
+  },
+  {
+    "lemma": "zurückkehren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2310,
+    "verb": { "aux": "sein", "separablePrefix": "zurück" },
+    "senses": [
+      { "en": "to return", "example_de": "Sie kehren nach zwei Wochen zurück.", "example_en": "They return after two weeks." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er kehrte spät in der Nacht zurück.", "en": "He returned late at night." },
+      { "tag": "perfekt", "de": "Wir sind sicher zurückgekehrt.", "en": "We've returned safely." }
+    ]
+  },
+  {
+    "lemma": "erkunden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2325,
+    "verb": { "aux": "haben", "partizip2": "erkundet" },
+    "senses": [
+      { "en": "to explore", "example_de": "Wir erkunden die Stadt zu Fuß.", "example_en": "We explore the city on foot." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie erkundeten die Insel mit dem Rad.", "en": "They explored the island by bike." },
+      { "tag": "perfekt", "de": "Wir haben die Gegend gründlich erkundet.", "en": "We've thoroughly explored the area." }
+    ]
+  },
+  {
+    "lemma": "weiterreisen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2340,
+    "verb": { "aux": "sein", "separablePrefix": "weiter" },
+    "senses": [
+      { "en": "to continue traveling, to travel on", "example_de": "Nach dem Zwischenstopp reisen wir weiter.", "example_en": "After the stopover, we travel on." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie reisten am nächsten Tag weiter.", "en": "They traveled on the next day." },
+      { "tag": "perfekt", "de": "Wir sind nach Wien weitergereist.", "en": "We've traveled on to Vienna." }
+    ]
+  },
+  {
+    "lemma": "auffallen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2355,
+    "verb": { "aux": "sein", "separablePrefix": "auf", "du": "fällst", "er": "fällt", "praeteritum": "fiel", "partizip2": "aufgefallen" },
+    "senses": [
+      { "en": "to catch attention, to stand out", "example_de": "Diese Sehenswürdigkeit fällt sofort auf.", "example_en": "This sight catches your attention immediately.", "note": "+ Dativ: jemandem auffallen" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der hohe Turm fällt schon von weitem auf.", "en": "The tall tower stands out even from afar." },
+      { "tag": "präteritum", "de": "Mir fiel sein Akzent sofort auf.", "en": "I immediately noticed his accent." },
+      { "tag": "perfekt", "de": "Ist dir das Schild aufgefallen?", "en": "Did you notice the sign?" }
+    ]
+  },
+  {
+    "lemma": "vorankommen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2370,
+    "verb": { "aux": "sein", "separablePrefix": "voran", "praeteritum": "kam", "partizip2": "vorangekommen" },
+    "senses": [
+      { "en": "to make progress, to get ahead", "example_de": "Im Stau kommen wir kaum voran.", "example_en": "We barely make progress in the traffic jam." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Wir kamen wegen des Nebels kaum voran.", "en": "We barely made progress because of the fog." },
+      { "tag": "perfekt", "de": "Endlich sind wir vorangekommen.", "en": "We've finally made progress." }
+    ]
+  },
+  {
+    "lemma": "liegenbleiben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2385,
+    "verb": { "aux": "sein", "separablePrefix": "liegen", "praeteritum": "blieb", "partizip2": "liegengeblieben" },
+    "senses": [
+      { "en": "to break down (a vehicle)", "example_de": "Unser Auto ist auf der Autobahn liegengeblieben.", "example_en": "Our car broke down on the highway.", "note": "wörtlich: liegen bleiben" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Bus blieb mitten auf der Strecke liegen.", "en": "The bus broke down in the middle of the route." },
+      { "tag": "perfekt", "de": "Wir sind mit einer Panne liegengeblieben.", "en": "We broke down with a mechanical failure." }
+    ]
+  },
+  {
+    "lemma": "abschleppen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": { "aux": "haben", "separablePrefix": "ab" },
+    "senses": [
+      { "en": "to tow (a vehicle)", "example_de": "Der Abschleppdienst schleppt das Auto ab.", "example_en": "The tow service tows away the car." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie schleppten den kaputten Wagen ab.", "en": "They towed away the broken car." },
+      { "tag": "perfekt", "de": "Man hat den Wagen abgeschleppt.", "en": "They've towed away the car." }
+    ]
+  },
+  {
+    "lemma": "volltanken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2415,
+    "verb": { "aux": "haben", "separablePrefix": "voll" },
+    "senses": [
+      { "en": "to fill up (with fuel)", "example_de": "Wir tanken das Auto an der Tankstelle voll.", "example_en": "We fill up the car at the gas station." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er tankte den Tank ganz voll.", "en": "He filled the tank all the way up." },
+      { "tag": "perfekt", "de": "Ich habe schon vollgetankt.", "en": "I've already filled up." }
+    ]
+  },
+  {
+    "lemma": "einparken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2430,
+    "verb": { "aux": "haben", "separablePrefix": "ein" },
+    "senses": [
+      { "en": "to park (into a spot)", "example_de": "Sie parkt das Auto geschickt ein.", "example_en": "She skillfully parks the car into the spot." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er parkte rückwärts in die Lücke ein.", "en": "He reversed into the gap to park." },
+      { "tag": "perfekt", "de": "Ich habe endlich eingeparkt.", "en": "I finally parked the car." }
+    ]
+  },
+  {
+    "lemma": "verreisen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2445,
+    "verb": { "aux": "sein", "partizip2": "verreist" },
+    "senses": [
+      { "en": "to go away (on a trip)", "example_de": "Meine Eltern verreisen übers Wochenende.", "example_en": "My parents are going away for the weekend." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie verreisten letzten Sommer nach Griechenland.", "en": "They went away to Greece last summer." },
+      { "tag": "perfekt", "de": "Wir sind zwei Wochen verreist.", "en": "We've been away for two weeks." }
+    ]
+  },
+  {
+    "lemma": "erkundigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2460,
+    "verb": { "aux": "haben", "partizip2": "erkundigt" },
+    "senses": [
+      { "en": "to inquire", "example_de": "Ich erkundige mich nach den Öffnungszeiten.", "example_en": "I'm inquiring about the opening hours.", "note": "reflexiv: sich erkundigen nach + Dativ" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er erkundigte sich nach dem nächsten Zug.", "en": "He inquired about the next train." },
+      { "tag": "perfekt", "de": "Sie hat sich schon danach erkundigt.", "en": "She has already inquired about that." }
+    ]
+  },
+  {
+    "lemma": "blinken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2475,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to indicate, to signal (turn)", "example_de": "Er blinkt, bevor er abbiegt.", "example_en": "He signals before turning." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie blinkte rechtzeitig nach links.", "en": "She signaled left in time." },
+      { "tag": "perfekt", "de": "Er hat leider nicht geblinkt.", "en": "Unfortunately, he didn't signal." }
+    ]
+  },
+  {
+    "lemma": "verlängern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2490,
+    "verb": { "aux": "haben", "partizip2": "verlängert" },
+    "senses": [
+      { "en": "to extend", "example_de": "Sie will ihr Visum verlängern.", "example_en": "She wants to extend her visa." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er verlängerte seinen Aufenthalt um eine Woche.", "en": "He extended his stay by a week." },
+      { "tag": "perfekt", "de": "Wir haben den Vertrag verlängert.", "en": "We've extended the contract." }
+    ]
+  },
+  {
+    "lemma": "beantragen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2505,
+    "verb": { "aux": "haben", "partizip2": "beantragt" },
+    "senses": [
+      { "en": "to apply for", "example_de": "Er beantragt ein neues Visum.", "example_en": "He's applying for a new visa." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie beantragte einen neuen Reisepass.", "en": "She applied for a new passport." },
+      { "tag": "perfekt", "de": "Wir haben rechtzeitig ein Visum beantragt.", "en": "We applied for a visa in time." }
+    ]
+  },
+  {
+    "lemma": "entwerten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": { "aux": "haben", "partizip2": "entwertet" },
+    "senses": [
+      { "en": "to validate, to stamp (a ticket)", "example_de": "Bitte entwerten Sie Ihren Fahrschein.", "example_en": "Please validate your ticket." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er entwertete die Karte am Automaten.", "en": "He validated the ticket at the machine." },
+      { "tag": "perfekt", "de": "Ich habe meinen Fahrschein vergessen zu entwerten.", "en": "I forgot to validate my ticket." }
+    ]
+  },
+  {
+    "lemma": "schleudern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2535,
+    "verb": { "aux": "sein" },
+    "senses": [
+      { "en": "to skid", "example_de": "Das Auto schleuderte auf der glatten Straße.", "example_en": "The car skidded on the slippery road." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Wagen schleuderte gefährlich nah an die Leitplanke.", "en": "The car skidded dangerously close to the guardrail." },
+      { "tag": "perfekt", "de": "Das Auto ist auf dem Eis geschleudert.", "en": "The car has skidded on the ice." }
+    ]
+  },
+  {
+    "lemma": "losfahren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2550,
+    "verb": { "aux": "sein", "separablePrefix": "los", "du": "fährst", "er": "fährt", "praeteritum": "fuhr", "partizip2": "losgefahren" },
+    "senses": [
+      { "en": "to set off, to depart", "example_de": "Wir fahren morgen früh los.", "example_en": "We're setting off early tomorrow." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie fuhren pünktlich um acht los.", "en": "They set off right at eight." },
+      { "tag": "perfekt", "de": "Er ist schon vor einer Stunde losgefahren.", "en": "He already set off an hour ago." }
+    ]
+  },
+  {
+    "lemma": "überfahren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2565,
+    "verb": { "aux": "haben", "du": "überfährst", "er": "überfährt", "praeteritum": "überfuhr", "partizip2": "überfahren" },
+    "senses": [
+      { "en": "to run over", "example_de": "Er hat fast einen Fußgänger überfahren.", "example_en": "He almost ran over a pedestrian." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Fahrer überfuhr eine rote Ampel.", "en": "The driver ran a red light." },
+      { "tag": "perfekt", "de": "Zum Glück hat er niemanden überfahren.", "en": "Luckily, he didn't run anyone over." }
+    ]
+  },
+  {
+    "lemma": "transportieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2580,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to transport", "example_de": "Der Lkw transportiert schwere Ware.", "example_en": "The truck transports heavy goods." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Das Schiff transportierte Container nach Hamburg.", "en": "The ship transported containers to Hamburg." },
+      { "tag": "perfekt", "de": "Sie haben das Gepäck separat transportiert.", "en": "They transported the luggage separately." }
+    ]
+  },
+  {
+    "lemma": "stauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2595,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to back up, to jam (traffic)", "example_de": "Der Verkehr staut sich vor der Baustelle.", "example_en": "Traffic is backing up before the construction site.", "note": "reflexiv: sich stauen" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Verkehr staute sich kilometerweit.", "en": "The traffic backed up for kilometers." },
+      { "tag": "perfekt", "de": "Die Autos haben sich vor dem Tunnel gestaut.", "en": "The cars backed up before the tunnel." }
+    ]
+  },
+  {
+    "lemma": "ausweichen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2610,
+    "verb": { "aux": "sein", "separablePrefix": "aus", "praeteritum": "wich", "partizip2": "ausgewichen" },
+    "senses": [
+      { "en": "to swerve, to avoid", "example_de": "Er wich dem Radfahrer rechtzeitig aus.", "example_en": "He swerved to avoid the cyclist in time.", "note": "+ Dativ" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie wich dem Schlagloch geschickt aus.", "en": "She skillfully avoided the pothole." },
+      { "tag": "perfekt", "de": "Der Fahrer ist dem Hindernis ausgewichen.", "en": "The driver avoided the obstacle." }
+    ]
+  },
+  {
+    "lemma": "grenzüberschreitend",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2625,
+    "senses": [
+      { "en": "cross-border", "example_de": "Der Zug bietet grenzüberschreitende Verbindungen an.", "example_en": "The train offers cross-border connections." }
+    ]
+  },
+  {
+    "lemma": "ländlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2640,
+    "senses": [
+      { "en": "rural", "example_de": "Sie leben in einer sehr ländlichen Gegend.", "example_en": "They live in a very rural area." }
+    ]
+  },
+  {
+    "lemma": "städtisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2655,
+    "senses": [
+      { "en": "urban", "example_de": "Der städtische Nahverkehr ist günstig.", "example_en": "Urban public transport is affordable." }
+    ]
+  },
+  {
+    "lemma": "sehenswert",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2670,
+    "senses": [
+      { "en": "worth seeing", "example_de": "Die Altstadt ist wirklich sehenswert.", "example_en": "The old town is really worth seeing." }
+    ]
+  },
+  {
+    "lemma": "touristisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2685,
+    "senses": [
+      { "en": "touristy, tourist-related", "example_de": "Diese Gegend ist inzwischen sehr touristisch.", "example_en": "This area has become very touristy." }
+    ]
+  },
+  {
+    "lemma": "verkehrsreich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2700,
+    "senses": [
+      { "en": "busy with traffic", "example_de": "Diese Straße ist besonders verkehrsreich.", "example_en": "This street is especially busy with traffic." }
+    ]
+  },
+  {
+    "lemma": "verkehrsberuhigt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2715,
+    "senses": [
+      { "en": "traffic-calmed", "example_de": "Die Kinder spielen in der verkehrsberuhigten Zone.", "example_en": "The children play in the traffic-calmed zone." }
+    ]
+  },
+  {
+    "lemma": "abgelegen",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2730,
+    "senses": [
+      { "en": "remote, secluded", "example_de": "Das Dorf liegt sehr abgelegen im Gebirge.", "example_en": "The village lies very remotely in the mountains." }
+    ]
+  },
+  {
+    "lemma": "weitläufig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2745,
+    "senses": [
+      { "en": "expansive, sprawling", "example_de": "Der Park ist weitläufig und sehr grün.", "example_en": "The park is expansive and very green." }
+    ]
+  },
+  {
+    "lemma": "gebührenpflichtig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2760,
+    "senses": [
+      { "en": "subject to a fee", "example_de": "Der Parkplatz ist leider gebührenpflichtig.", "example_en": "The parking lot unfortunately requires a fee." }
+    ]
+  },
+  {
+    "lemma": "ausgebucht",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2775,
+    "senses": [
+      { "en": "fully booked", "example_de": "Der Flug ist leider komplett ausgebucht.", "example_en": "The flight is unfortunately completely booked." }
+    ]
+  },
+  {
+    "lemma": "grenznah",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2790,
+    "senses": [
+      { "en": "close to the border", "example_de": "Wir wohnen in einer grenznahen Region.", "example_en": "We live in a region close to the border." }
+    ]
+  },
+  {
+    "lemma": "inländisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2805,
+    "senses": [
+      { "en": "domestic", "example_de": "Inländische Flüge sind oft billiger.", "example_en": "Domestic flights are often cheaper." }
+    ]
+  },
+  {
+    "lemma": "zollfrei",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2820,
+    "senses": [
+      { "en": "duty-free", "example_de": "Am Flughafen gibt es zollfreie Waren.", "example_en": "At the airport there are duty-free goods." }
+    ]
+  },
+  {
+    "lemma": "verkehrsgünstig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2835,
+    "senses": [
+      { "en": "conveniently located (for transport)", "example_de": "Das Hotel liegt verkehrsgünstig am Bahnhof.", "example_en": "The hotel is conveniently located near the station." }
+    ]
+  },
+  {
+    "lemma": "entlang",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2850,
+    "senses": [
+      { "en": "along", "example_de": "Wir gehen den Fluss entlang.", "example_en": "We walk along the river.", "note": "+ Akkusativ (nachgestellt): den Fluss entlang; auch + Genitiv/Dativ vorangestellt" }
+    ]
+  },
+  {
+    "lemma": "via",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2865,
+    "senses": [
+      { "en": "via, through", "example_de": "Der Flug geht via Frankfurt.", "example_en": "The flight goes via Frankfurt.", "note": "unveränderlich, meist mit Ortsnamen" }
+    ]
+  },
+  {
+    "lemma": "außerhalb",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2880,
+    "senses": [
+      { "en": "outside of", "example_de": "Das Hotel liegt außerhalb der Stadt.", "example_en": "The hotel is located outside the city.", "note": "+ Genitiv" }
+    ]
+  },
+  {
+    "lemma": "innerhalb",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2895,
+    "senses": [
+      { "en": "within", "example_de": "Der Bus fährt nur innerhalb der Stadt.", "example_en": "The bus only runs within the city.", "note": "+ Genitiv" }
+    ]
+  },
+  {
+    "lemma": "entgegen",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2910,
+    "senses": [
+      { "en": "towards, against", "example_de": "Ein Auto kam ihm entgegen.", "example_en": "A car came towards him.", "note": "+ Dativ, oft nachgestellt" }
+    ]
+  },
+  {
+    "lemma": "voraus",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2925,
+    "senses": [
+      { "en": "ahead, in advance", "example_de": "Er fuhr den anderen ein Stück voraus.", "example_en": "He drove a bit ahead of the others.", "note": "auch: im Voraus = in advance" }
+    ]
+  },
+  {
+    "lemma": "jenseits",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2940,
+    "senses": [
+      { "en": "on the other side of, beyond", "example_de": "Das Dorf liegt jenseits der Grenze.", "example_en": "The village lies beyond the border.", "note": "+ Genitiv" }
+    ]
+  },
+  {
+    "lemma": "rundherum",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2955,
+    "senses": [
+      { "en": "all around", "example_de": "Rundherum gibt es viele Sehenswürdigkeiten.", "example_en": "All around there are many sights." }
+    ]
+  },
+  {
+    "lemma": "seitwärts",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2970,
+    "senses": [
+      { "en": "sideways", "example_de": "Das Auto rutschte seitwärts von der Straße.", "example_en": "The car slid sideways off the road." }
+    ]
+  },
+  {
+    "lemma": "diesseits",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2985,
+    "senses": [
+      { "en": "on this side of", "example_de": "Das Hotel liegt diesseits der Grenze.", "example_en": "The hotel is on this side of the border.", "note": "+ Genitiv" }
+    ]
+  }
+]

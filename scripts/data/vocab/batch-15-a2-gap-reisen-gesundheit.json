@@ -1,0 +1,1836 @@
+[
+  {
+    "lemma": "Verspätung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 950,
+    "noun": {
+      "gender": "f",
+      "plural": "Verspätungen"
+    },
+    "senses": [
+      {
+        "en": "delay (train, flight)",
+        "example_de": "Der Zug hat zehn Minuten Verspätung.",
+        "example_en": "The train is ten minutes late."
+      }
+    ]
+  },
+  {
+    "lemma": "Wartesaal",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1650,
+    "noun": {
+      "gender": "m",
+      "plural": "Wartesäle"
+    },
+    "senses": [
+      {
+        "en": "waiting hall (at a train station)",
+        "example_de": "Wir warten im Wartesaal auf den Zug.",
+        "example_en": "We wait in the waiting hall for the train."
+      }
+    ]
+  },
+  {
+    "lemma": "Abteil",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "n",
+      "plural": "Abteile"
+    },
+    "senses": [
+      {
+        "en": "compartment (in a train)",
+        "example_de": "Unser Abteil ist im zweiten Wagen.",
+        "example_en": "Our compartment is in the second car."
+      }
+    ]
+  },
+  {
+    "lemma": "Schaffner",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "m",
+      "plural": "Schaffner"
+    },
+    "senses": [
+      {
+        "en": "conductor (train or bus)",
+        "example_de": "Der Schaffner kontrolliert die Fahrkarten.",
+        "example_en": "The conductor checks the tickets."
+      }
+    ]
+  },
+  {
+    "lemma": "Aufenthalt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Aufenthalte"
+    },
+    "senses": [
+      {
+        "en": "stay; layover",
+        "example_de": "Wir haben zwei Stunden Aufenthalt in Wien.",
+        "example_en": "We have a two-hour layover in Vienna."
+      }
+    ]
+  },
+  {
+    "lemma": "Reiseziel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1250,
+    "noun": {
+      "gender": "n",
+      "plural": "Reiseziele"
+    },
+    "senses": [
+      {
+        "en": "travel destination",
+        "example_de": "Unser Reiseziel ist die Insel Sylt.",
+        "example_en": "Our destination is the island of Sylt."
+      }
+    ]
+  },
+  {
+    "lemma": "Sitzplatz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": {
+      "gender": "m",
+      "plural": "Sitzplätze"
+    },
+    "senses": [
+      {
+        "en": "seat",
+        "example_de": "Ich habe einen Sitzplatz am Fenster.",
+        "example_en": "I have a window seat."
+      }
+    ]
+  },
+  {
+    "lemma": "Zoll",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "customs",
+        "example_de": "Am Zoll zeigen wir unsere Pässe.",
+        "example_en": "At customs we show our passports."
+      }
+    ]
+  },
+  {
+    "lemma": "Visum",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "n",
+      "plural": "Visa"
+    },
+    "senses": [
+      {
+        "en": "visa",
+        "example_de": "Für die Reise braucht er ein Visum.",
+        "example_en": "He needs a visa for the trip."
+      }
+    ]
+  },
+  {
+    "lemma": "Mietwagen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1550,
+    "noun": {
+      "gender": "m",
+      "plural": "Mietwagen"
+    },
+    "senses": [
+      {
+        "en": "rental car",
+        "example_de": "Wir holen den Mietwagen am Flughafen ab.",
+        "example_en": "We pick up the rental car at the airport."
+      }
+    ]
+  },
+  {
+    "lemma": "Parkschein",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1700,
+    "noun": {
+      "gender": "m",
+      "plural": "Parkscheine"
+    },
+    "senses": [
+      {
+        "en": "parking ticket",
+        "example_de": "Ich kaufe einen Parkschein am Automaten.",
+        "example_en": "I buy a parking ticket at the machine."
+      }
+    ]
+  },
+  {
+    "lemma": "Bordkarte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1650,
+    "noun": {
+      "gender": "f",
+      "plural": "Bordkarten"
+    },
+    "senses": [
+      {
+        "en": "boarding pass",
+        "example_de": "Zeigen Sie bitte Ihre Bordkarte.",
+        "example_en": "Please show your boarding pass."
+      }
+    ]
+  },
+  {
+    "lemma": "Handgepäck",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "carry-on luggage",
+        "example_de": "Mein Handgepäck ist nicht schwer.",
+        "example_en": "My carry-on luggage is not heavy."
+      }
+    ]
+  },
+  {
+    "lemma": "Reisetasche",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "f",
+      "plural": "Reisetaschen"
+    },
+    "senses": [
+      {
+        "en": "travel bag",
+        "example_de": "Sie packt die Reisetasche für den Urlaub.",
+        "example_en": "She packs the travel bag for vacation."
+      }
+    ]
+  },
+  {
+    "lemma": "Rucksack",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": {
+      "gender": "m",
+      "plural": "Rucksäcke"
+    },
+    "senses": [
+      {
+        "en": "backpack",
+        "example_de": "Er trägt einen großen Rucksack.",
+        "example_en": "He is wearing a big backpack."
+      }
+    ]
+  },
+  {
+    "lemma": "Wegbeschreibung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": "Wegbeschreibungen"
+    },
+    "senses": [
+      {
+        "en": "directions (route description)",
+        "example_de": "Kannst du mir eine Wegbeschreibung geben?",
+        "example_en": "Can you give me directions?"
+      }
+    ]
+  },
+  {
+    "lemma": "Stadtplan",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Stadtpläne"
+    },
+    "senses": [
+      {
+        "en": "city map",
+        "example_de": "Wir brauchen einen Stadtplan von Berlin.",
+        "example_en": "We need a city map of Berlin."
+      }
+    ]
+  },
+  {
+    "lemma": "Landkarte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": {
+      "gender": "f",
+      "plural": "Landkarten"
+    },
+    "senses": [
+      {
+        "en": "map",
+        "example_de": "Die Landkarte liegt auf dem Tisch.",
+        "example_en": "The map is lying on the table."
+      }
+    ]
+  },
+  {
+    "lemma": "Wegweiser",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": {
+      "gender": "m",
+      "plural": "Wegweiser"
+    },
+    "senses": [
+      {
+        "en": "signpost",
+        "example_de": "Der Wegweiser zeigt zum Bahnhof.",
+        "example_en": "The signpost points to the station."
+      }
+    ]
+  },
+  {
+    "lemma": "Umleitung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": "Umleitungen"
+    },
+    "senses": [
+      {
+        "en": "detour",
+        "example_de": "Wegen der Baustelle gibt es eine Umleitung.",
+        "example_en": "Because of construction there is a detour."
+      }
+    ]
+  },
+  {
+    "lemma": "Fußgängerzone",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1550,
+    "noun": {
+      "gender": "f",
+      "plural": "Fußgängerzonen"
+    },
+    "senses": [
+      {
+        "en": "pedestrian zone",
+        "example_de": "Autos dürfen nicht in die Fußgängerzone.",
+        "example_en": "Cars are not allowed in the pedestrian zone."
+      }
+    ]
+  },
+  {
+    "lemma": "Radweg",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Radwege"
+    },
+    "senses": [
+      {
+        "en": "bike path",
+        "example_de": "Der Radweg führt direkt zum See.",
+        "example_en": "The bike path leads straight to the lake."
+      }
+    ]
+  },
+  {
+    "lemma": "Landstraße",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": "Landstraßen"
+    },
+    "senses": [
+      {
+        "en": "country road",
+        "example_de": "Wir fahren lieber über die Landstraße.",
+        "example_en": "We prefer to drive on the country road."
+      }
+    ]
+  },
+  {
+    "lemma": "Parkhaus",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1250,
+    "noun": {
+      "gender": "n",
+      "plural": "Parkhäuser"
+    },
+    "senses": [
+      {
+        "en": "parking garage",
+        "example_de": "Das Auto steht im Parkhaus.",
+        "example_en": "The car is in the parking garage."
+      }
+    ]
+  },
+  {
+    "lemma": "Fahrgast",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": {
+      "gender": "m",
+      "plural": "Fahrgäste"
+    },
+    "senses": [
+      {
+        "en": "passenger",
+        "example_de": "Die Fahrgäste steigen in den Bus.",
+        "example_en": "The passengers get on the bus."
+      }
+    ]
+  },
+  {
+    "lemma": "Schließfach",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "n",
+      "plural": "Schließfächer"
+    },
+    "senses": [
+      {
+        "en": "locker",
+        "example_de": "Ich lege den Koffer ins Schließfach.",
+        "example_en": "I put the suitcase in the locker."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorfahrt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "right of way",
+        "example_de": "Achtung, hier hat der Bus Vorfahrt.",
+        "example_en": "Watch out, the bus has right of way here."
+      }
+    ]
+  },
+  {
+    "lemma": "Fähre",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": {
+      "gender": "f",
+      "plural": "Fähren"
+    },
+    "senses": [
+      {
+        "en": "ferry",
+        "example_de": "Die Fähre fährt jede Stunde.",
+        "example_en": "The ferry runs every hour."
+      }
+    ]
+  },
+  {
+    "lemma": "Reiseführer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "m",
+      "plural": "Reiseführer"
+    },
+    "senses": [
+      {
+        "en": "travel guide (book)",
+        "example_de": "Ich lese den Reiseführer im Zug.",
+        "example_en": "I am reading the travel guide on the train."
+      }
+    ]
+  },
+  {
+    "lemma": "Kompass",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": {
+      "gender": "m",
+      "plural": "Kompasse"
+    },
+    "senses": [
+      {
+        "en": "compass",
+        "example_de": "Der Wanderer benutzt einen Kompass.",
+        "example_en": "The hiker uses a compass."
+      }
+    ]
+  },
+  {
+    "lemma": "Souvenir",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1150,
+    "noun": {
+      "gender": "n",
+      "plural": "Souvenirs"
+    },
+    "senses": [
+      {
+        "en": "souvenir",
+        "example_de": "Ich kaufe ein Souvenir für meine Mutter.",
+        "example_en": "I am buying a souvenir for my mother."
+      }
+    ]
+  },
+  {
+    "lemma": "Zwischenstopp",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1700,
+    "noun": {
+      "gender": "m",
+      "plural": "Zwischenstopps"
+    },
+    "senses": [
+      {
+        "en": "stopover",
+        "example_de": "Wir machen einen Zwischenstopp in Rom.",
+        "example_en": "We are making a stopover in Rome."
+      }
+    ]
+  },
+  {
+    "lemma": "Verkehrsmittel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1050,
+    "noun": {
+      "gender": "n",
+      "plural": "Verkehrsmittel"
+    },
+    "senses": [
+      {
+        "en": "means of transport",
+        "example_de": "Der Bus ist ein günstiges Verkehrsmittel.",
+        "example_en": "The bus is a cheap means of transport."
+      }
+    ]
+  },
+  {
+    "lemma": "Sprechstunde",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": "Sprechstunden"
+    },
+    "senses": [
+      {
+        "en": "office hours (doctor's consultation)",
+        "example_de": "Die Sprechstunde beginnt um neun Uhr.",
+        "example_en": "Office hours begin at nine o'clock."
+      }
+    ]
+  },
+  {
+    "lemma": "Wartezimmer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": {
+      "gender": "n",
+      "plural": "Wartezimmer"
+    },
+    "senses": [
+      {
+        "en": "waiting room",
+        "example_de": "Bitte warten Sie im Wartezimmer.",
+        "example_en": "Please wait in the waiting room."
+      }
+    ]
+  },
+  {
+    "lemma": "Impfung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1150,
+    "noun": {
+      "gender": "f",
+      "plural": "Impfungen"
+    },
+    "senses": [
+      {
+        "en": "vaccination",
+        "example_de": "Die Impfung tut nicht weh.",
+        "example_en": "The vaccination does not hurt."
+      }
+    ]
+  },
+  {
+    "lemma": "Spritze",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1250,
+    "noun": {
+      "gender": "f",
+      "plural": "Spritzen"
+    },
+    "senses": [
+      {
+        "en": "injection, syringe",
+        "example_de": "Der Arzt gibt mir eine Spritze.",
+        "example_en": "The doctor gives me an injection."
+      }
+    ]
+  },
+  {
+    "lemma": "Verband",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": {
+      "gender": "m",
+      "plural": "Verbände"
+    },
+    "senses": [
+      {
+        "en": "bandage",
+        "example_de": "Sie legt einen Verband um das Bein.",
+        "example_en": "She puts a bandage around the leg."
+      }
+    ]
+  },
+  {
+    "lemma": "Tablette",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": {
+      "gender": "f",
+      "plural": "Tabletten"
+    },
+    "senses": [
+      {
+        "en": "pill, tablet",
+        "example_de": "Nimm zwei Tabletten gegen die Schmerzen.",
+        "example_en": "Take two pills for the pain."
+      }
+    ]
+  },
+  {
+    "lemma": "Salbe",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": {
+      "gender": "f",
+      "plural": "Salben"
+    },
+    "senses": [
+      {
+        "en": "ointment",
+        "example_de": "Die Salbe hilft gegen den Schmerz.",
+        "example_en": "The ointment helps against the pain."
+      }
+    ]
+  },
+  {
+    "lemma": "Allergie",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "f",
+      "plural": "Allergien"
+    },
+    "senses": [
+      {
+        "en": "allergy",
+        "example_de": "Ich habe eine Allergie gegen Nüsse.",
+        "example_en": "I have an allergy to nuts."
+      }
+    ]
+  },
+  {
+    "lemma": "Übelkeit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1550,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "nausea",
+        "example_de": "Sie hat starke Übelkeit.",
+        "example_en": "She has strong nausea."
+      }
+    ]
+  },
+  {
+    "lemma": "Verletzung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": {
+      "gender": "f",
+      "plural": "Verletzungen"
+    },
+    "senses": [
+      {
+        "en": "injury",
+        "example_de": "Er hat eine Verletzung am Knie.",
+        "example_en": "He has an injury on his knee."
+      }
+    ]
+  },
+  {
+    "lemma": "Krankschreibung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1700,
+    "noun": {
+      "gender": "f",
+      "plural": "Krankschreibungen"
+    },
+    "senses": [
+      {
+        "en": "sick note (from a doctor)",
+        "example_de": "Ich brauche eine Krankschreibung für die Arbeit.",
+        "example_en": "I need a sick note for work."
+      }
+    ]
+  },
+  {
+    "lemma": "Zahnarzt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1050,
+    "noun": {
+      "gender": "m",
+      "plural": "Zahnärzte"
+    },
+    "senses": [
+      {
+        "en": "dentist",
+        "example_de": "Ich habe morgen einen Termin beim Zahnarzt.",
+        "example_en": "I have an appointment at the dentist tomorrow."
+      }
+    ]
+  },
+  {
+    "lemma": "Krankenschwester",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1150,
+    "noun": {
+      "gender": "f",
+      "plural": "Krankenschwestern"
+    },
+    "senses": [
+      {
+        "en": "nurse",
+        "example_de": "Die Krankenschwester misst meinen Puls.",
+        "example_en": "The nurse takes my pulse."
+      }
+    ]
+  },
+  {
+    "lemma": "Notaufnahme",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": "Notaufnahmen"
+    },
+    "senses": [
+      {
+        "en": "emergency room",
+        "example_de": "Wir fahren sofort in die Notaufnahme.",
+        "example_en": "We are driving to the emergency room immediately."
+      }
+    ]
+  },
+  {
+    "lemma": "Gips",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "cast (plaster)",
+        "example_de": "Sein Arm ist im Gips.",
+        "example_en": "His arm is in a cast."
+      }
+    ]
+  },
+  {
+    "lemma": "Rollstuhl",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "m",
+      "plural": "Rollstühle"
+    },
+    "senses": [
+      {
+        "en": "wheelchair",
+        "example_de": "Sie sitzt seit dem Unfall im Rollstuhl.",
+        "example_en": "She has used a wheelchair since the accident."
+      }
+    ]
+  },
+  {
+    "lemma": "Blutdruck",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1650,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "blood pressure",
+        "example_de": "Der Arzt misst meinen Blutdruck.",
+        "example_en": "The doctor measures my blood pressure."
+      }
+    ]
+  },
+  {
+    "lemma": "Symptom",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": {
+      "gender": "n",
+      "plural": "Symptome"
+    },
+    "senses": [
+      {
+        "en": "symptom",
+        "example_de": "Fieber ist ein Symptom der Grippe.",
+        "example_en": "Fever is a symptom of the flu."
+      }
+    ]
+  },
+  {
+    "lemma": "Diagnose",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": {
+      "gender": "f",
+      "plural": "Diagnosen"
+    },
+    "senses": [
+      {
+        "en": "diagnosis",
+        "example_de": "Die Diagnose war für ihn ein Schock.",
+        "example_en": "The diagnosis was a shock for him."
+      }
+    ]
+  },
+  {
+    "lemma": "Öffnungszeiten",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "opening hours",
+        "example_de": "Die Öffnungszeiten stehen an der Tür.",
+        "example_en": "The opening hours are posted on the door."
+      }
+    ]
+  },
+  {
+    "lemma": "Wartezeit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1150,
+    "noun": {
+      "gender": "f",
+      "plural": "Wartezeiten"
+    },
+    "senses": [
+      {
+        "en": "waiting time",
+        "example_de": "Die Wartezeit beim Arzt war lang.",
+        "example_en": "The waiting time at the doctor's was long."
+      }
+    ]
+  },
+  {
+    "lemma": "Puls",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "pulse",
+        "example_de": "Mein Puls ist heute sehr schnell.",
+        "example_en": "My pulse is very fast today."
+      }
+    ]
+  },
+  {
+    "lemma": "erkälten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erkältet"
+    },
+    "senses": [
+      {
+        "en": "to catch a cold",
+        "note": "reflexiv: sich erkälten",
+        "example_de": "Ich erkälte mich oft im Winter.",
+        "example_en": "I often catch a cold in winter."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er erkältet sich schon wieder.",
+        "en": "He is catching a cold again."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie erkältete sich im Urlaub.",
+        "en": "She caught a cold on vacation."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich stark erkältet.",
+        "en": "I caught a bad cold."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Erkälte dich nicht!",
+        "en": "Don't catch a cold!"
+      }
+    ]
+  },
+  {
+    "lemma": "abbiegen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "ab",
+      "praeteritum": "bog",
+      "partizip2": "abgebogen"
+    },
+    "senses": [
+      {
+        "en": "to turn (in a direction)",
+        "note": "separable",
+        "example_de": "Biegen Sie hier rechts ab.",
+        "example_en": "Turn right here."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich biege an der Ampel ab.",
+        "en": "I turn at the traffic light."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er bog nach links ab.",
+        "en": "He turned left."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind zu früh abgebogen.",
+        "en": "We turned too early."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Bieg an der nächsten Straße ab!",
+        "en": "Turn at the next street!"
+      }
+    ]
+  },
+  {
+    "lemma": "überqueren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1350,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "überquert"
+    },
+    "senses": [
+      {
+        "en": "to cross (a street)",
+        "example_de": "Wir überqueren die Straße an der Ampel.",
+        "example_en": "We cross the street at the traffic light."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie überquert die Kreuzung vorsichtig.",
+        "en": "She crosses the intersection carefully."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er überquerte schnell die Straße.",
+        "en": "He quickly crossed the street."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Brücke überquert.",
+        "en": "We crossed the bridge."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Überquere die Straße nur bei Grün!",
+        "en": "Only cross the street on green!"
+      }
+    ]
+  },
+  {
+    "lemma": "wandern",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1050,
+    "verb": {
+      "aux": "sein"
+    },
+    "senses": [
+      {
+        "en": "to hike",
+        "example_de": "Am Wochenende wandern wir gern.",
+        "example_en": "We like to hike on weekends."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir wandern jeden Sommer in den Bergen.",
+        "en": "We hike in the mountains every summer."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie wanderten fünf Stunden lang.",
+        "en": "They hiked for five hours."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich bin heute zehn Kilometer gewandert.",
+        "en": "I hiked ten kilometers today."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Wandert nicht ohne Wasser!",
+        "en": "Don't hike without water!"
+      }
+    ]
+  },
+  {
+    "lemma": "einchecken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1450,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to check in (airport, hotel)",
+        "note": "separable",
+        "example_de": "Wir checken am Flughafen ein.",
+        "example_en": "We check in at the airport."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich checke online ein.",
+        "en": "I check in online."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er checkte spät am Schalter ein.",
+        "en": "He checked in late at the counter."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben schon eingecheckt.",
+        "en": "We have already checked in."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Checken Sie bitte hier ein!",
+        "en": "Please check in here!"
+      }
+    ]
+  },
+  {
+    "lemma": "verlaufen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben",
+      "du": "verläufst",
+      "er": "verläuft",
+      "praeteritum": "verlief",
+      "partizip2": "verlaufen"
+    },
+    "senses": [
+      {
+        "en": "to get lost",
+        "note": "reflexiv: sich verlaufen",
+        "example_de": "Ich habe mich in der Stadt verlaufen.",
+        "example_en": "I got lost in the city."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er verläuft sich oft im Wald.",
+        "en": "He often gets lost in the forest."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir verliefen uns auf dem Weg.",
+        "en": "We got lost on the way."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich total verlaufen.",
+        "en": "She got completely lost."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Verlauf dich nicht im Park!",
+        "en": "Don't get lost in the park!"
+      }
+    ]
+  },
+  {
+    "lemma": "bluten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1400,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to bleed",
+        "example_de": "Mein Finger blutet ein bisschen.",
+        "example_en": "My finger is bleeding a little."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Wunde blutet stark.",
+        "en": "The wound bleeds a lot."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sein Knie blutete nach dem Sturz.",
+        "en": "His knee bled after the fall."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Nase hat lange geblutet.",
+        "en": "The nose bled for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "husten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1150,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to cough",
+        "example_de": "Er hustet seit gestern stark.",
+        "example_en": "He has been coughing badly since yesterday."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Kind hustet die ganze Nacht.",
+        "en": "The child coughs all night."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie hustete während des Films.",
+        "en": "She coughed during the movie."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den ganzen Tag gehustet.",
+        "en": "I coughed all day."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Husten Sie bitte nicht so laut!",
+        "en": "Please don't cough so loudly!"
+      }
+    ]
+  },
+  {
+    "lemma": "niesen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1600,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to sneeze",
+        "example_de": "Sie niest wegen des Staubs.",
+        "example_en": "She sneezes because of the dust."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich niese jeden Morgen.",
+        "en": "I sneeze every morning."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er nieste dreimal hintereinander.",
+        "en": "He sneezed three times in a row."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Baby hat laut geniest.",
+        "en": "The baby sneezed loudly."
+      }
+    ]
+  },
+  {
+    "lemma": "impfen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to vaccinate",
+        "example_de": "Der Arzt impft heute viele Kinder.",
+        "example_en": "The doctor is vaccinating many children today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir impfen unseren Hund jedes Jahr.",
+        "en": "We vaccinate our dog every year."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie impfte alle Patienten im Mai.",
+        "en": "She vaccinated all patients in May."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich gegen Grippe geimpft.",
+        "en": "I got vaccinated against the flu."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Impfen Sie Ihr Kind rechtzeitig!",
+        "en": "Vaccinate your child on time!"
+      }
+    ]
+  },
+  {
+    "lemma": "mitfahren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1350,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "mit",
+      "du": "fährst",
+      "er": "fährt",
+      "praeteritum": "fuhr",
+      "partizip2": "mitgefahren"
+    },
+    "senses": [
+      {
+        "en": "to ride along, to come along (by vehicle)",
+        "note": "separable",
+        "example_de": "Darf ich im Auto mitfahren?",
+        "example_en": "May I ride along in the car?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fährt jeden Tag mit mir mit.",
+        "en": "He rides along with me every day."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie fuhr im Bus mit.",
+        "en": "She rode along on the bus."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind bis zum Bahnhof mitgefahren.",
+        "en": "We rode along to the station."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Fahr doch einfach mit!",
+        "en": "Just come along!"
+      }
+    ]
+  },
+  {
+    "lemma": "weiterfahren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1400,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "weiter",
+      "du": "fährst",
+      "er": "fährt",
+      "praeteritum": "fuhr",
+      "partizip2": "weitergefahren"
+    },
+    "senses": [
+      {
+        "en": "to continue driving, to drive on",
+        "note": "separable",
+        "example_de": "Nach der Pause fahren wir weiter.",
+        "example_en": "After the break we drive on."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fährt ohne Pause weiter.",
+        "en": "He keeps driving without a break."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir fuhren bis Hamburg weiter.",
+        "en": "We drove on to Hamburg."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie sind sofort weitergefahren.",
+        "en": "They drove on immediately."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Fahr bitte langsam weiter!",
+        "en": "Please keep driving slowly!"
+      }
+    ]
+  },
+  {
+    "lemma": "landen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1000,
+    "verb": {
+      "aux": "sein"
+    },
+    "senses": [
+      {
+        "en": "to land (plane)",
+        "example_de": "Das Flugzeug landet in zehn Minuten.",
+        "example_en": "The plane lands in ten minutes."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir landen pünktlich in Berlin.",
+        "en": "We land in Berlin on time."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Maschine landete sehr sanft.",
+        "en": "The plane landed very smoothly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Flug ist sicher gelandet.",
+        "en": "The flight landed safely."
+      }
+    ]
+  },
+  {
+    "lemma": "starten",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 950,
+    "verb": {
+      "aux": "sein"
+    },
+    "senses": [
+      {
+        "en": "to take off, to start (a flight)",
+        "example_de": "Unser Flugzeug startet um acht Uhr.",
+        "example_en": "Our plane takes off at eight o'clock."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Flug startet gleich.",
+        "en": "The flight is starting soon."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Maschine startete mit Verspätung.",
+        "en": "The plane took off late."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir sind pünktlich gestartet.",
+        "en": "We took off on time."
+      }
+    ]
+  },
+  {
+    "lemma": "behandeln",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1100,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "behandelt"
+    },
+    "senses": [
+      {
+        "en": "to treat (medically)",
+        "example_de": "Der Arzt behandelt meine Verletzung.",
+        "example_en": "The doctor treats my injury."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie behandelt viele kranke Kinder.",
+        "en": "She treats many sick children."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er behandelte mich sehr freundlich.",
+        "en": "He treated me very kindly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Arzt hat die Wunde behandelt.",
+        "en": "The doctor treated the wound."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Behandeln Sie den Patienten sofort!",
+        "en": "Treat the patient immediately!"
+      }
+    ]
+  },
+  {
+    "lemma": "heilen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1200,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to heal, to cure",
+        "note": "auch intransitiv mit sein: Die Wunde ist geheilt.",
+        "example_de": "Die Tablette heilt die Erkältung schnell.",
+        "example_en": "The pill cures the cold quickly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Wunde heilt gut.",
+        "en": "The wound is healing well."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Arzt heilte seine Krankheit.",
+        "en": "The doctor cured his illness."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Bein ist vollständig geheilt.",
+        "en": "The leg has fully healed."
+      }
+    ]
+  },
+  {
+    "lemma": "wehtun",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1050,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "weh",
+      "praeteritum": "tat",
+      "partizip2": "wehgetan"
+    },
+    "senses": [
+      {
+        "en": "to hurt",
+        "note": "separable; oft mit Dativ: es tut mir weh",
+        "example_de": "Mein Kopf tut mir weh.",
+        "example_en": "My head hurts."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Zahn tut ihm weh.",
+        "en": "His tooth hurts."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Ihr Bein tat sehr weh.",
+        "en": "Her leg hurt a lot."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Rücken hat mir wehgetan.",
+        "en": "My back hurt."
+      }
+    ]
+  },
+  {
+    "lemma": "brechen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1300,
+    "verb": {
+      "aux": "haben",
+      "du": "brichst",
+      "er": "bricht",
+      "praeteritum": "brach",
+      "partizip2": "gebrochen"
+    },
+    "senses": [
+      {
+        "en": "to break (a bone)",
+        "note": "reflexiv mit Dativ: sich den Arm brechen",
+        "example_de": "Er hat sich den Arm gebrochen.",
+        "example_en": "He broke his arm."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie bricht sich oft die Finger.",
+        "en": "She often breaks her fingers."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Ich brach mir das Bein beim Skifahren.",
+        "en": "I broke my leg skiing."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich das Handgelenk gebrochen.",
+        "en": "He broke his wrist."
+      }
+    ]
+  },
+  {
+    "lemma": "auschecken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1700,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to check out (of a hotel)",
+        "note": "separable",
+        "example_de": "Wir checken um zehn Uhr aus.",
+        "example_en": "We check out at ten o'clock."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich checke morgen früh aus.",
+        "en": "I check out tomorrow morning."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er checkte spät im Hotel aus.",
+        "en": "He checked out late at the hotel."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben schon ausgecheckt.",
+        "en": "We have already checked out."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Checken Sie bitte bis elf Uhr aus!",
+        "en": "Please check out by eleven o'clock!"
+      }
+    ]
+  },
+  {
+    "lemma": "erholen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1250,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erholt"
+    },
+    "senses": [
+      {
+        "en": "to recover, to recuperate",
+        "note": "reflexiv: sich erholen",
+        "example_de": "Ich erhole mich langsam von der Grippe.",
+        "example_en": "I am slowly recovering from the flu."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er erholt sich gut im Urlaub.",
+        "en": "He recovers well on vacation."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie erholte sich schnell von der Erkältung.",
+        "en": "She recovered quickly from the cold."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns am Meer erholt.",
+        "en": "We recuperated at the seaside."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Erhol dich gut!",
+        "en": "Recover well!"
+      }
+    ]
+  },
+  {
+    "lemma": "übel",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "unwell, nauseous",
+        "note": "oft: mir ist übel",
+        "example_de": "Mir ist heute etwas übel.",
+        "example_en": "I feel a bit nauseous today."
+      }
+    ]
+  },
+  {
+    "lemma": "ansteckend",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "contagious",
+        "example_de": "Die Grippe ist sehr ansteckend.",
+        "example_en": "The flu is very contagious."
+      }
+    ]
+  },
+  {
+    "lemma": "schwindelig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1450,
+    "senses": [
+      {
+        "en": "dizzy",
+        "note": "oft: mir ist schwindelig",
+        "example_de": "Mir wird schnell schwindelig.",
+        "example_en": "I get dizzy quickly."
+      }
+    ]
+  },
+  {
+    "lemma": "unwohl",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "unwell, uncomfortable",
+        "note": "oft: sich unwohl fühlen",
+        "example_de": "Er fühlt sich heute unwohl.",
+        "example_en": "He feels unwell today."
+      }
+    ]
+  },
+  {
+    "lemma": "verletzt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      {
+        "en": "injured",
+        "example_de": "Der Fahrer ist leicht verletzt.",
+        "example_en": "The driver is slightly injured."
+      }
+    ]
+  },
+  {
+    "lemma": "gesperrt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1350,
+    "senses": [
+      {
+        "en": "closed off (road)",
+        "example_de": "Die Straße ist wegen Bauarbeiten gesperrt.",
+        "example_en": "The street is closed due to construction."
+      }
+    ]
+  },
+  {
+    "lemma": "rechtzeitig",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "on time, in time",
+        "example_de": "Wir kommen rechtzeitig am Flughafen an.",
+        "example_en": "We arrive at the airport on time."
+      }
+    ]
+  },
+  {
+    "lemma": "hin und zurück",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "there and back, round trip",
+        "example_de": "Einmal Berlin, hin und zurück, bitte.",
+        "example_en": "One ticket to Berlin, round trip, please."
+      }
+    ]
+  },
+  {
+    "lemma": "kostenpflichtig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "chargeable, subject to a fee",
+        "example_de": "Die Toilette hier ist kostenpflichtig.",
+        "example_en": "The toilet here requires a fee."
+      }
+    ]
+  },
+  {
+    "lemma": "barrierefrei",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1550,
+    "senses": [
+      {
+        "en": "accessible, barrier-free",
+        "example_de": "Der Bahnhof ist barrierefrei gebaut.",
+        "example_en": "The station is built to be accessible."
+      }
+    ]
+  }
+]

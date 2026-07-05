@@ -1,0 +1,2071 @@
+[
+  {
+    "lemma": "Missverständnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": {
+      "gender": "n",
+      "plural": "Missverständnisse",
+      "genitive": "Missverständnisses"
+    },
+    "senses": [
+      {
+        "en": "misunderstanding",
+        "example_de": "Das war nur ein Missverständnis.",
+        "example_en": "That was just a misunderstanding."
+      }
+    ]
+  },
+  {
+    "lemma": "Versöhnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1508,
+    "noun": {
+      "gender": "f",
+      "plural": "Versöhnungen"
+    },
+    "senses": [
+      {
+        "en": "reconciliation",
+        "example_de": "Nach dem Streit kam die Versöhnung.",
+        "example_en": "After the argument came the reconciliation."
+      }
+    ]
+  },
+  {
+    "lemma": "Geborgenheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1516,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "sense of security, feeling of being safe/loved",
+        "example_de": "Sie sucht Geborgenheit in der Familie.",
+        "example_en": "She seeks security within the family."
+      }
+    ]
+  },
+  {
+    "lemma": "Zuneigung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1524,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "affection",
+        "example_de": "Sie zeigt ihm viel Zuneigung.",
+        "example_en": "She shows him a lot of affection."
+      }
+    ]
+  },
+  {
+    "lemma": "Abneigung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1532,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "dislike, aversion",
+        "example_de": "Er hat eine Abneigung gegen Streit.",
+        "example_en": "He has an aversion to arguments.",
+        "note": "+ gegen"
+      }
+    ]
+  },
+  {
+    "lemma": "Sehnsucht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1540,
+    "noun": {
+      "gender": "f",
+      "plural": "Sehnsüchte"
+    },
+    "senses": [
+      {
+        "en": "longing, yearning",
+        "example_de": "Sie hat große Sehnsucht nach ihm.",
+        "example_en": "She longs deeply for him.",
+        "note": "+ nach"
+      }
+    ]
+  },
+  {
+    "lemma": "Empörung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1548,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "indignation, outrage",
+        "example_de": "Der Vorschlag löste große Empörung aus.",
+        "example_en": "The proposal caused great outrage."
+      }
+    ]
+  },
+  {
+    "lemma": "Trauer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1556,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "grief, sadness",
+        "example_de": "Die Trauer um ihren Vater war groß.",
+        "example_en": "The grief over her father was great."
+      }
+    ]
+  },
+  {
+    "lemma": "Verzweiflung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1564,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "despair",
+        "example_de": "In ihrer Verzweiflung rief sie ihn an.",
+        "example_en": "In her despair, she called him."
+      }
+    ]
+  },
+  {
+    "lemma": "Zufriedenheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1572,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "satisfaction, contentment",
+        "example_de": "Ihre Zufriedenheit war deutlich zu sehen.",
+        "example_en": "Her contentment was clearly visible."
+      }
+    ]
+  },
+  {
+    "lemma": "Reue",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1580,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "remorse, regret",
+        "example_de": "Er zeigte echte Reue über sein Verhalten.",
+        "example_en": "He showed real remorse for his behavior."
+      }
+    ]
+  },
+  {
+    "lemma": "Schuldgefühl",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1588,
+    "noun": {
+      "gender": "n",
+      "plural": "Schuldgefühle"
+    },
+    "senses": [
+      {
+        "en": "guilty conscience, feeling of guilt",
+        "example_de": "Er hat Schuldgefühle wegen der Lüge.",
+        "example_en": "He feels guilty because of the lie.",
+        "note": "meist Plural: Schuldgefühle haben"
+      }
+    ]
+  },
+  {
+    "lemma": "Mitgefühl",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1596,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "sympathy, compassion",
+        "example_de": "Sie zeigte echtes Mitgefühl mit ihm.",
+        "example_en": "She showed real compassion for him.",
+        "note": "+ mit"
+      }
+    ]
+  },
+  {
+    "lemma": "Rücksicht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1604,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "consideration",
+        "example_de": "Nimm bitte mehr Rücksicht auf andere.",
+        "example_en": "Please show more consideration for others.",
+        "note": "+ auf + Akkusativ"
+      }
+    ]
+  },
+  {
+    "lemma": "Toleranz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1612,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "tolerance",
+        "example_de": "Toleranz ist wichtig für das Zusammenleben.",
+        "example_en": "Tolerance is important for living together."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorwurf",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": {
+      "gender": "m",
+      "plural": "Vorwürfe"
+    },
+    "senses": [
+      {
+        "en": "reproach, accusation",
+        "example_de": "Sie machte ihm einen leisen Vorwurf.",
+        "example_en": "She made a quiet reproach to him."
+      }
+    ]
+  },
+  {
+    "lemma": "Kompromiss",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1628,
+    "noun": {
+      "gender": "m",
+      "plural": "Kompromisse"
+    },
+    "senses": [
+      {
+        "en": "compromise",
+        "example_de": "Am Ende fanden sie einen Kompromiss.",
+        "example_en": "In the end, they found a compromise."
+      }
+    ]
+  },
+  {
+    "lemma": "Auseinandersetzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1636,
+    "noun": {
+      "gender": "f",
+      "plural": "Auseinandersetzungen"
+    },
+    "senses": [
+      {
+        "en": "argument, dispute",
+        "example_de": "Die Auseinandersetzung dauerte fast eine Stunde.",
+        "example_en": "The argument lasted almost an hour."
+      }
+    ]
+  },
+  {
+    "lemma": "Versprechen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1644,
+    "noun": {
+      "gender": "n",
+      "plural": "Versprechen"
+    },
+    "senses": [
+      {
+        "en": "promise",
+        "example_de": "Er hat sein Versprechen nicht gehalten.",
+        "example_en": "He didn't keep his promise."
+      }
+    ]
+  },
+  {
+    "lemma": "Trennung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1652,
+    "noun": {
+      "gender": "f",
+      "plural": "Trennungen"
+    },
+    "senses": [
+      {
+        "en": "separation, breakup",
+        "example_de": "Die Trennung war für beide schwer.",
+        "example_en": "The breakup was hard for both of them."
+      }
+    ]
+  },
+  {
+    "lemma": "Freundschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1660,
+    "noun": {
+      "gender": "f",
+      "plural": "Freundschaften"
+    },
+    "senses": [
+      {
+        "en": "friendship",
+        "example_de": "Ihre Freundschaft hält schon zehn Jahre.",
+        "example_en": "Their friendship has lasted ten years already."
+      }
+    ]
+  },
+  {
+    "lemma": "Ehe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1668,
+    "noun": {
+      "gender": "f",
+      "plural": "Ehen"
+    },
+    "senses": [
+      {
+        "en": "marriage",
+        "example_de": "Sie führen eine sehr glückliche Ehe.",
+        "example_en": "They have a very happy marriage."
+      }
+    ]
+  },
+  {
+    "lemma": "Partnerschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1676,
+    "noun": {
+      "gender": "f",
+      "plural": "Partnerschaften"
+    },
+    "senses": [
+      {
+        "en": "partnership",
+        "example_de": "Vertrauen ist die Basis jeder Partnerschaft.",
+        "example_en": "Trust is the basis of every partnership."
+      }
+    ]
+  },
+  {
+    "lemma": "Verständnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1684,
+    "noun": {
+      "gender": "n",
+      "plural": null,
+      "genitive": "Verständnisses"
+    },
+    "senses": [
+      {
+        "en": "understanding",
+        "example_de": "Er hat viel Verständnis für ihre Lage.",
+        "example_en": "He has a lot of understanding for her situation.",
+        "note": "+ für"
+      }
+    ]
+  },
+  {
+    "lemma": "Zärtlichkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1692,
+    "noun": {
+      "gender": "f",
+      "plural": "Zärtlichkeiten"
+    },
+    "senses": [
+      {
+        "en": "tenderness, affection",
+        "example_de": "Sie behandelt ihn mit großer Zärtlichkeit.",
+        "example_en": "She treats him with great tenderness."
+      }
+    ]
+  },
+  {
+    "lemma": "Leidenschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1700,
+    "noun": {
+      "gender": "f",
+      "plural": "Leidenschaften"
+    },
+    "senses": [
+      {
+        "en": "passion",
+        "example_de": "Musik ist seine größte Leidenschaft.",
+        "example_en": "Music is his greatest passion."
+      }
+    ]
+  },
+  {
+    "lemma": "Verlegenheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1708,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "embarrassment",
+        "example_de": "Die Frage brachte sie in Verlegenheit.",
+        "example_en": "The question embarrassed her.",
+        "note": "jemanden in Verlegenheit bringen"
+      }
+    ]
+  },
+  {
+    "lemma": "Gleichgültigkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1716,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "indifference",
+        "example_de": "Seine Gleichgültigkeit verletzte sie sehr.",
+        "example_en": "His indifference hurt her a lot."
+      }
+    ]
+  },
+  {
+    "lemma": "Wertschätzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1724,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "appreciation, esteem",
+        "example_de": "Er verdient mehr Wertschätzung im Job.",
+        "example_en": "He deserves more appreciation at work."
+      }
+    ]
+  },
+  {
+    "lemma": "Anerkennung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1732,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "recognition, appreciation",
+        "example_de": "Sie bekam endlich Anerkennung für ihre Arbeit.",
+        "example_en": "She finally got recognition for her work."
+      }
+    ]
+  },
+  {
+    "lemma": "Kränkung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": {
+      "gender": "f",
+      "plural": "Kränkungen"
+    },
+    "senses": [
+      {
+        "en": "hurt, insult",
+        "example_de": "Diese Kränkung vergisst er nie.",
+        "example_en": "He will never forget this insult."
+      }
+    ]
+  },
+  {
+    "lemma": "Verlust",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1748,
+    "noun": {
+      "gender": "m",
+      "plural": "Verluste"
+    },
+    "senses": [
+      {
+        "en": "loss",
+        "example_de": "Der Verlust ihrer Freundin traf sie schwer.",
+        "example_en": "The loss of her friend hit her hard."
+      }
+    ]
+  },
+  {
+    "lemma": "Neid",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1756,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "envy",
+        "example_de": "Sein Erfolg weckte viel Neid.",
+        "example_en": "His success provoked a lot of envy."
+      }
+    ]
+  },
+  {
+    "lemma": "Hoffnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1764,
+    "noun": {
+      "gender": "f",
+      "plural": "Hoffnungen"
+    },
+    "senses": [
+      {
+        "en": "hope",
+        "example_de": "Sie gibt die Hoffnung nicht auf.",
+        "example_en": "She doesn't give up hope."
+      }
+    ]
+  },
+  {
+    "lemma": "Ärger",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1772,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "anger, trouble",
+        "example_de": "Er hatte großen Ärger mit seiner Schwester.",
+        "example_en": "He had a big fight with his sister.",
+        "note": "auch: Ärger haben = Probleme haben"
+      }
+    ]
+  },
+  {
+    "lemma": "Zuwendung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1780,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "attention, affection",
+        "example_de": "Kinder brauchen viel Zuwendung von den Eltern.",
+        "example_en": "Children need a lot of attention from their parents."
+      }
+    ]
+  },
+  {
+    "lemma": "Zweifel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1788,
+    "noun": {
+      "gender": "m",
+      "plural": "Zweifel"
+    },
+    "senses": [
+      {
+        "en": "doubt",
+        "example_de": "Ich habe Zweifel an seinen Worten.",
+        "example_en": "I have doubts about his words.",
+        "note": "+ an + Dativ"
+      }
+    ]
+  },
+  {
+    "lemma": "Beleidigung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1796,
+    "noun": {
+      "gender": "f",
+      "plural": "Beleidigungen"
+    },
+    "senses": [
+      {
+        "en": "insult",
+        "example_de": "Das war eine echte Beleidigung für ihn.",
+        "example_en": "That was a real insult to him."
+      }
+    ]
+  },
+  {
+    "lemma": "Spannung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1804,
+    "noun": {
+      "gender": "f",
+      "plural": "Spannungen"
+    },
+    "senses": [
+      {
+        "en": "tension",
+        "example_de": "Zwischen den beiden herrscht große Spannung.",
+        "example_en": "There is great tension between the two of them."
+      }
+    ]
+  },
+  {
+    "lemma": "Harmonie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1812,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "harmony",
+        "example_de": "In der Familie herrscht meist Harmonie.",
+        "example_en": "There is usually harmony in the family."
+      }
+    ]
+  },
+  {
+    "lemma": "versöhnen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1850,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "versöhnt"
+    },
+    "senses": [
+      {
+        "en": "to reconcile",
+        "example_de": "Sie versöhnen sich nach dem Streit.",
+        "example_en": "They reconcile after the argument.",
+        "note": "reflexiv: sich versöhnen mit + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie versöhnten sich schnell wieder.",
+        "en": "They quickly reconciled again."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns endlich versöhnt.",
+        "en": "We have finally reconciled."
+      }
+    ]
+  },
+  {
+    "lemma": "anvertrauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1858,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to confide in, to entrust",
+        "example_de": "Sie vertraut sich ihrer besten Freundin an.",
+        "example_en": "She confides in her best friend.",
+        "note": "reflexiv: sich jemandem anvertrauen"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er vertraute sich niemandem an.",
+        "en": "He didn't confide in anyone."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich ihr endlich anvertraut.",
+        "en": "I finally confided in her."
+      }
+    ]
+  },
+  {
+    "lemma": "hassen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1866,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to hate",
+        "example_de": "Er hasst solche Streitereien total.",
+        "example_en": "He totally hates such quarrels."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie hasste diese Situation.",
+        "en": "She hated this situation."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das nie gehasst.",
+        "en": "I have never hated that."
+      }
+    ]
+  },
+  {
+    "lemma": "enttäuschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1874,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "enttäuscht"
+    },
+    "senses": [
+      {
+        "en": "to disappoint",
+        "example_de": "Du hast mich sehr enttäuscht.",
+        "example_en": "You disappointed me a lot."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er enttäuschte seine Eltern oft.",
+        "en": "He often disappointed his parents."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat ihn nie enttäuscht.",
+        "en": "She has never disappointed him."
+      }
+    ]
+  },
+  {
+    "lemma": "zweifeln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1882,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to doubt",
+        "example_de": "Ich zweifle an seiner Ehrlichkeit.",
+        "example_en": "I doubt his honesty.",
+        "note": "+ an + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie zweifelte an ihrer Liebe.",
+        "en": "She doubted her love."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat nie daran gezweifelt.",
+        "en": "He has never doubted that."
+      }
+    ]
+  },
+  {
+    "lemma": "beleidigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1890,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to insult",
+        "example_de": "Er wollte sie nicht beleidigen.",
+        "example_en": "He didn't want to insult her."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie beleidigte ihn ungewollt.",
+        "en": "She unintentionally insulted him."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe ihn nie beleidigt.",
+        "en": "I have never insulted him."
+      }
+    ]
+  },
+  {
+    "lemma": "kränken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1898,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to hurt, to offend",
+        "example_de": "Seine Worte haben sie sehr gekränkt.",
+        "example_en": "His words hurt her a lot."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er kränkte sie mit seinem Witz.",
+        "en": "He hurt her with his joke."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das hat mich tief gekränkt.",
+        "en": "That deeply hurt me."
+      }
+    ]
+  },
+  {
+    "lemma": "trösten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1906,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to comfort, to console",
+        "example_de": "Sie tröstete ihn nach der Trennung.",
+        "example_en": "She comforted him after the breakup."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er tröstete seine weinende Freundin.",
+        "en": "He comforted his crying girlfriend."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe sie lange getröstet.",
+        "en": "I comforted her for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "verzeihen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1914,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "verzieh",
+      "partizip2": "verziehen"
+    },
+    "senses": [
+      {
+        "en": "to forgive",
+        "example_de": "Kannst du mir das verzeihen?",
+        "example_en": "Can you forgive me for that?",
+        "note": "+ Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie verzieh ihm schließlich alles.",
+        "en": "She finally forgave him everything."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe ihm längst verziehen.",
+        "en": "I forgave him long ago."
+      }
+    ]
+  },
+  {
+    "lemma": "vergeben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1922,
+    "verb": {
+      "aux": "haben",
+      "du": "vergibst",
+      "er": "vergibt",
+      "praeteritum": "vergab",
+      "partizip2": "vergeben"
+    },
+    "senses": [
+      {
+        "en": "to forgive",
+        "example_de": "Er kann ihr nicht vergeben.",
+        "example_en": "He can't forgive her.",
+        "note": "+ Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie vergibt ihm schnell.",
+        "en": "She forgives him quickly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er vergab ihr den Fehler.",
+        "en": "He forgave her the mistake."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe ihr längst vergeben.",
+        "en": "I forgave her long ago."
+      }
+    ]
+  },
+  {
+    "lemma": "beschützen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1930,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beschützt"
+    },
+    "senses": [
+      {
+        "en": "to protect",
+        "example_de": "Er beschützt seine kleine Schwester.",
+        "example_en": "He protects his little sister."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie beschützte ihn vor Gefahr.",
+        "en": "She protected him from danger."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe sie immer beschützt.",
+        "en": "I have always protected her."
+      }
+    ]
+  },
+  {
+    "lemma": "befürchten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1938,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "befürchtet"
+    },
+    "senses": [
+      {
+        "en": "to fear, to be afraid that",
+        "example_de": "Ich befürchte einen weiteren Streit.",
+        "example_en": "I fear another argument."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er befürchtete das Schlimmste.",
+        "en": "He feared the worst."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat einen Konflikt befürchtet.",
+        "en": "She feared a conflict."
+      }
+    ]
+  },
+  {
+    "lemma": "fürchten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1946,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to fear",
+        "example_de": "Sie fürchtet seine Reaktion.",
+        "example_en": "She fears his reaction.",
+        "note": "reflexiv: sich fürchten vor + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er fürchtete sich vor dem Gespräch.",
+        "en": "He was afraid of the conversation."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich davor gefürchtet.",
+        "en": "I was afraid of that."
+      }
+    ]
+  },
+  {
+    "lemma": "anfreunden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1954,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to make friends with, to befriend",
+        "example_de": "Sie freundet sich schnell mit anderen an.",
+        "example_en": "She makes friends with others quickly.",
+        "note": "reflexiv: sich anfreunden mit + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er freundete sich mit ihr an.",
+        "en": "He made friends with her."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns schnell angefreundet.",
+        "en": "We quickly became friends."
+      }
+    ]
+  },
+  {
+    "lemma": "aussprechen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1962,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus",
+      "du": "sprichst",
+      "er": "spricht",
+      "praeteritum": "sprach",
+      "partizip2": "ausgesprochen"
+    },
+    "senses": [
+      {
+        "en": "to talk things through, to have it out",
+        "example_de": "Sie sprechen sich endlich aus.",
+        "example_en": "They finally talk things through.",
+        "note": "reflexiv: sich aussprechen (mit jemandem)"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er spricht sich mit ihr aus.",
+        "en": "He talks it through with her."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie sprachen sich lange aus.",
+        "en": "They talked things through for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns endlich ausgesprochen.",
+        "en": "We have finally talked things through."
+      }
+    ]
+  },
+  {
+    "lemma": "missverstehen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1970,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "missverstand",
+      "partizip2": "missverstanden"
+    },
+    "senses": [
+      {
+        "en": "to misunderstand",
+        "example_de": "Bitte missverstehe mich nicht falsch.",
+        "example_en": "Please don't misunderstand me."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er missverstand ihre Absicht völlig.",
+        "en": "He completely misunderstood her intention."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat mich total missverstanden.",
+        "en": "She totally misunderstood me."
+      }
+    ]
+  },
+  {
+    "lemma": "respektieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1978,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to respect",
+        "example_de": "Er respektiert ihre Meinung immer.",
+        "example_en": "He always respects her opinion."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie respektierte seine Entscheidung.",
+        "en": "She respected his decision."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe seine Grenzen respektiert.",
+        "en": "I respected his boundaries."
+      }
+    ]
+  },
+  {
+    "lemma": "tolerieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1986,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to tolerate",
+        "example_de": "Sie toleriert seine Launen nicht mehr.",
+        "example_en": "She no longer tolerates his moods."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er tolerierte ihr Verhalten lange.",
+        "en": "He tolerated her behavior for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das nicht toleriert.",
+        "en": "We did not tolerate that."
+      }
+    ]
+  },
+  {
+    "lemma": "akzeptieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1994,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to accept",
+        "example_de": "Er akzeptiert ihre Entscheidung nicht.",
+        "example_en": "He doesn't accept her decision."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie akzeptierte seine Entschuldigung.",
+        "en": "She accepted his apology."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Regel akzeptiert.",
+        "en": "I accepted the rule."
+      }
+    ]
+  },
+  {
+    "lemma": "meiden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2002,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "mied",
+      "partizip2": "gemieden"
+    },
+    "senses": [
+      {
+        "en": "to avoid (someone)",
+        "example_de": "Sie meidet ihn seit dem Streit.",
+        "example_en": "She has avoided him since the argument."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er mied seinen alten Freund lange.",
+        "en": "He avoided his old friend for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe sie bewusst gemieden.",
+        "en": "I deliberately avoided her."
+      }
+    ]
+  },
+  {
+    "lemma": "überreden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2010,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "überredet"
+    },
+    "senses": [
+      {
+        "en": "to persuade",
+        "example_de": "Sie überredete ihn zur Versöhnung.",
+        "example_en": "She persuaded him to reconcile."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er überredete sie zum Bleiben.",
+        "en": "He persuaded her to stay."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe ihn dazu überredet.",
+        "en": "I persuaded him to do it."
+      }
+    ]
+  },
+  {
+    "lemma": "ermutigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2018,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "ermutigt"
+    },
+    "senses": [
+      {
+        "en": "to encourage",
+        "example_de": "Ihre Worte ermutigten ihn sehr.",
+        "example_en": "Her words encouraged him a lot."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie ermutigte ihn zum Gespräch.",
+        "en": "She encouraged him to talk."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat mich immer ermutigt.",
+        "en": "He has always encouraged me."
+      }
+    ]
+  },
+  {
+    "lemma": "beruhigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2026,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beruhigt"
+    },
+    "senses": [
+      {
+        "en": "to calm down, to soothe",
+        "example_de": "Er beruhigt sich nach dem Streit.",
+        "example_en": "He calms down after the argument.",
+        "note": "auch reflexiv: sich beruhigen"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie beruhigte ihn mit sanften Worten.",
+        "en": "She calmed him with gentle words."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich langsam beruhigt.",
+        "en": "I slowly calmed down."
+      }
+    ]
+  },
+  {
+    "lemma": "aufregen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2034,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf"
+    },
+    "senses": [
+      {
+        "en": "to get upset, to excite",
+        "example_de": "Sie regt sich über jede Kleinigkeit auf.",
+        "example_en": "She gets upset about every little thing.",
+        "note": "reflexiv: sich aufregen über"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er regte sich furchtbar auf.",
+        "en": "He got terribly upset."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich sehr aufgeregt.",
+        "en": "I got very upset."
+      }
+    ]
+  },
+  {
+    "lemma": "vertragen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2042,
+    "verb": {
+      "aux": "haben",
+      "du": "verträgst",
+      "er": "verträgt",
+      "praeteritum": "vertrug",
+      "partizip2": "vertragen"
+    },
+    "senses": [
+      {
+        "en": "to get along",
+        "example_de": "Die Geschwister vertragen sich wieder.",
+        "example_en": "The siblings get along again.",
+        "note": "reflexiv: sich vertragen mit"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie verträgt sich gut mit ihm.",
+        "en": "She gets along well with him."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie vertrugen sich nach dem Streit.",
+        "en": "They got along again after the argument."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns wieder vertragen.",
+        "en": "We got along again."
+      }
+    ]
+  },
+  {
+    "lemma": "loben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2050,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to praise",
+        "example_de": "Der Chef lobt ihre gute Arbeit.",
+        "example_en": "The boss praises her good work."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie lobte ihn für seine Geduld.",
+        "en": "She praised him for his patience."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sie oft gelobt.",
+        "en": "He has often praised her."
+      }
+    ]
+  },
+  {
+    "lemma": "schätzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2058,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to value, to appreciate",
+        "example_de": "Ich schätze deine Ehrlichkeit sehr.",
+        "example_en": "I value your honesty a lot."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er schätzte ihre Meinung immer.",
+        "en": "He always valued her opinion."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben seine Hilfe geschätzt.",
+        "en": "We appreciated his help."
+      }
+    ]
+  },
+  {
+    "lemma": "verachten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2066,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verachtet"
+    },
+    "senses": [
+      {
+        "en": "to despise",
+        "example_de": "Sie verachtet solche Lügen zutiefst.",
+        "example_en": "She deeply despises such lies."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er verachtete seinen früheren Freund.",
+        "en": "He despised his former friend."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe ihn nie verachtet.",
+        "en": "I have never despised him."
+      }
+    ]
+  },
+  {
+    "lemma": "kuscheln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2074,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to cuddle",
+        "example_de": "Die beiden kuscheln gern auf dem Sofa.",
+        "example_en": "The two like to cuddle on the sofa."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie kuschelten den ganzen Abend.",
+        "en": "They cuddled all evening."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben lange zusammen gekuschelt.",
+        "en": "We cuddled together for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "nerven",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2082,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to annoy",
+        "example_de": "Sein ständiges Klagen nervt sie.",
+        "example_en": "His constant complaining annoys her."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Das nervte mich den ganzen Abend.",
+        "en": "That annoyed me all evening."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat mich damit genervt.",
+        "en": "He has annoyed me with that."
+      }
+    ]
+  },
+  {
+    "lemma": "vorwerfen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2090,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "vor",
+      "du": "wirfst",
+      "er": "wirft",
+      "praeteritum": "warf",
+      "partizip2": "vorgeworfen"
+    },
+    "senses": [
+      {
+        "en": "to reproach, to accuse",
+        "example_de": "Sie wirft ihm seine Lüge vor.",
+        "example_en": "She reproaches him for his lie.",
+        "note": "+ Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er wirft ihr Unehrlichkeit vor.",
+        "en": "He accuses her of dishonesty."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie warf ihm sein Schweigen vor.",
+        "en": "She reproached him for his silence."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe ihm nichts vorgeworfen.",
+        "en": "I didn't reproach him for anything."
+      }
+    ]
+  },
+  {
+    "lemma": "umarmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2098,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "umarmt"
+    },
+    "senses": [
+      {
+        "en": "to hug, to embrace",
+        "example_de": "Sie umarmten sich lange zur Begrüßung.",
+        "example_en": "They hugged each other for a long time."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er umarmte sie zum Abschied.",
+        "en": "He hugged her goodbye."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns fest umarmt.",
+        "en": "We hugged each other tightly."
+      }
+    ]
+  },
+  {
+    "lemma": "flirten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2106,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to flirt",
+        "example_de": "Er flirtet gern mit netten Leuten.",
+        "example_en": "He likes to flirt with nice people."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie flirtete den ganzen Abend mit ihm.",
+        "en": "She flirted with him all evening."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe nur ein bisschen geflirtet.",
+        "en": "I only flirted a little bit."
+      }
+    ]
+  },
+  {
+    "lemma": "einsetzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2114,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to stand up for, to commit oneself",
+        "example_de": "Er setzt sich für seine Familie ein.",
+        "example_en": "He stands up for his family.",
+        "note": "reflexiv: sich einsetzen für"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie setzte sich sehr für ihn ein.",
+        "en": "She stood up for him a lot."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich dafür eingesetzt.",
+        "en": "I have stood up for that."
+      }
+    ]
+  },
+  {
+    "lemma": "rechtfertigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2122,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to justify",
+        "example_de": "Er kann sein Verhalten nicht rechtfertigen.",
+        "example_en": "He can't justify his behavior.",
+        "note": "auch reflexiv: sich rechtfertigen"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie rechtfertigte ihre Entscheidung ausführlich.",
+        "en": "She justified her decision in detail."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich dafür gerechtfertigt.",
+        "en": "I justified myself for that."
+      }
+    ]
+  },
+  {
+    "lemma": "besitzergreifend",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2200,
+    "senses": [
+      {
+        "en": "possessive",
+        "example_de": "Sein besitzergreifendes Verhalten stört sie.",
+        "example_en": "His possessive behavior bothers her."
+      }
+    ]
+  },
+  {
+    "lemma": "nachtragend",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2210,
+    "senses": [
+      {
+        "en": "holding a grudge",
+        "example_de": "Sei nicht so nachtragend, vergib ihm!",
+        "example_en": "Don't hold a grudge, forgive him!"
+      }
+    ]
+  },
+  {
+    "lemma": "versöhnlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2220,
+    "senses": [
+      {
+        "en": "conciliatory",
+        "example_de": "Nach dem Streit war sie versöhnlich gestimmt.",
+        "example_en": "After the argument, she was in a conciliatory mood."
+      }
+    ]
+  },
+  {
+    "lemma": "streitsüchtig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2230,
+    "senses": [
+      {
+        "en": "quarrelsome",
+        "example_de": "Ihr Nachbar ist ziemlich streitsüchtig.",
+        "example_en": "Her neighbor is quite quarrelsome."
+      }
+    ]
+  },
+  {
+    "lemma": "einfühlsam",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2240,
+    "senses": [
+      {
+        "en": "empathetic, sensitive",
+        "example_de": "Sie reagierte sehr einfühlsam auf ihn.",
+        "example_en": "She reacted very empathetically to him."
+      }
+    ]
+  },
+  {
+    "lemma": "rachsüchtig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2250,
+    "senses": [
+      {
+        "en": "vengeful",
+        "example_de": "Er wirkte nach der Trennung rachsüchtig.",
+        "example_en": "He seemed vengeful after the breakup."
+      }
+    ]
+  },
+  {
+    "lemma": "gekränkt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2260,
+    "senses": [
+      {
+        "en": "hurt, offended",
+        "example_de": "Sie fühlte sich von der Kritik gekränkt.",
+        "example_en": "She felt hurt by the criticism.",
+        "note": "+ von"
+      }
+    ]
+  },
+  {
+    "lemma": "vertrauenswürdig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2270,
+    "senses": [
+      {
+        "en": "trustworthy",
+        "example_de": "Ihr Freund ist sehr vertrauenswürdig.",
+        "example_en": "Her friend is very trustworthy."
+      }
+    ]
+  },
+  {
+    "lemma": "taktvoll",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2280,
+    "senses": [
+      {
+        "en": "tactful",
+        "example_de": "Er reagierte sehr taktvoll auf die Nachricht.",
+        "example_en": "He reacted very tactfully to the news."
+      }
+    ]
+  },
+  {
+    "lemma": "selbstlos",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2290,
+    "senses": [
+      {
+        "en": "selfless",
+        "example_de": "Sie half ihm ganz selbstlos.",
+        "example_en": "She helped him completely selflessly."
+      }
+    ]
+  },
+  {
+    "lemma": "verbittert",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2300,
+    "senses": [
+      {
+        "en": "embittered, bitter",
+        "example_de": "Nach der Scheidung wirkte er verbittert.",
+        "example_en": "After the divorce, he seemed embittered."
+      }
+    ]
+  },
+  {
+    "lemma": "beleidigt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2310,
+    "senses": [
+      {
+        "en": "offended, in a huff",
+        "example_de": "Er war beleidigt und sagte nichts mehr.",
+        "example_en": "He was offended and said nothing more."
+      }
+    ]
+  },
+  {
+    "lemma": "liebevoll",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2320,
+    "senses": [
+      {
+        "en": "loving, affectionate",
+        "example_de": "Sie kümmert sich liebevoll um ihn.",
+        "example_en": "She takes care of him lovingly."
+      }
+    ]
+  },
+  {
+    "lemma": "schuldbewusst",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2330,
+    "senses": [
+      {
+        "en": "feeling guilty, guilty-conscious",
+        "example_de": "Er blickte schuldbewusst zu Boden.",
+        "example_en": "He looked at the floor, feeling guilty."
+      }
+    ]
+  },
+  {
+    "lemma": "reuig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2340,
+    "senses": [
+      {
+        "en": "remorseful, repentant",
+        "example_de": "Er kam reuig zu ihr zurück.",
+        "example_en": "He came back to her remorsefully."
+      }
+    ]
+  },
+  {
+    "lemma": "sozusagen",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2400,
+    "senses": [
+      {
+        "en": "so to speak",
+        "example_de": "Er ist sozusagen mein bester Freund.",
+        "example_en": "He is, so to speak, my best friend."
+      }
+    ]
+  },
+  {
+    "lemma": "letztendlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2415,
+    "senses": [
+      {
+        "en": "ultimately, in the end",
+        "example_de": "Letztendlich haben sie sich versöhnt.",
+        "example_en": "In the end, they reconciled."
+      }
+    ]
+  },
+  {
+    "lemma": "keineswegs",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2430,
+    "senses": [
+      {
+        "en": "by no means",
+        "example_de": "Das war keineswegs meine Absicht.",
+        "example_en": "That was by no means my intention."
+      }
+    ]
+  },
+  {
+    "lemma": "wechselseitig",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2445,
+    "senses": [
+      {
+        "en": "mutual, reciprocal",
+        "example_de": "Sie zeigen sich wechselseitig viel Respekt.",
+        "example_en": "They show each other a lot of mutual respect."
+      }
+    ]
+  },
+  {
+    "lemma": "vermutlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2460,
+    "senses": [
+      {
+        "en": "presumably",
+        "example_de": "Sie ist vermutlich noch beleidigt.",
+        "example_en": "She is presumably still offended."
+      }
+    ]
+  },
+  {
+    "lemma": "absichtlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2475,
+    "senses": [
+      {
+        "en": "intentionally, on purpose",
+        "example_de": "Das hat er nicht absichtlich getan.",
+        "example_en": "He didn't do that on purpose."
+      }
+    ]
+  },
+  {
+    "lemma": "unabsichtlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2490,
+    "senses": [
+      {
+        "en": "unintentionally",
+        "example_de": "Sie hat ihn unabsichtlich gekränkt.",
+        "example_en": "She unintentionally hurt him."
+      }
+    ]
+  },
+  {
+    "lemma": "miteinander",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2505,
+    "senses": [
+      {
+        "en": "with each other",
+        "example_de": "Sie reden endlich wieder miteinander.",
+        "example_en": "They are finally talking to each other again."
+      }
+    ]
+  },
+  {
+    "lemma": "zueinander",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2520,
+    "senses": [
+      {
+        "en": "to each other",
+        "example_de": "Sie fanden schnell zueinander.",
+        "example_en": "They quickly found their way to each other."
+      }
+    ]
+  },
+  {
+    "lemma": "aneinander",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2535,
+    "senses": [
+      {
+        "en": "at/against each other",
+        "example_de": "Sie reden ständig aneinander vorbei.",
+        "example_en": "They constantly talk past each other.",
+        "note": "oft: aneinander vorbeireden"
+      }
+    ]
+  }
+]

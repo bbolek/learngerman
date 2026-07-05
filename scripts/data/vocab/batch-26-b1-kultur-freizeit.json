@@ -1,0 +1,1741 @@
+[
+  {
+    "lemma": "Aufführung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": "Aufführungen"
+    },
+    "senses": [
+      {
+        "en": "performance, production (theater)",
+        "example_de": "Die Aufführung dauert zwei Stunden.",
+        "example_en": "The performance lasts two hours."
+      }
+    ]
+  },
+  {
+    "lemma": "Künstler",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1515,
+    "noun": {
+      "gender": "m",
+      "plural": "Künstler"
+    },
+    "senses": [
+      {
+        "en": "artist",
+        "example_de": "Der Künstler malt ein neues Bild.",
+        "example_en": "The artist is painting a new picture."
+      }
+    ]
+  },
+  {
+    "lemma": "Gemälde",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1530,
+    "noun": {
+      "gender": "n",
+      "plural": "Gemälde"
+    },
+    "senses": [
+      {
+        "en": "painting",
+        "example_de": "Das Gemälde hängt im Museum.",
+        "example_en": "The painting hangs in the museum."
+      }
+    ]
+  },
+  {
+    "lemma": "Skulptur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1545,
+    "noun": {
+      "gender": "f",
+      "plural": "Skulpturen"
+    },
+    "senses": [
+      {
+        "en": "sculpture",
+        "example_de": "Die Skulptur steht vor dem Rathaus.",
+        "example_en": "The sculpture stands in front of city hall."
+      }
+    ]
+  },
+  {
+    "lemma": "Galerie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1560,
+    "noun": {
+      "gender": "f",
+      "plural": "Galerien"
+    },
+    "senses": [
+      {
+        "en": "gallery",
+        "example_de": "Sie zeigt ihre Bilder in einer Galerie.",
+        "example_en": "She shows her paintings in a gallery."
+      }
+    ]
+  },
+  {
+    "lemma": "Literatur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1575,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "literature",
+        "example_de": "Er interessiert sich sehr für Literatur.",
+        "example_en": "He is very interested in literature."
+      }
+    ]
+  },
+  {
+    "lemma": "Roman",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1590,
+    "noun": {
+      "gender": "m",
+      "plural": "Romane"
+    },
+    "senses": [
+      {
+        "en": "novel",
+        "example_de": "Ich lese gerade einen spannenden Roman.",
+        "example_en": "I'm currently reading an exciting novel."
+      }
+    ]
+  },
+  {
+    "lemma": "Gedicht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1605,
+    "noun": {
+      "gender": "n",
+      "plural": "Gedichte"
+    },
+    "senses": [
+      {
+        "en": "poem",
+        "example_de": "Sie schreibt ein Gedicht über den Herbst.",
+        "example_en": "She's writing a poem about autumn."
+      }
+    ]
+  },
+  {
+    "lemma": "Autor",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": {
+      "gender": "m",
+      "plural": "Autoren"
+    },
+    "senses": [
+      {
+        "en": "author",
+        "example_de": "Der Autor liest aus seinem Buch.",
+        "example_en": "The author reads from his book."
+      }
+    ]
+  },
+  {
+    "lemma": "Regisseur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1635,
+    "noun": {
+      "gender": "m",
+      "plural": "Regisseure"
+    },
+    "senses": [
+      {
+        "en": "director (film, theater)",
+        "example_de": "Der Regisseur dreht einen neuen Film.",
+        "example_en": "The director is shooting a new film."
+      }
+    ]
+  },
+  {
+    "lemma": "Bühne",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1650,
+    "noun": {
+      "gender": "f",
+      "plural": "Bühnen"
+    },
+    "senses": [
+      {
+        "en": "stage",
+        "example_de": "Die Band steht auf der Bühne.",
+        "example_en": "The band is standing on stage."
+      }
+    ]
+  },
+  {
+    "lemma": "Trainer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1665,
+    "noun": {
+      "gender": "m",
+      "plural": "Trainer"
+    },
+    "senses": [
+      {
+        "en": "coach",
+        "example_de": "Der Trainer plant das nächste Training.",
+        "example_en": "The coach is planning the next training session."
+      }
+    ]
+  },
+  {
+    "lemma": "Wettkampf",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1680,
+    "noun": {
+      "gender": "m",
+      "plural": "Wettkämpfe"
+    },
+    "senses": [
+      {
+        "en": "competition, contest",
+        "example_de": "Sie nimmt an einem sportlichen Wettkampf teil.",
+        "example_en": "She's taking part in a sports competition.",
+        "note": "ähnlich: Wettbewerb"
+      }
+    ]
+  },
+  {
+    "lemma": "Meisterschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1695,
+    "noun": {
+      "gender": "f",
+      "plural": "Meisterschaften"
+    },
+    "senses": [
+      {
+        "en": "championship",
+        "example_de": "Unser Verein gewann die Meisterschaft.",
+        "example_en": "Our club won the championship."
+      }
+    ]
+  },
+  {
+    "lemma": "Turnier",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1710,
+    "noun": {
+      "gender": "n",
+      "plural": "Turniere"
+    },
+    "senses": [
+      {
+        "en": "tournament",
+        "example_de": "Das Turnier findet am Wochenende statt.",
+        "example_en": "The tournament takes place on the weekend."
+      }
+    ]
+  },
+  {
+    "lemma": "Sportart",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1725,
+    "noun": {
+      "gender": "f",
+      "plural": "Sportarten"
+    },
+    "senses": [
+      {
+        "en": "type of sport",
+        "example_de": "Welche Sportart gefällt dir am besten?",
+        "example_en": "Which sport do you like best?"
+      }
+    ]
+  },
+  {
+    "lemma": "Chor",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": {
+      "gender": "m",
+      "plural": "Chöre"
+    },
+    "senses": [
+      {
+        "en": "choir",
+        "example_de": "Sie singt seit Jahren in einem Chor.",
+        "example_en": "She has been singing in a choir for years."
+      }
+    ]
+  },
+  {
+    "lemma": "Orchester",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1755,
+    "noun": {
+      "gender": "n",
+      "plural": "Orchester"
+    },
+    "senses": [
+      {
+        "en": "orchestra",
+        "example_de": "Das Orchester spielt heute Abend live.",
+        "example_en": "The orchestra is playing live tonight."
+      }
+    ]
+  },
+  {
+    "lemma": "Melodie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1770,
+    "noun": {
+      "gender": "f",
+      "plural": "Melodien"
+    },
+    "senses": [
+      {
+        "en": "melody, tune",
+        "example_de": "Die Melodie geht mir nicht aus dem Kopf.",
+        "example_en": "I can't get the tune out of my head."
+      }
+    ]
+  },
+  {
+    "lemma": "Rhythmus",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1785,
+    "noun": {
+      "gender": "m",
+      "plural": "Rhythmen",
+      "genitive": "Rhythmus"
+    },
+    "senses": [
+      {
+        "en": "rhythm",
+        "example_de": "Der Tänzer fühlt den Rhythmus der Musik.",
+        "example_en": "The dancer feels the rhythm of the music."
+      }
+    ]
+  },
+  {
+    "lemma": "Talent",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": {
+      "gender": "n",
+      "plural": "Talente"
+    },
+    "senses": [
+      {
+        "en": "talent",
+        "example_de": "Er hat ein großes Talent fürs Zeichnen.",
+        "example_en": "He has a great talent for drawing.",
+        "note": "+ für"
+      }
+    ]
+  },
+  {
+    "lemma": "Begeisterung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1845,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "enthusiasm",
+        "example_de": "Die Kinder singen mit großer Begeisterung.",
+        "example_en": "The children sing with great enthusiasm."
+      }
+    ]
+  },
+  {
+    "lemma": "Sammlung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1860,
+    "noun": {
+      "gender": "f",
+      "plural": "Sammlungen"
+    },
+    "senses": [
+      {
+        "en": "collection",
+        "example_de": "Seine Sammlung von Schallplatten ist riesig.",
+        "example_en": "His record collection is huge."
+      }
+    ]
+  },
+  {
+    "lemma": "Sammler",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1875,
+    "noun": {
+      "gender": "m",
+      "plural": "Sammler"
+    },
+    "senses": [
+      {
+        "en": "collector",
+        "example_de": "Der Sammler kauft alte Münzen.",
+        "example_en": "The collector buys old coins."
+      }
+    ]
+  },
+  {
+    "lemma": "Brettspiel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1890,
+    "noun": {
+      "gender": "n",
+      "plural": "Brettspiele"
+    },
+    "senses": [
+      {
+        "en": "board game",
+        "example_de": "Am Abend spielen wir ein Brettspiel.",
+        "example_en": "In the evening we play a board game."
+      }
+    ]
+  },
+  {
+    "lemma": "Wanderung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1905,
+    "noun": {
+      "gender": "f",
+      "plural": "Wanderungen"
+    },
+    "senses": [
+      {
+        "en": "hike",
+        "example_de": "Wir machen eine Wanderung in den Bergen.",
+        "example_en": "We're going on a hike in the mountains."
+      }
+    ]
+  },
+  {
+    "lemma": "Denkmal",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "n",
+      "plural": "Denkmäler"
+    },
+    "senses": [
+      {
+        "en": "monument",
+        "example_de": "Das Denkmal erinnert an den Krieg.",
+        "example_en": "The monument commemorates the war."
+      }
+    ]
+  },
+  {
+    "lemma": "Brauch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1935,
+    "noun": {
+      "gender": "m",
+      "plural": "Bräuche"
+    },
+    "senses": [
+      {
+        "en": "custom, tradition",
+        "example_de": "Dieser Brauch ist in der Region beliebt.",
+        "example_en": "This custom is popular in the region."
+      }
+    ]
+  },
+  {
+    "lemma": "Tradition",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "f",
+      "plural": "Traditionen"
+    },
+    "senses": [
+      {
+        "en": "tradition",
+        "example_de": "Das Fest hat eine lange Tradition.",
+        "example_en": "The festival has a long tradition."
+      }
+    ]
+  },
+  {
+    "lemma": "Feier",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1965,
+    "noun": {
+      "gender": "f",
+      "plural": "Feiern"
+    },
+    "senses": [
+      {
+        "en": "celebration, party",
+        "example_de": "Die Feier dauerte bis Mitternacht.",
+        "example_en": "The celebration lasted until midnight."
+      }
+    ]
+  },
+  {
+    "lemma": "Festival",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": {
+      "gender": "n",
+      "plural": "Festivals"
+    },
+    "senses": [
+      {
+        "en": "festival",
+        "example_de": "Das Festival lockt tausende Besucher an.",
+        "example_en": "The festival attracts thousands of visitors."
+      }
+    ]
+  },
+  {
+    "lemma": "Volksfest",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1995,
+    "noun": {
+      "gender": "n",
+      "plural": "Volksfeste"
+    },
+    "senses": [
+      {
+        "en": "folk festival, fair",
+        "example_de": "Auf dem Volksfest gibt es viele Stände.",
+        "example_en": "There are many stalls at the folk festival."
+      }
+    ]
+  },
+  {
+    "lemma": "Mitspieler",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": {
+      "gender": "m",
+      "plural": "Mitspieler"
+    },
+    "senses": [
+      {
+        "en": "teammate, fellow player",
+        "example_de": "Mein Mitspieler passt mir den Ball zu.",
+        "example_en": "My teammate passes me the ball."
+      }
+    ]
+  },
+  {
+    "lemma": "Gegner",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": {
+      "gender": "m",
+      "plural": "Gegner"
+    },
+    "senses": [
+      {
+        "en": "opponent",
+        "example_de": "Unser Gegner spielt sehr aggressiv.",
+        "example_en": "Our opponent plays very aggressively."
+      }
+    ]
+  },
+  {
+    "lemma": "Schiedsrichter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": {
+      "gender": "m",
+      "plural": "Schiedsrichter"
+    },
+    "senses": [
+      {
+        "en": "referee",
+        "example_de": "Der Schiedsrichter pfeift das Spiel ab.",
+        "example_en": "The referee blows the final whistle."
+      }
+    ]
+  },
+  {
+    "lemma": "Niederlage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2055,
+    "noun": {
+      "gender": "f",
+      "plural": "Niederlagen"
+    },
+    "senses": [
+      {
+        "en": "defeat",
+        "example_de": "Die Mannschaft akzeptiert die Niederlage.",
+        "example_en": "The team accepts the defeat."
+      }
+    ]
+  },
+  {
+    "lemma": "Rekord",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2070,
+    "noun": {
+      "gender": "m",
+      "plural": "Rekorde"
+    },
+    "senses": [
+      {
+        "en": "record",
+        "example_de": "Sie stellt einen neuen Rekord auf.",
+        "example_en": "She sets a new record."
+      }
+    ]
+  },
+  {
+    "lemma": "Kostüm",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2085,
+    "noun": {
+      "gender": "n",
+      "plural": "Kostüme"
+    },
+    "senses": [
+      {
+        "en": "costume",
+        "example_de": "Die Schauspielerin trägt ein tolles Kostüm.",
+        "example_en": "The actress wears a great costume."
+      }
+    ]
+  },
+  {
+    "lemma": "Applaus",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "applause",
+        "example_de": "Nach dem Konzert gab es großen Applaus.",
+        "example_en": "There was great applause after the concert."
+      }
+    ]
+  },
+  {
+    "lemma": "Probe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2115,
+    "noun": {
+      "gender": "f",
+      "plural": "Proben"
+    },
+    "senses": [
+      {
+        "en": "rehearsal",
+        "example_de": "Die Band hat heute Abend Probe.",
+        "example_en": "The band has rehearsal tonight."
+      }
+    ]
+  },
+  {
+    "lemma": "Ehrenamt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2130,
+    "noun": {
+      "gender": "n",
+      "plural": "Ehrenämter"
+    },
+    "senses": [
+      {
+        "en": "volunteer position",
+        "example_de": "Sie übt ein Ehrenamt im Sportverein aus.",
+        "example_en": "She holds a volunteer position at the sports club."
+      }
+    ]
+  },
+  {
+    "lemma": "Engagement",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2145,
+    "noun": {
+      "gender": "n",
+      "plural": "Engagements"
+    },
+    "senses": [
+      {
+        "en": "commitment, involvement",
+        "example_de": "Sein Engagement im Verein ist beeindruckend.",
+        "example_en": "His commitment to the club is impressive."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausrüstung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "equipment, gear",
+        "example_de": "Zum Klettern braucht man gute Ausrüstung.",
+        "example_en": "You need good gear for climbing."
+      }
+    ]
+  },
+  {
+    "lemma": "veranstalten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2175,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "veranstaltet"
+    },
+    "senses": [
+      {
+        "en": "to organize, to hold (an event)",
+        "example_de": "Die Schule veranstaltet ein Sommerfest.",
+        "example_en": "The school is holding a summer festival."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Verein veranstaltet jedes Jahr ein Turnier.",
+        "en": "The club holds a tournament every year."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie veranstalteten ein großes Konzert.",
+        "en": "They organized a big concert."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben eine Ausstellung veranstaltet.",
+        "en": "We organized an exhibition."
+      }
+    ]
+  },
+  {
+    "lemma": "auftreten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2190,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "auf",
+      "du": "trittst",
+      "er": "tritt",
+      "praeteritum": "trat",
+      "partizip2": "aufgetreten"
+    },
+    "senses": [
+      {
+        "en": "to perform, to appear (on stage)",
+        "example_de": "Die Band tritt heute Abend auf.",
+        "example_en": "The band is performing tonight."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie tritt oft im Fernsehen auf.",
+        "en": "She often appears on TV."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Sänger trat zum ersten Mal auf.",
+        "en": "The singer performed for the first time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er ist schon vor vielen Zuschauern aufgetreten.",
+        "en": "He has performed before many spectators."
+      }
+    ]
+  },
+  {
+    "lemma": "begeistern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2205,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "begeistert"
+    },
+    "senses": [
+      {
+        "en": "to thrill, to excite",
+        "example_de": "Der Film begeistert das ganze Publikum.",
+        "example_en": "The movie thrills the whole audience.",
+        "note": "reflexiv: sich begeistern für"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Das Konzert begeisterte alle Fans.",
+        "en": "The concert thrilled all the fans."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat uns mit ihrem Talent begeistert.",
+        "en": "She thrilled us with her talent."
+      }
+    ]
+  },
+  {
+    "lemma": "faszinieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2220,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to fascinate",
+        "example_de": "Die Ausstellung fasziniert die Besucher.",
+        "example_en": "The exhibition fascinates the visitors."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Der Auftritt faszinierte das Publikum.",
+        "en": "The performance fascinated the audience."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Museum hat mich sehr fasziniert.",
+        "en": "The museum has fascinated me a lot."
+      }
+    ]
+  },
+  {
+    "lemma": "bewundern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2235,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "bewundert"
+    },
+    "senses": [
+      {
+        "en": "to admire",
+        "example_de": "Wir bewundern seine künstlerische Arbeit.",
+        "example_en": "We admire his artistic work."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie bewunderte die Skulptur lange.",
+        "en": "She admired the sculpture for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Gemälde bewundert.",
+        "en": "I have admired the painting."
+      }
+    ]
+  },
+  {
+    "lemma": "aufführen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2250,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf"
+    },
+    "senses": [
+      {
+        "en": "to perform, to stage (a play)",
+        "example_de": "Die Schüler führen ein Theaterstück auf.",
+        "example_en": "The students are staging a play."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Chor führt ein neues Lied auf.",
+        "en": "The choir performs a new song."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie führten das Stück letzten Monat auf.",
+        "en": "They performed the play last month."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Ensemble hat das Drama aufgeführt.",
+        "en": "The ensemble has performed the drama."
+      }
+    ]
+  },
+  {
+    "lemma": "mitwirken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2265,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "mit"
+    },
+    "senses": [
+      {
+        "en": "to take part, to collaborate (in a production)",
+        "example_de": "Viele Künstler wirken bei dem Film mit.",
+        "example_en": "Many artists collaborate on the film.",
+        "note": "+ bei/an + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er wirkte bei dem Musical mit.",
+        "en": "He collaborated on the musical."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat bei der Aufführung mitgewirkt.",
+        "en": "She took part in the performance."
+      }
+    ]
+  },
+  {
+    "lemma": "komponieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2295,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to compose (music)",
+        "example_de": "Sie komponiert ein neues Lied.",
+        "example_en": "She's composing a new song."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er komponierte die Melodie selbst.",
+        "en": "He composed the melody himself."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Musiker hat die Musik komponiert.",
+        "en": "The musician has composed the music."
+      }
+    ]
+  },
+  {
+    "lemma": "inszenieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2310,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to stage, to direct (a production)",
+        "example_de": "Der Regisseur inszeniert ein modernes Drama.",
+        "example_en": "The director is staging a modern drama."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie inszenierte das Stück neu.",
+        "en": "She restaged the play."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Oper inszeniert.",
+        "en": "He has staged the opera."
+      }
+    ]
+  },
+  {
+    "lemma": "vorführen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2325,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "vor"
+    },
+    "senses": [
+      {
+        "en": "to demonstrate, to perform (a show)",
+        "example_de": "Der Artist führt einen gefährlichen Trick vor.",
+        "example_en": "The performer demonstrates a dangerous trick."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie führten ihren neuen Tanz vor.",
+        "en": "They performed their new dance."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sein Können vorgeführt.",
+        "en": "He has demonstrated his skill."
+      }
+    ]
+  },
+  {
+    "lemma": "trainieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2340,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to train, to practice",
+        "example_de": "Die Mannschaft trainiert dreimal pro Woche.",
+        "example_en": "The team trains three times a week."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er trainierte hart für den Wettkampf.",
+        "en": "He trained hard for the competition."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat lange für das Turnier trainiert.",
+        "en": "She has trained a long time for the tournament."
+      }
+    ]
+  },
+  {
+    "lemma": "proben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2355,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to rehearse",
+        "example_de": "Die Schauspieler proben jeden Tag.",
+        "example_en": "The actors rehearse every day."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Der Chor probte das neue Lied.",
+        "en": "The choir rehearsed the new song."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Theaterstück geprobt.",
+        "en": "We have rehearsed the play."
+      }
+    ]
+  },
+  {
+    "lemma": "genießen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2370,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "genoss",
+      "partizip2": "genossen"
+    },
+    "senses": [
+      {
+        "en": "to enjoy",
+        "example_de": "Wir genießen das schöne Wetter draußen.",
+        "example_en": "We're enjoying the nice weather outside."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie genießt ihre Freizeit sehr.",
+        "en": "She really enjoys her free time."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er genoss den Ausflug sehr.",
+        "en": "He enjoyed the trip a lot."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Konzert genossen.",
+        "en": "I have enjoyed the concert."
+      }
+    ]
+  },
+  {
+    "lemma": "anfeuern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2385,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to cheer on",
+        "example_de": "Die Fans feuern ihre Mannschaft an.",
+        "example_en": "The fans cheer on their team."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Wir feuerten unser Team lautstark an.",
+        "en": "We cheered our team on loudly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben die Läuferin angefeuert.",
+        "en": "They cheered the runner on."
+      }
+    ]
+  },
+  {
+    "lemma": "jubeln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to cheer, to rejoice",
+        "example_de": "Die Zuschauer jubeln nach dem Tor.",
+        "example_en": "The spectators cheer after the goal."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Das Publikum jubelte laut.",
+        "en": "The audience cheered loudly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Alle haben nach dem Sieg gejubelt.",
+        "en": "Everyone cheered after the victory."
+      }
+    ]
+  },
+  {
+    "lemma": "besiegen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2415,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "besiegt"
+    },
+    "senses": [
+      {
+        "en": "to defeat",
+        "example_de": "Unsere Mannschaft besiegt den Gegner klar.",
+        "example_en": "Our team clearly defeats the opponent."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie besiegten den Meister überraschend.",
+        "en": "They surprisingly defeated the champion."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat seinen Rivalen besiegt.",
+        "en": "He has defeated his rival."
+      }
+    ]
+  },
+  {
+    "lemma": "ausüben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2430,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to practice, to pursue (a hobby, profession)",
+        "example_de": "Sie übt ihr Hobby regelmäßig aus.",
+        "example_en": "She regularly pursues her hobby.",
+        "note": "+ Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er übte diesen Sport jahrelang aus.",
+        "en": "He practiced this sport for years."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe diesen Beruf lange ausgeübt.",
+        "en": "I have practiced this profession for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "mitspielen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2445,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "mit"
+    },
+    "senses": [
+      {
+        "en": "to play along, to join in (a game)",
+        "example_de": "Darf ich bei eurem Spiel mitspielen?",
+        "example_en": "May I join in your game?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er spielte beim Turnier mit.",
+        "en": "He took part in the tournament."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat im Team mitgespielt.",
+        "en": "She has played on the team."
+      }
+    ]
+  },
+  {
+    "lemma": "schwärmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2475,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to rave about, to be enthusiastic",
+        "example_de": "Sie schwärmt von dem tollen Konzert.",
+        "example_en": "She raves about the great concert.",
+        "note": "+ von"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er schwärmte von seinem Idol.",
+        "en": "He raved about his idol."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben von der Aufführung geschwärmt.",
+        "en": "We have raved about the performance."
+      }
+    ]
+  },
+  {
+    "lemma": "klatschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2490,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to clap, to applaud",
+        "example_de": "Das Publikum klatscht begeistert.",
+        "example_en": "The audience claps enthusiastically."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Alle klatschten nach dem Lied.",
+        "en": "Everyone clapped after the song."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben lange geklatscht.",
+        "en": "We have clapped for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "pfeifen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2505,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "pfiff",
+      "partizip2": "gepfiffen"
+    },
+    "senses": [
+      {
+        "en": "to whistle",
+        "example_de": "Der Schiedsrichter pfeift das Spiel ab.",
+        "example_en": "The referee blows the whistle to end the game."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er pfiff laut vor Begeisterung.",
+        "en": "He whistled loudly out of enthusiasm."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat ein bekanntes Lied gepfiffen.",
+        "en": "She whistled a well-known song."
+      }
+    ]
+  },
+  {
+    "lemma": "basteln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to do crafts, to make (by hand)",
+        "example_de": "Die Kinder basteln gern kleine Figuren.",
+        "example_en": "The children like making little figures."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Wir bastelten Masken für das Fest.",
+        "en": "We made masks for the festival."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat eine Deko gebastelt.",
+        "en": "She has made a decoration."
+      }
+    ]
+  },
+  {
+    "lemma": "aufnehmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2565,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf",
+      "du": "nimmst",
+      "er": "nimmt",
+      "praeteritum": "nahm",
+      "partizip2": "aufgenommen"
+    },
+    "senses": [
+      {
+        "en": "to record",
+        "example_de": "Die Band nimmt ein neues Album auf.",
+        "example_en": "The band is recording a new album."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er nimmt das Konzert auf Video auf.",
+        "en": "He records the concert on video."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie nahmen das Lied im Studio auf.",
+        "en": "They recorded the song in the studio."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Aufführung aufgenommen.",
+        "en": "We have recorded the performance."
+      }
+    ]
+  },
+  {
+    "lemma": "inspirieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2580,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to inspire",
+        "example_de": "Die Reise inspiriert sie zu neuen Bildern.",
+        "example_en": "The trip inspires her to create new paintings."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Das Buch inspirierte viele Leser.",
+        "en": "The book inspired many readers."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Künstler hat mich sehr inspiriert.",
+        "en": "The artist has inspired me a lot."
+      }
+    ]
+  },
+  {
+    "lemma": "amüsieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2595,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to enjoy oneself, to have fun (sich amüsieren)",
+        "example_de": "Wir amüsieren uns auf dem Fest.",
+        "example_en": "We're having fun at the festival.",
+        "note": "reflexiv: sich amüsieren"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Gäste amüsierten sich prächtig.",
+        "en": "The guests had a wonderful time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich gut amüsiert.",
+        "en": "I have had a good time."
+      }
+    ]
+  },
+  {
+    "lemma": "musizieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2610,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to make music",
+        "example_de": "Die Familie musiziert oft zusammen.",
+        "example_en": "The family often makes music together."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie musizierten den ganzen Abend.",
+        "en": "They made music all evening."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben gemeinsam musiziert.",
+        "en": "We have made music together."
+      }
+    ]
+  },
+  {
+    "lemma": "künstlerisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2625,
+    "senses": [
+      {
+        "en": "artistic",
+        "example_de": "Sie hat ein großes künstlerisches Talent.",
+        "example_en": "She has great artistic talent."
+      }
+    ]
+  },
+  {
+    "lemma": "begeistert",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2640,
+    "senses": [
+      {
+        "en": "enthusiastic",
+        "example_de": "Er ist von der Show total begeistert.",
+        "example_en": "He's totally thrilled with the show.",
+        "note": "+ von"
+      }
+    ]
+  },
+  {
+    "lemma": "spannend",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2655,
+    "senses": [
+      {
+        "en": "exciting, suspenseful",
+        "example_de": "Der neue Roman ist wirklich spannend.",
+        "example_en": "The new novel is really exciting."
+      }
+    ]
+  },
+  {
+    "lemma": "unterhaltsam",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2670,
+    "senses": [
+      {
+        "en": "entertaining",
+        "example_de": "Der Abend war sehr unterhaltsam.",
+        "example_en": "The evening was very entertaining."
+      }
+    ]
+  },
+  {
+    "lemma": "talentiert",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2685,
+    "senses": [
+      {
+        "en": "talented",
+        "example_de": "Sie ist eine talentierte Schauspielerin.",
+        "example_en": "She is a talented actress."
+      }
+    ]
+  },
+  {
+    "lemma": "musikalisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2700,
+    "senses": [
+      {
+        "en": "musical",
+        "example_de": "Seine ganze Familie ist musikalisch.",
+        "example_en": "His whole family is musical."
+      }
+    ]
+  },
+  {
+    "lemma": "sportlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2715,
+    "senses": [
+      {
+        "en": "athletic, sporty",
+        "example_de": "Er ist sehr sportlich und fit.",
+        "example_en": "He is very athletic and fit."
+      }
+    ]
+  },
+  {
+    "lemma": "traditionell",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2745,
+    "senses": [
+      {
+        "en": "traditional",
+        "example_de": "Das Fest folgt einem traditionellen Brauch.",
+        "example_en": "The festival follows a traditional custom."
+      }
+    ]
+  },
+  {
+    "lemma": "kulturell",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2760,
+    "senses": [
+      {
+        "en": "cultural",
+        "example_de": "Die Stadt bietet viele kulturelle Angebote.",
+        "example_en": "The city offers many cultural events."
+      }
+    ]
+  },
+  {
+    "lemma": "mitreißend",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2775,
+    "senses": [
+      {
+        "en": "thrilling, gripping",
+        "example_de": "Die Aufführung war absolut mitreißend.",
+        "example_en": "The performance was absolutely gripping."
+      }
+    ]
+  },
+  {
+    "lemma": "abwechslungsreich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2790,
+    "senses": [
+      {
+        "en": "varied, eventful",
+        "example_de": "Ihr Freizeitprogramm ist sehr abwechslungsreich.",
+        "example_en": "Her leisure schedule is very varied."
+      }
+    ]
+  },
+  {
+    "lemma": "ausverkauft",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2835,
+    "senses": [
+      {
+        "en": "sold out",
+        "example_de": "Die Vorstellung ist schon ausverkauft.",
+        "example_en": "The show is already sold out."
+      }
+    ]
+  },
+  {
+    "lemma": "regelmäßig",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2850,
+    "senses": [
+      {
+        "en": "regularly",
+        "example_de": "Er trainiert regelmäßig im Verein.",
+        "example_en": "He trains regularly at the club."
+      }
+    ]
+  },
+  {
+    "lemma": "mehrmals",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2865,
+    "senses": [
+      {
+        "en": "several times",
+        "example_de": "Wir haben das Stück mehrmals gesehen.",
+        "example_en": "We've seen the play several times."
+      }
+    ]
+  },
+  {
+    "lemma": "vergeblich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2895,
+    "senses": [
+      {
+        "en": "in vain",
+        "example_de": "Sie versuchten vergeblich, Karten zu bekommen.",
+        "example_en": "They tried in vain to get tickets."
+      }
+    ]
+  },
+  {
+    "lemma": "erneut",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2910,
+    "senses": [
+      {
+        "en": "again, once more",
+        "example_de": "Die Band tritt erneut in der Stadt auf.",
+        "example_en": "The band is performing in town again."
+      }
+    ]
+  },
+  {
+    "lemma": "anlässlich",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2940,
+    "senses": [
+      {
+        "en": "on the occasion of",
+        "example_de": "Anlässlich des Jubiläums gibt es ein Fest.",
+        "example_en": "There's a celebration for the anniversary.",
+        "note": "+ Genitiv"
+      }
+    ]
+  }
+]

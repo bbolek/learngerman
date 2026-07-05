@@ -107,10 +107,17 @@ export function splitHighlight(sentence: string): [string, string, string] {
 /** Deterministic in-place-free shuffle for token pools (seeded by question id). */
 export function shuffled<T>(items: T[], seed: number): T[] {
   const arr = [...items];
-  let s = seed || 1;
+  // mulberry32: all math stays in 32 bits via Math.imul. A plain `s * mult`
+  // LCG overflows the 2^53 float mantissa for realistic seeds (Date.now()),
+  // which zeroes the low state bits and degenerates the shuffle into the
+  // same permutation every round.
+  let s = seed >>> 0;
   for (let i = arr.length - 1; i > 0; i--) {
-    s = (s * 1103515245 + 12345) % 2147483648;
-    const j = s % (i + 1);
+    s = (s + 0x6d2b79f5) >>> 0;
+    let t = Math.imul(s ^ (s >>> 15), s | 1);
+    t = (t + Math.imul(t ^ (t >>> 7), t | 61)) ^ t;
+    t = (t ^ (t >>> 14)) >>> 0;
+    const j = Math.floor((t / 4294967296) * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;

@@ -111,6 +111,20 @@ describe('buildBlitzQuestions', () => {
     expect(new Set(questions.map((q) => q.correctIndex)).size).toBeGreaterThan(1);
   });
 
+  it('answer positions stay spread with realistic Date.now()-sized seeds', () => {
+    // Regression: the old LCG lost float precision above 2^53 with large
+    // seeds, so every question put the correct answer in the last slot.
+    const counts = new Array(BLITZ_OPTIONS).fill(0);
+    for (const seed of [1751700000000 & 0x7fffffff, 1782236400000 & 0x7fffffff]) {
+      for (const q of buildBlitzQuestions(POOL, seed)) counts[q.correctIndex]++;
+    }
+    const total = counts.reduce((a, b) => a + b, 0);
+    for (const c of counts) {
+      expect(c).toBeGreaterThan(0);
+      expect(c).toBeLessThan(total / 2); // no single slot dominates
+    }
+  });
+
   it('returns nothing when the pool is too small for four options', () => {
     expect(buildBlitzQuestions(POOL.slice(0, 3), 1)).toEqual([]);
   });

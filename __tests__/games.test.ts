@@ -3,8 +3,10 @@ import * as path from 'node:path';
 
 import {
   applyArcadeAnswer,
+  articleFor,
   BLITZ_OPTIONS,
   buildBlitzQuestions,
+  buildImageQuestions,
   buildPairsBoards,
   dedupeByGloss,
   DERDIEDAS_LIVES,
@@ -16,7 +18,9 @@ import {
   pairsBoardScore,
   shortGloss,
   streakBonus,
+  withArticle,
   type GameWord,
+  type ImageWord,
 } from '@/logic/games';
 
 function word(id: number, lemma: string, gloss: string): GameWord {
@@ -28,8 +32,8 @@ const POOL: GameWord[] = Array.from({ length: 40 }, (_, i) =>
 );
 
 describe('registry', () => {
-  it('exposes all three games', () => {
-    expect(GAMES.map((g) => g.key)).toEqual(['wortblitz', 'derdiedas', 'wortpaare']);
+  it('exposes all four games', () => {
+    expect(GAMES.map((g) => g.key)).toEqual(['wortblitz', 'bilderraetsel', 'derdiedas', 'wortpaare']);
     expect(gameInfo('derdiedas').title).toBe('Der, die oder das?');
   });
 });
@@ -112,6 +116,42 @@ describe('buildBlitzQuestions', () => {
   });
 });
 
+describe('buildImageQuestions', () => {
+  const imagePool: ImageWord[] = [
+    { id: 1, lemma: 'Haus', gender: 'n', plural: null, gloss: 'house', svg: '<svg/>' },
+    { id: 2, lemma: 'Mann', gender: 'm', plural: null, gloss: 'man', svg: '<svg/>' },
+    { id: 3, lemma: 'Frau', gender: 'f', plural: null, gloss: 'woman', svg: '<svg/>' },
+    { id: 4, lemma: 'Kind', gender: 'n', plural: null, gloss: 'child', svg: '<svg/>' },
+    { id: 5, lemma: 'Hund', gender: 'm', plural: null, gloss: 'dog', svg: '<svg/>' },
+  ];
+
+  it('articleFor / withArticle map genders to der/die/das', () => {
+    expect(articleFor('m')).toBe('der');
+    expect(articleFor('f')).toBe('die');
+    expect(articleFor('n')).toBe('das');
+    expect(articleFor('pl')).toBe('die');
+    expect(articleFor(null)).toBeNull();
+    expect(withArticle({ lemma: 'Haus', gender: 'n' })).toBe('das Haus');
+    expect(withArticle({ lemma: 'gehen', gender: null })).toBe('gehen');
+  });
+
+  it('options are German words with articles and include the answer', () => {
+    const questions = buildImageQuestions(imagePool, 21);
+    expect(questions).toHaveLength(imagePool.length);
+    for (const q of questions) {
+      expect(q.options).toHaveLength(BLITZ_OPTIONS);
+      expect(new Set(q.options).size).toBe(BLITZ_OPTIONS);
+      expect(q.options[q.correctIndex]).toBe(withArticle(q.word));
+      expect(q.word.svg).toBe('<svg/>');
+    }
+  });
+
+  it('drops duplicate lemmas so no option can appear twice', () => {
+    const withDupe = [...imagePool, { ...imagePool[0], id: 99 }];
+    expect(buildImageQuestions(withDupe, 4)).toHaveLength(imagePool.length);
+  });
+});
+
 describe('buildPairsBoards', () => {
   it('builds full boards where every tile pairs up exactly once', () => {
     const boards = buildPairsBoards(POOL, 99);
@@ -176,6 +216,17 @@ describe('dictionary content supports the games', () => {
       )
       .get() as { c: number };
     expect(row.c).toBeGreaterThan(300);
+  });
+
+  it('has enough imaged nouns with glosses for a Bilderrätsel round', () => {
+    const row = db
+      .prepare(
+        `SELECT COUNT(*) AS c FROM lemma_images i
+         JOIN lemmas l ON l.id = i.lemma_id
+         JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1`
+      )
+      .get() as { c: number };
+    expect(row.c).toBeGreaterThan(100);
   });
 
   it('random word pools survive gloss dedupe with enough words for all boards', () => {

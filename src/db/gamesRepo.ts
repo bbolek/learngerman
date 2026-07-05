@@ -1,5 +1,5 @@
 import { getDb } from '@/db/client';
-import { type GameKey, type GameWord } from '@/logic/games';
+import { type GameKey, type GameWord, type ImageWord } from '@/logic/games';
 
 // ---------- word pools ----------
 
@@ -19,6 +19,26 @@ export async function fetchGenderNouns(limit: number): Promise<GameWord[]> {
      ORDER BY RANDOM() LIMIT ?`,
     [limit]
   );
+}
+
+/**
+ * Random words with a bundled emoji image (Bilderrätsel). Guarded like
+ * getLemmaImage: lemma_images only exists from content version 4 on, so
+ * degrade to an empty pool instead of crashing on an older content schema.
+ */
+export async function fetchImageWords(limit: number): Promise<ImageWord[]> {
+  try {
+    return await getDb().getAllAsync<ImageWord>(
+      `SELECT l.id, l.lemma, l.gender, l.plural, s.en AS gloss, i.svg
+       FROM lemma_images i
+       JOIN lemmas l ON l.id = i.lemma_id
+       JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
+       ORDER BY RANDOM() LIMIT ?`,
+      [limit]
+    );
+  } catch {
+    return [];
+  }
 }
 
 // ---------- results & stats ----------

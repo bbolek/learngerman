@@ -6,7 +6,7 @@
 
 import { shuffled } from '@/logic/graders';
 
-export type GameKey = 'wortblitz' | 'derdiedas' | 'wortpaare';
+export type GameKey = 'wortblitz' | 'bilderraetsel' | 'derdiedas' | 'wortpaare';
 
 export interface GameInfo {
   key: GameKey;
@@ -24,6 +24,14 @@ export const GAMES: GameInfo[] = [
     tagline: 'Wie viele Wörter schaffst du in 60 Sekunden?',
     rules:
       'Wähle die richtige Übersetzung — so schnell du kannst. Jede richtige Antwort bringt 10 Punkte, eine Serie bringt Bonuspunkte. Ein Fehler bricht die Serie.',
+  },
+  {
+    key: 'bilderraetsel',
+    emoji: '🖼️',
+    title: 'Bilderrätsel',
+    tagline: 'Erkennst du das Bild? Sag es auf Deutsch!',
+    rules:
+      'Wähle das deutsche Wort, das zum Bild passt — mit dem richtigen Artikel. 60 Sekunden, Serienbonus inklusive. Ein Fehler bricht die Serie.',
   },
   {
     key: 'derdiedas',
@@ -115,32 +123,75 @@ export function applyArcadeAnswer(s: ArcadeState, correct: boolean): ArcadeState
   return { ...s, streak: 0, total: s.total + 1, lives: s.lives - 1 };
 }
 
-// ---------- Wort-Blitz rounds ----------
+// ---------- multiple-choice rounds (Wort-Blitz & Bilderrätsel) ----------
 
 export const BLITZ_OPTIONS = 4;
 
-export interface BlitzQuestion {
-  word: GameWord;
+export interface ChoiceQuestion<W extends GameWord = GameWord> {
+  word: W;
   options: string[];
   correctIndex: number;
 }
 
+export type BlitzQuestion = ChoiceQuestion;
+
 /**
- * One multiple-choice question per pool word: its gloss plus three distractor
- * glosses from other pool words. Deterministic for a given (pool, seed).
+ * One question per word: its label plus three distractor labels from other
+ * pool words. Deterministic for a given (pool, seed).
  */
-export function buildBlitzQuestions(pool: GameWord[], seed: number): BlitzQuestion[] {
-  const words = dedupeByGloss(pool);
+function buildChoiceQuestions<W extends GameWord>(
+  words: W[],
+  seed: number,
+  label: (w: W) => string
+): ChoiceQuestion<W>[] {
   if (words.length < BLITZ_OPTIONS) return [];
   return words.map((word, i) => {
     const others = shuffled(
       words.filter((w) => w.id !== word.id),
       seed * 31 + i + 1
     );
-    const distractors = others.slice(0, BLITZ_OPTIONS - 1).map((w) => shortGloss(w.gloss));
-    const options = shuffled([shortGloss(word.gloss), ...distractors], seed + i * 7 + 3);
-    return { word, options, correctIndex: options.indexOf(shortGloss(word.gloss)) };
+    const distractors = others.slice(0, BLITZ_OPTIONS - 1).map(label);
+    const options = shuffled([label(word), ...distractors], seed + i * 7 + 3);
+    return { word, options, correctIndex: options.indexOf(label(word)) };
   });
+}
+
+/** German word → pick the English gloss. */
+export function buildBlitzQuestions(pool: GameWord[], seed: number): BlitzQuestion[] {
+  return buildChoiceQuestions(dedupeByGloss(pool), seed, (w) => shortGloss(w.gloss));
+}
+
+// ---------- Bilderrätsel rounds ----------
+
+/** A game word that ships with a bundled emoji SVG. */
+export interface ImageWord extends GameWord {
+  svg: string;
+}
+
+export function articleFor(gender: string | null): string | null {
+  if (gender === 'm') return 'der';
+  if (gender === 'f') return 'die';
+  if (gender === 'n') return 'das';
+  if (gender === 'pl') return 'die';
+  return null;
+}
+
+/** "das Haus" for nouns, bare lemma otherwise. */
+export function withArticle(w: { lemma: string; gender: string | null }): string {
+  const article = articleFor(w.gender);
+  return article ? `${article} ${w.lemma}` : w.lemma;
+}
+
+/** Picture → pick the German noun (with article). */
+export function buildImageQuestions(pool: ImageWord[], seed: number): ChoiceQuestion<ImageWord>[] {
+  const seen = new Set<string>();
+  const words = pool.filter((w) => {
+    const key = w.lemma.toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+  return buildChoiceQuestions(words, seed, withArticle);
 }
 
 // ---------- Wortpaare rounds ----------

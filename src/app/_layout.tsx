@@ -69,6 +69,7 @@ export default function RootLayout() {
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="review" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/wortblitz" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="game/bilderraetsel" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/derdiedas" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/wortpaare" options={{ gestureEnabled: false }} />
       </Stack>

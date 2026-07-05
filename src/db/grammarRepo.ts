@@ -5,6 +5,7 @@ export interface TopicRow {
   id: number;
   slug: string;
   title: string;
+  level: 'A1' | 'A2' | 'B1';
   explainer_md: string;
   question_count: number;
   attempts: number;
@@ -20,7 +21,7 @@ export interface QuestionRow {
 
 export async function listTopics(): Promise<TopicRow[]> {
   return getDb().getAllAsync<TopicRow>(
-    `SELECT t.id, t.slug, t.title, t.explainer_md,
+    `SELECT t.id, t.slug, t.title, t.level, t.explainer_md,
             (SELECT COUNT(*) FROM grammar_questions q WHERE q.topic_id = t.id) AS question_count,
             (SELECT COUNT(*) FROM quiz_attempts a JOIN grammar_questions q ON q.id = a.question_id
               WHERE q.topic_id = t.id) AS attempts,

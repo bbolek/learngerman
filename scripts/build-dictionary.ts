@@ -15,10 +15,10 @@ import { expandForms, type VocabEntry } from './inflect';
 
 const ROOT = path.join(__dirname, '..');
 const VOCAB_DIR = path.join(ROOT, 'scripts/data/vocab');
-const GRAMMAR_FILE = path.join(ROOT, 'scripts/data/grammar-questions.json');
+const GRAMMAR_DIR = path.join(ROOT, 'scripts/data/grammar');
 const OUT_FILE = path.join(ROOT, 'assets/db/dictionary.db');
 
-const CONTENT_VERSION = 2;
+const CONTENT_VERSION = 3;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
 const LEVELS = new Set(['A1', 'A2', 'B1']);
@@ -115,6 +115,7 @@ function loadVocab(): VocabEntry[] {
 interface GrammarTopic {
   slug: string;
   title: string;
+  level: string;
   explainer_md: string;
   questions: {
     qtype: string;
@@ -124,14 +125,21 @@ interface GrammarTopic {
 }
 
 function loadGrammar(): GrammarTopic[] {
-  if (!fs.existsSync(GRAMMAR_FILE)) return [];
-  const topics: GrammarTopic[] = JSON.parse(fs.readFileSync(GRAMMAR_FILE, 'utf8'));
+  if (!fs.existsSync(GRAMMAR_DIR)) return [];
+  const files = fs
+    .readdirSync(GRAMMAR_DIR)
+    .filter((f) => f.endsWith('.json'))
+    .sort();
+  const topics: GrammarTopic[] = files.map(
+    (f) => JSON.parse(fs.readFileSync(path.join(GRAMMAR_DIR, f), 'utf8')) as GrammarTopic
+  );
   const errors: string[] = [];
   const slugs = new Set<string>();
   topics.forEach((t) => {
     if (!t.slug || slugs.has(t.slug)) errors.push(`topic ${t.slug}: missing/duplicate slug`);
     slugs.add(t.slug);
     if (!t.title || !t.explainer_md) errors.push(`topic ${t.slug}: missing title/explainer`);
+    if (!LEVELS.has(t.level)) errors.push(`topic ${t.slug}: bad level '${t.level}'`);
     (t.questions ?? []).forEach((q, i) => {
       const where = `${t.slug}[${i}]`;
       if (!QTYPES.has(q.qtype)) return void errors.push(`${where}: bad qtype '${q.qtype}'`);
@@ -248,6 +256,7 @@ function build() {
       id INTEGER PRIMARY KEY,
       slug TEXT UNIQUE NOT NULL,
       title TEXT NOT NULL,
+      level TEXT NOT NULL CHECK (level IN ('A1','A2','B1')),
       explainer_md TEXT NOT NULL,
       sort_order INTEGER NOT NULL
     );
@@ -329,8 +338,8 @@ function build() {
 
     grammar.forEach((t, ti) => {
       const info = db
-        .prepare('INSERT INTO grammar_topics (slug, title, explainer_md, sort_order) VALUES (?, ?, ?, ?)')
-        .run(t.slug, t.title, t.explainer_md, ti + 1);
+        .prepare('INSERT INTO grammar_topics (slug, title, level, explainer_md, sort_order) VALUES (?, ?, ?, ?, ?)')
+        .run(t.slug, t.title, t.level, t.explainer_md, ti + 1);
       const topicId = info.lastInsertRowid as number;
       const insQ = db.prepare(
         'INSERT INTO grammar_questions (topic_id, qtype, payload, difficulty) VALUES (?, ?, ?, ?)'

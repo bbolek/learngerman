@@ -1,0 +1,206 @@
+{
+  "slug": "adjektivendungen",
+  "title": "Adjektivendungen",
+  "level": "B1",
+  "explainer_md": "An adjective **before a noun** needs an ending: *der klein**e** Hund*, *ein klein**er** Hund*. (After the noun it stays bare: *Der Hund ist klein.*)\n\n**After der/die/das** the endings are simple — only **-e** or **-en**:\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | der klein**e** | die klein**e** | das klein**e** | die klein**en** |\n| Akkusativ | den klein**en** | die klein**e** | das klein**e** | die klein**en** |\n| Dativ | dem klein**en** | der klein**en** | dem klein**en** | den klein**en** |\n\n**After ein/kein/mein** the adjective shows the gender where *ein* can't:\n\n| | m | f | n |\n|---|---|---|---|\n| Nominativ | ein klein**er** | eine klein**e** | ein klein**es** |\n| Akkusativ | einen klein**en** | eine klein**e** | ein klein**es** |\n| Dativ | einem klein**en** | einer klein**en** | einem klein**en** |\n\n*Das ist ein klein**er** Hund.* — ein shows nothing, so the adjective shows the masculine -er.\n\n*Ich habe ein klein**es** Auto.* — the adjective shows the neuter -es.\n\n*Sie hat eine klein**e** Katze.* — feminine -e.\n\n**The shortcut that covers most cases:** the ending is **-en** whenever the noun is Dativ, plural (with article), or masculine Akkusativ. Otherwise it's mostly **-e** after der/die/das, and after *ein* the adjective copies the der/die/das letter: klein**er** (der), klein**e** (die), klein**es** (das).",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der ___ Hund schläft.",
+        "options": [
+          "kleine",
+          "kleinen",
+          "kleiner"
+        ],
+        "correctIndex": 0,
+        "explanation": "After der (Nominativ): just -e → der kleine Hund."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich sehe den ___ Hund.",
+        "options": [
+          "kleinen",
+          "kleine",
+          "kleiner"
+        ],
+        "correctIndex": 0,
+        "explanation": "Masculine Akkusativ always ends in -en: den kleinen Hund."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das ist ein ___ Mann.",
+        "options": [
+          "netter",
+          "nette",
+          "netten"
+        ],
+        "correctIndex": 0,
+        "explanation": "ein shows no gender → the adjective takes the der-letter: ein netter Mann."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hat eine ___ Tasche.",
+        "options": [
+          "rote",
+          "roter",
+          "roten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Feminine with eine: -e → eine rote Tasche."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich trinke ein ___ Wasser.",
+        "options": [
+          "kaltes",
+          "kalte",
+          "kalten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Neuter with ein: the adjective shows the das-letter → ein kaltes Wasser."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er hilft dem ___ Kind.",
+        "options": [
+          "kleinen",
+          "kleines",
+          "kleine"
+        ],
+        "correctIndex": 0,
+        "explanation": "Dativ → always -en: dem kleinen Kind."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich trinke gern ___ Kaffee.",
+        "options": [
+          "schwarzen",
+          "schwarzer",
+          "schwarzes"
+        ],
+        "correctIndex": 0,
+        "explanation": "No article, masculine Akkusativ → the adjective takes the strong ending -en."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das ist ein ___ Auto. (schnell)",
+        "accept": [
+          "schnelles"
+        ],
+        "explanation": "Neuter after ein → -es: ein schnelles Auto.",
+        "hint": "das Auto"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich habe einen ___ Bruder. (groß)",
+        "accept": [
+          "großen"
+        ],
+        "explanation": "Masculine Akkusativ → -en: einen großen Bruder.",
+        "hint": "masculine Akkusativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie wohnt in einem ___ Haus. (alt)",
+        "accept": [
+          "alten"
+        ],
+        "explanation": "Dativ → -en: in einem alten Haus.",
+        "hint": "Dativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die ___ Blumen sind schön. (rot)",
+        "accept": [
+          "roten"
+        ],
+        "explanation": "Plural after die → -en: die roten Blumen.",
+        "hint": "plural with article"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "kaufe",
+          "einen",
+          "neuen",
+          "Tisch"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "kaufe",
+            "einen",
+            "neuen",
+            "Tisch"
+          ]
+        ],
+        "translation": "I'm buying a new table.",
+        "explanation": "Masculine Akkusativ: einen neuen Tisch — both words end in -en."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Die",
+          "junge",
+          "Frau",
+          "liest",
+          "ein",
+          "gutes",
+          "Buch"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "junge",
+            "Frau",
+            "liest",
+            "ein",
+            "gutes",
+            "Buch"
+          ]
+        ],
+        "translation": "The young woman is reading a good book.",
+        "explanation": "die junge Frau (feminine Nominativ, -e) · ein gutes Buch (neuter, -es)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "slug": "praesens",
+  "title": "Präsens & Konjugation",
+  "level": "A1",
+  "explainer_md": "German verbs change their ending for each person — this is called **conjugation**. The good news: almost all verbs follow one simple pattern.\n\nTake the verb stem (infinitive minus **-en**: *lernen* → *lern-*) and add:\n\n| | Endung | lernen |\n|---|---|---|\n| ich | -e | lern**e** |\n| du | -st | lern**st** |\n| er/sie/es | -t | lern**t** |\n| wir | -en | lern**en** |\n| ihr | -t | lern**t** |\n| sie/Sie | -en | lern**en** |\n\n*Ich lerne Deutsch.* — I learn German.\n\n*Du spielst Fußball.* — You play football.\n\n*Er wohnt in Berlin.* — He lives in Berlin.\n\n**Some strong verbs change their vowel** — but only in the **du** and **er/sie/es** forms: sprechen → du sprichst, er spricht (e→i) · sehen → du siehst, er sieht (e→ie) · fahren → du fährst, er fährt (a→ä) · schlafen → du schläfst, er schläft.\n\n**Two verbs are completely irregular** and must be memorized:\n\n| | sein | haben |\n|---|---|---|\n| ich | bin | habe |\n| du | bist | hast |\n| er/sie/es | ist | hat |\n| wir | sind | haben |\n| ihr | seid | habt |\n| sie/Sie | sind | haben |\n\n**Tip:** German has only ONE present tense. *Ich lerne* means both \"I learn\" and \"I am learning\".",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ Deutsch.",
+        "options": [
+          "lerne",
+          "lernst",
+          "lernt"
+        ],
+        "correctIndex": 0,
+        "explanation": "ich → stem + -e: ich lerne."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du ___ Fußball.",
+        "options": [
+          "spielst",
+          "spielt",
+          "spiele"
+        ],
+        "correctIndex": 0,
+        "explanation": "du → stem + -st: du spielst."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er ___ in Berlin.",
+        "options": [
+          "wohnt",
+          "wohnst",
+          "wohne"
+        ],
+        "correctIndex": 0,
+        "explanation": "er/sie/es → stem + -t: er wohnt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie ___ gern Bücher. (sie = she)",
+        "options": [
+          "liest",
+          "lest",
+          "lese"
+        ],
+        "correctIndex": 0,
+        "explanation": "„lesen“ changes its vowel: e→ie, but only for du and er/sie/es: sie liest."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Du ___ sehr schnell.",
+        "options": [
+          "fährst",
+          "fahrst",
+          "fährt"
+        ],
+        "correctIndex": 0,
+        "explanation": "„fahren“ takes an umlaut in the du-form: a→ä, du fährst."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ du müde?",
+        "options": [
+          "Bist",
+          "Bin",
+          "Ist"
+        ],
+        "correctIndex": 0,
+        "explanation": "„sein“ is irregular: ich bin, du bist, er ist."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er ___ mit seiner Mutter.",
+        "options": [
+          "spricht",
+          "sprecht",
+          "sprichst"
+        ],
+        "correctIndex": 0,
+        "explanation": "„sprechen“ changes e→i: er spricht. (ihr sprecht, du sprichst)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ihr ___ heute Zeit.",
+        "options": [
+          "habt",
+          "habet",
+          "haben"
+        ],
+        "correctIndex": 0,
+        "explanation": "ihr → stem + -t: ihr habt. (Only du hast and er hat are irregular.)"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ Musik. (hören)",
+        "accept": [
+          "hören"
+        ],
+        "explanation": "wir → stem + -en, same as the infinitive: wir hören.",
+        "hint": "wir-form"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er ___ ein Auto. (haben)",
+        "accept": [
+          "hat"
+        ],
+        "explanation": "„haben“ is irregular: er hat (not „habt“).",
+        "hint": "irregular!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich ___ aus der Türkei. (sein)",
+        "accept": [
+          "bin"
+        ],
+        "explanation": "„sein“ is completely irregular: ich bin.",
+        "hint": "irregular!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Du ___ zu viel Schokolade. (essen)",
+        "accept": [
+          "isst"
+        ],
+        "explanation": "„essen“ changes e→i in the du-form: du isst.",
+        "hint": "vowel change e→i"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Kind ___ zehn Stunden. (schlafen)",
+        "accept": [
+          "schläft"
+        ],
+        "explanation": "„schlafen“ takes an umlaut: es schläft.",
+        "hint": "vowel change a→ä"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "trinke",
+          "morgens",
+          "Kaffee"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "trinke",
+            "morgens",
+            "Kaffee"
+          ]
+        ],
+        "translation": "I drink coffee in the morning.",
+        "explanation": "Subject – conjugated verb (position 2) – rest."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Meine",
+          "Schwester",
+          "liest",
+          "gern",
+          "Bücher"
+        ],
+        "solutions": [
+          [
+            "Meine",
+            "Schwester",
+            "liest",
+            "gern",
+            "Bücher"
+          ]
+        ],
+        "translation": "My sister likes reading books.",
+        "explanation": "er/sie/es-form with vowel change: liest. „gern“ comes right after the verb."
+      }
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "slug": "dat-preps",
+  "title": "Präpositionen + Dativ",
+  "level": "A2",
+  "explainer_md": "These prepositions **always** take the Dativ: **aus** (out of/from), **bei** (at/near), **mit** (with), **nach** (after/to), **seit** (since/for), **von** (from/of), **zu** (to).\n\nMany learners sing them to a melody: *aus – bei – mit – nach – seit – von – zu*. However you memorize them: after these words the next article is **always** Dativ.\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Dativ | dem / einem | der / einer | dem / einem | den … -n |\n\n*Ich fahre mit **dem** Bus.* — I go by bus.\n\n*Sie kommt aus **der** Türkei.* — She comes from Turkey.\n\n*Nach **der** Schule spiele ich Fußball.* — After school I play football.\n\n*Er wohnt bei **seinen** Eltern.* — He lives with his parents.\n\n**Handy contractions** you'll hear everywhere: zu + dem = **zum**, zu + der = **zur**, bei + dem = **beim**, von + dem = **vom**. *Ich gehe zum Arzt.* — I'm going to the doctor.\n\n**Tip:** *seit* is used for things that started in the past and still continue — with the present tense: *Ich lerne **seit einem** Jahr Deutsch.* — I've been learning German for a year.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich fahre mit ___ Bus.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 2,
+        "explanation": "„mit“ always takes the Dativ. Masculine: der → dem (der Bus)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie kommt aus ___ Türkei.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„aus“ always takes the Dativ. Feminine: die → der (die Türkei)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Nach ___ Schule gehe ich nach Hause.",
+        "options": [
+          "die",
+          "der",
+          "dem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„nach“ always takes the Dativ. Feminine: die → der (die Schule)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er wohnt bei ___ Eltern.",
+        "options": [
+          "die",
+          "den",
+          "der"
+        ],
+        "correctIndex": 1,
+        "explanation": "„bei“ always takes the Dativ. Plural: die → den (den Eltern)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gehe ___ Arzt. (zu + dem)",
+        "options": [
+          "zum",
+          "zur",
+          "zu den"
+        ],
+        "correctIndex": 0,
+        "explanation": "„zu“ takes the Dativ; zu + dem contracts to „zum“ (der Arzt)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir lernen Deutsch seit ___ Jahr.",
+        "options": [
+          "ein",
+          "einen",
+          "einem"
+        ],
+        "correctIndex": 2,
+        "explanation": "„seit“ always takes the Dativ. Neuter: ein → einem (das Jahr)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Brot kommt ___ Bäcker. (von + dem)",
+        "options": [
+          "vom",
+          "zum",
+          "beim"
+        ],
+        "correctIndex": 0,
+        "explanation": "„von“ takes the Dativ; von + dem contracts to „vom“ (der Bäcker)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er ist gerade ___ Friseur. (bei + dem)",
+        "options": [
+          "beim",
+          "vom",
+          "zur"
+        ],
+        "correctIndex": 0,
+        "explanation": "„bei“ takes the Dativ; bei + dem contracts to „beim“ (der Friseur)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Kommst du mit ___? (ich)",
+        "options": [
+          "mir",
+          "mich",
+          "ich"
+        ],
+        "correctIndex": 0,
+        "explanation": "„mit“ always takes the Dativ, also with pronouns: ich → mir."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir fahren zu ___ Großeltern. (unsere)",
+        "options": [
+          "unseren",
+          "unsere",
+          "unserem"
+        ],
+        "correctIndex": 0,
+        "explanation": "„zu“ takes the Dativ. Plural: unsere → unseren (die Großeltern)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gehe mit ___ Schwester ins Kino. (meine)",
+        "accept": [
+          "meiner"
+        ],
+        "hint": "mit + Dativ, die Schwester",
+        "explanation": "„mit“ always takes the Dativ. Feminine: meine → meiner."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er kommt aus ___ Schule. (die)",
+        "accept": [
+          "der"
+        ],
+        "hint": "aus + Dativ, die Schule",
+        "explanation": "„aus“ always takes the Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Nach ___ Essen trinken wir Kaffee. (das)",
+        "accept": [
+          "dem"
+        ],
+        "hint": "nach + Dativ, das Essen",
+        "explanation": "„nach“ always takes the Dativ. Neuter: das → dem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie arbeitet seit ___ Monat hier. (ein)",
+        "accept": [
+          "einem"
+        ],
+        "hint": "seit + Dativ, der Monat",
+        "explanation": "„seit“ always takes the Dativ. Masculine: ein → einem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das ist ein Geschenk von ___ Oma. (meine)",
+        "accept": [
+          "meiner"
+        ],
+        "hint": "von + Dativ, die Oma",
+        "explanation": "„von“ always takes the Dativ. Feminine: meine → meiner."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir fahren zu ___ Freunden. (unsere)",
+        "accept": [
+          "unseren"
+        ],
+        "hint": "zu + Dativ, plural die Freunde",
+        "explanation": "„zu“ takes the Dativ. Plural: unsere → unseren, and the noun adds -n (Freunden)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "fahre",
+          "mit",
+          "Ich",
+          "dem",
+          "Bus"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "fahre",
+            "mit",
+            "dem",
+            "Bus"
+          ]
+        ],
+        "translation": "I am going by bus.",
+        "explanation": "„mit“ takes the Dativ: der → dem. The verb stands in second position."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "kommt",
+          "aus",
+          "Sie",
+          "der",
+          "Türkei"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "kommt",
+            "aus",
+            "der",
+            "Türkei"
+          ]
+        ],
+        "translation": "She comes from Turkey.",
+        "explanation": "„aus“ takes the Dativ. Feminine: die → der (die Türkei)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "wohne",
+          "seit",
+          "Ich",
+          "einem",
+          "Jahr",
+          "hier"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "wohne",
+            "seit",
+            "einem",
+            "Jahr",
+            "hier"
+          ],
+          [
+            "Ich",
+            "wohne",
+            "hier",
+            "seit",
+            "einem",
+            "Jahr"
+          ]
+        ],
+        "translation": "I have been living here for a year.",
+        "explanation": "„seit“ takes the Dativ: ein → einem (das Jahr). The time phrase and „hier“ can come in either order."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "wohnt",
+          "bei",
+          "Sie",
+          "ihren",
+          "Eltern"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "wohnt",
+            "bei",
+            "ihren",
+            "Eltern"
+          ]
+        ],
+        "translation": "She lives with her parents.",
+        "explanation": "„bei“ takes the Dativ. Plural: ihre → ihren (die Eltern)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "ist",
+          "seit",
+          "Er",
+          "einer",
+          "Woche",
+          "krank"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "ist",
+            "seit",
+            "einer",
+            "Woche",
+            "krank"
+          ]
+        ],
+        "translation": "He has been ill for a week.",
+        "explanation": "„seit“ takes the Dativ. Feminine: eine → einer (die Woche)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Ich fahre mit **dem Bus**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It follows „mit“, which always takes the Dativ",
+          "It is the direct object of the verb",
+          "It is the subject of the sentence",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "„mit“ is a Dativ preposition, so der Bus becomes dem Bus."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Sie kommt aus **der Türkei**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It follows „aus“, which always takes the Dativ",
+          "It is the direct object of the verb",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "„aus“ is a Dativ preposition. Feminine: die → der (die Türkei)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Nach **der Schule** spielen wir Fußball.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the direct object of the verb",
+          "It is the subject of the sentence",
+          "It follows „nach“, which always takes the Dativ",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„nach“ is a Dativ preposition. Feminine: die → der (die Schule)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "**Der Zug** kommt aus Berlin.",
+        "correctCase": "nominativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It follows „aus“, which always takes the Dativ",
+          "It is the direct object of the verb",
+          "It is the indirect object (recipient)"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "Der Zug is the one arriving → subject → Nominativ. Only „Berlin“ follows the Dativ preposition „aus“."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er kommt mit ___ Fahrrad.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„mit“ + Dativ: das Fahrrad → dem Fahrrad."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie wohnt seit ___ Woche in Berlin.",
+        "options": [
+          "eine",
+          "einer",
+          "einem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„seit“ + Dativ: die Woche → einer Woche."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir gehen ___ Bäckerei. (zu + die)",
+        "options": [
+          "zur",
+          "zum",
+          "zu den"
+        ],
+        "correctIndex": 0,
+        "explanation": "zu + der (feminine Dativ) contracts to zur: die Bäckerei → zur Bäckerei."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich gehe ___ Bahnhof. (zu + der Bahnhof)",
+        "accept": [
+          "zum",
+          "zu dem"
+        ],
+        "hint": "contraction",
+        "explanation": "zu + dem (masculine Dativ) contracts to zum."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nach ___ Arbeit gehe ich einkaufen. (die)",
+        "accept": [
+          "der"
+        ],
+        "hint": "nach + Dativ",
+        "explanation": "„nach“ + Dativ: die Arbeit → der Arbeit."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "gehe",
+          "zum",
+          "Supermarkt"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "gehe",
+            "zum",
+            "Supermarkt"
+          ]
+        ],
+        "translation": "I go to the supermarket.",
+        "explanation": "zum = zu + dem (masculine Dativ)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Seit",
+          "einem",
+          "Monat",
+          "lerne",
+          "ich",
+          "Deutsch"
+        ],
+        "solutions": [
+          [
+            "Seit",
+            "einem",
+            "Monat",
+            "lerne",
+            "ich",
+            "Deutsch"
+          ]
+        ],
+        "translation": "I have been learning German for a month.",
+        "explanation": "„seit“ + Dativ, and after the fronted time phrase the verb stays in position 2."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Er wohnt bei **seinen Großeltern**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „wohnen“",
+          "It follows „bei“, which always takes the Dativ",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„bei“ always takes the Dativ — plural: seinen Großeltern (noun already ends in -n)."
+      }
+    }
+  ]
+}

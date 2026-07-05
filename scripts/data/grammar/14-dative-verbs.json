@@ -1,0 +1,518 @@
+{
+  "slug": "dative-verbs",
+  "title": "Verben mit Dativ",
+  "level": "A2",
+  "explainer_md": "A small group of common verbs takes its object in the **Dativ** — even though English treats it as a direct object. These you simply memorize with the verb.\n\n**The most important ones:** helfen (help), danken (thank), gefallen (please/like), gehören (belong to), antworten (answer), glauben (believe), schmecken (taste good), passen (fit), gratulieren (congratulate), folgen (follow).\n\n*Ich helfe **dem** Mann.* — I help the man.\n\n*Wir danken **dem** Lehrer.* — We thank the teacher.\n\n*Antwortest du **deinem** Vater?* — Are you answering your father?\n\n**Watch out — three verbs flip the sentence around.** With *gefallen*, *gehören* and *schmecken* the **thing is the subject** and the person is Dativ:\n\n*Der Film gefällt **mir**.* — I like the film. (literally: the film pleases me)\n\n*Das Buch gehört **ihr**.* — The book belongs to her.\n\n*Die Pizza schmeckt **den** Kindern.* — The kids like the pizza.\n\n**Tip:** when you learn one of these verbs, learn it with a pronoun: *hilf **mir***, *es gefällt **mir***, *es gehört **mir*** — then the Dativ comes automatically.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich helfe ___ Mann.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 2,
+        "explanation": "„helfen“ always takes a Dativ object. Masculine: der → dem (der Mann)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir danken ___ Lehrer.",
+        "options": [
+          "dem",
+          "den",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„danken“ takes the Dativ. Masculine: der → dem (der Lehrer)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Film gefällt ___ Frau.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„gefallen“ takes the Dativ. Feminine: die → der (die Frau)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Buch gehört ___ Kind.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„gehören“ takes the Dativ. Neuter: das → dem (das Kind)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Hilfst du ___? (ich)",
+        "options": [
+          "mir",
+          "mich",
+          "ich"
+        ],
+        "correctIndex": 0,
+        "explanation": "„helfen“ takes the Dativ, also with pronouns: ich → mir."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie antwortet ___ Lehrerin.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„antworten“ takes the Dativ. Feminine: die → der (die Lehrerin)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich glaube ___ nicht. (du)",
+        "options": [
+          "dir",
+          "dich",
+          "du"
+        ],
+        "correctIndex": 0,
+        "explanation": "„glauben“ (a person) takes the Dativ: du → dir."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Pizza schmeckt ___ Kindern.",
+        "options": [
+          "die",
+          "den",
+          "der"
+        ],
+        "correctIndex": 1,
+        "explanation": "„schmecken“ takes the Dativ. Plural: die → den, and the noun adds -n (Kindern)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Schuhe gefallen ___. (ich)",
+        "options": [
+          "mir",
+          "mich",
+          "meiner"
+        ],
+        "correctIndex": 0,
+        "explanation": "With „gefallen“ the thing (die Schuhe) is the plural subject; the person is the Dativ object: ich → mir."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Auto gehört ___ Eltern. (meine)",
+        "options": [
+          "meinen",
+          "meine",
+          "meinem"
+        ],
+        "correctIndex": 0,
+        "explanation": "„gehören“ takes the Dativ. Plural: meine → meinen (die Eltern)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er hilft ___ Frau. (die)",
+        "accept": [
+          "der"
+        ],
+        "hint": "helfen + Dativ, die Frau",
+        "explanation": "„helfen“ always takes a Dativ object. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Fahrrad gehört ___ Bruder. (mein)",
+        "accept": [
+          "meinem"
+        ],
+        "hint": "gehören + Dativ, der Bruder",
+        "explanation": "„gehören“ takes the Dativ. Masculine: mein → meinem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Kuchen schmeckt ___ Opa. (der)",
+        "accept": [
+          "dem"
+        ],
+        "hint": "schmecken + Dativ, der Opa",
+        "explanation": "„schmecken“ takes the Dativ. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir danken ___ Freunden. (unsere)",
+        "accept": [
+          "unseren"
+        ],
+        "hint": "danken + Dativ, plural die Freunde",
+        "explanation": "„danken“ takes the Dativ. Plural: unsere → unseren, and the noun adds -n (Freunden)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Antwortest du ___ Vater? (dein)",
+        "accept": [
+          "deinem"
+        ],
+        "hint": "antworten + Dativ, der Vater",
+        "explanation": "„antworten“ takes the Dativ. Masculine: dein → deinem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Bilder gefallen ___ Gästen. (die)",
+        "accept": [
+          "den"
+        ],
+        "hint": "gefallen + Dativ, plural die Gäste",
+        "explanation": "The plural subject is die Bilder; the people are the Dativ object. Plural: die → den (Gästen)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "helfe",
+          "meiner",
+          "Ich",
+          "Mutter"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "helfe",
+            "meiner",
+            "Mutter"
+          ]
+        ],
+        "translation": "I am helping my mother.",
+        "explanation": "„helfen“ takes the Dativ. Feminine: meine → meiner (die Mutter)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "gehört",
+          "Buch",
+          "Das",
+          "ihm"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Buch",
+            "gehört",
+            "ihm"
+          ]
+        ],
+        "translation": "The book belongs to him.",
+        "explanation": "„gehören“ takes the Dativ pronoun: er → ihm. Das Buch is the Nominativ subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "gefällt",
+          "Film",
+          "Der",
+          "uns"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Film",
+            "gefällt",
+            "uns"
+          ]
+        ],
+        "translation": "We like the film.",
+        "explanation": "With „gefallen“ the thing (der Film) is the subject; the person is in the Dativ: wir → uns."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "danken",
+          "dem",
+          "Wir",
+          "Lehrer"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "danken",
+            "dem",
+            "Lehrer"
+          ]
+        ],
+        "translation": "We thank the teacher.",
+        "explanation": "„danken“ takes the Dativ. Masculine: der → dem (der Lehrer)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "schmeckt",
+          "Suppe",
+          "Die",
+          "meinem",
+          "Vater",
+          "nicht"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Suppe",
+            "schmeckt",
+            "meinem",
+            "Vater",
+            "nicht"
+          ]
+        ],
+        "translation": "My father does not like the soup.",
+        "explanation": "„schmecken“ takes the Dativ: mein → meinem (der Vater). „nicht“ stands at the end."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Ich helfe **dem Schüler**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "„helfen“ always takes a Dativ object",
+          "It is the direct object of the verb",
+          "It is the subject of the sentence",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "„helfen“ is a Dativ verb, so der Schüler becomes dem Schüler."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Das Handy gehört **der Lehrerin**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "„gehören“ always takes a Dativ object",
+          "It is the direct object of the verb",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "„gehören“ is a Dativ verb. Feminine: die → der (die Lehrerin)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Der Film gefällt **meinem Freund**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of the verb",
+          "„gefallen“ always takes a Dativ object",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„gefallen“ is a Dativ verb: mein → meinem (der Freund). Der Film is the subject."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "**Die Schuhe** gefallen mir.",
+        "correctCase": "nominativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the Dativ object of „gefallen“",
+          "It is the direct object of the verb",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "With „gefallen“ the thing liked is the subject → Nominativ; that is why the verb is plural (gefallen). „mir“ is the Dativ object."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gratuliere ___ Freundin.",
+        "options": [
+          "meine",
+          "meiner",
+          "meinen"
+        ],
+        "correctIndex": 1,
+        "explanation": "„gratulieren“ takes the Dativ: die Freundin → meiner Freundin."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Jacke passt ___ gut. (er)",
+        "options": [
+          "ihn",
+          "ihm",
+          "er"
+        ],
+        "correctIndex": 1,
+        "explanation": "„passen“ takes the Dativ: er → ihm. The jacket is the subject."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Glaubst du ___ Mann?",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 2,
+        "explanation": "„glauben“ (a person) takes the Dativ: der Mann → dem Mann."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Handy gehört ___ Schülerin.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„gehören“ takes the Dativ: die Schülerin → der Schülerin."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir gratulieren ___ Opa zum Geburtstag. (unser)",
+        "accept": [
+          "unserem"
+        ],
+        "hint": "gratulieren + Dativ",
+        "explanation": "„gratulieren“ takes the Dativ: der Opa → unserem Opa."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Rock passt ___ Schwester nicht. (mein)",
+        "accept": [
+          "meiner"
+        ],
+        "hint": "passen + Dativ",
+        "explanation": "„passen“ takes the Dativ: die Schwester → meiner Schwester."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Die",
+          "Schuhe",
+          "passen",
+          "mir",
+          "nicht"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Schuhe",
+            "passen",
+            "mir",
+            "nicht"
+          ]
+        ],
+        "translation": "The shoes don't fit me.",
+        "explanation": "„passen“ + Dativ — the shoes are the subject, the person is Dativ (mir)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Ich gratuliere **meinem Bruder**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „gratulieren“",
+          "„gratulieren“ always takes the Dativ",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„gratulieren“ is a dative verb: der Bruder → meinem Bruder."
+      }
+    }
+  ]
+}

@@ -15,5 +15,5 @@ Offline German learning app (Expo SDK 57, TypeScript, expo-router, expo-sqlite).
 - Routes live in `src/app/` (expo-router). All colors/spacing/fonts come from `src/ui/theme.ts` tokens via `useTheme()` — never hardcode colors in screens (dark mode depends on it).
 - Pure logic (`src/logic/`) must stay free of RN imports and `Date.now()` — clocks are injected so jest can control time.
 - The bundled dictionary is read-only content; user data lives in the same SQLite file via `src/db/migrations.ts`. Content schema changes require bumping migration logic AND rebuilding the DB.
-- Vocabulary authoring schema: `scripts/data/AUTHORING.md`. The build script validates everything and fails loudly — trust its error messages.
+- Vocabulary & grammar authoring schema: `scripts/data/AUTHORING.md` (vocab batches in `scripts/data/vocab/`, one grammar topic per file in `scripts/data/grammar/`). The build script validates everything and fails loudly — trust its error messages.
 - German UI copy throughout the app; English used in grammar explanations.

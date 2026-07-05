@@ -1,0 +1,859 @@
+{
+  "slug": "dativ",
+  "title": "Dativ",
+  "level": "A1",
+  "explainer_md": "The **Dativ** marks the **indirect object** — the person who *receives* something or benefits from the action. In *Ich gebe dem Mann das Buch*, the book is what I give (Akkusativ), and the man is who gets it (Dativ).\n\n**How to find it:** ask **Wem?** (to whom?). *Ich gebe dem Kind einen Apfel.* → Wem gebe ich den Apfel? → **dem Kind**.\n\n**Here every article changes** — this table is worth memorizing:\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | der / ein | die / eine | das / ein | die |\n| Dativ | **dem / einem** | **der / einer** | **dem / einem** | **den … -n** |\n\n*Ich gebe **dem** Mann das Buch.* — I give the man the book.\n\n*Sie zeigt **der** Frau den Weg.* — She shows the woman the way.\n\n*Er bringt **dem** Kind einen Apfel.* — He brings the child an apple.\n\n*Wir helfen **den** Kinder**n**.* — We help the children. (plural noun adds **-n**!)\n\n**Typical „giving/showing“ verbs with Dativ + Akkusativ:** geben, zeigen, schenken, bringen, erklären, schicken. The person is Dativ, the thing is Akkusativ.\n\n**Tip:** in the Dativ plural the noun itself also gets an **-n** if it doesn't have one already: die Kinder → den Kinder**n**, die Freunde → den Freunde**n**.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gebe ___ Mann das Buch.",
+        "options": [
+          "der",
+          "den",
+          "dem",
+          "des"
+        ],
+        "correctIndex": 2,
+        "explanation": "„geben“ takes a Dativ recipient. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie zeigt ___ Kind das Foto.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„zeigen“ takes a Dativ recipient. Neuter: das → dem (das Kind)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er schenkt ___ Frau eine Tasche.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„schenken“ takes a Dativ recipient. Feminine: die → der (die Frau)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir bringen ___ Lehrer einen Stuhl.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 2,
+        "explanation": "„bringen“ takes a Dativ recipient. Masculine: der → dem (der Lehrer)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gebe ___ Hund das Essen.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 2,
+        "explanation": "„geben“ takes a Dativ recipient. Masculine: der → dem (der Hund); das Essen is the Akkusativ object."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Lehrer erklärt ___ Schüler das Wort.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 2,
+        "explanation": "„erklären“ takes a Dativ recipient. Masculine: der → dem (der Schüler)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er gibt ___ Schwester ein Buch.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„geben“ takes a Dativ recipient. Feminine: die → der (die Schwester)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich zeige ___ Mutter die Schule.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„zeigen“ takes a Dativ recipient. Feminine: die → der (die Mutter)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir geben ___ Kindern die Äpfel.",
+        "options": [
+          "die",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„geben“ takes a Dativ recipient. Plural: die → den, and the noun adds -n (die Kinder → den Kindern)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie schenkt ___ Eltern Blumen.",
+        "options": [
+          "die",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„schenken“ takes a Dativ recipient. Plural: die → den (die Eltern → den Eltern; the noun already ends in -n)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er bringt ___ Freund die Tasche.",
+        "options": [
+          "ein",
+          "einen",
+          "einem"
+        ],
+        "correctIndex": 2,
+        "explanation": "„bringen“ takes a Dativ recipient. Masculine ein → einem (der Freund)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie zeigt ___ Frau den Weg.",
+        "options": [
+          "eine",
+          "einer",
+          "einen"
+        ],
+        "correctIndex": 1,
+        "explanation": "„zeigen“ takes a Dativ recipient. Feminine eine → einer (die Frau); den Weg is the Akkusativ object."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Mann gibt ___ Katze die Milch.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„geben“ takes a Dativ recipient. Feminine: die → der (die Katze)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich gebe es ___ Lehrer.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 2,
+        "explanation": "The recipient of „geben“ is Dativ even after the pronoun „es“. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie zeigt ___ Männern das Haus.",
+        "options": [
+          "die",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„zeigen“ takes a Dativ recipient. Plural: die → den, and the noun adds -n (die Männer → den Männern)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Vater gibt ___ Sohn den Schlüssel.",
+        "options": [
+          "der",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "The recipient of „geben“ is Dativ: der → dem (der Sohn). „den Schlüssel“ is the Akkusativ object — don't mix them up."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gebe ___ Frau das Buch. (die)",
+        "accept": [
+          "der"
+        ],
+        "hint": "geben + Dativ recipient, die Frau",
+        "explanation": "„geben“ takes a Dativ recipient. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er zeigt ___ Mann den Weg. (der)",
+        "accept": [
+          "dem"
+        ],
+        "hint": "zeigen + Dativ recipient, der Mann",
+        "explanation": "„zeigen“ takes a Dativ recipient. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie bringt ___ Kind einen Apfel. (das)",
+        "accept": [
+          "dem"
+        ],
+        "hint": "bringen + Dativ recipient, das Kind",
+        "explanation": "„bringen“ takes a Dativ recipient. Neuter: das → dem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir schenken ___ Mutter Blumen. (die)",
+        "accept": [
+          "der"
+        ],
+        "hint": "schenken + Dativ recipient, die Mutter",
+        "explanation": "„schenken“ takes a Dativ recipient. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Lehrer gibt ___ Schüler ein Buch. (der)",
+        "accept": [
+          "dem"
+        ],
+        "hint": "geben + Dativ recipient, der Schüler",
+        "explanation": "„geben“ takes a Dativ recipient. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er erklärt ___ Schwester das Spiel. (die)",
+        "accept": [
+          "der"
+        ],
+        "hint": "erklären + Dativ recipient, die Schwester",
+        "explanation": "„erklären“ takes a Dativ recipient. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie zeigt ___ Kindern das Haus. (die)",
+        "accept": [
+          "den"
+        ],
+        "hint": "zeigen + Dativ recipient, plural die Kinder",
+        "explanation": "„zeigen“ takes a Dativ recipient. Plural: die → den, and the noun adds -n (Kindern)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er bringt ___ Freund ein Buch. (ein)",
+        "accept": [
+          "einem"
+        ],
+        "hint": "bringen + Dativ recipient, der Freund",
+        "explanation": "„bringen“ takes a Dativ recipient. Masculine ein → einem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie schenkt ___ Eltern ein Foto. (die)",
+        "accept": [
+          "den"
+        ],
+        "hint": "schenken + Dativ recipient, plural die Eltern",
+        "explanation": "„schenken“ takes a Dativ recipient. Plural: die → den (den Eltern)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ Kind gebe ich einen Apfel. (das)",
+        "accept": [
+          "Dem",
+          "dem"
+        ],
+        "hint": "geben + Dativ recipient, das Kind — the recipient is fronted",
+        "explanation": "Even at the start of the sentence, the recipient of „geben“ is Dativ: das → dem. „einen Apfel“ is the Akkusativ object."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "dem",
+          "einen",
+          "Ich",
+          "Apfel",
+          "gebe",
+          "Kind"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "gebe",
+            "dem",
+            "Kind",
+            "einen",
+            "Apfel"
+          ],
+          [
+            "Ich",
+            "gebe",
+            "einen",
+            "Apfel",
+            "dem",
+            "Kind"
+          ]
+        ],
+        "translation": "I give the child an apple.",
+        "explanation": "„geben“ takes a Dativ recipient (das → dem) and an Akkusativ object (ein → einen). The Dativ noun usually comes first."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "das",
+          "der",
+          "zeigt",
+          "Auto",
+          "Er",
+          "Frau"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "zeigt",
+            "der",
+            "Frau",
+            "das",
+            "Auto"
+          ],
+          [
+            "Er",
+            "zeigt",
+            "das",
+            "Auto",
+            "der",
+            "Frau"
+          ]
+        ],
+        "translation": "He shows the woman the car.",
+        "explanation": "„zeigen“ takes a Dativ recipient: die → der (die Frau). The neuter Akkusativ object das Auto stays das."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "ein",
+          "dem",
+          "Buch",
+          "Sie",
+          "Mann",
+          "schenkt"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "schenkt",
+            "dem",
+            "Mann",
+            "ein",
+            "Buch"
+          ],
+          [
+            "Sie",
+            "schenkt",
+            "ein",
+            "Buch",
+            "dem",
+            "Mann"
+          ]
+        ],
+        "translation": "She gives the man a book (as a present).",
+        "explanation": "„schenken“ takes a Dativ recipient: der → dem (der Mann). „ein Buch“ is the neuter Akkusativ object."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "die",
+          "der",
+          "Wir",
+          "Tasche",
+          "bringen",
+          "Lehrerin"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "bringen",
+            "der",
+            "Lehrerin",
+            "die",
+            "Tasche"
+          ],
+          [
+            "Wir",
+            "bringen",
+            "die",
+            "Tasche",
+            "der",
+            "Lehrerin"
+          ]
+        ],
+        "translation": "We bring the teacher the bag.",
+        "explanation": "„bringen“ takes a Dativ recipient: die → der (die Lehrerin). Feminine Akkusativ die Tasche stays die."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "das",
+          "gibt",
+          "dem",
+          "Der",
+          "Geld",
+          "Sohn",
+          "Vater"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Vater",
+            "gibt",
+            "dem",
+            "Sohn",
+            "das",
+            "Geld"
+          ],
+          [
+            "Der",
+            "Vater",
+            "gibt",
+            "das",
+            "Geld",
+            "dem",
+            "Sohn"
+          ]
+        ],
+        "translation": "The father gives the son the money.",
+        "explanation": "„geben“ takes a Dativ recipient: der → dem (der Sohn). Der Vater is the Nominativ subject, das Geld the Akkusativ object."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "dem",
+          "das",
+          "erklärt",
+          "Kind",
+          "Die",
+          "Spiel",
+          "Mutter"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Mutter",
+            "erklärt",
+            "dem",
+            "Kind",
+            "das",
+            "Spiel"
+          ],
+          [
+            "Die",
+            "Mutter",
+            "erklärt",
+            "das",
+            "Spiel",
+            "dem",
+            "Kind"
+          ]
+        ],
+        "translation": "The mother explains the game to the child.",
+        "explanation": "„erklären“ takes a Dativ recipient: das → dem (das Kind). „das Spiel“ is the Akkusativ object."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "gebe",
+          "das",
+          "Dem",
+          "Buch",
+          "ich",
+          "Mann"
+        ],
+        "solutions": [
+          [
+            "Dem",
+            "Mann",
+            "gebe",
+            "ich",
+            "das",
+            "Buch"
+          ]
+        ],
+        "translation": "I give the book to the man.",
+        "explanation": "The Dativ recipient „dem Mann“ (der → dem, triggered by „geben“) is fronted; the verb stays in second position and the subject „ich“ follows."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "die",
+          "den",
+          "Heute",
+          "Schule",
+          "ich",
+          "Kindern",
+          "zeige"
+        ],
+        "solutions": [
+          [
+            "Heute",
+            "zeige",
+            "ich",
+            "den",
+            "Kindern",
+            "die",
+            "Schule"
+          ],
+          [
+            "Heute",
+            "zeige",
+            "ich",
+            "die",
+            "Schule",
+            "den",
+            "Kindern"
+          ]
+        ],
+        "translation": "Today I am showing the children the school.",
+        "explanation": "With „Heute“ fronted, the verb stays second and „ich“ follows. „zeigen“ takes a plural Dativ recipient: die → den + -n (den Kindern)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Der Lehrer gibt **dem Schüler** ein Buch.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „geben“",
+          "It is the indirect object — the person who receives the book",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "The Schüler receives the book → indirect object → Dativ. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Ich zeige **der Frau** den Weg.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the indirect object — the person shown the way",
+          "It is the subject of the sentence",
+          "It is the direct object of „zeigen“",
+          "It shows possession"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "The Frau is shown the way → indirect object of „zeigen“ → Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Sie gibt dem Kind **einen Apfel**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It is the indirect object (recipient)",
+          "It is the direct object — the thing being given",
+          "It is the subject of the sentence",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "The apple is the thing given → direct object of „geben“ → Akkusativ (ein → einen). The recipient „dem Kind“ is Dativ."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "**Die Mutter** schenkt dem Kind ein Buch.",
+        "correctCase": "nominativ",
+        "reasons": [
+          "It is the indirect object (recipient)",
+          "It is the direct object of „schenken“",
+          "It is the subject — the person doing the giving",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "Die Mutter is the one giving → subject → Nominativ, so die stays die. The Dativ recipient is „dem Kind“."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Er bringt **den Kindern** die Äpfel.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the masculine direct object of „bringen“",
+          "It is the plural indirect object — the recipients of the apples",
+          "It is the subject of the sentence",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "The Kinder receive the apples → indirect object → Dativ plural: die → den and the noun adds -n (Kindern). It only looks like masculine Akkusativ."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "**Dem Mann** gebe ich das Auto.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject because it comes first",
+          "It is the direct object of „geben“",
+          "It follows a dative preposition",
+          "It is the fronted indirect object — the recipient of the car"
+        ],
+        "correctReasonIndex": 3,
+        "explanation": "Word order changes, but the article shows the case: dem Mann is Dativ (der → dem), the recipient of „geben“. The subject is „ich“."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie bringt ___ Oma einen Kuchen.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "The grandma receives the cake → Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich schreibe ___ Freund einen Brief.",
+        "options": [
+          "ein",
+          "einen",
+          "einem"
+        ],
+        "correctIndex": 2,
+        "explanation": "The friend receives the letter → Dativ. Masculine ein → einem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Kellner bringt ___ Gästen die Rechnung.",
+        "options": [
+          "die",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 1,
+        "explanation": "Dativ plural: die Gäste → den Gästen (article den + noun ends in -n)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er gibt ___ Vater den Schlüssel. (sein)",
+        "accept": [
+          "seinem"
+        ],
+        "hint": "der Vater → Dativ",
+        "explanation": "The father receives the key → Dativ. Masculine sein → seinem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie erklärt ___ Schülern die Aufgabe. (die)",
+        "accept": [
+          "den"
+        ],
+        "hint": "Plural!",
+        "explanation": "Dativ plural: die Schüler → den Schülern."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "schreibe",
+          "meiner",
+          "Oma",
+          "eine",
+          "Karte"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "schreibe",
+            "meiner",
+            "Oma",
+            "eine",
+            "Karte"
+          ]
+        ],
+        "translation": "I write my grandma a card.",
+        "explanation": "The person (meiner Oma, Dativ) comes before the thing (eine Karte, Akkusativ)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "bringt",
+          "Der",
+          "dem",
+          "Kellner",
+          "Gast",
+          "die",
+          "Suppe"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Kellner",
+            "bringt",
+            "dem",
+            "Gast",
+            "die",
+            "Suppe"
+          ]
+        ],
+        "translation": "The waiter brings the guest the soup.",
+        "explanation": "Der Kellner = subject, dem Gast = Dativ (receiver), die Suppe = Akkusativ (thing)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Die Lehrerin erklärt **den Kindern** das Spiel.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „erklären“",
+          "It is the indirect object — the children receive the explanation",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "The children receive the explanation → indirect object → Dativ plural (den Kindern)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "negation",
+  "title": "Negation: nicht & kein",
+  "level": "A1",
+  "explainer_md": "German has two ways to say \"not\" — and a simple rule decides which one to use.\n\n**kein** negates **nouns** that have *ein* or no article at all. It takes the same endings as *ein*:\n\n*Ich habe **ein** Auto.* → *Ich habe **kein** Auto.* — I don't have a car.\n\n*Sie trinkt Kaffee.* → *Sie trinkt **keinen** Kaffee.* — She doesn't drink (any) coffee.\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | kein | kein**e** | kein | kein**e** |\n| Akkusativ | kein**en** | kein**e** | kein | kein**e** |\n\n**nicht** negates everything else — verbs, adjectives, and nouns with *der/die/das* or a possessive:\n\n*Ich verstehe **nicht**.* — I don't understand.\n\n*Das ist **nicht** gut.* — That is not good.\n\n*Das ist **nicht** mein Buch.* — That is not my book.\n\n**Where does nicht go?** Usually at the end of the sentence — but before adjectives, places and the second part of the verb: *Er kommt heute **nicht**.* · *Das Essen ist **nicht** teuer.*\n\n**Tip:** quick test — could you put *ein* in front of the noun? Then negate with **kein**: *Ich habe (einen) Hund* → *Ich habe keinen Hund*. Everything else gets **nicht**.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich habe ___ Auto.",
+        "options": [
+          "kein",
+          "nicht",
+          "keine"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Auto“ is a noun with ein → negate with kein. Neuter: kein Auto."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist ___ gut.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine"
+        ],
+        "correctIndex": 0,
+        "explanation": "„gut“ is an adjective → negate with nicht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hat ___ Zeit.",
+        "options": [
+          "keine",
+          "nicht",
+          "kein"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Zeit“ has no article → kein. Feminine: keine Zeit."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er trinkt ___ Kaffee.",
+        "options": [
+          "keinen",
+          "nicht",
+          "keine"
+        ],
+        "correctIndex": 0,
+        "explanation": "der Kaffee, direct object → masculine Akkusativ: keinen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich verstehe dich ___.",
+        "options": [
+          "nicht",
+          "kein",
+          "keinen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The verb „verstehen“ is negated → nicht, at the end of the sentence."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das ist ___ mein Buch.",
+        "options": [
+          "nicht",
+          "kein"
+        ],
+        "correctIndex": 0,
+        "explanation": "Nouns with a possessive (mein) are negated with nicht, not kein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir haben heute ___ Schule.",
+        "options": [
+          "keine",
+          "nicht"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Schule“ stands without article → kein. Feminine: keine Schule."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich esse ___ Fleisch. (no meat)",
+        "accept": [
+          "kein"
+        ],
+        "explanation": "No article before „Fleisch“ → kein. Neuter: kein Fleisch.",
+        "hint": "das Fleisch"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er kommt heute ___. (not)",
+        "accept": [
+          "nicht"
+        ],
+        "explanation": "The verb „kommen“ is negated → nicht at the end."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hat ___ Bruder. (der Bruder)",
+        "accept": [
+          "keinen"
+        ],
+        "explanation": "haben + Akkusativ: kein → keinen (der Bruder).",
+        "hint": "masculine Akkusativ"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "habe",
+          "keine",
+          "Katze"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "habe",
+            "keine",
+            "Katze"
+          ]
+        ],
+        "translation": "I don't have a cat.",
+        "explanation": "kein negates the noun; feminine → keine."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Er",
+          "arbeitet",
+          "heute",
+          "nicht"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "arbeitet",
+            "heute",
+            "nicht"
+          ]
+        ],
+        "translation": "He is not working today.",
+        "explanation": "nicht goes to the end of the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Das",
+          "Essen",
+          "schmeckt",
+          "mir",
+          "nicht"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Essen",
+            "schmeckt",
+            "mir",
+            "nicht"
+          ]
+        ],
+        "translation": "I don't like the food.",
+        "explanation": "nicht at the end; „schmecken“ + Dativ (mir)."
+      }
+    }
+  ]
+}

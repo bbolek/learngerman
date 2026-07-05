@@ -1,0 +1,243 @@
+{
+  "slug": "perfekt",
+  "title": "Perfekt",
+  "level": "A2",
+  "explainer_md": "The **Perfekt** is THE past tense of spoken German: *Ich habe Pizza gegessen.* — I ate pizza. It has two parts: **haben or sein** in position 2, and the **Partizip II** at the very end.\n\n**Building the Partizip II:**\n\n| Verbtyp | Muster | Beispiel |\n|---|---|---|\n| regular | ge- + Stamm + -t | machen → **ge**mach**t** |\n| strong | ge- + Stamm + -en | sehen → **ge**seh**en** |\n| -ieren | Stamm + -t (no ge-!) | studieren → studier**t** |\n| be-/ver-/er- | Stamm + -t/-en (no ge-!) | bestellen → bestell**t** |\n| separable | Präfix + ge + Stamm | aufmachen → auf**ge**macht |\n\n**haben or sein?** Most verbs take *haben*. Use **sein** for movement from A to B (gehen, kommen, fahren, fliegen) and change of state (aufstehen, einschlafen) — plus *sein* and *bleiben* themselves.\n\n*Ich **habe** einen Film **gesehen**.* — I watched a movie.\n\n*Wir **sind** nach Hause **gegangen**.* — We went home. (movement → sein)\n\n*Sie **hat** Deutsch **gelernt**.* — She learned German.\n\n*Er **ist** um sieben **aufgestanden**.* — He got up at seven.\n\n**Tip:** learn strong participles together with the verb: sehen–gesehen, essen–gegessen, trinken–getrunken, fahren–gefahren, gehen–gegangen, kommen–gekommen, lesen–gelesen, schlafen–geschlafen.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ Pizza gegessen.",
+        "options": [
+          "habe",
+          "bin",
+          "hat"
+        ],
+        "correctIndex": 0,
+        "explanation": "„essen“ is not movement → haben: ich habe gegessen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ nach Hause gegangen.",
+        "options": [
+          "sind",
+          "haben",
+          "ist"
+        ],
+        "correctIndex": 0,
+        "explanation": "„gehen“ = movement from A to B → sein: wir sind gegangen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hat ein Buch ___.",
+        "options": [
+          "gelesen",
+          "gelest",
+          "lesen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„lesen“ is strong: ge- + -en with vowel change → gelesen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er ist nach Berlin ___.",
+        "options": [
+          "gefahren",
+          "gefahrt",
+          "fahren"
+        ],
+        "correctIndex": 0,
+        "explanation": "„fahren“ is strong → gefahren. Movement → sein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich habe Deutsch ___.",
+        "options": [
+          "gelernt",
+          "gelernen",
+          "lernte"
+        ],
+        "correctIndex": 0,
+        "explanation": "„lernen“ is regular: ge- + Stamm + -t → gelernt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir haben im Restaurant ___.",
+        "options": [
+          "bestellt",
+          "gebestellt",
+          "bestellen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Verbs with be- never take ge-: bestellen → bestellt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie ___ um acht Uhr aufgestanden.",
+        "options": [
+          "ist",
+          "hat",
+          "sind"
+        ],
+        "correctIndex": 0,
+        "explanation": "„aufstehen“ is a change of state → sein: sie ist aufgestanden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Hast du das Essen ___?",
+        "options": [
+          "fotografiert",
+          "gefotografiert",
+          "fotografieren"
+        ],
+        "correctIndex": 0,
+        "explanation": "-ieren verbs never take ge-: fotografiert."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich habe einen Film ___. (sehen)",
+        "accept": [
+          "gesehen"
+        ],
+        "explanation": "„sehen“ is strong: gesehen.",
+        "hint": "strong verb"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er ist spät ___. (kommen)",
+        "accept": [
+          "gekommen"
+        ],
+        "explanation": "„kommen“ is strong and takes sein: er ist gekommen.",
+        "hint": "strong verb"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir haben lange ___. (arbeiten)",
+        "accept": [
+          "gearbeitet"
+        ],
+        "explanation": "Stems ending in -t insert an e: gearbeit-e-t.",
+        "hint": "regular, stem ends in -t"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie ___ mit dem Zug gefahren. (haben oder sein?)",
+        "accept": [
+          "ist"
+        ],
+        "explanation": "„fahren“ = movement → sein: sie ist gefahren."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "habe",
+          "ein",
+          "Eis",
+          "gegessen"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "habe",
+            "ein",
+            "Eis",
+            "gegessen"
+          ]
+        ],
+        "translation": "I ate an ice cream.",
+        "explanation": "haben in position 2, Partizip II at the end — the Perfekt bracket."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "sind",
+          "am",
+          "Sonntag",
+          "ins",
+          "Kino",
+          "gegangen"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "sind",
+            "am",
+            "Sonntag",
+            "ins",
+            "Kino",
+            "gegangen"
+          ]
+        ],
+        "translation": "We went to the movies on Sunday.",
+        "explanation": "sein (movement) in position 2, gegangen at the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Gestern",
+          "habe",
+          "ich",
+          "Fußball",
+          "gespielt"
+        ],
+        "solutions": [
+          [
+            "Gestern",
+            "habe",
+            "ich",
+            "Fußball",
+            "gespielt"
+          ]
+        ],
+        "translation": "Yesterday I played football.",
+        "explanation": "„Gestern“ takes position 1 → habe (verb) second, subject third, participle last."
+      }
+    }
+  ]
+}

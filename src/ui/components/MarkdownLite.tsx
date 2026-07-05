@@ -1,6 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { useKeepAwake } from 'expo-keep-awake';
-import { useState } from 'react';
+import * as ScreenOrientation from 'expo-screen-orientation';
+import { useEffect, useState } from 'react';
 import { Modal, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -42,6 +43,7 @@ export function MarkdownLite({ source }: { source: string }) {
       <Modal
         visible={fullscreenRows != null}
         animationType="fade"
+        supportedOrientations={['portrait', 'landscape']}
         onRequestClose={() => setFullscreenRows(null)}>
         {fullscreenRows && (
           <FullscreenTable rows={fullscreenRows} onClose={() => setFullscreenRows(null)} />
@@ -99,8 +101,23 @@ function FullscreenTable({ rows, onClose }: { rows: TableRows; onClose: () => vo
   useKeepAwake();
   const t = useTheme();
   const insets = useSafeAreaInsets();
+  useEffect(() => {
+    ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
+    return () => {
+      ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
+    };
+  }, []);
   return (
-    <View style={[styles.fullscreen, { backgroundColor: t.bg, paddingTop: insets.top + spacing.md }]}>
+    <View
+      style={[
+        styles.fullscreen,
+        {
+          backgroundColor: t.bg,
+          paddingTop: insets.top + spacing.md,
+          paddingLeft: insets.left,
+          paddingRight: insets.right,
+        },
+      ]}>
       <Pressable onPress={onClose} hitSlop={10} style={styles.closeBtn}>
         <Ionicons name="close" size={26} color={t.inkMuted} />
       </Pressable>

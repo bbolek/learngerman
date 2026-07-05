@@ -1,0 +1,1009 @@
+[
+  {
+    "lemma": "Bremse",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1310,
+    "noun": { "gender": "f", "plural": "Bremsen" },
+    "senses": [
+      {
+        "en": "brake",
+        "example_de": "Die Bremse ist kaputt.",
+        "example_en": "The brake is broken."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Bremsen müssen neu sein.",
+        "en": "The brakes need to be new."
+      }
+    ]
+  },
+  {
+    "lemma": "Lenkrad",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1340,
+    "noun": { "gender": "n", "plural": "Lenkräder" },
+    "senses": [
+      {
+        "en": "steering wheel",
+        "example_de": "Sie hat beide Hände am Lenkrad.",
+        "example_en": "She has both hands on the steering wheel."
+      }
+    ]
+  },
+  {
+    "lemma": "Kofferraum",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1370,
+    "noun": { "gender": "m", "plural": "Kofferräume" },
+    "senses": [
+      {
+        "en": "trunk, boot (of a car)",
+        "example_de": "Die Taschen sind im Kofferraum.",
+        "example_en": "The bags are in the trunk."
+      }
+    ]
+  },
+  {
+    "lemma": "Sicherheitsgurt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": "Sicherheitsgurte" },
+    "senses": [
+      {
+        "en": "seat belt",
+        "example_de": "Ohne Sicherheitsgurt darfst du nicht fahren.",
+        "example_en": "You must not drive without a seat belt."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Autos haben heute Sicherheitsgurte.",
+        "en": "All cars have seat belts today."
+      }
+    ]
+  },
+  {
+    "lemma": "anschnallen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1430,
+    "verb": { "aux": "haben", "separablePrefix": "an" },
+    "senses": [
+      {
+        "en": "to buckle up, to fasten one's seat belt",
+        "note": "reflexiv: sich anschnallen",
+        "example_de": "Bitte schnall dich im Auto an.",
+        "example_en": "Please buckle up in the car."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich schnalle mich immer an.",
+        "en": "I always buckle up."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du dich angeschnallt?",
+        "en": "Have you buckled up?"
+      },
+      {
+        "tag": "imperativ",
+        "de": "Schnallt euch bitte an!",
+        "en": "Please buckle up!"
+      }
+    ]
+  },
+  {
+    "lemma": "Hupe",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1470,
+    "noun": { "gender": "f", "plural": "Hupen" },
+    "senses": [
+      {
+        "en": "horn (of a car)",
+        "example_de": "Er drückt laut auf die Hupe.",
+        "example_en": "He honks the horn loudly."
+      }
+    ]
+  },
+  {
+    "lemma": "hupen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1500,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to honk, to sound the horn",
+        "example_de": "Warum hupt das Auto hinter uns?",
+        "example_en": "Why is the car behind us honking?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er hupt vor dem Haus.",
+        "en": "He is honking in front of the house."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Fahrer hat zweimal gehupt.",
+        "en": "The driver honked twice."
+      },
+      {
+        "tag": "negation",
+        "de": "In der Nacht darf man nicht hupen.",
+        "en": "You must not honk at night."
+      }
+    ]
+  },
+  {
+    "lemma": "Scheinwerfer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1530,
+    "noun": { "gender": "m", "plural": "Scheinwerfer" },
+    "senses": [
+      {
+        "en": "headlight",
+        "example_de": "Ein Scheinwerfer ist kaputt.",
+        "example_en": "One headlight is broken."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Mach bitte die Scheinwerfer an.",
+        "en": "Please turn on the headlights."
+      }
+    ]
+  },
+  {
+    "lemma": "Fahrschule",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": { "gender": "f", "plural": "Fahrschulen" },
+    "senses": [
+      {
+        "en": "driving school",
+        "example_de": "Ich gehe zweimal pro Woche zur Fahrschule.",
+        "example_en": "I go to driving school twice a week."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In der Stadt gibt es viele Fahrschulen.",
+        "en": "There are many driving schools in the city."
+      }
+    ]
+  },
+  {
+    "lemma": "Fahrstunde",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1590,
+    "noun": { "gender": "f", "plural": "Fahrstunden" },
+    "senses": [
+      {
+        "en": "driving lesson",
+        "example_de": "Meine erste Fahrstunde war heute Morgen.",
+        "example_en": "My first driving lesson was this morning."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ich brauche noch zehn Fahrstunden.",
+        "en": "I still need ten driving lessons."
+      }
+    ]
+  },
+  {
+    "lemma": "Zebrastreifen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1620,
+    "noun": { "gender": "m", "plural": "Zebrastreifen" },
+    "senses": [
+      {
+        "en": "zebra crossing, crosswalk",
+        "example_de": "Am Zebrastreifen müssen Autos halten.",
+        "example_en": "Cars have to stop at the zebra crossing."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Vor der Schule gibt es zwei Zebrastreifen.",
+        "en": "There are two crosswalks in front of the school."
+      }
+    ]
+  },
+  {
+    "lemma": "Blinker",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1650,
+    "noun": { "gender": "m", "plural": "Blinker" },
+    "senses": [
+      {
+        "en": "turn signal, indicator",
+        "example_de": "Er setzt den Blinker und biegt links ab.",
+        "example_en": "He puts on the indicator and turns left."
+      }
+    ]
+  },
+  {
+    "lemma": "Einbahnstraße",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1670,
+    "noun": { "gender": "f", "plural": "Einbahnstraßen" },
+    "senses": [
+      {
+        "en": "one-way street",
+        "example_de": "Das ist eine Einbahnstraße, wir müssen zurück.",
+        "example_en": "That is a one-way street, we have to go back."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In der Altstadt gibt es viele Einbahnstraßen.",
+        "en": "There are many one-way streets in the old town."
+      }
+    ]
+  },
+  {
+    "lemma": "Diesel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1690,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "diesel (fuel)",
+        "example_de": "Unser Auto fährt mit Diesel.",
+        "example_en": "Our car runs on diesel."
+      },
+      {
+        "en": "diesel car",
+        "note": "umgangssprachlich: „einen Diesel fahren“"
+      }
+    ]
+  },
+  {
+    "lemma": "Kupplung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": { "gender": "f", "plural": "Kupplungen" },
+    "senses": [
+      {
+        "en": "clutch (of a car)",
+        "example_de": "Tritt die Kupplung, bevor du schaltest.",
+        "example_en": "Press the clutch before you shift."
+      }
+    ]
+  },
+  {
+    "lemma": "Scheibenwischer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1925,
+    "noun": { "gender": "m", "plural": "Scheibenwischer" },
+    "senses": [
+      {
+        "en": "windshield wiper",
+        "example_de": "Bei Regen brauchst du die Scheibenwischer.",
+        "example_en": "You need the windshield wipers when it rains."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Scheibenwischer sind schon alt.",
+        "en": "The windshield wipers are already old."
+      }
+    ]
+  },
+  {
+    "lemma": "Motorhaube",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": { "gender": "f", "plural": "Motorhauben" },
+    "senses": [
+      {
+        "en": "hood, bonnet (of a car)",
+        "example_de": "Er öffnet die Motorhaube und schaut nach.",
+        "example_en": "He opens the hood and takes a look."
+      }
+    ]
+  },
+  {
+    "lemma": "Windschutzscheibe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1975,
+    "noun": { "gender": "f", "plural": "Windschutzscheiben" },
+    "senses": [
+      {
+        "en": "windshield, windscreen",
+        "example_de": "Die Windschutzscheibe hat einen kleinen Riss.",
+        "example_en": "The windshield has a small crack."
+      }
+    ]
+  },
+  {
+    "lemma": "schalten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2000,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to shift gear",
+        "example_de": "Bei dem Berg musst du früh schalten.",
+        "example_en": "You have to shift early on that hill."
+      },
+      {
+        "en": "to switch (a device)",
+        "note": "z. B. auf Rot schalten, den Fernseher leiser schalten"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie schaltet in den zweiten Gang.",
+        "en": "She shifts into second gear."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat zu spät geschaltet.",
+        "en": "He shifted too late."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Schalte jetzt in den dritten Gang!",
+        "en": "Shift into third gear now!"
+      }
+    ]
+  },
+  {
+    "lemma": "Rückspiegel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": { "gender": "m", "plural": "Rückspiegel" },
+    "senses": [
+      {
+        "en": "rear-view mirror",
+        "example_de": "Schau in den Rückspiegel, bevor du losfährst.",
+        "example_en": "Look in the rear-view mirror before you drive off."
+      }
+    ]
+  },
+  {
+    "lemma": "Kennzeichen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": { "gender": "n", "plural": "Kennzeichen" },
+    "senses": [
+      {
+        "en": "license plate, registration number",
+        "example_de": "Hast du das Kennzeichen von dem Auto gesehen?",
+        "example_en": "Did you see the car's license plate?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Deutsche Kennzeichen beginnen mit der Stadt.",
+        "en": "German license plates start with the city."
+      }
+    ]
+  },
+  {
+    "lemma": "Reifenpanne",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2075,
+    "noun": { "gender": "f", "plural": "Reifenpannen" },
+    "senses": [
+      {
+        "en": "flat tire, puncture",
+        "example_de": "Wir hatten auf dem Weg eine Reifenpanne.",
+        "example_en": "We had a flat tire on the way."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Winter gibt es mehr Reifenpannen.",
+        "en": "There are more flat tires in winter."
+      }
+    ]
+  },
+  {
+    "lemma": "Ersatzreifen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "m", "plural": "Ersatzreifen" },
+    "senses": [
+      {
+        "en": "spare tire",
+        "example_de": "Der Ersatzreifen liegt im Kofferraum.",
+        "example_en": "The spare tire is in the trunk."
+      }
+    ]
+  },
+  {
+    "lemma": "Inspektion",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2125,
+    "noun": { "gender": "f", "plural": "Inspektionen" },
+    "senses": [
+      {
+        "en": "service, inspection (of a car)",
+        "example_de": "Mein Auto muss nächste Woche zur Inspektion.",
+        "example_en": "My car has to go in for a service next week."
+      }
+    ]
+  },
+  {
+    "lemma": "Ladestation",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": { "gender": "f", "plural": "Ladestationen" },
+    "senses": [
+      {
+        "en": "charging station (for electric cars)",
+        "example_de": "Vor dem Supermarkt steht eine Ladestation.",
+        "example_en": "There is a charging station in front of the supermarket."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Stadt baut neue Ladestationen.",
+        "en": "The city is building new charging stations."
+      }
+    ]
+  },
+  {
+    "lemma": "Fahrbahn",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2175,
+    "noun": { "gender": "f", "plural": "Fahrbahnen" },
+    "senses": [
+      {
+        "en": "roadway, carriageway",
+        "example_de": "Auf der Fahrbahn liegt ein Baum.",
+        "example_en": "There is a tree on the roadway."
+      }
+    ]
+  },
+  {
+    "lemma": "Geschwindigkeitsbegrenzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "f", "plural": "Geschwindigkeitsbegrenzungen" },
+    "senses": [
+      {
+        "en": "speed limit",
+        "example_de": "Hier gilt eine Geschwindigkeitsbegrenzung von 30 km/h.",
+        "example_en": "There is a speed limit of 30 km/h here."
+      }
+    ]
+  },
+  {
+    "lemma": "Blitzer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2225,
+    "noun": { "gender": "m", "plural": "Blitzer" },
+    "senses": [
+      {
+        "en": "speed camera",
+        "note": "umgangssprachlich; „geblitzt werden“ = to be caught speeding",
+        "example_de": "Achtung, hinter der Brücke steht ein Blitzer.",
+        "example_en": "Careful, there is a speed camera behind the bridge."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Auf dieser Straße gibt es drei Blitzer.",
+        "en": "There are three speed cameras on this road."
+      }
+    ]
+  },
+  {
+    "lemma": "Strafzettel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": { "gender": "m", "plural": "Strafzettel" },
+    "senses": [
+      {
+        "en": "parking ticket, fine",
+        "example_de": "Ich habe schon wieder einen Strafzettel bekommen.",
+        "example_en": "I got a parking ticket again."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Drei Strafzettel in einer Woche sind teuer.",
+        "en": "Three tickets in one week are expensive."
+      }
+    ]
+  },
+  {
+    "lemma": "Parklücke",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2275,
+    "noun": { "gender": "f", "plural": "Parklücken" },
+    "senses": [
+      {
+        "en": "parking space, gap to park in",
+        "example_de": "Endlich haben wir eine Parklücke gefunden.",
+        "example_en": "We finally found a parking space."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Zentrum sind die Parklücken sehr klein.",
+        "en": "In the center the parking spaces are very small."
+      }
+    ]
+  },
+  {
+    "lemma": "Beifahrer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": { "gender": "m", "plural": "Beifahrer" },
+    "senses": [
+      {
+        "en": "front-seat passenger",
+        "note": "weiblich: die Beifahrerin",
+        "example_de": "Der Beifahrer liest die Karte.",
+        "example_en": "The front-seat passenger is reading the map."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Auch die Beifahrer müssen sich anschnallen.",
+        "en": "Passengers have to buckle up too."
+      }
+    ]
+  },
+  {
+    "lemma": "Fahrprüfung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2325,
+    "noun": { "gender": "f", "plural": "Fahrprüfungen" },
+    "senses": [
+      {
+        "en": "driving test",
+        "example_de": "Sie hat die Fahrprüfung beim ersten Mal bestanden.",
+        "example_en": "She passed the driving test on the first try."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Fahrprüfungen gibt es hier nur am Vormittag.",
+        "en": "Driving tests are only held here in the morning."
+      }
+    ]
+  },
+  {
+    "lemma": "Fahrlehrer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "m", "plural": "Fahrlehrer" },
+    "senses": [
+      {
+        "en": "driving instructor",
+        "note": "weiblich: die Fahrlehrerin",
+        "example_de": "Mein Fahrlehrer ist sehr geduldig.",
+        "example_en": "My driving instructor is very patient."
+      }
+    ]
+  },
+  {
+    "lemma": "wenden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2375,
+    "verb": { "aux": "haben", "praeteritum": "wendete", "partizip2": "gewendet" },
+    "senses": [
+      {
+        "en": "to turn around (a vehicle), to make a U-turn",
+        "note": "im Straßenverkehr schwach: wendete, hat gewendet",
+        "example_de": "Hier darfst du nicht wenden.",
+        "example_en": "You are not allowed to turn around here."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie wendet das Auto auf der Straße.",
+        "en": "She turns the car around on the street."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er wendete direkt vor der Ampel.",
+        "en": "He made a U-turn right before the traffic light."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben auf dem Parkplatz gewendet.",
+        "en": "We turned around in the parking lot."
+      }
+    ]
+  },
+  {
+    "lemma": "anfahren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an",
+      "du": "fährst",
+      "er": "fährt",
+      "praeteritum": "fuhr",
+      "partizip2": "angefahren"
+    },
+    "senses": [
+      {
+        "en": "to hit, to knock down (with a vehicle)",
+        "example_de": "Das Auto hat einen Hund angefahren.",
+        "example_en": "The car hit a dog."
+      },
+      {
+        "en": "to start moving, to pull away",
+        "note": "in dieser Bedeutung mit sein: der Bus ist angefahren"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er fährt fast einen Mann an.",
+        "en": "He almost hits a man."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie fuhr das Rad leider an.",
+        "en": "Unfortunately she hit the bike."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ein Lkw hat die Frau angefahren.",
+        "en": "A truck hit the woman."
+      }
+    ]
+  },
+  {
+    "lemma": "abbremsen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2425,
+    "verb": { "aux": "haben", "separablePrefix": "ab" },
+    "senses": [
+      {
+        "en": "to slow down, to brake",
+        "example_de": "Vor der Schule musst du stark abbremsen.",
+        "example_en": "You have to slow down a lot before the school."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Bus bremst vor der Kurve ab.",
+        "en": "The bus slows down before the curve."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat zu spät abgebremst.",
+        "en": "She braked too late."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Brems bitte langsam ab!",
+        "en": "Please brake slowly!"
+      }
+    ]
+  },
+  {
+    "lemma": "Gaspedal",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": { "gender": "n", "plural": "Gaspedale" },
+    "senses": [
+      {
+        "en": "accelerator, gas pedal",
+        "example_de": "Nimm den Fuß vom Gaspedal.",
+        "example_en": "Take your foot off the gas pedal."
+      }
+    ]
+  },
+  {
+    "lemma": "Tacho",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2475,
+    "noun": { "gender": "m", "plural": "Tachos" },
+    "senses": [
+      {
+        "en": "speedometer",
+        "note": "umgangssprachlich für Tachometer",
+        "example_de": "Der Tacho zeigt 120 km/h.",
+        "example_en": "The speedometer shows 120 km/h."
+      }
+    ]
+  },
+  {
+    "lemma": "Warndreieck",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": { "gender": "n", "plural": "Warndreiecke" },
+    "senses": [
+      {
+        "en": "warning triangle",
+        "example_de": "Bei einer Panne stellst du das Warndreieck auf.",
+        "example_en": "When you break down, you set up the warning triangle."
+      }
+    ]
+  },
+  {
+    "lemma": "Pannendienst",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2520,
+    "noun": { "gender": "m", "plural": "Pannendienste" },
+    "senses": [
+      {
+        "en": "breakdown service, roadside assistance",
+        "example_de": "Der Pannendienst kommt in einer halben Stunde.",
+        "example_en": "The breakdown service is coming in half an hour."
+      }
+    ]
+  },
+  {
+    "lemma": "Kreisverkehr",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2540,
+    "noun": { "gender": "m", "plural": "Kreisverkehre" },
+    "senses": [
+      {
+        "en": "roundabout",
+        "example_de": "Im Kreisverkehr nimmst du die zweite Ausfahrt.",
+        "example_en": "In the roundabout you take the second exit."
+      }
+    ]
+  },
+  {
+    "lemma": "Winterreifen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2560,
+    "noun": { "gender": "m", "plural": "Winterreifen" },
+    "senses": [
+      {
+        "en": "winter tire",
+        "example_de": "Ab Oktober fahre ich mit Winterreifen.",
+        "example_en": "From October on I drive with winter tires."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Neue Winterreifen kosten viel Geld.",
+        "en": "New winter tires cost a lot of money."
+      }
+    ]
+  },
+  {
+    "lemma": "Parkverbot",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2580,
+    "noun": { "gender": "n", "plural": "Parkverbote" },
+    "senses": [
+      {
+        "en": "no-parking zone, parking ban",
+        "example_de": "Du stehst im Parkverbot.",
+        "example_en": "You are parked in a no-parking zone."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In dieser Straße gibt es viele Parkverbote.",
+        "en": "There are many no-parking zones on this street."
+      }
+    ]
+  },
+  {
+    "lemma": "Waschanlage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2600,
+    "noun": { "gender": "f", "plural": "Waschanlagen" },
+    "senses": [
+      {
+        "en": "car wash",
+        "example_de": "Ich fahre das Auto durch die Waschanlage.",
+        "example_en": "I take the car through the car wash."
+      }
+    ]
+  },
+  {
+    "lemma": "Vollgas",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3050,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "full throttle, full speed",
+        "note": "meist: Vollgas geben",
+        "example_de": "Auf der freien Strecke gab er Vollgas.",
+        "example_en": "On the open road he went full throttle."
+      }
+    ]
+  },
+  {
+    "lemma": "Kilometerstand",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3150,
+    "noun": { "gender": "m", "plural": "Kilometerstände" },
+    "senses": [
+      {
+        "en": "mileage, odometer reading",
+        "example_de": "Der Wagen hat einen niedrigen Kilometerstand.",
+        "example_en": "The car has low mileage."
+      }
+    ]
+  },
+  {
+    "lemma": "Reifendruck",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3250,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "tire pressure",
+        "example_de": "Prüf den Reifendruck vor der langen Fahrt.",
+        "example_en": "Check the tire pressure before the long drive."
+      }
+    ]
+  },
+  {
+    "lemma": "Getriebe",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3350,
+    "noun": { "gender": "n", "plural": "Getriebe" },
+    "senses": [
+      {
+        "en": "gearbox, transmission",
+        "example_de": "Das Getriebe macht seltsame Geräusche.",
+        "example_en": "The gearbox is making strange noises."
+      }
+    ]
+  },
+  {
+    "lemma": "rasen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3450,
+    "verb": { "aux": "sein" },
+    "senses": [
+      {
+        "en": "to speed, to race (drive too fast)",
+        "example_de": "Er rast mit 180 über die Autobahn.",
+        "example_en": "He is speeding down the autobahn at 180."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Warum rast du so durch die Stadt?",
+        "en": "Why are you racing through the city like that?"
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er ist viel zu schnell gerast.",
+        "en": "He was speeding way too fast."
+      },
+      {
+        "tag": "negation",
+        "de": "Bitte rase nicht bei Regen!",
+        "en": "Please don't speed in the rain!"
+      }
+    ]
+  },
+  {
+    "lemma": "Verkehrskontrolle",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3550,
+    "noun": { "gender": "f", "plural": "Verkehrskontrollen" },
+    "senses": [
+      {
+        "en": "traffic check, traffic stop",
+        "example_de": "Die Polizei macht heute eine Verkehrskontrolle.",
+        "example_en": "The police are doing a traffic check today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Am Wochenende gibt es oft Verkehrskontrollen.",
+        "en": "There are often traffic checks on weekends."
+      }
+    ]
+  },
+  {
+    "lemma": "Rettungsgasse",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3650,
+    "noun": { "gender": "f", "plural": "Rettungsgassen" },
+    "senses": [
+      {
+        "en": "emergency corridor (lane for rescue vehicles in a traffic jam)",
+        "note": "im Stau Pflicht auf Autobahnen",
+        "example_de": "Im Stau müssen alle eine Rettungsgasse bilden.",
+        "example_en": "In a traffic jam everyone must form an emergency corridor."
+      }
+    ]
+  },
+  {
+    "lemma": "Ölwechsel",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3750,
+    "noun": { "gender": "m", "plural": "Ölwechsel" },
+    "senses": [
+      {
+        "en": "oil change",
+        "example_de": "Nach 15.000 Kilometern ist ein Ölwechsel fällig.",
+        "example_en": "After 15,000 kilometers an oil change is due."
+      }
+    ]
+  }
+]

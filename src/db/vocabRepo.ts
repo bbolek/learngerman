@@ -87,6 +87,13 @@ export async function savedCount(): Promise<number> {
   return row?.c ?? 0;
 }
 
+export async function learnedCount(): Promise<number> {
+  const row = await getDb().getFirstAsync<{ c: number }>(
+    'SELECT COUNT(*) AS c FROM user_saved_words WHERE learned_at IS NOT NULL'
+  );
+  return row?.c ?? 0;
+}
+
 export interface NotificationWord {
   lemma_id: number;
   lemma: string;

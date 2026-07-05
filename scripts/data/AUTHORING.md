@@ -58,6 +58,30 @@ pairs across files fail the build.
 
 adv/prep/pron/conj/num/other take no morphology block. For prepositions put
 the case in `note` (`"+ Dativ"`, `"+ Akkusativ"`, `"Wechselpräposition: …"`).
+
+## Vocabulary images (`images.json`)
+
+`scripts/data/images.json` maps entries to a [Noto emoji](https://github.com/googlefonts/noto-emoji)
+illustration (OFL/Apache-2.0), shown as a gender-tinted tile in the
+dictionary, word detail, flashcard backs and Wort des Tages:
+
+```jsonc
+[{ "lemma": "Apfel", "pos": "noun", "emoji": "🍎" }]
+```
+
+Rules:
+
+- The `lemma|pos` pair must exist in a vocab batch; duplicates fail the build.
+- The matching SVG must be vendored under `scripts/data/images/noto/`
+  (`emoji_uXXXX.svg`, codepoints joined by `_`, variation selectors dropped —
+  download from the noto-emoji repo's `svg/` folder). Builds never touch the
+  network; the build fails loudly if the file is missing.
+- Only map words whose meaning the picture shows **unambiguously** (concrete
+  nouns, mostly A1/A2). When two candidates compete for one emoji, the more
+  concrete/common word wins; abstract words stay imageless on purpose.
+- The SVG text ships inside the DB (`lemma_images` content table) and is
+  covered by the content hash, so image changes reach installed apps via the
+  normal in-place content update.
 For pronouns list case forms in `note` (`"mich (Akk.) · mir (Dat.)"`).
 
 ### Form examples (`examples`, optional)

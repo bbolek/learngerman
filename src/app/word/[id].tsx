@@ -8,6 +8,7 @@ import {
   getExamples,
   getForms,
   getLemma,
+  getLemmaImage,
   getSenses,
   type ExampleRow,
   type FormRow,
@@ -21,6 +22,7 @@ import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
 import { Screen } from '@/ui/components/Screen';
+import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
@@ -49,6 +51,7 @@ export default function WordDetailScreen() {
   const [saved, setSaved] = useState(false);
   const [learned, setLearned] = useState(false);
   const [showForms, setShowForms] = useState(true);
+  const [image, setImage] = useState<string | null>(null);
 
   useEffect(() => {
     if (!Number.isFinite(lemmaId)) return;
@@ -59,13 +62,15 @@ export default function WordDetailScreen() {
       getExamples(lemmaId),
       isSaved(lemmaId),
       isLearned(lemmaId),
-    ]).then(([l, s, f, ex, sv, lrn]) => {
+      getLemmaImage(lemmaId),
+    ]).then(([l, s, f, ex, sv, lrn, img]) => {
       setLemma(l);
       setSenses(s);
       setForms(f);
       setExamples(ex);
       setSaved(sv);
       setLearned(lrn);
+      setImage(img);
     });
   }, [lemmaId]);
 
@@ -106,6 +111,7 @@ export default function WordDetailScreen() {
       </Pressable>
 
       <View style={styles.headRow}>
+        {image && <VocabImage svg={image} gender={lemma.gender} size={84} />}
         <View style={styles.headText}>
           <AppText variant="headword" style={{ fontSize: 34 }}>
             {article ? (

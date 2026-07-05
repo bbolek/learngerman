@@ -264,6 +264,9 @@ export default function SettingsScreen() {
           mit Spaced Repetition und Grammatik-Übungen zu den Fällen. Alle Daten bleiben
           auf deinem Gerät.
         </AppText>
+        <AppText variant="caption" muted style={{ marginTop: spacing.md, lineHeight: 17 }}>
+          Wortbilder: Noto Emoji © Google — Apache License 2.0 / SIL Open Font License.
+        </AppText>
       </Card>
     </Screen>
   );

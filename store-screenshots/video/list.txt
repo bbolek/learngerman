@@ -1,0 +1,17 @@
+file 'C:/code/learngerman/store-screenshots/ios-6.9/01-home.png'
+duration 2.4
+file 'C:/code/learngerman/store-screenshots/ios-6.9/02-dictionary.png'
+duration 2.4
+file 'C:/code/learngerman/store-screenshots/ios-6.9/03-worddetail.png'
+duration 2.4
+file 'C:/code/learngerman/store-screenshots/ios-6.9/04-grammar-list.png'
+duration 2.4
+file 'C:/code/learngerman/store-screenshots/ios-6.9/05-grammar-explainer.png'
+duration 2.4
+file 'C:/code/learngerman/store-screenshots/ios-6.9/07-quiz.png'
+duration 2.4
+file 'C:/code/learngerman/store-screenshots/ios-6.9/08-quiz-feedback.png'
+duration 2.4
+file 'C:/code/learngerman/store-screenshots/ios-6.9/09-stats.png'
+duration 2.4
+file 'C:/code/learngerman/store-screenshots/ios-6.9/09-stats.png'

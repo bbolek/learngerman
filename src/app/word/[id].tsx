@@ -14,7 +14,7 @@ import {
   type LemmaDetail,
   type SenseRow,
 } from '@/db/dictionaryRepo';
-import { isSaved, saveWord, unsaveWord } from '@/db/vocabRepo';
+import { isLearned, isSaved, saveWord, setLearned as setLearnedRepo, unsaveWord } from '@/db/vocabRepo';
 import { articleFor, exampleTagLabel } from '@/logic/formLabels';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
@@ -47,7 +47,8 @@ export default function WordDetailScreen() {
   const [forms, setForms] = useState<FormRow[]>([]);
   const [examples, setExamples] = useState<ExampleRow[]>([]);
   const [saved, setSaved] = useState(false);
-  const [showForms, setShowForms] = useState(false);
+  const [learned, setLearned] = useState(false);
+  const [showForms, setShowForms] = useState(true);
 
   useEffect(() => {
     if (!Number.isFinite(lemmaId)) return;
@@ -57,12 +58,14 @@ export default function WordDetailScreen() {
       getForms(lemmaId),
       getExamples(lemmaId),
       isSaved(lemmaId),
-    ]).then(([l, s, f, ex, sv]) => {
+      isLearned(lemmaId),
+    ]).then(([l, s, f, ex, sv, lrn]) => {
       setLemma(l);
       setSenses(s);
       setForms(f);
       setExamples(ex);
       setSaved(sv);
+      setLearned(lrn);
     });
   }, [lemmaId]);
 
@@ -79,10 +82,18 @@ export default function WordDetailScreen() {
     if (saved) {
       await unsaveWord(lemmaId);
       setSaved(false);
+      setLearned(false);
     } else {
       await saveWord(lemmaId, new Date());
       setSaved(true);
     }
+  };
+
+  const toggleLearned = async () => {
+    if (haptics) Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    const next = !learned;
+    await setLearnedRepo(lemmaId, next, new Date());
+    setLearned(next);
   };
 
   return (
@@ -106,15 +117,32 @@ export default function WordDetailScreen() {
           </AppText>
           <Subline lemma={lemma} />
         </View>
-        <Pressable
-          onPress={toggleSave}
-          hitSlop={8}
-          style={[
-            styles.saveBtn,
-            { backgroundColor: saved ? t.dangerDim : t.surface, borderColor: saved ? t.danger : t.line },
-          ]}>
-          <Ionicons name={saved ? 'heart' : 'heart-outline'} size={24} color={t.danger} />
-        </Pressable>
+        <View style={styles.actionCol}>
+          <Pressable
+            onPress={toggleSave}
+            hitSlop={8}
+            style={[
+              styles.saveBtn,
+              { backgroundColor: saved ? t.dangerDim : t.surface, borderColor: saved ? t.danger : t.line },
+            ]}>
+            <Ionicons name={saved ? 'heart' : 'heart-outline'} size={24} color={t.danger} />
+          </Pressable>
+          {saved && (
+            <Pressable
+              onPress={toggleLearned}
+              hitSlop={8}
+              style={[
+                styles.saveBtn,
+                { backgroundColor: learned ? t.accentDim : t.surface, borderColor: learned ? t.accent : t.line },
+              ]}>
+              <Ionicons
+                name={learned ? 'checkmark-circle' : 'checkmark-circle-outline'}
+                size={24}
+                color={learned ? t.accent : t.inkFaint}
+              />
+            </Pressable>
+          )}
+        </View>
       </View>
 
       <View style={styles.chipRow}>
@@ -266,6 +294,7 @@ const styles = StyleSheet.create({
   back: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: spacing.lg },
   headRow: { flexDirection: 'row', alignItems: 'flex-start', gap: spacing.md },
   headText: { flex: 1 },
+  actionCol: { gap: spacing.sm },
   saveBtn: {
     width: 52,
     height: 52,

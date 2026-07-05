@@ -1,0 +1,932 @@
+[
+  {
+    "lemma": "Ellbogen",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1200,
+    "noun": { "gender": "m", "plural": "Ellbogen", "genitive": "Ellbogens" },
+    "senses": [
+      { "en": "elbow", "example_de": "Ich habe mir den Ellbogen gestoßen.", "example_en": "I bumped my elbow." }
+    ]
+  },
+  {
+    "lemma": "Knie",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 950,
+    "noun": { "gender": "n", "plural": "Knie", "genitive": "Knies" },
+    "senses": [
+      { "en": "knee", "example_de": "Mein Knie tut weh.", "example_en": "My knee hurts." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ihre Knie sind kalt.", "en": "Her knees are cold." }
+    ]
+  },
+  {
+    "lemma": "Zehe",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": "Zehen" },
+    "senses": [
+      { "en": "toe", "example_de": "Ich habe zehn Zehen.", "example_en": "I have ten toes." }
+    ]
+  },
+  {
+    "lemma": "Wange",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1050,
+    "noun": { "gender": "f", "plural": "Wangen" },
+    "senses": [
+      { "en": "cheek", "example_de": "Das Kind hat rote Wangen.", "example_en": "The child has red cheeks." }
+    ]
+  },
+  {
+    "lemma": "Kinn",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1150,
+    "noun": { "gender": "n", "plural": "Kinne", "genitive": "Kinns" },
+    "senses": [
+      { "en": "chin", "example_de": "Er hat ein rundes Kinn.", "example_en": "He has a round chin." }
+    ]
+  },
+  {
+    "lemma": "Stirn",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1200,
+    "noun": { "gender": "f", "plural": "Stirnen" },
+    "senses": [
+      { "en": "forehead", "example_de": "Ihre Stirn ist heiß.", "example_en": "Her forehead is hot." }
+    ]
+  },
+  {
+    "lemma": "Nase",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 750,
+    "noun": { "gender": "f", "plural": "Nasen" },
+    "senses": [
+      { "en": "nose", "example_de": "Meine Nase ist kalt.", "example_en": "My nose is cold." }
+    ]
+  },
+  {
+    "lemma": "Haut",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 900,
+    "noun": { "gender": "f", "plural": "Häute" },
+    "senses": [
+      { "en": "skin", "example_de": "Ihre Haut ist sehr weich.", "example_en": "Her skin is very soft." }
+    ]
+  },
+  {
+    "lemma": "Zunge",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1250,
+    "noun": { "gender": "f", "plural": "Zungen" },
+    "senses": [
+      { "en": "tongue", "example_de": "Der Hund zeigt seine Zunge.", "example_en": "The dog shows its tongue." }
+    ]
+  },
+  {
+    "lemma": "Hüfte",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Hüften" },
+    "senses": [
+      { "en": "hip", "example_de": "Meine Hüfte tut weh.", "example_en": "My hip hurts." }
+    ]
+  },
+  {
+    "lemma": "Brust",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": "Brüste" },
+    "senses": [
+      { "en": "chest, breast", "example_de": "Der Mann hat eine breite Brust.", "example_en": "The man has a broad chest." }
+    ]
+  },
+  {
+    "lemma": "Knochen",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": "Knochen", "genitive": "Knochens" },
+    "senses": [
+      { "en": "bone", "example_de": "Der Hund hat einen Knochen.", "example_en": "The dog has a bone." }
+    ]
+  },
+  {
+    "lemma": "Faust",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1400,
+    "noun": { "gender": "f", "plural": "Fäuste" },
+    "senses": [
+      { "en": "fist", "example_de": "Er macht eine Faust.", "example_en": "He makes a fist." }
+    ]
+  },
+  {
+    "lemma": "Handschuh",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 900,
+    "noun": { "gender": "m", "plural": "Handschuhe", "genitive": "Handschuhs" },
+    "senses": [
+      { "en": "glove", "example_de": "Im Winter trage ich Handschuhe.", "example_en": "In winter I wear gloves." }
+    ]
+  },
+  {
+    "lemma": "Socke",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 950,
+    "noun": { "gender": "f", "plural": "Socken" },
+    "senses": [
+      { "en": "sock", "example_de": "Meine Socken sind blau.", "example_en": "My socks are blue." }
+    ]
+  },
+  {
+    "lemma": "Gürtel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1150,
+    "noun": { "gender": "m", "plural": "Gürtel", "genitive": "Gürtels" },
+    "senses": [
+      { "en": "belt", "example_de": "Der Gürtel ist zu lang.", "example_en": "The belt is too long." }
+    ]
+  },
+  {
+    "lemma": "Schal",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1200,
+    "noun": { "gender": "m", "plural": "Schals", "genitive": "Schals" },
+    "senses": [
+      { "en": "scarf", "example_de": "Sie trägt einen roten Schal.", "example_en": "She wears a red scarf." }
+    ]
+  },
+  {
+    "lemma": "Krawatte",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1250,
+    "noun": { "gender": "f", "plural": "Krawatten" },
+    "senses": [
+      { "en": "tie, necktie", "example_de": "Er trägt eine Krawatte zur Arbeit.", "example_en": "He wears a tie to work." }
+    ]
+  },
+  {
+    "lemma": "Stiefel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": "Stiefel", "genitive": "Stiefels" },
+    "senses": [
+      { "en": "boot", "example_de": "Meine Stiefel sind neu.", "example_en": "My boots are new." }
+    ]
+  },
+  {
+    "lemma": "Sandale",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Sandalen" },
+    "senses": [
+      { "en": "sandal", "example_de": "Im Sommer trage ich Sandalen.", "example_en": "In summer I wear sandals." }
+    ]
+  },
+  {
+    "lemma": "Handtasche",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1150,
+    "noun": { "gender": "f", "plural": "Handtaschen" },
+    "senses": [
+      { "en": "handbag", "example_de": "Ihre Handtasche ist sehr groß.", "example_en": "Her handbag is very big." }
+    ]
+  },
+  {
+    "lemma": "Unterhose",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1400,
+    "noun": { "gender": "f", "plural": "Unterhosen" },
+    "senses": [
+      { "en": "underpants", "example_de": "Die Unterhosen liegen im Schrank.", "example_en": "The underpants are in the closet." }
+    ]
+  },
+  {
+    "lemma": "Unterhemd",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1450,
+    "noun": { "gender": "n", "plural": "Unterhemden", "genitive": "Unterhemds" },
+    "senses": [
+      { "en": "undershirt", "example_de": "Er trägt ein weißes Unterhemd.", "example_en": "He wears a white undershirt." }
+    ]
+  },
+  {
+    "lemma": "Schlafanzug",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1200,
+    "noun": { "gender": "m", "plural": "Schlafanzüge", "genitive": "Schlafanzugs" },
+    "senses": [
+      { "en": "pajamas", "example_de": "Das Kind trägt einen Schlafanzug.", "example_en": "The child wears pajamas." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Schlafanzüge sind im Schrank.", "en": "The pajamas are in the closet." }
+    ]
+  },
+  {
+    "lemma": "Badeanzug",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1350,
+    "noun": { "gender": "m", "plural": "Badeanzüge", "genitive": "Badeanzugs" },
+    "senses": [
+      { "en": "swimsuit", "example_de": "Sie kauft einen neuen Badeanzug.", "example_en": "She buys a new swimsuit." }
+    ]
+  },
+  {
+    "lemma": "Regenmantel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": "Regenmäntel", "genitive": "Regenmantels" },
+    "senses": [
+      { "en": "raincoat", "example_de": "Bei Regen trage ich einen Regenmantel.", "example_en": "In the rain I wear a raincoat." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Regenmäntel hängen an der Tür.", "en": "The raincoats hang on the door." }
+    ]
+  },
+  {
+    "lemma": "Strumpfhose",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1450,
+    "noun": { "gender": "f", "plural": "Strumpfhosen" },
+    "senses": [
+      { "en": "tights, pantyhose", "example_de": "Ihre Strumpfhose ist kaputt.", "example_en": "Her tights are torn." }
+    ]
+  },
+  {
+    "lemma": "Trainingsanzug",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1450,
+    "noun": { "gender": "m", "plural": "Trainingsanzüge", "genitive": "Trainingsanzugs" },
+    "senses": [
+      { "en": "tracksuit", "example_de": "Er joggt im Trainingsanzug.", "example_en": "He jogs in a tracksuit." }
+    ]
+  },
+  {
+    "lemma": "Turnschuh",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": "Turnschuhe", "genitive": "Turnschuhs" },
+    "senses": [
+      { "en": "sneaker, trainer", "example_de": "Meine Turnschuhe sind sehr bequem.", "example_en": "My sneakers are very comfortable." }
+    ]
+  },
+  {
+    "lemma": "Sonnenbrille",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1000,
+    "noun": { "gender": "f", "plural": "Sonnenbrillen" },
+    "senses": [
+      { "en": "sunglasses", "example_de": "Im Sommer trage ich eine Sonnenbrille.", "example_en": "In summer I wear sunglasses." }
+    ]
+  },
+  {
+    "lemma": "Kette",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1150,
+    "noun": { "gender": "f", "plural": "Ketten" },
+    "senses": [
+      { "en": "necklace, chain", "example_de": "Sie trägt eine goldene Kette.", "example_en": "She wears a gold necklace." }
+    ]
+  },
+  {
+    "lemma": "Ohrring",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": "Ohrringe", "genitive": "Ohrrings" },
+    "senses": [
+      { "en": "earring", "example_de": "Ihre Ohrringe sind sehr klein.", "example_en": "Her earrings are very small." }
+    ]
+  },
+  {
+    "lemma": "Schmuck",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1200,
+    "noun": { "gender": "m", "plural": null, "genitive": "Schmucks" },
+    "senses": [
+      { "en": "jewelry", "example_de": "Sie mag schönen Schmuck.", "example_en": "She likes beautiful jewelry." }
+    ]
+  },
+  {
+    "lemma": "Schwiegereltern",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1400,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      { "en": "parents-in-law", "example_de": "Meine Schwiegereltern wohnen in Berlin.", "example_en": "My parents-in-law live in Berlin." }
+    ]
+  },
+  {
+    "lemma": "Schwiegermutter",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Schwiegermütter" },
+    "senses": [
+      { "en": "mother-in-law", "example_de": "Meine Schwiegermutter kocht sehr gut.", "example_en": "My mother-in-law cooks very well." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Beide Schwiegermütter kommen zu Besuch.", "en": "Both mothers-in-law are coming to visit." }
+    ]
+  },
+  {
+    "lemma": "Schwiegervater",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": "Schwiegerväter", "genitive": "Schwiegervaters" },
+    "senses": [
+      { "en": "father-in-law", "example_de": "Mein Schwiegervater ist sehr nett.", "example_en": "My father-in-law is very nice." }
+    ]
+  },
+  {
+    "lemma": "Schwiegersohn",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1450,
+    "noun": { "gender": "m", "plural": "Schwiegersöhne", "genitive": "Schwiegersohns" },
+    "senses": [
+      { "en": "son-in-law", "example_de": "Ihr Schwiegersohn arbeitet als Arzt.", "example_en": "Her son-in-law works as a doctor." }
+    ]
+  },
+  {
+    "lemma": "Schwiegertochter",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1450,
+    "noun": { "gender": "f", "plural": "Schwiegertöchter" },
+    "senses": [
+      { "en": "daughter-in-law", "example_de": "Seine Schwiegertochter besucht ihn oft.", "example_en": "His daughter-in-law visits him often." }
+    ]
+  },
+  {
+    "lemma": "Stiefmutter",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1350,
+    "noun": { "gender": "f", "plural": "Stiefmütter" },
+    "senses": [
+      { "en": "stepmother", "example_de": "Meine Stiefmutter ist sehr freundlich.", "example_en": "My stepmother is very friendly." }
+    ]
+  },
+  {
+    "lemma": "Stiefvater",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1350,
+    "noun": { "gender": "m", "plural": "Stiefväter", "genitive": "Stiefvaters" },
+    "senses": [
+      { "en": "stepfather", "example_de": "Sein Stiefvater arbeitet im Büro.", "example_en": "His stepfather works in an office." }
+    ]
+  },
+  {
+    "lemma": "Zwilling",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": "Zwillinge", "genitive": "Zwillings" },
+    "senses": [
+      { "en": "twin", "example_de": "Meine Schwester hat Zwillinge bekommen.", "example_en": "My sister had twins." }
+    ]
+  },
+  {
+    "lemma": "Baby",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 750,
+    "noun": { "gender": "n", "plural": "Babys", "genitive": "Babys" },
+    "senses": [
+      { "en": "baby", "example_de": "Das Baby schläft im Bett.", "example_en": "The baby sleeps in the bed." }
+    ]
+  },
+  {
+    "lemma": "Urgroßmutter",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1500,
+    "noun": { "gender": "f", "plural": "Urgroßmütter" },
+    "senses": [
+      { "en": "great-grandmother", "example_de": "Meine Urgroßmutter wurde hundert Jahre alt.", "example_en": "My great-grandmother lived to be a hundred." }
+    ]
+  },
+  {
+    "lemma": "Urgroßvater",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1500,
+    "noun": { "gender": "m", "plural": "Urgroßväter", "genitive": "Urgroßvaters" },
+    "senses": [
+      { "en": "great-grandfather", "example_de": "Mein Urgroßvater war Bauer.", "example_en": "My great-grandfather was a farmer." }
+    ]
+  },
+  {
+    "lemma": "Pferd",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 800,
+    "noun": { "gender": "n", "plural": "Pferde", "genitive": "Pferdes" },
+    "senses": [
+      { "en": "horse", "example_de": "Das Pferd läuft schnell.", "example_en": "The horse runs fast." }
+    ]
+  },
+  {
+    "lemma": "Vogel",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 850,
+    "noun": { "gender": "m", "plural": "Vögel", "genitive": "Vogels" },
+    "senses": [
+      { "en": "bird", "example_de": "Der Vogel singt im Baum.", "example_en": "The bird sings in the tree." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Vögel fliegen nach Süden.", "en": "The birds fly south." }
+    ]
+  },
+  {
+    "lemma": "Maus",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 950,
+    "noun": { "gender": "f", "plural": "Mäuse" },
+    "senses": [
+      { "en": "mouse", "example_de": "Die Katze jagt die Maus.", "example_en": "The cat chases the mouse." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Keller leben Mäuse.", "en": "Mice live in the cellar." }
+    ]
+  },
+  {
+    "lemma": "Kuh",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 900,
+    "noun": { "gender": "f", "plural": "Kühe" },
+    "senses": [
+      { "en": "cow", "example_de": "Die Kuh steht auf der Wiese.", "example_en": "The cow stands in the meadow." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Kühe fressen frisches Gras.", "en": "The cows eat fresh grass." }
+    ]
+  },
+  {
+    "lemma": "Huhn",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1000,
+    "noun": { "gender": "n", "plural": "Hühner", "genitive": "Huhns" },
+    "senses": [
+      { "en": "chicken, hen", "example_de": "Das Huhn legt ein Ei.", "example_en": "The hen lays an egg." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Hühner leben im Stall.", "en": "The chickens live in the barn." }
+    ]
+  },
+  {
+    "lemma": "Schaf",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1050,
+    "noun": { "gender": "n", "plural": "Schafe", "genitive": "Schafs" },
+    "senses": [
+      { "en": "sheep", "example_de": "Die Schafe fressen Gras.", "example_en": "The sheep eat grass." }
+    ]
+  },
+  {
+    "lemma": "Ente",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": "Enten" },
+    "senses": [
+      { "en": "duck", "example_de": "Die Ente schwimmt im See.", "example_en": "The duck swims in the lake." }
+    ]
+  },
+  {
+    "lemma": "Hase",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1050,
+    "noun": { "gender": "m", "plural": "Hasen", "genitive": "Hasen" },
+    "senses": [
+      { "en": "hare, rabbit", "example_de": "Der Hase läuft über das Feld.", "example_en": "The hare runs across the field." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Wald leben viele Hasen.", "en": "Many hares live in the forest." }
+    ]
+  },
+  {
+    "lemma": "Löwe",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 900,
+    "noun": { "gender": "m", "plural": "Löwen", "genitive": "Löwen" },
+    "senses": [
+      { "en": "lion", "example_de": "Der Löwe lebt in Afrika.", "example_en": "The lion lives in Africa." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Zoo gibt es zwei Löwen.", "en": "There are two lions in the zoo." }
+    ]
+  },
+  {
+    "lemma": "Tiger",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 950,
+    "noun": { "gender": "m", "plural": "Tiger", "genitive": "Tigers" },
+    "senses": [
+      { "en": "tiger", "example_de": "Der Tiger ist sehr stark.", "example_en": "The tiger is very strong." }
+    ]
+  },
+  {
+    "lemma": "Elefant",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 900,
+    "noun": { "gender": "m", "plural": "Elefanten", "genitive": "Elefanten" },
+    "senses": [
+      { "en": "elephant", "example_de": "Der Elefant ist sehr groß.", "example_en": "The elephant is very big." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Elefanten trinken viel Wasser.", "en": "The elephants drink a lot of water." }
+    ]
+  },
+  {
+    "lemma": "Affe",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 950,
+    "noun": { "gender": "m", "plural": "Affen", "genitive": "Affen" },
+    "senses": [
+      { "en": "monkey", "example_de": "Der Affe klettert auf den Baum.", "example_en": "The monkey climbs up the tree." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Affen spielen im Baum.", "en": "The monkeys play in the tree." }
+    ]
+  },
+  {
+    "lemma": "Bär",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": "Bären", "genitive": "Bären" },
+    "senses": [
+      { "en": "bear", "example_de": "Der Bär schläft im Winter.", "example_en": "The bear sleeps in winter." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Wald leben Bären.", "en": "Bears live in the forest." }
+    ]
+  },
+  {
+    "lemma": "Fuchs",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1150,
+    "noun": { "gender": "m", "plural": "Füchse", "genitive": "Fuchses" },
+    "senses": [
+      { "en": "fox", "example_de": "Der Fuchs lebt im Wald.", "example_en": "The fox lives in the forest." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Füchse jagen in der Nacht.", "en": "The foxes hunt at night." }
+    ]
+  },
+  {
+    "lemma": "Frosch",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1200,
+    "noun": { "gender": "m", "plural": "Frösche", "genitive": "Frosches" },
+    "senses": [
+      { "en": "frog", "example_de": "Der Frosch springt ins Wasser.", "example_en": "The frog jumps into the water." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Frösche sitzen am Teich.", "en": "The frogs sit by the pond." }
+    ]
+  },
+  {
+    "lemma": "Schmetterling",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 1100,
+    "noun": { "gender": "m", "plural": "Schmetterlinge", "genitive": "Schmetterlings" },
+    "senses": [
+      { "en": "butterfly", "example_de": "Der Schmetterling ist bunt.", "example_en": "The butterfly is colorful." }
+    ]
+  },
+  {
+    "lemma": "zahm",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1300,
+    "senses": [
+      { "en": "tame", "example_de": "Das Pferd ist sehr zahm.", "example_en": "The horse is very tame." }
+    ]
+  },
+  {
+    "lemma": "niedlich",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1150,
+    "senses": [
+      { "en": "cute", "example_de": "Der kleine Hund ist niedlich.", "example_en": "The little dog is cute." }
+    ]
+  },
+  {
+    "lemma": "gestreift",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1350,
+    "senses": [
+      { "en": "striped", "example_de": "Er trägt ein gestreiftes Hemd.", "example_en": "He wears a striped shirt." }
+    ]
+  },
+  {
+    "lemma": "kariert",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1400,
+    "senses": [
+      { "en": "checkered, plaid", "example_de": "Der Rock ist kariert.", "example_en": "The skirt is checkered." }
+    ]
+  },
+  {
+    "lemma": "geschieden",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1200,
+    "senses": [
+      { "en": "divorced", "example_de": "Meine Eltern sind geschieden.", "example_en": "My parents are divorced." }
+    ]
+  },
+  {
+    "lemma": "verlobt",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1250,
+    "senses": [
+      { "en": "engaged (to be married)", "example_de": "Meine Schwester ist verlobt.", "example_en": "My sister is engaged." }
+    ]
+  },
+  {
+    "lemma": "verwitwet",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1450,
+    "senses": [
+      { "en": "widowed", "example_de": "Meine Oma ist verwitwet.", "example_en": "My grandma is widowed." }
+    ]
+  },
+  {
+    "lemma": "wollig",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1450,
+    "senses": [
+      { "en": "woolly", "example_de": "Das Schaf hat wolliges Fell.", "example_en": "The sheep has a woolly coat." }
+    ]
+  },
+  {
+    "lemma": "gefleckt",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1400,
+    "senses": [
+      { "en": "spotted, speckled", "example_de": "Die Kuh ist schwarz-weiß gefleckt.", "example_en": "The cow is black-and-white spotted." }
+    ]
+  },
+  {
+    "lemma": "schlank",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1150,
+    "senses": [
+      { "en": "slim, slender", "example_de": "Meine Schwester ist sehr schlank.", "example_en": "My sister is very slim." }
+    ]
+  },
+  {
+    "lemma": "muskulös",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1450,
+    "senses": [
+      { "en": "muscular", "example_de": "Sein Arm ist muskulös.", "example_en": "His arm is muscular." }
+    ]
+  },
+  {
+    "lemma": "blass",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1350,
+    "senses": [
+      { "en": "pale", "example_de": "Ihr Gesicht ist blass.", "example_en": "Her face is pale." }
+    ]
+  },
+  {
+    "lemma": "pelzig",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1500,
+    "senses": [
+      { "en": "furry", "example_de": "Die Katze ist warm und pelzig.", "example_en": "The cat is warm and furry." }
+    ]
+  },
+  {
+    "lemma": "behaart",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1500,
+    "senses": [
+      { "en": "hairy", "example_de": "Sein Arm ist stark behaart.", "example_en": "His arm is very hairy." }
+    ]
+  },
+  {
+    "lemma": "zutraulich",
+    "pos": "adj",
+    "level": "A1",
+    "freq": 1500,
+    "senses": [
+      { "en": "trusting, tame (of animals)", "example_de": "Der Hund ist sehr zutraulich.", "example_en": "The dog is very trusting." }
+    ]
+  },
+  {
+    "lemma": "binden",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": { "aux": "haben", "praeteritum": "band", "partizip2": "gebunden" },
+    "senses": [
+      { "en": "to tie", "example_de": "Ich binde meine Schuhe.", "example_en": "I tie my shoes." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er bindet die Krawatte.", "en": "He ties the tie." },
+      { "tag": "präteritum", "de": "Er band seine Schuhe.", "en": "He tied his shoes." },
+      { "tag": "perfekt", "de": "Ich habe die Schuhe gebunden.", "en": "I have tied the shoes." }
+    ]
+  },
+  {
+    "lemma": "kämmen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1200,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to comb", "example_de": "Sie kämmt ihre Haare.", "example_en": "She combs her hair." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich kämme meine Haare.", "en": "I comb my hair." },
+      { "tag": "präteritum", "de": "Er kämmte sein Haar.", "en": "He combed his hair." },
+      { "tag": "perfekt", "de": "Ich habe mein Haar gekämmt.", "en": "I have combed my hair." }
+    ]
+  },
+  {
+    "lemma": "streicheln",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to pet, to stroke", "example_de": "Das Kind streichelt die Katze.", "example_en": "The child pets the cat." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Ich streichle den Hund.", "en": "I pet the dog." },
+      { "tag": "präteritum", "de": "Sie streichelte das Pferd.", "en": "She stroked the horse." },
+      { "tag": "perfekt", "de": "Er hat die Katze gestreichelt.", "en": "He has petted the cat." }
+    ]
+  },
+  {
+    "lemma": "bellen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1050,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to bark", "example_de": "Der Hund bellt laut.", "example_en": "The dog barks loudly." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Hund bellt.", "en": "The dog barks." },
+      { "tag": "präteritum", "de": "Der Hund bellte laut.", "en": "The dog barked loudly." },
+      { "tag": "perfekt", "de": "Der Hund hat gebellt.", "en": "The dog has barked." }
+    ]
+  },
+  {
+    "lemma": "miauen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1300,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to meow", "example_de": "Die Katze miaut leise.", "example_en": "The cat meows softly." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Katze miaut.", "en": "The cat meows." },
+      { "tag": "präteritum", "de": "Die Katze miaute laut.", "en": "The cat meowed loudly." },
+      { "tag": "perfekt", "de": "Die Katze hat miaut.", "en": "The cat has meowed." }
+    ]
+  },
+  {
+    "lemma": "beißen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1150,
+    "verb": { "aux": "haben", "praeteritum": "biss", "partizip2": "gebissen" },
+    "senses": [
+      { "en": "to bite", "example_de": "Der Hund beißt nicht.", "example_en": "The dog does not bite." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Katze beißt manchmal.", "en": "The cat sometimes bites." },
+      { "tag": "präteritum", "de": "Er biss in den Apfel.", "en": "He bit into the apple." },
+      { "tag": "perfekt", "de": "Der Hund hat gebissen.", "en": "The dog has bitten." }
+    ]
+  },
+  {
+    "lemma": "fangen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1000,
+    "verb": { "aux": "haben", "du": "fängst", "er": "fängt", "praeteritum": "fing", "partizip2": "gefangen" },
+    "senses": [
+      { "en": "to catch", "example_de": "Die Katze fängt eine Maus.", "example_en": "The cat catches a mouse." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er fängt den Ball.", "en": "He catches the ball." },
+      { "tag": "präteritum", "de": "Sie fing den Fisch.", "en": "She caught the fish." },
+      { "tag": "perfekt", "de": "Wir haben den Ball gefangen.", "en": "We have caught the ball." }
+    ]
+  },
+  {
+    "lemma": "springen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 950,
+    "verb": { "aux": "sein", "praeteritum": "sprang", "partizip2": "gesprungen" },
+    "senses": [
+      { "en": "to jump", "example_de": "Der Frosch springt ins Wasser.", "example_en": "The frog jumps into the water." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das Kind springt hoch.", "en": "The child jumps high." },
+      { "tag": "präteritum", "de": "Der Hund sprang über den Zaun.", "en": "The dog jumped over the fence." },
+      { "tag": "perfekt", "de": "Er ist weit gesprungen.", "en": "He has jumped far." }
+    ]
+  },
+  {
+    "lemma": "brüllen",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1100,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to roar", "example_de": "Der Löwe brüllt sehr laut.", "example_en": "The lion roars very loudly." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Tiger brüllt.", "en": "The tiger roars." },
+      { "tag": "präteritum", "de": "Der Löwe brüllte laut.", "en": "The lion roared loudly." },
+      { "tag": "perfekt", "de": "Der Löwe hat gebrüllt.", "en": "The lion has roared." }
+    ]
+  },
+  {
+    "lemma": "krabbeln",
+    "pos": "verb",
+    "level": "A1",
+    "freq": 1250,
+    "verb": { "aux": "sein" },
+    "senses": [
+      { "en": "to crawl", "example_de": "Das Baby krabbelt zum Ball.", "example_en": "The baby crawls to the ball." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das Baby krabbelt schnell.", "en": "The baby crawls fast." },
+      { "tag": "präteritum", "de": "Es krabbelte zur Tür.", "en": "It crawled to the door." },
+      { "tag": "perfekt", "de": "Das Baby ist gekrabbelt.", "en": "The baby has crawled." }
+    ]
+  }
+]

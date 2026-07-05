@@ -1,0 +1,1120 @@
+[
+  {
+    "lemma": "Angelegenheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": { "gender": "f", "plural": "Angelegenheiten" },
+    "senses": [
+      { "en": "matter, affair", "example_de": "Das ist meine private Angelegenheit.", "example_en": "That's my private matter." }
+    ]
+  },
+  {
+    "lemma": "Verantwortung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1508,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "responsibility", "example_de": "Er übernimmt die volle Verantwortung.", "example_en": "He takes full responsibility." }
+    ]
+  },
+  {
+    "lemma": "Erfahrung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1516,
+    "noun": { "gender": "f", "plural": "Erfahrungen" },
+    "senses": [
+      { "en": "experience", "example_de": "Sie hat viel Erfahrung im Beruf.", "example_en": "She has a lot of professional experience." }
+    ]
+  },
+  {
+    "lemma": "Umwelt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1524,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "environment", "example_de": "Wir müssen die Umwelt schützen.", "example_en": "We must protect the environment." }
+    ]
+  },
+  {
+    "lemma": "Gesellschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1532,
+    "noun": { "gender": "f", "plural": "Gesellschaften" },
+    "senses": [
+      { "en": "society", "example_de": "Die Gesellschaft verändert sich ständig.", "example_en": "Society is constantly changing." }
+    ]
+  },
+  {
+    "lemma": "Wirtschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1540,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "economy", "example_de": "Die Wirtschaft wächst dieses Jahr.", "example_en": "The economy is growing this year." }
+    ]
+  },
+  {
+    "lemma": "Entwicklung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1548,
+    "noun": { "gender": "f", "plural": "Entwicklungen" },
+    "senses": [
+      { "en": "development", "example_de": "Diese Entwicklung überrascht viele Experten.", "example_en": "This development surprises many experts." }
+    ]
+  },
+  {
+    "lemma": "Bedeutung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1556,
+    "noun": { "gender": "f", "plural": "Bedeutungen" },
+    "senses": [
+      { "en": "meaning, importance", "example_de": "Das Wort hat mehrere Bedeutungen.", "example_en": "The word has several meanings." }
+    ]
+  },
+  {
+    "lemma": "Beziehung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1564,
+    "noun": { "gender": "f", "plural": "Beziehungen" },
+    "senses": [
+      { "en": "relationship", "example_de": "Sie führen eine glückliche Beziehung.", "example_en": "They have a happy relationship." }
+    ]
+  },
+  {
+    "lemma": "Voraussetzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1572,
+    "noun": { "gender": "f", "plural": "Voraussetzungen" },
+    "senses": [
+      { "en": "prerequisite, condition", "example_de": "Deutsch ist eine wichtige Voraussetzung.", "example_en": "German is an important prerequisite." }
+    ]
+  },
+  {
+    "lemma": "Einstellung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1580,
+    "noun": { "gender": "f", "plural": "Einstellungen" },
+    "senses": [
+      { "en": "attitude", "example_de": "Seine Einstellung hat sich geändert.", "example_en": "His attitude has changed.", "note": "auch: Einstellung = Anstellung, Kameraeinstellung" }
+    ]
+  },
+  {
+    "lemma": "Verhalten",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1588,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "behavior", "example_de": "Sein Verhalten war sehr merkwürdig.", "example_en": "His behavior was very strange." }
+    ]
+  },
+  {
+    "lemma": "Verhältnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1596,
+    "noun": { "gender": "n", "plural": "Verhältnisse", "genitive": "Verhältnisses" },
+    "senses": [
+      { "en": "relationship, ratio, circumstances", "example_de": "Ihr Verhältnis ist sehr kompliziert.", "example_en": "Their relationship is very complicated." }
+    ]
+  },
+  {
+    "lemma": "Anlass",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1604,
+    "noun": { "gender": "m", "plural": "Anlässe" },
+    "senses": [
+      { "en": "occasion, reason", "example_de": "Aus welchem Anlass feiert ihr?", "example_en": "What's the occasion for the celebration?" }
+    ]
+  },
+  {
+    "lemma": "Absicht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1612,
+    "noun": { "gender": "f", "plural": "Absichten" },
+    "senses": [
+      { "en": "intention", "example_de": "Er hatte keine böse Absicht.", "example_en": "He had no bad intention." }
+    ]
+  },
+  {
+    "lemma": "Vorteil",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": { "gender": "m", "plural": "Vorteile" },
+    "senses": [
+      { "en": "advantage", "example_de": "Das bringt viele Vorteile mit sich.", "example_en": "That brings many advantages." }
+    ]
+  },
+  {
+    "lemma": "Nachteil",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1628,
+    "noun": { "gender": "m", "plural": "Nachteile" },
+    "senses": [
+      { "en": "disadvantage", "example_de": "Diese Lösung hat auch Nachteile.", "example_en": "This solution also has disadvantages." }
+    ]
+  },
+  {
+    "lemma": "Konflikt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1636,
+    "noun": { "gender": "m", "plural": "Konflikte" },
+    "senses": [
+      { "en": "conflict", "example_de": "Der Konflikt dauert schon Jahre.", "example_en": "The conflict has lasted for years." }
+    ]
+  },
+  {
+    "lemma": "Vorurteil",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1644,
+    "noun": { "gender": "n", "plural": "Vorurteile" },
+    "senses": [
+      { "en": "prejudice", "example_de": "Wir sollten keine Vorurteile haben.", "example_en": "We shouldn't have prejudices." }
+    ]
+  },
+  {
+    "lemma": "Beschwerde",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1652,
+    "noun": { "gender": "f", "plural": "Beschwerden" },
+    "senses": [
+      { "en": "complaint", "example_de": "Sie schrieb eine offizielle Beschwerde.", "example_en": "She wrote an official complaint." }
+    ]
+  },
+  {
+    "lemma": "Erwartung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1660,
+    "noun": { "gender": "f", "plural": "Erwartungen" },
+    "senses": [
+      { "en": "expectation", "example_de": "Das Spiel erfüllte alle Erwartungen.", "example_en": "The game met all expectations." }
+    ]
+  },
+  {
+    "lemma": "Herausforderung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1668,
+    "noun": { "gender": "f", "plural": "Herausforderungen" },
+    "senses": [
+      { "en": "challenge", "example_de": "Diese Aufgabe ist eine echte Herausforderung.", "example_en": "This task is a real challenge." }
+    ]
+  },
+  {
+    "lemma": "Zusammenhang",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1676,
+    "noun": { "gender": "m", "plural": "Zusammenhänge" },
+    "senses": [
+      { "en": "context, connection", "example_de": "Ich verstehe den Zusammenhang nicht.", "example_en": "I don't understand the connection." }
+    ]
+  },
+  {
+    "lemma": "Vergangenheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1684,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "the past", "example_de": "Er spricht selten über die Vergangenheit.", "example_en": "He rarely talks about the past." }
+    ]
+  },
+  {
+    "lemma": "Gegenwart",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1692,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "the present", "example_de": "Wir leben in der Gegenwart.", "example_en": "We live in the present." }
+    ]
+  },
+  {
+    "lemma": "Erlebnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1700,
+    "noun": { "gender": "n", "plural": "Erlebnisse", "genitive": "Erlebnisses" },
+    "senses": [
+      { "en": "experience, event", "example_de": "Der Urlaub war ein tolles Erlebnis.", "example_en": "The vacation was a great experience." }
+    ]
+  },
+  {
+    "lemma": "Enttäuschung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1708,
+    "noun": { "gender": "f", "plural": "Enttäuschungen" },
+    "senses": [
+      { "en": "disappointment", "example_de": "Die Niederlage war eine große Enttäuschung.", "example_en": "The defeat was a big disappointment." }
+    ]
+  },
+  {
+    "lemma": "Vertrauen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1716,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "trust", "example_de": "Vertrauen muss man sich verdienen.", "example_en": "Trust must be earned." }
+    ]
+  },
+  {
+    "lemma": "Gerechtigkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1724,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "justice", "example_de": "Sie kämpft für mehr Gerechtigkeit.", "example_en": "She fights for more justice." }
+    ]
+  },
+  {
+    "lemma": "Zusammenarbeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1732,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "cooperation, collaboration", "example_de": "Die Zusammenarbeit lief sehr gut.", "example_en": "The cooperation went very well." }
+    ]
+  },
+  {
+    "lemma": "Diskussion",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": { "gender": "f", "plural": "Diskussionen" },
+    "senses": [
+      { "en": "discussion", "example_de": "Die Diskussion dauerte den ganzen Abend.", "example_en": "The discussion lasted all evening." }
+    ]
+  },
+  {
+    "lemma": "Umfrage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1748,
+    "noun": { "gender": "f", "plural": "Umfragen" },
+    "senses": [
+      { "en": "survey, poll", "example_de": "Laut Umfrage sind viele zufrieden.", "example_en": "According to the survey, many are satisfied." }
+    ]
+  },
+  {
+    "lemma": "Bevölkerung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1756,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "population", "example_de": "Die Bevölkerung wächst jedes Jahr.", "example_en": "The population grows every year." }
+    ]
+  },
+  {
+    "lemma": "Fortschritt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1764,
+    "noun": { "gender": "m", "plural": "Fortschritte" },
+    "senses": [
+      { "en": "progress", "example_de": "Sie macht große Fortschritte beim Deutsch.", "example_en": "She's making great progress in German." }
+    ]
+  },
+  {
+    "lemma": "Bericht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1772,
+    "noun": { "gender": "m", "plural": "Berichte" },
+    "senses": [
+      { "en": "report", "example_de": "Er schreibt einen Bericht über die Reise.", "example_en": "He's writing a report about the trip." }
+    ]
+  },
+  {
+    "lemma": "überzeugen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1780,
+    "verb": { "aux": "haben", "partizip2": "überzeugt" },
+    "senses": [
+      { "en": "to convince", "example_de": "Sie konnte ihn nicht überzeugen.", "example_en": "She couldn't convince him." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Seine Argumente überzeugen mich nicht.", "en": "His arguments don't convince me." },
+      { "tag": "präteritum", "de": "Er überzeugte seine Chefin schnell.", "en": "He convinced his boss quickly." },
+      { "tag": "perfekt", "de": "Ich habe ihn endlich überzeugt.", "en": "I finally convinced him." }
+    ]
+  },
+  {
+    "lemma": "vereinbaren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1788,
+    "verb": { "aux": "haben", "partizip2": "vereinbart" },
+    "senses": [
+      { "en": "to agree on, to arrange", "example_de": "Wir vereinbaren einen neuen Termin.", "example_en": "We're arranging a new appointment." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie vereinbarten ein Treffen.", "en": "They arranged a meeting." },
+      { "tag": "perfekt", "de": "Wir haben einen Termin vereinbart.", "en": "We've arranged an appointment." }
+    ]
+  },
+  {
+    "lemma": "bezweifeln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1796,
+    "verb": { "aux": "haben", "partizip2": "bezweifelt" },
+    "senses": [
+      { "en": "to doubt", "example_de": "Ich bezweifle diese Aussage.", "example_en": "I doubt this statement." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er bezweifelte die Geschichte.", "en": "He doubted the story." },
+      { "tag": "perfekt", "de": "Sie hat seine Worte bezweifelt.", "en": "She doubted his words." }
+    ]
+  },
+  {
+    "lemma": "behaupten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1804,
+    "verb": { "aux": "haben", "partizip2": "behauptet" },
+    "senses": [
+      { "en": "to claim, to assert", "example_de": "Er behauptet, alles zu wissen.", "example_en": "He claims to know everything." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie behauptete, unschuldig zu sein.", "en": "She claimed to be innocent." },
+      { "tag": "perfekt", "de": "Das hat er nie behauptet.", "en": "He never claimed that." }
+    ]
+  },
+  {
+    "lemma": "beteiligen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1812,
+    "verb": { "aux": "haben", "partizip2": "beteiligt" },
+    "senses": [
+      { "en": "to participate, to be involved", "example_de": "Viele beteiligen sich an der Diskussion.", "example_en": "Many take part in the discussion.", "note": "reflexiv: sich beteiligen an + Dativ" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er beteiligte sich am Projekt.", "en": "He took part in the project." },
+      { "tag": "perfekt", "de": "Wir haben uns daran beteiligt.", "en": "We took part in it." }
+    ]
+  },
+  {
+    "lemma": "reagieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1820,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to react", "example_de": "Wie reagiert er auf Kritik?", "example_en": "How does he react to criticism?", "note": "+ auf + Akkusativ" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie reagierte sehr ruhig.", "en": "She reacted very calmly." },
+      { "tag": "perfekt", "de": "Er hat schnell reagiert.", "en": "He reacted quickly." }
+    ]
+  },
+  {
+    "lemma": "entwickeln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1828,
+    "verb": { "aux": "haben", "partizip2": "entwickelt" },
+    "senses": [
+      { "en": "to develop", "example_de": "Die Firma entwickelt neue Produkte.", "example_en": "The company develops new products.", "note": "auch reflexiv: sich entwickeln" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Das Kind entwickelte sich schnell.", "en": "The child developed quickly." },
+      { "tag": "perfekt", "de": "Er hat sich gut entwickelt.", "en": "He has developed well." }
+    ]
+  },
+  {
+    "lemma": "beziehen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1836,
+    "verb": { "aux": "haben", "praeteritum": "bezog", "partizip2": "bezogen" },
+    "senses": [
+      { "en": "to refer to", "example_de": "Das bezieht sich auf gestern.", "example_en": "That refers to yesterday.", "note": "reflexiv: sich beziehen auf + Akkusativ" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er bezog sich auf den Vertrag.", "en": "He referred to the contract." },
+      { "tag": "perfekt", "de": "Sie hat sich darauf bezogen.", "en": "She referred to that." }
+    ]
+  },
+  {
+    "lemma": "bedauern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1844,
+    "verb": { "aux": "haben", "partizip2": "bedauert" },
+    "senses": [
+      { "en": "to regret", "example_de": "Ich bedauere diesen Fehler sehr.", "example_en": "I really regret this mistake." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er bedauerte seine Entscheidung.", "en": "He regretted his decision." },
+      { "tag": "perfekt", "de": "Sie hat es sehr bedauert.", "en": "She regretted it a lot." }
+    ]
+  },
+  {
+    "lemma": "weigern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1852,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to refuse", "example_de": "Er weigert sich zu zahlen.", "example_en": "He refuses to pay.", "note": "reflexiv: sich weigern + zu-Infinitiv" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie weigerte sich zu antworten.", "en": "She refused to answer." },
+      { "tag": "perfekt", "de": "Er hat sich geweigert.", "en": "He refused." }
+    ]
+  },
+  {
+    "lemma": "verzichten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1860,
+    "verb": { "aux": "haben", "partizip2": "verzichtet" },
+    "senses": [
+      { "en": "to do without, to forgo", "example_de": "Wir verzichten auf Fleisch.", "example_en": "We're giving up meat.", "note": "+ auf + Akkusativ" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er verzichtete auf den Preis.", "en": "He forwent the prize." },
+      { "tag": "perfekt", "de": "Sie hat auf Zucker verzichtet.", "en": "She's given up sugar." }
+    ]
+  },
+  {
+    "lemma": "bemühen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1868,
+    "verb": { "aux": "haben", "partizip2": "bemüht" },
+    "senses": [
+      { "en": "to make an effort", "example_de": "Sie bemüht sich sehr um Erfolg.", "example_en": "She tries hard for success.", "note": "reflexiv: sich bemühen um" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er bemühte sich um Ruhe.", "en": "He tried to stay calm." },
+      { "tag": "perfekt", "de": "Wir haben uns bemüht.", "en": "We made an effort." }
+    ]
+  },
+  {
+    "lemma": "beschäftigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1876,
+    "verb": { "aux": "haben", "partizip2": "beschäftigt" },
+    "senses": [
+      { "en": "to occupy oneself with, to employ", "example_de": "Er beschäftigt sich mit Politik.", "example_en": "He occupies himself with politics.", "note": "reflexiv: sich beschäftigen mit" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie beschäftigte sich mit Kunst.", "en": "She occupied herself with art." },
+      { "tag": "perfekt", "de": "Ich habe mich damit beschäftigt.", "en": "I've dealt with that." }
+    ]
+  },
+  {
+    "lemma": "verwenden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1884,
+    "verb": { "aux": "haben", "partizip2": "verwendet" },
+    "senses": [
+      { "en": "to use", "example_de": "Wir verwenden nur frische Zutaten.", "example_en": "We only use fresh ingredients." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er verwendete alte Methoden.", "en": "He used old methods." },
+      { "tag": "perfekt", "de": "Sie hat viel Zeit verwendet.", "en": "She has spent a lot of time." }
+    ]
+  },
+  {
+    "lemma": "betreffen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1892,
+    "verb": { "aux": "haben", "du": "betriffst", "er": "betrifft", "praeteritum": "betraf", "partizip2": "betroffen" },
+    "senses": [
+      { "en": "to concern, to affect", "example_de": "Das betrifft uns alle.", "example_en": "That concerns all of us." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Diese Regel betrifft nur Neue.", "en": "This rule only concerns newcomers." },
+      { "tag": "präteritum", "de": "Der Streik betraf viele Firmen.", "en": "The strike affected many companies." },
+      { "tag": "perfekt", "de": "Es hat ihn stark betroffen.", "en": "It affected him strongly." }
+    ]
+  },
+  {
+    "lemma": "geschehen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1900,
+    "verb": { "aux": "sein", "du": "geschiehst", "er": "geschieht", "praeteritum": "geschah", "partizip2": "geschehen" },
+    "senses": [
+      { "en": "to happen", "example_de": "Was ist hier geschehen?", "example_en": "What has happened here?", "note": "meist unpersönlich, 3. Person" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "So etwas geschieht selten.", "en": "Such a thing rarely happens." },
+      { "tag": "präteritum", "de": "Der Unfall geschah gestern Abend.", "en": "The accident happened last night." },
+      { "tag": "perfekt", "de": "Es ist nichts Schlimmes geschehen.", "en": "Nothing bad has happened." }
+    ]
+  },
+  {
+    "lemma": "verändern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1908,
+    "verb": { "aux": "haben", "partizip2": "verändert" },
+    "senses": [
+      { "en": "to change", "example_de": "Die Stadt hat sich verändert.", "example_en": "The city has changed.", "note": "auch reflexiv: sich verändern" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er veränderte seine Meinung.", "en": "He changed his mind." },
+      { "tag": "perfekt", "de": "Viel hat sich verändert.", "en": "A lot has changed." }
+    ]
+  },
+  {
+    "lemma": "verlassen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1916,
+    "verb": { "aux": "haben", "du": "verlässt", "er": "verlässt", "praeteritum": "verließ", "partizip2": "verlassen" },
+    "senses": [
+      { "en": "to leave; to rely on (sich verlassen auf)", "example_de": "Ich verlasse mich auf dich.", "example_en": "I'm relying on you." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er verlässt das Haus früh.", "en": "He leaves the house early." },
+      { "tag": "präteritum", "de": "Sie verließ die Firma letztes Jahr.", "en": "She left the company last year." },
+      { "tag": "perfekt", "de": "Ich habe mich auf ihn verlassen.", "en": "I relied on him." }
+    ]
+  },
+  {
+    "lemma": "vertrauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1924,
+    "verb": { "aux": "haben", "partizip2": "vertraut" },
+    "senses": [
+      { "en": "to trust", "example_de": "Ich vertraue meiner Freundin völlig.", "example_en": "I trust my friend completely.", "note": "+ Dativ" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er vertraute seinem Gefühl.", "en": "He trusted his instinct." },
+      { "tag": "perfekt", "de": "Sie hat ihm immer vertraut.", "en": "She always trusted him." }
+    ]
+  },
+  {
+    "lemma": "verlangen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1932,
+    "verb": { "aux": "haben", "partizip2": "verlangt" },
+    "senses": [
+      { "en": "to demand, to ask for", "example_de": "Der Chef verlangt mehr Leistung.", "example_en": "The boss demands more performance." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie verlangte eine Erklärung.", "en": "She demanded an explanation." },
+      { "tag": "perfekt", "de": "Er hat viel Geduld verlangt.", "en": "It has demanded a lot of patience." }
+    ]
+  },
+  {
+    "lemma": "fordern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1940,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to demand", "example_de": "Die Mitarbeiter fordern höhere Löhne.", "example_en": "The employees demand higher wages." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie forderten mehr Rechte.", "en": "They demanded more rights." },
+      { "tag": "perfekt", "de": "Er hat eine Antwort gefordert.", "en": "He demanded an answer." }
+    ]
+  },
+  {
+    "lemma": "unterstützen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1948,
+    "verb": { "aux": "haben", "partizip2": "unterstützt" },
+    "senses": [
+      { "en": "to support", "example_de": "Meine Familie unterstützt mich immer.", "example_en": "My family always supports me." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er unterstützte das neue Projekt.", "en": "He supported the new project." },
+      { "tag": "perfekt", "de": "Wir haben ihn finanziell unterstützt.", "en": "We supported him financially." }
+    ]
+  },
+  {
+    "lemma": "anpassen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1956,
+    "verb": { "aux": "haben", "separablePrefix": "an" },
+    "senses": [
+      { "en": "to adapt", "example_de": "Er passt sich schnell an.", "example_en": "He adapts quickly.", "note": "reflexiv: sich anpassen an" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie passt sich der Situation an.", "en": "She adapts to the situation." },
+      { "tag": "präteritum", "de": "Wir passten den Plan an.", "en": "We adjusted the plan." },
+      { "tag": "perfekt", "de": "Ich habe mich gut angepasst.", "en": "I've adapted well." }
+    ]
+  },
+  {
+    "lemma": "verursachen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1964,
+    "verb": { "aux": "haben", "partizip2": "verursacht" },
+    "senses": [
+      { "en": "to cause", "example_de": "Rauchen verursacht viele Krankheiten.", "example_en": "Smoking causes many diseases." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Sturm verursachte großen Schaden.", "en": "The storm caused great damage." },
+      { "tag": "perfekt", "de": "Er hat den Unfall verursacht.", "en": "He caused the accident." }
+    ]
+  },
+  {
+    "lemma": "vermeiden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1972,
+    "verb": { "aux": "haben", "praeteritum": "vermied", "partizip2": "vermieden" },
+    "senses": [
+      { "en": "to avoid", "example_de": "Wir vermeiden unnötigen Stress.", "example_en": "We avoid unnecessary stress." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er vermied jeden Kontakt.", "en": "He avoided all contact." },
+      { "tag": "perfekt", "de": "Sie hat den Streit vermieden.", "en": "She avoided the argument." }
+    ]
+  },
+  {
+    "lemma": "konzentrieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1980,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to concentrate", "example_de": "Ich konzentriere mich auf die Arbeit.", "example_en": "I'm concentrating on the work.", "note": "reflexiv: sich konzentrieren auf" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er konzentrierte sich stark.", "en": "He concentrated hard." },
+      { "tag": "perfekt", "de": "Sie hat sich gut konzentriert.", "en": "She concentrated well." }
+    ]
+  },
+  {
+    "lemma": "überprüfen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1988,
+    "verb": { "aux": "haben", "partizip2": "überprüft" },
+    "senses": [
+      { "en": "to check, to verify", "example_de": "Bitte überprüfen Sie Ihre Angaben.", "example_en": "Please check your information." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er überprüfte die Zahlen genau.", "en": "He checked the figures carefully." },
+      { "tag": "perfekt", "de": "Wir haben alles überprüft.", "en": "We've checked everything." }
+    ]
+  },
+  {
+    "lemma": "reduzieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1996,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to reduce", "example_de": "Wir reduzieren unseren Energieverbrauch.", "example_en": "We're reducing our energy use." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Firma reduzierte die Preise.", "en": "The company reduced the prices." },
+      { "tag": "perfekt", "de": "Er hat sein Gewicht reduziert.", "en": "He has reduced his weight." }
+    ]
+  },
+  {
+    "lemma": "verbessern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2004,
+    "verb": { "aux": "haben", "partizip2": "verbessert" },
+    "senses": [
+      { "en": "to improve", "example_de": "Sie will ihr Deutsch verbessern.", "example_en": "She wants to improve her German." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er verbesserte seine Note deutlich.", "en": "He improved his grade significantly." },
+      { "tag": "perfekt", "de": "Die Lage hat sich verbessert.", "en": "The situation has improved." }
+    ]
+  },
+  {
+    "lemma": "irren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2012,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to be mistaken", "example_de": "Da irrst du dich aber.", "example_en": "You're mistaken about that.", "note": "reflexiv: sich irren" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er irrte sich im Datum.", "en": "He got the date wrong." },
+      { "tag": "perfekt", "de": "Ich habe mich geirrt.", "en": "I was mistaken." }
+    ]
+  },
+  {
+    "lemma": "lohnen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2020,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to be worth it", "example_de": "Die Mühe lohnt sich wirklich.", "example_en": "The effort is really worth it.", "note": "reflexiv: sich lohnen" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Reise lohnte sich sehr.", "en": "The trip was really worth it." },
+      { "tag": "perfekt", "de": "Es hat sich gelohnt.", "en": "It was worth it." }
+    ]
+  },
+  {
+    "lemma": "gelingen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2028,
+    "verb": { "aux": "sein", "praeteritum": "gelang", "partizip2": "gelungen" },
+    "senses": [
+      { "en": "to succeed", "example_de": "Der Kuchen ist ihr gelungen.", "example_en": "The cake turned out well for her.", "note": "unpersönlich: es gelingt mir/dir + Dativ" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das gelingt ihm nicht immer.", "en": "He doesn't always manage that." },
+      { "tag": "präteritum", "de": "Der Plan gelang leider nicht.", "en": "The plan unfortunately didn't succeed." },
+      { "tag": "perfekt", "de": "Es ist uns gelungen.", "en": "We managed it." }
+    ]
+  },
+  {
+    "lemma": "scheitern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2036,
+    "verb": { "aux": "sein" },
+    "senses": [
+      { "en": "to fail", "example_de": "Das Projekt ist gescheitert.", "example_en": "The project has failed." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Viele Pläne scheitern am Geld.", "en": "Many plans fail because of money." },
+      { "tag": "präteritum", "de": "Der Versuch scheiterte völlig.", "en": "The attempt failed completely." },
+      { "tag": "perfekt", "de": "Die Verhandlung ist gescheitert.", "en": "The negotiation has failed." }
+    ]
+  },
+  {
+    "lemma": "einigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2044,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to agree on", "example_de": "Wir einigen uns auf einen Preis.", "example_en": "We agree on a price.", "note": "reflexiv: sich einigen auf" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie einigten sich schnell.", "en": "They quickly reached an agreement." },
+      { "tag": "perfekt", "de": "Wir haben uns geeinigt.", "en": "We've come to an agreement." }
+    ]
+  },
+  {
+    "lemma": "zustimmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2052,
+    "verb": { "aux": "haben", "separablePrefix": "zu", "du": "stimmst", "er": "stimmt", "praeteritum": "stimmte", "partizip2": "zugestimmt" },
+    "senses": [
+      { "en": "to agree", "example_de": "Ich stimme dir völlig zu.", "example_en": "I completely agree with you.", "note": "+ Dativ" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er stimmt dem Vorschlag zu.", "en": "He agrees with the proposal." },
+      { "tag": "präteritum", "de": "Sie stimmte sofort zu.", "en": "She agreed immediately." },
+      { "tag": "perfekt", "de": "Alle haben zugestimmt.", "en": "Everyone agreed." }
+    ]
+  },
+  {
+    "lemma": "verantwortlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2100,
+    "senses": [
+      { "en": "responsible", "example_de": "Wer ist dafür verantwortlich?", "example_en": "Who is responsible for that?" }
+    ]
+  },
+  {
+    "lemma": "erfolgreich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2110,
+    "senses": [
+      { "en": "successful", "example_de": "Sie ist eine erfolgreiche Geschäftsfrau.", "example_en": "She is a successful businesswoman." }
+    ]
+  },
+  {
+    "lemma": "abhängig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2120,
+    "senses": [
+      { "en": "dependent", "example_de": "Kinder sind von Eltern abhängig.", "example_en": "Children are dependent on parents.", "note": "+ von" }
+    ]
+  },
+  {
+    "lemma": "unabhängig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2130,
+    "senses": [
+      { "en": "independent", "example_de": "Sie lebt finanziell unabhängig.", "example_en": "She lives financially independent." }
+    ]
+  },
+  {
+    "lemma": "typisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2140,
+    "senses": [
+      { "en": "typical", "example_de": "Das ist typisch für ihn.", "example_en": "That's typical of him." }
+    ]
+  },
+  {
+    "lemma": "unterschiedlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2150,
+    "senses": [
+      { "en": "different, varying", "example_de": "Die Meinungen sind sehr unterschiedlich.", "example_en": "Opinions vary a lot." }
+    ]
+  },
+  {
+    "lemma": "vielfältig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2160,
+    "senses": [
+      { "en": "diverse", "example_de": "Die Stadt bietet vielfältige Möglichkeiten.", "example_en": "The city offers diverse opportunities." }
+    ]
+  },
+  {
+    "lemma": "wesentlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2170,
+    "senses": [
+      { "en": "essential, significant", "example_de": "Das ist ein wesentlicher Unterschied.", "example_en": "That is an essential difference." }
+    ]
+  },
+  {
+    "lemma": "deutlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2180,
+    "senses": [
+      { "en": "clear, distinct", "example_de": "Sprich bitte etwas deutlicher.", "example_en": "Please speak a bit more clearly." }
+    ]
+  },
+  {
+    "lemma": "vernünftig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2190,
+    "senses": [
+      { "en": "reasonable, sensible", "example_de": "Sei doch mal vernünftig!", "example_en": "Just be reasonable!" }
+    ]
+  },
+  {
+    "lemma": "gerecht",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2200,
+    "senses": [
+      { "en": "just, fair", "example_de": "Die Regel ist nicht gerecht.", "example_en": "The rule isn't fair." }
+    ]
+  },
+  {
+    "lemma": "ungerecht",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2210,
+    "senses": [
+      { "en": "unjust, unfair", "example_de": "Das Urteil war sehr ungerecht.", "example_en": "The verdict was very unfair." }
+    ]
+  },
+  {
+    "lemma": "sinnvoll",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2220,
+    "senses": [
+      { "en": "meaningful, sensible", "example_de": "Diese Idee ist wirklich sinnvoll.", "example_en": "This idea really makes sense." }
+    ]
+  },
+  {
+    "lemma": "sinnlos",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2230,
+    "senses": [
+      { "en": "senseless, pointless", "example_de": "So ein Streit ist sinnlos.", "example_en": "Such an argument is pointless." }
+    ]
+  },
+  {
+    "lemma": "freiwillig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2240,
+    "senses": [
+      { "en": "voluntary", "example_de": "Die Teilnahme ist völlig freiwillig.", "example_en": "Participation is completely voluntary." }
+    ]
+  },
+  {
+    "lemma": "selbstverständlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2250,
+    "senses": [
+      { "en": "obvious, natural, of course", "example_de": "Das ist doch selbstverständlich!", "example_en": "That's obvious, of course!" }
+    ]
+  },
+  {
+    "lemma": "gegenseitig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2260,
+    "senses": [
+      { "en": "mutual", "example_de": "Sie helfen sich gegenseitig.", "example_en": "They help each other." }
+    ]
+  },
+  {
+    "lemma": "beliebt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2270,
+    "senses": [
+      { "en": "popular", "example_de": "Sie ist bei allen sehr beliebt.", "example_en": "She is very popular with everyone.", "note": "+ bei" }
+    ]
+  },
+  {
+    "lemma": "geeignet",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2280,
+    "senses": [
+      { "en": "suitable", "example_de": "Dieser Job ist für sie geeignet.", "example_en": "This job is suitable for her.", "note": "+ für" }
+    ]
+  },
+  {
+    "lemma": "angemessen",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2290,
+    "senses": [
+      { "en": "appropriate", "example_de": "Das war eine angemessene Reaktion.", "example_en": "That was an appropriate reaction." }
+    ]
+  },
+  {
+    "lemma": "dennoch",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2300,
+    "senses": [
+      { "en": "nevertheless", "example_de": "Es regnete, dennoch gingen wir raus.", "example_en": "It rained, but we went out anyway." }
+    ]
+  },
+  {
+    "lemma": "während",
+    "pos": "conj",
+    "level": "B1",
+    "freq": 2310,
+    "senses": [
+      { "en": "while, whereas", "example_de": "Während er schläft, arbeite ich.", "example_en": "While he sleeps, I work.", "note": "auch Präposition + Genitiv" }
+    ]
+  },
+  {
+    "lemma": "falls",
+    "pos": "conj",
+    "level": "B1",
+    "freq": 2320,
+    "senses": [
+      { "en": "in case, if", "example_de": "Falls es regnet, bleiben wir zuhause.", "example_en": "In case it rains, we'll stay home." }
+    ]
+  },
+  {
+    "lemma": "zwar",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2330,
+    "senses": [
+      { "en": "indeed, though", "example_de": "Er ist zwar müde, aber glücklich.", "example_en": "He is indeed tired, but happy.", "note": "oft in zwar … aber" }
+    ]
+  },
+  {
+    "lemma": "allerdings",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2340,
+    "senses": [
+      { "en": "however, though", "example_de": "Das stimmt, allerdings nicht ganz.", "example_en": "That's true, though not entirely." }
+    ]
+  },
+  {
+    "lemma": "jedoch",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2350,
+    "senses": [
+      { "en": "however", "example_de": "Sie kam, jedoch etwas zu spät.", "example_en": "She came, however a bit late." }
+    ]
+  },
+  {
+    "lemma": "wegen",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2360,
+    "senses": [
+      { "en": "because of", "example_de": "Wegen des Regens bleiben wir hier.", "example_en": "Because of the rain, we're staying here.", "note": "+ Genitiv (umgangssprachlich auch + Dativ)" }
+    ]
+  },
+  {
+    "lemma": "trotz",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2370,
+    "senses": [
+      { "en": "despite", "example_de": "Trotz des Wetters gingen wir schwimmen.", "example_en": "Despite the weather, we went swimming.", "note": "+ Genitiv" }
+    ]
+  },
+  {
+    "lemma": "einander",
+    "pos": "pron",
+    "level": "B1",
+    "freq": 2380,
+    "senses": [
+      { "en": "each other, one another", "example_de": "Sie helfen einander im Alltag.", "example_en": "They help each other in daily life.", "note": "reziprok, indeklinabel" }
+    ]
+  },
+  {
+    "lemma": "anscheinend",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2390,
+    "senses": [
+      { "en": "apparently", "example_de": "Er ist anscheinend schon weg.", "example_en": "He's apparently already gone." }
+    ]
+  }
+]

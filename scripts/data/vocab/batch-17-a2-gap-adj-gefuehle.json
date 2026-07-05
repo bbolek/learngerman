@@ -1,0 +1,1188 @@
+[
+  {
+    "lemma": "enttäuscht",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 950,
+    "senses": [
+      {
+        "en": "disappointed",
+        "note": "enttäuscht von + Dat.",
+        "example_de": "Ich bin von dir enttäuscht.",
+        "example_en": "I am disappointed in you."
+      }
+    ]
+  },
+  {
+    "lemma": "eifersüchtig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "jealous",
+        "note": "eifersüchtig auf + Akk.",
+        "example_de": "Er ist eifersüchtig auf seinen Bruder.",
+        "example_en": "He is jealous of his brother."
+      }
+    ]
+  },
+  {
+    "lemma": "gleichgültig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "indifferent",
+        "note": "gleichgültig sein + Dat.",
+        "example_de": "Das Wetter ist mir gleichgültig.",
+        "example_en": "The weather is a matter of indifference to me."
+      }
+    ]
+  },
+  {
+    "lemma": "arrogant",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "arrogant",
+        "example_de": "Der neue Chef ist sehr arrogant.",
+        "example_en": "The new boss is very arrogant."
+      }
+    ]
+  },
+  {
+    "lemma": "bescheiden",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "modest",
+        "example_de": "Er ist trotz seines Erfolgs bescheiden.",
+        "example_en": "He is modest despite his success."
+      }
+    ]
+  },
+  {
+    "lemma": "wütend",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "furious, angry",
+        "note": "wütend auf/über + Akk.",
+        "example_de": "Mein Vater ist wütend auf mich.",
+        "example_en": "My father is furious with me."
+      }
+    ]
+  },
+  {
+    "lemma": "verliebt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      {
+        "en": "in love",
+        "note": "verliebt in + Akk.",
+        "example_de": "Sie ist in ihn verliebt.",
+        "example_en": "She is in love with him."
+      }
+    ]
+  },
+  {
+    "lemma": "einsam",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "lonely",
+        "example_de": "Nachts fühlt er sich einsam.",
+        "example_en": "At night he feels lonely."
+      }
+    ]
+  },
+  {
+    "lemma": "gelangweilt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "bored",
+        "example_de": "Die Kinder sehen gelangweilt aus.",
+        "example_en": "The children look bored."
+      }
+    ]
+  },
+  {
+    "lemma": "gestresst",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "stressed",
+        "example_de": "Meine Mutter ist heute gestresst.",
+        "example_en": "My mother is stressed today."
+      }
+    ]
+  },
+  {
+    "lemma": "überrascht",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "surprised",
+        "example_de": "Ich war von der Party überrascht.",
+        "example_en": "I was surprised by the party."
+      }
+    ]
+  },
+  {
+    "lemma": "zärtlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "affectionate, tender",
+        "example_de": "Sie ist sehr zärtlich zu ihrem Baby.",
+        "example_en": "She is very affectionate with her baby."
+      }
+    ]
+  },
+  {
+    "lemma": "fürsorglich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "caring",
+        "example_de": "Meine Oma ist sehr fürsorglich.",
+        "example_en": "My grandma is very caring."
+      }
+    ]
+  },
+  {
+    "lemma": "gehorsam",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "obedient",
+        "example_de": "Unser Hund ist sehr gehorsam.",
+        "example_en": "Our dog is very obedient."
+      }
+    ]
+  },
+  {
+    "lemma": "zurückhaltend",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "reserved, restrained",
+        "example_de": "Er ist bei Fremden zurückhaltend.",
+        "example_en": "He is reserved with strangers."
+      }
+    ]
+  },
+  {
+    "lemma": "aufmerksam",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      {
+        "en": "attentive",
+        "example_de": "Die Kinder hören aufmerksam zu.",
+        "example_en": "The children listen attentively."
+      }
+    ]
+  },
+  {
+    "lemma": "gutmütig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "good-natured",
+        "example_de": "Unser Opa ist ein gutmütiger Mann.",
+        "example_en": "Our grandpa is a good-natured man."
+      }
+    ]
+  },
+  {
+    "lemma": "naiv",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "naive",
+        "example_de": "Sei nicht so naiv, pass auf!",
+        "example_en": "Don't be so naive, be careful!"
+      }
+    ]
+  },
+  {
+    "lemma": "unhöflich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "impolite, rude",
+        "example_de": "Das war sehr unhöflich von dir.",
+        "example_en": "That was very rude of you."
+      }
+    ]
+  },
+  {
+    "lemma": "optimistisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "optimistic",
+        "example_de": "Ich bin optimistisch für die Zukunft.",
+        "example_en": "I am optimistic about the future."
+      }
+    ]
+  },
+  {
+    "lemma": "pessimistisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "pessimistic",
+        "example_de": "Er denkt oft sehr pessimistisch.",
+        "example_en": "He often thinks very pessimistically."
+      }
+    ]
+  },
+  {
+    "lemma": "sensibel",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "adj": {
+      "comparative": "sensibler",
+      "superlative": "sensibelst"
+    },
+    "senses": [
+      {
+        "en": "sensitive",
+        "example_de": "Meine Schwester ist sehr sensibel.",
+        "example_en": "My sister is very sensitive."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Er ist sensibler als sein Bruder.",
+        "en": "He is more sensitive than his brother."
+      },
+      {
+        "tag": "superlativ",
+        "de": "Sie ist die sensibelste in der Familie.",
+        "en": "She is the most sensitive in the family."
+      }
+    ]
+  },
+  {
+    "lemma": "tolerant",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "tolerant",
+        "example_de": "Unsere Familie ist sehr tolerant.",
+        "example_en": "Our family is very tolerant."
+      }
+    ]
+  },
+  {
+    "lemma": "egoistisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "selfish",
+        "example_de": "Sei nicht so egoistisch!",
+        "example_en": "Don't be so selfish!"
+      }
+    ]
+  },
+  {
+    "lemma": "treu",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "loyal, faithful",
+        "example_de": "Mein Hund ist mir treu.",
+        "example_en": "My dog is loyal to me."
+      }
+    ]
+  },
+  {
+    "lemma": "untreu",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1700,
+    "senses": [
+      {
+        "en": "unfaithful",
+        "example_de": "Er war seiner Frau untreu.",
+        "example_en": "He was unfaithful to his wife."
+      }
+    ]
+  },
+  {
+    "lemma": "launisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "moody",
+        "example_de": "Meine Chefin ist heute launisch.",
+        "example_en": "My boss is moody today."
+      }
+    ]
+  },
+  {
+    "lemma": "aufgeregt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      {
+        "en": "excited, nervous",
+        "example_de": "Vor der Prüfung war ich aufgeregt.",
+        "example_en": "Before the exam I was nervous."
+      }
+    ]
+  },
+  {
+    "lemma": "verzweifelt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "desperate",
+        "example_de": "Sie suchte verzweifelt ihren Schlüssel.",
+        "example_en": "She desperately searched for her key."
+      }
+    ]
+  },
+  {
+    "lemma": "dankbar",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "grateful, thankful",
+        "note": "dankbar für + Akk.",
+        "example_de": "Ich bin dir sehr dankbar.",
+        "example_en": "I am very grateful to you."
+      }
+    ]
+  },
+  {
+    "lemma": "neidisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "envious",
+        "note": "neidisch auf + Akk.",
+        "example_de": "Sie ist neidisch auf ihre Schwester.",
+        "example_en": "She is envious of her sister."
+      }
+    ]
+  },
+  {
+    "lemma": "misstrauisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "suspicious, distrustful",
+        "example_de": "Er schaute mich misstrauisch an.",
+        "example_en": "He looked at me suspiciously."
+      }
+    ]
+  },
+  {
+    "lemma": "selbstbewusst",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "self-confident",
+        "example_de": "Meine Tochter ist sehr selbstbewusst.",
+        "example_en": "My daughter is very self-confident."
+      }
+    ]
+  },
+  {
+    "lemma": "unsicher",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      {
+        "en": "insecure, unsure",
+        "example_de": "Bei der Prüfung war ich unsicher.",
+        "example_en": "During the exam I was unsure."
+      }
+    ]
+  },
+  {
+    "lemma": "unsympathisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "unlikeable, unpleasant",
+        "example_de": "Der neue Kollege ist mir unsympathisch.",
+        "example_en": "I find the new colleague unlikeable."
+      }
+    ]
+  },
+  {
+    "lemma": "aggressiv",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "aggressive",
+        "example_de": "Der Hund war heute sehr aggressiv.",
+        "example_en": "The dog was very aggressive today."
+      }
+    ]
+  },
+  {
+    "lemma": "sanft",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "gentle, soft",
+        "example_de": "Die Mutter hat eine sanfte Stimme.",
+        "example_en": "The mother has a gentle voice."
+      }
+    ]
+  },
+  {
+    "lemma": "locker",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "relaxed, laid-back",
+        "example_de": "Bleib locker, alles wird gut!",
+        "example_en": "Stay relaxed, everything will be fine!"
+      }
+    ]
+  },
+  {
+    "lemma": "spontan",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "spontaneous",
+        "example_de": "Wir haben spontan Urlaub gemacht.",
+        "example_en": "We took a spontaneous vacation."
+      }
+    ]
+  },
+  {
+    "lemma": "kreativ",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "creative",
+        "example_de": "Meine Schwester ist sehr kreativ.",
+        "example_en": "My sister is very creative."
+      }
+    ]
+  },
+  {
+    "lemma": "distanziert",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "distant, aloof",
+        "example_de": "Er wirkte bei dem Treffen distanziert.",
+        "example_en": "He seemed distant at the meeting."
+      }
+    ]
+  },
+  {
+    "lemma": "verständnisvoll",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "understanding",
+        "example_de": "Meine Eltern sind sehr verständnisvoll.",
+        "example_en": "My parents are very understanding."
+      }
+    ]
+  },
+  {
+    "lemma": "unzufrieden",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "dissatisfied",
+        "note": "unzufrieden mit + Dat.",
+        "example_de": "Er ist unzufrieden mit seinem Job.",
+        "example_en": "He is dissatisfied with his job."
+      }
+    ]
+  },
+  {
+    "lemma": "gelassen",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "calm, composed",
+        "example_de": "Bleib bitte gelassen, es ist okay.",
+        "example_en": "Please stay calm, it's okay."
+      }
+    ]
+  },
+  {
+    "lemma": "schockiert",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "shocked",
+        "example_de": "Alle waren von der Nachricht schockiert.",
+        "example_en": "Everyone was shocked by the news."
+      }
+    ]
+  },
+  {
+    "lemma": "peinlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "embarrassing",
+        "example_de": "Das war mir wirklich peinlich.",
+        "example_en": "That was really embarrassing for me."
+      }
+    ]
+  },
+  {
+    "lemma": "ernst",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "serious",
+        "example_de": "Sein Gesicht war ganz ernst.",
+        "example_en": "His face was completely serious."
+      }
+    ]
+  },
+  {
+    "lemma": "offen",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 800,
+    "senses": [
+      {
+        "en": "open; open-minded",
+        "example_de": "Sie ist ein offener Mensch.",
+        "example_en": "She is an open-minded person."
+      }
+    ]
+  },
+  {
+    "lemma": "verschlossen",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "reserved, closed-off",
+        "example_de": "Er wirkt oft sehr verschlossen.",
+        "example_en": "He often seems very reserved."
+      }
+    ]
+  },
+  {
+    "lemma": "rücksichtsvoll",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "considerate",
+        "example_de": "Sei bitte rücksichtsvoll zu den Nachbarn.",
+        "example_en": "Please be considerate to the neighbors."
+      }
+    ]
+  },
+  {
+    "lemma": "temperamentvoll",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      {
+        "en": "spirited, temperamental",
+        "example_de": "Meine Tante ist sehr temperamentvoll.",
+        "example_en": "My aunt is very spirited."
+      }
+    ]
+  },
+  {
+    "lemma": "humorvoll",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "humorous, funny",
+        "example_de": "Unser Lehrer ist sehr humorvoll.",
+        "example_en": "Our teacher is very humorous."
+      }
+    ]
+  },
+  {
+    "lemma": "frustriert",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "frustrated",
+        "example_de": "Nach dem Test war er frustriert.",
+        "example_en": "After the test he was frustrated."
+      }
+    ]
+  },
+  {
+    "lemma": "rücksichtslos",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "inconsiderate, reckless",
+        "example_de": "Der Fahrer war sehr rücksichtslos.",
+        "example_en": "The driver was very reckless."
+      }
+    ]
+  },
+  {
+    "lemma": "verlegen",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "embarrassed, awkward",
+        "example_de": "Sie lächelte verlegen.",
+        "example_en": "She smiled awkwardly."
+      }
+    ]
+  },
+  {
+    "lemma": "weder",
+    "pos": "conj",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "neither (weder … noch = neither … nor)",
+        "note": "weder … noch",
+        "example_de": "Weder Tom noch Lisa kommt.",
+        "example_en": "Neither Tom nor Lisa is coming."
+      }
+    ]
+  },
+  {
+    "lemma": "sowohl",
+    "pos": "conj",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "both (sowohl … als auch = both … and)",
+        "note": "sowohl … als auch",
+        "example_de": "Sowohl Tom als auch Lisa kommt.",
+        "example_en": "Both Tom and Lisa are coming."
+      }
+    ]
+  },
+  {
+    "lemma": "allmählich",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "gradually",
+        "example_de": "Es wird allmählich dunkel.",
+        "example_en": "It is gradually getting dark."
+      }
+    ]
+  },
+  {
+    "lemma": "sowieso",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "anyway, in any case",
+        "example_de": "Ich komme sowieso zu spät.",
+        "example_en": "I'm coming late anyway."
+      }
+    ]
+  },
+  {
+    "lemma": "offensichtlich",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "obviously, evidently",
+        "example_de": "Er hat offensichtlich keine Zeit.",
+        "example_en": "He obviously has no time."
+      }
+    ]
+  },
+  {
+    "lemma": "inzwischen",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 950,
+    "senses": [
+      {
+        "en": "in the meantime, meanwhile",
+        "example_de": "Inzwischen kannst du Kaffee trinken.",
+        "example_en": "Meanwhile, you can drink coffee."
+      }
+    ]
+  },
+  {
+    "lemma": "gleichzeitig",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      {
+        "en": "at the same time, simultaneously",
+        "example_de": "Wir kamen alle gleichzeitig an.",
+        "example_en": "We all arrived at the same time."
+      }
+    ]
+  },
+  {
+    "lemma": "tatsächlich",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "actually, really",
+        "example_de": "Er hat tatsächlich die Prüfung bestanden.",
+        "example_en": "He actually passed the exam."
+      }
+    ]
+  },
+  {
+    "lemma": "deswegen",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 800,
+    "senses": [
+      {
+        "en": "because of that, that's why",
+        "example_de": "Es regnet, deswegen bleibe ich zu Hause.",
+        "example_en": "It's raining, that's why I stay home."
+      }
+    ]
+  },
+  {
+    "lemma": "daher",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "therefore, that's why",
+        "example_de": "Ich bin krank, daher bleibe ich hier.",
+        "example_en": "I am sick, therefore I stay here."
+      }
+    ]
+  },
+  {
+    "lemma": "immerhin",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "at least, after all",
+        "example_de": "Immerhin hast du es versucht.",
+        "example_en": "At least you tried it."
+      }
+    ]
+  },
+  {
+    "lemma": "insgesamt",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "in total, altogether",
+        "example_de": "Wir waren insgesamt zehn Personen.",
+        "example_en": "We were ten people in total."
+      }
+    ]
+  },
+  {
+    "lemma": "normalerweise",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "normally, usually",
+        "example_de": "Normalerweise stehe ich um sechs auf.",
+        "example_en": "I normally get up at six."
+      }
+    ]
+  },
+  {
+    "lemma": "andauernd",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "constantly, continually",
+        "example_de": "Mein Handy klingelt andauernd.",
+        "example_en": "My phone rings constantly."
+      }
+    ]
+  },
+  {
+    "lemma": "weiterhin",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1200,
+    "senses": [
+      {
+        "en": "still, continuing to",
+        "example_de": "Wir lernen weiterhin jeden Tag Deutsch.",
+        "example_en": "We continue to learn German every day."
+      }
+    ]
+  },
+  {
+    "lemma": "ebenfalls",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1000,
+    "senses": [
+      {
+        "en": "likewise, also",
+        "example_de": "Ich wünsche dir ebenfalls schöne Ferien.",
+        "example_en": "I wish you a nice vacation too."
+      }
+    ]
+  },
+  {
+    "lemma": "zunehmend",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "increasingly",
+        "example_de": "Die Stadt wird zunehmend teurer.",
+        "example_en": "The city is becoming increasingly expensive."
+      }
+    ]
+  },
+  {
+    "lemma": "zusätzlich",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1300,
+    "senses": [
+      {
+        "en": "additionally, extra",
+        "example_de": "Ich brauche zusätzlich noch Geld.",
+        "example_en": "I additionally need more money."
+      }
+    ]
+  },
+  {
+    "lemma": "jedenfalls",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1400,
+    "senses": [
+      {
+        "en": "in any case, anyway",
+        "example_de": "Jedenfalls war der Film sehr gut.",
+        "example_en": "In any case, the movie was very good."
+      }
+    ]
+  },
+  {
+    "lemma": "währenddessen",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "meanwhile",
+        "example_de": "Ich koche, währenddessen deckst du den Tisch.",
+        "example_en": "I cook, meanwhile you set the table."
+      }
+    ]
+  },
+  {
+    "lemma": "Wut",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "anger, rage",
+        "example_de": "Er schrie vor Wut.",
+        "example_en": "He screamed with anger."
+      }
+    ]
+  },
+  {
+    "lemma": "Liebe",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 700,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "love",
+        "example_de": "Die Liebe zu meiner Familie ist groß.",
+        "example_en": "My love for my family is great."
+      }
+    ]
+  },
+  {
+    "lemma": "Mut",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "courage",
+        "example_de": "Er hatte Mut, die Wahrheit zu sagen.",
+        "example_en": "He had the courage to tell the truth."
+      }
+    ]
+  },
+  {
+    "lemma": "Scham",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "shame",
+        "example_de": "Sie senkte den Kopf vor Scham.",
+        "example_en": "She lowered her head in shame."
+      }
+    ]
+  },
+  {
+    "lemma": "Gefühl",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": {
+      "gender": "n",
+      "plural": "Gefühle"
+    },
+    "senses": [
+      {
+        "en": "feeling, emotion",
+        "example_de": "Ich habe ein gutes Gefühl dabei.",
+        "example_en": "I have a good feeling about it."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Zeig ruhig deine Gefühle!",
+        "en": "Go ahead and show your feelings!"
+      }
+    ]
+  },
+  {
+    "lemma": "Laune",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": {
+      "gender": "f",
+      "plural": "Launen"
+    },
+    "senses": [
+      {
+        "en": "mood",
+        "note": "gute/schlechte Laune haben",
+        "example_de": "Sie hat heute schlechte Laune.",
+        "example_en": "She is in a bad mood today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Er hat oft seltsame Launen.",
+        "en": "He often has strange moods."
+      }
+    ]
+  },
+  {
+    "lemma": "Geduld",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1100,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "patience",
+        "example_de": "Hab bitte etwas Geduld mit mir.",
+        "example_en": "Please have a little patience with me."
+      }
+    ]
+  },
+  {
+    "lemma": "Neugier",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "curiosity",
+        "example_de": "Aus Neugier öffnete er die Tür.",
+        "example_en": "Out of curiosity, he opened the door."
+      }
+    ]
+  },
+  {
+    "lemma": "Eifersucht",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "jealousy",
+        "example_de": "Eifersucht ist kein schönes Gefühl.",
+        "example_en": "Jealousy is not a nice feeling."
+      }
+    ]
+  },
+  {
+    "lemma": "Erleichterung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "relief",
+        "example_de": "Nach der Prüfung fühlte ich Erleichterung.",
+        "example_en": "After the exam I felt relief."
+      }
+    ]
+  }
+]

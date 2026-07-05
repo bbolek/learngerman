@@ -1,0 +1,2053 @@
+[
+  {
+    "lemma": "Bluthochdruck",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "high blood pressure",
+        "example_de": "Bluthochdruck erhöht das Herzinfarktrisiko.",
+        "example_en": "High blood pressure increases the risk of heart attack."
+      }
+    ]
+  },
+  {
+    "lemma": "Behandlung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1515,
+    "noun": {
+      "gender": "f",
+      "plural": "Behandlungen"
+    },
+    "senses": [
+      {
+        "en": "treatment",
+        "example_de": "Die Behandlung dauert mehrere Wochen.",
+        "example_en": "The treatment takes several weeks."
+      }
+    ]
+  },
+  {
+    "lemma": "Nebenwirkung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1530,
+    "noun": {
+      "gender": "f",
+      "plural": "Nebenwirkungen"
+    },
+    "senses": [
+      {
+        "en": "side effect",
+        "example_de": "Dieses Medikament hat starke Nebenwirkungen.",
+        "example_en": "This medication has strong side effects."
+      }
+    ]
+  },
+  {
+    "lemma": "Ernährung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1545,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "nutrition, diet",
+        "example_de": "Gesunde Ernährung ist sehr wichtig.",
+        "example_en": "Healthy nutrition is very important."
+      }
+    ]
+  },
+  {
+    "lemma": "Bewegungsmangel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1560,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "lack of exercise",
+        "example_de": "Bewegungsmangel macht viele Menschen krank.",
+        "example_en": "Lack of exercise makes many people sick."
+      }
+    ]
+  },
+  {
+    "lemma": "Herzinfarkt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1575,
+    "noun": {
+      "gender": "m",
+      "plural": "Herzinfarkte"
+    },
+    "senses": [
+      {
+        "en": "heart attack",
+        "example_de": "Er hatte letztes Jahr einen Herzinfarkt.",
+        "example_en": "He had a heart attack last year."
+      }
+    ]
+  },
+  {
+    "lemma": "Schlaganfall",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1590,
+    "noun": {
+      "gender": "m",
+      "plural": "Schlaganfälle"
+    },
+    "senses": [
+      {
+        "en": "stroke",
+        "example_de": "Nach dem Schlaganfall lernte er wieder laufen.",
+        "example_en": "After the stroke he learned to walk again."
+      }
+    ]
+  },
+  {
+    "lemma": "Diabetes",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1605,
+    "noun": {
+      "gender": "m",
+      "plural": null,
+      "genitive": "Diabetes"
+    },
+    "senses": [
+      {
+        "en": "diabetes",
+        "example_de": "Sie hat seit der Kindheit Diabetes.",
+        "example_en": "She has had diabetes since childhood."
+      }
+    ]
+  },
+  {
+    "lemma": "Narkose",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": {
+      "gender": "f",
+      "plural": "Narkosen"
+    },
+    "senses": [
+      {
+        "en": "anesthesia",
+        "example_de": "Die Narkose wirkte sofort.",
+        "example_en": "The anesthesia worked immediately."
+      }
+    ]
+  },
+  {
+    "lemma": "Blutprobe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1635,
+    "noun": {
+      "gender": "f",
+      "plural": "Blutproben"
+    },
+    "senses": [
+      {
+        "en": "blood sample",
+        "example_de": "Der Arzt nimmt eine Blutprobe.",
+        "example_en": "The doctor takes a blood sample."
+      }
+    ]
+  },
+  {
+    "lemma": "Entzündung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1650,
+    "noun": {
+      "gender": "f",
+      "plural": "Entzündungen"
+    },
+    "senses": [
+      {
+        "en": "inflammation",
+        "example_de": "Die Entzündung im Knie tut weh.",
+        "example_en": "The inflammation in the knee hurts."
+      }
+    ]
+  },
+  {
+    "lemma": "Infektion",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1665,
+    "noun": {
+      "gender": "f",
+      "plural": "Infektionen"
+    },
+    "senses": [
+      {
+        "en": "infection",
+        "example_de": "Die Infektion heilt langsam ab.",
+        "example_en": "The infection is healing slowly."
+      }
+    ]
+  },
+  {
+    "lemma": "Operation",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1680,
+    "noun": {
+      "gender": "f",
+      "plural": "Operationen"
+    },
+    "senses": [
+      {
+        "en": "surgery, operation",
+        "example_de": "Die Operation dauerte drei Stunden.",
+        "example_en": "The surgery took three hours."
+      }
+    ]
+  },
+  {
+    "lemma": "Wunde",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1695,
+    "noun": {
+      "gender": "f",
+      "plural": "Wunden"
+    },
+    "senses": [
+      {
+        "en": "wound",
+        "example_de": "Die Wunde muss regelmäßig gereinigt werden.",
+        "example_en": "The wound must be cleaned regularly."
+      }
+    ]
+  },
+  {
+    "lemma": "Narbe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1710,
+    "noun": {
+      "gender": "f",
+      "plural": "Narben"
+    },
+    "senses": [
+      {
+        "en": "scar",
+        "example_de": "Nach der Operation blieb eine Narbe.",
+        "example_en": "A scar remained after the surgery."
+      }
+    ]
+  },
+  {
+    "lemma": "Diät",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1725,
+    "noun": {
+      "gender": "f",
+      "plural": "Diäten"
+    },
+    "senses": [
+      {
+        "en": "diet",
+        "example_de": "Sie macht seit einem Monat Diät.",
+        "example_en": "She's been on a diet for a month."
+      }
+    ]
+  },
+  {
+    "lemma": "Übergewicht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "overweight (condition)",
+        "example_de": "Übergewicht erhöht das Risiko für Krankheiten.",
+        "example_en": "Being overweight increases the risk of illness."
+      }
+    ]
+  },
+  {
+    "lemma": "Stress",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1755,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "stress",
+        "example_de": "Zu viel Stress schadet der Gesundheit.",
+        "example_en": "Too much stress harms your health."
+      }
+    ]
+  },
+  {
+    "lemma": "Erschöpfung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1770,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "exhaustion",
+        "example_de": "Nach der Prüfung spürte sie totale Erschöpfung.",
+        "example_en": "After the exam she felt total exhaustion."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorerkrankung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1785,
+    "noun": {
+      "gender": "f",
+      "plural": "Vorerkrankungen"
+    },
+    "senses": [
+      {
+        "en": "pre-existing condition",
+        "example_de": "Er hat keine ernsten Vorerkrankungen.",
+        "example_en": "He has no serious pre-existing conditions."
+      }
+    ]
+  },
+  {
+    "lemma": "Sucht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": {
+      "gender": "f",
+      "plural": "Süchte"
+    },
+    "senses": [
+      {
+        "en": "addiction",
+        "example_de": "Seine Sucht begann schon in der Jugend.",
+        "example_en": "His addiction began already in his youth."
+      }
+    ]
+  },
+  {
+    "lemma": "Impfstoff",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1815,
+    "noun": {
+      "gender": "m",
+      "plural": "Impfstoffe"
+    },
+    "senses": [
+      {
+        "en": "vaccine",
+        "example_de": "Der neue Impfstoff wirkt sehr gut.",
+        "example_en": "The new vaccine works very well."
+      }
+    ]
+  },
+  {
+    "lemma": "Vitamin",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1830,
+    "noun": {
+      "gender": "n",
+      "plural": "Vitamine"
+    },
+    "senses": [
+      {
+        "en": "vitamin",
+        "example_de": "Obst enthält viele wichtige Vitamine.",
+        "example_en": "Fruit contains many important vitamins."
+      }
+    ]
+  },
+  {
+    "lemma": "Nährstoff",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1845,
+    "noun": {
+      "gender": "m",
+      "plural": "Nährstoffe"
+    },
+    "senses": [
+      {
+        "en": "nutrient",
+        "example_de": "Gemüse liefert wichtige Nährstoffe.",
+        "example_en": "Vegetables provide important nutrients."
+      }
+    ]
+  },
+  {
+    "lemma": "Massage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1860,
+    "noun": {
+      "gender": "f",
+      "plural": "Massagen"
+    },
+    "senses": [
+      {
+        "en": "massage",
+        "example_de": "Eine Massage entspannt die Muskeln.",
+        "example_en": "A massage relaxes the muscles."
+      }
+    ]
+  },
+  {
+    "lemma": "Heilmittel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1875,
+    "noun": {
+      "gender": "n",
+      "plural": "Heilmittel"
+    },
+    "senses": [
+      {
+        "en": "remedy, cure",
+        "example_de": "Es gibt noch kein Heilmittel dagegen.",
+        "example_en": "There is still no cure for it."
+      }
+    ]
+  },
+  {
+    "lemma": "Kreislauf",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1890,
+    "noun": {
+      "gender": "m",
+      "plural": "Kreisläufe"
+    },
+    "senses": [
+      {
+        "en": "circulation",
+        "example_de": "Sport bringt den Kreislauf in Schwung.",
+        "example_en": "Exercise gets your circulation going."
+      }
+    ]
+  },
+  {
+    "lemma": "Risikofaktor",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1905,
+    "noun": {
+      "gender": "m",
+      "plural": "Risikofaktoren"
+    },
+    "senses": [
+      {
+        "en": "risk factor",
+        "example_de": "Rauchen ist ein wichtiger Risikofaktor.",
+        "example_en": "Smoking is an important risk factor."
+      }
+    ]
+  },
+  {
+    "lemma": "Schmerzmittel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "n",
+      "plural": "Schmerzmittel"
+    },
+    "senses": [
+      {
+        "en": "painkiller",
+        "example_de": "Nimm ein Schmerzmittel gegen die Kopfschmerzen.",
+        "example_en": "Take a painkiller for the headache."
+      }
+    ]
+  },
+  {
+    "lemma": "Atmung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1935,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "breathing, respiration",
+        "example_de": "Bei Panik wird die Atmung schneller.",
+        "example_en": "During panic, breathing gets faster."
+      }
+    ]
+  },
+  {
+    "lemma": "Verdauung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "digestion",
+        "example_de": "Ballaststoffe helfen bei der Verdauung.",
+        "example_en": "Fiber helps with digestion."
+      }
+    ]
+  },
+  {
+    "lemma": "Stoffwechsel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1965,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "metabolism",
+        "example_de": "Sport regt den Stoffwechsel an.",
+        "example_en": "Exercise stimulates the metabolism."
+      }
+    ]
+  },
+  {
+    "lemma": "Immunsystem",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": {
+      "gender": "n",
+      "plural": "Immunsysteme"
+    },
+    "senses": [
+      {
+        "en": "immune system",
+        "example_de": "Vitamin C stärkt das Immunsystem.",
+        "example_en": "Vitamin C strengthens the immune system."
+      }
+    ]
+  },
+  {
+    "lemma": "Gelenk",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1995,
+    "noun": {
+      "gender": "n",
+      "plural": "Gelenke"
+    },
+    "senses": [
+      {
+        "en": "joint",
+        "example_de": "Ihre Gelenke schmerzen bei kaltem Wetter.",
+        "example_en": "Her joints hurt in cold weather."
+      }
+    ]
+  },
+  {
+    "lemma": "Migräne",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "migraine",
+        "example_de": "Sie leidet seit Jahren an Migräne.",
+        "example_en": "She has suffered from migraines for years."
+      }
+    ]
+  },
+  {
+    "lemma": "Rückfall",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": {
+      "gender": "m",
+      "plural": "Rückfälle"
+    },
+    "senses": [
+      {
+        "en": "relapse",
+        "example_de": "Nach der Reha hatte er einen Rückfall.",
+        "example_en": "After rehab he had a relapse."
+      }
+    ]
+  },
+  {
+    "lemma": "Schwindel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "dizziness",
+        "example_de": "Der Schwindel kam ganz plötzlich.",
+        "example_en": "The dizziness came very suddenly."
+      }
+    ]
+  },
+  {
+    "lemma": "Schwellung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2055,
+    "noun": {
+      "gender": "f",
+      "plural": "Schwellungen"
+    },
+    "senses": [
+      {
+        "en": "swelling",
+        "example_de": "Kühlen hilft gegen die Schwellung.",
+        "example_en": "Cooling helps against the swelling."
+      }
+    ]
+  },
+  {
+    "lemma": "Bewusstsein",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2070,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "consciousness",
+        "example_de": "Nach dem Sturz verlor er das Bewusstsein.",
+        "example_en": "After the fall he lost consciousness."
+      }
+    ]
+  },
+  {
+    "lemma": "Quarantäne",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2085,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "quarantine",
+        "example_de": "Sie mussten zwei Wochen in Quarantäne.",
+        "example_en": "They had to quarantine for two weeks."
+      }
+    ]
+  },
+  {
+    "lemma": "Genesung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "recovery",
+        "example_de": "Wir wünschen dir gute Genesung!",
+        "example_en": "We wish you a good recovery!"
+      }
+    ]
+  },
+  {
+    "lemma": "Erholung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2115,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "recovery, relaxation",
+        "example_de": "Nach der Krankheit braucht er Erholung.",
+        "example_en": "After the illness he needs recovery."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausdauer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2130,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "stamina, endurance",
+        "example_de": "Laufen verbessert die körperliche Ausdauer.",
+        "example_en": "Running improves physical stamina."
+      }
+    ]
+  },
+  {
+    "lemma": "Hausarzt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2145,
+    "noun": {
+      "gender": "m",
+      "plural": "Hausärzte"
+    },
+    "senses": [
+      {
+        "en": "family doctor, GP",
+        "example_de": "Mein Hausarzt kennt mich schon lange.",
+        "example_en": "My GP has known me for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "Facharzt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": {
+      "gender": "m",
+      "plural": "Fachärzte"
+    },
+    "senses": [
+      {
+        "en": "specialist (doctor)",
+        "example_de": "Der Hausarzt schickt mich zum Facharzt.",
+        "example_en": "The GP is sending me to a specialist."
+      }
+    ]
+  },
+  {
+    "lemma": "röntgen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2175,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to x-ray",
+        "example_de": "Der Arzt röntgt den gebrochenen Arm.",
+        "example_en": "The doctor x-rays the broken arm."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Man röntgt zuerst das Knie.",
+        "en": "They x-ray the knee first."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie röntgten seinen Fuß gründlich.",
+        "en": "They x-rayed his foot thoroughly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Arzt hat die Lunge geröntgt.",
+        "en": "The doctor has x-rayed the lungs."
+      }
+    ]
+  },
+  {
+    "lemma": "vorbeugen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2190,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "vor"
+    },
+    "senses": [
+      {
+        "en": "to prevent",
+        "example_de": "Sport beugt vielen Krankheiten vor.",
+        "example_en": "Exercise prevents many illnesses.",
+        "note": "+ Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Gesunde Ernährung beugt Krankheiten vor.",
+        "en": "Healthy nutrition prevents illnesses."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Impfung beugte der Grippe vor.",
+        "en": "The vaccination prevented the flu."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat rechtzeitig vorgebeugt.",
+        "en": "He took preventive action in time."
+      }
+    ]
+  },
+  {
+    "lemma": "genesen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2205,
+    "verb": {
+      "aux": "sein",
+      "praeteritum": "genas",
+      "partizip2": "genesen"
+    },
+    "senses": [
+      {
+        "en": "to recover, to convalesce",
+        "example_de": "Er genas nach langer Krankheit vollständig.",
+        "example_en": "He fully recovered after a long illness.",
+        "note": "eher gehoben"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie genest langsam von der Operation.",
+        "en": "She's slowly recovering from the surgery."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er genas erst nach Monaten.",
+        "en": "He didn't recover until months later."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie ist vollständig genesen.",
+        "en": "She has fully recovered."
+      }
+    ]
+  },
+  {
+    "lemma": "abnehmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2220,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab",
+      "du": "nimmst",
+      "er": "nimmt",
+      "praeteritum": "nahm",
+      "partizip2": "abgenommen"
+    },
+    "senses": [
+      {
+        "en": "to lose weight",
+        "example_de": "Er will fünf Kilo abnehmen.",
+        "example_en": "He wants to lose five kilos."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie nimmt langsam ab.",
+        "en": "She's slowly losing weight."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er nahm im letzten Jahr stark ab.",
+        "en": "He lost a lot of weight last year."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe drei Kilo abgenommen.",
+        "en": "I've lost three kilos."
+      }
+    ]
+  },
+  {
+    "lemma": "betäuben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2235,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "betäubt"
+    },
+    "senses": [
+      {
+        "en": "to anesthetize, to numb",
+        "example_de": "Der Zahnarzt betäubt zuerst das Zahnfleisch.",
+        "example_en": "The dentist first numbs the gums."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Man betäubt den Patienten vor der Operation.",
+        "en": "The patient is anesthetized before the surgery."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Arzt betäubte die Wunde lokal.",
+        "en": "The doctor locally anesthetized the wound."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben ihn vollständig betäubt.",
+        "en": "They have fully anesthetized him."
+      }
+    ]
+  },
+  {
+    "lemma": "entzünden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2250,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "entzündet"
+    },
+    "senses": [
+      {
+        "en": "to become inflamed",
+        "example_de": "Die Wunde hat sich entzündet.",
+        "example_en": "The wound has become inflamed.",
+        "note": "reflexiv: sich entzünden"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Narbe entzündet sich manchmal.",
+        "en": "The scar sometimes becomes inflamed."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sein Knie entzündete sich nach dem Sturz.",
+        "en": "His knee became inflamed after the fall."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Haut hat sich stark entzündet.",
+        "en": "The skin has become badly inflamed."
+      }
+    ]
+  },
+  {
+    "lemma": "kollabieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2265,
+    "verb": {
+      "aux": "sein"
+    },
+    "senses": [
+      {
+        "en": "to collapse",
+        "example_de": "Er kollabierte plötzlich bei der Hitze.",
+        "example_en": "He suddenly collapsed in the heat."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Bei diesem Stress kollabiert er leicht.",
+        "en": "Under this stress he collapses easily."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie kollabierte mitten im Training.",
+        "en": "She collapsed in the middle of training."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Läufer ist völlig kollabiert.",
+        "en": "The runner has completely collapsed."
+      }
+    ]
+  },
+  {
+    "lemma": "schwellen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": {
+      "aux": "sein",
+      "du": "schwillst",
+      "er": "schwillt",
+      "praeteritum": "schwoll",
+      "partizip2": "geschwollen"
+    },
+    "senses": [
+      {
+        "en": "to swell",
+        "example_de": "Sein Knöchel schwillt nach dem Sturz.",
+        "example_en": "His ankle swells after the fall."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Hand schwillt langsam.",
+        "en": "The hand slowly swells."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sein Fuß schwoll stark.",
+        "en": "His foot swelled badly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Wange ist stark geschwollen.",
+        "en": "The cheek has swollen badly."
+      }
+    ]
+  },
+  {
+    "lemma": "leiden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2295,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "litt",
+      "partizip2": "gelitten"
+    },
+    "senses": [
+      {
+        "en": "to suffer (from)",
+        "example_de": "Er leidet seit Jahren an Migräne.",
+        "example_en": "He has suffered from migraines for years.",
+        "note": "+ an + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Viele Menschen leiden an Allergien.",
+        "en": "Many people suffer from allergies."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie litt lange an dieser Krankheit.",
+        "en": "She suffered from this illness for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sehr unter dem Stress gelitten.",
+        "en": "He has suffered a lot from the stress."
+      }
+    ]
+  },
+  {
+    "lemma": "desinfizieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2310,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to disinfect",
+        "example_de": "Sie desinfiziert die Wunde mit Alkohol.",
+        "example_en": "She disinfects the wound with alcohol."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er desinfizierte seine Hände gründlich.",
+        "en": "He disinfected his hands thoroughly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Schwester hat den Verband desinfiziert.",
+        "en": "The nurse has disinfected the bandage."
+      }
+    ]
+  },
+  {
+    "lemma": "erkranken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2325,
+    "verb": {
+      "aux": "sein",
+      "partizip2": "erkrankt"
+    },
+    "senses": [
+      {
+        "en": "to fall ill, to become sick (with)",
+        "example_de": "Viele Menschen erkranken jedes Jahr an Grippe.",
+        "example_en": "Many people fall ill with the flu every year.",
+        "note": "+ an + Dativ; eher gehoben"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie erkrankte plötzlich an einer Infektion.",
+        "en": "She suddenly fell ill with an infection."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er ist schwer erkrankt.",
+        "en": "He has become seriously ill."
+      }
+    ]
+  },
+  {
+    "lemma": "operieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2340,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to operate on",
+        "example_de": "Der Chirurg operiert das Knie morgen.",
+        "example_en": "The surgeon operates on the knee tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Man operierte ihn noch am selben Tag.",
+        "en": "They operated on him that same day."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Arzt hat ihn erfolgreich operiert.",
+        "en": "The doctor has operated on him successfully."
+      }
+    ]
+  },
+  {
+    "lemma": "inhalieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2355,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to inhale (e.g. medicine, steam)",
+        "example_de": "Er inhaliert Wasserdampf gegen den Husten.",
+        "example_en": "He inhales steam for his cough."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie inhalierte täglich mit Salzwasser.",
+        "en": "She inhaled with salt water daily."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Patient hat das Spray inhaliert.",
+        "en": "The patient has inhaled the spray."
+      }
+    ]
+  },
+  {
+    "lemma": "anstecken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2370,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to infect; to catch (an infection)",
+        "example_de": "Ich habe mich bei ihm angesteckt.",
+        "example_en": "I caught it from him.",
+        "note": "reflexiv: sich anstecken bei/an + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er steckt seine Kollegen leicht an.",
+        "en": "He easily infects his colleagues."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie steckte sich im Urlaub an.",
+        "en": "She caught an infection on vacation."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich schnell angesteckt.",
+        "en": "I got infected quickly."
+      }
+    ]
+  },
+  {
+    "lemma": "diagnostizieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2385,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to diagnose",
+        "example_de": "Der Arzt diagnostiziert eine Allergie.",
+        "example_en": "The doctor diagnoses an allergy."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie diagnostizierten eine seltene Krankheit.",
+        "en": "They diagnosed a rare disease."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Arzt hat die Krankheit diagnostiziert.",
+        "en": "The doctor has diagnosed the illness."
+      }
+    ]
+  },
+  {
+    "lemma": "schonen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to take it easy, to spare oneself",
+        "example_de": "Nach der Grippe solltest du dich schonen.",
+        "example_en": "After the flu you should take it easy.",
+        "note": "reflexiv: sich schonen"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er schonte sein verletztes Knie.",
+        "en": "He spared his injured knee."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat sich diese Woche geschont.",
+        "en": "She's taken it easy this week."
+      }
+    ]
+  },
+  {
+    "lemma": "verschlimmern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2415,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verschlimmert"
+    },
+    "senses": [
+      {
+        "en": "to worsen, to get worse",
+        "example_de": "Der Husten verschlimmert sich in der Nacht.",
+        "example_en": "The cough gets worse at night.",
+        "note": "reflexiv: sich verschlimmern"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Seine Schmerzen verschlimmerten sich plötzlich.",
+        "en": "His pain suddenly got worse."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Krankheit hat sich verschlimmert.",
+        "en": "The illness has gotten worse."
+      }
+    ]
+  },
+  {
+    "lemma": "verschlechtern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2430,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verschlechtert"
+    },
+    "senses": [
+      {
+        "en": "to deteriorate, to worsen",
+        "example_de": "Sein Zustand hat sich verschlechtert.",
+        "example_en": "His condition has deteriorated.",
+        "note": "reflexiv: sich verschlechtern"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Ihre Sehkraft verschlechterte sich mit dem Alter.",
+        "en": "Her eyesight deteriorated with age."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Gesundheitszustand hat sich verschlechtert.",
+        "en": "The state of health has deteriorated."
+      }
+    ]
+  },
+  {
+    "lemma": "nachlassen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2445,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "nach",
+      "du": "lässt",
+      "er": "lässt",
+      "praeteritum": "ließ",
+      "partizip2": "nachgelassen"
+    },
+    "senses": [
+      {
+        "en": "to ease, to subside",
+        "example_de": "Die Schmerzen lassen langsam nach.",
+        "example_en": "The pain is slowly easing."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Fieber lässt endlich nach.",
+        "en": "The fever is finally subsiding."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Husten ließ nach ein paar Tagen nach.",
+        "en": "The cough eased after a few days."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Schwellung hat inzwischen nachgelassen.",
+        "en": "The swelling has since subsided."
+      }
+    ]
+  },
+  {
+    "lemma": "einnehmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2460,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein",
+      "du": "nimmst",
+      "er": "nimmt",
+      "praeteritum": "nahm",
+      "partizip2": "eingenommen"
+    },
+    "senses": [
+      {
+        "en": "to take (medicine)",
+        "example_de": "Nehmen Sie die Tablette dreimal täglich ein.",
+        "example_en": "Take the pill three times a day."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er nimmt jeden Morgen Vitamine ein.",
+        "en": "He takes vitamins every morning."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie nahm das Medikament regelmäßig ein.",
+        "en": "She took the medication regularly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Tablette schon eingenommen.",
+        "en": "I've already taken the pill."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Nimm die Tabletten pünktlich ein!",
+        "en": "Take the pills on time!"
+      }
+    ]
+  },
+  {
+    "lemma": "schlucken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2475,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to swallow",
+        "example_de": "Das Kind kann die Tablette nicht schlucken.",
+        "example_en": "The child can't swallow the pill."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er schluckte die Medizin schnell.",
+        "en": "He swallowed the medicine quickly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die Tablette mit Wasser geschluckt.",
+        "en": "She swallowed the pill with water."
+      }
+    ]
+  },
+  {
+    "lemma": "spritzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2490,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to inject",
+        "example_de": "Die Ärztin spritzt ihm ein Schmerzmittel.",
+        "example_en": "The doctor injects him with a painkiller."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Der Arzt spritzte ihr eine Impfung.",
+        "en": "The doctor gave her a vaccination shot."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat ihm Insulin gespritzt.",
+        "en": "He was injected with insulin."
+      }
+    ]
+  },
+  {
+    "lemma": "betreuen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2505,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "betreut"
+    },
+    "senses": [
+      {
+        "en": "to care for, to attend to (patients)",
+        "example_de": "Die Schwester betreut zehn Patienten.",
+        "example_en": "The nurse cares for ten patients."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie betreute ihn nach der Operation.",
+        "en": "She cared for him after the surgery."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Pfleger hat sie liebevoll betreut.",
+        "en": "The caregiver has looked after her lovingly."
+      }
+    ]
+  },
+  {
+    "lemma": "ausheilen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to heal completely",
+        "example_de": "Die Verletzung muss vollständig ausheilen.",
+        "example_en": "The injury must heal completely."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Wunde heilte langsam vollständig aus.",
+        "en": "The wound healed completely over time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Bruch ist gut ausgeheilt.",
+        "en": "The fracture has healed completely."
+      }
+    ]
+  },
+  {
+    "lemma": "schwitzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2535,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to sweat",
+        "example_de": "Er schwitzt stark bei Fieber.",
+        "example_en": "He sweats a lot with a fever."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie schwitzte die ganze Nacht.",
+        "en": "She sweated all night."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe beim Sport stark geschwitzt.",
+        "en": "I sweated a lot during exercise."
+      }
+    ]
+  },
+  {
+    "lemma": "atmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2550,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to breathe",
+        "example_de": "Atmen Sie tief ein und aus.",
+        "example_en": "Breathe deeply in and out."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er atmet ruhig und gleichmäßig.",
+        "en": "He breathes calmly and evenly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie atmete schwer nach dem Lauf.",
+        "en": "She breathed heavily after the run."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Atme langsam und ruhig!",
+        "en": "Breathe slowly and calmly!"
+      }
+    ]
+  },
+  {
+    "lemma": "übergeben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2565,
+    "verb": {
+      "aux": "haben",
+      "du": "übergibst",
+      "er": "übergibt",
+      "praeteritum": "übergab",
+      "partizip2": "übergeben"
+    },
+    "senses": [
+      {
+        "en": "to vomit",
+        "example_de": "Ihr war schlecht, und sie musste sich übergeben.",
+        "example_en": "She felt sick and had to vomit.",
+        "note": "reflexiv: sich übergeben = to vomit"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er übergab sich nach dem Essen.",
+        "en": "He vomited after eating."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Kind hat sich übergeben.",
+        "en": "The child has vomited."
+      }
+    ]
+  },
+  {
+    "lemma": "zittern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2580,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to shiver, to tremble",
+        "example_de": "Sie zittert vor Fieber am ganzen Körper.",
+        "example_en": "She trembles all over from fever."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Seine Hände zitterten vor Schwäche.",
+        "en": "His hands trembled from weakness."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe vor Kälte gezittert.",
+        "en": "I trembled from the cold."
+      }
+    ]
+  },
+  {
+    "lemma": "jucken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2595,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to itch",
+        "example_de": "Die Haut juckt nach dem Sonnenbrand.",
+        "example_en": "The skin itches after the sunburn.",
+        "note": "oft unpersönlich: es juckt"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Narbe juckte noch lange.",
+        "en": "The scar itched for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Ausschlag hat stark gejuckt.",
+        "en": "The rash itched a lot."
+      }
+    ]
+  },
+  {
+    "lemma": "ernähren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2610,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "ernährt"
+    },
+    "senses": [
+      {
+        "en": "to eat, to nourish oneself",
+        "example_de": "Er ernährt sich sehr gesund.",
+        "example_en": "He eats very healthily.",
+        "note": "reflexiv: sich ernähren von + Dativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie ernährte sich lange nur vegetarisch.",
+        "en": "She ate only vegetarian for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mich diese Woche schlecht ernährt.",
+        "en": "I've eaten badly this week."
+      }
+    ]
+  },
+  {
+    "lemma": "chronisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2625,
+    "senses": [
+      {
+        "en": "chronic",
+        "example_de": "Er hat eine chronische Krankheit.",
+        "example_en": "He has a chronic illness."
+      }
+    ]
+  },
+  {
+    "lemma": "infektiös",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2640,
+    "senses": [
+      {
+        "en": "infectious",
+        "example_de": "Manche Krankheiten sind hoch infektiös.",
+        "example_en": "Some diseases are highly infectious."
+      }
+    ]
+  },
+  {
+    "lemma": "entzündet",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2655,
+    "senses": [
+      {
+        "en": "inflamed",
+        "example_de": "Ihre Wunde ist stark entzündet.",
+        "example_en": "Her wound is badly inflamed."
+      }
+    ]
+  },
+  {
+    "lemma": "übergewichtig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2670,
+    "senses": [
+      {
+        "en": "overweight",
+        "example_de": "Viele Kinder sind heute übergewichtig.",
+        "example_en": "Many children today are overweight."
+      }
+    ]
+  },
+  {
+    "lemma": "heilbar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2685,
+    "senses": [
+      {
+        "en": "curable",
+        "example_de": "Diese Krankheit ist gut heilbar.",
+        "example_en": "This disease is easily curable."
+      }
+    ]
+  },
+  {
+    "lemma": "unheilbar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2700,
+    "senses": [
+      {
+        "en": "incurable",
+        "example_de": "Die Diagnose lautete: unheilbar krank.",
+        "example_en": "The diagnosis was: incurably ill."
+      }
+    ]
+  },
+  {
+    "lemma": "erschöpft",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2715,
+    "senses": [
+      {
+        "en": "exhausted",
+        "example_de": "Nach der Schicht war sie total erschöpft.",
+        "example_en": "After the shift she was totally exhausted."
+      }
+    ]
+  },
+  {
+    "lemma": "geschwächt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2730,
+    "senses": [
+      {
+        "en": "weakened",
+        "example_de": "Nach der Grippe war er sehr geschwächt.",
+        "example_en": "After the flu he was very weakened."
+      }
+    ]
+  },
+  {
+    "lemma": "immun",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2745,
+    "senses": [
+      {
+        "en": "immune",
+        "example_de": "Sie ist gegen diese Krankheit immun.",
+        "example_en": "She's immune to this disease.",
+        "note": "+ gegen + Akkusativ"
+      }
+    ]
+  },
+  {
+    "lemma": "übertragbar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2760,
+    "senses": [
+      {
+        "en": "transmissible, contagious",
+        "example_de": "Das Virus ist leicht übertragbar.",
+        "example_en": "The virus is easily transmissible."
+      }
+    ]
+  },
+  {
+    "lemma": "bewusstlos",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2775,
+    "senses": [
+      {
+        "en": "unconscious",
+        "example_de": "Er lag bewusstlos auf dem Boden.",
+        "example_en": "He lay unconscious on the floor."
+      }
+    ]
+  },
+  {
+    "lemma": "schmerzhaft",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2790,
+    "senses": [
+      {
+        "en": "painful",
+        "example_de": "Die Behandlung war ziemlich schmerzhaft.",
+        "example_en": "The treatment was quite painful."
+      }
+    ]
+  },
+  {
+    "lemma": "schmerzfrei",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2805,
+    "senses": [
+      {
+        "en": "pain-free",
+        "example_de": "Endlich ist sie wieder schmerzfrei.",
+        "example_en": "She's finally pain-free again."
+      }
+    ]
+  },
+  {
+    "lemma": "ausgewogen",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2820,
+    "senses": [
+      {
+        "en": "balanced",
+        "example_de": "Eine ausgewogene Ernährung hält gesund.",
+        "example_en": "A balanced diet keeps you healthy."
+      }
+    ]
+  },
+  {
+    "lemma": "akut",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2835,
+    "senses": [
+      {
+        "en": "acute",
+        "example_de": "Er hatte akute Bauchschmerzen.",
+        "example_en": "He had acute stomach pain."
+      }
+    ]
+  },
+  {
+    "lemma": "dringend",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2850,
+    "senses": [
+      {
+        "en": "urgently",
+        "example_de": "Er muss dringend zum Arzt gehen.",
+        "example_en": "He urgently needs to see a doctor."
+      }
+    ]
+  },
+  {
+    "lemma": "vorübergehend",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2865,
+    "senses": [
+      {
+        "en": "temporarily",
+        "example_de": "Die Schmerzen sind nur vorübergehend.",
+        "example_en": "The pain is only temporary."
+      }
+    ]
+  },
+  {
+    "lemma": "innerlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2880,
+    "senses": [
+      {
+        "en": "internally",
+        "example_de": "Er blutet innerlich nach dem Unfall.",
+        "example_en": "He's bleeding internally after the accident."
+      }
+    ]
+  },
+  {
+    "lemma": "äußerlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2895,
+    "senses": [
+      {
+        "en": "externally",
+        "example_de": "Diese Salbe wird nur äußerlich angewendet.",
+        "example_en": "This ointment is only applied externally."
+      }
+    ]
+  },
+  {
+    "lemma": "höchstens",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2910,
+    "senses": [
+      {
+        "en": "at most",
+        "example_de": "Nimm höchstens zwei Tabletten pro Tag.",
+        "example_en": "Take at most two pills per day."
+      }
+    ]
+  },
+  {
+    "lemma": "unregelmäßig",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2925,
+    "senses": [
+      {
+        "en": "irregularly",
+        "example_de": "Er nimmt seine Medikamente unregelmäßig ein.",
+        "example_en": "He takes his medication irregularly."
+      }
+    ]
+  },
+  {
+    "lemma": "ständig",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2940,
+    "senses": [
+      {
+        "en": "constantly",
+        "example_de": "Sie ist ständig müde und erschöpft.",
+        "example_en": "She is constantly tired and exhausted."
+      }
+    ]
+  },
+  {
+    "lemma": "zeitweise",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2955,
+    "senses": [
+      {
+        "en": "at times, temporarily",
+        "example_de": "Sie hatte zeitweise starke Schmerzen.",
+        "example_en": "She had severe pain at times."
+      }
+    ]
+  },
+  {
+    "lemma": "übermäßig",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2970,
+    "senses": [
+      {
+        "en": "excessively",
+        "example_de": "Er trinkt übermäßig viel Kaffee.",
+        "example_en": "He drinks an excessive amount of coffee."
+      }
+    ]
+  },
+  {
+    "lemma": "gelegentlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2985,
+    "senses": [
+      {
+        "en": "occasionally",
+        "example_de": "Sie hat gelegentlich Kopfschmerzen.",
+        "example_en": "She occasionally has headaches."
+      }
+    ]
+  }
+]

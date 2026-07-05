@@ -1,0 +1,1103 @@
+[
+  {
+    "lemma": "Klimawandel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "climate change", "example_de": "Der Klimawandel bedroht viele Tier- und Pflanzenarten.", "example_en": "Climate change threatens many animal and plant species." }
+    ]
+  },
+  {
+    "lemma": "Klimaschutz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1515,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "climate protection", "example_de": "Klimaschutz ist eine wichtige Aufgabe für alle.", "example_en": "Climate protection is an important task for everyone." }
+    ]
+  },
+  {
+    "lemma": "Erderwärmung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1530,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "global warming", "example_de": "Die Erderwärmung lässt die Gletscher schmelzen.", "example_en": "Global warming is causing the glaciers to melt." }
+    ]
+  },
+  {
+    "lemma": "Nachhaltigkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1545,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "sustainability", "example_de": "Nachhaltigkeit spielt in der Wirtschaft eine große Rolle.", "example_en": "Sustainability plays a major role in the economy." }
+    ]
+  },
+  {
+    "lemma": "Ressource",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1560,
+    "noun": { "gender": "f", "plural": "Ressourcen" },
+    "senses": [
+      { "en": "resource", "example_de": "Wir müssen unsere Ressourcen sparsam nutzen.", "example_en": "We must use our resources sparingly." }
+    ]
+  },
+  {
+    "lemma": "Rohstoff",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1575,
+    "noun": { "gender": "m", "plural": "Rohstoffe" },
+    "senses": [
+      { "en": "raw material", "example_de": "Öl ist ein wichtiger Rohstoff für die Industrie.", "example_en": "Oil is an important raw material for industry." }
+    ]
+  },
+  {
+    "lemma": "Verschmutzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1590,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "pollution", "example_de": "Die Verschmutzung der Flüsse nimmt stark zu.", "example_en": "The pollution of the rivers is increasing sharply." }
+    ]
+  },
+  {
+    "lemma": "Luftverschmutzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1605,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "air pollution", "example_de": "Luftverschmutzung ist in großen Städten ein Problem.", "example_en": "Air pollution is a problem in big cities." }
+    ]
+  },
+  {
+    "lemma": "Artenvielfalt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "biodiversity, species diversity", "example_de": "Der Regenwald schützt eine große Artenvielfalt.", "example_en": "The rainforest protects great biodiversity." }
+    ]
+  },
+  {
+    "lemma": "Aussterben",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1635,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "extinction", "example_de": "Viele Tiere sind vom Aussterben bedroht.", "example_en": "Many animals are threatened by extinction." }
+    ]
+  },
+  {
+    "lemma": "Lebensraum",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1650,
+    "noun": { "gender": "m", "plural": "Lebensräume" },
+    "senses": [
+      { "en": "habitat", "example_de": "Der Lebensraum vieler Tiere wird immer kleiner.", "example_en": "The habitat of many animals is shrinking." }
+    ]
+  },
+  {
+    "lemma": "Ökosystem",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1665,
+    "noun": { "gender": "n", "plural": "Ökosysteme" },
+    "senses": [
+      { "en": "ecosystem", "example_de": "Ein gesundes Ökosystem braucht viele verschiedene Arten.", "example_en": "A healthy ecosystem needs many different species." }
+    ]
+  },
+  {
+    "lemma": "Naturschutzgebiet",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1680,
+    "noun": { "gender": "n", "plural": "Naturschutzgebiete" },
+    "senses": [
+      { "en": "nature reserve", "example_de": "Wir wandern durch ein schönes Naturschutzgebiet.", "example_en": "We're hiking through a beautiful nature reserve." }
+    ]
+  },
+  {
+    "lemma": "Umweltschützer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1695,
+    "noun": { "gender": "m", "plural": "Umweltschützer" },
+    "senses": [
+      { "en": "environmentalist", "example_de": "Umweltschützer protestieren gegen die neue Fabrik.", "example_en": "Environmentalists are protesting against the new factory." }
+    ]
+  },
+  {
+    "lemma": "Umweltbewusstsein",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1710,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "environmental awareness", "example_de": "Das Umweltbewusstsein der Jugend wächst stetig.", "example_en": "Young people's environmental awareness is steadily growing." }
+    ]
+  },
+  {
+    "lemma": "Treibhauseffekt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1725,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "greenhouse effect", "example_de": "Der Treibhauseffekt erwärmt die Erdatmosphäre.", "example_en": "The greenhouse effect warms the earth's atmosphere." }
+    ]
+  },
+  {
+    "lemma": "Treibhausgas",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": { "gender": "n", "plural": "Treibhausgase" },
+    "senses": [
+      { "en": "greenhouse gas", "example_de": "Autos stoßen viele Treibhausgase aus.", "example_en": "Cars emit a lot of greenhouse gases." }
+    ]
+  },
+  {
+    "lemma": "Emission",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1755,
+    "noun": { "gender": "f", "plural": "Emissionen" },
+    "senses": [
+      { "en": "emission", "example_de": "Die Fabrik muss ihre Emissionen senken.", "example_en": "The factory must lower its emissions." }
+    ]
+  },
+  {
+    "lemma": "Kohlendioxid",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1770,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "carbon dioxide", "example_de": "Bäume nehmen Kohlendioxid aus der Luft auf.", "example_en": "Trees absorb carbon dioxide from the air." }
+    ]
+  },
+  {
+    "lemma": "Abgas",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1785,
+    "noun": { "gender": "n", "plural": "Abgase" },
+    "senses": [
+      { "en": "exhaust fumes", "example_de": "Die Abgase der Autos schaden der Umwelt.", "example_en": "Cars' exhaust fumes harm the environment." }
+    ]
+  },
+  {
+    "lemma": "Schadstoff",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": { "gender": "m", "plural": "Schadstoffe" },
+    "senses": [
+      { "en": "pollutant, harmful substance", "example_de": "Der Fluss enthält gefährliche Schadstoffe.", "example_en": "The river contains dangerous pollutants." }
+    ]
+  },
+  {
+    "lemma": "Feinstaub",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1815,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "particulate matter, fine dust", "example_de": "Feinstaub in der Luft macht viele Menschen krank.", "example_en": "Particulate matter in the air makes many people sick." }
+    ]
+  },
+  {
+    "lemma": "Energiequelle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1830,
+    "noun": { "gender": "f", "plural": "Energiequellen" },
+    "senses": [
+      { "en": "energy source", "example_de": "Die Sonne ist eine saubere Energiequelle.", "example_en": "The sun is a clean energy source." }
+    ]
+  },
+  {
+    "lemma": "Sonnenenergie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1845,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "solar energy", "example_de": "Sonnenenergie wird immer beliebter.", "example_en": "Solar energy is becoming more and more popular." }
+    ]
+  },
+  {
+    "lemma": "Windenergie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1860,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "wind energy", "example_de": "Windenergie liefert Strom ohne Abgase.", "example_en": "Wind energy provides electricity without emissions." }
+    ]
+  },
+  {
+    "lemma": "Windrad",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1875,
+    "noun": { "gender": "n", "plural": "Windräder" },
+    "senses": [
+      { "en": "wind turbine", "example_de": "Auf dem Hügel stehen drei große Windräder.", "example_en": "Three big wind turbines stand on the hill." }
+    ]
+  },
+  {
+    "lemma": "Solarzelle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1890,
+    "noun": { "gender": "f", "plural": "Solarzellen" },
+    "senses": [
+      { "en": "solar cell, solar panel", "example_de": "Solarzellen wandeln Sonnenlicht in Strom um.", "example_en": "Solar cells convert sunlight into electricity." }
+    ]
+  },
+  {
+    "lemma": "Brennstoff",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1905,
+    "noun": { "gender": "m", "plural": "Brennstoffe" },
+    "senses": [
+      { "en": "fuel", "example_de": "Fossile Brennstoffe schaden dem Klima.", "example_en": "Fossil fuels harm the climate." }
+    ]
+  },
+  {
+    "lemma": "Mülltrennung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "waste separation", "example_de": "Mülltrennung hilft beim Recycling.", "example_en": "Waste separation helps with recycling." }
+    ]
+  },
+  {
+    "lemma": "Verpackung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1935,
+    "noun": { "gender": "f", "plural": "Verpackungen" },
+    "senses": [
+      { "en": "packaging", "example_de": "Zu viel Verpackung erzeugt unnötigen Müll.", "example_en": "Too much packaging creates unnecessary waste." }
+    ]
+  },
+  {
+    "lemma": "Recycling",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "recycling", "example_de": "Recycling spart wertvolle Rohstoffe.", "example_en": "Recycling saves valuable raw materials." }
+    ]
+  },
+  {
+    "lemma": "Entsorgung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1965,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "disposal", "example_de": "Die Entsorgung von Batterien ist streng geregelt.", "example_en": "The disposal of batteries is strictly regulated." }
+    ]
+  },
+  {
+    "lemma": "Naturkatastrophe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": { "gender": "f", "plural": "Naturkatastrophen" },
+    "senses": [
+      { "en": "natural disaster", "example_de": "Überschwemmungen sind eine häufige Naturkatastrophe.", "example_en": "Floods are a common natural disaster." }
+    ]
+  },
+  {
+    "lemma": "Dürre",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1995,
+    "noun": { "gender": "f", "plural": "Dürren" },
+    "senses": [
+      { "en": "drought", "example_de": "Die Dürre zerstörte die ganze Ernte.", "example_en": "The drought destroyed the entire harvest." }
+    ]
+  },
+  {
+    "lemma": "Überschwemmung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": { "gender": "f", "plural": "Überschwemmungen" },
+    "senses": [
+      { "en": "flood", "example_de": "Nach dem Regen kam es zu einer Überschwemmung.", "example_en": "After the rain, there was a flood." }
+    ]
+  },
+  {
+    "lemma": "Waldbrand",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": { "gender": "m", "plural": "Waldbrände" },
+    "senses": [
+      { "en": "forest fire", "example_de": "Der Waldbrand breitete sich schnell aus.", "example_en": "The forest fire spread quickly." }
+    ]
+  },
+  {
+    "lemma": "Meeresspiegel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "sea level", "example_de": "Der Meeresspiegel steigt jedes Jahr ein wenig.", "example_en": "Sea level rises a little every year." }
+    ]
+  },
+  {
+    "lemma": "Regenwald",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2055,
+    "noun": { "gender": "m", "plural": "Regenwälder" },
+    "senses": [
+      { "en": "rainforest", "example_de": "Der Regenwald produziert viel Sauerstoff.", "example_en": "The rainforest produces a lot of oxygen." }
+    ]
+  },
+  {
+    "lemma": "Abholzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2070,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "deforestation", "example_de": "Die Abholzung zerstört wichtige Lebensräume.", "example_en": "Deforestation destroys important habitats." }
+    ]
+  },
+  {
+    "lemma": "Grundwasser",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2085,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "groundwater", "example_de": "Chemikalien verschmutzen oft das Grundwasser.", "example_en": "Chemicals often pollute the groundwater." }
+    ]
+  },
+  {
+    "lemma": "Trinkwasser",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "drinking water", "example_de": "Sauberes Trinkwasser ist nicht überall selbstverständlich.", "example_en": "Clean drinking water isn't a given everywhere." }
+    ]
+  },
+  {
+    "lemma": "Energieverbrauch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2115,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      { "en": "energy consumption", "example_de": "Der Energieverbrauch im Haushalt lässt sich reduzieren.", "example_en": "Household energy consumption can be reduced." }
+    ]
+  },
+  {
+    "lemma": "Elektroauto",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2130,
+    "noun": { "gender": "n", "plural": "Elektroautos" },
+    "senses": [
+      { "en": "electric car", "example_de": "Immer mehr Menschen kaufen ein Elektroauto.", "example_en": "More and more people are buying an electric car." }
+    ]
+  },
+  {
+    "lemma": "Mehrwegflasche",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2145,
+    "noun": { "gender": "f", "plural": "Mehrwegflaschen" },
+    "senses": [
+      { "en": "reusable bottle", "example_de": "Wir kaufen Wasser lieber in Mehrwegflaschen.", "example_en": "We prefer to buy water in reusable bottles." }
+    ]
+  },
+  {
+    "lemma": "Pestizid",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": { "gender": "n", "plural": "Pestizide" },
+    "senses": [
+      { "en": "pesticide", "example_de": "Pestizide können Insekten und Böden schädigen.", "example_en": "Pesticides can harm insects and soil." }
+    ]
+  },
+  {
+    "lemma": "recyceln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2175,
+    "verb": { "aux": "haben", "du": "recycelst", "er": "recycelt", "partizip2": "recycelt" },
+    "senses": [
+      { "en": "to recycle", "example_de": "Wir recyceln Glas, Papier und Plastik.", "example_en": "We recycle glass, paper, and plastic." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie recycelt fast ihren ganzen Müll.", "en": "She recycles almost all her waste." },
+      { "tag": "präteritum", "de": "Er recycelte die alten Flaschen.", "en": "He recycled the old bottles." },
+      { "tag": "perfekt", "de": "Ich habe die Dose recycelt.", "en": "I recycled the can." }
+    ]
+  },
+  {
+    "lemma": "verschwenden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2190,
+    "verb": { "aux": "haben", "partizip2": "verschwendet" },
+    "senses": [
+      { "en": "to waste", "example_de": "Bitte verschwende kein Wasser!", "example_en": "Please don't waste water!" }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er verschwendete viel Energie.", "en": "He wasted a lot of energy." },
+      { "tag": "perfekt", "de": "Wir haben kein Essen verschwendet.", "en": "We didn't waste any food." }
+    ]
+  },
+  {
+    "lemma": "verschmutzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2205,
+    "verb": { "aux": "haben", "partizip2": "verschmutzt" },
+    "senses": [
+      { "en": "to pollute", "example_de": "Fabriken verschmutzen oft die Luft.", "example_en": "Factories often pollute the air." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Das Öl verschmutzte das ganze Meer.", "en": "The oil polluted the whole sea." },
+      { "tag": "perfekt", "de": "Der Unfall hat den Fluss verschmutzt.", "en": "The accident polluted the river." }
+    ]
+  },
+  {
+    "lemma": "bedrohen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2220,
+    "verb": { "aux": "haben", "partizip2": "bedroht" },
+    "senses": [
+      { "en": "to threaten, to endanger", "example_de": "Der Klimawandel bedroht ganze Küstenstädte.", "example_en": "Climate change threatens entire coastal cities." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Dürre bedrohte die Ernte.", "en": "The drought threatened the harvest." },
+      { "tag": "perfekt", "de": "Die Jagd hat viele Arten bedroht.", "en": "Hunting has threatened many species." }
+    ]
+  },
+  {
+    "lemma": "gefährden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2235,
+    "verb": { "aux": "haben", "partizip2": "gefährdet" },
+    "senses": [
+      { "en": "to endanger, to jeopardize", "example_de": "Plastikmüll gefährdet das Leben im Meer.", "example_en": "Plastic waste endangers life in the sea." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Sturm gefährdete die Fischer.", "en": "The storm endangered the fishermen." },
+      { "tag": "perfekt", "de": "Die Chemikalie hat die Tiere gefährdet.", "en": "The chemical endangered the animals." }
+    ]
+  },
+  {
+    "lemma": "schmelzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2250,
+    "verb": { "aux": "sein", "du": "schmilzt", "er": "schmilzt", "praeteritum": "schmolz", "partizip2": "geschmolzen" },
+    "senses": [
+      { "en": "to melt", "example_de": "Im Sommer schmilzt das Eis schnell.", "example_en": "In summer, the ice melts quickly." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Gletscher schmelzen immer schneller.", "en": "The glaciers are melting faster and faster." },
+      { "tag": "präteritum", "de": "Der Schnee schmolz in wenigen Tagen.", "en": "The snow melted within a few days." },
+      { "tag": "perfekt", "de": "Das Eis ist völlig geschmolzen.", "en": "The ice has completely melted." }
+    ]
+  },
+  {
+    "lemma": "entsorgen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2265,
+    "verb": { "aux": "haben", "partizip2": "entsorgt" },
+    "senses": [
+      { "en": "to dispose of", "example_de": "Wir entsorgen den Müll getrennt.", "example_en": "We dispose of the waste separately." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er entsorgte die alte Batterie richtig.", "en": "He disposed of the old battery properly." },
+      { "tag": "perfekt", "de": "Sie haben den Sondermüll entsorgt.", "en": "They disposed of the hazardous waste." }
+    ]
+  },
+  {
+    "lemma": "abholzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": { "aux": "haben", "separablePrefix": "ab" },
+    "senses": [
+      { "en": "to deforest, to clear (forest)", "example_de": "Sie holzen große Teile des Waldes ab.", "example_en": "They're clearing large parts of the forest." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Konzern holzt den Regenwald ab.", "en": "The company is clearing the rainforest." },
+      { "tag": "präteritum", "de": "Früher holzte man den Wald schnell ab.", "en": "In the past, people cleared the forest quickly." },
+      { "tag": "perfekt", "de": "Sie haben den ganzen Hang abgeholzt.", "en": "They cleared the whole slope." }
+    ]
+  },
+  {
+    "lemma": "aufforsten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2295,
+    "verb": { "aux": "haben", "separablePrefix": "auf" },
+    "senses": [
+      { "en": "to reforest", "example_de": "Die Region forstet die alten Flächen auf.", "example_en": "The region is reforesting the old areas." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Stadt forstete den Hügel auf.", "en": "The city reforested the hill." },
+      { "tag": "perfekt", "de": "Freiwillige haben den Wald aufgeforstet.", "en": "Volunteers reforested the forest." }
+    ]
+  },
+  {
+    "lemma": "pflanzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2310,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to plant", "example_de": "Wir pflanzen jedes Jahr neue Bäume.", "example_en": "We plant new trees every year." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er pflanzte einen Apfelbaum im Garten.", "en": "He planted an apple tree in the garden." },
+      { "tag": "perfekt", "de": "Die Kinder haben Blumen gepflanzt.", "en": "The children planted flowers." }
+    ]
+  },
+  {
+    "lemma": "anbauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2325,
+    "verb": { "aux": "haben", "separablePrefix": "an" },
+    "senses": [
+      { "en": "to grow, to cultivate (crops)", "example_de": "Der Bauer baut hier Gemüse an.", "example_en": "The farmer grows vegetables here." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Sie bauten früher nur Getreide an.", "en": "They used to only grow grain." },
+      { "tag": "perfekt", "de": "Wir haben dieses Jahr Kartoffeln angebaut.", "en": "We grew potatoes this year." }
+    ]
+  },
+  {
+    "lemma": "ernten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2340,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to harvest", "example_de": "Im Herbst ernten wir die Äpfel.", "example_en": "In autumn, we harvest the apples." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Familie erntete den ganzen Weizen.", "en": "The family harvested all the wheat." },
+      { "tag": "perfekt", "de": "Sie haben schon alles Obst geerntet.", "en": "They've already harvested all the fruit." }
+    ]
+  },
+  {
+    "lemma": "verrotten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2355,
+    "verb": { "aux": "sein" },
+    "senses": [
+      { "en": "to rot, to decompose", "example_de": "Plastik verrottet sehr langsam.", "example_en": "Plastic decomposes very slowly." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Das Holz verrottete im feuchten Boden.", "en": "The wood rotted in the damp soil." },
+      { "tag": "perfekt", "de": "Die Blätter sind schon verrottet.", "en": "The leaves have already rotted." }
+    ]
+  },
+  {
+    "lemma": "dämmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2370,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to insulate", "example_de": "Wir dämmen das Dach gegen die Kälte.", "example_en": "We're insulating the roof against the cold." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er dämmte die Wände im Winter.", "en": "He insulated the walls in winter." },
+      { "tag": "perfekt", "de": "Sie haben das ganze Haus gedämmt.", "en": "They've insulated the whole house." }
+    ]
+  },
+  {
+    "lemma": "einsparen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2385,
+    "verb": { "aux": "haben", "separablePrefix": "ein" },
+    "senses": [
+      { "en": "to save, to economize (energy, costs)", "example_de": "Wir sparen viel Energie ein.", "example_en": "We're saving a lot of energy." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Firma sparte viele Kosten ein.", "en": "The company saved a lot of costs." },
+      { "tag": "perfekt", "de": "Er hat viel Strom eingespart.", "en": "He has saved a lot of electricity." }
+    ]
+  },
+  {
+    "lemma": "fördern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to promote, to support", "example_de": "Der Staat fördert erneuerbare Energien.", "example_en": "The state promotes renewable energy." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Regierung förderte den Klimaschutz.", "en": "The government promoted climate protection." },
+      { "tag": "perfekt", "de": "Wir haben das Projekt finanziell gefördert.", "en": "We financially supported the project." }
+    ]
+  },
+  {
+    "lemma": "schädigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2415,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to damage, to harm", "example_de": "Chemikalien schädigen die Umwelt stark.", "example_en": "Chemicals harm the environment badly." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Unfall schädigte das Ökosystem.", "en": "The accident damaged the ecosystem." },
+      { "tag": "perfekt", "de": "Die Abgase haben die Bäume geschädigt.", "en": "The exhaust fumes damaged the trees." }
+    ]
+  },
+  {
+    "lemma": "beeinflussen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2430,
+    "verb": { "aux": "haben", "partizip2": "beeinflusst" },
+    "senses": [
+      { "en": "to influence, to affect", "example_de": "Der Mensch beeinflusst das Klima stark.", "example_en": "Humans strongly influence the climate." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Dürre beeinflusste die ganze Region.", "en": "The drought affected the whole region." },
+      { "tag": "perfekt", "de": "Das Wetter hat die Ernte beeinflusst.", "en": "The weather affected the harvest." }
+    ]
+  },
+  {
+    "lemma": "filtern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2445,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to filter", "example_de": "Wir filtern das Regenwasser vor der Nutzung.", "example_en": "We filter the rainwater before using it." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Anlage filterte das schmutzige Wasser.", "en": "The plant filtered the dirty water." },
+      { "tag": "perfekt", "de": "Sie haben die Luft im Gebäude gefiltert.", "en": "They filtered the air in the building." }
+    ]
+  },
+  {
+    "lemma": "spenden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2460,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to donate", "example_de": "Wir spenden Geld für den Naturschutz.", "example_en": "We donate money for nature conservation." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Er spendete regelmäßig an Umweltorganisationen.", "en": "He regularly donated to environmental organizations." },
+      { "tag": "perfekt", "de": "Sie haben viel Geld gespendet.", "en": "They donated a lot of money." }
+    ]
+  },
+  {
+    "lemma": "bewahren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2475,
+    "verb": { "aux": "haben", "partizip2": "bewahrt" },
+    "senses": [
+      { "en": "to preserve, to protect", "example_de": "Wir müssen die Natur für die Zukunft bewahren.", "example_en": "We must preserve nature for the future." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Der Park bewahrte seine ursprüngliche Landschaft.", "en": "The park preserved its original landscape." },
+      { "tag": "perfekt", "de": "Sie haben das alte Ökosystem bewahrt.", "en": "They've preserved the old ecosystem." }
+    ]
+  },
+  {
+    "lemma": "erhalten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2490,
+    "verb": { "aux": "haben", "du": "erhältst", "er": "erhält", "praeteritum": "erhielt", "partizip2": "erhalten" },
+    "senses": [
+      { "en": "to preserve, to maintain", "example_de": "Wir wollen den Wald für alle erhalten.", "example_en": "We want to preserve the forest for everyone.", "note": "auch: erhalten = bekommen" }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Nationalpark erhält seine ursprüngliche Natur.", "en": "The national park preserves its original nature." },
+      { "tag": "präteritum", "de": "Der Verein erhielt die alte Wiese jahrelang.", "en": "The association preserved the old meadow for years." },
+      { "tag": "perfekt", "de": "Die Stadt hat den historischen Park gut erhalten.", "en": "The city has preserved the historic park well." }
+    ]
+  },
+  {
+    "lemma": "aussterben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2505,
+    "verb": { "aux": "sein", "separablePrefix": "aus", "du": "stirbst", "er": "stirbt", "praeteritum": "starb", "partizip2": "ausgestorben" },
+    "senses": [
+      { "en": "to become extinct, to die out", "example_de": "Viele Arten sterben jedes Jahr aus.", "example_en": "Many species become extinct every year." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Tiger stirbt langsam aus.", "en": "The tiger is slowly dying out." },
+      { "tag": "präteritum", "de": "Der Dodo starb vor Jahrhunderten aus.", "en": "The dodo became extinct centuries ago." },
+      { "tag": "perfekt", "de": "Diese Pflanze ist leider ausgestorben.", "en": "This plant has unfortunately become extinct." }
+    ]
+  },
+  {
+    "lemma": "ausstoßen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": { "aux": "haben", "separablePrefix": "aus", "du": "stößt", "er": "stößt", "praeteritum": "stieß", "partizip2": "ausgestoßen" },
+    "senses": [
+      { "en": "to emit", "example_de": "Das Auto stößt viel CO2 aus.", "example_en": "The car emits a lot of CO2." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Fabrik stößt giftige Gase aus.", "en": "The factory emits toxic gases." },
+      { "tag": "präteritum", "de": "Der alte Motor stieß viel Rauch aus.", "en": "The old engine emitted a lot of smoke." },
+      { "tag": "perfekt", "de": "Das Kraftwerk hat wenig Schadstoffe ausgestoßen.", "en": "The power plant emitted few pollutants." }
+    ]
+  },
+  {
+    "lemma": "produzieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2535,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to produce", "example_de": "Solarzellen produzieren sauberen Strom.", "example_en": "Solar cells produce clean electricity." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Fabrik produzierte zu viel Abfall.", "en": "The factory produced too much waste." },
+      { "tag": "perfekt", "de": "Wir haben dieses Jahr weniger Müll produziert.", "en": "We've produced less waste this year." }
+    ]
+  },
+  {
+    "lemma": "erzeugen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2550,
+    "verb": { "aux": "haben", "partizip2": "erzeugt" },
+    "senses": [
+      { "en": "to generate, to produce", "example_de": "Windräder erzeugen Strom ohne Abgase.", "example_en": "Wind turbines generate electricity without emissions." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Das Kraftwerk erzeugte genug Energie für die Stadt.", "en": "The power plant generated enough energy for the city." },
+      { "tag": "perfekt", "de": "Die Anlage hat viel Ökostrom erzeugt.", "en": "The plant has generated a lot of green electricity." }
+    ]
+  },
+  {
+    "lemma": "verbrauchen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2565,
+    "verb": { "aux": "haben", "partizip2": "verbraucht" },
+    "senses": [
+      { "en": "to consume, to use up", "example_de": "Wir verbrauchen zu viel Wasser.", "example_en": "We use up too much water." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Maschine verbrauchte viel Strom.", "en": "The machine consumed a lot of electricity." },
+      { "tag": "perfekt", "de": "Sie haben ihr ganzes Budget verbraucht.", "en": "They've used up their entire budget." }
+    ]
+  },
+  {
+    "lemma": "verringern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2580,
+    "verb": { "aux": "haben", "partizip2": "verringert" },
+    "senses": [
+      { "en": "to reduce, to decrease", "example_de": "Wir wollen unseren Müll verringern.", "example_en": "We want to reduce our waste." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Stadt verringerte den Verkehr im Zentrum.", "en": "The city reduced traffic in the center." },
+      { "tag": "perfekt", "de": "Er hat seinen Energieverbrauch verringert.", "en": "He has reduced his energy consumption." }
+    ]
+  },
+  {
+    "lemma": "zerstören",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2595,
+    "verb": { "aux": "haben", "partizip2": "zerstört" },
+    "senses": [
+      { "en": "to destroy", "example_de": "Der Sturm zerstörte den ganzen Wald.", "example_en": "The storm destroyed the entire forest." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Das Feuer zerstörte den Lebensraum vieler Tiere.", "en": "The fire destroyed the habitat of many animals." },
+      { "tag": "perfekt", "de": "Die Überschwemmung hat viele Felder zerstört.", "en": "The flood destroyed many fields." }
+    ]
+  },
+  {
+    "lemma": "retten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2610,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to save, to rescue", "example_de": "Wir müssen die Wale retten.", "example_en": "We have to save the whales." }
+    ],
+    "examples": [
+      { "tag": "präteritum", "de": "Die Organisation rettete tausende Bäume.", "en": "The organization saved thousands of trees." },
+      { "tag": "perfekt", "de": "Sie haben den verletzten Vogel gerettet.", "en": "They saved the injured bird." }
+    ]
+  },
+  {
+    "lemma": "erneuerbar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2625,
+    "senses": [
+      { "en": "renewable", "example_de": "Wir nutzen immer mehr erneuerbare Energien.", "example_en": "We use more and more renewable energy." }
+    ]
+  },
+  {
+    "lemma": "umweltfreundlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2640,
+    "senses": [
+      { "en": "environmentally friendly", "example_de": "Das neue Auto ist sehr umweltfreundlich.", "example_en": "The new car is very environmentally friendly." }
+    ]
+  },
+  {
+    "lemma": "umweltschädlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2655,
+    "senses": [
+      { "en": "harmful to the environment", "example_de": "Dieses Pestizid ist besonders umweltschädlich.", "example_en": "This pesticide is particularly harmful to the environment." }
+    ]
+  },
+  {
+    "lemma": "nachhaltig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2670,
+    "senses": [
+      { "en": "sustainable", "example_de": "Wir kaufen lieber nachhaltige Produkte.", "example_en": "We prefer to buy sustainable products." }
+    ]
+  },
+  {
+    "lemma": "ökologisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2685,
+    "senses": [
+      { "en": "ecological, organic", "example_de": "Der Bauernhof arbeitet komplett ökologisch.", "example_en": "The farm works completely organically." }
+    ]
+  },
+  {
+    "lemma": "giftig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2700,
+    "senses": [
+      { "en": "poisonous, toxic", "example_de": "Manche Pflanzen im Wald sind giftig.", "example_en": "Some plants in the forest are poisonous." }
+    ]
+  },
+  {
+    "lemma": "schädlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2715,
+    "senses": [
+      { "en": "harmful", "example_de": "Feinstaub ist schädlich für die Lunge.", "example_en": "Particulate matter is harmful to the lungs." }
+    ]
+  },
+  {
+    "lemma": "bedroht",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2730,
+    "senses": [
+      { "en": "threatened, endangered", "example_de": "Der Eisbär ist eine bedrohte Tierart.", "example_en": "The polar bear is a threatened species." }
+    ]
+  },
+  {
+    "lemma": "gefährdet",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2745,
+    "senses": [
+      { "en": "endangered, at risk", "example_de": "Diese Pflanze gilt als stark gefährdet.", "example_en": "This plant is considered highly endangered." }
+    ]
+  },
+  {
+    "lemma": "knapp",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2760,
+    "senses": [
+      { "en": "scarce", "example_de": "Sauberes Wasser wird immer knapper.", "example_en": "Clean water is becoming scarcer." }
+    ]
+  },
+  {
+    "lemma": "klimafreundlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2775,
+    "senses": [
+      { "en": "climate-friendly", "example_de": "Zug fahren ist klimafreundlicher als fliegen.", "example_en": "Taking the train is more climate-friendly than flying." }
+    ]
+  },
+  {
+    "lemma": "umweltbewusst",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2790,
+    "senses": [
+      { "en": "environmentally conscious", "example_de": "Immer mehr Menschen leben umweltbewusst.", "example_en": "More and more people live in an environmentally conscious way." }
+    ]
+  },
+  {
+    "lemma": "nachwachsend",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2805,
+    "senses": [
+      { "en": "renewable, regrowing (resource)", "example_de": "Holz ist ein nachwachsender Rohstoff.", "example_en": "Wood is a renewable raw material." }
+    ]
+  },
+  {
+    "lemma": "fossil",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2820,
+    "senses": [
+      { "en": "fossil", "example_de": "Kohle und Öl sind fossile Brennstoffe.", "example_en": "Coal and oil are fossil fuels." }
+    ]
+  },
+  {
+    "lemma": "biologisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2835,
+    "senses": [
+      { "en": "biological, organic", "example_de": "Sie kauft nur biologisches Gemüse.", "example_en": "She only buys organic vegetables." }
+    ]
+  },
+  {
+    "lemma": "zusehends",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2850,
+    "senses": [
+      { "en": "increasingly, visibly (of a change)", "example_de": "Die Wasserqualität verschlechtert sich zusehends.", "example_en": "Water quality is deteriorating visibly." }
+    ]
+  },
+  {
+    "lemma": "folglich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2865,
+    "senses": [
+      { "en": "consequently", "example_de": "Es regnete kaum, folglich sank der Wasserspiegel.", "example_en": "It hardly rained, so the water level fell." }
+    ]
+  },
+  {
+    "lemma": "weltweit",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2880,
+    "senses": [
+      { "en": "worldwide", "example_de": "Der Meeresspiegel steigt weltweit an.", "example_en": "Sea level is rising worldwide." }
+    ]
+  },
+  {
+    "lemma": "langfristig",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2895,
+    "senses": [
+      { "en": "in the long term", "example_de": "Wir müssen langfristig weniger Energie verbrauchen.", "example_en": "In the long term, we must use less energy." }
+    ]
+  },
+  {
+    "lemma": "kurzfristig",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2910,
+    "senses": [
+      { "en": "in the short term", "example_de": "Kurzfristig helfen kleine Änderungen im Alltag.", "example_en": "In the short term, small everyday changes help." }
+    ]
+  },
+  {
+    "lemma": "weitgehend",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2925,
+    "senses": [
+      { "en": "largely, to a great extent", "example_de": "Das Dorf lebt weitgehend ohne Plastik.", "example_en": "The village lives largely without plastic." }
+    ]
+  },
+  {
+    "lemma": "zunächst",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2940,
+    "senses": [
+      { "en": "at first", "example_de": "Zunächst wirkte die Dürre nicht so schlimm.", "example_en": "At first, the drought didn't seem so bad." }
+    ]
+  },
+  {
+    "lemma": "insbesondere",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2955,
+    "senses": [
+      { "en": "especially, in particular", "example_de": "Insbesondere Inseln leiden unter dem steigenden Meer.", "example_en": "Islands in particular suffer from the rising sea." }
+    ]
+  },
+  {
+    "lemma": "angesichts",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2970,
+    "senses": [
+      { "en": "in view of, given", "example_de": "Angesichts des Klimawandels handeln viele Städte.", "example_en": "In view of climate change, many cities are taking action.", "note": "+ Genitiv" }
+    ]
+  },
+  {
+    "lemma": "weder ... noch",
+    "pos": "conj",
+    "level": "B1",
+    "freq": 2985,
+    "senses": [
+      { "en": "neither ... nor", "example_de": "Wir brauchen weder Plastik noch Einwegflaschen.", "example_en": "We need neither plastic nor disposable bottles." }
+    ]
+  }
+]

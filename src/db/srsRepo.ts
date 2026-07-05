@@ -23,9 +23,12 @@ const CARD_SELECT = `
          (SELECT en FROM senses WHERE lemma_id = l.id ORDER BY sense_order LIMIT 1) AS gloss,
          (SELECT example_de FROM senses WHERE lemma_id = l.id ORDER BY sense_order LIMIT 1) AS example_de,
          (SELECT example_en FROM senses WHERE lemma_id = l.id ORDER BY sense_order LIMIT 1) AS example_en
-  FROM srs_state s JOIN lemmas l ON l.id = s.lemma_id`;
+  FROM srs_state s
+  JOIN lemmas l ON l.id = s.lemma_id
+  JOIN user_saved_words w ON w.lemma_id = s.lemma_id AND w.learned_at IS NULL`;
 
-/** Cards due now (learned before) plus up to `newLimit` never-reviewed cards. */
+/** Cards due now (learned before) plus up to `newLimit` never-reviewed cards.
+ * Words the user has marked "Learned" are excluded from both. */
 export async function buildQueue(
   now: Date,
   sessionCap: number,
@@ -52,11 +55,15 @@ export async function dueCounts(now: Date): Promise<{ due: number; fresh: number
   const db = getDb();
   const endOfDay = now.toISOString().slice(0, 10) + 'T23:59:59.999Z';
   const due = await db.getFirstAsync<{ c: number }>(
-    'SELECT COUNT(*) AS c FROM srs_state WHERE due_at <= ? AND last_reviewed_at IS NOT NULL',
+    `SELECT COUNT(*) AS c FROM srs_state s
+     JOIN user_saved_words w ON w.lemma_id = s.lemma_id AND w.learned_at IS NULL
+     WHERE s.due_at <= ? AND s.last_reviewed_at IS NOT NULL`,
     [endOfDay]
   );
   const fresh = await db.getFirstAsync<{ c: number }>(
-    'SELECT COUNT(*) AS c FROM srs_state WHERE last_reviewed_at IS NULL'
+    `SELECT COUNT(*) AS c FROM srs_state s
+     JOIN user_saved_words w ON w.lemma_id = s.lemma_id AND w.learned_at IS NULL
+     WHERE s.last_reviewed_at IS NULL`
   );
   return { due: due?.c ?? 0, fresh: fresh?.c ?? 0 };
 }

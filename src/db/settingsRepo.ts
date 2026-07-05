@@ -5,6 +5,12 @@ export interface PersistedSettings {
   hapticsEnabled?: boolean;
   dailyNewLimit?: number;
   sessionCap?: number;
+  showLearnedWords?: boolean;
+  notificationsEnabled?: boolean;
+  notificationDays?: number[];
+  notificationStartHour?: number;
+  notificationEndHour?: number;
+  notificationIntervalMinutes?: number;
 }
 
 const KEY = 'settings';

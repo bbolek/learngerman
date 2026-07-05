@@ -1,0 +1,1806 @@
+[
+  {
+    "lemma": "Wahl",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": {
+      "gender": "f",
+      "plural": "Wahlen"
+    },
+    "senses": [
+      {
+        "en": "election; choice",
+        "example_de": "Die nächste Wahl findet im Herbst statt.",
+        "example_en": "The next election takes place in autumn."
+      }
+    ]
+  },
+  {
+    "lemma": "Wähler",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1510,
+    "noun": {
+      "gender": "m",
+      "plural": "Wähler"
+    },
+    "senses": [
+      {
+        "en": "voter",
+        "example_de": "Viele Wähler sind noch unentschlossen.",
+        "example_en": "Many voters are still undecided."
+      }
+    ]
+  },
+  {
+    "lemma": "Kandidat",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1520,
+    "noun": {
+      "gender": "m",
+      "plural": "Kandidaten",
+      "genitive": "Kandidaten"
+    },
+    "senses": [
+      {
+        "en": "candidate",
+        "example_de": "Der Kandidat gewann die Wahl knapp.",
+        "example_en": "The candidate narrowly won the election.",
+        "note": "n-Deklination: den/dem/des Kandidaten"
+      }
+    ]
+  },
+  {
+    "lemma": "Partei",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1530,
+    "noun": {
+      "gender": "f",
+      "plural": "Parteien"
+    },
+    "senses": [
+      {
+        "en": "(political) party",
+        "example_de": "Er ist Mitglied einer kleinen Partei.",
+        "example_en": "He is a member of a small party."
+      }
+    ]
+  },
+  {
+    "lemma": "Abgeordnete",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1540,
+    "noun": {
+      "gender": "m",
+      "plural": "Abgeordneten",
+      "genitive": "Abgeordneten"
+    },
+    "senses": [
+      {
+        "en": "member of parliament, deputy",
+        "example_de": "Die Abgeordnete stimmte gegen das Gesetz.",
+        "example_en": "The MP voted against the law.",
+        "note": "Adjektivdeklination: der Abgeordnete / die Abgeordnete"
+      }
+    ]
+  },
+  {
+    "lemma": "Gesetz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1550,
+    "noun": {
+      "gender": "n",
+      "plural": "Gesetze",
+      "genitive": "Gesetzes"
+    },
+    "senses": [
+      {
+        "en": "law",
+        "example_de": "Das neue Gesetz tritt bald in Kraft.",
+        "example_en": "The new law will soon take effect."
+      }
+    ]
+  },
+  {
+    "lemma": "Verordnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1560,
+    "noun": {
+      "gender": "f",
+      "plural": "Verordnungen"
+    },
+    "senses": [
+      {
+        "en": "regulation, decree",
+        "example_de": "Die Verordnung gilt ab nächstem Monat.",
+        "example_en": "The regulation applies from next month."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorschrift",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1570,
+    "noun": {
+      "gender": "f",
+      "plural": "Vorschriften"
+    },
+    "senses": [
+      {
+        "en": "rule, regulation",
+        "example_de": "Wir müssen uns an die Vorschriften halten.",
+        "example_en": "We must comply with the regulations."
+      }
+    ]
+  },
+  {
+    "lemma": "Verfassung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1580,
+    "noun": {
+      "gender": "f",
+      "plural": "Verfassungen"
+    },
+    "senses": [
+      {
+        "en": "constitution",
+        "example_de": "Die Verfassung schützt die Grundrechte.",
+        "example_en": "The constitution protects fundamental rights."
+      }
+    ]
+  },
+  {
+    "lemma": "Demokratie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1590,
+    "noun": {
+      "gender": "f",
+      "plural": "Demokratien"
+    },
+    "senses": [
+      {
+        "en": "democracy",
+        "example_de": "Deutschland ist eine parlamentarische Demokratie.",
+        "example_en": "Germany is a parliamentary democracy."
+      }
+    ]
+  },
+  {
+    "lemma": "Diktatur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1600,
+    "noun": {
+      "gender": "f",
+      "plural": "Diktaturen"
+    },
+    "senses": [
+      {
+        "en": "dictatorship",
+        "example_de": "Das Land lebte lange in einer Diktatur.",
+        "example_en": "The country lived under a dictatorship for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "Regierung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1610,
+    "noun": {
+      "gender": "f",
+      "plural": "Regierungen"
+    },
+    "senses": [
+      {
+        "en": "government",
+        "example_de": "Die Regierung plant neue Steuern.",
+        "example_en": "The government is planning new taxes."
+      }
+    ]
+  },
+  {
+    "lemma": "Opposition",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1620,
+    "noun": {
+      "gender": "f",
+      "plural": "Oppositionen"
+    },
+    "senses": [
+      {
+        "en": "opposition",
+        "example_de": "Die Opposition kritisiert den Vorschlag scharf.",
+        "example_en": "The opposition sharply criticizes the proposal."
+      }
+    ]
+  },
+  {
+    "lemma": "Parlament",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1630,
+    "noun": {
+      "gender": "n",
+      "plural": "Parlamente"
+    },
+    "senses": [
+      {
+        "en": "parliament",
+        "example_de": "Das Parlament stimmt morgen ab.",
+        "example_en": "Parliament votes tomorrow."
+      }
+    ]
+  },
+  {
+    "lemma": "Bundestag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1640,
+    "noun": {
+      "gender": "m",
+      "plural": null,
+      "genitive": "Bundestages"
+    },
+    "senses": [
+      {
+        "en": "German federal parliament",
+        "example_de": "Der Bundestag tagt in Berlin.",
+        "example_en": "The Bundestag meets in Berlin."
+      }
+    ]
+  },
+  {
+    "lemma": "Bürgermeister",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1650,
+    "noun": {
+      "gender": "m",
+      "plural": "Bürgermeister"
+    },
+    "senses": [
+      {
+        "en": "mayor",
+        "example_de": "Der Bürgermeister eröffnet das neue Rathaus.",
+        "example_en": "The mayor is opening the new town hall.",
+        "note": "weiblich: die Bürgermeisterin"
+      }
+    ]
+  },
+  {
+    "lemma": "Bürgerrecht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1660,
+    "noun": {
+      "gender": "n",
+      "plural": "Bürgerrechte"
+    },
+    "senses": [
+      {
+        "en": "civil right",
+        "example_de": "Bürgerrechte muss man aktiv verteidigen.",
+        "example_en": "Civil rights must be actively defended."
+      }
+    ]
+  },
+  {
+    "lemma": "Staatsangehörigkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1670,
+    "noun": {
+      "gender": "f",
+      "plural": "Staatsangehörigkeiten"
+    },
+    "senses": [
+      {
+        "en": "nationality, citizenship",
+        "example_de": "Sie hat die deutsche Staatsangehörigkeit beantragt.",
+        "example_en": "She applied for German citizenship."
+      }
+    ]
+  },
+  {
+    "lemma": "Staatsbürger",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1680,
+    "noun": {
+      "gender": "m",
+      "plural": "Staatsbürger"
+    },
+    "senses": [
+      {
+        "en": "citizen (of a state)",
+        "example_de": "Jeder Staatsbürger darf wählen gehen.",
+        "example_en": "Every citizen may go and vote."
+      }
+    ]
+  },
+  {
+    "lemma": "Demonstration",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1690,
+    "noun": {
+      "gender": "f",
+      "plural": "Demonstrationen"
+    },
+    "senses": [
+      {
+        "en": "demonstration, protest",
+        "example_de": "Tausende nahmen an der Demonstration teil.",
+        "example_en": "Thousands took part in the demonstration."
+      }
+    ]
+  },
+  {
+    "lemma": "Streik",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1700,
+    "noun": {
+      "gender": "m",
+      "plural": "Streiks"
+    },
+    "senses": [
+      {
+        "en": "strike",
+        "example_de": "Der Streik legte den Verkehr lahm.",
+        "example_en": "The strike paralyzed traffic."
+      }
+    ]
+  },
+  {
+    "lemma": "Gericht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1710,
+    "noun": {
+      "gender": "n",
+      "plural": "Gerichte"
+    },
+    "senses": [
+      {
+        "en": "court (of law)",
+        "example_de": "Das Gericht verhandelt den Fall heute.",
+        "example_en": "The court is hearing the case today.",
+        "note": "auch: Gericht = Speise"
+      }
+    ]
+  },
+  {
+    "lemma": "Urteil",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1720,
+    "noun": {
+      "gender": "n",
+      "plural": "Urteile"
+    },
+    "senses": [
+      {
+        "en": "verdict, judgment",
+        "example_de": "Das Urteil überraschte viele Beobachter.",
+        "example_en": "The verdict surprised many observers."
+      }
+    ]
+  },
+  {
+    "lemma": "Anwalt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1730,
+    "noun": {
+      "gender": "m",
+      "plural": "Anwälte"
+    },
+    "senses": [
+      {
+        "en": "lawyer",
+        "example_de": "Sie braucht dringend einen guten Anwalt.",
+        "example_en": "She urgently needs a good lawyer."
+      }
+    ]
+  },
+  {
+    "lemma": "Richter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1740,
+    "noun": {
+      "gender": "m",
+      "plural": "Richter"
+    },
+    "senses": [
+      {
+        "en": "judge",
+        "example_de": "Der Richter verurteilte ihn zu einer Geldstrafe.",
+        "example_en": "The judge sentenced him to a fine."
+      }
+    ]
+  },
+  {
+    "lemma": "Verhandlung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1750,
+    "noun": {
+      "gender": "f",
+      "plural": "Verhandlungen"
+    },
+    "senses": [
+      {
+        "en": "negotiation; (court) hearing",
+        "example_de": "Die Verhandlung dauerte über drei Stunden.",
+        "example_en": "The hearing lasted more than three hours."
+      }
+    ]
+  },
+  {
+    "lemma": "Verwaltung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1760,
+    "noun": {
+      "gender": "f",
+      "plural": "Verwaltungen"
+    },
+    "senses": [
+      {
+        "en": "administration",
+        "example_de": "Die Verwaltung bearbeitet den Antrag langsam.",
+        "example_en": "The administration processes the application slowly."
+      }
+    ]
+  },
+  {
+    "lemma": "Behörde",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1770,
+    "noun": {
+      "gender": "f",
+      "plural": "Behörden"
+    },
+    "senses": [
+      {
+        "en": "authority, government agency",
+        "example_de": "Wende dich an die zuständige Behörde.",
+        "example_en": "Contact the responsible authority."
+      }
+    ]
+  },
+  {
+    "lemma": "Amt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1780,
+    "noun": {
+      "gender": "n",
+      "plural": "Ämter",
+      "genitive": "Amtes"
+    },
+    "senses": [
+      {
+        "en": "(public) office",
+        "example_de": "Er übt sein Amt seit zehn Jahren aus.",
+        "example_en": "He has held his office for ten years."
+      }
+    ]
+  },
+  {
+    "lemma": "Abstimmung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1790,
+    "noun": {
+      "gender": "f",
+      "plural": "Abstimmungen"
+    },
+    "senses": [
+      {
+        "en": "vote, ballot",
+        "example_de": "Die Abstimmung endete mit knapper Mehrheit.",
+        "example_en": "The vote ended with a narrow majority."
+      }
+    ]
+  },
+  {
+    "lemma": "Steuerzahler",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": {
+      "gender": "m",
+      "plural": "Steuerzahler"
+    },
+    "senses": [
+      {
+        "en": "taxpayer",
+        "example_de": "Die Reform kostet die Steuerzahler viel Geld.",
+        "example_en": "The reform costs taxpayers a lot of money."
+      }
+    ]
+  },
+  {
+    "lemma": "Sozialstaat",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1810,
+    "noun": {
+      "gender": "m",
+      "plural": "Sozialstaaten"
+    },
+    "senses": [
+      {
+        "en": "welfare state",
+        "example_de": "Der Sozialstaat hilft Menschen in Not.",
+        "example_en": "The welfare state helps people in need."
+      }
+    ]
+  },
+  {
+    "lemma": "Mehrheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1820,
+    "noun": {
+      "gender": "f",
+      "plural": "Mehrheiten"
+    },
+    "senses": [
+      {
+        "en": "majority",
+        "example_de": "Die Partei gewann die absolute Mehrheit.",
+        "example_en": "The party won the absolute majority."
+      }
+    ]
+  },
+  {
+    "lemma": "Minderheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1830,
+    "noun": {
+      "gender": "f",
+      "plural": "Minderheiten"
+    },
+    "senses": [
+      {
+        "en": "minority",
+        "example_de": "Minderheiten brauchen besonderen Schutz.",
+        "example_en": "Minorities need special protection."
+      }
+    ]
+  },
+  {
+    "lemma": "Menschenrecht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1840,
+    "noun": {
+      "gender": "n",
+      "plural": "Menschenrechte"
+    },
+    "senses": [
+      {
+        "en": "human right",
+        "example_de": "Die Menschenrechte gelten für alle Menschen.",
+        "example_en": "Human rights apply to all people."
+      }
+    ]
+  },
+  {
+    "lemma": "Grundrecht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1850,
+    "noun": {
+      "gender": "n",
+      "plural": "Grundrechte"
+    },
+    "senses": [
+      {
+        "en": "basic right, constitutional right",
+        "example_de": "Die Meinungsfreiheit ist ein Grundrecht.",
+        "example_en": "Freedom of speech is a basic right."
+      }
+    ]
+  },
+  {
+    "lemma": "Freiheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1860,
+    "noun": {
+      "gender": "f",
+      "plural": "Freiheiten"
+    },
+    "senses": [
+      {
+        "en": "freedom, liberty",
+        "example_de": "Die Freiheit der Presse ist wichtig.",
+        "example_en": "The freedom of the press is important."
+      }
+    ]
+  },
+  {
+    "lemma": "Gleichberechtigung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1870,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "equal rights, equality",
+        "example_de": "Gleichberechtigung ist in der Verfassung verankert.",
+        "example_en": "Equality is anchored in the constitution."
+      }
+    ]
+  },
+  {
+    "lemma": "Integration",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1880,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "integration",
+        "example_de": "Sprachkurse fördern die Integration von Migranten.",
+        "example_en": "Language courses promote the integration of migrants."
+      }
+    ]
+  },
+  {
+    "lemma": "Flüchtling",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1890,
+    "noun": {
+      "gender": "m",
+      "plural": "Flüchtlinge"
+    },
+    "senses": [
+      {
+        "en": "refugee",
+        "example_de": "Die Stadt half vielen Flüchtlingen.",
+        "example_en": "The city helped many refugees."
+      }
+    ]
+  },
+  {
+    "lemma": "Asyl",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "asylum",
+        "example_de": "Er beantragte Asyl in Deutschland.",
+        "example_en": "He applied for asylum in Germany."
+      }
+    ]
+  },
+  {
+    "lemma": "Botschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1910,
+    "noun": {
+      "gender": "f",
+      "plural": "Botschaften"
+    },
+    "senses": [
+      {
+        "en": "embassy; message",
+        "example_de": "Die deutsche Botschaft liegt im Zentrum.",
+        "example_en": "The German embassy is located downtown."
+      }
+    ]
+  },
+  {
+    "lemma": "Vertreter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "m",
+      "plural": "Vertreter"
+    },
+    "senses": [
+      {
+        "en": "representative",
+        "example_de": "Er ist Vertreter seiner Partei im Ausschuss.",
+        "example_en": "He is his party's representative on the committee."
+      }
+    ]
+  },
+  {
+    "lemma": "Koalition",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1940,
+    "noun": {
+      "gender": "f",
+      "plural": "Koalitionen"
+    },
+    "senses": [
+      {
+        "en": "coalition",
+        "example_de": "Die Koalition einigte sich auf einen Kompromiss.",
+        "example_en": "The coalition agreed on a compromise."
+      }
+    ]
+  },
+  {
+    "lemma": "wählen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1960,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to elect, to vote for; to choose",
+        "example_de": "Wen wählst du bei der Wahl?",
+        "example_en": "Who are you voting for in the election?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie wählte eine neue Partei.",
+        "en": "She voted for a new party."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat schon gewählt.",
+        "en": "He has already voted."
+      }
+    ]
+  },
+  {
+    "lemma": "abstimmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1975,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to vote (on something)",
+        "example_de": "Wir stimmen morgen über das Gesetz ab.",
+        "example_en": "We vote on the law tomorrow.",
+        "note": "+ über + Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Abgeordneten stimmten lange ab.",
+        "en": "The MPs voted for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Bundestag hat abgestimmt.",
+        "en": "The Bundestag has voted."
+      }
+    ]
+  },
+  {
+    "lemma": "demonstrieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1990,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to demonstrate, to protest",
+        "example_de": "Viele Menschen demonstrieren für den Frieden.",
+        "example_en": "Many people demonstrate for peace."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie demonstrierten gegen die neue Regel.",
+        "en": "They protested against the new rule."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben friedlich demonstriert.",
+        "en": "We demonstrated peacefully."
+      }
+    ]
+  },
+  {
+    "lemma": "boykottieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2005,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to boycott",
+        "example_de": "Sie boykottieren das Produkt aus Protest.",
+        "example_en": "They boycott the product in protest."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Kunden boykottierten die Firma.",
+        "en": "The customers boycotted the company."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Viele haben die Wahl boykottiert.",
+        "en": "Many boycotted the election."
+      }
+    ]
+  },
+  {
+    "lemma": "streiken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2020,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to (go on) strike",
+        "example_de": "Die Arbeiter streiken für mehr Lohn.",
+        "example_en": "The workers are striking for more pay."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Lehrer streikten eine Woche.",
+        "en": "The teachers went on strike for a week."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben erfolgreich gestreikt.",
+        "en": "They went on strike successfully."
+      }
+    ]
+  },
+  {
+    "lemma": "vereidigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2035,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "vereidigt"
+    },
+    "senses": [
+      {
+        "en": "to swear in, to inaugurate",
+        "example_de": "Man vereidigt den neuen Präsidenten morgen.",
+        "example_en": "The new president is being sworn in tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Ministerin vereidigte die Beamten.",
+        "en": "The minister swore in the officials."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Minister hat ihn vereidigt.",
+        "en": "The minister swore him in."
+      }
+    ]
+  },
+  {
+    "lemma": "regieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2065,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to govern, to rule",
+        "example_de": "Die Partei regiert seit fünf Jahren.",
+        "example_en": "The party has governed for five years."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Der König regierte lange allein.",
+        "en": "The king ruled alone for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben gemeinsam regiert.",
+        "en": "They have governed together."
+      }
+    ]
+  },
+  {
+    "lemma": "beschließen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2080,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "beschloss",
+      "partizip2": "beschlossen"
+    },
+    "senses": [
+      {
+        "en": "to decide, to resolve (e.g. a law)",
+        "example_de": "Der Bundestag beschließt ein neues Gesetz.",
+        "example_en": "The Bundestag decides on a new law."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Regierung beschloss neue Regeln.",
+        "en": "The government decided on new rules."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben die Reform beschlossen.",
+        "en": "They have decided on the reform."
+      }
+    ]
+  },
+  {
+    "lemma": "einführen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2110,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to introduce",
+        "example_de": "Die Regierung führt eine neue Steuer ein.",
+        "example_en": "The government is introducing a new tax."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Man führte das Gesetz 2015 ein.",
+        "en": "The law was introduced in 2015."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben die Regel eingeführt.",
+        "en": "They have introduced the rule."
+      }
+    ]
+  },
+  {
+    "lemma": "einschränken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2125,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to restrict, to limit",
+        "example_de": "Der Staat schränkt dieses Recht ein.",
+        "example_en": "The state restricts this right."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Krise schränkte die Freiheit ein.",
+        "en": "The crisis restricted freedom."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat die Rechte eingeschränkt.",
+        "en": "The rights have been restricted."
+      }
+    ]
+  },
+  {
+    "lemma": "genehmigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2140,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "genehmigt"
+    },
+    "senses": [
+      {
+        "en": "to approve, to authorize",
+        "example_de": "Die Behörde genehmigt den Antrag schnell.",
+        "example_en": "The authority approves the application quickly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Das Amt genehmigte den Bau.",
+        "en": "The office approved the construction."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben den Plan genehmigt.",
+        "en": "They have approved the plan."
+      }
+    ]
+  },
+  {
+    "lemma": "gründen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2155,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to found, to establish",
+        "example_de": "Sie gründeten eine neue Partei.",
+        "example_en": "They founded a new party."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er gründete den Verein 1990.",
+        "en": "He founded the club in 1990."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben eine Gewerkschaft gegründet.",
+        "en": "We have founded a union."
+      }
+    ]
+  },
+  {
+    "lemma": "verurteilen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2185,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verurteilt"
+    },
+    "senses": [
+      {
+        "en": "to convict, to condemn",
+        "example_de": "Das Gericht verurteilt ihn zu einer Strafe.",
+        "example_en": "The court sentences him to a punishment."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Der Richter verurteilte ihn hart.",
+        "en": "The judge sentenced him harshly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat sie freigesprochen, nicht verurteilt.",
+        "en": "She was acquitted, not convicted."
+      }
+    ]
+  },
+  {
+    "lemma": "anklagen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to charge, to accuse",
+        "example_de": "Man klagt ihn wegen Betrugs an.",
+        "example_en": "He is being charged with fraud."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Staatsanwaltschaft klagte ihn an.",
+        "en": "The prosecution charged him."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben ihn offiziell angeklagt.",
+        "en": "They have officially charged him."
+      }
+    ]
+  },
+  {
+    "lemma": "verteidigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2215,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verteidigt"
+    },
+    "senses": [
+      {
+        "en": "to defend",
+        "example_de": "Der Anwalt verteidigt seinen Mandanten.",
+        "example_en": "The lawyer defends his client."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie verteidigte ihre Meinung mutig.",
+        "en": "She defended her opinion bravely."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat seine Rechte verteidigt.",
+        "en": "He has defended his rights."
+      }
+    ]
+  },
+  {
+    "lemma": "kandidieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2230,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to run as a candidate",
+        "example_de": "Sie kandidiert für das Bürgermeisteramt.",
+        "example_en": "She is running for the office of mayor.",
+        "note": "+ für"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Er kandidierte schon einmal erfolglos.",
+        "en": "He ran unsuccessfully once before."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat für den Bundestag kandidiert.",
+        "en": "She has run for the Bundestag."
+      }
+    ]
+  },
+  {
+    "lemma": "herrschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2245,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to rule, to reign",
+        "example_de": "Der König herrschte über das ganze Land.",
+        "example_en": "The king ruled over the whole country."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Diktatur herrschte fast dreißig Jahre.",
+        "en": "The dictatorship ruled for almost thirty years."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hier hat lange Armut geherrscht.",
+        "en": "Poverty has ruled here for a long time."
+      }
+    ]
+  },
+  {
+    "lemma": "unterdrücken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2260,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "unterdrückt"
+    },
+    "senses": [
+      {
+        "en": "to oppress, to suppress",
+        "example_de": "Das Regime unterdrückt die Presse.",
+        "example_en": "The regime oppresses the press."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Diktatur unterdrückte die Minderheit.",
+        "en": "The dictatorship oppressed the minority."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat die Opposition unterdrückt.",
+        "en": "The opposition has been suppressed."
+      }
+    ]
+  },
+  {
+    "lemma": "diskriminieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2275,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to discriminate (against)",
+        "example_de": "Niemand darf diskriminiert werden.",
+        "example_en": "No one may be discriminated against."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Firma diskriminierte ältere Bewerber.",
+        "en": "The company discriminated against older applicants."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich diskriminiert gefühlt.",
+        "en": "He felt discriminated against."
+      }
+    ]
+  },
+  {
+    "lemma": "integrieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2290,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to integrate",
+        "example_de": "Die Schule integriert Kinder aus vielen Ländern.",
+        "example_en": "The school integrates children from many countries."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Die Stadt integrierte viele Flüchtlinge.",
+        "en": "The city integrated many refugees."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat sich gut integriert.",
+        "en": "He has integrated well."
+      }
+    ]
+  },
+  {
+    "lemma": "flüchten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2305,
+    "verb": {
+      "aux": "sein"
+    },
+    "senses": [
+      {
+        "en": "to flee",
+        "example_de": "Sie flüchtete vor dem Krieg.",
+        "example_en": "She fled from the war."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Viele Menschen flüchteten ins Ausland.",
+        "en": "Many people fled abroad."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er ist über die Grenze geflüchtet.",
+        "en": "He fled across the border."
+      }
+    ]
+  },
+  {
+    "lemma": "auswandern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2320,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "aus"
+    },
+    "senses": [
+      {
+        "en": "to emigrate",
+        "example_de": "Ihre Familie wandert nach Kanada aus.",
+        "example_en": "Her family is emigrating to Canada."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie wanderten vor Jahren aus.",
+        "en": "They emigrated years ago."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er ist nach Australien ausgewandert.",
+        "en": "He emigrated to Australia."
+      }
+    ]
+  },
+  {
+    "lemma": "einwandern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2335,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to immigrate",
+        "example_de": "Viele wandern aus Osteuropa ein.",
+        "example_en": "Many people immigrate from Eastern Europe."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie wanderten 1990 nach Deutschland ein.",
+        "en": "They immigrated to Germany in 1990."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er ist letztes Jahr eingewandert.",
+        "en": "He immigrated last year."
+      }
+    ]
+  },
+  {
+    "lemma": "abschaffen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2350,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to abolish",
+        "example_de": "Die Regierung will die Steuer abschaffen.",
+        "example_en": "The government wants to abolish the tax."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Man schaffte die alte Regel ab.",
+        "en": "The old rule was abolished."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben das Gesetz abgeschafft.",
+        "en": "They have abolished the law."
+      }
+    ]
+  },
+  {
+    "lemma": "reformieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2365,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to reform",
+        "example_de": "Die Regierung will das System reformieren.",
+        "example_en": "The government wants to reform the system."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Sie reformierten die Verwaltung komplett.",
+        "en": "They completely reformed the administration."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat das Rentensystem reformiert.",
+        "en": "The pension system has been reformed."
+      }
+    ]
+  },
+  {
+    "lemma": "besteuern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2380,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "besteuert"
+    },
+    "senses": [
+      {
+        "en": "to tax",
+        "example_de": "Der Staat besteuert hohe Einkommen stärker.",
+        "example_en": "The state taxes high incomes more heavily."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präteritum",
+        "de": "Man besteuerte den Gewinn zu hoch.",
+        "en": "The profit was taxed too heavily."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben die Firma neu besteuert.",
+        "en": "They have taxed the company differently."
+      }
+    ]
+  },
+  {
+    "lemma": "politisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2450,
+    "senses": [
+      {
+        "en": "political",
+        "example_de": "Er interessiert sich sehr für politische Themen.",
+        "example_en": "He is very interested in political topics."
+      }
+    ]
+  },
+  {
+    "lemma": "demokratisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2465,
+    "senses": [
+      {
+        "en": "democratic",
+        "example_de": "Die Entscheidung wurde demokratisch getroffen.",
+        "example_en": "The decision was made democratically."
+      }
+    ]
+  },
+  {
+    "lemma": "gesetzlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2480,
+    "senses": [
+      {
+        "en": "legal, statutory",
+        "example_de": "Das ist eine gesetzliche Vorschrift.",
+        "example_en": "That is a statutory regulation."
+      }
+    ]
+  },
+  {
+    "lemma": "illegal",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2495,
+    "senses": [
+      {
+        "en": "illegal",
+        "example_de": "Schwarzarbeit ist in Deutschland illegal.",
+        "example_en": "Undeclared work is illegal in Germany."
+      }
+    ]
+  },
+  {
+    "lemma": "legal",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2510,
+    "senses": [
+      {
+        "en": "legal, lawful",
+        "example_de": "Der Handel damit ist völlig legal.",
+        "example_en": "Trading in it is completely legal."
+      }
+    ]
+  },
+  {
+    "lemma": "sozial",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2525,
+    "senses": [
+      {
+        "en": "social",
+        "example_de": "Der Verein leistet wichtige soziale Arbeit.",
+        "example_en": "The organization does important social work."
+      }
+    ]
+  },
+  {
+    "lemma": "gleichberechtigt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2540,
+    "senses": [
+      {
+        "en": "equal (in rights)",
+        "example_de": "Männer und Frauen sind gleichberechtigt.",
+        "example_en": "Men and women have equal rights."
+      }
+    ]
+  },
+  {
+    "lemma": "korrupt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2555,
+    "senses": [
+      {
+        "en": "corrupt",
+        "example_de": "Der Politiker galt als korrupt.",
+        "example_en": "The politician was considered corrupt."
+      }
+    ]
+  },
+  {
+    "lemma": "neutral",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2570,
+    "senses": [
+      {
+        "en": "neutral",
+        "example_de": "Die Schweiz blieb im Krieg neutral.",
+        "example_en": "Switzerland remained neutral in the war."
+      }
+    ]
+  },
+  {
+    "lemma": "konservativ",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2585,
+    "senses": [
+      {
+        "en": "conservative",
+        "example_de": "Seine Ansichten sind sehr konservativ.",
+        "example_en": "His views are very conservative."
+      }
+    ]
+  },
+  {
+    "lemma": "liberal",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2600,
+    "senses": [
+      {
+        "en": "liberal",
+        "example_de": "Die Partei vertritt liberale Werte.",
+        "example_en": "The party represents liberal values."
+      }
+    ]
+  },
+  {
+    "lemma": "radikal",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2615,
+    "senses": [
+      {
+        "en": "radical",
+        "example_de": "Seine Forderungen sind sehr radikal.",
+        "example_en": "His demands are very radical."
+      }
+    ]
+  },
+  {
+    "lemma": "friedlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2630,
+    "senses": [
+      {
+        "en": "peaceful",
+        "example_de": "Der Protest verlief völlig friedlich.",
+        "example_en": "The protest was completely peaceful."
+      }
+    ]
+  },
+  {
+    "lemma": "einstimmig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2645,
+    "senses": [
+      {
+        "en": "unanimous",
+        "example_de": "Der Vorschlag wurde einstimmig angenommen.",
+        "example_en": "The proposal was unanimously accepted."
+      }
+    ]
+  },
+  {
+    "lemma": "rechtmäßig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2660,
+    "senses": [
+      {
+        "en": "lawful, legitimate",
+        "example_de": "Die Wahl verlief völlig rechtmäßig.",
+        "example_en": "The election was entirely lawful."
+      }
+    ]
+  },
+  {
+    "lemma": "aufgrund",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2690,
+    "senses": [
+      {
+        "en": "due to, because of",
+        "example_de": "Aufgrund des Urteils muss er zahlen.",
+        "example_en": "Because of the verdict, he must pay.",
+        "note": "+ Genitiv"
+      }
+    ]
+  },
+  {
+    "lemma": "zugunsten",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 2730,
+    "senses": [
+      {
+        "en": "in favor of",
+        "example_de": "Das Urteil fiel zugunsten der Firma aus.",
+        "example_en": "The verdict was in favor of the company.",
+        "note": "+ Genitiv"
+      }
+    ]
+  },
+  {
+    "lemma": "einerseits",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2750,
+    "senses": [
+      {
+        "en": "on the one hand",
+        "example_de": "Einerseits stimme ich zu, andererseits nicht.",
+        "example_en": "On one hand I agree, on the other I don't.",
+        "note": "oft mit andererseits"
+      }
+    ]
+  },
+  {
+    "lemma": "andererseits",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2770,
+    "senses": [
+      {
+        "en": "on the other hand",
+        "example_de": "Andererseits hat der Plan auch Nachteile.",
+        "example_en": "On the other hand, the plan also has disadvantages."
+      }
+    ]
+  },
+  {
+    "lemma": "landesweit",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2790,
+    "senses": [
+      {
+        "en": "statewide, across the region",
+        "example_de": "Landesweit protestierten viele Studierende.",
+        "example_en": "Many students protested across the state."
+      }
+    ]
+  },
+  {
+    "lemma": "überwiegend",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2810,
+    "senses": [
+      {
+        "en": "predominantly, mostly",
+        "example_de": "Die Bürger sind überwiegend zufrieden.",
+        "example_en": "The citizens are predominantly satisfied."
+      }
+    ]
+  },
+  {
+    "lemma": "mehrheitlich",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2830,
+    "senses": [
+      {
+        "en": "by a majority",
+        "example_de": "Das Parlament stimmte mehrheitlich zu.",
+        "example_en": "Parliament voted in favor by majority."
+      }
+    ]
+  },
+  {
+    "lemma": "bundesweit",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2850,
+    "senses": [
+      {
+        "en": "nationwide (federal)",
+        "example_de": "Bundesweit demonstrierten Tausende Menschen.",
+        "example_en": "Nationwide, thousands of people demonstrated."
+      }
+    ]
+  }
+]

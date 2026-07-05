@@ -150,7 +150,8 @@ export default function SettingsScreen() {
           <View style={{ flex: 1 }}>
             <AppText variant="subtitle">Vokabel-Erinnerungen</AppText>
             <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              Push-Benachrichtigung mit einem gespeicherten Wort + Beispiel
+              Push-Benachrichtigung mit deinen gespeicherten Wörtern — ohne gespeicherte Wörter
+              mit zufälligen Wörtern aus dem Wörterbuch
             </AppText>
           </View>
           <Switch
@@ -160,6 +161,15 @@ export default function SettingsScreen() {
             thumbColor="#fff"
           />
         </View>
+
+        {settings.notificationsEnabled && settings.notificationStatus === 'permission-denied' && (
+          <View style={[styles.permissionWarning, { backgroundColor: t.dangerDim }]}>
+            <AppText variant="caption" color={t.onDangerDim}>
+              ⚠️ Benachrichtigungen sind auf Systemebene blockiert. Bitte erlaube sie in den
+              Geräte-Einstellungen für Deutschly, sonst kann nichts gesendet werden.
+            </AppText>
+          </View>
+        )}
 
         {settings.notificationsEnabled && (
           <>
@@ -302,6 +312,12 @@ function HourStepper({
 const styles = StyleSheet.create({
   back: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: spacing.lg },
   section: { marginTop: spacing.md },
+  permissionWarning: {
+    borderRadius: 12,
+    paddingHorizontal: spacing.md,
+    paddingVertical: 9,
+    marginTop: spacing.md,
+  },
   segmentRow: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.md },
   segment: {
     flex: 1,

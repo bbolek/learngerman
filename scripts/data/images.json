@@ -1,0 +1,1687 @@
+[
+  {
+    "lemma": "Abend",
+    "pos": "noun",
+    "emoji": "🌆"
+  },
+  {
+    "lemma": "Affe",
+    "pos": "noun",
+    "emoji": "🐒"
+  },
+  {
+    "lemma": "Ampel",
+    "pos": "noun",
+    "emoji": "🚦"
+  },
+  {
+    "lemma": "Angst",
+    "pos": "noun",
+    "emoji": "😨"
+  },
+  {
+    "lemma": "Ankunft",
+    "pos": "noun",
+    "emoji": "🛬"
+  },
+  {
+    "lemma": "Apfel",
+    "pos": "noun",
+    "emoji": "🍎"
+  },
+  {
+    "lemma": "Arm",
+    "pos": "noun",
+    "emoji": "💪"
+  },
+  {
+    "lemma": "Arzt",
+    "pos": "noun",
+    "emoji": "🧑‍⚕️"
+  },
+  {
+    "lemma": "Auge",
+    "pos": "noun",
+    "emoji": "👁️"
+  },
+  {
+    "lemma": "Ausweis",
+    "pos": "noun",
+    "emoji": "🪪"
+  },
+  {
+    "lemma": "Auto",
+    "pos": "noun",
+    "emoji": "🚗"
+  },
+  {
+    "lemma": "Baby",
+    "pos": "noun",
+    "emoji": "👶"
+  },
+  {
+    "lemma": "Bad",
+    "pos": "noun",
+    "emoji": "🛁"
+  },
+  {
+    "lemma": "Badeanzug",
+    "pos": "noun",
+    "emoji": "🩱"
+  },
+  {
+    "lemma": "Bahn",
+    "pos": "noun",
+    "emoji": "🚆"
+  },
+  {
+    "lemma": "Bahnhof",
+    "pos": "noun",
+    "emoji": "🚉"
+  },
+  {
+    "lemma": "Ball",
+    "pos": "noun",
+    "emoji": "🏐"
+  },
+  {
+    "lemma": "Banane",
+    "pos": "noun",
+    "emoji": "🍌"
+  },
+  {
+    "lemma": "Bank",
+    "pos": "noun",
+    "emoji": "🏦"
+  },
+  {
+    "lemma": "Batterie",
+    "pos": "noun",
+    "emoji": "🔋"
+  },
+  {
+    "lemma": "Bauer",
+    "pos": "noun",
+    "emoji": "🧑‍🌾"
+  },
+  {
+    "lemma": "Baum",
+    "pos": "noun",
+    "emoji": "🌳"
+  },
+  {
+    "lemma": "Bein",
+    "pos": "noun",
+    "emoji": "🦵"
+  },
+  {
+    "lemma": "Berg",
+    "pos": "noun",
+    "emoji": "⛰️"
+  },
+  {
+    "lemma": "Besen",
+    "pos": "noun",
+    "emoji": "🧹"
+  },
+  {
+    "lemma": "Besteck",
+    "pos": "noun",
+    "emoji": "🍴"
+  },
+  {
+    "lemma": "Bett",
+    "pos": "noun",
+    "emoji": "🛏️"
+  },
+  {
+    "lemma": "Bibliothek",
+    "pos": "noun",
+    "emoji": "📚"
+  },
+  {
+    "lemma": "Bier",
+    "pos": "noun",
+    "emoji": "🍺"
+  },
+  {
+    "lemma": "Bild",
+    "pos": "noun",
+    "emoji": "🖼️"
+  },
+  {
+    "lemma": "Bildschirm",
+    "pos": "noun",
+    "emoji": "🖥️"
+  },
+  {
+    "lemma": "Birne",
+    "pos": "noun",
+    "emoji": "🍐"
+  },
+  {
+    "lemma": "Blatt",
+    "pos": "noun",
+    "emoji": "🍃"
+  },
+  {
+    "lemma": "Bleistift",
+    "pos": "noun",
+    "emoji": "✏️"
+  },
+  {
+    "lemma": "Blume",
+    "pos": "noun",
+    "emoji": "🌷"
+  },
+  {
+    "lemma": "Boot",
+    "pos": "noun",
+    "emoji": "⛵"
+  },
+  {
+    "lemma": "Brief",
+    "pos": "noun",
+    "emoji": "✉️"
+  },
+  {
+    "lemma": "Briefkasten",
+    "pos": "noun",
+    "emoji": "📫"
+  },
+  {
+    "lemma": "Brille",
+    "pos": "noun",
+    "emoji": "👓"
+  },
+  {
+    "lemma": "Brot",
+    "pos": "noun",
+    "emoji": "🍞"
+  },
+  {
+    "lemma": "Brötchen",
+    "pos": "noun",
+    "emoji": "🥐"
+  },
+  {
+    "lemma": "Brücke",
+    "pos": "noun",
+    "emoji": "🌉"
+  },
+  {
+    "lemma": "Buch",
+    "pos": "noun",
+    "emoji": "📖"
+  },
+  {
+    "lemma": "Bus",
+    "pos": "noun",
+    "emoji": "🚌"
+  },
+  {
+    "lemma": "Butter",
+    "pos": "noun",
+    "emoji": "🧈"
+  },
+  {
+    "lemma": "Butterbrot",
+    "pos": "noun",
+    "emoji": "🥪"
+  },
+  {
+    "lemma": "Bäckerei",
+    "pos": "noun",
+    "emoji": "🥖"
+  },
+  {
+    "lemma": "Bär",
+    "pos": "noun",
+    "emoji": "🐻"
+  },
+  {
+    "lemma": "Büro",
+    "pos": "noun",
+    "emoji": "🏢"
+  },
+  {
+    "lemma": "Campingplatz",
+    "pos": "noun",
+    "emoji": "⛺"
+  },
+  {
+    "lemma": "Cola",
+    "pos": "noun",
+    "emoji": "🥤"
+  },
+  {
+    "lemma": "Computer",
+    "pos": "noun",
+    "emoji": "💻"
+  },
+  {
+    "lemma": "Demonstration",
+    "pos": "noun",
+    "emoji": "📢"
+  },
+  {
+    "lemma": "Dorf",
+    "pos": "noun",
+    "emoji": "🏘️"
+  },
+  {
+    "lemma": "Dose",
+    "pos": "noun",
+    "emoji": "🥫"
+  },
+  {
+    "lemma": "Drucker",
+    "pos": "noun",
+    "emoji": "🖨️"
+  },
+  {
+    "lemma": "Dusche",
+    "pos": "noun",
+    "emoji": "🚿"
+  },
+  {
+    "lemma": "Dürre",
+    "pos": "noun",
+    "emoji": "🏜️"
+  },
+  {
+    "lemma": "E-Mail",
+    "pos": "noun",
+    "emoji": "📧"
+  },
+  {
+    "lemma": "Ei",
+    "pos": "noun",
+    "emoji": "🥚"
+  },
+  {
+    "lemma": "Eimer",
+    "pos": "noun",
+    "emoji": "🪣"
+  },
+  {
+    "lemma": "Einkaufswagen",
+    "pos": "noun",
+    "emoji": "🛒"
+  },
+  {
+    "lemma": "Eis",
+    "pos": "noun",
+    "emoji": "🍦"
+  },
+  {
+    "lemma": "Elefant",
+    "pos": "noun",
+    "emoji": "🐘"
+  },
+  {
+    "lemma": "Ente",
+    "pos": "noun",
+    "emoji": "🦆"
+  },
+  {
+    "lemma": "Erdbeere",
+    "pos": "noun",
+    "emoji": "🍓"
+  },
+  {
+    "lemma": "Euro",
+    "pos": "noun",
+    "emoji": "💶"
+  },
+  {
+    "lemma": "Fabrik",
+    "pos": "noun",
+    "emoji": "🏭"
+  },
+  {
+    "lemma": "Fahrkarte",
+    "pos": "noun",
+    "emoji": "🎟️"
+  },
+  {
+    "lemma": "Fahrrad",
+    "pos": "noun",
+    "emoji": "🚲"
+  },
+  {
+    "lemma": "Familie",
+    "pos": "noun",
+    "emoji": "👪"
+  },
+  {
+    "lemma": "Farbe",
+    "pos": "noun",
+    "emoji": "🎨"
+  },
+  {
+    "lemma": "Faust",
+    "pos": "noun",
+    "emoji": "✊"
+  },
+  {
+    "lemma": "Fax",
+    "pos": "noun",
+    "emoji": "📠"
+  },
+  {
+    "lemma": "Feld",
+    "pos": "noun",
+    "emoji": "🌾"
+  },
+  {
+    "lemma": "Fenster",
+    "pos": "noun",
+    "emoji": "🪟"
+  },
+  {
+    "lemma": "Fernseher",
+    "pos": "noun",
+    "emoji": "📺"
+  },
+  {
+    "lemma": "Fest",
+    "pos": "noun",
+    "emoji": "🎊"
+  },
+  {
+    "lemma": "Feuer",
+    "pos": "noun",
+    "emoji": "🔥"
+  },
+  {
+    "lemma": "Feuerwehr",
+    "pos": "noun",
+    "emoji": "🚒"
+  },
+  {
+    "lemma": "Fieber",
+    "pos": "noun",
+    "emoji": "🤒"
+  },
+  {
+    "lemma": "Film",
+    "pos": "noun",
+    "emoji": "🎬"
+  },
+  {
+    "lemma": "Finger",
+    "pos": "noun",
+    "emoji": "☝️"
+  },
+  {
+    "lemma": "Fisch",
+    "pos": "noun",
+    "emoji": "🐟"
+  },
+  {
+    "lemma": "Fleisch",
+    "pos": "noun",
+    "emoji": "🥩"
+  },
+  {
+    "lemma": "Flughafen",
+    "pos": "noun",
+    "emoji": "🛫"
+  },
+  {
+    "lemma": "Flugzeug",
+    "pos": "noun",
+    "emoji": "✈️"
+  },
+  {
+    "lemma": "Forschung",
+    "pos": "noun",
+    "emoji": "🔬"
+  },
+  {
+    "lemma": "Foto",
+    "pos": "noun",
+    "emoji": "📸"
+  },
+  {
+    "lemma": "Frage",
+    "pos": "noun",
+    "emoji": "❓"
+  },
+  {
+    "lemma": "Frau",
+    "pos": "noun",
+    "emoji": "👩"
+  },
+  {
+    "lemma": "Freude",
+    "pos": "noun",
+    "emoji": "😄"
+  },
+  {
+    "lemma": "Frosch",
+    "pos": "noun",
+    "emoji": "🐸"
+  },
+  {
+    "lemma": "Frühling",
+    "pos": "noun",
+    "emoji": "🌱"
+  },
+  {
+    "lemma": "Frühstück",
+    "pos": "noun",
+    "emoji": "🍳"
+  },
+  {
+    "lemma": "Fuchs",
+    "pos": "noun",
+    "emoji": "🦊"
+  },
+  {
+    "lemma": "Fuß",
+    "pos": "noun",
+    "emoji": "🦶"
+  },
+  {
+    "lemma": "Fußball",
+    "pos": "noun",
+    "emoji": "⚽"
+  },
+  {
+    "lemma": "Fähre",
+    "pos": "noun",
+    "emoji": "⛴️"
+  },
+  {
+    "lemma": "Garten",
+    "pos": "noun",
+    "emoji": "🌻"
+  },
+  {
+    "lemma": "Geburtstag",
+    "pos": "noun",
+    "emoji": "🎂"
+  },
+  {
+    "lemma": "Gedicht",
+    "pos": "noun",
+    "emoji": "📜"
+  },
+  {
+    "lemma": "Geld",
+    "pos": "noun",
+    "emoji": "💰"
+  },
+  {
+    "lemma": "Geldschein",
+    "pos": "noun",
+    "emoji": "💵"
+  },
+  {
+    "lemma": "Gemüse",
+    "pos": "noun",
+    "emoji": "🥦"
+  },
+  {
+    "lemma": "Gericht",
+    "pos": "noun",
+    "emoji": "⚖️"
+  },
+  {
+    "lemma": "Geschenk",
+    "pos": "noun",
+    "emoji": "🎁"
+  },
+  {
+    "lemma": "Gesicht",
+    "pos": "noun",
+    "emoji": "🙂"
+  },
+  {
+    "lemma": "Gewitter",
+    "pos": "noun",
+    "emoji": "⛈️"
+  },
+  {
+    "lemma": "Gitarre",
+    "pos": "noun",
+    "emoji": "🎸"
+  },
+  {
+    "lemma": "Gleis",
+    "pos": "noun",
+    "emoji": "🛤️"
+  },
+  {
+    "lemma": "Glück",
+    "pos": "noun",
+    "emoji": "🍀"
+  },
+  {
+    "lemma": "Grad",
+    "pos": "noun",
+    "emoji": "🌡️"
+  },
+  {
+    "lemma": "Großmutter",
+    "pos": "noun",
+    "emoji": "👵"
+  },
+  {
+    "lemma": "Großvater",
+    "pos": "noun",
+    "emoji": "👴"
+  },
+  {
+    "lemma": "Gurke",
+    "pos": "noun",
+    "emoji": "🥒"
+  },
+  {
+    "lemma": "Hafen",
+    "pos": "noun",
+    "emoji": "⚓"
+  },
+  {
+    "lemma": "Haltestelle",
+    "pos": "noun",
+    "emoji": "🚏"
+  },
+  {
+    "lemma": "Hand",
+    "pos": "noun",
+    "emoji": "✋"
+  },
+  {
+    "lemma": "Handschuh",
+    "pos": "noun",
+    "emoji": "🧤"
+  },
+  {
+    "lemma": "Handtasche",
+    "pos": "noun",
+    "emoji": "👝"
+  },
+  {
+    "lemma": "Handy",
+    "pos": "noun",
+    "emoji": "📱"
+  },
+  {
+    "lemma": "Hase",
+    "pos": "noun",
+    "emoji": "🐇"
+  },
+  {
+    "lemma": "Haus",
+    "pos": "noun",
+    "emoji": "🏠"
+  },
+  {
+    "lemma": "Heft",
+    "pos": "noun",
+    "emoji": "📓"
+  },
+  {
+    "lemma": "Hemd",
+    "pos": "noun",
+    "emoji": "👔"
+  },
+  {
+    "lemma": "Herbst",
+    "pos": "noun",
+    "emoji": "🍂"
+  },
+  {
+    "lemma": "Herz",
+    "pos": "noun",
+    "emoji": "🫀"
+  },
+  {
+    "lemma": "Hilfe",
+    "pos": "noun",
+    "emoji": "🆘"
+  },
+  {
+    "lemma": "Hochzeit",
+    "pos": "noun",
+    "emoji": "💒"
+  },
+  {
+    "lemma": "Honig",
+    "pos": "noun",
+    "emoji": "🍯"
+  },
+  {
+    "lemma": "Hose",
+    "pos": "noun",
+    "emoji": "👖"
+  },
+  {
+    "lemma": "Hotel",
+    "pos": "noun",
+    "emoji": "🏨"
+  },
+  {
+    "lemma": "Huhn",
+    "pos": "noun",
+    "emoji": "🐔"
+  },
+  {
+    "lemma": "Hund",
+    "pos": "noun",
+    "emoji": "🐕"
+  },
+  {
+    "lemma": "Hut",
+    "pos": "noun",
+    "emoji": "🎩"
+  },
+  {
+    "lemma": "Hähnchen",
+    "pos": "noun",
+    "emoji": "🍗"
+  },
+  {
+    "lemma": "Idee",
+    "pos": "noun",
+    "emoji": "💭"
+  },
+  {
+    "lemma": "Insel",
+    "pos": "noun",
+    "emoji": "🏝️"
+  },
+  {
+    "lemma": "Internet",
+    "pos": "noun",
+    "emoji": "🌐"
+  },
+  {
+    "lemma": "Jacke",
+    "pos": "noun",
+    "emoji": "🧥"
+  },
+  {
+    "lemma": "Junge",
+    "pos": "noun",
+    "emoji": "👦"
+  },
+  {
+    "lemma": "Kaffee",
+    "pos": "noun",
+    "emoji": "☕"
+  },
+  {
+    "lemma": "Kalender",
+    "pos": "noun",
+    "emoji": "📅"
+  },
+  {
+    "lemma": "Kamera",
+    "pos": "noun",
+    "emoji": "📷"
+  },
+  {
+    "lemma": "Kanne",
+    "pos": "noun",
+    "emoji": "🫖"
+  },
+  {
+    "lemma": "Karotte",
+    "pos": "noun",
+    "emoji": "🥕"
+  },
+  {
+    "lemma": "Kartoffel",
+    "pos": "noun",
+    "emoji": "🥔"
+  },
+  {
+    "lemma": "Katze",
+    "pos": "noun",
+    "emoji": "🐈"
+  },
+  {
+    "lemma": "Keks",
+    "pos": "noun",
+    "emoji": "🍪"
+  },
+  {
+    "lemma": "Kerze",
+    "pos": "noun",
+    "emoji": "🕯️"
+  },
+  {
+    "lemma": "Kette",
+    "pos": "noun",
+    "emoji": "📿"
+  },
+  {
+    "lemma": "Kind",
+    "pos": "noun",
+    "emoji": "🧒"
+  },
+  {
+    "lemma": "Kino",
+    "pos": "noun",
+    "emoji": "🎦"
+  },
+  {
+    "lemma": "Kirche",
+    "pos": "noun",
+    "emoji": "⛪"
+  },
+  {
+    "lemma": "Kirsche",
+    "pos": "noun",
+    "emoji": "🍒"
+  },
+  {
+    "lemma": "Kleid",
+    "pos": "noun",
+    "emoji": "👗"
+  },
+  {
+    "lemma": "Kleidung",
+    "pos": "noun",
+    "emoji": "👕"
+  },
+  {
+    "lemma": "Knochen",
+    "pos": "noun",
+    "emoji": "🦴"
+  },
+  {
+    "lemma": "Koch",
+    "pos": "noun",
+    "emoji": "🧑‍🍳"
+  },
+  {
+    "lemma": "Koffer",
+    "pos": "noun",
+    "emoji": "🧳"
+  },
+  {
+    "lemma": "Kompass",
+    "pos": "noun",
+    "emoji": "🧭"
+  },
+  {
+    "lemma": "Kopfhörer",
+    "pos": "noun",
+    "emoji": "🎧"
+  },
+  {
+    "lemma": "Krankenhaus",
+    "pos": "noun",
+    "emoji": "🏥"
+  },
+  {
+    "lemma": "Krankenschwester",
+    "pos": "noun",
+    "emoji": "👩‍⚕️"
+  },
+  {
+    "lemma": "Krankenwagen",
+    "pos": "noun",
+    "emoji": "🚑"
+  },
+  {
+    "lemma": "Krawatte",
+    "pos": "noun",
+    "emoji": "👔"
+  },
+  {
+    "lemma": "Kreditkarte",
+    "pos": "noun",
+    "emoji": "💳"
+  },
+  {
+    "lemma": "Kuchen",
+    "pos": "noun",
+    "emoji": "🍰"
+  },
+  {
+    "lemma": "Kugelschreiber",
+    "pos": "noun",
+    "emoji": "🖊️"
+  },
+  {
+    "lemma": "Kuh",
+    "pos": "noun",
+    "emoji": "🐄"
+  },
+  {
+    "lemma": "Käse",
+    "pos": "noun",
+    "emoji": "🧀"
+  },
+  {
+    "lemma": "Künstler",
+    "pos": "noun",
+    "emoji": "🧑‍🎨"
+  },
+  {
+    "lemma": "Lampe",
+    "pos": "noun",
+    "emoji": "💡"
+  },
+  {
+    "lemma": "Landkarte",
+    "pos": "noun",
+    "emoji": "🗺️"
+  },
+  {
+    "lemma": "Lautsprecher",
+    "pos": "noun",
+    "emoji": "🔊"
+  },
+  {
+    "lemma": "Lehrer",
+    "pos": "noun",
+    "emoji": "🧑‍🏫"
+  },
+  {
+    "lemma": "Liebe",
+    "pos": "noun",
+    "emoji": "❤️"
+  },
+  {
+    "lemma": "Lied",
+    "pos": "noun",
+    "emoji": "🎶"
+  },
+  {
+    "lemma": "Lkw",
+    "pos": "noun",
+    "emoji": "🚚"
+  },
+  {
+    "lemma": "Löffel",
+    "pos": "noun",
+    "emoji": "🥄"
+  },
+  {
+    "lemma": "Löwe",
+    "pos": "noun",
+    "emoji": "🦁"
+  },
+  {
+    "lemma": "Mann",
+    "pos": "noun",
+    "emoji": "👨"
+  },
+  {
+    "lemma": "Mantel",
+    "pos": "noun",
+    "emoji": "🧥"
+  },
+  {
+    "lemma": "Mauer",
+    "pos": "noun",
+    "emoji": "🧱"
+  },
+  {
+    "lemma": "Maus",
+    "pos": "noun",
+    "emoji": "🐭"
+  },
+  {
+    "lemma": "Medikament",
+    "pos": "noun",
+    "emoji": "💊"
+  },
+  {
+    "lemma": "Meer",
+    "pos": "noun",
+    "emoji": "🌊"
+  },
+  {
+    "lemma": "Mensch",
+    "pos": "noun",
+    "emoji": "🧑"
+  },
+  {
+    "lemma": "Messer",
+    "pos": "noun",
+    "emoji": "🔪"
+  },
+  {
+    "lemma": "Mikrofon",
+    "pos": "noun",
+    "emoji": "🎤"
+  },
+  {
+    "lemma": "Milch",
+    "pos": "noun",
+    "emoji": "🥛"
+  },
+  {
+    "lemma": "Motorrad",
+    "pos": "noun",
+    "emoji": "🏍️"
+  },
+  {
+    "lemma": "Mund",
+    "pos": "noun",
+    "emoji": "👄"
+  },
+  {
+    "lemma": "Museum",
+    "pos": "noun",
+    "emoji": "🏛️"
+  },
+  {
+    "lemma": "Musik",
+    "pos": "noun",
+    "emoji": "🎵"
+  },
+  {
+    "lemma": "Mädchen",
+    "pos": "noun",
+    "emoji": "👧"
+  },
+  {
+    "lemma": "Mülleimer",
+    "pos": "noun",
+    "emoji": "🗑️"
+  },
+  {
+    "lemma": "Münze",
+    "pos": "noun",
+    "emoji": "🪙"
+  },
+  {
+    "lemma": "Mütze",
+    "pos": "noun",
+    "emoji": "🧢"
+  },
+  {
+    "lemma": "Nachricht",
+    "pos": "noun",
+    "emoji": "💬"
+  },
+  {
+    "lemma": "Nacht",
+    "pos": "noun",
+    "emoji": "🌙"
+  },
+  {
+    "lemma": "Nadel",
+    "pos": "noun",
+    "emoji": "🪡"
+  },
+  {
+    "lemma": "Nase",
+    "pos": "noun",
+    "emoji": "👃"
+  },
+  {
+    "lemma": "Nebel",
+    "pos": "noun",
+    "emoji": "🌫️"
+  },
+  {
+    "lemma": "Nuss",
+    "pos": "noun",
+    "emoji": "🥜"
+  },
+  {
+    "lemma": "Ohr",
+    "pos": "noun",
+    "emoji": "👂"
+  },
+  {
+    "lemma": "Oma",
+    "pos": "noun",
+    "emoji": "👵"
+  },
+  {
+    "lemma": "Opa",
+    "pos": "noun",
+    "emoji": "👴"
+  },
+  {
+    "lemma": "Orange",
+    "pos": "noun",
+    "emoji": "🍊"
+  },
+  {
+    "lemma": "Orchester",
+    "pos": "noun",
+    "emoji": "🎻"
+  },
+  {
+    "lemma": "Ordner",
+    "pos": "noun",
+    "emoji": "🗂️"
+  },
+  {
+    "lemma": "Paket",
+    "pos": "noun",
+    "emoji": "📦"
+  },
+  {
+    "lemma": "Papier",
+    "pos": "noun",
+    "emoji": "📄"
+  },
+  {
+    "lemma": "Paprika",
+    "pos": "noun",
+    "emoji": "🫑"
+  },
+  {
+    "lemma": "Parkplatz",
+    "pos": "noun",
+    "emoji": "🅿️"
+  },
+  {
+    "lemma": "Party",
+    "pos": "noun",
+    "emoji": "🎉"
+  },
+  {
+    "lemma": "Pass",
+    "pos": "noun",
+    "emoji": "🛂"
+  },
+  {
+    "lemma": "Passwort",
+    "pos": "noun",
+    "emoji": "🔒"
+  },
+  {
+    "lemma": "Pfanne",
+    "pos": "noun",
+    "emoji": "🥘"
+  },
+  {
+    "lemma": "Pfannkuchen",
+    "pos": "noun",
+    "emoji": "🥞"
+  },
+  {
+    "lemma": "Pferd",
+    "pos": "noun",
+    "emoji": "🐎"
+  },
+  {
+    "lemma": "Pflanze",
+    "pos": "noun",
+    "emoji": "🪴"
+  },
+  {
+    "lemma": "Pflaster",
+    "pos": "noun",
+    "emoji": "🩹"
+  },
+  {
+    "lemma": "Pilz",
+    "pos": "noun",
+    "emoji": "🍄"
+  },
+  {
+    "lemma": "Pizza",
+    "pos": "noun",
+    "emoji": "🍕"
+  },
+  {
+    "lemma": "Podcast",
+    "pos": "noun",
+    "emoji": "🎙️"
+  },
+  {
+    "lemma": "Polizei",
+    "pos": "noun",
+    "emoji": "👮"
+  },
+  {
+    "lemma": "Pommes",
+    "pos": "noun",
+    "emoji": "🍟"
+  },
+  {
+    "lemma": "Portemonnaie",
+    "pos": "noun",
+    "emoji": "👛"
+  },
+  {
+    "lemma": "Post",
+    "pos": "noun",
+    "emoji": "📮"
+  },
+  {
+    "lemma": "Prüfung",
+    "pos": "noun",
+    "emoji": "📝"
+  },
+  {
+    "lemma": "Quelle",
+    "pos": "noun",
+    "emoji": "⛲"
+  },
+  {
+    "lemma": "Radio",
+    "pos": "noun",
+    "emoji": "📻"
+  },
+  {
+    "lemma": "Recycling",
+    "pos": "noun",
+    "emoji": "♻️"
+  },
+  {
+    "lemma": "Regen",
+    "pos": "noun",
+    "emoji": "🌧️"
+  },
+  {
+    "lemma": "Regenschirm",
+    "pos": "noun",
+    "emoji": "☔"
+  },
+  {
+    "lemma": "Reis",
+    "pos": "noun",
+    "emoji": "🍚"
+  },
+  {
+    "lemma": "Restaurant",
+    "pos": "noun",
+    "emoji": "🍽️"
+  },
+  {
+    "lemma": "Richter",
+    "pos": "noun",
+    "emoji": "🧑‍⚖️"
+  },
+  {
+    "lemma": "Ring",
+    "pos": "noun",
+    "emoji": "💍"
+  },
+  {
+    "lemma": "Rollstuhl",
+    "pos": "noun",
+    "emoji": "🦽"
+  },
+  {
+    "lemma": "Roman",
+    "pos": "noun",
+    "emoji": "📕"
+  },
+  {
+    "lemma": "Rucksack",
+    "pos": "noun",
+    "emoji": "🎒"
+  },
+  {
+    "lemma": "S-Bahn",
+    "pos": "noun",
+    "emoji": "🚈"
+  },
+  {
+    "lemma": "Saft",
+    "pos": "noun",
+    "emoji": "🧃"
+  },
+  {
+    "lemma": "Salat",
+    "pos": "noun",
+    "emoji": "🥗"
+  },
+  {
+    "lemma": "Salz",
+    "pos": "noun",
+    "emoji": "🧂"
+  },
+  {
+    "lemma": "Sandale",
+    "pos": "noun",
+    "emoji": "🩴"
+  },
+  {
+    "lemma": "Schaf",
+    "pos": "noun",
+    "emoji": "🐑"
+  },
+  {
+    "lemma": "Schal",
+    "pos": "noun",
+    "emoji": "🧣"
+  },
+  {
+    "lemma": "Schere",
+    "pos": "noun",
+    "emoji": "✂️"
+  },
+  {
+    "lemma": "Schild",
+    "pos": "noun",
+    "emoji": "🪧"
+  },
+  {
+    "lemma": "Schinken",
+    "pos": "noun",
+    "emoji": "🍖"
+  },
+  {
+    "lemma": "Schloss",
+    "pos": "noun",
+    "emoji": "🏰"
+  },
+  {
+    "lemma": "Schlüssel",
+    "pos": "noun",
+    "emoji": "🔑"
+  },
+  {
+    "lemma": "Schmetterling",
+    "pos": "noun",
+    "emoji": "🦋"
+  },
+  {
+    "lemma": "Schmuck",
+    "pos": "noun",
+    "emoji": "💎"
+  },
+  {
+    "lemma": "Schnee",
+    "pos": "noun",
+    "emoji": "❄️"
+  },
+  {
+    "lemma": "Schokolade",
+    "pos": "noun",
+    "emoji": "🍫"
+  },
+  {
+    "lemma": "Schuh",
+    "pos": "noun",
+    "emoji": "👞"
+  },
+  {
+    "lemma": "Schule",
+    "pos": "noun",
+    "emoji": "🏫"
+  },
+  {
+    "lemma": "Schwein",
+    "pos": "noun",
+    "emoji": "🐖"
+  },
+  {
+    "lemma": "Schwimmbad",
+    "pos": "noun",
+    "emoji": "🏊"
+  },
+  {
+    "lemma": "Schüssel",
+    "pos": "noun",
+    "emoji": "🥣"
+  },
+  {
+    "lemma": "See",
+    "pos": "noun",
+    "emoji": "🏞️"
+  },
+  {
+    "lemma": "Sieg",
+    "pos": "noun",
+    "emoji": "🏆"
+  },
+  {
+    "lemma": "Skulptur",
+    "pos": "noun",
+    "emoji": "🗿"
+  },
+  {
+    "lemma": "Socke",
+    "pos": "noun",
+    "emoji": "🧦"
+  },
+  {
+    "lemma": "Sofa",
+    "pos": "noun",
+    "emoji": "🛋️"
+  },
+  {
+    "lemma": "Sonne",
+    "pos": "noun",
+    "emoji": "☀️"
+  },
+  {
+    "lemma": "Sonnenbrille",
+    "pos": "noun",
+    "emoji": "🕶️"
+  },
+  {
+    "lemma": "Speisekarte",
+    "pos": "noun",
+    "emoji": "📋"
+  },
+  {
+    "lemma": "Spiegel",
+    "pos": "noun",
+    "emoji": "🪞"
+  },
+  {
+    "lemma": "Spiel",
+    "pos": "noun",
+    "emoji": "🎲"
+  },
+  {
+    "lemma": "Sport",
+    "pos": "noun",
+    "emoji": "🏅"
+  },
+  {
+    "lemma": "Spritze",
+    "pos": "noun",
+    "emoji": "💉"
+  },
+  {
+    "lemma": "Stadion",
+    "pos": "noun",
+    "emoji": "🏟️"
+  },
+  {
+    "lemma": "Stadt",
+    "pos": "noun",
+    "emoji": "🏙️"
+  },
+  {
+    "lemma": "Stecker",
+    "pos": "noun",
+    "emoji": "🔌"
+  },
+  {
+    "lemma": "Stern",
+    "pos": "noun",
+    "emoji": "⭐"
+  },
+  {
+    "lemma": "Stiefel",
+    "pos": "noun",
+    "emoji": "🥾"
+  },
+  {
+    "lemma": "Strand",
+    "pos": "noun",
+    "emoji": "🏖️"
+  },
+  {
+    "lemma": "Straße",
+    "pos": "noun",
+    "emoji": "🛣️"
+  },
+  {
+    "lemma": "Straßenbahn",
+    "pos": "noun",
+    "emoji": "🚊"
+  },
+  {
+    "lemma": "Stress",
+    "pos": "noun",
+    "emoji": "😫"
+  },
+  {
+    "lemma": "Stuhl",
+    "pos": "noun",
+    "emoji": "🪑"
+  },
+  {
+    "lemma": "Supermarkt",
+    "pos": "noun",
+    "emoji": "🛒"
+  },
+  {
+    "lemma": "Suppe",
+    "pos": "noun",
+    "emoji": "🍲"
+  },
+  {
+    "lemma": "Sänger",
+    "pos": "noun",
+    "emoji": "🧑‍🎤"
+  },
+  {
+    "lemma": "Tankstelle",
+    "pos": "noun",
+    "emoji": "⛽"
+  },
+  {
+    "lemma": "Tasche",
+    "pos": "noun",
+    "emoji": "👜"
+  },
+  {
+    "lemma": "Tastatur",
+    "pos": "noun",
+    "emoji": "⌨️"
+  },
+  {
+    "lemma": "Taxi",
+    "pos": "noun",
+    "emoji": "🚕"
+  },
+  {
+    "lemma": "Tee",
+    "pos": "noun",
+    "emoji": "🍵"
+  },
+  {
+    "lemma": "Telefon",
+    "pos": "noun",
+    "emoji": "☎️"
+  },
+  {
+    "lemma": "Theater",
+    "pos": "noun",
+    "emoji": "🎭"
+  },
+  {
+    "lemma": "Tier",
+    "pos": "noun",
+    "emoji": "🐾"
+  },
+  {
+    "lemma": "Tiger",
+    "pos": "noun",
+    "emoji": "🐅"
+  },
+  {
+    "lemma": "Toilette",
+    "pos": "noun",
+    "emoji": "🚽"
+  },
+  {
+    "lemma": "Tomate",
+    "pos": "noun",
+    "emoji": "🍅"
+  },
+  {
+    "lemma": "Trainer",
+    "pos": "noun",
+    "emoji": "🏋️"
+  },
+  {
+    "lemma": "Traube",
+    "pos": "noun",
+    "emoji": "🍇"
+  },
+  {
+    "lemma": "Trauer",
+    "pos": "noun",
+    "emoji": "😢"
+  },
+  {
+    "lemma": "Turnschuh",
+    "pos": "noun",
+    "emoji": "👟"
+  },
+  {
+    "lemma": "Tür",
+    "pos": "noun",
+    "emoji": "🚪"
+  },
+  {
+    "lemma": "U-Bahn",
+    "pos": "noun",
+    "emoji": "🚇"
+  },
+  {
+    "lemma": "Uhr",
+    "pos": "noun",
+    "emoji": "⏰"
+  },
+  {
+    "lemma": "Umwelt",
+    "pos": "noun",
+    "emoji": "🌿"
+  },
+  {
+    "lemma": "Universität",
+    "pos": "noun",
+    "emoji": "🎓"
+  },
+  {
+    "lemma": "Unterhose",
+    "pos": "noun",
+    "emoji": "🩲"
+  },
+  {
+    "lemma": "Urlaub",
+    "pos": "noun",
+    "emoji": "🌴"
+  },
+  {
+    "lemma": "Vase",
+    "pos": "noun",
+    "emoji": "🏺"
+  },
+  {
+    "lemma": "Vogel",
+    "pos": "noun",
+    "emoji": "🐦"
+  },
+  {
+    "lemma": "Wahl",
+    "pos": "noun",
+    "emoji": "🗳️"
+  },
+  {
+    "lemma": "Wald",
+    "pos": "noun",
+    "emoji": "🌲"
+  },
+  {
+    "lemma": "Wanderung",
+    "pos": "noun",
+    "emoji": "🥾"
+  },
+  {
+    "lemma": "Wasser",
+    "pos": "noun",
+    "emoji": "💧"
+  },
+  {
+    "lemma": "Wein",
+    "pos": "noun",
+    "emoji": "🍷"
+  },
+  {
+    "lemma": "Welt",
+    "pos": "noun",
+    "emoji": "🌍"
+  },
+  {
+    "lemma": "Wetter",
+    "pos": "noun",
+    "emoji": "🌤️"
+  },
+  {
+    "lemma": "Wind",
+    "pos": "noun",
+    "emoji": "💨"
+  },
+  {
+    "lemma": "Winter",
+    "pos": "noun",
+    "emoji": "⛄"
+  },
+  {
+    "lemma": "Wissenschaftler",
+    "pos": "noun",
+    "emoji": "🧑‍🔬"
+  },
+  {
+    "lemma": "Witz",
+    "pos": "noun",
+    "emoji": "😂"
+  },
+  {
+    "lemma": "Wurst",
+    "pos": "noun",
+    "emoji": "🌭"
+  },
+  {
+    "lemma": "Wut",
+    "pos": "noun",
+    "emoji": "😠"
+  },
+  {
+    "lemma": "Zahn",
+    "pos": "noun",
+    "emoji": "🦷"
+  },
+  {
+    "lemma": "Zahnbürste",
+    "pos": "noun",
+    "emoji": "🪥"
+  },
+  {
+    "lemma": "Zeit",
+    "pos": "noun",
+    "emoji": "⌛"
+  },
+  {
+    "lemma": "Zeitung",
+    "pos": "noun",
+    "emoji": "📰"
+  },
+  {
+    "lemma": "Zigarette",
+    "pos": "noun",
+    "emoji": "🚬"
+  },
+  {
+    "lemma": "Zitrone",
+    "pos": "noun",
+    "emoji": "🍋"
+  },
+  {
+    "lemma": "Zucker",
+    "pos": "noun",
+    "emoji": "🍬"
+  },
+  {
+    "lemma": "Zug",
+    "pos": "noun",
+    "emoji": "🚄"
+  },
+  {
+    "lemma": "Zunge",
+    "pos": "noun",
+    "emoji": "👅"
+  },
+  {
+    "lemma": "Zwiebel",
+    "pos": "noun",
+    "emoji": "🧅"
+  }
+]

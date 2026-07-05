@@ -4,18 +4,20 @@ import { FlatList, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getDb } from '@/db/client';
+import { getLemmaImages } from '@/db/dictionaryRepo';
 import { formLabel } from '@/logic/formLabels';
 import { lookupEnglish, lookupGerman, type LemmaHit } from '@/logic/lookup';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
 import { SearchBar } from '@/ui/components/SearchBar';
+import { VocabImage } from '@/ui/components/VocabImage';
 import { spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 type Row =
   | { type: 'header'; key: string; title: string }
-  | { type: 'hit'; key: string; hit: LemmaHit };
+  | { type: 'hit'; key: string; hit: LemmaHit; image: string | null };
 
 export default function DictionaryScreen() {
   const t = useTheme();
@@ -36,16 +38,24 @@ export default function DictionaryScreen() {
       const db = getDb();
       const [de, en] = await Promise.all([lookupGerman(db, q), lookupEnglish(db, q)]);
       if (cancelled) return;
+      const images = await getLemmaImages([...new Set([...de, ...en].map((h) => h.lemmaId))]);
+      if (cancelled) return;
+      const toRow = (prefix: string) => (hit: LemmaHit): Row => ({
+        type: 'hit',
+        key: `${prefix}-${hit.lemmaId}`,
+        hit,
+        image: images.get(hit.lemmaId) ?? null,
+      });
       const next: Row[] = [];
       if (de.length) {
         next.push({ type: 'header', key: 'h-de', title: 'Deutsch → English' });
-        next.push(...de.map((hit): Row => ({ type: 'hit', key: `de-${hit.lemmaId}`, hit })));
+        next.push(...de.map(toRow('de')));
       }
       const deIds = new Set(de.map((h) => h.lemmaId));
       const enOnly = en.filter((h) => !deIds.has(h.lemmaId));
       if (enOnly.length) {
         next.push({ type: 'header', key: 'h-en', title: 'English → Deutsch' });
-        next.push(...enOnly.map((hit): Row => ({ type: 'hit', key: `en-${hit.lemmaId}`, hit })));
+        next.push(...enOnly.map(toRow('en')));
       }
       setRows(next);
       setSearched(true);
@@ -78,7 +88,7 @@ export default function DictionaryScreen() {
               {item.title}
             </AppText>
           ) : (
-            <ResultRow hit={item.hit} />
+            <ResultRow hit={item.hit} image={item.image} />
           )
         }
         ListEmptyComponent={
@@ -105,7 +115,7 @@ export default function DictionaryScreen() {
   );
 }
 
-function ResultRow({ hit }: { hit: LemmaHit }) {
+function ResultRow({ hit, image }: { hit: LemmaHit; image: string | null }) {
   const t = useTheme();
   const label = formLabel(hit.matchedTag);
   return (
@@ -113,6 +123,7 @@ function ResultRow({ hit }: { hit: LemmaHit }) {
       onPress={() => router.push({ pathname: '/word/[id]', params: { id: String(hit.lemmaId) } })}
       style={styles.row}>
       <View style={styles.rowTop}>
+        {image && <VocabImage svg={image} gender={hit.gender} size={44} />}
         <View style={styles.rowText}>
           <AppText variant="subtitle" style={{ fontFamily: 'Fraunces_600SemiBold', fontSize: 19 }}>
             {hit.gender && hit.gender !== 'pl' ? `${genderArticle(hit.gender)} ` : ''}

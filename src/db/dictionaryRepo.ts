@@ -64,6 +64,40 @@ export async function getForms(lemmaId: number): Promise<FormRow[]> {
   );
 }
 
+/**
+ * Bundled Noto emoji SVG for a lemma (lemma_images content table), or null.
+ * Guarded: the table only exists from content version 4 on, and a failed
+ * in-place content update may leave an older schema behind — images are
+ * decorative, so degrade to "no image" instead of crashing.
+ */
+export async function getLemmaImage(lemmaId: number): Promise<string | null> {
+  try {
+    const row = await getDb().getFirstAsync<{ svg: string }>(
+      'SELECT svg FROM lemma_images WHERE lemma_id = ?',
+      [lemmaId]
+    );
+    return row?.svg ?? null;
+  } catch {
+    return null;
+  }
+}
+
+/** Images for a result list, keyed by lemma id (missing ids simply absent). */
+export async function getLemmaImages(lemmaIds: number[]): Promise<Map<number, string>> {
+  const map = new Map<number, string>();
+  if (lemmaIds.length === 0) return map;
+  try {
+    const rows = await getDb().getAllAsync<{ lemma_id: number; svg: string }>(
+      `SELECT lemma_id, svg FROM lemma_images WHERE lemma_id IN (${lemmaIds.map(() => '?').join(',')})`,
+      lemmaIds
+    );
+    for (const r of rows) map.set(r.lemma_id, r.svg);
+  } catch {
+    // pre-images schema — render without thumbnails
+  }
+  return map;
+}
+
 export async function getWordOfTheDay(daySeed: string): Promise<{
   id: number;
   lemma: string;

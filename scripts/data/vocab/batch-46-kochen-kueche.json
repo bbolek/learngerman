@@ -1,0 +1,951 @@
+[
+  {
+    "lemma": "würzen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1340,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to season, to spice",
+        "example_de": "Ich würze die Suppe mit Pfeffer.",
+        "example_en": "I season the soup with pepper."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er würzt das Fleisch mit Salz.", "en": "He seasons the meat with salt." },
+      { "tag": "perfekt", "de": "Hast du die Soße schon gewürzt?", "en": "Have you already seasoned the sauce?" },
+      { "tag": "imperativ", "de": "Würz das Gemüse nicht zu stark!", "en": "Don't season the vegetables too heavily!" }
+    ]
+  },
+  {
+    "lemma": "hacken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1480,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to chop (finely)",
+        "example_de": "Ich hacke die Zwiebel ganz klein.",
+        "example_en": "I chop the onion very finely."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie hackt die Nüsse für den Kuchen.", "en": "She chops the nuts for the cake." },
+      { "tag": "perfekt", "de": "Ich habe den Knoblauch gehackt.", "en": "I have chopped the garlic." },
+      { "tag": "imperativ", "de": "Hack bitte die Kräuter!", "en": "Please chop the herbs!" }
+    ]
+  },
+  {
+    "lemma": "salzen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1520,
+    "verb": { "aux": "haben", "praeteritum": "salzte", "partizip2": "gesalzen" },
+    "senses": [
+      {
+        "en": "to salt",
+        "note": "Partizip II: gesalzen",
+        "example_de": "Ich salze das Wasser für die Nudeln.",
+        "example_en": "I salt the water for the pasta."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er salzt das Fleisch vor dem Braten.", "en": "He salts the meat before frying." },
+      { "tag": "perfekt", "de": "Ich habe die Suppe schon gesalzen.", "en": "I have already salted the soup." },
+      { "tag": "imperativ", "de": "Salz die Kartoffeln nicht zu viel!", "en": "Don't salt the potatoes too much!" }
+    ]
+  },
+  {
+    "lemma": "verrühren",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1620,
+    "verb": { "aux": "haben", "partizip2": "verrührt" },
+    "senses": [
+      {
+        "en": "to stir together, to mix",
+        "example_de": "Ich verrühre die Eier mit dem Zucker.",
+        "example_en": "I stir the eggs together with the sugar."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie verrührt Mehl und Milch in der Schüssel.", "en": "She mixes flour and milk in the bowl." },
+      { "tag": "perfekt", "de": "Ich habe alles gut verrührt.", "en": "I have mixed everything well." },
+      { "tag": "imperativ", "de": "Verrühr die Butter mit dem Zucker!", "en": "Stir the butter together with the sugar!" }
+    ]
+  },
+  {
+    "lemma": "vorheizen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1680,
+    "verb": { "aux": "haben", "separablePrefix": "vor" },
+    "senses": [
+      {
+        "en": "to preheat",
+        "note": "trennbar: vor-",
+        "example_de": "Ich heize den Ofen auf 180 Grad vor.",
+        "example_en": "I preheat the oven to 180 degrees."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie heizt den Backofen immer vor.", "en": "She always preheats the oven." },
+      { "tag": "perfekt", "de": "Hast du den Ofen schon vorgeheizt?", "en": "Have you already preheated the oven?" },
+      { "tag": "imperativ", "de": "Heiz den Ofen bitte vor!", "en": "Please preheat the oven!" }
+    ]
+  },
+  {
+    "lemma": "würfeln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1950,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to dice, to cut into cubes",
+        "example_de": "Ich würfle die Kartoffeln für den Salat.",
+        "example_en": "I dice the potatoes for the salad."
+      },
+      {
+        "en": "to roll the dice",
+        "example_de": "Du bist dran, würfle!",
+        "example_en": "It's your turn, roll the dice!"
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er würfelt den Schinken ganz klein.", "en": "He dices the ham very finely." },
+      { "tag": "perfekt", "de": "Ich habe das Gemüse gewürfelt.", "en": "I have diced the vegetables." },
+      { "tag": "imperativ", "de": "Würfle die Zwiebel fein!", "en": "Dice the onion finely!" }
+    ]
+  },
+  {
+    "lemma": "kneten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2080,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to knead",
+        "example_de": "Ich knete den Teig zehn Minuten.",
+        "example_en": "I knead the dough for ten minutes."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Bäcker knetet den Teig mit der Hand.", "en": "The baker kneads the dough by hand." },
+      { "tag": "perfekt", "de": "Ich habe den Teig lange geknetet.", "en": "I have kneaded the dough for a long time." },
+      { "tag": "imperativ", "de": "Knete den Teig, bis er weich ist!", "en": "Knead the dough until it is soft!" }
+    ]
+  },
+  {
+    "lemma": "abgießen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2140,
+    "verb": { "aux": "haben", "separablePrefix": "ab", "praeteritum": "goss", "partizip2": "abgegossen" },
+    "senses": [
+      {
+        "en": "to drain, to pour off",
+        "note": "trennbar: ab-",
+        "example_de": "Ich gieße die Nudeln durch das Sieb ab.",
+        "example_en": "I drain the pasta through the sieve."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie gießt das Wasser vorsichtig ab.", "en": "She carefully pours off the water." },
+      { "tag": "perfekt", "de": "Ich habe die Kartoffeln abgegossen.", "en": "I have drained the potatoes." },
+      { "tag": "imperativ", "de": "Gieß das Nudelwasser ab!", "en": "Drain the pasta water!" }
+    ]
+  },
+  {
+    "lemma": "anbraten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1980,
+    "verb": { "aux": "haben", "separablePrefix": "an", "du": "brätst", "er": "brät", "praeteritum": "briet", "partizip2": "angebraten" },
+    "senses": [
+      {
+        "en": "to sear, to brown (briefly)",
+        "note": "trennbar: an-",
+        "example_de": "Ich brate das Fleisch kurz an.",
+        "example_en": "I sear the meat briefly."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er brät die Zwiebeln in Öl an.", "en": "He browns the onions in oil." },
+      { "tag": "perfekt", "de": "Ich habe das Gemüse scharf angebraten.", "en": "I seared the vegetables over high heat." },
+      { "tag": "imperativ", "de": "Brat das Fleisch von beiden Seiten an!", "en": "Sear the meat on both sides!" }
+    ]
+  },
+  {
+    "lemma": "dünsten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2320,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to steam, to braise gently",
+        "example_de": "Ich dünste das Gemüse in wenig Wasser.",
+        "example_en": "I steam the vegetables in a little water."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie dünstet den Fisch mit Zitrone.", "en": "She gently steams the fish with lemon." },
+      { "tag": "perfekt", "de": "Ich habe die Zwiebeln kurz gedünstet.", "en": "I briefly sautéed the onions." },
+      { "tag": "imperativ", "de": "Dünste das Gemüse nur fünf Minuten!", "en": "Steam the vegetables for only five minutes!" }
+    ]
+  },
+  {
+    "lemma": "garen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2240,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to cook (until done)",
+        "note": "auch intransitiv: Der Reis gart.",
+        "example_de": "Der Fisch gart zwanzig Minuten im Ofen.",
+        "example_en": "The fish cooks in the oven for twenty minutes."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das Fleisch gart langsam bei kleiner Hitze.", "en": "The meat cooks slowly over low heat." },
+      { "tag": "perfekt", "de": "Ich habe das Gemüse im Topf gegart.", "en": "I cooked the vegetables in the pot." },
+      { "tag": "frage", "de": "Wie lange muss der Reis garen?", "en": "How long does the rice need to cook?" }
+    ]
+  },
+  {
+    "lemma": "marinieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2420,
+    "verb": { "aux": "haben", "partizip2": "mariniert" },
+    "senses": [
+      {
+        "en": "to marinate",
+        "example_de": "Ich mariniere das Fleisch über Nacht.",
+        "example_en": "I marinate the meat overnight."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er mariniert das Hähnchen in Öl und Gewürzen.", "en": "He marinates the chicken in oil and spices." },
+      { "tag": "perfekt", "de": "Ich habe den Fisch zwei Stunden mariniert.", "en": "I marinated the fish for two hours." },
+      { "tag": "imperativ", "de": "Mariniere das Fleisch am besten gestern Abend!", "en": "It's best to marinate the meat the evening before!" }
+    ]
+  },
+  {
+    "lemma": "abschmecken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2180,
+    "verb": { "aux": "haben", "separablePrefix": "ab" },
+    "senses": [
+      {
+        "en": "to season to taste",
+        "note": "trennbar: ab-; mit Salz und Pfeffer abschmecken",
+        "example_de": "Ich schmecke die Suppe mit Salz ab.",
+        "example_en": "I season the soup to taste with salt."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Koch schmeckt die Soße immer ab.", "en": "The cook always tastes and seasons the sauce." },
+      { "tag": "perfekt", "de": "Hast du das Essen schon abgeschmeckt?", "en": "Have you already seasoned the food to taste?" },
+      { "tag": "imperativ", "de": "Schmeck die Suppe mit Pfeffer ab!", "en": "Season the soup to taste with pepper!" }
+    ]
+  },
+  {
+    "lemma": "anrichten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2360,
+    "verb": { "aux": "haben", "separablePrefix": "an" },
+    "senses": [
+      {
+        "en": "to plate, to arrange (food)",
+        "note": "trennbar: an-",
+        "example_de": "Sie richtet den Salat auf dem Teller an.",
+        "example_en": "She arranges the salad on the plate."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Koch richtet das Essen schön an.", "en": "The cook plates the food nicely." },
+      { "tag": "perfekt", "de": "Wir haben die Vorspeise schon angerichtet.", "en": "We have already plated the starter." },
+      { "tag": "imperativ", "de": "Richte den Fisch mit Zitrone an!", "en": "Plate the fish with lemon!" }
+    ]
+  },
+  {
+    "lemma": "einfrieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1990,
+    "verb": { "aux": "haben", "separablePrefix": "ein", "praeteritum": "fror", "partizip2": "eingefroren" },
+    "senses": [
+      {
+        "en": "to freeze (food)",
+        "note": "trennbar: ein-",
+        "example_de": "Ich friere das Brot ein.",
+        "example_en": "I freeze the bread."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie friert die Reste vom Essen ein.", "en": "She freezes the leftovers from the meal." },
+      { "tag": "perfekt", "de": "Ich habe die Suppe eingefroren.", "en": "I have frozen the soup." },
+      { "tag": "imperativ", "de": "Frier das Fleisch heute noch ein!", "en": "Freeze the meat today!" }
+    ]
+  },
+  {
+    "lemma": "auftauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2060,
+    "verb": { "aux": "haben", "separablePrefix": "auf" },
+    "senses": [
+      {
+        "en": "to defrost, to thaw",
+        "note": "trennbar: auf-; intransitiv mit sein: Das Eis ist aufgetaut.",
+        "example_de": "Ich taue das Fleisch langsam auf.",
+        "example_en": "I defrost the meat slowly."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie taut das Brot in der Küche auf.", "en": "She defrosts the bread in the kitchen." },
+      { "tag": "perfekt", "de": "Ich habe den Fisch über Nacht aufgetaut.", "en": "I defrosted the fish overnight." },
+      { "tag": "imperativ", "de": "Tau das Gemüse vor dem Kochen auf!", "en": "Thaw the vegetables before cooking!" }
+    ]
+  },
+  {
+    "lemma": "köcheln",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2440,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to simmer",
+        "note": "meist: etwas köcheln lassen",
+        "example_de": "Die Suppe köchelt eine Stunde auf dem Herd.",
+        "example_en": "The soup simmers on the stove for an hour."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Soße köchelt bei kleiner Hitze.", "en": "The sauce simmers over low heat." },
+      { "tag": "perfekt", "de": "Der Eintopf hat zwei Stunden geköchelt.", "en": "The stew simmered for two hours." },
+      { "tag": "imperativ", "de": "Lass die Soße noch zehn Minuten köcheln!", "en": "Let the sauce simmer for another ten minutes!" }
+    ]
+  },
+  {
+    "lemma": "anbrennen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2480,
+    "verb": { "aux": "sein", "separablePrefix": "an", "praeteritum": "brannte", "partizip2": "angebrannt" },
+    "senses": [
+      {
+        "en": "to burn (food sticking to the pan)",
+        "note": "trennbar: an-; Perfekt mit sein",
+        "example_de": "Der Reis brennt schnell an.",
+        "example_en": "The rice burns easily."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Milch brennt im Topf an.", "en": "The milk is burning in the pot." },
+      { "tag": "perfekt", "de": "Das Essen ist leider angebrannt.", "en": "Unfortunately the food got burnt." },
+      { "tag": "negation", "de": "Rühr um, damit nichts anbrennt!", "en": "Stir so that nothing burns!" }
+    ]
+  },
+  {
+    "lemma": "versalzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2560,
+    "verb": { "aux": "haben", "praeteritum": "versalzte", "partizip2": "versalzen" },
+    "senses": [
+      {
+        "en": "to oversalt, to put too much salt in",
+        "note": "Partizip II: versalzen — Die Suppe ist versalzen.",
+        "example_de": "Er versalzt die Soße fast jedes Mal.",
+        "example_en": "He puts too much salt in the sauce almost every time."
+      }
+    ],
+    "examples": [
+      { "tag": "perfekt", "de": "Ich habe die Suppe total versalzen.", "en": "I completely oversalted the soup." },
+      { "tag": "präsens", "de": "Pass auf, dass du das Essen nicht versalzt!", "en": "Be careful not to oversalt the food!" }
+    ]
+  },
+  {
+    "lemma": "pürieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": { "aux": "haben", "partizip2": "püriert" },
+    "senses": [
+      {
+        "en": "to purée, to blend",
+        "example_de": "Ich püriere die Suppe mit dem Mixer.",
+        "example_en": "I purée the soup with the blender."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie püriert das Obst für das Baby.", "en": "She purées the fruit for the baby." },
+      { "tag": "perfekt", "de": "Ich habe die Tomaten fein püriert.", "en": "I have blended the tomatoes finely." },
+      { "tag": "imperativ", "de": "Püriere die Suppe, bis sie cremig ist!", "en": "Blend the soup until it is creamy!" }
+    ]
+  },
+  {
+    "lemma": "bestreichen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2500,
+    "verb": { "aux": "haben", "praeteritum": "bestrich", "partizip2": "bestrichen" },
+    "senses": [
+      {
+        "en": "to spread (something on), to brush with",
+        "note": "etwas mit etwas bestreichen",
+        "example_de": "Ich bestreiche das Brot mit Butter.",
+        "example_en": "I spread butter on the bread."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie bestreicht den Teig mit Ei.", "en": "She brushes the dough with egg." },
+      { "tag": "perfekt", "de": "Ich habe den Kuchen mit Marmelade bestrichen.", "en": "I spread jam on the cake." },
+      { "tag": "imperativ", "de": "Bestreich das Blech mit etwas Öl!", "en": "Brush the tray with a little oil!" }
+    ]
+  },
+  {
+    "lemma": "ausrollen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2380,
+    "verb": { "aux": "haben", "separablePrefix": "aus" },
+    "senses": [
+      {
+        "en": "to roll out (dough)",
+        "note": "trennbar: aus-",
+        "example_de": "Ich rolle den Teig dünn aus.",
+        "example_en": "I roll the dough out thinly."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie rollt den Teig auf dem Tisch aus.", "en": "She rolls out the dough on the table." },
+      { "tag": "perfekt", "de": "Ich habe den Teig schon ausgerollt.", "en": "I have already rolled out the dough." },
+      { "tag": "imperativ", "de": "Roll den Teig nicht zu dünn aus!", "en": "Don't roll the dough out too thinly!" }
+    ]
+  },
+  {
+    "lemma": "schmoren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2540,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to braise, to stew",
+        "example_de": "Das Fleisch schmort zwei Stunden im Topf.",
+        "example_en": "The meat braises in the pot for two hours."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Er schmort das Gemüse mit Zwiebeln.", "en": "He braises the vegetables with onions." },
+      { "tag": "perfekt", "de": "Wir haben das Fleisch lange geschmort.", "en": "We braised the meat for a long time." },
+      { "tag": "imperativ", "de": "Schmore den Braten bei kleiner Hitze!", "en": "Braise the roast over low heat!" }
+    ]
+  },
+  {
+    "lemma": "bestreuen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2460,
+    "verb": { "aux": "haben", "partizip2": "bestreut" },
+    "senses": [
+      {
+        "en": "to sprinkle (something with)",
+        "note": "etwas mit etwas bestreuen",
+        "example_de": "Ich bestreue den Kuchen mit Zucker.",
+        "example_en": "I sprinkle the cake with sugar."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie bestreut die Pizza mit Käse.", "en": "She sprinkles the pizza with cheese." },
+      { "tag": "perfekt", "de": "Ich habe das Brot mit Salz bestreut.", "en": "I sprinkled the bread with salt." },
+      { "tag": "imperativ", "de": "Bestreu den Salat mit Nüssen!", "en": "Sprinkle the salad with nuts!" }
+    ]
+  },
+  {
+    "lemma": "aufkochen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": { "aux": "haben", "separablePrefix": "auf" },
+    "senses": [
+      {
+        "en": "to bring to a boil",
+        "note": "trennbar: auf-; meist: etwas aufkochen lassen",
+        "example_de": "Ich koche die Milch kurz auf.",
+        "example_en": "I bring the milk to a brief boil."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie kocht die Soße noch einmal auf.", "en": "She brings the sauce to a boil again." },
+      { "tag": "perfekt", "de": "Ich habe die Suppe aufgekocht.", "en": "I brought the soup to a boil." },
+      { "tag": "imperativ", "de": "Koch das Wasser zuerst auf!", "en": "Bring the water to a boil first!" }
+    ]
+  },
+  {
+    "lemma": "Gewürz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "n", "plural": "Gewürze" },
+    "senses": [
+      {
+        "en": "spice, seasoning",
+        "example_de": "Welches Gewürz passt zu Fisch?",
+        "example_en": "Which spice goes well with fish?"
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Gewürze stehen neben dem Herd.", "en": "The spices are next to the stove." }
+    ]
+  },
+  {
+    "lemma": "Knoblauch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1320,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "garlic",
+        "example_de": "Ich koche gern mit viel Knoblauch.",
+        "example_en": "I like cooking with a lot of garlic."
+      }
+    ]
+  },
+  {
+    "lemma": "Backofen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1360,
+    "noun": { "gender": "m", "plural": "Backöfen" },
+    "senses": [
+      {
+        "en": "oven",
+        "example_de": "Der Kuchen ist im Backofen.",
+        "example_en": "The cake is in the oven."
+      }
+    ],
+    "examples": [
+      { "tag": "frage", "de": "Ist der Backofen schon heiß?", "en": "Is the oven hot yet?" }
+    ]
+  },
+  {
+    "lemma": "Esslöffel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": "Esslöffel" },
+    "senses": [
+      {
+        "en": "tablespoon",
+        "note": "in Rezepten abgekürzt: EL",
+        "example_de": "Gib einen Esslöffel Öl in die Pfanne.",
+        "example_en": "Put a tablespoon of oil in the pan."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich brauche zwei Esslöffel Zucker.", "en": "I need two tablespoons of sugar." }
+    ]
+  },
+  {
+    "lemma": "Teelöffel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1430,
+    "noun": { "gender": "m", "plural": "Teelöffel" },
+    "senses": [
+      {
+        "en": "teaspoon",
+        "note": "in Rezepten abgekürzt: TL",
+        "example_de": "Ein Teelöffel Salz reicht für die Suppe.",
+        "example_en": "One teaspoon of salt is enough for the soup."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Nimm zwei Teelöffel Kaffee pro Tasse.", "en": "Take two teaspoons of coffee per cup." }
+    ]
+  },
+  {
+    "lemma": "Rührei",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "n", "plural": "Rühreier" },
+    "senses": [
+      {
+        "en": "scrambled eggs",
+        "example_de": "Zum Frühstück mache ich Rührei.",
+        "example_en": "For breakfast I make scrambled eggs."
+      }
+    ]
+  },
+  {
+    "lemma": "Teig",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": { "gender": "m", "plural": "Teige" },
+    "senses": [
+      {
+        "en": "dough, batter",
+        "example_de": "Der Teig muss eine Stunde ruhen.",
+        "example_en": "The dough has to rest for an hour."
+      }
+    ],
+    "examples": [
+      { "tag": "frage", "de": "Ist der Teig schon fertig?", "en": "Is the dough ready yet?" }
+    ]
+  },
+  {
+    "lemma": "Zimt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1580,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "cinnamon",
+        "example_de": "Ich esse Milchreis mit Zimt und Zucker.",
+        "example_en": "I eat rice pudding with cinnamon and sugar."
+      }
+    ]
+  },
+  {
+    "lemma": "Mixer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1610,
+    "noun": { "gender": "m", "plural": "Mixer" },
+    "senses": [
+      {
+        "en": "blender, mixer",
+        "example_de": "Ich mache den Saft mit dem Mixer.",
+        "example_en": "I make the juice with the blender."
+      }
+    ]
+  },
+  {
+    "lemma": "Schneidebrett",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1640,
+    "noun": { "gender": "n", "plural": "Schneidebretter" },
+    "senses": [
+      {
+        "en": "cutting board",
+        "example_de": "Das Gemüse liegt auf dem Schneidebrett.",
+        "example_en": "The vegetables are on the cutting board."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wir haben Schneidebretter aus Holz.", "en": "We have wooden cutting boards." }
+    ]
+  },
+  {
+    "lemma": "Schürze",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1660,
+    "noun": { "gender": "f", "plural": "Schürzen" },
+    "senses": [
+      {
+        "en": "apron",
+        "example_de": "Beim Kochen trage ich eine Schürze.",
+        "example_en": "I wear an apron when cooking."
+      }
+    ]
+  },
+  {
+    "lemma": "Kochlöffel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1700,
+    "noun": { "gender": "m", "plural": "Kochlöffel" },
+    "senses": [
+      {
+        "en": "wooden spoon, cooking spoon",
+        "example_de": "Rühr die Soße mit dem Kochlöffel um.",
+        "example_en": "Stir the sauce with the wooden spoon."
+      }
+    ]
+  },
+  {
+    "lemma": "Zubereitung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": { "gender": "f", "plural": "Zubereitungen" },
+    "senses": [
+      {
+        "en": "preparation (of food)",
+        "note": "in Rezepten die Überschrift über den Arbeitsschritten",
+        "example_de": "Die Zubereitung dauert nur zwanzig Minuten.",
+        "example_en": "The preparation takes only twenty minutes."
+      }
+    ]
+  },
+  {
+    "lemma": "Prise",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2020,
+    "noun": { "gender": "f", "plural": "Prisen" },
+    "senses": [
+      {
+        "en": "pinch (of salt, sugar)",
+        "note": "eine Prise Salz",
+        "example_de": "Der Teig braucht eine Prise Salz.",
+        "example_en": "The dough needs a pinch of salt."
+      }
+    ]
+  },
+  {
+    "lemma": "Hefe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2120,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "yeast",
+        "example_de": "Für das Brot brauchen wir frische Hefe.",
+        "example_en": "For the bread we need fresh yeast."
+      }
+    ]
+  },
+  {
+    "lemma": "Auflauf",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "m", "plural": "Aufläufe" },
+    "senses": [
+      {
+        "en": "casserole, gratin",
+        "example_de": "Heute gibt es Auflauf mit Kartoffeln und Käse.",
+        "example_en": "Today there is a casserole with potatoes and cheese."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Aufläufe sind im Winter sehr beliebt.", "en": "Casseroles are very popular in winter." }
+    ]
+  },
+  {
+    "lemma": "Backblech",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": { "gender": "n", "plural": "Backbleche" },
+    "senses": [
+      {
+        "en": "baking tray, baking sheet",
+        "example_de": "Leg die Plätzchen auf das Backblech.",
+        "example_en": "Put the cookies on the baking tray."
+      }
+    ]
+  },
+  {
+    "lemma": "Gefrierfach",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2340,
+    "noun": { "gender": "n", "plural": "Gefrierfächer" },
+    "senses": [
+      {
+        "en": "freezer compartment",
+        "example_de": "Das Eis liegt im Gefrierfach.",
+        "example_en": "The ice cream is in the freezer compartment."
+      }
+    ]
+  },
+  {
+    "lemma": "Dosenöffner",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "m", "plural": "Dosenöffner" },
+    "senses": [
+      {
+        "en": "can opener",
+        "example_de": "Wo ist der Dosenöffner für die Tomaten?",
+        "example_en": "Where is the can opener for the tomatoes?"
+      }
+    ]
+  },
+  {
+    "lemma": "Messbecher",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": { "gender": "m", "plural": "Messbecher" },
+    "senses": [
+      {
+        "en": "measuring cup",
+        "example_de": "Miss die Milch mit dem Messbecher ab.",
+        "example_en": "Measure the milk with the measuring cup."
+      }
+    ]
+  },
+  {
+    "lemma": "Korkenzieher",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": { "gender": "m", "plural": "Korkenzieher" },
+    "senses": [
+      {
+        "en": "corkscrew",
+        "example_de": "Ohne Korkenzieher bekommen wir den Wein nicht auf.",
+        "example_en": "Without a corkscrew we can't open the wine."
+      }
+    ]
+  },
+  {
+    "lemma": "Küchenwaage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2490,
+    "noun": { "gender": "f", "plural": "Küchenwaagen" },
+    "senses": [
+      {
+        "en": "kitchen scale",
+        "example_de": "Ich wiege das Mehl mit der Küchenwaage.",
+        "example_en": "I weigh the flour with the kitchen scale."
+      }
+    ]
+  },
+  {
+    "lemma": "Schneebesen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2510,
+    "noun": { "gender": "m", "plural": "Schneebesen" },
+    "senses": [
+      {
+        "en": "whisk",
+        "example_de": "Schlag die Sahne mit dem Schneebesen.",
+        "example_en": "Whip the cream with the whisk."
+      }
+    ]
+  },
+  {
+    "lemma": "Topflappen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2550,
+    "noun": { "gender": "m", "plural": "Topflappen" },
+    "senses": [
+      {
+        "en": "pot holder, oven cloth",
+        "example_de": "Nimm einen Topflappen, der Topf ist heiß!",
+        "example_en": "Use a pot holder, the pot is hot!"
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Topflappen hängen neben dem Herd.", "en": "The pot holders hang next to the stove." }
+    ]
+  },
+  {
+    "lemma": "Kelle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2580,
+    "noun": { "gender": "f", "plural": "Kellen" },
+    "senses": [
+      {
+        "en": "ladle",
+        "note": "auch: Suppenkelle",
+        "example_de": "Sie füllt die Suppe mit der Kelle auf.",
+        "example_en": "She serves the soup with the ladle."
+      }
+    ]
+  },
+  {
+    "lemma": "Reibe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2600,
+    "noun": { "gender": "f", "plural": "Reiben" },
+    "senses": [
+      {
+        "en": "grater",
+        "example_de": "Ich reibe den Käse mit der Reibe.",
+        "example_en": "I grate the cheese with the grater."
+      }
+    ]
+  },
+  {
+    "lemma": "Nudelholz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2590,
+    "noun": { "gender": "n", "plural": "Nudelhölzer" },
+    "senses": [
+      {
+        "en": "rolling pin",
+        "example_de": "Roll den Teig mit dem Nudelholz aus.",
+        "example_en": "Roll out the dough with the rolling pin."
+      }
+    ]
+  },
+  {
+    "lemma": "Konsistenz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2570,
+    "noun": { "gender": "f", "plural": "Konsistenzen" },
+    "senses": [
+      {
+        "en": "consistency, texture",
+        "example_de": "Der Teig hat jetzt die richtige Konsistenz.",
+        "example_en": "The dough now has the right consistency."
+      }
+    ]
+  },
+  {
+    "lemma": "cremig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2160,
+    "senses": [
+      {
+        "en": "creamy",
+        "example_de": "Die Suppe ist schön cremig.",
+        "example_en": "The soup is nice and creamy."
+      }
+    ],
+    "examples": [
+      { "tag": "komparativ", "de": "Mit Sahne wird die Soße noch cremiger.", "en": "With cream the sauce becomes even creamier." }
+    ]
+  },
+  {
+    "lemma": "gar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2260,
+    "senses": [
+      {
+        "en": "done, cooked through",
+        "note": "meist prädikativ: Das Gemüse ist gar.",
+        "example_de": "Die Kartoffeln sind noch nicht gar.",
+        "example_en": "The potatoes are not done yet."
+      }
+    ],
+    "examples": [
+      { "tag": "frage", "de": "Ist der Reis schon gar?", "en": "Is the rice done yet?" }
+    ]
+  }
+]

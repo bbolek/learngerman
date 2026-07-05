@@ -1,0 +1,1278 @@
+[
+  {
+    "lemma": "Igel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1320,
+    "noun": {
+      "gender": "m",
+      "plural": "Igel"
+    },
+    "senses": [
+      {
+        "en": "hedgehog",
+        "example_de": "Der Igel schläft den ganzen Winter.",
+        "example_en": "The hedgehog sleeps all winter."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In unserem Garten leben zwei Igel.",
+        "en": "Two hedgehogs live in our garden."
+      }
+    ]
+  },
+  {
+    "lemma": "Eichhörnchen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1335,
+    "noun": {
+      "gender": "n",
+      "plural": "Eichhörnchen"
+    },
+    "senses": [
+      {
+        "en": "squirrel",
+        "example_de": "Das Eichhörnchen sucht Nüsse im Park.",
+        "example_en": "The squirrel is looking for nuts in the park."
+      }
+    ]
+  },
+  {
+    "lemma": "Biene",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1310,
+    "noun": {
+      "gender": "f",
+      "plural": "Bienen"
+    },
+    "senses": [
+      {
+        "en": "bee",
+        "example_de": "Die Biene fliegt von Blume zu Blume.",
+        "example_en": "The bee flies from flower to flower."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Bienen machen Honig.",
+        "en": "Bees make honey."
+      }
+    ]
+  },
+  {
+    "lemma": "Wespe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1905,
+    "noun": {
+      "gender": "f",
+      "plural": "Wespen"
+    },
+    "senses": [
+      {
+        "en": "wasp",
+        "example_de": "Eine Wespe sitzt auf dem Kuchen.",
+        "example_en": "A wasp is sitting on the cake."
+      }
+    ]
+  },
+  {
+    "lemma": "Ameise",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "f",
+      "plural": "Ameisen"
+    },
+    "senses": [
+      {
+        "en": "ant",
+        "example_de": "Die Ameise trägt ein Stück Brot.",
+        "example_en": "The ant is carrying a piece of bread."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ameisen sind klein, aber sehr stark.",
+        "en": "Ants are small but very strong."
+      }
+    ]
+  },
+  {
+    "lemma": "Mücke",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": {
+      "gender": "f",
+      "plural": "Mücken"
+    },
+    "senses": [
+      {
+        "en": "mosquito",
+        "example_de": "Eine Mücke fliegt durch das Zimmer.",
+        "example_en": "A mosquito is flying through the room."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Am See gibt es viele Mücken.",
+        "en": "There are many mosquitoes at the lake."
+      }
+    ]
+  },
+  {
+    "lemma": "Käfer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1395,
+    "noun": {
+      "gender": "m",
+      "plural": "Käfer"
+    },
+    "senses": [
+      {
+        "en": "beetle, bug",
+        "example_de": "Ein kleiner Käfer sitzt auf dem Blatt.",
+        "example_en": "A small beetle is sitting on the leaf."
+      }
+    ]
+  },
+  {
+    "lemma": "Schnecke",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1365,
+    "noun": {
+      "gender": "f",
+      "plural": "Schnecken"
+    },
+    "senses": [
+      {
+        "en": "snail, slug",
+        "example_de": "Die Schnecke ist sehr langsam.",
+        "example_en": "The snail is very slow."
+      }
+    ]
+  },
+  {
+    "lemma": "Wurm",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1380,
+    "noun": {
+      "gender": "m",
+      "plural": "Würmer"
+    },
+    "senses": [
+      {
+        "en": "worm",
+        "example_de": "Der Vogel frisst einen Wurm.",
+        "example_en": "The bird is eating a worm."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Würmer leben in der Erde.",
+        "en": "Worms live in the soil."
+      }
+    ]
+  },
+  {
+    "lemma": "Adler",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1940,
+    "noun": {
+      "gender": "m",
+      "plural": "Adler"
+    },
+    "senses": [
+      {
+        "en": "eagle",
+        "example_de": "Der Adler fliegt hoch über den Bergen.",
+        "example_en": "The eagle flies high above the mountains."
+      }
+    ]
+  },
+  {
+    "lemma": "Eule",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1410,
+    "noun": {
+      "gender": "f",
+      "plural": "Eulen"
+    },
+    "senses": [
+      {
+        "en": "owl",
+        "example_de": "Die Eule jagt in der Nacht.",
+        "example_en": "The owl hunts at night."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Eulen können sehr gut sehen.",
+        "en": "Owls can see very well."
+      }
+    ]
+  },
+  {
+    "lemma": "Krähe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1960,
+    "noun": {
+      "gender": "f",
+      "plural": "Krähen"
+    },
+    "senses": [
+      {
+        "en": "crow",
+        "example_de": "Eine schwarze Krähe sitzt auf dem Dach.",
+        "example_en": "A black crow is sitting on the roof."
+      }
+    ]
+  },
+  {
+    "lemma": "Spatz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": {
+      "gender": "m",
+      "plural": "Spatzen",
+      "genitive": "Spatzen"
+    },
+    "senses": [
+      {
+        "en": "sparrow",
+        "note": "schwaches Maskulinum: den/dem/des Spatzen",
+        "example_de": "Ein Spatz sitzt auf dem Balkon.",
+        "example_en": "A sparrow is sitting on the balcony."
+      }
+    ]
+  },
+  {
+    "lemma": "Schwan",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1425,
+    "noun": {
+      "gender": "m",
+      "plural": "Schwäne"
+    },
+    "senses": [
+      {
+        "en": "swan",
+        "example_de": "Ein weißer Schwan schwimmt auf dem See.",
+        "example_en": "A white swan is swimming on the lake."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Schwäne sind große weiße Vögel.",
+        "en": "Swans are big white birds."
+      }
+    ]
+  },
+  {
+    "lemma": "Storch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": {
+      "gender": "m",
+      "plural": "Störche"
+    },
+    "senses": [
+      {
+        "en": "stork",
+        "example_de": "Der Storch steht im flachen Wasser.",
+        "example_en": "The stork is standing in the shallow water."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Herbst fliegen die Störche nach Süden.",
+        "en": "In autumn the storks fly south."
+      }
+    ]
+  },
+  {
+    "lemma": "Möwe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2020,
+    "noun": {
+      "gender": "f",
+      "plural": "Möwen"
+    },
+    "senses": [
+      {
+        "en": "seagull",
+        "example_de": "Die Möwe fliegt über das Meer.",
+        "example_en": "The seagull is flying over the sea."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Am Strand gibt es viele Möwen.",
+        "en": "There are many seagulls on the beach."
+      }
+    ]
+  },
+  {
+    "lemma": "Reh",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": {
+      "gender": "n",
+      "plural": "Rehe"
+    },
+    "senses": [
+      {
+        "en": "deer, roe deer",
+        "example_de": "Ein Reh steht am Rand des Waldes.",
+        "example_en": "A deer is standing at the edge of the forest."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Am frühen Morgen sieht man oft Rehe.",
+        "en": "In the early morning you often see deer."
+      }
+    ]
+  },
+  {
+    "lemma": "Hirsch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2060,
+    "noun": {
+      "gender": "m",
+      "plural": "Hirsche"
+    },
+    "senses": [
+      {
+        "en": "stag, red deer",
+        "example_de": "Der Hirsch lebt tief im Wald.",
+        "example_en": "The stag lives deep in the forest."
+      }
+    ]
+  },
+  {
+    "lemma": "Wildschwein",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2080,
+    "noun": {
+      "gender": "n",
+      "plural": "Wildschweine"
+    },
+    "senses": [
+      {
+        "en": "wild boar",
+        "example_de": "Ein Wildschwein sucht Essen im Wald.",
+        "example_en": "A wild boar is looking for food in the forest."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wildschweine kommen manchmal in die Stadt.",
+        "en": "Wild boars sometimes come into the city."
+      }
+    ]
+  },
+  {
+    "lemma": "Kaninchen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1440,
+    "noun": {
+      "gender": "n",
+      "plural": "Kaninchen"
+    },
+    "senses": [
+      {
+        "en": "rabbit",
+        "example_de": "Das Kaninchen frisst gern Karotten.",
+        "example_en": "The rabbit likes to eat carrots."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Kinder haben zwei Kaninchen.",
+        "en": "The children have two rabbits."
+      }
+    ]
+  },
+  {
+    "lemma": "Ratte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1455,
+    "noun": {
+      "gender": "f",
+      "plural": "Ratten"
+    },
+    "senses": [
+      {
+        "en": "rat",
+        "example_de": "Eine Ratte lebt im alten Keller.",
+        "example_en": "A rat lives in the old cellar."
+      }
+    ]
+  },
+  {
+    "lemma": "Fledermaus",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "f",
+      "plural": "Fledermäuse"
+    },
+    "senses": [
+      {
+        "en": "bat",
+        "example_de": "Die Fledermaus fliegt nur nachts.",
+        "example_en": "The bat only flies at night."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Fledermäuse schlafen am Tag.",
+        "en": "Bats sleep during the day."
+      }
+    ]
+  },
+  {
+    "lemma": "Wal",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2120,
+    "noun": {
+      "gender": "m",
+      "plural": "Wale"
+    },
+    "senses": [
+      {
+        "en": "whale",
+        "example_de": "Der Wal ist das größte Tier der Welt.",
+        "example_en": "The whale is the biggest animal in the world."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wale sind keine Fische.",
+        "en": "Whales are not fish."
+      }
+    ]
+  },
+  {
+    "lemma": "Hai",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2140,
+    "noun": {
+      "gender": "m",
+      "plural": "Haie"
+    },
+    "senses": [
+      {
+        "en": "shark",
+        "example_de": "Der Hai lebt im tiefen Meer.",
+        "example_en": "The shark lives in the deep sea."
+      }
+    ]
+  },
+  {
+    "lemma": "Muschel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": {
+      "gender": "f",
+      "plural": "Muscheln"
+    },
+    "senses": [
+      {
+        "en": "mussel, seashell",
+        "example_de": "Ich finde eine schöne Muschel am Strand.",
+        "example_en": "I find a beautiful seashell on the beach."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Kinder sammeln Muscheln am Meer.",
+        "en": "The children are collecting seashells by the sea."
+      }
+    ]
+  },
+  {
+    "lemma": "Feder",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1470,
+    "noun": {
+      "gender": "f",
+      "plural": "Federn"
+    },
+    "senses": [
+      {
+        "en": "feather",
+        "example_de": "Der Vogel verliert eine Feder.",
+        "example_en": "The bird is losing a feather."
+      },
+      {
+        "en": "spring (metal coil)",
+        "note": "z. B. in einer Matratze"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Federn sind sehr leicht.",
+        "en": "Feathers are very light."
+      }
+    ]
+  },
+  {
+    "lemma": "Fell",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1485,
+    "noun": {
+      "gender": "n",
+      "plural": "Felle"
+    },
+    "senses": [
+      {
+        "en": "fur, coat (of an animal)",
+        "example_de": "Die Katze hat ein weiches Fell.",
+        "example_en": "The cat has soft fur."
+      }
+    ]
+  },
+  {
+    "lemma": "Schnabel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2180,
+    "noun": {
+      "gender": "m",
+      "plural": "Schnäbel"
+    },
+    "senses": [
+      {
+        "en": "beak, bill",
+        "example_de": "Der Vogel hat einen gelben Schnabel.",
+        "example_en": "The bird has a yellow beak."
+      }
+    ]
+  },
+  {
+    "lemma": "Flügel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": {
+      "gender": "m",
+      "plural": "Flügel"
+    },
+    "senses": [
+      {
+        "en": "wing",
+        "example_de": "Der Schmetterling hat bunte Flügel.",
+        "example_en": "The butterfly has colorful wings."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Flügel des Adlers sind sehr groß.",
+        "en": "The eagle's wings are very big."
+      }
+    ]
+  },
+  {
+    "lemma": "Schwanz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1515,
+    "noun": {
+      "gender": "m",
+      "plural": "Schwänze"
+    },
+    "senses": [
+      {
+        "en": "tail",
+        "example_de": "Die Katze bewegt ihren Schwanz.",
+        "example_en": "The cat is moving its tail."
+      }
+    ]
+  },
+  {
+    "lemma": "Pfote",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": {
+      "gender": "f",
+      "plural": "Pfoten"
+    },
+    "senses": [
+      {
+        "en": "paw",
+        "example_de": "Der Hund gibt mir die Pfote.",
+        "example_en": "The dog gives me its paw."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Katze hat weiche Pfoten.",
+        "en": "The cat has soft paws."
+      }
+    ]
+  },
+  {
+    "lemma": "Nest",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1530,
+    "noun": {
+      "gender": "n",
+      "plural": "Nester"
+    },
+    "senses": [
+      {
+        "en": "nest",
+        "example_de": "Der Vogel baut ein Nest im Baum.",
+        "example_en": "The bird is building a nest in the tree."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Frühling bauen die Vögel ihre Nester.",
+        "en": "In spring the birds build their nests."
+      }
+    ]
+  },
+  {
+    "lemma": "Beute",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2220,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "prey",
+        "example_de": "Die Katze bringt ihre Beute nach Hause.",
+        "example_en": "The cat brings its prey home."
+      },
+      {
+        "en": "loot, haul",
+        "note": "bei Dieben: die gestohlenen Sachen"
+      }
+    ]
+  },
+  {
+    "lemma": "Raubtier",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2240,
+    "noun": {
+      "gender": "n",
+      "plural": "Raubtiere"
+    },
+    "senses": [
+      {
+        "en": "predator, beast of prey",
+        "example_de": "Der Wolf ist ein Raubtier.",
+        "example_en": "The wolf is a predator."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Raubtiere jagen andere Tiere.",
+        "en": "Predators hunt other animals."
+      }
+    ]
+  },
+  {
+    "lemma": "Säugetier",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2260,
+    "noun": {
+      "gender": "n",
+      "plural": "Säugetiere"
+    },
+    "senses": [
+      {
+        "en": "mammal",
+        "example_de": "Der Wal ist ein Säugetier.",
+        "example_en": "The whale is a mammal."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Säugetiere trinken als Babys Milch.",
+        "en": "Mammals drink milk as babies."
+      }
+    ]
+  },
+  {
+    "lemma": "jagen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1650,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to hunt, to chase",
+        "example_de": "Die Katze jagt eine Maus.",
+        "example_en": "The cat is chasing a mouse."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Wolf jagt in der Nacht.",
+        "en": "The wolf hunts at night."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Früher jagten die Menschen wilde Tiere.",
+        "en": "In the past, people hunted wild animals."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Katze hat einen Vogel gejagt.",
+        "en": "The cat chased a bird."
+      }
+    ]
+  },
+  {
+    "lemma": "brüten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to brood, to sit on eggs",
+        "example_de": "Der Vogel brütet in seinem Nest.",
+        "example_en": "The bird is brooding in its nest."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Schwan brütet am See.",
+        "en": "The swan is brooding by the lake."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Eule brütete im alten Baum.",
+        "en": "The owl brooded in the old tree."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Storch hat vier Wochen gebrütet.",
+        "en": "The stork brooded for four weeks."
+      }
+    ]
+  },
+  {
+    "lemma": "zähmen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to tame",
+        "example_de": "Man kann einen Wolf nur schwer zähmen.",
+        "example_en": "It is hard to tame a wolf."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er zähmt das junge Pferd.",
+        "en": "He is taming the young horse."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Menschen zähmten früher wilde Katzen.",
+        "en": "People tamed wild cats long ago."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat den Vogel gezähmt.",
+        "en": "She has tamed the bird."
+      }
+    ]
+  },
+  {
+    "lemma": "stechen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2320,
+    "verb": {
+      "aux": "haben",
+      "du": "stichst",
+      "er": "sticht",
+      "praeteritum": "stach",
+      "partizip2": "gestochen"
+    },
+    "senses": [
+      {
+        "en": "to sting, to prick",
+        "example_de": "Die Wespe sticht, wenn sie Angst hat.",
+        "example_en": "The wasp stings when it is afraid."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Eine Mücke sticht mich in den Arm.",
+        "en": "A mosquito is stinging me in the arm."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Biene stach den Hund.",
+        "en": "The bee stung the dog."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Eine Wespe hat mich gestochen.",
+        "en": "A wasp stung me."
+      }
+    ]
+  },
+  {
+    "lemma": "kriechen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2340,
+    "verb": {
+      "aux": "sein",
+      "praeteritum": "kroch",
+      "partizip2": "gekrochen"
+    },
+    "senses": [
+      {
+        "en": "to crawl, to creep",
+        "example_de": "Die Schnecke kriecht über den Weg.",
+        "example_en": "The snail is crawling across the path."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Käfer kriecht unter das Blatt.",
+        "en": "The beetle is crawling under the leaf."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Wurm kroch durch die Erde.",
+        "en": "The worm crawled through the soil."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Baby ist durch das Zimmer gekrochen.",
+        "en": "The baby crawled through the room."
+      }
+    ]
+  },
+  {
+    "lemma": "Wiese",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1545,
+    "noun": {
+      "gender": "f",
+      "plural": "Wiesen"
+    },
+    "senses": [
+      {
+        "en": "meadow",
+        "example_de": "Die Kinder spielen auf der Wiese.",
+        "example_en": "The children are playing in the meadow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Frühling sind die Wiesen voller Blumen.",
+        "en": "In spring the meadows are full of flowers."
+      }
+    ]
+  },
+  {
+    "lemma": "Bach",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": {
+      "gender": "m",
+      "plural": "Bäche"
+    },
+    "senses": [
+      {
+        "en": "stream, brook",
+        "example_de": "Ein kleiner Bach fließt durch das Dorf.",
+        "example_en": "A small stream flows through the village."
+      }
+    ]
+  },
+  {
+    "lemma": "Gipfel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2360,
+    "noun": {
+      "gender": "m",
+      "plural": "Gipfel"
+    },
+    "senses": [
+      {
+        "en": "summit, peak",
+        "example_de": "Wir erreichen den Gipfel am Mittag.",
+        "example_en": "We reach the summit at noon."
+      },
+      {
+        "en": "summit (political meeting)",
+        "note": "z. B. ein Treffen von Politikern"
+      }
+    ]
+  },
+  {
+    "lemma": "Tal",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1590,
+    "noun": {
+      "gender": "n",
+      "plural": "Täler"
+    },
+    "senses": [
+      {
+        "en": "valley",
+        "example_de": "Das Dorf liegt in einem grünen Tal.",
+        "example_en": "The village lies in a green valley."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Zwischen den Bergen liegen tiefe Täler.",
+        "en": "Deep valleys lie between the mountains."
+      }
+    ]
+  },
+  {
+    "lemma": "Hügel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1575,
+    "noun": {
+      "gender": "m",
+      "plural": "Hügel"
+    },
+    "senses": [
+      {
+        "en": "hill",
+        "example_de": "Hinter dem Haus ist ein kleiner Hügel.",
+        "example_en": "Behind the house there is a small hill."
+      }
+    ]
+  },
+  {
+    "lemma": "Felsen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2380,
+    "noun": {
+      "gender": "m",
+      "plural": "Felsen"
+    },
+    "senses": [
+      {
+        "en": "rock, cliff",
+        "example_de": "Wir sitzen auf einem großen Felsen.",
+        "example_en": "We are sitting on a big rock."
+      }
+    ]
+  },
+  {
+    "lemma": "Höhle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": {
+      "gender": "f",
+      "plural": "Höhlen"
+    },
+    "senses": [
+      {
+        "en": "cave",
+        "example_de": "In der Höhle ist es dunkel und kalt.",
+        "example_en": "It is dark and cold in the cave."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Fledermäuse leben oft in Höhlen.",
+        "en": "Bats often live in caves."
+      }
+    ]
+  },
+  {
+    "lemma": "Sturm",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1605,
+    "noun": {
+      "gender": "m",
+      "plural": "Stürme"
+    },
+    "senses": [
+      {
+        "en": "storm, gale",
+        "example_de": "Heute Nacht kommt ein starker Sturm.",
+        "example_en": "A strong storm is coming tonight."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Herbst gibt es oft Stürme.",
+        "en": "In autumn there are often storms."
+      }
+    ]
+  },
+  {
+    "lemma": "Frost",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2420,
+    "noun": {
+      "gender": "m",
+      "plural": "Fröste"
+    },
+    "senses": [
+      {
+        "en": "frost",
+        "example_de": "Heute Nacht gibt es Frost.",
+        "example_en": "There will be frost tonight."
+      }
+    ]
+  },
+  {
+    "lemma": "Dämmerung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2440,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "dusk, twilight, dawn",
+        "example_de": "In der Dämmerung wird es langsam dunkel.",
+        "example_en": "At dusk it slowly gets dark."
+      }
+    ]
+  },
+  {
+    "lemma": "Laub",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2460,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "foliage, fallen leaves",
+        "note": "kein Plural",
+        "example_de": "Im Herbst liegt buntes Laub auf der Straße.",
+        "example_en": "In autumn colorful leaves lie on the street."
+      }
+    ]
+  },
+  {
+    "lemma": "Zweig",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2480,
+    "noun": {
+      "gender": "m",
+      "plural": "Zweige"
+    },
+    "senses": [
+      {
+        "en": "twig, branch",
+        "example_de": "Ein Vogel sitzt auf dem dünnen Zweig.",
+        "example_en": "A bird is sitting on the thin twig."
+      }
+    ]
+  },
+  {
+    "lemma": "Blüte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": {
+      "gender": "f",
+      "plural": "Blüten"
+    },
+    "senses": [
+      {
+        "en": "blossom, bloom",
+        "example_de": "Die Blüte des Apfelbaums ist weiß.",
+        "example_en": "The apple tree's blossom is white."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Mai hat der Baum viele Blüten.",
+        "en": "In May the tree has many blossoms."
+      }
+    ]
+  },
+  {
+    "lemma": "Küste",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1620,
+    "noun": {
+      "gender": "f",
+      "plural": "Küsten"
+    },
+    "senses": [
+      {
+        "en": "coast, shore",
+        "example_de": "Wir machen Urlaub an der Küste.",
+        "example_en": "We are on vacation at the coast."
+      }
+    ]
+  },
+  {
+    "lemma": "Gletscher",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2520,
+    "noun": {
+      "gender": "m",
+      "plural": "Gletscher"
+    },
+    "senses": [
+      {
+        "en": "glacier",
+        "example_de": "Der Gletscher wird jedes Jahr kleiner.",
+        "example_en": "The glacier gets smaller every year."
+      }
+    ]
+  },
+  {
+    "lemma": "Lawine",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2540,
+    "noun": {
+      "gender": "f",
+      "plural": "Lawinen"
+    },
+    "senses": [
+      {
+        "en": "avalanche",
+        "example_de": "Die Lawine kommt schnell den Berg herunter.",
+        "example_en": "The avalanche comes down the mountain fast."
+      }
+    ]
+  },
+  {
+    "lemma": "Vulkan",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2560,
+    "noun": {
+      "gender": "m",
+      "plural": "Vulkane"
+    },
+    "senses": [
+      {
+        "en": "volcano",
+        "example_de": "Der Vulkan ist seit vielen Jahren ruhig.",
+        "example_en": "The volcano has been quiet for many years."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Auf der Insel gibt es drei Vulkane.",
+        "en": "There are three volcanoes on the island."
+      }
+    ]
+  },
+  {
+    "lemma": "Regenbogen",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1635,
+    "noun": {
+      "gender": "m",
+      "plural": "Regenbogen"
+    },
+    "senses": [
+      {
+        "en": "rainbow",
+        "example_de": "Nach dem Regen sehen wir einen Regenbogen.",
+        "example_en": "After the rain we see a rainbow."
+      }
+    ]
+  }
+]

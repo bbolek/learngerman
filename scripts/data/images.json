@@ -5,9 +5,19 @@
     "emoji": "🌆"
   },
   {
+    "lemma": "Adler",
+    "pos": "noun",
+    "emoji": "🦅"
+  },
+  {
     "lemma": "Affe",
     "pos": "noun",
     "emoji": "🐒"
+  },
+  {
+    "lemma": "Ameise",
+    "pos": "noun",
+    "emoji": "🐜"
   },
   {
     "lemma": "Ampel",
@@ -160,6 +170,11 @@
     "emoji": "📚"
   },
   {
+    "lemma": "Biene",
+    "pos": "noun",
+    "emoji": "🐝"
+  },
+  {
     "lemma": "Bier",
     "pos": "noun",
     "emoji": "🍺"
@@ -193,6 +208,11 @@
     "lemma": "Blume",
     "pos": "noun",
     "emoji": "🌷"
+  },
+  {
+    "lemma": "Blüte",
+    "pos": "noun",
+    "emoji": "🌸"
   },
   {
     "lemma": "Blutspende",
@@ -326,6 +346,11 @@
     "emoji": "🥚"
   },
   {
+    "lemma": "Eichhörnchen",
+    "pos": "noun",
+    "emoji": "🐿️"
+  },
+  {
     "lemma": "Eimer",
     "pos": "noun",
     "emoji": "🪣"
@@ -354,6 +379,11 @@
     "lemma": "Erdbeere",
     "pos": "noun",
     "emoji": "🍓"
+  },
+  {
+    "lemma": "Eule",
+    "pos": "noun",
+    "emoji": "🦉"
   },
   {
     "lemma": "Euro",
@@ -399,6 +429,11 @@
     "lemma": "Fax",
     "pos": "noun",
     "emoji": "📠"
+  },
+  {
+    "lemma": "Feder",
+    "pos": "noun",
+    "emoji": "🪶"
   },
   {
     "lemma": "Feld",
@@ -459,6 +494,11 @@
     "lemma": "Fisch",
     "pos": "noun",
     "emoji": "🐟"
+  },
+  {
+    "lemma": "Fledermaus",
+    "pos": "noun",
+    "emoji": "🦇"
   },
   {
     "lemma": "Fleisch",
@@ -646,6 +686,11 @@
     "emoji": "🍗"
   },
   {
+    "lemma": "Hai",
+    "pos": "noun",
+    "emoji": "🦈"
+  },
+  {
     "lemma": "Haltestelle",
     "pos": "noun",
     "emoji": "🚏"
@@ -712,6 +757,11 @@
     "emoji": "🆘"
   },
   {
+    "lemma": "Hirsch",
+    "pos": "noun",
+    "emoji": "🦌"
+  },
+  {
     "lemma": "Hochzeit",
     "pos": "noun",
     "emoji": "💒"
@@ -752,6 +802,11 @@
     "emoji": "💭"
   },
   {
+    "lemma": "Igel",
+    "pos": "noun",
+    "emoji": "🦔"
+  },
+  {
     "lemma": "Infusion",
     "pos": "noun",
     "icon": "filled/devices/intravenous_bag",
@@ -776,6 +831,11 @@
     "lemma": "Junge",
     "pos": "noun",
     "emoji": "👦"
+  },
+  {
+    "lemma": "Käfer",
+    "pos": "noun",
+    "emoji": "🪲"
   },
   {
     "lemma": "Kaffee",
@@ -867,6 +927,11 @@
     "pos": "noun",
     "icon": "filled/places/ambulatory_clinic",
     "source": "healthicons"
+  },
+  {
+    "lemma": "Knoblauch",
+    "pos": "noun",
+    "emoji": "🧄"
   },
   {
     "lemma": "Knochen",
@@ -1076,6 +1141,11 @@
     "emoji": "🏍️"
   },
   {
+    "lemma": "Mücke",
+    "pos": "noun",
+    "emoji": "🦟"
+  },
+  {
     "lemma": "Mülleimer",
     "pos": "noun",
     "emoji": "🗑️"
@@ -1089,6 +1159,11 @@
     "lemma": "Münze",
     "pos": "noun",
     "emoji": "🪙"
+  },
+  {
+    "lemma": "Muschel",
+    "pos": "noun",
+    "emoji": "🐚"
   },
   {
     "lemma": "Museum",
@@ -1129,6 +1204,11 @@
     "lemma": "Nebel",
     "pos": "noun",
     "emoji": "🌫️"
+  },
+  {
+    "lemma": "Nest",
+    "pos": "noun",
+    "emoji": "🪺"
   },
   {
     "lemma": "Nikolaus",
@@ -1293,6 +1373,11 @@
     "emoji": "📻"
   },
   {
+    "lemma": "Ratte",
+    "pos": "noun",
+    "emoji": "🐀"
+  },
+  {
     "lemma": "Recycling",
     "pos": "noun",
     "emoji": "♻️"
@@ -1301,6 +1386,11 @@
     "lemma": "Regen",
     "pos": "noun",
     "emoji": "🌧️"
+  },
+  {
+    "lemma": "Regenbogen",
+    "pos": "noun",
+    "emoji": "🌈"
   },
   {
     "lemma": "Regenschirm",
@@ -1424,6 +1514,11 @@
     "emoji": "💎"
   },
   {
+    "lemma": "Schnecke",
+    "pos": "noun",
+    "emoji": "🐌"
+  },
+  {
     "lemma": "Schnee",
     "pos": "noun",
     "emoji": "❄️"
@@ -1447,6 +1542,11 @@
     "lemma": "Schüssel",
     "pos": "noun",
     "emoji": "🥣"
+  },
+  {
+    "lemma": "Schwan",
+    "pos": "noun",
+    "emoji": "🦢"
   },
   {
     "lemma": "Schwein",
@@ -1730,9 +1830,19 @@
     "emoji": "🐦"
   },
   {
+    "lemma": "Vulkan",
+    "pos": "noun",
+    "emoji": "🌋"
+  },
+  {
     "lemma": "Wahl",
     "pos": "noun",
     "emoji": "🗳️"
+  },
+  {
+    "lemma": "Wal",
+    "pos": "noun",
+    "emoji": "🐳"
   },
   {
     "lemma": "Wald",
@@ -1781,6 +1891,11 @@
     "source": "healthicons"
   },
   {
+    "lemma": "Wildschwein",
+    "pos": "noun",
+    "emoji": "🐗"
+  },
+  {
     "lemma": "Wind",
     "pos": "noun",
     "emoji": "💨"
@@ -1799,6 +1914,11 @@
     "lemma": "Witz",
     "pos": "noun",
     "emoji": "😂"
+  },
+  {
+    "lemma": "Wurm",
+    "pos": "noun",
+    "emoji": "🪱"
   },
   {
     "lemma": "Wurst",

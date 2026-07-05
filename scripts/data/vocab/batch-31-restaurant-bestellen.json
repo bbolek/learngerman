@@ -1,0 +1,1066 @@
+[
+  {
+    "lemma": "Bedienung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": {
+      "gender": "f",
+      "plural": "Bedienungen"
+    },
+    "senses": [
+      {
+        "en": "service (in a restaurant)",
+        "example_de": "Die Bedienung hier ist schnell und freundlich.",
+        "example_en": "The service here is fast and friendly."
+      },
+      {
+        "en": "waiter, waitress (server)",
+        "note": "auch als Anrede: „Bedienung, bitte!“"
+      }
+    ]
+  },
+  {
+    "lemma": "Trinkgeld",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1310,
+    "noun": {
+      "gender": "n",
+      "plural": "Trinkgelder"
+    },
+    "senses": [
+      {
+        "en": "tip (money for service)",
+        "note": "in Deutschland: ca. 5–10 %",
+        "example_de": "Wir geben dem Kellner zwei Euro Trinkgeld.",
+        "example_en": "We give the waiter a two-euro tip."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorspeise",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1320,
+    "noun": {
+      "gender": "f",
+      "plural": "Vorspeisen"
+    },
+    "senses": [
+      {
+        "en": "starter, appetizer",
+        "example_de": "Als Vorspeise nehme ich die Suppe.",
+        "example_en": "As a starter I'll have the soup."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Vorspeisen kommen zuerst auf den Tisch.",
+        "en": "The starters come to the table first."
+      }
+    ]
+  },
+  {
+    "lemma": "Hauptgericht",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1330,
+    "noun": {
+      "gender": "n",
+      "plural": "Hauptgerichte"
+    },
+    "senses": [
+      {
+        "en": "main course, main dish",
+        "example_de": "Das Hauptgericht kommt nach der Suppe.",
+        "example_en": "The main course comes after the soup."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Hauptgerichte kommen mit Salat.",
+        "en": "All main courses come with salad."
+      }
+    ]
+  },
+  {
+    "lemma": "Nachspeise",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1340,
+    "noun": {
+      "gender": "f",
+      "plural": "Nachspeisen"
+    },
+    "senses": [
+      {
+        "en": "dessert",
+        "note": "auch: der Nachtisch",
+        "example_de": "Als Nachspeise gibt es heute Eis.",
+        "example_en": "Today there is ice cream for dessert."
+      }
+    ]
+  },
+  {
+    "lemma": "Beilage",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": {
+      "gender": "f",
+      "plural": "Beilagen"
+    },
+    "senses": [
+      {
+        "en": "side dish",
+        "example_de": "Welche Beilage möchten Sie zum Fisch?",
+        "example_en": "Which side dish would you like with the fish?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Reis und Salat sind beliebte Beilagen.",
+        "en": "Rice and salad are popular side dishes."
+      }
+    ]
+  },
+  {
+    "lemma": "Getränkekarte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1360,
+    "noun": {
+      "gender": "f",
+      "plural": "Getränkekarten"
+    },
+    "senses": [
+      {
+        "en": "drinks menu",
+        "example_de": "Die Getränkekarte liegt auf dem Tisch.",
+        "example_en": "The drinks menu is on the table."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "frage",
+        "de": "Kann ich bitte die Getränkekarte sehen?",
+        "en": "May I see the drinks menu, please?"
+      }
+    ]
+  },
+  {
+    "lemma": "Reservierung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1370,
+    "noun": {
+      "gender": "f",
+      "plural": "Reservierungen"
+    },
+    "senses": [
+      {
+        "en": "reservation, booking",
+        "example_de": "Ich habe eine Reservierung für zwei Personen.",
+        "example_en": "I have a reservation for two people."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Am Samstag haben wir viele Reservierungen.",
+        "en": "On Saturday we have many reservations."
+      }
+    ]
+  },
+  {
+    "lemma": "Empfehlung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1380,
+    "noun": {
+      "gender": "f",
+      "plural": "Empfehlungen"
+    },
+    "senses": [
+      {
+        "en": "recommendation",
+        "example_de": "Die Empfehlung des Kellners war sehr gut.",
+        "example_en": "The waiter's recommendation was very good."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Haben Sie Empfehlungen für uns?",
+        "en": "Do you have recommendations for us?"
+      }
+    ]
+  },
+  {
+    "lemma": "bedienen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1390,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "bedient"
+    },
+    "senses": [
+      {
+        "en": "to serve, to wait on (someone)",
+        "example_de": "Die Kellnerin bedient uns sehr freundlich.",
+        "example_en": "The waitress serves us very kindly."
+      },
+      {
+        "en": "to operate (a machine, device)"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er bedient die Gäste an der Theke.",
+        "en": "He serves the guests at the counter."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie bediente den Tisch am Fenster.",
+        "en": "She waited on the table by the window."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat uns schnell bedient.",
+        "en": "We were served quickly."
+      }
+    ]
+  },
+  {
+    "lemma": "Geschmack",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": {
+      "gender": "m",
+      "plural": "Geschmäcker"
+    },
+    "senses": [
+      {
+        "en": "taste, flavor",
+        "example_de": "Die Suppe hat einen guten Geschmack.",
+        "example_en": "The soup has a good taste."
+      }
+    ]
+  },
+  {
+    "lemma": "Appetit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1410,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "appetite",
+        "note": "Guten Appetit! = enjoy your meal",
+        "example_de": "Ich habe heute großen Appetit.",
+        "example_en": "I have a big appetite today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Guten Appetit, liebe Gäste!",
+        "en": "Enjoy your meal, dear guests!"
+      }
+    ]
+  },
+  {
+    "lemma": "Speise",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1420,
+    "noun": {
+      "gender": "f",
+      "plural": "Speisen"
+    },
+    "senses": [
+      {
+        "en": "dish, food (formal)",
+        "example_de": "Diese Speise kommt aus Italien.",
+        "example_en": "This dish comes from Italy."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Warme Speisen gibt es bis 22 Uhr.",
+        "en": "Hot dishes are served until 10 p.m."
+      }
+    ]
+  },
+  {
+    "lemma": "Zutat",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1430,
+    "noun": {
+      "gender": "f",
+      "plural": "Zutaten"
+    },
+    "senses": [
+      {
+        "en": "ingredient",
+        "example_de": "Diese Zutat kommt vom Markt.",
+        "example_en": "This ingredient comes from the market."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Zutaten sind frisch.",
+        "en": "All the ingredients are fresh."
+      }
+    ]
+  },
+  {
+    "lemma": "Rest",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1440,
+    "noun": {
+      "gender": "m",
+      "plural": "Reste"
+    },
+    "senses": [
+      {
+        "en": "rest, leftover",
+        "note": "„Der Rest ist für Sie“ = keep the change",
+        "example_de": "Ich esse den Rest morgen.",
+        "example_en": "I'll eat the rest tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Reste kommen in den Kühlschrank.",
+        "en": "The leftovers go in the fridge."
+      }
+    ]
+  },
+  {
+    "lemma": "getrennt",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1450,
+    "senses": [
+      {
+        "en": "separately",
+        "note": "getrennt zahlen = to pay separately",
+        "example_de": "Wir zahlen getrennt.",
+        "example_en": "We are paying separately."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "frage",
+        "de": "Zahlen Sie zusammen oder getrennt?",
+        "en": "Are you paying together or separately?"
+      }
+    ]
+  },
+  {
+    "lemma": "bar",
+    "pos": "adv",
+    "level": "A2",
+    "freq": 1460,
+    "senses": [
+      {
+        "en": "in cash",
+        "note": "bar zahlen = to pay cash",
+        "example_de": "Ich zahle bar.",
+        "example_en": "I'm paying in cash."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "frage",
+        "de": "Kann ich hier bar bezahlen?",
+        "en": "Can I pay in cash here?"
+      }
+    ]
+  },
+  {
+    "lemma": "Leitungswasser",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1470,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "tap water",
+        "note": "im deutschen Restaurant oft nicht gratis",
+        "example_de": "Ein Glas Leitungswasser, bitte.",
+        "example_en": "A glass of tap water, please."
+      }
+    ]
+  },
+  {
+    "lemma": "Sprudel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1480,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "sparkling water",
+        "note": "Wasser mit Kohlensäure",
+        "example_de": "Möchtest du Sprudel oder stilles Wasser?",
+        "example_en": "Would you like sparkling or still water?"
+      }
+    ]
+  },
+  {
+    "lemma": "Schorle",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1490,
+    "noun": {
+      "gender": "f",
+      "plural": "Schorlen"
+    },
+    "senses": [
+      {
+        "en": "spritzer (juice or wine with sparkling water)",
+        "note": "sehr beliebt: die Apfelschorle",
+        "example_de": "Eine Schorle mit Apfelsaft, bitte!",
+        "example_en": "A spritzer with apple juice, please!"
+      }
+    ]
+  },
+  {
+    "lemma": "alkoholfrei",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      {
+        "en": "non-alcoholic, alcohol-free",
+        "example_de": "Ich trinke ein alkoholfreies Bier.",
+        "example_en": "I'm drinking a non-alcoholic beer."
+      }
+    ]
+  },
+  {
+    "lemma": "Terrasse",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1510,
+    "noun": {
+      "gender": "f",
+      "plural": "Terrassen"
+    },
+    "senses": [
+      {
+        "en": "terrace, patio",
+        "example_de": "Wir essen draußen auf der Terrasse.",
+        "example_en": "We are eating outside on the terrace."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Sommer sind die Terrassen immer voll.",
+        "en": "In summer the terraces are always full."
+      }
+    ]
+  },
+  {
+    "lemma": "Biergarten",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1520,
+    "noun": {
+      "gender": "m",
+      "plural": "Biergärten"
+    },
+    "senses": [
+      {
+        "en": "beer garden",
+        "example_de": "Im Sommer sitzen wir gern im Biergarten.",
+        "example_en": "In summer we like sitting in the beer garden."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In München gibt es viele Biergärten.",
+        "en": "There are many beer gardens in Munich."
+      }
+    ]
+  },
+  {
+    "lemma": "Theke",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1530,
+    "noun": {
+      "gender": "f",
+      "plural": "Theken"
+    },
+    "senses": [
+      {
+        "en": "counter, bar",
+        "example_de": "Wir sitzen an der Theke und trinken.",
+        "example_en": "We are sitting at the bar and drinking."
+      }
+    ]
+  },
+  {
+    "lemma": "Tablett",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1540,
+    "noun": {
+      "gender": "n",
+      "plural": "Tabletts"
+    },
+    "senses": [
+      {
+        "en": "tray",
+        "example_de": "Sie trägt das Essen auf einem Tablett.",
+        "example_en": "She carries the food on a tray."
+      }
+    ]
+  },
+  {
+    "lemma": "Tischdecke",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1550,
+    "noun": {
+      "gender": "f",
+      "plural": "Tischdecken"
+    },
+    "senses": [
+      {
+        "en": "tablecloth",
+        "example_de": "Die Tischdecke ist weiß und sauber.",
+        "example_en": "The tablecloth is white and clean."
+      }
+    ]
+  },
+  {
+    "lemma": "Strohhalm",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": {
+      "gender": "m",
+      "plural": "Strohhalme"
+    },
+    "senses": [
+      {
+        "en": "(drinking) straw",
+        "example_de": "Das Kind trinkt den Saft mit einem Strohhalm.",
+        "example_en": "The child drinks the juice with a straw."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Strohhalme aus Papier sind besser für die Natur.",
+        "en": "Paper straws are better for nature."
+      }
+    ]
+  },
+  {
+    "lemma": "Buffet",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1570,
+    "noun": {
+      "gender": "n",
+      "plural": "Buffets"
+    },
+    "senses": [
+      {
+        "en": "buffet",
+        "note": "auch: Büfett",
+        "example_de": "Das Frühstück gibt es am Buffet.",
+        "example_en": "Breakfast is served at the buffet."
+      }
+    ]
+  },
+  {
+    "lemma": "Spezialität",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1580,
+    "noun": {
+      "gender": "f",
+      "plural": "Spezialitäten"
+    },
+    "senses": [
+      {
+        "en": "speciality (dish)",
+        "example_de": "Diese Suppe ist die Spezialität des Hauses.",
+        "example_en": "This soup is the house speciality."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir probieren die Spezialitäten der Region.",
+        "en": "We are trying the region's specialities."
+      }
+    ]
+  },
+  {
+    "lemma": "Snack",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1590,
+    "noun": {
+      "gender": "m",
+      "plural": "Snacks"
+    },
+    "senses": [
+      {
+        "en": "snack",
+        "example_de": "Ich brauche jetzt einen kleinen Snack.",
+        "example_en": "I need a little snack now."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Café gibt es Kaffee und kleine Snacks.",
+        "en": "The café serves coffee and small snacks."
+      }
+    ]
+  },
+  {
+    "lemma": "Braten",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": {
+      "gender": "m",
+      "plural": "Braten"
+    },
+    "senses": [
+      {
+        "en": "roast (meat)",
+        "example_de": "Am Sonntag gibt es Braten mit Soße.",
+        "example_en": "On Sunday there is roast with gravy."
+      }
+    ]
+  },
+  {
+    "lemma": "Schnitzel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1610,
+    "noun": {
+      "gender": "n",
+      "plural": "Schnitzel"
+    },
+    "senses": [
+      {
+        "en": "schnitzel, cutlet",
+        "example_de": "Ich bestelle ein Schnitzel mit Pommes.",
+        "example_en": "I'm ordering a schnitzel with fries."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Schnitzel hier sind sehr groß.",
+        "en": "The schnitzels here are very big."
+      }
+    ]
+  },
+  {
+    "lemma": "gegrillt",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1620,
+    "senses": [
+      {
+        "en": "grilled",
+        "example_de": "Ich nehme gegrillten Fisch mit Reis.",
+        "example_en": "I'll have grilled fish with rice."
+      }
+    ]
+  },
+  {
+    "lemma": "knusprig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1630,
+    "senses": [
+      {
+        "en": "crispy, crunchy",
+        "example_de": "Das Brot ist frisch und knusprig.",
+        "example_en": "The bread is fresh and crispy."
+      }
+    ]
+  },
+  {
+    "lemma": "vegan",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1650,
+    "senses": [
+      {
+        "en": "vegan",
+        "example_de": "Gibt es hier auch veganes Essen?",
+        "example_en": "Is there vegan food here too?"
+      }
+    ]
+  },
+  {
+    "lemma": "aufessen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1670,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf",
+      "du": "isst",
+      "er": "isst",
+      "praeteritum": "aß",
+      "partizip2": "aufgegessen"
+    },
+    "senses": [
+      {
+        "en": "to eat up, to finish (one's food)",
+        "note": "trennbar: auf-",
+        "example_de": "Ich esse die Suppe ganz auf.",
+        "example_en": "I'm eating up all the soup."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Kind isst den Reis auf.",
+        "en": "The child eats up the rice."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er aß den Kuchen ganz auf.",
+        "en": "He ate up the whole cake."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben alles aufgegessen.",
+        "en": "We ate everything up."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Iss bitte dein Brot auf!",
+        "en": "Please finish your bread!"
+      }
+    ]
+  },
+  {
+    "lemma": "Gaststätte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": {
+      "gender": "f",
+      "plural": "Gaststätten"
+    },
+    "senses": [
+      {
+        "en": "restaurant, inn (traditional)",
+        "example_de": "Die Gaststätte am Markt ist sehr alt.",
+        "example_en": "The inn at the market square is very old."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Dorf gibt es zwei Gaststätten.",
+        "en": "There are two inns in the village."
+      }
+    ]
+  },
+  {
+    "lemma": "Wirt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "m",
+      "plural": "Wirte",
+      "genitive": "Wirtes"
+    },
+    "senses": [
+      {
+        "en": "innkeeper, landlord (of a pub)",
+        "example_de": "Der Wirt bringt uns das Bier selbst.",
+        "example_en": "The landlord brings us the beer himself."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Wirte hier kennen ihre Gäste gut.",
+        "en": "The innkeepers here know their guests well."
+      }
+    ]
+  },
+  {
+    "lemma": "Gang",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": {
+      "gender": "m",
+      "plural": "Gänge",
+      "genitive": "Ganges"
+    },
+    "senses": [
+      {
+        "en": "course (of a meal)",
+        "note": "hier: Teil eines Menüs",
+        "example_de": "Der erste Gang ist eine kleine Suppe.",
+        "example_en": "The first course is a small soup."
+      },
+      {
+        "en": "corridor, hallway"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Das Menü hat vier Gänge.",
+        "en": "The set menu has four courses."
+      }
+    ]
+  },
+  {
+    "lemma": "Stammgast",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": {
+      "gender": "m",
+      "plural": "Stammgäste",
+      "genitive": "Stammgastes"
+    },
+    "senses": [
+      {
+        "en": "regular (customer, guest)",
+        "example_de": "Herr Braun ist Stammgast in diesem Café.",
+        "example_en": "Mr. Braun is a regular at this café."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Stammgäste sitzen immer am gleichen Tisch.",
+        "en": "The regulars always sit at the same table."
+      }
+    ]
+  },
+  {
+    "lemma": "Tageskarte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "f",
+      "plural": "Tageskarten"
+    },
+    "senses": [
+      {
+        "en": "menu of the day",
+        "example_de": "Die Gerichte auf der Tageskarte sind frisch.",
+        "example_en": "The dishes on the daily menu are fresh."
+      },
+      {
+        "en": "day ticket (transport)"
+      }
+    ]
+  },
+  {
+    "lemma": "Vorbestellung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": {
+      "gender": "f",
+      "plural": "Vorbestellungen"
+    },
+    "senses": [
+      {
+        "en": "advance order, pre-order",
+        "example_de": "Diese Torte gibt es nur auf Vorbestellung.",
+        "example_en": "This cake is only available by advance order."
+      }
+    ]
+  },
+  {
+    "lemma": "nachbestellen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2200,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "nach",
+      "partizip2": "nachbestellt"
+    },
+    "senses": [
+      {
+        "en": "to order more (of something), to reorder",
+        "note": "trennbar: nach-",
+        "example_de": "Wir bestellen noch Brot nach.",
+        "example_en": "We are ordering more bread."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er bestellt noch ein Wasser nach.",
+        "en": "He is ordering another water."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie bestellte zwei Kaffee nach.",
+        "en": "She ordered two more coffees."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben Pommes nachbestellt.",
+        "en": "We ordered more fries."
+      }
+    ]
+  },
+  {
+    "lemma": "Selbstbedienung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "self-service",
+        "example_de": "In diesem Café ist Selbstbedienung.",
+        "example_en": "This café is self-service."
+      }
+    ]
+  },
+  {
+    "lemma": "Brühe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": {
+      "gender": "f",
+      "plural": "Brühen"
+    },
+    "senses": [
+      {
+        "en": "broth, stock",
+        "example_de": "Die Brühe ist heiß und salzig.",
+        "example_en": "The broth is hot and salty."
+      }
+    ]
+  },
+  {
+    "lemma": "köstlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2350,
+    "senses": [
+      {
+        "en": "delicious, exquisite",
+        "note": "stärker als „lecker“",
+        "example_de": "Der Kuchen schmeckt wirklich köstlich.",
+        "example_en": "The cake tastes really delicious."
+      }
+    ]
+  },
+  {
+    "lemma": "saftig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2400,
+    "senses": [
+      {
+        "en": "juicy",
+        "example_de": "Das Fleisch ist weich und saftig.",
+        "example_en": "The meat is tender and juicy."
+      }
+    ]
+  },
+  {
+    "lemma": "zäh",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2450,
+    "senses": [
+      {
+        "en": "tough, chewy",
+        "example_de": "Das Fleisch ist leider zäh.",
+        "example_en": "Unfortunately, the meat is tough."
+      }
+    ]
+  },
+  {
+    "lemma": "paniert",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2500,
+    "senses": [
+      {
+        "en": "breaded",
+        "example_de": "Das Schnitzel ist paniert und knusprig.",
+        "example_en": "The schnitzel is breaded and crispy."
+      }
+    ]
+  },
+  {
+    "lemma": "glutenfrei",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2540,
+    "senses": [
+      {
+        "en": "gluten-free",
+        "example_de": "Haben Sie auch glutenfreies Brot?",
+        "example_en": "Do you also have gluten-free bread?"
+      }
+    ]
+  },
+  {
+    "lemma": "laktosefrei",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2580,
+    "senses": [
+      {
+        "en": "lactose-free",
+        "example_de": "Ich trinke nur laktosefreie Milch.",
+        "example_en": "I only drink lactose-free milk."
+      }
+    ]
+  }
+]

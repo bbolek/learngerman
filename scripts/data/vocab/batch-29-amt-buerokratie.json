@@ -1,0 +1,1196 @@
+[
+  {
+    "lemma": "Antrag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1905,
+    "noun": {
+      "gender": "m",
+      "plural": "Anträge"
+    },
+    "senses": [
+      {
+        "en": "application, request (to an authority)",
+        "note": "einen Antrag stellen = to file an application",
+        "example_de": "Ich stelle einen Antrag auf Kindergeld.",
+        "example_en": "I am filing an application for child benefit."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Anträge liegen auf dem Tisch.",
+        "en": "All applications are lying on the table."
+      },
+      {
+        "tag": "akkusativ",
+        "de": "Sie hat den Antrag gestern abgeschickt.",
+        "en": "She sent off the application yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "Frist",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "f",
+      "plural": "Fristen"
+    },
+    "senses": [
+      {
+        "en": "deadline, time limit",
+        "note": "eine Frist einhalten = to meet a deadline",
+        "example_de": "Die Frist endet am Freitag.",
+        "example_en": "The deadline ends on Friday."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Beim Amt gibt es viele Fristen.",
+        "en": "At the office there are many deadlines."
+      },
+      {
+        "tag": "negation",
+        "de": "Er hat die Frist nicht eingehalten.",
+        "en": "He did not meet the deadline."
+      }
+    ]
+  },
+  {
+    "lemma": "Unterlagen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1935,
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "documents, papers, records",
+        "note": "nur Plural",
+        "example_de": "Bitte bringen Sie alle Unterlagen mit.",
+        "example_en": "Please bring all documents with you."
+      }
+    ]
+  },
+  {
+    "lemma": "Kopie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": {
+      "gender": "f",
+      "plural": "Kopien"
+    },
+    "senses": [
+      {
+        "en": "copy",
+        "example_de": "Machen Sie bitte eine Kopie vom Pass.",
+        "example_en": "Please make a copy of the passport."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir brauchen zwei Kopien von dem Brief.",
+        "en": "We need two copies of the letter."
+      }
+    ]
+  },
+  {
+    "lemma": "Personalausweis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1965,
+    "noun": {
+      "gender": "m",
+      "plural": "Personalausweise"
+    },
+    "senses": [
+      {
+        "en": "identity card, ID card",
+        "example_de": "Mein Personalausweis ist noch zwei Jahre gültig.",
+        "example_en": "My identity card is still valid for two years."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Neue Personalausweise bekommt man im Bürgeramt.",
+        "en": "You get new identity cards at the citizens' office."
+      }
+    ]
+  },
+  {
+    "lemma": "Reisepass",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": {
+      "gender": "m",
+      "plural": "Reisepässe"
+    },
+    "senses": [
+      {
+        "en": "passport",
+        "example_de": "Für die Reise brauchst du einen Reisepass.",
+        "example_en": "You need a passport for the trip."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Familie holt heute ihre Reisepässe ab.",
+        "en": "The family is picking up their passports today."
+      }
+    ]
+  },
+  {
+    "lemma": "Bestätigung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1995,
+    "noun": {
+      "gender": "f",
+      "plural": "Bestätigungen"
+    },
+    "senses": [
+      {
+        "en": "confirmation",
+        "example_de": "Sie bekommen die Bestätigung per Post.",
+        "example_en": "You will receive the confirmation by mail."
+      }
+    ]
+  },
+  {
+    "lemma": "bestätigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2010,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to confirm",
+        "example_de": "Das Amt bestätigt den Termin per E-Mail.",
+        "example_en": "The office confirms the appointment by email."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie bestätigt den Empfang des Briefes.",
+        "en": "She confirms receipt of the letter."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Behörde bestätigte seine Anmeldung schriftlich.",
+        "en": "The authority confirmed his registration in writing."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Haben Sie den Termin schon bestätigt?",
+        "en": "Have you already confirmed the appointment?"
+      }
+    ]
+  },
+  {
+    "lemma": "Nachweis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2025,
+    "noun": {
+      "gender": "m",
+      "plural": "Nachweise"
+    },
+    "senses": [
+      {
+        "en": "proof, evidence (document)",
+        "example_de": "Das Amt verlangt einen Nachweis über das Einkommen.",
+        "example_en": "The office requires proof of income."
+      }
+    ]
+  },
+  {
+    "lemma": "Bescheinigung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": {
+      "gender": "f",
+      "plural": "Bescheinigungen"
+    },
+    "senses": [
+      {
+        "en": "certificate, written confirmation",
+        "example_de": "Der Arzt gibt mir eine Bescheinigung.",
+        "example_en": "The doctor gives me a certificate."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Für den Antrag brauche ich mehrere Bescheinigungen.",
+        "en": "I need several certificates for the application."
+      }
+    ]
+  },
+  {
+    "lemma": "Genehmigung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2055,
+    "noun": {
+      "gender": "f",
+      "plural": "Genehmigungen"
+    },
+    "senses": [
+      {
+        "en": "permit, approval",
+        "example_de": "Ohne Genehmigung darf man hier nicht bauen.",
+        "example_en": "Without a permit you are not allowed to build here."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Für das Fest brauchen wir zwei Genehmigungen.",
+        "en": "We need two permits for the festival."
+      }
+    ]
+  },
+  {
+    "lemma": "Ablehnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2070,
+    "noun": {
+      "gender": "f",
+      "plural": "Ablehnungen"
+    },
+    "senses": [
+      {
+        "en": "rejection, refusal",
+        "example_de": "Die Ablehnung des Antrags kam per Brief.",
+        "example_en": "The rejection of the application came by letter."
+      }
+    ]
+  },
+  {
+    "lemma": "Verlängerung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2085,
+    "noun": {
+      "gender": "f",
+      "plural": "Verlängerungen"
+    },
+    "senses": [
+      {
+        "en": "extension, renewal",
+        "example_de": "Ich beantrage eine Verlängerung meines Visums.",
+        "example_en": "I am applying for an extension of my visa."
+      }
+    ]
+  },
+  {
+    "lemma": "Bearbeitung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "f",
+      "plural": "Bearbeitungen"
+    },
+    "senses": [
+      {
+        "en": "processing, handling",
+        "example_de": "Die Bearbeitung des Antrags dauert vier Wochen.",
+        "example_en": "Processing the application takes four weeks."
+      }
+    ]
+  },
+  {
+    "lemma": "Sachbearbeiter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2115,
+    "noun": {
+      "gender": "m",
+      "plural": "Sachbearbeiter"
+    },
+    "senses": [
+      {
+        "en": "caseworker, official in charge",
+        "example_de": "Der Sachbearbeiter prüft meine Unterlagen.",
+        "example_en": "The caseworker is checking my documents."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Sachbearbeiter haben heute viel zu tun.",
+        "en": "The caseworkers have a lot to do today."
+      }
+    ]
+  },
+  {
+    "lemma": "zuständig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2130,
+    "senses": [
+      {
+        "en": "responsible, in charge",
+        "note": "zuständig für + Akkusativ",
+        "example_de": "Welches Amt ist für die Anmeldung zuständig?",
+        "example_en": "Which office is responsible for the registration?"
+      }
+    ]
+  },
+  {
+    "lemma": "Schalter",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2145,
+    "noun": {
+      "gender": "m",
+      "plural": "Schalter"
+    },
+    "senses": [
+      {
+        "en": "counter, service window",
+        "example_de": "Bitte warten Sie am Schalter drei.",
+        "example_en": "Please wait at counter three."
+      },
+      {
+        "en": "switch (light, power)",
+        "example_de": "Der Schalter für das Licht ist links.",
+        "example_en": "The switch for the light is on the left."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Am Nachmittag sind nur zwei Schalter offen.",
+        "en": "In the afternoon only two counters are open."
+      }
+    ]
+  },
+  {
+    "lemma": "Wartenummer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": {
+      "gender": "f",
+      "plural": "Wartenummern"
+    },
+    "senses": [
+      {
+        "en": "queue ticket, waiting number",
+        "example_de": "Ziehen Sie bitte eine Wartenummer am Eingang.",
+        "example_en": "Please take a queue ticket at the entrance."
+      }
+    ]
+  },
+  {
+    "lemma": "Stempel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2175,
+    "noun": {
+      "gender": "m",
+      "plural": "Stempel"
+    },
+    "senses": [
+      {
+        "en": "stamp (official mark)",
+        "example_de": "Das Dokument braucht noch einen Stempel.",
+        "example_en": "The document still needs a stamp."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Auf dem Papier sind drei Stempel.",
+        "en": "There are three stamps on the paper."
+      }
+    ]
+  },
+  {
+    "lemma": "Original",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2190,
+    "noun": {
+      "gender": "n",
+      "plural": "Originale"
+    },
+    "senses": [
+      {
+        "en": "original (document)",
+        "note": "im Original = as the original document",
+        "example_de": "Bringen Sie das Original und eine Kopie mit.",
+        "example_en": "Bring the original and a copy with you."
+      }
+    ]
+  },
+  {
+    "lemma": "Urkunde",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2205,
+    "noun": {
+      "gender": "f",
+      "plural": "Urkunden"
+    },
+    "senses": [
+      {
+        "en": "certificate, official document, deed",
+        "example_de": "Die Urkunde liegt in einer blauen Mappe.",
+        "example_en": "The certificate is in a blue folder."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alte Urkunden muss man gut aufbewahren.",
+        "en": "Old certificates must be kept safely."
+      }
+    ]
+  },
+  {
+    "lemma": "Geburtsurkunde",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2220,
+    "noun": {
+      "gender": "f",
+      "plural": "Geburtsurkunden"
+    },
+    "senses": [
+      {
+        "en": "birth certificate",
+        "example_de": "Für die Anmeldung brauchen wir die Geburtsurkunde.",
+        "example_en": "We need the birth certificate for the registration."
+      }
+    ]
+  },
+  {
+    "lemma": "Akte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2235,
+    "noun": {
+      "gender": "f",
+      "plural": "Akten"
+    },
+    "senses": [
+      {
+        "en": "file, record",
+        "example_de": "Ihre Akte liegt noch beim Sachbearbeiter.",
+        "example_en": "Your file is still with the caseworker."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Büro stehen viele alte Akten.",
+        "en": "There are many old files in the office."
+      }
+    ]
+  },
+  {
+    "lemma": "Wohnsitz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": {
+      "gender": "m",
+      "plural": "Wohnsitze"
+    },
+    "senses": [
+      {
+        "en": "place of residence, domicile",
+        "example_de": "Sein Wohnsitz ist seit Mai in Berlin.",
+        "example_en": "His place of residence has been in Berlin since May."
+      }
+    ]
+  },
+  {
+    "lemma": "ummelden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2265,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "um"
+    },
+    "senses": [
+      {
+        "en": "to re-register (after moving)",
+        "note": "reflexiv, trennbar: sich ummelden",
+        "example_de": "Nach dem Umzug melde ich mich um.",
+        "example_en": "After the move I re-register."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er meldet sich diese Woche um.",
+        "en": "He is re-registering this week."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns schon im Bürgeramt umgemeldet.",
+        "en": "We have already re-registered at the citizens' office."
+      },
+      {
+        "tag": "frage",
+        "de": "Hast du dich nach dem Umzug umgemeldet?",
+        "en": "Did you re-register after the move?"
+      }
+    ]
+  },
+  {
+    "lemma": "vorlegen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "vor"
+    },
+    "senses": [
+      {
+        "en": "to present, to produce (a document)",
+        "note": "trennbar; + Akkusativ",
+        "example_de": "Bitte legen Sie Ihren Ausweis vor.",
+        "example_en": "Please present your ID."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie legt dem Amt alle Papiere vor.",
+        "en": "She presents all the papers to the office."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er legte den Vertrag ohne Kommentar vor.",
+        "en": "He presented the contract without comment."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Bescheinigung gestern vorgelegt.",
+        "en": "I presented the certificate yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "Aufenthaltserlaubnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2295,
+    "noun": {
+      "gender": "f",
+      "plural": "Aufenthaltserlaubnisse"
+    },
+    "senses": [
+      {
+        "en": "residence permit",
+        "example_de": "Meine Aufenthaltserlaubnis gilt noch ein Jahr.",
+        "example_en": "My residence permit is still valid for one year."
+      }
+    ]
+  },
+  {
+    "lemma": "Arbeitserlaubnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2310,
+    "noun": {
+      "gender": "f",
+      "plural": "Arbeitserlaubnisse"
+    },
+    "senses": [
+      {
+        "en": "work permit",
+        "example_de": "Ohne Arbeitserlaubnis darf er hier nicht arbeiten.",
+        "example_en": "Without a work permit he is not allowed to work here."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausländerbehörde",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2325,
+    "noun": {
+      "gender": "f",
+      "plural": "Ausländerbehörden"
+    },
+    "senses": [
+      {
+        "en": "immigration office, foreigners' authority",
+        "example_de": "Morgen habe ich einen Termin bei der Ausländerbehörde.",
+        "example_en": "Tomorrow I have an appointment at the immigration office."
+      }
+    ]
+  },
+  {
+    "lemma": "Bürgeramt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2340,
+    "noun": {
+      "gender": "n",
+      "plural": "Bürgerämter"
+    },
+    "senses": [
+      {
+        "en": "citizens' office (local registration office)",
+        "example_de": "Im Bürgeramt melde ich meine neue Wohnung an.",
+        "example_en": "At the citizens' office I register my new apartment."
+      }
+    ]
+  },
+  {
+    "lemma": "Standesamt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2355,
+    "noun": {
+      "gender": "n",
+      "plural": "Standesämter"
+    },
+    "senses": [
+      {
+        "en": "registry office (births, marriages, deaths)",
+        "example_de": "Sie heiraten nächsten Monat im Standesamt.",
+        "example_en": "They are getting married at the registry office next month."
+      }
+    ]
+  },
+  {
+    "lemma": "Finanzamt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2370,
+    "noun": {
+      "gender": "n",
+      "plural": "Finanzämter"
+    },
+    "senses": [
+      {
+        "en": "tax office",
+        "example_de": "Das Finanzamt schickt mir einen Brief.",
+        "example_en": "The tax office is sending me a letter."
+      }
+    ]
+  },
+  {
+    "lemma": "Steuererklärung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2385,
+    "noun": {
+      "gender": "f",
+      "plural": "Steuererklärungen"
+    },
+    "senses": [
+      {
+        "en": "tax return, tax declaration",
+        "example_de": "Ich mache meine Steuererklärung dieses Jahr online.",
+        "example_en": "I am doing my tax return online this year."
+      }
+    ]
+  },
+  {
+    "lemma": "Steuernummer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": {
+      "gender": "f",
+      "plural": "Steuernummern"
+    },
+    "senses": [
+      {
+        "en": "tax number",
+        "example_de": "Bitte schreiben Sie Ihre Steuernummer auf das Formular.",
+        "example_en": "Please write your tax number on the form."
+      }
+    ]
+  },
+  {
+    "lemma": "amtlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2430,
+    "senses": [
+      {
+        "en": "official (issued by an authority)",
+        "example_de": "Das ist ein amtliches Dokument mit Stempel.",
+        "example_en": "That is an official document with a stamp."
+      }
+    ]
+  },
+  {
+    "lemma": "vollständig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2460,
+    "senses": [
+      {
+        "en": "complete",
+        "note": "Amtssprache: bitte vollständig ausfüllen",
+        "example_de": "Ihre Unterlagen sind leider nicht vollständig.",
+        "example_en": "Unfortunately your documents are not complete."
+      }
+    ]
+  },
+  {
+    "lemma": "ablaufen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2490,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "ab",
+      "du": "läufst",
+      "er": "läuft",
+      "praeteritum": "lief",
+      "partizip2": "abgelaufen"
+    },
+    "senses": [
+      {
+        "en": "to expire (document, deadline)",
+        "note": "trennbar; Perfekt mit sein",
+        "example_de": "Mein Pass läuft nächsten Monat ab.",
+        "example_en": "My passport expires next month."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Frist läuft am Montag ab.",
+        "en": "The deadline expires on Monday."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sein Visum lief im Sommer ab.",
+        "en": "His visa expired in the summer."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Ausweis ist leider schon abgelaufen.",
+        "en": "Unfortunately the ID has already expired."
+      }
+    ]
+  },
+  {
+    "lemma": "Bürokratie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2530,
+    "noun": {
+      "gender": "f",
+      "plural": "Bürokratien"
+    },
+    "senses": [
+      {
+        "en": "bureaucracy, red tape",
+        "example_de": "In Deutschland gibt es viel Bürokratie.",
+        "example_en": "In Germany there is a lot of bureaucracy."
+      }
+    ]
+  },
+  {
+    "lemma": "Behördengang",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3010,
+    "noun": {
+      "gender": "m",
+      "plural": "Behördengänge"
+    },
+    "senses": [
+      {
+        "en": "errand to a government office, official appointment",
+        "example_de": "Der Behördengang hat den ganzen Vormittag gedauert.",
+        "example_en": "The trip to the government office took the whole morning."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Nach dem Umzug hat man viele Behördengänge.",
+        "en": "After moving you have many errands to government offices."
+      }
+    ]
+  },
+  {
+    "lemma": "Aufenthaltstitel",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3070,
+    "noun": {
+      "gender": "m",
+      "plural": "Aufenthaltstitel"
+    },
+    "senses": [
+      {
+        "en": "residence title (official term for a residence permit)",
+        "example_de": "Sein Aufenthaltstitel wurde um zwei Jahre verlängert.",
+        "example_en": "His residence title was extended by two years."
+      }
+    ]
+  },
+  {
+    "lemma": "Staatsbürgerschaft",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3120,
+    "noun": {
+      "gender": "f",
+      "plural": "Staatsbürgerschaften"
+    },
+    "senses": [
+      {
+        "en": "citizenship, nationality",
+        "example_de": "Sie hat die deutsche Staatsbürgerschaft beantragt.",
+        "example_en": "She has applied for German citizenship."
+      }
+    ]
+  },
+  {
+    "lemma": "Einbürgerung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3170,
+    "noun": {
+      "gender": "f",
+      "plural": "Einbürgerungen"
+    },
+    "senses": [
+      {
+        "en": "naturalization",
+        "example_de": "Für die Einbürgerung braucht man einen Sprachtest.",
+        "example_en": "For naturalization you need a language test."
+      }
+    ]
+  },
+  {
+    "lemma": "Meldebescheinigung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3230,
+    "noun": {
+      "gender": "f",
+      "plural": "Meldebescheinigungen"
+    },
+    "senses": [
+      {
+        "en": "registration certificate (proof of address)",
+        "example_de": "Die Bank verlangt eine aktuelle Meldebescheinigung.",
+        "example_en": "The bank requires a current registration certificate."
+      }
+    ]
+  },
+  {
+    "lemma": "beglaubigen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3290,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to certify, to authenticate (a document)",
+        "note": "beglaubigte Kopie = certified copy",
+        "example_de": "Das Bürgeramt beglaubigt die Kopie des Zeugnisses.",
+        "example_en": "The citizens' office certifies the copy of the certificate."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Notar beglaubigt die Unterschrift.",
+        "en": "The notary certifies the signature."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe alle Kopien beglaubigen lassen.",
+        "en": "I had all copies certified."
+      },
+      {
+        "tag": "frage",
+        "de": "Wo kann man Dokumente beglaubigen lassen?",
+        "en": "Where can you have documents certified?"
+      }
+    ]
+  },
+  {
+    "lemma": "Vollmacht",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3340,
+    "noun": {
+      "gender": "f",
+      "plural": "Vollmachten"
+    },
+    "senses": [
+      {
+        "en": "power of attorney, written authorization",
+        "example_de": "Mit einer Vollmacht darf er für mich unterschreiben.",
+        "example_en": "With a power of attorney he may sign for me."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Vollmachten müssen immer schriftlich sein.",
+        "en": "Powers of attorney must always be in writing."
+      }
+    ]
+  },
+  {
+    "lemma": "Widerspruch",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3390,
+    "noun": {
+      "gender": "m",
+      "plural": "Widersprüche"
+    },
+    "senses": [
+      {
+        "en": "objection, formal appeal (against a decision)",
+        "note": "Widerspruch einlegen = to file an objection",
+        "example_de": "Gegen den Bescheid lege ich Widerspruch ein.",
+        "example_en": "I am filing an objection against the notice."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Das Amt prüft alle Widersprüche einzeln.",
+        "en": "The office reviews all objections individually."
+      }
+    ]
+  },
+  {
+    "lemma": "Antragsteller",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3450,
+    "noun": {
+      "gender": "m",
+      "plural": "Antragsteller"
+    },
+    "senses": [
+      {
+        "en": "applicant",
+        "example_de": "Der Antragsteller muss das Formular selbst unterschreiben.",
+        "example_en": "The applicant must sign the form himself."
+      }
+    ]
+  },
+  {
+    "lemma": "bewilligen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3500,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to approve, to grant (an application, funds)",
+        "example_de": "Das Amt hat meinen Antrag endlich bewilligt.",
+        "example_en": "The office has finally approved my application."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Stadt bewilligt Geld für neue Schulen.",
+        "en": "The city grants money for new schools."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Behörde bewilligte den Antrag nach drei Monaten.",
+        "en": "The authority approved the application after three months."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat ihm das Wohngeld bewilligt.",
+        "en": "He was granted the housing benefit."
+      }
+    ]
+  },
+  {
+    "lemma": "verweigern",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3560,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to refuse, to deny",
+        "note": "jemandem etwas verweigern (+ Dativ + Akkusativ)",
+        "example_de": "Die Behörde verweigert ihm die Genehmigung.",
+        "example_en": "The authority denies him the permit."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er verweigert jede Antwort auf die Frage.",
+        "en": "He refuses any answer to the question."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Das Amt verweigerte die Auskunft ohne Grund.",
+        "en": "The office refused the information without reason."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Man hat ihr das Visum verweigert.",
+        "en": "She was denied the visa."
+      }
+    ]
+  },
+  {
+    "lemma": "nachreichen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3620,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "nach"
+    },
+    "senses": [
+      {
+        "en": "to submit later, to hand in subsequently",
+        "note": "trennbar; fehlende Unterlagen nachreichen",
+        "example_de": "Sie können die fehlende Kopie nachreichen.",
+        "example_en": "You can submit the missing copy later."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich reiche den Nachweis nächste Woche nach.",
+        "en": "I will submit the proof next week."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Unterlagen pünktlich nachgereicht.",
+        "en": "He submitted the documents on time."
+      },
+      {
+        "tag": "frage",
+        "de": "Darf ich das Dokument später nachreichen?",
+        "en": "May I submit the document later?"
+      }
+    ]
+  },
+  {
+    "lemma": "zustellen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3680,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zu"
+    },
+    "senses": [
+      {
+        "en": "to deliver (mail, official documents)",
+        "note": "trennbar; Amtssprache für Briefe und Bescheide",
+        "example_de": "Die Post stellt den Bescheid morgen zu.",
+        "example_en": "The mail service delivers the notice tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Bote stellt das Schreiben persönlich zu.",
+        "en": "The courier delivers the letter in person."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Man stellte ihm den Brief am Freitag zu.",
+        "en": "The letter was delivered to him on Friday."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Amt hat den Bescheid gestern zugestellt.",
+        "en": "The office delivered the notice yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "Aktenzeichen",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3730,
+    "noun": {
+      "gender": "n",
+      "plural": "Aktenzeichen"
+    },
+    "senses": [
+      {
+        "en": "file reference number",
+        "note": "bei Briefen ans Amt immer angeben",
+        "example_de": "Bitte nennen Sie in Ihrem Brief das Aktenzeichen.",
+        "example_en": "Please state the file reference number in your letter."
+      }
+    ]
+  },
+  {
+    "lemma": "versäumen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3780,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to miss (a deadline, an appointment)",
+        "note": "eine Frist versäumen = to miss a deadline",
+        "example_de": "Er hat die Frist für den Widerspruch versäumt.",
+        "example_en": "He missed the deadline for the objection."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie versäumt nie einen Termin beim Amt.",
+        "en": "She never misses an appointment at the office."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Ich versäumte leider den wichtigen Termin.",
+        "en": "Unfortunately I missed the important appointment."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Anmeldung fast versäumt.",
+        "en": "We almost missed the registration."
+      }
+    ]
+  }
+]

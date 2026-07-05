@@ -29,7 +29,7 @@
           "den"
         ],
         "correctIndex": 0,
-        "explanation": "„helfen“ + Dativ; feminine Dativ → der."
+        "explanation": "„[[helfen]]“ + Dativ; feminine Dativ → der."
       }
     },
     {
@@ -134,7 +134,7 @@
         "accept": [
           "denen"
         ],
-        "explanation": "„danken“ + Dativ; Dativ plural is special: denen.",
+        "explanation": "„[[danken]]“ + Dativ; Dativ plural is special: denen.",
         "hint": "danken + Dativ, plural"
       }
     },
@@ -191,7 +191,7 @@
           ]
         ],
         "translation": "That is the book that I love.",
-        "explanation": "Neuter Akkusativ pronoun das; verb „liebe“ at the end of the clause."
+        "explanation": "Neuter Akkusativ pronoun das; verb „[[liebe]]“ at the end of the clause."
       }
     }
   ]

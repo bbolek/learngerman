@@ -15,7 +15,7 @@
           "dem"
         ],
         "correctIndex": 2,
-        "explanation": "„helfen“ always takes a Dativ object. Masculine: der → dem (der Mann)."
+        "explanation": "„[[helfen]]“ always takes a Dativ object. Masculine: der → dem (der Mann)."
       }
     },
     {
@@ -29,7 +29,7 @@
           "der"
         ],
         "correctIndex": 0,
-        "explanation": "„danken“ takes the Dativ. Masculine: der → dem (der Lehrer)."
+        "explanation": "„[[danken]]“ takes the Dativ. Masculine: der → dem (der Lehrer)."
       }
     },
     {
@@ -43,7 +43,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„gefallen“ takes the Dativ. Feminine: die → der (die Frau)."
+        "explanation": "„[[gefallen]]“ takes the Dativ. Feminine: die → der (die Frau)."
       }
     },
     {
@@ -57,7 +57,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„gehören“ takes the Dativ. Neuter: das → dem (das Kind)."
+        "explanation": "„[[gehören]]“ takes the Dativ. Neuter: das → dem (das Kind)."
       }
     },
     {
@@ -71,7 +71,7 @@
           "ich"
         ],
         "correctIndex": 0,
-        "explanation": "„helfen“ takes the Dativ, also with pronouns: ich → mir."
+        "explanation": "„[[helfen]]“ takes the Dativ, also with pronouns: ich → mir."
       }
     },
     {
@@ -85,7 +85,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„antworten“ takes the Dativ. Feminine: die → der (die Lehrerin)."
+        "explanation": "„[[antworten]]“ takes the Dativ. Feminine: die → der (die Lehrerin)."
       }
     },
     {
@@ -99,7 +99,7 @@
           "du"
         ],
         "correctIndex": 0,
-        "explanation": "„glauben“ (a person) takes the Dativ: du → dir."
+        "explanation": "„[[glauben]]“ (a person) takes the Dativ: du → dir."
       }
     },
     {
@@ -113,7 +113,7 @@
           "der"
         ],
         "correctIndex": 1,
-        "explanation": "„schmecken“ takes the Dativ. Plural: die → den, and the noun adds -n (Kindern)."
+        "explanation": "„[[schmecken]]“ takes the Dativ. Plural: die → den, and the noun adds -n (Kindern)."
       }
     },
     {
@@ -127,7 +127,7 @@
           "meiner"
         ],
         "correctIndex": 0,
-        "explanation": "With „gefallen“ the thing (die Schuhe) is the plural subject; the person is the Dativ object: ich → mir."
+        "explanation": "With „[[gefallen]]“ the thing (die Schuhe) is the plural subject; the person is the Dativ object: ich → mir."
       }
     },
     {
@@ -141,7 +141,7 @@
           "meinem"
         ],
         "correctIndex": 0,
-        "explanation": "„gehören“ takes the Dativ. Plural: meine → meinen (die Eltern)."
+        "explanation": "„[[gehören]]“ takes the Dativ. Plural: meine → meinen (die Eltern)."
       }
     },
     {
@@ -153,7 +153,7 @@
           "der"
         ],
         "hint": "helfen + Dativ, die Frau",
-        "explanation": "„helfen“ always takes a Dativ object. Feminine: die → der."
+        "explanation": "„[[helfen]]“ always takes a Dativ object. Feminine: die → der."
       }
     },
     {
@@ -165,7 +165,7 @@
           "meinem"
         ],
         "hint": "gehören + Dativ, der Bruder",
-        "explanation": "„gehören“ takes the Dativ. Masculine: mein → meinem."
+        "explanation": "„[[gehören]]“ takes the Dativ. Masculine: mein → meinem."
       }
     },
     {
@@ -177,7 +177,7 @@
           "dem"
         ],
         "hint": "schmecken + Dativ, der Opa",
-        "explanation": "„schmecken“ takes the Dativ. Masculine: der → dem."
+        "explanation": "„[[schmecken]]“ takes the Dativ. Masculine: der → dem."
       }
     },
     {
@@ -189,7 +189,7 @@
           "unseren"
         ],
         "hint": "danken + Dativ, plural die Freunde",
-        "explanation": "„danken“ takes the Dativ. Plural: unsere → unseren, and the noun adds -n (Freunden)."
+        "explanation": "„[[danken]]“ takes the Dativ. Plural: unsere → unseren, and the noun adds -n (Freunden)."
       }
     },
     {
@@ -201,7 +201,7 @@
           "deinem"
         ],
         "hint": "antworten + Dativ, der Vater",
-        "explanation": "„antworten“ takes the Dativ. Masculine: dein → deinem."
+        "explanation": "„[[antworten]]“ takes the Dativ. Masculine: dein → deinem."
       }
     },
     {
@@ -235,7 +235,7 @@
           ]
         ],
         "translation": "I am helping my mother.",
-        "explanation": "„helfen“ takes the Dativ. Feminine: meine → meiner (die Mutter)."
+        "explanation": "„[[helfen]]“ takes the Dativ. Feminine: meine → meiner (die Mutter)."
       }
     },
     {
@@ -257,7 +257,7 @@
           ]
         ],
         "translation": "The book belongs to him.",
-        "explanation": "„gehören“ takes the Dativ pronoun: er → ihm. Das Buch is the Nominativ subject."
+        "explanation": "„[[gehören]]“ takes the Dativ pronoun: er → ihm. Das Buch is the Nominativ subject."
       }
     },
     {
@@ -279,7 +279,7 @@
           ]
         ],
         "translation": "We like the film.",
-        "explanation": "With „gefallen“ the thing (der Film) is the subject; the person is in the Dativ: wir → uns."
+        "explanation": "With „[[gefallen]]“ the thing (der Film) is the subject; the person is in the Dativ: wir → uns."
       }
     },
     {
@@ -301,7 +301,7 @@
           ]
         ],
         "translation": "We thank the teacher.",
-        "explanation": "„danken“ takes the Dativ. Masculine: der → dem (der Lehrer)."
+        "explanation": "„[[danken]]“ takes the Dativ. Masculine: der → dem (der Lehrer)."
       }
     },
     {
@@ -327,7 +327,7 @@
           ]
         ],
         "translation": "My father does not like the soup.",
-        "explanation": "„schmecken“ takes the Dativ: mein → meinem (der Vater). „nicht“ stands at the end."
+        "explanation": "„[[schmecken]]“ takes the Dativ: mein → meinem (der Vater). „[[nicht]]“ stands at the end."
       }
     },
     {
@@ -343,7 +343,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 0,
-        "explanation": "„helfen“ is a Dativ verb, so der Schüler becomes dem Schüler."
+        "explanation": "„[[helfen]]“ is a Dativ verb, so der Schüler becomes dem Schüler."
       }
     },
     {
@@ -359,7 +359,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 1,
-        "explanation": "„gehören“ is a Dativ verb. Feminine: die → der (die Lehrerin)."
+        "explanation": "„[[gehören]]“ is a Dativ verb. Feminine: die → der (die Lehrerin)."
       }
     },
     {
@@ -375,7 +375,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„gefallen“ is a Dativ verb: mein → meinem (der Freund). Der Film is the subject."
+        "explanation": "„[[gefallen]]“ is a Dativ verb: mein → meinem (der Freund). Der Film is the subject."
       }
     },
     {
@@ -391,7 +391,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 0,
-        "explanation": "With „gefallen“ the thing liked is the subject → Nominativ; that is why the verb is plural (gefallen). „mir“ is the Dativ object."
+        "explanation": "With „[[gefallen]]“ the thing liked is the subject → Nominativ; that is why the verb is plural (gefallen). „mir“ is the Dativ object."
       }
     },
     {
@@ -405,7 +405,7 @@
           "meinen"
         ],
         "correctIndex": 1,
-        "explanation": "„gratulieren“ takes the Dativ: die Freundin → meiner Freundin."
+        "explanation": "„[[gratulieren]]“ takes the Dativ: die Freundin → meiner Freundin."
       }
     },
     {
@@ -419,7 +419,7 @@
           "er"
         ],
         "correctIndex": 1,
-        "explanation": "„passen“ takes the Dativ: er → ihm. The jacket is the subject."
+        "explanation": "„[[passen]]“ takes the Dativ: er → ihm. The jacket is the subject."
       }
     },
     {
@@ -433,7 +433,7 @@
           "dem"
         ],
         "correctIndex": 2,
-        "explanation": "„glauben“ (a person) takes the Dativ: der Mann → dem Mann."
+        "explanation": "„[[glauben]]“ (a person) takes the Dativ: der Mann → dem Mann."
       }
     },
     {
@@ -447,7 +447,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„gehören“ takes the Dativ: die Schülerin → der Schülerin."
+        "explanation": "„[[gehören]]“ takes the Dativ: die Schülerin → der Schülerin."
       }
     },
     {
@@ -459,7 +459,7 @@
           "unserem"
         ],
         "hint": "gratulieren + Dativ",
-        "explanation": "„gratulieren“ takes the Dativ: der Opa → unserem Opa."
+        "explanation": "„[[gratulieren]]“ takes the Dativ: der Opa → unserem Opa."
       }
     },
     {
@@ -471,7 +471,7 @@
           "meiner"
         ],
         "hint": "passen + Dativ",
-        "explanation": "„passen“ takes the Dativ: die Schwester → meiner Schwester."
+        "explanation": "„[[passen]]“ takes the Dativ: die Schwester → meiner Schwester."
       }
     },
     {
@@ -495,7 +495,7 @@
           ]
         ],
         "translation": "The shoes don't fit me.",
-        "explanation": "„passen“ + Dativ — the shoes are the subject, the person is Dativ (mir)."
+        "explanation": "„[[passen]]“ + Dativ — the shoes are the subject, the person is Dativ (mir)."
       }
     },
     {
@@ -511,7 +511,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„gratulieren“ is a dative verb: der Bruder → meinem Bruder."
+        "explanation": "„[[gratulieren]]“ is a dative verb: der Bruder → meinem Bruder."
       }
     }
   ]

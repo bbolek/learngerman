@@ -1,7 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { useKeepAwake } from 'expo-keep-awake';
 import * as ScreenOrientation from 'expo-screen-orientation';
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import { Modal, Pressable, ScrollView, StyleSheet, View, type StyleProp, type TextStyle } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -12,8 +12,41 @@ import { useTheme } from '@/ui/useTheme';
 
 type TableRows = string[][];
 
-/** Tap handler for [[vocabulary]] markers; provided by MarkdownLite. */
+/** Tap handler for [[vocabulary]] markers; provided by VocabTapProvider. */
 const WordTapContext = createContext<((word: string) => void) | null>(null);
+
+/**
+ * Hosts the dictionary popup and makes [[vocab]] links inside it tappable.
+ * MarkdownLite provides this itself; wrap other screens (e.g. the quiz
+ * feedback panel) that render VocabText.
+ */
+export function VocabTapProvider({ children }: { children: ReactNode }) {
+  const [tappedWord, setTappedWord] = useState<string | null>(null);
+  return (
+    <WordTapContext.Provider value={setTappedWord}>
+      {children}
+      <WordPopup word={tappedWord} onClose={() => setTappedWord(null)} />
+    </WordTapContext.Provider>
+  );
+}
+
+/**
+ * Text fragment with tappable [[vocabulary]] words — for strings like quiz
+ * feedback. Render inside an AppText: plain parts inherit its styling, and
+ * links take `color` (marked by underline + weight, so they stay readable
+ * on tinted backgrounds).
+ */
+export function VocabText({
+  text,
+  color,
+  variant = 'secondary',
+}: {
+  text: string;
+  color?: string;
+  variant?: 'body' | 'secondary';
+}) {
+  return <Linkified text={text} linkColor={color} linkVariant={variant} />;
+}
 
 /**
  * Minimal renderer for topic explainers: paragraphs, **bold**, *italic*,
@@ -22,10 +55,9 @@ const WordTapContext = createContext<((word: string) => void) | null>(null);
  */
 export function MarkdownLite({ source }: { source: string }) {
   const [fullscreenRows, setFullscreenRows] = useState<TableRows | null>(null);
-  const [tappedWord, setTappedWord] = useState<string | null>(null);
   const blocks = source.split(/\n\n+/);
   return (
-    <WordTapContext.Provider value={setTappedWord}>
+    <VocabTapProvider>
       <View style={{ gap: 12 }}>
         {blocks.map((block, i) => {
           const lines = block.split('\n').filter((l) => l.trim().length > 0);
@@ -59,9 +91,8 @@ export function MarkdownLite({ source }: { source: string }) {
             )}
           </WordTapContext.Provider>
         </Modal>
-        <WordPopup word={tappedWord} onClose={() => setTappedWord(null)} />
       </View>
-    </WordTapContext.Provider>
+    </VocabTapProvider>
   );
 }
 
@@ -214,10 +245,16 @@ function Linkified({
   text,
   style,
   color,
+  linkColor,
+  linkVariant = 'body',
 }: {
   text: string;
   style?: StyleProp<TextStyle>;
   color?: string;
+  /** Overrides the link tint (default theme primary) on tinted backgrounds. */
+  linkColor?: string;
+  /** Matches the link's type scale to the surrounding text. */
+  linkVariant?: 'body' | 'secondary';
 }) {
   const t = useTheme();
   const onWordTap = useContext(WordTapContext);
@@ -231,9 +268,10 @@ function Linkified({
           return (
             <AppText
               key={i}
+              variant={linkVariant}
               suppressHighlighting
               onPress={onWordTap ? () => onWordTap(lookup) : undefined}
-              color={t.primary}
+              color={linkColor ?? t.primary}
               style={[style, { textDecorationLine: 'underline', fontFamily: fonts.extrabold }]}>
               {display}
             </AppText>

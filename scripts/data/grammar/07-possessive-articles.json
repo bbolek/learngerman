@@ -15,7 +15,7 @@
           "meinem"
         ],
         "correctIndex": 0,
-        "explanation": "After „sein“ (to be) the noun stays in the Nominativ: mein Bruder."
+        "explanation": "After „[[sein]]“ (to be) the noun stays in the Nominativ: mein Bruder."
       }
     },
     {
@@ -29,7 +29,7 @@
           "meinem"
         ],
         "correctIndex": 1,
-        "explanation": "„besuchen“ takes the Akkusativ. Masculine: mein → meinen (der Bruder)."
+        "explanation": "„[[besuchen]]“ takes the Akkusativ. Masculine: mein → meinen (der Bruder)."
       }
     },
     {
@@ -43,7 +43,7 @@
           "seinen"
         ],
         "correctIndex": 0,
-        "explanation": "The owner is male → sein-. „lieben“ takes the Akkusativ; feminine: seine (die Mutter)."
+        "explanation": "The owner is male → sein-. „[[lieben]]“ takes the Akkusativ; feminine: seine (die Mutter)."
       }
     },
     {
@@ -57,7 +57,7 @@
           "ihrem"
         ],
         "correctIndex": 0,
-        "explanation": "The owner (Anna) is female → ihr-. „suchen“ takes the Akkusativ: ihr → ihren (der Schlüssel)."
+        "explanation": "The owner (Anna) is female → ihr-. „[[suchen]]“ takes the Akkusativ: ihr → ihren (der Schlüssel)."
       }
     },
     {
@@ -71,7 +71,7 @@
           "unser"
         ],
         "correctIndex": 0,
-        "explanation": "„helfen“ takes the Dativ. Masculine: unser → unserem (der Bruder)."
+        "explanation": "„[[helfen]]“ takes the Dativ. Masculine: unser → unserem (der Bruder)."
       }
     },
     {
@@ -99,7 +99,7 @@
           "seiner"
         ],
         "correctIndex": 0,
-        "explanation": "„mit“ takes the Dativ. Feminine: ihre → ihrer (die Schwester); the owner is female → ihr-."
+        "explanation": "„[[mit]]“ takes the Dativ. Feminine: ihre → ihrer (die Schwester); the owner is female → ihr-."
       }
     },
     {
@@ -113,7 +113,7 @@
           "seinen"
         ],
         "correctIndex": 0,
-        "explanation": "The owner (Peter) is male → sein-. „mit“ takes the Dativ; neuter: sein → seinem (das Auto)."
+        "explanation": "The owner (Peter) is male → sein-. „[[mit]]“ takes the Dativ; neuter: sein → seinem (das Auto)."
       }
     },
     {
@@ -125,7 +125,7 @@
           "meinen"
         ],
         "hint": "sehen + Akkusativ, der Bruder",
-        "explanation": "„sehen“ takes the Akkusativ. Masculine: mein → meinen."
+        "explanation": "„[[sehen]]“ takes the Akkusativ. Masculine: mein → meinen."
       }
     },
     {
@@ -137,7 +137,7 @@
           "deine"
         ],
         "hint": "Nominativ, die Tasche",
-        "explanation": "After „sein“ (to be) → Nominativ. Feminine: dein → deine (die Tasche)."
+        "explanation": "After „[[sein]]“ (to be) → Nominativ. Feminine: dein → deine (die Tasche)."
       }
     },
     {
@@ -149,7 +149,7 @@
           "unserem"
         ],
         "hint": "danken + Dativ, der Lehrer",
-        "explanation": "„danken“ takes the Dativ. Masculine: unser → unserem."
+        "explanation": "„[[danken]]“ takes the Dativ. Masculine: unser → unserem."
       }
     },
     {
@@ -161,7 +161,7 @@
           "ihren"
         ],
         "hint": "ohne + Akkusativ, der Bruder",
-        "explanation": "„ohne“ takes the Akkusativ. Masculine: ihr → ihren."
+        "explanation": "„[[ohne]]“ takes the Akkusativ. Masculine: ihr → ihren."
       }
     },
     {
@@ -173,7 +173,7 @@
           "euren"
         ],
         "hint": "mit + Dativ, plural die Kinder",
-        "explanation": "„mit“ takes the Dativ. Plural: euer → euren — euer drops the middle -e- before an ending."
+        "explanation": "„[[mit]]“ takes the Dativ. Plural: euer → euren — euer drops the middle -e- before an ending."
       }
     },
     {
@@ -195,7 +195,7 @@
           ]
         ],
         "translation": "That is my sister.",
-        "explanation": "After „sein“ (to be) → Nominativ. Feminine: meine (die Schwester)."
+        "explanation": "After „[[sein]]“ (to be) → Nominativ. Feminine: meine (die Schwester)."
       }
     },
     {
@@ -217,7 +217,7 @@
           ]
         ],
         "translation": "I am looking for my key.",
-        "explanation": "„suchen“ takes the Akkusativ. Masculine: mein → meinen (der Schlüssel)."
+        "explanation": "„[[suchen]]“ takes the Akkusativ. Masculine: mein → meinen (der Schlüssel)."
       }
     },
     {
@@ -248,7 +248,7 @@
           ]
         ],
         "translation": "He is helping his father today.",
-        "explanation": "„helfen“ takes the Dativ: sein → seinem (der Vater). „heute“ can stand before or after the object."
+        "explanation": "„[[helfen]]“ takes the Dativ: sein → seinem (der Vater). „[[heute]]“ can stand before or after the object."
       }
     },
     {
@@ -272,7 +272,7 @@
           ]
         ],
         "translation": "The car belongs to her mother.",
-        "explanation": "„gehören“ takes the Dativ. Feminine: ihre → ihrer (die Mutter)."
+        "explanation": "„[[gehören]]“ takes the Dativ. Feminine: ihre → ihrer (die Mutter)."
       }
     },
     {
@@ -288,7 +288,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 0,
-        "explanation": "„besuchen“ takes a direct object → Akkusativ. Masculine: mein → meinen (der Onkel)."
+        "explanation": "„[[besuchen]]“ takes a direct object → Akkusativ. Masculine: mein → meinen (der Onkel)."
       }
     },
     {
@@ -304,7 +304,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 1,
-        "explanation": "„mit“ is a Dativ preposition. Feminine: ihre → ihrer (die Schwester)."
+        "explanation": "„[[mit]]“ is a Dativ preposition. Feminine: ihre → ihrer (die Schwester)."
       }
     },
     {
@@ -348,7 +348,7 @@
           "unserem"
         ],
         "correctIndex": 0,
-        "explanation": "„besuchen“ + Akkusativ, plural → unsere (plural Akkusativ = plural Nominativ)."
+        "explanation": "„[[besuchen]]“ + Akkusativ, plural → unsere (plural Akkusativ = plural Nominativ)."
       }
     },
     {
@@ -362,7 +362,7 @@
           "ihren"
         ],
         "correctIndex": 1,
-        "explanation": "„helfen“ takes the Dativ. der Bruder → masculine Dativ: ihrem."
+        "explanation": "„[[helfen]]“ takes the Dativ. der Bruder → masculine Dativ: ihrem."
       }
     },
     {
@@ -388,7 +388,7 @@
           "sein"
         ],
         "hint": "das Handy",
-        "explanation": "„suchen“ + Akkusativ, but das Handy is neuter → sein stays without ending (like ein)."
+        "explanation": "„[[suchen]]“ + Akkusativ, but das Handy is neuter → sein stays without ending (like ein)."
       }
     },
     {
@@ -400,7 +400,7 @@
           "unserem"
         ],
         "hint": "mit + Dativ",
-        "explanation": "„mit“ always takes the Dativ. der Hund → masculine Dativ: unserem."
+        "explanation": "„[[mit]]“ always takes the Dativ. der Hund → masculine Dativ: unserem."
       }
     },
     {
@@ -438,7 +438,7 @@
           "It shows possession"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„mit“ always takes the Dativ: das Fahrrad → seinem Fahrrad."
+        "explanation": "„[[mit]]“ always takes the Dativ: das Fahrrad → seinem Fahrrad."
       }
     }
   ]

@@ -16,7 +16,7 @@
           "des"
         ],
         "correctIndex": 1,
-        "explanation": "„sehen“ takes a direct object → Akkusativ. Masculine: der → den."
+        "explanation": "„[[sehen]]“ takes a direct object → Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -30,7 +30,7 @@
           "einem"
         ],
         "correctIndex": 1,
-        "explanation": "„haben“ takes the Akkusativ. Masculine ein → einen (der Hund)."
+        "explanation": "„[[haben]]“ takes the Akkusativ. Masculine ein → einen (der Hund)."
       }
     },
     {
@@ -44,7 +44,7 @@
           "der"
         ],
         "correctIndex": 0,
-        "explanation": "„suchen“ takes the Akkusativ, but feminine die stays die — only masculine changes."
+        "explanation": "„[[suchen]]“ takes the Akkusativ, but feminine die stays die — only masculine changes."
       }
     },
     {
@@ -58,7 +58,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„essen“ takes a direct object → Akkusativ. Masculine: der → den (der Apfel)."
+        "explanation": "„[[essen]]“ takes a direct object → Akkusativ. Masculine: der → den (der Apfel)."
       }
     },
     {
@@ -72,7 +72,7 @@
           "dem"
         ],
         "correctIndex": 0,
-        "explanation": "„trinken“ takes the Akkusativ, but neuter das stays das — only masculine changes."
+        "explanation": "„[[trinken]]“ takes the Akkusativ, but neuter das stays das — only masculine changes."
       }
     },
     {
@@ -86,7 +86,7 @@
           "dem"
         ],
         "correctIndex": 0,
-        "explanation": "„finden“ takes the Akkusativ. Neuter das Buch stays das in the Akkusativ."
+        "explanation": "„[[finden]]“ takes the Akkusativ. Neuter das Buch stays das in the Akkusativ."
       }
     },
     {
@@ -101,7 +101,7 @@
           "des"
         ],
         "correctIndex": 1,
-        "explanation": "„kaufen“ takes a direct object → Akkusativ. Masculine: der → den (der Tisch)."
+        "explanation": "„[[kaufen]]“ takes a direct object → Akkusativ. Masculine: der → den (der Tisch)."
       }
     },
     {
@@ -115,7 +115,7 @@
           "einem"
         ],
         "correctIndex": 1,
-        "explanation": "„brauchen“ takes the Akkusativ. Masculine ein → einen (der Stuhl)."
+        "explanation": "„[[brauchen]]“ takes the Akkusativ. Masculine ein → einen (der Stuhl)."
       }
     },
     {
@@ -130,7 +130,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„sehen“ takes the Akkusativ, but feminine die stays die — only masculine der changes to den."
+        "explanation": "„[[sehen]]“ takes the Akkusativ, but feminine die stays die — only masculine der changes to den."
       }
     },
     {
@@ -144,7 +144,7 @@
           "einem"
         ],
         "correctIndex": 0,
-        "explanation": "„brauchen“ takes the Akkusativ, but neuter ein stays ein (das Auto) — only masculine becomes einen."
+        "explanation": "„[[brauchen]]“ takes the Akkusativ, but neuter ein stays ein (das Auto) — only masculine becomes einen."
       }
     },
     {
@@ -158,7 +158,7 @@
           "einer"
         ],
         "correctIndex": 0,
-        "explanation": "„suchen“ takes the Akkusativ. Feminine eine stays eine (die Tasche) — no change."
+        "explanation": "„[[suchen]]“ takes the Akkusativ. Feminine eine stays eine (die Tasche) — no change."
       }
     },
     {
@@ -172,7 +172,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„suchen“ takes a direct object → Akkusativ. Masculine: der → den (der Lehrer)."
+        "explanation": "„[[suchen]]“ takes a direct object → Akkusativ. Masculine: der → den (der Lehrer)."
       }
     },
     {
@@ -186,7 +186,7 @@
           "der"
         ],
         "correctIndex": 0,
-        "explanation": "„kaufen“ takes the Akkusativ, but plural die stays die — only masculine singular changes."
+        "explanation": "„[[kaufen]]“ takes the Akkusativ, but plural die stays die — only masculine singular changes."
       }
     },
     {
@@ -200,7 +200,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„finden“ takes the Akkusativ. Masculine: der → den (der Schlüssel), even with „nicht“ in the sentence."
+        "explanation": "„[[finden]]“ takes the Akkusativ. Masculine: der → den (der Schlüssel), even with „[[nicht]]“ in the sentence."
       }
     },
     {
@@ -214,7 +214,7 @@
           "einem"
         ],
         "correctIndex": 1,
-        "explanation": "„haben“ takes the Akkusativ. Masculine ein → einen (der Bruder); feminine eine Schwester stays the same."
+        "explanation": "„[[haben]]“ takes the Akkusativ. Masculine ein → einen (der Bruder); feminine eine Schwester stays the same."
       }
     },
     {
@@ -228,7 +228,7 @@
           "Dem"
         ],
         "correctIndex": 1,
-        "explanation": "The object of „sehen“ is fronted, but it is still Akkusativ: der → den. The subject is „ich“."
+        "explanation": "The object of „[[sehen]]“ is fronted, but it is still Akkusativ: der → den. The subject is „[[ich]]“."
       }
     },
     {
@@ -240,7 +240,7 @@
           "einen"
         ],
         "hint": "kaufen + Akkusativ, der Apfel",
-        "explanation": "„kaufen“ takes the Akkusativ; masculine ein → einen."
+        "explanation": "„[[kaufen]]“ takes the Akkusativ; masculine ein → einen."
       }
     },
     {
@@ -252,7 +252,7 @@
           "den"
         ],
         "hint": "sehen + Akkusativ, der Hund",
-        "explanation": "„sehen“ takes a direct object → Akkusativ. Masculine: der → den."
+        "explanation": "„[[sehen]]“ takes a direct object → Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -264,7 +264,7 @@
           "das"
         ],
         "hint": "kaufen + Akkusativ, das Buch",
-        "explanation": "„kaufen“ takes the Akkusativ, but neuter das stays das — only masculine changes."
+        "explanation": "„[[kaufen]]“ takes the Akkusativ, but neuter das stays das — only masculine changes."
       }
     },
     {
@@ -276,7 +276,7 @@
           "die"
         ],
         "hint": "trinken + Akkusativ, die Milch",
-        "explanation": "„trinken“ takes the Akkusativ, but feminine die stays die — no change."
+        "explanation": "„[[trinken]]“ takes the Akkusativ, but feminine die stays die — no change."
       }
     },
     {
@@ -288,7 +288,7 @@
           "einen"
         ],
         "hint": "brauchen + Akkusativ, der Stuhl",
-        "explanation": "„brauchen“ takes the Akkusativ; masculine ein → einen."
+        "explanation": "„[[brauchen]]“ takes the Akkusativ; masculine ein → einen."
       }
     },
     {
@@ -300,7 +300,7 @@
           "eine"
         ],
         "hint": "suchen + Akkusativ, die Katze",
-        "explanation": "„suchen“ takes the Akkusativ, but feminine eine stays eine — only masculine becomes einen."
+        "explanation": "„[[suchen]]“ takes the Akkusativ, but feminine eine stays eine — only masculine becomes einen."
       }
     },
     {
@@ -312,7 +312,7 @@
           "den"
         ],
         "hint": "sehen + Akkusativ, der Lehrer",
-        "explanation": "„sehen“ takes a direct object → Akkusativ. Masculine: der → den."
+        "explanation": "„[[sehen]]“ takes a direct object → Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -324,7 +324,7 @@
           "die"
         ],
         "hint": "finden + Akkusativ, die Tasche",
-        "explanation": "„finden“ takes the Akkusativ, but feminine die stays die — no change."
+        "explanation": "„[[finden]]“ takes the Akkusativ, but feminine die stays die — no change."
       }
     },
     {
@@ -337,7 +337,7 @@
           "den"
         ],
         "hint": "essen + Akkusativ, der Apfel — the object is fronted",
-        "explanation": "Even at the start of the sentence, the object of „essen“ is Akkusativ: der → den. The subject is „ich“."
+        "explanation": "Even at the start of the sentence, the object of „[[essen]]“ is Akkusativ: der → den. The subject is „[[ich]]“."
       }
     },
     {
@@ -349,7 +349,7 @@
           "einen"
         ],
         "hint": "haben + Akkusativ, der Hund",
-        "explanation": "„haben“ takes the Akkusativ; masculine ein → einen. Feminine eine Katze stays the same."
+        "explanation": "„[[haben]]“ takes the Akkusativ; masculine ein → einen. Feminine eine Katze stays the same."
       }
     },
     {
@@ -393,7 +393,7 @@
           ]
         ],
         "translation": "We have a cat.",
-        "explanation": "„haben“ takes the Akkusativ; feminine eine Katze stays unchanged. The verb is in second position."
+        "explanation": "„[[haben]]“ takes the Akkusativ; feminine eine Katze stays unchanged. The verb is in second position."
       }
     },
     {
@@ -415,7 +415,7 @@
           ]
         ],
         "translation": "He is drinking the water.",
-        "explanation": "„trinken“ takes the Akkusativ; neuter das Wasser stays das. Subject, verb, then object."
+        "explanation": "„[[trinken]]“ takes the Akkusativ; neuter das Wasser stays das. Subject, verb, then object."
       }
     },
     {
@@ -437,7 +437,7 @@
           ]
         ],
         "translation": "She is looking for the dog.",
-        "explanation": "„suchen“ takes the Akkusativ: der → den (der Hund). The verb stands in second position."
+        "explanation": "„[[suchen]]“ takes the Akkusativ: der → den (der Hund). The verb stands in second position."
       }
     },
     {
@@ -474,7 +474,7 @@
           ]
         ],
         "translation": "I need a table and a chair.",
-        "explanation": "„brauchen“ takes the Akkusativ: both masculine objects use einen. The two objects can come in either order."
+        "explanation": "„[[brauchen]]“ takes the Akkusativ: both masculine objects use einen. The two objects can come in either order."
       }
     },
     {
@@ -498,7 +498,7 @@
           ]
         ],
         "translation": "The man is buying the car.",
-        "explanation": "„kaufen“ takes the Akkusativ; neuter das Auto stays das. Der Mann is the Nominativ subject."
+        "explanation": "„[[kaufen]]“ takes the Akkusativ; neuter das Auto stays das. Der Mann is the Nominativ subject."
       }
     },
     {
@@ -522,7 +522,7 @@
           ]
         ],
         "translation": "The child is eating the apple.",
-        "explanation": "The Akkusativ object „den Apfel“ (der → den, triggered by „essen“) is fronted; the verb stays in second position and the subject „das Kind“ follows."
+        "explanation": "The Akkusativ object „den Apfel“ (der → den, triggered by „[[essen]]“) is fronted; the verb stays in second position and the subject „das Kind“ follows."
       }
     },
     {
@@ -546,7 +546,7 @@
           ]
         ],
         "translation": "Today I am seeing the teacher.",
-        "explanation": "With „Heute“ fronted, the verb stays in second position and the subject „ich“ follows it. „sehen“ takes the Akkusativ: der → den."
+        "explanation": "With „[[Heute]]“ fronted, the verb stays in second position and the subject „[[ich]]“ follows it. „[[sehen]]“ takes the Akkusativ: der → den."
       }
     },
     {
@@ -562,7 +562,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 1,
-        "explanation": "„lesen“ acts on das Buch → direct object → Akkusativ. (Neuter das stays das.)"
+        "explanation": "„[[lesen]]“ acts on das Buch → direct object → Akkusativ. (Neuter das stays das.)"
       }
     },
     {
@@ -578,7 +578,7 @@
           "It shows possession"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„kaufen“ acts on den Tisch → direct object → Akkusativ. Masculine: der → den."
+        "explanation": "„[[kaufen]]“ acts on den Tisch → direct object → Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -594,7 +594,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 0,
-        "explanation": "Der Hund is the one who sees → subject → Nominativ, so der stays der. „Die Katze“ is the Akkusativ object of „sehen“."
+        "explanation": "Der Hund is the one who sees → subject → Nominativ, so der stays der. „Die Katze“ is the Akkusativ object of „[[sehen]]“."
       }
     },
     {
@@ -610,7 +610,7 @@
           "It is the direct object of „essen“"
         ],
         "correctReasonIndex": 3,
-        "explanation": "„essen“ acts on einen Apfel → direct object → Akkusativ. Masculine ein → einen."
+        "explanation": "„[[essen]]“ acts on einen Apfel → direct object → Akkusativ. Masculine ein → einen."
       }
     },
     {
@@ -626,7 +626,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 0,
-        "explanation": "„sehen“ acts on die Frau → direct object → Akkusativ. Feminine die stays die, so only the sentence role shows the case."
+        "explanation": "„[[sehen]]“ acts on die Frau → direct object → Akkusativ. Feminine die stays die, so only the sentence role shows the case."
       }
     },
     {
@@ -656,7 +656,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„fragen“ takes a direct object → Akkusativ. Masculine: der → den (der Schüler)."
+        "explanation": "„[[fragen]]“ takes a direct object → Akkusativ. Masculine: der → den (der Schüler)."
       }
     },
     {
@@ -696,7 +696,7 @@
           "meinen"
         ],
         "hint": "der Bruder → Akkusativ",
-        "explanation": "„lieben“ takes the Akkusativ. Masculine mein → meinen."
+        "explanation": "„[[lieben]]“ takes the Akkusativ. Masculine mein → meinen."
       }
     },
     {
@@ -708,7 +708,7 @@
           "unsere"
         ],
         "hint": "die Oma",
-        "explanation": "„besuchen“ takes the Akkusativ, but feminine unsere doesn't change — only masculine gets -en."
+        "explanation": "„[[besuchen]]“ takes the Akkusativ, but feminine unsere doesn't change — only masculine gets -en."
       }
     },
     {

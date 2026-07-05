@@ -15,7 +15,7 @@
           "keine"
         ],
         "correctIndex": 0,
-        "explanation": "„Auto“ is a noun with ein → negate with kein. Neuter: kein Auto."
+        "explanation": "„[[Auto]]“ is a noun with ein → negate with kein. Neuter: kein Auto."
       }
     },
     {
@@ -29,7 +29,7 @@
           "keine"
         ],
         "correctIndex": 0,
-        "explanation": "„gut“ is an adjective → negate with nicht."
+        "explanation": "„[[gut]]“ is an adjective → negate with nicht."
       }
     },
     {
@@ -43,7 +43,7 @@
           "kein"
         ],
         "correctIndex": 0,
-        "explanation": "„Zeit“ has no article → kein. Feminine: keine Zeit."
+        "explanation": "„[[Zeit]]“ has no article → kein. Feminine: keine Zeit."
       }
     },
     {
@@ -71,7 +71,7 @@
           "keinen"
         ],
         "correctIndex": 0,
-        "explanation": "The verb „verstehen“ is negated → nicht, at the end of the sentence."
+        "explanation": "The verb „[[verstehen]]“ is negated → nicht, at the end of the sentence."
       }
     },
     {
@@ -97,7 +97,7 @@
           "nicht"
         ],
         "correctIndex": 0,
-        "explanation": "„Schule“ stands without article → kein. Feminine: keine Schule."
+        "explanation": "„[[Schule]]“ stands without article → kein. Feminine: keine Schule."
       }
     },
     {
@@ -108,7 +108,7 @@
         "accept": [
           "kein"
         ],
-        "explanation": "No article before „Fleisch“ → kein. Neuter: kein Fleisch.",
+        "explanation": "No article before „[[Fleisch]]“ → kein. Neuter: kein Fleisch.",
         "hint": "das Fleisch"
       }
     },
@@ -120,7 +120,7 @@
         "accept": [
           "nicht"
         ],
-        "explanation": "The verb „kommen“ is negated → nicht at the end."
+        "explanation": "The verb „[[kommen]]“ is negated → nicht at the end."
       }
     },
     {
@@ -200,7 +200,7 @@
           ]
         ],
         "translation": "I don't like the food.",
-        "explanation": "nicht at the end; „schmecken“ + Dativ (mir)."
+        "explanation": "nicht at the end; „[[schmecken]]“ + Dativ (mir)."
       }
     }
   ]

@@ -15,7 +15,7 @@
           "ich"
         ],
         "correctIndex": 0,
-        "explanation": "„sehen“ takes a direct object → Akkusativ: ich → mich."
+        "explanation": "„[[sehen]]“ takes a direct object → Akkusativ: ich → mich."
       }
     },
     {
@@ -29,7 +29,7 @@
           "ich"
         ],
         "correctIndex": 0,
-        "explanation": "„helfen“ takes the Dativ: ich → mir — compare „Siehst du mich?“ (Akkusativ)."
+        "explanation": "„[[helfen]]“ takes the Dativ: ich → mir — compare „Siehst du mich?“ (Akkusativ)."
       }
     },
     {
@@ -57,7 +57,7 @@
           "du"
         ],
         "correctIndex": 0,
-        "explanation": "„lieben“ takes a direct object → Akkusativ: du → dich."
+        "explanation": "„[[lieben]]“ takes a direct object → Akkusativ: du → dich."
       }
     },
     {
@@ -85,7 +85,7 @@
           "ihm"
         ],
         "correctIndex": 0,
-        "explanation": "„helfen“ takes the Dativ; the feminine Dativ pronoun is ihr (sie → ihr)."
+        "explanation": "„[[helfen]]“ takes the Dativ; the feminine Dativ pronoun is ihr (sie → ihr)."
       }
     },
     {
@@ -99,7 +99,7 @@
           "eure"
         ],
         "correctIndex": 0,
-        "explanation": "„besuchen“ takes the Akkusativ: ihr → euch."
+        "explanation": "„[[besuchen]]“ takes the Akkusativ: ihr → euch."
       }
     },
     {
@@ -113,7 +113,7 @@
           "unser"
         ],
         "correctIndex": 0,
-        "explanation": "„danken“ takes the Dativ: wir → uns (uns is both Akkusativ and Dativ)."
+        "explanation": "„[[danken]]“ takes the Dativ: wir → uns (uns is both Akkusativ and Dativ)."
       }
     },
     {
@@ -141,7 +141,7 @@
           "ihnen"
         ],
         "correctIndex": 0,
-        "explanation": "„für“ always takes the Akkusativ, so sie stays sie — not the Dativ ihr."
+        "explanation": "„[[für]]“ always takes the Akkusativ, so sie stays sie — not the Dativ ihr."
       }
     },
     {
@@ -165,7 +165,7 @@
           "dich"
         ],
         "hint": "fragen + Akkusativ",
-        "explanation": "„fragen“ takes a direct object → Akkusativ: du → dich."
+        "explanation": "„[[fragen]]“ takes a direct object → Akkusativ: du → dich."
       }
     },
     {
@@ -177,7 +177,7 @@
           "uns"
         ],
         "hint": "gefallen + Dativ",
-        "explanation": "„gefallen“ takes the Dativ: wir → uns."
+        "explanation": "„[[gefallen]]“ takes the Dativ: wir → uns."
       }
     },
     {
@@ -189,7 +189,7 @@
           "ihm"
         ],
         "hint": "gehören + Dativ",
-        "explanation": "„gehören“ takes the Dativ: er → ihm."
+        "explanation": "„[[gehören]]“ takes the Dativ: er → ihm."
       }
     },
     {
@@ -201,7 +201,7 @@
           "euch"
         ],
         "hint": "danken + Dativ",
-        "explanation": "„danken“ takes the Dativ: ihr → euch (euch is both Akkusativ and Dativ)."
+        "explanation": "„[[danken]]“ takes the Dativ: ihr → euch (euch is both Akkusativ and Dativ)."
       }
     },
     {
@@ -213,7 +213,7 @@
           "mir"
         ],
         "hint": "recipient → Dativ",
-        "explanation": "The recipient of „geben“ is Dativ: ich → mir. The Akkusativ pronoun es comes first."
+        "explanation": "The recipient of „[[geben]]“ is Dativ: ich → mir. The Akkusativ pronoun es comes first."
       }
     },
     {
@@ -235,7 +235,7 @@
           ]
         ],
         "translation": "Can you help me?",
-        "explanation": "In a yes/no question the verb comes first. „helfen“ takes the Dativ: ich → mir."
+        "explanation": "In a yes/no question the verb comes first. „[[helfen]]“ takes the Dativ: ich → mir."
       }
     },
     {
@@ -257,7 +257,7 @@
           ]
         ],
         "translation": "The teacher is helping us.",
-        "explanation": "„helfen“ takes the Dativ: wir → uns. Der Lehrer is the Nominativ subject."
+        "explanation": "„[[helfen]]“ takes the Dativ: wir → uns. Der Lehrer is the Nominativ subject."
       }
     },
     {
@@ -279,7 +279,7 @@
           ]
         ],
         "translation": "Are you seeing him today?",
-        "explanation": "„sehen“ takes the Akkusativ: er → ihn. The pronoun stands before the time word."
+        "explanation": "„[[sehen]]“ takes the Akkusativ: er → ihn. The pronoun stands before the time word."
       }
     },
     {
@@ -301,7 +301,7 @@
           ]
         ],
         "translation": "She likes the picture.",
-        "explanation": "„gefallen“ takes the Dativ; the feminine Dativ pronoun is ihr. Das Bild is the subject."
+        "explanation": "„[[gefallen]]“ takes the Dativ; the feminine Dativ pronoun is ihr. Das Bild is the subject."
       }
     },
     {
@@ -339,7 +339,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 0,
-        "explanation": "„fragen“ takes a direct object → Akkusativ: ich → mich."
+        "explanation": "„[[fragen]]“ takes a direct object → Akkusativ: ich → mich."
       }
     },
     {
@@ -355,7 +355,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 1,
-        "explanation": "„sehen“ takes a direct object → Akkusativ: er → ihn."
+        "explanation": "„[[sehen]]“ takes a direct object → Akkusativ: er → ihn."
       }
     },
     {
@@ -371,7 +371,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„danken“ is a Dativ verb: er → ihm."
+        "explanation": "„[[danken]]“ is a Dativ verb: er → ihm."
       }
     },
     {
@@ -387,7 +387,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 1,
-        "explanation": "The recipient of „geben“ is the indirect object → Dativ: sie → ihr. Das Buch is the Akkusativ object."
+        "explanation": "The recipient of „[[geben]]“ is the indirect object → Dativ: sie → ihr. Das Buch is the Akkusativ object."
       }
     },
     {
@@ -401,7 +401,7 @@
           "ihn"
         ],
         "correctIndex": 0,
-        "explanation": "Anna is the direct object of „sehen“ → Akkusativ: sie stays sie."
+        "explanation": "Anna is the direct object of „[[sehen]]“ → Akkusativ: sie stays sie."
       }
     },
     {
@@ -415,7 +415,7 @@
           "ich"
         ],
         "correctIndex": 0,
-        "explanation": "„für“ always takes the Akkusativ → ich becomes mich."
+        "explanation": "„[[für]]“ always takes the Akkusativ → ich becomes mich."
       }
     },
     {
@@ -443,7 +443,7 @@
           "ihnen"
         ],
         "correctIndex": 0,
-        "explanation": "„helfen“ takes the Dativ. wir → uns (same form as the Akkusativ — lucky!)."
+        "explanation": "„[[helfen]]“ takes the Dativ. wir → uns (same form as the Akkusativ — lucky!)."
       }
     },
     {
@@ -455,7 +455,7 @@
           "ihr"
         ],
         "hint": "gehören + Dativ",
-        "explanation": "„gehören“ takes the Dativ: sie → ihr."
+        "explanation": "„[[gehören]]“ takes the Dativ: sie → ihr."
       }
     },
     {
@@ -489,7 +489,7 @@
           ]
         ],
         "translation": "I'll help you tomorrow.",
-        "explanation": "„helfen“ takes the Dativ: du → dir."
+        "explanation": "„[[helfen]]“ takes the Dativ: du → dir."
       }
     },
     {
@@ -505,7 +505,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„danken“ is a dative verb — uns is the same form in Akkusativ and Dativ, but here it is Dativ."
+        "explanation": "„[[danken]]“ is a dative verb — uns is the same form in Akkusativ and Dativ, but here it is Dativ."
       }
     }
   ]

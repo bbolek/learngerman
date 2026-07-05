@@ -15,7 +15,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„durch“ always takes the Akkusativ. Masculine: der → den (der Park)."
+        "explanation": "„[[durch]]“ always takes the Akkusativ. Masculine: der → den (der Park)."
       }
     },
     {
@@ -29,7 +29,7 @@
           "den"
         ],
         "correctIndex": 0,
-        "explanation": "„für“ always takes the Akkusativ, but neuter das stays das (das Kind)."
+        "explanation": "„[[für]]“ always takes the Akkusativ, but neuter das stays das (das Kind)."
       }
     },
     {
@@ -43,7 +43,7 @@
           "den"
         ],
         "correctIndex": 0,
-        "explanation": "„gegen“ always takes the Akkusativ; feminine die stays die (die Wand)."
+        "explanation": "„[[gegen]]“ always takes the Akkusativ; feminine die stays die (die Wand)."
       }
     },
     {
@@ -57,7 +57,7 @@
           "meinem"
         ],
         "correctIndex": 1,
-        "explanation": "„ohne“ always takes the Akkusativ. Masculine: mein → meinen (der Bruder)."
+        "explanation": "„[[ohne]]“ always takes the Akkusativ. Masculine: mein → meinen (der Bruder)."
       }
     },
     {
@@ -71,7 +71,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„um“ always takes the Akkusativ. Masculine: der → den (der Tisch)."
+        "explanation": "„[[um]]“ always takes the Akkusativ. Masculine: der → den (der Tisch)."
       }
     },
     {
@@ -85,7 +85,7 @@
           "das"
         ],
         "correctIndex": 0,
-        "explanation": "„um“ takes the Akkusativ; feminine die stays die (die Ecke)."
+        "explanation": "„[[um]]“ takes the Akkusativ; feminine die stays die (die Ecke)."
       }
     },
     {
@@ -99,7 +99,7 @@
           "den"
         ],
         "correctIndex": 0,
-        "explanation": "„für“ takes the Akkusativ; feminine die stays die (die Lehrerin)."
+        "explanation": "„[[für]]“ takes the Akkusativ; feminine die stays die (die Lehrerin)."
       }
     },
     {
@@ -113,7 +113,7 @@
           "den"
         ],
         "correctIndex": 0,
-        "explanation": "„ohne“ takes the Akkusativ; neuter das stays das (das Auto)."
+        "explanation": "„[[ohne]]“ takes the Akkusativ; neuter das stays das (das Auto)."
       }
     },
     {
@@ -127,7 +127,7 @@
           "er"
         ],
         "correctIndex": 0,
-        "explanation": "„für“ always takes the Akkusativ, also with pronouns: er → ihn."
+        "explanation": "„[[für]]“ always takes the Akkusativ, also with pronouns: er → ihn."
       }
     },
     {
@@ -141,7 +141,7 @@
           "du"
         ],
         "correctIndex": 0,
-        "explanation": "„ohne“ always takes the Akkusativ, also with pronouns: du → dich."
+        "explanation": "„[[ohne]]“ always takes the Akkusativ, also with pronouns: du → dich."
       }
     },
     {
@@ -153,7 +153,7 @@
           "den"
         ],
         "hint": "durch + Akkusativ, der Garten",
-        "explanation": "„durch“ always takes the Akkusativ. Masculine: der → den."
+        "explanation": "„[[durch]]“ always takes the Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -165,7 +165,7 @@
           "die"
         ],
         "hint": "für + Akkusativ, die Mutter",
-        "explanation": "„für“ takes the Akkusativ, but feminine die stays die."
+        "explanation": "„[[für]]“ takes the Akkusativ, but feminine die stays die."
       }
     },
     {
@@ -177,7 +177,7 @@
           "den"
         ],
         "hint": "um + Akkusativ, der See",
-        "explanation": "„um“ always takes the Akkusativ. Masculine: der → den."
+        "explanation": "„[[um]]“ always takes the Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -189,7 +189,7 @@
           "den"
         ],
         "hint": "gegen + Akkusativ, der Baum",
-        "explanation": "„gegen“ always takes the Akkusativ. Masculine: der → den."
+        "explanation": "„[[gegen]]“ always takes the Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -201,7 +201,7 @@
           "seine"
         ],
         "hint": "ohne + Akkusativ, die Jacke",
-        "explanation": "„ohne“ takes the Akkusativ, but feminine seine stays seine (die Jacke)."
+        "explanation": "„[[ohne]]“ takes the Akkusativ, but feminine seine stays seine (die Jacke)."
       }
     },
     {
@@ -213,7 +213,7 @@
           "ihren"
         ],
         "hint": "für + Akkusativ, der Bruder",
-        "explanation": "„für“ takes the Akkusativ. Masculine: ihr → ihren (der Bruder)."
+        "explanation": "„[[für]]“ takes the Akkusativ. Masculine: ihr → ihren (der Bruder)."
       }
     },
     {
@@ -237,7 +237,7 @@
           ]
         ],
         "translation": "We are walking through the park.",
-        "explanation": "„durch“ takes the Akkusativ: der → den. The verb stands in second position."
+        "explanation": "„[[durch]]“ takes the Akkusativ: der → den. The verb stands in second position."
       }
     },
     {
@@ -261,7 +261,7 @@
           ]
         ],
         "translation": "The present is for you.",
-        "explanation": "„für“ always takes the Akkusativ, also with pronouns: du → dich."
+        "explanation": "„[[für]]“ always takes the Akkusativ, also with pronouns: du → dich."
       }
     },
     {
@@ -285,7 +285,7 @@
           ]
         ],
         "translation": "He is coming without his brother.",
-        "explanation": "„ohne“ takes the Akkusativ. Masculine: sein → seinen (der Bruder)."
+        "explanation": "„[[ohne]]“ takes the Akkusativ. Masculine: sein → seinen (der Bruder)."
       }
     },
     {
@@ -311,7 +311,7 @@
           ]
         ],
         "translation": "The bus is driving around the corner.",
-        "explanation": "„um“ takes the Akkusativ; feminine die stays die. Der Bus is the Nominativ subject."
+        "explanation": "„[[um]]“ takes the Akkusativ; feminine die stays die. Der Bus is the Nominativ subject."
       }
     },
     {
@@ -345,7 +345,7 @@
           ]
         ],
         "translation": "I am buying a book for him.",
-        "explanation": "„für“ always takes the Akkusativ: er → ihn. The für-phrase can stand before or after the object."
+        "explanation": "„[[für]]“ always takes the Akkusativ: er → ihn. The für-phrase can stand before or after the object."
       }
     },
     {
@@ -361,7 +361,7 @@
           "It is the indirect object (recipient)"
         ],
         "correctReasonIndex": 0,
-        "explanation": "„durch“ is an Akkusativ preposition, so der Park becomes den Park."
+        "explanation": "„[[durch]]“ is an Akkusativ preposition, so der Park becomes den Park."
       }
     },
     {
@@ -377,7 +377,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 1,
-        "explanation": "„für“ is an Akkusativ preposition; neuter das stays das, so the case is invisible but still Akkusativ."
+        "explanation": "„[[für]]“ is an Akkusativ preposition; neuter das stays das, so the case is invisible but still Akkusativ."
       }
     },
     {
@@ -393,7 +393,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„ohne“ is an Akkusativ preposition. Masculine: sein → seinen (der Bruder)."
+        "explanation": "„[[ohne]]“ is an Akkusativ preposition. Masculine: sein → seinen (der Bruder)."
       }
     },
     {
@@ -409,7 +409,7 @@
           "It is the indirect object (recipient)"
         ],
         "correctReasonIndex": 0,
-        "explanation": "Der Ball is the one flying → subject → Nominativ. Only „die Wand“ follows the Akkusativ preposition „gegen“."
+        "explanation": "Der Ball is the one flying → subject → Nominativ. Only „die Wand“ follows the Akkusativ preposition „[[gegen]]“."
       }
     },
     {
@@ -423,7 +423,7 @@
           "den"
         ],
         "correctIndex": 0,
-        "explanation": "„für“ + Akkusativ — feminine die stays die (die Party)."
+        "explanation": "„[[für]]“ + Akkusativ — feminine die stays die (die Party)."
       }
     },
     {
@@ -437,7 +437,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„durch“ + Akkusativ. Masculine: der Tunnel → den Tunnel."
+        "explanation": "„[[durch]]“ + Akkusativ. Masculine: der Tunnel → den Tunnel."
       }
     },
     {
@@ -451,7 +451,7 @@
           "sein"
         ],
         "correctIndex": 0,
-        "explanation": "„gegen“ + Akkusativ. Masculine sein → seinen."
+        "explanation": "„[[gegen]]“ + Akkusativ. Masculine sein → seinen."
       }
     },
     {
@@ -463,7 +463,7 @@
           "den"
         ],
         "hint": "durch + Akkusativ",
-        "explanation": "„durch“ + Akkusativ: der Wald → den Wald."
+        "explanation": "„[[durch]]“ + Akkusativ: der Wald → den Wald."
       }
     },
     {
@@ -475,7 +475,7 @@
           "meine"
         ],
         "hint": "die Familie",
-        "explanation": "„für“ + Akkusativ — feminine meine doesn't change."
+        "explanation": "„[[für]]“ + Akkusativ — feminine meine doesn't change."
       }
     },
     {
@@ -499,7 +499,7 @@
           ]
         ],
         "translation": "We run around the lake.",
-        "explanation": "„um“ + Akkusativ: der See → den See."
+        "explanation": "„[[um]]“ + Akkusativ: der See → den See."
       }
     },
     {
@@ -525,7 +525,7 @@
           ]
         ],
         "translation": "Without my glasses I see nothing.",
-        "explanation": "„ohne“ + Akkusativ. After the fronted phrase the verb stays in position 2: sehe ich."
+        "explanation": "„[[ohne]]“ + Akkusativ. After the fronted phrase the verb stays in position 2: sehe ich."
       }
     },
     {
@@ -541,7 +541,7 @@
           "It follows a dative preposition"
         ],
         "correctReasonIndex": 1,
-        "explanation": "„für“ always takes the Akkusativ — feminine ihre stays ihre."
+        "explanation": "„[[für]]“ always takes the Akkusativ — feminine ihre stays ihre."
       }
     }
   ]

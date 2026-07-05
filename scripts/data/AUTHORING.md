@@ -128,7 +128,10 @@ resolve too); `[[display|lookup]]` shows one word but looks up another
 (`[[möchten|mögen]]`). The build fails if a marker doesn't resolve to a
 dictionary lemma or form — add the word to a vocab batch first. Mark each
 word once per explainer, ideally in the verb/preposition lists rather than
-mid-example.
+mid-example. Markers also work in question `explanation` strings (the
+feedback panel renders them tappable); the convention there is to mark the
+„quoted“ verb/preposition the explanation refers to. The build derives
+`grammar_topics.vocab_count` (distinct lookups per topic) from all markers.
 
 ### Question types
 

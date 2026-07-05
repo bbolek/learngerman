@@ -15,7 +15,7 @@
           "am ältesten"
         ],
         "correctIndex": 0,
-        "explanation": "alt takes an umlaut in the comparative: älter. „als“ = than."
+        "explanation": "alt takes an umlaut in the comparative: älter. „[[als]]“ = than."
       }
     },
     {
@@ -85,7 +85,7 @@
           "so"
         ],
         "correctIndex": 0,
-        "explanation": "Equality uses wie: genauso groß wie. „als“ only after a comparative."
+        "explanation": "Equality uses wie: genauso groß wie. „[[als]]“ only after a comparative."
       }
     },
     {
@@ -110,7 +110,7 @@
         "accept": [
           "teurer"
         ],
-        "explanation": "teuer drops the e of the stem: teurer (not „teuerer“).",
+        "explanation": "teuer drops the e of the stem: teurer (not „[[teuerer]]“).",
         "hint": "drops an e!"
       }
     },

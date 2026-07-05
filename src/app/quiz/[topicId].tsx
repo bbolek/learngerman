@@ -32,7 +32,7 @@ import {
 } from '@/logic/graders';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
-import { MarkdownLite } from '@/ui/components/MarkdownLite';
+import { MarkdownLite, VocabTapProvider, VocabText } from '@/ui/components/MarkdownLite';
 import { ProgressRing } from '@/ui/components/ProgressRing';
 import { fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -110,11 +110,12 @@ export default function QuizScreen() {
           <AppText variant="title" style={{ marginTop: spacing.md }}>
             {topic.title}
           </AppText>
-          {topic.explainer_md.includes('[[') && (
+          {topic.vocab_count > 0 && (
             <View style={[styles.vocabHint, { backgroundColor: t.primaryDim }]}>
               <Ionicons name="book-outline" size={15} color={t.onPrimaryDim} />
               <AppText variant="caption" color={t.onPrimaryDim} style={{ flex: 1 }}>
-                Tippe auf unterstrichene Wörter, um ihre Bedeutung zu sehen.
+                {topic.vocab_count} Wörter zum Entdecken — tippe auf unterstrichene Wörter für die
+                Bedeutung.
               </AppText>
             </View>
           )}
@@ -177,6 +178,7 @@ export default function QuizScreen() {
   }
 
   return (
+    <VocabTapProvider>
     <View style={[styles.fill, { backgroundColor: t.bg, paddingTop: insets.top + spacing.md }]}>
       <View style={styles.top}>
         <Pressable hitSlop={10} onPress={() => router.back()}>
@@ -284,7 +286,10 @@ export default function QuizScreen() {
             variant="secondary"
             color={feedback.correct ? t.onAccentDim : t.onDangerDim}
             style={{ marginTop: 3, opacity: 0.9 }}>
-            {feedback.detail}
+            <VocabText
+              text={feedback.detail}
+              color={feedback.correct ? t.onAccentDim : t.onDangerDim}
+            />
           </AppText>
           <Pressable
             onPress={next}
@@ -296,6 +301,7 @@ export default function QuizScreen() {
         </View>
       )}
     </View>
+    </VocabTapProvider>
   );
 }
 

@@ -57,7 +57,7 @@
           "lese"
         ],
         "correctIndex": 0,
-        "explanation": "„lesen“ changes its vowel: e→ie, but only for du and er/sie/es: sie liest."
+        "explanation": "„[[lesen]]“ changes its vowel: e→ie, but only for du and er/sie/es: sie liest."
       }
     },
     {
@@ -71,7 +71,7 @@
           "fährt"
         ],
         "correctIndex": 0,
-        "explanation": "„fahren“ takes an umlaut in the du-form: a→ä, du fährst."
+        "explanation": "„[[fahren]]“ takes an umlaut in the du-form: a→ä, du fährst."
       }
     },
     {
@@ -85,7 +85,7 @@
           "Ist"
         ],
         "correctIndex": 0,
-        "explanation": "„sein“ is irregular: ich bin, du bist, er ist."
+        "explanation": "„[[sein]]“ is irregular: ich bin, du bist, er ist."
       }
     },
     {
@@ -99,7 +99,7 @@
           "sprichst"
         ],
         "correctIndex": 0,
-        "explanation": "„sprechen“ changes e→i: er spricht. (ihr sprecht, du sprichst)"
+        "explanation": "„[[sprechen]]“ changes e→i: er spricht. (ihr sprecht, du sprichst)"
       }
     },
     {
@@ -136,7 +136,7 @@
         "accept": [
           "hat"
         ],
-        "explanation": "„haben“ is irregular: er hat (not „habt“).",
+        "explanation": "„[[haben]]“ is irregular: er hat (not „[[habt]]“).",
         "hint": "irregular!"
       }
     },
@@ -148,7 +148,7 @@
         "accept": [
           "bin"
         ],
-        "explanation": "„sein“ is completely irregular: ich bin.",
+        "explanation": "„[[sein]]“ is completely irregular: ich bin.",
         "hint": "irregular!"
       }
     },
@@ -160,7 +160,7 @@
         "accept": [
           "isst"
         ],
-        "explanation": "„essen“ changes e→i in the du-form: du isst.",
+        "explanation": "„[[essen]]“ changes e→i in the du-form: du isst.",
         "hint": "vowel change e→i"
       }
     },
@@ -172,7 +172,7 @@
         "accept": [
           "schläft"
         ],
-        "explanation": "„schlafen“ takes an umlaut: es schläft.",
+        "explanation": "„[[schlafen]]“ takes an umlaut: es schläft.",
         "hint": "vowel change a→ä"
       }
     },
@@ -219,7 +219,7 @@
           ]
         ],
         "translation": "My sister likes reading books.",
-        "explanation": "er/sie/es-form with vowel change: liest. „gern“ comes right after the verb."
+        "explanation": "er/sie/es-form with vowel change: liest. „[[gern]]“ comes right after the verb."
       }
     }
   ]

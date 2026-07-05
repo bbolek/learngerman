@@ -42,7 +42,7 @@
           "ich arbeite"
         ],
         "correctIndex": 0,
-        "explanation": "„Heute“ takes position 1, so the verb must come next: Heute arbeite ich nicht."
+        "explanation": "„[[Heute]]“ takes position 1, so the verb must come next: Heute arbeite ich nicht."
       }
     },
     {
@@ -237,7 +237,7 @@
           ]
         ],
         "translation": "Tomorrow my brother plays football.",
-        "explanation": "Verb in position 2 after the fronted „Morgen“ — subject follows the verb."
+        "explanation": "Verb in position 2 after the fronted „[[Morgen]]“ — subject follows the verb."
       }
     }
   ]

@@ -15,7 +15,7 @@
           "dem"
         ],
         "correctIndex": 2,
-        "explanation": "„mit“ always takes the Dativ. Masculine: der → dem (der Bus)."
+        "explanation": "„[[mit]]“ always takes the Dativ. Masculine: der → dem (der Bus)."
       }
     },
     {
@@ -29,7 +29,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„aus“ always takes the Dativ. Feminine: die → der (die Türkei)."
+        "explanation": "„[[aus]]“ always takes the Dativ. Feminine: die → der (die Türkei)."
       }
     },
     {
@@ -43,7 +43,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„nach“ always takes the Dativ. Feminine: die → der (die Schule)."
+        "explanation": "„[[nach]]“ always takes the Dativ. Feminine: die → der (die Schule)."
       }
     },
     {
@@ -57,7 +57,7 @@
           "der"
         ],
         "correctIndex": 1,
-        "explanation": "„bei“ always takes the Dativ. Plural: die → den (den Eltern)."
+        "explanation": "„[[bei]]“ always takes the Dativ. Plural: die → den (den Eltern)."
       }
     },
     {
@@ -71,7 +71,7 @@
           "zu den"
         ],
         "correctIndex": 0,
-        "explanation": "„zu“ takes the Dativ; zu + dem contracts to „zum“ (der Arzt)."
+        "explanation": "„[[zu]]“ takes the Dativ; zu + dem contracts to „zum“ (der Arzt)."
       }
     },
     {
@@ -85,7 +85,7 @@
           "einem"
         ],
         "correctIndex": 2,
-        "explanation": "„seit“ always takes the Dativ. Neuter: ein → einem (das Jahr)."
+        "explanation": "„[[seit]]“ always takes the Dativ. Neuter: ein → einem (das Jahr)."
       }
     },
     {
@@ -99,7 +99,7 @@
           "beim"
         ],
         "correctIndex": 0,
-        "explanation": "„von“ takes the Dativ; von + dem contracts to „vom“ (der Bäcker)."
+        "explanation": "„[[von]]“ takes the Dativ; von + dem contracts to „vom“ (der Bäcker)."
       }
     },
     {
@@ -113,7 +113,7 @@
           "zur"
         ],
         "correctIndex": 0,
-        "explanation": "„bei“ takes the Dativ; bei + dem contracts to „beim“ (der Friseur)."
+        "explanation": "„[[bei]]“ takes the Dativ; bei + dem contracts to „beim“ (der Friseur)."
       }
     },
     {
@@ -127,7 +127,7 @@
           "ich"
         ],
         "correctIndex": 0,
-        "explanation": "„mit“ always takes the Dativ, also with pronouns: ich → mir."
+        "explanation": "„[[mit]]“ always takes the Dativ, also with pronouns: ich → mir."
       }
     },
     {
@@ -141,7 +141,7 @@
           "unserem"
         ],
         "correctIndex": 0,
-        "explanation": "„zu“ takes the Dativ. Plural: unsere → unseren (die Großeltern)."
+        "explanation": "„[[zu]]“ takes the Dativ. Plural: unsere → unseren (die Großeltern)."
       }
     },
     {
@@ -153,7 +153,7 @@
           "meiner"
         ],
         "hint": "mit + Dativ, die Schwester",
-        "explanation": "„mit“ always takes the Dativ. Feminine: meine → meiner."
+        "explanation": "„[[mit]]“ always takes the Dativ. Feminine: meine → meiner."
       }
     },
     {
@@ -165,7 +165,7 @@
           "der"
         ],
         "hint": "aus + Dativ, die Schule",
-        "explanation": "„aus“ always takes the Dativ. Feminine: die → der."
+        "explanation": "„[[aus]]“ always takes the Dativ. Feminine: die → der."
       }
     },
     {
@@ -177,7 +177,7 @@
           "dem"
         ],
         "hint": "nach + Dativ, das Essen",
-        "explanation": "„nach“ always takes the Dativ. Neuter: das → dem."
+        "explanation": "„[[nach]]“ always takes the Dativ. Neuter: das → dem."
       }
     },
     {
@@ -189,7 +189,7 @@
           "einem"
         ],
         "hint": "seit + Dativ, der Monat",
-        "explanation": "„seit“ always takes the Dativ. Masculine: ein → einem."
+        "explanation": "„[[seit]]“ always takes the Dativ. Masculine: ein → einem."
       }
     },
     {
@@ -201,7 +201,7 @@
           "meiner"
         ],
         "hint": "von + Dativ, die Oma",
-        "explanation": "„von“ always takes the Dativ. Feminine: meine → meiner."
+        "explanation": "„[[von]]“ always takes the Dativ. Feminine: meine → meiner."
       }
     },
     {
@@ -213,7 +213,7 @@
           "unseren"
         ],
         "hint": "zu + Dativ, plural die Freunde",
-        "explanation": "„zu“ takes the Dativ. Plural: unsere → unseren, and the noun adds -n (Freunden)."
+        "explanation": "„[[zu]]“ takes the Dativ. Plural: unsere → unseren, and the noun adds -n (Freunden)."
       }
     },
     {
@@ -237,7 +237,7 @@
           ]
         ],
         "translation": "I am going by bus.",
-        "explanation": "„mit“ takes the Dativ: der → dem. The verb stands in second position."
+        "explanation": "„[[mit]]“ takes the Dativ: der → dem. The verb stands in second position."
       }
     },
     {
@@ -261,7 +261,7 @@
           ]
         ],
         "translation": "She comes from Turkey.",
-        "explanation": "„aus“ takes the Dativ. Feminine: die → der (die Türkei)."
+        "explanation": "„[[aus]]“ takes the Dativ. Feminine: die → der (die Türkei)."
       }
     },
     {
@@ -295,7 +295,7 @@
           ]
         ],
         "translation": "I have been living here for a year.",
-        "explanation": "„seit“ takes the Dativ: ein → einem (das Jahr). The time phrase and „hier“ can come in either order."
+        "explanation": "„[[seit]]“ takes the Dativ: ein → einem (das Jahr). The time phrase and „[[hier]]“ can come in either order."
       }
     },
     {
@@ -319,7 +319,7 @@
           ]
         ],
         "translation": "She lives with her parents.",
-        "explanation": "„bei“ takes the Dativ. Plural: ihre → ihren (die Eltern)."
+        "explanation": "„[[bei]]“ takes the Dativ. Plural: ihre → ihren (die Eltern)."
       }
     },
     {
@@ -345,7 +345,7 @@
           ]
         ],
         "translation": "He has been ill for a week.",
-        "explanation": "„seit“ takes the Dativ. Feminine: eine → einer (die Woche)."
+        "explanation": "„[[seit]]“ takes the Dativ. Feminine: eine → einer (die Woche)."
       }
     },
     {
@@ -361,7 +361,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 0,
-        "explanation": "„mit“ is a Dativ preposition, so der Bus becomes dem Bus."
+        "explanation": "„[[mit]]“ is a Dativ preposition, so der Bus becomes dem Bus."
       }
     },
     {
@@ -377,7 +377,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 1,
-        "explanation": "„aus“ is a Dativ preposition. Feminine: die → der (die Türkei)."
+        "explanation": "„[[aus]]“ is a Dativ preposition. Feminine: die → der (die Türkei)."
       }
     },
     {
@@ -393,7 +393,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„nach“ is a Dativ preposition. Feminine: die → der (die Schule)."
+        "explanation": "„[[nach]]“ is a Dativ preposition. Feminine: die → der (die Schule)."
       }
     },
     {
@@ -409,7 +409,7 @@
           "It is the indirect object (recipient)"
         ],
         "correctReasonIndex": 0,
-        "explanation": "Der Zug is the one arriving → subject → Nominativ. Only „Berlin“ follows the Dativ preposition „aus“."
+        "explanation": "Der Zug is the one arriving → subject → Nominativ. Only „Berlin“ follows the Dativ preposition „[[aus]]“."
       }
     },
     {
@@ -423,7 +423,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„mit“ + Dativ: das Fahrrad → dem Fahrrad."
+        "explanation": "„[[mit]]“ + Dativ: das Fahrrad → dem Fahrrad."
       }
     },
     {
@@ -437,7 +437,7 @@
           "einem"
         ],
         "correctIndex": 1,
-        "explanation": "„seit“ + Dativ: die Woche → einer Woche."
+        "explanation": "„[[seit]]“ + Dativ: die Woche → einer Woche."
       }
     },
     {
@@ -476,7 +476,7 @@
           "der"
         ],
         "hint": "nach + Dativ",
-        "explanation": "„nach“ + Dativ: die Arbeit → der Arbeit."
+        "explanation": "„[[nach]]“ + Dativ: die Arbeit → der Arbeit."
       }
     },
     {
@@ -524,7 +524,7 @@
           ]
         ],
         "translation": "I have been learning German for a month.",
-        "explanation": "„seit“ + Dativ, and after the fronted time phrase the verb stays in position 2."
+        "explanation": "„[[seit]]“ + Dativ, and after the fronted time phrase the verb stays in position 2."
       }
     },
     {
@@ -540,7 +540,7 @@
           "It follows an accusative preposition"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„bei“ always takes the Dativ — plural: seinen Großeltern (noun already ends in -n)."
+        "explanation": "„[[bei]]“ always takes the Dativ — plural: seinen Großeltern (noun already ends in -n)."
       }
     }
   ]

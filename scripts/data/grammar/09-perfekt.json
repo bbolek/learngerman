@@ -15,7 +15,7 @@
           "hat"
         ],
         "correctIndex": 0,
-        "explanation": "„essen“ is not movement → haben: ich habe gegessen."
+        "explanation": "„[[essen]]“ is not movement → haben: ich habe gegessen."
       }
     },
     {
@@ -29,7 +29,7 @@
           "ist"
         ],
         "correctIndex": 0,
-        "explanation": "„gehen“ = movement from A to B → sein: wir sind gegangen."
+        "explanation": "„[[gehen]]“ = movement from A to B → sein: wir sind gegangen."
       }
     },
     {
@@ -43,7 +43,7 @@
           "lesen"
         ],
         "correctIndex": 0,
-        "explanation": "„lesen“ is strong: ge- + -en with vowel change → gelesen."
+        "explanation": "„[[lesen]]“ is strong: ge- + -en with vowel change → gelesen."
       }
     },
     {
@@ -57,7 +57,7 @@
           "fahren"
         ],
         "correctIndex": 0,
-        "explanation": "„fahren“ is strong → gefahren. Movement → sein."
+        "explanation": "„[[fahren]]“ is strong → gefahren. Movement → sein."
       }
     },
     {
@@ -71,7 +71,7 @@
           "lernte"
         ],
         "correctIndex": 0,
-        "explanation": "„lernen“ is regular: ge- + Stamm + -t → gelernt."
+        "explanation": "„[[lernen]]“ is regular: ge- + Stamm + -t → gelernt."
       }
     },
     {
@@ -99,7 +99,7 @@
           "sind"
         ],
         "correctIndex": 0,
-        "explanation": "„aufstehen“ is a change of state → sein: sie ist aufgestanden."
+        "explanation": "„[[aufstehen]]“ is a change of state → sein: sie ist aufgestanden."
       }
     },
     {
@@ -124,7 +124,7 @@
         "accept": [
           "gesehen"
         ],
-        "explanation": "„sehen“ is strong: gesehen.",
+        "explanation": "„[[sehen]]“ is strong: gesehen.",
         "hint": "strong verb"
       }
     },
@@ -136,7 +136,7 @@
         "accept": [
           "gekommen"
         ],
-        "explanation": "„kommen“ is strong and takes sein: er ist gekommen.",
+        "explanation": "„[[kommen]]“ is strong and takes sein: er ist gekommen.",
         "hint": "strong verb"
       }
     },
@@ -160,7 +160,7 @@
         "accept": [
           "ist"
         ],
-        "explanation": "„fahren“ = movement → sein: sie ist gefahren."
+        "explanation": "„[[fahren]]“ = movement → sein: sie ist gefahren."
       }
     },
     {
@@ -236,7 +236,7 @@
           ]
         ],
         "translation": "Yesterday I played football.",
-        "explanation": "„Gestern“ takes position 1 → habe (verb) second, subject third, participle last."
+        "explanation": "„[[Gestern]]“ takes position 1 → habe (verb) second, subject third, participle last."
       }
     }
   ]

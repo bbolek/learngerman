@@ -138,6 +138,7 @@ function TopicCard({ topic }: { topic: TopicRow }) {
       </AppText>
       <AppText variant="caption" muted style={{ marginTop: 2 }}>
         {topic.question_count} Fragen
+        {topic.vocab_count > 0 ? ` · ${topic.vocab_count} Wörter` : ''}
         {topic.attempts > 0 ? ` · ${topic.attempts} geübt` : ''}
       </AppText>
     </Card>

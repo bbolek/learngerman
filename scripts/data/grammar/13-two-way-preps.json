@@ -15,7 +15,7 @@
           "das"
         ],
         "correctIndex": 0,
-        "explanation": "„gehen“ answers Wohin? (movement) → „in“ + Akkusativ. Feminine die stays die."
+        "explanation": "„[[gehen]]“ answers Wohin? (movement) → „[[in]]“ + Akkusativ. Feminine die stays die."
       }
     },
     {
@@ -29,7 +29,7 @@
           "das"
         ],
         "correctIndex": 1,
-        "explanation": "„sein“ answers Wo? (location) → „in“ + Dativ. Feminine: die → der."
+        "explanation": "„[[sein]]“ answers Wo? (location) → „[[in]]“ + Dativ. Feminine: die → der."
       }
     },
     {
@@ -43,7 +43,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„legen“ answers Wohin? (movement) → „auf“ + Akkusativ. Masculine: der → den."
+        "explanation": "„[[legen]]“ answers Wohin? (movement) → „[[auf]]“ + Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -57,7 +57,7 @@
           "dem"
         ],
         "correctIndex": 2,
-        "explanation": "„liegen“ answers Wo? (location) → „auf“ + Dativ. Masculine: der → dem."
+        "explanation": "„[[liegen]]“ answers Wo? (location) → „[[auf]]“ + Dativ. Masculine: der → dem."
       }
     },
     {
@@ -71,7 +71,7 @@
           "der"
         ],
         "correctIndex": 0,
-        "explanation": "„laufen“ (running to a place) answers Wohin? → „unter“ + Akkusativ. Masculine: der → den."
+        "explanation": "„[[laufen]]“ (running to a place) answers Wohin? → „[[unter]]“ + Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -85,7 +85,7 @@
           "der"
         ],
         "correctIndex": 1,
-        "explanation": "„schlafen“ answers Wo? (location) → „unter“ + Dativ. Masculine: der → dem."
+        "explanation": "„[[schlafen]]“ answers Wo? (location) → „[[unter]]“ + Dativ. Masculine: der → dem."
       }
     },
     {
@@ -99,7 +99,7 @@
           "den"
         ],
         "correctIndex": 0,
-        "explanation": "„gehen“ answers Wohin? (movement) → „an“ + Akkusativ. Neuter das stays das."
+        "explanation": "„[[gehen]]“ answers Wohin? (movement) → „[[an]]“ + Akkusativ. Neuter das stays das."
       }
     },
     {
@@ -113,7 +113,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„stehen“ answers Wo? (location) → „an“ + Dativ. Neuter: das → dem."
+        "explanation": "„[[stehen]]“ answers Wo? (location) → „[[an]]“ + Dativ. Neuter: das → dem."
       }
     },
     {
@@ -127,7 +127,7 @@
           "den"
         ],
         "correctIndex": 0,
-        "explanation": "„hängen“ here is an action to a place (Wohin?) → „über“ + Akkusativ. Neuter das stays das."
+        "explanation": "„[[hängen]]“ here is an action to a place (Wohin?) → „[[über]]“ + Akkusativ. Neuter das stays das."
       }
     },
     {
@@ -141,7 +141,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "Here „hängen“ describes a position (Wo?) → „über“ + Dativ. Neuter: das → dem."
+        "explanation": "Here „[[hängen]]“ describes a position (Wo?) → „[[über]]“ + Dativ. Neuter: das → dem."
       }
     },
     {
@@ -155,7 +155,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„stellen“ answers Wohin? (movement) → „neben“ + Akkusativ. Masculine: der → den."
+        "explanation": "„[[stellen]]“ answers Wohin? (movement) → „[[neben]]“ + Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -169,7 +169,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„stehen“ answers Wo? (location) → „neben“ + Dativ. Feminine: die → der."
+        "explanation": "„[[stehen]]“ answers Wo? (location) → „[[neben]]“ + Dativ. Feminine: die → der."
       }
     },
     {
@@ -183,7 +183,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„stehen“ answers Wo? (location) → „vor“ + Dativ. Neuter: das → dem."
+        "explanation": "„[[stehen]]“ answers Wo? (location) → „[[vor]]“ + Dativ. Neuter: das → dem."
       }
     },
     {
@@ -197,7 +197,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„stellen“ answers Wohin? (movement) → „zwischen“ + Akkusativ. Masculine: der → den."
+        "explanation": "„[[stellen]]“ answers Wohin? (movement) → „[[zwischen]]“ + Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -211,7 +211,7 @@
           "dem"
         ],
         "correctIndex": 1,
-        "explanation": "„sich setzen“ is a movement onto the chair (Wohin?) → „auf“ + Akkusativ. Masculine: der → den."
+        "explanation": "„sich setzen“ is a movement onto the chair (Wohin?) → „[[auf]]“ + Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -225,7 +225,7 @@
           "den"
         ],
         "correctIndex": 1,
-        "explanation": "„sitzen“ answers Wo? (location) → „zwischen“ + Dativ. Feminine: die → der."
+        "explanation": "„[[sitzen]]“ answers Wo? (location) → „[[zwischen]]“ + Dativ. Feminine: die → der."
       }
     },
     {
@@ -237,7 +237,7 @@
           "die"
         ],
         "hint": "Wohin? → in + Akkusativ",
-        "explanation": "„gehen“ shows movement (Wohin?) → „in“ + Akkusativ. Feminine die stays die."
+        "explanation": "„[[gehen]]“ shows movement (Wohin?) → „[[in]]“ + Akkusativ. Feminine die stays die."
       }
     },
     {
@@ -249,7 +249,7 @@
           "der"
         ],
         "hint": "Wo? → in + Dativ",
-        "explanation": "„sein“ shows location (Wo?) → „in“ + Dativ. Feminine: die → der."
+        "explanation": "„[[sein]]“ shows location (Wo?) → „[[in]]“ + Dativ. Feminine: die → der."
       }
     },
     {
@@ -261,7 +261,7 @@
           "den"
         ],
         "hint": "Wohin? → auf + Akkusativ",
-        "explanation": "„legen“ shows movement (Wohin?) → „auf“ + Akkusativ. Masculine: der → den."
+        "explanation": "„[[legen]]“ shows movement (Wohin?) → „[[auf]]“ + Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -273,7 +273,7 @@
           "dem"
         ],
         "hint": "Wo? → auf + Dativ",
-        "explanation": "„sitzen“ shows location (Wo?) → „auf“ + Dativ. Masculine: der → dem."
+        "explanation": "„[[sitzen]]“ shows location (Wo?) → „[[auf]]“ + Dativ. Masculine: der → dem."
       }
     },
     {
@@ -285,7 +285,7 @@
           "die"
         ],
         "hint": "Wohin? → in + Akkusativ",
-        "explanation": "„fahren“ shows movement (Wohin?) → „in“ + Akkusativ. Feminine die stays die."
+        "explanation": "„[[fahren]]“ shows movement (Wohin?) → „[[in]]“ + Akkusativ. Feminine die stays die."
       }
     },
     {
@@ -297,7 +297,7 @@
           "der"
         ],
         "hint": "Wo? → an + Dativ",
-        "explanation": "The picture is in position (Wo?) → „an“ + Dativ. Feminine: die → der."
+        "explanation": "The picture is in position (Wo?) → „[[an]]“ + Dativ. Feminine: die → der."
       }
     },
     {
@@ -309,7 +309,7 @@
           "die"
         ],
         "hint": "Wohin? → an + Akkusativ",
-        "explanation": "She moves the picture to the wall (Wohin?) → „an“ + Akkusativ. Feminine die stays die."
+        "explanation": "She moves the picture to the wall (Wohin?) → „[[an]]“ + Akkusativ. Feminine die stays die."
       }
     },
     {
@@ -321,7 +321,7 @@
           "der"
         ],
         "hint": "Wo? → vor + Dativ",
-        "explanation": "„schlafen“ shows location (Wo?) → „vor“ + Dativ. Feminine: die → der."
+        "explanation": "„[[schlafen]]“ shows location (Wo?) → „[[vor]]“ + Dativ. Feminine: die → der."
       }
     },
     {
@@ -333,7 +333,7 @@
           "das"
         ],
         "hint": "Wohin? → hinter + Akkusativ",
-        "explanation": "„stellen“ shows movement (Wohin?) → „hinter“ + Akkusativ. Neuter das stays das."
+        "explanation": "„[[stellen]]“ shows movement (Wohin?) → „[[hinter]]“ + Akkusativ. Neuter das stays das."
       }
     },
     {
@@ -345,7 +345,7 @@
           "dem"
         ],
         "hint": "Wo? → zwischen + Dativ",
-        "explanation": "„stehen“ shows location (Wo?) → „zwischen“ + Dativ. Neuter: das → dem."
+        "explanation": "„[[stehen]]“ shows location (Wo?) → „[[zwischen]]“ + Dativ. Neuter: das → dem."
       }
     },
     {
@@ -369,7 +369,7 @@
           ]
         ],
         "translation": "I am going into the kitchen.",
-        "explanation": "„gehen“ shows movement (Wohin?) → „in“ + Akkusativ: in die Küche."
+        "explanation": "„[[gehen]]“ shows movement (Wohin?) → „[[in]]“ + Akkusativ: in die Küche."
       }
     },
     {
@@ -393,7 +393,7 @@
           ]
         ],
         "translation": "I am in the kitchen.",
-        "explanation": "„sein“ shows location (Wo?) → „in“ + Dativ: die → der (in der Küche)."
+        "explanation": "„[[sein]]“ shows location (Wo?) → „[[in]]“ + Dativ: die → der (in der Küche)."
       }
     },
     {
@@ -419,7 +419,7 @@
           ]
         ],
         "translation": "The cat is sleeping under the table.",
-        "explanation": "„schlafen“ shows location (Wo?) → „unter“ + Dativ: der → dem (unter dem Tisch)."
+        "explanation": "„[[schlafen]]“ shows location (Wo?) → „[[unter]]“ + Dativ: der → dem (unter dem Tisch)."
       }
     },
     {
@@ -447,7 +447,7 @@
           ]
         ],
         "translation": "He puts the book on the table.",
-        "explanation": "„legen“ shows movement (Wohin?) → „auf“ + Akkusativ: der → den (auf den Tisch)."
+        "explanation": "„[[legen]]“ shows movement (Wohin?) → „[[auf]]“ + Akkusativ: der → den (auf den Tisch)."
       }
     },
     {
@@ -473,7 +473,7 @@
           ]
         ],
         "translation": "The car is (parked) in front of the house.",
-        "explanation": "„stehen“ shows location (Wo?) → „vor“ + Dativ: das → dem (vor dem Haus)."
+        "explanation": "„[[stehen]]“ shows location (Wo?) → „[[vor]]“ + Dativ: das → dem (vor dem Haus)."
       }
     },
     {
@@ -501,7 +501,7 @@
           ]
         ],
         "translation": "She puts the bag next to the window.",
-        "explanation": "„stellen“ shows movement (Wohin?) → „neben“ + Akkusativ. Neuter das Fenster stays das."
+        "explanation": "„[[stellen]]“ shows movement (Wohin?) → „[[neben]]“ + Akkusativ. Neuter das Fenster stays das."
       }
     },
     {
@@ -527,7 +527,7 @@
           ]
         ],
         "translation": "A man is waiting in front of the school.",
-        "explanation": "„warten“ shows location (Wo?) → „vor“ + Dativ: die → der. The fronted phrase pushes the subject after the verb."
+        "explanation": "„[[warten]]“ shows location (Wo?) → „[[vor]]“ + Dativ: die → der. The fronted phrase pushes the subject after the verb."
       }
     },
     {
@@ -553,7 +553,7 @@
           ]
         ],
         "translation": "The child is playing behind the house.",
-        "explanation": "„spielen“ shows location (Wo?) → „hinter“ + Dativ: das → dem. With the phrase fronted, the verb stays in second position."
+        "explanation": "„[[spielen]]“ shows location (Wo?) → „[[hinter]]“ + Dativ: das → dem. With the phrase fronted, the verb stays in second position."
       }
     },
     {
@@ -569,7 +569,7 @@
           "It answers Wo? — a fixed location"
         ],
         "correctReasonIndex": 1,
-        "explanation": "„gehen“ shows movement (Wohin?), so the two-way preposition „in“ takes the Akkusativ. Feminine die stays die."
+        "explanation": "„[[gehen]]“ shows movement (Wohin?), so the two-way preposition „[[in]]“ takes the Akkusativ. Feminine die stays die."
       }
     },
     {
@@ -585,7 +585,7 @@
           "It is the indirect object of „sein“"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„sein“ shows location (Wo?), so the two-way preposition „in“ takes the Dativ. Feminine: die → der."
+        "explanation": "„[[sein]]“ shows location (Wo?), so the two-way preposition „[[in]]“ takes the Dativ. Feminine: die → der."
       }
     },
     {
@@ -601,7 +601,7 @@
           "„auf“ always takes the Dativ"
         ],
         "correctReasonIndex": 0,
-        "explanation": "„liegen“ shows location (Wo?), so the two-way preposition „auf“ takes the Dativ. Masculine: der → dem."
+        "explanation": "„[[liegen]]“ shows location (Wo?), so the two-way preposition „[[auf]]“ takes the Dativ. Masculine: der → dem."
       }
     },
     {
@@ -617,7 +617,7 @@
           "„auf“ always takes the Akkusativ"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„legen“ shows movement (Wohin?), so the two-way preposition „auf“ takes the Akkusativ. Masculine: der → den."
+        "explanation": "„[[legen]]“ shows movement (Wohin?), so the two-way preposition „[[auf]]“ takes the Akkusativ. Masculine: der → den."
       }
     },
     {
@@ -633,7 +633,7 @@
           "It answers Wo? — the lamp's position"
         ],
         "correctReasonIndex": 3,
-        "explanation": "Here „hängen“ describes a position (Wo?), so the two-way preposition „über“ takes the Dativ. Masculine: der → dem."
+        "explanation": "Here „[[hängen]]“ describes a position (Wo?), so the two-way preposition „[[über]]“ takes the Dativ. Masculine: der → dem."
       }
     },
     {
@@ -649,7 +649,7 @@
           "„vor“ always takes the Akkusativ"
         ],
         "correctReasonIndex": 1,
-        "explanation": "„stellen“ shows movement (Wohin?), so „vor“ takes the Akkusativ. Neuter das stays das — the role, not the article, reveals the case."
+        "explanation": "„[[stellen]]“ shows movement (Wohin?), so „[[vor]]“ takes the Akkusativ. Neuter das stays das — the role, not the article, reveals the case."
       }
     },
     {
@@ -716,7 +716,7 @@
           "den"
         ],
         "hint": "Wohin? → Akkusativ",
-        "explanation": "„stellen“ is movement → Akkusativ: der Kühlschrank → den."
+        "explanation": "„[[stellen]]“ is movement → Akkusativ: der Kühlschrank → den."
       }
     },
     {
@@ -742,7 +742,7 @@
           ]
         ],
         "translation": "The phone is lying on the bed.",
-        "explanation": "„liegen“ = position → Dativ: auf dem Bett."
+        "explanation": "„[[liegen]]“ = position → Dativ: auf dem Bett."
       }
     },
     {

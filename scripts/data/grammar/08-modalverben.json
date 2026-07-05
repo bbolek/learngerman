@@ -71,7 +71,7 @@
           "dürfen"
         ],
         "correctIndex": 0,
-        "explanation": "„dürfen“ = permission. man = er/sie/es-form: man darf."
+        "explanation": "„[[dürfen]]“ = permission. man = er/sie/es-form: man darf."
       }
     },
     {
@@ -133,7 +133,7 @@
         "accept": [
           "musst"
         ],
-        "explanation": "Singular loses the umlaut: du musst (not „müsst“).",
+        "explanation": "Singular loses the umlaut: du musst (not „[[müsst]]“).",
         "hint": "vowel change"
       }
     },
@@ -206,7 +206,7 @@
           ]
         ],
         "translation": "We want to play football on Saturday.",
-        "explanation": "Modal verb second, everything else in the middle, „spielen“ at the very end."
+        "explanation": "Modal verb second, everything else in the middle, „[[spielen]]“ at the very end."
       }
     }
   ]

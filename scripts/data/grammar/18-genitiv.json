@@ -71,7 +71,7 @@
           "den"
         ],
         "correctIndex": 0,
-        "explanation": "„wegen“ + Genitiv: der Regen → des Regens."
+        "explanation": "„[[wegen]]“ + Genitiv: der Regen → des Regens."
       }
     },
     {
@@ -85,7 +85,7 @@
           "dem"
         ],
         "correctIndex": 0,
-        "explanation": "„trotz“ + Genitiv, feminine: der Kälte."
+        "explanation": "„[[trotz]]“ + Genitiv, feminine: der Kälte."
       }
     },
     {
@@ -99,7 +99,7 @@
           "der"
         ],
         "correctIndex": 0,
-        "explanation": "„während“ + Genitiv: der Sommer → des Sommers."
+        "explanation": "„[[während]]“ + Genitiv: der Sommer → des Sommers."
       }
     },
     {
@@ -220,7 +220,7 @@
           "It shows a location"
         ],
         "correctReasonIndex": 2,
-        "explanation": "„trotz“ is a genitive preposition: trotz des Regens."
+        "explanation": "„[[trotz]]“ is a genitive preposition: trotz des Regens."
       }
     }
   ]

@@ -1,0 +1,244 @@
+{
+  "slug": "wortstellung",
+  "title": "Satzbau & Fragen",
+  "level": "A1",
+  "explainer_md": "The most important rule in German word order: **the conjugated verb is always in position 2** of a statement. Position 1 can be the subject — or something else, like a time word. Then the subject moves *behind* the verb.\n\n*Ich gehe heute ins [[Kino]].* — I'm going to the movies today.\n\n*Heute **gehe ich** ins Kino.* — Today I'm going to the movies. (verb still second — subject moves!)\n\n| Position 1 | Verb (Pos. 2) | Rest |\n|---|---|---|\n| Ich | gehe | heute ins Kino |\n| Heute | gehe | ich ins Kino |\n| Am Montag | spielt | er [[Fußball]] |\n\n**Yes/no questions** put the verb in position 1:\n\n*Trinkst du [[Kaffee]]?* — Do you drink coffee?\n\n*Kommst du mit?* — Are you coming along?\n\n**W-questions** start with a question word, verb in position 2:\n\n| W-Wort | Bedeutung | Beispiel |\n|---|---|---|\n| Wer? | who? | Wer ist das? |\n| Was? | what? | Was machst du? |\n| Wo? | where? | Wo wohnst du? |\n| Woher? | where from? | Woher kommst du? |\n| Wohin? | where to? | Wohin gehst du? |\n| Wann? | when? | Wann kommt der [[Bus]]? |\n| Wie? | how? | Wie heißt du? |\n\n**Tip:** German never uses a helper like English \"do\" in questions — just move the verb to the front: *You drink coffee.* → *Do you drink coffee?* but *Du trinkst Kaffee.* → *Trinkst du Kaffee?*",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ heißt du?",
+        "options": [
+          "Wie",
+          "Wo",
+          "Was"
+        ],
+        "correctIndex": 0,
+        "explanation": "Asking for a name: Wie heißt du? — literally „How are you called?“"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ kommst du? — Aus Italien.",
+        "options": [
+          "Woher",
+          "Wohin",
+          "Wann"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Aus Italien“ answers where FROM → Woher?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Heute ___ nicht.",
+        "options": [
+          "arbeite ich",
+          "ich arbeite"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[Heute]]“ takes position 1, so the verb must come next: Heute arbeite ich nicht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ du Kaffee?",
+        "options": [
+          "Trinkst",
+          "Trinkt",
+          "Trinken"
+        ],
+        "correctIndex": 0,
+        "explanation": "Yes/no question: verb first, in the du-form → Trinkst du…?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Am Montag ___ zur Schule.",
+        "options": [
+          "gehe ich",
+          "ich gehe"
+        ],
+        "correctIndex": 0,
+        "explanation": "After a fronted time phrase the verb stays in position 2: Am Montag gehe ich…"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ fährt der Bus? — Um acht Uhr.",
+        "options": [
+          "Wann",
+          "Wo",
+          "Wer"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Um acht Uhr“ is a time → the question word is Wann?"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ wohnst du? — In Köln.",
+        "accept": [
+          "wo"
+        ],
+        "explanation": "„In Köln“ answers where → Wo wohnst du?",
+        "hint": "place"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ist das? — Das ist mein Bruder.",
+        "accept": [
+          "wer"
+        ],
+        "explanation": "Asking about a person → Wer ist das?",
+        "hint": "person"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ gehst du? — Ins Kino.",
+        "accept": [
+          "wohin"
+        ],
+        "explanation": "„Ins Kino“ is a direction (where to) → Wohin?",
+        "hint": "direction"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "wohne",
+          "in",
+          "Berlin"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "wohne",
+            "in",
+            "Berlin"
+          ]
+        ],
+        "translation": "I live in Berlin.",
+        "explanation": "Statement: subject – verb – place."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Trinkst",
+          "du",
+          "gern",
+          "Tee"
+        ],
+        "solutions": [
+          [
+            "Trinkst",
+            "du",
+            "gern",
+            "Tee"
+          ]
+        ],
+        "translation": "Do you like drinking tea?",
+        "explanation": "Yes/no question: the verb moves to position 1."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Heute",
+          "gehe",
+          "ich",
+          "ins",
+          "Kino"
+        ],
+        "solutions": [
+          [
+            "Heute",
+            "gehe",
+            "ich",
+            "ins",
+            "Kino"
+          ]
+        ],
+        "translation": "Today I'm going to the movies.",
+        "explanation": "Time word first → verb second → subject third."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Am",
+          "Abend",
+          "sehen",
+          "wir",
+          "einen",
+          "Film"
+        ],
+        "solutions": [
+          [
+            "Am",
+            "Abend",
+            "sehen",
+            "wir",
+            "einen",
+            "Film"
+          ]
+        ],
+        "translation": "In the evening we watch a film.",
+        "explanation": "„Am Abend“ fills position 1, so the verb comes before the subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Morgen",
+          "spielt",
+          "mein",
+          "Bruder",
+          "Fußball"
+        ],
+        "solutions": [
+          [
+            "Morgen",
+            "spielt",
+            "mein",
+            "Bruder",
+            "Fußball"
+          ]
+        ],
+        "translation": "Tomorrow my brother plays football.",
+        "explanation": "Verb in position 2 after the fronted „[[Morgen]]“ — subject follows the verb."
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import { type SQLiteDatabase } from 'expo-sqlite';
  * launch. Content tables (lemmas/forms/senses/grammar_*) are read-only and
  * owned by scripts/build-dictionary.ts.
  */
-const MIGRATIONS: string[] = [
+export const MIGRATIONS: string[] = [
   // v1 — initial user tables
   `
   CREATE TABLE IF NOT EXISTS user_saved_words (

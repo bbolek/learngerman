@@ -8,6 +8,7 @@
  * created at runtime by src/db/migrations.ts against the same file.
  */
 import Database from 'better-sqlite3';
+import * as crypto from 'node:crypto';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
@@ -15,10 +16,11 @@ import { expandForms, type VocabEntry } from './inflect';
 
 const ROOT = path.join(__dirname, '..');
 const VOCAB_DIR = path.join(ROOT, 'scripts/data/vocab');
-const GRAMMAR_FILE = path.join(ROOT, 'scripts/data/grammar-questions.json');
+const GRAMMAR_DIR = path.join(ROOT, 'scripts/data/grammar');
 const OUT_FILE = path.join(ROOT, 'assets/db/dictionary.db');
+const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 
-const CONTENT_VERSION = 2;
+const CONTENT_VERSION = 3;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
 const LEVELS = new Set(['A1', 'A2', 'B1']);
@@ -115,6 +117,7 @@ function loadVocab(): VocabEntry[] {
 interface GrammarTopic {
   slug: string;
   title: string;
+  level: string;
   explainer_md: string;
   questions: {
     qtype: string;
@@ -124,14 +127,21 @@ interface GrammarTopic {
 }
 
 function loadGrammar(): GrammarTopic[] {
-  if (!fs.existsSync(GRAMMAR_FILE)) return [];
-  const topics: GrammarTopic[] = JSON.parse(fs.readFileSync(GRAMMAR_FILE, 'utf8'));
+  if (!fs.existsSync(GRAMMAR_DIR)) return [];
+  const files = fs
+    .readdirSync(GRAMMAR_DIR)
+    .filter((f) => f.endsWith('.json'))
+    .sort();
+  const topics: GrammarTopic[] = files.map(
+    (f) => JSON.parse(fs.readFileSync(path.join(GRAMMAR_DIR, f), 'utf8')) as GrammarTopic
+  );
   const errors: string[] = [];
   const slugs = new Set<string>();
   topics.forEach((t) => {
     if (!t.slug || slugs.has(t.slug)) errors.push(`topic ${t.slug}: missing/duplicate slug`);
     slugs.add(t.slug);
     if (!t.title || !t.explainer_md) errors.push(`topic ${t.slug}: missing title/explainer`);
+    if (!LEVELS.has(t.level)) errors.push(`topic ${t.slug}: bad level '${t.level}'`);
     (t.questions ?? []).forEach((q, i) => {
       const where = `${t.slug}[${i}]`;
       if (!QTYPES.has(q.qtype)) return void errors.push(`${where}: bad qtype '${q.qtype}'`);
@@ -175,11 +185,77 @@ function loadGrammar(): GrammarTopic[] {
   return topics;
 }
 
+// ---------- vocab markers in explainers & question explanations ----------
+
+/** All texts of a topic that may contain [[vocab]] markers. */
+function markerTexts(t: GrammarTopic): string[] {
+  return [
+    t.explainer_md,
+    ...(t.questions ?? []).map((q) => String((q.payload as any)?.explanation ?? '')),
+  ];
+}
+
+/** Distinct dictionary lookups a topic's markers introduce ("vocab_count"). */
+function topicVocab(t: GrammarTopic): Set<string> {
+  const words = new Set<string>();
+  for (const text of markerTexts(t)) {
+    for (const m of text.matchAll(/\[\[([^\]]+)\]\]/g)) {
+      const parts = m[1].split('|');
+      words.add(normalize(parts[parts.length - 1]));
+    }
+  }
+  return words;
+}
+
+/**
+ * Every [[word]] marker (explainer or question explanation) must resolve in
+ * the dictionary as a lemma or an inflected form — the app renders these as
+ * tappable vocabulary links backed by lookupGerman().
+ */
+function validateVocabMarkers(topics: GrammarTopic[], vocab: VocabEntry[]) {
+  const known = new Set<string>();
+  for (const e of vocab) {
+    known.add(normalize(e.lemma));
+    for (const f of expandForms(e)) known.add(normalize(f.form));
+  }
+  const errors: string[] = [];
+  for (const t of topics) {
+    for (const text of markerTexts(t)) {
+      for (const m of text.matchAll(/\[\[([^\]]+)\]\]/g)) {
+        // [[Wort]] or [[display|lookup]] — the lookup part must resolve
+        const parts = m[1].split('|');
+        const lookup = parts[parts.length - 1];
+        if (parts.length > 2 || parts.some((p) => !p.trim()))
+          errors.push(`${t.slug}: malformed vocab marker [[${m[1]}]]`);
+        else if (!known.has(normalize(lookup)))
+          errors.push(`${t.slug}: vocab marker [[${m[1]}]] not found in dictionary`);
+      }
+      const stripped = text.replace(/\[\[[^\]]+\]\]/g, '');
+      if (stripped.includes('[[') || stripped.includes(']]'))
+        errors.push(`${t.slug}: unbalanced [[ ]] marker in "${stripped.slice(0, 40)}…"`);
+    }
+  }
+  if (errors.length) {
+    console.error(`✗ vocab marker validation failed (${errors.length} errors):`);
+    for (const err of errors.slice(0, 40)) console.error('  -', err);
+    process.exit(1);
+  }
+}
+
 // ---------- build ----------
 
 function build() {
   const vocab = loadVocab();
   const grammar = loadGrammar();
+  validateVocabMarkers(grammar, vocab);
+
+  // Fingerprint of everything that ends up in the DB. The app compares this
+  // against the hash stored in the installed DB and applies an in-place
+  // content update when they differ (src/logic/contentUpdate.ts).
+  const contentHash = crypto
+    .createHash('sha1')
+    .update(JSON.stringify({ contentVersion: CONTENT_VERSION, vocab, grammar }))
+    .digest('hex');
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
   fs.rmSync(OUT_FILE, { force: true });
@@ -248,8 +324,10 @@ function build() {
       id INTEGER PRIMARY KEY,
       slug TEXT UNIQUE NOT NULL,
       title TEXT NOT NULL,
+      level TEXT NOT NULL CHECK (level IN ('A1','A2','B1')),
       explainer_md TEXT NOT NULL,
-      sort_order INTEGER NOT NULL
+      sort_order INTEGER NOT NULL,
+      vocab_count INTEGER NOT NULL DEFAULT 0
     );
 
     CREATE TABLE grammar_questions (
@@ -329,8 +407,10 @@ function build() {
 
     grammar.forEach((t, ti) => {
       const info = db
-        .prepare('INSERT INTO grammar_topics (slug, title, explainer_md, sort_order) VALUES (?, ?, ?, ?)')
-        .run(t.slug, t.title, t.explainer_md, ti + 1);
+        .prepare(
+          'INSERT INTO grammar_topics (slug, title, level, explainer_md, sort_order, vocab_count) VALUES (?, ?, ?, ?, ?, ?)'
+        )
+        .run(t.slug, t.title, t.level, t.explainer_md, ti + 1, topicVocab(t).size);
       const topicId = info.lastInsertRowid as number;
       const insQ = db.prepare(
         'INSERT INTO grammar_questions (topic_id, qtype, payload, difficulty) VALUES (?, ?, ?, ?)'
@@ -345,6 +425,7 @@ function build() {
       'content_version',
       String(CONTENT_VERSION)
     );
+    db.prepare('INSERT INTO meta (key, value) VALUES (?, ?)').run('content_hash', contentHash);
   });
   insertAll();
 
@@ -354,10 +435,16 @@ function build() {
   db.exec('VACUUM');
   db.close();
 
+  fs.writeFileSync(
+    META_FILE,
+    JSON.stringify({ version: CONTENT_VERSION, hash: contentHash }, null, 2) + '\n'
+  );
+
   const sizeKb = Math.round(fs.statSync(OUT_FILE).size / 1024);
   console.log(
     `✓ dictionary.db built: ${lemmaCount} lemmas, ${formCount} forms, ${senseCount} senses, ` +
-      `${exampleCount} examples, ${grammar.length} topics, ${qCount} questions — ${sizeKb} KB`
+      `${exampleCount} examples, ${grammar.length} topics, ${qCount} questions — ${sizeKb} KB ` +
+      `(content ${contentHash.slice(0, 8)})`
   );
 }
 

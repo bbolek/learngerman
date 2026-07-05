@@ -1,0 +1,793 @@
+{
+  "slug": "two-way-preps",
+  "title": "Wechselpräpositionen",
+  "level": "A2",
+  "explainer_md": "Nine prepositions can take **Akkusativ or Dativ**: **[[an]], [[auf]], [[hinter]], [[in]], [[neben]], [[über]], [[unter]], [[vor]], [[zwischen]]**. They all describe *where* something is or goes.\n\n**The rule is one simple question:**\n\n**Wohin?** (where to? → movement, direction) → **Akkusativ**\n\n**Wo?** (where? → position, no movement) → **Dativ**\n\n| Frage | Fall | Beispiel |\n|---|---|---|\n| Wohin? | Akkusativ | Ich gehe **in die** Küche. |\n| Wo? | Dativ | Ich bin **in der** Küche. |\n\n*Er legt das Buch auf **den** Tisch.* — He puts the book onto the table. (Wohin? → Akk)\n\n*Das Buch liegt auf **dem** Tisch.* — The book is lying on the table. (Wo? → Dat)\n\n*Sie hängt das Bild an **die** Wand.* — She hangs the picture onto the wall.\n\n*Das Bild hängt an **der** Wand.* — The picture hangs on the wall.\n\n**Verb pairs that help:** [[legen]] → [[liegen]], [[stellen]] → [[stehen]], [[hängen]] (to hang up) → hängen (to be hanging), [[setzen]] → [[sitzen]]. The first of each pair is movement (Akkusativ), the second is position (Dativ).\n\n**Handy contractions:** in + das = **ins**, in + dem = **im**, an + das = **ans**, an + dem = **am**. *Wir gehen ins Kino. Wir sind im Kino.*",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gehe in ___ Küche.",
+        "options": [
+          "die",
+          "der",
+          "das"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[gehen]]“ answers Wohin? (movement) → „[[in]]“ + Akkusativ. Feminine die stays die."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich bin in ___ Küche.",
+        "options": [
+          "die",
+          "der",
+          "das"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[sein]]“ answers Wo? (location) → „[[in]]“ + Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er legt das Buch auf ___ Tisch.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[legen]]“ answers Wohin? (movement) → „[[auf]]“ + Akkusativ. Masculine: der → den."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Buch liegt auf ___ Tisch.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 2,
+        "explanation": "„[[liegen]]“ answers Wo? (location) → „[[auf]]“ + Dativ. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Katze läuft unter ___ Stuhl.",
+        "options": [
+          "den",
+          "dem",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[laufen]]“ (running to a place) answers Wohin? → „[[unter]]“ + Akkusativ. Masculine: der → den."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Katze schläft unter ___ Tisch.",
+        "options": [
+          "den",
+          "dem",
+          "der"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[schlafen]]“ answers Wo? (location) → „[[unter]]“ + Dativ. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir gehen an ___ Fenster.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[gehen]]“ answers Wohin? (movement) → „[[an]]“ + Akkusativ. Neuter das stays das."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er steht an ___ Fenster.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[stehen]]“ answers Wo? (location) → „[[an]]“ + Dativ. Neuter: das → dem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hängt das Bild über ___ Bett.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[hängen]]“ here is an action to a place (Wohin?) → „[[über]]“ + Akkusativ. Neuter das stays das."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Bild hängt über ___ Bett.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "Here „[[hängen]]“ describes a position (Wo?) → „[[über]]“ + Dativ. Neuter: das → dem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich stelle die Tasche neben ___ Stuhl.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[stellen]]“ answers Wohin? (movement) → „[[neben]]“ + Akkusativ. Masculine: der → den."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Tasche steht neben ___ Tür.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[stehen]]“ answers Wo? (location) → „[[neben]]“ + Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Auto steht vor ___ Haus.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[stehen]]“ answers Wo? (location) → „[[vor]]“ + Dativ. Neuter: das → dem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er stellt die Lampe zwischen ___ Tisch und den Stuhl.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[stellen]]“ answers Wohin? (movement) → „[[zwischen]]“ + Akkusativ. Masculine: der → den."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie setzt sich auf ___ Stuhl.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„sich setzen“ is a movement onto the chair (Wohin?) → „[[auf]]“ + Akkusativ. Masculine: der → den."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Kind sitzt zwischen ___ Mutter und dem Vater.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[sitzen]]“ answers Wo? (location) → „[[zwischen]]“ + Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gehe in ___ Schule. (die)",
+        "accept": [
+          "die"
+        ],
+        "hint": "Wohin? → in + Akkusativ",
+        "explanation": "„[[gehen]]“ shows movement (Wohin?) → „[[in]]“ + Akkusativ. Feminine die stays die."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich bin in ___ Schule. (die)",
+        "accept": [
+          "der"
+        ],
+        "hint": "Wo? → in + Dativ",
+        "explanation": "„[[sein]]“ shows location (Wo?) → „[[in]]“ + Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er legt das Buch auf ___ Stuhl. (der)",
+        "accept": [
+          "den"
+        ],
+        "hint": "Wohin? → auf + Akkusativ",
+        "explanation": "„[[legen]]“ shows movement (Wohin?) → „[[auf]]“ + Akkusativ. Masculine: der → den."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Katze sitzt auf ___ Stuhl. (der)",
+        "accept": [
+          "dem"
+        ],
+        "hint": "Wo? → auf + Dativ",
+        "explanation": "„[[sitzen]]“ shows location (Wo?) → „[[auf]]“ + Dativ. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir fahren in ___ Stadt. (die)",
+        "accept": [
+          "die"
+        ],
+        "hint": "Wohin? → in + Akkusativ",
+        "explanation": "„[[fahren]]“ shows movement (Wohin?) → „[[in]]“ + Akkusativ. Feminine die stays die."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Bild hängt an ___ Wand. (die)",
+        "accept": [
+          "der"
+        ],
+        "hint": "Wo? → an + Dativ",
+        "explanation": "The picture is in position (Wo?) → „[[an]]“ + Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hängt das Bild an ___ Wand. (die)",
+        "accept": [
+          "die"
+        ],
+        "hint": "Wohin? → an + Akkusativ",
+        "explanation": "She moves the picture to the wall (Wohin?) → „[[an]]“ + Akkusativ. Feminine die stays die."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Hund schläft vor ___ Tür. (die)",
+        "accept": [
+          "der"
+        ],
+        "hint": "Wo? → vor + Dativ",
+        "explanation": "„[[schlafen]]“ shows location (Wo?) → „[[vor]]“ + Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er stellt das Auto hinter ___ Haus. (das)",
+        "accept": [
+          "das"
+        ],
+        "hint": "Wohin? → hinter + Akkusativ",
+        "explanation": "„[[stellen]]“ shows movement (Wohin?) → „[[hinter]]“ + Akkusativ. Neuter das stays das."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Fahrrad steht zwischen ___ Auto und dem Haus. (das)",
+        "accept": [
+          "dem"
+        ],
+        "hint": "Wo? → zwischen + Dativ",
+        "explanation": "„[[stehen]]“ shows location (Wo?) → „[[zwischen]]“ + Dativ. Neuter: das → dem."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "die",
+          "in",
+          "Küche",
+          "Ich",
+          "gehe"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "gehe",
+            "in",
+            "die",
+            "Küche"
+          ]
+        ],
+        "translation": "I am going into the kitchen.",
+        "explanation": "„[[gehen]]“ shows movement (Wohin?) → „[[in]]“ + Akkusativ: in die Küche."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "der",
+          "Küche",
+          "bin",
+          "in",
+          "Ich"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "bin",
+            "in",
+            "der",
+            "Küche"
+          ]
+        ],
+        "translation": "I am in the kitchen.",
+        "explanation": "„[[sein]]“ shows location (Wo?) → „[[in]]“ + Dativ: die → der (in der Küche)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "unter",
+          "dem",
+          "Katze",
+          "Tisch",
+          "Die",
+          "schläft"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Katze",
+            "schläft",
+            "unter",
+            "dem",
+            "Tisch"
+          ]
+        ],
+        "translation": "The cat is sleeping under the table.",
+        "explanation": "„[[schlafen]]“ shows location (Wo?) → „[[unter]]“ + Dativ: der → dem (unter dem Tisch)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "auf",
+          "Buch",
+          "den",
+          "Er",
+          "Tisch",
+          "legt",
+          "das"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "legt",
+            "das",
+            "Buch",
+            "auf",
+            "den",
+            "Tisch"
+          ]
+        ],
+        "translation": "He puts the book on the table.",
+        "explanation": "„[[legen]]“ shows movement (Wohin?) → „[[auf]]“ + Akkusativ: der → den (auf den Tisch)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "vor",
+          "steht",
+          "Haus",
+          "Das",
+          "dem",
+          "Auto"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Auto",
+            "steht",
+            "vor",
+            "dem",
+            "Haus"
+          ]
+        ],
+        "translation": "The car is (parked) in front of the house.",
+        "explanation": "„[[stehen]]“ shows location (Wo?) → „[[vor]]“ + Dativ: das → dem (vor dem Haus)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "neben",
+          "die",
+          "Fenster",
+          "stellt",
+          "das",
+          "Sie",
+          "Tasche"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "stellt",
+            "die",
+            "Tasche",
+            "neben",
+            "das",
+            "Fenster"
+          ]
+        ],
+        "translation": "She puts the bag next to the window.",
+        "explanation": "„[[stellen]]“ shows movement (Wohin?) → „[[neben]]“ + Akkusativ. Neuter das Fenster stays das."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "ein",
+          "wartet",
+          "der",
+          "Mann",
+          "Vor",
+          "Schule"
+        ],
+        "solutions": [
+          [
+            "Vor",
+            "der",
+            "Schule",
+            "wartet",
+            "ein",
+            "Mann"
+          ]
+        ],
+        "translation": "A man is waiting in front of the school.",
+        "explanation": "„[[warten]]“ shows location (Wo?) → „[[vor]]“ + Dativ: die → der. The fronted phrase pushes the subject after the verb."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "spielt",
+          "das",
+          "Haus",
+          "Kind",
+          "Hinter",
+          "dem"
+        ],
+        "solutions": [
+          [
+            "Hinter",
+            "dem",
+            "Haus",
+            "spielt",
+            "das",
+            "Kind"
+          ]
+        ],
+        "translation": "The child is playing behind the house.",
+        "explanation": "„[[spielen]]“ shows location (Wo?) → „[[hinter]]“ + Dativ: das → dem. With the phrase fronted, the verb stays in second position."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Ich gehe in **die Küche**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "„in“ always takes the Akkusativ",
+          "It answers Wohin? — movement into the kitchen",
+          "It is the direct object of „gehen“",
+          "It answers Wo? — a fixed location"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "„[[gehen]]“ shows movement (Wohin?), so the two-way preposition „[[in]]“ takes the Akkusativ. Feminine die stays die."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Ich bin in **der Küche**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It answers Wohin? — movement into the kitchen",
+          "„in“ always takes the Dativ",
+          "It answers Wo? — a fixed location",
+          "It is the indirect object of „sein“"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„[[sein]]“ shows location (Wo?), so the two-way preposition „[[in]]“ takes the Dativ. Feminine: die → der."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Das Buch liegt auf **dem Tisch**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It answers Wo? — the book's location",
+          "It answers Wohin? — movement onto the table",
+          "It is the indirect object of „liegen“",
+          "„auf“ always takes the Dativ"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "„[[liegen]]“ shows location (Wo?), so the two-way preposition „[[auf]]“ takes the Dativ. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Er legt das Buch auf **den Tisch**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It answers Wo? — a fixed location",
+          "It is the direct object of „legen“",
+          "It answers Wohin? — the book is moved onto the table",
+          "„auf“ always takes the Akkusativ"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„[[legen]]“ shows movement (Wohin?), so the two-way preposition „[[auf]]“ takes the Akkusativ. Masculine: der → den."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Die Lampe hängt über **dem Tisch**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It answers Wohin? — movement over the table",
+          "„über“ always takes the Dativ",
+          "It is the indirect object of „hängen“",
+          "It answers Wo? — the lamp's position"
+        ],
+        "correctReasonIndex": 3,
+        "explanation": "Here „[[hängen]]“ describes a position (Wo?), so the two-way preposition „[[über]]“ takes the Dativ. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Sie stellt den Stuhl vor **das Fenster**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It answers Wohin? — the chair is moved to the window",
+          "It answers Wo? — a fixed location",
+          "„vor“ always takes the Akkusativ"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "„[[stellen]]“ shows movement (Wohin?), so „[[vor]]“ takes the Akkusativ. Neuter das stays das — the role, not the article, reveals the case."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Kinder spielen in ___ Garten.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 2,
+        "explanation": "Wo spielen sie? Position, no movement → Dativ: dem Garten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir fahren am Wochenende an ___ Meer.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "Wohin fahren wir? Movement → Akkusativ: das Meer stays das."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Hund legt sich unter ___ Bank.",
+        "options": [
+          "die",
+          "der",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "„sich legen“ is movement (Wohin?) → Akkusativ: die Bank stays die."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Jacke hängt ___ Schrank. (in + der Schrank)",
+        "accept": [
+          "im",
+          "in dem"
+        ],
+        "hint": "Wo? → Dativ",
+        "explanation": "Position → Dativ: in + dem = im Schrank."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er stellt die Flasche in ___ Kühlschrank. (der)",
+        "accept": [
+          "den"
+        ],
+        "hint": "Wohin? → Akkusativ",
+        "explanation": "„[[stellen]]“ is movement → Akkusativ: der Kühlschrank → den."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Das",
+          "Handy",
+          "liegt",
+          "auf",
+          "dem",
+          "Bett"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Handy",
+            "liegt",
+            "auf",
+            "dem",
+            "Bett"
+          ]
+        ],
+        "translation": "The phone is lying on the bed.",
+        "explanation": "„[[liegen]]“ = position → Dativ: auf dem Bett."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Sie",
+          "hängt",
+          "die",
+          "Uhr",
+          "an",
+          "die",
+          "Wand"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "hängt",
+            "die",
+            "Uhr",
+            "an",
+            "die",
+            "Wand"
+          ]
+        ],
+        "translation": "She hangs the clock on the wall.",
+        "explanation": "Hanging something up = movement → Akkusativ: an die Wand."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Das Kind versteckt sich hinter **dem Baum**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "Movement towards a place (Wohin?)",
+          "Position — where the child ends up hiding (Wo?)",
+          "„hinter“ always takes the Dativ",
+          "It is the direct object"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "The hiding place is a position (Wo?) → Dativ: hinter dem Baum."
+      }
+    }
+  ]
+}

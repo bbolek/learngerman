@@ -1,0 +1,69 @@
+[
+  {
+    "lemma": "gegen",
+    "pos": "prep",
+    "level": "A1",
+    "freq": 95,
+    "senses": [
+      {
+        "en": "against",
+        "note": "+ Akkusativ",
+        "example_de": "Das Auto fährt gegen die Wand.",
+        "example_en": "The car drives into the wall."
+      },
+      {
+        "en": "around, about (time)",
+        "example_de": "Wir kommen gegen acht Uhr.",
+        "example_en": "We'll come around eight o'clock."
+      }
+    ]
+  },
+  {
+    "lemma": "statt",
+    "pos": "prep",
+    "level": "B1",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "instead of",
+        "note": "+ Genitiv",
+        "example_de": "Statt eines Autos kauft er ein Fahrrad.",
+        "example_en": "Instead of a car he buys a bicycle."
+      }
+    ]
+  },
+  {
+    "lemma": "Welt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 160,
+    "noun": { "gender": "f", "plural": "Welten" },
+    "senses": [
+      {
+        "en": "world",
+        "example_de": "Sie reist um die ganze Welt.",
+        "example_en": "She travels around the whole world."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Bücher öffnen neue Welten.", "en": "Books open up new worlds." }
+    ]
+  },
+  {
+    "lemma": "Bäcker",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 750,
+    "noun": { "gender": "m", "plural": "Bäcker", "genitive": "Bäckers" },
+    "senses": [
+      {
+        "en": "baker",
+        "example_de": "Der Bäcker backt jeden Morgen Brot.",
+        "example_en": "The baker bakes bread every morning."
+      }
+    ],
+    "examples": [
+      { "tag": "dativ", "de": "Ich kaufe das Brot beim Bäcker.", "en": "I buy the bread at the baker's." }
+    ]
+  }
+]

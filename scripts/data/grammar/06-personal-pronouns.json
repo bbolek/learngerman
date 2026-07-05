@@ -1,0 +1,512 @@
+{
+  "slug": "personal-pronouns",
+  "title": "Personalpronomen",
+  "level": "A1",
+  "explainer_md": "Personal pronouns replace nouns — but in German they **change with the case**, just like articles. English does this too: *I* → *me*. German simply has one more form.\n\n| Nominativ | Akkusativ | Dativ |\n|---|---|---|\n| ich | mich | mir |\n| du | dich | dir |\n| er | ihn | ihm |\n| sie | sie | ihr |\n| es | es | ihm |\n| wir | uns | uns |\n| ihr | euch | euch |\n| sie/Sie | sie/Sie | ihnen/Ihnen |\n\n**When Akkusativ?** The pronoun is the direct object: *Siehst du **mich**?* — Do you see me?\n\n**When Dativ?** The pronoun is the receiver, or the verb/preposition demands Dativ: *Kannst du **mir** [[helfen]]?* — Can you help me? (helfen + Dativ)\n\n*Ich sehe **ihn**.* — I see him. (er → ihn)\n\n*Das Buch gehört **ihr**.* — The book belongs to her. ([[gehören]] + Dativ)\n\n*Wie geht es **dir**?* — How are you? (literally: how goes it to you?)\n\n**Tip:** *mich/dich* vs. *mir/dir* is the pair to drill first — it covers most everyday sentences. Note that *uns* and *euch* are the same in both cases — one thing less to learn!",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Siehst du ___? (ich)",
+        "options": [
+          "mich",
+          "mir",
+          "ich"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[sehen]]“ takes a direct object → Akkusativ: ich → mich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Hilfst du ___? (ich)",
+        "options": [
+          "mir",
+          "mich",
+          "ich"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[helfen]]“ takes the Dativ: ich → mir — compare „Siehst du mich?“ (Akkusativ)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich sehe den Mann. → Ich sehe ___.",
+        "options": [
+          "ihn",
+          "ihm",
+          "er"
+        ],
+        "correctIndex": 0,
+        "explanation": "Den Mann is Akkusativ, so the pronoun is also Akkusativ: er → ihn."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich liebe ___. (du)",
+        "options": [
+          "dich",
+          "dir",
+          "du"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[lieben]]“ takes a direct object → Akkusativ: du → dich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wie geht es ___? (du)",
+        "options": [
+          "dir",
+          "dich",
+          "du"
+        ],
+        "correctIndex": 0,
+        "explanation": "In „Wie geht es …?“ the person is always in the Dativ: du → dir."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich helfe der Frau. → Ich helfe ___.",
+        "options": [
+          "ihr",
+          "sie",
+          "ihm"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[helfen]]“ takes the Dativ; the feminine Dativ pronoun is ihr (sie → ihr)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir besuchen ___ morgen. (ihr)",
+        "options": [
+          "euch",
+          "ihr",
+          "eure"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[besuchen]]“ takes the Akkusativ: ihr → euch."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Lehrer dankt ___. (wir)",
+        "options": [
+          "uns",
+          "wir",
+          "unser"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[danken]]“ takes the Dativ: wir → uns (uns is both Akkusativ and Dativ)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich gebe es ___. (er)",
+        "options": [
+          "ihm",
+          "ihn",
+          "er"
+        ],
+        "correctIndex": 0,
+        "explanation": "The recipient is Dativ: er → ihm. With two pronouns, the Akkusativ (es) comes before the Dativ (ihm)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Kaufst du das Buch für ___? (sie)",
+        "options": [
+          "sie",
+          "ihr",
+          "ihnen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[für]]“ always takes the Akkusativ, so sie stays sie — not the Dativ ihr."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich sehe die Frau. → Ich sehe ___.",
+        "accept": [
+          "sie"
+        ],
+        "hint": "Akkusativ pronoun for die Frau",
+        "explanation": "Die Frau is a feminine Akkusativ object; the pronoun is sie (unchanged in the Akkusativ)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er fragt ___. (du)",
+        "accept": [
+          "dich"
+        ],
+        "hint": "fragen + Akkusativ",
+        "explanation": "„[[fragen]]“ takes a direct object → Akkusativ: du → dich."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Film gefällt ___. (wir)",
+        "accept": [
+          "uns"
+        ],
+        "hint": "gefallen + Dativ",
+        "explanation": "„[[gefallen]]“ takes the Dativ: wir → uns."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Buch gehört ___. (er)",
+        "accept": [
+          "ihm"
+        ],
+        "hint": "gehören + Dativ",
+        "explanation": "„[[gehören]]“ takes the Dativ: er → ihm."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich danke ___. (ihr)",
+        "accept": [
+          "euch"
+        ],
+        "hint": "danken + Dativ",
+        "explanation": "„[[danken]]“ takes the Dativ: ihr → euch (euch is both Akkusativ and Dativ)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie gibt es ___. (ich)",
+        "accept": [
+          "mir"
+        ],
+        "hint": "recipient → Dativ",
+        "explanation": "The recipient of „[[geben]]“ is Dativ: ich → mir. The Akkusativ pronoun es comes first."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "du",
+          "Kannst",
+          "mir",
+          "helfen"
+        ],
+        "solutions": [
+          [
+            "Kannst",
+            "du",
+            "mir",
+            "helfen"
+          ]
+        ],
+        "translation": "Can you help me?",
+        "explanation": "In a yes/no question the verb comes first. „[[helfen]]“ takes the Dativ: ich → mir."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Lehrer",
+          "hilft",
+          "Der",
+          "uns"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Lehrer",
+            "hilft",
+            "uns"
+          ]
+        ],
+        "translation": "The teacher is helping us.",
+        "explanation": "„[[helfen]]“ takes the Dativ: wir → uns. Der Lehrer is the Nominativ subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "du",
+          "Siehst",
+          "ihn",
+          "heute"
+        ],
+        "solutions": [
+          [
+            "Siehst",
+            "du",
+            "ihn",
+            "heute"
+          ]
+        ],
+        "translation": "Are you seeing him today?",
+        "explanation": "„[[sehen]]“ takes the Akkusativ: er → ihn. The pronoun stands before the time word."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "gefällt",
+          "Bild",
+          "Das",
+          "ihr"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Bild",
+            "gefällt",
+            "ihr"
+          ]
+        ],
+        "translation": "She likes the picture.",
+        "explanation": "„[[gefallen]]“ takes the Dativ; the feminine Dativ pronoun is ihr. Das Bild is the subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "gebe",
+          "es",
+          "Ich",
+          "ihm"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "gebe",
+            "es",
+            "ihm"
+          ]
+        ],
+        "translation": "I am giving it to him.",
+        "explanation": "With two pronoun objects, the Akkusativ (es) comes before the Dativ (ihm)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Der Lehrer fragt **mich**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It is the direct object of „fragen“",
+          "It is the subject of the sentence",
+          "It is the indirect object (recipient)",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "„[[fragen]]“ takes a direct object → Akkusativ: ich → mich."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Siehst du **ihn**?",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „sehen“",
+          "It is the indirect object (recipient)",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "„[[sehen]]“ takes a direct object → Akkusativ: er → ihn."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Meine Oma dankt **ihm**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the direct object of the verb",
+          "It is the subject of the sentence",
+          "„danken“ always takes a Dativ object",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„[[danken]]“ is a Dativ verb: er → ihm."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Ich gebe **ihr** das Buch.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the direct object of „geben“",
+          "It is the indirect object (recipient)",
+          "It is the subject of the sentence",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "The recipient of „[[geben]]“ is the indirect object → Dativ: sie → ihr. Das Buch is the Akkusativ object."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wo ist Anna? Ich sehe ___ nicht.",
+        "options": [
+          "sie",
+          "ihr",
+          "ihn"
+        ],
+        "correctIndex": 0,
+        "explanation": "Anna is the direct object of „[[sehen]]“ → Akkusativ: sie stays sie."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Geschenk ist für ___. (ich)",
+        "options": [
+          "mich",
+          "mir",
+          "ich"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[für]]“ always takes the Akkusativ → ich becomes mich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich zeige ___ das Foto. (sie, Plural)",
+        "options": [
+          "sie",
+          "ihnen",
+          "ihr"
+        ],
+        "correctIndex": 1,
+        "explanation": "They receive the photo → Dativ. Plural sie → ihnen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Hilfst du ___ bei den Hausaufgaben? (wir)",
+        "options": [
+          "uns",
+          "euch",
+          "ihnen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[helfen]]“ takes the Dativ. wir → uns (same form as the Akkusativ — lucky!)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Schlüssel gehört ___. (sie, Singular)",
+        "accept": [
+          "ihr"
+        ],
+        "hint": "gehören + Dativ",
+        "explanation": "„[[gehören]]“ takes the Dativ: sie → ihr."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir sehen ___ morgen. (ihr)",
+        "accept": [
+          "euch"
+        ],
+        "hint": "direct object",
+        "explanation": "You (plural) are the direct object → Akkusativ: ihr → euch."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "helfe",
+          "dir",
+          "morgen"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "helfe",
+            "dir",
+            "morgen"
+          ]
+        ],
+        "translation": "I'll help you tomorrow.",
+        "explanation": "„[[helfen]]“ takes the Dativ: du → dir."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Der Lehrer dankt **uns**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „danken“",
+          "„danken“ always takes the Dativ",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„[[danken]]“ is a dative verb — uns is the same form in Akkusativ and Dativ, but here it is Dativ."
+      }
+    }
+  ]
+}

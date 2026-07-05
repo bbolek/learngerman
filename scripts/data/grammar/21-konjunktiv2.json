@@ -1,0 +1,197 @@
+{
+  "slug": "konjunktiv2",
+  "title": "Konjunktiv II",
+  "level": "B1",
+  "explainer_md": "The **Konjunktiv II** talks about things that are **not real** — wishes, dreams, polite requests: *Ich **würde** gern [[reisen]].* — I would like to travel.\n\n**For most verbs** use **würde + Infinitiv** — exactly like English \"would\":\n\n*Ich **würde** das nicht **machen**.* — I wouldn't do that.\n\n*An deiner Stelle **würde** ich mehr **schlafen**.* — In your place I would sleep more.\n\n**A few important verbs have their own short forms** — always use these instead of würde:\n\n| Verb | Konjunktiv II | English |\n|---|---|---|\n| sein | wäre | would be |\n| haben | hätte | would have |\n| können | könnte | could |\n| müssen | müsste | would have to |\n| dürfen | dürfte | might / would be allowed |\n| werden | würde | would |\n\n*Wenn ich reich **wäre**, **würde** ich um die [[Welt]] reisen.* — If I were rich, I would travel the world.\n\n*Ich **hätte** gern mehr [[Zeit]].* — I would like to have more time.\n\n***Könnten** Sie mir bitte helfen?* — Could you please help me? (polite!)\n\n**The pattern is Präteritum + umlaut:** war → wäre, hatte → hätte, konnte → könnte, musste → müsste.\n\n**Tip:** *hätte gern* and *könnten Sie…?* are the two most useful phrases in everyday German — ordering in a café (*Ich hätte gern einen [[Kaffee]]*) and asking politely for anything.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ gern einen Kaffee.",
+        "options": [
+          "hätte",
+          "habe",
+          "hatte"
+        ],
+        "correctIndex": 0,
+        "explanation": "Polite wish → Konjunktiv II: hätte. (hatte = simple past!)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ Sie mir bitte helfen?",
+        "options": [
+          "Könnten",
+          "Können",
+          "Konnten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Polite request → Könnten Sie…? (with umlaut)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wenn ich reich ___, würde ich reisen.",
+        "options": [
+          "wäre",
+          "bin",
+          "war"
+        ],
+        "correctIndex": 0,
+        "explanation": "Unreal condition → Konjunktiv II of sein: wäre."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er ___ gern mehr Zeit.",
+        "options": [
+          "hätte",
+          "hat",
+          "hatte"
+        ],
+        "correctIndex": 0,
+        "explanation": "A wish → hätte gern: he would like to have more time."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich ___ das nicht machen.",
+        "options": [
+          "würde",
+          "werde",
+          "wurde"
+        ],
+        "correctIndex": 0,
+        "explanation": "würde + Infinitiv = would: I wouldn't do that."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "An deiner Stelle ___ ich mehr schlafen.",
+        "options": [
+          "würde",
+          "werde",
+          "wollte"
+        ],
+        "correctIndex": 0,
+        "explanation": "Advice with „an deiner Stelle“ → würde + Infinitiv."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wenn das Wetter besser wäre, ___ wir schwimmen gehen.",
+        "options": [
+          "könnten",
+          "können",
+          "konnten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Unreal possibility → könnten (Konjunktiv II, with umlaut)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich ___ gern nach Japan reisen. (werden)",
+        "accept": [
+          "würde"
+        ],
+        "explanation": "würde + Infinitiv: Ich würde gern … reisen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ du mir bitte das Salz geben? (können)",
+        "accept": [
+          "könntest"
+        ],
+        "explanation": "Polite request, du-form: Könntest du…?",
+        "hint": "polite"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wenn ich Zeit ___, würde ich dich besuchen. (haben)",
+        "accept": [
+          "hätte"
+        ],
+        "explanation": "Unreal condition: hätte (hatte + umlaut).",
+        "hint": "umlaut!"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "würde",
+          "gern",
+          "mehr",
+          "reisen"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "würde",
+            "gern",
+            "mehr",
+            "reisen"
+          ]
+        ],
+        "translation": "I would like to travel more.",
+        "explanation": "würde in position 2, infinitive at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Wenn",
+          "ich",
+          "Geld",
+          "hätte,",
+          "würde",
+          "ich",
+          "ein",
+          "Auto",
+          "kaufen"
+        ],
+        "solutions": [
+          [
+            "Wenn",
+            "ich",
+            "Geld",
+            "hätte,",
+            "würde",
+            "ich",
+            "ein",
+            "Auto",
+            "kaufen"
+          ]
+        ],
+        "translation": "If I had money, I would buy a car.",
+        "explanation": "wenn-clause verb (hätte) at its end; main clause starts with würde."
+      }
+    }
+  ]
+}

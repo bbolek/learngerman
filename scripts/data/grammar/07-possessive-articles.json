@@ -1,0 +1,445 @@
+{
+  "slug": "possessive-articles",
+  "title": "Possessivartikel",
+  "level": "A1",
+  "explainer_md": "Possessive articles say **whose** something is: *mein* (my), *dein* (your), *sein* (his/its), *ihr* (her/their), *unser* (our), *euer* (your, plural), *Ihr* (your, formal).\n\n**First step:** pick the right stem for the owner.\n\n| Owner | Possessive |\n|---|---|\n| ich | mein |\n| du | dein |\n| er/es | sein |\n| sie (she) | ihr |\n| wir | unser |\n| ihr (you pl.) | euer |\n| sie/Sie (they/formal) | ihr/Ihr |\n\n**Second step:** add the same ending that *ein* would take — possessives behave exactly like *ein*.\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | mein | mein**e** | mein | mein**e** |\n| Akkusativ | mein**en** | mein**e** | mein | mein**e** |\n| Dativ | mein**em** | mein**er** | mein**em** | mein**en** |\n\n*Das ist **mein** Bruder.* — That is my brother. (Nominativ)\n\n*Ich besuche **meinen** Bruder.* — I visit my brother. (Akkusativ: like einen)\n\n*Er hilft **seiner** Mutter.* — He helps his mother. (helfen + Dativ, feminine → seiner)\n\n*Ist das **eure** [[Katze]]?* — Is that your cat? (euer drops the middle **e**: eu**e**re → eure)\n\n**Tip:** the owner decides the stem (*sein* = his, *ihr* = her), but the **noun after it** decides the ending. *Sie sucht **ihren** [[Schlüssel]]* — her key, and der Schlüssel is masculine Akkusativ → -en.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist ___ Bruder. (ich)",
+        "options": [
+          "mein",
+          "meinen",
+          "meinem"
+        ],
+        "correctIndex": 0,
+        "explanation": "After „[[sein]]“ (to be) the noun stays in the Nominativ: mein Bruder."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich besuche ___ Bruder. (ich)",
+        "options": [
+          "mein",
+          "meinen",
+          "meinem"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[besuchen]]“ takes the Akkusativ. Masculine: mein → meinen (der Bruder)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er liebt ___ Mutter. (er)",
+        "options": [
+          "seine",
+          "sein",
+          "seinen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The owner is male → sein-. „[[lieben]]“ takes the Akkusativ; feminine: seine (die Mutter)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Anna sucht ___ Schlüssel. (sie)",
+        "options": [
+          "ihren",
+          "seinen",
+          "ihrem"
+        ],
+        "correctIndex": 0,
+        "explanation": "The owner (Anna) is female → ihr-. „[[suchen]]“ takes the Akkusativ: ihr → ihren (der Schlüssel)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir helfen ___ Bruder. (wir)",
+        "options": [
+          "unserem",
+          "unseren",
+          "unser"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[helfen]]“ takes the Dativ. Masculine: unser → unserem (der Bruder)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ist das ___ Katze? (ihr)",
+        "options": [
+          "eure",
+          "euere",
+          "euer"
+        ],
+        "correctIndex": 0,
+        "explanation": "euer drops the middle -e- before an ending: euer + e → eure (die Katze, Nominativ)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie spielt mit ___ Schwester. (sie)",
+        "options": [
+          "ihrer",
+          "ihre",
+          "seiner"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[mit]]“ takes the Dativ. Feminine: ihre → ihrer (die Schwester); the owner is female → ihr-."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Peter fährt mit ___ Auto. (er)",
+        "options": [
+          "seinem",
+          "ihrem",
+          "seinen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The owner (Peter) is male → sein-. „[[mit]]“ takes the Dativ; neuter: sein → seinem (das Auto)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich sehe ___ Bruder. (mein)",
+        "accept": [
+          "meinen"
+        ],
+        "hint": "sehen + Akkusativ, der Bruder",
+        "explanation": "„[[sehen]]“ takes the Akkusativ. Masculine: mein → meinen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist ___ Tasche. (dein)",
+        "accept": [
+          "deine"
+        ],
+        "hint": "Nominativ, die Tasche",
+        "explanation": "After „[[sein]]“ (to be) → Nominativ. Feminine: dein → deine (die Tasche)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir danken ___ Lehrer. (unser)",
+        "accept": [
+          "unserem"
+        ],
+        "hint": "danken + Dativ, der Lehrer",
+        "explanation": "„[[danken]]“ takes the Dativ. Masculine: unser → unserem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie kommt ohne ___ Bruder. (ihr)",
+        "accept": [
+          "ihren"
+        ],
+        "hint": "ohne + Akkusativ, der Bruder",
+        "explanation": "„[[ohne]]“ takes the Akkusativ. Masculine: ihr → ihren."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Kommt ihr mit ___ Kindern? (euer)",
+        "accept": [
+          "euren"
+        ],
+        "hint": "mit + Dativ, plural die Kinder",
+        "explanation": "„[[mit]]“ takes the Dativ. Plural: euer → euren — euer drops the middle -e- before an ending."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "ist",
+          "meine",
+          "Das",
+          "Schwester"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "ist",
+            "meine",
+            "Schwester"
+          ]
+        ],
+        "translation": "That is my sister.",
+        "explanation": "After „[[sein]]“ (to be) → Nominativ. Feminine: meine (die Schwester)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "suche",
+          "meinen",
+          "Ich",
+          "Schlüssel"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "suche",
+            "meinen",
+            "Schlüssel"
+          ]
+        ],
+        "translation": "I am looking for my key.",
+        "explanation": "„[[suchen]]“ takes the Akkusativ. Masculine: mein → meinen (der Schlüssel)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "hilft",
+          "seinem",
+          "Er",
+          "Vater",
+          "heute"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "hilft",
+            "heute",
+            "seinem",
+            "Vater"
+          ],
+          [
+            "Er",
+            "hilft",
+            "seinem",
+            "Vater",
+            "heute"
+          ]
+        ],
+        "translation": "He is helping his father today.",
+        "explanation": "„[[helfen]]“ takes the Dativ: sein → seinem (der Vater). „[[heute]]“ can stand before or after the object."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "gehört",
+          "Auto",
+          "Das",
+          "ihrer",
+          "Mutter"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Auto",
+            "gehört",
+            "ihrer",
+            "Mutter"
+          ]
+        ],
+        "translation": "The car belongs to her mother.",
+        "explanation": "„[[gehören]]“ takes the Dativ. Feminine: ihre → ihrer (die Mutter)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Ich besuche **meinen Onkel**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It is the direct object of „besuchen“",
+          "It is the subject of the sentence",
+          "It is the indirect object (recipient)",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "„[[besuchen]]“ takes a direct object → Akkusativ. Masculine: mein → meinen (der Onkel)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Sie fährt mit **ihrer Schwester** in die Stadt.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It follows „mit“, which always takes the Dativ",
+          "It is the direct object of the verb",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "„[[mit]]“ is a Dativ preposition. Feminine: ihre → ihrer (die Schwester)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "**Euer Haus** ist sehr schön.",
+        "correctCase": "nominativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of the verb",
+          "It is the indirect object (recipient)",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "Euer Haus is the subject → Nominativ, so euer keeps its base form (no ending, no elision)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist ___ Schwester. (du)",
+        "options": [
+          "dein",
+          "deine",
+          "deinen"
+        ],
+        "correctIndex": 1,
+        "explanation": "die Schwester is feminine, Nominativ → deine (like eine)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir besuchen ___ Großeltern. (wir)",
+        "options": [
+          "unsere",
+          "unseren",
+          "unserem"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[besuchen]]“ + Akkusativ, plural → unsere (plural Akkusativ = plural Nominativ)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hilft ___ Bruder. (sie, Singular)",
+        "options": [
+          "ihr",
+          "ihrem",
+          "ihren"
+        ],
+        "correctIndex": 1,
+        "explanation": "„[[helfen]]“ takes the Dativ. der Bruder → masculine Dativ: ihrem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Kinder, wo ist ___ Ball? (ihr)",
+        "options": [
+          "euer",
+          "eure",
+          "eurem"
+        ],
+        "correctIndex": 0,
+        "explanation": "der Ball is masculine and the subject (Nominativ) → euer without ending."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er sucht ___ Handy. (er)",
+        "accept": [
+          "sein"
+        ],
+        "hint": "das Handy",
+        "explanation": "„[[suchen]]“ + Akkusativ, but das Handy is neuter → sein stays without ending (like ein)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir spielen mit ___ Hund. (wir)",
+        "accept": [
+          "unserem"
+        ],
+        "hint": "mit + Dativ",
+        "explanation": "„[[mit]]“ always takes the Dativ. der Hund → masculine Dativ: unserem."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "besuche",
+          "meine",
+          "Tante"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "besuche",
+            "meine",
+            "Tante"
+          ]
+        ],
+        "translation": "I visit my aunt.",
+        "explanation": "die Tante → feminine Akkusativ: meine (no change from Nominativ)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Er fährt mit **seinem Fahrrad** zur Schule.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „fahren“",
+          "It follows „mit“, which always takes the Dativ",
+          "It shows possession"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„[[mit]]“ always takes the Dativ: das Fahrrad → seinem Fahrrad."
+      }
+    }
+  ]
+}

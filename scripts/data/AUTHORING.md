@@ -93,3 +93,57 @@ plural example. The sentence MUST actually use the tagged form of the lemma.
 `npm run build:db` validates everything (schema, duplicates, question
 payloads) and fails loudly. JSON syntax can be checked standalone:
 `node -e "JSON.parse(require('fs').readFileSync('scripts/data/vocab/FILE.json','utf8'))"`.
+
+## Grammar topics
+
+Grammar lives in `scripts/data/grammar/*.json` — one topic per file, named
+`NN-slug.json`. The numeric prefix defines `sort_order` (group by level:
+01–08 A1, 09–16 A2, 17–22 B1).
+
+```jsonc
+{
+  "slug": "akkusativ",        // stable id, kebab-case
+  "title": "Akkusativ",       // shown on the topic card (German)
+  "level": "A1",              // A1|A2|B1 — practice screen groups by this
+  "explainer_md": "…",        // intro shown before the first quiz round
+  "questions": [ … ]
+}
+```
+
+### Explainer style
+
+Explanations are written in **English** with German examples (app UI copy is
+German, grammar explanations English). The renderer is `MarkdownLite`:
+paragraphs (blank-line separated), `**bold**`, `*italic*` and pipe tables —
+no headers or bullet lists. Every rule needs at least one easy example
+sentence with an English translation. Keep example vocabulary at the topic's
+level or below.
+
+### Vocabulary markers
+
+Wrap words worth introducing in `[[…]]` — the app renders them underlined
+and tappable; a tap opens a dictionary popup (meaning, examples,
+save-to-flashcards). `[[Wort]]` looks up the word itself (inflected forms
+resolve too); `[[display|lookup]]` shows one word but looks up another
+(`[[möchten|mögen]]`). The build fails if a marker doesn't resolve to a
+dictionary lemma or form — add the word to a vocab batch first. Mark each
+word once per explainer, ideally in the verb/preposition lists rather than
+mid-example. Markers also work in question `explanation` strings (the
+feedback panel renders them tappable); the convention there is to mark the
+„quoted“ verb/preposition the explanation refers to. The build derives
+`grammar_topics.vocab_count` (distinct lookups per topic) from all markers.
+
+### Question types
+
+- `mc` — `prompt`, `options` (2–4), `correctIndex`, `explanation`
+- `fill` — `prompt`, `accept` (all correct answers, first one is shown as
+  "the" answer; grading is case-insensitive with umlaut near-miss),
+  optional `hint`, `explanation`
+- `order` — `tokens` (shuffled for display), `solutions` (arrays that use
+  exactly the token pool), optional `translation`, `explanation`
+- `case_id` — `sentence` with the phrase marked `**…**`, `correctCase`,
+  `reasons` (one correct), `correctReasonIndex`, `explanation`. Only for
+  case-related topics.
+
+`difficulty` is 1–3 (easy rounds are served first). Aim for ≥ 12 questions
+per topic and a mix of at least three qtypes where the topic allows it.

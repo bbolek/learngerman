@@ -1,0 +1,213 @@
+{
+  "slug": "modalverben",
+  "title": "Modalverben",
+  "level": "A1",
+  "explainer_md": "Modal verbs express ability, necessity, permission or desire: **[[können]]** (can), **[[müssen]]** (must), **[[wollen]]** (want), **[[dürfen]]** (may), **[[sollen]]** (should), **[[möchten|mögen]]** (would like).\n\n**Two things to learn.** First, the conjugation: in the singular the vowel often changes, and **ich** and **er/sie/es** have NO ending — they are identical:\n\n| | können | müssen | wollen | dürfen | möchten |\n|---|---|---|---|---|---|\n| ich | kann | muss | will | darf | möchte |\n| du | kannst | musst | willst | darfst | möchtest |\n| er/sie/es | kann | muss | will | darf | möchte |\n| wir | können | müssen | wollen | dürfen | möchten |\n| ihr | könnt | müsst | wollt | dürft | möchtet |\n| sie/Sie | können | müssen | wollen | dürfen | möchten |\n\n**Second, the sentence bracket:** the modal verb takes position 2, and the main verb goes to the **end** as an infinitive:\n\n*Ich **kann** gut **schwimmen**.* — I can swim well.\n\n*Er **muss** heute lange **arbeiten**.* — He has to work long today.\n\n*Wir **wollen** am Samstag Fußball **spielen**.* — We want to play football on Saturday.\n\n***Kannst** du mir **helfen**?* — Can you help me?\n\n**Tip:** *möchten* is the polite way to order or ask for things: *Ich möchte einen Kaffee, bitte.* — I would like a coffee, please. And careful: *ich will* means \"I want\" (strong!), not \"I will\".",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ schwimmen.",
+        "options": [
+          "kann",
+          "kannst",
+          "können"
+        ],
+        "correctIndex": 0,
+        "explanation": "Modal verbs have no ending for ich: ich kann."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er ___ heute arbeiten.",
+        "options": [
+          "muss",
+          "musst",
+          "müssen"
+        ],
+        "correctIndex": 0,
+        "explanation": "er/sie/es = same form as ich: er muss (no ending, no umlaut)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ du mir helfen?",
+        "options": [
+          "Kannst",
+          "Kann",
+          "Können"
+        ],
+        "correctIndex": 0,
+        "explanation": "du → kannst. In a question the modal verb comes first."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir ___ Deutsch lernen.",
+        "options": [
+          "wollen",
+          "willst",
+          "will"
+        ],
+        "correctIndex": 0,
+        "explanation": "wir keeps the infinitive form: wir wollen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Man ___ hier nicht rauchen.",
+        "options": [
+          "darf",
+          "darfst",
+          "dürfen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[dürfen]]“ = permission. man = er/sie/es-form: man darf."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ihr ___ leise sein.",
+        "options": [
+          "sollt",
+          "sollst",
+          "sollen"
+        ],
+        "correctIndex": 0,
+        "explanation": "ihr → sollt: You (all) should be quiet."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ Sie einen Kaffee?",
+        "options": [
+          "Möchten",
+          "Möchtest",
+          "Möchte"
+        ],
+        "correctIndex": 0,
+        "explanation": "Formal Sie takes the plural form: Möchten Sie…? — the polite offer."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich ___ einen Tee. (möchten)",
+        "accept": [
+          "möchte"
+        ],
+        "explanation": "ich möchte — the polite way to order something."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er ___ gut kochen. (können)",
+        "accept": [
+          "kann"
+        ],
+        "explanation": "er/sie/es has no ending: er kann.",
+        "hint": "no ending!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Du ___ jetzt schlafen. (müssen)",
+        "accept": [
+          "musst"
+        ],
+        "explanation": "Singular loses the umlaut: du musst (not „[[müsst]]“).",
+        "hint": "vowel change"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "kann",
+          "gut",
+          "schwimmen"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "kann",
+            "gut",
+            "schwimmen"
+          ]
+        ],
+        "translation": "I can swim well.",
+        "explanation": "Modal in position 2, infinitive at the end — the sentence bracket."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Er",
+          "muss",
+          "heute",
+          "lange",
+          "arbeiten"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "muss",
+            "heute",
+            "lange",
+            "arbeiten"
+          ]
+        ],
+        "translation": "He has to work long today.",
+        "explanation": "muss = position 2, arbeiten = infinitive at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "wollen",
+          "am",
+          "Samstag",
+          "Fußball",
+          "spielen"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "wollen",
+            "am",
+            "Samstag",
+            "Fußball",
+            "spielen"
+          ]
+        ],
+        "translation": "We want to play football on Saturday.",
+        "explanation": "Modal verb second, everything else in the middle, „[[spielen]]“ at the very end."
+      }
+    }
+  ]
+}

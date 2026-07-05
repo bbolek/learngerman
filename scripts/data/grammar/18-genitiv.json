@@ -1,0 +1,227 @@
+{
+  "slug": "genitiv",
+  "title": "Genitiv",
+  "level": "B1",
+  "explainer_md": "The **Genitiv** shows **possession** — like English \"of the\" or \"'s\". It answers the question **Wessen?** (whose?).\n\n*das Auto **des** Mannes* — the man's car\n\n*die Tasche **der** [[Frau]]* — the woman's bag\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Genitiv | **des … -(e)s** | **der** | **des … -(e)s** | **der** |\n\n**Two things happen in the masculine and neuter:** the article becomes **des**, AND the noun itself adds **-s** or **-es**: des Mann**es**, des Kind**es**, des Auto**s**. Feminine and plural just use **der** — the noun doesn't change.\n\n*Das ist das Haus **meines Vaters**.* — That is my father's house.\n\n*Die Farbe **der [[Blumen]]** gefällt mir.* — I like the color of the flowers. (plural)\n\n**Some prepositions take the Genitiv:** **[[wegen]]** (because of), **[[trotz]]** (despite), **[[während]]** (during), **[[statt]]** (instead of).\n\n*Wegen **des Regens** bleiben wir zu Hause.* — Because of the rain we stay home.\n\n*Trotz **der Kälte** gehen wir spazieren.* — Despite the cold we go for a walk.\n\n**Tip:** in spoken German you'll often hear *von + Dativ* instead (*das Auto von meinem Vater*) — that's fine in conversation, but written German prefers the Genitiv, and exams love it.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Auto ___ Mannes ist neu.",
+        "options": [
+          "des",
+          "dem",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "Masculine Genitiv: des Mannes — article des + noun ending -es."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Tasche ___ Frau ist rot.",
+        "options": [
+          "der",
+          "die",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Feminine Genitiv: der Frau — the noun doesn't change."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Zimmer ___ Kindes ist klein.",
+        "options": [
+          "des",
+          "das",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Neuter Genitiv: des Kindes."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Farbe ___ Blumen gefällt mir.",
+        "options": [
+          "der",
+          "den",
+          "des"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural Genitiv: der Blumen (same article as feminine)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wegen ___ Regens bleiben wir zu Hause.",
+        "options": [
+          "des",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[wegen]]“ + Genitiv: der Regen → des Regens."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Trotz ___ Kälte gehen wir spazieren.",
+        "options": [
+          "der",
+          "die",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[trotz]]“ + Genitiv, feminine: der Kälte."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Während ___ Sommers arbeitet er nicht.",
+        "options": [
+          "des",
+          "dem",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[während]]“ + Genitiv: der Sommer → des Sommers."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das ist das Haus meines ___. (Vater)",
+        "accept": [
+          "vaters"
+        ],
+        "explanation": "Masculine Genitiv adds -s to the noun: meines Vaters.",
+        "hint": "add the ending!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Titel ___ Buches ist lang. (das)",
+        "accept": [
+          "des"
+        ],
+        "explanation": "Neuter Genitiv: des Buches."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Freundin ___ Bruders heißt Lena. (mein)",
+        "accept": [
+          "meines"
+        ],
+        "explanation": "Possessives take -es in the masculine Genitiv: meines Bruders.",
+        "hint": "masculine Genitiv"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Das",
+          "Fahrrad",
+          "meines",
+          "Bruders",
+          "ist",
+          "kaputt"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Fahrrad",
+            "meines",
+            "Bruders",
+            "ist",
+            "kaputt"
+          ]
+        ],
+        "translation": "My brother's bicycle is broken.",
+        "explanation": "The Genitiv phrase follows the noun it describes: das Fahrrad meines Bruders."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Wegen",
+          "des",
+          "Wetters",
+          "bleiben",
+          "wir",
+          "zu",
+          "Hause"
+        ],
+        "solutions": [
+          [
+            "Wegen",
+            "des",
+            "Wetters",
+            "bleiben",
+            "wir",
+            "zu",
+            "Hause"
+          ]
+        ],
+        "translation": "Because of the weather we stay at home.",
+        "explanation": "wegen + Genitiv fills position 1 → verb second."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Das ist der Hund **des Nachbarn**.",
+        "correctCase": "genitiv",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It shows whose dog it is — possession",
+          "It is the direct object",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "Whose dog? The neighbor's → Genitiv: des Nachbarn."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Trotz **des Regens** spielen die Kinder draußen.",
+        "correctCase": "genitiv",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „spielen“",
+          "It follows „trotz“, which takes the Genitiv",
+          "It shows a location"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„[[trotz]]“ is a genitive preposition: trotz des Regens."
+      }
+    }
+  ]
+}

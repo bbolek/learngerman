@@ -119,6 +119,17 @@ no headers or bullet lists. Every rule needs at least one easy example
 sentence with an English translation. Keep example vocabulary at the topic's
 level or below.
 
+### Vocabulary markers
+
+Wrap words worth introducing in `[[…]]` — the app renders them underlined
+and tappable; a tap opens a dictionary popup (meaning, examples,
+save-to-flashcards). `[[Wort]]` looks up the word itself (inflected forms
+resolve too); `[[display|lookup]]` shows one word but looks up another
+(`[[möchten|mögen]]`). The build fails if a marker doesn't resolve to a
+dictionary lemma or form — add the word to a vocab batch first. Mark each
+word once per explainer, ideally in the verb/preposition lists rather than
+mid-example.
+
 ### Question types
 
 - `mc` — `prompt`, `options` (2–4), `correctIndex`, `explanation`

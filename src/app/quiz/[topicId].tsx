@@ -110,6 +110,14 @@ export default function QuizScreen() {
           <AppText variant="title" style={{ marginTop: spacing.md }}>
             {topic.title}
           </AppText>
+          {topic.explainer_md.includes('[[') && (
+            <View style={[styles.vocabHint, { backgroundColor: t.primaryDim }]}>
+              <Ionicons name="book-outline" size={15} color={t.onPrimaryDim} />
+              <AppText variant="caption" color={t.onPrimaryDim} style={{ flex: 1 }}>
+                Tippe auf unterstrichene Wörter, um ihre Bedeutung zu sehen.
+              </AppText>
+            </View>
+          )}
           <View style={{ marginTop: spacing.lg }}>
             <MarkdownLite source={topic.explainer_md} />
           </View>
@@ -678,6 +686,15 @@ const styles = StyleSheet.create({
     paddingTop: spacing.lg,
     borderTopLeftRadius: radius.screen,
     borderTopRightRadius: radius.screen,
+  },
+  vocabHint: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    borderRadius: 12,
+    paddingHorizontal: spacing.md,
+    paddingVertical: 9,
+    marginTop: spacing.md,
   },
   footer: { paddingHorizontal: spacing.lg },
   cta: {

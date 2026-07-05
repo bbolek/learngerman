@@ -1,55 +1,67 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { useKeepAwake } from 'expo-keep-awake';
 import * as ScreenOrientation from 'expo-screen-orientation';
-import { useEffect, useState } from 'react';
-import { Modal, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { createContext, useContext, useEffect, useState } from 'react';
+import { Modal, Pressable, ScrollView, StyleSheet, View, type StyleProp, type TextStyle } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { AppText } from '@/ui/components/AppText';
+import { WordPopup } from '@/ui/components/WordPopup';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 type TableRows = string[][];
 
+/** Tap handler for [[vocabulary]] markers; provided by MarkdownLite. */
+const WordTapContext = createContext<((word: string) => void) | null>(null);
+
 /**
  * Minimal renderer for topic explainers: paragraphs, **bold**, *italic*,
- * and pipe tables. Not a general markdown engine.
+ * pipe tables and tappable [[vocabulary]] words. Not a general markdown
+ * engine.
  */
 export function MarkdownLite({ source }: { source: string }) {
   const [fullscreenRows, setFullscreenRows] = useState<TableRows | null>(null);
+  const [tappedWord, setTappedWord] = useState<string | null>(null);
   const blocks = source.split(/\n\n+/);
   return (
-    <View style={{ gap: 12 }}>
-      {blocks.map((block, i) => {
-        const lines = block.split('\n').filter((l) => l.trim().length > 0);
-        if (lines.length > 0 && lines.every((l) => l.trim().startsWith('|'))) {
-          const rows = lines
-            .map((l) =>
-              l
-                .trim()
-                .replace(/^\||\|$/g, '')
-                .split('|')
-                .map((c) => c.trim())
-            )
-            .filter((cells) => !cells.every((c) => /^-+$/.test(c) || c === ''));
-          return <Table key={i} rows={rows} onExpand={() => setFullscreenRows(rows)} />;
-        }
-        return (
-          <AppText key={i} variant="body" style={{ lineHeight: 23 }}>
-            <Inline text={block.replace(/\n/g, ' ')} />
-          </AppText>
-        );
-      })}
-      <Modal
-        visible={fullscreenRows != null}
-        animationType="fade"
-        supportedOrientations={['portrait', 'landscape']}
-        onRequestClose={() => setFullscreenRows(null)}>
-        {fullscreenRows && (
-          <FullscreenTable rows={fullscreenRows} onClose={() => setFullscreenRows(null)} />
-        )}
-      </Modal>
-    </View>
+    <WordTapContext.Provider value={setTappedWord}>
+      <View style={{ gap: 12 }}>
+        {blocks.map((block, i) => {
+          const lines = block.split('\n').filter((l) => l.trim().length > 0);
+          if (lines.length > 0 && lines.every((l) => l.trim().startsWith('|'))) {
+            const rows = lines
+              .map((l) =>
+                l
+                  .trim()
+                  .replace(/^\||\|$/g, '')
+                  .split('|')
+                  .map((c) => c.trim())
+              )
+              .filter((cells) => !cells.every((c) => /^-+$/.test(c) || c === ''));
+            return <Table key={i} rows={rows} onExpand={() => setFullscreenRows(rows)} />;
+          }
+          return (
+            <AppText key={i} variant="body" style={{ lineHeight: 23 }}>
+              <Inline text={block.replace(/\n/g, ' ')} />
+            </AppText>
+          );
+        })}
+        <Modal
+          visible={fullscreenRows != null}
+          animationType="fade"
+          supportedOrientations={['portrait', 'landscape']}
+          onRequestClose={() => setFullscreenRows(null)}>
+          {/* No word taps here — a second modal can't stack on the fullscreen one. */}
+          <WordTapContext.Provider value={null}>
+            {fullscreenRows && (
+              <FullscreenTable rows={fullscreenRows} onClose={() => setFullscreenRows(null)} />
+            )}
+          </WordTapContext.Provider>
+        </Modal>
+        <WordPopup word={tappedWord} onClose={() => setTappedWord(null)} />
+      </View>
+    </WordTapContext.Provider>
   );
 }
 
@@ -169,7 +181,7 @@ function InlineText({
   );
 }
 
-/** **bold** and *italic* segments. */
+/** **bold** and *italic* segments, each of which may contain [[vocab]] links. */
 function Inline({ text }: { text: string }) {
   const t = useTheme();
   const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).filter(Boolean);
@@ -178,15 +190,59 @@ function Inline({ text }: { text: string }) {
       {parts.map((part, i) => {
         if (part.startsWith('**') && part.endsWith('**')) {
           return (
-            <AppText key={i} style={{ fontFamily: fonts.extrabold }} color={t.onPrimaryDim}>
-              {part.slice(2, -2)}
-            </AppText>
+            <Linkified
+              key={i}
+              text={part.slice(2, -2)}
+              style={{ fontFamily: fonts.extrabold }}
+              color={t.onPrimaryDim}
+            />
           );
         }
         if (part.startsWith('*') && part.endsWith('*')) {
           return (
-            <AppText key={i} style={{ fontFamily: fonts.serif, fontSize: 15 }}>
-              {part.slice(1, -1)}
+            <Linkified key={i} text={part.slice(1, -1)} style={{ fontFamily: fonts.serif, fontSize: 15 }} />
+          );
+        }
+        return <Linkified key={i} text={part} />;
+      })}
+    </>
+  );
+}
+
+/** Renders [[word]] markers as tappable vocabulary links within a segment. */
+function Linkified({
+  text,
+  style,
+  color,
+}: {
+  text: string;
+  style?: StyleProp<TextStyle>;
+  color?: string;
+}) {
+  const t = useTheme();
+  const onWordTap = useContext(WordTapContext);
+  const parts = text.split(/(\[\[[^\]]+\]\])/g).filter(Boolean);
+  return (
+    <>
+      {parts.map((part, i) => {
+        if (part.startsWith('[[') && part.endsWith(']]')) {
+          // [[Wort]] or [[display|lookup]] ("[[möchten|mögen]]")
+          const [display, lookup = display] = part.slice(2, -2).split('|');
+          return (
+            <AppText
+              key={i}
+              suppressHighlighting
+              onPress={onWordTap ? () => onWordTap(lookup) : undefined}
+              color={t.primary}
+              style={[style, { textDecorationLine: 'underline', fontFamily: fonts.extrabold }]}>
+              {display}
+            </AppText>
+          );
+        }
+        if (style || color) {
+          return (
+            <AppText key={i} style={style} color={color}>
+              {part}
             </AppText>
           );
         }

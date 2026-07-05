@@ -183,11 +183,47 @@ function loadGrammar(): GrammarTopic[] {
   return topics;
 }
 
+// ---------- vocab markers in explainers ----------
+
+/**
+ * Every [[word]] marker in an explainer must resolve in the dictionary
+ * (as a lemma or an inflected form) — the app renders these as tappable
+ * vocabulary links backed by lookupGerman().
+ */
+function validateVocabMarkers(topics: GrammarTopic[], vocab: VocabEntry[]) {
+  const known = new Set<string>();
+  for (const e of vocab) {
+    known.add(normalize(e.lemma));
+    for (const f of expandForms(e)) known.add(normalize(f.form));
+  }
+  const errors: string[] = [];
+  for (const t of topics) {
+    for (const m of t.explainer_md.matchAll(/\[\[([^\]]+)\]\]/g)) {
+      // [[Wort]] or [[display|lookup]] — the lookup part must resolve
+      const parts = m[1].split('|');
+      const lookup = parts[parts.length - 1];
+      if (parts.length > 2 || parts.some((p) => !p.trim()))
+        errors.push(`${t.slug}: malformed vocab marker [[${m[1]}]]`);
+      else if (!known.has(normalize(lookup)))
+        errors.push(`${t.slug}: vocab marker [[${m[1]}]] not found in dictionary`);
+    }
+    const stripped = t.explainer_md.replace(/\[\[[^\]]+\]\]/g, '');
+    if (stripped.includes('[[') || stripped.includes(']]'))
+      errors.push(`${t.slug}: unbalanced [[ ]] marker in explainer`);
+  }
+  if (errors.length) {
+    console.error(`✗ vocab marker validation failed (${errors.length} errors):`);
+    for (const err of errors.slice(0, 40)) console.error('  -', err);
+    process.exit(1);
+  }
+}
+
 // ---------- build ----------
 
 function build() {
   const vocab = loadVocab();
   const grammar = loadGrammar();
+  validateVocabMarkers(grammar, vocab);
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
   fs.rmSync(OUT_FILE, { force: true });

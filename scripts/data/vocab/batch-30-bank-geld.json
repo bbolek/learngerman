@@ -4,7 +4,10 @@
     "pos": "noun",
     "level": "A2",
     "freq": 1310,
-    "noun": { "gender": "n", "plural": null },
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
     "senses": [
       {
         "en": "cash",
@@ -25,7 +28,10 @@
     "pos": "noun",
     "level": "A2",
     "freq": 1340,
-    "noun": { "gender": "m", "plural": "Scheine" },
+    "noun": {
+      "gender": "m",
+      "plural": "Scheine"
+    },
     "senses": [
       {
         "en": "banknote, bill",
@@ -51,7 +57,11 @@
     "pos": "noun",
     "level": "A2",
     "freq": 1370,
-    "noun": { "gender": "m", "plural": "Geldautomaten", "genitive": "Geldautomaten" },
+    "noun": {
+      "gender": "m",
+      "plural": "Geldautomaten",
+      "genitive": "Geldautomaten"
+    },
     "senses": [
       {
         "en": "ATM, cash machine",
@@ -72,7 +82,10 @@
     "pos": "noun",
     "level": "A2",
     "freq": 1400,
-    "noun": { "gender": "m", "plural": "Geldbeutel" },
+    "noun": {
+      "gender": "m",
+      "plural": "Geldbeutel"
+    },
     "senses": [
       {
         "en": "wallet, purse",
@@ -87,7 +100,10 @@
     "pos": "noun",
     "level": "A2",
     "freq": 1440,
-    "noun": { "gender": "f", "plural": "Kontonummern" },
+    "noun": {
+      "gender": "f",
+      "plural": "Kontonummern"
+    },
     "senses": [
       {
         "en": "account number",
@@ -97,37 +113,14 @@
     ]
   },
   {
-    "lemma": "Schalter",
-    "pos": "noun",
-    "level": "A2",
-    "freq": 1470,
-    "noun": { "gender": "m", "plural": "Schalter" },
-    "senses": [
-      {
-        "en": "counter, ticket window",
-        "example_de": "Bitte gehen Sie zu Schalter drei.",
-        "example_en": "Please go to counter three."
-      },
-      {
-        "en": "switch (for a light or device)",
-        "example_de": "Wo ist der Schalter für das Licht?",
-        "example_en": "Where is the switch for the light?"
-      }
-    ],
-    "examples": [
-      {
-        "tag": "plural",
-        "de": "Heute sind nur zwei Schalter offen.",
-        "en": "Only two counters are open today."
-      }
-    ]
-  },
-  {
     "lemma": "Sparschwein",
     "pos": "noun",
     "level": "A2",
     "freq": 1500,
-    "noun": { "gender": "n", "plural": "Sparschweine" },
+    "noun": {
+      "gender": "n",
+      "plural": "Sparschweine"
+    },
     "senses": [
       {
         "en": "piggy bank",
@@ -141,7 +134,10 @@
     "pos": "noun",
     "level": "A2",
     "freq": 1530,
-    "noun": { "gender": "f", "plural": "Gebühren" },
+    "noun": {
+      "gender": "f",
+      "plural": "Gebühren"
+    },
     "senses": [
       {
         "en": "fee, charge",
@@ -162,7 +158,10 @@
     "pos": "noun",
     "level": "A2",
     "freq": 1580,
-    "noun": { "gender": "f", "plural": "Sparkassen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Sparkassen"
+    },
     "senses": [
       {
         "en": "savings bank",
@@ -176,7 +175,10 @@
     "pos": "noun",
     "level": "A2",
     "freq": 1630,
-    "noun": { "gender": "m", "plural": "Werte" },
+    "noun": {
+      "gender": "m",
+      "plural": "Werte"
+    },
     "senses": [
       {
         "en": "value, worth",
@@ -191,7 +193,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 1900,
-    "noun": { "gender": "n", "plural": "Sparkonten" },
+    "noun": {
+      "gender": "n",
+      "plural": "Sparkonten"
+    },
     "senses": [
       {
         "en": "savings account",
@@ -205,7 +210,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 1920,
-    "noun": { "gender": "m", "plural": "Kontostände" },
+    "noun": {
+      "gender": "m",
+      "plural": "Kontostände"
+    },
     "senses": [
       {
         "en": "account balance",
@@ -219,7 +227,10 @@
     "pos": "noun",
     "level": "A2",
     "freq": 1660,
-    "noun": { "gender": "n", "plural": null },
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
     "senses": [
       {
         "en": "pocket money, allowance",
@@ -240,7 +251,10 @@
     "pos": "verb",
     "level": "B1",
     "freq": 1960,
-    "verb": { "aux": "haben", "separablePrefix": "ab" },
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
     "senses": [
       {
         "en": "to debit (money from an account)",
@@ -271,7 +285,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 1980,
-    "noun": { "gender": "f", "plural": "Einzahlungen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Einzahlungen"
+    },
     "senses": [
       {
         "en": "deposit (of money)",
@@ -285,7 +302,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2000,
-    "noun": { "gender": "f", "plural": "Auszahlungen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Auszahlungen"
+    },
     "senses": [
       {
         "en": "payout, withdrawal (of money)",
@@ -299,7 +319,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2020,
-    "noun": { "gender": "f", "plural": "Girokarten" },
+    "noun": {
+      "gender": "f",
+      "plural": "Girokarten"
+    },
     "senses": [
       {
         "en": "debit card (for a current account)",
@@ -313,7 +336,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2040,
-    "noun": { "gender": "pl", "plural": null },
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
     "senses": [
       {
         "en": "interest (on money)",
@@ -328,7 +354,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2060,
-    "noun": { "gender": "m", "plural": "Kredite" },
+    "noun": {
+      "gender": "m",
+      "plural": "Kredite"
+    },
     "senses": [
       {
         "en": "loan, credit",
@@ -350,7 +379,10 @@
     "pos": "verb",
     "level": "B1",
     "freq": 2080,
-    "verb": { "aux": "haben", "separablePrefix": "zurück" },
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zurück"
+    },
     "senses": [
       {
         "en": "to pay back, to repay",
@@ -376,7 +408,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2100,
-    "noun": { "gender": "pl", "plural": null },
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
     "senses": [
       {
         "en": "debts",
@@ -391,7 +426,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2120,
-    "noun": { "gender": "f", "plural": "Raten" },
+    "noun": {
+      "gender": "f",
+      "plural": "Raten"
+    },
     "senses": [
       {
         "en": "installment (payment)",
@@ -413,7 +451,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2140,
-    "noun": { "gender": "m", "plural": "Daueraufträge" },
+    "noun": {
+      "gender": "m",
+      "plural": "Daueraufträge"
+    },
     "senses": [
       {
         "en": "standing order (regular automatic payment)",
@@ -434,7 +475,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2160,
-    "noun": { "gender": "f", "plural": "Lastschriften" },
+    "noun": {
+      "gender": "f",
+      "plural": "Lastschriften"
+    },
     "senses": [
       {
         "en": "direct debit",
@@ -448,7 +492,9 @@
     "pos": "verb",
     "level": "B1",
     "freq": 2180,
-    "verb": { "aux": "haben" },
+    "verb": {
+      "aux": "haben"
+    },
     "senses": [
       {
         "en": "to afford (something)",
@@ -485,7 +531,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2200,
-    "noun": { "gender": "f", "plural": "Währungen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Währungen"
+    },
     "senses": [
       {
         "en": "currency",
@@ -506,7 +555,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2220,
-    "noun": { "gender": "m", "plural": "Wechselkurse" },
+    "noun": {
+      "gender": "m",
+      "plural": "Wechselkurse"
+    },
     "senses": [
       {
         "en": "exchange rate",
@@ -520,7 +572,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2240,
-    "noun": { "gender": "f", "plural": "Ausgaben" },
+    "noun": {
+      "gender": "f",
+      "plural": "Ausgaben"
+    },
     "senses": [
       {
         "en": "expense, expenditure",
@@ -546,7 +601,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2260,
-    "noun": { "gender": "f", "plural": "Einnahmen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Einnahmen"
+    },
     "senses": [
       {
         "en": "income, revenue, takings",
@@ -561,7 +619,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2280,
-    "noun": { "gender": "n", "plural": "Einkommen" },
+    "noun": {
+      "gender": "n",
+      "plural": "Einkommen"
+    },
     "senses": [
       {
         "en": "income",
@@ -612,7 +673,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2320,
-    "noun": { "gender": "n", "plural": "Budgets" },
+    "noun": {
+      "gender": "n",
+      "plural": "Budgets"
+    },
     "senses": [
       {
         "en": "budget",
@@ -626,7 +690,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2340,
-    "noun": { "gender": "m", "plural": "Beträge" },
+    "noun": {
+      "gender": "m",
+      "plural": "Beträge"
+    },
     "senses": [
       {
         "en": "amount, sum (of money)",
@@ -647,7 +714,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2360,
-    "noun": { "gender": "f", "plural": "Bankleitzahlen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Bankleitzahlen"
+    },
     "senses": [
       {
         "en": "bank sort code",
@@ -662,7 +732,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2380,
-    "noun": { "gender": "n", "plural": null },
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
     "senses": [
       {
         "en": "online banking",
@@ -712,7 +785,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2420,
-    "noun": { "gender": "pl", "plural": null },
+    "noun": {
+      "gender": "pl",
+      "plural": null
+    },
     "senses": [
       {
         "en": "savings",
@@ -727,7 +803,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2440,
-    "noun": { "gender": "n", "plural": "Guthaben" },
+    "noun": {
+      "gender": "n",
+      "plural": "Guthaben"
+    },
     "senses": [
       {
         "en": "credit, credit balance",
@@ -741,7 +820,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2460,
-    "noun": { "gender": "m", "plural": "Gewinne" },
+    "noun": {
+      "gender": "m",
+      "plural": "Gewinne"
+    },
     "senses": [
       {
         "en": "profit",
@@ -760,7 +842,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2480,
-    "noun": { "gender": "f", "plural": "Summen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Summen"
+    },
     "senses": [
       {
         "en": "sum, amount",
@@ -781,7 +866,10 @@
     "pos": "noun",
     "level": "B1",
     "freq": 2500,
-    "noun": { "gender": "m", "plural": "Schecks" },
+    "noun": {
+      "gender": "m",
+      "plural": "Schecks"
+    },
     "senses": [
       {
         "en": "cheque, check",
@@ -857,7 +945,9 @@
     "pos": "adj",
     "level": "B1",
     "freq": 2580,
-    "adj": { "indeclinable": true },
+    "adj": {
+      "indeclinable": true
+    },
     "senses": [
       {
         "en": "broke (out of money)",
@@ -885,7 +975,10 @@
     "pos": "verb",
     "level": "B2",
     "freq": 3050,
-    "verb": { "aux": "haben", "partizip2": "verschuldet" },
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verschuldet"
+    },
     "senses": [
       {
         "en": "to go into debt",
@@ -912,7 +1005,10 @@
     "pos": "verb",
     "level": "B2",
     "freq": 3150,
-    "verb": { "aux": "haben", "partizip2": "finanziert" },
+    "verb": {
+      "aux": "haben",
+      "partizip2": "finanziert"
+    },
     "senses": [
       {
         "en": "to finance, to fund",
@@ -938,7 +1034,10 @@
     "pos": "verb",
     "level": "B2",
     "freq": 3250,
-    "verb": { "aux": "haben", "partizip2": "investiert" },
+    "verb": {
+      "aux": "haben",
+      "partizip2": "investiert"
+    },
     "senses": [
       {
         "en": "to invest",
@@ -965,7 +1064,10 @@
     "pos": "verb",
     "level": "B2",
     "freq": 3350,
-    "verb": { "aux": "haben", "separablePrefix": "an" },
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
     "senses": [
       {
         "en": "to invest (money)",
@@ -992,7 +1094,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3450,
-    "noun": { "gender": "f", "plural": "Hypotheken" },
+    "noun": {
+      "gender": "f",
+      "plural": "Hypotheken"
+    },
     "senses": [
       {
         "en": "mortgage",
@@ -1006,7 +1111,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3550,
-    "noun": { "gender": "f", "plural": "Aktien" },
+    "noun": {
+      "gender": "f",
+      "plural": "Aktien"
+    },
     "senses": [
       {
         "en": "share, stock",
@@ -1027,7 +1135,10 @@
     "pos": "noun",
     "level": "B2",
     "freq": 3600,
-    "noun": { "gender": "f", "plural": "Börsen" },
+    "noun": {
+      "gender": "f",
+      "plural": "Börsen"
+    },
     "senses": [
       {
         "en": "stock exchange, stock market",
@@ -1037,25 +1148,14 @@
     ]
   },
   {
-    "lemma": "Kaution",
-    "pos": "noun",
-    "level": "B2",
-    "freq": 3700,
-    "noun": { "gender": "f", "plural": "Kautionen" },
-    "senses": [
-      {
-        "en": "deposit (for a rental), bail",
-        "example_de": "Die Kaution für die Wohnung ist hoch.",
-        "example_en": "The deposit for the apartment is high."
-      }
-    ]
-  },
-  {
     "lemma": "Vermögen",
     "pos": "noun",
     "level": "B2",
     "freq": 3780,
-    "noun": { "gender": "n", "plural": "Vermögen" },
+    "noun": {
+      "gender": "n",
+      "plural": "Vermögen"
+    },
     "senses": [
       {
         "en": "fortune, wealth, assets",

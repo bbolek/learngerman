@@ -524,41 +524,6 @@
     ]
   },
   {
-    "lemma": "ummelden",
-    "pos": "verb",
-    "level": "B1",
-    "freq": 2265,
-    "verb": {
-      "aux": "haben",
-      "separablePrefix": "um"
-    },
-    "senses": [
-      {
-        "en": "to re-register (after moving)",
-        "note": "reflexiv, trennbar: sich ummelden",
-        "example_de": "Nach dem Umzug melde ich mich um.",
-        "example_en": "After the move I re-register."
-      }
-    ],
-    "examples": [
-      {
-        "tag": "präsens",
-        "de": "Er meldet sich diese Woche um.",
-        "en": "He is re-registering this week."
-      },
-      {
-        "tag": "perfekt",
-        "de": "Wir haben uns schon im Bürgeramt umgemeldet.",
-        "en": "We have already re-registered at the citizens' office."
-      },
-      {
-        "tag": "frage",
-        "de": "Hast du dich nach dem Umzug umgemeldet?",
-        "en": "Did you re-register after the move?"
-      }
-    ]
-  },
-  {
     "lemma": "vorlegen",
     "pos": "verb",
     "level": "B1",

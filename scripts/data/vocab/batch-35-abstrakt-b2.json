@@ -1,0 +1,1239 @@
+[
+  {
+    "lemma": "berücksichtigen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3000,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "berücksichtigt"
+    },
+    "senses": [
+      {
+        "en": "to take into account, to consider",
+        "note": "+ Akkusativ",
+        "example_de": "Wir müssen bei der Planung die Kosten berücksichtigen.",
+        "example_en": "We have to take the costs into account when planning."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Plan berücksichtigt die Wünsche aller.",
+        "en": "The plan takes everyone's wishes into account."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben deine Meinung berücksichtigt.",
+        "en": "We took your opinion into account."
+      }
+    ]
+  },
+  {
+    "lemma": "gewährleisten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3017,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "gewährleistet"
+    },
+    "senses": [
+      {
+        "en": "to ensure, to guarantee",
+        "example_de": "Die Firma muss die Sicherheit der Daten gewährleisten.",
+        "example_en": "The company has to ensure the security of the data."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das neue System gewährleistet einen sicheren Zugang.",
+        "en": "The new system ensures secure access."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Stadt hat die Versorgung mit Wasser gewährleistet.",
+        "en": "The city ensured the water supply."
+      }
+    ]
+  },
+  {
+    "lemma": "nachvollziehen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3034,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "nach",
+      "praeteritum": "vollzog",
+      "partizip2": "nachvollzogen"
+    },
+    "senses": [
+      {
+        "en": "to comprehend, to understand (someone's reasoning)",
+        "example_de": "Ich kann deine Entscheidung gut nachvollziehen.",
+        "example_en": "I can understand your decision well."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie vollzieht seine Angst nicht nach.",
+        "en": "She does not comprehend his fear."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe deine Reaktion erst später nachvollzogen.",
+        "en": "I only understood your reaction later."
+      }
+    ]
+  },
+  {
+    "lemma": "ermöglichen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3051,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "ermöglicht"
+    },
+    "senses": [
+      {
+        "en": "to make possible, to enable",
+        "note": "+ Dativ (Person) + Akkusativ (Sache)",
+        "example_de": "Das Stipendium ermöglicht ihr das Studium im Ausland.",
+        "example_en": "The scholarship enables her to study abroad."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Internet ermöglicht schnelles Lernen von überall.",
+        "en": "The internet makes fast learning possible from anywhere."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Seine Hilfe hat den Umzug erst ermöglicht.",
+        "en": "His help is what made the move possible."
+      }
+    ]
+  },
+  {
+    "lemma": "verfügen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3068,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verfügt"
+    },
+    "senses": [
+      {
+        "en": "to have at one's disposal, to possess",
+        "note": "verfügen über + Akkusativ",
+        "example_de": "Die Schule verfügt über eine große Bibliothek.",
+        "example_en": "The school has a large library at its disposal."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Hotel verfügt über einen eigenen Garten.",
+        "en": "The hotel has its own garden."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Firma hat nie über genug Geld verfügt.",
+        "en": "The company never had enough money at its disposal."
+      }
+    ]
+  },
+  {
+    "lemma": "einschätzen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3085,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein"
+    },
+    "senses": [
+      {
+        "en": "to assess, to estimate, to judge",
+        "example_de": "Es ist schwer, die Lage richtig einzuschätzen.",
+        "example_en": "It is hard to assess the situation correctly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schätzt die Gefahr völlig richtig ein.",
+        "en": "He assesses the danger completely correctly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Risiko falsch eingeschätzt.",
+        "en": "We misjudged the risk."
+      }
+    ]
+  },
+  {
+    "lemma": "umsetzen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3102,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "um"
+    },
+    "senses": [
+      {
+        "en": "to implement, to put into practice",
+        "example_de": "Wir setzen den neuen Plan nächstes Jahr um.",
+        "example_en": "We are implementing the new plan next year."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Schule setzt das neue Konzept um.",
+        "en": "The school is implementing the new concept."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben die Idee schnell umgesetzt.",
+        "en": "They put the idea into practice quickly."
+      }
+    ]
+  },
+  {
+    "lemma": "beitragen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3119,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "bei",
+      "du": "trägst",
+      "er": "trägt",
+      "praeteritum": "trug",
+      "partizip2": "beigetragen"
+    },
+    "senses": [
+      {
+        "en": "to contribute (to)",
+        "note": "beitragen zu + Dativ",
+        "example_de": "Jeder kann etwas zum Umweltschutz beitragen.",
+        "example_en": "Everyone can contribute something to environmental protection."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie trägt viel zum Erfolg des Teams bei.",
+        "en": "She contributes a lot to the team's success."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sein Rat trug viel zur Lösung bei.",
+        "en": "His advice contributed a lot to the solution."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Alle haben zu dem schönen Fest beigetragen.",
+        "en": "Everyone contributed to the lovely celebration."
+      }
+    ]
+  },
+  {
+    "lemma": "bewältigen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3136,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "bewältigt"
+    },
+    "senses": [
+      {
+        "en": "to cope with, to manage, to overcome",
+        "example_de": "Sie bewältigt den Stress im Beruf mit Sport.",
+        "example_en": "She copes with the stress at work through sport."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er bewältigt die viele Arbeit ganz allein.",
+        "en": "He manages all the work completely on his own."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Familie hat die schwere Zeit gut bewältigt.",
+        "en": "The family coped well with the difficult time."
+      }
+    ]
+  },
+  {
+    "lemma": "beabsichtigen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3153,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beabsichtigt"
+    },
+    "senses": [
+      {
+        "en": "to intend, to plan",
+        "example_de": "Die Regierung beabsichtigt neue Regeln für den Verkehr.",
+        "example_en": "The government intends new rules for traffic."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Firma beabsichtigt einen Umzug nach Berlin.",
+        "en": "The company intends to move to Berlin."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das habe ich wirklich nicht beabsichtigt.",
+        "en": "I really did not intend that."
+      }
+    ]
+  },
+  {
+    "lemma": "wahrnehmen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3170,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "wahr",
+      "du": "nimmst",
+      "er": "nimmt",
+      "praeteritum": "nahm",
+      "partizip2": "wahrgenommen"
+    },
+    "senses": [
+      {
+        "en": "to perceive, to notice",
+        "example_de": "Ich nehme den Lärm der Straße kaum noch wahr.",
+        "example_en": "I hardly notice the noise of the street anymore."
+      },
+      {
+        "en": "to make use of (an appointment, an opportunity)"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er nimmt die Veränderung gar nicht wahr.",
+        "en": "He does not notice the change at all."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat den Termin leider nicht wahrgenommen.",
+        "en": "Unfortunately she did not keep the appointment."
+      }
+    ]
+  },
+  {
+    "lemma": "verhalten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3187,
+    "verb": {
+      "aux": "haben",
+      "du": "verhältst",
+      "er": "verhält",
+      "praeteritum": "verhielt",
+      "partizip2": "verhalten"
+    },
+    "senses": [
+      {
+        "en": "to behave, to act",
+        "note": "reflexiv: sich verhalten",
+        "example_de": "Er verhält sich heute sehr ruhig.",
+        "example_en": "He is behaving very calmly today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Hund verhält sich seltsam.",
+        "en": "The dog is behaving strangely."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie verhielt sich während des Streits ganz ruhig.",
+        "en": "She remained completely calm during the argument."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Du hast dich sehr höflich verhalten.",
+        "en": "You behaved very politely."
+      }
+    ]
+  },
+  {
+    "lemma": "vorgehen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3204,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "vor",
+      "praeteritum": "ging",
+      "partizip2": "vorgegangen"
+    },
+    "senses": [
+      {
+        "en": "to proceed, to go about (something)",
+        "example_de": "Wie gehen wir bei diesem Projekt am besten vor?",
+        "example_en": "How do we best proceed with this project?"
+      },
+      {
+        "en": "to take action (against)",
+        "note": "vorgehen gegen + Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Polizei geht gegen den Lärm vor.",
+        "en": "The police are taking action against the noise."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Team ist sehr vorsichtig vorgegangen.",
+        "en": "The team proceeded very carefully."
+      }
+    ]
+  },
+  {
+    "lemma": "erfolgen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3221,
+    "verb": {
+      "aux": "sein",
+      "partizip2": "erfolgt"
+    },
+    "senses": [
+      {
+        "en": "to take place, to be carried out (formal)",
+        "example_de": "Die Anmeldung erfolgt über das Internet.",
+        "example_en": "Registration takes place via the internet."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Lieferung erfolgt innerhalb einer Woche.",
+        "en": "Delivery takes place within one week."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Zahlung ist gestern erfolgt.",
+        "en": "The payment was made yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "nutzen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3238,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to use, to make use of",
+        "example_de": "Ich nutze das kostenlose Angebot der Bibliothek.",
+        "example_en": "I make use of the library's free offer."
+      },
+      {
+        "en": "to be of use (to)",
+        "note": "+ Dativ: Das nutzt mir nichts."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie nutzt jede freie Minute zum Lesen.",
+        "en": "She uses every free minute for reading."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Chance leider nicht genutzt.",
+        "en": "Unfortunately we did not use the opportunity."
+      }
+    ]
+  },
+  {
+    "lemma": "abhängen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3255,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab",
+      "praeteritum": "hing",
+      "partizip2": "abgehangen"
+    },
+    "senses": [
+      {
+        "en": "to depend (on)",
+        "note": "abhängen von + Dativ",
+        "example_de": "Das Ergebnis hängt vom Wetter ab.",
+        "example_en": "The result depends on the weather."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Preis hängt von der Größe ab.",
+        "en": "The price depends on the size."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Früher hing hier alles vom Wetter ab.",
+        "en": "In the past, everything here depended on the weather."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Erfolg hat von vielen Faktoren abgehangen.",
+        "en": "Success depended on many factors."
+      }
+    ]
+  },
+  {
+    "lemma": "feststellen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3272,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "fest"
+    },
+    "senses": [
+      {
+        "en": "to notice, to determine, to establish",
+        "example_de": "Der Arzt stellt zum Glück keine Krankheit fest.",
+        "example_en": "Fortunately, the doctor finds no illness."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich stelle fest, dass die Tür offen ist.",
+        "en": "I notice that the door is open."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben einen kleinen Fehler festgestellt.",
+        "en": "We have found a small error."
+      }
+    ]
+  },
+  {
+    "lemma": "betrachten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3289,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "betrachtet"
+    },
+    "senses": [
+      {
+        "en": "to look at, to observe",
+        "example_de": "Sie betrachtet lange die alten Fotos.",
+        "example_en": "She looks at the old photos for a long time."
+      },
+      {
+        "en": "to regard as, to consider",
+        "note": "betrachten als + Akkusativ"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er betrachtet das Problem von allen Seiten.",
+        "en": "He looks at the problem from all sides."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe ihn immer als Freund betrachtet.",
+        "en": "I have always regarded him as a friend."
+      }
+    ]
+  },
+  {
+    "lemma": "erfordern",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3306,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erfordert"
+    },
+    "senses": [
+      {
+        "en": "to require, to demand",
+        "example_de": "Diese Aufgabe erfordert viel Geduld.",
+        "example_en": "This task requires a lot of patience."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Beruf erfordert gute Nerven.",
+        "en": "The profession requires good nerves."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Projekt hat viel Zeit erfordert.",
+        "en": "The project required a lot of time."
+      }
+    ]
+  },
+  {
+    "lemma": "erzielen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3323,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erzielt"
+    },
+    "senses": [
+      {
+        "en": "to achieve, to obtain (a result, a goal)",
+        "example_de": "Die Schüler erzielen dieses Jahr sehr gute Ergebnisse.",
+        "example_en": "The students are achieving very good results this year."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Mannschaft erzielt kurz vor Schluss ein Tor.",
+        "en": "The team scores a goal shortly before the end."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Firma hat einen hohen Gewinn erzielt.",
+        "en": "The company achieved a high profit."
+      }
+    ]
+  },
+  {
+    "lemma": "Auswirkung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3340,
+    "noun": {
+      "gender": "f",
+      "plural": "Auswirkungen"
+    },
+    "senses": [
+      {
+        "en": "effect, impact, consequence",
+        "note": "Auswirkung auf + Akkusativ",
+        "example_de": "Die Krise hat eine direkte Auswirkung auf viele Familien.",
+        "example_en": "The crisis has a direct impact on many families."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Auswirkungen des Sturms waren schlimm.",
+        "en": "The effects of the storm were bad."
+      }
+    ]
+  },
+  {
+    "lemma": "Maßnahme",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3357,
+    "noun": {
+      "gender": "f",
+      "plural": "Maßnahmen"
+    },
+    "senses": [
+      {
+        "en": "measure, action (taken)",
+        "example_de": "Diese Maßnahme soll den Verkehr sicherer machen.",
+        "example_en": "This measure is meant to make traffic safer."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die neuen Maßnahmen gelten ab Montag.",
+        "en": "The new measures apply from Monday."
+      }
+    ]
+  },
+  {
+    "lemma": "Einschätzung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3374,
+    "noun": {
+      "gender": "f",
+      "plural": "Einschätzungen"
+    },
+    "senses": [
+      {
+        "en": "assessment, estimation",
+        "example_de": "Nach meiner Einschätzung wird das Projekt teuer.",
+        "example_en": "In my assessment, the project will be expensive."
+      }
+    ]
+  },
+  {
+    "lemma": "Umsetzung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3391,
+    "noun": {
+      "gender": "f",
+      "plural": "Umsetzungen"
+    },
+    "senses": [
+      {
+        "en": "implementation, realization",
+        "example_de": "Die Umsetzung der Idee dauert mehrere Monate.",
+        "example_en": "The implementation of the idea takes several months."
+      }
+    ]
+  },
+  {
+    "lemma": "Anpassung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3408,
+    "noun": {
+      "gender": "f",
+      "plural": "Anpassungen"
+    },
+    "senses": [
+      {
+        "en": "adaptation, adjustment",
+        "note": "Anpassung an + Akkusativ",
+        "example_de": "Die Anpassung an das neue System braucht Zeit.",
+        "example_en": "Adapting to the new system takes time."
+      }
+    ]
+  },
+  {
+    "lemma": "Aspekt",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3425,
+    "noun": {
+      "gender": "m",
+      "plural": "Aspekte"
+    },
+    "senses": [
+      {
+        "en": "aspect",
+        "example_de": "Wir haben einen wichtigen Aspekt vergessen.",
+        "example_en": "We forgot an important aspect."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Heute besprechen wir mehrere Aspekte des Themas.",
+        "en": "Today we are discussing several aspects of the topic."
+      }
+    ]
+  },
+  {
+    "lemma": "Faktor",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3442,
+    "noun": {
+      "gender": "m",
+      "plural": "Faktoren"
+    },
+    "senses": [
+      {
+        "en": "factor",
+        "example_de": "Zeit ist ein wichtiger Faktor bei der Planung.",
+        "example_en": "Time is an important factor in planning."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Viele Faktoren spielen dabei eine Rolle.",
+        "en": "Many factors play a role in this."
+      }
+    ]
+  },
+  {
+    "lemma": "Ansatz",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3459,
+    "noun": {
+      "gender": "m",
+      "plural": "Ansätze"
+    },
+    "senses": [
+      {
+        "en": "approach (to a problem)",
+        "example_de": "Der neue Ansatz löst das Problem viel besser.",
+        "example_en": "The new approach solves the problem much better."
+      }
+    ]
+  },
+  {
+    "lemma": "Bedürfnis",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3476,
+    "noun": {
+      "gender": "n",
+      "plural": "Bedürfnisse",
+      "genitive": "Bedürfnisses"
+    },
+    "senses": [
+      {
+        "en": "need, desire",
+        "note": "Bedürfnis nach + Dativ",
+        "example_de": "Kinder haben ein starkes Bedürfnis nach Nähe.",
+        "example_en": "Children have a strong need for closeness."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Bedürfnisse der Kunden sind sehr verschieden.",
+        "en": "The customers' needs are very different."
+      }
+    ]
+  },
+  {
+    "lemma": "Anforderung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3493,
+    "noun": {
+      "gender": "f",
+      "plural": "Anforderungen"
+    },
+    "senses": [
+      {
+        "en": "requirement, demand",
+        "example_de": "Diese Anforderung kann kaum jemand erfüllen.",
+        "example_en": "Hardly anyone can meet this requirement."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Anforderungen in diesem Beruf sind hoch.",
+        "en": "The demands in this profession are high."
+      }
+    ]
+  },
+  {
+    "lemma": "Wahrnehmung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3510,
+    "noun": {
+      "gender": "f",
+      "plural": "Wahrnehmungen"
+    },
+    "senses": [
+      {
+        "en": "perception",
+        "example_de": "Jeder Mensch hat eine andere Wahrnehmung der Welt.",
+        "example_en": "Every person has a different perception of the world."
+      }
+    ]
+  },
+  {
+    "lemma": "Vorgehen",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3527,
+    "noun": {
+      "gender": "n",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "approach, course of action",
+        "example_de": "Viele Bürger kritisieren das Vorgehen der Regierung.",
+        "example_en": "Many citizens criticize the government's course of action."
+      }
+    ]
+  },
+  {
+    "lemma": "Ergebnis",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3544,
+    "noun": {
+      "gender": "n",
+      "plural": "Ergebnisse",
+      "genitive": "Ergebnisses"
+    },
+    "senses": [
+      {
+        "en": "result, outcome",
+        "example_de": "Das Ergebnis der Prüfung kommt morgen.",
+        "example_en": "The result of the exam comes tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Ergebnisse der Studie überraschen alle.",
+        "en": "The results of the study surprise everyone."
+      }
+    ]
+  },
+  {
+    "lemma": "Folge",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3561,
+    "noun": {
+      "gender": "f",
+      "plural": "Folgen"
+    },
+    "senses": [
+      {
+        "en": "consequence, result",
+        "example_de": "Die Folge des Sturms war ein langer Stromausfall.",
+        "example_en": "The consequence of the storm was a long power outage."
+      },
+      {
+        "en": "episode (of a series)"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Folgen des Klimawandels sind überall sichtbar.",
+        "en": "The consequences of climate change are visible everywhere."
+      }
+    ]
+  },
+  {
+    "lemma": "Aufwand",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3578,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "effort, expense, expenditure",
+        "example_de": "Der Aufwand für das Fest war riesig.",
+        "example_en": "The effort for the celebration was enormous."
+      }
+    ]
+  },
+  {
+    "lemma": "Nutzen",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3595,
+    "noun": {
+      "gender": "m",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "benefit, use",
+        "example_de": "Der Nutzen der neuen App ist wirklich groß.",
+        "example_en": "The benefit of the new app is really big."
+      }
+    ]
+  },
+  {
+    "lemma": "Abhängigkeit",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3612,
+    "noun": {
+      "gender": "f",
+      "plural": "Abhängigkeiten"
+    },
+    "senses": [
+      {
+        "en": "dependence, dependency; addiction",
+        "note": "Abhängigkeit von + Dativ",
+        "example_de": "Die Abhängigkeit vom Handy nimmt bei Jugendlichen zu.",
+        "example_en": "Dependence on the phone is increasing among young people."
+      }
+    ]
+  },
+  {
+    "lemma": "Einfluss",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3629,
+    "noun": {
+      "gender": "m",
+      "plural": "Einflüsse"
+    },
+    "senses": [
+      {
+        "en": "influence",
+        "note": "Einfluss auf + Akkusativ",
+        "example_de": "Eltern haben großen Einfluss auf ihre Kinder.",
+        "example_en": "Parents have a big influence on their children."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Es gibt viele Einflüsse auf unsere Gesundheit.",
+        "en": "There are many influences on our health."
+      }
+    ]
+  },
+  {
+    "lemma": "Bedingung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3646,
+    "noun": {
+      "gender": "f",
+      "plural": "Bedingungen"
+    },
+    "senses": [
+      {
+        "en": "condition, requirement",
+        "example_de": "Gutes Wetter ist eine Bedingung für das Fest.",
+        "example_en": "Good weather is a condition for the celebration."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Arbeiter fordern bessere Bedingungen.",
+        "en": "The workers are demanding better conditions."
+      }
+    ]
+  },
+  {
+    "lemma": "Merkmal",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3663,
+    "noun": {
+      "gender": "n",
+      "plural": "Merkmale"
+    },
+    "senses": [
+      {
+        "en": "characteristic, feature",
+        "example_de": "Ein wichtiges Merkmal dieser Sprache ist der Artikel.",
+        "example_en": "An important feature of this language is the article."
+      }
+    ]
+  },
+  {
+    "lemma": "Kriterium",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3680,
+    "noun": {
+      "gender": "n",
+      "plural": "Kriterien"
+    },
+    "senses": [
+      {
+        "en": "criterion",
+        "example_de": "Der Preis ist nur ein Kriterium von vielen.",
+        "example_en": "The price is only one criterion among many."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Kriterien für die Auswahl sind streng.",
+        "en": "The criteria for the selection are strict."
+      }
+    ]
+  },
+  {
+    "lemma": "Perspektive",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3697,
+    "noun": {
+      "gender": "f",
+      "plural": "Perspektiven"
+    },
+    "senses": [
+      {
+        "en": "perspective, point of view",
+        "example_de": "Aus meiner Perspektive war die Entscheidung richtig.",
+        "example_en": "From my perspective, the decision was right."
+      },
+      {
+        "en": "prospect (for the future)"
+      }
+    ]
+  },
+  {
+    "lemma": "zunehmend",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3714,
+    "senses": [
+      {
+        "en": "increasing, growing",
+        "example_de": "Die zunehmende Hitze wird ein großes Problem.",
+        "example_en": "The increasing heat is becoming a big problem."
+      }
+    ]
+  },
+  {
+    "lemma": "entscheidend",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3731,
+    "senses": [
+      {
+        "en": "decisive, crucial",
+        "example_de": "Der letzte Punkt war entscheidend für den Sieg.",
+        "example_en": "The last point was decisive for the victory."
+      }
+    ]
+  },
+  {
+    "lemma": "umstritten",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3748,
+    "senses": [
+      {
+        "en": "controversial, disputed",
+        "example_de": "Der neue Plan ist politisch sehr umstritten.",
+        "example_en": "The new plan is politically very controversial."
+      }
+    ]
+  },
+  {
+    "lemma": "eindeutig",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3765,
+    "senses": [
+      {
+        "en": "clear, unambiguous",
+        "example_de": "Die Antwort war eindeutig: Nein.",
+        "example_en": "The answer was clear: no."
+      }
+    ]
+  },
+  {
+    "lemma": "offensichtlich",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3782,
+    "senses": [
+      {
+        "en": "obvious, evident",
+        "example_de": "Es ist offensichtlich, dass er müde ist.",
+        "example_en": "It is obvious that he is tired."
+      }
+    ]
+  },
+  {
+    "lemma": "gering",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3799,
+    "senses": [
+      {
+        "en": "small, low, slight",
+        "example_de": "Die Chancen auf Erfolg sind leider gering.",
+        "example_en": "Unfortunately, the chances of success are small."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Der Aufwand ist geringer als gedacht.",
+        "en": "The effort is smaller than expected."
+      }
+    ]
+  },
+  {
+    "lemma": "aufwendig",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3816,
+    "senses": [
+      {
+        "en": "elaborate, costly, time-consuming",
+        "example_de": "Die Feier war sehr aufwendig geplant.",
+        "example_en": "The celebration was planned very elaborately."
+      }
+    ]
+  },
+  {
+    "lemma": "zahlreich",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3833,
+    "senses": [
+      {
+        "en": "numerous",
+        "example_de": "Zahlreiche Gäste kamen zur Eröffnung des Museums.",
+        "example_en": "Numerous guests came to the opening of the museum."
+      }
+    ]
+  },
+  {
+    "lemma": "grundsätzlich",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3850,
+    "senses": [
+      {
+        "en": "fundamental; in principle",
+        "example_de": "Ich bin grundsätzlich gegen Gewalt.",
+        "example_en": "I am fundamentally against violence."
+      }
+    ]
+  },
+  {
+    "lemma": "weitgehend",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3867,
+    "adj": {
+      "comparative": "weitergehend",
+      "superlative": "weitestgehend"
+    },
+    "senses": [
+      {
+        "en": "extensive; largely, to a large extent",
+        "example_de": "Die Arbeiten am Haus sind weitgehend fertig.",
+        "example_en": "The work on the house is largely finished."
+      }
+    ]
+  }
+]

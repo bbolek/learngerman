@@ -130,19 +130,6 @@
     ]
   },
   {
-    "lemma": "eindeutig",
-    "pos": "adj",
-    "level": "B1",
-    "freq": 2400,
-    "senses": [
-      {
-        "en": "clear, unambiguous",
-        "example_de": "Die Antwort war eindeutig: Nein.",
-        "example_en": "The answer was unambiguous: no."
-      }
-    ]
-  },
-  {
     "lemma": "zugeben",
     "pos": "verb",
     "level": "B1",
@@ -646,41 +633,6 @@
         "tag": "perfekt",
         "de": "Niemand hat seine Zahlen angezweifelt.",
         "en": "Nobody questioned his figures."
-      }
-    ]
-  },
-  {
-    "lemma": "feststellen",
-    "pos": "verb",
-    "level": "B2",
-    "freq": 3380,
-    "verb": {
-      "aux": "haben",
-      "separablePrefix": "fest"
-    },
-    "senses": [
-      {
-        "en": "to establish, to notice, to state",
-        "note": "trennbar: fest-",
-        "example_de": "Ich stelle fest, dass wir noch keine Lösung haben.",
-        "example_en": "I note that we do not have a solution yet."
-      }
-    ],
-    "examples": [
-      {
-        "tag": "präsens",
-        "de": "Der Arzt stellt keine Krankheit fest.",
-        "en": "The doctor finds no illness."
-      },
-      {
-        "tag": "präteritum",
-        "de": "Sie stellte einen Fehler im Text fest.",
-        "en": "She noticed a mistake in the text."
-      },
-      {
-        "tag": "perfekt",
-        "de": "Wir haben große Unterschiede festgestellt.",
-        "en": "We have found big differences."
       }
     ]
   },
@@ -1229,37 +1181,6 @@
         "en": "objective, impartial",
         "example_de": "Ein Richter muss objektiv bleiben.",
         "example_en": "A judge must remain objective."
-      }
-    ]
-  },
-  {
-    "lemma": "umstritten",
-    "pos": "adj",
-    "level": "B2",
-    "freq": 3860,
-    "senses": [
-      {
-        "en": "controversial, disputed",
-        "example_de": "Das neue Gesetz ist sehr umstritten.",
-        "example_en": "The new law is very controversial."
-      }
-    ]
-  },
-  {
-    "lemma": "offensichtlich",
-    "pos": "adj",
-    "level": "B2",
-    "freq": 3880,
-    "senses": [
-      {
-        "en": "obvious, evident",
-        "example_de": "Der Fehler ist offensichtlich.",
-        "example_en": "The mistake is obvious."
-      },
-      {
-        "en": "obviously, apparently (as adverb)",
-        "example_de": "Er hat offensichtlich keine Lust auf die Diskussion.",
-        "example_en": "He obviously has no desire for the discussion."
       }
     ]
   },

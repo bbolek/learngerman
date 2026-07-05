@@ -351,41 +351,6 @@
     ]
   },
   {
-    "lemma": "widerlegen",
-    "pos": "verb",
-    "level": "C1",
-    "freq": 4270,
-    "verb": {
-      "aux": "haben",
-      "partizip2": "widerlegt"
-    },
-    "senses": [
-      {
-        "en": "to refute, to disprove",
-        "note": "formell",
-        "example_de": "Die neue Studie widerlegt die alte Theorie.",
-        "example_en": "The new study refutes the old theory."
-      }
-    ],
-    "examples": [
-      {
-        "tag": "präsens",
-        "de": "Er widerlegt das Argument mit einem Beispiel.",
-        "en": "He refutes the argument with an example."
-      },
-      {
-        "tag": "präteritum",
-        "de": "Sie widerlegte diese Meinung schnell.",
-        "en": "She quickly refuted this opinion."
-      },
-      {
-        "tag": "perfekt",
-        "de": "Die These wurde noch nicht widerlegt.",
-        "en": "The thesis has not yet been refuted."
-      }
-    ]
-  },
-  {
     "lemma": "untermauern",
     "pos": "verb",
     "level": "C1",
@@ -623,41 +588,6 @@
         "tag": "perfekt",
         "de": "Das Amt hat auf das Formular verwiesen.",
         "en": "The office referred to the form."
-      }
-    ]
-  },
-  {
-    "lemma": "verfassen",
-    "pos": "verb",
-    "level": "C1",
-    "freq": 4390,
-    "verb": {
-      "aux": "haben",
-      "partizip2": "verfasst"
-    },
-    "senses": [
-      {
-        "en": "to write, to compose (a text)",
-        "note": "formell, schriftlich",
-        "example_de": "Sie verfasst gerade einen langen Bericht.",
-        "example_en": "She is currently writing a long report."
-      }
-    ],
-    "examples": [
-      {
-        "tag": "präsens",
-        "de": "Er verfasst jede Woche einen Artikel.",
-        "en": "He writes an article every week."
-      },
-      {
-        "tag": "präteritum",
-        "de": "Sie verfasste den Brief in einer Stunde.",
-        "en": "She composed the letter in an hour."
-      },
-      {
-        "tag": "perfekt",
-        "de": "Wer hat diesen Text verfasst?",
-        "en": "Who wrote this text?"
       }
     ]
   },
@@ -1023,31 +953,6 @@
         "tag": "plural",
         "de": "Unter diesen Umständen bleiben wir zu Hause.",
         "en": "Under these circumstances we are staying at home."
-      }
-    ]
-  },
-  {
-    "lemma": "These",
-    "pos": "noun",
-    "level": "C1",
-    "freq": 4630,
-    "noun": {
-      "gender": "f",
-      "plural": "Thesen"
-    },
-    "senses": [
-      {
-        "en": "thesis, proposition",
-        "note": "eine These aufstellen = to put forward a thesis",
-        "example_de": "Seine These ist einfach: Lesen macht klug.",
-        "example_en": "His thesis is simple: reading makes you smart."
-      }
-    ],
-    "examples": [
-      {
-        "tag": "plural",
-        "de": "Die Thesen des Buches sind sehr mutig.",
-        "en": "The book's propositions are very bold."
       }
     ]
   },

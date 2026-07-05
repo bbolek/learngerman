@@ -462,30 +462,6 @@
     ]
   },
   {
-    "lemma": "Terrasse",
-    "pos": "noun",
-    "level": "A2",
-    "freq": 1510,
-    "noun": {
-      "gender": "f",
-      "plural": "Terrassen"
-    },
-    "senses": [
-      {
-        "en": "terrace, patio",
-        "example_de": "Wir essen draußen auf der Terrasse.",
-        "example_en": "We are eating outside on the terrace."
-      }
-    ],
-    "examples": [
-      {
-        "tag": "plural",
-        "de": "Im Sommer sind die Terrassen immer voll.",
-        "en": "In summer the terraces are always full."
-      }
-    ]
-  },
-  {
     "lemma": "Biergarten",
     "pos": "noun",
     "level": "A2",

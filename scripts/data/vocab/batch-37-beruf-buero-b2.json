@@ -83,30 +83,6 @@
     ]
   },
   {
-    "lemma": "Gewinn",
-    "pos": "noun",
-    "level": "B1",
-    "freq": 2100,
-    "noun": {
-      "gender": "m",
-      "plural": "Gewinne"
-    },
-    "senses": [
-      {
-        "en": "profit, gain",
-        "example_de": "Die Firma machte letztes Jahr einen guten Gewinn.",
-        "example_en": "The company made a good profit last year."
-      }
-    ],
-    "examples": [
-      {
-        "tag": "plural",
-        "de": "Die Gewinne der Firma steigen jedes Jahr.",
-        "en": "The company's profits rise every year."
-      }
-    ]
-  },
-  {
     "lemma": "Position",
     "pos": "noun",
     "level": "B1",
@@ -253,24 +229,6 @@
         "tag": "plural",
         "de": "Im Sommer sind die Umsätze meistens niedriger.",
         "en": "In summer, sales are usually lower."
-      }
-    ]
-  },
-  {
-    "lemma": "Budget",
-    "pos": "noun",
-    "level": "B2",
-    "freq": 3020,
-    "noun": {
-      "gender": "n",
-      "plural": "Budgets"
-    },
-    "senses": [
-      {
-        "en": "budget",
-        "example_de": "Das Budget für das Projekt ist fast verbraucht.",
-        "example_en": "The budget for the project is almost used up.",
-        "note": "Aussprache: [byˈdʒeː]"
       }
     ]
   },

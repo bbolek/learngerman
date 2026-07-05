@@ -78,10 +78,28 @@ Rules:
   network; the build fails loudly if the file is missing.
 - Only map words whose meaning the picture shows **unambiguously** (concrete
   nouns, mostly A1/A2). When two candidates compete for one emoji, the more
-  concrete/common word wins; abstract words stay imageless on purpose.
+  concrete/common word wins; abstract words stay imageless on purpose. Never
+  map two lemmas to the same emoji/icon — the Bilderrätsel game would show
+  one picture with two valid answers.
 - The SVG text ships inside the DB (`lemma_images` content table) and is
   covered by the content hash, so image changes reach installed apps via the
   normal in-place content update.
+
+Besides Noto emoji, entries can reference other vendored icon sets via
+`icon` + `source` instead of `emoji`:
+
+```jsonc
+[{ "lemma": "Stethoskop", "pos": "noun",
+   "icon": "filled/devices/stethoscope", "source": "healthicons" }]
+```
+
+- `source` names a vendor dir under `scripts/data/images/<source>/`; the icon
+  path resolves to `<source>/<icon>.svg`. Known sources: `noto` (emoji,
+  OFL/Apache-2.0), `healthicons` ([healthicons.org](https://healthicons.org),
+  MIT — medical/hospital objects that have no emoji).
+- Monochrome sets must draw with `fill="currentColor"` — the app tints them
+  at render time with the tile's gender foreground so dark mode works.
+  Health Icons "filled" variants already do this.
 For pronouns list case forms in `note` (`"mich (Akk.) · mir (Dat.)"`).
 
 ### Form examples (`examples`, optional)

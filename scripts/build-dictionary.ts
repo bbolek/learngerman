@@ -121,8 +121,16 @@ function loadVocab(): VocabEntry[] {
 interface ImageEntry {
   lemma: string;
   pos: string;
-  emoji: string;
+  /** Noto emoji shorthand — resolved to a vendored emoji_uXXXX.svg. */
+  emoji?: string;
+  /** Icon path within the source's vendor dir, e.g. "filled/devices/stethoscope". */
+  icon?: string;
+  /** Vendor dir under scripts/data/images/; defaults to 'noto' for emoji entries. */
+  source?: string;
 }
+
+/** Known vendored icon sets (all permissively licensed, shipped inside the DB). */
+const IMAGE_SOURCES = new Set(['noto', 'healthicons']);
 
 /** Noto emoji asset name: codepoints joined by _, variation selectors dropped. */
 function notoFileName(emoji: string): string {
@@ -138,30 +146,41 @@ function notoFileName(emoji: string): string {
  * be vendored under scripts/data/images/noto/ (see AUTHORING.md). The SVG text
  * ships inside the DB (lemma_images) so the app renders it offline via SvgXml.
  */
-function loadImages(vocab: VocabEntry[]): (ImageEntry & { svg: string })[] {
+function loadImages(vocab: VocabEntry[]): (ImageEntry & { svg: string; source: string })[] {
   if (!fs.existsSync(IMAGES_FILE)) return [];
   const entries = JSON.parse(fs.readFileSync(IMAGES_FILE, 'utf8')) as ImageEntry[];
   const known = new Set(vocab.map((e) => `${e.lemma}|${e.pos}`));
   const seen = new Set<string>();
   const errors: string[] = [];
-  const out: (ImageEntry & { svg: string })[] = [];
+  const out: (ImageEntry & { svg: string; source: string })[] = [];
 
   for (const img of entries) {
     const where = `images.json ${img?.lemma ?? '?'}`;
-    if (!img.lemma || !img.pos || !img.emoji) {
-      errors.push(`${where}: needs lemma/pos/emoji`);
+    if (!img.lemma || !img.pos || (!img.emoji && !img.icon)) {
+      errors.push(`${where}: needs lemma/pos and emoji or icon`);
+      continue;
+    }
+    if (img.emoji && img.icon) {
+      errors.push(`${where}: give either emoji or icon, not both`);
+      continue;
+    }
+    const source = img.source ?? (img.emoji ? 'noto' : undefined);
+    if (!source || !IMAGE_SOURCES.has(source)) {
+      errors.push(`${where}: unknown image source '${img.source}'`);
       continue;
     }
     const key = `${img.lemma}|${img.pos}`;
     if (seen.has(key)) errors.push(`${where}: duplicate mapping`);
     seen.add(key);
     if (!known.has(key)) errors.push(`${where}: no vocab entry for ${key}`);
-    const file = path.join(NOTO_DIR, notoFileName(img.emoji));
+    const file = img.emoji
+      ? path.join(NOTO_DIR, notoFileName(img.emoji))
+      : path.join(ROOT, 'scripts/data/images', source, `${img.icon}.svg`);
     if (!fs.existsSync(file)) {
-      errors.push(`${where}: missing vendored SVG ${notoFileName(img.emoji)}`);
+      errors.push(`${where}: missing vendored SVG ${path.relative(ROOT, file)}`);
       continue;
     }
-    out.push({ ...img, svg: fs.readFileSync(file, 'utf8').trim() });
+    out.push({ ...img, source, svg: fs.readFileSync(file, 'utf8').trim() });
   }
 
   if (errors.length) {
@@ -477,7 +496,7 @@ function build() {
     }
 
     for (const img of images) {
-      insImage.run(lemmaIds.get(`${img.lemma}|${img.pos}`)!, img.svg, 'noto');
+      insImage.run(lemmaIds.get(`${img.lemma}|${img.pos}`)!, img.svg, img.source);
     }
 
     grammar.forEach((t, ti) => {

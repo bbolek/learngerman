@@ -1,0 +1,900 @@
+[
+  {
+    "lemma": "Naturwissenschaft",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3100,
+    "noun": { "gender": "f", "plural": "Naturwissenschaften" },
+    "senses": [
+      {
+        "en": "natural science",
+        "example_de": "Physik ist eine wichtige Naturwissenschaft.",
+        "example_en": "Physics is an important natural science."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Chemie und Biologie sind Naturwissenschaften.", "en": "Chemistry and biology are natural sciences." }
+    ]
+  },
+  {
+    "lemma": "Chemie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "chemistry",
+        "example_de": "In der Schule mag ich Chemie sehr.",
+        "example_en": "At school I really like chemistry."
+      }
+    ]
+  },
+  {
+    "lemma": "chemisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2230,
+    "senses": [
+      {
+        "en": "chemical",
+        "example_de": "Das ist eine chemische Reaktion.",
+        "example_en": "That is a chemical reaction."
+      }
+    ]
+  },
+  {
+    "lemma": "Biologie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "biology",
+        "example_de": "In Biologie lernen wir über Pflanzen und Tiere.",
+        "example_en": "In biology we learn about plants and animals."
+      }
+    ]
+  },
+  {
+    "lemma": "Physik",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "physics",
+        "example_de": "Die Physik erklärt, wie sich Dinge bewegen.",
+        "example_en": "Physics explains how things move."
+      }
+    ]
+  },
+  {
+    "lemma": "physikalisch",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3560,
+    "senses": [
+      {
+        "en": "physical (relating to physics)",
+        "example_de": "Das ist ein physikalisches Gesetz.",
+        "example_en": "That is a physical law.",
+        "note": "physics sense, not 'physisch' = bodily"
+      }
+    ]
+  },
+  {
+    "lemma": "Theorie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2470,
+    "noun": { "gender": "f", "plural": "Theorien" },
+    "senses": [
+      {
+        "en": "theory",
+        "example_de": "Diese Theorie ist noch nicht bewiesen.",
+        "example_en": "This theory is not yet proven."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Es gibt viele Theorien über das Weltall.", "en": "There are many theories about the universe." }
+    ]
+  },
+  {
+    "lemma": "Hypothese",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3700,
+    "noun": { "gender": "f", "plural": "Hypothesen" },
+    "senses": [
+      {
+        "en": "hypothesis",
+        "example_de": "Der Versuch soll die Hypothese prüfen.",
+        "example_en": "The experiment is meant to test the hypothesis."
+      }
+    ]
+  },
+  {
+    "lemma": "Experiment",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": { "gender": "n", "plural": "Experimente" },
+    "senses": [
+      {
+        "en": "experiment",
+        "example_de": "Das Experiment war ein voller Erfolg.",
+        "example_en": "The experiment was a full success."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Schüler machen einfache Experimente.", "en": "The pupils do simple experiments." }
+    ]
+  },
+  {
+    "lemma": "experimentieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3200,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to experiment",
+        "example_de": "Wir experimentieren mit Wasser und Salz.",
+        "example_en": "We experiment with water and salt."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Forscher experimentiert im Labor.", "en": "The researcher experiments in the lab." },
+      { "tag": "präteritum", "de": "Sie experimentierte mit neuen Stoffen.", "en": "She experimented with new substances." },
+      { "tag": "perfekt", "de": "Wir haben lange experimentiert.", "en": "We experimented for a long time." }
+    ]
+  },
+  {
+    "lemma": "Versuch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "m", "plural": "Versuche" },
+    "senses": [
+      {
+        "en": "experiment, trial, attempt",
+        "example_de": "Der Versuch zeigt, wie Wasser gefriert.",
+        "example_en": "The experiment shows how water freezes."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Versuche liefen ohne Probleme.", "en": "The experiments ran without problems." }
+    ]
+  },
+  {
+    "lemma": "Beobachtung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3150,
+    "noun": { "gender": "f", "plural": "Beobachtungen" },
+    "senses": [
+      {
+        "en": "observation",
+        "example_de": "Seine Beobachtung war sehr genau.",
+        "example_en": "His observation was very precise."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Forscher schreiben ihre Beobachtungen auf.", "en": "The researchers write down their observations." }
+    ]
+  },
+  {
+    "lemma": "beobachten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1960,
+    "verb": { "aux": "haben", "du": "beobachtest", "er": "beobachtet" },
+    "senses": [
+      {
+        "en": "to observe, to watch",
+        "example_de": "Wir beobachten die Sterne am Himmel.",
+        "example_en": "We observe the stars in the sky."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Biologe beobachtet die Tiere.", "en": "The biologist observes the animals." },
+      { "tag": "präteritum", "de": "Sie beobachtete das Experiment genau.", "en": "She observed the experiment closely." },
+      { "tag": "perfekt", "de": "Ich habe den Vogel lange beobachtet.", "en": "I watched the bird for a long time." }
+    ]
+  },
+  {
+    "lemma": "Messung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3250,
+    "noun": { "gender": "f", "plural": "Messungen" },
+    "senses": [
+      {
+        "en": "measurement",
+        "example_de": "Die Messung zeigt eine hohe Temperatur.",
+        "example_en": "The measurement shows a high temperature."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Messungen dauern mehrere Tage.", "en": "The measurements take several days." }
+    ]
+  },
+  {
+    "lemma": "Element",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": { "gender": "n", "plural": "Elemente" },
+    "senses": [
+      {
+        "en": "element",
+        "example_de": "Sauerstoff ist ein chemisches Element.",
+        "example_en": "Oxygen is a chemical element."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Wasser besteht aus zwei Elementen.", "en": "Water consists of two elements." }
+    ]
+  },
+  {
+    "lemma": "Stoff",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "m", "plural": "Stoffe" },
+    "senses": [
+      {
+        "en": "substance, material",
+        "example_de": "Dieser Stoff löst sich in Wasser auf.",
+        "example_en": "This substance dissolves in water."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Manche Stoffe sind gefährlich.", "en": "Some substances are dangerous." }
+    ]
+  },
+  {
+    "lemma": "Sauerstoff",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "oxygen",
+        "example_de": "Menschen brauchen Sauerstoff zum Leben.",
+        "example_en": "Humans need oxygen to live."
+      }
+    ]
+  },
+  {
+    "lemma": "Wasserstoff",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "hydrogen",
+        "example_de": "Wasser besteht aus Wasserstoff und Sauerstoff.",
+        "example_en": "Water consists of hydrogen and oxygen."
+      }
+    ]
+  },
+  {
+    "lemma": "Säure",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3350,
+    "noun": { "gender": "f", "plural": "Säuren" },
+    "senses": [
+      {
+        "en": "acid",
+        "example_de": "Die Säure ist sehr stark und gefährlich.",
+        "example_en": "The acid is very strong and dangerous."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Manche Säuren greifen Metall an.", "en": "Some acids attack metal." }
+    ]
+  },
+  {
+    "lemma": "Flüssigkeit",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3400,
+    "noun": { "gender": "f", "plural": "Flüssigkeiten" },
+    "senses": [
+      {
+        "en": "liquid, fluid",
+        "example_de": "In dem Glas ist eine blaue Flüssigkeit.",
+        "example_en": "There is a blue liquid in the glass."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Öl und Wasser sind verschiedene Flüssigkeiten.", "en": "Oil and water are different liquids." }
+    ]
+  },
+  {
+    "lemma": "fest",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1920,
+    "senses": [
+      {
+        "en": "solid, firm",
+        "example_de": "Eis ist Wasser in festem Zustand.",
+        "example_en": "Ice is water in a solid state.",
+        "note": "physical state; contrast flüssig / gasförmig"
+      }
+    ]
+  },
+  {
+    "lemma": "flüssig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2280,
+    "senses": [
+      {
+        "en": "liquid",
+        "example_de": "Bei Wärme wird das Metall flüssig.",
+        "example_en": "With heat the metal becomes liquid."
+      }
+    ]
+  },
+  {
+    "lemma": "gasförmig",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3800,
+    "senses": [
+      {
+        "en": "gaseous",
+        "example_de": "Wasserdampf ist Wasser in gasförmigem Zustand.",
+        "example_en": "Water vapour is water in a gaseous state."
+      }
+    ]
+  },
+  {
+    "lemma": "Gas",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2320,
+    "noun": { "gender": "n", "plural": "Gase" },
+    "senses": [
+      {
+        "en": "gas",
+        "example_de": "Das Gas ist leichter als Luft.",
+        "example_en": "The gas is lighter than air."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Manche Gase kann man nicht riechen.", "en": "You cannot smell some gases." }
+    ]
+  },
+  {
+    "lemma": "Reaktion",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": { "gender": "f", "plural": "Reaktionen" },
+    "senses": [
+      {
+        "en": "reaction",
+        "example_de": "Bei der Reaktion entsteht viel Wärme.",
+        "example_en": "The reaction produces a lot of heat."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Chemische Reaktionen laufen unterschiedlich schnell.", "en": "Chemical reactions run at different speeds." }
+    ]
+  },
+  {
+    "lemma": "Mischung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": { "gender": "f", "plural": "Mischungen" },
+    "senses": [
+      {
+        "en": "mixture",
+        "example_de": "Luft ist eine Mischung aus vielen Gasen.",
+        "example_en": "Air is a mixture of many gases."
+      }
+    ]
+  },
+  {
+    "lemma": "Formel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2420,
+    "noun": { "gender": "f", "plural": "Formeln" },
+    "senses": [
+      {
+        "en": "formula",
+        "example_de": "Die Formel für Wasser ist H2O.",
+        "example_en": "The formula for water is H2O."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "In Physik muss man viele Formeln lernen.", "en": "In physics you have to learn many formulas." }
+    ]
+  },
+  {
+    "lemma": "auflösen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2350,
+    "verb": { "aux": "haben", "separablePrefix": "auf" },
+    "senses": [
+      {
+        "en": "to dissolve",
+        "note": "reflexiv: sich auflösen (Zucker löst sich im Wasser auf)",
+        "example_de": "Ich löse den Zucker im Tee auf.",
+        "example_en": "I dissolve the sugar in the tea."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das Salz löst sich langsam auf.", "en": "The salt dissolves slowly." },
+      { "tag": "präteritum", "de": "Die Tablette löste sich im Wasser auf.", "en": "The tablet dissolved in the water." },
+      { "tag": "perfekt", "de": "Der Zucker hat sich ganz aufgelöst.", "en": "The sugar has dissolved completely." }
+    ]
+  },
+  {
+    "lemma": "verdampfen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3450,
+    "verb": { "aux": "sein" },
+    "senses": [
+      {
+        "en": "to evaporate, to vaporize",
+        "example_de": "Bei Hitze verdampft das Wasser schnell.",
+        "example_en": "With heat the water evaporates quickly."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Das Wasser verdampft in der Sonne.", "en": "The water evaporates in the sun." },
+      { "tag": "präteritum", "de": "Die Flüssigkeit verdampfte im Topf.", "en": "The liquid evaporated in the pot." },
+      { "tag": "perfekt", "de": "Das ganze Wasser ist verdampft.", "en": "All the water has evaporated." }
+    ]
+  },
+  {
+    "lemma": "gefrieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3500,
+    "verb": { "aux": "sein", "praeteritum": "gefror", "partizip2": "gefroren" },
+    "senses": [
+      {
+        "en": "to freeze (turn to ice)",
+        "example_de": "Bei null Grad gefriert das Wasser.",
+        "example_en": "At zero degrees the water freezes."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der See gefriert im Winter.", "en": "The lake freezes in winter." },
+      { "tag": "präteritum", "de": "Das Wasser gefror über Nacht.", "en": "The water froze overnight." },
+      { "tag": "perfekt", "de": "Der Boden ist hart gefroren.", "en": "The ground has frozen hard." }
+    ]
+  },
+  {
+    "lemma": "Zelle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": { "gender": "f", "plural": "Zellen" },
+    "senses": [
+      {
+        "en": "cell (biology)",
+        "example_de": "Jedes Lebewesen besteht aus Zellen.",
+        "example_en": "Every living thing consists of cells."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Der Körper hat Millionen kleiner Zellen.", "en": "The body has millions of tiny cells." }
+    ]
+  },
+  {
+    "lemma": "Gen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": { "gender": "n", "plural": "Gene" },
+    "senses": [
+      {
+        "en": "gene",
+        "example_de": "Die Augenfarbe steckt in den Genen.",
+        "example_en": "The eye colour is in the genes."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Kinder erben die Gene ihrer Eltern.", "en": "Children inherit their parents' genes." }
+    ]
+  },
+  {
+    "lemma": "Evolution",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3550,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "evolution",
+        "example_de": "Die Evolution erklärt die Vielfalt der Tiere.",
+        "example_en": "Evolution explains the diversity of animals."
+      }
+    ]
+  },
+  {
+    "lemma": "Art",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2470,
+    "noun": { "gender": "f", "plural": "Arten" },
+    "senses": [
+      {
+        "en": "species; kind, type",
+        "example_de": "Diese Art von Vogel lebt nur im Wald.",
+        "example_en": "This species of bird lives only in the forest."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Viele Arten von Tieren sind bedroht.", "en": "Many species of animals are endangered." }
+    ]
+  },
+  {
+    "lemma": "Lebewesen",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3600,
+    "noun": { "gender": "n", "plural": "Lebewesen" },
+    "senses": [
+      {
+        "en": "living being, organism",
+        "example_de": "Pflanzen sind auch Lebewesen.",
+        "example_en": "Plants are living beings too."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Meer leben viele kleine Lebewesen.", "en": "Many small living beings live in the sea." }
+    ]
+  },
+  {
+    "lemma": "Organismus",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3650,
+    "noun": { "gender": "m", "plural": "Organismen", "genitive": "Organismus" },
+    "senses": [
+      {
+        "en": "organism",
+        "example_de": "Der menschliche Organismus braucht Wasser.",
+        "example_en": "The human organism needs water."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Bakterien sind sehr kleine Organismen.", "en": "Bacteria are very small organisms." }
+    ]
+  },
+  {
+    "lemma": "Bakterie",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": { "gender": "f", "plural": "Bakterien" },
+    "senses": [
+      {
+        "en": "bacterium",
+        "example_de": "Diese Bakterie macht viele Menschen krank.",
+        "example_en": "This bacterium makes many people ill.",
+        "note": "usually used in the plural: Bakterien"
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Seife tötet viele Bakterien.", "en": "Soap kills many bacteria." }
+    ]
+  },
+  {
+    "lemma": "Virus",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3200,
+    "noun": { "gender": "n", "plural": "Viren" },
+    "senses": [
+      {
+        "en": "virus",
+        "example_de": "Ein Virus ist noch kleiner als eine Bakterie.",
+        "example_en": "A virus is even smaller than a bacterium."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Viren verbreiten sich sehr schnell.", "en": "Viruses spread very quickly." }
+    ]
+  },
+  {
+    "lemma": "Photosynthese",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3850,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "photosynthesis",
+        "example_de": "Pflanzen machen mit Licht Photosynthese.",
+        "example_en": "Plants carry out photosynthesis with light."
+      }
+    ]
+  },
+  {
+    "lemma": "Fortpflanzung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3750,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "reproduction (biology)",
+        "example_de": "Die Fortpflanzung sichert das Überleben der Art.",
+        "example_en": "Reproduction ensures the survival of the species."
+      }
+    ]
+  },
+  {
+    "lemma": "vererben",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3550,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to pass on (genetically), to bequeath",
+        "example_de": "Eltern vererben ihren Kindern viele Eigenschaften.",
+        "example_en": "Parents pass on many traits to their children."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Mutter vererbt die Augenfarbe.", "en": "The mother passes on the eye colour." },
+      { "tag": "präteritum", "de": "Er vererbte seinem Sohn das Haus.", "en": "He bequeathed the house to his son." },
+      { "tag": "perfekt", "de": "Sie hat ihm die Krankheit vererbt.", "en": "She passed the illness on to him." }
+    ]
+  },
+  {
+    "lemma": "Atom",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2380,
+    "noun": { "gender": "n", "plural": "Atome" },
+    "senses": [
+      {
+        "en": "atom",
+        "example_de": "Ein Atom ist unglaublich klein.",
+        "example_en": "An atom is incredibly small."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Alle Stoffe bestehen aus Atomen.", "en": "All substances consist of atoms." }
+    ]
+  },
+  {
+    "lemma": "Molekül",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3400,
+    "noun": { "gender": "n", "plural": "Moleküle" },
+    "senses": [
+      {
+        "en": "molecule",
+        "example_de": "Ein Wassermolekül hat drei Atome.",
+        "example_en": "A water molecule has three atoms."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Große Moleküle bestehen aus vielen Atomen.", "en": "Large molecules consist of many atoms." }
+    ]
+  },
+  {
+    "lemma": "Teilchen",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3450,
+    "noun": { "gender": "n", "plural": "Teilchen" },
+    "senses": [
+      {
+        "en": "particle",
+        "example_de": "In der Luft schweben kleine Teilchen.",
+        "example_en": "Small particles float in the air."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Teilchen bewegen sich sehr schnell.", "en": "The particles move very fast." }
+    ]
+  },
+  {
+    "lemma": "Energie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": { "gender": "f", "plural": "Energien" },
+    "senses": [
+      {
+        "en": "energy",
+        "example_de": "Die Sonne gibt uns viel Energie.",
+        "example_en": "The sun gives us a lot of energy."
+      }
+    ]
+  },
+  {
+    "lemma": "Kraft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1930,
+    "noun": { "gender": "f", "plural": "Kräfte" },
+    "senses": [
+      {
+        "en": "force, strength",
+        "example_de": "Mit viel Kraft schiebt er den Stein.",
+        "example_en": "With a lot of force he pushes the stone."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "In der Natur wirken viele Kräfte.", "en": "Many forces act in nature." }
+    ]
+  },
+  {
+    "lemma": "Schwerkraft",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3500,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "gravity",
+        "example_de": "Die Schwerkraft zieht alles nach unten.",
+        "example_en": "Gravity pulls everything downwards."
+      }
+    ]
+  },
+  {
+    "lemma": "Geschwindigkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2550,
+    "noun": { "gender": "f", "plural": "Geschwindigkeiten" },
+    "senses": [
+      {
+        "en": "speed, velocity",
+        "example_de": "Das Licht hat eine sehr hohe Geschwindigkeit.",
+        "example_en": "Light has a very high speed."
+      }
+    ]
+  },
+  {
+    "lemma": "beschleunigen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3250,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to accelerate, to speed up",
+        "example_de": "Das Auto beschleunigt sehr schnell.",
+        "example_en": "The car accelerates very fast."
+      }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Der Zug beschleunigt nach dem Bahnhof.", "en": "The train speeds up after the station." },
+      { "tag": "präteritum", "de": "Die Kugel beschleunigte im Fall.", "en": "The ball accelerated as it fell." },
+      { "tag": "perfekt", "de": "Der Wagen hat stark beschleunigt.", "en": "The car accelerated strongly." }
+    ]
+  },
+  {
+    "lemma": "Gewicht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2130,
+    "noun": { "gender": "n", "plural": "Gewichte" },
+    "senses": [
+      {
+        "en": "weight",
+        "example_de": "Das Gewicht des Steins ist sehr hoch.",
+        "example_en": "The weight of the stone is very high."
+      }
+    ]
+  },
+  {
+    "lemma": "Druck",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2170,
+    "noun": { "gender": "m", "plural": "Drücke" },
+    "senses": [
+      {
+        "en": "pressure",
+        "example_de": "Unter Wasser ist der Druck sehr hoch.",
+        "example_en": "Under water the pressure is very high."
+      }
+    ]
+  },
+  {
+    "lemma": "Temperatur",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2020,
+    "noun": { "gender": "f", "plural": "Temperaturen" },
+    "senses": [
+      {
+        "en": "temperature",
+        "example_de": "Bei dieser Temperatur schmilzt das Eis.",
+        "example_en": "At this temperature the ice melts."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Winter fallen die Temperaturen stark.", "en": "In winter the temperatures drop a lot." }
+    ]
+  },
+  {
+    "lemma": "Welle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2600,
+    "noun": { "gender": "f", "plural": "Wellen" },
+    "senses": [
+      {
+        "en": "wave",
+        "example_de": "Licht und Schall bewegen sich als Welle.",
+        "example_en": "Light and sound move as a wave."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Das Radio nutzt unsichtbare Wellen.", "en": "The radio uses invisible waves." }
+    ]
+  },
+  {
+    "lemma": "Strahlung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3600,
+    "noun": { "gender": "f", "plural": "Strahlungen" },
+    "senses": [
+      {
+        "en": "radiation",
+        "example_de": "Die Sonne sendet gefährliche Strahlung aus.",
+        "example_en": "The sun emits dangerous radiation."
+      }
+    ]
+  },
+  {
+    "lemma": "Magnet",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": { "gender": "m", "plural": "Magnete" },
+    "senses": [
+      {
+        "en": "magnet",
+        "example_de": "Der Magnet zieht das Eisen an.",
+        "example_en": "The magnet attracts the iron."
+      }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "An der Tür hängen viele Magnete.", "en": "Many magnets hang on the door." }
+    ]
+  },
+  {
+    "lemma": "magnetisch",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3700,
+    "senses": [
+      {
+        "en": "magnetic",
+        "example_de": "Eisen ist ein magnetisches Metall.",
+        "example_en": "Iron is a magnetic metal."
+      }
+    ]
+  }
+]

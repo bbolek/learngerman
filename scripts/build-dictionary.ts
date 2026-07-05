@@ -8,6 +8,7 @@
  * created at runtime by src/db/migrations.ts against the same file.
  */
 import Database from 'better-sqlite3';
+import * as crypto from 'node:crypto';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
@@ -17,6 +18,7 @@ const ROOT = path.join(__dirname, '..');
 const VOCAB_DIR = path.join(ROOT, 'scripts/data/vocab');
 const GRAMMAR_DIR = path.join(ROOT, 'scripts/data/grammar');
 const OUT_FILE = path.join(ROOT, 'assets/db/dictionary.db');
+const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 
 const CONTENT_VERSION = 3;
 
@@ -183,12 +185,32 @@ function loadGrammar(): GrammarTopic[] {
   return topics;
 }
 
-// ---------- vocab markers in explainers ----------
+// ---------- vocab markers in explainers & question explanations ----------
+
+/** All texts of a topic that may contain [[vocab]] markers. */
+function markerTexts(t: GrammarTopic): string[] {
+  return [
+    t.explainer_md,
+    ...(t.questions ?? []).map((q) => String((q.payload as any)?.explanation ?? '')),
+  ];
+}
+
+/** Distinct dictionary lookups a topic's markers introduce ("vocab_count"). */
+function topicVocab(t: GrammarTopic): Set<string> {
+  const words = new Set<string>();
+  for (const text of markerTexts(t)) {
+    for (const m of text.matchAll(/\[\[([^\]]+)\]\]/g)) {
+      const parts = m[1].split('|');
+      words.add(normalize(parts[parts.length - 1]));
+    }
+  }
+  return words;
+}
 
 /**
- * Every [[word]] marker in an explainer must resolve in the dictionary
- * (as a lemma or an inflected form) — the app renders these as tappable
- * vocabulary links backed by lookupGerman().
+ * Every [[word]] marker (explainer or question explanation) must resolve in
+ * the dictionary as a lemma or an inflected form — the app renders these as
+ * tappable vocabulary links backed by lookupGerman().
  */
 function validateVocabMarkers(topics: GrammarTopic[], vocab: VocabEntry[]) {
   const known = new Set<string>();
@@ -198,18 +220,20 @@ function validateVocabMarkers(topics: GrammarTopic[], vocab: VocabEntry[]) {
   }
   const errors: string[] = [];
   for (const t of topics) {
-    for (const m of t.explainer_md.matchAll(/\[\[([^\]]+)\]\]/g)) {
-      // [[Wort]] or [[display|lookup]] — the lookup part must resolve
-      const parts = m[1].split('|');
-      const lookup = parts[parts.length - 1];
-      if (parts.length > 2 || parts.some((p) => !p.trim()))
-        errors.push(`${t.slug}: malformed vocab marker [[${m[1]}]]`);
-      else if (!known.has(normalize(lookup)))
-        errors.push(`${t.slug}: vocab marker [[${m[1]}]] not found in dictionary`);
+    for (const text of markerTexts(t)) {
+      for (const m of text.matchAll(/\[\[([^\]]+)\]\]/g)) {
+        // [[Wort]] or [[display|lookup]] — the lookup part must resolve
+        const parts = m[1].split('|');
+        const lookup = parts[parts.length - 1];
+        if (parts.length > 2 || parts.some((p) => !p.trim()))
+          errors.push(`${t.slug}: malformed vocab marker [[${m[1]}]]`);
+        else if (!known.has(normalize(lookup)))
+          errors.push(`${t.slug}: vocab marker [[${m[1]}]] not found in dictionary`);
+      }
+      const stripped = text.replace(/\[\[[^\]]+\]\]/g, '');
+      if (stripped.includes('[[') || stripped.includes(']]'))
+        errors.push(`${t.slug}: unbalanced [[ ]] marker in "${stripped.slice(0, 40)}…"`);
     }
-    const stripped = t.explainer_md.replace(/\[\[[^\]]+\]\]/g, '');
-    if (stripped.includes('[[') || stripped.includes(']]'))
-      errors.push(`${t.slug}: unbalanced [[ ]] marker in explainer`);
   }
   if (errors.length) {
     console.error(`✗ vocab marker validation failed (${errors.length} errors):`);
@@ -224,6 +248,14 @@ function build() {
   const vocab = loadVocab();
   const grammar = loadGrammar();
   validateVocabMarkers(grammar, vocab);
+
+  // Fingerprint of everything that ends up in the DB. The app compares this
+  // against the hash stored in the installed DB and applies an in-place
+  // content update when they differ (src/logic/contentUpdate.ts).
+  const contentHash = crypto
+    .createHash('sha1')
+    .update(JSON.stringify({ contentVersion: CONTENT_VERSION, vocab, grammar }))
+    .digest('hex');
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
   fs.rmSync(OUT_FILE, { force: true });
@@ -294,7 +326,8 @@ function build() {
       title TEXT NOT NULL,
       level TEXT NOT NULL CHECK (level IN ('A1','A2','B1')),
       explainer_md TEXT NOT NULL,
-      sort_order INTEGER NOT NULL
+      sort_order INTEGER NOT NULL,
+      vocab_count INTEGER NOT NULL DEFAULT 0
     );
 
     CREATE TABLE grammar_questions (
@@ -374,8 +407,10 @@ function build() {
 
     grammar.forEach((t, ti) => {
       const info = db
-        .prepare('INSERT INTO grammar_topics (slug, title, level, explainer_md, sort_order) VALUES (?, ?, ?, ?, ?)')
-        .run(t.slug, t.title, t.level, t.explainer_md, ti + 1);
+        .prepare(
+          'INSERT INTO grammar_topics (slug, title, level, explainer_md, sort_order, vocab_count) VALUES (?, ?, ?, ?, ?, ?)'
+        )
+        .run(t.slug, t.title, t.level, t.explainer_md, ti + 1, topicVocab(t).size);
       const topicId = info.lastInsertRowid as number;
       const insQ = db.prepare(
         'INSERT INTO grammar_questions (topic_id, qtype, payload, difficulty) VALUES (?, ?, ?, ?)'
@@ -390,6 +425,7 @@ function build() {
       'content_version',
       String(CONTENT_VERSION)
     );
+    db.prepare('INSERT INTO meta (key, value) VALUES (?, ?)').run('content_hash', contentHash);
   });
   insertAll();
 
@@ -399,10 +435,16 @@ function build() {
   db.exec('VACUUM');
   db.close();
 
+  fs.writeFileSync(
+    META_FILE,
+    JSON.stringify({ version: CONTENT_VERSION, hash: contentHash }, null, 2) + '\n'
+  );
+
   const sizeKb = Math.round(fs.statSync(OUT_FILE).size / 1024);
   console.log(
     `✓ dictionary.db built: ${lemmaCount} lemmas, ${formCount} forms, ${senseCount} senses, ` +
-      `${exampleCount} examples, ${grammar.length} topics, ${qCount} questions — ${sizeKb} KB`
+      `${exampleCount} examples, ${grammar.length} topics, ${qCount} questions — ${sizeKb} KB ` +
+      `(content ${contentHash.slice(0, 8)})`
   );
 }
 

@@ -10,7 +10,7 @@ pairs across files fail the build.
 {
   "lemma": "machen",          // dictionary form; nouns capitalized
   "pos": "verb",              // verb|noun|adj|adv|prep|pron|conj|num|other
-  "level": "A1",              // A1|A2|B1
+  "level": "A1",              // A1|A2|B1|B2|C1
   "freq": 8,                  // approximate frequency rank (1 = most common)
   "verb": { ... },            // required for pos=verb
   "noun": { ... },            // required for pos=noun
@@ -107,7 +107,9 @@ plural example. The sentence MUST actually use the tagged form of the lemma.
 
 ## Style rules
 
-- Example sentences use ONLY A1-level vocabulary, ≤ 8 words where possible.
+- Example sentences use vocabulary at or below the entry's level (A1/A2
+  entries: A1 only), ≤ 8 words where possible; B2/C1 examples may run longer
+  but keep the surrounding words simpler than the headword.
 - Glosses are lowercase except proper nouns; verbs start with "to".
 - `freq`: rough rank within the whole seed dictionary (1–3000); don't agonize.
 - German spelling: ß/ä/ö/ü used properly (no ASCII folding in content).

@@ -25,7 +25,9 @@ const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 const CONTENT_VERSION = 4;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
-const LEVELS = new Set(['A1', 'A2', 'B1']);
+/** Vocabulary spans the full CEFR range; grammar topics stay A1–B1. */
+const VOCAB_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1']);
+const GRAMMAR_LEVELS = new Set(['A1', 'A2', 'B1']);
 const QTYPES = new Set(['mc', 'fill', 'order', 'case_id']);
 const EXAMPLE_TAGS = new Set([
   'präsens',
@@ -76,7 +78,7 @@ function loadVocab(): VocabEntry[] {
       const where = `${file}[${i}] ${e?.lemma ?? '?'}`;
       if (!e.lemma || typeof e.lemma !== 'string') return void errors.push(`${where}: missing lemma`);
       if (!POS.has(e.pos)) return void errors.push(`${where}: bad pos '${e.pos}'`);
-      if (!LEVELS.has(e.level)) return void errors.push(`${where}: bad level '${e.level}'`);
+      if (!VOCAB_LEVELS.has(e.level)) return void errors.push(`${where}: bad level '${e.level}'`);
       if (!Array.isArray(e.senses) || e.senses.length === 0)
         return void errors.push(`${where}: needs at least one sense`);
       for (const s of e.senses) {
@@ -199,7 +201,7 @@ function loadGrammar(): GrammarTopic[] {
     if (!t.slug || slugs.has(t.slug)) errors.push(`topic ${t.slug}: missing/duplicate slug`);
     slugs.add(t.slug);
     if (!t.title || !t.explainer_md) errors.push(`topic ${t.slug}: missing title/explainer`);
-    if (!LEVELS.has(t.level)) errors.push(`topic ${t.slug}: bad level '${t.level}'`);
+    if (!GRAMMAR_LEVELS.has(t.level)) errors.push(`topic ${t.slug}: bad level '${t.level}'`);
     (t.questions ?? []).forEach((q, i) => {
       const where = `${t.slug}[${i}]`;
       if (!QTYPES.has(q.qtype)) return void errors.push(`${where}: bad qtype '${q.qtype}'`);

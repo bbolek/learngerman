@@ -21,6 +21,8 @@ import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
+import { ExampleText } from '@/ui/components/ExampleText';
+import { VocabTapProvider } from '@/ui/components/MarkdownLite';
 import { Screen } from '@/ui/components/Screen';
 import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, spacing } from '@/ui/theme';
@@ -102,6 +104,7 @@ export default function WordDetailScreen() {
   };
 
   return (
+    <VocabTapProvider>
     <Screen>
       <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
@@ -169,7 +172,7 @@ export default function WordDetailScreen() {
           </View>
           {s.example_de && (
             <AppText variant="body" style={{ marginTop: 6 }}>
-              {s.example_de}{' '}
+              <ExampleText text={s.example_de} excludeLemmaId={lemmaId} />{' '}
               {s.example_en && (
                 <AppText variant="secondary" muted>
                   — {s.example_en}
@@ -189,9 +192,11 @@ export default function WordDetailScreen() {
                 <View style={styles.exampleTag}>
                   <Chip label={exampleTagLabel(ex.tag)} kind="case" small />
                 </View>
-                <AppText variant="body" style={{ fontFamily: fonts.serif, fontSize: 16.5, lineHeight: 23 }}>
-                  {ex.de}
-                </AppText>
+                <ExampleText
+                  text={ex.de}
+                  excludeLemmaId={lemmaId}
+                  style={{ fontFamily: fonts.serif, fontSize: 16.5, lineHeight: 23 }}
+                />
                 <AppText variant="secondary" muted style={{ marginTop: 2 }}>
                   {ex.en}
                 </AppText>
@@ -213,6 +218,7 @@ export default function WordDetailScreen() {
         </Card>
       )}
     </Screen>
+    </VocabTapProvider>
   );
 }
 

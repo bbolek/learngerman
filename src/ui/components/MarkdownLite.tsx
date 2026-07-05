@@ -15,6 +15,11 @@ type TableRows = string[][];
 /** Tap handler for [[vocabulary]] markers; provided by VocabTapProvider. */
 const WordTapContext = createContext<((word: string) => void) | null>(null);
 
+/** Tap handler from the nearest VocabTapProvider (null outside one). */
+export function useWordTap(): ((word: string) => void) | null {
+  return useContext(WordTapContext);
+}
+
 /**
  * Hosts the dictionary popup and makes [[vocab]] links inside it tappable.
  * MarkdownLite provides this itself; wrap other screens (e.g. the quiz

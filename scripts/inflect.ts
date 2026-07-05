@@ -55,7 +55,7 @@ export interface FormExample {
 export interface VocabEntry {
   lemma: string;
   pos: 'verb' | 'noun' | 'adj' | 'adv' | 'prep' | 'pron' | 'conj' | 'num' | 'other';
-  level: 'A1' | 'A2' | 'B1';
+  level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
   freq?: number;
   verb?: VerbSpec;
   noun?: NounSpec;

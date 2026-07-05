@@ -98,6 +98,42 @@ export async function getLemmaImages(lemmaIds: number[]): Promise<Map<number, st
   return map;
 }
 
+export interface TokenHit {
+  lemmaId: number;
+  level: string;
+}
+
+/**
+ * Resolve normalized example-sentence tokens to dictionary entries (exact
+ * lemma match first, then inflected forms). Powers the auto-linked words in
+ * example sentences — tokens that don't resolve are simply absent.
+ */
+export async function resolveExampleWords(tokens: string[]): Promise<Map<string, TokenHit>> {
+  const map = new Map<string, TokenHit>();
+  if (tokens.length === 0) return map;
+  const db = getDb();
+  const marks = tokens.map(() => '?').join(',');
+  const lemmaRows = await db.getAllAsync<{ lemma_norm: string; id: number; level: string }>(
+    `SELECT lemma_norm, id, level FROM lemmas WHERE lemma_norm IN (${marks})`,
+    tokens
+  );
+  for (const r of lemmaRows) {
+    if (!map.has(r.lemma_norm)) map.set(r.lemma_norm, { lemmaId: r.id, level: r.level });
+  }
+  const rest = tokens.filter((t) => !map.has(t));
+  if (rest.length > 0) {
+    const formRows = await db.getAllAsync<{ form_norm: string; id: number; level: string }>(
+      `SELECT f.form_norm, l.id, l.level FROM forms f JOIN lemmas l ON l.id = f.lemma_id
+       WHERE f.form_norm IN (${rest.map(() => '?').join(',')})`,
+      rest
+    );
+    for (const r of formRows) {
+      if (!map.has(r.form_norm)) map.set(r.form_norm, { lemmaId: r.id, level: r.level });
+    }
+  }
+  return map;
+}
+
 export async function getWordOfTheDay(daySeed: string): Promise<{
   id: number;
   lemma: string;

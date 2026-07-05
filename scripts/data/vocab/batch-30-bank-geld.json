@@ -1,0 +1,1068 @@
+[
+  {
+    "lemma": "Bargeld",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1310,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "cash",
+        "example_de": "Hast du Bargeld dabei?",
+        "example_en": "Do you have cash on you?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "negation",
+        "de": "Ich habe leider kein Bargeld mehr.",
+        "en": "Unfortunately I have no cash left."
+      }
+    ]
+  },
+  {
+    "lemma": "Schein",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1340,
+    "noun": { "gender": "m", "plural": "Scheine" },
+    "senses": [
+      {
+        "en": "banknote, bill",
+        "example_de": "Kannst du diesen großen Schein wechseln?",
+        "example_en": "Can you change this large banknote?"
+      },
+      {
+        "en": "certificate, slip",
+        "example_de": "Für den Kurs bekomme ich einen Schein.",
+        "example_en": "I get a certificate for the course."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Der Automat nimmt keine großen Scheine.",
+        "en": "The machine does not take large banknotes."
+      }
+    ]
+  },
+  {
+    "lemma": "Geldautomat",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1370,
+    "noun": { "gender": "m", "plural": "Geldautomaten", "genitive": "Geldautomaten" },
+    "senses": [
+      {
+        "en": "ATM, cash machine",
+        "example_de": "Der Geldautomat ist leider kaputt.",
+        "example_en": "Unfortunately the ATM is broken."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In der Stadt gibt es viele Geldautomaten.",
+        "en": "There are many ATMs in the city."
+      }
+    ]
+  },
+  {
+    "lemma": "Geldbeutel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": "Geldbeutel" },
+    "senses": [
+      {
+        "en": "wallet, purse",
+        "note": "auch: das Portemonnaie",
+        "example_de": "Mein Geldbeutel liegt noch zu Hause.",
+        "example_en": "My wallet is still at home."
+      }
+    ]
+  },
+  {
+    "lemma": "Kontonummer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1440,
+    "noun": { "gender": "f", "plural": "Kontonummern" },
+    "senses": [
+      {
+        "en": "account number",
+        "example_de": "Wie ist deine Kontonummer?",
+        "example_en": "What is your account number?"
+      }
+    ]
+  },
+  {
+    "lemma": "Schalter",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1470,
+    "noun": { "gender": "m", "plural": "Schalter" },
+    "senses": [
+      {
+        "en": "counter, ticket window",
+        "example_de": "Bitte gehen Sie zu Schalter drei.",
+        "example_en": "Please go to counter three."
+      },
+      {
+        "en": "switch (for a light or device)",
+        "example_de": "Wo ist der Schalter für das Licht?",
+        "example_en": "Where is the switch for the light?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Heute sind nur zwei Schalter offen.",
+        "en": "Only two counters are open today."
+      }
+    ]
+  },
+  {
+    "lemma": "Sparschwein",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "n", "plural": "Sparschweine" },
+    "senses": [
+      {
+        "en": "piggy bank",
+        "example_de": "Das Kind steckt eine Münze ins Sparschwein.",
+        "example_en": "The child puts a coin into the piggy bank."
+      }
+    ]
+  },
+  {
+    "lemma": "Gebühr",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1530,
+    "noun": { "gender": "f", "plural": "Gebühren" },
+    "senses": [
+      {
+        "en": "fee, charge",
+        "example_de": "Die Bank verlangt eine kleine Gebühr.",
+        "example_en": "The bank charges a small fee."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Für die Karte zahle ich keine Gebühren.",
+        "en": "I pay no fees for the card."
+      }
+    ]
+  },
+  {
+    "lemma": "Sparkasse",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1580,
+    "noun": { "gender": "f", "plural": "Sparkassen" },
+    "senses": [
+      {
+        "en": "savings bank",
+        "example_de": "Ich habe ein Konto bei der Sparkasse.",
+        "example_en": "I have an account at the savings bank."
+      }
+    ]
+  },
+  {
+    "lemma": "Wert",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1630,
+    "noun": { "gender": "m", "plural": "Werte" },
+    "senses": [
+      {
+        "en": "value, worth",
+        "note": "an Wert verlieren / gewinnen",
+        "example_de": "Das alte Auto hat keinen großen Wert.",
+        "example_en": "The old car does not have much value."
+      }
+    ]
+  },
+  {
+    "lemma": "Sparkonto",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": { "gender": "n", "plural": "Sparkonten" },
+    "senses": [
+      {
+        "en": "savings account",
+        "example_de": "Ich lege jeden Monat Geld auf mein Sparkonto.",
+        "example_en": "I put money into my savings account every month."
+      }
+    ]
+  },
+  {
+    "lemma": "Kontostand",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": { "gender": "m", "plural": "Kontostände" },
+    "senses": [
+      {
+        "en": "account balance",
+        "example_de": "Ich prüfe meinen Kontostand am Handy.",
+        "example_en": "I check my account balance on my phone."
+      }
+    ]
+  },
+  {
+    "lemma": "Taschengeld",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1660,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "pocket money, allowance",
+        "example_de": "Das Kind bekommt zehn Euro Taschengeld im Monat.",
+        "example_en": "The child gets ten euros of pocket money per month."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Sie spart ihr Taschengeld für ein Fahrrad.",
+        "en": "She is saving her pocket money for a bicycle."
+      }
+    ]
+  },
+  {
+    "lemma": "abbuchen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1960,
+    "verb": { "aux": "haben", "separablePrefix": "ab" },
+    "senses": [
+      {
+        "en": "to debit (money from an account)",
+        "example_de": "Die Bank bucht die Gebühr vom Konto ab.",
+        "example_en": "The bank debits the fee from the account."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Firma bucht das Geld jeden Monat ab.",
+        "en": "The company debits the money every month."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Bank hat den Betrag schon abgebucht.",
+        "en": "The bank has already debited the amount."
+      },
+      {
+        "tag": "frage",
+        "de": "Wann bucht die Bank die Miete ab?",
+        "en": "When does the bank debit the rent?"
+      }
+    ]
+  },
+  {
+    "lemma": "Einzahlung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": { "gender": "f", "plural": "Einzahlungen" },
+    "senses": [
+      {
+        "en": "deposit (of money)",
+        "example_de": "Die Einzahlung ist auch am Automaten möglich.",
+        "example_en": "The deposit is also possible at the machine."
+      }
+    ]
+  },
+  {
+    "lemma": "Auszahlung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": { "gender": "f", "plural": "Auszahlungen" },
+    "senses": [
+      {
+        "en": "payout, withdrawal (of money)",
+        "example_de": "Die Auszahlung dauert etwa drei Tage.",
+        "example_en": "The payout takes about three days."
+      }
+    ]
+  },
+  {
+    "lemma": "Girokarte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2020,
+    "noun": { "gender": "f", "plural": "Girokarten" },
+    "senses": [
+      {
+        "en": "debit card (for a current account)",
+        "example_de": "Ich bezahle im Supermarkt mit meiner Girokarte.",
+        "example_en": "I pay with my debit card at the supermarket."
+      }
+    ]
+  },
+  {
+    "lemma": "Zinsen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2040,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      {
+        "en": "interest (on money)",
+        "note": "nur Plural",
+        "example_de": "Das Sparkonto bringt kaum noch Zinsen.",
+        "example_en": "The savings account hardly earns any interest anymore."
+      }
+    ]
+  },
+  {
+    "lemma": "Kredit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2060,
+    "noun": { "gender": "m", "plural": "Kredite" },
+    "senses": [
+      {
+        "en": "loan, credit",
+        "note": "einen Kredit aufnehmen",
+        "example_de": "Wir nehmen einen Kredit für das Haus auf.",
+        "example_en": "We are taking out a loan for the house."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Bank bietet günstige Kredite an.",
+        "en": "The bank offers cheap loans."
+      }
+    ]
+  },
+  {
+    "lemma": "zurückzahlen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2080,
+    "verb": { "aux": "haben", "separablePrefix": "zurück" },
+    "senses": [
+      {
+        "en": "to pay back, to repay",
+        "example_de": "Ich zahle dir das Geld morgen zurück.",
+        "example_en": "I will pay you back the money tomorrow."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er zahlt den Kredit in kleinen Raten zurück.",
+        "en": "He is paying back the loan in small installments."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat ihre Schulden komplett zurückgezahlt.",
+        "en": "She has paid back her debts completely."
+      }
+    ]
+  },
+  {
+    "lemma": "Schulden",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      {
+        "en": "debts",
+        "note": "nur Plural: Schulden machen / haben",
+        "example_de": "Er hat hohe Schulden bei der Bank.",
+        "example_en": "He has large debts with the bank."
+      }
+    ]
+  },
+  {
+    "lemma": "Rate",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2120,
+    "noun": { "gender": "f", "plural": "Raten" },
+    "senses": [
+      {
+        "en": "installment (payment)",
+        "note": "in Raten zahlen",
+        "example_de": "Die monatliche Rate beträgt hundert Euro.",
+        "example_en": "The monthly installment is one hundred euros."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir zahlen das Sofa in zwölf Raten.",
+        "en": "We are paying for the sofa in twelve installments."
+      }
+    ]
+  },
+  {
+    "lemma": "Dauerauftrag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2140,
+    "noun": { "gender": "m", "plural": "Daueraufträge" },
+    "senses": [
+      {
+        "en": "standing order (regular automatic payment)",
+        "example_de": "Die Miete zahle ich per Dauerauftrag.",
+        "example_en": "I pay the rent by standing order."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ich habe zwei Daueraufträge bei meiner Bank.",
+        "en": "I have two standing orders at my bank."
+      }
+    ]
+  },
+  {
+    "lemma": "Lastschrift",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2160,
+    "noun": { "gender": "f", "plural": "Lastschriften" },
+    "senses": [
+      {
+        "en": "direct debit",
+        "example_de": "Die Stromkosten laufen bei uns per Lastschrift.",
+        "example_en": "Our electricity costs are paid by direct debit."
+      }
+    ]
+  },
+  {
+    "lemma": "leisten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2180,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to afford (something)",
+        "note": "reflexiv: sich etwas leisten (+ Akkusativ)",
+        "example_de": "Ein neues Auto können wir uns nicht leisten.",
+        "example_en": "We cannot afford a new car."
+      },
+      {
+        "en": "to achieve, to perform (work)",
+        "example_de": "Das Team hat gute Arbeit geleistet.",
+        "example_en": "The team did good work."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er leistet sich ein neues Handy.",
+        "en": "He is treating himself to a new phone."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben uns einen schönen Urlaub geleistet.",
+        "en": "We treated ourselves to a nice vacation."
+      },
+      {
+        "tag": "negation",
+        "de": "Ich kann mir das leider nicht leisten.",
+        "en": "Unfortunately I cannot afford that."
+      }
+    ]
+  },
+  {
+    "lemma": "Währung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "f", "plural": "Währungen" },
+    "senses": [
+      {
+        "en": "currency",
+        "example_de": "Der Euro ist eine starke Währung.",
+        "example_en": "The euro is a strong currency."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "In Europa gibt es verschiedene Währungen.",
+        "en": "There are different currencies in Europe."
+      }
+    ]
+  },
+  {
+    "lemma": "Wechselkurs",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2220,
+    "noun": { "gender": "m", "plural": "Wechselkurse" },
+    "senses": [
+      {
+        "en": "exchange rate",
+        "example_de": "Der Wechselkurs ist heute sehr gut.",
+        "example_en": "The exchange rate is very good today."
+      }
+    ]
+  },
+  {
+    "lemma": "Ausgabe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2240,
+    "noun": { "gender": "f", "plural": "Ausgaben" },
+    "senses": [
+      {
+        "en": "expense, expenditure",
+        "example_de": "Diese Ausgabe war nicht geplant.",
+        "example_en": "This expense was not planned."
+      },
+      {
+        "en": "edition, issue (of a newspaper or book)",
+        "example_de": "Ich lese die neue Ausgabe der Zeitung.",
+        "example_en": "I am reading the new issue of the newspaper."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Unsere Ausgaben sind diesen Monat sehr hoch.",
+        "en": "Our expenses are very high this month."
+      }
+    ]
+  },
+  {
+    "lemma": "Einnahme",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2260,
+    "noun": { "gender": "f", "plural": "Einnahmen" },
+    "senses": [
+      {
+        "en": "income, revenue, takings",
+        "note": "meist Plural: die Einnahmen",
+        "example_de": "Die Einnahmen sind höher als die Ausgaben.",
+        "example_en": "The revenue is higher than the expenses."
+      }
+    ]
+  },
+  {
+    "lemma": "Einkommen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2280,
+    "noun": { "gender": "n", "plural": "Einkommen" },
+    "senses": [
+      {
+        "en": "income",
+        "example_de": "Sein Einkommen ist nicht sehr hoch.",
+        "example_en": "His income is not very high."
+      }
+    ]
+  },
+  {
+    "lemma": "betragen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2300,
+    "verb": {
+      "aux": "haben",
+      "du": "beträgst",
+      "er": "beträgt",
+      "praeteritum": "betrug",
+      "partizip2": "betragen"
+    },
+    "senses": [
+      {
+        "en": "to amount to, to come to (a sum)",
+        "example_de": "Die Gebühr beträgt fünf Euro.",
+        "example_en": "The fee amounts to five euros."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Miete beträgt achthundert Euro im Monat.",
+        "en": "The rent amounts to eight hundred euros per month."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Preis betrug damals nur zehn Euro.",
+        "en": "Back then the price was only ten euros."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Kosten haben dreihundert Euro betragen.",
+        "en": "The costs amounted to three hundred euros."
+      }
+    ]
+  },
+  {
+    "lemma": "Budget",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2320,
+    "noun": { "gender": "n", "plural": "Budgets" },
+    "senses": [
+      {
+        "en": "budget",
+        "example_de": "Unser Budget für die Reise ist klein.",
+        "example_en": "Our budget for the trip is small."
+      }
+    ]
+  },
+  {
+    "lemma": "Betrag",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2340,
+    "noun": { "gender": "m", "plural": "Beträge" },
+    "senses": [
+      {
+        "en": "amount, sum (of money)",
+        "example_de": "Bitte geben Sie den Betrag ein.",
+        "example_en": "Please enter the amount."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Kleine Beträge zahle ich immer bar.",
+        "en": "I always pay small amounts in cash."
+      }
+    ]
+  },
+  {
+    "lemma": "Bankleitzahl",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2360,
+    "noun": { "gender": "f", "plural": "Bankleitzahlen" },
+    "senses": [
+      {
+        "en": "bank sort code",
+        "note": "heute meist Teil der IBAN",
+        "example_de": "Die Bankleitzahl steht auf dem Kontoauszug.",
+        "example_en": "The sort code is on the bank statement."
+      }
+    ]
+  },
+  {
+    "lemma": "Online-Banking",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2380,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "online banking",
+        "example_de": "Ich erledige alles bequem per Online-Banking.",
+        "example_en": "I take care of everything conveniently via online banking."
+      }
+    ]
+  },
+  {
+    "lemma": "überziehen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "überzog",
+      "partizip2": "überzogen"
+    },
+    "senses": [
+      {
+        "en": "to overdraw (an account)",
+        "note": "das Konto überziehen",
+        "example_de": "Ich will mein Konto nicht überziehen.",
+        "example_en": "I do not want to overdraw my account."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er überzieht sein Konto fast jeden Monat.",
+        "en": "He overdraws his account almost every month."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie überzog das Konto um hundert Euro.",
+        "en": "She overdrew the account by one hundred euros."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe mein Konto noch nie überzogen.",
+        "en": "I have never overdrawn my account."
+      }
+    ]
+  },
+  {
+    "lemma": "Ersparnisse",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2420,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      {
+        "en": "savings",
+        "note": "meist Plural (Singular: die Ersparnis)",
+        "example_de": "Ihre Ersparnisse liegen auf dem Sparkonto.",
+        "example_en": "Her savings are in the savings account."
+      }
+    ]
+  },
+  {
+    "lemma": "Guthaben",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2440,
+    "noun": { "gender": "n", "plural": "Guthaben" },
+    "senses": [
+      {
+        "en": "credit, credit balance",
+        "example_de": "Auf der Karte ist noch Guthaben.",
+        "example_en": "There is still credit on the card."
+      }
+    ]
+  },
+  {
+    "lemma": "Gewinn",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2460,
+    "noun": { "gender": "m", "plural": "Gewinne" },
+    "senses": [
+      {
+        "en": "profit",
+        "example_de": "Die Firma macht dieses Jahr guten Gewinn.",
+        "example_en": "The company is making a good profit this year."
+      },
+      {
+        "en": "winnings, prize",
+        "example_de": "Er holt seinen Gewinn aus der Lotterie ab.",
+        "example_en": "He is collecting his lottery winnings."
+      }
+    ]
+  },
+  {
+    "lemma": "Summe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2480,
+    "noun": { "gender": "f", "plural": "Summen" },
+    "senses": [
+      {
+        "en": "sum, amount",
+        "example_de": "Er zahlt eine große Summe für das Auto.",
+        "example_en": "He is paying a large sum for the car."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Bei der Bank geht es um hohe Summen.",
+        "en": "The bank deals with large sums."
+      }
+    ]
+  },
+  {
+    "lemma": "Scheck",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": { "gender": "m", "plural": "Schecks" },
+    "senses": [
+      {
+        "en": "cheque, check",
+        "note": "heute nur noch selten",
+        "example_de": "Er bezahlt die Möbel mit einem Scheck.",
+        "example_en": "He pays for the furniture with a cheque."
+      }
+    ]
+  },
+  {
+    "lemma": "besitzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "besaß",
+      "partizip2": "besessen"
+    },
+    "senses": [
+      {
+        "en": "to own, to possess",
+        "example_de": "Sie besitzt ein kleines Haus am See.",
+        "example_en": "She owns a small house by the lake."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er besitzt zwei Autos und ein Motorrad.",
+        "en": "He owns two cars and a motorcycle."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Früher besaß die Familie viel Land.",
+        "en": "The family used to own a lot of land."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben nie ein eigenes Auto besessen.",
+        "en": "We have never owned our own car."
+      }
+    ]
+  },
+  {
+    "lemma": "kontaktlos",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2540,
+    "senses": [
+      {
+        "en": "contactless",
+        "example_de": "Ich bezahle kontaktlos mit meiner Karte.",
+        "example_en": "I pay contactless with my card."
+      }
+    ]
+  },
+  {
+    "lemma": "bargeldlos",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2560,
+    "senses": [
+      {
+        "en": "cashless",
+        "example_de": "Viele Leute zahlen heute lieber bargeldlos.",
+        "example_en": "Many people prefer to pay cashless today."
+      }
+    ]
+  },
+  {
+    "lemma": "pleite",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2580,
+    "adj": { "indeclinable": true },
+    "senses": [
+      {
+        "en": "broke (out of money)",
+        "note": "nur prädikativ: pleite sein",
+        "example_de": "Nach dem Urlaub bin ich total pleite.",
+        "example_en": "After the vacation I am totally broke."
+      }
+    ]
+  },
+  {
+    "lemma": "wertvoll",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2600,
+    "senses": [
+      {
+        "en": "valuable, precious",
+        "example_de": "Der alte Ring ist sehr wertvoll.",
+        "example_en": "The old ring is very valuable."
+      }
+    ]
+  },
+  {
+    "lemma": "verschulden",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3050,
+    "verb": { "aux": "haben", "partizip2": "verschuldet" },
+    "senses": [
+      {
+        "en": "to go into debt",
+        "note": "reflexiv: sich verschulden",
+        "example_de": "Viele Familien verschulden sich für ein Haus.",
+        "example_en": "Many families go into debt for a house."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er verschuldet sich für das neue Auto.",
+        "en": "He is going into debt for the new car."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Stadt hat sich hoch verschuldet.",
+        "en": "The city has gone deep into debt."
+      }
+    ]
+  },
+  {
+    "lemma": "finanzieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3150,
+    "verb": { "aux": "haben", "partizip2": "finanziert" },
+    "senses": [
+      {
+        "en": "to finance, to fund",
+        "example_de": "Die Eltern finanzieren ihr Studium.",
+        "example_en": "Her parents are financing her studies."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wie finanzierst du deine lange Reise?",
+        "en": "How are you financing your long trip?"
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Auto über die Bank finanziert.",
+        "en": "We financed the car through the bank."
+      }
+    ]
+  },
+  {
+    "lemma": "investieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3250,
+    "verb": { "aux": "haben", "partizip2": "investiert" },
+    "senses": [
+      {
+        "en": "to invest",
+        "note": "investieren in + Akkusativ",
+        "example_de": "Er investiert sein Geld in Aktien.",
+        "example_en": "He invests his money in shares."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Firma investiert viel in neue Technik.",
+        "en": "The company invests a lot in new technology."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat viel Geld in die Firma investiert.",
+        "en": "She has invested a lot of money in the company."
+      }
+    ]
+  },
+  {
+    "lemma": "anlegen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3350,
+    "verb": { "aux": "haben", "separablePrefix": "an" },
+    "senses": [
+      {
+        "en": "to invest (money)",
+        "note": "Geld anlegen",
+        "example_de": "Sie legt ihr Geld sicher an.",
+        "example_en": "She invests her money safely."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er legt jeden Monat etwas Geld an.",
+        "en": "He invests some money every month."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben unsere Ersparnisse gut angelegt.",
+        "en": "We have invested our savings well."
+      }
+    ]
+  },
+  {
+    "lemma": "Hypothek",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3450,
+    "noun": { "gender": "f", "plural": "Hypotheken" },
+    "senses": [
+      {
+        "en": "mortgage",
+        "example_de": "Auf dem Haus liegt eine hohe Hypothek.",
+        "example_en": "There is a large mortgage on the house."
+      }
+    ]
+  },
+  {
+    "lemma": "Aktie",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3550,
+    "noun": { "gender": "f", "plural": "Aktien" },
+    "senses": [
+      {
+        "en": "share, stock",
+        "example_de": "Diese Aktie ist heute zehn Euro wert.",
+        "example_en": "This share is worth ten euros today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Seine Aktien haben an Wert verloren.",
+        "en": "His shares have lost value."
+      }
+    ]
+  },
+  {
+    "lemma": "Börse",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3600,
+    "noun": { "gender": "f", "plural": "Börsen" },
+    "senses": [
+      {
+        "en": "stock exchange, stock market",
+        "example_de": "Die Firma ist seit Mai an der Börse.",
+        "example_en": "The company has been on the stock exchange since May."
+      }
+    ]
+  },
+  {
+    "lemma": "Kaution",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3700,
+    "noun": { "gender": "f", "plural": "Kautionen" },
+    "senses": [
+      {
+        "en": "deposit (for a rental), bail",
+        "example_de": "Die Kaution für die Wohnung ist hoch.",
+        "example_en": "The deposit for the apartment is high."
+      }
+    ]
+  },
+  {
+    "lemma": "Vermögen",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3780,
+    "noun": { "gender": "n", "plural": "Vermögen" },
+    "senses": [
+      {
+        "en": "fortune, wealth, assets",
+        "note": "ein Vermögen kosten = sehr teuer sein",
+        "example_de": "Das neue Haus hat ein Vermögen gekostet.",
+        "example_en": "The new house cost a fortune."
+      }
+    ]
+  }
+]

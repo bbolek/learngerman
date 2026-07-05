@@ -1,0 +1,1280 @@
+[
+  {
+    "lemma": "Argument",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1920,
+    "noun": {
+      "gender": "n",
+      "plural": "Argumente"
+    },
+    "senses": [
+      {
+        "en": "argument, point (in a discussion)",
+        "example_de": "Das ist ein gutes Argument für deinen Plan.",
+        "example_en": "That is a good argument for your plan."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ihre Argumente haben mich nicht überzeugt.",
+        "en": "Her arguments did not convince me."
+      }
+    ]
+  },
+  {
+    "lemma": "Ansicht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": {
+      "gender": "f",
+      "plural": "Ansichten"
+    },
+    "senses": [
+      {
+        "en": "view, opinion",
+        "note": "meiner Ansicht nach = in my view",
+        "example_de": "Meiner Ansicht nach ist das falsch.",
+        "example_en": "In my view, that is wrong."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir haben sehr verschiedene Ansichten.",
+        "en": "We have very different views."
+      }
+    ]
+  },
+  {
+    "lemma": "Kritik",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": {
+      "gender": "f",
+      "plural": "Kritiken"
+    },
+    "senses": [
+      {
+        "en": "criticism",
+        "note": "Kritik an + Dativ",
+        "example_de": "Seine Kritik an dem Plan war sehr deutlich.",
+        "example_en": "His criticism of the plan was very clear."
+      },
+      {
+        "en": "review (of a book, film)",
+        "example_de": "Der Film bekam gute Kritiken.",
+        "example_en": "The film got good reviews."
+      }
+    ]
+  },
+  {
+    "lemma": "betonen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2200,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "betont"
+    },
+    "senses": [
+      {
+        "en": "to emphasize, to stress",
+        "example_de": "Sie betont, wie wichtig das Thema ist.",
+        "example_en": "She emphasizes how important the topic is."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Chef betont immer wieder diesen Punkt.",
+        "en": "The boss emphasizes this point again and again."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er betonte, dass er nichts wusste.",
+        "en": "He stressed that he knew nothing."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das schon oft betont.",
+        "en": "I have stressed that many times."
+      }
+    ]
+  },
+  {
+    "lemma": "Aussage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": {
+      "gender": "f",
+      "plural": "Aussagen"
+    },
+    "senses": [
+      {
+        "en": "statement, assertion",
+        "example_de": "Ihre Aussage war klar und ehrlich.",
+        "example_en": "Her statement was clear and honest."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die beiden Aussagen passen nicht zusammen.",
+        "en": "The two statements do not fit together."
+      }
+    ]
+  },
+  {
+    "lemma": "eindeutig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2400,
+    "senses": [
+      {
+        "en": "clear, unambiguous",
+        "example_de": "Die Antwort war eindeutig: Nein.",
+        "example_en": "The answer was unambiguous: no."
+      }
+    ]
+  },
+  {
+    "lemma": "zugeben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2500,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zu",
+      "du": "gibst",
+      "er": "gibt",
+      "praeteritum": "gab",
+      "partizip2": "zugegeben"
+    },
+    "senses": [
+      {
+        "en": "to admit, to concede",
+        "note": "trennbar: zu-",
+        "example_de": "Ich gebe zu, dass ich einen Fehler gemacht habe.",
+        "example_en": "I admit that I made a mistake."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er gibt seinen Fehler nicht zu.",
+        "en": "He does not admit his mistake."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie gab zu, dass sie zu spät kam.",
+        "en": "She admitted that she was late."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Endlich hat er die Wahrheit zugegeben.",
+        "en": "Finally he admitted the truth."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Gib es doch einfach zu!",
+        "en": "Just admit it!"
+      }
+    ]
+  },
+  {
+    "lemma": "Standpunkt",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3000,
+    "noun": {
+      "gender": "m",
+      "plural": "Standpunkte"
+    },
+    "senses": [
+      {
+        "en": "standpoint, point of view",
+        "example_de": "Von meinem Standpunkt aus ist die Sache klar.",
+        "example_en": "From my point of view, the matter is clear."
+      }
+    ]
+  },
+  {
+    "lemma": "Meinungsaustausch",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3020,
+    "noun": {
+      "gender": "m",
+      "plural": null,
+      "genitive": "Meinungsaustausches"
+    },
+    "senses": [
+      {
+        "en": "exchange of opinions",
+        "example_de": "Nach dem Vortrag gab es einen offenen Meinungsaustausch.",
+        "example_en": "After the talk there was an open exchange of opinions."
+      }
+    ]
+  },
+  {
+    "lemma": "widersprechen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3040,
+    "verb": {
+      "aux": "haben",
+      "du": "widersprichst",
+      "er": "widerspricht",
+      "praeteritum": "widersprach",
+      "partizip2": "widersprochen"
+    },
+    "senses": [
+      {
+        "en": "to contradict, to disagree (with)",
+        "note": "+ Dativ",
+        "example_de": "Ich muss dir hier leider widersprechen.",
+        "example_en": "Unfortunately I have to disagree with you here."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie widerspricht ihrem Chef nur selten.",
+        "en": "She rarely contradicts her boss."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Niemand widersprach ihm in der Sitzung.",
+        "en": "Nobody contradicted him in the meeting."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat mir sofort widersprochen.",
+        "en": "He contradicted me immediately."
+      }
+    ]
+  },
+  {
+    "lemma": "argumentieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3060,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "argumentiert"
+    },
+    "senses": [
+      {
+        "en": "to argue, to reason",
+        "example_de": "Sie argumentiert immer ruhig und klar.",
+        "example_en": "She always argues calmly and clearly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er argumentiert mit Zahlen und Fakten.",
+        "en": "He argues with numbers and facts."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie argumentierte gegen den Vorschlag.",
+        "en": "She argued against the proposal."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Du hast sehr gut argumentiert.",
+        "en": "You argued very well."
+      }
+    ]
+  },
+  {
+    "lemma": "Gegenargument",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3080,
+    "noun": {
+      "gender": "n",
+      "plural": "Gegenargumente"
+    },
+    "senses": [
+      {
+        "en": "counterargument",
+        "example_de": "Auf dieses Gegenargument hatte er keine Antwort.",
+        "example_en": "He had no answer to this counterargument."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Nenne bitte auch zwei Gegenargumente.",
+        "en": "Please also name two counterarguments."
+      }
+    ]
+  },
+  {
+    "lemma": "Einwand",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3100,
+    "noun": {
+      "gender": "m",
+      "plural": "Einwände"
+    },
+    "senses": [
+      {
+        "en": "objection",
+        "note": "Einwand gegen + Akkusativ",
+        "example_de": "Gibt es Einwände gegen diesen Plan?",
+        "example_en": "Are there any objections to this plan?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ihre Einwände sind berechtigt.",
+        "en": "Your objections are justified."
+      }
+    ]
+  },
+  {
+    "lemma": "einwenden",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3120,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ein",
+      "praeteritum": "wandte",
+      "partizip2": "eingewandt"
+    },
+    "senses": [
+      {
+        "en": "to object, to raise an objection",
+        "note": "trennbar: ein-; etwas gegen + Akkusativ einwenden",
+        "example_de": "Dagegen lässt sich nichts einwenden.",
+        "example_en": "There is nothing to object to that."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie wendet ein, dass der Plan zu teuer ist.",
+        "en": "She objects that the plan is too expensive."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er wandte ein, dass die Zeit fehlt.",
+        "en": "He objected that there is no time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Niemand hat etwas dagegen eingewandt.",
+        "en": "Nobody raised any objection to it."
+      }
+    ]
+  },
+  {
+    "lemma": "hervorheben",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3140,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "hervor",
+      "praeteritum": "hob",
+      "partizip2": "hervorgehoben"
+    },
+    "senses": [
+      {
+        "en": "to highlight, to emphasize",
+        "note": "trennbar: hervor-",
+        "example_de": "Sie hebt die Vorteile des Projekts hervor.",
+        "example_en": "She highlights the advantages of the project."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Bericht hebt zwei Punkte hervor.",
+        "en": "The report highlights two points."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er hob ihre gute Arbeit hervor.",
+        "en": "He emphasized her good work."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat diesen Aspekt besonders hervorgehoben.",
+        "en": "She particularly emphasized this aspect."
+      }
+    ]
+  },
+  {
+    "lemma": "Stellungnahme",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3160,
+    "noun": {
+      "gender": "f",
+      "plural": "Stellungnahmen"
+    },
+    "senses": [
+      {
+        "en": "statement (of one's position), comment",
+        "note": "Stellung nehmen zu + Dativ = to comment on",
+        "example_de": "Die Firma gab keine Stellungnahme zu dem Vorfall ab.",
+        "example_en": "The company gave no statement on the incident."
+      }
+    ]
+  },
+  {
+    "lemma": "äußern",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3180,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to express, to voice (an opinion)",
+        "note": "reflexiv: sich äußern (zu + Dativ)",
+        "example_de": "Er will sich zu dem Thema nicht äußern.",
+        "example_en": "He does not want to comment on the topic."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie äußert offen ihre Meinung.",
+        "en": "She openly expresses her opinion."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er äußerte starke Zweifel an dem Plan.",
+        "en": "He voiced strong doubts about the plan."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Minister hat sich noch nicht geäußert.",
+        "en": "The minister has not yet commented."
+      }
+    ]
+  },
+  {
+    "lemma": "Äußerung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3200,
+    "noun": {
+      "gender": "f",
+      "plural": "Äußerungen"
+    },
+    "senses": [
+      {
+        "en": "remark, statement",
+        "example_de": "Seine Äußerung hat viele Menschen geärgert.",
+        "example_en": "His remark annoyed many people."
+      }
+    ]
+  },
+  {
+    "lemma": "Auffassung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3220,
+    "noun": {
+      "gender": "f",
+      "plural": "Auffassungen"
+    },
+    "senses": [
+      {
+        "en": "view, conception",
+        "note": "der Auffassung sein, dass … = to hold the view that …",
+        "example_de": "Ich bin der Auffassung, dass wir warten sollten.",
+        "example_en": "I am of the view that we should wait."
+      }
+    ]
+  },
+  {
+    "lemma": "Überzeugung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3240,
+    "noun": {
+      "gender": "f",
+      "plural": "Überzeugungen"
+    },
+    "senses": [
+      {
+        "en": "conviction, firm belief",
+        "example_de": "Sie handelt aus fester Überzeugung.",
+        "example_en": "She acts out of firm conviction."
+      }
+    ]
+  },
+  {
+    "lemma": "überzeugend",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3260,
+    "senses": [
+      {
+        "en": "convincing, persuasive",
+        "example_de": "Ihre Rede war sehr überzeugend.",
+        "example_en": "Her speech was very convincing."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Sein zweites Argument war überzeugender als das erste.",
+        "en": "His second argument was more convincing than the first."
+      }
+    ]
+  },
+  {
+    "lemma": "überzeugt",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3280,
+    "senses": [
+      {
+        "en": "convinced",
+        "note": "überzeugt von + Dativ",
+        "example_de": "Ich bin von dieser Idee nicht überzeugt.",
+        "example_en": "I am not convinced by this idea."
+      }
+    ]
+  },
+  {
+    "lemma": "Vermutung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": {
+      "gender": "f",
+      "plural": "Vermutungen"
+    },
+    "senses": [
+      {
+        "en": "assumption, guess",
+        "example_de": "Das ist nur eine Vermutung, kein Beweis.",
+        "example_en": "That is only an assumption, not proof."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir wollen keine Vermutungen, sondern Fakten.",
+        "en": "We do not want guesses, but facts."
+      }
+    ]
+  },
+  {
+    "lemma": "Annahme",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3320,
+    "noun": {
+      "gender": "f",
+      "plural": "Annahmen"
+    },
+    "senses": [
+      {
+        "en": "assumption",
+        "example_de": "Deine Annahme ist leider falsch.",
+        "example_en": "Your assumption is unfortunately wrong."
+      }
+    ]
+  },
+  {
+    "lemma": "Behauptung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3340,
+    "noun": {
+      "gender": "f",
+      "plural": "Behauptungen"
+    },
+    "senses": [
+      {
+        "en": "claim, assertion",
+        "example_de": "Für diese Behauptung gibt es keinen Beweis.",
+        "example_en": "There is no proof for this claim."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Seine Behauptungen waren alle falsch.",
+        "en": "His claims were all false."
+      }
+    ]
+  },
+  {
+    "lemma": "anzweifeln",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3360,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "an"
+    },
+    "senses": [
+      {
+        "en": "to question, to cast doubt on",
+        "note": "trennbar: an-",
+        "example_de": "Er zweifelt das Ergebnis der Studie an.",
+        "example_en": "He questions the result of the study."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Warum zweifelst du meine Worte an?",
+        "en": "Why do you doubt my words?"
+      },
+      {
+        "tag": "perfekt",
+        "de": "Niemand hat seine Zahlen angezweifelt.",
+        "en": "Nobody questioned his figures."
+      }
+    ]
+  },
+  {
+    "lemma": "feststellen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3380,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "fest"
+    },
+    "senses": [
+      {
+        "en": "to establish, to notice, to state",
+        "note": "trennbar: fest-",
+        "example_de": "Ich stelle fest, dass wir noch keine Lösung haben.",
+        "example_en": "I note that we do not have a solution yet."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Arzt stellt keine Krankheit fest.",
+        "en": "The doctor finds no illness."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie stellte einen Fehler im Text fest.",
+        "en": "She noticed a mistake in the text."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben große Unterschiede festgestellt.",
+        "en": "We have found big differences."
+      }
+    ]
+  },
+  {
+    "lemma": "Feststellung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3400,
+    "noun": {
+      "gender": "f",
+      "plural": "Feststellungen"
+    },
+    "senses": [
+      {
+        "en": "observation, finding",
+        "example_de": "Diese Feststellung hat mich überrascht.",
+        "example_en": "This observation surprised me."
+      }
+    ]
+  },
+  {
+    "lemma": "beurteilen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3420,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beurteilt"
+    },
+    "senses": [
+      {
+        "en": "to judge, to assess",
+        "example_de": "Das kann ich noch nicht beurteilen.",
+        "example_en": "I cannot judge that yet."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wie beurteilst du die Lage?",
+        "en": "How do you assess the situation?"
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Lehrerin beurteilte die Arbeit fair.",
+        "en": "The teacher judged the work fairly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Situation falsch beurteilt.",
+        "en": "He assessed the situation wrongly."
+      }
+    ]
+  },
+  {
+    "lemma": "bewerten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3440,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "bewertet"
+    },
+    "senses": [
+      {
+        "en": "to evaluate, to rate",
+        "example_de": "Die Kunden bewerten das Produkt sehr positiv.",
+        "example_en": "The customers rate the product very positively."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wie bewertest du diesen Vorschlag?",
+        "en": "How do you rate this proposal?"
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Jury hat alle Arbeiten bewertet.",
+        "en": "The jury has evaluated all the works."
+      }
+    ]
+  },
+  {
+    "lemma": "Bewertung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3460,
+    "noun": {
+      "gender": "f",
+      "plural": "Bewertungen"
+    },
+    "senses": [
+      {
+        "en": "evaluation, rating, review",
+        "example_de": "Das Hotel hat sehr gute Bewertungen.",
+        "example_en": "The hotel has very good ratings."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ich lese vor dem Kauf immer die Bewertungen.",
+        "en": "I always read the reviews before buying."
+      }
+    ]
+  },
+  {
+    "lemma": "Zustimmung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3480,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "agreement, approval",
+        "example_de": "Der Vorschlag fand breite Zustimmung.",
+        "example_en": "The proposal met with broad approval."
+      }
+    ]
+  },
+  {
+    "lemma": "Lob",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3500,
+    "noun": {
+      "gender": "n",
+      "plural": null,
+      "genitive": "Lobes"
+    },
+    "senses": [
+      {
+        "en": "praise",
+        "example_de": "Für ihre Arbeit bekam sie viel Lob.",
+        "example_en": "She received a lot of praise for her work."
+      }
+    ]
+  },
+  {
+    "lemma": "debattieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3520,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "debattiert"
+    },
+    "senses": [
+      {
+        "en": "to debate",
+        "note": "debattieren über + Akkusativ",
+        "example_de": "Das Parlament debattiert über das neue Gesetz.",
+        "example_en": "The parliament is debating the new law."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Studenten debattieren über das Thema.",
+        "en": "The students are debating the topic."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben stundenlang debattiert.",
+        "en": "We debated for hours."
+      }
+    ]
+  },
+  {
+    "lemma": "Debatte",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3540,
+    "noun": {
+      "gender": "f",
+      "plural": "Debatten"
+    },
+    "senses": [
+      {
+        "en": "debate",
+        "example_de": "Die Debatte im Fernsehen war sehr lebhaft.",
+        "example_en": "The debate on television was very lively."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Über dieses Thema gab es viele Debatten.",
+        "en": "There were many debates about this topic."
+      }
+    ]
+  },
+  {
+    "lemma": "Einigung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3560,
+    "noun": {
+      "gender": "f",
+      "plural": "Einigungen"
+    },
+    "senses": [
+      {
+        "en": "agreement, settlement",
+        "example_de": "Nach langen Gesprächen kam es zu einer Einigung.",
+        "example_en": "After long talks, an agreement was reached."
+      }
+    ]
+  },
+  {
+    "lemma": "nachgeben",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3580,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "nach",
+      "du": "gibst",
+      "er": "gibt",
+      "praeteritum": "gab",
+      "partizip2": "nachgegeben"
+    },
+    "senses": [
+      {
+        "en": "to give in, to yield",
+        "note": "trennbar: nach-; + Dativ",
+        "example_de": "Am Ende gab er dem Druck nach.",
+        "example_en": "In the end he gave in to the pressure."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie gibt in der Diskussion nicht nach.",
+        "en": "She does not give in during the discussion."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Eltern gaben dem Kind schließlich nach.",
+        "en": "The parents finally gave in to the child."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Warum hast du so schnell nachgegeben?",
+        "en": "Why did you give in so quickly?"
+      }
+    ]
+  },
+  {
+    "lemma": "widerlegen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3600,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "widerlegt"
+    },
+    "senses": [
+      {
+        "en": "to refute, to disprove",
+        "example_de": "Die Studie widerlegt diese alte Theorie.",
+        "example_en": "The study refutes this old theory."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie widerlegt sein Argument mit einem Beispiel.",
+        "en": "She refutes his argument with an example."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Diese Behauptung wurde längst widerlegt.",
+        "en": "This claim was disproved long ago."
+      }
+    ]
+  },
+  {
+    "lemma": "befürworten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3620,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "befürwortet"
+    },
+    "senses": [
+      {
+        "en": "to support, to be in favor of",
+        "example_de": "Die Mehrheit befürwortet den neuen Plan.",
+        "example_en": "The majority is in favor of the new plan."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Ich befürworte diese Idee voll und ganz.",
+        "en": "I fully support this idea."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Rat hat das Projekt befürwortet.",
+        "en": "The council supported the project."
+      }
+    ]
+  },
+  {
+    "lemma": "bestreiten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3640,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "bestritt",
+      "partizip2": "bestritten"
+    },
+    "senses": [
+      {
+        "en": "to dispute, to deny",
+        "example_de": "Er bestreitet, das Auto gesehen zu haben.",
+        "example_en": "He denies having seen the car."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Niemand bestreitet, dass das Problem groß ist.",
+        "en": "Nobody disputes that the problem is big."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie bestritt alle Vorwürfe.",
+        "en": "She denied all accusations."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat das nie bestritten.",
+        "en": "He has never denied that."
+      }
+    ]
+  },
+  {
+    "lemma": "hinzufügen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3660,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "hinzu"
+    },
+    "senses": [
+      {
+        "en": "to add (a remark, an item)",
+        "note": "trennbar: hinzu-",
+        "example_de": "Möchten Sie noch etwas hinzufügen?",
+        "example_en": "Would you like to add anything else?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie fügt noch einen wichtigen Punkt hinzu.",
+        "en": "She adds another important point."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat seinem Bericht nichts hinzugefügt.",
+        "en": "He added nothing to his report."
+      }
+    ]
+  },
+  {
+    "lemma": "abwägen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3680,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab",
+      "praeteritum": "wog",
+      "partizip2": "abgewogen"
+    },
+    "senses": [
+      {
+        "en": "to weigh up, to consider carefully",
+        "note": "trennbar: ab-; das Für und Wider abwägen",
+        "example_de": "Wir müssen die Vorteile und Nachteile abwägen.",
+        "example_en": "We have to weigh up the advantages and disadvantages."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie wägt beide Möglichkeiten sorgfältig ab.",
+        "en": "She carefully weighs up both options."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben alle Argumente gegeneinander abgewogen.",
+        "en": "We weighed all the arguments against each other."
+      }
+    ]
+  },
+  {
+    "lemma": "These",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3700,
+    "noun": {
+      "gender": "f",
+      "plural": "Thesen"
+    },
+    "senses": [
+      {
+        "en": "thesis, proposition",
+        "example_de": "Seine These lässt sich gut begründen.",
+        "example_en": "His thesis can be well substantiated."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Der Autor stellt drei Thesen auf.",
+        "en": "The author puts forward three propositions."
+      }
+    ]
+  },
+  {
+    "lemma": "Begründung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3720,
+    "noun": {
+      "gender": "f",
+      "plural": "Begründungen"
+    },
+    "senses": [
+      {
+        "en": "justification, reasons given",
+        "example_de": "Er lehnte ab, ohne eine Begründung zu geben.",
+        "example_en": "He refused without giving a reason."
+      }
+    ]
+  },
+  {
+    "lemma": "Haltung",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3740,
+    "noun": {
+      "gender": "f",
+      "plural": "Haltungen"
+    },
+    "senses": [
+      {
+        "en": "attitude, stance",
+        "note": "Haltung zu + Dativ",
+        "example_de": "Ihre Haltung zu diesem Thema ist klar.",
+        "example_en": "Her stance on this topic is clear."
+      },
+      {
+        "en": "posture",
+        "example_de": "Beim Sitzen ist eine gerade Haltung wichtig.",
+        "example_en": "A straight posture is important when sitting."
+      }
+    ]
+  },
+  {
+    "lemma": "Sichtweise",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3760,
+    "noun": {
+      "gender": "f",
+      "plural": "Sichtweisen"
+    },
+    "senses": [
+      {
+        "en": "perspective, way of seeing things",
+        "example_de": "Versuch, auch meine Sichtweise zu verstehen.",
+        "example_en": "Try to understand my perspective too."
+      }
+    ]
+  },
+  {
+    "lemma": "Skepsis",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3780,
+    "noun": {
+      "gender": "f",
+      "plural": null
+    },
+    "senses": [
+      {
+        "en": "skepticism",
+        "example_de": "Viele sehen die neue Technik mit Skepsis.",
+        "example_en": "Many view the new technology with skepticism."
+      }
+    ]
+  },
+  {
+    "lemma": "skeptisch",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3800,
+    "senses": [
+      {
+        "en": "skeptical",
+        "example_de": "Ich bin skeptisch, ob der Plan funktioniert.",
+        "example_en": "I am skeptical whether the plan will work."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Nach dem Gespräch war sie noch skeptischer.",
+        "en": "After the conversation she was even more skeptical."
+      }
+    ]
+  },
+  {
+    "lemma": "subjektiv",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3820,
+    "senses": [
+      {
+        "en": "subjective",
+        "example_de": "Das ist nur mein subjektiver Eindruck.",
+        "example_en": "That is only my subjective impression."
+      }
+    ]
+  },
+  {
+    "lemma": "objektiv",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3840,
+    "senses": [
+      {
+        "en": "objective, impartial",
+        "example_de": "Ein Richter muss objektiv bleiben.",
+        "example_en": "A judge must remain objective."
+      }
+    ]
+  },
+  {
+    "lemma": "umstritten",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3860,
+    "senses": [
+      {
+        "en": "controversial, disputed",
+        "example_de": "Das neue Gesetz ist sehr umstritten.",
+        "example_en": "The new law is very controversial."
+      }
+    ]
+  },
+  {
+    "lemma": "offensichtlich",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3880,
+    "senses": [
+      {
+        "en": "obvious, evident",
+        "example_de": "Der Fehler ist offensichtlich.",
+        "example_en": "The mistake is obvious."
+      },
+      {
+        "en": "obviously, apparently (as adverb)",
+        "example_de": "Er hat offensichtlich keine Lust auf die Diskussion.",
+        "example_en": "He obviously has no desire for the discussion."
+      }
+    ]
+  },
+  {
+    "lemma": "hingegen",
+    "pos": "adv",
+    "level": "B2",
+    "freq": 3900,
+    "senses": [
+      {
+        "en": "on the other hand, however",
+        "note": "steht meist nach dem ersten Satzglied",
+        "example_de": "Anna mag die Stadt, ihr Bruder hingegen das Land.",
+        "example_en": "Anna likes the city; her brother, however, likes the countryside."
+      }
+    ]
+  }
+]

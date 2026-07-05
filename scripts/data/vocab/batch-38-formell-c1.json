@@ -1,0 +1,1228 @@
+[
+  {
+    "lemma": "zwecks",
+    "pos": "prep",
+    "level": "C1",
+    "freq": 4000,
+    "senses": [
+      {
+        "en": "for the purpose of",
+        "note": "+ Genitiv, formell",
+        "example_de": "Zwecks einer schnellen Antwort rufen Sie uns bitte an.",
+        "example_en": "For the purpose of a quick answer, please call us."
+      }
+    ]
+  },
+  {
+    "lemma": "infolge",
+    "pos": "prep",
+    "level": "C1",
+    "freq": 4015,
+    "senses": [
+      {
+        "en": "as a result of, owing to",
+        "note": "+ Genitiv, formell",
+        "example_de": "Infolge des schlechten Wetters fällt das Fest aus.",
+        "example_en": "As a result of the bad weather, the festival is cancelled."
+      }
+    ]
+  },
+  {
+    "lemma": "ungeachtet",
+    "pos": "prep",
+    "level": "C1",
+    "freq": 4030,
+    "senses": [
+      {
+        "en": "notwithstanding, regardless of",
+        "note": "+ Genitiv, formell",
+        "example_de": "Ungeachtet der Kritik hält er an seinem Plan fest.",
+        "example_en": "Notwithstanding the criticism, he sticks to his plan."
+      }
+    ]
+  },
+  {
+    "lemma": "obgleich",
+    "pos": "conj",
+    "level": "C1",
+    "freq": 4045,
+    "senses": [
+      {
+        "en": "although, even though",
+        "note": "Nebensatz; formeller als „obwohl“",
+        "example_de": "Er kam zur Arbeit, obgleich er krank war.",
+        "example_en": "He came to work although he was ill."
+      }
+    ]
+  },
+  {
+    "lemma": "demzufolge",
+    "pos": "adv",
+    "level": "C1",
+    "freq": 4060,
+    "senses": [
+      {
+        "en": "consequently, accordingly",
+        "note": "formell, schriftlich",
+        "example_de": "Die Kosten steigen; demzufolge müssen wir sparen.",
+        "example_en": "Costs are rising; consequently we have to save money."
+      }
+    ]
+  },
+  {
+    "lemma": "infolgedessen",
+    "pos": "adv",
+    "level": "C1",
+    "freq": 4075,
+    "senses": [
+      {
+        "en": "as a consequence, as a result",
+        "note": "formell, schriftlich",
+        "example_de": "Der Zug hatte Verspätung; infolgedessen verpasste sie den Termin.",
+        "example_en": "The train was delayed; as a consequence she missed the appointment."
+      }
+    ]
+  },
+  {
+    "lemma": "gewissermaßen",
+    "pos": "adv",
+    "level": "C1",
+    "freq": 4090,
+    "senses": [
+      {
+        "en": "in a way, so to speak",
+        "note": "formell",
+        "example_de": "Er ist gewissermaßen der Vater dieser Idee.",
+        "example_en": "He is, so to speak, the father of this idea."
+      }
+    ]
+  },
+  {
+    "lemma": "gleichermaßen",
+    "pos": "adv",
+    "level": "C1",
+    "freq": 4105,
+    "senses": [
+      {
+        "en": "equally, in equal measure",
+        "note": "formell",
+        "example_de": "Das Angebot gilt gleichermaßen für alte und neue Kunden.",
+        "example_en": "The offer applies equally to old and new customers."
+      }
+    ]
+  },
+  {
+    "lemma": "ebenso",
+    "pos": "adv",
+    "level": "C1",
+    "freq": 4120,
+    "senses": [
+      {
+        "en": "likewise, just as",
+        "example_de": "Der zweite Test war ebenso wichtig wie der erste.",
+        "example_en": "The second test was just as important as the first."
+      }
+    ]
+  },
+  {
+    "lemma": "vielmehr",
+    "pos": "adv",
+    "level": "C1",
+    "freq": 4135,
+    "senses": [
+      {
+        "en": "rather, on the contrary",
+        "note": "formell, schriftlich",
+        "example_de": "Das ist kein Fehler, vielmehr eine bewusste Entscheidung.",
+        "example_en": "That is not a mistake, but rather a deliberate decision."
+      }
+    ]
+  },
+  {
+    "lemma": "überdies",
+    "pos": "adv",
+    "level": "C1",
+    "freq": 4150,
+    "senses": [
+      {
+        "en": "moreover, furthermore",
+        "note": "formell, schriftlich",
+        "example_de": "Das Hotel ist teuer und liegt überdies weit vom Zentrum.",
+        "example_en": "The hotel is expensive and, moreover, far from the centre."
+      }
+    ]
+  },
+  {
+    "lemma": "ferner",
+    "pos": "adv",
+    "level": "C1",
+    "freq": 4165,
+    "senses": [
+      {
+        "en": "furthermore, in addition",
+        "note": "formell, schriftlich",
+        "example_de": "Ferner bitten wir Sie, das Formular zu unterschreiben.",
+        "example_en": "Furthermore, we ask you to sign the form."
+      }
+    ]
+  },
+  {
+    "lemma": "gegebenenfalls",
+    "pos": "adv",
+    "level": "C1",
+    "freq": 4180,
+    "senses": [
+      {
+        "en": "if necessary, where applicable",
+        "note": "formell; Abkürzung: ggf.",
+        "example_de": "Bringen Sie gegebenenfalls weitere Unterlagen mit.",
+        "example_en": "If necessary, bring additional documents with you."
+      }
+    ]
+  },
+  {
+    "lemma": "ableiten",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4195,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "ab"
+    },
+    "senses": [
+      {
+        "en": "to derive, to deduce (from)",
+        "note": "ableiten aus/von + Dativ",
+        "example_de": "Aus den Daten leiten wir eine klare Regel ab.",
+        "example_en": "From the data we derive a clear rule."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie leitet daraus eine These ab.",
+        "en": "She derives a thesis from it."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er leitete das Ergebnis aus dem Test ab.",
+        "en": "He derived the result from the test."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Regel aus Beispielen abgeleitet.",
+        "en": "We derived the rule from examples."
+      }
+    ]
+  },
+  {
+    "lemma": "erörtern",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4210,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erörtert"
+    },
+    "senses": [
+      {
+        "en": "to discuss (in depth), to examine",
+        "note": "formell, schriftlich",
+        "example_de": "Der Text erörtert die Vorteile und Nachteile der Stadtarbeit.",
+        "example_en": "The text discusses the advantages and disadvantages of working in the city."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir erörtern heute eine schwierige Frage.",
+        "en": "Today we are discussing a difficult question."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Die Gruppe erörterte das Problem lange.",
+        "en": "The group discussed the problem for a long time."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Thema haben wir schon erörtert.",
+        "en": "We have already discussed the topic."
+      }
+    ]
+  },
+  {
+    "lemma": "darlegen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4225,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "dar"
+    },
+    "senses": [
+      {
+        "en": "to set out, to explain (in detail)",
+        "note": "formell, schriftlich",
+        "example_de": "Bitte legen Sie Ihre Gründe schriftlich dar.",
+        "example_en": "Please set out your reasons in writing."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er legt seinen Plan Schritt für Schritt dar.",
+        "en": "He sets out his plan step by step."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie legte ihre Sicht ruhig dar.",
+        "en": "She calmly set out her point of view."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Firma hat ihre Position klar dargelegt.",
+        "en": "The company has clearly set out its position."
+      }
+    ]
+  },
+  {
+    "lemma": "veranschaulichen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4240,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "veranschaulicht"
+    },
+    "senses": [
+      {
+        "en": "to illustrate, to make vivid",
+        "note": "formell",
+        "example_de": "Ein Bild veranschaulicht die Zahlen besser als Worte.",
+        "example_en": "A picture illustrates the numbers better than words."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Beispiel veranschaulicht die Regel.",
+        "en": "The example illustrates the rule."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat das Problem mit einem Bild veranschaulicht.",
+        "en": "She illustrated the problem with a picture."
+      }
+    ]
+  },
+  {
+    "lemma": "erläutern",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4255,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "erläutert"
+    },
+    "senses": [
+      {
+        "en": "to explain, to elucidate",
+        "note": "formell",
+        "example_de": "Der Lehrer erläutert die neue Regel an einem Beispiel.",
+        "example_en": "The teacher explains the new rule with an example."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie erläutert kurz die wichtigsten Punkte.",
+        "en": "She briefly explains the most important points."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er erläuterte den Plan in der Sitzung.",
+        "en": "He explained the plan in the meeting."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das haben wir bereits erläutert.",
+        "en": "We have already explained that."
+      }
+    ]
+  },
+  {
+    "lemma": "widerlegen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4270,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "widerlegt"
+    },
+    "senses": [
+      {
+        "en": "to refute, to disprove",
+        "note": "formell",
+        "example_de": "Die neue Studie widerlegt die alte Theorie.",
+        "example_en": "The new study refutes the old theory."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er widerlegt das Argument mit einem Beispiel.",
+        "en": "He refutes the argument with an example."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie widerlegte diese Meinung schnell.",
+        "en": "She quickly refuted this opinion."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die These wurde noch nicht widerlegt.",
+        "en": "The thesis has not yet been refuted."
+      }
+    ]
+  },
+  {
+    "lemma": "untermauern",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4285,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "untermauert"
+    },
+    "senses": [
+      {
+        "en": "to underpin, to back up (with evidence)",
+        "note": "formell",
+        "example_de": "Sie untermauert ihre These mit vielen Zahlen.",
+        "example_en": "She backs up her thesis with many figures."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Autor untermauert sein Argument mit Beispielen.",
+        "en": "The author backs up his argument with examples."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat seine Meinung mit Fakten untermauert.",
+        "en": "He backed up his opinion with facts."
+      }
+    ]
+  },
+  {
+    "lemma": "gliedern",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4300,
+    "verb": {
+      "aux": "haben"
+    },
+    "senses": [
+      {
+        "en": "to structure, to organize (a text)",
+        "note": "gliedern in + Akkusativ",
+        "example_de": "Sie gliedert ihren Text in drei Teile.",
+        "example_en": "She structures her text into three parts."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er gliedert den Vortrag sehr klar.",
+        "en": "He structures the talk very clearly."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Wir gliederten den Bericht in fünf Kapitel.",
+        "en": "We organized the report into five chapters."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Hast du deine Arbeit schon gegliedert?",
+        "en": "Have you already structured your paper?"
+      }
+    ]
+  },
+  {
+    "lemma": "zusammenfassen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4315,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "zusammen"
+    },
+    "senses": [
+      {
+        "en": "to summarize, to sum up",
+        "example_de": "Am Ende fasst der Autor die Ergebnisse zusammen.",
+        "example_en": "At the end, the author summarizes the results."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie fasst den langen Text in fünf Sätzen zusammen.",
+        "en": "She summarizes the long text in five sentences."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er fasste die Diskussion kurz zusammen.",
+        "en": "He briefly summed up the discussion."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die wichtigsten Punkte zusammengefasst.",
+        "en": "I have summarized the most important points."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Fassen Sie den Artikel bitte zusammen!",
+        "en": "Please summarize the article!"
+      }
+    ]
+  },
+  {
+    "lemma": "hervorgehen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4330,
+    "verb": {
+      "aux": "sein",
+      "separablePrefix": "hervor",
+      "praeteritum": "ging",
+      "partizip2": "hervorgegangen"
+    },
+    "senses": [
+      {
+        "en": "to emerge, to be evident (from)",
+        "note": "hervorgehen aus + Dativ; formell",
+        "example_de": "Aus dem Brief geht hervor, dass er kündigen will.",
+        "example_en": "It is evident from the letter that he wants to resign."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Aus den Zahlen geht ein klares Bild hervor.",
+        "en": "A clear picture emerges from the figures."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Aus dem Bericht ging wenig Neues hervor.",
+        "en": "Little that was new emerged from the report."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Aus der Studie ist ein wichtiges Ergebnis hervorgegangen.",
+        "en": "An important result has emerged from the study."
+      }
+    ]
+  },
+  {
+    "lemma": "beruhen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4345,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "beruht"
+    },
+    "senses": [
+      {
+        "en": "to be based (on), to rest (on)",
+        "note": "beruhen auf + Dativ; formell",
+        "example_de": "Der Film beruht auf einer wahren Geschichte.",
+        "example_en": "The film is based on a true story."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Diese Regel beruht auf langer Erfahrung.",
+        "en": "This rule is based on long experience."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sein Erfolg beruhte auf harter Arbeit.",
+        "en": "His success was based on hard work."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Urteil hat auf klaren Fakten beruht.",
+        "en": "The judgment was based on clear facts."
+      }
+    ]
+  },
+  {
+    "lemma": "basieren",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4360,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "basiert"
+    },
+    "senses": [
+      {
+        "en": "to be based (on)",
+        "note": "basieren auf + Dativ",
+        "example_de": "Das Modell basiert auf aktuellen Daten.",
+        "example_en": "The model is based on current data."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Plan basiert auf drei einfachen Ideen.",
+        "en": "The plan is based on three simple ideas."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Studie hat auf alten Zahlen basiert.",
+        "en": "The study was based on old figures."
+      }
+    ]
+  },
+  {
+    "lemma": "verweisen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4375,
+    "verb": {
+      "aux": "haben",
+      "praeteritum": "verwies",
+      "partizip2": "verwiesen"
+    },
+    "senses": [
+      {
+        "en": "to refer (to), to point (to)",
+        "note": "verweisen auf + Akkusativ; formell",
+        "example_de": "Der Autor verweist auf eine ältere Studie.",
+        "example_en": "The author refers to an older study."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie verweist in ihrem Text auf drei Quellen.",
+        "en": "In her text she refers to three sources."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Er verwies auf die neuen Regeln.",
+        "en": "He pointed to the new rules."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Amt hat auf das Formular verwiesen.",
+        "en": "The office referred to the form."
+      }
+    ]
+  },
+  {
+    "lemma": "verfassen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4390,
+    "verb": {
+      "aux": "haben",
+      "partizip2": "verfasst"
+    },
+    "senses": [
+      {
+        "en": "to write, to compose (a text)",
+        "note": "formell, schriftlich",
+        "example_de": "Sie verfasst gerade einen langen Bericht.",
+        "example_en": "She is currently writing a long report."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er verfasst jede Woche einen Artikel.",
+        "en": "He writes an article every week."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie verfasste den Brief in einer Stunde.",
+        "en": "She composed the letter in an hour."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wer hat diesen Text verfasst?",
+        "en": "Who wrote this text?"
+      }
+    ]
+  },
+  {
+    "lemma": "aufzeigen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4405,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "auf"
+    },
+    "senses": [
+      {
+        "en": "to show, to point out (problems, ways)",
+        "note": "formell",
+        "example_de": "Der Bericht zeigt die größten Probleme auf.",
+        "example_en": "The report points out the biggest problems."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Studie zeigt neue Wege auf.",
+        "en": "The study points out new paths."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Sie zeigte die Schwächen des Plans auf.",
+        "en": "She pointed out the weaknesses of the plan."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat mehrere Fehler aufgezeigt.",
+        "en": "He has pointed out several mistakes."
+      }
+    ]
+  },
+  {
+    "lemma": "vorliegen",
+    "pos": "verb",
+    "level": "C1",
+    "freq": 4420,
+    "verb": {
+      "aux": "haben",
+      "separablePrefix": "vor",
+      "praeteritum": "lag",
+      "partizip2": "vorgelegen"
+    },
+    "senses": [
+      {
+        "en": "to be available, to be on hand (documents, results)",
+        "note": "formell, Amtssprache",
+        "example_de": "Das Ergebnis liegt noch nicht vor.",
+        "example_en": "The result is not yet available."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Alle Unterlagen liegen dem Amt vor.",
+        "en": "All documents are on hand at the office."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Damals lag noch kein Plan vor.",
+        "en": "At that time no plan was yet available."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Antrag hat rechtzeitig vorgelegen.",
+        "en": "The application was on hand in time."
+      }
+    ]
+  },
+  {
+    "lemma": "Erörterung",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4435,
+    "noun": {
+      "gender": "f",
+      "plural": "Erörterungen"
+    },
+    "senses": [
+      {
+        "en": "discussion, discursive essay",
+        "note": "formell; auch Textsorte in der Schule",
+        "example_de": "Die Erörterung dieser Frage dauerte zwei Stunden.",
+        "example_en": "The discussion of this question took two hours."
+      }
+    ]
+  },
+  {
+    "lemma": "Erläuterung",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4450,
+    "noun": {
+      "gender": "f",
+      "plural": "Erläuterungen"
+    },
+    "senses": [
+      {
+        "en": "explanation, clarification",
+        "note": "formell",
+        "example_de": "Zu jedem Punkt gibt es eine kurze Erläuterung.",
+        "example_en": "There is a short explanation for each point."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Erläuterungen stehen am Ende des Buches.",
+        "en": "The explanations are at the end of the book."
+      }
+    ]
+  },
+  {
+    "lemma": "Gliederung",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4465,
+    "noun": {
+      "gender": "f",
+      "plural": "Gliederungen"
+    },
+    "senses": [
+      {
+        "en": "outline, structure (of a text)",
+        "example_de": "Schreib zuerst eine Gliederung für deinen Aufsatz.",
+        "example_en": "First write an outline for your essay."
+      }
+    ]
+  },
+  {
+    "lemma": "Fazit",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4480,
+    "noun": {
+      "gender": "n",
+      "plural": "Fazits"
+    },
+    "senses": [
+      {
+        "en": "conclusion, bottom line",
+        "note": "ein Fazit ziehen = to draw a conclusion",
+        "example_de": "Am Ende des Artikels zieht die Autorin ein Fazit.",
+        "example_en": "At the end of the article, the author draws a conclusion."
+      }
+    ]
+  },
+  {
+    "lemma": "Resümee",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4495,
+    "noun": {
+      "gender": "n",
+      "plural": "Resümees"
+    },
+    "senses": [
+      {
+        "en": "summary, résumé (of results)",
+        "note": "formell; ein Resümee ziehen",
+        "example_de": "Nach dem Projekt zog das Team ein positives Resümee.",
+        "example_en": "After the project, the team drew a positive summary."
+      }
+    ]
+  },
+  {
+    "lemma": "Verweis",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4510,
+    "noun": {
+      "gender": "m",
+      "plural": "Verweise"
+    },
+    "senses": [
+      {
+        "en": "reference, cross-reference",
+        "note": "Verweis auf + Akkusativ",
+        "example_de": "Im Text steht ein Verweis auf Seite zwölf.",
+        "example_en": "In the text there is a reference to page twelve."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Verweise auf andere Quellen sind sehr hilfreich.",
+        "en": "The references to other sources are very helpful."
+      }
+    ]
+  },
+  {
+    "lemma": "Zitat",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4525,
+    "noun": {
+      "gender": "n",
+      "plural": "Zitate"
+    },
+    "senses": [
+      {
+        "en": "quotation, quote",
+        "example_de": "Der Aufsatz beginnt mit einem Zitat von Goethe.",
+        "example_en": "The essay begins with a quotation from Goethe."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Zitate brauchen eine genaue Quelle.",
+        "en": "All quotations need an exact source."
+      }
+    ]
+  },
+  {
+    "lemma": "Verfasser",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4540,
+    "noun": {
+      "gender": "m",
+      "plural": "Verfasser"
+    },
+    "senses": [
+      {
+        "en": "author, writer (of a text)",
+        "note": "formell; weiblich: die Verfasserin",
+        "example_de": "Der Verfasser des Briefes ist unbekannt.",
+        "example_en": "The author of the letter is unknown."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Verfasser der Studie arbeiten an der Universität.",
+        "en": "The authors of the study work at the university."
+      }
+    ]
+  },
+  {
+    "lemma": "Veröffentlichung",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4555,
+    "noun": {
+      "gender": "f",
+      "plural": "Veröffentlichungen"
+    },
+    "senses": [
+      {
+        "en": "publication",
+        "example_de": "Die Veröffentlichung des Berichts ist für Mai geplant.",
+        "example_en": "The publication of the report is planned for May."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ihre Veröffentlichungen sind in vielen Ländern bekannt.",
+        "en": "Her publications are known in many countries."
+      }
+    ]
+  },
+  {
+    "lemma": "Abhandlung",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4570,
+    "noun": {
+      "gender": "f",
+      "plural": "Abhandlungen"
+    },
+    "senses": [
+      {
+        "en": "treatise, scholarly paper",
+        "note": "formell, wissenschaftlich",
+        "example_de": "Er schrieb eine lange Abhandlung über die deutsche Sprache.",
+        "example_en": "He wrote a long treatise on the German language."
+      }
+    ]
+  },
+  {
+    "lemma": "Sachverhalt",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4585,
+    "noun": {
+      "gender": "m",
+      "plural": "Sachverhalte"
+    },
+    "senses": [
+      {
+        "en": "facts (of the case), circumstances",
+        "note": "formell, Amtssprache",
+        "example_de": "Die Polizei prüft den Sachverhalt genau.",
+        "example_en": "The police are examining the facts of the case closely."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Komplizierte Sachverhalte muss man einfach erklären.",
+        "en": "Complicated matters must be explained simply."
+      }
+    ]
+  },
+  {
+    "lemma": "Gegebenheit",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4600,
+    "noun": {
+      "gender": "f",
+      "plural": "Gegebenheiten"
+    },
+    "senses": [
+      {
+        "en": "given circumstance, condition",
+        "note": "formell; meist Plural",
+        "example_de": "Wir müssen uns an die lokalen Gegebenheiten anpassen.",
+        "example_en": "We have to adapt to the local circumstances."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Gegebenheiten vor Ort waren schwierig.",
+        "en": "The conditions on site were difficult."
+      }
+    ]
+  },
+  {
+    "lemma": "Umstand",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4615,
+    "noun": {
+      "gender": "m",
+      "plural": "Umstände"
+    },
+    "senses": [
+      {
+        "en": "circumstance, factor",
+        "note": "unter diesen Umständen = under these circumstances",
+        "example_de": "Ein glücklicher Umstand rettete das Projekt.",
+        "example_en": "A fortunate circumstance saved the project."
+      },
+      {
+        "en": "trouble, inconvenience (plural)",
+        "note": "keine Umstände machen = to cause no trouble",
+        "example_de": "Bitte machen Sie sich keine Umstände.",
+        "example_en": "Please don't go to any trouble."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Unter diesen Umständen bleiben wir zu Hause.",
+        "en": "Under these circumstances we are staying at home."
+      }
+    ]
+  },
+  {
+    "lemma": "These",
+    "pos": "noun",
+    "level": "C1",
+    "freq": 4630,
+    "noun": {
+      "gender": "f",
+      "plural": "Thesen"
+    },
+    "senses": [
+      {
+        "en": "thesis, proposition",
+        "note": "eine These aufstellen = to put forward a thesis",
+        "example_de": "Seine These ist einfach: Lesen macht klug.",
+        "example_en": "His thesis is simple: reading makes you smart."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Thesen des Buches sind sehr mutig.",
+        "en": "The book's propositions are very bold."
+      }
+    ]
+  },
+  {
+    "lemma": "erheblich",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4645,
+    "senses": [
+      {
+        "en": "considerable, substantial",
+        "note": "formell",
+        "example_de": "Der Sturm hat erhebliche Schäden verursacht.",
+        "example_en": "The storm caused considerable damage."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Die Preise sind erheblich gestiegen.",
+        "en": "Prices have risen considerably."
+      }
+    ]
+  },
+  {
+    "lemma": "umfassend",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4660,
+    "senses": [
+      {
+        "en": "comprehensive, extensive",
+        "note": "formell",
+        "example_de": "Das Buch gibt einen umfassenden Überblick über das Thema.",
+        "example_en": "The book gives a comprehensive overview of the topic."
+      }
+    ]
+  },
+  {
+    "lemma": "erforderlich",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4675,
+    "senses": [
+      {
+        "en": "required, necessary",
+        "note": "formell, Amtssprache",
+        "example_de": "Für den Antrag ist ein gültiger Pass erforderlich.",
+        "example_en": "A valid passport is required for the application."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "negation",
+        "de": "Eine Anmeldung ist nicht erforderlich.",
+        "en": "Registration is not required."
+      }
+    ]
+  },
+  {
+    "lemma": "differenziert",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4690,
+    "senses": [
+      {
+        "en": "nuanced, sophisticated (view, analysis)",
+        "note": "formell",
+        "example_de": "Der Artikel bietet eine differenzierte Sicht auf das Problem.",
+        "example_en": "The article offers a nuanced view of the problem."
+      }
+    ]
+  },
+  {
+    "lemma": "hinreichend",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4705,
+    "senses": [
+      {
+        "en": "sufficient, adequate",
+        "note": "formell",
+        "example_de": "Es gibt keine hinreichenden Beweise gegen ihn.",
+        "example_en": "There is no sufficient evidence against him."
+      }
+    ]
+  },
+  {
+    "lemma": "maßgeblich",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4720,
+    "senses": [
+      {
+        "en": "decisive, significant, authoritative",
+        "note": "formell",
+        "example_de": "Sie hatte einen maßgeblichen Anteil am Erfolg.",
+        "example_en": "She played a decisive part in the success."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "allgemein",
+        "de": "Er war maßgeblich an dem Projekt beteiligt.",
+        "en": "He was significantly involved in the project."
+      }
+    ]
+  },
+  {
+    "lemma": "unerlässlich",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4735,
+    "senses": [
+      {
+        "en": "indispensable, essential",
+        "note": "formell",
+        "example_de": "Gute Vorbereitung ist für die Prüfung unerlässlich.",
+        "example_en": "Good preparation is essential for the exam."
+      }
+    ]
+  },
+  {
+    "lemma": "stichhaltig",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4750,
+    "senses": [
+      {
+        "en": "sound, valid (argument, evidence)",
+        "note": "formell",
+        "example_de": "Sein Argument war leider nicht stichhaltig.",
+        "example_en": "Unfortunately, his argument was not sound."
+      }
+    ]
+  },
+  {
+    "lemma": "plausibel",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4765,
+    "senses": [
+      {
+        "en": "plausible, credible",
+        "example_de": "Ihre Erklärung klingt sehr plausibel.",
+        "example_en": "Her explanation sounds very plausible."
+      }
+    ]
+  },
+  {
+    "lemma": "prägnant",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4780,
+    "senses": [
+      {
+        "en": "concise, succinct",
+        "note": "formell",
+        "example_de": "Der Titel ist kurz und prägnant.",
+        "example_en": "The title is short and succinct."
+      }
+    ]
+  },
+  {
+    "lemma": "schlüssig",
+    "pos": "adj",
+    "level": "C1",
+    "freq": 4795,
+    "senses": [
+      {
+        "en": "conclusive, coherent (argument)",
+        "note": "formell",
+        "example_de": "Seine Argumentation war klar und schlüssig.",
+        "example_en": "His line of argument was clear and coherent."
+      }
+    ]
+  }
+]

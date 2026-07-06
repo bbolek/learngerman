@@ -14,6 +14,11 @@ Notifications.setNotificationHandler({
 });
 
 const HORIZON_DAYS = 7;
+// v2: the original channel shipped with DEFAULT importance, and Android locks a
+// channel's importance after creation — a new id is the only way to raise it on
+// devices that already created the old channel.
+const CHANNEL_ID = 'vocab-reminders-v2';
+const LEGACY_CHANNEL_ID = 'vocab-reminders';
 // iOS caps pending local notifications at 64; stay under it. At a 30-minute
 // interval in a 12-hour window this buffers ~2.5 days between app opens
 // (the buffer is also topped up whenever the app returns to the foreground).
@@ -45,10 +50,13 @@ export async function rescheduleNotifications(
   const granted = await requestNotificationPermission();
   if (!granted) return 'permission-denied';
 
+  // HIGH importance so reminders surface as heads-up banners while the app is
+  // backgrounded; DEFAULT only drops them silently into the tray.
   if (Platform.OS === 'android') {
-    await Notifications.setNotificationChannelAsync('vocab-reminders', {
+    await Notifications.deleteNotificationChannelAsync(LEGACY_CHANNEL_ID).catch(() => {});
+    await Notifications.setNotificationChannelAsync(CHANNEL_ID, {
       name: 'Vokabel-Erinnerungen',
-      importance: Notifications.AndroidImportance.DEFAULT,
+      importance: Notifications.AndroidImportance.HIGH,
     });
   }
 
@@ -65,7 +73,12 @@ export async function rescheduleNotifications(
         body: word.example_de ? `${word.gloss} — ${word.example_de}` : word.gloss,
         data: { lemmaId: word.lemma_id },
       },
-      trigger: { type: Notifications.SchedulableTriggerInputTypes.DATE, date },
+      // channelId routes Android delivery through the channel above; without it
+      // notifications land on expo's auto-created fallback channel. Exact
+      // delivery while the device dozes additionally needs SCHEDULE_EXACT_ALARM
+      // (declared in app.json) — without it Android 12+ downgrades these alarms
+      // to inexact ones that Doze defers for hours once the app is backgrounded.
+      trigger: { type: Notifications.SchedulableTriggerInputTypes.DATE, date, channelId: CHANNEL_ID },
     });
     scheduled++;
   }

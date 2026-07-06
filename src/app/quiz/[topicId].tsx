@@ -56,6 +56,7 @@ export default function QuizScreen() {
   const [topic, setTopic] = useState<TopicRow | null>(null);
   const [questions, setQuestions] = useState<QuestionRow[] | null>(null);
   const [showExplainer, setShowExplainer] = useState(false);
+  const [introExplainer, setIntroExplainer] = useState(false);
   const [index, setIndex] = useState(0);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
@@ -67,7 +68,9 @@ export default function QuizScreen() {
     if (!Number.isFinite(id)) return;
     getTopic(id).then((topicRow) => {
       setTopic(topicRow);
-      setShowExplainer((topicRow?.attempts ?? 0) === 0);
+      const firstVisit = (topicRow?.attempts ?? 0) === 0;
+      setShowExplainer(firstVisit);
+      setIntroExplainer(firstVisit);
     });
     pickQuestions(id, ROUND_SIZE).then(setQuestions);
   }, [id]);
@@ -104,7 +107,9 @@ export default function QuizScreen() {
     return (
       <View style={[styles.fill, { backgroundColor: t.bg, paddingTop: insets.top + spacing.md }]}>
         <ScrollView contentContainerStyle={{ padding: spacing.lg, paddingBottom: 120 }}>
-          <Pressable hitSlop={10} onPress={() => router.back()}>
+          <Pressable
+            hitSlop={10}
+            onPress={() => (introExplainer ? router.back() : setShowExplainer(false))}>
             <Ionicons name="close" size={24} color={t.inkMuted} />
           </Pressable>
           <AppText variant="title" style={{ marginTop: spacing.md }}>
@@ -125,10 +130,13 @@ export default function QuizScreen() {
         </ScrollView>
         <View style={[styles.footer, { paddingBottom: insets.bottom + spacing.md }]}>
           <Pressable
-            onPress={() => setShowExplainer(false)}
+            onPress={() => {
+              setShowExplainer(false);
+              setIntroExplainer(false);
+            }}
             style={[styles.cta, { backgroundColor: t.primary }]}>
             <AppText variant="subtitle" color="#fff">
-              Los geht's! →
+              {introExplainer ? "Los geht's! →" : 'Zurück zur Übung →'}
             </AppText>
           </Pressable>
         </View>
@@ -195,6 +203,9 @@ export default function QuizScreen() {
         <AppText variant="caption" muted>
           {index + 1}/{questions.length}
         </AppText>
+        <Pressable hitSlop={10} onPress={() => setShowExplainer(true)}>
+          <Ionicons name="book-outline" size={22} color={t.inkMuted} />
+        </Pressable>
       </View>
 
       <ScrollView

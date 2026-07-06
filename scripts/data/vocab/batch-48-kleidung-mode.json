@@ -1,0 +1,830 @@
+[
+  {
+    "lemma": "Ärmel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1440,
+    "noun": { "gender": "m", "plural": "Ärmel" },
+    "senses": [
+      {
+        "en": "sleeve",
+        "example_de": "Der Ärmel ist zu lang.",
+        "example_en": "The sleeve is too long."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Sommer trage ich kurze Ärmel.",
+        "en": "In summer I wear short sleeves."
+      }
+    ]
+  },
+  {
+    "lemma": "Kragen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": { "gender": "m", "plural": "Kragen" },
+    "senses": [
+      {
+        "en": "collar",
+        "example_de": "Der Kragen von dem Hemd ist schmutzig.",
+        "example_en": "The collar of the shirt is dirty."
+      }
+    ]
+  },
+  {
+    "lemma": "Knopf",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1430,
+    "noun": { "gender": "m", "plural": "Knöpfe", "genitive": "Knopfes" },
+    "senses": [
+      {
+        "en": "button",
+        "example_de": "An meiner Jacke fehlt ein Knopf.",
+        "example_en": "A button is missing from my jacket."
+      },
+      {
+        "en": "button, knob (on a device)",
+        "example_de": "Drück auf den roten Knopf!",
+        "example_en": "Press the red button!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Knöpfe an dem Mantel sind aus Holz.",
+        "en": "The buttons on the coat are made of wood."
+      }
+    ]
+  },
+  {
+    "lemma": "Reißverschluss",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": { "gender": "m", "plural": "Reißverschlüsse", "genitive": "Reißverschlusses" },
+    "senses": [
+      {
+        "en": "zipper",
+        "example_de": "Der Reißverschluss ist kaputt.",
+        "example_en": "The zipper is broken."
+      }
+    ]
+  },
+  {
+    "lemma": "Wolle",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1470,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "wool",
+        "example_de": "Der Pullover ist aus warmer Wolle.",
+        "example_en": "The sweater is made of warm wool."
+      }
+    ]
+  },
+  {
+    "lemma": "Muster",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "n", "plural": "Muster" },
+    "senses": [
+      {
+        "en": "pattern",
+        "example_de": "Das Kleid hat ein schönes Muster.",
+        "example_en": "The dress has a beautiful pattern."
+      },
+      {
+        "en": "sample, model",
+        "example_de": "Der Laden schickt uns ein Muster von dem Stoff.",
+        "example_en": "The shop is sending us a sample of the fabric."
+      }
+    ]
+  },
+  {
+    "lemma": "Baumwolle",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1580,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "cotton",
+        "example_de": "Das T-Shirt ist aus Baumwolle.",
+        "example_en": "The T-shirt is made of cotton."
+      }
+    ]
+  },
+  {
+    "lemma": "Seide",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "silk",
+        "example_de": "Die Bluse aus Seide war sehr teuer.",
+        "example_en": "The silk blouse was very expensive."
+      }
+    ]
+  },
+  {
+    "lemma": "Leinen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "linen",
+        "example_de": "Im Sommer sind Hemden aus Leinen angenehm.",
+        "example_en": "In summer, linen shirts are comfortable."
+      }
+    ]
+  },
+  {
+    "lemma": "Faden",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": { "gender": "m", "plural": "Fäden" },
+    "senses": [
+      {
+        "en": "thread",
+        "example_de": "Ich brauche Nadel und Faden.",
+        "example_en": "I need a needle and thread."
+      }
+    ]
+  },
+  {
+    "lemma": "Unterwäsche",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1520,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "underwear",
+        "example_de": "Frische Unterwäsche liegt im Schrank.",
+        "example_en": "Fresh underwear is in the wardrobe."
+      }
+    ]
+  },
+  {
+    "lemma": "Jeans",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1390,
+    "noun": { "gender": "f", "plural": "Jeans" },
+    "senses": [
+      {
+        "en": "jeans",
+        "example_de": "Sie trägt fast immer Jeans.",
+        "example_en": "She almost always wears jeans."
+      }
+    ]
+  },
+  {
+    "lemma": "T-Shirt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": { "gender": "n", "plural": "T-Shirts" },
+    "senses": [
+      {
+        "en": "T-shirt",
+        "example_de": "Er kauft ein rotes T-Shirt.",
+        "example_en": "He is buying a red T-shirt."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Ich habe zu viele T-Shirts.",
+        "en": "I have too many T-shirts."
+      }
+    ]
+  },
+  {
+    "lemma": "Kapuze",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "f", "plural": "Kapuzen" },
+    "senses": [
+      {
+        "en": "hood",
+        "example_de": "Bei Regen ziehe ich die Kapuze über den Kopf.",
+        "example_en": "When it rains, I pull the hood over my head."
+      }
+    ]
+  },
+  {
+    "lemma": "Absatz",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": { "gender": "m", "plural": "Absätze", "genitive": "Absatzes" },
+    "senses": [
+      {
+        "en": "heel (of a shoe)",
+        "example_de": "Sie trägt Schuhe mit hohen Absätzen.",
+        "example_en": "She wears shoes with high heels."
+      },
+      {
+        "en": "paragraph",
+        "example_de": "Lies bitte den ersten Absatz vor.",
+        "example_en": "Please read the first paragraph aloud."
+      }
+    ]
+  },
+  {
+    "lemma": "Sohle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": { "gender": "f", "plural": "Sohlen" },
+    "senses": [
+      {
+        "en": "sole (of a shoe)",
+        "example_de": "Die Sohle von meinem Schuh ist kaputt.",
+        "example_en": "The sole of my shoe is broken."
+      }
+    ]
+  },
+  {
+    "lemma": "Schnürsenkel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": { "gender": "m", "plural": "Schnürsenkel" },
+    "senses": [
+      {
+        "en": "shoelace",
+        "example_de": "Dein Schnürsenkel ist offen.",
+        "example_en": "Your shoelace is untied."
+      }
+    ]
+  },
+  {
+    "lemma": "Badehose",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1620,
+    "noun": { "gender": "f", "plural": "Badehosen" },
+    "senses": [
+      {
+        "en": "swim trunks",
+        "example_de": "Vergiss deine Badehose nicht!",
+        "example_en": "Don't forget your swim trunks!"
+      }
+    ]
+  },
+  {
+    "lemma": "Bademantel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": { "gender": "m", "plural": "Bademäntel" },
+    "senses": [
+      {
+        "en": "bathrobe",
+        "example_de": "Nach der Dusche ziehe ich den Bademantel an.",
+        "example_en": "After the shower I put on the bathrobe."
+      }
+    ]
+  },
+  {
+    "lemma": "Strumpf",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1650,
+    "noun": { "gender": "m", "plural": "Strümpfe", "genitive": "Strumpfes" },
+    "senses": [
+      {
+        "en": "stocking, long sock",
+        "example_de": "Im Winter trage ich dicke Strümpfe.",
+        "example_en": "In winter I wear thick stockings."
+      }
+    ]
+  },
+  {
+    "lemma": "Hausschuh",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1660,
+    "noun": { "gender": "m", "plural": "Hausschuhe" },
+    "senses": [
+      {
+        "en": "slipper",
+        "example_de": "Zu Hause trage ich Hausschuhe.",
+        "example_en": "At home I wear slippers."
+      }
+    ]
+  },
+  {
+    "lemma": "Armband",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1630,
+    "noun": { "gender": "n", "plural": "Armbänder" },
+    "senses": [
+      {
+        "en": "bracelet",
+        "example_de": "Sie hat ein Armband aus Silber bekommen.",
+        "example_en": "She got a silver bracelet."
+      }
+    ]
+  },
+  {
+    "lemma": "Trend",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": { "gender": "m", "plural": "Trends" },
+    "senses": [
+      {
+        "en": "trend",
+        "example_de": "Weite Hosen sind gerade ein großer Trend.",
+        "example_en": "Wide trousers are a big trend right now."
+      }
+    ]
+  },
+  {
+    "lemma": "Material",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1930,
+    "noun": { "gender": "n", "plural": "Materialien" },
+    "senses": [
+      {
+        "en": "material",
+        "example_de": "Aus welchem Material ist die Jacke?",
+        "example_en": "What material is the jacket made of?"
+      }
+    ]
+  },
+  {
+    "lemma": "Naht",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3200,
+    "noun": { "gender": "f", "plural": "Nähte" },
+    "senses": [
+      {
+        "en": "seam",
+        "example_de": "Die Naht an der Hose ist aufgegangen.",
+        "example_en": "The seam on the trousers has come apart."
+      }
+    ]
+  },
+  {
+    "lemma": "Strickjacke",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "f", "plural": "Strickjacken" },
+    "senses": [
+      {
+        "en": "cardigan",
+        "example_de": "Abends ziehe ich eine Strickjacke über.",
+        "example_en": "In the evening I put on a cardigan."
+      }
+    ]
+  },
+  {
+    "lemma": "Weste",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": { "gender": "f", "plural": "Westen" },
+    "senses": [
+      {
+        "en": "vest, waistcoat",
+        "example_de": "Zu dem Anzug trägt er eine graue Weste.",
+        "example_en": "He wears a gray waistcoat with the suit."
+      }
+    ]
+  },
+  {
+    "lemma": "Kapuzenpullover",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2550,
+    "noun": { "gender": "m", "plural": "Kapuzenpullover" },
+    "senses": [
+      {
+        "en": "hoodie",
+        "note": "umgangssprachlich auch: der Hoodie",
+        "example_de": "Der graue Kapuzenpullover ist sehr bequem.",
+        "example_en": "The gray hoodie is very comfortable."
+      }
+    ]
+  },
+  {
+    "lemma": "Jogginghose",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1680,
+    "noun": { "gender": "f", "plural": "Jogginghosen" },
+    "senses": [
+      {
+        "en": "sweatpants",
+        "example_de": "Am Wochenende trage ich gern Jogginghosen.",
+        "example_en": "On weekends I like to wear sweatpants."
+      }
+    ]
+  },
+  {
+    "lemma": "Kleiderbügel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1690,
+    "noun": { "gender": "m", "plural": "Kleiderbügel" },
+    "senses": [
+      {
+        "en": "clothes hanger",
+        "example_de": "Häng das Hemd auf einen Kleiderbügel.",
+        "example_en": "Hang the shirt on a hanger."
+      }
+    ]
+  },
+  {
+    "lemma": "Nähmaschine",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2600,
+    "noun": { "gender": "f", "plural": "Nähmaschinen" },
+    "senses": [
+      {
+        "en": "sewing machine",
+        "example_de": "Meine Oma näht alles mit der Nähmaschine.",
+        "example_en": "My grandma sews everything with the sewing machine."
+      }
+    ]
+  },
+  {
+    "lemma": "Schneider",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2480,
+    "noun": { "gender": "m", "plural": "Schneider" },
+    "senses": [
+      {
+        "en": "tailor",
+        "example_de": "Der Schneider macht die Hose kürzer.",
+        "example_en": "The tailor is shortening the trousers."
+      }
+    ]
+  },
+  {
+    "lemma": "Nachthemd",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2560,
+    "noun": { "gender": "n", "plural": "Nachthemden" },
+    "senses": [
+      {
+        "en": "nightgown",
+        "example_de": "Sie schläft am liebsten im Nachthemd.",
+        "example_en": "She prefers to sleep in a nightgown."
+      }
+    ]
+  },
+  {
+    "lemma": "Regenjacke",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1670,
+    "noun": { "gender": "f", "plural": "Regenjacken" },
+    "senses": [
+      {
+        "en": "rain jacket",
+        "example_de": "Nimm die Regenjacke mit, es regnet gleich.",
+        "example_en": "Take the rain jacket, it's about to rain."
+      }
+    ]
+  },
+  {
+    "lemma": "Fleck",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1610,
+    "noun": { "gender": "m", "plural": "Flecken" },
+    "senses": [
+      {
+        "en": "stain, spot",
+        "example_de": "Auf dem Hemd ist ein Fleck.",
+        "example_en": "There is a stain on the shirt."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Hose hat viele Flecken.",
+        "en": "The trousers have many stains."
+      }
+    ]
+  },
+  {
+    "lemma": "Loch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "n", "plural": "Löcher", "genitive": "Loches" },
+    "senses": [
+      {
+        "en": "hole",
+        "example_de": "In meiner Socke ist ein Loch.",
+        "example_en": "There is a hole in my sock."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die alte Jeans hat Löcher an den Knien.",
+        "en": "The old jeans have holes at the knees."
+      }
+    ]
+  },
+  {
+    "lemma": "Stil",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1990,
+    "noun": { "gender": "m", "plural": "Stile" },
+    "senses": [
+      {
+        "en": "style",
+        "example_de": "Sie hat ihren eigenen Stil gefunden.",
+        "example_en": "She has found her own style."
+      }
+    ]
+  },
+  {
+    "lemma": "Fliege",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1420,
+    "noun": { "gender": "f", "plural": "Fliegen" },
+    "senses": [
+      {
+        "en": "fly (insect)",
+        "example_de": "Eine Fliege sitzt auf dem Tisch.",
+        "example_en": "A fly is sitting on the table."
+      },
+      {
+        "en": "bow tie",
+        "example_de": "Zum Fest trägt er Hemd und Fliege.",
+        "example_en": "He wears a shirt and bow tie to the party."
+      }
+    ]
+  },
+  {
+    "lemma": "Pelz",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3400,
+    "noun": { "gender": "m", "plural": "Pelze", "genitive": "Pelzes" },
+    "senses": [
+      {
+        "en": "fur",
+        "example_de": "Viele Leute lehnen Mäntel aus echtem Pelz ab.",
+        "example_en": "Many people reject coats made of real fur."
+      }
+    ]
+  },
+  {
+    "lemma": "zuknöpfen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2520,
+    "verb": { "aux": "haben", "separablePrefix": "zu" },
+    "senses": [
+      {
+        "en": "to button up",
+        "example_de": "Knöpf deinen Mantel zu, es ist kalt!",
+        "example_en": "Button up your coat, it's cold!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er knöpft seine Jacke zu.",
+        "en": "He buttons up his jacket."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Hemd falsch zugeknöpft.",
+        "en": "I buttoned the shirt up wrong."
+      }
+    ]
+  },
+  {
+    "lemma": "zusammenpassen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2040,
+    "verb": { "aux": "haben", "separablePrefix": "zusammen" },
+    "senses": [
+      {
+        "en": "to go together, to match",
+        "example_de": "Die Schuhe und die Tasche passen gut zusammen.",
+        "example_en": "The shoes and the bag go well together."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Passen das Hemd und die Hose zusammen?",
+        "en": "Do the shirt and the trousers match?"
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Farben haben nicht zusammengepasst.",
+        "en": "The colors didn't match."
+      }
+    ]
+  },
+  {
+    "lemma": "färben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2020,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to dye, to color",
+        "example_de": "Sie färbt ihre Haare rot.",
+        "example_en": "She dyes her hair red."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er färbt das alte T-Shirt schwarz.",
+        "en": "He is dyeing the old T-shirt black."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Stoff blau gefärbt.",
+        "en": "I dyed the fabric blue."
+      }
+    ]
+  },
+  {
+    "lemma": "reißen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2170,
+    "verb": { "aux": "haben", "praeteritum": "riss", "partizip2": "gerissen" },
+    "senses": [
+      {
+        "en": "to tear, to rip",
+        "note": "intransitiv mit sein: Die Hose ist gerissen.",
+        "example_de": "Pass auf, sonst reißt der Stoff!",
+        "example_en": "Be careful, or the fabric will tear!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das dünne Papier reißt leicht.",
+        "en": "The thin paper tears easily."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Der Faden riss plötzlich.",
+        "en": "The thread suddenly broke."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat den Brief in Stücke gerissen.",
+        "en": "He tore the letter into pieces."
+      }
+    ]
+  },
+  {
+    "lemma": "gepunktet",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1640,
+    "senses": [
+      {
+        "en": "polka-dotted, spotted",
+        "example_de": "Sie trägt ein gepunktetes Kleid.",
+        "example_en": "She is wearing a polka-dotted dress."
+      }
+    ]
+  },
+  {
+    "lemma": "modisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2010,
+    "senses": [
+      {
+        "en": "fashionable, stylish",
+        "example_de": "Die Brille ist gerade sehr modisch.",
+        "example_en": "Those glasses are very fashionable right now."
+      }
+    ]
+  },
+  {
+    "lemma": "elegant",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1960,
+    "senses": [
+      {
+        "en": "elegant",
+        "example_de": "Sie trägt ein elegantes schwarzes Kleid.",
+        "example_en": "She is wearing an elegant black dress."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Der lange Mantel ist eleganter als die Jacke.",
+        "en": "The long coat is more elegant than the jacket."
+      },
+      {
+        "tag": "superlativ",
+        "de": "Das ist das eleganteste Kleid im Laden.",
+        "en": "That is the most elegant dress in the shop."
+      }
+    ]
+  },
+  {
+    "lemma": "altmodisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2080,
+    "senses": [
+      {
+        "en": "old-fashioned",
+        "example_de": "Der Hut sieht ein bisschen altmodisch aus.",
+        "example_en": "The hat looks a little old-fashioned."
+      }
+    ]
+  },
+  {
+    "lemma": "wasserdicht",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2380,
+    "senses": [
+      {
+        "en": "waterproof",
+        "example_de": "Meine neuen Stiefel sind wasserdicht.",
+        "example_en": "My new boots are waterproof."
+      }
+    ]
+  },
+  {
+    "lemma": "einfarbig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2420,
+    "senses": [
+      {
+        "en": "plain, single-colored",
+        "example_de": "Zu dem bunten Rock passt ein einfarbiges Oberteil.",
+        "example_en": "A plain top goes with the colorful skirt."
+      }
+    ]
+  },
+  {
+    "lemma": "hochwertig",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3100,
+    "senses": [
+      {
+        "en": "high-quality",
+        "example_de": "Der Mantel ist aus hochwertigem Stoff.",
+        "example_en": "The coat is made of high-quality fabric."
+      }
+    ]
+  },
+  {
+    "lemma": "lässig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2280,
+    "senses": [
+      {
+        "en": "casual, relaxed",
+        "example_de": "Im Büro darf man sich lässig anziehen.",
+        "example_en": "You can dress casually at the office."
+      }
+    ]
+  }
+]

@@ -15,6 +15,11 @@
     "emoji": "🐒"
   },
   {
+    "lemma": "Akkordeon",
+    "pos": "noun",
+    "emoji": "🪗"
+  },
+  {
     "lemma": "Ameise",
     "pos": "noun",
     "emoji": "🐜"
@@ -70,6 +75,11 @@
     "emoji": "🚗"
   },
   {
+    "lemma": "Axt",
+    "pos": "noun",
+    "emoji": "🪓"
+  },
+  {
     "lemma": "Baby",
     "pos": "noun",
     "emoji": "👶"
@@ -88,6 +98,11 @@
     "lemma": "Badeanzug",
     "pos": "noun",
     "emoji": "🩱"
+  },
+  {
+    "lemma": "Badehose",
+    "pos": "noun",
+    "emoji": "🩳"
   },
   {
     "lemma": "Bahn",
@@ -396,6 +411,11 @@
     "emoji": "🏭"
   },
   {
+    "lemma": "Faden",
+    "pos": "noun",
+    "emoji": "🧵"
+  },
+  {
     "lemma": "Fähre",
     "pos": "noun",
     "emoji": "⛴️"
@@ -504,6 +524,16 @@
     "lemma": "Fleisch",
     "pos": "noun",
     "emoji": "🥩"
+  },
+  {
+    "lemma": "Fliege",
+    "pos": "noun",
+    "emoji": "🪰"
+  },
+  {
+    "lemma": "Flöte",
+    "pos": "noun",
+    "emoji": "🪈"
   },
   {
     "lemma": "Flughafen",
@@ -696,6 +726,11 @@
     "emoji": "🚏"
   },
   {
+    "lemma": "Hammer",
+    "pos": "noun",
+    "emoji": "🔨"
+  },
+  {
     "lemma": "Hand",
     "pos": "noun",
     "emoji": "✋"
@@ -722,6 +757,11 @@
     "source": "healthicons"
   },
   {
+    "lemma": "Harfe",
+    "pos": "noun",
+    "emoji": "🪉"
+  },
+  {
     "lemma": "Hase",
     "pos": "noun",
     "emoji": "🐇"
@@ -735,6 +775,11 @@
     "lemma": "Heft",
     "pos": "noun",
     "emoji": "📓"
+  },
+  {
+    "lemma": "Helm",
+    "pos": "noun",
+    "emoji": "⛑️"
   },
   {
     "lemma": "Hemd",
@@ -765,6 +810,11 @@
     "lemma": "Hochzeit",
     "pos": "noun",
     "emoji": "💒"
+  },
+  {
+    "lemma": "Holz",
+    "pos": "noun",
+    "emoji": "🪵"
   },
   {
     "lemma": "Honig",
@@ -913,6 +963,11 @@
     "emoji": "🍒"
   },
   {
+    "lemma": "Klavier",
+    "pos": "noun",
+    "emoji": "🎹"
+  },
+  {
     "lemma": "Kleid",
     "pos": "noun",
     "emoji": "👗"
@@ -937,6 +992,11 @@
     "lemma": "Knochen",
     "pos": "noun",
     "emoji": "🦴"
+  },
+  {
+    "lemma": "Knopf",
+    "pos": "noun",
+    "emoji": "🔘"
   },
   {
     "lemma": "Koch",
@@ -1034,6 +1094,11 @@
     "lemma": "Lehrer",
     "pos": "noun",
     "emoji": "🧑‍🏫"
+  },
+  {
+    "lemma": "Leiter",
+    "pos": "noun",
+    "emoji": "🪜"
   },
   {
     "lemma": "Liebe",
@@ -1216,6 +1281,11 @@
     "emoji": "🎅"
   },
   {
+    "lemma": "Notenblatt",
+    "pos": "noun",
+    "emoji": "🎼"
+  },
+  {
     "lemma": "Nuss",
     "pos": "noun",
     "emoji": "🥜"
@@ -1328,6 +1398,11 @@
     "emoji": "🍄"
   },
   {
+    "lemma": "Pinsel",
+    "pos": "noun",
+    "emoji": "🖌️"
+  },
+  {
     "lemma": "Pizza",
     "pos": "noun",
     "emoji": "🍕"
@@ -1434,6 +1509,11 @@
     "source": "healthicons"
   },
   {
+    "lemma": "Rose",
+    "pos": "noun",
+    "emoji": "🌹"
+  },
+  {
     "lemma": "Rucksack",
     "pos": "noun",
     "emoji": "🎒"
@@ -1447,6 +1527,11 @@
     "lemma": "Saft",
     "pos": "noun",
     "emoji": "🧃"
+  },
+  {
+    "lemma": "Säge",
+    "pos": "noun",
+    "emoji": "🪚"
   },
   {
     "lemma": "Salat",
@@ -1467,6 +1552,11 @@
     "lemma": "Sänger",
     "pos": "noun",
     "emoji": "🧑‍🎤"
+  },
+  {
+    "lemma": "Saxophon",
+    "pos": "noun",
+    "emoji": "🎷"
   },
   {
     "lemma": "Schaf",
@@ -1527,6 +1617,21 @@
     "lemma": "Schokolade",
     "pos": "noun",
     "emoji": "🍫"
+  },
+  {
+    "lemma": "Schraube",
+    "pos": "noun",
+    "emoji": "🔩"
+  },
+  {
+    "lemma": "Schraubenschlüssel",
+    "pos": "noun",
+    "emoji": "🔧"
+  },
+  {
+    "lemma": "Schraubenzieher",
+    "pos": "noun",
+    "emoji": "🪛"
   },
   {
     "lemma": "Schuh",
@@ -1780,6 +1885,16 @@
     "emoji": "😢"
   },
   {
+    "lemma": "Trommel",
+    "pos": "noun",
+    "emoji": "🥁"
+  },
+  {
+    "lemma": "Trompete",
+    "pos": "noun",
+    "emoji": "🎺"
+  },
+  {
     "lemma": "Tür",
     "pos": "noun",
     "emoji": "🚪"
@@ -1880,6 +1995,11 @@
     "emoji": "🌍"
   },
   {
+    "lemma": "Werkzeugkasten",
+    "pos": "noun",
+    "emoji": "🧰"
+  },
+  {
     "lemma": "Wetter",
     "pos": "noun",
     "emoji": "🌤️"
@@ -1914,6 +2034,11 @@
     "lemma": "Witz",
     "pos": "noun",
     "emoji": "😂"
+  },
+  {
+    "lemma": "Wolle",
+    "pos": "noun",
+    "emoji": "🧶"
   },
   {
     "lemma": "Wurm",

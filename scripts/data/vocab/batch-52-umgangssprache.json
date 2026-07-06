@@ -1,0 +1,1049 @@
+[
+  {
+    "lemma": "krass",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1920,
+    "senses": [
+      {
+        "en": "extreme, wild, intense (colloquial, = extrem)",
+        "note": "umgangssprachlich, besonders Jugendsprache",
+        "example_de": "Krass, hast du das wirklich gemacht?",
+        "example_en": "Wow, did you really do that?"
+      }
+    ]
+  },
+  {
+    "lemma": "mega",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2350,
+    "adj": { "indeclinable": true },
+    "senses": [
+      {
+        "en": "mega, totally great (colloquial, = super)",
+        "note": "umgangssprachlich; oft als Verstärker: mega gut",
+        "example_de": "Das Konzert gestern war mega!",
+        "example_en": "The concert yesterday was awesome!"
+      }
+    ]
+  },
+  {
+    "lemma": "quatschen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1960,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to chat, to natter (colloquial, = sich unterhalten)",
+        "note": "umgangssprachlich",
+        "example_de": "Wir haben stundenlang gequatscht.",
+        "example_en": "We chatted for hours."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die zwei quatschen schon wieder in der Küche.",
+        "en": "Those two are chatting in the kitchen again."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe gestern lange mit Lisa gequatscht.",
+        "en": "I had a long chat with Lisa yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "Quatsch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1940,
+    "noun": { "gender": "m", "plural": null, "genitive": "Quatsches" },
+    "senses": [
+      {
+        "en": "nonsense, rubbish (colloquial, = Unsinn)",
+        "note": "umgangssprachlich",
+        "example_de": "Red keinen Quatsch, das stimmt doch gar nicht!",
+        "example_en": "Don't talk nonsense, that's not true at all!"
+      }
+    ]
+  },
+  {
+    "lemma": "Kumpel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": { "gender": "m", "plural": "Kumpel" },
+    "senses": [
+      {
+        "en": "buddy, mate (colloquial, = guter Freund)",
+        "note": "umgangssprachlich",
+        "example_de": "Ich geh heute Abend mit einem Kumpel ins Kino.",
+        "example_en": "I'm going to the movies with a buddy tonight."
+      }
+    ]
+  },
+  {
+    "lemma": "Typ",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1930,
+    "noun": { "gender": "m", "plural": "Typen" },
+    "senses": [
+      {
+        "en": "guy, dude (colloquial, = Mann)",
+        "note": "umgangssprachlich",
+        "example_de": "Wer ist eigentlich der Typ da drüben?",
+        "example_en": "Who's that guy over there anyway?"
+      },
+      {
+        "en": "type, kind",
+        "example_de": "Er ist nicht der Typ für lange Reden.",
+        "example_en": "He's not the type for long speeches."
+      }
+    ]
+  },
+  {
+    "lemma": "Kohle",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": { "gender": "f", "plural": "Kohlen" },
+    "senses": [
+      {
+        "en": "money (colloquial, = Geld)",
+        "note": "umgangssprachlich",
+        "example_de": "Ich hab diesen Monat keine Kohle mehr.",
+        "example_en": "I'm out of money this month."
+      },
+      {
+        "en": "coal",
+        "example_de": "Früher heizte man mit Kohle.",
+        "example_en": "People used to heat with coal."
+      }
+    ]
+  },
+  {
+    "lemma": "pennen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2200,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to sleep, to crash (casual slang, = schlafen)",
+        "note": "salopp",
+        "example_de": "Ich hab bis elf gepennt.",
+        "example_en": "I slept until eleven."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er pennt sonntags immer bis mittags.",
+        "en": "He always sleeps till noon on Sundays."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe bei einem Kumpel auf dem Sofa gepennt.",
+        "en": "I crashed on a buddy's sofa."
+      }
+    ]
+  },
+  {
+    "lemma": "glotzen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3100,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to gawk, to stare (casual slang, = starren)",
+        "note": "salopp, oft abwertend",
+        "example_de": "Glotz nicht so, das ist unhöflich!",
+        "example_en": "Don't gawk like that, it's rude!"
+      }
+    ]
+  },
+  {
+    "lemma": "meckern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2120,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to gripe, to moan (colloquial, = sich beschweren)",
+        "note": "umgangssprachlich",
+        "example_de": "Er meckert über jedes Essen.",
+        "example_en": "He gripes about every meal."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Meine Nachbarin meckert den ganzen Tag.",
+        "en": "My neighbor moans all day long."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Chef hat wieder über alles gemeckert.",
+        "en": "The boss griped about everything again."
+      }
+    ]
+  },
+  {
+    "lemma": "chillen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2050,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to chill, to relax (colloquial, = sich entspannen)",
+        "note": "umgangssprachlich, Jugendsprache",
+        "example_de": "Wir chillen heute einfach zu Hause.",
+        "example_en": "We're just chilling at home today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Am Sonntag chille ich meistens auf dem Sofa.",
+        "en": "On Sundays I usually chill on the sofa."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den ganzen Nachmittag im Park gechillt.",
+        "en": "We chilled in the park all afternoon."
+      }
+    ]
+  },
+  {
+    "lemma": "abhauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2080,
+    "verb": { "aux": "sein", "separablePrefix": "ab", "praeteritum": "haute", "partizip2": "abgehauen" },
+    "senses": [
+      {
+        "en": "to clear off, to run away (colloquial, = weggehen, fliehen)",
+        "note": "umgangssprachlich; „Hau ab!“ = Geh weg!",
+        "example_de": "Lass uns abhauen, hier ist es langweilig.",
+        "example_en": "Let's get out of here, it's boring."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er haut immer ab, wenn es Arbeit gibt.",
+        "en": "He always clears off when there's work to do."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Katze ist schon wieder abgehauen.",
+        "en": "The cat has run off again."
+      },
+      {
+        "tag": "imperativ",
+        "de": "Hau ab und lass mich in Ruhe!",
+        "en": "Get lost and leave me alone!"
+      }
+    ]
+  },
+  {
+    "lemma": "doof",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1970,
+    "senses": [
+      {
+        "en": "dumb, silly (colloquial, = dumm)",
+        "note": "umgangssprachlich",
+        "example_de": "Der Film war echt doof.",
+        "example_en": "The movie was really dumb."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Noch doofer als der erste Teil geht es kaum.",
+        "en": "It's hard to be even dumber than the first part."
+      }
+    ]
+  },
+  {
+    "lemma": "Zeug",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1990,
+    "noun": { "gender": "n", "plural": null, "genitive": "Zeugs" },
+    "senses": [
+      {
+        "en": "stuff, things (colloquial, = Sachen)",
+        "note": "umgangssprachlich",
+        "example_de": "Räum bitte dein Zeug vom Tisch.",
+        "example_en": "Please clear your stuff off the table."
+      }
+    ]
+  },
+  {
+    "lemma": "labern",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3050,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to blabber, to talk on and on (casual slang, = viel und ohne Inhalt reden)",
+        "note": "salopp, oft abwertend",
+        "example_de": "Der labert nur und sagt nichts.",
+        "example_en": "He just blabbers and says nothing."
+      }
+    ]
+  },
+  {
+    "lemma": "Bock",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "m", "plural": "Böcke", "genitive": "Bockes" },
+    "senses": [
+      {
+        "en": "desire, motivation (colloquial: Bock haben = Lust haben)",
+        "note": "umgangssprachlich: „Ich hab keinen Bock.“",
+        "example_de": "Hast du Bock auf Pizza heute Abend?",
+        "example_en": "Are you up for pizza tonight?"
+      },
+      {
+        "en": "buck, billy goat",
+        "example_de": "Auf der Wiese steht ein alter Bock.",
+        "example_en": "An old billy goat is standing in the meadow."
+      }
+    ]
+  },
+  {
+    "lemma": "kapieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2060,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to get it, to understand (colloquial, = verstehen)",
+        "note": "umgangssprachlich",
+        "example_de": "Ich kapiere diese Aufgabe einfach nicht.",
+        "example_en": "I just don't get this exercise."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Kapierst du, wie das Spiel funktioniert?",
+        "en": "Do you get how the game works?"
+      },
+      {
+        "tag": "perfekt",
+        "de": "Jetzt habe ich es endlich kapiert!",
+        "en": "Now I've finally got it!"
+      }
+    ]
+  },
+  {
+    "lemma": "schnallen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3150,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to get it, to catch on (casual slang, = verstehen)",
+        "note": "salopp",
+        "example_de": "Er schnallt den Witz einfach nicht.",
+        "example_en": "He just doesn't get the joke."
+      },
+      {
+        "en": "to strap, to buckle",
+        "example_de": "Sie schnallt die Tasche aufs Fahrrad.",
+        "example_en": "She straps the bag onto the bike."
+      }
+    ]
+  },
+  {
+    "lemma": "ätzend",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3200,
+    "senses": [
+      {
+        "en": "awful, terrible (casual slang, = furchtbar)",
+        "note": "salopp",
+        "example_de": "Die Party gestern war total ätzend.",
+        "example_en": "The party yesterday was totally awful."
+      },
+      {
+        "en": "caustic, corrosive",
+        "example_de": "Vorsicht, diese Flüssigkeit ist ätzend!",
+        "example_en": "Careful, this liquid is corrosive!"
+      }
+    ]
+  },
+  {
+    "lemma": "bescheuert",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3080,
+    "senses": [
+      {
+        "en": "stupid, ridiculous (casual slang, = dumm, verrückt)",
+        "note": "salopp",
+        "example_de": "Bist du bescheuert? Das kostet ein Vermögen!",
+        "example_en": "Are you nuts? That costs a fortune!"
+      }
+    ]
+  },
+  {
+    "lemma": "blöd",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1910,
+    "senses": [
+      {
+        "en": "stupid, annoying (colloquial, = dumm, ärgerlich)",
+        "note": "umgangssprachlich",
+        "example_de": "So eine blöde Frage!",
+        "example_en": "What a stupid question!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "komparativ",
+        "de": "Es kommt immer noch blöder, warte ab.",
+        "en": "It always gets even more stupid, just wait."
+      }
+    ]
+  },
+  {
+    "lemma": "Mist",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2020,
+    "noun": { "gender": "m", "plural": null, "genitive": "Mistes" },
+    "senses": [
+      {
+        "en": "crap, rubbish; darn it (colloquial, = Unsinn, Ärger)",
+        "note": "umgangssprachlich: „So ein Mist!“",
+        "example_de": "Mist, ich habe meinen Schlüssel vergessen!",
+        "example_en": "Darn, I forgot my key!"
+      },
+      {
+        "en": "manure, dung",
+        "example_de": "Der Bauer bringt Mist aufs Feld.",
+        "example_en": "The farmer spreads manure on the field."
+      }
+    ]
+  },
+  {
+    "lemma": "Krempel",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "junk, clutter (colloquial, = alte, wertlose Sachen)",
+        "note": "umgangssprachlich",
+        "example_de": "Der ganze Keller ist voller Krempel.",
+        "example_en": "The whole basement is full of junk."
+      }
+    ]
+  },
+  {
+    "lemma": "Klamotten",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2010,
+    "noun": { "gender": "pl", "plural": null },
+    "senses": [
+      {
+        "en": "clothes (colloquial, = Kleidung)",
+        "note": "umgangssprachlich, nur Plural",
+        "example_de": "Ich brauche dringend neue Klamotten.",
+        "example_en": "I urgently need new clothes."
+      }
+    ]
+  },
+  {
+    "lemma": "Kram",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2240,
+    "noun": { "gender": "m", "plural": null, "genitive": "Krams" },
+    "senses": [
+      {
+        "en": "stuff, odds and ends (colloquial, = Zeug)",
+        "note": "umgangssprachlich",
+        "example_de": "Was soll ich mit dem ganzen Kram machen?",
+        "example_en": "What am I supposed to do with all this stuff?"
+      }
+    ]
+  },
+  {
+    "lemma": "quasseln",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3250,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to jabber, to chatter (colloquial, = pausenlos reden)",
+        "note": "umgangssprachlich",
+        "example_de": "Sie quasselt ohne Pause.",
+        "example_en": "She jabbers non-stop."
+      }
+    ]
+  },
+  {
+    "lemma": "cool",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1900,
+    "senses": [
+      {
+        "en": "cool, great (colloquial, = toll)",
+        "note": "umgangssprachlich, aus dem Englischen",
+        "example_de": "Deine neue Jacke ist echt cool.",
+        "example_en": "Your new jacket is really cool."
+      },
+      {
+        "en": "cool, calm",
+        "example_de": "Bleib cool, wir schaffen das schon.",
+        "example_en": "Stay cool, we'll manage."
+      }
+    ]
+  },
+  {
+    "lemma": "geil",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2160,
+    "senses": [
+      {
+        "en": "awesome, great (casual slang, = super)",
+        "note": "salopp, Jugendsprache; Vorsicht: hat auch eine sexuelle Bedeutung",
+        "example_de": "Das Tor war einfach geil!",
+        "example_en": "That goal was just awesome!"
+      }
+    ]
+  },
+  {
+    "lemma": "spinnen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2140,
+    "verb": { "aux": "haben", "praeteritum": "spann", "partizip2": "gesponnen" },
+    "senses": [
+      {
+        "en": "to be crazy, to talk nonsense (colloquial: Du spinnst! = Du bist verrückt!)",
+        "note": "umgangssprachlich",
+        "example_de": "Du spinnst doch, das mache ich nicht!",
+        "example_en": "You're crazy, I'm not doing that!"
+      },
+      {
+        "en": "to spin (wool)",
+        "example_de": "Früher spann man Wolle mit der Hand.",
+        "example_en": "Wool used to be spun by hand."
+      }
+    ]
+  },
+  {
+    "lemma": "schmeißen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2180,
+    "verb": { "aux": "haben", "praeteritum": "schmiss", "partizip2": "geschmissen" },
+    "senses": [
+      {
+        "en": "to chuck, to throw (colloquial, = werfen)",
+        "note": "umgangssprachlich",
+        "example_de": "Schmeiß die alte Zeitung bitte in den Müll.",
+        "example_en": "Chuck the old newspaper in the trash, please."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schmeißt seine Jacke aufs Sofa.",
+        "en": "He chucks his jacket on the sofa."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat die kaputten Schuhe weggeschmissen.",
+        "en": "She chucked out the broken shoes."
+      }
+    ]
+  },
+  {
+    "lemma": "kotzen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3350,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to puke, to throw up (crude slang, = sich übergeben)",
+        "note": "derb; „zum Kotzen“ = furchtbar",
+        "example_de": "Dem war so schlecht, dass er kotzen musste.",
+        "example_en": "He felt so sick that he had to puke."
+      }
+    ]
+  },
+  {
+    "lemma": "heulen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2220,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to cry, to bawl (colloquial, = weinen)",
+        "note": "umgangssprachlich",
+        "example_de": "Sie hat beim Film die ganze Zeit geheult.",
+        "example_en": "She cried the whole time during the movie."
+      },
+      {
+        "en": "to howl (wind, wolf, siren)",
+        "example_de": "Draußen heult der Wind.",
+        "example_en": "The wind is howling outside."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Das Kind heult wegen des kaputten Spielzeugs.",
+        "en": "The child is bawling over the broken toy."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe vor Freude geheult.",
+        "en": "I cried with joy."
+      }
+    ]
+  },
+  {
+    "lemma": "Zoff",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3400,
+    "noun": { "gender": "m", "plural": null },
+    "senses": [
+      {
+        "en": "quarrel, trouble (casual slang, = Streit)",
+        "note": "salopp",
+        "example_de": "Zu Hause gab es gestern richtig Zoff.",
+        "example_en": "There was a real row at home yesterday."
+      }
+    ]
+  },
+  {
+    "lemma": "motzen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3280,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to grumble, to grouch (casual slang, = sich beschweren)",
+        "note": "salopp",
+        "example_de": "Er motzt den ganzen Tag über das Wetter.",
+        "example_en": "He grumbles about the weather all day."
+      }
+    ]
+  },
+  {
+    "lemma": "jammern",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2260,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to whine, to moan (colloquial flavor, = klagen)",
+        "note": "umgangssprachlich geprägt, oft abwertend",
+        "example_de": "Hör auf zu jammern und mach einfach weiter!",
+        "example_en": "Stop whining and just keep going!"
+      }
+    ]
+  },
+  {
+    "lemma": "fressen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2040,
+    "verb": { "aux": "haben", "du": "frisst", "er": "frisst", "praeteritum": "fraß", "partizip2": "gefressen" },
+    "senses": [
+      {
+        "en": "to eat (of animals)",
+        "example_de": "Die Katze frisst zweimal am Tag.",
+        "example_en": "The cat eats twice a day."
+      },
+      {
+        "en": "to gobble, to stuff oneself (crude when said of people, = essen)",
+        "note": "salopp/derb, wenn über Menschen gesagt",
+        "example_de": "Er hat den ganzen Kuchen allein gefressen.",
+        "example_en": "He gobbled up the whole cake by himself."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Hund frisst sein Futter in einer Minute.",
+        "en": "The dog eats its food in one minute."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Mäuse haben das Brot gefressen.",
+        "en": "The mice ate the bread."
+      }
+    ]
+  },
+  {
+    "lemma": "saufen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3120,
+    "verb": { "aux": "haben", "du": "säufst", "er": "säuft", "praeteritum": "soff", "partizip2": "gesoffen" },
+    "senses": [
+      {
+        "en": "to booze, to drink heavily (crude slang, = viel Alkohol trinken)",
+        "note": "salopp/derb",
+        "example_de": "Am Wochenende hat er wieder zu viel gesoffen.",
+        "example_en": "He boozed too much again on the weekend."
+      },
+      {
+        "en": "to drink (of animals)",
+        "example_de": "Das Pferd säuft am Fluss.",
+        "example_en": "The horse is drinking at the river."
+      }
+    ]
+  },
+  {
+    "lemma": "Schnauze",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2280,
+    "noun": { "gender": "f", "plural": "Schnauzen" },
+    "senses": [
+      {
+        "en": "snout, muzzle",
+        "example_de": "Der Hund steckt seine Schnauze in die Tasche.",
+        "example_en": "The dog sticks its snout into the bag."
+      },
+      {
+        "en": "mouth, trap (crude slang: die Schnauze halten = den Mund halten)",
+        "note": "derb: „Halt die Schnauze!“ ist sehr unhöflich",
+        "example_de": "Ich hatte die Schnauze voll von dem Job.",
+        "example_en": "I was fed up with the job."
+      }
+    ]
+  },
+  {
+    "lemma": "zocken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2190,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to game, to play video games (colloquial, = Computerspiele spielen)",
+        "note": "umgangssprachlich, Jugendsprache",
+        "example_de": "Er zockt jeden Abend mit seinen Freunden.",
+        "example_en": "He games with his friends every evening."
+      },
+      {
+        "en": "to gamble",
+        "note": "umgangssprachlich",
+        "example_de": "Sie haben die ganze Nacht um Geld gezockt.",
+        "example_en": "They gambled for money all night."
+      }
+    ]
+  },
+  {
+    "lemma": "checken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2110,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to check (colloquial, = prüfen)",
+        "note": "umgangssprachlich, aus dem Englischen",
+        "example_de": "Ich checke kurz meine Mails.",
+        "example_en": "I'll quickly check my emails."
+      },
+      {
+        "en": "to get it, to understand (casual slang, = verstehen)",
+        "note": "salopp: „Ich check das nicht.“",
+        "example_de": "Checkst du, wie die App funktioniert?",
+        "example_en": "Do you get how the app works?"
+      }
+    ]
+  },
+  {
+    "lemma": "schnorren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3320,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to mooch, to scrounge (casual slang, = sich Dinge schenken lassen)",
+        "note": "salopp",
+        "example_de": "Er schnorrt ständig Zigaretten bei den Kollegen.",
+        "example_en": "He's constantly mooching cigarettes from his colleagues."
+      }
+    ]
+  },
+  {
+    "lemma": "büffeln",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3180,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to cram, to swot (colloquial, = intensiv lernen)",
+        "note": "umgangssprachlich",
+        "example_de": "Sie büffelt die ganze Woche für die Prüfung.",
+        "example_en": "She's been cramming for the exam all week."
+      }
+    ]
+  },
+  {
+    "lemma": "tratschen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3220,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to gossip (colloquial, = über andere Leute reden)",
+        "note": "umgangssprachlich, abwertend",
+        "example_de": "Die Nachbarn tratschen über die neue Familie.",
+        "example_en": "The neighbors are gossiping about the new family."
+      }
+    ]
+  },
+  {
+    "lemma": "mies",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2300,
+    "senses": [
+      {
+        "en": "lousy, rotten (colloquial, = sehr schlecht)",
+        "note": "umgangssprachlich",
+        "example_de": "Das Wetter ist heute echt mies.",
+        "example_en": "The weather is really lousy today."
+      }
+    ]
+  },
+  {
+    "lemma": "fies",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2320,
+    "senses": [
+      {
+        "en": "mean, nasty (colloquial, = gemein)",
+        "note": "umgangssprachlich",
+        "example_de": "Das war echt fies von dir!",
+        "example_en": "That was really mean of you!"
+      }
+    ]
+  },
+  {
+    "lemma": "Bude",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2340,
+    "noun": { "gender": "f", "plural": "Buden" },
+    "senses": [
+      {
+        "en": "pad, place (colloquial, = Wohnung, Zimmer)",
+        "note": "umgangssprachlich",
+        "example_de": "Komm doch später bei mir in der Bude vorbei.",
+        "example_en": "Come by my place later."
+      },
+      {
+        "en": "stall, booth",
+        "example_de": "An der Bude gibt es Pommes und Würstchen.",
+        "example_en": "The stall sells fries and sausages."
+      }
+    ]
+  },
+  {
+    "lemma": "Karre",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3360,
+    "noun": { "gender": "f", "plural": "Karren" },
+    "senses": [
+      {
+        "en": "car, ride (casual slang, = Auto)",
+        "note": "salopp, oft abwertend",
+        "example_de": "Seine alte Karre springt schon wieder nicht an.",
+        "example_en": "His old car won't start again."
+      }
+    ]
+  },
+  {
+    "lemma": "Glotze",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3380,
+    "noun": { "gender": "f", "plural": "Glotzen" },
+    "senses": [
+      {
+        "en": "TV, the tube (casual slang, = Fernseher)",
+        "note": "salopp",
+        "example_de": "Er sitzt den ganzen Abend vor der Glotze.",
+        "example_en": "He sits in front of the tube all evening."
+      }
+    ]
+  },
+  {
+    "lemma": "besoffen",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3140,
+    "senses": [
+      {
+        "en": "drunk, wasted (crude slang, = betrunken)",
+        "note": "salopp/derb",
+        "example_de": "Der Typ an der Bar war total besoffen.",
+        "example_en": "The guy at the bar was totally wasted."
+      }
+    ]
+  },
+  {
+    "lemma": "veräppeln",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3260,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to pull someone's leg, to kid (colloquial, = auf den Arm nehmen)",
+        "note": "umgangssprachlich",
+        "example_de": "Willst du mich veräppeln? Das glaube ich nicht!",
+        "example_en": "Are you kidding me? I don't believe that!"
+      }
+    ]
+  },
+  {
+    "lemma": "jobben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2380,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to work a casual job (colloquial, = vorübergehend arbeiten)",
+        "note": "umgangssprachlich, aus dem Englischen",
+        "example_de": "Im Sommer jobbt sie in einem Café.",
+        "example_en": "In summer she works a casual job in a café."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er jobbt neben dem Studium als Fahrer.",
+        "en": "He works as a driver alongside his studies."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe früher im Supermarkt gejobbt.",
+        "en": "I used to work a casual job at the supermarket."
+      }
+    ]
+  },
+  {
+    "lemma": "hauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2420,
+    "verb": { "aux": "haben", "praeteritum": "haute", "partizip2": "gehauen" },
+    "senses": [
+      {
+        "en": "to hit, to whack (colloquial, = schlagen)",
+        "note": "umgangssprachlich",
+        "example_de": "Hör auf, deinen Bruder zu hauen!",
+        "example_en": "Stop hitting your brother!"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er haut mit der Faust auf den Tisch.",
+        "en": "He bangs his fist on the table."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Das Kind hat seinen Freund gehauen.",
+        "en": "The child hit his friend."
+      }
+    ]
+  },
+  {
+    "lemma": "nervig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2440,
+    "senses": [
+      {
+        "en": "annoying (colloquial, = lästig)",
+        "note": "umgangssprachlich",
+        "example_de": "Diese Werbung ist so nervig!",
+        "example_en": "This ad is so annoying!"
+      }
+    ]
+  },
+  {
+    "lemma": "Krach",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2460,
+    "noun": { "gender": "m", "plural": null, "genitive": "Krachs" },
+    "senses": [
+      {
+        "en": "racket, loud noise (colloquial, = Lärm)",
+        "note": "umgangssprachlich",
+        "example_de": "Die Baustelle macht den ganzen Tag Krach.",
+        "example_en": "The construction site makes a racket all day."
+      },
+      {
+        "en": "row, quarrel (colloquial: Krach haben = Streit haben)",
+        "note": "umgangssprachlich",
+        "example_de": "Sie hat Krach mit ihren Eltern.",
+        "example_en": "She's having a row with her parents."
+      }
+    ]
+  },
+  {
+    "lemma": "halt",
+    "pos": "adv",
+    "level": "B1",
+    "freq": 2480,
+    "senses": [
+      {
+        "en": "just, simply (modal particle, colloquial, = eben)",
+        "note": "umgangssprachliche Modalpartikel, besonders süddeutsch",
+        "example_de": "Das ist halt so, da kann man nichts machen.",
+        "example_en": "That's just the way it is, nothing you can do."
+      }
+    ]
+  }
+]

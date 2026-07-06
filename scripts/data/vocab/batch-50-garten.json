@@ -1,0 +1,824 @@
+[
+  {
+    "lemma": "Beet",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "n", "plural": "Beete" },
+    "senses": [
+      {
+        "en": "flower bed, vegetable patch",
+        "example_de": "Im Beet wachsen Tomaten und Salat.",
+        "example_en": "Tomatoes and lettuce grow in the bed."
+      }
+    ]
+  },
+  {
+    "lemma": "Schaufel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1580,
+    "noun": { "gender": "f", "plural": "Schaufeln" },
+    "senses": [
+      {
+        "en": "shovel",
+        "example_de": "Das Kind spielt mit der Schaufel im Sand.",
+        "example_en": "The child is playing with the shovel in the sand."
+      }
+    ]
+  },
+  {
+    "lemma": "Unkraut",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": { "gender": "n", "plural": "Unkräuter", "genitive": "Unkrauts" },
+    "senses": [
+      {
+        "en": "weed(s)",
+        "example_de": "Im ganzen Garten wächst Unkraut.",
+        "example_en": "Weeds are growing all over the garden."
+      }
+    ]
+  },
+  {
+    "lemma": "Samen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": { "gender": "m", "plural": "Samen" },
+    "senses": [
+      {
+        "en": "seed",
+        "example_de": "Ich lege die Samen in die Erde.",
+        "example_en": "I put the seeds into the soil."
+      }
+    ]
+  },
+  {
+    "lemma": "Ernte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": { "gender": "f", "plural": "Ernten" },
+    "senses": [
+      {
+        "en": "harvest",
+        "example_de": "Die Ernte war dieses Jahr sehr gut.",
+        "example_en": "The harvest was very good this year."
+      }
+    ]
+  },
+  {
+    "lemma": "Hecke",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": { "gender": "f", "plural": "Hecken" },
+    "senses": [
+      {
+        "en": "hedge",
+        "example_de": "Zwischen den Gärten steht eine hohe Hecke.",
+        "example_en": "There is a tall hedge between the gardens."
+      }
+    ]
+  },
+  {
+    "lemma": "Rasenmäher",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": { "gender": "m", "plural": "Rasenmäher" },
+    "senses": [
+      {
+        "en": "lawnmower",
+        "example_de": "Der Rasenmäher steht in der Garage.",
+        "example_en": "The lawnmower is in the garage."
+      }
+    ]
+  },
+  {
+    "lemma": "Gießkanne",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": { "gender": "f", "plural": "Gießkannen" },
+    "senses": [
+      {
+        "en": "watering can",
+        "example_de": "Die Gießkanne ist schon wieder leer.",
+        "example_en": "The watering can is empty again."
+      }
+    ]
+  },
+  {
+    "lemma": "Harke",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2550,
+    "noun": { "gender": "f", "plural": "Harken" },
+    "senses": [
+      {
+        "en": "rake",
+        "note": "süddeutsch auch: der Rechen",
+        "example_de": "Mit der Harke sammle ich die Blätter.",
+        "example_en": "I gather the leaves with the rake."
+      }
+    ]
+  },
+  {
+    "lemma": "Spaten",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": { "gender": "m", "plural": "Spaten" },
+    "senses": [
+      {
+        "en": "spade",
+        "example_de": "Er gräbt das Beet mit dem Spaten um.",
+        "example_en": "He digs over the bed with the spade."
+      }
+    ]
+  },
+  {
+    "lemma": "Blumentopf",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1620,
+    "noun": { "gender": "m", "plural": "Blumentöpfe", "genitive": "Blumentopfs" },
+    "senses": [
+      {
+        "en": "flowerpot",
+        "example_de": "Auf dem Fensterbrett stehen drei Blumentöpfe.",
+        "example_en": "There are three flowerpots on the windowsill."
+      }
+    ]
+  },
+  {
+    "lemma": "Erde",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1330,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "soil, earth",
+        "example_de": "Die Pflanze braucht frische Erde.",
+        "example_en": "The plant needs fresh soil."
+      },
+      {
+        "en": "Earth (the planet)",
+        "example_de": "Die Erde ist ein Planet.",
+        "example_en": "The Earth is a planet."
+      }
+    ]
+  },
+  {
+    "lemma": "Dünger",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": { "gender": "m", "plural": "Dünger" },
+    "senses": [
+      {
+        "en": "fertilizer",
+        "example_de": "Im Frühling brauchen die Rosen Dünger.",
+        "example_en": "In spring the roses need fertilizer."
+      }
+    ]
+  },
+  {
+    "lemma": "Gewächshaus",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "n", "plural": "Gewächshäuser", "genitive": "Gewächshauses" },
+    "senses": [
+      {
+        "en": "greenhouse",
+        "example_de": "Im Gewächshaus wachsen Gurken und Tomaten.",
+        "example_en": "Cucumbers and tomatoes grow in the greenhouse."
+      }
+    ]
+  },
+  {
+    "lemma": "Kompost",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2480,
+    "noun": { "gender": "m", "plural": "Komposte" },
+    "senses": [
+      {
+        "en": "compost",
+        "example_de": "Die Küchenabfälle kommen auf den Kompost.",
+        "example_en": "The kitchen scraps go on the compost."
+      }
+    ]
+  },
+  {
+    "lemma": "Schädling",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3200,
+    "noun": { "gender": "m", "plural": "Schädlinge" },
+    "senses": [
+      {
+        "en": "pest (harmful insect or animal)",
+        "example_de": "Schädlinge haben die jungen Pflanzen gefressen.",
+        "example_en": "Pests have eaten the young plants."
+      }
+    ]
+  },
+  {
+    "lemma": "Zaun",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "m", "plural": "Zäune", "genitive": "Zaunes" },
+    "senses": [
+      {
+        "en": "fence",
+        "example_de": "Um den Garten steht ein alter Zaun.",
+        "example_en": "There is an old fence around the garden."
+      }
+    ]
+  },
+  {
+    "lemma": "Strauch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": { "gender": "m", "plural": "Sträucher", "genitive": "Strauches" },
+    "senses": [
+      {
+        "en": "shrub, bush",
+        "example_de": "Der Strauch blüht im Mai weiß.",
+        "example_en": "The shrub blooms white in May."
+      }
+    ]
+  },
+  {
+    "lemma": "Busch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2020,
+    "noun": { "gender": "m", "plural": "Büsche", "genitive": "Busches" },
+    "senses": [
+      {
+        "en": "bush",
+        "example_de": "Eine Katze sitzt hinter dem Busch.",
+        "example_en": "A cat is sitting behind the bush."
+      }
+    ]
+  },
+  {
+    "lemma": "Wurzel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": { "gender": "f", "plural": "Wurzeln" },
+    "senses": [
+      {
+        "en": "root",
+        "example_de": "Der Baum hat tiefe Wurzeln.",
+        "example_en": "The tree has deep roots."
+      }
+    ]
+  },
+  {
+    "lemma": "Ast",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1540,
+    "noun": { "gender": "m", "plural": "Äste", "genitive": "Astes" },
+    "senses": [
+      {
+        "en": "branch",
+        "example_de": "Ein Vogel sitzt auf dem Ast.",
+        "example_en": "A bird is sitting on the branch."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Der Sturm hat viele Äste abgebrochen.",
+        "en": "The storm broke off many branches."
+      }
+    ]
+  },
+  {
+    "lemma": "Stamm",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": { "gender": "m", "plural": "Stämme", "genitive": "Stammes" },
+    "senses": [
+      {
+        "en": "trunk (of a tree)",
+        "example_de": "Der Stamm der alten Eiche ist sehr dick.",
+        "example_en": "The trunk of the old oak is very thick."
+      }
+    ]
+  },
+  {
+    "lemma": "Stiel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2580,
+    "noun": { "gender": "m", "plural": "Stiele" },
+    "senses": [
+      {
+        "en": "stem (of a flower); handle (of a tool)",
+        "example_de": "Die Rose hat einen langen Stiel.",
+        "example_en": "The rose has a long stem."
+      }
+    ]
+  },
+  {
+    "lemma": "Beere",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1640,
+    "noun": { "gender": "f", "plural": "Beeren" },
+    "senses": [
+      {
+        "en": "berry",
+        "example_de": "Die roten Beeren schmecken süß.",
+        "example_en": "The red berries taste sweet."
+      }
+    ]
+  },
+  {
+    "lemma": "Gras",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": { "gender": "n", "plural": "Gräser", "genitive": "Grases" },
+    "senses": [
+      {
+        "en": "grass",
+        "example_de": "Wir liegen im Gras und sehen in den Himmel.",
+        "example_en": "We lie in the grass and look at the sky."
+      }
+    ]
+  },
+  {
+    "lemma": "Schlauch",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "m", "plural": "Schläuche", "genitive": "Schlauches" },
+    "senses": [
+      {
+        "en": "hose",
+        "example_de": "Er gießt die Blumen mit dem Schlauch.",
+        "example_en": "He waters the flowers with the hose."
+      }
+    ]
+  },
+  {
+    "lemma": "Regenwurm",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1690,
+    "noun": { "gender": "m", "plural": "Regenwürmer", "genitive": "Regenwurms" },
+    "senses": [
+      {
+        "en": "earthworm",
+        "example_de": "Nach dem Regen liegen Regenwürmer auf dem Weg.",
+        "example_en": "After the rain, earthworms lie on the path."
+      }
+    ]
+  },
+  {
+    "lemma": "Maulwurf",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2600,
+    "noun": { "gender": "m", "plural": "Maulwürfe", "genitive": "Maulwurfs" },
+    "senses": [
+      {
+        "en": "mole (animal)",
+        "example_de": "Ein Maulwurf macht Hügel in unserem Rasen.",
+        "example_en": "A mole is making mounds in our lawn."
+      }
+    ]
+  },
+  {
+    "lemma": "Gärtner",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1610,
+    "noun": { "gender": "m", "plural": "Gärtner" },
+    "senses": [
+      {
+        "en": "gardener",
+        "example_de": "Der Gärtner schneidet die Hecke.",
+        "example_en": "The gardener is trimming the hedge."
+      }
+    ]
+  },
+  {
+    "lemma": "Gartenarbeit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1660,
+    "noun": { "gender": "f", "plural": "Gartenarbeiten" },
+    "senses": [
+      {
+        "en": "gardening, garden work",
+        "example_de": "Am Wochenende macht sie gern Gartenarbeit.",
+        "example_en": "On weekends she likes doing garden work."
+      }
+    ]
+  },
+  {
+    "lemma": "Rose",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1490,
+    "noun": { "gender": "f", "plural": "Rosen" },
+    "senses": [
+      {
+        "en": "rose",
+        "example_de": "Er schenkt ihr eine rote Rose.",
+        "example_en": "He gives her a red rose."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Rosen im Garten blühen schon.",
+        "en": "The roses in the garden are already blooming."
+      }
+    ]
+  },
+  {
+    "lemma": "Tulpe",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1670,
+    "noun": { "gender": "f", "plural": "Tulpen" },
+    "senses": [
+      {
+        "en": "tulip",
+        "example_de": "Im April blühen die Tulpen.",
+        "example_en": "The tulips bloom in April."
+      }
+    ]
+  },
+  {
+    "lemma": "Sonnenblume",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1680,
+    "noun": { "gender": "f", "plural": "Sonnenblumen" },
+    "senses": [
+      {
+        "en": "sunflower",
+        "example_de": "Die Sonnenblume ist größer als das Kind.",
+        "example_en": "The sunflower is taller than the child."
+      }
+    ]
+  },
+  {
+    "lemma": "Insekt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1520,
+    "noun": { "gender": "n", "plural": "Insekten" },
+    "senses": [
+      {
+        "en": "insect",
+        "example_de": "Viele Insekten leben in unserem Garten.",
+        "example_en": "Many insects live in our garden."
+      }
+    ]
+  },
+  {
+    "lemma": "Schubkarre",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2560,
+    "noun": { "gender": "f", "plural": "Schubkarren" },
+    "senses": [
+      {
+        "en": "wheelbarrow",
+        "example_de": "Er fährt die Erde mit der Schubkarre weg.",
+        "example_en": "He carts the soil away with the wheelbarrow."
+      }
+    ]
+  },
+  {
+    "lemma": "Obstbaum",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1700,
+    "noun": { "gender": "m", "plural": "Obstbäume", "genitive": "Obstbaums" },
+    "senses": [
+      {
+        "en": "fruit tree",
+        "example_de": "Hinter dem Haus stehen drei Obstbäume.",
+        "example_en": "There are three fruit trees behind the house."
+      }
+    ]
+  },
+  {
+    "lemma": "Kraut",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2120,
+    "noun": { "gender": "n", "plural": "Kräuter", "genitive": "Krautes" },
+    "senses": [
+      {
+        "en": "herb",
+        "example_de": "Sie pflanzt Kräuter auf dem Balkon.",
+        "example_en": "She plants herbs on the balcony."
+      },
+      {
+        "en": "cabbage (southern German)",
+        "note": "süddeutsch/österreichisch für Kohl",
+        "example_de": "Zum Fleisch gibt es Kraut und Kartoffeln.",
+        "example_en": "The meat comes with cabbage and potatoes."
+      }
+    ]
+  },
+  {
+    "lemma": "düngen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2460,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to fertilize",
+        "example_de": "Im Frühling düngen wir den Rasen.",
+        "example_en": "In spring we fertilize the lawn."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie düngt die Tomaten jede Woche.",
+        "en": "She fertilizes the tomatoes every week."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Beete schon gedüngt.",
+        "en": "I have already fertilized the beds."
+      }
+    ]
+  },
+  {
+    "lemma": "jäten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2590,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to weed",
+        "example_de": "Wir müssen heute Unkraut jäten.",
+        "example_en": "We have to pull weeds today."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Oma jätet jeden Morgen im Garten.",
+        "en": "Grandma weeds in the garden every morning."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das ganze Beet gejätet.",
+        "en": "I weeded the whole bed."
+      }
+    ]
+  },
+  {
+    "lemma": "säen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2380,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to sow",
+        "example_de": "Im März säen wir die ersten Blumen.",
+        "example_en": "In March we sow the first flowers."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Bauer sät das Korn im Herbst.",
+        "en": "The farmer sows the grain in autumn."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben Salat und Karotten gesät.",
+        "en": "We sowed lettuce and carrots."
+      }
+    ]
+  },
+  {
+    "lemma": "umtopfen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2540,
+    "verb": { "aux": "haben", "separablePrefix": "um" },
+    "senses": [
+      {
+        "en": "to repot",
+        "example_de": "Die Pflanze ist zu groß, ich topfe sie um.",
+        "example_en": "The plant is too big, I'm repotting it."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie topft die Blumen im Frühling um.",
+        "en": "She repots the flowers in spring."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Kaktus umgetopft.",
+        "en": "I repotted the cactus."
+      }
+    ]
+  },
+  {
+    "lemma": "blühen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1500,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to bloom, to blossom",
+        "example_de": "Die Kirschbäume blühen im April.",
+        "example_en": "The cherry trees bloom in April."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Rosen blühen den ganzen Sommer.",
+        "en": "The roses bloom all summer."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der alte Apfelbaum hat dieses Jahr wieder geblüht.",
+        "en": "The old apple tree bloomed again this year."
+      }
+    ]
+  },
+  {
+    "lemma": "wachsen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1310,
+    "verb": { "aux": "sein", "du": "wächst", "er": "wächst", "praeteritum": "wuchs", "partizip2": "gewachsen" },
+    "senses": [
+      {
+        "en": "to grow",
+        "example_de": "Das Gras wächst im Sommer schnell.",
+        "example_en": "The grass grows quickly in summer."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Unser Sohn wächst sehr schnell.",
+        "en": "Our son is growing very fast."
+      },
+      {
+        "tag": "präteritum",
+        "de": "Hier wuchs früher ein großer Baum.",
+        "en": "A big tree used to grow here."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Tomaten sind gut gewachsen.",
+        "en": "The tomatoes have grown well."
+      }
+    ]
+  },
+  {
+    "lemma": "graben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2160,
+    "verb": { "aux": "haben", "du": "gräbst", "er": "gräbt", "praeteritum": "grub", "partizip2": "gegraben" },
+    "senses": [
+      {
+        "en": "to dig",
+        "example_de": "Der Hund gräbt ein Loch im Garten.",
+        "example_en": "The dog is digging a hole in the garden."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er gräbt ein tiefes Loch für den Baum.",
+        "en": "He is digging a deep hole for the tree."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben das Beet umgegraben.",
+        "en": "We dug over the bed."
+      }
+    ]
+  },
+  {
+    "lemma": "pflücken",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1570,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to pick (fruit, flowers)",
+        "example_de": "Wir pflücken Äpfel vom Baum.",
+        "example_en": "We pick apples from the tree."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie pflückt Blumen für die Vase.",
+        "en": "She is picking flowers for the vase."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Die Kinder haben Erdbeeren gepflückt.",
+        "en": "The children picked strawberries."
+      }
+    ]
+  },
+  {
+    "lemma": "harken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2570,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to rake",
+        "example_de": "Im Herbst harken wir das Laub.",
+        "example_en": "In autumn we rake the leaves."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er harkt die Wege im Garten.",
+        "en": "He rakes the paths in the garden."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe den Rasen geharkt.",
+        "en": "I raked the lawn."
+      }
+    ]
+  },
+  {
+    "lemma": "vertrocknen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2440,
+    "verb": { "aux": "sein" },
+    "senses": [
+      {
+        "en": "to dry up, to wither",
+        "example_de": "Ohne Wasser vertrocknen die Blumen schnell.",
+        "example_en": "Without water, the flowers dry up quickly."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Pflanze vertrocknet in der Sonne.",
+        "en": "The plant is drying up in the sun."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Der Rasen ist im heißen Sommer vertrocknet.",
+        "en": "The lawn dried up in the hot summer."
+      }
+    ]
+  },
+  {
+    "lemma": "welk",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 3300,
+    "senses": [
+      {
+        "en": "wilted, withered",
+        "example_de": "Die welken Blumen kommen auf den Kompost.",
+        "example_en": "The wilted flowers go on the compost."
+      }
+    ]
+  }
+]

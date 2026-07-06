@@ -1,0 +1,134 @@
+{
+  "slug": "verben-mit-praepositionen",
+  "title": "Verben mit Präpositionen",
+  "level": "B1",
+  "explainer_md": "Many German verbs come glued to a fixed preposition — and the pair must be learned together, because it rarely matches English: *to wait **for*** but *warten **auf***.\n\nThe preposition also decides the case of what follows:\n\n| Verb + Präposition | Kasus | Beispiel |\n|---|---|---|\n| [[warten]] auf | Akk. | Ich warte **auf den** Bus. |\n| [[denken]] an | Akk. | Er denkt **an seine** Heimat. |\n| [[sich freuen|freuen]] auf | Akk. | Wir freuen uns **auf den** Sommer. |\n| sich freuen über | Akk. | Sie freut sich **über das** Geschenk. |\n| [[sich erinnern|erinnern]] an | Akk. | Erinnerst du dich **an mich**? |\n| [[sich interessieren|interessieren]] für | Akk. | Ich interessiere mich **für** Musik. |\n| [[sprechen]] über | Akk. | Wir sprechen **über das** Wetter. |\n| [[träumen]] von | Dat. | Sie träumt **von einem** Urlaub. |\n| [[Angst]] haben vor | Dat. | Er hat Angst **vor dem** Hund. |\n\n**auf or über with freuen?** Looking forward to something in the future → *sich freuen **auf***. Happy about something you already have → *sich freuen **über***.\n\n*Ich freue mich **auf** deinen [[Besuch]].* — I'm looking forward to your visit.\n\n*Ich freue mich **über** deine Nachricht.* — I'm happy about your message.\n\n**Asking questions:** for things, fuse wo(r) + preposition: *Worauf wartest du?* — *Wovon träumst du?* For people, use preposition + question word: *Auf wen wartest du?*\n\n**Tip:** always note new verbs with their preposition and case: „warten auf + Akk.“ — the app's dictionary shows this in the usage notes.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich warte ___ den Bus.",
+        "options": ["auf", "für", "an"],
+        "correctIndex": 0,
+        "explanation": "„[[warten]] auf + Akkusativ“ — not für, even though English says \"wait for\"."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er denkt oft ___ seine Familie.",
+        "options": ["an", "auf", "über"],
+        "correctIndex": 0,
+        "explanation": "„[[denken]] an + Akkusativ“ = to think of."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie freut sich ___ das Geschenk, das sie gestern bekommen hat.",
+        "options": ["über", "auf", "von"],
+        "correctIndex": 0,
+        "explanation": "The gift is already there → sich freuen über. auf would mean she's still waiting for it."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir träumen ___ einem langen Urlaub.",
+        "options": ["von", "über", "an"],
+        "correctIndex": 0,
+        "explanation": "„[[träumen]] von + Dativ“ — hence einem langen Urlaub."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich freue mich ___ den Sommer. (er kommt erst noch)",
+        "options": ["auf", "über", "für"],
+        "correctIndex": 0,
+        "explanation": "Future event → sich freuen auf: looking forward to summer."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Kind hat Angst ___ Hund.",
+        "options": ["vor dem", "vor den", "für den"],
+        "correctIndex": 0,
+        "explanation": "„[[Angst]] haben vor + Dativ“: vor dem Hund."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ wartest du? — Auf den Zug.",
+        "options": ["Worauf", "Wofür", "Woran"],
+        "correctIndex": 0,
+        "explanation": "warten auf → question word worauf (wo + r + auf) for things."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Interessierst du dich ___ Musik?",
+        "accept": ["für"],
+        "explanation": "„[[sich interessieren|interessieren]] für + Akkusativ“."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie erinnert sich gern ___ ihren ersten Schultag.",
+        "accept": ["an"],
+        "explanation": "„[[sich erinnern|erinnern]] an + Akkusativ“."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich freue mich ___ deinen Besuch nächste Woche.",
+        "accept": ["auf"],
+        "explanation": "The visit is in the future → sich freuen auf."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich warte auf ___ Zug nach Hamburg. (der)",
+        "accept": ["den"],
+        "explanation": "auf after „[[warten]]“ takes Akkusativ: der Zug → den Zug."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Wir", "sprechen", "über", "das", "Wetter"],
+        "solutions": [["Wir", "sprechen", "über", "das", "Wetter"]],
+        "translation": "We are talking about the weather.",
+        "explanation": "„[[sprechen]] über + Akkusativ“ = to talk about."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Sie", "träumt", "von", "einem", "Haus", "am", "Meer"],
+        "solutions": [["Sie", "träumt", "von", "einem", "Haus", "am", "Meer"]],
+        "translation": "She dreams of a house by the sea.",
+        "explanation": "träumen von + Dativ → einem Haus."
+      }
+    }
+  ]
+}

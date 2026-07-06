@@ -1,0 +1,190 @@
+{
+  "slug": "passiv",
+  "title": "Passiv",
+  "level": "B1",
+  "explainer_md": "The passive shifts the focus from **who does** something to **what is done**: *Das [[Haus]] **wird gebaut**.* — The house is being built. Who builds it? Doesn't matter — or we say it with *von*.\n\n**The recipe: werden (position 2) + Partizip II (at the end).**\n\n| | Aktiv | Passiv |\n|---|---|---|\n| Präsens | Der [[Bäcker]] backt das [[Brot]]. | Das Brot **wird** gebacken. |\n| Präteritum | Der Bäcker backte das Brot. | Das Brot **wurde** gebacken. |\n\n*Die Briefe **werden** geschrieben.* — The letters are being written. (plural → werden)\n\n*Deutsch **wird** in Österreich gesprochen.* — German is spoken in Austria.\n\n*Das Fenster **wurde** gestern repariert.* — The window was repaired yesterday.\n\n**Naming the doer:** use **von + Dativ**:\n\n*Das Auto wird **von dem Mechaniker** repariert.* — The car is repaired by the mechanic.\n\n*Der Kuchen wird **von Oma** gebacken.* — The cake is baked by grandma.\n\n**Watch out:** the Akkusativ object of the active sentence becomes the **subject** (Nominativ) of the passive one: *Der Bäcker backt **den Kuchen*** → ***Der Kuchen** wird gebacken.*\n\n**Tip:** don't confuse passive *werden* with future *werden + Infinitiv*: *Das Haus wird gebaut* (is being built — Partizip II) vs. *Er wird [[bauen]]* (he will build — Infinitiv).",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Haus ___ gebaut.",
+        "options": [
+          "wird",
+          "ist",
+          "hat"
+        ],
+        "correctIndex": 0,
+        "explanation": "Passive = werden + Partizip II: Das Haus wird gebaut."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Pizza ___ gebacken.",
+        "options": [
+          "wird",
+          "werde",
+          "hat"
+        ],
+        "correctIndex": 0,
+        "explanation": "Singular subject → wird: Die Pizza wird gebacken."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Briefe ___ geschrieben.",
+        "options": [
+          "werden",
+          "wird",
+          "werdet"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural subject → werden: Die Briefe werden geschrieben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Auto wird ___ dem Mechaniker repariert.",
+        "options": [
+          "von",
+          "mit",
+          "bei"
+        ],
+        "correctIndex": 0,
+        "explanation": "The doer in a passive sentence: von + Dativ."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Deutsch ___ in Österreich gesprochen.",
+        "options": [
+          "wird",
+          "werden",
+          "ist"
+        ],
+        "correctIndex": 0,
+        "explanation": "Deutsch (singular) → wird gesprochen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Fenster ___ gestern repariert.",
+        "options": [
+          "wurde",
+          "wird",
+          "war"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[gestern]]“ → past → Präteritum passive: wurde repariert."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Kinder ___ von der Mutter abgeholt.",
+        "options": [
+          "werden",
+          "wird",
+          "sind"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural subject → werden: Die Kinder werden abgeholt."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Brot ___ vom Bäcker gebacken. (werden)",
+        "accept": [
+          "wird"
+        ],
+        "explanation": "Präsens passive, singular: wird gebacken."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Hier ___ ein neues Haus gebaut. (werden)",
+        "accept": [
+          "wird"
+        ],
+        "explanation": "ein neues Haus (singular) → wird gebaut."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die E-Mail ___ gestern geschickt. (werden, Präteritum)",
+        "accept": [
+          "wurde"
+        ],
+        "explanation": "Präteritum passive: wurde geschickt.",
+        "hint": "past!"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Der",
+          "Kuchen",
+          "wird",
+          "von",
+          "Oma",
+          "gebacken"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Kuchen",
+            "wird",
+            "von",
+            "Oma",
+            "gebacken"
+          ]
+        ],
+        "translation": "The cake is baked by grandma.",
+        "explanation": "werden in position 2, von + doer, Partizip II at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Das",
+          "Zimmer",
+          "wurde",
+          "gestern",
+          "geputzt"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Zimmer",
+            "wurde",
+            "gestern",
+            "geputzt"
+          ]
+        ],
+        "translation": "The room was cleaned yesterday.",
+        "explanation": "Präteritum passive: wurde … geputzt."
+      }
+    }
+  ]
+}

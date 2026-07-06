@@ -1,0 +1,147 @@
+{
+  "slug": "imperativ",
+  "title": "Imperativ",
+  "level": "A1",
+  "explainer_md": "The imperative is the command form: *Komm!* (Come!), *Warten Sie!* (Wait!). German has three of them — one for each way of saying \"you\".\n\n**du-form:** take the du-form of the verb and drop -st (and the du): *du kommst* → ***Komm!*** Verbs with an e→i/ie vowel change keep it: [[nehmen]] → *Nimm!*, [[sprechen]] → *Sprich!*, [[lesen]] → *Lies!*, [[essen]] → *Iss!* But a→ä verbs lose the umlaut: [[fahren]] → *Fahr!* (not „Fähr!“).\n\n**ihr-form:** exactly the normal ihr-form, just without ihr: *Kommt her!* — *Wartet kurz!*\n\n**Sie-form:** verb first, then Sie: *Kommen Sie bitte mit!* — *Nehmen Sie Platz!*\n\n| Verb | du | ihr | Sie |\n|---|---|---|---|\n| kommen | Komm! | Kommt! | Kommen Sie! |\n| nehmen | Nimm! | Nehmt! | Nehmen Sie! |\n| [[warten]] | Warte! | Wartet! | Warten Sie! |\n\n[[sein]] is irregular: *Sei ruhig!* — *Seid leise!* — *Seien Sie so nett!*\n\nSeparable verbs send their prefix to the very end: [[aufmachen]] → *Mach das Fenster auf!*, [[zumachen]] → *Macht die Tür zu!*\n\n**Tip:** a *bitte* softens any command: *Komm bitte her!* And stems ending in -t or -d add an e in the du-form: *Warte!*, *Arbeite!*",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "nehmen → du-Imperativ: ___ das Buch!",
+        "options": ["Nimm", "Nehm", "Nimmst"],
+        "correctIndex": 0,
+        "explanation": "„[[nehmen]]“ changes e→i in the du-form (du nimmst) and keeps it in the imperative: Nimm!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "kommen → du-Imperativ: ___ bitte her!",
+        "options": ["Komm", "Kommst", "Kommen"],
+        "correctIndex": 0,
+        "explanation": "du-form kommst, drop -st and du: Komm!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "fahren → du-Imperativ: ___ langsamer!",
+        "options": ["Fahr", "Fähr", "Fährst"],
+        "correctIndex": 0,
+        "explanation": "a→ä verbs lose the umlaut in the imperative: du fährst, but „[[Fahr|fahren]]!“"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie-Form: ___ bitte Platz!",
+        "options": ["Nehmen Sie", "Nimm Sie", "Nehmt Sie"],
+        "correctIndex": 0,
+        "explanation": "Sie-imperative = infinitive + Sie: Nehmen Sie Platz!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "sein → du-Imperativ: ___ bitte ruhig!",
+        "options": ["Sei", "Bist", "Sein"],
+        "correctIndex": 0,
+        "explanation": "„[[sein]]“ is irregular: Sei ruhig! (du), Seid ruhig! (ihr), Seien Sie ruhig! (Sie)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "ihr-Form von sein: ___ leise, Kinder!",
+        "options": ["Seid", "Seit", "Sei"],
+        "correctIndex": 0,
+        "explanation": "ihr-imperative of sein is Seid — with d, not to be confused with „seit“ (since)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ bitte langsamer! (sprechen, du)",
+        "accept": ["Sprich"],
+        "hint": "e → i",
+        "explanation": "„[[sprechen]]“ changes e→i: du sprichst → Sprich!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ mehr Bücher! (lesen, du)",
+        "accept": ["Lies"],
+        "hint": "e → ie",
+        "explanation": "„[[lesen]]“ changes e→ie: du liest → Lies!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ eure Hausaufgaben, Kinder! (machen, ihr)",
+        "accept": ["Macht"],
+        "explanation": "ihr-imperative = normal ihr-form without ihr: Macht!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ einen Moment, bitte! (warten, du)",
+        "accept": ["Warte"],
+        "hint": "Stamm endet auf -t",
+        "explanation": "Stems in -t/-d add an e in the du-imperative: „[[warten]]“ → Warte!"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Mach", "das", "Fenster", "auf!"],
+        "solutions": [["Mach", "das", "Fenster", "auf!"]],
+        "translation": "Open the window!",
+        "explanation": "Separable verb „[[aufmachen]]“: the prefix auf goes to the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Kommen", "Sie", "bitte", "mit!"],
+        "solutions": [["Kommen", "Sie", "bitte", "mit!"]],
+        "translation": "Please come along!",
+        "explanation": "Sie-imperative: verb first, then Sie — bitte makes it polite."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Macht", "bitte", "die", "Tür", "zu!"],
+        "solutions": [["Macht", "bitte", "die", "Tür", "zu!"]],
+        "translation": "Please close the door!",
+        "explanation": "ihr-imperative of the separable verb „[[zumachen]]“ — prefix zu at the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "essen → du-Imperativ: ___ dein Brot!",
+        "options": ["Iss", "Ess", "Isst"],
+        "correctIndex": 0,
+        "explanation": "„[[essen]]“ changes e→i: du isst → Iss! (no -t: that would be the er-form spelling)."
+      }
+    }
+  ]
+}

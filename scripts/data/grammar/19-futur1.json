@@ -1,0 +1,146 @@
+{
+  "slug": "futur1",
+  "title": "Futur I",
+  "level": "A2",
+  "explainer_md": "To talk about the future, German uses [[werden]] + infinitive — and the infinitive waits at the very end of the sentence:\n\n*Ich **werde** morgen einen Kuchen **backen**.* — I will bake a cake tomorrow.\n\n| Person | werden |\n|---|---|\n| ich | werde |\n| du | wirst |\n| er/sie/es | wird |\n| wir | werden |\n| ihr | werdet |\n| sie/Sie | werden |\n\n*Du **wirst** das schaffen!* — You will manage it!\n\n*Wir **werden** nächstes Jahr nach Italien **fahren**.* — We will go to Italy next year.\n\n**The everyday shortcut:** with a time word like [[morgen]], [[bald]] or *nächste Woche*, Germans usually just use Präsens: *Ich fahre morgen nach Berlin.* Futur I adds emphasis — promises, plans, predictions:\n\n*Es **wird** heute Abend **regnen**.* — It's going to rain tonight.\n\n**Probability:** werden + *wohl/[[vielleicht]]* expresses a guess about right now: *Sie wird wohl noch schlafen.* — She's probably still asleep.\n\n**Careful:** werden alone (without infinitive) means \"to become\": *Er wird Arzt.* — He is becoming a doctor. Only werden + infinitive is the future tense.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ dich morgen anrufen.",
+        "options": ["werde", "wird", "werden"],
+        "correctIndex": 0,
+        "explanation": "ich → werde. The infinitive anrufen goes to the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ du mir helfen?",
+        "options": ["Wirst", "Wird", "Werdest"],
+        "correctIndex": 0,
+        "explanation": "du → wirst — one of the irregular forms of „[[werden]]“."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Es ___ heute Abend regnen.",
+        "options": ["wird", "wirst", "werdet"],
+        "correctIndex": 0,
+        "explanation": "es → wird: a classic weather prediction with Futur I („[[regnen]]“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist richtig?",
+        "options": [
+          "Wir werden ein neues Auto kaufen.",
+          "Wir werden kaufen ein neues Auto.",
+          "Wir kaufen werden ein neues Auto."
+        ],
+        "correctIndex": 0,
+        "explanation": "werden is conjugated in position 2; the infinitive „[[kaufen]]“ waits at the very end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Er wird Lehrer.“ — Was bedeutet dieser Satz?",
+        "options": [
+          "He is becoming a teacher.",
+          "He will meet a teacher.",
+          "He was a teacher."
+        ],
+        "correctIndex": 0,
+        "explanation": "werden without an infinitive means \"to become\" — this is not Futur I."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Sie wird wohl noch schlafen.“ — Was drückt der Satz aus?",
+        "options": [
+          "a guess about the present",
+          "a plan for tomorrow",
+          "a command"
+        ],
+        "correctIndex": 0,
+        "explanation": "werden + wohl = probability: she is probably still asleep right now („[[schlafen]]“)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er ___ nächstes Jahr in Berlin studieren.",
+        "accept": ["wird"],
+        "explanation": "er → wird + „[[studieren]]“ at the end."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ihr ___ die Prüfung bestimmt schaffen!",
+        "accept": ["werdet"],
+        "explanation": "ihr → werdet — a promise/encouragement in Futur I."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir ___ euch bald besuchen.",
+        "accept": ["werden"],
+        "explanation": "wir → werden + „[[besuchen]]“ at the end ([[bald]] = soon)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich ___ es nie vergessen.",
+        "accept": ["werde"],
+        "explanation": "ich → werde. A promise: I will never forget it („[[vergessen]]“)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Wir", "werden", "ein", "Haus", "kaufen"],
+        "solutions": [["Wir", "werden", "ein", "Haus", "kaufen"]],
+        "translation": "We will buy a house.",
+        "explanation": "werden in position 2, infinitive at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Morgen", "wird", "es", "den", "ganzen", "Tag", "regnen"],
+        "solutions": [["Morgen", "wird", "es", "den", "ganzen", "Tag", "regnen"]],
+        "translation": "Tomorrow it will rain all day.",
+        "explanation": "Starting with [[morgen]] pushes the subject behind wird — the infinitive still ends the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Wirst", "du", "mich", "am", "Bahnhof", "abholen?"],
+        "solutions": [["Wirst", "du", "mich", "am", "Bahnhof", "abholen?"]],
+        "translation": "Will you pick me up at the station?",
+        "explanation": "Yes/no question: wirst first, subject second, infinitive last."
+      }
+    }
+  ]
+}

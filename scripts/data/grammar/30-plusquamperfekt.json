@@ -1,0 +1,138 @@
+{
+  "slug": "plusquamperfekt",
+  "title": "Plusquamperfekt",
+  "level": "B1",
+  "explainer_md": "The Plusquamperfekt is the \"past before the past\": when you're already telling a story in the past and need to mention something that happened even earlier.\n\nIt's built exactly like Perfekt — just with [[haben]]/[[sein]] in Präteritum:\n\n| | Perfekt | Plusquamperfekt |\n|---|---|---|\n| haben | ich **habe** gegessen | ich **hatte** gegessen |\n| sein | er **ist** gegangen | er **war** gegangen |\n\n*Ich **hatte** schon **gegessen**, als sie kam.* — I had already eaten when she came. (First eating, then her arrival — both in the past.)\n\n*Der Zug **war** schon **abgefahren**, als wir ankamen.* — The train had already left when we arrived.\n\nThe haben/sein choice is the same as in Perfekt: movement and change verbs like [[gehen]], [[kommen]], [[abfahren]], [[aufwachen]] take sein; everything else takes haben.\n\n**Best friend: nachdem.** The classic pattern is [[nachdem]] + Plusquamperfekt in the time clause, Präteritum (or Perfekt) in the main clause:\n\n***Nachdem** er die Prüfung **bestanden hatte**, feierte er mit Freunden.* — After he had passed the exam, he celebrated with friends.\n\n***Nachdem** wir **angekommen waren**, suchten wir das Hotel.* — After we had arrived, we looked for the hotel.\n\n**Tip:** if you can say \"had done\" in English, you want Plusquamperfekt in German. In everyday speech it appears almost only with *nachdem*, *als* and *schon* — you don't need it for simple past stories.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Nachdem ich gegessen ___, ging ich schlafen.",
+        "options": ["hatte", "habe", "war"],
+        "correctIndex": 0,
+        "explanation": "nachdem + Plusquamperfekt: hatte gegessen (essen takes haben)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Zug ___ schon abgefahren, als wir ankamen.",
+        "options": ["war", "hatte", "ist"],
+        "correctIndex": 0,
+        "explanation": "„[[abfahren]]“ is a movement verb → sein → war abgefahren."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie ___ schon geschlafen, als das Telefon klingelte.",
+        "options": ["hatte", "war", "hat"],
+        "correctIndex": 0,
+        "explanation": "schlafen takes haben → hatte geschlafen. Then „[[klingelte|klingeln]]“ — the later event — is Präteritum."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Was passierte ZUERST? „Nachdem er gearbeitet hatte, aß er zu Abend.“",
+        "options": ["die Arbeit", "das Abendessen", "beides gleichzeitig"],
+        "correctIndex": 0,
+        "explanation": "Plusquamperfekt marks the earlier event: first work, then dinner."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Nachdem wir in Rom ___ ___, suchten wir unser Hotel.",
+        "options": ["angekommen waren", "angekommen hatten", "ankamen waren"],
+        "correctIndex": 0,
+        "explanation": "„[[ankommen]]“ takes sein → angekommen waren."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist richtig?",
+        "options": [
+          "Ich hatte den Film schon gesehen, deshalb blieb ich zu Hause.",
+          "Ich habe den Film schon gesehen hatte, deshalb blieb ich zu Hause.",
+          "Ich hatte den Film schon sehen, deshalb blieb ich zu Hause."
+        ],
+        "correctIndex": 0,
+        "explanation": "hatte + Partizip II at the end: hatte … gesehen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ den Film schon gesehen. (haben — Plusquamperfekt)",
+        "accept": ["hatten"],
+        "explanation": "wir → hatten + gesehen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er war schon ___, als ich ankam. (gehen)",
+        "accept": ["gegangen"],
+        "explanation": "sein + Partizip II: war gegangen — he had already left („[[gehen]]“)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nachdem sie die Prüfung bestanden ___, feierte sie.",
+        "accept": ["hatte"],
+        "explanation": "bestehen takes haben → bestanden hatte, at the very end of the nachdem-clause."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich ___ meinen Schlüssel verloren, deshalb stand ich vor der Tür. (haben)",
+        "accept": ["hatte"],
+        "explanation": "The losing happened before the standing → Plusquamperfekt: hatte verloren („[[verlieren]]“)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "hatte", "schon", "gegessen,", "als", "sie", "kam"],
+        "solutions": [["Ich", "hatte", "schon", "gegessen,", "als", "sie", "kam"]],
+        "translation": "I had already eaten when she came.",
+        "explanation": "Main clause in Plusquamperfekt, als-clause for the later event."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Nachdem", "er", "gearbeitet", "hatte,", "aß", "er", "zu", "Abend"],
+        "solutions": [["Nachdem", "er", "gearbeitet", "hatte,", "aß", "er", "zu", "Abend"]],
+        "translation": "After he had worked, he ate dinner.",
+        "explanation": "[[nachdem]] + Plusquamperfekt (gearbeitet hatte), then the main clause in Präteritum."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Der", "Bus", "war", "schon", "weggefahren,", "als", "ich", "kam"],
+        "solutions": [["Der", "Bus", "war", "schon", "weggefahren,", "als", "ich", "kam"]],
+        "translation": "The bus had already left when I came.",
+        "explanation": "Movement verb → war + Partizip II: war weggefahren."
+      }
+    }
+  ]
+}

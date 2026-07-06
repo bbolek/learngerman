@@ -6,7 +6,8 @@ import {
   Nunito_800ExtraBold,
   useFonts,
 } from '@expo-google-fonts/nunito';
-import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
+import { DarkTheme, DefaultTheme, router, Stack, ThemeProvider } from 'expo-router';
+import * as Notifications from 'expo-notifications';
 import * as ScreenOrientation from 'expo-screen-orientation';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
@@ -57,6 +58,21 @@ export default function RootLayout() {
     const sub = AppState.addEventListener('change', (state) => {
       if (state === 'active') useSettings.getState().refreshNotifications();
     });
+    return () => sub.remove();
+  }, [dbReady]);
+
+  // Tapping a vocab-reminder notification opens that word's dictionary entry
+  // directly instead of just foregrounding the app.
+  useEffect(() => {
+    if (!dbReady) return;
+    const openFromResponse = (response: Notifications.NotificationResponse) => {
+      const lemmaId = response.notification.request.content.data?.lemmaId;
+      if (lemmaId != null) router.push({ pathname: '/word/[id]', params: { id: String(lemmaId) } });
+    };
+    Notifications.getLastNotificationResponseAsync().then((response) => {
+      if (response) openFromResponse(response);
+    });
+    const sub = Notifications.addNotificationResponseReceivedListener(openFromResponse);
     return () => sub.remove();
   }, [dbReady]);
 

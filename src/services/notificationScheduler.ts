@@ -63,6 +63,7 @@ export async function rescheduleNotifications(
       content: {
         title: `${article}${word.lemma}`,
         body: word.example_de ? `${word.gloss} — ${word.example_de}` : word.gloss,
+        data: { lemmaId: word.lemma_id },
       },
       trigger: { type: Notifications.SchedulableTriggerInputTypes.DATE, date },
     });

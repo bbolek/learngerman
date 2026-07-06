@@ -1,0 +1,853 @@
+[
+  {
+    "lemma": "Werkzeug",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1380,
+    "noun": { "gender": "n", "plural": "Werkzeuge" },
+    "senses": [
+      {
+        "en": "tool",
+        "example_de": "Ohne Werkzeug kann ich das nicht reparieren.",
+        "example_en": "I can't repair that without tools."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Alle Werkzeuge liegen im Keller.",
+        "en": "All the tools are in the basement."
+      }
+    ]
+  },
+  {
+    "lemma": "Hammer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": "Hämmer" },
+    "senses": [
+      {
+        "en": "hammer",
+        "example_de": "Gib mir bitte den Hammer.",
+        "example_en": "Please give me the hammer."
+      },
+      {
+        "en": "knockout, stunner (colloquial: something amazing or outrageous)",
+        "note": "umgangssprachlich: „Das ist der Hammer!“",
+        "example_de": "Die Nachricht war echt der Hammer!",
+        "example_en": "The news was a real bombshell!"
+      }
+    ]
+  },
+  {
+    "lemma": "Schraube",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1550,
+    "noun": { "gender": "f", "plural": "Schrauben" },
+    "senses": [
+      {
+        "en": "screw",
+        "example_de": "Die Schraube ist locker.",
+        "example_en": "The screw is loose."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Für das Regal brauchen wir vier Schrauben.",
+        "en": "We need four screws for the shelf."
+      }
+    ]
+  },
+  {
+    "lemma": "Schraubenzieher",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1620,
+    "noun": { "gender": "m", "plural": "Schraubenzieher" },
+    "senses": [
+      {
+        "en": "screwdriver",
+        "note": "auch: der Schraubendreher",
+        "example_de": "Hast du einen kleinen Schraubenzieher?",
+        "example_en": "Do you have a small screwdriver?"
+      }
+    ]
+  },
+  {
+    "lemma": "Bohrmaschine",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": { "gender": "f", "plural": "Bohrmaschinen" },
+    "senses": [
+      {
+        "en": "power drill",
+        "example_de": "Die Bohrmaschine ist sehr laut.",
+        "example_en": "The power drill is very loud."
+      }
+    ]
+  },
+  {
+    "lemma": "Bohrer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "m", "plural": "Bohrer" },
+    "senses": [
+      {
+        "en": "drill, drill bit",
+        "example_de": "Für diese Wand brauchst du einen dickeren Bohrer.",
+        "example_en": "You need a thicker drill bit for this wall."
+      }
+    ]
+  },
+  {
+    "lemma": "Säge",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1980,
+    "noun": { "gender": "f", "plural": "Sägen" },
+    "senses": [
+      {
+        "en": "saw",
+        "example_de": "Die Säge ist nicht mehr scharf.",
+        "example_en": "The saw is no longer sharp."
+      }
+    ]
+  },
+  {
+    "lemma": "Zange",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "f", "plural": "Zangen" },
+    "senses": [
+      {
+        "en": "pliers",
+        "example_de": "Mit der Zange ziehe ich den alten Nagel heraus.",
+        "example_en": "I pull the old nail out with the pliers."
+      }
+    ]
+  },
+  {
+    "lemma": "Leiter",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": { "gender": "f", "plural": "Leitern" },
+    "senses": [
+      {
+        "en": "ladder",
+        "note": "die Leiter = ladder; der Leiter = manager, head",
+        "example_de": "Er steigt auf die Leiter.",
+        "example_en": "He climbs up the ladder."
+      }
+    ]
+  },
+  {
+    "lemma": "Pinsel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1640,
+    "noun": { "gender": "m", "plural": "Pinsel" },
+    "senses": [
+      {
+        "en": "paintbrush",
+        "example_de": "Wasch den Pinsel nach der Arbeit aus.",
+        "example_en": "Wash out the brush after the work."
+      }
+    ]
+  },
+  {
+    "lemma": "Kleber",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1680,
+    "noun": { "gender": "m", "plural": "Kleber" },
+    "senses": [
+      {
+        "en": "glue",
+        "example_de": "Der Kleber muss eine Stunde trocknen.",
+        "example_en": "The glue has to dry for an hour."
+      }
+    ]
+  },
+  {
+    "lemma": "Leim",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2580,
+    "noun": { "gender": "m", "plural": "Leime" },
+    "senses": [
+      {
+        "en": "glue (especially wood glue)",
+        "example_de": "Der Tischler klebt das Holz mit Leim.",
+        "example_en": "The carpenter glues the wood with glue."
+      }
+    ]
+  },
+  {
+    "lemma": "Klebeband",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "n", "plural": "Klebebänder" },
+    "senses": [
+      {
+        "en": "adhesive tape",
+        "example_de": "Ich klebe das Paket mit Klebeband zu.",
+        "example_en": "I seal the package with tape."
+      }
+    ]
+  },
+  {
+    "lemma": "Werkzeugkasten",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": { "gender": "m", "plural": "Werkzeugkästen" },
+    "senses": [
+      {
+        "en": "toolbox",
+        "example_de": "Im Werkzeugkasten fehlt der Hammer.",
+        "example_en": "The hammer is missing from the toolbox."
+      }
+    ]
+  },
+  {
+    "lemma": "Dübel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2590,
+    "noun": { "gender": "m", "plural": "Dübel" },
+    "senses": [
+      {
+        "en": "wall plug, dowel",
+        "example_de": "Ohne Dübel hält die Schraube nicht in der Wand.",
+        "example_en": "Without a wall plug, the screw won't hold in the wall."
+      }
+    ]
+  },
+  {
+    "lemma": "Wasserwaage",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2560,
+    "noun": { "gender": "f", "plural": "Wasserwaagen" },
+    "senses": [
+      {
+        "en": "spirit level",
+        "example_de": "Prüf das Regal mit der Wasserwaage.",
+        "example_en": "Check the shelf with the spirit level."
+      }
+    ]
+  },
+  {
+    "lemma": "Maßband",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": { "gender": "n", "plural": "Maßbänder" },
+    "senses": [
+      {
+        "en": "tape measure",
+        "example_de": "Miss die Wand mit dem Maßband.",
+        "example_en": "Measure the wall with the tape measure."
+      }
+    ]
+  },
+  {
+    "lemma": "Zollstock",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2600,
+    "noun": { "gender": "m", "plural": "Zollstöcke", "genitive": "Zollstocks" },
+    "senses": [
+      {
+        "en": "folding rule",
+        "example_de": "Der Handwerker hat immer einen Zollstock dabei.",
+        "example_en": "The craftsman always has a folding rule with him."
+      }
+    ]
+  },
+  {
+    "lemma": "Schraubenschlüssel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": { "gender": "m", "plural": "Schraubenschlüssel" },
+    "senses": [
+      {
+        "en": "wrench, spanner",
+        "example_de": "Zieh die Mutter mit dem Schraubenschlüssel fest.",
+        "example_en": "Tighten the nut with the wrench."
+      }
+    ]
+  },
+  {
+    "lemma": "Axt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": { "gender": "f", "plural": "Äxte" },
+    "senses": [
+      {
+        "en": "axe",
+        "example_de": "Er hackt das Holz mit der Axt.",
+        "example_en": "He chops the wood with the axe."
+      }
+    ]
+  },
+  {
+    "lemma": "Feile",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3400,
+    "noun": { "gender": "f", "plural": "Feilen" },
+    "senses": [
+      {
+        "en": "file (tool)",
+        "example_de": "Mit der Feile wird die Kante glatt.",
+        "example_en": "The edge becomes smooth with the file."
+      }
+    ]
+  },
+  {
+    "lemma": "Schleifpapier",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      {
+        "en": "sandpaper",
+        "example_de": "Vor dem Streichen brauchst du feines Schleifpapier.",
+        "example_en": "Before painting you need fine sandpaper."
+      }
+    ]
+  },
+  {
+    "lemma": "Brett",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1590,
+    "noun": { "gender": "n", "plural": "Bretter", "genitive": "Brettes" },
+    "senses": [
+      {
+        "en": "board, plank",
+        "example_de": "Das Brett ist zwei Meter lang.",
+        "example_en": "The board is two meters long."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Wir kaufen drei Bretter für das Regal.",
+        "en": "We are buying three boards for the shelf."
+      }
+    ]
+  },
+  {
+    "lemma": "Holz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1360,
+    "noun": { "gender": "n", "plural": "Hölzer", "genitive": "Holzes" },
+    "senses": [
+      {
+        "en": "wood",
+        "example_de": "Der Tisch ist aus Holz.",
+        "example_en": "The table is made of wood."
+      }
+    ]
+  },
+  {
+    "lemma": "Draht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": { "gender": "m", "plural": "Drähte", "genitive": "Drahtes" },
+    "senses": [
+      {
+        "en": "wire",
+        "example_de": "Der Zaun ist aus dünnem Draht.",
+        "example_en": "The fence is made of thin wire."
+      }
+    ]
+  },
+  {
+    "lemma": "Rohr",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": { "gender": "n", "plural": "Rohre" },
+    "senses": [
+      {
+        "en": "pipe, tube",
+        "example_de": "Das Rohr unter der Spüle ist undicht.",
+        "example_en": "The pipe under the sink is leaking."
+      }
+    ]
+  },
+  {
+    "lemma": "Blech",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2440,
+    "noun": { "gender": "n", "plural": "Bleche" },
+    "senses": [
+      {
+        "en": "sheet metal; baking tray",
+        "example_de": "Das Dach ist aus Blech.",
+        "example_en": "The roof is made of sheet metal."
+      }
+    ]
+  },
+  {
+    "lemma": "Glühbirne",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1610,
+    "noun": { "gender": "f", "plural": "Glühbirnen" },
+    "senses": [
+      {
+        "en": "light bulb",
+        "example_de": "Die Glühbirne im Bad ist kaputt.",
+        "example_en": "The light bulb in the bathroom is broken."
+      }
+    ]
+  },
+  {
+    "lemma": "Baumarkt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1650,
+    "noun": { "gender": "m", "plural": "Baumärkte", "genitive": "Baumarkts" },
+    "senses": [
+      {
+        "en": "hardware store, DIY store",
+        "example_de": "Wir fahren am Samstag in den Baumarkt.",
+        "example_en": "We are going to the hardware store on Saturday."
+      }
+    ]
+  },
+  {
+    "lemma": "Handwerker",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1540,
+    "noun": { "gender": "m", "plural": "Handwerker" },
+    "senses": [
+      {
+        "en": "craftsman, tradesman",
+        "example_de": "Der Handwerker kommt morgen um acht.",
+        "example_en": "The tradesman is coming tomorrow at eight."
+      }
+    ]
+  },
+  {
+    "lemma": "Handwerk",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2380,
+    "noun": { "gender": "n", "plural": null, "genitive": "Handwerks" },
+    "senses": [
+      {
+        "en": "craft, trade",
+        "example_de": "Er lernt das Handwerk von seinem Vater.",
+        "example_en": "He is learning the trade from his father."
+      }
+    ]
+  },
+  {
+    "lemma": "Heimwerker",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2540,
+    "noun": { "gender": "m", "plural": "Heimwerker" },
+    "senses": [
+      {
+        "en": "DIY enthusiast, home improver",
+        "example_de": "Als Heimwerker repariert er alles selbst.",
+        "example_en": "As a DIY enthusiast, he repairs everything himself."
+      }
+    ]
+  },
+  {
+    "lemma": "Griff",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": { "gender": "m", "plural": "Griffe", "genitive": "Griffes" },
+    "senses": [
+      {
+        "en": "handle, grip",
+        "example_de": "Der Griff von der Tür ist locker.",
+        "example_en": "The door handle is loose."
+      }
+    ]
+  },
+  {
+    "lemma": "Schutzbrille",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2570,
+    "noun": { "gender": "f", "plural": "Schutzbrillen" },
+    "senses": [
+      {
+        "en": "safety goggles",
+        "example_de": "Beim Bohren trägt er eine Schutzbrille.",
+        "example_en": "He wears safety goggles when drilling."
+      }
+    ]
+  },
+  {
+    "lemma": "Helm",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1670,
+    "noun": { "gender": "m", "plural": "Helme" },
+    "senses": [
+      {
+        "en": "helmet",
+        "example_de": "Auf der Baustelle muss man einen Helm tragen.",
+        "example_en": "You have to wear a helmet on the construction site."
+      }
+    ]
+  },
+  {
+    "lemma": "Werkbank",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3200,
+    "noun": { "gender": "f", "plural": "Werkbänke" },
+    "senses": [
+      {
+        "en": "workbench",
+        "example_de": "In der Garage steht eine alte Werkbank.",
+        "example_en": "There is an old workbench in the garage."
+      }
+    ]
+  },
+  {
+    "lemma": "schrauben",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2120,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to screw",
+        "example_de": "Er schraubt das Regal an die Wand.",
+        "example_en": "He is screwing the shelf to the wall."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie schraubt die Lampe an die Decke.",
+        "en": "She is screwing the lamp to the ceiling."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Schild an die Tür geschraubt.",
+        "en": "I screwed the sign to the door."
+      }
+    ]
+  },
+  {
+    "lemma": "sägen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2160,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to saw",
+        "example_de": "Er sägt das Brett in zwei Teile.",
+        "example_en": "He saws the board into two pieces."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Nachbar sägt schon wieder Holz.",
+        "en": "The neighbor is sawing wood again."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den alten Ast abgesägt.",
+        "en": "We sawed off the old branch."
+      }
+    ]
+  },
+  {
+    "lemma": "tapezieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2540,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to wallpaper",
+        "example_de": "Wir tapezieren das Schlafzimmer neu.",
+        "example_en": "We are re-wallpapering the bedroom."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er tapeziert die Wand im Flur.",
+        "en": "He is wallpapering the wall in the hallway."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben das ganze Zimmer tapeziert.",
+        "en": "They wallpapered the whole room."
+      }
+    ]
+  },
+  {
+    "lemma": "abschleifen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3350,
+    "verb": { "aux": "haben", "separablePrefix": "ab", "praeteritum": "schliff", "partizip2": "abgeschliffen" },
+    "senses": [
+      {
+        "en": "to sand down",
+        "example_de": "Vor dem Streichen schleifen wir die Tür ab.",
+        "example_en": "Before painting, we sand down the door."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er schleift den alten Tisch ab.",
+        "en": "He is sanding down the old table."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Boden abgeschliffen.",
+        "en": "We sanded down the floor."
+      }
+    ]
+  },
+  {
+    "lemma": "zusammenbauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2080,
+    "verb": { "aux": "haben", "separablePrefix": "zusammen" },
+    "senses": [
+      {
+        "en": "to assemble, to put together",
+        "example_de": "Wir bauen den neuen Schrank zusammen.",
+        "example_en": "We are assembling the new wardrobe."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er baut das Bett ohne Anleitung zusammen.",
+        "en": "He assembles the bed without instructions."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe das Regal in einer Stunde zusammengebaut.",
+        "en": "I assembled the shelf in an hour."
+      }
+    ]
+  },
+  {
+    "lemma": "kleben",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 1480,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to glue, to stick",
+        "example_de": "Ich klebe das Foto ins Heft.",
+        "example_en": "I glue the photo into the notebook."
+      },
+      {
+        "en": "to be sticky, to stick (to something)",
+        "example_de": "Der Zettel klebt an der Tür.",
+        "example_en": "The note is stuck to the door."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie klebt ein Bild an die Wand.",
+        "en": "She sticks a picture on the wall."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat die Tasse wieder geklebt.",
+        "en": "He glued the cup back together."
+      }
+    ]
+  },
+  {
+    "lemma": "umbauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2180,
+    "verb": { "aux": "haben", "separablePrefix": "um" },
+    "senses": [
+      {
+        "en": "to renovate, to convert (a building)",
+        "example_de": "Sie bauen das alte Haus komplett um.",
+        "example_en": "They are completely converting the old house."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Wir bauen die Küche um.",
+        "en": "We are remodeling the kitchen."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie haben die Garage zu einem Büro umgebaut.",
+        "en": "They converted the garage into an office."
+      }
+    ]
+  },
+  {
+    "lemma": "einbauen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2140,
+    "verb": { "aux": "haben", "separablePrefix": "ein" },
+    "senses": [
+      {
+        "en": "to install, to build in",
+        "example_de": "Der Handwerker baut ein neues Fenster ein.",
+        "example_en": "The tradesman is installing a new window."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er baut die neue Spüle ein.",
+        "en": "He is installing the new sink."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben eine neue Heizung eingebaut.",
+        "en": "We installed a new heating system."
+      }
+    ]
+  },
+  {
+    "lemma": "anbringen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2320,
+    "verb": { "aux": "haben", "separablePrefix": "an", "praeteritum": "brachte", "partizip2": "angebracht" },
+    "senses": [
+      {
+        "en": "to attach, to mount",
+        "example_de": "Er bringt ein Schild an der Tür an.",
+        "example_en": "He is attaching a sign to the door."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie bringt einen Haken an der Wand an.",
+        "en": "She is mounting a hook on the wall."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Spiegel im Bad angebracht.",
+        "en": "We mounted the mirror in the bathroom."
+      }
+    ]
+  },
+  {
+    "lemma": "montieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to mount, to assemble",
+        "example_de": "Der Techniker montiert die Lampe an der Decke.",
+        "example_en": "The technician mounts the lamp on the ceiling."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er montiert die neuen Regale.",
+        "en": "He is mounting the new shelves."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben die Küche selbst montiert.",
+        "en": "We assembled the kitchen ourselves."
+      }
+    ]
+  },
+  {
+    "lemma": "lackieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 3150,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to varnish, to paint (with lacquer)",
+        "example_de": "Er lackiert die alte Kommode weiß.",
+        "example_en": "He is painting the old dresser white."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie lackiert die Gartenbank neu.",
+        "en": "She is repainting the garden bench."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Tür blau lackiert.",
+        "en": "I painted the door blue."
+      }
+    ]
+  },
+  {
+    "lemma": "befestigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2060,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to fasten, to fix (in place)",
+        "note": "befestigen an + Dativ",
+        "example_de": "Er befestigt das Regal an der Wand.",
+        "example_en": "He fastens the shelf to the wall."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Sie befestigt die Lampe mit zwei Schrauben.",
+        "en": "She fixes the lamp in place with two screws."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben den Spiegel gut befestigt.",
+        "en": "We fastened the mirror securely."
+      }
+    ]
+  }
+]

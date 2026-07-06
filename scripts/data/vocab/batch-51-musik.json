@@ -1,0 +1,787 @@
+[
+  {
+    "lemma": "Instrument",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1340,
+    "noun": { "gender": "n", "plural": "Instrumente" },
+    "senses": [
+      {
+        "en": "instrument",
+        "example_de": "Spielst du ein Instrument?",
+        "example_en": "Do you play an instrument?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Im Musikraum stehen viele Instrumente.",
+        "en": "There are many instruments in the music room."
+      }
+    ]
+  },
+  {
+    "lemma": "Geige",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1520,
+    "noun": { "gender": "f", "plural": "Geigen" },
+    "senses": [
+      {
+        "en": "violin",
+        "note": "auch: die Violine",
+        "example_de": "Sie spielt seit fünf Jahren Geige.",
+        "example_en": "She has been playing the violin for five years."
+      }
+    ]
+  },
+  {
+    "lemma": "Klavier",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "n", "plural": "Klaviere" },
+    "senses": [
+      {
+        "en": "piano",
+        "example_de": "Er übt jeden Tag eine Stunde Klavier.",
+        "example_en": "He practices the piano for an hour every day."
+      }
+    ]
+  },
+  {
+    "lemma": "Schlagzeug",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "n", "plural": "Schlagzeuge" },
+    "senses": [
+      {
+        "en": "drums, drum kit",
+        "example_de": "Mein Bruder spielt Schlagzeug in einer Band.",
+        "example_en": "My brother plays drums in a band."
+      }
+    ]
+  },
+  {
+    "lemma": "Flöte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1650,
+    "noun": { "gender": "f", "plural": "Flöten" },
+    "senses": [
+      {
+        "en": "flute, recorder",
+        "example_de": "Viele Kinder lernen zuerst Flöte.",
+        "example_en": "Many children learn the recorder first."
+      }
+    ]
+  },
+  {
+    "lemma": "Trompete",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": { "gender": "f", "plural": "Trompeten" },
+    "senses": [
+      {
+        "en": "trumpet",
+        "example_de": "Die Trompete ist sehr laut.",
+        "example_en": "The trumpet is very loud."
+      }
+    ]
+  },
+  {
+    "lemma": "Trommel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": { "gender": "f", "plural": "Trommeln" },
+    "senses": [
+      {
+        "en": "drum",
+        "example_de": "Die Kinder schlagen auf die Trommel.",
+        "example_en": "The children beat the drum."
+      }
+    ]
+  },
+  {
+    "lemma": "Saite",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": { "gender": "f", "plural": "Saiten" },
+    "senses": [
+      {
+        "en": "string (of an instrument)",
+        "note": "nicht verwechseln mit: die Seite",
+        "example_de": "Eine Saite an der Gitarre ist gerissen.",
+        "example_en": "A string on the guitar has broken."
+      }
+    ]
+  },
+  {
+    "lemma": "Notenblatt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2550,
+    "noun": { "gender": "n", "plural": "Notenblätter" },
+    "senses": [
+      {
+        "en": "sheet of music",
+        "example_de": "Das Notenblatt liegt auf dem Klavier.",
+        "example_en": "The sheet music is on the piano."
+      }
+    ]
+  },
+  {
+    "lemma": "Takt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": { "gender": "m", "plural": "Takte" },
+    "senses": [
+      {
+        "en": "beat, bar (music)",
+        "example_de": "Das Publikum klatscht im Takt.",
+        "example_en": "The audience claps to the beat."
+      },
+      {
+        "en": "tact",
+        "example_de": "Er sagte es mit viel Takt.",
+        "example_en": "He said it with great tact."
+      }
+    ]
+  },
+  {
+    "lemma": "Ton",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1440,
+    "noun": { "gender": "m", "plural": "Töne", "genitive": "Tones" },
+    "senses": [
+      {
+        "en": "tone, sound, note",
+        "example_de": "Der erste Ton war zu hoch.",
+        "example_en": "The first note was too high."
+      },
+      {
+        "en": "tone (of voice)",
+        "example_de": "Sprich nicht in diesem Ton mit mir!",
+        "example_en": "Don't speak to me in that tone!"
+      }
+    ]
+  },
+  {
+    "lemma": "Komponist",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": { "gender": "m", "plural": "Komponisten", "genitive": "Komponisten" },
+    "senses": [
+      {
+        "en": "composer",
+        "note": "n-Deklination: den/dem/des Komponisten",
+        "example_de": "Bach ist ein berühmter deutscher Komponist.",
+        "example_en": "Bach is a famous German composer."
+      }
+    ]
+  },
+  {
+    "lemma": "Dirigent",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2450,
+    "noun": { "gender": "m", "plural": "Dirigenten", "genitive": "Dirigenten" },
+    "senses": [
+      {
+        "en": "conductor (of an orchestra)",
+        "note": "n-Deklination: den/dem/des Dirigenten",
+        "example_de": "Der Dirigent hebt die Arme, und das Orchester beginnt.",
+        "example_en": "The conductor raises his arms, and the orchestra begins."
+      }
+    ]
+  },
+  {
+    "lemma": "Auftritt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": { "gender": "m", "plural": "Auftritte" },
+    "senses": [
+      {
+        "en": "performance, appearance (on stage)",
+        "example_de": "Vor dem Auftritt ist sie immer nervös.",
+        "example_en": "She is always nervous before the performance."
+      }
+    ]
+  },
+  {
+    "lemma": "Verstärker",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3200,
+    "noun": { "gender": "m", "plural": "Verstärker" },
+    "senses": [
+      {
+        "en": "amplifier",
+        "example_de": "Die Gitarre hängt am Verstärker.",
+        "example_en": "The guitar is connected to the amplifier."
+      }
+    ]
+  },
+  {
+    "lemma": "Band",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": { "gender": "f", "plural": "Bands" },
+    "senses": [
+      {
+        "en": "band (music group)",
+        "note": "englisch ausgesprochen; das Band = ribbon, der Band = volume",
+        "example_de": "Seine Band spielt am Freitag in der Stadt.",
+        "example_en": "His band is playing in town on Friday."
+      }
+    ]
+  },
+  {
+    "lemma": "Sängerin",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1560,
+    "noun": { "gender": "f", "plural": "Sängerinnen" },
+    "senses": [
+      {
+        "en": "singer (female)",
+        "example_de": "Die Sängerin hat eine wunderbare Stimme.",
+        "example_en": "The singer has a wonderful voice."
+      }
+    ]
+  },
+  {
+    "lemma": "Musiker",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1460,
+    "noun": { "gender": "m", "plural": "Musiker" },
+    "senses": [
+      {
+        "en": "musician",
+        "example_de": "Die Musiker spielen auf der Straße.",
+        "example_en": "The musicians are playing in the street."
+      }
+    ]
+  },
+  {
+    "lemma": "Musikerin",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1570,
+    "noun": { "gender": "f", "plural": "Musikerinnen" },
+    "senses": [
+      {
+        "en": "musician (female)",
+        "example_de": "Sie arbeitet als Musikerin in einem Orchester.",
+        "example_en": "She works as a musician in an orchestra."
+      }
+    ]
+  },
+  {
+    "lemma": "Klang",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "m", "plural": "Klänge", "genitive": "Klanges" },
+    "senses": [
+      {
+        "en": "sound, tone (quality)",
+        "example_de": "Die alte Geige hat einen warmen Klang.",
+        "example_en": "The old violin has a warm sound."
+      }
+    ]
+  },
+  {
+    "lemma": "Musikschule",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1690,
+    "noun": { "gender": "f", "plural": "Musikschulen" },
+    "senses": [
+      {
+        "en": "music school",
+        "example_de": "Meine Tochter geht zweimal pro Woche zur Musikschule.",
+        "example_en": "My daughter goes to music school twice a week."
+      }
+    ]
+  },
+  {
+    "lemma": "Musikunterricht",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1700,
+    "noun": { "gender": "m", "plural": null, "genitive": "Musikunterrichts" },
+    "senses": [
+      {
+        "en": "music lesson(s)",
+        "example_de": "Im Musikunterricht singen wir viel.",
+        "example_en": "We sing a lot in music class."
+      }
+    ]
+  },
+  {
+    "lemma": "Harfe",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3300,
+    "noun": { "gender": "f", "plural": "Harfen" },
+    "senses": [
+      {
+        "en": "harp",
+        "example_de": "Die Harfe ist ein sehr altes Instrument.",
+        "example_en": "The harp is a very old instrument."
+      }
+    ]
+  },
+  {
+    "lemma": "Cello",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2500,
+    "noun": { "gender": "n", "plural": "Celli" },
+    "senses": [
+      {
+        "en": "cello",
+        "example_de": "Das Cello klingt tiefer als die Geige.",
+        "example_en": "The cello sounds lower than the violin."
+      }
+    ]
+  },
+  {
+    "lemma": "Klarinette",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2560,
+    "noun": { "gender": "f", "plural": "Klarinetten" },
+    "senses": [
+      {
+        "en": "clarinet",
+        "example_de": "Er lernt Klarinette an der Musikschule.",
+        "example_en": "He is learning the clarinet at music school."
+      }
+    ]
+  },
+  {
+    "lemma": "Saxophon",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2520,
+    "noun": { "gender": "n", "plural": "Saxophone" },
+    "senses": [
+      {
+        "en": "saxophone",
+        "example_de": "Im Jazz spielt das Saxophon eine große Rolle.",
+        "example_en": "The saxophone plays a big role in jazz."
+      }
+    ]
+  },
+  {
+    "lemma": "Akkordeon",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2580,
+    "noun": { "gender": "n", "plural": "Akkordeons" },
+    "senses": [
+      {
+        "en": "accordion",
+        "example_de": "Mein Opa spielt Akkordeon auf jedem Fest.",
+        "example_en": "My grandpa plays the accordion at every party."
+      }
+    ]
+  },
+  {
+    "lemma": "Orgel",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2480,
+    "noun": { "gender": "f", "plural": "Orgeln" },
+    "senses": [
+      {
+        "en": "organ (instrument)",
+        "example_de": "In der Kirche spielt jemand Orgel.",
+        "example_en": "Someone is playing the organ in the church."
+      }
+    ]
+  },
+  {
+    "lemma": "Posaune",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3350,
+    "noun": { "gender": "f", "plural": "Posaunen" },
+    "senses": [
+      {
+        "en": "trombone",
+        "example_de": "Die Posaune gehört zu den Blasinstrumenten.",
+        "example_en": "The trombone is one of the wind instruments."
+      }
+    ]
+  },
+  {
+    "lemma": "Kontrabass",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3400,
+    "noun": { "gender": "m", "plural": "Kontrabässe", "genitive": "Kontrabasses" },
+    "senses": [
+      {
+        "en": "double bass",
+        "example_de": "Der Kontrabass ist das größte Streichinstrument.",
+        "example_en": "The double bass is the largest string instrument."
+      }
+    ]
+  },
+  {
+    "lemma": "Bass",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2590,
+    "noun": { "gender": "m", "plural": "Bässe", "genitive": "Basses" },
+    "senses": [
+      {
+        "en": "bass (instrument, voice, or sound)",
+        "example_de": "Sie spielt Bass in einer Rockband.",
+        "example_en": "She plays bass in a rock band."
+      }
+    ]
+  },
+  {
+    "lemma": "Taste",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1610,
+    "noun": { "gender": "f", "plural": "Tasten" },
+    "senses": [
+      {
+        "en": "key (of a piano or keyboard)",
+        "example_de": "Ein Klavier hat 88 Tasten.",
+        "example_en": "A piano has 88 keys."
+      },
+      {
+        "en": "button, key (on a device)",
+        "example_de": "Drück die grüne Taste am Telefon.",
+        "example_en": "Press the green button on the phone."
+      }
+    ]
+  },
+  {
+    "lemma": "Akkord",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3100,
+    "noun": { "gender": "m", "plural": "Akkorde" },
+    "senses": [
+      {
+        "en": "chord",
+        "example_de": "Mit drei Akkorden kann man viele Lieder spielen.",
+        "example_en": "You can play many songs with three chords."
+      }
+    ]
+  },
+  {
+    "lemma": "Tonleiter",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3250,
+    "noun": { "gender": "f", "plural": "Tonleitern" },
+    "senses": [
+      {
+        "en": "scale (music)",
+        "example_de": "Jede Übungsstunde beginnt mit Tonleitern.",
+        "example_en": "Every practice session starts with scales."
+      }
+    ]
+  },
+  {
+    "lemma": "Gesang",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "m", "plural": "Gesänge", "genitive": "Gesanges" },
+    "senses": [
+      {
+        "en": "singing, vocals",
+        "example_de": "Sie nimmt Unterricht in Gesang.",
+        "example_en": "She takes singing lessons."
+      }
+    ]
+  },
+  {
+    "lemma": "Zugabe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2420,
+    "noun": { "gender": "f", "plural": "Zugaben" },
+    "senses": [
+      {
+        "en": "encore",
+        "example_de": "Das Publikum ruft laut nach einer Zugabe.",
+        "example_en": "The audience is loudly calling for an encore."
+      }
+    ]
+  },
+  {
+    "lemma": "Pianist",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2540,
+    "noun": { "gender": "m", "plural": "Pianisten", "genitive": "Pianisten" },
+    "senses": [
+      {
+        "en": "pianist",
+        "note": "n-Deklination: den/dem/des Pianisten",
+        "example_de": "Der Pianist spielt das Stück ohne Noten.",
+        "example_en": "The pianist plays the piece without sheet music."
+      }
+    ]
+  },
+  {
+    "lemma": "Ohrwurm",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2440,
+    "noun": { "gender": "m", "plural": "Ohrwürmer", "genitive": "Ohrwurms" },
+    "senses": [
+      {
+        "en": "catchy tune, earworm",
+        "note": "umgangssprachlich",
+        "example_de": "Das Lied ist ein echter Ohrwurm.",
+        "example_en": "The song is a real earworm."
+      }
+    ]
+  },
+  {
+    "lemma": "Lautstärke",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2020,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "volume (loudness)",
+        "example_de": "Mach die Lautstärke bitte etwas leiser.",
+        "example_en": "Please turn the volume down a bit."
+      }
+    ]
+  },
+  {
+    "lemma": "Schallplatte",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2460,
+    "noun": { "gender": "f", "plural": "Schallplatten" },
+    "senses": [
+      {
+        "en": "vinyl record",
+        "example_de": "Mein Vater sammelt alte Schallplatten.",
+        "example_en": "My father collects old vinyl records."
+      }
+    ]
+  },
+  {
+    "lemma": "Hit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2380,
+    "noun": { "gender": "m", "plural": "Hits" },
+    "senses": [
+      {
+        "en": "hit (song)",
+        "example_de": "Das Lied war in den Neunzigern ein großer Hit.",
+        "example_en": "The song was a big hit in the nineties."
+      }
+    ]
+  },
+  {
+    "lemma": "Keyboard",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2600,
+    "noun": { "gender": "n", "plural": "Keyboards" },
+    "senses": [
+      {
+        "en": "keyboard (electronic instrument)",
+        "note": "englisch ausgesprochen",
+        "example_de": "Er spielt Keyboard in unserer Band.",
+        "example_en": "He plays keyboard in our band."
+      }
+    ]
+  },
+  {
+    "lemma": "Klassik",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2260,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      {
+        "en": "classical music",
+        "example_de": "Im Radio läuft heute nur Klassik.",
+        "example_en": "Only classical music is on the radio today."
+      }
+    ]
+  },
+  {
+    "lemma": "Refrain",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2570,
+    "noun": { "gender": "m", "plural": "Refrains" },
+    "senses": [
+      {
+        "en": "chorus, refrain",
+        "note": "französisch ausgesprochen",
+        "example_de": "Beim Refrain singen alle mit.",
+        "example_en": "Everyone sings along with the chorus."
+      }
+    ]
+  },
+  {
+    "lemma": "Strophe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2530,
+    "noun": { "gender": "f", "plural": "Strophen" },
+    "senses": [
+      {
+        "en": "verse, stanza",
+        "example_de": "Das Lied hat drei Strophen.",
+        "example_en": "The song has three verses."
+      }
+    ]
+  },
+  {
+    "lemma": "Solo",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 3150,
+    "noun": { "gender": "n", "plural": "Soli" },
+    "senses": [
+      {
+        "en": "solo",
+        "example_de": "Der Gitarrist spielt ein langes Solo.",
+        "example_en": "The guitarist plays a long solo."
+      }
+    ]
+  },
+  {
+    "lemma": "dirigieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2470,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to conduct (an orchestra)",
+        "example_de": "Sie dirigiert das Orchester seit zehn Jahren.",
+        "example_en": "She has been conducting the orchestra for ten years."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er dirigiert heute Abend zum ersten Mal.",
+        "en": "He is conducting for the first time tonight."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Sie hat das Konzert großartig dirigiert.",
+        "en": "She conducted the concert brilliantly."
+      }
+    ]
+  },
+  {
+    "lemma": "summen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2280,
+    "verb": { "aux": "haben" },
+    "senses": [
+      {
+        "en": "to hum",
+        "example_de": "Sie summt eine Melodie beim Kochen.",
+        "example_en": "She hums a melody while cooking."
+      },
+      {
+        "en": "to buzz (insects)",
+        "example_de": "Die Bienen summen im Garten.",
+        "example_en": "The bees are buzzing in the garden."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Er summt das Lied den ganzen Tag.",
+        "en": "He hums the song all day."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Ich habe die Melodie leise gesummt.",
+        "en": "I hummed the melody quietly."
+      }
+    ]
+  },
+  {
+    "lemma": "vorspielen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2330,
+    "verb": { "aux": "haben", "separablePrefix": "vor" },
+    "senses": [
+      {
+        "en": "to play (music) for someone, to audition",
+        "note": "+ Dativ (jemandem etwas vorspielen)",
+        "example_de": "Sie spielt uns ein Stück auf dem Klavier vor.",
+        "example_en": "She plays a piece on the piano for us."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Der Schüler spielt der Lehrerin die Übung vor.",
+        "en": "The student plays the exercise for the teacher."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Er hat beim Orchester vorgespielt.",
+        "en": "He auditioned for the orchestra."
+      }
+    ]
+  },
+  {
+    "lemma": "mitsingen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2360,
+    "verb": { "aux": "haben", "separablePrefix": "mit", "praeteritum": "sang", "partizip2": "mitgesungen" },
+    "senses": [
+      {
+        "en": "to sing along",
+        "example_de": "Beim Konzert singen alle mit.",
+        "example_en": "Everyone sings along at the concert."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "präsens",
+        "de": "Die Kinder singen laut mit.",
+        "en": "The children sing along loudly."
+      },
+      {
+        "tag": "perfekt",
+        "de": "Wir haben jedes Lied mitgesungen.",
+        "en": "We sang along with every song."
+      }
+    ]
+  }
+]

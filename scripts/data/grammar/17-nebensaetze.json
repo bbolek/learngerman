@@ -1,0 +1,204 @@
+{
+  "slug": "nebensaetze",
+  "title": "Nebensätze: weil, dass, wenn",
+  "level": "A2",
+  "explainer_md": "Words like **weil** (because), **dass** (that) and **wenn** (when/if) start a subordinate clause — and they kick the conjugated verb to the **very end** of that clause. A comma always separates the two parts.\n\n*Ich bleibe zu Hause. Ich bin krank.* → *Ich bleibe zu Hause, **weil** ich krank **bin**.*\n\n| Konjunktion | Bedeutung | Beispiel |\n|---|---|---|\n| weil | because | …, weil ich müde **bin**. |\n| dass | that | Ich weiß, dass du Recht **hast**. |\n| wenn | when / if | Wenn es regnet, **bleibe** ich hier. |\n\n*Er lernt Deutsch, **weil** er in Berlin **wohnt**.* — He is learning German because he lives in Berlin.\n\n*Ich glaube, **dass** er morgen **kommt**.* — I think that he is coming tomorrow.\n\n*Wir gehen spazieren, **wenn** die [[Sonne]] **scheint**.* — We go for a walk when the sun shines.\n\n**Starting with the Nebensatz?** Then the main clause begins with its verb — the two verbs meet in the middle, separated by the comma:\n\n***Wenn** es **regnet**, **nehme** ich den [[Bus]].* — If it rains, I take the bus.\n\n**Tip:** don't confuse **wenn** (whenever/if — repeated or future events) with **als** (a single event in the past, B1 topic). And *weil* answers a „Warum?“ question — perfect for keeping a conversation going.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich bleibe zu Hause, ___",
+        "options": [
+          "weil ich krank bin",
+          "weil ich bin krank",
+          "weil bin ich krank"
+        ],
+        "correctIndex": 0,
+        "explanation": "In a weil-clause the conjugated verb goes to the very end: … weil ich krank bin."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er sagt, ___",
+        "options": [
+          "dass er müde ist",
+          "dass er ist müde",
+          "dass ist er müde"
+        ],
+        "correctIndex": 0,
+        "explanation": "dass sends the verb to the end: dass er müde ist."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir gehen spazieren, ___",
+        "options": [
+          "wenn die Sonne scheint",
+          "wenn scheint die Sonne"
+        ],
+        "correctIndex": 0,
+        "explanation": "wenn-clause: verb at the end → wenn die Sonne scheint."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich lerne Deutsch, weil ich in Deutschland ___.",
+        "options": [
+          "wohne",
+          "wohnst",
+          "wohnt"
+        ],
+        "correctIndex": 0,
+        "explanation": "The subject is ich → wohne, at the end of the weil-clause."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ es regnet, bleiben wir zu Hause.",
+        "options": [
+          "Wenn",
+          "Weil",
+          "Dass"
+        ],
+        "correctIndex": 0,
+        "explanation": "A condition (if it rains) → wenn. dass can't start a sentence like this."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie ist glücklich, ___ sie eine gute Note hat.",
+        "options": [
+          "weil",
+          "dass",
+          "ob"
+        ],
+        "correctIndex": 0,
+        "explanation": "It gives the reason for her happiness → weil (because)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich weiß, ___ du Recht hast. (that)",
+        "accept": [
+          "dass"
+        ],
+        "explanation": "After „[[wissen]]“, „[[glauben]]“, „[[sagen]]“: dass — with double s."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er kommt nicht, ___ er arbeiten muss. (because)",
+        "accept": [
+          "weil"
+        ],
+        "explanation": "Reason → weil. Note the verb cluster at the end: arbeiten muss."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ ich Zeit habe, koche ich gern. (when/if)",
+        "accept": [
+          "wenn"
+        ],
+        "explanation": "Condition/repeated event → wenn. The main clause then starts with its verb: koche ich…"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "glaube,",
+          "dass",
+          "er",
+          "kommt"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "glaube,",
+            "dass",
+            "er",
+            "kommt"
+          ]
+        ],
+        "translation": "I think that he is coming.",
+        "explanation": "dass-clause: subject first, verb at the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Sie",
+          "lernt,",
+          "weil",
+          "sie",
+          "eine",
+          "Prüfung",
+          "hat"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "lernt,",
+            "weil",
+            "sie",
+            "eine",
+            "Prüfung",
+            "hat"
+          ]
+        ],
+        "translation": "She is studying because she has an exam.",
+        "explanation": "weil sends „[[hat]]“ to the end of its clause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Wenn",
+          "es",
+          "regnet,",
+          "nehme",
+          "ich",
+          "den",
+          "Bus"
+        ],
+        "solutions": [
+          [
+            "Wenn",
+            "es",
+            "regnet,",
+            "nehme",
+            "ich",
+            "den",
+            "Bus"
+          ]
+        ],
+        "translation": "If it rains, I take the bus.",
+        "explanation": "Nebensatz first → the main clause starts with its verb: … , nehme ich …"
+      }
+    }
+  ]
+}

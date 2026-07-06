@@ -1,0 +1,144 @@
+{
+  "slug": "infinitiv-mit-zu",
+  "title": "Infinitiv mit zu",
+  "level": "B1",
+  "explainer_md": "Many verbs connect to a second verb with **zu** + infinitive at the end of the sentence:\n\n*Ich versuche, jeden Tag Deutsch **zu lernen**.* — I try to learn German every day.\n\nVerbs that take zu: [[versuchen]] (to try), [[vergessen]] (to forget), [[hoffen]] (to hope), [[anfangen]] (to start), [[aufhören]] (to stop), [[planen]] (to plan), [[vorhaben]] (to intend), [[versprechen]] (to promise).\n\n*Er hat vergessen, die Tür **zuzumachen**.* — He forgot to close the door.\n\nAlso common expressions with haben/sein: *Ich habe keine [[Lust]], **zu kochen**.* — *Es ist wichtig, viel **zu üben**.* — *Ich habe keine [[Zeit]], lange **zu warten**.*\n\n**Separable verbs** squeeze zu between prefix and stem — one word: [[aufstehen]] → *aufzustehen*, [[zumachen]] → *zuzumachen*, [[anrufen]] → *anzurufen*.\n\n*Ich habe vergessen, dich **anzurufen**.* — I forgot to call you.\n\n**No zu after these!** Modal verbs ([[können]], [[müssen]], [[wollen]], [[dürfen]], [[sollen]], [[mögen]]) and a few others like [[gehen]] and [[lassen]] take the bare infinitive:\n\n*Ich muss arbeiten.* (not „zu arbeiten“) — *Wir gehen schwimmen.*\n\n| mit zu | ohne zu |\n|---|---|\n| Ich versuche **zu** schlafen. | Ich will schlafen. |\n| Es ist schön, hier **zu** sein. | Ich kann morgen kommen. |\n| Er hört auf **zu** rauchen. | Wir gehen einkaufen. |\n\n**Comma:** with a longer infinitive group, a comma is common (and always allowed): *Ich versuche**,** pünktlich zu sein.*",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich versuche, Deutsch ___ lernen.",
+        "options": ["zu", "für", "um"],
+        "correctIndex": 0,
+        "explanation": "„[[versuchen]]“ takes zu + infinitive: … Deutsch zu lernen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welcher Satz ist richtig?",
+        "options": [
+          "Ich muss heute arbeiten.",
+          "Ich muss heute zu arbeiten.",
+          "Ich muss heute arbeiten zu."
+        ],
+        "correctIndex": 0,
+        "explanation": "Modal verbs like „[[müssen]]“ take the bare infinitive — never zu."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er hat vergessen, mich ___.",
+        "options": ["anzurufen", "zu anrufen", "anrufen zu"],
+        "correctIndex": 0,
+        "explanation": "Separable verb: zu goes between prefix and stem — anzurufen, one word („[[anrufen]]“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Es ist wichtig, jeden Tag ___.",
+        "options": ["zu üben", "üben", "zum üben"],
+        "correctIndex": 0,
+        "explanation": "After „Es ist wichtig, …“ comes zu + infinitive: zu üben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wann steht KEIN zu?",
+        "options": [
+          "Wir gehen heute schwimmen.",
+          "Ich hoffe, dich bald sehen.",
+          "Sie plant, im Sommer reisen."
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[gehen]]“ + infinitive needs no zu. hoffen and planen DO need it — those two sentences are wrong as written."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hört auf ___.",
+        "options": ["zu rauchen", "rauchen", "zum rauchen"],
+        "correctIndex": 0,
+        "explanation": "„[[aufhören]]“ takes zu + infinitive: Sie hört auf zu rauchen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich hoffe, dich bald ___ sehen.",
+        "accept": ["zu"],
+        "explanation": "„[[hoffen]]“ + zu: …, dich bald zu sehen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er fängt an ___ arbeiten.",
+        "accept": ["zu"],
+        "explanation": "„[[anfangen]]“ + zu: Er fängt an zu arbeiten."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Vergiss nicht, das Fenster ___! (zumachen)",
+        "accept": ["zuzumachen"],
+        "hint": "trennbares Verb — ein Wort",
+        "explanation": "„[[zumachen]]“ is separable: zu + zu + machen → zuzumachen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich habe keine Lust, früh ___. (aufstehen)",
+        "accept": ["aufzustehen"],
+        "hint": "trennbares Verb — ein Wort",
+        "explanation": "„[[aufstehen]]“ → aufzustehen: zu slips between the prefix and the stem."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "habe", "keine", "Lust", "zu", "kochen"],
+        "solutions": [["Ich", "habe", "keine", "Lust", "zu", "kochen"]],
+        "translation": "I don't feel like cooking.",
+        "explanation": "keine [[Lust]] haben + zu + infinitive at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Wir", "haben", "vor,", "nach", "Berlin", "zu", "fahren"],
+        "solutions": [["Wir", "haben", "vor,", "nach", "Berlin", "zu", "fahren"]],
+        "translation": "We are planning to go to Berlin.",
+        "explanation": "„[[vorhaben]]“ separates (haben … vor) and the zu-group follows the comma."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Es", "ist", "schwer,", "eine", "Sprache", "zu", "lernen"],
+        "solutions": [["Es", "ist", "schwer,", "eine", "Sprache", "zu", "lernen"]],
+        "translation": "It is hard to learn a language.",
+        "explanation": "Es ist + adjective + comma + zu-infinitive group."
+      }
+    }
+  ]
+}

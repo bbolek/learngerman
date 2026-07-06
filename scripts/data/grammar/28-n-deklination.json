@@ -1,0 +1,145 @@
+{
+  "slug": "n-deklination",
+  "title": "n-Deklination",
+  "level": "B1",
+  "explainer_md": "A small club of masculine nouns adds **-(e)n** in every case except the nominative singular. Meet der [[Junge]]:\n\n| Kasus | Singular | Plural |\n|---|---|---|\n| Nominativ | der Junge | die Jungen |\n| Akkusativ | den Junge**n** | die Jungen |\n| Dativ | dem Junge**n** | den Jungen |\n| Genitiv | des Junge**n** | der Jungen |\n\n*Ich sehe den Junge**n**.* — I see the boy. (Not „den Junge“!)\n\nWho's in the club? Almost all are **male persons or animals**:\n\nMasculine nouns ending in -e: der Junge, der [[Kunde]] (customer), der [[Kollege]] (colleague), der Löwe (lion). Professions and nationalities from Latin/Greek in -ent/-ist/-at: der [[Student]], der [[Pianist]], der [[Komponist]], der Praktikant. Plus a few short classics: der [[Herr]] (→ den Herr**n**, plural die Herr**en**), der [[Mensch]], der [[Nachbar]], der Bär.\n\n*Das ist das Büro des Kolleg**en**.* — That is the colleague's office.\n\n*Sie hilft dem Student**en**.* — She helps the student.\n\n**Special case:** der [[Name]] adds -n AND keeps a genitive -s: *des Name**ns***.\n\n**How to spot them:** masculine + refers to a person/animal + ends in -e (or -ent/-ist) → almost certainly n-Deklination. Feminine nouns in -e (die Lampe) are NOT in the club — they never change.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich sehe den ___ im Park.",
+        "options": ["Jungen", "Junge", "Junges"],
+        "correctIndex": 0,
+        "explanation": "Akkusativ of der [[Junge]] → den Jungen (n-Deklination)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er spricht mit dem ___.",
+        "options": ["Kollegen", "Kollege", "Kollegem"],
+        "correctIndex": 0,
+        "explanation": "Dativ → dem Kollegen. Every case except Nominativ Singular gets -n („[[Kollege]]“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das ist das Auto des ___.",
+        "options": ["Kunden", "Kundes", "Kunde"],
+        "correctIndex": 0,
+        "explanation": "Genitiv of der [[Kunde]] is des Kunden — no -s, just -n."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Kennst du diesen ___? (Student)",
+        "options": ["Studenten", "Student", "Students"],
+        "correctIndex": 0,
+        "explanation": "-ent nouns join the n-Deklination: den/diesen Studenten („[[Student]]“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welches Nomen gehört NICHT zur n-Deklination?",
+        "options": ["der Tisch", "der Junge", "der Mensch", "der Student"],
+        "correctIndex": 0,
+        "explanation": "der Tisch is a thing, not a person — regular declension: den Tisch, dem Tisch."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wie heißt der Genitiv von „der Name“?",
+        "options": ["des Namens", "des Namen", "des Names"],
+        "correctIndex": 0,
+        "explanation": "der [[Name]] is special: it adds -n AND the genitive -s → des Namens."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Guten Tag, wie kann ich ___ helfen? (der Herr)",
+        "options": ["dem Herrn", "dem Herr", "den Herrn"],
+        "correctIndex": 0,
+        "explanation": "helfen + Dativ, and der [[Herr]] adds -n in the singular: dem Herrn."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Musik dieses ___ ist weltberühmt. (Komponist)",
+        "accept": ["Komponisten"],
+        "explanation": "Genitiv: dieses Komponisten — -ist nouns follow the n-Deklination („[[Komponist]]“)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir helfen unserem ___ im Garten. (Nachbar)",
+        "accept": ["Nachbarn"],
+        "explanation": "Dativ of der [[Nachbar]] → dem/unserem Nachbarn."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Jeder ___ hat Rechte. (Mensch — Nominativ!)",
+        "accept": ["Mensch"],
+        "explanation": "Careful — Nominativ Singular is the ONE case without -en: jeder Mensch („[[Mensch]]“)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "frage", "den", "Studenten", "nach", "dem", "Weg"],
+        "solutions": [["Ich", "frage", "den", "Studenten", "nach", "dem", "Weg"]],
+        "translation": "I ask the student for directions.",
+        "explanation": "fragen + Akkusativ → den Studenten (n-Deklination)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Die Lehrerin lobt **den Jungen**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „loben“",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "den Jungen is the direct object → Akkusativ, and the n-Deklination adds -n."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Sie dankt **dem Kollegen** für die Hilfe.",
+        "correctCase": "dativ",
+        "reasons": [
+          "„danken“ takes a dative object",
+          "It is the direct object",
+          "It shows possession"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "„[[danken]]“ is a dative verb → dem Kollegen, with the n-Deklination ending."
+      }
+    }
+  ]
+}

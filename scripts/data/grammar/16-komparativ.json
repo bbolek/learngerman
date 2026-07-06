@@ -1,0 +1,206 @@
+{
+  "slug": "komparativ",
+  "title": "Komparativ & Superlativ",
+  "level": "A2",
+  "explainer_md": "Comparing in German is easy — even easier than English, because EVERY adjective uses **-er** and **am …-sten**, no matter how long it is.\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| [[klein]] | klein**er** | am klein**sten** |\n| [[schnell]] | schnell**er** | am schnell**sten** |\n| interessant | interessant**er** | am interessant**esten** |\n\n**Short adjectives with a, o, u usually take an umlaut:** [[alt]] → **ä**lter → am **ä**ltesten · [[groß]] → gr**ö**ßer → am gr**ö**ßten · [[jung]] → j**ü**nger → am j**ü**ngsten · [[kalt]] → k**ä**lter → am k**ä**ltesten.\n\n**A few are irregular** — memorize these:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| [[gut]] | besser | am besten |\n| [[viel]] | mehr | am meisten |\n| [[gern]] | lieber | am liebsten |\n| [[hoch]] | höher | am höchsten |\n| nah | näher | am nächsten |\n\n**Comparing two things** uses **als** (than); **equality** uses **so … wie**:\n\n*Mein Bruder ist älter **als** ich.* — My brother is older than me.\n\n*Anna ist genauso groß **wie** ihre Schwester.* — Anna is just as tall as her sister.\n\n*Ich trinke **lieber** Tee **als** Kaffee.* — I prefer tea to coffee.\n\n**Tip:** never use \"mehr\" to compare adjectives like English \"more interesting\" — German always uses the ending: *interessanter*, never „mehr interessant“.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Mein Bruder ist ___ als ich.",
+        "options": [
+          "älter",
+          "alter",
+          "am ältesten"
+        ],
+        "correctIndex": 0,
+        "explanation": "alt takes an umlaut in the comparative: älter. „[[als]]“ = than."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Zug ist ___ als der Bus.",
+        "options": [
+          "schneller",
+          "schnell",
+          "am schnellsten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Comparing two things → Komparativ: schnell + -er."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Dieses Buch ist ___ als das andere.",
+        "options": [
+          "besser",
+          "guter",
+          "mehr gut"
+        ],
+        "correctIndex": 0,
+        "explanation": "gut is irregular: gut → besser → am besten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Im Sommer sind die Tage am ___.",
+        "options": [
+          "längsten",
+          "längeren",
+          "langen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Superlative: am längsten (lang → länger → am längsten)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich trinke ___ Tee als Kaffee.",
+        "options": [
+          "lieber",
+          "gerner",
+          "mehr gern"
+        ],
+        "correctIndex": 0,
+        "explanation": "gern is irregular: gern → lieber → am liebsten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Anna ist genauso groß ___ ihre Schwester.",
+        "options": [
+          "wie",
+          "als",
+          "so"
+        ],
+        "correctIndex": 0,
+        "explanation": "Equality uses wie: genauso groß wie. „[[als]]“ only after a comparative."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das ist das ___ Haus der Stadt.",
+        "options": [
+          "höchste",
+          "hochste",
+          "höhere"
+        ],
+        "correctIndex": 0,
+        "explanation": "hoch is irregular: hoch → höher → höchst-. Before a noun: das höchste Haus."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ein Auto ist ___ als ein Fahrrad. (teuer)",
+        "accept": [
+          "teurer"
+        ],
+        "explanation": "teuer drops the e of the stem: teurer (not „[[teuerer]]“).",
+        "hint": "drops an e!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Winter ist ___ als der Herbst. (kalt)",
+        "accept": [
+          "kälter"
+        ],
+        "explanation": "kalt takes an umlaut: kälter.",
+        "hint": "umlaut!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Von allen Schülern läuft Max am ___. (schnell)",
+        "accept": [
+          "schnellsten"
+        ],
+        "explanation": "Superlative as adverb: am schnellsten.",
+        "hint": "superlative"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich esse ___ Obst als Schokolade. (gern)",
+        "accept": [
+          "lieber"
+        ],
+        "explanation": "gern → lieber: I prefer eating fruit.",
+        "hint": "irregular"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Berlin",
+          "ist",
+          "größer",
+          "als",
+          "Hamburg"
+        ],
+        "solutions": [
+          [
+            "Berlin",
+            "ist",
+            "größer",
+            "als",
+            "Hamburg"
+          ]
+        ],
+        "translation": "Berlin is bigger than Hamburg.",
+        "explanation": "Komparativ + als: größer als."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Im",
+          "Winter",
+          "sind",
+          "die",
+          "Tage",
+          "am",
+          "kürzesten"
+        ],
+        "solutions": [
+          [
+            "Im",
+            "Winter",
+            "sind",
+            "die",
+            "Tage",
+            "am",
+            "kürzesten"
+          ]
+        ],
+        "translation": "In winter the days are shortest.",
+        "explanation": "Superlative with am + -sten; verb in position 2 after the fronted phrase."
+      }
+    }
+  ]
+}

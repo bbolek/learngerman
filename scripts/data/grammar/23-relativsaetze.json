@@ -1,0 +1,198 @@
+{
+  "slug": "relativsaetze",
+  "title": "Relativsätze",
+  "level": "B1",
+  "explainer_md": "A relative clause adds information about a noun: *Der Mann, **der** dort steht, ist mein [[Lehrer]].* — The man **who** is standing there is my teacher.\n\nThe relative pronouns look almost exactly like der/die/das:\n\n| | m | f | n | pl |\n|---|---|---|---|---|\n| Nominativ | der | die | das | die |\n| Akkusativ | den | die | das | die |\n| Dativ | dem | der | dem | **denen** |\n\n**Two decisions pick the right pronoun:**\n\n**1. Gender & number** come from the noun you describe: der Mann → der/den/dem · die Frau → die/die/der · das [[Buch]] → das/das/dem.\n\n**2. The case** comes from the pronoun's job **inside the relative clause**:\n\n*Der Mann, **der** dort steht, …* — he stands → subject → Nominativ\n\n*Der Film, **den** wir gesehen haben, …* — we saw *him* (the film) → Akkusativ\n\n*Der Freund, **dem** ich das Buch gebe, …* — I give *to him* → Dativ\n\n*Die Frau, **der** ich helfe, …* — helfen + Dativ, feminine → der\n\n**Like all Nebensätze,** the conjugated verb goes to the end, and commas are obligatory: *Die Kinder, die im [[Garten]] **spielen**, sind laut.*\n\n**Tip:** only two forms differ from the article table: Dativ plural **denen** — and Genitiv (dessen/deren), which you'll rarely need at B1.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Mann, ___ dort steht, ist mein Lehrer.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "The man stands (subject of the relative clause) → Nominativ masculine: der."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Frau, ___ ich helfe, ist krank.",
+        "options": [
+          "der",
+          "die",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[helfen]]“ + Dativ; feminine Dativ → der."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Buch, ___ ich lese, ist spannend.",
+        "options": [
+          "das",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "I read it → Akkusativ; neuter stays das."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Film, ___ wir gesehen haben, war gut.",
+        "options": [
+          "den",
+          "der",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "We saw it → Akkusativ; masculine der → den."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Kinder, ___ im Garten spielen, sind laut.",
+        "options": [
+          "die",
+          "den",
+          "denen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The children play (subject) → Nominativ plural: die."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Freund, ___ ich das Buch gebe, wohnt in Köln.",
+        "options": [
+          "dem",
+          "den",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "I give the book TO him → Dativ masculine: dem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Stadt, in ___ ich wohne, ist klein.",
+        "options": [
+          "der",
+          "die",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "in + Wo? → Dativ; feminine → der: die Stadt, in der ich wohne."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das ist der Mann, ___ mir geholfen hat.",
+        "accept": [
+          "der"
+        ],
+        "explanation": "He helped me → subject → Nominativ masculine: der.",
+        "hint": "subject of the clause"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Auto, ___ er kauft, ist teuer.",
+        "accept": [
+          "das"
+        ],
+        "explanation": "He buys it → Akkusativ; neuter stays das.",
+        "hint": "Akkusativ, neuter"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Leute, ___ wir danken, sind nett.",
+        "accept": [
+          "denen"
+        ],
+        "explanation": "„[[danken]]“ + Dativ; Dativ plural is special: denen.",
+        "hint": "danken + Dativ, plural"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Der",
+          "Mann,",
+          "der",
+          "dort",
+          "wohnt,",
+          "ist",
+          "Arzt"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Mann,",
+            "der",
+            "dort",
+            "wohnt,",
+            "ist",
+            "Arzt"
+          ]
+        ],
+        "translation": "The man who lives there is a doctor.",
+        "explanation": "Relative clause between commas, its verb (wohnt) at the clause end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Das",
+          "ist",
+          "das",
+          "Buch,",
+          "das",
+          "ich",
+          "liebe"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "ist",
+            "das",
+            "Buch,",
+            "das",
+            "ich",
+            "liebe"
+          ]
+        ],
+        "translation": "That is the book that I love.",
+        "explanation": "Neuter Akkusativ pronoun das; verb „[[liebe]]“ at the end of the clause."
+      }
+    }
+  ]
+}

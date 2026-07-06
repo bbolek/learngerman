@@ -1,0 +1,148 @@
+{
+  "slug": "reflexive-verben",
+  "title": "Reflexive Verben",
+  "level": "A2",
+  "explainer_md": "Some German verbs come with a mirror: the action points back at the subject. *Ich wasche **mich**.* — I wash myself. These are reflexive verbs, and the little word is the reflexive pronoun.\n\n| Person | Reflexivpronomen (Akk.) | Beispiel |\n|---|---|---|\n| ich | mich | Ich freue **mich**. |\n| du | dich | Du freust **dich**. |\n| er/sie/es | sich | Er freut **sich**. |\n| wir | uns | Wir freuen **uns**. |\n| ihr | euch | Ihr freut **euch**. |\n| sie/Sie | sich | Sie freuen **sich**. |\n\nOnly ich and du have special forms — everyone else borrows sich or the normal pronoun.\n\nCommon reflexive verbs: [[freuen]] (sich freuen — to be glad), [[treffen]] (sich treffen — to meet up), [[beeilen]] (sich beeilen — to hurry), [[erinnern]] (sich erinnern an — to remember), [[anziehen]] (sich anziehen — to get dressed), [[setzen]] (sich setzen — to sit down), [[fühlen]] (sich fühlen — to feel), [[ärgern]] (sich ärgern — to be annoyed), [[waschen]], [[duschen]], [[kämmen]].\n\n*Wir treffen **uns** um acht.* — We're meeting at eight.\n\n*Beeil **dich**, der Bus kommt!* — Hurry up, the bus is coming!\n\n**Akkusativ or Dativ?** If the verb has another object, the pronoun switches to dative — again only visible for ich and du: *Ich wasche **mich**.* but *Ich wasche **mir** die Hände.* (I wash my hands — die Hände is the accusative object, so mir takes dative.)\n\n**Position:** the pronoun stands right after the conjugated verb — *Ich ziehe mich schnell an.* — and after the subject in questions: *Freust du dich?*",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich freue ___ auf das Wochenende.",
+        "options": ["mich", "mir", "sich"],
+        "correctIndex": 0,
+        "explanation": "ich → mich. „[[sich freuen|freuen]]“ takes an accusative reflexive pronoun."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er wäscht ___ jeden Morgen.",
+        "options": ["sich", "ihn", "sein"],
+        "correctIndex": 0,
+        "explanation": "Third person always uses sich — never ihn, even though it looks like an object."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ihr müsst ___ beeilen!",
+        "options": ["euch", "sich", "uns"],
+        "correctIndex": 0,
+        "explanation": "ihr → euch: Ihr müsst euch beeilen. „[[sich beeilen|beeilen]]“ is always reflexive."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie erinnert ___ gern an den Urlaub.",
+        "options": ["sich", "ihr", "sie"],
+        "correctIndex": 0,
+        "explanation": "„[[sich erinnern|erinnern]] an“ — third person reflexive is sich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich wasche ___ die Hände.",
+        "options": ["mir", "mich", "sich"],
+        "correctIndex": 0,
+        "explanation": "There is already an accusative object (die Hände), so the reflexive pronoun switches to dative: mir."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Kämmst du ___ die Haare?",
+        "options": ["dir", "dich", "sich"],
+        "correctIndex": 0,
+        "explanation": "die Haare is the accusative object → dative reflexive: dir. („[[kämmen]]“ — to comb.)"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir treffen ___ um acht Uhr vor dem Kino.",
+        "accept": ["uns"],
+        "explanation": "wir → uns. „[[sich treffen|treffen]]“ = to meet up."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Beeil ___, der Bus kommt gleich!",
+        "accept": ["dich"],
+        "explanation": "Imperative to du → dich: Beeil dich!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich fühle ___ heute viel besser.",
+        "accept": ["mich"],
+        "explanation": "„[[sich fühlen|fühlen]]“ — ich → mich."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ärgert ihr ___ über das Wetter?",
+        "accept": ["euch"],
+        "explanation": "„[[sich ärgern|ärgern]] über“ — ihr → euch."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "ziehe", "mich", "schnell", "an"],
+        "solutions": [["Ich", "ziehe", "mich", "schnell", "an"]],
+        "translation": "I get dressed quickly.",
+        "explanation": "The reflexive pronoun follows the conjugated verb; the separable prefix of „[[sich anziehen|anziehen]]“ goes last."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "setzt", "sich", "auf", "den", "Stuhl"],
+        "solutions": [["Er", "setzt", "sich", "auf", "den", "Stuhl"]],
+        "translation": "He sits down on the chair.",
+        "explanation": "„[[sich setzen|setzen]]“ — sich right after the verb."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Freust", "du", "dich", "auf", "die", "Party?"],
+        "solutions": [["Freust", "du", "dich", "auf", "die", "Party?"]],
+        "translation": "Are you looking forward to the party?",
+        "explanation": "In a yes/no question the pronoun comes after the subject: Freust du dich …?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist richtig?",
+        "options": [
+          "Wir duschen uns nach dem Sport.",
+          "Wir duschen sich nach dem Sport.",
+          "Wir uns duschen nach dem Sport."
+        ],
+        "correctIndex": 0,
+        "explanation": "wir → uns, and the pronoun follows the conjugated verb: Wir duschen uns … („[[duschen]]“)."
+      }
+    }
+  ]
+}

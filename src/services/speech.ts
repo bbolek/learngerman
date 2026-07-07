@@ -1,5 +1,6 @@
+import * as IntentLauncher from 'expo-intent-launcher';
 import * as Speech from 'expo-speech';
-import { Alert, Platform } from 'react-native';
+import { Alert, Linking, Platform } from 'react-native';
 
 let hasGermanVoice: boolean | null = null;
 
@@ -23,12 +24,31 @@ async function checkGermanVoice(): Promise<boolean> {
 /** Speak a German word/phrase, cancelling any previous utterance. */
 export async function speakGerman(text: string): Promise<void> {
   if (!(await checkGermanVoice())) {
-    Alert.alert(
-      'No German voice installed',
-      Platform.OS === 'ios'
-        ? 'Please install a German voice under Settings → Accessibility → Spoken Content → Voices → German.'
-        : 'Please install German language data in your device’s text-to-speech settings (e.g. "Speech Services by Google").'
-    );
+    if (Platform.OS === 'android') {
+      Alert.alert(
+        'No German voice installed',
+        'Please install German language data in your device’s text-to-speech settings (e.g. "Speech Services by Google").',
+        [
+          { text: 'Cancel', style: 'cancel' },
+          {
+            text: 'Open settings',
+            onPress: () => {
+              // Android's TTS settings screen; fall back to app settings if a
+              // vendor ROM doesn't expose it.
+              IntentLauncher.startActivityAsync('com.android.settings.TTS_SETTINGS').catch(() =>
+                Linking.openSettings()
+              );
+            },
+          },
+        ]
+      );
+    } else {
+      // iOS has no public deep link into the voice settings screen.
+      Alert.alert(
+        'No German voice installed',
+        'Please install a German voice under Settings → Accessibility → Spoken Content → Voices → German.'
+      );
+    }
     return;
   }
   Speech.stop();

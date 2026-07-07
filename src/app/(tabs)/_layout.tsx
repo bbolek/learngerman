@@ -1,6 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { Tabs } from 'expo-router';
 
+import { tourTabButton } from '@/tour/TourTabButton';
 import { fonts } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
@@ -21,6 +22,7 @@ export default function TabsLayout() {
         options={{
           title: 'Start',
           tabBarIcon: ({ color, size }) => <Ionicons name="home" size={size} color={color} />,
+          tabBarButton: tourTabButton('tab-home'),
         }}
       />
       <Tabs.Screen
@@ -28,6 +30,7 @@ export default function TabsLayout() {
         options={{
           title: 'Wörterbuch',
           tabBarIcon: ({ color, size }) => <Ionicons name="search" size={size} color={color} />,
+          tabBarButton: tourTabButton('tab-dictionary'),
         }}
       />
       <Tabs.Screen
@@ -35,6 +38,7 @@ export default function TabsLayout() {
         options={{
           title: 'Wörter',
           tabBarIcon: ({ color, size }) => <Ionicons name="heart" size={size} color={color} />,
+          tabBarButton: tourTabButton('tab-words'),
         }}
       />
       <Tabs.Screen
@@ -42,6 +46,7 @@ export default function TabsLayout() {
         options={{
           title: 'Üben',
           tabBarIcon: ({ color, size }) => <Ionicons name="school" size={size} color={color} />,
+          tabBarButton: tourTabButton('tab-practice'),
         }}
       />
       <Tabs.Screen
@@ -51,6 +56,7 @@ export default function TabsLayout() {
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="game-controller" size={size} color={color} />
           ),
+          tabBarButton: tourTabButton('tab-games'),
         }}
       />
     </Tabs>

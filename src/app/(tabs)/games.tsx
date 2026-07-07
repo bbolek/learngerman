@@ -5,6 +5,7 @@ import { StyleSheet, View } from 'react-native';
 
 import { statsByGame, type GameStats } from '@/db/gamesRepo';
 import { GAMES, type GameInfo, type GameKey } from '@/logic/games';
+import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Screen } from '@/ui/components/Screen';
@@ -62,11 +63,11 @@ export default function GamesScreen() {
         </Card>
       </View>
 
-      <View style={{ marginTop: spacing.lg, gap: spacing.md }}>
+      <TourTarget id="games-grid" style={{ marginTop: spacing.lg, gap: spacing.md }}>
         {GAMES.map((game) => (
           <GameCard key={game.key} game={game} stats={stats.get(game.key)} />
         ))}
-      </View>
+      </TourTarget>
     </Screen>
   );
 }

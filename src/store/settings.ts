@@ -26,6 +26,8 @@ interface SettingsState {
   notificationIntervalMinutes: number;
   /** Outcome of the last scheduling attempt — surfaces silent failures. */
   notificationStatus: NotificationScheduleStatus | 'unknown';
+  /** First-run interactive guide has been shown (or skipped). */
+  hasSeenTour: boolean;
   hydrated: boolean;
   hydrate: () => Promise<void>;
   /** Re-fill the pending-notification buffer (called on app foreground). */
@@ -40,6 +42,7 @@ interface SettingsState {
   setNotificationStartHour: (h: number) => void;
   setNotificationEndHour: (h: number) => void;
   setNotificationIntervalMinutes: (m: number) => void;
+  setHasSeenTour: (seen: boolean) => void;
 }
 
 function persist(get: () => SettingsState) {
@@ -54,6 +57,7 @@ function persist(get: () => SettingsState) {
     notificationStartHour,
     notificationEndHour,
     notificationIntervalMinutes,
+    hasSeenTour,
   } = get();
   persistSettings({
     themePreference,
@@ -66,6 +70,7 @@ function persist(get: () => SettingsState) {
     notificationStartHour,
     notificationEndHour,
     notificationIntervalMinutes,
+    hasSeenTour,
   }).catch(() => {});
 }
 
@@ -101,6 +106,7 @@ export const useSettings = create<SettingsState>((set, get) => ({
   notificationEndHour: 21,
   notificationIntervalMinutes: 180,
   notificationStatus: 'unknown',
+  hasSeenTour: false,
   hydrated: false,
 
   hydrate: async () => {
@@ -155,5 +161,9 @@ export const useSettings = create<SettingsState>((set, get) => ({
     set({ notificationIntervalMinutes });
     persist(get);
     reschedule(get, set);
+  },
+  setHasSeenTour: (hasSeenTour) => {
+    set({ hasSeenTour });
+    persist(get);
   },
 }));

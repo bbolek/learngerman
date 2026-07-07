@@ -25,7 +25,8 @@ export default function StatsScreen() {
     const now = new Date();
     currentStreak(now).then(setStreak);
     recentActivity(DAYS, now).then(setActivity);
-    savedCount().then(setSaved);
+    // Lifetime stat: words marked "Gelernt" still count as collected here.
+    savedCount(true).then(setSaved);
     listTopics().then(setTopics);
   }, []);
 

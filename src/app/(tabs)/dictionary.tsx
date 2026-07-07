@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { tourEmit } from '@/tour/tourStore';
+import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { SearchBar } from '@/ui/components/SearchBar';
 import {
@@ -18,16 +20,23 @@ export default function DictionaryScreen() {
   const [query, setQuery] = useState('');
   const { rows, searched } = useDictionarySearch(query);
 
+  const firstHitKey = rows.find((r) => r.type === 'hit')?.key;
+  useEffect(() => {
+    if (firstHitKey) tourEmit('dict-results');
+  }, [firstHitKey]);
+
   return (
     <View style={[styles.fill, { backgroundColor: t.bg, paddingTop: insets.top + spacing.md }]}>
       <View style={styles.pad}>
         <AppText variant="section">Wörterbuch</AppText>
         <View style={{ height: spacing.md }} />
-        <SearchBar
-          value={query}
-          onChangeText={setQuery}
-          placeholder="Deutsch oder English…"
-        />
+        <TourTarget id="dict-search">
+          <SearchBar
+            value={query}
+            onChangeText={setQuery}
+            placeholder="Deutsch oder English…"
+          />
+        </TourTarget>
       </View>
       <FlatList
         data={rows}
@@ -37,6 +46,10 @@ export default function DictionaryScreen() {
         renderItem={({ item }) =>
           item.type === 'header' ? (
             <SearchHeaderRow title={item.title} />
+          ) : item.key === firstHitKey ? (
+            <TourTarget id="dict-first-result">
+              <SearchResultRow hit={item.hit} image={item.image} />
+            </TourTarget>
           ) : (
             <SearchResultRow hit={item.hit} image={item.image} />
           )

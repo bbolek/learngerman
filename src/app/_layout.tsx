@@ -16,6 +16,7 @@ import { AppState } from 'react-native';
 
 import { initDatabase } from '@/db/client';
 import { useSettings } from '@/store/settings';
+import { TourController } from '@/tour/TourController';
 import { palettes } from '@/ui/theme';
 import { useThemeName } from '@/ui/useTheme';
 
@@ -101,6 +102,7 @@ export default function RootLayout() {
         <Stack.Screen name="game/derdiedas" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/wortpaare" options={{ gestureEnabled: false }} />
       </Stack>
+      <TourController />
     </ThemeProvider>
   );
 }

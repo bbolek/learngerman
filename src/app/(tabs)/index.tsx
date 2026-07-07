@@ -9,6 +9,8 @@ import { currentStreak, dueCounts, recentActivity, type DayActivity } from '@/db
 import { learnedCount, savedCount } from '@/db/vocabRepo';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
 import { useSettings } from '@/store/settings';
+import { TourTarget } from '@/tour/TourTarget';
+import { useTourTarget } from '@/tour/useTourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { ProgressRing } from '@/ui/components/ProgressRing';
@@ -34,6 +36,7 @@ export default function HomeScreen() {
   const t = useTheme();
   const [data, setData] = useState<HomeData | null>(null);
   const showLearned = useSettings((s) => s.showLearnedWords);
+  const streakTarget = useTourTarget('home-streak');
 
   useFocusEffect(
     useCallback(() => {
@@ -108,15 +111,21 @@ export default function HomeScreen() {
             {dateLabel}
           </AppText>
         </View>
-        <Pressable hitSlop={8} onPress={() => router.push('/stats')} style={[styles.iconBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
-          <Ionicons name="bar-chart-outline" size={20} color={t.inkMuted} />
-        </Pressable>
-        <Pressable hitSlop={8} onPress={() => router.push('/settings')} style={[styles.iconBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
-          <Ionicons name="settings-outline" size={20} color={t.inkMuted} />
-        </Pressable>
+        <TourTarget id="home-header-icons" style={styles.headerIcons}>
+          <Pressable hitSlop={8} onPress={() => router.push('/stats')} style={[styles.iconBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
+            <Ionicons name="bar-chart-outline" size={20} color={t.inkMuted} />
+          </Pressable>
+          <Pressable hitSlop={8} onPress={() => router.push('/settings')} style={[styles.iconBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
+            <Ionicons name="settings-outline" size={20} color={t.inkMuted} />
+          </Pressable>
+        </TourTarget>
       </View>
 
-      <Pressable onPress={() => router.push('/stats')} style={[styles.streak, { backgroundColor: streakGradient[0] }]}>
+      <Pressable
+        ref={streakTarget.ref}
+        onLayout={streakTarget.onLayout}
+        onPress={() => router.push('/stats')}
+        style={[styles.streak, { backgroundColor: streakGradient[0] }]}>
         <View style={styles.streakTop}>
           <AppText style={{ fontSize: 30 }}>🔥</AppText>
           <View style={{ flex: 1 }}>
@@ -150,6 +159,7 @@ export default function HomeScreen() {
         </View>
       </Pressable>
 
+      <TourTarget id="home-daily">
       <Card style={styles.daily}>
         <ProgressRing progress={progress} size={86}>
           <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 19 }}>
@@ -182,8 +192,13 @@ export default function HomeScreen() {
           )}
         </View>
       </Card>
+      </TourTarget>
 
-      {data?.next && <GrammarCard next={data.next} />}
+      {data?.next && (
+        <TourTarget id="home-grammar">
+          <GrammarCard next={data.next} />
+        </TourTarget>
+      )}
 
       <View style={styles.twoCol}>
         <Card style={styles.mini} onPress={() => router.push('/words')}>
@@ -210,7 +225,11 @@ export default function HomeScreen() {
         </Card>
       </View>
 
-      {data?.wotd && <WordOfTheDay wotd={data.wotd} image={data.wotdImage} />}
+      {data?.wotd && (
+        <TourTarget id="home-wotd">
+          <WordOfTheDay wotd={data.wotd} image={data.wotdImage} />
+        </TourTarget>
+      )}
     </Screen>
   );
 }
@@ -335,6 +354,7 @@ function WordOfTheDay({
 
 const styles = StyleSheet.create({
   headerRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
+  headerIcons: { flexDirection: 'row', gap: 10 },
   iconBtn: {
     width: 40,
     height: 40,

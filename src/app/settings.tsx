@@ -3,6 +3,7 @@ import { router } from 'expo-router';
 import { Pressable, StyleSheet, Switch, View } from 'react-native';
 
 import { useSettings, type ThemePreference } from '@/store/settings';
+import { useTourStore } from '@/tour/tourStore';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Screen } from '@/ui/components/Screen';
@@ -268,6 +269,27 @@ export default function SettingsScreen() {
       </Card>
 
       <Card style={styles.section}>
+        <AppText variant="subtitle">App-Guide</AppText>
+        <AppText variant="caption" muted style={{ marginTop: 2 }}>
+          Interaktive Tour durch alle Funktionen der App (auf Englisch)
+        </AppText>
+        <Pressable
+          onPress={() => {
+            router.back();
+            useTourStore.getState().showWelcome();
+          }}
+          style={({ pressed }) => [
+            styles.guideBtn,
+            { backgroundColor: pressed ? t.primaryDim : t.surface, borderColor: t.primary },
+          ]}>
+          <Ionicons name="compass-outline" size={18} color={t.primary} />
+          <AppText variant="secondary" color={t.primary}>
+            Guide starten
+          </AppText>
+        </Pressable>
+      </Card>
+
+      <Card style={styles.section}>
         <AppText variant="subtitle">Über Deutschly</AppText>
         <AppText variant="secondary" muted style={{ marginTop: 6, lineHeight: 21 }}>
           Offline Deutsch-Lern-App: Wörterbuch (Goethe A1/A2-Wortschatz), Karteikarten
@@ -327,6 +349,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   switchRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
+  guideBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: spacing.sm,
+    borderWidth: 1.5,
+    borderRadius: 11,
+    paddingVertical: 10,
+    marginTop: spacing.md,
+  },
   hourRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.md, marginTop: spacing.md },
   stepper: {
     flexDirection: 'row',

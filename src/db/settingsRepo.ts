@@ -11,6 +11,7 @@ export interface PersistedSettings {
   notificationStartHour?: number;
   notificationEndHour?: number;
   notificationIntervalMinutes?: number;
+  hasSeenTour?: boolean;
 }
 
 const KEY = 'settings';

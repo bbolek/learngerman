@@ -19,6 +19,8 @@ import { isLearned, isSaved, saveWord, setLearned as setLearnedRepo, unsaveWord 
 import { articleFor, exampleTagLabel } from '@/logic/formLabels';
 import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
+import { tourEmit } from '@/tour/tourStore';
+import { useTourTarget } from '@/tour/useTourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
@@ -65,6 +67,11 @@ export default function WordDetailScreen() {
   const { rows: searchRows, searched } = useDictionarySearch(query);
   const searching = query.trim().length > 0;
 
+  const backTarget = useTourTarget('word-back');
+  const entryTarget = useTourTarget('word-entry');
+  const ttsTarget = useTourTarget('word-tts');
+  const saveTarget = useTourTarget('word-save');
+
   useEffect(() => {
     if (!Number.isFinite(lemmaId)) return;
     Promise.all([
@@ -103,6 +110,7 @@ export default function WordDetailScreen() {
     } else {
       await saveWord(lemmaId, new Date());
       setSaved(true);
+      tourEmit('word-saved');
     }
   };
 
@@ -116,12 +124,18 @@ export default function WordDetailScreen() {
   const pronounce = () => {
     if (haptics) Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     speakGerman(article ? `${article} ${lemma.lemma}` : lemma.lemma);
+    tourEmit('tts-played');
   };
 
   return (
     <VocabTapProvider>
     <Screen>
-      <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
+      <Pressable
+        ref={backTarget.ref}
+        onLayout={backTarget.onLayout}
+        onPress={() => router.back()}
+        hitSlop={10}
+        style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
         <AppText variant="secondary" muted>
           Zurück
@@ -159,7 +173,11 @@ export default function WordDetailScreen() {
         </View>
       ) : (
         <>
-      <View style={styles.headRow}>
+      <View
+        ref={entryTarget.ref}
+        onLayout={entryTarget.onLayout}
+        collapsable={false}
+        style={styles.headRow}>
         {image && <VocabImage svg={image} gender={lemma.gender} size={84} />}
         <View style={styles.headText}>
           <AppText variant="headword" style={{ fontSize: 34 }}>
@@ -174,12 +192,16 @@ export default function WordDetailScreen() {
         </View>
         <View style={styles.actionCol}>
           <Pressable
+            ref={ttsTarget.ref}
+            onLayout={ttsTarget.onLayout}
             onPress={pronounce}
             hitSlop={8}
             style={[styles.saveBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
             <Ionicons name="volume-high-outline" size={24} color={t.primary} />
           </Pressable>
           <Pressable
+            ref={saveTarget.ref}
+            onLayout={saveTarget.onLayout}
             onPress={toggleSave}
             hitSlop={8}
             style={[

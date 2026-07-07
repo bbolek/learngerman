@@ -5,6 +5,7 @@ import { StyleSheet, View } from 'react-native';
 
 import { listTopics, topicAccuracy, type TopicRow } from '@/db/grammarRepo';
 import { dueCounts } from '@/db/srsRepo';
+import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { ProgressRing } from '@/ui/components/ProgressRing';
@@ -60,19 +61,21 @@ export default function PracticeScreen() {
     <Screen>
       <AppText variant="section">Üben</AppText>
 
-      <Card style={[styles.flashcards, { backgroundColor: t.primary }]} onPress={() => router.push('/review')}>
-        <View style={{ flex: 1 }}>
-          <AppText variant="subtitle" color="#fff">
-            Karteikarten 🃏
-          </AppText>
-          <AppText variant="secondary" color="#FFFFFFDD" style={{ marginTop: 2 }}>
-            {pending > 0
-              ? `${pending} Karten warten auf dich`
-              : 'Keine Karten fällig — super!'}
-          </AppText>
-        </View>
-        <Ionicons name="arrow-forward-circle" size={34} color="#fff" />
-      </Card>
+      <TourTarget id="practice-cards">
+        <Card style={[styles.flashcards, { backgroundColor: t.primary }]} onPress={() => router.push('/review')}>
+          <View style={{ flex: 1 }}>
+            <AppText variant="subtitle" color="#fff">
+              Karteikarten 🃏
+            </AppText>
+            <AppText variant="secondary" color="#FFFFFFDD" style={{ marginTop: 2 }}>
+              {pending > 0
+                ? `${pending} Karten warten auf dich`
+                : 'Keine Karten fällig — super!'}
+            </AppText>
+          </View>
+          <Ionicons name="arrow-forward-circle" size={34} color="#fff" />
+        </Card>
+      </TourTarget>
 
       <AppText variant="label" muted style={{ marginTop: spacing.xl, marginBottom: spacing.sm }}>
         Grammatik

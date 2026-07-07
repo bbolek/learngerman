@@ -9,6 +9,7 @@ import { listSavedWords, setLearned, unsaveWord, type SavedWordRow } from '@/db/
 import { phaseOf } from '@/logic/sm2';
 import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
+import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
@@ -53,14 +54,17 @@ export default function WordsScreen() {
         data={words ?? []}
         keyExtractor={(w) => String(w.lemma_id)}
         contentContainerStyle={[styles.pad, { paddingBottom: spacing.xxl, paddingTop: spacing.md }]}
-        renderItem={({ item }) => (
-          <WordRow
-            word={item}
-            image={images.get(item.lemma_id) ?? null}
-            onRemove={remove}
-            onToggleLearned={toggleLearned}
-          />
-        )}
+        renderItem={({ item, index }) => {
+          const row = (
+            <WordRow
+              word={item}
+              image={images.get(item.lemma_id) ?? null}
+              onRemove={remove}
+              onToggleLearned={toggleLearned}
+            />
+          );
+          return index === 0 ? <TourTarget id="words-first-row">{row}</TourTarget> : row;
+        }}
         ListEmptyComponent={
           words ? (
             <View style={styles.empty}>

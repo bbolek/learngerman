@@ -80,9 +80,10 @@ export async function listSavedWords(includeLearned = false): Promise<SavedWordR
   );
 }
 
-export async function savedCount(): Promise<number> {
+export async function savedCount(includeLearned = false): Promise<number> {
   const row = await getDb().getFirstAsync<{ c: number }>(
-    'SELECT COUNT(*) AS c FROM user_saved_words'
+    'SELECT COUNT(*) AS c FROM user_saved_words WHERE ? = 1 OR learned_at IS NULL',
+    [includeLearned ? 1 : 0]
   );
   return row?.c ?? 0;
 }

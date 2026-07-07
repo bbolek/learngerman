@@ -8,6 +8,7 @@ import { listTopics, type TopicRow } from '@/db/grammarRepo';
 import { currentStreak, dueCounts, recentActivity, type DayActivity } from '@/db/srsRepo';
 import { learnedCount, savedCount } from '@/db/vocabRepo';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
+import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { ProgressRing } from '@/ui/components/ProgressRing';
@@ -32,6 +33,7 @@ interface HomeData {
 export default function HomeScreen() {
   const t = useTheme();
   const [data, setData] = useState<HomeData | null>(null);
+  const showLearned = useSettings((s) => s.showLearnedWords);
 
   useFocusEffect(
     useCallback(() => {
@@ -41,7 +43,7 @@ export default function HomeScreen() {
         currentStreak(now),
         dueCounts(now),
         recentActivity(7, now),
-        savedCount(),
+        savedCount(showLearned),
         learnedCount(),
         listTopics(),
         getWordOfTheDay(today),
@@ -61,7 +63,7 @@ export default function HomeScreen() {
           wotdImage,
         });
       });
-    }, [])
+    }, [showLearned])
   );
 
   const now = new Date();

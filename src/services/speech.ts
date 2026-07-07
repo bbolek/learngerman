@@ -24,10 +24,10 @@ async function checkGermanVoice(): Promise<boolean> {
 export async function speakGerman(text: string): Promise<void> {
   if (!(await checkGermanVoice())) {
     Alert.alert(
-      'Keine deutsche Stimme installiert',
+      'No German voice installed',
       Platform.OS === 'ios'
-        ? 'Bitte installiere eine deutsche Stimme unter Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → Deutsch.'
-        : 'Bitte installiere deutsche Sprachdaten in den Text-in-Sprache-Einstellungen deines Geräts (z. B. „Google Sprachdienste“).'
+        ? 'Please install a German voice under Settings → Accessibility → Spoken Content → Voices → German.'
+        : 'Please install German language data in your device’s text-to-speech settings (e.g. "Speech Services by Google").'
     );
     return;
   }

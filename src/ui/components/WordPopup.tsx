@@ -11,6 +11,7 @@ import { isSaved, saveWord, unsaveWord } from '@/db/vocabRepo';
 import { articleFor } from '@/logic/formLabels';
 import { lookupGerman } from '@/logic/lookup';
 import { normalize } from '@/logic/normalize';
+import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Chip, GenderChip } from '@/ui/components/Chip';
@@ -99,6 +100,12 @@ export function WordPopup({ word, onClose }: WordPopupProps) {
     router.push({ pathname: '/word/[id]', params: { id: String(lemma.id) } });
   };
 
+  const pronounce = () => {
+    if (!lemma) return;
+    if (haptics) Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    speakGerman(article ? `${article} ${lemma.lemma}` : lemma.lemma);
+  };
+
   const article = lemma?.pos === 'noun' ? articleFor(lemma.gender) : null;
   const isInflected = word && lemma && normalize(word) !== normalize(lemma.lemma);
 
@@ -148,15 +155,23 @@ export function WordPopup({ word, onClose }: WordPopupProps) {
                   </AppText>
                 )}
               </View>
-              <Pressable
-                onPress={toggleSave}
-                hitSlop={8}
-                style={[
-                  styles.saveBtn,
-                  { backgroundColor: saved ? t.dangerDim : t.surface, borderColor: saved ? t.danger : t.line },
-                ]}>
-                <Ionicons name={saved ? 'heart' : 'heart-outline'} size={22} color={t.danger} />
-              </Pressable>
+              <View style={{ gap: spacing.sm }}>
+                <Pressable
+                  onPress={pronounce}
+                  hitSlop={8}
+                  style={[styles.saveBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
+                  <Ionicons name="volume-high-outline" size={22} color={t.primary} />
+                </Pressable>
+                <Pressable
+                  onPress={toggleSave}
+                  hitSlop={8}
+                  style={[
+                    styles.saveBtn,
+                    { backgroundColor: saved ? t.dangerDim : t.surface, borderColor: saved ? t.danger : t.line },
+                  ]}>
+                  <Ionicons name={saved ? 'heart' : 'heart-outline'} size={22} color={t.danger} />
+                </Pressable>
+              </View>
             </View>
 
             <View style={styles.chipRow}>

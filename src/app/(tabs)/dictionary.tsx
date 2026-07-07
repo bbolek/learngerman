@@ -1,12 +1,14 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
-import { FlatList, StyleSheet, View } from 'react-native';
+import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getDb } from '@/db/client';
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { formLabel } from '@/logic/formLabels';
 import { lookupEnglish, lookupGerman, type LemmaHit } from '@/logic/lookup';
+import { speakGerman } from '@/services/speech';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
@@ -118,6 +120,8 @@ export default function DictionaryScreen() {
 function ResultRow({ hit, image }: { hit: LemmaHit; image: string | null }) {
   const t = useTheme();
   const label = formLabel(hit.matchedTag);
+  const spoken =
+    hit.gender && hit.gender !== 'pl' ? `${genderArticle(hit.gender)} ${hit.lemma}` : hit.lemma;
   return (
     <Card
       onPress={() => router.push({ pathname: '/word/[id]', params: { id: String(hit.lemmaId) } })}
@@ -137,6 +141,9 @@ function ResultRow({ hit, image }: { hit: LemmaHit; image: string | null }) {
           <GenderChip gender={hit.gender} small />
           <Chip label={hit.level} kind="level" small />
         </View>
+        <Pressable hitSlop={10} onPress={() => speakGerman(spoken)}>
+          <Ionicons name="volume-high-outline" size={20} color={t.inkFaint} />
+        </Pressable>
       </View>
       {hit.via === 'form' && hit.matchedForm && (
         <View style={[styles.formOf, { backgroundColor: t.primaryDim }]}>

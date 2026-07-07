@@ -58,6 +58,21 @@ describe('lookupGerman', () => {
     expect(hits.map((h) => h.lemma)).toContain('Schlüssel');
   });
 
+  it('lists compounds below the exact hit: zeug → Zeug, then Flugzeug…', async () => {
+    const hits = await lookupGerman(db, 'zeug', 50);
+    expect(hits[0]).toMatchObject({ lemma: 'Zeug', via: 'lemma' });
+    const lemmas = hits.map((h) => h.lemma);
+    expect(lemmas).toEqual(expect.arrayContaining(['Flugzeug', 'Werkzeug', 'Feuerzeug', 'Spielzeug']));
+    // prefix matches (Zeugnis) rank above in-word matches (Flugzeug)
+    expect(lemmas.indexOf('Zeugnis')).toBeLessThan(lemmas.indexOf('Flugzeug'));
+  });
+
+  it('shows compounds even when the query has exact form hits: haus → Haus, Krankenhaus', async () => {
+    const hits = await lookupGerman(db, 'haus', 50);
+    expect(hits[0]).toMatchObject({ lemma: 'Haus' });
+    expect(hits.map((h) => h.lemma)).toContain('Krankenhaus');
+  });
+
   it('resolves comparative: besser → gut', async () => {
     const hits = await lookupGerman(db, 'besser');
     expect(hits[0]).toMatchObject({ lemma: 'gut', via: 'form', matchedTag: 'komparativ' });

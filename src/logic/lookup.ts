@@ -45,7 +45,7 @@ async function attachGlosses(db: QueryDb, hits: Omit<LemmaHit, 'gloss'>[]): Prom
   return hits.map((h) => ({ ...h, gloss: gloss.get(h.lemmaId) ?? '' }));
 }
 
-/** German → English: exact lemma, exact inflected form, then prefix fallback. */
+/** German → English: exact lemma, exact inflected form, then prefix/in-word matches. */
 export async function lookupGerman(db: QueryDb, input: string, limit = 20): Promise<LemmaHit[]> {
   const q = normalize(input);
   if (!q) return [];
@@ -91,17 +91,25 @@ export async function lookupGerman(db: QueryDb, input: string, limit = 20): Prom
   for (const r of lemmaRows) if (!r.exact) push(r, 'lemma');
   for (const r of formRows) if (!r.exact) push(r, 'form');
 
-  if (hits.length === 0 && q.length >= 3) {
-    const prefixRows = await db.getAllAsync<Omit<LemmaHit, 'gloss' | 'via'>>(
-      `SELECT ${LEMMA_COLS} FROM lemmas l
+  // Broaden with substring matches so compounds surface below the exact hits
+  // ("zeug" → Zeug, then Zeugnis…, then Flugzeug, Werkzeug…). Prefix matches
+  // rank above in-word matches, frequency orders within each tier.
+  if (q.length >= 3) {
+    const containsRows = await db.getAllAsync<
+      Omit<LemmaHit, 'gloss' | 'via'> & { starts: number }
+    >(
+      `SELECT ${LEMMA_COLS},
+              (l.lemma_norm LIKE ? OR l.lemma_fold LIKE ? OR l.lemma_plain LIKE ?) AS starts
+       FROM lemmas l
        WHERE l.lemma_norm LIKE ? OR l.lemma_fold LIKE ? OR l.lemma_plain LIKE ?
-       ORDER BY l.freq_rank IS NULL, l.freq_rank LIMIT ?`,
-      [`${q}%`, `${fold}%`, `${plain}%`, limit]
+       ORDER BY starts DESC, l.freq_rank IS NULL, l.freq_rank LIMIT ?`,
+      [`${q}%`, `${fold}%`, `${plain}%`, `%${q}%`, `%${fold}%`, `%${plain}%`, limit]
     );
-    for (const r of prefixRows) {
+    for (const r of containsRows) {
       if (seen.has(r.lemmaId)) continue;
       seen.add(r.lemmaId);
-      hits.push({ ...r, via: 'prefix' });
+      const { starts: _starts, ...rest } = r;
+      hits.push({ ...rest, via: 'prefix' });
     }
   }
 

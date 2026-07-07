@@ -38,6 +38,7 @@ export function SearchBar({ value, onChangeText, placeholder, autoFocus }: Searc
           autoFocus={autoFocus}
           autoCapitalize="none"
           autoCorrect={false}
+          selectTextOnFocus
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
           style={[styles.input, { color: t.ink }]}

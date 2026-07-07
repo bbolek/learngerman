@@ -25,6 +25,12 @@ import { Chip, GenderChip } from '@/ui/components/Chip';
 import { ExampleText } from '@/ui/components/ExampleText';
 import { VocabTapProvider } from '@/ui/components/MarkdownLite';
 import { Screen } from '@/ui/components/Screen';
+import { SearchBar } from '@/ui/components/SearchBar';
+import {
+  SearchHeaderRow,
+  SearchResultRow,
+  useDictionarySearch,
+} from '@/ui/components/SearchResults';
 import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -55,6 +61,9 @@ export default function WordDetailScreen() {
   const [learned, setLearned] = useState(false);
   const [showForms, setShowForms] = useState(true);
   const [image, setImage] = useState<string | null>(null);
+  const [query, setQuery] = useState('');
+  const { rows: searchRows, searched } = useDictionarySearch(query);
+  const searching = query.trim().length > 0;
 
   useEffect(() => {
     if (!Number.isFinite(lemmaId)) return;
@@ -119,6 +128,37 @@ export default function WordDetailScreen() {
         </AppText>
       </Pressable>
 
+      <View style={styles.search}>
+        <SearchBar value={query} onChangeText={setQuery} placeholder="Deutsch oder English…" />
+      </View>
+
+      {searching ? (
+        <View>
+          {searchRows.map((row) =>
+            row.type === 'header' ? (
+              <SearchHeaderRow key={row.key} title={row.title} />
+            ) : (
+              <SearchResultRow
+                key={row.key}
+                hit={row.hit}
+                image={row.image}
+                onPress={() => {
+                  setQuery('');
+                  if (row.hit.lemmaId !== lemmaId) {
+                    router.push({ pathname: '/word/[id]', params: { id: String(row.hit.lemmaId) } });
+                  }
+                }}
+              />
+            )
+          )}
+          {searched && searchRows.length === 0 && (
+            <AppText variant="subtitle" muted style={styles.noResults}>
+              Nichts gefunden 🕵️
+            </AppText>
+          )}
+        </View>
+      ) : (
+        <>
       <View style={styles.headRow}>
         {image && <VocabImage svg={image} gender={lemma.gender} size={84} />}
         <View style={styles.headText}>
@@ -229,6 +269,8 @@ export default function WordDetailScreen() {
           {showForms && <FormsTable lemma={lemma} forms={forms} />}
         </Card>
       )}
+        </>
+      )}
     </Screen>
     </VocabTapProvider>
   );
@@ -316,6 +358,8 @@ function FormsTable({ lemma, forms }: { lemma: LemmaDetail; forms: FormRow[] }) 
 
 const styles = StyleSheet.create({
   back: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: spacing.lg },
+  search: { marginBottom: spacing.lg },
+  noResults: { textAlign: 'center', marginTop: spacing.xl },
   headRow: { flexDirection: 'row', alignItems: 'flex-start', gap: spacing.md },
   headText: { flex: 1 },
   actionCol: { gap: spacing.sm },

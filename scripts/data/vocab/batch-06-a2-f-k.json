@@ -209,6 +209,27 @@
     ]
   },
   {
+    "lemma": "Feuerzeug",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1900,
+    "noun": { "gender": "n", "plural": "Feuerzeuge" },
+    "senses": [
+      {
+        "en": "lighter",
+        "example_de": "Hast du ein Feuerzeug für mich?",
+        "example_en": "Do you have a lighter for me?"
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Die Feuerzeuge liegen neben den Kerzen.",
+        "en": "The lighters are lying next to the candles."
+      }
+    ]
+  },
+  {
     "lemma": "Finger",
     "pos": "noun",
     "level": "A2",

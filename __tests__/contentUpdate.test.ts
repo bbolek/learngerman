@@ -8,7 +8,9 @@ import { MIGRATIONS } from '@/db/migrations';
 import { applyContentUpdate, type UpdateDb } from '@/logic/contentUpdate';
 
 const BUILT = path.join(__dirname, '../assets/db/dictionary.db');
-const ID_SHIFT = 5000;
+// Must exceed the number of rows in any shifted table, or shifted ids collide
+// with not-yet-shifted ones mid-UPDATE.
+const ID_SHIFT = 1_000_000;
 
 function adapt(db: Database.Database): UpdateDb {
   return {

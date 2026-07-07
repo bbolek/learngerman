@@ -17,6 +17,7 @@ import {
 } from '@/db/dictionaryRepo';
 import { isLearned, isSaved, saveWord, setLearned as setLearnedRepo, unsaveWord } from '@/db/vocabRepo';
 import { articleFor, exampleTagLabel } from '@/logic/formLabels';
+import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -103,6 +104,11 @@ export default function WordDetailScreen() {
     setLearned(next);
   };
 
+  const pronounce = () => {
+    if (haptics) Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    speakGerman(article ? `${article} ${lemma.lemma}` : lemma.lemma);
+  };
+
   return (
     <VocabTapProvider>
     <Screen>
@@ -127,6 +133,12 @@ export default function WordDetailScreen() {
           <Subline lemma={lemma} />
         </View>
         <View style={styles.actionCol}>
+          <Pressable
+            onPress={pronounce}
+            hitSlop={8}
+            style={[styles.saveBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
+            <Ionicons name="volume-high-outline" size={24} color={t.primary} />
+          </Pressable>
           <Pressable
             onPress={toggleSave}
             hitSlop={8}

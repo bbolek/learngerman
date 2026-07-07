@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { listSavedWords, setLearned, unsaveWord, type SavedWordRow } from '@/db/vocabRepo';
 import { phaseOf } from '@/logic/sm2';
+import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -96,6 +97,9 @@ function WordRow({
       ? null
       : { ease: 2.5, intervalDays: 0, reps: word.reps, lapses: word.lapses ?? 0 };
 
+  const spokenArticle =
+    word.gender === 'm' ? 'der ' : word.gender === 'f' ? 'die ' : word.gender === 'n' ? 'das ' : '';
+
   let srsChip: { label: string; kind: 'new' | 'learning' | 'due' } = { label: 'Neu', kind: 'new' };
   if (state && word.due_at) {
     const due = new Date(word.due_at);
@@ -113,7 +117,7 @@ function WordRow({
         {image && <VocabImage svg={image} gender={word.gender} size={44} />}
         <View style={{ flex: 1 }}>
           <AppText variant="subtitle" style={{ fontFamily: 'Fraunces_600SemiBold', fontSize: 19 }}>
-            {word.gender === 'm' ? 'der ' : word.gender === 'f' ? 'die ' : word.gender === 'n' ? 'das ' : ''}
+            {spokenArticle}
             {word.lemma}
           </AppText>
           <AppText variant="secondary" muted numberOfLines={1}>
@@ -124,6 +128,9 @@ function WordRow({
           <GenderChip gender={word.gender} small />
           {isLearned ? <Chip label="Gelernt" kind="learning" small /> : <Chip label={srsChip.label} kind={srsChip.kind} small />}
         </View>
+        <Pressable hitSlop={10} onPress={() => speakGerman(`${spokenArticle}${word.lemma}`)}>
+          <Ionicons name="volume-high-outline" size={20} color={t.inkFaint} />
+        </Pressable>
         <Pressable hitSlop={10} onPress={() => onToggleLearned(word.lemma_id, !isLearned)}>
           <Ionicons
             name={isLearned ? 'checkmark-circle' : 'checkmark-circle-outline'}

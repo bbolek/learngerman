@@ -1,0 +1,73 @@
+import * as IntentLauncher from 'expo-intent-launcher';
+import * as Speech from 'expo-speech';
+import { Alert, Linking, Platform } from 'react-native';
+
+type GermanVoice = { found: true; identifier?: string } | { found: false };
+
+/** Only positive results are cached, so installing a voice after seeing the
+ * alert takes effect on the next tap without restarting the app. */
+let cached: GermanVoice | null = null;
+
+/**
+ * Pick the best installed German voice: enhanced quality beats default,
+ * de-DE beats other German variants. An empty voice list (engine not yet
+ * initialized, common on Android right after launch) is treated as unknown:
+ * speak with the system default and don't cache.
+ */
+async function resolveGermanVoice(): Promise<GermanVoice> {
+  if (cached) return cached;
+  let voices: Speech.Voice[];
+  try {
+    voices = await Speech.getAvailableVoicesAsync();
+  } catch {
+    return { found: true };
+  }
+  if (voices.length === 0) return { found: true };
+  const german = voices.filter((v) => v.language?.toLowerCase().startsWith('de'));
+  if (german.length === 0) return { found: false };
+  const score = (v: Speech.Voice) =>
+    (v.quality === Speech.VoiceQuality.Enhanced ? 2 : 0) +
+    (v.language.toLowerCase().startsWith('de-de') ? 1 : 0);
+  german.sort((a, b) => score(b) - score(a));
+  cached = { found: true, identifier: german[0].identifier };
+  return cached;
+}
+
+function showMissingVoiceAlert(): void {
+  if (Platform.OS === 'android') {
+    Alert.alert(
+      'No German voice installed',
+      'Please install German language data in your device’s text-to-speech settings (e.g. "Speech Services by Google").',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        {
+          text: 'Open settings',
+          onPress: () => {
+            // Android's TTS settings screen; fall back to app settings if a
+            // vendor ROM doesn't expose it.
+            IntentLauncher.startActivityAsync('com.android.settings.TTS_SETTINGS').catch(() =>
+              Linking.openSettings()
+            );
+          },
+        },
+      ]
+    );
+  } else {
+    // iOS has no public deep link into the voice settings screen.
+    Alert.alert(
+      'No German voice installed',
+      'Please install a German voice under Settings → Accessibility → Spoken Content → Voices → German.'
+    );
+  }
+}
+
+/** Speak a German word/phrase, cancelling any previous utterance. */
+export async function speakGerman(text: string): Promise<void> {
+  const voice = await resolveGermanVoice();
+  if (!voice.found) {
+    showMissingVoiceAlert();
+    return;
+  }
+  Speech.stop();
+  Speech.speak(text, { language: 'de-DE', voice: voice.identifier, rate: 0.9 });
+}

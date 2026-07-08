@@ -35,8 +35,8 @@ export async function requestNotificationPermission(): Promise<boolean> {
 
 /**
  * Cancels all pending local notifications and reschedules the next
- * `MAX_PENDING` slots within `HORIZON_DAYS`, each filled with a word pick
- * (saved words in rotation, falling back to random dictionary words).
+ * `MAX_PENDING` slots within `HORIZON_DAYS`, each filled with a random
+ * dictionary word.
  * Returns a status so the settings UI can surface silent failure modes —
  * a denied system permission used to look exactly like a working setup.
  */

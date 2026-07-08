@@ -104,53 +104,17 @@ export interface NotificationWord {
   example_en: string | null;
 }
 
-const NOTIF_WORD_SELECT = `
-  SELECT w.lemma_id, l.lemma, l.gender,
-         (SELECT en FROM senses WHERE lemma_id = l.id ORDER BY sense_order LIMIT 1) AS gloss,
-         (SELECT example_de FROM senses WHERE lemma_id = l.id ORDER BY sense_order LIMIT 1) AS example_de,
-         (SELECT example_en FROM senses WHERE lemma_id = l.id ORDER BY sense_order LIMIT 1) AS example_en
-  FROM user_saved_words w
-  JOIN lemmas l ON l.id = w.lemma_id
-  WHERE w.learned_at IS NULL`;
-
-const NOTIF_CURSOR_KEY = 'notif_cursor_lemma_id';
-
 /**
- * Rotates through saved, not-learned words in lemma_id order (wrapping
- * around), one pick per call — used to fill notification content without
- * repeating a word until the whole saved list has cycled through.
+ * Picks a random word from the whole dictionary — used to fill notification
+ * content. Saved words get no special treatment.
  */
 export async function pickNotificationWord(): Promise<NotificationWord | null> {
-  const db = getDb();
-  const cursorRow = await db.getFirstAsync<{ value: string }>(
-    'SELECT value FROM user_meta WHERE key = ?',
-    [NOTIF_CURSOR_KEY]
+  return (
+    (await getDb().getFirstAsync<NotificationWord>(
+      `SELECT l.id AS lemma_id, l.lemma, l.gender,
+              s.en AS gloss, s.example_de, s.example_en
+       FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
+       ORDER BY RANDOM() LIMIT 1`
+    )) ?? null
   );
-  const cursor = cursorRow ? Number(cursorRow.value) : 0;
-
-  const picked =
-    (await db.getFirstAsync<NotificationWord>(
-      `${NOTIF_WORD_SELECT} AND w.lemma_id > ? ORDER BY w.lemma_id LIMIT 1`,
-      [cursor]
-    )) ??
-    (await db.getFirstAsync<NotificationWord>(`${NOTIF_WORD_SELECT} ORDER BY w.lemma_id LIMIT 1`));
-
-  // Nothing saved (or everything marked learned): fall back to a random
-  // dictionary word so reminders work out of the box instead of silently
-  // never firing. No cursor update — random picks don't rotate.
-  if (!picked) {
-    return (
-      (await db.getFirstAsync<NotificationWord>(
-        `SELECT l.id AS lemma_id, l.lemma, l.gender,
-                s.en AS gloss, s.example_de, s.example_en
-         FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
-         ORDER BY RANDOM() LIMIT 1`
-      )) ?? null
-    );
-  }
-  await db.runAsync('INSERT OR REPLACE INTO user_meta (key, value) VALUES (?, ?)', [
-    NOTIF_CURSOR_KEY,
-    String(picked.lemma_id),
-  ]);
-  return picked;
 }

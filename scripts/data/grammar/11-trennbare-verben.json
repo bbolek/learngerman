@@ -2,7 +2,7 @@
   "slug": "trennbare-verben",
   "title": "Trennbare Verben",
   "level": "A2",
-  "explainer_md": "Many German verbs start with a prefix that **splits off**: *[[aufstehen]]* (get up), *[[anrufen]]* (call), *[[einkaufen]]* (shop), *[[fernsehen]]* (watch TV), *[[mitkommen]]* (come along), *[[zumachen]]* (close).\n\n**In the present tense** the prefix jumps to the **end** of the sentence:\n\n*Ich **stehe** um sieben Uhr **auf**.* — I get up at seven. (aufstehen)\n\n*Sie **ruft** ihre Mutter **an**.* — She calls her mother. (anrufen)\n\n*Der Zug **kommt** um acht **an**.* — The train arrives at eight. (ankommen)\n\n**With a modal verb** the separable verb stays in one piece at the end:\n\n*Ich muss meine Oma **anrufen**.* — I have to call my grandma.\n\n**In the Perfekt** the -ge- goes *between* prefix and stem:\n\n*Ich habe dich gestern **angerufen**.* — I called you yesterday.\n\n*Er hat die Tür **aufgemacht**.* — He opened the door.\n\n| Form | Beispiel |\n|---|---|\n| Präsens | Ich rufe dich **an**. |\n| mit Modalverb | Ich will dich **anrufen**. |\n| Perfekt | Ich habe dich **angerufen**. |\n\n**Common separable prefixes:** ab-, an-, auf-, aus-, ein-, fern-, mit-, vor-, zu-, zurück-. They are always **stressed**: AUFstehen. (Prefixes like be-, ver-, er- never separate.)",
+  "explainer_md": "Many German verbs start with a prefix that **splits off**: *aufstehen* (get up), *anrufen* (call), *einkaufen* (shop), *fernsehen* (watch TV).\n\n**In the present tense** the prefix jumps to the **end** of the sentence:\n\n*Ich **stehe** um sieben Uhr **auf**.* — I get up at seven. (aufstehen)\n\n*Sie **ruft** ihre Mutter **an**.* — She calls her mother. (anrufen)\n\n*Der Zug **kommt** um acht **an**.* — The train arrives at eight. (ankommen)\n\n**In the imperative** the prefix also goes to the end:\n\n*Steh **auf**!* — Get up!\n\n*Mach bitte die Tür **zu**!* — Please close the door!\n\n**With a modal verb** the separable verb stays in one piece at the end:\n\n*Ich muss meine Oma **anrufen**.* — I have to call my grandma.\n\n**In the Perfekt** the -ge- goes *between* prefix and stem:\n\n*Ich habe dich gestern **angerufen**.* — I called you yesterday.\n\n*Er hat die Tür **aufgemacht**.* — He opened the door.\n\n| Form | Beispiel |\n|---|---|\n| Präsens | Ich rufe dich **an**. |\n| Imperativ | Ruf mich **an**! |\n| mit Modalverb | Ich will dich **anrufen**. |\n| Perfekt | Ich habe dich **angerufen**. |\n\n**The most useful separable verbs**, grouped by prefix — tap any verb for meaning and examples:\n\n**ab-** (off/away): [[abholen]] (pick up), [[abfahren]] (depart), [[abwaschen]] (do the dishes)\n\n**an-** (on/at): [[anrufen]] (call), [[anfangen]] (begin), [[ankommen]] (arrive), [[anziehen]] (put on), [[anmachen]] (turn on)\n\n**auf-** (up/open): [[aufstehen]] (get up), [[aufmachen]] (open), [[aufhören]] (stop), [[aufräumen]] (tidy up), [[aufwachen]] (wake up)\n\n**aus-** (out/off): [[ausmachen]] (turn off), [[aussehen]] (look, appear), [[ausgehen]] (go out), [[ausfüllen]] (fill out), [[ausziehen]] (take off)\n\n**ein-** (in/into): [[einkaufen]] (shop), [[einladen]] (invite), [[einschlafen]] (fall asleep), [[einsteigen]] (get on/in)\n\n**fern- / mit- / weiter-:** [[fernsehen]] (watch TV) · [[mitkommen]] (come along), [[mitbringen]] (bring along), [[mitnehmen]] (take along), [[mitmachen]] (join in) · [[weitermachen]] (carry on)\n\n**vor-** (before): [[vorstellen]] (introduce), [[vorbereiten]] (prepare), [[vorschlagen]] (suggest), [[vorhaben]] (plan, intend)\n\n**zu-** (closed/to): [[zumachen]] (close), [[zuhören]] (listen), [[zunehmen]] (gain weight)\n\n**zurück-** (back): [[zurückkommen]] (come back), [[zurückgeben]] (give back), [[zurückrufen]] (call back)\n\n**um- / weg-:** [[umsteigen]] (change trains), [[umziehen]] (move house) · [[weggehen]] (leave), [[wegwerfen]] (throw away)\n\nSeparable prefixes are always **stressed**: AUFstehen, EINkaufen. Prefixes like *be-, ver-, er-, ent-* are **never** separable: *Ich verstehe dich.* — the *ver-* stays put.",
   "questions": [
     {
       "qtype": "mc",
@@ -30,6 +30,20 @@
         ],
         "correctIndex": 0,
         "explanation": "aufmachen (to open) — auf goes to the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich hole dich vom Bahnhof ___.",
+        "options": [
+          "ab",
+          "an",
+          "auf"
+        ],
+        "correctIndex": 0,
+        "explanation": "[[abholen]] (to pick up): Ich hole dich … ab."
       }
     },
     {
@@ -62,6 +76,34 @@
     },
     {
       "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir laden unsere Freunde zur Party ___.",
+        "options": [
+          "ein",
+          "an",
+          "auf"
+        ],
+        "correctIndex": 0,
+        "explanation": "[[einladen]] (to invite): Wir laden … ein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ bitte die Musik aus!",
+        "options": [
+          "Mach",
+          "Machst",
+          "Machen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Imperative of [[ausmachen]]: Mach … aus! The prefix stays at the end."
+      }
+    },
+    {
+      "qtype": "mc",
       "difficulty": 3,
       "payload": {
         "prompt": "Ich muss meine Oma ___.",
@@ -86,6 +128,32 @@
         ],
         "correctIndex": 0,
         "explanation": "Perfekt: the -ge- goes between prefix and stem → auf-ge-macht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welches Präfix ist NIE trennbar?",
+        "options": [
+          "ver-",
+          "an-",
+          "mit-"
+        ],
+        "correctIndex": 0,
+        "explanation": "be-, ver-, er-, ent- never separate: ich [[verstehe|verstehen]] dich — the prefix stays on the verb."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Hör bitte ___! (aufhören)",
+        "accept": [
+          "auf"
+        ],
+        "explanation": "[[aufhören]] (to stop): Hör auf! In the imperative the prefix goes to the end.",
+        "hint": "prefix at the end"
       }
     },
     {
@@ -114,6 +182,30 @@
     },
     {
       "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Bus fährt um neun Uhr ___. (abfahren)",
+        "accept": [
+          "ab"
+        ],
+        "explanation": "[[abfahren]] (to depart): Der Bus fährt … ab.",
+        "hint": "prefix at the end"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich bringe einen Kuchen ___. (mitbringen)",
+        "accept": [
+          "mit"
+        ],
+        "explanation": "[[mitbringen]] (to bring along): Ich bringe … mit.",
+        "hint": "prefix at the end"
+      }
+    },
+    {
+      "qtype": "fill",
       "difficulty": 3,
       "payload": {
         "prompt": "Sie ___ das Licht aus. (ausmachen)",
@@ -133,6 +225,30 @@
           "angerufen"
         ],
         "explanation": "Perfekt of a separable verb: an + ge + rufen = angerufen.",
+        "hint": "Perfekt"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hat das Formular ___. (ausfüllen)",
+        "accept": [
+          "ausgefüllt"
+        ],
+        "explanation": "Perfekt of [[ausfüllen]]: aus + ge + füllt = ausgefüllt.",
+        "hint": "Perfekt"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Kind ist früh ___. (einschlafen)",
+        "accept": [
+          "eingeschlafen"
+        ],
+        "explanation": "Perfekt with sein: ein + ge + schlafen = eingeschlafen ([[einschlafen]], to fall asleep).",
         "hint": "Perfekt"
       }
     },
@@ -190,6 +306,30 @@
     },
     {
       "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "ziehe",
+          "meine",
+          "Schuhe",
+          "an"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "ziehe",
+            "meine",
+            "Schuhe",
+            "an"
+          ]
+        ],
+        "translation": "I put on my shoes.",
+        "explanation": "[[anziehen]] splits: ziehe … an."
+      }
+    },
+    {
+      "qtype": "order",
       "difficulty": 3,
       "payload": {
         "tokens": [
@@ -236,6 +376,54 @@
         ],
         "translation": "Will you please close the door?",
         "explanation": "Question: verb first, prefix zu still at the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Kommst",
+          "du",
+          "heute",
+          "Abend",
+          "mit"
+        ],
+        "solutions": [
+          [
+            "Kommst",
+            "du",
+            "heute",
+            "Abend",
+            "mit"
+          ]
+        ],
+        "translation": "Are you coming along tonight?",
+        "explanation": "Question: verb first, prefix mit at the very end ([[mitkommen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Er",
+          "hat",
+          "den",
+          "Müll",
+          "weggeworfen"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "hat",
+            "den",
+            "Müll",
+            "weggeworfen"
+          ]
+        ],
+        "translation": "He threw out the trash.",
+        "explanation": "Perfekt: the participle weggeworfen stays in one piece at the end ([[wegwerfen]])."
       }
     }
   ]

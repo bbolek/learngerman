@@ -1,11 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useFocusEffect } from 'expo-router';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { tourEmit } from '@/tour/tourStore';
 import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
-import { SearchBar } from '@/ui/components/SearchBar';
+import { SearchBar, type SearchBarHandle } from '@/ui/components/SearchBar';
 import {
   SearchHeaderRow,
   SearchResultRow,
@@ -19,6 +20,16 @@ export default function DictionaryScreen() {
   const insets = useSafeAreaInsets();
   const [query, setQuery] = useState('');
   const { rows, searched } = useDictionarySearch(query);
+  const searchRef = useRef<SearchBarHandle>(null);
+
+  // Focus the search field on every tab switch, slightly delayed so the
+  // keyboard opens after the screen transition instead of fighting it.
+  useFocusEffect(
+    useCallback(() => {
+      const timer = setTimeout(() => searchRef.current?.focus(), 120);
+      return () => clearTimeout(timer);
+    }, [])
+  );
 
   const firstHitKey = rows.find((r) => r.type === 'hit')?.key;
   useEffect(() => {
@@ -32,6 +43,7 @@ export default function DictionaryScreen() {
         <View style={{ height: spacing.md }} />
         <TourTarget id="dict-search">
           <SearchBar
+            ref={searchRef}
             value={query}
             onChangeText={setQuery}
             placeholder="Deutsch oder English…"

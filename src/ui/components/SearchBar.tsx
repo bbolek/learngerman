@@ -1,6 +1,12 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { useRef, useState } from 'react';
+import { useImperativeHandle, useRef, useState, type Ref } from 'react';
 import { Pressable, StyleSheet, TextInput, View } from 'react-native';
+import Animated, {
+  useAnimatedStyle,
+  useSharedValue,
+  withSequence,
+  withTiming,
+} from 'react-native-reanimated';
 
 import { AppText } from '@/ui/components/AppText';
 import { fonts, radius, spacing } from '@/ui/theme';
@@ -8,24 +14,35 @@ import { useTheme } from '@/ui/useTheme';
 
 const UMLAUTS = ['ä', 'ö', 'ü', 'ß'] as const;
 
+export interface SearchBarHandle {
+  focus: () => void;
+}
+
 interface SearchBarProps {
   value: string;
   onChangeText: (text: string) => void;
   placeholder?: string;
   autoFocus?: boolean;
+  ref?: Ref<SearchBarHandle>;
 }
 
 /** Search field with umlaut helper keys for keyboards without them. */
-export function SearchBar({ value, onChangeText, placeholder, autoFocus }: SearchBarProps) {
+export function SearchBar({ value, onChangeText, placeholder, autoFocus, ref }: SearchBarProps) {
   const t = useTheme();
   const [focused, setFocused] = useState(false);
   const inputRef = useRef<TextInput>(null);
+  const pulse = useSharedValue(1);
+
+  useImperativeHandle(ref, () => ({ focus: () => inputRef.current?.focus() }));
+
+  const pulseStyle = useAnimatedStyle(() => ({ transform: [{ scale: pulse.value }] }));
 
   return (
     <View>
-      <View
+      <Animated.View
         style={[
           styles.bar,
+          pulseStyle,
           { backgroundColor: t.surface, borderColor: focused ? t.primary : t.line },
         ]}>
         <Ionicons name="search" size={19} color={focused ? t.primary : t.inkMuted} />
@@ -39,7 +56,13 @@ export function SearchBar({ value, onChangeText, placeholder, autoFocus }: Searc
           autoCapitalize="none"
           autoCorrect={false}
           selectTextOnFocus
-          onFocus={() => setFocused(true)}
+          onFocus={() => {
+            setFocused(true);
+            pulse.value = withSequence(
+              withTiming(1.03, { duration: 110 }),
+              withTiming(1, { duration: 160 })
+            );
+          }}
           onBlur={() => setFocused(false)}
           style={[styles.input, { color: t.ink }]}
         />
@@ -48,7 +71,7 @@ export function SearchBar({ value, onChangeText, placeholder, autoFocus }: Searc
             <Ionicons name="close-circle" size={19} color={t.inkFaint} />
           </Pressable>
         )}
-      </View>
+      </Animated.View>
       <View style={styles.umlautRow}>
         {UMLAUTS.map((u) => (
           <Pressable

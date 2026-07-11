@@ -11,7 +11,8 @@
       "supportsTablet": false,
       "bundleIdentifier": "com.bbolek.deutschly",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSLocalNetworkUsageDescription": "Deutschly nutzt dein lokales Netzwerk, um Duelle mit einem anderen Gerät im selben WLAN zu spielen."
       }
     },
     "android": {
@@ -23,7 +24,9 @@
       "predictiveBackGestureEnabled": false,
       "package": "com.bbolek.deutschly",
       "permissions": [
-        "android.permission.SCHEDULE_EXACT_ALARM"
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.ACCESS_NETWORK_STATE"
       ]
     },
     "web": {

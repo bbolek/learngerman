@@ -67,8 +67,34 @@ export default function GamesScreen() {
         {GAMES.map((game) => (
           <GameCard key={game.key} game={game} stats={stats.get(game.key)} />
         ))}
+        <DuelCard />
       </TourTarget>
     </Screen>
+  );
+}
+
+function DuelCard() {
+  const t = useTheme();
+  return (
+    <Card style={styles.game} onPress={() => router.push('/duel')}>
+      <View style={[styles.emojiBox, { backgroundColor: t.accentDim }]}>
+        <AppText style={{ fontSize: 26 }}>⚔️</AppText>
+      </View>
+      <View style={{ flex: 1 }}>
+        <AppText variant="subtitle">Duell</AppText>
+        <AppText variant="caption" muted style={{ marginTop: 2 }}>
+          Fordere jemanden im selben WLAN zu Wort-Blitz heraus.
+        </AppText>
+        <View style={styles.gameMeta}>
+          <View style={[styles.recordChip, { backgroundColor: t.accentDim }]}>
+            <AppText variant="caption" color={t.onAccentDim} style={{ fontFamily: fonts.extrabold }}>
+              1 gegen 1 · live
+            </AppText>
+          </View>
+        </View>
+      </View>
+      <Ionicons name="chevron-forward" size={20} color={t.inkFaint} />
+    </Card>
   );
 }
 

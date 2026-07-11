@@ -5,14 +5,13 @@ import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getLemmaImages } from '@/db/dictionaryRepo';
-import { listSavedWords, setLearned, unsaveWord, type SavedWordRow } from '@/db/vocabRepo';
+import { listSavedWords, unsaveWord, type SavedWordRow } from '@/db/vocabRepo';
 import { phaseOf } from '@/logic/sm2';
-import { speakGerman } from '@/services/speech';
-import { useSettings } from '@/store/settings';
 import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
+import { ListenButton } from '@/ui/components/ListenButton';
 import { VocabImage } from '@/ui/components/VocabImage';
 import { spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -22,23 +21,17 @@ export default function WordsScreen() {
   const insets = useSafeAreaInsets();
   const [words, setWords] = useState<SavedWordRow[] | null>(null);
   const [images, setImages] = useState<Map<number, string>>(new Map());
-  const showLearned = useSettings((s) => s.showLearnedWords);
 
   const reload = useCallback(() => {
-    listSavedWords(showLearned).then(async (rows) => {
+    listSavedWords().then(async (rows) => {
       setImages(await getLemmaImages(rows.map((w) => w.lemma_id)));
       setWords(rows);
     });
-  }, [showLearned]);
+  }, []);
   useFocusEffect(reload);
 
   const remove = async (lemmaId: number) => {
     await unsaveWord(lemmaId);
-    reload();
-  };
-
-  const toggleLearned = async (lemmaId: number, learned: boolean) => {
-    await setLearned(lemmaId, learned, new Date());
     reload();
   };
 
@@ -56,12 +49,7 @@ export default function WordsScreen() {
         contentContainerStyle={[styles.pad, { paddingBottom: spacing.xxl, paddingTop: spacing.md }]}
         renderItem={({ item, index }) => {
           const row = (
-            <WordRow
-              word={item}
-              image={images.get(item.lemma_id) ?? null}
-              onRemove={remove}
-              onToggleLearned={toggleLearned}
-            />
+            <WordRow word={item} image={images.get(item.lemma_id) ?? null} onRemove={remove} />
           );
           return index === 0 ? <TourTarget id="words-first-row">{row}</TourTarget> : row;
         }}
@@ -87,15 +75,12 @@ function WordRow({
   word,
   image,
   onRemove,
-  onToggleLearned,
 }: {
   word: SavedWordRow;
   image: string | null;
   onRemove: (id: number) => void;
-  onToggleLearned: (id: number, learned: boolean) => void;
 }) {
   const t = useTheme();
-  const isLearned = word.learned_at != null;
   const state =
     word.reps == null
       ? null
@@ -116,7 +101,7 @@ function WordRow({
   return (
     <Card
       onPress={() => router.push({ pathname: '/word/[id]', params: { id: String(word.lemma_id) } })}
-      style={[styles.row, isLearned && { opacity: 0.55 }]}>
+      style={styles.row}>
       <View style={styles.rowInner}>
         {image && <VocabImage svg={image} gender={word.gender} size={44} />}
         <View style={{ flex: 1 }}>
@@ -130,18 +115,9 @@ function WordRow({
         </View>
         <View style={styles.chips}>
           <GenderChip gender={word.gender} small />
-          {isLearned ? <Chip label="Gelernt" kind="learning" small /> : <Chip label={srsChip.label} kind={srsChip.kind} small />}
+          <Chip label={srsChip.label} kind={srsChip.kind} small />
         </View>
-        <Pressable hitSlop={10} onPress={() => speakGerman(`${spokenArticle}${word.lemma}`)}>
-          <Ionicons name="volume-high-outline" size={20} color={t.inkFaint} />
-        </Pressable>
-        <Pressable hitSlop={10} onPress={() => onToggleLearned(word.lemma_id, !isLearned)}>
-          <Ionicons
-            name={isLearned ? 'checkmark-circle' : 'checkmark-circle-outline'}
-            size={20}
-            color={isLearned ? t.accent : t.inkFaint}
-          />
-        </Pressable>
+        <ListenButton text={`${spokenArticle}${word.lemma}`} size={20} />
         <Pressable hitSlop={10} onPress={() => onRemove(word.lemma_id)}>
           <Ionicons name="trash-outline" size={19} color={t.inkFaint} />
         </Pressable>

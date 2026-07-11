@@ -15,9 +15,8 @@ import {
   type LemmaDetail,
   type SenseRow,
 } from '@/db/dictionaryRepo';
-import { isLearned, isSaved, saveWord, setLearned as setLearnedRepo, unsaveWord } from '@/db/vocabRepo';
+import { isSaved, saveWord, unsaveWord } from '@/db/vocabRepo';
 import { articleFor, exampleTagLabel } from '@/logic/formLabels';
-import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { tourEmit } from '@/tour/tourStore';
 import { useTourTarget } from '@/tour/useTourTarget';
@@ -25,6 +24,7 @@ import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
 import { ExampleText } from '@/ui/components/ExampleText';
+import { ListenButton } from '@/ui/components/ListenButton';
 import { VocabTapProvider } from '@/ui/components/MarkdownLite';
 import { Screen } from '@/ui/components/Screen';
 import { SearchBar } from '@/ui/components/SearchBar';
@@ -60,7 +60,6 @@ export default function WordDetailScreen() {
   const [forms, setForms] = useState<FormRow[]>([]);
   const [examples, setExamples] = useState<ExampleRow[]>([]);
   const [saved, setSaved] = useState(false);
-  const [learned, setLearned] = useState(false);
   const [showForms, setShowForms] = useState(true);
   const [image, setImage] = useState<string | null>(null);
   const [query, setQuery] = useState('');
@@ -80,15 +79,13 @@ export default function WordDetailScreen() {
       getForms(lemmaId),
       getExamples(lemmaId),
       isSaved(lemmaId),
-      isLearned(lemmaId),
       getLemmaImage(lemmaId),
-    ]).then(([l, s, f, ex, sv, lrn, img]) => {
+    ]).then(([l, s, f, ex, sv, img]) => {
       setLemma(l);
       setSenses(s);
       setForms(f);
       setExamples(ex);
       setSaved(sv);
-      setLearned(lrn);
       setImage(img);
     });
   }, [lemmaId]);
@@ -106,25 +103,11 @@ export default function WordDetailScreen() {
     if (saved) {
       await unsaveWord(lemmaId);
       setSaved(false);
-      setLearned(false);
     } else {
       await saveWord(lemmaId, new Date());
       setSaved(true);
       tourEmit('word-saved');
     }
-  };
-
-  const toggleLearned = async () => {
-    if (haptics) Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    const next = !learned;
-    await setLearnedRepo(lemmaId, next, new Date());
-    setLearned(next);
-  };
-
-  const pronounce = () => {
-    if (haptics) Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    speakGerman(article ? `${article} ${lemma.lemma}` : lemma.lemma);
-    tourEmit('tts-played');
   };
 
   return (
@@ -191,14 +174,15 @@ export default function WordDetailScreen() {
           <Subline lemma={lemma} />
         </View>
         <View style={styles.actionCol}>
-          <Pressable
-            ref={ttsTarget.ref}
-            onLayout={ttsTarget.onLayout}
-            onPress={pronounce}
-            hitSlop={8}
-            style={[styles.saveBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
-            <Ionicons name="volume-high-outline" size={24} color={t.primary} />
-          </Pressable>
+          <View ref={ttsTarget.ref} onLayout={ttsTarget.onLayout} collapsable={false}>
+            <ListenButton
+              text={article ? `${article} ${lemma.lemma}` : lemma.lemma}
+              size={24}
+              color={t.primary}
+              style={[styles.saveBtn, { backgroundColor: t.surface, borderColor: t.line }]}
+              onSpoken={() => tourEmit('tts-played')}
+            />
+          </View>
           <Pressable
             ref={saveTarget.ref}
             onLayout={saveTarget.onLayout}
@@ -210,21 +194,6 @@ export default function WordDetailScreen() {
             ]}>
             <Ionicons name={saved ? 'heart' : 'heart-outline'} size={24} color={t.danger} />
           </Pressable>
-          {saved && (
-            <Pressable
-              onPress={toggleLearned}
-              hitSlop={8}
-              style={[
-                styles.saveBtn,
-                { backgroundColor: learned ? t.accentDim : t.surface, borderColor: learned ? t.accent : t.line },
-              ]}>
-              <Ionicons
-                name={learned ? 'checkmark-circle' : 'checkmark-circle-outline'}
-                size={24}
-                color={learned ? t.accent : t.inkFaint}
-              />
-            </Pressable>
-          )}
         </View>
       </View>
 
@@ -245,14 +214,17 @@ export default function WordDetailScreen() {
             {s.note && <Chip label={s.note} kind="case" small />}
           </View>
           {s.example_de && (
-            <AppText variant="body" style={{ marginTop: 6 }}>
-              <ExampleText text={s.example_de} excludeLemmaId={lemmaId} />{' '}
-              {s.example_en && (
-                <AppText variant="secondary" muted>
-                  — {s.example_en}
-                </AppText>
-              )}
-            </AppText>
+            <View style={styles.exampleRow}>
+              <AppText variant="body" style={{ flex: 1, marginTop: 6 }}>
+                <ExampleText text={s.example_de} excludeLemmaId={lemmaId} />{' '}
+                {s.example_en && (
+                  <AppText variant="secondary" muted>
+                    — {s.example_en}
+                  </AppText>
+                )}
+              </AppText>
+              <ListenButton text={s.example_de} size={18} style={{ marginTop: 6 }} />
+            </View>
           )}
         </Card>
       ))}
@@ -265,6 +237,7 @@ export default function WordDetailScreen() {
               <View key={i} style={[styles.example, i > 0 && { borderTopWidth: 1, borderTopColor: t.line }]}>
                 <View style={styles.exampleTag}>
                   <Chip label={exampleTagLabel(ex.tag)} kind="case" small />
+                  <ListenButton text={ex.de} size={18} style={{ marginLeft: 'auto' }} />
                 </View>
                 <ExampleText
                   text={ex.de}
@@ -348,6 +321,16 @@ const ADJ_ROWS: [string, string][] = [
   ['superlativ', 'Superlativ'],
 ];
 
+/** Pronoun spoken before conjugated forms so TTS reads a natural phrase. */
+const SPOKEN_PREFIX: Record<string, string> = {
+  präsens_ich: 'ich',
+  präsens_du: 'du',
+  präsens_er: 'er',
+  präsens_wir: 'wir',
+  präsens_ihr: 'ihr',
+  präteritum_ich: 'ich',
+};
+
 function FormsTable({ lemma, forms }: { lemma: LemmaDetail; forms: FormRow[] }) {
   const t = useTheme();
   const byTag = new Map<string, string>();
@@ -363,14 +346,16 @@ function FormsTable({ lemma, forms }: { lemma: LemmaDetail; forms: FormRow[] }) 
         if (tag === 'partizip2' && value) value = `${lemma.verb_aux === 'sein' ? 'ist' : 'hat'} ${value}`;
         if (tag === 'präsens_wir') value = lemma.lemma;
         if (!value) return null;
+        const prefix = SPOKEN_PREFIX[tag];
         return (
           <View key={tag} style={[styles.tr, { borderTopColor: t.line }]}>
             <AppText variant="caption" muted style={styles.trLabel}>
               {label}
             </AppText>
-            <AppText variant="body" style={{ fontFamily: fonts.semibold }}>
+            <AppText variant="body" style={{ fontFamily: fonts.semibold, flex: 1 }}>
               {value}
             </AppText>
+            <ListenButton text={prefix ? `${prefix} ${value}` : value} size={17} />
           </View>
         );
       })}
@@ -399,7 +384,8 @@ const styles = StyleSheet.create({
   formsCard: { marginTop: spacing.md },
   formsHead: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   example: { paddingTop: spacing.sm },
-  exampleTag: { flexDirection: 'row', marginBottom: 5 },
+  exampleTag: { flexDirection: 'row', alignItems: 'center', marginBottom: 5 },
+  exampleRow: { flexDirection: 'row', alignItems: 'flex-start', gap: spacing.sm },
   tr: {
     flexDirection: 'row',
     alignItems: 'center',

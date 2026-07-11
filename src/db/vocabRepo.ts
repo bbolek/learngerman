@@ -7,7 +7,6 @@ export interface SavedWordRow {
   level: string;
   gloss: string;
   saved_at: string;
-  learned_at: string | null;
   reps: number | null;
   due_at: string | null;
   lapses: number | null;
@@ -51,46 +50,21 @@ export async function unsaveWord(lemmaId: number): Promise<void> {
   });
 }
 
-export async function isLearned(lemmaId: number): Promise<boolean> {
-  const row = await getDb().getFirstAsync<{ learned_at: string | null }>(
-    'SELECT learned_at FROM user_saved_words WHERE lemma_id = ?',
-    [lemmaId]
-  );
-  return row?.learned_at != null;
-}
-
-export async function setLearned(lemmaId: number, learned: boolean, now: Date): Promise<void> {
-  await getDb().runAsync('UPDATE user_saved_words SET learned_at = ? WHERE lemma_id = ?', [
-    learned ? now.toISOString() : null,
-    lemmaId,
-  ]);
-}
-
-export async function listSavedWords(includeLearned = false): Promise<SavedWordRow[]> {
+export async function listSavedWords(): Promise<SavedWordRow[]> {
   return getDb().getAllAsync<SavedWordRow>(
-    `SELECT w.lemma_id, l.lemma, l.gender, l.level, w.saved_at, w.learned_at,
+    `SELECT w.lemma_id, l.lemma, l.gender, l.level, w.saved_at,
             s.reps, s.due_at, s.lapses,
             (SELECT en FROM senses WHERE lemma_id = l.id ORDER BY sense_order LIMIT 1) AS gloss
      FROM user_saved_words w
      JOIN lemmas l ON l.id = w.lemma_id
      LEFT JOIN srs_state s ON s.lemma_id = w.lemma_id
-     WHERE ? = 1 OR w.learned_at IS NULL
-     ORDER BY s.due_at IS NULL, s.due_at, w.saved_at DESC`,
-    [includeLearned ? 1 : 0]
+     ORDER BY s.due_at IS NULL, s.due_at, w.saved_at DESC`
   );
 }
 
-export async function savedCount(includeLearned = false): Promise<number> {
+export async function savedCount(): Promise<number> {
   const row = await getDb().getFirstAsync<{ c: number }>(
-    'SELECT COUNT(*) AS c FROM user_saved_words WHERE ? = 1 OR learned_at IS NULL',
-    [includeLearned ? 1 : 0]
-  );
-  return row?.c ?? 0;
-}
-
-export async function learnedCount(): Promise<number> {
-  const row = await getDb().getFirstAsync<{ c: number }>(
-    'SELECT COUNT(*) AS c FROM user_saved_words WHERE learned_at IS NOT NULL'
+    'SELECT COUNT(*) AS c FROM user_saved_words'
   );
   return row?.c ?? 0;
 }

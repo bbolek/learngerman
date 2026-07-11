@@ -55,7 +55,6 @@ export function SearchBar({ value, onChangeText, placeholder, autoFocus, ref }: 
           autoFocus={autoFocus}
           autoCapitalize="none"
           autoCorrect={false}
-          selectTextOnFocus
           onFocus={() => {
             setFocused(true);
             pulse.value = withSequence(

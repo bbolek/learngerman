@@ -252,23 +252,6 @@ export default function SettingsScreen() {
       </Card>
 
       <Card style={styles.section}>
-        <View style={styles.switchRow}>
-          <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Gelernte Wörter anzeigen</AppText>
-            <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              Zeigt als „Gelernt" markierte Wörter in Meine Wörter, damit du sie wieder entmarkieren kannst
-            </AppText>
-          </View>
-          <Switch
-            value={settings.showLearnedWords}
-            onValueChange={settings.setShowLearnedWords}
-            trackColor={{ true: t.primary, false: t.line }}
-            thumbColor="#fff"
-          />
-        </View>
-      </Card>
-
-      <Card style={styles.section}>
         <AppText variant="subtitle">App-Guide</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
           Interaktive Tour durch alle Funktionen der App (auf Englisch)

@@ -32,6 +32,7 @@ import {
 } from '@/logic/graders';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
+import { ListenButton } from '@/ui/components/ListenButton';
 import { MarkdownLite, VocabTapProvider, VocabText } from '@/ui/components/MarkdownLite';
 import { ProgressRing } from '@/ui/components/ProgressRing';
 import { fonts, radius, spacing } from '@/ui/theme';
@@ -320,6 +321,11 @@ function cap(s: string): string {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
+/** Blanks become a pause and markers are stripped so TTS reads cleanly. */
+function speakablePrompt(s: string): string {
+  return s.replace(/_{2,}/g, ',').replace(/\*\*/g, '').replace(/\[\[|\]\]/g, '');
+}
+
 // ---------- MC ----------
 
 function McQuestion({
@@ -335,9 +341,12 @@ function McQuestion({
   const [selected, setSelected] = useState<number | null>(null);
   return (
     <View>
-      <AppText variant="section" style={{ marginTop: spacing.md, lineHeight: 34 }}>
-        {payload.prompt}
-      </AppText>
+      <View style={styles.promptRow}>
+        <AppText variant="section" style={{ flex: 1, lineHeight: 34 }}>
+          {payload.prompt}
+        </AppText>
+        <ListenButton text={speakablePrompt(payload.prompt)} size={20} style={{ marginTop: 8 }} />
+      </View>
       <View style={{ marginTop: spacing.lg, gap: spacing.sm }}>
         {payload.options.map((opt, i) => {
           const isSel = selected === i;
@@ -390,9 +399,12 @@ function FillQuestion({
   const locked = feedback != null;
   return (
     <View>
-      <AppText variant="section" style={{ marginTop: spacing.md, lineHeight: 34 }}>
-        {payload.prompt}
-      </AppText>
+      <View style={styles.promptRow}>
+        <AppText variant="section" style={{ flex: 1, lineHeight: 34 }}>
+          {payload.prompt}
+        </AppText>
+        <ListenButton text={speakablePrompt(payload.prompt)} size={20} style={{ marginTop: 8 }} />
+      </View>
       {payload.hint && (
         <View style={[styles.hintChip, { backgroundColor: t.caseChip }]}>
           <AppText variant="caption" color={t.onCaseChip}>
@@ -548,13 +560,16 @@ function CaseIdQuestion({
 
   return (
     <View>
-      <AppText variant="section" style={{ marginTop: spacing.md, lineHeight: 34 }}>
-        {before}
-        <AppText variant="section" color={t.onPrimaryDim} style={{ backgroundColor: t.primaryDim }}>
-          {target}
+      <View style={styles.promptRow}>
+        <AppText variant="section" style={{ flex: 1, lineHeight: 34 }}>
+          {before}
+          <AppText variant="section" color={t.onPrimaryDim} style={{ backgroundColor: t.primaryDim }}>
+            {target}
+          </AppText>
+          {after}
         </AppText>
-        {after}
-      </AppText>
+        <ListenButton text={`${before}${target}${after}`} size={20} style={{ marginTop: 8 }} />
+      </View>
 
       <AppText variant="caption" muted style={{ marginTop: spacing.lg }}>
         1 · Welcher Fall ist markiert?
@@ -638,6 +653,12 @@ const styles = StyleSheet.create({
   },
   bar: { flex: 1, height: 9, borderRadius: 999, overflow: 'hidden' },
   barFill: { height: '100%', borderRadius: 999 },
+  promptRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: spacing.sm,
+    marginTop: spacing.md,
+  },
   option: {
     flexDirection: 'row',
     alignItems: 'center',

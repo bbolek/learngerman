@@ -199,7 +199,7 @@ export const TOUR_STEPS: TourStepDef[] = [
     route: '/words',
     title: 'Your learning queue',
     body:
-      'Each saved word shows its status — new, due for review, or safely learned. The checkmark marks a word as mastered; the trash icon removes it.',
+      'Each saved word shows its status — new, learning, or due for review. Tap the speaker to hear it; the trash icon removes it.',
     advance: { kind: 'next' },
   },
   {

@@ -15,8 +15,6 @@ interface SettingsState {
   dailyNewLimit: number;
   /** Max due cards per review session. */
   sessionCap: number;
-  /** Show words marked "Learned" in the saved-words list (so they can be unmarked). */
-  showLearnedWords: boolean;
   /** Vocab reminder notifications. */
   notificationsEnabled: boolean;
   /** 0 = Sunday … 6 = Saturday. */
@@ -36,7 +34,6 @@ interface SettingsState {
   setHapticsEnabled: (on: boolean) => void;
   setDailyNewLimit: (n: number) => void;
   setSessionCap: (n: number) => void;
-  setShowLearnedWords: (on: boolean) => void;
   setNotificationsEnabled: (on: boolean) => void;
   setNotificationDays: (days: number[]) => void;
   setNotificationStartHour: (h: number) => void;
@@ -51,7 +48,6 @@ function persist(get: () => SettingsState) {
     hapticsEnabled,
     dailyNewLimit,
     sessionCap,
-    showLearnedWords,
     notificationsEnabled,
     notificationDays,
     notificationStartHour,
@@ -64,7 +60,6 @@ function persist(get: () => SettingsState) {
     hapticsEnabled,
     dailyNewLimit,
     sessionCap,
-    showLearnedWords,
     notificationsEnabled,
     notificationDays,
     notificationStartHour,
@@ -99,7 +94,6 @@ export const useSettings = create<SettingsState>((set, get) => ({
   hapticsEnabled: true,
   dailyNewLimit: 10,
   sessionCap: 30,
-  showLearnedWords: false,
   notificationsEnabled: false,
   notificationDays: [0, 1, 2, 3, 4, 5, 6],
   notificationStartHour: 9,
@@ -131,10 +125,6 @@ export const useSettings = create<SettingsState>((set, get) => ({
   },
   setSessionCap: (sessionCap) => {
     set({ sessionCap });
-    persist(get);
-  },
-  setShowLearnedWords: (showLearnedWords) => {
-    set({ showLearnedWords });
     persist(get);
   },
   setNotificationsEnabled: (notificationsEnabled) => {

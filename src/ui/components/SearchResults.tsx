@@ -1,16 +1,15 @@
-import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
-import { Pressable, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import { getDb } from '@/db/client';
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { articleFor, formLabel } from '@/logic/formLabels';
 import { lookupEnglish, lookupGerman, type LemmaHit } from '@/logic/lookup';
-import { speakGerman } from '@/services/speech';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
+import { ListenButton } from '@/ui/components/ListenButton';
 import { VocabImage } from '@/ui/components/VocabImage';
 import { spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -102,9 +101,7 @@ export function SearchResultRow({
           <GenderChip gender={hit.gender} small />
           <Chip label={hit.level} kind="level" small />
         </View>
-        <Pressable hitSlop={10} onPress={() => speakGerman(spoken)}>
-          <Ionicons name="volume-high-outline" size={20} color={t.inkFaint} />
-        </Pressable>
+        <ListenButton text={spoken} size={20} />
       </View>
       {hit.via === 'form' && hit.matchedForm && (
         <View style={[styles.formOf, { backgroundColor: t.primaryDim }]}>

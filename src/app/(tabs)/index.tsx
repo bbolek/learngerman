@@ -6,9 +6,8 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import { getLemmaImage, getWordOfTheDay } from '@/db/dictionaryRepo';
 import { listTopics, type TopicRow } from '@/db/grammarRepo';
 import { currentStreak, dueCounts, recentActivity, type DayActivity } from '@/db/srsRepo';
-import { learnedCount, savedCount } from '@/db/vocabRepo';
+import { savedCount } from '@/db/vocabRepo';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
-import { useSettings } from '@/store/settings';
 import { TourTarget } from '@/tour/TourTarget';
 import { useTourTarget } from '@/tour/useTourTarget';
 import { AppText } from '@/ui/components/AppText';
@@ -25,7 +24,6 @@ interface HomeData {
   fresh: number;
   doneToday: number;
   saved: number;
-  learned: number;
   week: DayActivity[];
   next: NextTopic<TopicRow> | null;
   wotd: Awaited<ReturnType<typeof getWordOfTheDay>>;
@@ -35,7 +33,6 @@ interface HomeData {
 export default function HomeScreen() {
   const t = useTheme();
   const [data, setData] = useState<HomeData | null>(null);
-  const showLearned = useSettings((s) => s.showLearnedWords);
   const streakTarget = useTourTarget('home-streak');
 
   useFocusEffect(
@@ -46,11 +43,10 @@ export default function HomeScreen() {
         currentStreak(now),
         dueCounts(now),
         recentActivity(7, now),
-        savedCount(showLearned),
-        learnedCount(),
+        savedCount(),
         listTopics(),
         getWordOfTheDay(today),
-      ]).then(async ([streak, counts, week, saved, learned, topics, wotd]) => {
+      ]).then(async ([streak, counts, week, saved, topics, wotd]) => {
         const doneToday = week.find((a) => a.day === today)?.reviews_done ?? 0;
         const wotdImage = wotd ? await getLemmaImage(wotd.id) : null;
         setData({
@@ -59,14 +55,13 @@ export default function HomeScreen() {
           fresh: counts.fresh,
           doneToday,
           saved,
-          learned,
           week,
           next: pickNextTopic(topics, today),
           wotd,
           wotdImage,
         });
       });
-    }, [showLearned])
+    }, [])
   );
 
   const now = new Date();
@@ -200,30 +195,20 @@ export default function HomeScreen() {
         </TourTarget>
       )}
 
-      <View style={styles.twoCol}>
-        <Card style={styles.mini} onPress={() => router.push('/words')}>
-          <View style={[styles.miniIcon, { backgroundColor: t.primaryDim }]}>
-            <Ionicons name="heart" size={16} color={t.onPrimaryDim} />
-          </View>
-          <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 24, marginTop: spacing.sm }}>
+      <Card style={styles.miniWide} onPress={() => router.push('/words')}>
+        <View style={[styles.miniIcon, { backgroundColor: t.primaryDim }]}>
+          <Ionicons name="heart" size={16} color={t.onPrimaryDim} />
+        </View>
+        <View style={{ flex: 1 }}>
+          <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 24 }}>
             {data?.saved ?? '…'}
           </AppText>
           <AppText variant="caption" muted>
             Meine Wörter
           </AppText>
-        </Card>
-        <Card style={styles.mini} onPress={() => router.push('/words')}>
-          <View style={[styles.miniIcon, { backgroundColor: t.successDim }]}>
-            <Ionicons name="checkmark-done" size={16} color={t.onSuccessDim} />
-          </View>
-          <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 24, marginTop: spacing.sm }}>
-            {data?.learned ?? '…'}
-          </AppText>
-          <AppText variant="caption" muted>
-            Gelernt
-          </AppText>
-        </Card>
-      </View>
+        </View>
+        <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
+      </Card>
 
       {data?.wotd && (
         <TourTarget id="home-wotd">
@@ -409,8 +394,12 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     marginTop: spacing.md,
   },
-  twoCol: { flexDirection: 'row', gap: spacing.md, marginTop: spacing.md },
-  mini: { flex: 1 },
+  miniWide: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    marginTop: spacing.md,
+  },
   miniIcon: {
     width: 30,
     height: 30,

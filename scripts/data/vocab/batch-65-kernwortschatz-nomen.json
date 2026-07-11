@@ -1,0 +1,648 @@
+[
+  {
+    "lemma": "Rache",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2600,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "revenge", "example_de": "Er wollte Rache für die Lüge.", "example_en": "He wanted revenge for the lie." }
+    ]
+  },
+  {
+    "lemma": "Gnade",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2900,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "mercy, grace", "example_de": "Der König zeigte keine Gnade.", "example_en": "The king showed no mercy." }
+    ]
+  },
+  {
+    "lemma": "Marmor",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2950,
+    "noun": { "gender": "m", "plural": null, "genitive": "Marmors" },
+    "senses": [
+      { "en": "marble", "example_de": "Der Boden ist aus weißem Marmor.", "example_en": "The floor is made of white marble." }
+    ]
+  },
+  {
+    "lemma": "Kies",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2980,
+    "noun": { "gender": "m", "plural": null, "genitive": "Kieses" },
+    "senses": [
+      { "en": "gravel", "example_de": "Der Weg im Garten ist aus Kies.", "example_en": "The path in the garden is made of gravel." }
+    ]
+  },
+  {
+    "lemma": "Samt",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2990,
+    "noun": { "gender": "m", "plural": null, "genitive": "Samts" },
+    "senses": [
+      { "en": "velvet", "example_de": "Das Kleid ist aus rotem Samt.", "example_en": "The dress is made of red velvet." }
+    ]
+  },
+  {
+    "lemma": "Seemann",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2700,
+    "noun": { "gender": "m", "plural": "Seeleute", "genitive": "Seemanns" },
+    "senses": [
+      { "en": "sailor, seaman", "example_de": "Der Seemann fährt seit Jahren zur See.", "example_en": "The sailor has been going to sea for years." }
+    ]
+  },
+  {
+    "lemma": "Stich",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "m", "plural": "Stiche", "genitive": "Stichs" },
+    "senses": [
+      { "en": "sting, bite (of an insect)", "example_de": "Der Stich der Mücke juckt.", "example_en": "The mosquito bite itches." },
+      { "en": "stitch (in sewing)", "example_de": "Sie näht das Loch mit kleinen Stichen.", "example_en": "She sews the hole with small stitches." }
+    ]
+  },
+  {
+    "lemma": "Gebiet",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1250,
+    "noun": { "gender": "n", "plural": "Gebiete" },
+    "senses": [
+      { "en": "area, region, territory", "example_de": "In diesem Gebiet gibt es viele Wälder.", "example_en": "There are many forests in this region." },
+      { "en": "field (of knowledge)", "example_de": "Sie ist Expertin auf diesem Gebiet.", "example_en": "She is an expert in this field." }
+    ]
+  },
+  {
+    "lemma": "Konsulat",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2800,
+    "noun": { "gender": "n", "plural": "Konsulate" },
+    "senses": [
+      { "en": "consulate", "example_de": "Das Visum bekommen Sie im Konsulat.", "example_en": "You get the visa at the consulate." }
+    ]
+  },
+  {
+    "lemma": "Anspruch",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 1900,
+    "noun": { "gender": "m", "plural": "Ansprüche", "genitive": "Anspruchs" },
+    "senses": [
+      { "en": "claim, entitlement", "note": "Anspruch haben auf + Akk. = to be entitled to", "example_de": "Sie hat Anspruch auf Urlaub.", "example_en": "She is entitled to vacation." }
+    ]
+  },
+  {
+    "lemma": "Vergnügen",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": { "gender": "n", "plural": "Vergnügen" },
+    "senses": [
+      { "en": "pleasure, fun", "note": "Viel Vergnügen! = Have fun!", "example_de": "Das Spiel macht den Kindern Vergnügen.", "example_en": "The game gives the children pleasure." }
+    ]
+  },
+  {
+    "lemma": "Abenteuer",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "n", "plural": "Abenteuer" },
+    "senses": [
+      { "en": "adventure", "example_de": "Die Reise war ein großes Abenteuer.", "example_en": "The trip was a great adventure." }
+    ]
+  },
+  {
+    "lemma": "Gedanke",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 900,
+    "noun": { "gender": "m", "plural": "Gedanken", "genitive": "Gedankens" },
+    "senses": [
+      { "en": "thought, idea", "note": "sich Gedanken machen = to worry, to think about", "example_de": "Das ist ein guter Gedanke.", "example_en": "That is a good thought." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Ich mache mir Gedanken über die Prüfung.", "en": "I am worrying about the exam." }
+    ]
+  },
+  {
+    "lemma": "Fantasie",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1950,
+    "noun": { "gender": "f", "plural": "Fantasien" },
+    "senses": [
+      { "en": "imagination, fantasy", "example_de": "Kinder haben viel Fantasie.", "example_en": "Children have a lot of imagination." }
+    ]
+  },
+  {
+    "lemma": "Albtraum",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": { "gender": "m", "plural": "Albträume", "genitive": "Albtraums" },
+    "senses": [
+      { "en": "nightmare", "example_de": "Das Kind hatte einen Albtraum.", "example_en": "The child had a nightmare." }
+    ]
+  },
+  {
+    "lemma": "Pech",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": { "gender": "n", "plural": null, "genitive": "Pechs" },
+    "senses": [
+      { "en": "bad luck", "note": "Pech haben = to be unlucky", "example_de": "So ein Pech! Der Zug ist weg.", "example_en": "What bad luck! The train is gone." }
+    ]
+  },
+  {
+    "lemma": "Zufall",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": "Zufälle", "genitive": "Zufalls" },
+    "senses": [
+      { "en": "coincidence, chance", "note": "durch Zufall = by chance", "example_de": "Was für ein Zufall, dich hier zu treffen!", "example_en": "What a coincidence to meet you here!" }
+    ]
+  },
+  {
+    "lemma": "Gelegenheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Gelegenheiten" },
+    "senses": [
+      { "en": "opportunity, occasion", "example_de": "Das ist eine gute Gelegenheit zum Üben.", "example_en": "That is a good opportunity to practice." }
+    ]
+  },
+  {
+    "lemma": "Dauer",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1600,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "duration, length (of time)", "note": "auf Dauer = in the long run", "example_de": "Die Dauer des Kurses ist drei Monate.", "example_en": "The duration of the course is three months." }
+    ]
+  },
+  {
+    "lemma": "Zeitraum",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "m", "plural": "Zeiträume", "genitive": "Zeitraums" },
+    "senses": [
+      { "en": "period (of time)", "example_de": "In diesem Zeitraum war ich im Ausland.", "example_en": "During this period I was abroad." }
+    ]
+  },
+  {
+    "lemma": "Zeitpunkt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1550,
+    "noun": { "gender": "m", "plural": "Zeitpunkte", "genitive": "Zeitpunkts" },
+    "senses": [
+      { "en": "point in time, moment", "example_de": "Das ist der richtige Zeitpunkt für ein Gespräch.", "example_en": "This is the right moment for a conversation." }
+    ]
+  },
+  {
+    "lemma": "Jahrtausend",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2850,
+    "noun": { "gender": "n", "plural": "Jahrtausende" },
+    "senses": [
+      { "en": "millennium", "example_de": "Die Stadt ist über ein Jahrtausend alt.", "example_en": "The city is over a millennium old." }
+    ]
+  },
+  {
+    "lemma": "Kindheit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "childhood", "example_de": "Ich hatte eine glückliche Kindheit.", "example_en": "I had a happy childhood." }
+    ]
+  },
+  {
+    "lemma": "Geburt",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "f", "plural": "Geburten" },
+    "senses": [
+      { "en": "birth", "example_de": "Die Geburt des Kindes war im Mai.", "example_en": "The birth of the child was in May." }
+    ]
+  },
+  {
+    "lemma": "Tod",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 800,
+    "noun": { "gender": "m", "plural": null, "genitive": "Todes" },
+    "senses": [
+      { "en": "death", "example_de": "Nach dem Tod des Vaters war sie allein.", "example_en": "After her father's death she was alone." }
+    ]
+  },
+  {
+    "lemma": "Geist",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1700,
+    "noun": { "gender": "m", "plural": "Geister", "genitive": "Geistes" },
+    "senses": [
+      { "en": "mind, spirit", "example_de": "Sport ist gut für Körper und Geist.", "example_en": "Sport is good for body and mind." },
+      { "en": "ghost", "example_de": "In dem alten Haus soll ein Geist wohnen.", "example_en": "A ghost is said to live in the old house." }
+    ]
+  },
+  {
+    "lemma": "Verstand",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2250,
+    "noun": { "gender": "m", "plural": null, "genitive": "Verstandes" },
+    "senses": [
+      { "en": "reason, intellect, mind", "example_de": "Benutz doch deinen Verstand!", "example_en": "Use your head!" }
+    ]
+  },
+  {
+    "lemma": "Vernunft",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2400,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "reason, common sense", "example_de": "Am Ende siegte die Vernunft.", "example_en": "In the end reason won." }
+    ]
+  },
+  {
+    "lemma": "Gehirn",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": { "gender": "n", "plural": "Gehirne" },
+    "senses": [
+      { "en": "brain", "example_de": "Das Gehirn braucht viel Energie.", "example_en": "The brain needs a lot of energy." }
+    ]
+  },
+  {
+    "lemma": "Kenntnis",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1650,
+    "noun": { "gender": "f", "plural": "Kenntnisse" },
+    "senses": [
+      { "en": "knowledge", "note": "usually plural: Kenntnisse = knowledge, skills", "example_de": "Für den Job braucht man gute Kenntnisse in Englisch.", "example_en": "You need good knowledge of English for the job." }
+    ]
+  },
+  {
+    "lemma": "Faulheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2750,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "laziness", "example_de": "Seine Faulheit ist ein Problem.", "example_en": "His laziness is a problem." }
+    ]
+  },
+  {
+    "lemma": "Ungeduld",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2650,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "impatience", "example_de": "Sie wartete voller Ungeduld auf die Antwort.", "example_en": "She waited for the answer full of impatience." }
+    ]
+  },
+  {
+    "lemma": "Unschuld",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2700,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "innocence", "example_de": "Der Anwalt bewies die Unschuld des Mannes.", "example_en": "The lawyer proved the man's innocence." }
+    ]
+  },
+  {
+    "lemma": "Ehre",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2150,
+    "noun": { "gender": "f", "plural": "Ehren" },
+    "senses": [
+      { "en": "honor", "example_de": "Es ist mir eine Ehre, hier zu sein.", "example_en": "It is an honor for me to be here." }
+    ]
+  },
+  {
+    "lemma": "Höflichkeit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "politeness, courtesy", "example_de": "Höflichkeit kostet nichts.", "example_en": "Politeness costs nothing." }
+    ]
+  },
+  {
+    "lemma": "Frechheit",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2800,
+    "noun": { "gender": "f", "plural": "Frechheiten" },
+    "senses": [
+      { "en": "impertinence, cheek", "example_de": "So eine Frechheit!", "example_en": "What a cheek!" }
+    ]
+  },
+  {
+    "lemma": "Lüge",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1550,
+    "noun": { "gender": "f", "plural": "Lügen" },
+    "senses": [
+      { "en": "lie", "example_de": "Das ist eine Lüge!", "example_en": "That is a lie!" }
+    ]
+  },
+  {
+    "lemma": "Wahrheit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 950,
+    "noun": { "gender": "f", "plural": "Wahrheiten" },
+    "senses": [
+      { "en": "truth", "example_de": "Sag mir bitte die Wahrheit.", "example_en": "Please tell me the truth." }
+    ]
+  },
+  {
+    "lemma": "Gewalt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1350,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "violence; force", "example_de": "Gewalt ist keine Lösung.", "example_en": "Violence is not a solution." }
+    ]
+  },
+  {
+    "lemma": "Belohnung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "f", "plural": "Belohnungen" },
+    "senses": [
+      { "en": "reward", "example_de": "Als Belohnung gab es ein Eis.", "example_en": "As a reward there was an ice cream." }
+    ]
+  },
+  {
+    "lemma": "Befehl",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "m", "plural": "Befehle", "genitive": "Befehls" },
+    "senses": [
+      { "en": "order, command", "example_de": "Der Soldat folgte dem Befehl.", "example_en": "The soldier followed the order." }
+    ]
+  },
+  {
+    "lemma": "Dank",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 300,
+    "noun": { "gender": "m", "plural": null, "genitive": "Dankes" },
+    "senses": [
+      { "en": "thanks, gratitude", "note": "Vielen Dank! = Thank you very much!", "example_de": "Vielen Dank für deine Hilfe!", "example_en": "Many thanks for your help!" }
+    ]
+  },
+  {
+    "lemma": "Abschied",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "m", "plural": "Abschiede", "genitive": "Abschieds" },
+    "senses": [
+      { "en": "farewell, goodbye", "note": "Abschied nehmen = to say goodbye", "example_de": "Der Abschied am Bahnhof war traurig.", "example_en": "The farewell at the station was sad." }
+    ]
+  },
+  {
+    "lemma": "Masse",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2300,
+    "noun": { "gender": "f", "plural": "Massen" },
+    "senses": [
+      { "en": "mass, crowd", "example_de": "Eine Masse von Menschen stand vor dem Tor.", "example_en": "A mass of people stood in front of the gate." }
+    ]
+  },
+  {
+    "lemma": "Durchschnitt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1750,
+    "noun": { "gender": "m", "plural": "Durchschnitte", "genitive": "Durchschnitts" },
+    "senses": [
+      { "en": "average", "note": "im Durchschnitt = on average", "example_de": "Im Durchschnitt schlafe ich sieben Stunden.", "example_en": "On average I sleep seven hours." }
+    ]
+  },
+  {
+    "lemma": "Ausnahme",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1600,
+    "noun": { "gender": "f", "plural": "Ausnahmen" },
+    "senses": [
+      { "en": "exception", "example_de": "Heute machen wir eine Ausnahme.", "example_en": "Today we are making an exception." }
+    ]
+  },
+  {
+    "lemma": "Situation",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 850,
+    "noun": { "gender": "f", "plural": "Situationen" },
+    "senses": [
+      { "en": "situation", "example_de": "Die Situation ist schwierig.", "example_en": "The situation is difficult." }
+    ]
+  },
+  {
+    "lemma": "Vorfall",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2500,
+    "noun": { "gender": "m", "plural": "Vorfälle", "genitive": "Vorfalls" },
+    "senses": [
+      { "en": "incident", "example_de": "Die Polizei untersucht den Vorfall.", "example_en": "The police are investigating the incident." }
+    ]
+  },
+  {
+    "lemma": "Katastrophe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1850,
+    "noun": { "gender": "f", "plural": "Katastrophen" },
+    "senses": [
+      { "en": "catastrophe, disaster", "example_de": "Das Erdbeben war eine Katastrophe.", "example_en": "The earthquake was a catastrophe." }
+    ]
+  },
+  {
+    "lemma": "Risiko",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": { "gender": "n", "plural": "Risiken" },
+    "senses": [
+      { "en": "risk", "note": "ein Risiko eingehen = to take a risk", "example_de": "Rauchen ist ein Risiko für die Gesundheit.", "example_en": "Smoking is a risk to your health." }
+    ]
+  },
+  {
+    "lemma": "Unterstützung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1450,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "support", "example_de": "Danke für deine Unterstützung.", "example_en": "Thank you for your support." }
+    ]
+  },
+  {
+    "lemma": "Dienst",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1400,
+    "noun": { "gender": "m", "plural": "Dienste", "genitive": "Dienstes" },
+    "senses": [
+      { "en": "service; duty", "note": "im Dienst = on duty", "example_de": "Die Ärztin hat heute Nacht Dienst.", "example_en": "The doctor is on duty tonight." }
+    ]
+  },
+  {
+    "lemma": "Leistung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1200,
+    "noun": { "gender": "f", "plural": "Leistungen" },
+    "senses": [
+      { "en": "performance, achievement", "example_de": "Die Leistung der Schülerin ist sehr gut.", "example_en": "The pupil's performance is very good." }
+    ]
+  },
+  {
+    "lemma": "Irrtum",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2450,
+    "noun": { "gender": "m", "plural": "Irrtümer", "genitive": "Irrtums" },
+    "senses": [
+      { "en": "error, mistake", "example_de": "Das war ein Irrtum, entschuldigen Sie.", "example_en": "That was an error, excuse me." }
+    ]
+  },
+  {
+    "lemma": "Verbesserung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": { "gender": "f", "plural": "Verbesserungen" },
+    "senses": [
+      { "en": "improvement", "example_de": "Ich sehe eine klare Verbesserung.", "example_en": "I see a clear improvement." }
+    ]
+  },
+  {
+    "lemma": "Veränderung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1350,
+    "noun": { "gender": "f", "plural": "Veränderungen" },
+    "senses": [
+      { "en": "change", "example_de": "Die Stadt hat viele Veränderungen erlebt.", "example_en": "The city has seen many changes." }
+    ]
+  },
+  {
+    "lemma": "Wachstum",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2050,
+    "noun": { "gender": "n", "plural": null, "genitive": "Wachstums" },
+    "senses": [
+      { "en": "growth", "example_de": "Das Wachstum der Wirtschaft ist langsam.", "example_en": "The growth of the economy is slow." }
+    ]
+  },
+  {
+    "lemma": "Rückgang",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2550,
+    "noun": { "gender": "m", "plural": "Rückgänge", "genitive": "Rückgangs" },
+    "senses": [
+      { "en": "decline, decrease", "example_de": "Es gab einen Rückgang der Preise.", "example_en": "There was a decline in prices." }
+    ]
+  },
+  {
+    "lemma": "Anstieg",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2500,
+    "noun": { "gender": "m", "plural": "Anstiege", "genitive": "Anstiegs" },
+    "senses": [
+      { "en": "increase, rise", "example_de": "Der Anstieg der Mieten ist ein Problem.", "example_en": "The rise in rents is a problem." }
+    ]
+  },
+  {
+    "lemma": "Zugang",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1700,
+    "noun": { "gender": "m", "plural": "Zugänge", "genitive": "Zugangs" },
+    "senses": [
+      { "en": "access; entrance", "note": "Zugang zu + Dativ = access to", "example_de": "Alle Schüler haben Zugang zur Bibliothek.", "example_en": "All pupils have access to the library." }
+    ]
+  },
+  {
+    "lemma": "Übergang",
+    "pos": "noun",
+    "level": "B2",
+    "freq": 2400,
+    "noun": { "gender": "m", "plural": "Übergänge", "genitive": "Übergangs" },
+    "senses": [
+      { "en": "transition; crossing", "example_de": "Der Übergang von der Schule zum Beruf ist schwer.", "example_en": "The transition from school to work is hard." }
+    ]
+  },
+  {
+    "lemma": "Beginn",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": null, "genitive": "Beginns" },
+    "senses": [
+      { "en": "beginning, start", "note": "zu Beginn = at the beginning", "example_de": "Der Beginn des Films war langweilig.", "example_en": "The beginning of the film was boring." }
+    ]
+  },
+  {
+    "lemma": "Fortsetzung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2350,
+    "noun": { "gender": "f", "plural": "Fortsetzungen" },
+    "senses": [
+      { "en": "continuation; sequel", "example_de": "Die Fortsetzung des Films kommt nächstes Jahr.", "example_en": "The sequel to the film is coming next year." }
+    ]
+  },
+  {
+    "lemma": "Unterbrechung",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2250,
+    "noun": { "gender": "f", "plural": "Unterbrechungen" },
+    "senses": [
+      { "en": "interruption, break", "example_de": "Wir arbeiteten drei Stunden ohne Unterbrechung.", "example_en": "We worked for three hours without interruption." }
+    ]
+  }
+]

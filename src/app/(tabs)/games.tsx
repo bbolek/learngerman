@@ -81,14 +81,15 @@ function DuelCard() {
         <AppText style={{ fontSize: 26 }}>⚔️</AppText>
       </View>
       <View style={{ flex: 1 }}>
-        <AppText variant="subtitle">Duell</AppText>
+        <AppText variant="subtitle">Multiplayer</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
-          Fordere jemanden im selben WLAN zu Wort-Blitz heraus.
+          Fordere Freunde oder die ganze Klasse im selben WLAN heraus — Spiel auswählen, Code
+          teilen, los!
         </AppText>
         <View style={styles.gameMeta}>
           <View style={[styles.recordChip, { backgroundColor: t.accentDim }]}>
             <AppText variant="caption" color={t.onAccentDim} style={{ fontFamily: fonts.extrabold }}>
-              1 gegen 1 · live
+              2–30 Spieler · live
             </AppText>
           </View>
         </View>

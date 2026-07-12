@@ -4,7 +4,9 @@ import * as path from 'node:path';
 import {
   applyArcadeAnswer,
   articleFor,
+  ARTIKEL_OPTIONS,
   BLITZ_OPTIONS,
+  buildArtikelQuestions,
   buildBlitzQuestions,
   buildImageQuestions,
   buildPairsBoards,
@@ -163,6 +165,37 @@ describe('buildImageQuestions', () => {
   it('drops duplicate lemmas so no option can appear twice', () => {
     const withDupe = [...imagePool, { ...imagePool[0], id: 99 }];
     expect(buildImageQuestions(withDupe, 4)).toHaveLength(imagePool.length);
+  });
+});
+
+describe('buildArtikelQuestions', () => {
+  const nounPool: GameWord[] = [
+    { id: 1, lemma: 'Haus', gender: 'n', plural: null, gloss: 'house' },
+    { id: 2, lemma: 'Mann', gender: 'm', plural: null, gloss: 'man' },
+    { id: 3, lemma: 'Frau', gender: 'f', plural: null, gloss: 'woman' },
+    { id: 4, lemma: 'Leute', gender: 'pl', plural: null, gloss: 'people' },
+    { id: 5, lemma: 'gehen', gender: null, plural: null, gloss: 'to go' },
+  ];
+
+  it('keeps only der/die/das nouns and marks the right article', () => {
+    const questions = buildArtikelQuestions(nounPool, 3);
+    expect(questions).toHaveLength(3); // pl and genderless words dropped
+    for (const q of questions) {
+      expect(q.options).toEqual(ARTIKEL_OPTIONS);
+      expect(q.options[q.correctIndex]).toBe(articleFor(q.word.gender));
+    }
+  });
+
+  it('is deterministic per seed and reorders with the seed', () => {
+    const big = Array.from({ length: 30 }, (_, i) => ({
+      ...nounPool[i % 3],
+      id: i + 1,
+      lemma: `Nomen${i + 1}`,
+    }));
+    expect(buildArtikelQuestions(big, 5)).toEqual(buildArtikelQuestions(big, 5));
+    expect(buildArtikelQuestions(big, 5).map((q) => q.word.id)).not.toEqual(
+      buildArtikelQuestions(big, 6).map((q) => q.word.id)
+    );
   });
 });
 

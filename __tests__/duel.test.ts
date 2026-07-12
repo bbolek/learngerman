@@ -1,67 +1,137 @@
 import {
+  DUEL_MAX_PLAYERS,
   DUEL_PROTOCOL_VERSION,
+  duelRank,
   duelReducer,
+  duelResults,
   encodeFrame,
+  HOST_ID,
   initialDuel,
+  rankOf,
   splitFrames,
   type DuelEvent,
   type DuelMsg,
   type DuelState,
 } from '@/logic/duel';
-import { buildBlitzQuestions, type GameWord } from '@/logic/games';
+import { buildArtikelQuestions, buildBlitzQuestions, type GameWord } from '@/logic/games';
 
 // ---------- fixtures ----------
 
 const POOL: GameWord[] = Array.from({ length: 12 }, (_, i) => ({
   id: i + 1,
   lemma: `Wort${i + 1}`,
-  gender: 'n',
+  gender: (['m', 'f', 'n'] as const)[i % 3],
   plural: null,
   gloss: `word${i + 1}`,
 }));
 const QUESTIONS = buildBlitzQuestions(POOL, 42);
 
-/** Two reducers cross-wired through their outboxes — a duel without sockets. */
+/**
+ * Host and N guest reducers cross-wired through their outboxes — a whole
+ * room without sockets. Guest map keys double as transport ids, exactly
+ * like the real DuelSocket assigns them.
+ */
 class Sim {
-  host: DuelState = initialDuel('host', 'Anna');
-  guest: DuelState = initialDuel('guest', 'Ben');
+  host: DuelState;
+  guests = new Map<string, DuelState>();
+  private gone = new Set<string>();
 
-  dispatch(side: 'host' | 'guest', ev: DuelEvent) {
-    this[side] = duelReducer(this[side], ev);
+  constructor(game: Parameters<typeof initialDuel>[2] = 'wortblitz') {
+    this.host = initialDuel('host', 'Frau Weber', game);
+    this.dispatchHost({ type: 'hosted' });
+  }
+
+  join(id: string, name: string) {
+    this.guests.set(id, initialDuel('guest', name));
+    this.dispatchGuest(id, { type: 'connected' });
+  }
+
+  guest(id: string): DuelState {
+    const g = this.guests.get(id);
+    if (!g) throw new Error(`no guest ${id}`);
+    return g;
+  }
+
+  dispatchHost(ev: DuelEvent) {
+    this.host = duelReducer(this.host, ev);
     this.pump();
   }
 
-  /** Deliver outbox messages back and forth until both queues drain. */
+  dispatchGuest(id: string, ev: DuelEvent) {
+    this.guests.set(id, duelReducer(this.guest(id), ev));
+    this.pump();
+  }
+
+  /** Guest id's socket dies (crash / wifi drop). */
+  drop(id: string) {
+    this.gone.add(id);
+    this.dispatchHost({ type: 'peerGone', id });
+  }
+
+  /** The host device dies: every guest loses its connection. */
+  dropHost() {
+    for (const id of this.guests.keys()) {
+      if (!this.gone.has(id)) this.dispatchGuest(id, { type: 'peerGone', id: HOST_ID });
+    }
+  }
+
+  /** Deliver outbox messages around the star until every queue drains. */
   private pump() {
-    for (let guard = 0; guard < 100; guard++) {
-      const from: 'host' | 'guest' = this.host.outbox.length ? 'host' : 'guest';
-      const state = this[from];
-      if (!state.outbox.length) return;
-      const [msg, ...restOut] = state.outbox;
-      this[from] = { ...state, outbox: restOut };
-      const to = from === 'host' ? 'guest' : 'host';
-      this[to] = duelReducer(this[to], { type: 'msg', msg });
+    for (let guard = 0; guard < 5000; guard++) {
+      if (this.host.outbox.length) {
+        const [out, ...rest] = this.host.outbox;
+        this.host = { ...this.host, outbox: rest };
+        const targets = out.to != null ? [out.to] : [...this.guests.keys()];
+        for (const id of targets) {
+          if (this.gone.has(id) || id === out.except) continue;
+          const g = this.guests.get(id);
+          if (g) this.guests.set(id, duelReducer(g, { type: 'msg', msg: out.msg }));
+        }
+        continue;
+      }
+      const sender = [...this.guests.entries()].find(
+        ([id, g]) => !this.gone.has(id) && g.outbox.length
+      );
+      if (!sender) return;
+      const [id, g] = sender;
+      const [out, ...rest] = g.outbox;
+      this.guests.set(id, { ...g, outbox: rest });
+      this.host = duelReducer(this.host, { type: 'msg', msg: out.msg, from: id });
+      continue;
     }
     throw new Error('outbox pump did not converge');
   }
+}
 
-  connect() {
-    this.dispatch('host', { type: 'hosted' });
-    this.dispatch('guest', { type: 'connected' });
-  }
+function makeRoom(names: string[] = ['Ben', 'Cem']): Sim {
+  const sim = new Sim();
+  names.forEach((n, i) => sim.join(`g${i + 1}`, n));
+  return sim;
+}
 
-  start() {
-    this.dispatch('host', { type: 'localStart', questions: QUESTIONS, seed: 42, durationMs: 60_000 });
-    this.dispatch('host', { type: 'countdownDone' });
-    this.dispatch('guest', { type: 'countdownDone' });
+function startRound(sim: Sim) {
+  sim.dispatchHost({ type: 'localStart', questions: QUESTIONS, seed: 42, durationMs: 60_000 });
+  sim.dispatchHost({ type: 'countdownDone' });
+  for (const id of sim.guests.keys()) sim.dispatchGuest(id, { type: 'countdownDone' });
+}
+
+function score(sim: Sim, side: string, corrects: number) {
+  for (let i = 0; i < corrects; i++) {
+    if (side === 'host') sim.dispatchHost({ type: 'localAnswer', correct: true });
+    else sim.dispatchGuest(side, { type: 'localAnswer', correct: true });
   }
+}
+
+function finish(sim: Sim, side: string) {
+  if (side === 'host') sim.dispatchHost({ type: 'localFinish' });
+  else sim.dispatchGuest(side, { type: 'localFinish' });
 }
 
 // ---------- framing ----------
 
 describe('framing', () => {
   const ping: DuelMsg = { t: 'ping' };
-  const hello: DuelMsg = { t: 'hello', v: 1, name: 'Anna' };
+  const hello: DuelMsg = { t: 'hello', v: DUEL_PROTOCOL_VERSION, name: 'Anna' };
 
   it('splits multiple frames from one chunk and keeps the remainder', () => {
     const chunk = encodeFrame(ping) + encodeFrame(hello) + '{"t":"po';
@@ -83,141 +153,84 @@ describe('framing', () => {
     const chunk = 'not json\n{"t":"nope"}\n{"x":1}\n' + encodeFrame(ping);
     expect(splitFrames('', chunk).frames).toEqual([ping]);
   });
+
+  it('drops frames with missing or mistyped payload fields', () => {
+    const bad = [
+      '{"t":"hello","v":2}', // no name — would crash uniqueName
+      '{"t":"hello","v":"2","name":"x"}',
+      '{"t":"welcome","v":2,"id":"g1","game":"wortblitz"}', // no players
+      '{"t":"roster","players":[{"id":"h"}]}', // entry missing fields
+      '{"t":"progress","id":"g1","score":"10","correct":1,"total":1,"streak":1}',
+      '{"t":"start","game":"wortblitz","seed":1,"durationMs":1000}', // no questions
+    ].join('\n');
+    expect(splitFrames('', bad + '\n').frames).toEqual([]);
+  });
 });
 
-// ---------- full duels ----------
+// ---------- room assembly ----------
 
-describe('duel session', () => {
-  it('handshake: both sides reach the lobby and learn names', () => {
-    const sim = new Sim();
-    sim.connect();
+describe('room assembly', () => {
+  it('every join spreads the roster to the whole room', () => {
+    const sim = makeRoom(['Ben', 'Cem', 'Dua']);
     expect(sim.host.phase).toBe('lobby');
-    expect(sim.guest.phase).toBe('lobby');
-    expect(sim.host.oppName).toBe('Ben');
-    expect(sim.guest.oppName).toBe('Anna');
-    expect(sim.host.peerConnected).toBe(true);
+    expect(sim.host.peers.map((p) => p.name)).toEqual(['Ben', 'Cem', 'Dua']);
+
+    // Each guest knows the host and all other guests.
+    for (const id of ['g1', 'g2', 'g3']) {
+      const g = sim.guest(id);
+      expect(g.phase).toBe('lobby');
+      expect(g.myId).toBe(id);
+      const names = g.peers.map((p) => p.name).sort();
+      expect(names).toEqual(['Ben', 'Cem', 'Dua', 'Frau Weber'].filter((n) => n !== g.myName).sort());
+      expect(g.peers.find((p) => p.id === HOST_ID)?.name).toBe('Frau Weber');
+    }
   });
 
-  it('start ships identical questions to both sides', () => {
+  it('the welcome tells guests which game the host picked', () => {
+    const sim = new Sim('derdiedas');
+    sim.join('g1', 'Ben');
+    expect(sim.guest('g1').game).toBe('derdiedas');
+  });
+
+  it('deduplicates colliding device names and tells the guest its new name', () => {
+    const sim = makeRoom(['iPhone', 'iPhone']);
+    expect(sim.host.peers.map((p) => p.name)).toEqual(['iPhone', 'iPhone 2']);
+    expect(sim.guest('g2').myName).toBe('iPhone 2');
+  });
+
+  it('a repeated hello from the same socket does not mint a phantom player', () => {
+    const sim = makeRoom(['Ben']);
+    sim.dispatchHost({
+      type: 'msg',
+      msg: { t: 'hello', v: DUEL_PROTOCOL_VERSION, name: 'Ben' },
+      from: 'g1',
+    });
+    expect(sim.host.peers).toHaveLength(1);
+  });
+
+  it('rejects a guest once the room is full', () => {
     const sim = new Sim();
-    sim.connect();
-    sim.start();
-    expect(sim.host.phase).toBe('playing');
-    expect(sim.guest.phase).toBe('playing');
-    // Guest's copy went through JSON framing semantics — same content.
-    expect(JSON.parse(JSON.stringify(sim.guest.questions))).toEqual(
-      JSON.parse(JSON.stringify(QUESTIONS))
-    );
-    expect(sim.guest.durationMs).toBe(60_000);
+    for (let i = 1; i < DUEL_MAX_PLAYERS; i++) sim.join(`g${i}`, `S${i}`);
+    expect(sim.host.peers).toHaveLength(DUEL_MAX_PLAYERS - 1);
+
+    sim.join('gx', 'Zu spät');
+    expect(sim.guest('gx').phase).toBe('aborted');
+    expect(sim.guest('gx').abortReason).toBe('full');
+    expect(sim.host.peers).toHaveLength(DUEL_MAX_PLAYERS - 1);
   });
 
-  it('progress flows live and outcomes are symmetric (host wins)', () => {
-    const sim = new Sim();
-    sim.connect();
-    sim.start();
-
-    sim.dispatch('host', { type: 'localAnswer', correct: true });
-    sim.dispatch('host', { type: 'localAnswer', correct: true });
-    expect(sim.guest.opp.score).toBe(sim.host.me.score);
-    expect(sim.guest.opp.total).toBe(2);
-
-    sim.dispatch('guest', { type: 'localAnswer', correct: true });
-    sim.dispatch('guest', { type: 'localAnswer', correct: false });
-    expect(sim.host.opp.total).toBe(2);
-
-    sim.dispatch('host', { type: 'localFinish' });
-    expect(sim.host.phase).toBe('playing'); // waiting for guest
-    expect(sim.guest.opp.finished).toBe(true);
-
-    sim.dispatch('guest', { type: 'localFinish' });
-    expect(sim.host.phase).toBe('done');
-    expect(sim.guest.phase).toBe('done');
-    expect(sim.host.outcome).toBe('win');
-    expect(sim.guest.outcome).toBe('lose');
-  });
-
-  it('equal scores end in a tie on both sides', () => {
-    const sim = new Sim();
-    sim.connect();
-    sim.start();
-    sim.dispatch('host', { type: 'localAnswer', correct: true });
-    sim.dispatch('guest', { type: 'localAnswer', correct: true });
-    sim.dispatch('host', { type: 'localFinish' });
-    sim.dispatch('guest', { type: 'localFinish' });
-    expect(sim.host.outcome).toBe('tie');
-    expect(sim.guest.outcome).toBe('tie');
-  });
-
-  it('streak bonus applies to duel scoring like solo', () => {
-    const sim = new Sim();
-    sim.connect();
-    sim.start();
-    for (let i = 0; i < 3; i++) sim.dispatch('host', { type: 'localAnswer', correct: true });
-    // 10 + (10+2) + (10+4) = 36
-    expect(sim.host.me.score).toBe(36);
-    expect(sim.host.me.bestStreak).toBe(3);
-  });
-});
-
-// ---------- disconnects & rejects ----------
-
-describe('disconnects and rejects', () => {
-  it('peer vanishing mid-play is a forfeit win', () => {
-    const sim = new Sim();
-    sim.connect();
-    sim.start();
-    sim.dispatch('host', { type: 'localAnswer', correct: true });
-    sim.dispatch('host', { type: 'peerGone' });
-    expect(sim.host.phase).toBe('done');
-    expect(sim.host.outcome).toBe('forfeitWin');
-    expect(sim.host.peerConnected).toBe(false);
-  });
-
-  it('peer vanishing after their finish keeps the normal comparison', () => {
-    const sim = new Sim();
-    sim.connect();
-    sim.start();
-    sim.dispatch('guest', { type: 'localAnswer', correct: true });
-    sim.dispatch('guest', { type: 'localFinish' });
-    sim.dispatch('host', { type: 'peerGone' }); // guest app died after finishing
-    expect(sim.host.phase).toBe('playing'); // host keeps playing
-    sim.dispatch('host', { type: 'localFinish' });
-    expect(sim.host.outcome).toBe('lose'); // 0 vs 10
-  });
-
-  it('guest leaving the lobby returns the host to waiting', () => {
-    const sim = new Sim();
-    sim.connect();
-    sim.dispatch('host', { type: 'peerGone' });
-    expect(sim.host.phase).toBe('waiting');
-    expect(sim.host.oppName).toBeNull();
-  });
-
-  it('host leaving the lobby aborts the guest', () => {
-    const sim = new Sim();
-    sim.connect();
-    sim.dispatch('guest', { type: 'peerGone' });
-    expect(sim.guest.phase).toBe('aborted');
-    expect(sim.guest.abortReason).toBe('peerLeft');
-  });
-
-  it('guest that never connects aborts with a network reason', () => {
-    let guest = initialDuel('guest', 'Ben');
-    guest = duelReducer(guest, { type: 'connected' });
-    guest = duelReducer(guest, { type: 'peerGone' });
-    expect(guest.phase).toBe('aborted');
-    expect(guest.abortReason).toBe('network');
-  });
-
-  it('version mismatch: host rejects, guest aborts', () => {
+  it('version mismatch: host rejects (and cuts the socket), guest aborts', () => {
     let host = initialDuel('host', 'Anna');
     host = duelReducer(host, { type: 'hosted' });
     host = duelReducer(host, {
       type: 'msg',
       msg: { t: 'hello', v: DUEL_PROTOCOL_VERSION + 1, name: 'Ben' },
+      from: 'g1',
     });
     expect(host.phase).toBe('waiting');
-    expect(host.outbox).toEqual([{ t: 'reject', reason: 'version' }]);
+    expect(host.outbox).toEqual([
+      { msg: { t: 'reject', reason: 'version' }, to: 'g1', close: true },
+    ]);
 
     let guest = initialDuel('guest', 'Ben');
     guest = duelReducer(guest, { type: 'connected' });
@@ -226,61 +239,272 @@ describe('disconnects and rejects', () => {
     expect(guest.abortReason).toBe('version');
   });
 
-  it('busy reject aborts the second guest', () => {
-    let guest = initialDuel('guest', 'Cem');
-    guest = duelReducer(guest, { type: 'connected' });
-    guest = duelReducer(guest, { type: 'msg', msg: { t: 'reject', reason: 'busy' } });
-    expect(guest.phase).toBe('aborted');
-    expect(guest.abortReason).toBe('busy');
+  it('a guest-forged reject cannot abort the host', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    sim.dispatchHost({ type: 'msg', msg: { t: 'reject', reason: 'busy' }, from: 'g1' });
+    expect(sim.host.phase).toBe('lobby');
   });
 
-  it('bye behaves like peerGone', () => {
-    const sim = new Sim();
-    sim.connect();
-    sim.start();
-    sim.dispatch('host', { type: 'msg', msg: { t: 'bye' } });
+  it('joining mid-round is rejected as busy', () => {
+    const sim = makeRoom(['Ben']);
+    startRound(sim);
+    sim.join('g9', 'Zu spät');
+    expect(sim.guest('g9').phase).toBe('aborted');
+    expect(sim.guest('g9').abortReason).toBe('busy');
+  });
+});
+
+// ---------- rounds ----------
+
+describe('round play', () => {
+  it('start ships identical questions to every guest', () => {
+    const sim = makeRoom(['Ben', 'Cem', 'Dua']);
+    startRound(sim);
+    expect(sim.host.phase).toBe('playing');
+    for (const id of ['g1', 'g2', 'g3']) {
+      const g = sim.guest(id);
+      expect(g.phase).toBe('playing');
+      expect(JSON.parse(JSON.stringify(g.questions))).toEqual(JSON.parse(JSON.stringify(QUESTIONS)));
+      expect(g.durationMs).toBe(60_000);
+    }
+  });
+
+  it('the game key travels with the start message', () => {
+    const sim = new Sim('derdiedas');
+    sim.join('g1', 'Ben');
+    const artikel = buildArtikelQuestions(POOL, 7);
+    sim.dispatchHost({ type: 'localStart', questions: artikel, seed: 7, durationMs: 60_000 });
+    expect(sim.guest('g1').game).toBe('derdiedas');
+    expect(sim.guest('g1').questions[0].options).toEqual(['der', 'die', 'das']);
+  });
+
+  it('progress is relayed live to every other player', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    startRound(sim);
+    score(sim, 'g1', 2);
+    const benScore = sim.guest('g1').me.score;
+    expect(sim.host.peers.find((p) => p.id === 'g1')?.score).toBe(benScore);
+    expect(sim.guest('g2').peers.find((p) => p.id === 'g1')?.score).toBe(benScore);
+    expect(sim.guest('g2').peers.find((p) => p.id === 'g1')?.total).toBe(2);
+
+    score(sim, 'host', 1);
+    expect(sim.guest('g1').peers.find((p) => p.id === HOST_ID)?.score).toBe(10);
+  });
+
+  it('the host stamps the sender id on relays, so ids cannot be spoofed', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    startRound(sim);
+    // g1 claims to be g2:
+    sim.dispatchGuest('g1', { type: 'localAnswer', correct: true });
+    const forged: DuelMsg = { t: 'progress', id: 'g2', score: 999, correct: 9, total: 9, streak: 9 };
+    sim.dispatchHost({ type: 'msg', msg: forged, from: 'g1' });
+    expect(sim.host.peers.find((p) => p.id === 'g2')?.score).toBe(0);
+    expect(sim.host.peers.find((p) => p.id === 'g1')?.score).toBe(999);
+    expect(sim.guest('g2').peers.find((p) => p.id === 'g1')?.score).toBe(999);
+  });
+
+  it('three players finish into a consistent ranking on every device', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    startRound(sim);
+    score(sim, 'host', 3); // 36
+    score(sim, 'g1', 2); // 22
+    score(sim, 'g2', 1); // 10
+
+    finish(sim, 'host');
+    expect(sim.host.phase).toBe('playing'); // others still going
+    finish(sim, 'g1');
+    finish(sim, 'g2');
+
+    expect(sim.host.phase).toBe('done');
+    expect(sim.host.outcome).toBe('win');
+    expect(sim.guest('g1').outcome).toBe('lose');
+    expect(sim.guest('g2').outcome).toBe('lose');
+
+    // Same top-to-bottom order everywhere, correct ranks for each viewer.
+    expect(duelResults(sim.host).map((r) => r.name)).toEqual(['Frau Weber', 'Ben', 'Cem']);
+    expect(duelResults(sim.guest('g2')).map((r) => r.name)).toEqual(['Frau Weber', 'Ben', 'Cem']);
+    expect(duelRank(duelResults(sim.guest('g1')))).toEqual({ rank: 2, of: 3 });
+    expect(duelRank(duelResults(sim.guest('g2')))).toEqual({ rank: 3, of: 3 });
+  });
+
+  it('equal top scores end in a tie and share the top rank', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    startRound(sim);
+    score(sim, 'host', 1);
+    score(sim, 'g1', 1);
+    finish(sim, 'host');
+    finish(sim, 'g1');
+    finish(sim, 'g2');
+    expect(sim.host.outcome).toBe('tie');
+    expect(sim.guest('g1').outcome).toBe('tie');
+    expect(sim.guest('g2').outcome).toBe('lose');
+
+    const rows = duelResults(sim.guest('g2'));
+    expect(rows.map((r) => rankOf(rows, r))).toEqual([1, 1, 3]);
+  });
+
+  it('streak bonus applies to duel scoring like solo', () => {
+    const sim = makeRoom(['Ben']);
+    startRound(sim);
+    score(sim, 'host', 3);
+    // 10 + (10+2) + (10+4) = 36
+    expect(sim.host.me.score).toBe(36);
+    expect(sim.host.me.bestStreak).toBe(3);
+  });
+});
+
+// ---------- disconnects ----------
+
+describe('disconnects', () => {
+  it('everyone else vanishing mid-play is a forfeit win', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    startRound(sim);
+    score(sim, 'host', 1);
+    sim.drop('g1');
+    expect(sim.host.phase).toBe('playing'); // Cem is still in
+    sim.drop('g2');
+    expect(sim.host.phase).toBe('done');
+    expect(sim.host.outcome).toBe('forfeitWin');
+  });
+
+  it('a player who finished then left stays in the ranking', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    startRound(sim);
+    score(sim, 'g1', 2);
+    finish(sim, 'g1');
+    sim.drop('g1'); // Ben's app died after posting his score
+
+    finish(sim, 'host');
+    finish(sim, 'g2');
+    expect(sim.host.phase).toBe('done');
+    expect(sim.host.outcome).toBe('lose'); // 0 vs Ben's 22
+    // Host and Cem are tied at 0 — ties fall back to alphabetical order.
+    expect(duelResults(sim.guest('g2')).map((r) => r.name)).toEqual(['Ben', 'Cem', 'Frau Weber']);
+  });
+
+  it('an unfinished dropout unblocks the round for everyone', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    startRound(sim);
+    finish(sim, 'host');
+    finish(sim, 'g1');
+    expect(sim.host.phase).toBe('playing'); // waiting for Cem
+    sim.drop('g2');
+    expect(sim.host.phase).toBe('done');
+    expect(sim.guest('g1').phase).toBe('done');
+    // Cem never finished — he is not ranked.
+    expect(duelResults(sim.host)).toHaveLength(2);
+  });
+
+  it('lobby leaves shrink the roster everywhere; an empty room waits again', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    sim.drop('g1');
+    expect(sim.host.phase).toBe('lobby');
+    expect(sim.host.peers.map((p) => p.name)).toEqual(['Cem']);
+    expect(sim.guest('g2').peers.map((p) => p.name)).toEqual(['Frau Weber']);
+    sim.drop('g2');
+    expect(sim.host.phase).toBe('waiting');
+  });
+
+  it('host leaving the lobby aborts the guests', () => {
+    const sim = makeRoom(['Ben']);
+    sim.dropHost();
+    expect(sim.guest('g1').phase).toBe('aborted');
+    expect(sim.guest('g1').abortReason).toBe('peerLeft');
+  });
+
+  it('host dying mid-round before anyone finished is a forfeit win for guests', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    startRound(sim);
+    sim.dropHost();
+    expect(sim.guest('g1').phase).toBe('done');
+    expect(sim.guest('g1').outcome).toBe('forfeitWin');
+  });
+
+  it('host dying after a rival finished keeps the comparison', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
+    startRound(sim);
+    score(sim, 'g2', 1);
+    finish(sim, 'g2'); // relayed to Ben before the host goes down
+    sim.dropHost();
+    expect(sim.guest('g1').phase).toBe('playing'); // still playing vs Cem's 10
+    sim.dispatchGuest('g1', { type: 'localFinish' });
+    expect(sim.guest('g1').phase).toBe('done');
+    expect(sim.guest('g1').outcome).toBe('lose'); // 0 vs 10
+  });
+
+  it('a guest that never connects aborts with a network reason', () => {
+    let guest = initialDuel('guest', 'Ben');
+    guest = duelReducer(guest, { type: 'connected' });
+    guest = duelReducer(guest, { type: 'peerGone', id: HOST_ID });
+    expect(guest.phase).toBe('aborted');
+    expect(guest.abortReason).toBe('network');
+  });
+
+  it('bye behaves like the socket dying', () => {
+    const sim = makeRoom(['Ben']);
+    startRound(sim);
+    sim.dispatchHost({ type: 'msg', msg: { t: 'bye' }, from: 'g1' });
     expect(sim.host.outcome).toBe('forfeitWin');
   });
 });
 
-// ---------- rematch ----------
+// ---------- next rounds & late joiners ----------
 
-describe('rematch', () => {
+describe('next round', () => {
   function playToDone(sim: Sim) {
-    sim.connect();
-    sim.start();
-    sim.dispatch('host', { type: 'localAnswer', correct: true });
-    sim.dispatch('host', { type: 'localFinish' });
-    sim.dispatch('guest', { type: 'localFinish' });
+    startRound(sim);
+    score(sim, 'host', 1);
+    finish(sim, 'host');
+    for (const id of sim.guests.keys()) finish(sim, id);
   }
 
-  it('both agreeing resets scores and returns both to the lobby', () => {
-    const sim = new Sim();
+  it('host relaunches from the results screen; scores reset everywhere', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
     playToDone(sim);
-    sim.dispatch('guest', { type: 'localRematch' });
-    expect(sim.host.rematch.opp).toBe(true);
-    expect(sim.host.phase).toBe('done'); // host has not agreed yet
+    expect(sim.host.phase).toBe('done');
 
-    sim.dispatch('host', { type: 'localRematch' });
-    expect(sim.host.phase).toBe('lobby');
-    expect(sim.guest.phase).toBe('lobby');
+    const q2 = buildBlitzQuestions(POOL, 99);
+    sim.dispatchHost({ type: 'localStart', questions: q2, seed: 99, durationMs: 60_000 });
+    expect(sim.host.phase).toBe('countdown');
     expect(sim.host.me.score).toBe(0);
     expect(sim.host.outcome).toBeNull();
-
-    // Host kicks off round two with fresh questions.
-    const q2 = buildBlitzQuestions(POOL, 99);
-    sim.dispatch('host', { type: 'localStart', questions: q2, seed: 99, durationMs: 60_000 });
-    expect(sim.host.phase).toBe('countdown');
-    expect(sim.guest.phase).toBe('countdown');
-    expect(sim.guest.seed).toBe(99);
+    for (const id of ['g1', 'g2']) {
+      expect(sim.guest(id).phase).toBe('countdown');
+      expect(sim.guest(id).seed).toBe(99);
+      expect(sim.guest(id).me.score).toBe(0);
+      expect(sim.guest(id).peers.every((p) => p.score === 0 && !p.finished)).toBe(true);
+    }
   });
 
-  it('rematch is refused once the peer is gone', () => {
-    const sim = new Sim();
+  it('players who left between rounds are not carried into the next one', () => {
+    const sim = makeRoom(['Ben', 'Cem']);
     playToDone(sim);
-    sim.dispatch('host', { type: 'peerGone' });
-    sim.dispatch('host', { type: 'localRematch' });
-    expect(sim.host.rematch.me).toBe(false);
+    sim.drop('g1');
+    sim.dispatchHost({ type: 'localStart', questions: QUESTIONS, seed: 7, durationMs: 60_000 });
+    expect(sim.host.peers.map((p) => p.name)).toEqual(['Cem']);
+    expect(sim.guest('g2').peers.map((p) => p.name)).toEqual(['Frau Weber']);
+  });
+
+  it('a latecomer can join at the results screen and plays the next round', () => {
+    const sim = makeRoom(['Ben']);
+    playToDone(sim);
+
+    sim.join('g2', 'Cem');
+    expect(sim.guest('g2').phase).toBe('lobby');
+    expect(sim.host.phase).toBe('done'); // results stay up for the host
+    expect(sim.host.peers.map((p) => p.name)).toEqual(['Ben', 'Cem']);
+
+    sim.dispatchHost({ type: 'localStart', questions: QUESTIONS, seed: 7, durationMs: 60_000 });
+    expect(sim.guest('g2').phase).toBe('countdown');
+    expect(sim.guest('g1').phase).toBe('countdown');
+    expect(sim.guest('g2').peers.map((p) => p.name).sort()).toEqual(['Ben', 'Frau Weber']);
+  });
+
+  it('the host cannot start a round with no one in the room', () => {
+    const sim = makeRoom(['Ben']);
+    playToDone(sim);
+    sim.drop('g1');
+    sim.dispatchHost({ type: 'localStart', questions: QUESTIONS, seed: 7, durationMs: 60_000 });
     expect(sim.host.phase).toBe('done');
   });
 });

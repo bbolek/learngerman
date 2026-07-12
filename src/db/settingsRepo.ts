@@ -12,6 +12,8 @@ export interface PersistedSettings {
   notificationEndHour?: number;
   notificationIntervalMinutes?: number;
   hasSeenTour?: boolean;
+  /** Multiplayer display name; '' falls back to the device name. */
+  userName?: string;
 }
 
 const KEY = 'settings';

@@ -1,15 +1,18 @@
 /**
- * Session store for the WLAN duel: owns the (non-serializable) socket, runs
- * the pure reducer, and flushes each transition's outbox onto the wire.
- * Screens only ever read `duel` and call the actions below.
+ * Session store for the WLAN multiplayer duel: owns the (non-serializable)
+ * socket, runs the pure reducer, and flushes each transition's outbox onto
+ * the wire (broadcast or addressed to a single peer). Screens only ever
+ * read `duel` and call the actions below.
  */
 
 import * as Device from 'expo-device';
+import * as Network from 'expo-network';
 import { AppState, type NativeEventSubscription } from 'react-native';
 import { create } from 'zustand';
 
-import { fetchGameWords } from '@/db/gamesRepo';
+import { fetchGameWords, fetchGenderNouns, fetchImageWords } from '@/db/gamesRepo';
 import {
+  cleanPlayerName,
   duelReducer,
   initialDuel,
   type DuelEvent,
@@ -17,10 +20,18 @@ import {
   type DuelState,
 } from '@/logic/duel';
 import { decodeRoomCode, encodeRoomCode } from '@/logic/duelCode';
-import { buildBlitzQuestions, WORTBLITZ_MS } from '@/logic/games';
+import {
+  buildArtikelQuestions,
+  buildBlitzQuestions,
+  buildImageQuestions,
+  WORTBLITZ_MS,
+  type ChoiceQuestion,
+  type GameKey,
+} from '@/logic/games';
 import { DuelSocket } from '@/net/duelSocket';
+import { useSettings } from '@/store/settings';
 
-export type DuelError = 'noWifi' | 'noPort' | 'invalidCode' | 'connectFailed';
+export type DuelError = 'noWifi' | 'noPort' | 'invalidCode' | 'connectFailed' | 'noWords';
 
 interface DuelSessionState {
   duel: DuelState | null;
@@ -29,9 +40,9 @@ interface DuelSessionState {
   /** Guest connect attempt in flight. */
   connecting: boolean;
   error: DuelError | null;
-  hostGame: () => Promise<void>;
+  hostGame: (game: GameKey) => Promise<void>;
   joinGame: (code: string) => Promise<void>;
-  /** Host builds a fresh round and starts it (initial start and rematch). */
+  /** Host builds a fresh round and starts it (from the lobby or the results screen). */
   startRound: () => Promise<void>;
   dispatch: (ev: DuelEvent) => void;
   clearError: () => void;
@@ -42,9 +53,26 @@ interface DuelSessionState {
 let socket: DuelSocket | null = null;
 let appStateSub: NativeEventSubscription | null = null;
 
+/** Custom name from settings, device name as fallback. */
 function playerName(): string {
-  const name = Device.deviceName?.trim();
-  return name ? name.slice(0, 24) : 'Spieler';
+  return (
+    cleanPlayerName(useSettings.getState().userName) ||
+    cleanPlayerName(Device.deviceName ?? '') ||
+    'Spieler'
+  );
+}
+
+/** Same word pool sizes as the solo games; the host ships these to everyone. */
+async function buildQuestions(game: GameKey, seed: number): Promise<ChoiceQuestion[]> {
+  switch (game) {
+    case 'derdiedas':
+      return buildArtikelQuestions(await fetchGenderNouns(90), seed);
+    case 'bilderraetsel':
+      // Smaller pool: every question carries its SVG over the wire.
+      return buildImageQuestions(await fetchImageWords(60), seed);
+    default:
+      return buildBlitzQuestions(await fetchGameWords(90), seed);
+  }
 }
 
 export const useDuel = create<DuelSessionState>((set, get) => {
@@ -52,14 +80,24 @@ export const useDuel = create<DuelSessionState>((set, get) => {
     const duel = get().duel;
     if (!duel) return;
     const next = duelReducer(duel, ev);
-    for (const msg of next.outbox) socket?.send(msg);
+    for (const out of next.outbox) {
+      socket?.send(out.msg, out.to, out.except);
+      if (out.close && out.to != null) socket?.dropPeer(out.to);
+    }
     set({ duel: { ...next, outbox: [] } });
   };
 
+  const abortSession = () => {
+    // Deliberate local teardown: close() broadcasts bye so the room moves on.
+    socket?.close();
+    socket = null;
+    dispatch({ type: 'localAbort' });
+  };
+
   const callbacks = {
-    onMessage: (msg: DuelMsg) => dispatch({ type: 'msg', msg }),
-    onPeerConnected: () => {}, // host learns about the guest via its `hello`
-    onClosed: () => dispatch({ type: 'peerGone' }),
+    onMessage: (msg: DuelMsg, from: string) => dispatch({ type: 'msg', msg, from }),
+    onPeerGone: (id: string) => dispatch({ type: 'peerGone', id }),
+    onServerDown: abortSession,
   };
 
   const watchAppState = () => {
@@ -67,11 +105,9 @@ export const useDuel = create<DuelSessionState>((set, get) => {
     appStateSub = AppState.addEventListener('change', (status) => {
       const phase = get().duel?.phase;
       if (status !== 'active' && (phase === 'countdown' || phase === 'playing')) {
-        // iOS suspends sockets in the background anyway — forfeit explicitly
-        // so the opponent gets a clean `bye` instead of a heartbeat timeout.
-        socket?.close();
-        socket = null;
-        dispatch({ type: 'localAbort' });
+        // iOS suspends sockets in the background anyway — leave explicitly
+        // so the room gets a clean `bye` instead of a heartbeat timeout.
+        abortSession();
       }
     });
   };
@@ -91,9 +127,9 @@ export const useDuel = create<DuelSessionState>((set, get) => {
     dispatch,
     clearError: () => set({ error: null }),
 
-    hostGame: async () => {
+    hostGame: async (game: GameKey) => {
       teardown();
-      set({ duel: initialDuel('host', playerName()), roomCode: null, error: null });
+      set({ duel: initialDuel('host', playerName(), game), roomCode: null, error: null });
       try {
         const { socket: s, info } = await DuelSocket.host(callbacks);
         socket = s;
@@ -109,7 +145,14 @@ export const useDuel = create<DuelSessionState>((set, get) => {
     },
 
     joinGame: async (code: string) => {
-      const target = decodeRoomCode(code);
+      // The 4-character code only carries the host's last IP octet — our own
+      // address supplies the shared WLAN subnet.
+      const myIp = await Network.getIpAddressAsync().catch(() => null);
+      if (!myIp || myIp === '0.0.0.0') {
+        set({ error: 'noWifi' });
+        return;
+      }
+      const target = decodeRoomCode(code, myIp);
       if (!target) {
         set({ error: 'invalidCode' });
         return;
@@ -128,15 +171,15 @@ export const useDuel = create<DuelSessionState>((set, get) => {
 
     startRound: async () => {
       const duel = get().duel;
-      if (!duel || duel.role !== 'host' || duel.phase !== 'lobby') return;
-      const pool = await fetchGameWords(90);
+      if (!duel || duel.role !== 'host' || (duel.phase !== 'lobby' && duel.phase !== 'done')) return;
       const seed = Date.now() & 0x7fffffff;
-      dispatch({
-        type: 'localStart',
-        questions: buildBlitzQuestions(pool, seed),
-        seed,
-        durationMs: WORTBLITZ_MS,
-      });
+      const questions = await buildQuestions(duel.game, seed);
+      if (questions.length === 0) {
+        // e.g. Bilderrätsel on a content version without images
+        set({ error: 'noWords' });
+        return;
+      }
+      dispatch({ type: 'localStart', questions, seed, durationMs: WORTBLITZ_MS });
     },
 
     leave: () => {

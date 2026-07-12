@@ -1,6 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
+import * as Device from 'expo-device';
 import { router } from 'expo-router';
-import { Pressable, StyleSheet, Switch, View } from 'react-native';
+import { Pressable, StyleSheet, Switch, TextInput, View } from 'react-native';
 
 import { useSettings, type ThemePreference } from '@/store/settings';
 import { useTourStore } from '@/tour/tourStore';
@@ -77,6 +78,22 @@ export default function SettingsScreen() {
             );
           })}
         </View>
+      </Card>
+
+      <Card style={styles.section}>
+        <AppText variant="subtitle">Spielername</AppText>
+        <AppText variant="caption" muted style={{ marginTop: 2 }}>
+          So sehen dich andere im Multiplayer-Duell. Leer lassen, um den Gerätenamen zu verwenden.
+        </AppText>
+        <TextInput
+          value={settings.userName}
+          onChangeText={settings.setUserName}
+          maxLength={24}
+          autoCorrect={false}
+          placeholder={Device.deviceName?.trim() || 'Spieler'}
+          placeholderTextColor={t.inkFaint}
+          style={[styles.nameInput, { backgroundColor: t.surface, borderColor: t.line, color: t.ink }]}
+        />
       </Card>
 
       <Card style={styles.section}>
@@ -339,6 +356,14 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     paddingHorizontal: spacing.md,
     paddingVertical: 9,
+    marginTop: spacing.md,
+  },
+  nameInput: {
+    borderWidth: 1.5,
+    borderRadius: 11,
+    paddingHorizontal: spacing.md,
+    paddingVertical: 10,
+    fontSize: 16,
     marginTop: spacing.md,
   },
   segmentRow: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.md },

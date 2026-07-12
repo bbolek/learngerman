@@ -182,6 +182,21 @@ export function withArticle(w: { lemma: string; gender: string | null }): string
   return article ? `${article} ${w.lemma}` : w.lemma;
 }
 
+/**
+ * Noun → pick der/die/das. Options are fixed, only the word order is seeded
+ * — used by the multiplayer duel, where every device needs the same round.
+ */
+export const ARTIKEL_OPTIONS = ['der', 'die', 'das'];
+
+export function buildArtikelQuestions(pool: GameWord[], seed: number): ChoiceQuestion[] {
+  const nouns = pool.filter((w) => w.gender === 'm' || w.gender === 'f' || w.gender === 'n');
+  return shuffled(nouns, seed).map((word) => ({
+    word,
+    options: ARTIKEL_OPTIONS,
+    correctIndex: ARTIKEL_OPTIONS.indexOf(articleFor(word.gender)!),
+  }));
+}
+
 /** Picture → pick the German noun (with article). */
 export function buildImageQuestions(pool: ImageWord[], seed: number): ChoiceQuestion<ImageWord>[] {
   const seen = new Set<string>();

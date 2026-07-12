@@ -22,9 +22,20 @@ import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
-/** Words already seen a few times get the tougher "type it in context" card. */
-const CLOZE_MIN_REPS = 2;
+/** Words already seen a few times get the tougher "type it" recall card. */
+const TYPED_MIN_REPS = 2;
 const UMLAUTS = ['ä', 'ö', 'ü', 'ß'] as const;
+
+/** A typed recall challenge: fill the blank in a sentence, or produce the word. */
+interface TypeChallenge {
+  kind: 'cloze' | 'word';
+  /** cloze: the masked sentence; word: the English gloss to translate. */
+  prompt: string;
+  /** cloze: the English translation as a hint; word: none. */
+  hint: string | null;
+  /** The accepted answer (surface form for cloze, lemma for word). */
+  answer: string;
+}
 
 interface SessionStats {
   again: number;
@@ -36,7 +47,7 @@ interface SessionStats {
 export default function ReviewScreen() {
   const t = useTheme();
   const insets = useSafeAreaInsets();
-  const { sessionCap, dailyNewLimit, hapticsEnabled } = useSettings();
+  const { sessionCap, dailyNewLimit, hapticsEnabled, typedRecall } = useSettings();
 
   const [queue, setQueue] = useState<ReviewCard[] | null>(null);
   const [index, setIndex] = useState(0);
@@ -63,10 +74,16 @@ export default function ReviewScreen() {
   const card = queue?.[index];
   const now = useMemo(() => new Date(), [index]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // A familiar word with a usable example becomes a cloze ("type it in
-  // context") card; everything else stays a recall flip card.
-  const cloze = card && card.reps >= CLOZE_MIN_REPS ? clozes.get(card.lemma_id) ?? null : null;
-  const revealed = cloze ? answered != null : flipped;
+  // A familiar word (when typed recall is on) becomes a typed challenge: a
+  // cloze if it has a usable example, otherwise "type the German word".
+  // Everything else stays a recall flip card.
+  const challenge = useMemo<TypeChallenge | null>(() => {
+    if (!card || !typedRecall || card.reps < TYPED_MIN_REPS) return null;
+    const cloze = clozes.get(card.lemma_id);
+    if (cloze) return { kind: 'cloze', prompt: cloze.masked, hint: card.example_en, answer: cloze.answer };
+    return { kind: 'word', prompt: card.gloss, hint: null, answer: card.lemma };
+  }, [card, typedRecall, clozes]);
+  const revealed = challenge ? answered != null : flipped;
 
   const rate = async (rating: Rating) => {
     if (!card || !queue) return;
@@ -164,11 +181,11 @@ export default function ReviewScreen() {
       </View>
 
       <View style={styles.cardArea}>
-        {cloze ? (
-          <ClozeCard
+        {challenge ? (
+          <TypeCard
             key={card.lemma_id}
             card={card}
-            cloze={cloze}
+            challenge={challenge}
             image={images.get(card.lemma_id) ?? null}
             answered={answered}
             onCheck={onCloze}
@@ -248,7 +265,7 @@ export default function ReviewScreen() {
           <RateButton bg={t.accentDim} fg={t.onAccentDim} label="Gut" sub={previewInterval(cardState, 2, now)} onPress={() => rate(2)} />
           <RateButton bg={t.successDim} fg={t.onSuccessDim} label="Einfach" sub={previewInterval(cardState, 3, now)} onPress={() => rate(3)} />
         </View>
-      ) : cloze ? null : (
+      ) : challenge ? null : (
         <View style={[styles.tapHint, { borderColor: t.line, marginBottom: insets.bottom + spacing.md }]}>
           <AppText variant="secondary" muted>
             Tippen zum Umdrehen
@@ -274,53 +291,62 @@ function CardChips({ card }: { card: ReviewCard }) {
   );
 }
 
-function ClozeCard({
+function TypeCard({
   card,
-  cloze,
+  challenge,
   image,
   answered,
   onCheck,
 }: {
   card: ReviewCard;
-  cloze: Cloze;
+  challenge: TypeChallenge;
   image: string | null;
   answered: FillResult | null;
   onCheck: (result: FillResult) => void;
 }) {
   const t = useTheme();
   const [text, setText] = useState('');
-  const [before, after] = cloze.masked.split(CLOZE_BLANK);
   const locked = answered != null;
 
   const check = () => {
     if (locked || !text.trim()) return;
-    onCheck(gradeFillBlank({ prompt: '', accept: [cloze.answer], explanation: '' }, text));
+    onCheck(gradeFillBlank({ prompt: '', accept: [challenge.answer], explanation: '' }, text));
   };
 
   const answerColor = answered?.correct ? t.success : t.danger;
+  const [before, after] =
+    challenge.kind === 'cloze' ? challenge.prompt.split(CLOZE_BLANK) : ['', ''];
 
   return (
     <Card style={styles.clozeCard}>
       <CardChips card={card} />
       <AppText variant="label" muted style={{ marginTop: spacing.xxl }}>
-        Lückentext · welches Wort fehlt?
+        {challenge.kind === 'cloze' ? 'Lückentext · welches Wort fehlt?' : 'Übersetze ins Deutsche'}
       </AppText>
-      <AppText variant="section" style={{ marginTop: spacing.md, lineHeight: 36 }}>
-        {before}
-        {locked ? (
-          <AppText variant="section" color={answerColor} style={{ fontFamily: fonts.extrabold }}>
-            {cloze.answer}
-          </AppText>
-        ) : (
-          <AppText variant="section" color={t.inkFaint} style={{ fontFamily: fonts.extrabold }}>
-            {CLOZE_BLANK}
-          </AppText>
-        )}
-        {after}
-      </AppText>
-      {card.example_en && (
+
+      {challenge.kind === 'cloze' ? (
+        <AppText variant="section" style={{ marginTop: spacing.md, lineHeight: 36 }}>
+          {before}
+          {locked ? (
+            <AppText variant="section" color={answerColor} style={{ fontFamily: fonts.extrabold }}>
+              {challenge.answer}
+            </AppText>
+          ) : (
+            <AppText variant="section" color={t.inkFaint} style={{ fontFamily: fonts.extrabold }}>
+              {CLOZE_BLANK}
+            </AppText>
+          )}
+          {after}
+        </AppText>
+      ) : (
+        <AppText variant="headword" style={{ marginTop: spacing.md, fontSize: 26 }}>
+          {challenge.prompt}
+        </AppText>
+      )}
+
+      {challenge.hint && (
         <AppText variant="secondary" muted style={{ marginTop: spacing.sm }}>
-          {card.example_en}
+          {challenge.hint}
         </AppText>
       )}
 
@@ -331,7 +357,7 @@ function ClozeCard({
               ? answered!.nearMiss
                 ? '✓ Fast — achte auf die Umlaute'
                 : '✓ Richtig!'
-              : `✗ Richtig wäre „${cloze.answer}“`}
+              : `✗ Richtig wäre „${challenge.answer}“`}
           </AppText>
           <View style={[styles.rule, { backgroundColor: t.primary }]} />
           {image && <VocabImage svg={image} gender={card.gender} size={56} style={{ marginBottom: spacing.sm }} />}

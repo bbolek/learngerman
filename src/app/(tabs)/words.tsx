@@ -114,6 +114,7 @@ function WordRow({
           </AppText>
         </View>
         <View style={styles.chips}>
+          {word.source === 'mistake' && <Chip label="🎮" kind="neutral" small />}
           <GenderChip gender={word.gender} small />
           <Chip label={srsChip.label} kind={srsChip.kind} small />
         </View>

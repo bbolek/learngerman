@@ -7,6 +7,7 @@ export interface SavedWordRow {
   level: string;
   gloss: string;
   saved_at: string;
+  source: string;
   reps: number | null;
   due_at: string | null;
   lapses: number | null;
@@ -52,7 +53,7 @@ export async function unsaveWord(lemmaId: number): Promise<void> {
 
 export async function listSavedWords(): Promise<SavedWordRow[]> {
   return getDb().getAllAsync<SavedWordRow>(
-    `SELECT w.lemma_id, l.lemma, l.gender, l.level, w.saved_at,
+    `SELECT w.lemma_id, l.lemma, l.gender, l.level, w.saved_at, w.source,
             s.reps, s.due_at, s.lapses,
             (SELECT en FROM senses WHERE lemma_id = l.id ORDER BY sense_order LIMIT 1) AS gloss
      FROM user_saved_words w

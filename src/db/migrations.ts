@@ -73,6 +73,13 @@ export const MIGRATIONS: string[] = [
 
   ALTER TABLE daily_activity ADD COLUMN games_played INTEGER NOT NULL DEFAULT 0;
   `,
+  // v4 — where a saved card came from, so words auto-enrolled from a game/duel
+  // miss ('mistake') can be told apart from ones the user saved ('manual').
+  // A plain column (not a new table) rides through content swaps untouched:
+  // applyContentUpdate only rewrites lemma_id in place, never other columns.
+  `
+  ALTER TABLE user_saved_words ADD COLUMN source TEXT NOT NULL DEFAULT 'manual';
+  `,
 ];
 
 export async function runMigrations(db: SQLiteDatabase): Promise<void> {

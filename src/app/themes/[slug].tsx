@@ -4,7 +4,7 @@ import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { getLemmaImages } from '@/db/dictionaryRepo';
-import { enrollThemeWords, getTheme, themeWords, type ThemeWordRow } from '@/db/themesRepo';
+import { getTheme, themeWords, type ThemeWordRow } from '@/db/themesRepo';
 import { useThemeFilter } from '@/store/themeFilter';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -23,7 +23,6 @@ export default function ThemeDetailScreen() {
 
   const [rows, setRows] = useState<ThemeWordRow[] | null>(null);
   const [images, setImages] = useState<Map<number, string>>(new Map());
-  const [busy, setBusy] = useState(false);
   const levels = useThemeFilter((s) => s.levels);
   const selectedLevels = new Set<string>(levels);
 
@@ -55,15 +54,6 @@ export default function ThemeDetailScreen() {
   const visibleRows = rows?.filter((r) => selectedLevels.has(r.level)) ?? null;
   const learned = visibleRows?.filter((r) => r.saved).length ?? 0;
   const total = visibleRows?.length ?? 0;
-  const unsaved = visibleRows?.filter((r) => !r.saved).map((r) => r.lemma_id) ?? [];
-
-  const enroll = async () => {
-    if (busy || unsaved.length === 0) return;
-    setBusy(true);
-    await enrollThemeWords(unsaved, new Date());
-    setBusy(false);
-    reload();
-  };
 
   return (
     <Screen>
@@ -94,17 +84,7 @@ export default function ThemeDetailScreen() {
             Keine Wörter in dieser Stufe
           </AppText>
         </View>
-      ) : unsaved.length > 0 ? (
-        <Pressable
-          onPress={enroll}
-          disabled={busy}
-          style={[styles.cta, { backgroundColor: busy ? t.primaryDim : t.primary }]}>
-          <Ionicons name="add-circle" size={20} color="#fff" />
-          <AppText variant="subtitle" color="#fff">
-            {busy ? 'Wird hinzugefügt…' : `${unsaved.length} Wörter lernen`}
-          </AppText>
-        </Pressable>
-      ) : visibleRows ? (
+      ) : visibleRows && learned === total ? (
         <View style={[styles.cta, { backgroundColor: t.accentDim }]}>
           <Ionicons name="checkmark-circle" size={20} color={t.onAccentDim} />
           <AppText variant="subtitle" color={t.onAccentDim}>
@@ -141,9 +121,15 @@ function WordRow({ word, image }: { word: ThemeWordRow; image: string | null }) 
             {word.gloss}
           </AppText>
         </View>
-        <Chip label={word.level} kind="level" small />
-        <GenderChip gender={word.gender} small />
-        {word.saved && <Ionicons name="heart" size={16} color={t.primary} />}
+        <View style={styles.chipSlot}>
+          <Chip label={word.level} kind="level" small />
+        </View>
+        <View style={styles.chipSlot}>
+          <GenderChip gender={word.gender} small />
+        </View>
+        <View style={styles.heartSlot}>
+          {word.saved && <Ionicons name="heart" size={16} color={t.primary} />}
+        </View>
         <ListenButton text={`${spokenArticle}${word.lemma}`} size={19} />
       </View>
     </Card>
@@ -164,4 +150,6 @@ const styles = StyleSheet.create({
   },
   row: { paddingVertical: 11 },
   rowInner: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
+  chipSlot: { width: 40, alignItems: 'center' },
+  heartSlot: { width: 16, alignItems: 'center' },
 });

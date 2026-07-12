@@ -12,6 +12,7 @@ import { CLOZE_BLANK, type Cloze } from '@/logic/cloze';
 import { articleFor } from '@/logic/formLabels';
 import { gradeFillBlank, type FillResult } from '@/logic/graders';
 import { previewInterval, type Rating } from '@/logic/sm2';
+import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -26,14 +27,14 @@ import { useTheme } from '@/ui/useTheme';
 const TYPED_MIN_REPS = 2;
 const UMLAUTS = ['ä', 'ö', 'ü', 'ß'] as const;
 
-/** A typed recall challenge: fill the blank in a sentence, or produce the word. */
+/** A typed recall challenge: fill a blank, produce the word, or hear & type it. */
 interface TypeChallenge {
-  kind: 'cloze' | 'word';
-  /** cloze: the masked sentence; word: the English gloss to translate. */
+  kind: 'cloze' | 'word' | 'listen';
+  /** cloze: the masked sentence; word: the English gloss; listen: text to speak. */
   prompt: string;
-  /** cloze: the English translation as a hint; word: none. */
+  /** cloze: English translation; listen: English gloss (disambiguates); word: none. */
   hint: string | null;
-  /** The accepted answer (surface form for cloze, lemma for word). */
+  /** The accepted answer (surface form for cloze, lemma for word/listen). */
   answer: string;
 }
 
@@ -79,6 +80,11 @@ export default function ReviewScreen() {
   // Everything else stays a recall flip card.
   const challenge = useMemo<TypeChallenge | null>(() => {
     if (!card || !typedRecall || card.reps < TYPED_MIN_REPS) return null;
+    // Every third familiar card is a dictation ("hear it → type it"); the rest
+    // are cloze where an example allows, otherwise translate-and-type.
+    if (card.lemma_id % 3 === 0) {
+      return { kind: 'listen', prompt: card.lemma, hint: card.gloss, answer: card.lemma };
+    }
     const cloze = clozes.get(card.lemma_id);
     if (cloze) return { kind: 'cloze', prompt: cloze.masked, hint: card.example_en, answer: cloze.answer };
     return { kind: 'word', prompt: card.gloss, hint: null, answer: card.lemma };
@@ -313,6 +319,13 @@ function TypeCard({
     onCheck(gradeFillBlank({ prompt: '', accept: [challenge.answer], explanation: '' }, text));
   };
 
+  // Dictation cards play the word once when they appear (keyed per card, so
+  // this remounts and fires once per dictation card).
+  useEffect(() => {
+    if (challenge.kind === 'listen') speakGerman(challenge.prompt);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const answerColor = answered?.correct ? t.success : t.danger;
   const [before, after] =
     challenge.kind === 'cloze' ? challenge.prompt.split(CLOZE_BLANK) : ['', ''];
@@ -321,7 +334,11 @@ function TypeCard({
     <Card style={styles.clozeCard}>
       <CardChips card={card} />
       <AppText variant="label" muted style={{ marginTop: spacing.xxl }}>
-        {challenge.kind === 'cloze' ? 'Lückentext · welches Wort fehlt?' : 'Übersetze ins Deutsche'}
+        {challenge.kind === 'cloze'
+          ? 'Lückentext · welches Wort fehlt?'
+          : challenge.kind === 'listen'
+            ? 'Hör zu und tippe, was du hörst'
+            : 'Übersetze ins Deutsche'}
       </AppText>
 
       {challenge.kind === 'cloze' ? (
@@ -338,6 +355,22 @@ function TypeCard({
           )}
           {after}
         </AppText>
+      ) : challenge.kind === 'listen' ? (
+        <View style={{ alignItems: 'center', marginTop: spacing.lg }}>
+          <Pressable
+            onPress={() => speakGerman(challenge.prompt)}
+            hitSlop={12}
+            style={({ pressed }) => [
+              styles.listenBtn,
+              { backgroundColor: t.primaryDim },
+              pressed && { transform: [{ scale: 0.94 }] },
+            ]}>
+            <Ionicons name="volume-high" size={40} color={t.onPrimaryDim} />
+          </Pressable>
+          <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
+            Tippen zum Wiederholen
+          </AppText>
+        </View>
       ) : (
         <AppText variant="headword" style={{ marginTop: spacing.md, fontSize: 26 }}>
           {challenge.prompt}
@@ -509,6 +542,7 @@ const styles = StyleSheet.create({
   },
   rule: { width: 54, height: 3, borderRadius: 99, marginVertical: spacing.lg },
   clozeCard: { alignSelf: 'stretch', paddingTop: spacing.xl, paddingHorizontal: spacing.lg },
+  listenBtn: { width: 92, height: 92, borderRadius: 46, alignItems: 'center', justifyContent: 'center' },
   clozeInput: {
     borderWidth: 1.5,
     borderRadius: 14,

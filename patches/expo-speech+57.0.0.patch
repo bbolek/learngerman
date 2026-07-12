@@ -1,0 +1,68 @@
+diff --git a/node_modules/expo-speech/android/src/main/java/expo/modules/speech/SpeechModule.kt b/node_modules/expo-speech/android/src/main/java/expo/modules/speech/SpeechModule.kt
+index 9ca869c..8e22bd2 100644
+--- a/node_modules/expo-speech/android/src/main/java/expo/modules/speech/SpeechModule.kt
++++ b/node_modules/expo-speech/android/src/main/java/expo/modules/speech/SpeechModule.kt
+@@ -37,7 +37,16 @@ class SpeechModule : Module() {
+     }
+ 
+     OnActivityDestroys {
+-      textToSpeech.shutdown()
++      // Release the engine without touching the lazy getter (which would
++      // create one just to kill it). Clearing the instance and ready flag
++      // lets the next speak()/getVoices() recreate the engine when the
++      // activity is recreated in the same process — previously the dead
++      // engine was kept and every subsequent utterance failed silently.
++      synchronized(this@SpeechModule) {
++        _textToSpeech?.shutdown()
++        _textToSpeech = null
++        _ttsReady = false
++      }
+     }
+ 
+     AsyncFunction<Boolean>("isSpeaking") {
+@@ -143,13 +152,20 @@ class SpeechModule : Module() {
+   private val isTextToSpeechReady
+     get() = _ttsReady
+ 
+-  private val textToSpeech: TextToSpeech by lazy {
+-    val newTtsInstance = TextToSpeech(appContext.reactContext) { status: Int ->
++  // Not `by lazy`: the engine must be re-creatable after OnActivityDestroys
++  // shuts it down (the process — and this module — outlive the activity).
++  private val textToSpeech: TextToSpeech
++    get() = synchronized(this@SpeechModule) {
++      _textToSpeech ?: createTextToSpeech().also { _textToSpeech = it }
++    }
++
++  private fun createTextToSpeech(): TextToSpeech {
++    return TextToSpeech(appContext.reactContext) { status: Int ->
+       if (status == TextToSpeech.SUCCESS) {
+         // synchronize because in some cases this runs on another thread and _textToSpeech is null
+         synchronized(this@SpeechModule) {
+           _ttsReady = true
+-          _textToSpeech!!.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
++          _textToSpeech?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
+ 
+             override fun onStart(utteranceId: String) {
+               sendEvent(speakingStartedEvent, idToMap(utteranceId))
+@@ -176,17 +192,19 @@ class SpeechModule : Module() {
+               sendEvent(speakingErrorEvent, idToMap(utteranceId))
+             }
+           })
++          // Drain the queues after flushing — the engine can be recreated,
++          // so leftovers would replay on every re-initialization.
+           for ((id, text, options) in delayedUtterances) {
+             speakOut(id, text, options)
+           }
++          delayedUtterances.clear()
+           for (promise in delayedGetVoices) {
+             promise.resolve(getVoices())
+           }
++          delayedGetVoices.clear()
+         }
+       }
+     }
+-    _textToSpeech = newTtsInstance
+-    newTtsInstance
+   }
+ 
+   // Helpers

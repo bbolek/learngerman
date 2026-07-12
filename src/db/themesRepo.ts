@@ -58,39 +58,3 @@ export async function themeWords(theme: Theme): Promise<ThemeWordRow[]> {
   }
   return out;
 }
-
-/**
- * Enrol a theme's not-yet-saved words as SRS cards due now, in one
- * transaction. Returns how many were newly added. Bumps words_saved once by
- * that count so a bulk add still registers as a day's activity without 200
- * separate writes.
- */
-export async function enrollThemeWords(lemmaIds: number[], now: Date): Promise<number> {
-  const db = getDb();
-  const nowIso = now.toISOString();
-  let added = 0;
-  await db.withTransactionAsync(async () => {
-    for (const id of lemmaIds) {
-      const res = await db.runAsync(
-        'INSERT OR IGNORE INTO user_saved_words (lemma_id, saved_at) VALUES (?, ?)',
-        [id, nowIso]
-      );
-      if (res.changes > 0) {
-        added++;
-        await db.runAsync(
-          `INSERT OR IGNORE INTO srs_state (lemma_id, ease, interval_days, reps, lapses, due_at)
-           VALUES (?, 2.5, 0, 0, 0, ?)`,
-          [id, nowIso]
-        );
-      }
-    }
-    if (added > 0) {
-      await db.runAsync(
-        `INSERT INTO daily_activity (day, words_saved) VALUES (?, ?)
-         ON CONFLICT(day) DO UPDATE SET words_saved = words_saved + ?`,
-        [nowIso.slice(0, 10), added, added]
-      );
-    }
-  });
-  return added;
-}

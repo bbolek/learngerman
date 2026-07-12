@@ -1,3 +1,4 @@
+import { setAudioModeAsync } from 'expo-audio';
 import * as IntentLauncher from 'expo-intent-launcher';
 import * as Speech from 'expo-speech';
 import { Alert, Linking, Platform } from 'react-native';
@@ -61,13 +62,52 @@ function showMissingVoiceAlert(): void {
   }
 }
 
+/** iOS defaults to the soloAmbient audio session, which the ring/silent
+ * switch mutes — TTS would play into silence. Claim a playback session once
+ * before the first utterance. */
+let audioModeReady: Promise<void> | null = null;
+function ensureAudioMode(): Promise<void> {
+  if (!audioModeReady) {
+    audioModeReady = setAudioModeAsync({ playsInSilentMode: true }).catch(() => {
+      audioModeReady = null;
+    });
+  }
+  return audioModeReady;
+}
+
+export interface SpeakCallbacks {
+  /** Speech actually started coming out of the engine. */
+  onStart?: () => void;
+  /** Utterance finished, was interrupted, or failed — always the last call. */
+  onEnd?: () => void;
+}
+
 /** Speak a German word/phrase, cancelling any previous utterance. */
-export async function speakGerman(text: string): Promise<void> {
+export async function speakGerman(text: string, callbacks: SpeakCallbacks = {}): Promise<void> {
+  await ensureAudioMode();
   const voice = await resolveGermanVoice();
   if (!voice.found) {
     showMissingVoiceAlert();
+    callbacks.onEnd?.();
     return;
   }
-  Speech.stop();
-  Speech.speak(text, { language: 'de-DE', voice: voice.identifier, rate: 0.9 });
+  await Speech.stop();
+  const speak = (identifier: string | undefined) =>
+    Speech.speak(text, {
+      language: 'de-DE',
+      voice: identifier,
+      rate: 0.9,
+      onStart: callbacks.onStart,
+      onDone: callbacks.onEnd,
+      onStopped: callbacks.onEnd,
+      // A cached voice can go stale (uninstalled, engine swapped). Drop it
+      // and retry once with the engine's own German default.
+      onError: identifier
+        ? () => {
+            cached = null;
+            speak(undefined);
+          }
+        : callbacks.onEnd,
+    });
+  speak(voice.identifier);
 }

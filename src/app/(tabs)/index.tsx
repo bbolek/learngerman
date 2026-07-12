@@ -213,6 +213,19 @@ export default function HomeScreen() {
         <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
       </Card>
 
+      <Card style={styles.miniWide} onPress={() => router.push('/themes')}>
+        <View style={[styles.themesIcon, { backgroundColor: t.accentDim }]}>
+          <AppText style={{ fontSize: 20 }}>🗂️</AppText>
+        </View>
+        <View style={{ flex: 1 }}>
+          <AppText variant="subtitle">Themen</AppText>
+          <AppText variant="secondary" muted style={{ marginTop: 2 }}>
+            Wortschatz nach Thema lernen
+          </AppText>
+        </View>
+        <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
+      </Card>
+
       {data?.wotd && (
         <TourTarget id="home-wotd">
           <WordOfTheDay wotd={data.wotd} image={data.wotdImage} />
@@ -411,6 +424,13 @@ const styles = StyleSheet.create({
     width: 30,
     height: 30,
     borderRadius: 999,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  themesIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
   },

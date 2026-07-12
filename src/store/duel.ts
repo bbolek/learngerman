@@ -1,7 +1,8 @@
 /**
- * Session store for the WLAN duel: owns the (non-serializable) socket, runs
- * the pure reducer, and flushes each transition's outbox onto the wire.
- * Screens only ever read `duel` and call the actions below.
+ * Session store for the WLAN group duel: owns the (non-serializable) socket,
+ * runs the pure reducer, and flushes each transition's outbox onto the wire
+ * (broadcast or addressed to a single peer). Screens only ever read `duel`
+ * and call the actions below.
  */
 
 import * as Device from 'expo-device';
@@ -31,7 +32,7 @@ interface DuelSessionState {
   error: DuelError | null;
   hostGame: () => Promise<void>;
   joinGame: (code: string) => Promise<void>;
-  /** Host builds a fresh round and starts it (initial start and rematch). */
+  /** Host builds a fresh round and starts it (from the lobby or the results screen). */
   startRound: () => Promise<void>;
   dispatch: (ev: DuelEvent) => void;
   clearError: () => void;
@@ -52,14 +53,18 @@ export const useDuel = create<DuelSessionState>((set, get) => {
     const duel = get().duel;
     if (!duel) return;
     const next = duelReducer(duel, ev);
-    for (const msg of next.outbox) socket?.send(msg);
+    for (const out of next.outbox) {
+      socket?.send(out.msg, out.to);
+      // A targeted reject ends that peer's stay — cut the socket too.
+      if (out.msg.t === 'reject' && out.to != null) socket?.dropPeer(out.to);
+    }
     set({ duel: { ...next, outbox: [] } });
   };
 
   const callbacks = {
-    onMessage: (msg: DuelMsg) => dispatch({ type: 'msg', msg }),
-    onPeerConnected: () => {}, // host learns about the guest via its `hello`
-    onClosed: () => dispatch({ type: 'peerGone' }),
+    onMessage: (msg: DuelMsg, from: string) => dispatch({ type: 'msg', msg, from }),
+    onPeerGone: (id: string) => dispatch({ type: 'peerGone', id }),
+    onServerDown: () => dispatch({ type: 'localAbort' }),
   };
 
   const watchAppState = () => {
@@ -67,8 +72,8 @@ export const useDuel = create<DuelSessionState>((set, get) => {
     appStateSub = AppState.addEventListener('change', (status) => {
       const phase = get().duel?.phase;
       if (status !== 'active' && (phase === 'countdown' || phase === 'playing')) {
-        // iOS suspends sockets in the background anyway — forfeit explicitly
-        // so the opponent gets a clean `bye` instead of a heartbeat timeout.
+        // iOS suspends sockets in the background anyway — leave explicitly
+        // so the room gets a clean `bye` instead of a heartbeat timeout.
         socket?.close();
         socket = null;
         dispatch({ type: 'localAbort' });
@@ -128,7 +133,7 @@ export const useDuel = create<DuelSessionState>((set, get) => {
 
     startRound: async () => {
       const duel = get().duel;
-      if (!duel || duel.role !== 'host' || duel.phase !== 'lobby') return;
+      if (!duel || duel.role !== 'host' || (duel.phase !== 'lobby' && duel.phase !== 'done')) return;
       const pool = await fetchGameWords(90);
       const seed = Date.now() & 0x7fffffff;
       dispatch({

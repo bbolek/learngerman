@@ -14,9 +14,10 @@ import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { useTheme } from '@/ui/useTheme';
 
-/** Roughly how long the utterance is highlighted, scaled by text length. */
-function speakingMillis(text: string): number {
-  return Math.min(4000, 900 + text.length * 55);
+/** Upper bound on how long the icon may stay tinted if the speech engine
+ * never reports back (e.g. TTS service died), scaled by text length. */
+function speakingMillisCap(text: string): number {
+  return 3 * Math.min(4000, 900 + text.length * 55);
 }
 
 /**
@@ -63,10 +64,15 @@ export function ListenButton({
       withSpring(1.3, { damping: 5, stiffness: 320 }),
       withSpring(1, { damping: 14, stiffness: 220 })
     );
-    setSpeaking(true);
     if (timer.current) clearTimeout(timer.current);
-    timer.current = setTimeout(() => setSpeaking(false), speakingMillis(text));
-    speakGerman(text);
+    timer.current = setTimeout(() => setSpeaking(false), speakingMillisCap(text));
+    speakGerman(text, {
+      onStart: () => setSpeaking(true),
+      onEnd: () => {
+        if (timer.current) clearTimeout(timer.current);
+        setSpeaking(false);
+      },
+    });
     onSpoken?.();
   };
 

@@ -778,6 +778,838 @@ export const THEMES: Theme[] = [
       {
         "lemma": "reifen",
         "pos": "verb"
+      },
+      {
+        "lemma": "Gastronomie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kulinarik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feinschmecker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gourmet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Genuss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Genießer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Delikatesse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gaumen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aroma",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Würze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schärfe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Süße",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bitterkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachgeschmack",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Textur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschmackssinn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Küchenchef",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sternekoch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sommelier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feinkost",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verkostung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weinprobe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jahrgang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rebsorte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Winzer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weingut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weinkarte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Likör",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spirituose",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schnaps",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brauerei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hopfen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Malz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gerste",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weizen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Roggen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dinkel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gärung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reifung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lagerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Haltbarkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konservierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zusatzstoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschmacksverstärker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Inhaltsstoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nährwert",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ballaststoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fettsäure",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unverträglichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Allergen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Laktose",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gluten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Milchprodukt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hülsenfrucht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lebensmittelindustrie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mindesthaltbarkeitsdatum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Massentierhaltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlachtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erzeuger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hofladen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bioladen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lebensmittelverschwendung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nahrungsmittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konditorei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gebäck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blätterteig",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sauerteig",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Glasur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Füllung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Belag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kruste",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konfitüre",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kompott",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Püree",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fond",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Marinade",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Panade",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spieß",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Filet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Innereien",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auster",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hummer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tintenfisch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Forelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Muskatnuss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Safran",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kümmel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Koriander",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meerrettich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Olivenöl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schmalz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eintopf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ambiente",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tischmanieren",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gedeck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Häppchen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kostprobe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leckerbissen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gaumenfreude",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bankett",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aperitif",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sättigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heißhunger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fettleibigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mangelernährung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nahrungsergänzungsmittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rohkost",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hausmannskost",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kochkunst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verzehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einmachglas",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Speisekammer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Küchenmaschine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fritteuse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Karaffe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "verfeinern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verkosten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schlemmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verzehren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "auftischen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "garnieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "glasieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "karamellisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "flambieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "frittieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "blanchieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "pochieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "gratinieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "tranchieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "entkernen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "raspeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zerkleinern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zerdrücken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einlegen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einkochen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "fermentieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "gären",
+        "pos": "verb"
+      },
+      {
+        "lemma": "lagern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufschäumen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überbacken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rösten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "dämpfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "sieden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "unterheben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "auspressen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "keltern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "brauen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausschenken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zapfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nippen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schlürfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verspeisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vertilgen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "sättigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verdauen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verschlingen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "knabbern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ablöschen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anschwitzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einweichen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bestäuben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beträufeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abtropfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "munden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "räuchern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "süßen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "deftig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "aromatisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "pikant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "süßlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "säuerlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "herb",
+        "pos": "adj"
+      },
+      {
+        "lemma": "lieblich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vollmundig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fruchtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "nussig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "rauchig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "samtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mürbe",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kross",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schaumig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bissfest",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zähflüssig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "klumpig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schmackhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "appetitlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "reichhaltig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "nahrhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kalorienreich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kalorienarm",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ballaststoffreich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zuckerhaltig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "koffeinhaltig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "naturbelassen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "saisonal",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verderblich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "genießbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bekömmlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "erlesen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "exquisit",
+        "pos": "adj"
+      },
+      {
+        "lemma": "delikat",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kulinarisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "spritzig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "prickelnd",
+        "pos": "adj"
+      },
+      {
+        "lemma": "abgestanden",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ranzig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schimmelig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "raffiniert",
+        "pos": "adj"
       }
     ]
   },
@@ -1006,6 +1838,737 @@ export const THEMES: Theme[] = [
         "lemma": "untervermieten",
         "pos": "verb"
       },
+      {
+        "lemma": "Architektur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baukunst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauwesen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baustil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gotik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Barock",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Renaissance",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klassizismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jugendstil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baumeister",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauingenieur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Funktionalität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Proportion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Symmetrie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grundriss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauplan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Giebel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fundament",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewölbe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kuppel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bogen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pfeiler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Träger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stütze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Balken",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tragwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Portal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ornament",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Veranda",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pavillon",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Atrium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trakt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschoss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dachgeschoss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dachstuhl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dachrinne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schornstein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kamin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flachdach",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Satteldach",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dachterrasse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wintergarten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fensterrahmen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geländer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brüstung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wendeltreppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schacht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rampe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baustoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Backstein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sandstein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Granit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zement",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mörtel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Putz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Estrich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stahlbeton",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mauerwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dämmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Isolierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verkleidung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verglasung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauvorhaben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauprojekt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rohbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baugrube",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baukran",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauherr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauleiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauunternehmen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zimmermann",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Richtfest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grundstein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baukosten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausschreibung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauvorschrift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauordnung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einsturz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tiefbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Modernisierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bausubstanz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Denkmalschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baudenkmal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ruine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Festung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stadtmauer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Städtebau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bebauung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bebauungsplan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauland",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baugrundstück",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erschließung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Siedlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Plattenbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wohnblock",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Quartier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorstadt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grünfläche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baulücke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leerstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gebäudekomplex",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fertighaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Passivhaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Barrierefreiheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rohrleitung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lüftung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kanalisation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entwässerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schallschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brandschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Damm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Viadukt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "erbauen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bebauen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überbauen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausbauen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einreißen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "restaurieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "modernisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "isolieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verputzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mauern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "betonieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verglasen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überdachen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "unterkellern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausheben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abstützen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verankern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "entwerfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "konzipieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "konstruieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bemessen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vermessen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "versiegeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "begrünen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufstocken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einstürzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verfallen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verwittern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einweihen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "konservieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "umgestalten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nachrüsten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abdichten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verfugen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "asphaltieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "baufällig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "denkmalgeschützt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sanierungsbedürftig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "einsturzgefährdet",
+        "pos": "adj"
+      },
+      {
+        "lemma": "tragend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "tragfähig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "massiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mehrstöckig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ebenerdig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "energieeffizient",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wärmegedämmt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schalldicht",
+        "pos": "adj"
+      },
+      {
+        "lemma": "feuerfest",
+        "pos": "adj"
+      },
+      {
+        "lemma": "witterungsbeständig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "marode",
+        "pos": "adj"
+      },
+      {
+        "lemma": "prunkvoll",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verschnörkelt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "symmetrisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "monumental",
+        "pos": "adj"
+      },
+      {
+        "lemma": "lichtdurchflutet",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verwinkelt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gotisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "barock",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mittelalterlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "architektonisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "baulich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unbebaut",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schlüsselfertig",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "slug": "stadt",
+    "title": "Stadt & Gebäude",
+    "emoji": "🏙️",
+    "words": [
       {
         "lemma": "Bürgersteig",
         "pos": "noun"
@@ -1964,6 +3527,1134 @@ export const THEMES: Theme[] = [
       {
         "lemma": "Ölwechsel",
         "pos": "noun"
+      },
+      {
+        "lemma": "Spediteur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ladung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umschlag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Container",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Containerschiff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zustellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auslieferung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kurier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Transporter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sattelschlepper",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anhänger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Laderaum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Laderampe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gefahrgut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausfuhr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einfuhr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Güterverkehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Güterzug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lieferfrist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fuhrpark",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lastwagen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Luftfahrt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fluggesellschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flugverkehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flugsicherung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fluglotse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Landebahn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Startbahn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rollfeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Cockpit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Besatzung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zwischenlandung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Notlandung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Turbulenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tragfläche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fahrwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Luftfracht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anflug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abfertigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Luftraum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Linienflug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Treibstoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kerosin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flugschreiber",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bruchlandung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hubschrauber",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fallschirm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schifffahrt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reederei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Seehafen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kai",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anlegestelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Liegeplatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frachtschiff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tanker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlepper",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lotse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Matrose",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kapitän",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Deck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schleuse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reiseroute",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reiseplan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reiseversicherung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisebericht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisetagebuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisekasse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisekosten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisebus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reiseapotheke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisezeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reiselust",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reiseleiterin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisebekanntschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herberge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ferienhaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ferienanlage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gasthaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gasthof",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gästehaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gästezimmer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hotelanlage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Luxushotel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Boutiquehotel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Resort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bettenburg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Chalet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bungalow",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeltplatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hostel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ferienpark",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Empfangshalle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zimmerservice",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zimmerschlüssel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vollpension",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frühstücksbuffet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verpflegung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbstverpflegung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Etagenbett",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mehrbettzimmer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hotelzimmer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gästebuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feriengast",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zimmermädchen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Portier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Concierge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wellnessbereich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sauna",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Whirlpool",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strandkorb",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aussichtsplattform",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausblick",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rundgang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rundfahrt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stadtführung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eintrittspreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Attraktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Touristenattraktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Touristenmagnet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Highlight",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fremdenverkehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tourismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Massentourismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ökotourismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tourismusbranche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reiseanbieter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gastfreundschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hotellerie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gastgewerbe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Passagier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fluggast",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tagestourist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Touristin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fernreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kreuzfahrtschiff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Individualreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gruppenreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Studienreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildungsreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kulturreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Städtereise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abenteuerreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wanderreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wochenendtrip",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kurztrip",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pilgerreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wanderroute",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wanderkarte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wanderschuh",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bergwanderung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bergsteigen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kletterausrüstung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klettersteig",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bergtour",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skitour",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trekkingtour",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Radtour",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bootstour",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bootsfahrt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Segeltörn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Safari",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeltlager",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Proviant",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisehinweis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufenthaltsgenehmigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Passkontrolle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zollkontrolle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Impfpass",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auslandskrankenversicherung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeitverschiebung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geldwechsel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisescheck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mautgebühr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vignette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anschlussflug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Direktflug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Langstreckenflug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückflug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hinflug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abflughalle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wartehalle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gepäckkontrolle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisegepäck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gepäckstück",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anschlusszug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fahrschein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stornierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umbuchung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufpreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kurtaxe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kulanz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reisemangel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nebensaison",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hauptsaison",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochsaison",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Urlaubsziel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Urlaubsort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ferienort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Badeort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kurort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skigebiet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wintersportort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sandstrand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aussichtsturm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leuchtturm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wallfahrtsort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausgrabungsstätte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kulturgut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weltnaturerbe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Promenade",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Uferpromenade",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bergbahn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gondel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skilift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Standseilbahn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kulturschock",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mitbringsel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kurhaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wanderführer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bergführer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Basar",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entspannung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wellness",
+        "pos": "noun"
+      },
+      {
+        "lemma": "bereisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "unterbringen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beherbergen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "campen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "faulenzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufbrechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einreisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausreisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verzollen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abstempeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufsuchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einkehren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rasten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verweilen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nächtigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "absteigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "trampen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "herumreisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mitreisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "stranden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "reiselustig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "weltoffen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gastfreundlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gastlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "atemberaubend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unvergesslich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "erholsam",
+        "pos": "adj"
+      },
+      {
+        "lemma": "exotisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "überfüllt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "menschenleer",
+        "pos": "adj"
+      },
+      {
+        "lemma": "buchbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "urig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "komfortabel",
+        "pos": "adj"
+      },
+      {
+        "lemma": "luxuriös",
+        "pos": "adj"
+      },
+      {
+        "lemma": "einheimisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ortsansässig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ganzjährig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wetterfest",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wetterabhängig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fußläufig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kinderfreundlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "familienfreundlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "behindertengerecht",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ausgeschildert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verträumt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "weltberühmt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "geschichtsträchtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "traumhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "paradiesisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schneesicher",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mediterran",
+        "pos": "adj"
+      },
+      {
+        "lemma": "abenteuerlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sagenhaft",
+        "pos": "adj"
       }
     ]
   },
@@ -2807,6 +5498,786 @@ export const THEMES: Theme[] = [
       {
         "lemma": "Aufwachraum",
         "pos": "noun"
+      },
+      {
+        "lemma": "Schädel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nerv",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bandscheibe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leber",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Niere",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Milz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauchspeicheldrüse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Darm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blinddarm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Speiseröhre",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kehlkopf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nervensystem",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blutgefäß",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arterie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vene",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Netzhaut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trommelfell",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Becken",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Knochenmark",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schleimhaut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Drüse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schilddrüse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hormon",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blutgerinnsel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Muskulatur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lunge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lungenentzündung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blasenentzündung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschwür",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Metastase",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Epilepsie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anfall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Asthma",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bronchitis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Masern",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Seuche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Epidemie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pandemie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erkrankung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Infekt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbrennung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ohnmacht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lähmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwerhörigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Demenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rheuma",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bandscheibenvorfall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verstauchung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Knochenbruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gehirnerschütterung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blutvergiftung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herzrhythmusstörung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Karies",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frühgeburt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wechseljahre",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krebs",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schüttelfrost",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gliederschmerzen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krampf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Juckreiz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sodbrennen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blähungen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Appetitlosigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlafstörung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tinnitus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abgeschlagenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Medikation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dosierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überdosis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wechselwirkung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Antibiotikum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beruhigungsmittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zäpfchen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pille",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kapsel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betäubung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heilpraktiker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachsorge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Früherkennung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Biopsie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blutzucker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Cholesterin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Chirurgie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Psychiater",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frauenarzt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krankheitsbild",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prognose",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sterblichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lebenserwartung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Todesursache",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Psychologie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Psychotherapie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Psychotherapeut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Therapeut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Psyche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Depression",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Angststörung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Panikattacke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Phobie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zwang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zwangsstörung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Essstörung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Magersucht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Burnout",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trauma",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unterbewusstsein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Persönlichkeitsstörung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbstwertgefühl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Halluzination",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entzug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beratungsstelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbsthilfegruppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wohlbefinden",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Achtsamkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Resilienz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nervenzusammenbruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Empathie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reflex",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Psychiatrie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Alkoholiker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Droge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "abhören",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abtasten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verabreichen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "dosieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "lindern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abklingen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "infizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "therapieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einliefern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einweisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "amputieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "lähmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erblinden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verkrampfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zusammenbrechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erleiden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verstauchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verrenken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "quetschen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verheilen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abheilen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "eitern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "sterilisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kribbeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verdrängen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verarbeiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "traumatisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "hypnotisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "halluzinieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "immunisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einwilligen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abmagern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "versorgen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "stillen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "belasten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überfordern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "grübeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "stabilisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "transplantieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "humpeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "hinken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "stottern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "psychisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "seelisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mental",
+        "pos": "adj"
+      },
+      {
+        "lemma": "therapeutisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "klinisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ärztlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "medizinisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "operativ",
+        "pos": "adj"
+      },
+      {
+        "lemma": "erblich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "angeboren",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gebrechlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bettlägerig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "resistent",
+        "pos": "adj"
+      },
+      {
+        "lemma": "benommen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "labil",
+        "pos": "adj"
+      },
+      {
+        "lemma": "depressiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "süchtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "entzündlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unfruchtbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schmerzstillend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "entzündungshemmend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "euphorisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "impulsiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "intuitiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "empathisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zwanghaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wirksam",
+        "pos": "adj"
+      },
+      {
+        "lemma": "niedergeschlagen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "angespannt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unbewusst",
+        "pos": "adj"
       }
     ]
   },
@@ -3118,6 +6589,206 @@ export const THEMES: Theme[] = [
       {
         "lemma": "beziehungsweise",
         "pos": "adv"
+      },
+      {
+        "lemma": "Auftrag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sitzung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überstunden",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Motivation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Position",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Protokoll",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bewerber",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Absage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konkurrenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "kurzfristig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "langfristig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Umsatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Branche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zusage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "einhalten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Geschäftsreise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tagesordnung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vereinbarung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "weiterleiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Projektleiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abteilungsleiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elternzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "aufsteigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "effizient",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Buchhaltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufstieg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "kürzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Gehaltsverhandlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bilanz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entlassung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Quartal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schichtarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "verfassen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Abgabetermin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konferenzraum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "protokollieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Arbeitsklima",
+        "pos": "noun"
+      },
+      {
+        "lemma": "absprechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Referenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "verbindlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Urlaubsantrag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "abwickeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Spesen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tarifvertrag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vergütung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "priorisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Belegschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gleitzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "erwirtschaften",
+        "pos": "verb"
+      },
+      {
+        "lemma": "netzwerken",
+        "pos": "verb"
       },
       {
         "lemma": "Klempner",
@@ -3478,6 +7149,2513 @@ export const THEMES: Theme[] = [
       {
         "lemma": "Arbeitsschutz",
         "pos": "noun"
+      },
+      {
+        "lemma": "Laufbahn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werdegang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Karriereleiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufsleben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufsaussichten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufstiegschance",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entwicklungsmöglichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abstieg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufswechsel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Quereinsteiger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufseinsteiger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachwuchs",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufsbild",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tätigkeitsfeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufsabschluss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zertifikat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schulung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Workshop",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Coaching",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mentor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kompetenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlüsselqualifikation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachwissen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eignung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anschreiben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stellenausschreibung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anforderungsprofil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Initiativbewerbung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bewerbungsfrist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auswahlverfahren",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jobbörse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stellensuche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Empfehlungsschreiben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsvermittlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Festanstellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anstellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsverhältnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beschäftigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Befristung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeitarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nebentätigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erwerbstätigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Angestellter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einarbeitung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bruttogehalt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nettogehalt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zulage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sozialabgaben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lohnfortzahlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betriebsrente",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rentenalter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorruhestand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Altersteilzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sabbatjahr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Führungsposition",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Führungsstil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Führungsebene",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschäftsführung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hierarchie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Teamleiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Team",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stellvertreter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachfolger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachfolge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entscheidungsträger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weisung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anordnung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorgabe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leitfaden",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leitbild",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unternehmenskultur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschäftsmodell",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hauptsitz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufgabenbereich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsteilung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsprozess",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betriebsklima",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Teamgeist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kritikfähigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betriebsausflug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsalltag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsbelastung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überlastung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitspensum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeitmanagement",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eigeninitiative",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Durchsetzungsvermögen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verhandlungsgeschick",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fingerspitzengefühl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsmoral",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vereinbarkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gleichstellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Chancengleichheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vertraulichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mitarbeitergespräch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zielvereinbarung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leistungsbeurteilung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auszeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildungsurlaub",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Resturlaub",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Urlaubsanspruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krankenstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsunfähigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fehlzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wiedereingliederung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufskrankheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elterngeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betriebszugehörigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bereitschaftsdienst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsrecht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kündigungsschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abmahnung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufhebungsvertrag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsgericht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mitbestimmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betriebsvereinbarung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tarifverhandlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitskampf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitszeitkonto",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stellenabbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umstrukturierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fluktuation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Existenzgründung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gründer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Freiberufler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auftraggeber",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auftragnehmer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschäftsidee",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Startkapital",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Akquise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Personalwesen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Personalentwicklung",
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "slug": "wirtschaft",
+    "title": "Wirtschaft & Handel",
+    "emoji": "📈",
+    "words": [
+      {
+        "lemma": "Aktionär",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anleihe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wertpapier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dividende",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rendite",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zins",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zinssatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Darlehen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tilgung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verschuldung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konkurs",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gläubiger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schuldner",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bürgschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Investor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anleger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geldanlage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kapital",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fonds",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Portfolio",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spekulation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Deflation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rezession",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufschwung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abschwung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bruttoinlandsprodukt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Etat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Subvention",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steuersatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einkommensteuer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umsatzsteuer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewerbesteuer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ertrag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erlös",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abschreibung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rücklage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückstellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Liquidität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eigenkapital",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fremdkapital",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Finanzmarkt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kapitalmarkt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Monopol",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kartell",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fusion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Übernahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Niederlassung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tochtergesellschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufsichtsrat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bonus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Honorar",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lebensversicherung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Police",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbstbeteiligung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schadenersatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Absicherung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Devisen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaufkraft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Forderung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbindlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Handelsabkommen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Freihandel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weltwirtschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Binnenmarkt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lieferkette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Großhandel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einzelhandel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Marktanteil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Marktlücke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kundschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbraucher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konsum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konsument",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beleg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Transaktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überschuss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Defizit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zentralbank",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leitzins",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geldpolitik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Finanzkrise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ökonomie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Volkswirtschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sektor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dienstleistung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dienstleister",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mittelstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbstständigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Effizienz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Produktivität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rentabilität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wirtschaftlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kalkulation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kostenvoranschlag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aktiengesellschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Börsengang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Depot",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ratenzahlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anzahlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bonität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Versicherungsnehmer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zahlungsverkehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zahlungsmittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geldwäsche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steuerhinterziehung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwarzarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wirtschaftsprüfer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jahresabschluss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschäftsjahr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewinnspanne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Marge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entschädigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zuschuss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Finanzierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beteiligung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Knappheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lebenshaltungskosten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Preissteigerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "spekulieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "auszahlen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verzinsen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "tilgen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "absichern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kalkulieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "wirtschaften",
+        "pos": "verb"
+      },
+      {
+        "lemma": "subventionieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "versteuern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "absetzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abrechnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verbuchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bilanzieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "veranschlagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "fusionieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "expandieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "florieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "stagnieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schrumpfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ankurbeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "privatisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verstaatlichen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "exportieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "importieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vertreiben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vermarkten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "konsumieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "begleichen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mahnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abwerten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufwerten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einbüßen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "profitieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rentieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausschütten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "akquirieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rationalisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "veräußern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abzahlen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "gutschreiben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "entschädigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vergüten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anschaffen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rentabel",
+        "pos": "adj"
+      },
+      {
+        "lemma": "profitabel",
+        "pos": "adj"
+      },
+      {
+        "lemma": "lukrativ",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gewinnbringend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kostspielig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "erschwinglich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zahlungsfähig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zahlungsunfähig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "insolvent",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verschuldet",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schuldenfrei",
+        "pos": "adj"
+      },
+      {
+        "lemma": "steuerpflichtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "steuerfrei",
+        "pos": "adj"
+      },
+      {
+        "lemma": "börsennotiert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "konkurrenzfähig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wettbewerbsfähig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "defizitär",
+        "pos": "adj"
+      },
+      {
+        "lemma": "liquide",
+        "pos": "adj"
+      },
+      {
+        "lemma": "konjunkturell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zinslos",
+        "pos": "adj"
+      },
+      {
+        "lemma": "überteuert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gewerblich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "pauschal",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fällig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "rückläufig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "finanziell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wirtschaftlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "steuerlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vermögend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Herstellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werkhalle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Produktionslinie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Industriezweig",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betriebsleiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Facharbeiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Handwerksbetrieb",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geselle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lehrling",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meisterbrief",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Innung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zunft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewerbegebiet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werkstück",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Halbfabrikat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Endprodukt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erzeugnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Charge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stückzahl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Qualitätskontrolle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfverfahren",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zertifizierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feinmechanik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gießerei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Guss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schmiede",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schweißnaht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Drehbank",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fräsmaschine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Walzwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochofen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stahlwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stahl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eisenerz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kunststoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gummi",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Keramik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spinnerei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weberei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zulieferer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lieferengpass",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beschaffung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lagerhaltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lagerbestand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Inventur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spedition",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fracht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gabelstapler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rationalisierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auslastung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kapazität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stillstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausfall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schutzhelm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sicherheitsvorschrift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Akkordarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Standort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Massenproduktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einzelanfertigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Techniker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mechatroniker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlosser",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Installateur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lackierer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Uhrmacher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Goldschmied",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Töpfer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schornsteinfeger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Montagehalle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Produktionsprozess",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Arbeitsablauf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lagerhalle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werksgelände",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gütesiegel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fehlerquote",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Seriennummer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betriebsmittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Handarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Maßarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Veredelung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beschichtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schmelze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gussform",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wertschöpfung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Produktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meister",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sortiment",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ladenkette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Handelskette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verkaufsfläche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Warenhaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachgeschäft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Discounter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kassenzettel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gutschrift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kundenkarte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bonusprogramm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Treuepunkte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Warenkorb",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konsumverhalten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konsumgesellschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbraucherschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbraucherzentrale",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stammkunde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kundenbindung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kundenservice",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kundenzufriedenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beanstandung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mangel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewährleistung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Garantieschein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückgabe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückgaberecht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Widerruf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Widerrufsrecht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückerstattung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erstattung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rücksendung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachbesserung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ersatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaufvertrag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vertragslaufzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vertragsbedingungen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Installation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lieferzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lieferschein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Liefertermin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zusteller",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Paketdienst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Versandkosten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sendungsverfolgung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachnahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abholung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abholstation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Paketstation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zwischenhändler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fehlkauf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Impulskauf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schnäppchen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Preisnachlass",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Preissenkung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Räumungsverkauf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlussverkauf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werbeanzeige",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Markenname",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Markenbewusstsein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Produktpalette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Neuware",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gebrauchtware",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tauschbörse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wiederverkauf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wegwerfgesellschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verpackungsmüll",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mehrweg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verfallsdatum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Preisvergleich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zahlungsweise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zahlungsart",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Onlineshop",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Onlinehandel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bestellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bestellvorgang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auftragsbestätigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kundenbewertung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rezension",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaufberatung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beratungsgespräch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verkaufsgespräch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vermittlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vertrieb",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaufrausch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbrauchermarkt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sonderpreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wucher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kundenkonto",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bestellnummer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückgabefrist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rabattaktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lockangebot",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaufanreiz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ratenkauf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Teilzahlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Barzahlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kartenzahlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zahlungsverzug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbraucherrecht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Käuferschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fernabsatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verfügbarkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lieferverzögerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Warenlager",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Retoure",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Retourenquote",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaufreue",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Preispolitik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Preiskampf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Preisdruck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dumpingpreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Streichpreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Endpreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verkaufspreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aktionspreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gegenangebot",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ladenhüter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verkaufsschlager",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gratisprobe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kundenwunsch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlichtungsstelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vergleichsportal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sternebewertung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaufempfehlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Neukunde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bestandskunde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anschaffungskosten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reparaturkosten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einkaufsliste",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wunschliste",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rücknahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Restposten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Restbestand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auslaufmodell",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausstellungsstück",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gebrauchtgerät",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ersatzgerät",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mietkauf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leasing",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herstellergarantie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Garantieleistung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Garantieanspruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewährleistungsanspruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kulanzregelung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "zurückerstatten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausliefern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "versenden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "feilschen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "herabsetzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausverkaufen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "wiederverwenden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "austauschen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nachbessern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "garantieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zurücknehmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nachliefern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verschleudern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verramschen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abzocken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "übervorteilen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufschlagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verrechnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "eintauschen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zurücksenden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anzahlen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zusenden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überteuern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verschrotten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aussortieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "umrüsten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausbessern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufbereiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verhökern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "horten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "hamstern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufrunden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rabattieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "auszeichnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "etikettieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einscannen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "freischalten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "inkassieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bepreisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "unverbindlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "funktionsfähig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "neuwertig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kauflustig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "preisbewusst",
+        "pos": "adj"
+      },
+      {
+        "lemma": "markenbewusst",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unerschwinglich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wiederverwertbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "exklusiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "limitiert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vergriffen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "lieferbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kulant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "werbewirksam",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verkaufsoffen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kostendeckend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "preisgünstig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kundenfreundlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "serviceorientiert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verbraucherfreundlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ressourcenschonend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "langlebig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kurzlebig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "reparaturbedürftig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "originalverpackt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unbenutzt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "portofrei",
+        "pos": "adj"
+      },
+      {
+        "lemma": "versandkostenfrei",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unverkäuflich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "rückzahlbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verhandelbar",
+        "pos": "adj"
       }
     ]
   },
@@ -4293,340 +10471,1687 @@ export const THEMES: Theme[] = [
         "pos": "adv"
       },
       {
-        "lemma": "Zusammenhalt",
+        "lemma": "Wahlkampf",
         "pos": "noun"
       },
       {
-        "lemma": "Wandel",
+        "lemma": "Wahlrecht",
         "pos": "noun"
       },
       {
-        "lemma": "Umbruch",
+        "lemma": "Wahlbeteiligung",
         "pos": "noun"
       },
       {
-        "lemma": "Ausmaß",
+        "lemma": "Wahlkreis",
         "pos": "noun"
       },
       {
-        "lemma": "Umfang",
+        "lemma": "Wahlprogramm",
         "pos": "noun"
       },
       {
-        "lemma": "Basis",
+        "lemma": "Wahlversprechen",
         "pos": "noun"
       },
       {
-        "lemma": "Prinzip",
+        "lemma": "Stimmzettel",
         "pos": "noun"
       },
       {
-        "lemma": "Konzept",
+        "lemma": "Stichwahl",
         "pos": "noun"
       },
       {
-        "lemma": "Struktur",
+        "lemma": "Hochrechnung",
         "pos": "noun"
       },
       {
-        "lemma": "Rahmen",
+        "lemma": "Briefwahl",
         "pos": "noun"
       },
       {
-        "lemma": "Kontext",
+        "lemma": "Neuwahl",
         "pos": "noun"
       },
       {
-        "lemma": "Bemerkung",
+        "lemma": "Kandidatur",
         "pos": "noun"
       },
       {
-        "lemma": "Anmerkung",
+        "lemma": "Spitzenkandidat",
         "pos": "noun"
       },
       {
-        "lemma": "Hinweis",
+        "lemma": "Volksabstimmung",
         "pos": "noun"
       },
       {
-        "lemma": "Andeutung",
+        "lemma": "Referendum",
         "pos": "noun"
       },
       {
-        "lemma": "Respekt",
+        "lemma": "Enthaltung",
         "pos": "noun"
       },
       {
-        "lemma": "Misstrauen",
+        "lemma": "Bundesrat",
         "pos": "noun"
       },
       {
-        "lemma": "Gewissheit",
+        "lemma": "Landtag",
         "pos": "noun"
       },
       {
-        "lemma": "Unsicherheit",
+        "lemma": "Fraktion",
         "pos": "noun"
       },
       {
-        "lemma": "Klarheit",
+        "lemma": "Mandat",
         "pos": "noun"
       },
       {
-        "lemma": "Verständigung",
+        "lemma": "Legislaturperiode",
         "pos": "noun"
       },
       {
-        "lemma": "Dialog",
+        "lemma": "Plenarsitzung",
         "pos": "noun"
       },
       {
-        "lemma": "Absprache",
+        "lemma": "Ausschuss",
         "pos": "noun"
       },
       {
-        "lemma": "Abmachung",
+        "lemma": "Anhörung",
         "pos": "noun"
       },
       {
-        "lemma": "Konsequenz",
+        "lemma": "Anfrage",
         "pos": "noun"
       },
       {
-        "lemma": "Wirkung",
+        "lemma": "Kanzler",
         "pos": "noun"
       },
       {
-        "lemma": "Stellenwert",
+        "lemma": "Minister",
         "pos": "noun"
       },
       {
-        "lemma": "Relevanz",
+        "lemma": "Ministerium",
         "pos": "noun"
       },
       {
-        "lemma": "Gemeinschaft",
+        "lemma": "Staatssekretär",
         "pos": "noun"
       },
       {
-        "lemma": "Bürger",
+        "lemma": "Staatsoberhaupt",
         "pos": "noun"
       },
       {
-        "lemma": "Öffentlichkeit",
+        "lemma": "Regierungschef",
         "pos": "noun"
       },
       {
-        "lemma": "Institution",
+        "lemma": "Kabinett",
         "pos": "noun"
       },
       {
-        "lemma": "Organisation",
+        "lemma": "Sondierung",
         "pos": "noun"
       },
       {
-        "lemma": "Staat",
+        "lemma": "Koalitionsvertrag",
         "pos": "noun"
       },
       {
-        "lemma": "Nation",
+        "lemma": "Minderheitsregierung",
         "pos": "noun"
       },
       {
-        "lemma": "Volk",
+        "lemma": "Amtszeit",
         "pos": "noun"
       },
       {
-        "lemma": "Herkunft",
+        "lemma": "Amtseid",
         "pos": "noun"
       },
       {
-        "lemma": "Migration",
+        "lemma": "Rücktritt",
         "pos": "noun"
       },
       {
-        "lemma": "Vielfalt",
+        "lemma": "Misstrauensvotum",
         "pos": "noun"
       },
       {
-        "lemma": "Ungerechtigkeit",
+        "lemma": "Machtwechsel",
         "pos": "noun"
       },
       {
-        "lemma": "Norm",
+        "lemma": "Politiker",
         "pos": "noun"
       },
       {
-        "lemma": "Moral",
+        "lemma": "Parteitag",
         "pos": "noun"
       },
       {
-        "lemma": "Identität",
+        "lemma": "Gesetzgebung",
         "pos": "noun"
       },
       {
-        "lemma": "Zugehörigkeit",
+        "lemma": "Gesetzentwurf",
         "pos": "noun"
       },
       {
-        "lemma": "Generation",
+        "lemma": "Beschluss",
         "pos": "noun"
       },
       {
-        "lemma": "Jugend",
+        "lemma": "Inkrafttreten",
         "pos": "noun"
       },
       {
-        "lemma": "Armut",
+        "lemma": "Erlass",
         "pos": "noun"
       },
       {
-        "lemma": "Reichtum",
+        "lemma": "Satzung",
         "pos": "noun"
       },
       {
-        "lemma": "Wohlstand",
+        "lemma": "Rechtsstaat",
         "pos": "noun"
       },
       {
-        "lemma": "Ungleichheit",
+        "lemma": "Gewaltenteilung",
         "pos": "noun"
       },
       {
-        "lemma": "Milieu",
+        "lemma": "Verfassungsgericht",
         "pos": "noun"
       },
       {
-        "lemma": "Solidarität",
+        "lemma": "Verfassungsschutz",
         "pos": "noun"
       },
       {
-        "lemma": "Epoche",
+        "lemma": "Monarchie",
         "pos": "noun"
       },
       {
-        "lemma": "Jahrhundert",
+        "lemma": "Republik",
         "pos": "noun"
       },
       {
-        "lemma": "Jahrzehnt",
+        "lemma": "Souveränität",
         "pos": "noun"
       },
       {
-        "lemma": "Ereignis",
+        "lemma": "Populismus",
         "pos": "noun"
       },
       {
-        "lemma": "Krieg",
+        "lemma": "Extremismus",
         "pos": "noun"
       },
       {
-        "lemma": "Frieden",
+        "lemma": "Ideologie",
         "pos": "noun"
       },
       {
-        "lemma": "Revolution",
+        "lemma": "Meinungsfreiheit",
         "pos": "noun"
       },
       {
-        "lemma": "Wende",
+        "lemma": "Pressefreiheit",
         "pos": "noun"
       },
       {
-        "lemma": "Einheit",
+        "lemma": "Zensur",
         "pos": "noun"
       },
       {
-        "lemma": "Erinnerung",
+        "lemma": "Propaganda",
         "pos": "noun"
       },
       {
-        "lemma": "Gedächtnis",
+        "lemma": "Korruption",
         "pos": "noun"
       },
       {
-        "lemma": "Ursprung",
+        "lemma": "Bestechung",
         "pos": "noun"
       },
       {
-        "lemma": "Entstehung",
+        "lemma": "Vetternwirtschaft",
         "pos": "noun"
       },
       {
-        "lemma": "Rückschritt",
+        "lemma": "Transparenz",
         "pos": "noun"
       },
       {
-        "lemma": "Niedergang",
+        "lemma": "Lobby",
         "pos": "noun"
       },
       {
-        "lemma": "Bestimmung",
+        "lemma": "Vorsitzende",
         "pos": "noun"
       },
       {
-        "lemma": "Regelung",
+        "lemma": "Gremium",
         "pos": "noun"
       },
       {
-        "lemma": "erwähnen",
+        "lemma": "Petition",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kundgebung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Putsch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Regime",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unterdrückung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Willkür",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geheimdienst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Immunität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bürgerinitiative",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dissident",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Diplomatie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Diplomat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Botschafter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Außenpolitik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abkommen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bündnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sanktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Embargo",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gipfeltreffen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staatsbesuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Neutralität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Waffenstillstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abrüstung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mitgliedstaat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kommission",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Richtlinie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Delegation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Großmacht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abschiebung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zuwanderung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beamte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einwohnermeldeamt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verwaltungsakt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verwaltungsgericht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ermessen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Befugnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dienstweg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Amtssprache",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Instanz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Papierkram",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kommune",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Landkreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bundesland",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Föderalismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ressort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staatsverschuldung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "erlassen",
         "pos": "verb"
       },
       {
-        "lemma": "andeuten",
+        "lemma": "ratifizieren",
         "pos": "verb"
       },
       {
-        "lemma": "schildern",
+        "lemma": "nominieren",
         "pos": "verb"
       },
       {
-        "lemma": "gestehen",
+        "lemma": "ernennen",
         "pos": "verb"
       },
       {
-        "lemma": "unterstellen",
+        "lemma": "zurücktreten",
         "pos": "verb"
       },
       {
-        "lemma": "folgern",
+        "lemma": "einberufen",
         "pos": "verb"
       },
       {
-        "lemma": "schlussfolgern",
+        "lemma": "vertagen",
         "pos": "verb"
       },
       {
-        "lemma": "erwägen",
+        "lemma": "unterzeichnen",
         "pos": "verb"
       },
       {
-        "lemma": "thematisieren",
+        "lemma": "anfechten",
         "pos": "verb"
       },
       {
-        "lemma": "hinterfragen",
+        "lemma": "amtieren",
         "pos": "verb"
       },
       {
-        "lemma": "appellieren",
+        "lemma": "ausweisen",
         "pos": "verb"
       },
       {
-        "lemma": "plädieren",
+        "lemma": "abschieben",
         "pos": "verb"
       },
       {
-        "lemma": "bemängeln",
+        "lemma": "einbürgern",
         "pos": "verb"
       },
       {
-        "lemma": "würdigen",
+        "lemma": "gewähren",
         "pos": "verb"
       },
       {
-        "lemma": "anerkennen",
+        "lemma": "regulieren",
         "pos": "verb"
+      },
+      {
+        "lemma": "entmachten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zensieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abwählen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vollziehen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verkünden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "billigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verwerfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einbringen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verhängen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "entsenden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausrufen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "untersagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ermächtigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beanstanden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beurkunden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "intervenieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mobilisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "tagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausschreiben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "annektieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "konsultieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "dementieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "legitimieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verschärfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "lockern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "enteignen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "begnadigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mitbestimmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einbestellen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abdanken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "staatlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "behördlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bürokratisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kommunal",
+        "pos": "adj"
+      },
+      {
+        "lemma": "föderal",
+        "pos": "adj"
+      },
+      {
+        "lemma": "parlamentarisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "autoritär",
+        "pos": "adj"
+      },
+      {
+        "lemma": "totalitär",
+        "pos": "adj"
+      },
+      {
+        "lemma": "diplomatisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "parteiisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "parteilos",
+        "pos": "adj"
+      },
+      {
+        "lemma": "populistisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verfassungswidrig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "souverän",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bilateral",
+        "pos": "adj"
+      },
+      {
+        "lemma": "multilateral",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wahlberechtigt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "oppositionell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "überparteilich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "hauptamtlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "innenpolitisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "außenpolitisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "extremistisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unbürokratisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fristgerecht",
+        "pos": "adj"
+      },
+      {
+        "lemma": "formlos",
+        "pos": "adj"
+      },
+      {
+        "lemma": "rechtskräftig",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "slug": "recht",
+    "title": "Recht & Justiz",
+    "emoji": "⚖️",
+    "words": [
+      {
+        "lemma": "Klage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "klagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verklagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Kläger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prozess",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verfahren",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rechtsanwalt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verteidiger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staatsanwalt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gerichtstermin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anklage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "aussagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Zeugenaussage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "schwören",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Eid",
+        "pos": "noun"
+      },
+      {
+        "lemma": "urteilen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schuldig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unschuldig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Schuld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strafe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "bestrafen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Geldstrafe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bußgeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "freisprechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Freispruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einspruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betrug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "betrügen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "fälschen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Fälschung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbot",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erlaubnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Paragraf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "rechtlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "strafbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Justiz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grundgesetz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Menschenrechte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eigentum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mahnung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "verpflichten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Haftung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "haften",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Schadensersatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Notar",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Testament",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erbe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "erben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Erbschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "ungültig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Schutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kriminalität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Straftat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Delikt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbrecher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Straftäter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mittäter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Komplize",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bande",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mord",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mörder",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Totschlag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Körperverletzung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erpressung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erpresser",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entführung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entführer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geiselnahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geisel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schmuggel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schmuggler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schmiergeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hehlerei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unterschlagung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sachbeschädigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vandalismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brandstiftung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nötigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Belästigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Missbrauch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Übergriff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Attentat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Attentäter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anschlag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Terrorismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Terrorist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbstjustiz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Notwehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tatort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tatwaffe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Alibi",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Indiz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beweismittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beweislast",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spurensicherung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fingerabdruck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Obduktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ermittlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ermittler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kommissar",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kriminalpolizei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fahndung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Razzia",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hausdurchsuchung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Festnahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Haftbefehl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verhör",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geständnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Untersuchungshaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Haft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Häftling",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Insasse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Justizvollzugsanstalt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strafvollzug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bewährung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Freiheitsstrafe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Todesstrafe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Amnestie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Resozialisierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wiederholungstäter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gerichtshof",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gerichtssaal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gerichtsverhandlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schöffe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anklagebank",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Plädoyer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schuldspruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strafmaß",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Revision",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rechtsmittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verjährung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kronzeuge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verteidigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mandant",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rechtsprechung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strafgesetzbuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staatsanwaltschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Streife",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Streifenwagen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Handschellen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überwachung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überwachungskamera",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Phantombild",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tatbestand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strafregister",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorstrafe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Führungszeugnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gauner",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einbrecher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schusswaffe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lösegeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Knast",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hausarrest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Detektiv",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spionage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strafanzeige",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verwarnung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fahrerflucht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Präzedenzfall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Justizirrtum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dunkelziffer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leiche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "ermorden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erschießen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erstechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "entführen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erpressen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bestechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schmuggeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausrauben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "misshandeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "belästigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "missbrauchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ermitteln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "fahnden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verdächtigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beschuldigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verhören",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vernehmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "leugnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abstreiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "inhaftieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einsperren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "absitzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "entkommen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "untertauchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "observieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überwachen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "durchsuchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beschlagnahmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "sicherstellen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufklären",
+        "pos": "verb"
+      },
+      {
+        "lemma": "hinterziehen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "unterschlagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "veruntreuen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vollstrecken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verbüßen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verüben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anstiften",
+        "pos": "verb"
+      },
+      {
+        "lemma": "randalieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "plündern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "umbringen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausbrechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "begehen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erwischen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "freilassen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kriminell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "straffällig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vorbestraft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gewalttätig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bewaffnet",
+        "pos": "adj"
+      },
+      {
+        "lemma": "rechtswidrig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "juristisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "strafrechtlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gerichtlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "geständig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "flüchtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "skrupellos",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verdeckt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "spurlos",
+        "pos": "adv"
+      },
+      {
+        "lemma": "gewaltsam",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fahrlässig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vorsätzlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "straffrei",
+        "pos": "adj"
+      },
+      {
+        "lemma": "befangen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bestechlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "lebenslänglich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "berüchtigt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zwielichtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "polizeilich",
+        "pos": "adj"
       }
     ]
   },
@@ -5390,12 +12915,1004 @@ export const THEMES: Theme[] = [
       {
         "lemma": "energiesparend",
         "pos": "adj"
+      },
+      {
+        "lemma": "Ingenieurwesen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Maschinenbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elektrotechnik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verfahrenstechnik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mechanik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Robotik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Messtechnik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Statik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fertigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Serienfertigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Montage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konstruktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konstrukteur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entwurf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prototyp",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bauteil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baugruppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Komponente",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ersatzteil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baustein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werkstoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Legierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Halbleiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mikrochip",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leiterplatte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Platine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schaltkreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schaltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Transistor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kondensator",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Relais",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mikrocontroller",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steuerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Regler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steuergerät",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Antrieb",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zahnrad",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kolben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ventil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Turbine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Generator",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elektromotor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbrennungsmotor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hydraulik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Triebwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewinde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dichtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorrichtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Apparat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anlage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mechanismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werkzeugmaschine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Förderband",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Automatisierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Qualitätssicherung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abmessung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spezifikation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schaltplan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Inbetriebnahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wartung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Instandhaltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verschleiß",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beanspruchung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tragfähigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Festigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elastizität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leitfähigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Journalismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Redakteur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlagzeile",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pressemitteilung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pressekonferenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Recherche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Korrespondent",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leitartikel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kolumne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kolumnist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auflage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abonnement",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abonnent",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verlag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verleger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herausgeber",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Manuskript",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Exemplar",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rubrik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Titelseite",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Impressum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Urheberrecht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wortlaut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Moderation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Livestream",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zuhörer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einschaltquote",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Medienlandschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meinungsäußerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Öffentlichkeitsarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werbespot",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werbekampagne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kampagne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Slogan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sponsor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sponsoring",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Marketing",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vermarktung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Manipulation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Desinformation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Falschmeldung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gerücht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skandal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Enthüllung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verschwörungstheorie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Glaubwürdigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Objektivität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Voreingenommenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Diskurs",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rhetorik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Redner",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ansprache",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Argumentation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überzeugungskraft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wortwahl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tonfall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anspielung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ironie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sarkasmus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Übertreibung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Metapher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Redewendung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sprichwort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausdrucksweise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Formulierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umgangssprache",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jargon",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dialekt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sprachgebrauch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gesprächspartner",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klatsch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Shitstorm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hasskommentar",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hassrede",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kommentarspalte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Follower",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Influencer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hashtag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Filterblase",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Echokammer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anonymität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leserbrief",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leserschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pressesprecher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sprecher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Medienkompetenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überschrift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlagwort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Boulevardpresse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Broschüre",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flugblatt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Newsletter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mitteilung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ankündigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Inserat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlagabtausch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Podiumsdiskussion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Talkshow",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachrichtenagentur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meldung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eilmeldung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Resonanz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückmeldung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Massenmedien",
+        "pos": "noun"
+      },
+      {
+        "lemma": "abdrucken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "herausgeben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "redigieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "interviewen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "moderieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufzeichnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bekanntgeben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ankündigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "benachrichtigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verständigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kommunizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "übermitteln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kursieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "widerrufen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "richtigstellen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "klarstellen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anspielen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verharmlosen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "dramatisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "untertreiben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beschönigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verschweigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vertuschen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "enthüllen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufdecken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "durchsickern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "manipulieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "irreführen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "hetzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verleumden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "provozieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "polarisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anpreisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verlinken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bloggen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "lästern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verstummen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "entgegnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erwidern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anmerken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "artikulieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "dolmetschen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rezensieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zuspitzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "relativieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "differenzieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "medial",
+        "pos": "adj"
+      },
+      {
+        "lemma": "journalistisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "redaktionell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "seriös",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unseriös",
+        "pos": "adj"
+      },
+      {
+        "lemma": "reißerisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "einseitig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unglaubwürdig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "tendenziös",
+        "pos": "adj"
+      },
+      {
+        "lemma": "polemisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "provokant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "rhetorisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "eloquent",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wortgewandt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unverständlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "missverständlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mehrdeutig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "umgangssprachlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "förmlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "salopp",
+        "pos": "adj"
+      },
+      {
+        "lemma": "treffend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "viral",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wörtlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sinngemäß",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ausdrücklich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "informativ",
+        "pos": "adj"
+      },
+      {
+        "lemma": "aufschlussreich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "brisant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verbal",
+        "pos": "adj"
+      },
+      {
+        "lemma": "nonverbal",
+        "pos": "adj"
       }
     ]
   },
   {
     "slug": "umwelt",
-    "title": "Umwelt & Natur",
+    "title": "Umwelt & Wetter",
     "emoji": "🌿",
     "words": [
       {
@@ -5799,238 +14316,6 @@ export const THEMES: Theme[] = [
         "pos": "conj"
       },
       {
-        "lemma": "Igel",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Eichhörnchen",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Biene",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Wespe",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Ameise",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Mücke",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Käfer",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Schnecke",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Wurm",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Adler",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Eule",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Krähe",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Spatz",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Schwan",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Storch",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Möwe",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Reh",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Hirsch",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Wildschwein",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Kaninchen",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Ratte",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Fledermaus",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Wal",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Hai",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Muschel",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Feder",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Fell",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Schnabel",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Flügel",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Schwanz",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Pfote",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Nest",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Beute",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Raubtier",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Säugetier",
-        "pos": "noun"
-      },
-      {
-        "lemma": "jagen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "brüten",
-        "pos": "verb"
-      },
-      {
-        "lemma": "zähmen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "stechen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "kriechen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Wiese",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Bach",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Gipfel",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Tal",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Hügel",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Felsen",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Höhle",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Sturm",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Frost",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Dämmerung",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Laub",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Zweig",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Blüte",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Küste",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Gletscher",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Lawine",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Vulkan",
-        "pos": "noun"
-      },
-      {
-        "lemma": "Regenbogen",
-        "pos": "noun"
-      },
-      {
         "lemma": "Wolke",
         "pos": "noun"
       },
@@ -6377,6 +14662,2216 @@ export const THEMES: Theme[] = [
       {
         "lemma": "Löwenzahn",
         "pos": "noun"
+      },
+      {
+        "lemma": "Klimapolitik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klimaziel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klimakrise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klimaneutralität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klimaabkommen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klimaanpassung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klimamodell",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erwärmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kipppunkt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückkopplung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Methan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ozon",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ozonschicht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gletscherschmelze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Polkappe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Emissionshandel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ökosteuer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fußabdruck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verursacher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grenzwert",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Energiewende",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Solaranlage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Photovoltaik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Windkraft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Windpark",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wasserkraft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erdwärme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Biomasse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Biogas",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brennstoffzelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Atomkraftwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Atomausstieg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kernenergie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Endlager",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stromnetz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Energieeffizienz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Energieversorgung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wärmepumpe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wärmedämmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kohlekraftwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erdgas",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erdöl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Braunkohle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pipeline",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Raffinerie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umweltverschmutzung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verunreinigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mikroplastik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Plastikmüll",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elektroschrott",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Deponie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kläranlage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abwasser",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pfandflasche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kreislaufwirtschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Smog",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lichtverschmutzung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Chemikalie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwermetall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Düngemittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Monokultur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überdüngung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Naturschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umweltschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Artenschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Artensterben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Biodiversität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ökologie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nahrungskette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Insektensterben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bestand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wilderei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überfischung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Renaturierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufforstung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schutzgebiet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nationalpark",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Biotop",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erosion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wüstenbildung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Korallenriff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Korallenbleiche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Extremwetter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Starkregen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sturmflut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hurrikan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erdrutsch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dürreperiode",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Missernte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hungersnot",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wasserknappheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staudamm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Deich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Evakuierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Katastrophenschutz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Süßwasser",
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "slug": "tiere",
+    "title": "Tiere & Pflanzen",
+    "emoji": "🐾",
+    "words": [
+      {
+        "lemma": "Igel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eichhörnchen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Biene",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wespe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ameise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mücke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Käfer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schnecke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wurm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Adler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eule",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krähe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Storch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Möwe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reh",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hirsch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wildschwein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaninchen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ratte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fledermaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hai",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Muschel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feder",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fell",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schnabel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flügel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwanz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pfote",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beute",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Raubtier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Säugetier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "jagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "brüten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zähmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "stechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kriechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Wiese",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bach",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gipfel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hügel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Felsen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Höhle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sturm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frost",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dämmerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Laub",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zweig",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blüte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Küste",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gletscher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lawine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vulkan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Regenbogen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dachs",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wolf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Luchs",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Otter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Biber",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Marder",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wiesel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ziege",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Esel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kamel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nashorn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nilpferd",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leopard",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Robbe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Delfin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Seehund",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Waschbär",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Faultier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Känguru",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Koala",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schimpanse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gorilla",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lama",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Alpaka",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Büffel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Antilope",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gazelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zebra",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hyäne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Falke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Uhu",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Specht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Amsel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fink",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwalbe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reiher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kranich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Star",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rabe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elster",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fasan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pfau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kolibri",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Papagei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pinguin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strauß",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kuckuck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Truthahn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachtigall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Marienkäfer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Libelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heuschrecke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grille",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hummel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Motte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Raupe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Larve",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Floh",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Laus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zecke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Milbe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spinne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skorpion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tausendfüßler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kakerlake",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gottesanbeterin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stechmücke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Falter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hecht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Karpfen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hering",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kabeljau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Scholle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krake",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Qualle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Seestern",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Koralle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Molch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaulquappe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eidechse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Natter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Viper",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kröte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Salamander",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schildkröte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krokodil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Chamäleon",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kralle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klaue",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Huf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geweih",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schuppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flosse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kieme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rüssel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stoßzahn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mähne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stachel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Horn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Winterschlaf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Balz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rudel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwarm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wirbeltier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nagetier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pflanzenfresser",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fleischfresser",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Buche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fichte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lärche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ahorn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Esche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weide",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pappel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Linde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nadelbaum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Laubbaum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Farn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flechte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klee",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Distel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brennnessel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gänseblümchen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mohn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nelke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Veilchen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Narzisse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lilie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Orchidee",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Efeu",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ranke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blütenblatt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stängel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Halm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dorn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staude",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Setzling",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fotosynthese",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gattung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Population",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bestäubung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vererbung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verwesung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Symbiose",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Parasit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zersetzung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Chlorophyll",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Metamorphose",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nische",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Humus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nützling",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochbeet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gartenschere",
+        "pos": "noun"
+      },
+      {
+        "lemma": "lauern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schlüpfen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "häuten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "tarnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "wittern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zwitschern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "krähen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "quaken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zischen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "flattern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "gackern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "wiehern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "grunzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "fauchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schnurren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nisten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "keimen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "sprießen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "gedeihen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "welken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verwelken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "wuchern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ranken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verblühen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "austreiben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "wurzeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überwintern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausschwärmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verwesen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beschneiden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "veredeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "brummen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "muhen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "blöken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "winterhart",
+        "pos": "adj"
+      },
+      {
+        "lemma": "immergrün",
+        "pos": "adj"
+      },
+      {
+        "lemma": "räuberisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "scheu",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gefiedert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "stachelig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "pflanzlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "blühend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verwelkt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verholzt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "dornig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "buschig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wuchernd",
+        "pos": "adj"
+      },
+      {
+        "lemma": "nachtaktiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "tagaktiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wechselwarm",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ausgestorben",
+        "pos": "adj"
+      },
+      {
+        "lemma": "heimisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "laublos",
+        "pos": "adj"
+      },
+      {
+        "lemma": "robust",
+        "pos": "adj"
+      },
+      {
+        "lemma": "widerstandsfähig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gefräßig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "flink",
+        "pos": "adj"
+      },
+      {
+        "lemma": "träge",
+        "pos": "adj"
+      },
+      {
+        "lemma": "tierisch",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "slug": "geografie",
+    "title": "Geografie & Landschaft",
+    "emoji": "🗺️",
+    "words": [
+      {
+        "lemma": "Gebirgskette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gebirgszug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochgebirge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mittelgebirge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochland",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tiefland",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochebene",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Plateau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anhöhe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abhang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gefälle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Felswand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steilküste",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meerenge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Landzunge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Inselgruppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Archipel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Festland",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kontinent",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fjord",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lagune",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Watt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wattenmeer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gezeiten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meeresboden",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Binnensee",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stausee",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nebenfluss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zufluss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flussbett",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flusslauf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mündung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Delta",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stromschnelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kanal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aue",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feuchtgebiet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Savanne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tundra",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Urwald",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vegetation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Terrain",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bodenschätze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erdkruste",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vulkanausbruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lava",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Magma",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krater",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verwitterung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sediment",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ablagerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gestein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mineral",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kalkstein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geröll",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lehm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kontinentalplatte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Plattentektonik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geologie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geografie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kartografie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Atlas",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Höhenlinie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Koordinate",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Breitengrad",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Längengrad",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Äquator",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Halbkugel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pol",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Polarkreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wendekreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeitzone",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Himmelsrichtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Navigation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vermessung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Satellitenbild",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Luftaufnahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zone",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klimazone",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Höhenlage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Höhenmeter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baumgrenze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schneegrenze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steinschlag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wasserscheide",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einzugsgebiet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Massiv",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Serpentine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steilhang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Topografie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Landmasse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Landenge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Territorium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Randgebiet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umland",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hinterland",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einöde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wildnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Riff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sandbank",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brandung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gischt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Küstenlinie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Panorama",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bergkamm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausläufer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Senke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mulde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eiszeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erdschicht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "entspringen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "münden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "durchfließen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erstrecken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "angrenzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "grenzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ansteigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abfallen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abflachen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erodieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ablagern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "versanden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "austrocknen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überfluten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überschwemmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "unterspülen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufstauen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "begradigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kartieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "besiedeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "säumen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufragen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überragen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erklimmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "besteigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schlängeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "navigieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "orten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "gebirgig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "hügelig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bergig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "eben",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schroff",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zerklüftet",
+        "pos": "adj"
+      },
+      {
+        "lemma": "felsig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "steinig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sandig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sumpfig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "karg",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unwegsam",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unberührt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "entlegen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fruchtbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "dürr",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bewaldet",
+        "pos": "adj"
+      },
+      {
+        "lemma": "landschaftlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "geografisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "geologisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vulkanisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kontinental",
+        "pos": "adj"
+      },
+      {
+        "lemma": "maritim",
+        "pos": "adj"
+      },
+      {
+        "lemma": "alpin",
+        "pos": "adj"
+      },
+      {
+        "lemma": "polar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "subtropisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "tropisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gemäßigt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "malerisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "idyllisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "seicht",
+        "pos": "adj"
+      },
+      {
+        "lemma": "reißend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unzugänglich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "umliegend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "tektonisch",
+        "pos": "adj"
       }
     ]
   },
@@ -7184,6 +17679,1734 @@ export const THEMES: Theme[] = [
       {
         "lemma": "magnetisch",
         "pos": "adj"
+      },
+      {
+        "lemma": "Studie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Analyse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Methode",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Methodik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Datenerhebung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stichprobe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fragestellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auswertung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erhebung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Messwert",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Variable",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Korrelation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kausalität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fußnote",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Quellenangabe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Literaturverzeichnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zusammenfassung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gutachten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gutachter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachzeitschrift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Publikation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dissertation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Habilitation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Doktorand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Professur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lehrstuhl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Masterarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Forschungsgruppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Forschungsprojekt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grundlagenforschung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feldforschung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fragebogen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Proband",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Versuchsperson",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kontrollgruppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Placebo",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Datensatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Statistik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mittelwert",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abweichung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wahrscheinlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verteilung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Signifikanz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Diagramm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grafik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tabelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Achse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kurve",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gleichung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Quadrat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prozentsatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anteil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mathematik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geometrie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Algebra",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Winkel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dreieck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Durchmesser",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Radius",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Volumen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dichte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Maßeinheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konstante",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Parameter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skala",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Präzision",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Genauigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Messgerät",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mikroskop",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Teleskop",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sonde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reagenzglas",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pipette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Substanz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kohlenstoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stickstoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwefel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Katalysator",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Enzym",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Protein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kohlenhydrat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Chromosom",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erbgut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mutation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stammzelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Neuron",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nervenzelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mikrobe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Antikörper",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kernspaltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reaktor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Isotop",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elektron",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Proton",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Neutron",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Atomkern",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umlaufbahn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwingung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frequenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wellenlänge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lichtgeschwindigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vakuum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reibung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Widerstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stromkreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Magnetfeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anziehungskraft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Astronomie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Astronom",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Urknall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Naturgesetz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Phänomen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Paradigma",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Modell",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachbegriff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Terminologie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Primärquelle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Plagiat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "herleiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "publizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "referieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "klassifizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kategorisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "definieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "formulieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verifizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "falsifizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "simulieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "modellieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "extrahieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "destillieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verdünnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "oxidieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zersetzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "sezieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mutieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "klonen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bestrahlen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rotieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kreisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "kollidieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "komprimieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abweichen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "korrelieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "quantifizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "standardisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "validieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "evaluieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "begutachten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "replizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "reproduzieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abstrahieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "generalisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verallgemeinern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "spezifizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erheben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufstellen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "empirisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "methodisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "systematisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "analytisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "experimentell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "statistisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "signifikant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "repräsentativ",
+        "pos": "adj"
+      },
+      {
+        "lemma": "präzise",
+        "pos": "adj"
+      },
+      {
+        "lemma": "exakt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "messbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "nachweisbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "interdisziplinär",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mathematisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "atomar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "molekular",
+        "pos": "adj"
+      },
+      {
+        "lemma": "genetisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "organisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "anorganisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "radioaktiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "löslich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "brennbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "steril",
+        "pos": "adj"
+      },
+      {
+        "lemma": "synthetisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "konstant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "linear",
+        "pos": "adj"
+      },
+      {
+        "lemma": "proportional",
+        "pos": "adj"
+      },
+      {
+        "lemma": "exponentiell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "hypothetisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "qualitativ",
+        "pos": "adj"
+      },
+      {
+        "lemma": "quantitativ",
+        "pos": "adj"
+      },
+      {
+        "lemma": "renommiert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "aussagekräftig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Bildungssystem",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildungsweg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildungspolitik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildungseinrichtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildungsniveau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildungschance",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schulpflicht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schulsystem",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gesamtschule",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ganztagsschule",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Internat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Privatschule",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abendschule",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Volkshochschule",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fernstudium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fernunterricht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Präsenzunterricht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schulleitung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schulleiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kollegium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lehramt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Referendariat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Didaktik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pädagogik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pädagoge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Analphabet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Analphabetismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Alphabetisierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lehrermangel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lehrmethode",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lehrmaterial",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lehrbuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lehrveranstaltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Curriculum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lernziel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lernstoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unterrichtsstunde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Doppelstunde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frontalunterricht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gruppenarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Förderunterricht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erwachsenenbildung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zusatzqualifikation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachkompetenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Allgemeinbildung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorwissen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorkenntnisse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lernfortschritt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lernerfolg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leistungsdruck",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfungsangst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Benotung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beurteilung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abschlusszeugnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abiturient",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bestnote",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfungsvorbereitung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfling",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfungsamt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfungsleistung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfungsphase",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfungstermin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prüfungskommission",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wiederholungsprüfung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zwischenprüfung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abschlussprüfung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufnahmeprüfung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eignungstest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anwesenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anwesenheitspflicht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fehlstunde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leistungsnachweis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leistungspunkt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Studienberatung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Studienordnung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Regelstudienzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wintersemester",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sommersemester",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorlesungsverzeichnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zulassungsbeschränkung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wartesemester",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochschulreife",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Urlaubssemester",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auslandssemester",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Austauschprogramm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gasthörer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Studentenwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Studienkredit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werkstudent",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hilfskraft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tutor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betreuer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betreuung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Doktorvater",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kolloquium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Exkursion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blockseminar",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staatsexamen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Doktortitel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Akademiker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochschulabschluss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Studienabbruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Studienabbrecher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schulabbrecher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachhochschule",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachrichtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spezialisierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wahlfach",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pflichtfach",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nebenfach",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hauptfach",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Modul",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbststudium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meisterprüfung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gesellenprüfung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausbildungsplatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausbildungsvertrag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausbildungsberuf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausbilder",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufsausbildung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausbildungsbetrieb",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pflichtpraktikum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Praxiserfahrung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Praxisbezug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufseinstieg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufsorientierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufsberatung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Berufswahl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hauptteil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Paraphrase",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abbildung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Inhaltsverzeichnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Deckblatt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rohfassung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überarbeitung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Korrektur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Literaturrecherche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sekundärliteratur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachschlagewerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lexikon",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachbuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Exposé",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schreibstil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachsprache",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Seminararbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Projektarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Präsentation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lernstrategie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lerntechnik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lerntyp",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lernplan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lerngruppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Karteikarte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eselsbrücke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kurzzeitgedächtnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Langzeitgedächtnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konzentrationsfähigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbstdisziplin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prokrastination",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auffassungsgabe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mitschrift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leseverständnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hörverständnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sprachkenntnisse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Autodidakt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Halbwissen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wissenslücke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pensum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "aufholen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einprägen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verinnerlichen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abfragen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überfliegen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "durcharbeiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nacharbeiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "strukturieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überarbeiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anrechnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "fortbilden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "umschulen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "spezialisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "hospitieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "unterfordern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einstufen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abschneiden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nachlesen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verlernen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "auffrischen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "festigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "wiedergeben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abrufen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "herausarbeiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausarbeiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erarbeiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "skizzieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "paraphrasieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "umformulieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "unterstreichen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "aufsagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "lehren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nachbereiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abbrechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anfertigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "exzerpieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "durchlesen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einordnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rekapitulieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mitarbeiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schulisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "außerschulisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "universitär",
+        "pos": "adj"
+      },
+      {
+        "lemma": "berufsbegleitend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "dual",
+        "pos": "adj"
+      },
+      {
+        "lemma": "praxisnah",
+        "pos": "adj"
+      },
+      {
+        "lemma": "praxisorientiert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "lernfähig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "wissbegierig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "aufnahmefähig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "eigenverantwortlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "lückenhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "überdurchschnittlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unterdurchschnittlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "hochbegabt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "leistungsschwach",
+        "pos": "adj"
+      },
+      {
+        "lemma": "prüfungsrelevant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fakultativ",
+        "pos": "adj"
+      },
+      {
+        "lemma": "pädagogisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "didaktisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "autodidaktisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "belesen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "versiert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "bildungsfern",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mangelhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "befriedigend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ungenügend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "einprägsam",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unkonzentriert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vorbildlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "strebsam",
+        "pos": "adj"
       }
     ]
   },
@@ -7895,6 +20118,878 @@ export const THEMES: Theme[] = [
       {
         "lemma": "Zeitvertreib",
         "pos": "noun"
+      },
+      {
+        "lemma": "Steckenpferd",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Liebhaberei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Freizeitbeschäftigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bastelei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bastler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heimwerken",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Näherei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Häkelarbeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strickzeug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staffelei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Töpferei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Modellbau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Miniatur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Origami",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Baukasten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbermachen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bausatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kalligrafie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skizzenbuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pinselstrich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "häkeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "sticken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "töpfern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schnitzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "werkeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "tüfteln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "knipsen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verzieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einrahmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Gesellschaftsspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Würfelspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spielbrett",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trumpf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schachbrett",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sudoku",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Quiz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ratespiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Videospiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Computerspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konsole",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Controller",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spieler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Punktestand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Level",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spielstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dart",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Billard",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spielhalle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spielautomat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Glücksspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Roulette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Casino",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spielsucht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jackpot",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zaubertrick",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zauberei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewinnspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "pokern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "jonglieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zaubern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verlosen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mitfiebern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mogeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Club",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Disko",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Barkeeper",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Cocktail",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vergnügung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trubel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Menschenmenge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Türsteher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tresen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sperrstunde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Höhepunkt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Junggesellenabschied",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Polterabend",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Maskenball",
+        "pos": "noun"
+      },
+      {
+        "lemma": "kellnern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausklingen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ausspannen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Fernsehsendung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Serie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stream",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Streamingdienst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abo",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorführung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Werbepause",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dokumentation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spielfilm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kurzfilm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trickfilm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeichentrick",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Synchronisation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Handlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nebenrolle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Besetzung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Szene",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gameshow",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Moderatorin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorspann",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abspann",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kinosaal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blockbuster",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Uraufführung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nominierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Statist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Drehort",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hörspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hörbuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Comic",
+        "pos": "noun"
+      },
+      {
+        "lemma": "filmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "zappen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "umschalten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ablichten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "umblättern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Fotograf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blende",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Belichtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schnappschuss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildausschnitt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auslöser",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stativ",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brennweite",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unschärfe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Filter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildbearbeitung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abzug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Diashow",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selfie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildband",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dunkelkammer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weitwinkel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Teleobjektiv",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nahaufnahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildkomposition",
+        "pos": "noun"
+      },
+      {
+        "lemma": "posieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Sammelstück",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rarität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kostbarkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trödel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Antiquität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Liebhaberstück",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sammelleidenschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vitrine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Album",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Veranstaltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rummel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rummelplatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Parade",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Straßenfest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stadtfest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kostümfest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feierlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Festzelt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bierzelt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geisterbahn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zuckerwatte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fahrgeschäft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vergnügungspark",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verabredung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vereinsleben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geselligkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spieleabend",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grillabend",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unternehmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zusammenkunft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Freundeskreis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klassentreffen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Familienfeier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaffeeklatsch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Plauderei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klub",
+        "pos": "noun"
+      },
+      {
+        "lemma": "plaudern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "klönen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beisammensitzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "toben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "fesselnd",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kurzweilig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gesellig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ausgelassen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "feierlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vergnügt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "handwerklich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verspielt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "siegreich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "spielerisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "packend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "stimmungsvoll",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ausgefallen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "geschickt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kunstvoll",
+        "pos": "adj"
+      },
+      {
+        "lemma": "filigran",
+        "pos": "adj"
+      },
+      {
+        "lemma": "leidenschaftlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ungezwungen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zwanglos",
+        "pos": "adj"
+      },
+      {
+        "lemma": "familiär",
+        "pos": "adj"
+      },
+      {
+        "lemma": "einladend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "amüsant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "rauschend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "angeheitert",
+        "pos": "adj"
+      },
+      {
+        "lemma": "beschwipst",
+        "pos": "adj"
+      },
+      {
+        "lemma": "knifflig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "trickreich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "detailverliebt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fingerfertig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fantasievoll",
+        "pos": "adj"
+      },
+      {
+        "lemma": "einfallsreich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "originell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "antik",
+        "pos": "adj"
+      },
+      {
+        "lemma": "nostalgisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "farbenfroh",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fotogen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "verwackelt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unscharf",
+        "pos": "adj"
+      },
+      {
+        "lemma": "körnig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kontrastreich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fröhlich",
+        "pos": "adj"
       }
     ]
   },
@@ -8102,6 +21197,209 @@ export const THEMES: Theme[] = [
       {
         "lemma": "mitsingen",
         "pos": "verb"
+      }
+    ]
+  },
+  {
+    "slug": "kunst",
+    "title": "Kunst & Literatur",
+    "emoji": "🎨",
+    "words": [
+      {
+        "lemma": "Malerei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kunstwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meisterwerk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Porträt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stillleben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aquarell",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ölgemälde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skizze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Palette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Komposition",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Motiv",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vordergrund",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hintergrund",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Atelier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Karikatur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Illustration",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Büste",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Relief",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bildhauer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vernissage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Exponat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kurator",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Restaurierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mäzen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachlass",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reproduktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kunstgeschichte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stilrichtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Avantgarde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Moderne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Romantik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Expressionismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Impressionismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Surrealismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abstraktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ästhetik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anmut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kitsch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeitgeist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kulturerbe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Inspiration",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorstellungskraft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Originalität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Genie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Muse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dichter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lyrik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prosa",
+        "pos": "noun"
       }
     ]
   },
@@ -8325,6 +21623,390 @@ export const THEMES: Theme[] = [
       {
         "lemma": "schweißtreibend",
         "pos": "adj"
+      },
+      {
+        "lemma": "Weltmeisterschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorrunde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gruppenphase",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Achtelfinale",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Viertelfinale",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Halbfinale",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Finale",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hinspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elfmeterschießen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auslosung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tabellenführer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufsteiger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Absteiger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Titelverteidiger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weltrekord",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bestleistung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Platzierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rangliste",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Favorit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Außenseiter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kontrahent",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rivale",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Derby",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Revanche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sieger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Siegerehrung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Podest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Medaille",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pokal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trophäe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Triumph",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unentschieden",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Halbzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anpfiff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abpfiff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Duell",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kräftemessen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Linienrichter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Videobeweis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Foul",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Freistoß",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eckball",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Elfmeter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Platzverweis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sperre",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Doping",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Disqualifikation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fairplay",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Taktik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufstellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abwehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stürmer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mittelfeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Torwart",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flanke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ballbesitz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Angreifer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spielzug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Doppelpass",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kopfball",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pfosten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eigentor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausgleich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Treffer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Torjäger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auswechslung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ersatzbank",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spielmacher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dribbling",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zweikampf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Strafraum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spielfeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anzeigetafel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeitlupe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Flutlicht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tribüne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fankurve",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dauerkarte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jubel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heimspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auswärtsspiel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heimvorteil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leichtathletik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sprint",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hürde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staffel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochsprung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weitsprung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kugelstoßen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Marathon",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ziellinie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Startschuss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fehlstart",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anlauf",
+        "pos": "noun"
       }
     ]
   },
@@ -8732,6 +22414,553 @@ export const THEMES: Theme[] = [
       {
         "lemma": "aneinander",
         "pos": "adv"
+      },
+      {
+        "lemma": "Hingabe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vertrautheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbundenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bindung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Missgunst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Groll",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbitterung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zorn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verachtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bewunderung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ehrfurcht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anteilnahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einfühlungsvermögen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feingefühl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Taktgefühl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachsicht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vergebung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zerwürfnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meinungsverschiedenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feindseligkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feindschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rivalität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Machtkampf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Intrige",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verrat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Untreue",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Loyalität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufrichtigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Offenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verschwiegenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Diskretion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Güte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Großzügigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Egoismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbstlosigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hilfsbereitschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zugeständnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kompromissbereitschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eintracht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zwietracht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Demütigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erniedrigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewissensbisse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kummer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Melancholie",
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "slug": "aussehen",
+    "title": "Aussehen & Charakter",
+    "emoji": "🙂",
+    "words": [
+      {
+        "lemma": "Augenbraue",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wimper",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nacken",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Handgelenk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Knöchel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ferse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Oberschenkel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wade",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Taille",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Daumen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fingernagel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Handfläche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kiefer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zahnfleisch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rippe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wirbelsäule",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kehle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aussehen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frisur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pony",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zopf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Locke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "lockig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Glatze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schnurrbart",
+        "pos": "noun"
+      },
+      {
+        "lemma": "kahl",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Figur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "mollig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kräftig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zierlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gebräunt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gutaussehend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "attraktiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gepflegt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Sommersprosse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Falte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grübchen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Muttermal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ähnlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "ähneln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "wirken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Tätowierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Charakter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Persönlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eigenschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ehrlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ehrgeiz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fleiß",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbstbewusstsein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Humor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stolz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gelassenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stärke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwäche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Macke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Disziplin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Charme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Temperament",
+        "pos": "noun"
+      },
+      {
+        "lemma": "mutig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "frech",
+        "pos": "adj"
+      },
+      {
+        "lemma": "witzig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gemein",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ehrgeizig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sparsam",
+        "pos": "adj"
+      },
+      {
+        "lemma": "feige",
+        "pos": "adj"
+      },
+      {
+        "lemma": "stur",
+        "pos": "adj"
+      },
+      {
+        "lemma": "hartnäckig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "eingebildet",
+        "pos": "adj"
+      },
+      {
+        "lemma": "aufrichtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "loyal",
+        "pos": "adj"
+      },
+      {
+        "lemma": "lebhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ausgeglichen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "reizbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "aufgeschlossen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kontaktfreudig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gesprächig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schweigsam",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gewissenhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "nachlässig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "chaotisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vergesslich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "eitel",
+        "pos": "adj"
+      },
+      {
+        "lemma": "charmant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "anständig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "leichtsinnig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zielstrebig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "dickköpfig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "schlagfertig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "taktlos",
+        "pos": "adj"
+      },
+      {
+        "lemma": "diszipliniert",
+        "pos": "adj"
       }
     ]
   },
@@ -8943,220 +23172,261 @@ export const THEMES: Theme[] = [
       {
         "lemma": "lässig",
         "pos": "adj"
-      }
-    ]
-  },
-  {
-    "slug": "recht",
-    "title": "Recht & Justiz",
-    "emoji": "⚖️",
-    "words": [
+      },
       {
-        "lemma": "Klage",
+        "lemma": "Faser",
         "pos": "noun"
       },
       {
-        "lemma": "klagen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "verklagen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Kläger",
+        "lemma": "Textilien",
         "pos": "noun"
       },
       {
-        "lemma": "Prozess",
+        "lemma": "Garn",
         "pos": "noun"
       },
       {
-        "lemma": "Verfahren",
+        "lemma": "Cord",
         "pos": "noun"
       },
       {
-        "lemma": "Rechtsanwalt",
+        "lemma": "Kunstleder",
         "pos": "noun"
       },
       {
-        "lemma": "Verteidiger",
+        "lemma": "Wildleder",
         "pos": "noun"
       },
       {
-        "lemma": "Staatsanwalt",
+        "lemma": "Kaschmir",
         "pos": "noun"
       },
       {
-        "lemma": "Gerichtstermin",
+        "lemma": "Viskose",
         "pos": "noun"
       },
       {
-        "lemma": "Anklage",
+        "lemma": "Polyester",
         "pos": "noun"
       },
       {
-        "lemma": "aussagen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Zeugenaussage",
+        "lemma": "Nylon",
         "pos": "noun"
       },
       {
-        "lemma": "schwören",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Eid",
+        "lemma": "Elasthan",
         "pos": "noun"
       },
       {
-        "lemma": "urteilen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "schuldig",
-        "pos": "adj"
-      },
-      {
-        "lemma": "unschuldig",
-        "pos": "adj"
-      },
-      {
-        "lemma": "Schuld",
+        "lemma": "Filz",
         "pos": "noun"
       },
       {
-        "lemma": "Strafe",
+        "lemma": "Jersey",
         "pos": "noun"
       },
       {
-        "lemma": "bestrafen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Geldstrafe",
+        "lemma": "Tweed",
         "pos": "noun"
       },
       {
-        "lemma": "Bußgeld",
+        "lemma": "Satin",
         "pos": "noun"
       },
       {
-        "lemma": "freisprechen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Freispruch",
+        "lemma": "Saum",
         "pos": "noun"
       },
       {
-        "lemma": "Berufung",
+        "lemma": "Schnitt",
         "pos": "noun"
       },
       {
-        "lemma": "Einspruch",
+        "lemma": "Schnittmuster",
         "pos": "noun"
       },
       {
-        "lemma": "Betrug",
+        "lemma": "Passform",
         "pos": "noun"
       },
       {
-        "lemma": "betrügen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "fälschen",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Fälschung",
+        "lemma": "Maßanzug",
         "pos": "noun"
       },
       {
-        "lemma": "Verbot",
+        "lemma": "Anprobe",
         "pos": "noun"
       },
       {
-        "lemma": "Erlaubnis",
+        "lemma": "Stickerei",
         "pos": "noun"
       },
       {
-        "lemma": "Paragraf",
+        "lemma": "Masche",
         "pos": "noun"
       },
       {
-        "lemma": "rechtlich",
-        "pos": "adj"
-      },
-      {
-        "lemma": "strafbar",
-        "pos": "adj"
-      },
-      {
-        "lemma": "Justiz",
+        "lemma": "Stecknadel",
         "pos": "noun"
       },
       {
-        "lemma": "Grundgesetz",
+        "lemma": "Fingerhut",
         "pos": "noun"
       },
       {
-        "lemma": "Menschenrechte",
+        "lemma": "Kordel",
         "pos": "noun"
       },
       {
-        "lemma": "Eigentum",
+        "lemma": "Schnalle",
         "pos": "noun"
       },
       {
-        "lemma": "Mahnung",
+        "lemma": "Öse",
         "pos": "noun"
       },
       {
-        "lemma": "verpflichten",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Haftung",
+        "lemma": "Klettverschluss",
         "pos": "noun"
       },
       {
-        "lemma": "haften",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Schadensersatz",
+        "lemma": "Druckknopf",
         "pos": "noun"
       },
       {
-        "lemma": "Notar",
+        "lemma": "Schneiderei",
         "pos": "noun"
       },
       {
-        "lemma": "Testament",
+        "lemma": "Änderungsschneiderei",
         "pos": "noun"
       },
       {
-        "lemma": "Erbe",
+        "lemma": "Maßanfertigung",
         "pos": "noun"
       },
       {
-        "lemma": "erben",
-        "pos": "verb"
-      },
-      {
-        "lemma": "Erbschaft",
+        "lemma": "Futter",
         "pos": "noun"
       },
       {
-        "lemma": "ungültig",
-        "pos": "adj"
+        "lemma": "Applikation",
+        "pos": "noun"
       },
       {
-        "lemma": "Schutz",
+        "lemma": "Spitze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rüsche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bund",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konfektionsgröße",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Manschette",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Revers",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dekolleté",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausschnitt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Oberteil",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kleidungsstück",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bekleidung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brosche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Accessoire",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kollektion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Modenschau",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Laufsteg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Model",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Designer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Outfit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eleganz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Raffinesse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Glamour",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Modebranche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Textilindustrie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Modeerscheinung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kleiderordnung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schaufensterpuppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Boutique",
         "pos": "noun"
       }
     ]
@@ -9580,6 +23850,241 @@ export const THEMES: Theme[] = [
       {
         "lemma": "evakuieren",
         "pos": "verb"
+      }
+    ]
+  },
+  {
+    "slug": "militaer",
+    "title": "Militär & Konflikt",
+    "emoji": "🎖️",
+    "words": [
+      {
+        "lemma": "Militär",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Armee",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bundeswehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Streitkräfte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Truppe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Offizier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "General",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kommandeur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaserne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wehrpflicht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wehrdienst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rekrut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reservist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Veteran",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einsatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Manöver",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verteidigungsministerium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sicherheitspolitik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abschreckung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufrüstung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rüstungsindustrie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Munition",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Panzer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kampfflugzeug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Luftabwehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Artillerie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sprengstoff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Granate",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewehr",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bürgerkrieg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Angriffskrieg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gefecht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kampf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Angriff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Offensive",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Invasion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückzug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Front",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feuerpause",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Waffenruhe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Friedensvertrag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Friedensverhandlungen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Friedensabkommen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blauhelm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vermittler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Allianz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beistand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eskalation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Deeskalation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Provokation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Drohung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ultimatum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vergeltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Luftangriff",
+        "pos": "noun"
       }
     ]
   },
@@ -10198,6 +24703,2678 @@ export const THEMES: Theme[] = [
       {
         "lemma": "Aberglaube",
         "pos": "noun"
+      },
+      {
+        "lemma": "Weltreligion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Judentum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hinduismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Christ",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Muslim",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jude",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sekte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Glaubensgemeinschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Missionar",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mission",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bekehrung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prophet",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prophezeiung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Offenbarung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erleuchtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erlösung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erlöser",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Messias",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auferstehung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wiedergeburt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reinkarnation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Karma",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nirwana",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meditation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spiritualität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mystik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Askese",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ritus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kult",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gottheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heiligtum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Altar",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Papst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bischof",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Priester",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Predigt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Seelsorge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Theologe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Glaubensbekenntnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bekenntnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gebot",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sakrament",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abendmahl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kommunion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beichte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Buße",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Barmherzigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Demut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Andacht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frömmigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heiligkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Märtyrer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ketzerei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blasphemie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fastenzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prozession",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Evangelium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weihrauch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gelübde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zölibat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jünger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Apostel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wertvorstellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewissenskonflikt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Integrität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nächstenliebe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wohltätigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Almosen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Habgier",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hochmut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verfehlung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skrupel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Intoleranz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Atheismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Agnostiker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Säkularisierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fundamentalismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fanatismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Esoterik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schöpfung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schöpfer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorsehung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fügung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heuchelei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tabu",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ikone",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sterbehilfe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pflichtgefühl",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schande",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dämon",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Religionsfreiheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Orden",
+        "pos": "noun"
+      },
+      {
+        "lemma": "meditieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "predigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beichten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "büßen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bereuen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "sündigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "weihen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verehren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anbeten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "preisen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bekehren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "missionieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "konvertieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "dulden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verdammen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verfluchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "fluchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "spotten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "heiligen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erlösen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "offenbaren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "prophezeien",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erleuchten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "auferstehen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "opfern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "entsagen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bekennen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "missachten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "gehorchen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "überliefern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "fromm",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gläubig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ungläubig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "geistlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "weltlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "säkular",
+        "pos": "adj"
+      },
+      {
+        "lemma": "spirituell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sakral",
+        "pos": "adj"
+      },
+      {
+        "lemma": "profan",
+        "pos": "adj"
+      },
+      {
+        "lemma": "heidnisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "jüdisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "christlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "islamisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "muslimisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "buddhistisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "hinduistisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "orthodox",
+        "pos": "adj"
+      },
+      {
+        "lemma": "protestantisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ökumenisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kirchlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "rituell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "andächtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "demütig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "barmherzig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gnädig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sündhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "lasterhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "scheinheilig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "heuchlerisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "intolerant",
+        "pos": "adj"
+      },
+      {
+        "lemma": "fanatisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "abergläubisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mystisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "asketisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "erhaben",
+        "pos": "adj"
+      },
+      {
+        "lemma": "transzendent",
+        "pos": "adj"
+      },
+      {
+        "lemma": "allmächtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unfehlbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ehrwürdig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unantastbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mythisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "konfessionslos",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "slug": "geschichte",
+    "title": "Geschichte & Tradition",
+    "emoji": "📜",
+    "words": [
+      {
+        "lemma": "Historiker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschichtsschreibung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeitalter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ära",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Antike",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mittelalter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Neuzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Steinzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bronzezeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Urzeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorgeschichte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Altertum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reformation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Industrialisierung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeitrechnung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umsturz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaiserreich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Königreich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Imperium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kolonie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kolonialismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eroberung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Eroberer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herrscher",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herrschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaiser",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kaiserin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "König",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Königin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fürst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fürstentum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herzog",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Graf",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Adel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Monarch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Thron",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krone",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zepter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dynastie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Thronfolger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Untertan",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vasall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feudalismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leibeigenschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sklaverei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sklave",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Königshaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Residenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ritter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rüstung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schwert",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lanze",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Belagerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Feldzug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kreuzzug",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlacht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlachtfeld",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krieger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Söldner",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kerker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stadttor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fackel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kutsche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Chronik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Chronist",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Handschrift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pergament",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schriftrolle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Siegel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wappen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Archiv",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Inschrift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hieroglyphe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Keilschrift",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überlieferung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Legende",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mythos",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mythologie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Folklore",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brauchtum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ritual",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeremonie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tracht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Volkslied",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gilde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mahnmal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gedenken",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gedenktag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gedenkstätte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weltkulturerbe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vermächtnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Andenken",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nostalgie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erbstück",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Freilichtmuseum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorfahre",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ahne",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachkomme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachwelt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stammbaum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abstammung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ahnenforschung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Archäologie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Archäologe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausgrabung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fund",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fundstück",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Artefakt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Relikt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überrest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grabmal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mumie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pyramide",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Amphitheater",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fachwerkhaus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abtei",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kathedrale",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pilger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reliquie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pest",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Völkerwanderung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entdecker",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entdeckung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Seefahrer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Seefahrt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Expedition",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zeitzeuge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jahrestag",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verfall",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Untergang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Blütezeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wendepunkt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meilenstein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nachkriegszeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wiedervereinigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Teilung",
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "slug": "philosophie",
+    "title": "Philosophie & Denken",
+    "emoji": "🧠",
+    "words": [
+      {
+        "lemma": "Begriff",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anschauung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Urteilskraft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlussfolgerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Folgerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prämisse",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Antithese",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Synthese",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Axiom",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Logik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Tugend",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Laster",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wille",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Willensfreiheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Determinismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Existenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dasein",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wesen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Materie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weltbild",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Metaphysik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ontologie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erkenntnistheorie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dialektik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beweisführung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Widerlegung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Notwendigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wirklichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Täuschung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Illusion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unwissenheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weisheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kohärenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Paradoxon",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dilemma",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trugschluss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fehlschluss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Denkfehler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verallgemeinerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unterscheidung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Definition",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kategorie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Maßstab",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wertung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unsinn",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Beweggrund",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Grundsatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Maxime",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Imperativ",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Würde",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Autonomie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Selbstbestimmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Individuum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Subjekt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Objekt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Subjektivität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Relativismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nihilismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Idealismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Materialismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rationalismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Empirismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Humanismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Utilitarismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Pragmatismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufklärung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reflexion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Betrachtung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kontemplation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Intuition",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Empfindung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Affekt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Trieb",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Streben",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Endlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unendlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ewigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vergänglichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unsterblichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leere",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ganzheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dualismus",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gegensatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Analogie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Allegorie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Deutung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auslegung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hermeneutik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Disput",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Polemik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Plausibilität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stichhaltigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Evidenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herleitung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ableitung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Deduktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Induktion",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Denkweise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Denkansatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gedankengang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gedankenexperiment",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dogma",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Doktrin",
+        "pos": "noun"
+      },
+      {
+        "lemma": "entkräften",
+        "pos": "verb"
+      },
+      {
+        "lemma": "voraussetzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "reflektieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "sinnieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nachsinnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "philosophieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "auslegen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "deuten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "postulieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "implizieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bejahen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verneinen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "negieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "konstatieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "resümieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "mutmaßen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ergründen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "durchdenken",
+        "pos": "verb"
+      },
+      {
+        "lemma": "präzisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "konkretisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "disputieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "polemisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erfassen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erschließen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "besinnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vergegenwärtigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "rational",
+        "pos": "adj"
+      },
+      {
+        "lemma": "irrational",
+        "pos": "adj"
+      },
+      {
+        "lemma": "folgerichtig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "konsistent",
+        "pos": "adj"
+      },
+      {
+        "lemma": "inkonsistent",
+        "pos": "adj"
+      },
+      {
+        "lemma": "kohärent",
+        "pos": "adj"
+      },
+      {
+        "lemma": "metaphysisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "ethisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unmoralisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "tugendhaft",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sittlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "universell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "allgemeingültig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "spekulativ",
+        "pos": "adj"
+      },
+      {
+        "lemma": "dogmatisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "existenziell",
+        "pos": "adj"
+      },
+      {
+        "lemma": "denkbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "undenkbar",
+        "pos": "adj"
+      },
+      {
+        "lemma": "begrifflich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gedanklich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "triftig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unbegründet",
+        "pos": "adj"
+      },
+      {
+        "lemma": "haltlos",
+        "pos": "adj"
+      },
+      {
+        "lemma": "trügerisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vermeintlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "mutmaßlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "offenkundig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "evident",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zwingend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "vergänglich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "sterblich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unsterblich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "abwegig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unumstößlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "strittig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "unstrittig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "besonnen",
+        "pos": "adj"
+      },
+      {
+        "lemma": "scharfsinnig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "tiefgründig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "widersinnig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "paradox",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "slug": "meinung",
+    "title": "Meinung & Diskussion",
+    "emoji": "💬",
+    "words": [
+      {
+        "lemma": "Argument",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ansicht",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kritik",
+        "pos": "noun"
+      },
+      {
+        "lemma": "betonen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Aussage",
+        "pos": "noun"
+      },
+      {
+        "lemma": "zugeben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Standpunkt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Meinungsaustausch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "widersprechen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "argumentieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Gegenargument",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einwand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "einwenden",
+        "pos": "verb"
+      },
+      {
+        "lemma": "hervorheben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Stellungnahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "äußern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Äußerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auffassung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Überzeugung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "überzeugend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "überzeugt",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Vermutung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Annahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Behauptung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "anzweifeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Feststellung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "beurteilen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bewerten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Bewertung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zustimmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lob",
+        "pos": "noun"
+      },
+      {
+        "lemma": "debattieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Debatte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "nachgeben",
+        "pos": "verb"
+      },
+      {
+        "lemma": "widerlegen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "befürworten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bestreiten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "hinzufügen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abwägen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "These",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Begründung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Haltung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sichtweise",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Skepsis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "skeptisch",
+        "pos": "adj"
+      },
+      {
+        "lemma": "subjektiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "objektiv",
+        "pos": "adj"
+      },
+      {
+        "lemma": "hingegen",
+        "pos": "adv"
+      }
+    ]
+  },
+  {
+    "slug": "abstrakt",
+    "title": "Abstrakte Begriffe",
+    "emoji": "💭",
+    "words": [
+      {
+        "lemma": "berücksichtigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "gewährleisten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nachvollziehen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "ermöglichen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verfügen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "einschätzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "umsetzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beitragen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bewältigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "beabsichtigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "wahrnehmen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "verhalten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "vorgehen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erfolgen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "nutzen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "abhängen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "feststellen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "betrachten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erfordern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erzielen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "Auswirkung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Maßnahme",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einschätzung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umsetzung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anpassung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aspekt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Faktor",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ansatz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bedürfnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anforderung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wahrnehmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vorgehen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ergebnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Folge",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufwand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nutzen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abhängigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einfluss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bedingung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Merkmal",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kriterium",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Perspektive",
+        "pos": "noun"
+      },
+      {
+        "lemma": "zunehmend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "entscheidend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "umstritten",
+        "pos": "adj"
+      },
+      {
+        "lemma": "eindeutig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "offensichtlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "gering",
+        "pos": "adj"
+      },
+      {
+        "lemma": "aufwendig",
+        "pos": "adj"
+      },
+      {
+        "lemma": "zahlreich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "grundsätzlich",
+        "pos": "adj"
+      },
+      {
+        "lemma": "weitgehend",
+        "pos": "adj"
+      },
+      {
+        "lemma": "Zusammenhalt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wandel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umbruch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ausmaß",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Umfang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Basis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Prinzip",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konzept",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Struktur",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rahmen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kontext",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bemerkung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Anmerkung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hinweis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Andeutung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Respekt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Misstrauen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gewissheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Unsicherheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Klarheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verständigung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Dialog",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Absprache",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abmachung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konsequenz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wirkung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stellenwert",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Relevanz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gemeinschaft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bürger",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Öffentlichkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Institution",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Organisation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Nation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Volk",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Herkunft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Migration",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Vielfalt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ungerechtigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Norm",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Moral",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Identität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zugehörigkeit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Generation",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jugend",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Armut",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Reichtum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wohlstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ungleichheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Milieu",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Solidarität",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Epoche",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jahrhundert",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jahrzehnt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ereignis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krieg",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frieden",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Revolution",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wende",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Einheit",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Erinnerung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gedächtnis",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ursprung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Entstehung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rückschritt",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Niedergang",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bestimmung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Regelung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "erwähnen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "andeuten",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schildern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "gestehen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "unterstellen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "folgern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "schlussfolgern",
+        "pos": "verb"
+      },
+      {
+        "lemma": "erwägen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "thematisieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "hinterfragen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "appellieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "plädieren",
+        "pos": "verb"
+      },
+      {
+        "lemma": "bemängeln",
+        "pos": "verb"
+      },
+      {
+        "lemma": "würdigen",
+        "pos": "verb"
+      },
+      {
+        "lemma": "anerkennen",
+        "pos": "verb"
       }
     ]
   },
@@ -10613,6 +27790,238 @@ export const THEMES: Theme[] = [
       {
         "lemma": "halt",
         "pos": "adv"
+      },
+      {
+        "lemma": "Vorratskammer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Kehrschaufel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wischmopp",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Putzlappen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Putzmittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spülmittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Weichspüler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Waschmittel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fussel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krümel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Staubsaugerbeutel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verlängerungskabel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Mehrfachsteckdose",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Abfluss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sicherung",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zählerstand",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stromverbrauch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Heizkosten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Thermostat",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schimmel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Zugluft",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Rollladen",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Jalousie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fensterbank",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Lichtschalter",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Türklinke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Türschloss",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Ersatzschlüssel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Schlüsseldienst",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Fußmatte",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wäscheständer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wäscheklammer",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wäschekorb",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Wäscheleine",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Bügelbrett",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frühjahrsputz",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Haushaltshilfe",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Verbandskasten",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Hausapotheke",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Brotdose",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Frischhaltefolie",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Haltbarkeitsdatum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Aufstrich",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Konserve",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sparschäler",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Auflaufform",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Spülbecken",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Geschirrtuch",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Küchenrolle",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Müllbeutel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Stauraum",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Krimskrams",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Gerümpel",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Sperrmüll",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Altglas",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Restmüll",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Biomüll",
+        "pos": "noun"
+      },
+      {
+        "lemma": "Leergut",
+        "pos": "noun"
       }
     ]
   }

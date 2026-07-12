@@ -80,6 +80,22 @@ export const MIGRATIONS: string[] = [
   `
   ALTER TABLE user_saved_words ADD COLUMN source TEXT NOT NULL DEFAULT 'manual';
   `,
+  // v5 — spaced repetition for grammar topics. Keyed by the topic SLUG, a
+  // stable natural key, so no content-swap remap is needed (topic ids are not
+  // stable across builds; slugs are). One SM-2 card per topic, rescheduled
+  // from each completed quiz round's accuracy.
+  `
+  CREATE TABLE IF NOT EXISTS grammar_srs (
+    slug TEXT PRIMARY KEY,
+    ease REAL NOT NULL DEFAULT 2.5,
+    interval_days REAL NOT NULL DEFAULT 0,
+    reps INTEGER NOT NULL DEFAULT 0,
+    lapses INTEGER NOT NULL DEFAULT 0,
+    due_at TEXT NOT NULL,
+    last_reviewed_at TEXT
+  );
+  CREATE INDEX IF NOT EXISTS idx_grammar_srs_due ON grammar_srs(due_at);
+  `,
 ];
 
 export async function runMigrations(db: SQLiteDatabase): Promise<void> {

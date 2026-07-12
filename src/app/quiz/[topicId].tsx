@@ -1,7 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Haptics from 'expo-haptics';
 import { router, useLocalSearchParams } from 'expo-router';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   Pressable,
   ScrollView,
@@ -18,6 +18,7 @@ import Animated, {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getTopic, logAttempt, pickQuestions, type QuestionRow, type TopicRow } from '@/db/grammarRepo';
+import { applyTopicResult } from '@/db/grammarSrsRepo';
 import {
   gradeCaseId,
   gradeFillBlank,
@@ -65,6 +66,9 @@ export default function QuizScreen() {
   const shake = useSharedValue(0);
   const shakeStyle = useAnimatedStyle(() => ({ transform: [{ translateX: shake.value }] }));
 
+  // Reschedule the topic's SRS card once per finished round.
+  const gradedRef = useRef(false);
+
   useEffect(() => {
     if (!Number.isFinite(id)) return;
     getTopic(id).then((topicRow) => {
@@ -73,10 +77,20 @@ export default function QuizScreen() {
       setShowExplainer(firstVisit);
       setIntroExplainer(firstVisit);
     });
+    gradedRef.current = false;
     pickQuestions(id, ROUND_SIZE).then(setQuestions);
   }, [id]);
 
   const question = questions?.[index];
+
+  // Round finished (advanced past the last question): grade the topic once.
+  useEffect(() => {
+    if (!topic || !questions || questions.length === 0) return;
+    if (index >= questions.length && !gradedRef.current) {
+      gradedRef.current = true;
+      applyTopicResult(topic.slug, correctCount, questions.length, new Date()).catch(() => {});
+    }
+  }, [index, questions, topic, correctCount]);
 
   const submit = async (correct: boolean, detail: string, answer: unknown, nearMiss = false) => {
     if (!question || feedback) return;
@@ -169,6 +183,7 @@ export default function QuizScreen() {
               setIndex(0);
               setCorrectCount(0);
               setFeedback(null);
+              gradedRef.current = false;
               pickQuestions(id, ROUND_SIZE).then(setQuestions);
             }}
             style={[styles.cta, { backgroundColor: t.primaryDim }]}>

@@ -81,6 +81,19 @@ export default function PracticeScreen() {
         </Card>
       </TourTarget>
 
+      <Card style={styles.themes} onPress={() => router.push('/themes')}>
+        <View style={[styles.themesIcon, { backgroundColor: t.accentDim }]}>
+          <AppText style={{ fontSize: 20 }}>🗂️</AppText>
+        </View>
+        <View style={{ flex: 1 }}>
+          <AppText variant="subtitle">Themen</AppText>
+          <AppText variant="secondary" muted style={{ marginTop: 2 }}>
+            Wortschatz nach Thema lernen
+          </AppText>
+        </View>
+        <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
+      </Card>
+
       <AppText variant="label" muted style={{ marginTop: spacing.xl, marginBottom: spacing.sm }}>
         {dueSlugs.size > 0 ? `Grammatik · ${dueSlugs.size} fällig` : 'Grammatik'}
       </AppText>
@@ -163,6 +176,14 @@ const styles = StyleSheet.create({
     gap: spacing.md,
     marginTop: spacing.lg,
     borderWidth: 0,
+  },
+  themes: { flexDirection: 'row', alignItems: 'center', gap: spacing.md, marginTop: spacing.md },
+  themesIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   levelHeader: { marginTop: spacing.lg, marginBottom: spacing.sm },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.md },

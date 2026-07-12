@@ -1,0 +1,506 @@
+[
+  {
+    "lemma": "rächen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2850,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to avenge", "note": "sich rächen = to take revenge", "example_de": "Er will sich für die Lüge rächen.", "example_en": "He wants to take revenge for the lie." }
+    ]
+  },
+  {
+    "lemma": "flicken",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2950,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to mend, to patch", "example_de": "Opa flickt den Reifen vom Fahrrad.", "example_en": "Grandpa is patching the bicycle tire." }
+    ]
+  },
+  {
+    "lemma": "gleiten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2800,
+    "verb": { "aux": "sein", "praeteritum": "glitt", "partizip2": "geglitten" },
+    "senses": [
+      { "en": "to glide, to slide", "example_de": "Das Boot gleitet über das Wasser.", "example_en": "The boat glides over the water." }
+    ]
+  },
+  {
+    "lemma": "schweben",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2750,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to float, to hover", "example_de": "Der Ballon schwebt über der Stadt.", "example_en": "The balloon hovers above the city." }
+    ]
+  },
+  {
+    "lemma": "zielen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2400,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to aim", "note": "zielen auf + Akkusativ", "example_de": "Er zielt auf die Mitte der Scheibe.", "example_en": "He aims at the middle of the target." }
+    ]
+  },
+  {
+    "lemma": "schütten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2300,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to pour, to dump", "example_de": "Sie schüttet das Wasser in den Eimer.", "example_en": "She pours the water into the bucket." }
+    ]
+  },
+  {
+    "lemma": "strömen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2700,
+    "verb": { "aux": "sein" },
+    "senses": [
+      { "en": "to stream, to pour, to flow", "example_de": "Die Menschen strömen in das Stadion.", "example_en": "The people are streaming into the stadium." }
+    ]
+  },
+  {
+    "lemma": "duften",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2500,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to smell nice", "note": "duften nach = to smell of", "example_de": "Die Blumen duften wunderbar.", "example_en": "The flowers smell wonderful." }
+    ]
+  },
+  {
+    "lemma": "rosten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2900,
+    "verb": { "aux": "sein" },
+    "senses": [
+      { "en": "to rust", "example_de": "Das alte Fahrrad rostet im Regen.", "example_en": "The old bicycle is rusting in the rain." }
+    ]
+  },
+  {
+    "lemma": "explodieren",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2350,
+    "verb": { "aux": "sein" },
+    "senses": [
+      { "en": "to explode", "example_de": "Die Bombe ist nicht explodiert.", "example_en": "The bomb did not explode." }
+    ]
+  },
+  {
+    "lemma": "knallen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2850,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to bang, to pop", "example_de": "Die Tür knallt im Wind.", "example_en": "The door bangs in the wind." }
+    ]
+  },
+  {
+    "lemma": "leuchten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 2100,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to shine, to glow", "example_de": "Die Sterne leuchten am Himmel.", "example_en": "The stars shine in the sky." }
+    ]
+  },
+  {
+    "lemma": "funkeln",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2950,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to sparkle, to twinkle", "example_de": "Der Ring funkelt in der Sonne.", "example_en": "The ring sparkles in the sun." }
+    ]
+  },
+  {
+    "lemma": "glühen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2900,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to glow", "example_de": "Die Kohle glüht noch im Grill.", "example_en": "The coal is still glowing in the barbecue." }
+    ]
+  },
+  {
+    "lemma": "spiegeln",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2800,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to mirror, to reflect", "note": "sich spiegeln in + Dativ", "example_de": "Die Berge spiegeln sich im See.", "example_en": "The mountains are reflected in the lake." }
+    ]
+  },
+  {
+    "lemma": "schrubben",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2980,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to scrub", "example_de": "Er schrubbt den Boden der Küche.", "example_en": "He scrubs the kitchen floor." }
+    ]
+  },
+  {
+    "lemma": "polieren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2970,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to polish", "example_de": "Sie poliert das alte Silber.", "example_en": "She polishes the old silver." }
+    ]
+  },
+  {
+    "lemma": "lösen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1300,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to solve (a problem, a task)", "example_de": "Wir haben das Problem gelöst.", "example_en": "We solved the problem." },
+      { "en": "to loosen, to undo", "example_de": "Er löst den Knoten im Seil.", "example_en": "He undoes the knot in the rope." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Sie löst die Aufgabe ohne Hilfe.", "en": "She solves the task without help." },
+      { "tag": "perfekt", "de": "Hast du das Rätsel gelöst?", "en": "Have you solved the riddle?" }
+    ]
+  },
+  {
+    "lemma": "schleifen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2920,
+    "verb": { "aux": "haben", "praeteritum": "schliff", "partizip2": "geschliffen" },
+    "senses": [
+      { "en": "to grind, to sharpen, to sand", "example_de": "Der Koch schleift das Messer.", "example_en": "The cook sharpens the knife." }
+    ]
+  },
+  {
+    "lemma": "melken",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2990,
+    "verb": { "aux": "haben", "partizip2": "gemolken" },
+    "senses": [
+      { "en": "to milk", "example_de": "Der Bauer melkt die Kühe am Morgen.", "example_en": "The farmer milks the cows in the morning." }
+    ]
+  },
+  {
+    "lemma": "züchten",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2880,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to breed, to grow (animals, plants)", "example_de": "Mein Onkel züchtet Hunde.", "example_en": "My uncle breeds dogs." }
+    ]
+  },
+  {
+    "lemma": "grob",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2200,
+    "adj": { "comparative": "gröber", "superlative": "gröbst" },
+    "senses": [
+      { "en": "coarse, rough; rude", "example_de": "Sei nicht so grob zu deinem Bruder!", "example_en": "Don't be so rough with your brother!" }
+    ]
+  },
+  {
+    "lemma": "brutal",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2450,
+    "senses": [
+      { "en": "brutal", "example_de": "Der Film ist mir zu brutal.", "example_en": "The film is too brutal for me." }
+    ]
+  },
+  {
+    "lemma": "grausam",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2600,
+    "senses": [
+      { "en": "cruel", "example_de": "Der König war grausam zu seinem Volk.", "example_en": "The king was cruel to his people." }
+    ]
+  },
+  {
+    "lemma": "schlau",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1800,
+    "senses": [
+      { "en": "clever, smart", "example_de": "Der Fuchs ist ein schlaues Tier.", "example_en": "The fox is a clever animal." }
+    ]
+  },
+  {
+    "lemma": "fair",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2000,
+    "senses": [
+      { "en": "fair", "example_de": "Der Lehrer ist streng, aber fair.", "example_en": "The teacher is strict but fair." }
+    ]
+  },
+  {
+    "lemma": "unfair",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2300,
+    "senses": [
+      { "en": "unfair", "example_de": "Die Entscheidung war unfair.", "example_en": "The decision was unfair." }
+    ]
+  },
+  {
+    "lemma": "verschwenderisch",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2990,
+    "senses": [
+      { "en": "wasteful, extravagant", "example_de": "Sein verschwenderischer Lebensstil kostet viel Geld.", "example_en": "His extravagant lifestyle costs a lot of money." }
+    ]
+  },
+  {
+    "lemma": "unzuverlässig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2550,
+    "senses": [
+      { "en": "unreliable", "example_de": "Der Bus ist leider unzuverlässig.", "example_en": "Unfortunately the bus is unreliable." }
+    ]
+  },
+  {
+    "lemma": "oberflächlich",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2500,
+    "senses": [
+      { "en": "superficial, shallow", "example_de": "Seine Antwort war sehr oberflächlich.", "example_en": "His answer was very superficial." }
+    ]
+  },
+  {
+    "lemma": "ernsthaft",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1900,
+    "senses": [
+      { "en": "serious, earnest", "example_de": "Wir müssen ernsthaft über das Problem reden.", "example_en": "We have to talk seriously about the problem." }
+    ]
+  },
+  {
+    "lemma": "albern",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2700,
+    "senses": [
+      { "en": "silly", "example_de": "Die Kinder machen alberne Witze.", "example_en": "The children make silly jokes." }
+    ]
+  },
+  {
+    "lemma": "aufregend",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1600,
+    "senses": [
+      { "en": "exciting", "example_de": "Die Reise war sehr aufregend.", "example_en": "The trip was very exciting." }
+    ]
+  },
+  {
+    "lemma": "beruhigend",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2650,
+    "senses": [
+      { "en": "calming, reassuring", "example_de": "Die Musik hat eine beruhigende Wirkung.", "example_en": "The music has a calming effect." }
+    ]
+  },
+  {
+    "lemma": "munter",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2750,
+    "senses": [
+      { "en": "lively, awake, cheerful", "example_de": "Nach dem Kaffee war ich wieder munter.", "example_en": "After the coffee I was wide awake again." }
+    ]
+  },
+  {
+    "lemma": "schläfrig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2400,
+    "senses": [
+      { "en": "sleepy, drowsy", "example_de": "Nach dem Essen bin ich immer schläfrig.", "example_en": "After eating I am always sleepy." }
+    ]
+  },
+  {
+    "lemma": "blind",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1700,
+    "senses": [
+      { "en": "blind", "example_de": "Der alte Hund ist fast blind.", "example_en": "The old dog is almost blind." }
+    ]
+  },
+  {
+    "lemma": "taub",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2350,
+    "senses": [
+      { "en": "deaf; numb", "example_de": "Meine Oma ist auf einem Ohr taub.", "example_en": "My grandma is deaf in one ear." }
+    ]
+  },
+  {
+    "lemma": "stumm",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2450,
+    "senses": [
+      { "en": "mute, silent", "example_de": "Er blieb während des Streits stumm.", "example_en": "He remained silent during the argument." }
+    ]
+  },
+  {
+    "lemma": "lahm",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2800,
+    "senses": [
+      { "en": "lame; slow, dull (colloquial)", "example_de": "Das Pferd ist auf einem Bein lahm.", "example_en": "The horse is lame in one leg." }
+    ]
+  },
+  {
+    "lemma": "tot",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1100,
+    "senses": [
+      { "en": "dead", "example_de": "Die Pflanze ist leider tot.", "example_en": "Unfortunately the plant is dead." }
+    ]
+  },
+  {
+    "lemma": "lebendig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1950,
+    "senses": [
+      { "en": "alive, lively", "example_de": "Der Fisch ist noch lebendig.", "example_en": "The fish is still alive." }
+    ]
+  },
+  {
+    "lemma": "essbar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2600,
+    "senses": [
+      { "en": "edible", "example_de": "Ist dieser Pilz essbar?", "example_en": "Is this mushroom edible?" }
+    ]
+  },
+  {
+    "lemma": "trinkbar",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2850,
+    "senses": [
+      { "en": "drinkable", "example_de": "Das Wasser aus dem Fluss ist nicht trinkbar.", "example_en": "The water from the river is not drinkable." }
+    ]
+  },
+  {
+    "lemma": "tödlich",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2400,
+    "senses": [
+      { "en": "deadly, fatal", "example_de": "Das Gift der Schlange ist tödlich.", "example_en": "The snake's venom is deadly." }
+    ]
+  },
+  {
+    "lemma": "ungewöhnlich",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1750,
+    "senses": [
+      { "en": "unusual", "example_de": "Das ist eine ungewöhnliche Frage.", "example_en": "That is an unusual question." }
+    ]
+  },
+  {
+    "lemma": "normal",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 700,
+    "senses": [
+      { "en": "normal", "example_de": "Das ist doch ganz normal.", "example_en": "That is completely normal." }
+    ]
+  },
+  {
+    "lemma": "unvernünftig",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2750,
+    "senses": [
+      { "en": "unreasonable, foolish", "example_de": "Es ist unvernünftig, ohne Jacke rauszugehen.", "example_en": "It is unreasonable to go out without a jacket." }
+    ]
+  },
+  {
+    "lemma": "unlogisch",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2700,
+    "senses": [
+      { "en": "illogical", "example_de": "Deine Antwort ist unlogisch.", "example_en": "Your answer is illogical." }
+    ]
+  },
+  {
+    "lemma": "absurd",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2650,
+    "senses": [
+      { "en": "absurd", "example_de": "Die Idee klingt absurd, aber sie funktioniert.", "example_en": "The idea sounds absurd, but it works." }
+    ]
+  },
+  {
+    "lemma": "persönlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 750,
+    "senses": [
+      { "en": "personal; in person", "example_de": "Das ist meine persönliche Meinung.", "example_en": "That is my personal opinion." }
+    ]
+  },
+  {
+    "lemma": "manuell",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2900,
+    "senses": [
+      { "en": "manual, by hand", "example_de": "Die Maschine muss man manuell starten.", "example_en": "You have to start the machine manually." }
+    ]
+  },
+  {
+    "lemma": "analog",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2880,
+    "senses": [
+      { "en": "analog", "example_de": "Mein Opa fotografiert noch analog.", "example_en": "My grandpa still takes analog photos." }
+    ]
+  }
+]

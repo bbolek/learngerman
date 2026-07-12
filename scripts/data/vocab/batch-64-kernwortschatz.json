@@ -1,0 +1,752 @@
+[
+  {
+    "lemma": "Weg",
+    "pos": "noun",
+    "level": "A1",
+    "freq": 120,
+    "noun": { "gender": "m", "plural": "Wege", "genitive": "Weges" },
+    "senses": [
+      { "en": "way, path, route", "note": "auf dem Weg = on the way", "example_de": "Der Weg zum Bahnhof ist kurz.", "example_en": "The way to the station is short." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Im Park gibt es viele schöne Wege.", "en": "There are many nice paths in the park." }
+    ]
+  },
+  {
+    "lemma": "Fall",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 400,
+    "noun": { "gender": "m", "plural": "Fälle", "genitive": "Falles" },
+    "senses": [
+      { "en": "case, instance", "note": "auf jeden Fall = definitely, in any case", "example_de": "In diesem Fall hast du recht.", "example_en": "In this case you are right." }
+    ]
+  },
+  {
+    "lemma": "Tatsache",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 900,
+    "noun": { "gender": "f", "plural": "Tatsachen" },
+    "senses": [
+      { "en": "fact", "example_de": "Das ist eine bekannte Tatsache.", "example_en": "That is a well-known fact." }
+    ]
+  },
+  {
+    "lemma": "Linie",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 700,
+    "noun": { "gender": "f", "plural": "Linien" },
+    "senses": [
+      { "en": "line; (bus/train) route", "example_de": "Die Linie 8 fährt zum Flughafen.", "example_en": "Line 8 goes to the airport." }
+    ]
+  },
+  {
+    "lemma": "Zeile",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1600,
+    "noun": { "gender": "f", "plural": "Zeilen" },
+    "senses": [
+      { "en": "line (of text), row", "example_de": "Lies bitte die erste Zeile.", "example_en": "Please read the first line." }
+    ]
+  },
+  {
+    "lemma": "Niveau",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1500,
+    "noun": { "gender": "n", "plural": "Niveaus" },
+    "senses": [
+      { "en": "level, standard", "example_de": "Ihr Deutsch hat ein hohes Niveau.", "example_en": "Her German is at a high level." }
+    ]
+  },
+  {
+    "lemma": "Ebene",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1400,
+    "noun": { "gender": "f", "plural": "Ebenen" },
+    "senses": [
+      { "en": "level (figurative)", "example_de": "Das Problem liegt auf einer anderen Ebene.", "example_en": "The problem lies on a different level." },
+      { "en": "plain, flat land", "example_de": "Das Land ist hier eine weite Ebene.", "example_en": "The land here is a wide plain." }
+    ]
+  },
+  {
+    "lemma": "System",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 800,
+    "noun": { "gender": "n", "plural": "Systeme" },
+    "senses": [
+      { "en": "system", "example_de": "Das neue System funktioniert gut.", "example_en": "The new system works well." }
+    ]
+  },
+  {
+    "lemma": "Bereich",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1000,
+    "noun": { "gender": "m", "plural": "Bereiche" },
+    "senses": [
+      { "en": "area, field, sector", "example_de": "Sie arbeitet im Bereich Marketing.", "example_en": "She works in the field of marketing." }
+    ]
+  },
+  {
+    "lemma": "Möglichkeit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 500,
+    "noun": { "gender": "f", "plural": "Möglichkeiten" },
+    "senses": [
+      { "en": "possibility, option, opportunity", "example_de": "Es gibt zwei Möglichkeiten.", "example_en": "There are two options." }
+    ],
+    "examples": [
+      { "tag": "plural", "de": "Die Stadt bietet viele Möglichkeiten für Sport.", "en": "The city offers many opportunities for sports." }
+    ]
+  },
+  {
+    "lemma": "Sinn",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 950,
+    "noun": { "gender": "m", "plural": "Sinne", "genitive": "Sinnes" },
+    "senses": [
+      { "en": "sense; meaning, point", "note": "das ergibt Sinn = that makes sense", "example_de": "Das ergibt keinen Sinn.", "example_en": "That makes no sense." }
+    ]
+  },
+  {
+    "lemma": "Macht",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1100,
+    "noun": { "gender": "f", "plural": "Mächte" },
+    "senses": [
+      { "en": "power", "example_de": "Die Regierung hat viel Macht.", "example_en": "The government has a lot of power." }
+    ]
+  },
+  {
+    "lemma": "Fläche",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": { "gender": "f", "plural": "Flächen" },
+    "senses": [
+      { "en": "area, surface", "example_de": "Der Tisch hat eine große Fläche.", "example_en": "The table has a large surface." }
+    ]
+  },
+  {
+    "lemma": "Anzahl",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1700,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "number, quantity", "example_de": "Die Anzahl der Schüler steigt.", "example_en": "The number of pupils is rising." }
+    ]
+  },
+  {
+    "lemma": "Sorte",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1300,
+    "noun": { "gender": "f", "plural": "Sorten" },
+    "senses": [
+      { "en": "kind, sort, variety", "example_de": "Welche Sorte Äpfel magst du?", "example_en": "Which kind of apples do you like?" }
+    ]
+  },
+  {
+    "lemma": "Form",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 750,
+    "noun": { "gender": "f", "plural": "Formen" },
+    "senses": [
+      { "en": "shape, form", "example_de": "Der Ball hat eine runde Form.", "example_en": "The ball has a round shape." }
+    ]
+  },
+  {
+    "lemma": "Länge",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1450,
+    "noun": { "gender": "f", "plural": "Längen" },
+    "senses": [
+      { "en": "length", "example_de": "Der Tisch hat eine Länge von zwei Metern.", "example_en": "The table has a length of two meters." }
+    ]
+  },
+  {
+    "lemma": "Breite",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1800,
+    "noun": { "gender": "f", "plural": "Breiten" },
+    "senses": [
+      { "en": "width", "example_de": "Die Straße hat eine Breite von zehn Metern.", "example_en": "The street has a width of ten meters." }
+    ]
+  },
+  {
+    "lemma": "Höhe",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1200,
+    "noun": { "gender": "f", "plural": "Höhen" },
+    "senses": [
+      { "en": "height", "example_de": "Der Berg hat eine Höhe von 2000 Metern.", "example_en": "The mountain has a height of 2000 meters." },
+      { "en": "amount (of money)", "note": "in Höhe von = amounting to", "example_de": "Die Rechnung hat eine Höhe von 50 Euro.", "example_en": "The bill amounts to 50 euros." }
+    ]
+  },
+  {
+    "lemma": "Tiefe",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1850,
+    "noun": { "gender": "f", "plural": "Tiefen" },
+    "senses": [
+      { "en": "depth", "example_de": "Der See hat eine Tiefe von 30 Metern.", "example_en": "The lake has a depth of 30 meters." }
+    ]
+  },
+  {
+    "lemma": "Entfernung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1500,
+    "noun": { "gender": "f", "plural": "Entfernungen" },
+    "senses": [
+      { "en": "distance", "example_de": "Die Entfernung ist nicht groß.", "example_en": "The distance is not great." }
+    ]
+  },
+  {
+    "lemma": "Abstand",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1650,
+    "noun": { "gender": "m", "plural": "Abstände", "genitive": "Abstands" },
+    "senses": [
+      { "en": "distance, gap", "note": "Abstand halten = to keep one's distance", "example_de": "Bitte halten Sie Abstand.", "example_en": "Please keep your distance." }
+    ]
+  },
+  {
+    "lemma": "Inhalt",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1050,
+    "noun": { "gender": "m", "plural": "Inhalte" },
+    "senses": [
+      { "en": "content, contents", "example_de": "Der Inhalt des Buches ist spannend.", "example_en": "The content of the book is exciting." }
+    ]
+  },
+  {
+    "lemma": "Titel",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1350,
+    "noun": { "gender": "m", "plural": "Titel" },
+    "senses": [
+      { "en": "title", "example_de": "Wie ist der Titel des Films?", "example_en": "What is the title of the film?" }
+    ]
+  },
+  {
+    "lemma": "Symbol",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2000,
+    "noun": { "gender": "n", "plural": "Symbole" },
+    "senses": [
+      { "en": "symbol", "example_de": "Die Taube ist ein Symbol für Frieden.", "example_en": "The dove is a symbol of peace." }
+    ]
+  },
+  {
+    "lemma": "Geräusch",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1550,
+    "noun": { "gender": "n", "plural": "Geräusche" },
+    "senses": [
+      { "en": "noise, sound", "example_de": "Ich habe ein Geräusch gehört.", "example_en": "I heard a noise." }
+    ]
+  },
+  {
+    "lemma": "Stille",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2100,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "silence, stillness", "example_de": "Ich genieße die Stille am Morgen.", "example_en": "I enjoy the silence in the morning." }
+    ]
+  },
+  {
+    "lemma": "Dunkelheit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1600,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "darkness", "example_de": "Die Kinder haben Angst vor der Dunkelheit.", "example_en": "The children are afraid of the dark." }
+    ]
+  },
+  {
+    "lemma": "Oberfläche",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2050,
+    "noun": { "gender": "f", "plural": "Oberflächen" },
+    "senses": [
+      { "en": "surface", "example_de": "Die Oberfläche des Tisches ist glatt.", "example_en": "The surface of the table is smooth." }
+    ]
+  },
+  {
+    "lemma": "Plastik",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1400,
+    "noun": { "gender": "n", "plural": null },
+    "senses": [
+      { "en": "plastic", "example_de": "Die Flasche ist aus Plastik.", "example_en": "The bottle is made of plastic." }
+    ]
+  },
+  {
+    "lemma": "Flamme",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2150,
+    "noun": { "gender": "f", "plural": "Flammen" },
+    "senses": [
+      { "en": "flame", "example_de": "Die Flamme der Kerze ist klein.", "example_en": "The candle's flame is small." }
+    ]
+  },
+  {
+    "lemma": "Asche",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2400,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "ash, ashes", "example_de": "Nach dem Feuer blieb nur Asche.", "example_en": "After the fire only ashes remained." }
+    ]
+  },
+  {
+    "lemma": "Schmutz",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1750,
+    "noun": { "gender": "m", "plural": null, "genitive": "Schmutzes" },
+    "senses": [
+      { "en": "dirt", "example_de": "Auf dem Boden liegt viel Schmutz.", "example_en": "There is a lot of dirt on the floor." }
+    ]
+  },
+  {
+    "lemma": "Riss",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2300,
+    "noun": { "gender": "m", "plural": "Risse", "genitive": "Risses" },
+    "senses": [
+      { "en": "crack, tear", "example_de": "In der Wand ist ein Riss.", "example_en": "There is a crack in the wall." }
+    ]
+  },
+  {
+    "lemma": "Rat",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1150,
+    "noun": { "gender": "m", "plural": null, "genitive": "Rates" },
+    "senses": [
+      { "en": "advice", "note": "um Rat fragen = to ask for advice", "example_de": "Ich brauche deinen Rat.", "example_en": "I need your advice." }
+    ]
+  },
+  {
+    "lemma": "Auswahl",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 1250,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "selection, choice", "example_de": "Das Geschäft hat eine große Auswahl.", "example_en": "The shop has a large selection." }
+    ]
+  },
+  {
+    "lemma": "Entscheidung",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 600,
+    "noun": { "gender": "f", "plural": "Entscheidungen" },
+    "senses": [
+      { "en": "decision", "note": "eine Entscheidung treffen = to make a decision", "example_de": "Das war eine gute Entscheidung.", "example_en": "That was a good decision." }
+    ]
+  },
+  {
+    "lemma": "Eindruck",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1300,
+    "noun": { "gender": "m", "plural": "Eindrücke", "genitive": "Eindrucks" },
+    "senses": [
+      { "en": "impression", "example_de": "Er hat einen guten Eindruck gemacht.", "example_en": "He made a good impression." }
+    ]
+  },
+  {
+    "lemma": "Gewohnheit",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1600,
+    "noun": { "gender": "f", "plural": "Gewohnheiten" },
+    "senses": [
+      { "en": "habit", "example_de": "Frühes Aufstehen ist eine gute Gewohnheit.", "example_en": "Getting up early is a good habit." }
+    ]
+  },
+  {
+    "lemma": "Landwirtschaft",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 2200,
+    "noun": { "gender": "f", "plural": null },
+    "senses": [
+      { "en": "agriculture, farming", "example_de": "Viele Menschen arbeiten in der Landwirtschaft.", "example_en": "Many people work in agriculture." }
+    ]
+  },
+  {
+    "lemma": "Transport",
+    "pos": "noun",
+    "level": "B1",
+    "freq": 1900,
+    "noun": { "gender": "m", "plural": "Transporte" },
+    "senses": [
+      { "en": "transport, transportation", "example_de": "Der Transport der Möbel war teuer.", "example_en": "Transporting the furniture was expensive." }
+    ]
+  },
+  {
+    "lemma": "erschaffen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2800,
+    "verb": { "aux": "haben", "praeteritum": "erschuf", "partizip2": "erschaffen" },
+    "senses": [
+      { "en": "to create (a work, a world)", "example_de": "Der Künstler erschafft neue Welten.", "example_en": "The artist creates new worlds." }
+    ]
+  },
+  {
+    "lemma": "erstellen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1450,
+    "verb": { "aux": "haben", "partizip2": "erstellt" },
+    "senses": [
+      { "en": "to create, to produce (a document, a plan)", "example_de": "Ich erstelle eine Liste für den Einkauf.", "example_en": "I am creating a list for the shopping." }
+    ]
+  },
+  {
+    "lemma": "enthalten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1100,
+    "verb": { "aux": "haben", "du": "enthältst", "er": "enthält", "praeteritum": "enthielt", "partizip2": "enthalten" },
+    "senses": [
+      { "en": "to contain", "example_de": "Die Flasche enthält einen Liter Wasser.", "example_en": "The bottle contains one liter of water." }
+    ]
+  },
+  {
+    "lemma": "einschließen",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2600,
+    "verb": { "aux": "haben", "separablePrefix": "ein", "praeteritum": "schloss", "partizip2": "eingeschlossen" },
+    "senses": [
+      { "en": "to include", "example_de": "Der Preis schließt das Frühstück ein.", "example_en": "The price includes breakfast." },
+      { "en": "to lock in, to lock up", "example_de": "Sie schließt das Geld im Schrank ein.", "example_en": "She locks the money up in the cupboard." }
+    ]
+  },
+  {
+    "lemma": "bieten",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 950,
+    "verb": { "aux": "haben", "praeteritum": "bot", "partizip2": "geboten" },
+    "senses": [
+      { "en": "to offer, to provide", "example_de": "Das Hotel bietet ein gutes Frühstück.", "example_en": "The hotel offers a good breakfast." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Die Stadt bietet viele Museen.", "en": "The city offers many museums." },
+      { "tag": "perfekt", "de": "Man hat mir eine neue Stelle geboten.", "en": "I was offered a new position." }
+    ]
+  },
+  {
+    "lemma": "nennen",
+    "pos": "verb",
+    "level": "A2",
+    "freq": 550,
+    "verb": { "aux": "haben", "praeteritum": "nannte", "partizip2": "genannt" },
+    "senses": [
+      { "en": "to name, to call", "example_de": "Alle nennen ihn Max.", "example_en": "Everyone calls him Max." }
+    ],
+    "examples": [
+      { "tag": "präsens", "de": "Wie nennst du deine Katze?", "en": "What do you call your cat?" },
+      { "tag": "präteritum", "de": "Sie nannte drei Beispiele.", "en": "She named three examples." },
+      { "tag": "perfekt", "de": "Er hat seinen Namen nicht genannt.", "en": "He did not give his name." }
+    ]
+  },
+  {
+    "lemma": "unterscheiden",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1350,
+    "verb": { "aux": "haben", "praeteritum": "unterschied", "partizip2": "unterschieden" },
+    "senses": [
+      { "en": "to distinguish, to differentiate", "note": "sich unterscheiden von = to differ from", "example_de": "Die Zwillinge sind schwer zu unterscheiden.", "example_en": "The twins are hard to tell apart." }
+    ]
+  },
+  {
+    "lemma": "blicken",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1950,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to look, to glance", "example_de": "Sie blickt aus dem Fenster.", "example_en": "She looks out of the window." }
+    ]
+  },
+  {
+    "lemma": "starren",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2700,
+    "verb": { "aux": "haben" },
+    "senses": [
+      { "en": "to stare", "example_de": "Er starrt auf sein Handy.", "example_en": "He is staring at his phone." }
+    ]
+  },
+  {
+    "lemma": "angreifen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1700,
+    "verb": { "aux": "haben", "separablePrefix": "an", "praeteritum": "griff", "partizip2": "angegriffen" },
+    "senses": [
+      { "en": "to attack", "example_de": "Der Hund greift niemanden an.", "example_en": "The dog does not attack anyone." }
+    ]
+  },
+  {
+    "lemma": "berechnen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1800,
+    "verb": { "aux": "haben", "partizip2": "berechnet" },
+    "senses": [
+      { "en": "to calculate", "example_de": "Der Computer berechnet das Ergebnis.", "example_en": "The computer calculates the result." },
+      { "en": "to charge (a fee)", "example_de": "Die Bank berechnet hohe Gebühren.", "example_en": "The bank charges high fees." }
+    ]
+  },
+  {
+    "lemma": "ersetzen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1500,
+    "verb": { "aux": "haben", "partizip2": "ersetzt" },
+    "senses": [
+      { "en": "to replace", "example_de": "Wir müssen die alte Lampe ersetzen.", "example_en": "We have to replace the old lamp." }
+    ]
+  },
+  {
+    "lemma": "verteilen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1550,
+    "verb": { "aux": "haben", "partizip2": "verteilt" },
+    "senses": [
+      { "en": "to distribute, to hand out", "example_de": "Die Lehrerin verteilt die Blätter.", "example_en": "The teacher hands out the sheets." }
+    ]
+  },
+  {
+    "lemma": "bedecken",
+    "pos": "verb",
+    "level": "B2",
+    "freq": 2500,
+    "verb": { "aux": "haben", "partizip2": "bedeckt" },
+    "senses": [
+      { "en": "to cover", "example_de": "Schnee bedeckt die Straßen.", "example_en": "Snow covers the streets." }
+    ]
+  },
+  {
+    "lemma": "beschädigen",
+    "pos": "verb",
+    "level": "B1",
+    "freq": 1850,
+    "verb": { "aux": "haben", "partizip2": "beschädigt" },
+    "senses": [
+      { "en": "to damage", "example_de": "Der Sturm hat das Dach beschädigt.", "example_en": "The storm damaged the roof." }
+    ]
+  },
+  {
+    "lemma": "wahr",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 800,
+    "senses": [
+      { "en": "true", "note": "nicht wahr? = right?, isn't it?", "example_de": "Die Geschichte ist wahr.", "example_en": "The story is true." }
+    ]
+  },
+  {
+    "lemma": "gesamt",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1200,
+    "senses": [
+      { "en": "entire, whole, total", "example_de": "Die gesamte Familie war da.", "example_en": "The entire family was there." }
+    ]
+  },
+  {
+    "lemma": "fähig",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1750,
+    "senses": [
+      { "en": "capable, able", "note": "zu etwas fähig sein = to be capable of something", "example_de": "Sie ist eine sehr fähige Ärztin.", "example_en": "She is a very capable doctor." }
+    ]
+  },
+  {
+    "lemma": "bereit",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 850,
+    "senses": [
+      { "en": "ready, prepared", "note": "bereit zu = ready to", "example_de": "Das Essen ist bereit.", "example_en": "The food is ready." }
+    ]
+  },
+  {
+    "lemma": "gewiss",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2350,
+    "senses": [
+      { "en": "certain, sure", "example_de": "Ein gewisser Erfolg ist schon sichtbar.", "example_en": "A certain success is already visible." }
+    ]
+  },
+  {
+    "lemma": "einzeln",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 1400,
+    "senses": [
+      { "en": "individual, single, separate", "example_de": "Bitte zahlen Sie jede Rechnung einzeln.", "example_en": "Please pay each bill separately." }
+    ]
+  },
+  {
+    "lemma": "einzig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 900,
+    "senses": [
+      { "en": "only, sole", "example_de": "Sie ist das einzige Kind der Familie.", "example_en": "She is the only child in the family." }
+    ]
+  },
+  {
+    "lemma": "verschieden",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 650,
+    "senses": [
+      { "en": "different, various", "example_de": "Die Brüder sind sehr verschieden.", "example_en": "The brothers are very different." }
+    ]
+  },
+  {
+    "lemma": "eigen",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 700,
+    "senses": [
+      { "en": "own", "example_de": "Jedes Kind hat ein eigenes Zimmer.", "example_en": "Each child has their own room." }
+    ]
+  },
+  {
+    "lemma": "mager",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2900,
+    "senses": [
+      { "en": "lean, low-fat; meager", "example_de": "Er isst nur mageres Fleisch.", "example_en": "He only eats lean meat." }
+    ]
+  },
+  {
+    "lemma": "krumm",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2950,
+    "senses": [
+      { "en": "crooked, bent", "example_de": "Der alte Baum ist ganz krumm.", "example_en": "The old tree is all crooked." }
+    ]
+  },
+  {
+    "lemma": "lose",
+    "pos": "adj",
+    "level": "B2",
+    "freq": 2850,
+    "senses": [
+      { "en": "loose", "example_de": "Eine Schraube am Regal ist lose.", "example_en": "A screw on the shelf is loose." }
+    ]
+  },
+  {
+    "lemma": "wertlos",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2450,
+    "senses": [
+      { "en": "worthless", "example_de": "Das alte Geld ist heute wertlos.", "example_en": "The old money is worthless today." }
+    ]
+  },
+  {
+    "lemma": "nutzlos",
+    "pos": "adj",
+    "level": "B1",
+    "freq": 2400,
+    "senses": [
+      { "en": "useless", "example_de": "Ohne Strom ist die Lampe nutzlos.", "example_en": "Without electricity the lamp is useless." }
+    ]
+  },
+  {
+    "lemma": "unpraktisch",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 2100,
+    "senses": [
+      { "en": "impractical", "example_de": "Die große Tasche ist unpraktisch.", "example_en": "The big bag is impractical." }
+    ]
+  },
+  {
+    "lemma": "unbequem",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1900,
+    "senses": [
+      { "en": "uncomfortable", "example_de": "Der Stuhl ist sehr unbequem.", "example_en": "The chair is very uncomfortable." }
+    ]
+  },
+  {
+    "lemma": "unangenehm",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1500,
+    "senses": [
+      { "en": "unpleasant", "example_de": "Die Frage war mir unangenehm.", "example_en": "The question was unpleasant for me." }
+    ]
+  },
+  {
+    "lemma": "unruhig",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 1700,
+    "senses": [
+      { "en": "restless, uneasy", "example_de": "Das Kind war die ganze Nacht unruhig.", "example_en": "The child was restless all night." }
+    ]
+  },
+  {
+    "lemma": "unpünktlich",
+    "pos": "adj",
+    "level": "A2",
+    "freq": 2000,
+    "senses": [
+      { "en": "unpunctual, late", "example_de": "Der Bus ist oft unpünktlich.", "example_en": "The bus is often late." }
+    ]
+  }
+]

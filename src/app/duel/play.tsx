@@ -2,30 +2,76 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Haptics from 'expo-haptics';
 import { useKeepAwake } from 'expo-keep-awake';
 import { router } from 'expo-router';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { recordGameResult } from '@/db/gamesRepo';
 import { recordMistakes } from '@/db/mistakesRepo';
-import { duelRank, duelResults, duelStandings, HOST_ID, type DuelStanding } from '@/logic/duel';
+import {
+  duelRank,
+  duelResults,
+  duelStandings,
+  HOST_ID,
+  rankOf,
+  type DuelStanding,
+} from '@/logic/duel';
+import { gameInfo, shortGloss, type ChoiceQuestion, type ImageWord } from '@/logic/games';
 import { useDuel } from '@/store/duel';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { GameScreen } from '@/ui/components/GameFrame';
+import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 const MEDALS = ['🥇', '🥈', '🥉'];
 
-/** Tie-aware rank label per row: two 92s are both 🥇, the 80 below is 3. */
-function rankLabel(rows: DuelStanding[], row: DuelStanding): string {
-  const rank = 1 + rows.filter((r) => r.score > row.score).length;
-  return rank <= MEDALS.length ? MEDALS[rank - 1] : `${rank}.`;
+const PROMPTS: Record<string, string> = {
+  wortblitz: 'Was bedeutet das?',
+  derdiedas: 'Der, die oder das?',
+  bilderraetsel: 'Was ist das?',
+};
+
+function isImageQuestion(q: ChoiceQuestion): q is ChoiceQuestion<ImageWord> {
+  return typeof (q.word as ImageWord).svg === 'string';
 }
 
-export default function DuelWortblitzScreen() {
+/** One leaderboard row, shared by the live and the final list. */
+function StandingRow({
+  row,
+  badge,
+  detail,
+}: {
+  row: DuelStanding;
+  badge: string;
+  detail: string;
+}) {
+  const t = useTheme();
+  return (
+    <Card style={[styles.resultRow, row.isMe && { borderColor: t.primary, borderWidth: 1.5 }]}>
+      <AppText variant="subtitle" style={styles.rankBadge}>
+        {badge}
+      </AppText>
+      <AppText variant="subtitle" numberOfLines={1} style={{ flex: 1 }}>
+        {row.name}
+        {row.isMe ? ' · du' : ''}
+      </AppText>
+      <AppText variant="caption" muted>
+        {detail}
+      </AppText>
+      <AppText
+        variant="subtitle"
+        color={row.isMe ? t.primary : t.ink}
+        style={{ fontFamily: fonts.extrabold, minWidth: 44, textAlign: 'right' }}>
+        {row.score}
+      </AppText>
+    </Card>
+  );
+}
+
+export default function DuelPlayScreen() {
   useKeepAwake();
   const t = useTheme();
   const insets = useSafeAreaInsets();
@@ -45,6 +91,14 @@ export default function DuelWortblitzScreen() {
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   const phase = duel?.phase;
+
+  // Clock ticks re-render constantly — only rebuild the scoreboard when the
+  // actual scores change.
+  const standings = useMemo(
+    () => (duel ? duelStandings(duel) : []),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [duel?.me, duel?.peers, duel?.myId, duel?.myName]
+  );
 
   useEffect(() => () => timersRef.current.forEach(clearTimeout), []);
 
@@ -72,7 +126,7 @@ export default function DuelWortblitzScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase]);
 
-  // Round clock — wall-clock based like the solo game, so paused JS frames
+  // Round clock — wall-clock based like the solo games, so paused JS frames
   // can't stretch the round.
   useEffect(() => {
     if (phase !== 'playing') return;
@@ -92,7 +146,7 @@ export default function DuelWortblitzScreen() {
     recordMistakes(missedRef.current, new Date()).catch(() => {});
     recordGameResult(
       {
-        gameKey: 'wortblitz',
+        gameKey: duel.game,
         score: duel.me.score,
         correct: duel.me.correct,
         total: duel.me.total,
@@ -134,7 +188,6 @@ export default function DuelWortblitzScreen() {
     timersRef.current.push(timer);
   };
 
-  const standings = duelStandings(duel);
   const activeOthers = duel.peers.filter((p) => p.connected);
 
   // ---------- aborted (connection lost / we walked away) ----------
@@ -182,9 +235,9 @@ export default function DuelWortblitzScreen() {
             {headline.title}
           </AppText>
           <AppText variant="caption" muted style={{ marginTop: spacing.xs }}>
-            Beste Serie: {duel.me.bestStreak}
+            {gameInfo(duel.game).title} · Beste Serie: {duel.me.bestStreak}
             {duel.me.correct > 0
-              ? ` · ${(duel.durationMs / 1000 / duel.me.correct).toFixed(1)}s pro Wort`
+              ? ` · ${(duel.durationMs / 1000 / duel.me.correct).toFixed(1)}s pro Aufgabe`
               : ''}
           </AppText>
         </View>
@@ -192,28 +245,17 @@ export default function DuelWortblitzScreen() {
         <ScrollView
           style={styles.fill}
           contentContainerStyle={{ padding: spacing.lg, gap: spacing.sm }}>
-          {results.map((r) => (
-            <Card
-              key={r.id}
-              style={[styles.resultRow, r.isMe && { borderColor: t.primary, borderWidth: 1.5 }]}>
-              <AppText variant="subtitle" style={styles.rankBadge}>
-                {rankLabel(results, r)}
-              </AppText>
-              <AppText variant="subtitle" numberOfLines={1} style={{ flex: 1 }}>
-                {r.name}
-                {r.isMe ? ' (du)' : ''}
-              </AppText>
-              <AppText variant="caption" muted>
-                {r.correct}/{r.total}
-              </AppText>
-              <AppText
-                variant="subtitle"
-                color={r.isMe ? t.primary : t.ink}
-                style={{ fontFamily: fonts.extrabold, minWidth: 44, textAlign: 'right' }}>
-                {r.score}
-              </AppText>
-            </Card>
-          ))}
+          {results.map((r) => {
+            const rowRank = rankOf(results, r);
+            return (
+              <StandingRow
+                key={r.id}
+                row={r}
+                badge={rowRank <= MEDALS.length ? MEDALS[rowRank - 1] : `${rowRank}.`}
+                detail={`${r.correct}/${r.total}`}
+              />
+            );
+          })}
           {!isHost && (
             <AppText variant="caption" muted style={{ textAlign: 'center', marginTop: spacing.md }}>
               {hostConnected
@@ -262,9 +304,10 @@ export default function DuelWortblitzScreen() {
                 {countLeft}
               </AppText>
               <AppText variant="secondary" muted>
+                {gameInfo(duel.game).title} —{' '}
                 {activeOthers.length === 1
-                  ? `Gleich geht's los — gegen ${activeOthers[0].name}!`
-                  : `Gleich geht's los — gegen ${activeOthers.length} Mitspieler!`}
+                  ? `gegen ${activeOthers[0].name}!`
+                  : `gegen ${activeOthers.length} Mitspieler!`}
               </AppText>
             </>
           ) : (
@@ -335,26 +378,12 @@ export default function DuelWortblitzScreen() {
             </AppText>
           </View>
           {standings.map((r) => (
-            <Card
+            <StandingRow
               key={r.id}
-              style={[styles.resultRow, r.isMe && { borderColor: t.primary, borderWidth: 1.5 }]}>
-              <AppText variant="caption" style={styles.rankBadge}>
-                {r.finished ? '✓' : '…'}
-              </AppText>
-              <AppText variant="subtitle" numberOfLines={1} style={{ flex: 1 }}>
-                {r.name}
-                {r.isMe ? ' (du)' : ''}
-              </AppText>
-              <AppText variant="caption" muted>
-                {r.total} Wörter
-              </AppText>
-              <AppText
-                variant="subtitle"
-                color={r.isMe ? t.primary : t.ink}
-                style={{ fontFamily: fonts.extrabold, minWidth: 44, textAlign: 'right' }}>
-                {r.score}
-              </AppText>
-            </Card>
+              row={r}
+              badge={r.finished ? '✓' : '…'}
+              detail={`${r.total} Aufgaben`}
+            />
           ))}
         </ScrollView>
       ) : (
@@ -367,11 +396,20 @@ export default function DuelWortblitzScreen() {
                 </AppText>
               </View>
             )}
-            <AppText variant="headword" style={{ textAlign: 'center' }}>
-              {q?.word.lemma}
-            </AppText>
+            {q && isImageQuestion(q) ? (
+              <VocabImage svg={q.word.svg} gender={null} size={150} />
+            ) : (
+              <AppText variant="headword" style={{ textAlign: 'center' }}>
+                {q?.word.lemma}
+              </AppText>
+            )}
+            {duel.game === 'derdiedas' && q != null && (
+              <AppText variant="secondary" muted style={{ marginTop: spacing.xs }}>
+                {shortGloss(q.word.gloss)}
+              </AppText>
+            )}
             <AppText variant="secondary" muted style={{ marginTop: spacing.sm }}>
-              Was bedeutet das?
+              {PROMPTS[duel.game] ?? PROMPTS.wortblitz}
             </AppText>
           </View>
 

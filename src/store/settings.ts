@@ -28,6 +28,8 @@ interface SettingsState {
   notificationStatus: NotificationScheduleStatus | 'unknown';
   /** First-run interactive guide has been shown (or skipped). */
   hasSeenTour: boolean;
+  /** Multiplayer display name; '' falls back to the device name. */
+  userName: string;
   hydrated: boolean;
   hydrate: () => Promise<void>;
   /** Re-fill the pending-notification buffer (called on app foreground). */
@@ -43,6 +45,7 @@ interface SettingsState {
   setNotificationEndHour: (h: number) => void;
   setNotificationIntervalMinutes: (m: number) => void;
   setHasSeenTour: (seen: boolean) => void;
+  setUserName: (name: string) => void;
 }
 
 function persist(get: () => SettingsState) {
@@ -58,6 +61,7 @@ function persist(get: () => SettingsState) {
     notificationEndHour,
     notificationIntervalMinutes,
     hasSeenTour,
+    userName,
   } = get();
   persistSettings({
     themePreference,
@@ -71,6 +75,7 @@ function persist(get: () => SettingsState) {
     notificationEndHour,
     notificationIntervalMinutes,
     hasSeenTour,
+    userName,
   }).catch(() => {});
 }
 
@@ -107,6 +112,7 @@ export const useSettings = create<SettingsState>((set, get) => ({
   notificationIntervalMinutes: 180,
   notificationStatus: 'unknown',
   hasSeenTour: false,
+  userName: '',
   hydrated: false,
 
   hydrate: async () => {
@@ -164,6 +170,10 @@ export const useSettings = create<SettingsState>((set, get) => ({
   },
   setHasSeenTour: (hasSeenTour) => {
     set({ hasSeenTour });
+    persist(get);
+  },
+  setUserName: (userName) => {
+    set({ userName });
     persist(get);
   },
 }));

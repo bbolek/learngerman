@@ -1,41 +1,54 @@
 /**
- * Protocol and session state for the WLAN group duel (2 to 30 players — a
- * whole class can join one room). Everything here is pure — no RN imports,
- * no Date.now(), no sockets. The reducer communicates with the transport
- * layer through an outbox: every transition lists the messages the effect
- * layer must send afterwards (optionally addressed to a single peer), so
- * jest can simulate a complete room by cross-wiring reducers.
+ * Protocol and session state for the WLAN multiplayer duel (2 to 30 players
+ * — a whole class can join one room). Everything here is pure — no RN
+ * imports, no Date.now(), no sockets. The reducer communicates with the
+ * transport layer through an outbox: every transition lists the messages
+ * the effect layer must send afterwards (optionally addressed to a single
+ * peer), so jest can simulate a complete room by cross-wiring reducers.
  *
  * Topology is a star: guests only ever talk to the host, and the host
  * relays every progress/finish to the whole room, so each device keeps a
  * live picture of all players. The host assigns player ids ('g1', 'g2', …;
- * the host itself is HOST_ID) — they double as transport addresses.
+ * the host itself is HOST_ID) — they double as transport addresses. The
+ * host's roster broadcast is the single authoritative membership list:
+ * it includes mid-round dropouts (flagged disconnected) so a finished
+ * score stays ranked, and is pruned only when a new round starts.
  *
- * The host builds the question set and ships it in the `start` message —
- * word pools are randomized per device (ORDER BY RANDOM()), so a shared seed
- * alone would not give every player the same round, and shipping the payload
- * also tolerates content-version differences between phones.
+ * The host picks the game when creating the room and builds each round's
+ * question set, shipping it in the `start` message — word pools are
+ * randomized per device (ORDER BY RANDOM()), so a shared seed alone would
+ * not give every player the same round, and shipping the payload also
+ * tolerates content-version differences between phones.
  */
 
-import { applyArcadeAnswer, type BlitzQuestion, type GameKey } from '@/logic/games';
+import { applyArcadeAnswer, type ChoiceQuestion, type GameKey } from '@/logic/games';
 
 export const DUEL_PROTOCOL_VERSION = 2;
 export const DUEL_COUNTDOWN_MS = 3000;
 export const DUEL_MAX_PLAYERS = 30;
 export const HOST_ID = 'h';
 
+/** Games playable in multiplayer (Wortpaare has no timed-round variant yet). */
+export const DUEL_GAMES: GameKey[] = ['wortblitz', 'bilderraetsel', 'derdiedas'];
+
+/** Trim + cap a player name; '' means "nothing usable, fall back". */
+export function cleanPlayerName(name: string): string {
+  return name.trim().slice(0, 24);
+}
+
 // ---------- wire messages ----------
 
 export interface DuelRosterEntry {
   id: string;
   name: string;
+  connected: boolean;
 }
 
 export type DuelRejectReason = 'version' | 'busy' | 'full';
 
 export type DuelMsg =
   | { t: 'hello'; v: number; name: string }
-  | { t: 'welcome'; v: number; id: string; players: DuelRosterEntry[] }
+  | { t: 'welcome'; v: number; id: string; game: GameKey; players: DuelRosterEntry[] }
   | { t: 'roster'; players: DuelRosterEntry[] }
   | { t: 'reject'; reason: DuelRejectReason }
   | {
@@ -44,23 +57,28 @@ export type DuelMsg =
       seed: number;
       durationMs: number;
       countdownMs: number;
-      questions: BlitzQuestion[];
+      questions: ChoiceQuestion[];
     }
   | { t: 'progress'; id: string; score: number; correct: number; total: number; streak: number }
   | { t: 'finish'; id: string; score: number; correct: number; total: number; bestStreak: number }
-  | { t: 'left'; id: string }
   | { t: 'bye' }
   | { t: 'ping' }
   | { t: 'pong' };
 
 const MSG_TYPES = new Set([
-  'hello', 'welcome', 'roster', 'reject', 'start', 'progress', 'finish', 'left', 'bye', 'ping', 'pong',
+  'hello', 'welcome', 'roster', 'reject', 'start', 'progress', 'finish', 'bye', 'ping', 'pong',
 ]);
 
-/** Outbox entry: `to` addresses one peer; omitted = broadcast (guests only ever reach the host). */
+/**
+ * Outbox entry: `to` addresses one peer, otherwise broadcast (minus
+ * `except`, used to skip the original sender when relaying). `close`
+ * tells the transport to drop that peer's socket after sending.
+ */
 export interface DuelOutbound {
   msg: DuelMsg;
   to?: string;
+  except?: string;
+  close?: boolean;
 }
 
 // ---------- newline-delimited JSON framing ----------
@@ -68,6 +86,67 @@ export interface DuelOutbound {
 export function encodeFrame(msg: DuelMsg): string {
   return JSON.stringify(msg) + '\n';
 }
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
+function validRoster(players: any): boolean {
+  return (
+    Array.isArray(players) &&
+    players.every(
+      (p: any) =>
+        p && typeof p.id === 'string' && typeof p.name === 'string' && typeof p.connected === 'boolean'
+    )
+  );
+}
+
+/**
+ * Anything on the LAN can write to the duel port — a frame must prove its
+ * shape before the reducer touches it, or one malformed field crashes the
+ * whole room.
+ */
+function validMsg(m: any): m is DuelMsg {
+  switch (m.t) {
+    case 'hello':
+      return typeof m.v === 'number' && typeof m.name === 'string';
+    case 'welcome':
+      return (
+        typeof m.v === 'number' &&
+        typeof m.id === 'string' &&
+        typeof m.game === 'string' &&
+        validRoster(m.players)
+      );
+    case 'roster':
+      return validRoster(m.players);
+    case 'reject':
+      return typeof m.reason === 'string';
+    case 'start':
+      return (
+        typeof m.game === 'string' &&
+        typeof m.seed === 'number' &&
+        typeof m.durationMs === 'number' &&
+        typeof m.countdownMs === 'number' &&
+        Array.isArray(m.questions)
+      );
+    case 'progress':
+      return (
+        typeof m.id === 'string' &&
+        typeof m.score === 'number' &&
+        typeof m.correct === 'number' &&
+        typeof m.total === 'number' &&
+        typeof m.streak === 'number'
+      );
+    case 'finish':
+      return (
+        typeof m.id === 'string' &&
+        typeof m.score === 'number' &&
+        typeof m.correct === 'number' &&
+        typeof m.total === 'number' &&
+        typeof m.bestStreak === 'number'
+      );
+    default:
+      return true; // bye / ping / pong carry no payload
+  }
+}
+/* eslint-enable @typescript-eslint/no-explicit-any */
 
 /**
  * Feed a raw TCP chunk into the pending buffer; returns complete, valid
@@ -81,7 +160,7 @@ export function splitFrames(buffer: string, chunk: string): { frames: DuelMsg[];
     if (!line.trim()) continue;
     try {
       const msg = JSON.parse(line);
-      if (msg && typeof msg.t === 'string' && MSG_TYPES.has(msg.t)) frames.push(msg);
+      if (msg && typeof msg.t === 'string' && MSG_TYPES.has(msg.t) && validMsg(msg)) frames.push(msg);
     } catch {
       // skip malformed frame
     }
@@ -121,7 +200,7 @@ export interface DuelState {
   peers: DuelPeer[];
   me: DuelPlayer;
   game: GameKey;
-  questions: BlitzQuestion[];
+  questions: ChoiceQuestion[];
   seed: number;
   durationMs: number;
   countdownMs: number;
@@ -135,12 +214,12 @@ export type DuelEvent =
   | { type: 'hosted' }
   | { type: 'connected' }
   | { type: 'msg'; msg: DuelMsg; from?: string }
-  | { type: 'localStart'; questions: BlitzQuestion[]; seed: number; durationMs: number }
+  | { type: 'localStart'; questions: ChoiceQuestion[]; seed: number; durationMs: number }
   | { type: 'countdownDone' }
   | { type: 'localAnswer'; correct: boolean }
   | { type: 'localFinish' }
   | { type: 'localAbort' }
-  | { type: 'peerGone'; id?: string };
+  | { type: 'peerGone'; id: string };
 
 const freshPlayer = (): DuelPlayer => ({
   score: 0,
@@ -151,7 +230,7 @@ const freshPlayer = (): DuelPlayer => ({
   finished: false,
 });
 
-export function initialDuel(role: DuelRole, myName: string): DuelState {
+export function initialDuel(role: DuelRole, myName: string, game: GameKey = 'wortblitz'): DuelState {
   return {
     role,
     phase: 'idle',
@@ -159,7 +238,7 @@ export function initialDuel(role: DuelRole, myName: string): DuelState {
     myName,
     peers: [],
     me: freshPlayer(),
-    game: 'wortblitz',
+    game,
     questions: [],
     seed: 0,
     durationMs: 0,
@@ -178,7 +257,6 @@ export interface DuelStanding {
   score: number;
   correct: number;
   total: number;
-  bestStreak: number;
   finished: boolean;
   isMe: boolean;
 }
@@ -199,7 +277,6 @@ export function duelStandings(s: DuelState): DuelStanding[] {
       score: s.me.score,
       correct: s.me.correct,
       total: s.me.total,
-      bestStreak: s.me.bestStreak,
       finished: s.me.finished,
       isMe: true,
     },
@@ -211,7 +288,6 @@ export function duelStandings(s: DuelState): DuelStanding[] {
         score: p.score,
         correct: p.correct,
         total: p.total,
-        bestStreak: p.bestStreak,
         finished: p.finished,
         isMe: false,
       })),
@@ -224,22 +300,33 @@ export function duelResults(s: DuelState): DuelStanding[] {
   return duelStandings(s).filter((r) => r.finished);
 }
 
-/** My tie-aware rank among the given standings ("Platz 2 von 8"). */
+/** Tie-aware rank of one row: players with the same score share a rank. */
+export function rankOf(rows: DuelStanding[], row: DuelStanding): number {
+  return 1 + rows.filter((r) => r.score > row.score).length;
+}
+
+/** My rank among the given standings ("Platz 2 von 8"). */
 export function duelRank(rows: DuelStanding[]): { rank: number; of: number } {
   const mine = rows.find((r) => r.isMe);
-  const myScore = mine ? mine.score : 0;
-  return { rank: 1 + rows.filter((r) => !r.isMe && r.score > myScore).length, of: rows.length };
+  return { rank: mine ? rankOf(rows, mine) : 1, of: rows.length };
 }
 
 // ---------- reducer ----------
 
+/**
+ * Authoritative membership list, host-side: every peer with its live
+ * connected flag. Disconnected rows stick around (their posted score stays
+ * ranked) until resetForRound prunes them.
+ */
 function rosterOf(s: DuelState): DuelRosterEntry[] {
-  const self: DuelRosterEntry = { id: s.myId, name: s.myName };
-  return [self, ...s.peers.filter((p) => p.connected).map((p) => ({ id: p.id, name: p.name }))];
+  return [
+    { id: s.myId, name: s.myName, connected: true },
+    ...s.peers.map((p) => ({ id: p.id, name: p.name, connected: p.connected })),
+  ];
 }
 
 function uniqueName(base: string, taken: string[]): string {
-  const name = base.trim().slice(0, 24) || 'Spieler';
+  const name = cleanPlayerName(base) || 'Spieler';
   if (!taken.includes(name)) return name;
   for (let n = 2; ; n++) {
     const candidate = `${name} ${n}`;
@@ -305,7 +392,7 @@ export function duelReducer(state: DuelState, ev: DuelEvent): DuelState {
       // straight from the results screen.
       if (s.role !== 'host' || (s.phase !== 'lobby' && s.phase !== 'done')) return s;
       const started = resetForRound(s);
-      if (started.peers.length === 0) return s;
+      if (started.peers.length === 0 || ev.questions.length === 0) return s;
       return {
         ...started,
         phase: 'countdown',
@@ -391,7 +478,11 @@ export function duelReducer(state: DuelState, ev: DuelEvent): DuelState {
       };
 
     case 'peerGone':
-      return s.role === 'host' && ev.id != null ? hostPeerGone(s, ev.id) : guestHostGone(s);
+      return s.role === 'host'
+        ? hostPeerGone(s, ev.id)
+        : ev.id === HOST_ID
+          ? guestHostGone(s)
+          : s;
 
     case 'msg':
       return applyMsg(s, ev.msg, ev.from);
@@ -406,13 +497,16 @@ function hostPeerGone(s: DuelState, id: string): DuelState {
   if (s.phase === 'lobby') {
     const peers = s.peers.filter((p) => p.id !== id);
     const next: DuelState = { ...s, peers, phase: peers.length ? 'lobby' : 'waiting' };
-    return peers.length ? { ...next, outbox: [{ msg: { t: 'roster', players: rosterOf(next) } }] } : next;
+    return peers.length
+      ? { ...next, outbox: [{ msg: { t: 'roster', players: rosterOf(next) } }] }
+      : next;
   }
 
   // countdown / playing / done: keep the row (a posted score stays ranked),
   // tell the room, and check whether the round just became complete.
   const peers = s.peers.map((p) => (p.id === id ? { ...p, connected: false } : p));
-  return maybeFinishRound({ ...s, peers, outbox: [{ msg: { t: 'left', id } }] });
+  const next = { ...s, peers };
+  return maybeFinishRound({ ...next, outbox: [{ msg: { t: 'roster', players: rosterOf(next) } }] });
 }
 
 /** Guest: the connection to the host died — with it, all live updates. */
@@ -433,20 +527,32 @@ function guestHostGone(s: DuelState): DuelState {
   }
 }
 
+/** Host stamps the transport id on relayed updates so guests can't spoof others. */
+function senderId(s: DuelState, msgId: string, from?: string): string {
+  return s.role === 'host' && from != null ? from : msgId;
+}
+
+/** Host forwards a guest's update to the rest of the room (never back to the sender). */
+function relayOut(s: DuelState, msg: DuelMsg, id: string): DuelOutbound[] {
+  return s.role === 'host' && id !== s.myId ? [{ msg, except: id }] : [];
+}
+
 function applyMsg(s: DuelState, msg: DuelMsg, from?: string): DuelState {
   switch (msg.t) {
     case 'hello': {
       if (s.role !== 'host' || from == null) return s;
+      // A repeated hello on the same socket must not mint a phantom player.
+      if (s.peers.some((p) => p.id === from)) return s;
       // Joins are open in the lobby and between rounds (results screen) —
       // latecomers from the class hop in for the next round.
       if (s.phase !== 'waiting' && s.phase !== 'lobby' && s.phase !== 'done') {
-        return { ...s, outbox: [{ msg: { t: 'reject', reason: 'busy' }, to: from }] };
+        return { ...s, outbox: [{ msg: { t: 'reject', reason: 'busy' }, to: from, close: true }] };
       }
       if (msg.v !== DUEL_PROTOCOL_VERSION) {
-        return { ...s, outbox: [{ msg: { t: 'reject', reason: 'version' }, to: from }] };
+        return { ...s, outbox: [{ msg: { t: 'reject', reason: 'version' }, to: from, close: true }] };
       }
       if (1 + s.peers.filter((p) => p.connected).length >= DUEL_MAX_PLAYERS) {
-        return { ...s, outbox: [{ msg: { t: 'reject', reason: 'full' }, to: from }] };
+        return { ...s, outbox: [{ msg: { t: 'reject', reason: 'full' }, to: from, close: true }] };
       }
       const name = uniqueName(msg.name, [s.myName, ...s.peers.map((p) => p.name)]);
       const next: DuelState = {
@@ -454,11 +560,12 @@ function applyMsg(s: DuelState, msg: DuelMsg, from?: string): DuelState {
         phase: s.phase === 'waiting' ? 'lobby' : s.phase,
         peers: [...s.peers, { ...freshPlayer(), id: from, name, connected: true }],
       };
+      const players = rosterOf(next);
       return {
         ...next,
         outbox: [
-          { msg: { t: 'welcome', v: DUEL_PROTOCOL_VERSION, id: from, players: rosterOf(next) }, to: from },
-          { msg: { t: 'roster', players: rosterOf(next) } },
+          { msg: { t: 'welcome', v: DUEL_PROTOCOL_VERSION, id: from, game: s.game, players }, to: from },
+          { msg: { t: 'roster', players }, except: from },
         ],
       };
     }
@@ -471,31 +578,33 @@ function applyMsg(s: DuelState, msg: DuelMsg, from?: string): DuelState {
         phase: 'lobby',
         myId: msg.id,
         myName: mine?.name ?? s.myName, // host may have deduplicated our name
+        game: msg.game,
         peers: msg.players
           .filter((p) => p.id !== msg.id)
-          .map((p) => ({ ...freshPlayer(), id: p.id, name: p.name, connected: true })),
+          .map((p) => ({ ...freshPlayer(), id: p.id, name: p.name, connected: p.connected })),
       };
     }
 
     case 'roster': {
+      // Mirror the host's authoritative list: known peers keep their stats,
+      // new ids start fresh, ids the host no longer lists are gone.
       if (s.role !== 'guest' || !s.myId) return s;
-      const listed = msg.players
+      const peers = msg.players
         .filter((p) => p.id !== s.myId)
         .map((p) => {
           const known = s.peers.find((k) => k.id === p.id);
           return known
-            ? { ...known, name: p.name, connected: true }
-            : { ...freshPlayer(), id: p.id, name: p.name, connected: true };
+            ? { ...known, name: p.name, connected: p.connected }
+            : { ...freshPlayer(), id: p.id, name: p.name, connected: p.connected };
         });
-      // The roster lists connected players only — keep finished dropouts so
-      // a completed round stays fully ranked.
-      const keep = s.peers
-        .filter((p) => p.finished && !msg.players.some((e) => e.id === p.id))
-        .map((p) => ({ ...p, connected: false }));
-      return { ...s, peers: [...listed, ...keep] };
+      // A mid-round dropout can be the last thing the round was waiting for.
+      return maybeFinishRound({ ...s, peers });
     }
 
     case 'reject':
+      // Only the host issues rejects, and only in reply to our hello — a
+      // guest-forged reject must not abort a running room.
+      if (s.role !== 'guest' || s.phase !== 'waiting') return s;
       return {
         ...s,
         phase: 'aborted',
@@ -517,8 +626,7 @@ function applyMsg(s: DuelState, msg: DuelMsg, from?: string): DuelState {
     }
 
     case 'progress': {
-      // The host stamps the sender id on relay, so a peer can't speak for others.
-      const id = s.role === 'host' && from != null ? from : msg.id;
+      const id = senderId(s, msg.id, from);
       if (id === s.myId) return s;
       const peers = s.peers.map((p) =>
         p.id === id
@@ -532,15 +640,11 @@ function applyMsg(s: DuelState, msg: DuelMsg, from?: string): DuelState {
             }
           : p
       );
-      return {
-        ...s,
-        peers,
-        outbox: s.role === 'host' ? [{ msg: { ...msg, id } }] : [],
-      };
+      return { ...s, peers, outbox: relayOut(s, { ...msg, id }, id) };
     }
 
     case 'finish': {
-      const id = s.role === 'host' && from != null ? from : msg.id;
+      const id = senderId(s, msg.id, from);
       if (id === s.myId) return s;
       const peers = s.peers.map((p) =>
         p.id === id
@@ -555,21 +659,15 @@ function applyMsg(s: DuelState, msg: DuelMsg, from?: string): DuelState {
             }
           : p
       );
-      return maybeFinishRound({
-        ...s,
-        peers,
-        outbox: s.role === 'host' ? [{ msg: { ...msg, id } }] : [],
-      });
-    }
-
-    case 'left': {
-      if (s.role !== 'guest' || msg.id === s.myId) return s;
-      const peers = s.peers.map((p) => (p.id === msg.id ? { ...p, connected: false } : p));
-      return maybeFinishRound({ ...s, peers });
+      return maybeFinishRound({ ...s, peers, outbox: relayOut(s, { ...msg, id }, id) });
     }
 
     case 'bye':
-      return s.role === 'host' && from != null ? hostPeerGone(s, from) : guestHostGone(s);
+      return s.role === 'host'
+        ? from != null
+          ? hostPeerGone(s, from)
+          : s
+        : guestHostGone(s);
 
     case 'ping':
     case 'pong':

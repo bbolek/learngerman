@@ -3,6 +3,7 @@ import { getDb } from '@/db/client';
 export interface PersistedSettings {
   themePreference?: 'system' | 'light' | 'dark';
   hapticsEnabled?: boolean;
+  typedRecall?: boolean;
   dailyNewLimit?: number;
   sessionCap?: number;
   notificationsEnabled?: boolean;

@@ -61,7 +61,8 @@
     "lint": "expo lint",
     "test": "jest",
     "typecheck": "tsc --noEmit",
-    "build:db": "tsx scripts/build-dictionary.ts"
+    "build:db": "tsx scripts/build-dictionary.ts && tsx scripts/build-themes.ts",
+    "build:themes": "tsx scripts/build-themes.ts"
   },
   "private": true
 }

@@ -97,6 +97,24 @@ export default function SettingsScreen() {
       </Card>
 
       <Card style={styles.section}>
+        <View style={styles.switchRow}>
+          <View style={{ flex: 1 }}>
+            <AppText variant="subtitle">Aktives Tippen</AppText>
+            <AppText variant="caption" muted style={{ marginTop: 2 }}>
+              Bekannte Wörter aktiv eintippen statt nur umdrehen — als Lückentext oder
+              Übersetzung. Stärkt das aktive Erinnern.
+            </AppText>
+          </View>
+          <Switch
+            value={settings.typedRecall}
+            onValueChange={settings.setTypedRecall}
+            trackColor={{ true: t.primary, false: t.line }}
+            thumbColor="#fff"
+          />
+        </View>
+      </Card>
+
+      <Card style={styles.section}>
         <AppText variant="subtitle">Neue Karten pro Tag</AppText>
         <View style={styles.segmentRow}>
           {NEW_LIMITS.map((n) => {

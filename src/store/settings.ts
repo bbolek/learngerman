@@ -11,6 +11,8 @@ export type ThemePreference = 'system' | 'light' | 'dark';
 interface SettingsState {
   themePreference: ThemePreference;
   hapticsEnabled: boolean;
+  /** Turn familiar review cards into typed recall (cloze / type-the-word). */
+  typedRecall: boolean;
   /** New cards introduced per day in review sessions. */
   dailyNewLimit: number;
   /** Max due cards per review session. */
@@ -32,6 +34,7 @@ interface SettingsState {
   refreshNotifications: () => void;
   setThemePreference: (pref: ThemePreference) => void;
   setHapticsEnabled: (on: boolean) => void;
+  setTypedRecall: (on: boolean) => void;
   setDailyNewLimit: (n: number) => void;
   setSessionCap: (n: number) => void;
   setNotificationsEnabled: (on: boolean) => void;
@@ -46,6 +49,7 @@ function persist(get: () => SettingsState) {
   const {
     themePreference,
     hapticsEnabled,
+    typedRecall,
     dailyNewLimit,
     sessionCap,
     notificationsEnabled,
@@ -58,6 +62,7 @@ function persist(get: () => SettingsState) {
   persistSettings({
     themePreference,
     hapticsEnabled,
+    typedRecall,
     dailyNewLimit,
     sessionCap,
     notificationsEnabled,
@@ -92,6 +97,7 @@ function reschedule(
 export const useSettings = create<SettingsState>((set, get) => ({
   themePreference: 'system',
   hapticsEnabled: true,
+  typedRecall: true,
   dailyNewLimit: 10,
   sessionCap: 30,
   notificationsEnabled: false,
@@ -117,6 +123,10 @@ export const useSettings = create<SettingsState>((set, get) => ({
   },
   setHapticsEnabled: (hapticsEnabled) => {
     set({ hapticsEnabled });
+    persist(get);
+  },
+  setTypedRecall: (typedRecall) => {
+    set({ typedRecall });
     persist(get);
   },
   setDailyNewLimit: (dailyNewLimit) => {

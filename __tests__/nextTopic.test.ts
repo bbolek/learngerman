@@ -9,6 +9,27 @@ describe('pickNextTopic', () => {
     expect(pickNextTopic([], '2026-07-05')).toBeNull();
   });
 
+  it('surfaces a due topic ahead of everything else', () => {
+    const topics = [
+      topic({ id: 1, attempts: 10, correct: 3 }), // 30% — weakest, but not due
+      topic({ id: 2, attempts: 10, correct: 8, due: true }), // due — wins
+      topic({ id: 3 }), // unattempted
+    ];
+    const next = pickNextTopic(topics, '2026-07-05');
+    expect(next).toMatchObject({ reason: 'due' });
+    expect(next?.topic.id).toBe(2);
+  });
+
+  it('leads with the weakest-scoring due topic', () => {
+    const topics = [
+      topic({ id: 1, attempts: 10, correct: 9, due: true }), // 90% due
+      topic({ id: 2, attempts: 10, correct: 5, due: true }), // 50% due — weaker
+    ];
+    const next = pickNextTopic(topics, '2026-07-05');
+    expect(next?.reason).toBe('due');
+    expect(next?.topic.id).toBe(2);
+  });
+
   it('prefers the weakest attempted topic below the threshold', () => {
     const topics = [
       topic({ id: 1, attempts: 10, correct: 9 }), // 90% — solid

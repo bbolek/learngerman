@@ -5,6 +5,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { getLemmaImage, getWordOfTheDay } from '@/db/dictionaryRepo';
 import { listTopics, type TopicRow } from '@/db/grammarRepo';
+import { grammarDueSlugs } from '@/db/grammarSrsRepo';
 import { currentStreak, dueCounts, recentActivity, type DayActivity } from '@/db/srsRepo';
 import { savedCount } from '@/db/vocabRepo';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
@@ -46,9 +47,11 @@ export default function HomeScreen() {
         savedCount(),
         listTopics(),
         getWordOfTheDay(today),
-      ]).then(async ([streak, counts, week, saved, topics, wotd]) => {
+        grammarDueSlugs(now),
+      ]).then(async ([streak, counts, week, saved, topics, wotd, dueSlugs]) => {
         const doneToday = week.find((a) => a.day === today)?.reviews_done ?? 0;
         const wotdImage = wotd ? await getLemmaImage(wotd.id) : null;
+        const topicsWithDue = topics.map((tp) => ({ ...tp, due: dueSlugs.has(tp.slug) }));
         setData({
           streak,
           due: counts.due,
@@ -56,7 +59,7 @@ export default function HomeScreen() {
           doneToday,
           saved,
           week,
-          next: pickNextTopic(topics, today),
+          next: pickNextTopic(topicsWithDue, today),
           wotd,
           wotdImage,
         });
@@ -224,11 +227,15 @@ function GrammarCard({ next }: { next: NextTopic<TopicRow> }) {
   const { topic, reason, accuracy } = next;
   const pct = accuracy == null ? null : Math.round(accuracy * 100);
   const reasonText =
-    reason === 'weak'
-      ? `Dein schwächstes Thema · ${pct} % richtig`
-      : reason === 'new'
-        ? 'Heutige Empfehlung — noch nicht geübt'
-        : `Zum Auffrischen · ${pct} % richtig`;
+    reason === 'due'
+      ? pct != null
+        ? `Fällig zur Wiederholung · ${pct} % richtig`
+        : 'Fällig zur Wiederholung'
+      : reason === 'weak'
+        ? `Dein schwächstes Thema · ${pct} % richtig`
+        : reason === 'new'
+          ? 'Heutige Empfehlung — noch nicht geübt'
+          : `Zum Auffrischen · ${pct} % richtig`;
   return (
     <Card
       style={styles.grammar}

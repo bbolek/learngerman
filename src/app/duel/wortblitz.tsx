@@ -7,6 +7,7 @@ import { ActivityIndicator, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { recordGameResult } from '@/db/gamesRepo';
+import { recordMistakes } from '@/db/mistakesRepo';
 import { type DuelOutcome } from '@/logic/duel';
 import { useDuel } from '@/store/duel';
 import { useSettings } from '@/store/settings';
@@ -39,6 +40,7 @@ export default function DuelWortblitzScreen() {
 
   const endAtRef = useRef(0);
   const recordedRef = useRef(false);
+  const missedRef = useRef<number[]>([]);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   const phase = duel?.phase;
@@ -59,6 +61,7 @@ export default function DuelWortblitzScreen() {
     setIndex(0);
     setSelected(null);
     recordedRef.current = false;
+    missedRef.current = [];
     setRemaining(duel.durationMs);
     const countdownEnd = Date.now() + duel.countdownMs;
     setCountLeft(Math.ceil(duel.countdownMs / 1000));
@@ -91,6 +94,7 @@ export default function DuelWortblitzScreen() {
   useEffect(() => {
     if (phase !== 'done' || !duel || recordedRef.current) return;
     recordedRef.current = true;
+    recordMistakes(missedRef.current, new Date()).catch(() => {});
     recordGameResult(
       {
         gameKey: 'wortblitz',
@@ -116,6 +120,7 @@ export default function DuelWortblitzScreen() {
     const q = duel.questions[index];
     if (!q || selected != null || duel.me.finished || phase !== 'playing') return;
     const correct = i === q.correctIndex;
+    if (!correct) missedRef.current.push(q.word.id);
     if (haptics) {
       Haptics.notificationAsync(
         correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error

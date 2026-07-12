@@ -4,10 +4,12 @@ import { useCallback, useMemo, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { listTopics, topicAccuracy, type TopicRow } from '@/db/grammarRepo';
+import { grammarDueSlugs } from '@/db/grammarSrsRepo';
 import { dueCounts } from '@/db/srsRepo';
 import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
+import { Chip } from '@/ui/components/Chip';
 import { ProgressRing } from '@/ui/components/ProgressRing';
 import { Screen } from '@/ui/components/Screen';
 import { SearchBar } from '@/ui/components/SearchBar';
@@ -35,12 +37,14 @@ export default function PracticeScreen() {
   const t = useTheme();
   const [topics, setTopics] = useState<TopicRow[]>([]);
   const [due, setDue] = useState({ due: 0, fresh: 0 });
+  const [dueSlugs, setDueSlugs] = useState<Set<string>>(new Set());
   const [query, setQuery] = useState('');
 
   useFocusEffect(
     useCallback(() => {
       listTopics().then(setTopics);
       dueCounts(new Date()).then(setDue);
+      grammarDueSlugs(new Date()).then(setDueSlugs);
     }, [])
   );
 
@@ -77,8 +81,21 @@ export default function PracticeScreen() {
         </Card>
       </TourTarget>
 
+      <Card style={styles.themes} onPress={() => router.push('/themes')}>
+        <View style={[styles.themesIcon, { backgroundColor: t.accentDim }]}>
+          <AppText style={{ fontSize: 20 }}>🗂️</AppText>
+        </View>
+        <View style={{ flex: 1 }}>
+          <AppText variant="subtitle">Themen</AppText>
+          <AppText variant="secondary" muted style={{ marginTop: 2 }}>
+            Wortschatz nach Thema lernen
+          </AppText>
+        </View>
+        <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
+      </Card>
+
       <AppText variant="label" muted style={{ marginTop: spacing.xl, marginBottom: spacing.sm }}>
-        Grammatik
+        {dueSlugs.size > 0 ? `Grammatik · ${dueSlugs.size} fällig` : 'Grammatik'}
       </AppText>
       <SearchBar value={query} onChangeText={setQuery} placeholder="Thema suchen…" />
 
@@ -92,7 +109,7 @@ export default function PracticeScreen() {
             </AppText>
             <View style={styles.grid}>
               {sectionTopics.map((topic) => (
-                <TopicCard key={topic.id} topic={topic} />
+                <TopicCard key={topic.id} topic={topic} due={dueSlugs.has(topic.slug)} />
               ))}
             </View>
           </View>
@@ -113,7 +130,7 @@ export default function PracticeScreen() {
   );
 }
 
-function TopicCard({ topic }: { topic: TopicRow }) {
+function TopicCard({ topic, due }: { topic: TopicRow; due: boolean }) {
   const t = useTheme();
   const accuracy = topicAccuracy(topic);
   return (
@@ -130,11 +147,15 @@ function TopicCard({ topic }: { topic: TopicRow }) {
             {accuracy == null ? '–' : `${Math.round(accuracy * 100)}%`}
           </AppText>
         </ProgressRing>
-        <View style={[styles.levelBadge, { backgroundColor: t.primaryDim }]}>
-          <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-            {topic.level}
-          </AppText>
-        </View>
+        {due ? (
+          <Chip label="Fällig" kind="due" small />
+        ) : (
+          <View style={[styles.levelBadge, { backgroundColor: t.primaryDim }]}>
+            <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+              {topic.level}
+            </AppText>
+          </View>
+        )}
       </View>
       <AppText variant="subtitle" style={{ marginTop: spacing.md, fontSize: 16 }}>
         {topic.title}
@@ -155,6 +176,14 @@ const styles = StyleSheet.create({
     gap: spacing.md,
     marginTop: spacing.lg,
     borderWidth: 0,
+  },
+  themes: { flexDirection: 'row', alignItems: 'center', gap: spacing.md, marginTop: spacing.md },
+  themesIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   levelHeader: { marginTop: spacing.lg, marginBottom: spacing.sm },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.md },

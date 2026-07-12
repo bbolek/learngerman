@@ -2,12 +2,14 @@
  * Picks which grammar topic the home screen recommends today.
  *
  * Priority:
- *  1. "weak"   — the attempted topic with the lowest accuracy below the
+ *  1. "due"    — a topic whose spaced-repetition card has come due: revisiting
+ *                it before it fades is the whole point of scheduling.
+ *  2. "weak"   — the attempted topic with the lowest accuracy below the
  *                threshold: fixing weak spots beats novelty.
- *  2. "new"    — an unattempted topic from the lowest CEFR level that still
+ *  3. "new"    — an unattempted topic from the lowest CEFR level that still
  *                has open topics, rotating daily so the suggestion changes
  *                every day instead of being stuck on one topic.
- *  3. "review" — everything practiced and solid: rotate daily to refresh.
+ *  4. "review" — everything practiced and solid: rotate daily to refresh.
  */
 
 export interface TopicStats {
@@ -16,9 +18,11 @@ export interface TopicStats {
   level: 'A1' | 'A2' | 'B1';
   attempts: number;
   correct: number;
+  /** SRS card is due today (set by the caller from grammar_srs). */
+  due?: boolean;
 }
 
-export type NextTopicReason = 'weak' | 'new' | 'review';
+export type NextTopicReason = 'due' | 'weak' | 'new' | 'review';
 
 export interface NextTopic<T extends TopicStats> {
   topic: T;
@@ -42,6 +46,13 @@ export function pickNextTopic<T extends TopicStats>(
 ): NextTopic<T> | null {
   if (topics.length === 0) return null;
   const acc = (t: TopicStats) => (t.attempts === 0 ? null : t.correct / t.attempts);
+
+  // Due cards first — weakest-scoring due topic leads, so the shakiest
+  // material resurfaces before comfortable revision.
+  const due = topics
+    .filter((t) => t.due)
+    .sort((a, b) => (acc(a) ?? 1) - (acc(b) ?? 1));
+  if (due.length > 0) return { topic: due[0], reason: 'due', accuracy: acc(due[0]) };
 
   const weak = topics
     .filter((t) => t.attempts > 0 && (acc(t) as number) < WEAK_THRESHOLD)

@@ -4,6 +4,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 import { fetchGenderNouns, recordGameResult, statsByGame, type RecordOutcome } from '@/db/gamesRepo';
+import { recordMistakes } from '@/db/mistakesRepo';
 import {
   applyArcadeAnswer,
   DERDIEDAS_LIVES,
@@ -46,6 +47,7 @@ export default function DerDieDasScreen() {
 
   const startedAtRef = useRef(0);
   const finishedRef = useRef(false);
+  const missedRef = useRef<number[]>([]);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   useEffect(() => {
@@ -61,6 +63,7 @@ export default function DerDieDasScreen() {
     setPicked(null);
     setOutcome(null);
     finishedRef.current = false;
+    missedRef.current = [];
     startedAtRef.current = Date.now();
     setPhase('playing');
   };
@@ -68,6 +71,7 @@ export default function DerDieDasScreen() {
   const finish = (s: ArcadeState) => {
     if (finishedRef.current) return;
     finishedRef.current = true;
+    recordMistakes(missedRef.current, new Date()).catch(() => {});
     recordGameResult(
       {
         gameKey: 'derdiedas',
@@ -89,6 +93,7 @@ export default function DerDieDasScreen() {
     const word = words[index];
     if (!word || picked != null || finishedRef.current) return;
     const correct = word.gender === gender;
+    if (!correct) missedRef.current.push(word.id);
     if (haptics) {
       Haptics.notificationAsync(
         correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error

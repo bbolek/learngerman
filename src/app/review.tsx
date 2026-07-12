@@ -2,21 +2,41 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
-import { Pressable, StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { buildClozes } from '@/db/clozeRepo';
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { applyRating, buildQueue, type ReviewCard } from '@/db/srsRepo';
+import { CLOZE_BLANK, type Cloze } from '@/logic/cloze';
 import { articleFor } from '@/logic/formLabels';
+import { gradeFillBlank, type FillResult } from '@/logic/graders';
 import { previewInterval, type Rating } from '@/logic/sm2';
+import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
+import { Card } from '@/ui/components/Card';
 import { FlipCard } from '@/ui/components/FlipCard';
 import { ProgressRing } from '@/ui/components/ProgressRing';
 import { Chip } from '@/ui/components/Chip';
 import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
+
+/** Words already seen a few times get the tougher "type it" recall card. */
+const TYPED_MIN_REPS = 2;
+const UMLAUTS = ['ä', 'ö', 'ü', 'ß'] as const;
+
+/** A typed recall challenge: fill a blank, produce the word, or hear & type it. */
+interface TypeChallenge {
+  kind: 'cloze' | 'word' | 'listen';
+  /** cloze: the masked sentence; word: the English gloss; listen: text to speak. */
+  prompt: string;
+  /** cloze: English translation; listen: English gloss (disambiguates); word: none. */
+  hint: string | null;
+  /** The accepted answer (surface form for cloze, lemma for word/listen). */
+  answer: string;
+}
 
 interface SessionStats {
   again: number;
@@ -28,18 +48,25 @@ interface SessionStats {
 export default function ReviewScreen() {
   const t = useTheme();
   const insets = useSafeAreaInsets();
-  const { sessionCap, dailyNewLimit, hapticsEnabled } = useSettings();
+  const { sessionCap, dailyNewLimit, hapticsEnabled, typedRecall } = useSettings();
 
   const [queue, setQueue] = useState<ReviewCard[] | null>(null);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const [answered, setAnswered] = useState<FillResult | null>(null);
   const [stats, setStats] = useState<SessionStats>({ again: 0, hard: 0, good: 0, easy: 0 });
   const [totalPlanned, setTotalPlanned] = useState(0);
   const [images, setImages] = useState<Map<number, string>>(new Map());
+  const [clozes, setClozes] = useState<Map<number, Cloze>>(new Map());
 
   useEffect(() => {
     buildQueue(new Date(), sessionCap, dailyNewLimit).then(async (cards) => {
-      setImages(await getLemmaImages(cards.map((c) => c.lemma_id)));
+      const [imgs, cz] = await Promise.all([
+        getLemmaImages(cards.map((c) => c.lemma_id)),
+        buildClozes(cards),
+      ]);
+      setImages(imgs);
+      setClozes(cz);
       setQueue(cards);
       setTotalPlanned(cards.length);
     });
@@ -47,6 +74,22 @@ export default function ReviewScreen() {
 
   const card = queue?.[index];
   const now = useMemo(() => new Date(), [index]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // A familiar word (when typed recall is on) becomes a typed challenge: a
+  // cloze if it has a usable example, otherwise "type the German word".
+  // Everything else stays a recall flip card.
+  const challenge = useMemo<TypeChallenge | null>(() => {
+    if (!card || !typedRecall || card.reps < TYPED_MIN_REPS) return null;
+    // Every third familiar card is a dictation ("hear it → type it"); the rest
+    // are cloze where an example allows, otherwise translate-and-type.
+    if (card.lemma_id % 3 === 0) {
+      return { kind: 'listen', prompt: card.lemma, hint: card.gloss, answer: card.lemma };
+    }
+    const cloze = clozes.get(card.lemma_id);
+    if (cloze) return { kind: 'cloze', prompt: cloze.masked, hint: card.example_en, answer: cloze.answer };
+    return { kind: 'word', prompt: card.gloss, hint: null, answer: card.lemma };
+  }, [card, typedRecall, clozes]);
+  const revealed = challenge ? answered != null : flipped;
 
   const rate = async (rating: Rating) => {
     if (!card || !queue) return;
@@ -76,7 +119,19 @@ export default function ReviewScreen() {
       ]);
     }
     setFlipped(false);
+    setAnswered(null);
     setIndex((i) => i + 1);
+  };
+
+  const onCloze = (result: FillResult) => {
+    if (hapticsEnabled) {
+      Haptics.notificationAsync(
+        result.correct
+          ? Haptics.NotificationFeedbackType.Success
+          : Haptics.NotificationFeedbackType.Error
+      );
+    }
+    setAnswered(result);
   };
 
   if (!queue) return <View style={[styles.fill, { backgroundColor: t.bg }]} />;
@@ -132,6 +187,16 @@ export default function ReviewScreen() {
       </View>
 
       <View style={styles.cardArea}>
+        {challenge ? (
+          <TypeCard
+            key={card.lemma_id}
+            card={card}
+            challenge={challenge}
+            image={images.get(card.lemma_id) ?? null}
+            answered={answered}
+            onCheck={onCloze}
+          />
+        ) : (
         <FlipCard
           flipped={flipped}
           onFlip={() => setFlipped((f) => !f)}
@@ -196,16 +261,17 @@ export default function ReviewScreen() {
             </>
           }
         />
+        )}
       </View>
 
-      {flipped ? (
+      {revealed ? (
         <View style={[styles.rating, { paddingBottom: insets.bottom + spacing.md }]}>
           <RateButton bg={t.dangerDim} fg={t.onDangerDim} label="Nochmal" sub={previewInterval(cardState, 0, now)} onPress={() => rate(0)} />
           <RateButton bg={t.primaryDim} fg={t.onPrimaryDim} label="Schwer" sub={previewInterval(cardState, 1, now)} onPress={() => rate(1)} />
           <RateButton bg={t.accentDim} fg={t.onAccentDim} label="Gut" sub={previewInterval(cardState, 2, now)} onPress={() => rate(2)} />
           <RateButton bg={t.successDim} fg={t.onSuccessDim} label="Einfach" sub={previewInterval(cardState, 3, now)} onPress={() => rate(3)} />
         </View>
-      ) : (
+      ) : challenge ? null : (
         <View style={[styles.tapHint, { borderColor: t.line, marginBottom: insets.bottom + spacing.md }]}>
           <AppText variant="secondary" muted>
             Tippen zum Umdrehen
@@ -228,6 +294,146 @@ function CardChips({ card }: { card: ReviewCard }) {
       )}
       <Chip label={card.level} kind="level" small />
     </View>
+  );
+}
+
+function TypeCard({
+  card,
+  challenge,
+  image,
+  answered,
+  onCheck,
+}: {
+  card: ReviewCard;
+  challenge: TypeChallenge;
+  image: string | null;
+  answered: FillResult | null;
+  onCheck: (result: FillResult) => void;
+}) {
+  const t = useTheme();
+  const [text, setText] = useState('');
+  const locked = answered != null;
+
+  const check = () => {
+    if (locked || !text.trim()) return;
+    onCheck(gradeFillBlank({ prompt: '', accept: [challenge.answer], explanation: '' }, text));
+  };
+
+  // Dictation cards play the word once when they appear (keyed per card, so
+  // this remounts and fires once per dictation card).
+  useEffect(() => {
+    if (challenge.kind === 'listen') speakGerman(challenge.prompt);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const answerColor = answered?.correct ? t.success : t.danger;
+  const [before, after] =
+    challenge.kind === 'cloze' ? challenge.prompt.split(CLOZE_BLANK) : ['', ''];
+
+  return (
+    <Card style={styles.clozeCard}>
+      <CardChips card={card} />
+      <AppText variant="label" muted style={{ marginTop: spacing.xxl }}>
+        {challenge.kind === 'cloze'
+          ? 'Lückentext · welches Wort fehlt?'
+          : challenge.kind === 'listen'
+            ? 'Hör zu und tippe, was du hörst'
+            : 'Übersetze ins Deutsche'}
+      </AppText>
+
+      {challenge.kind === 'cloze' ? (
+        <AppText variant="section" style={{ marginTop: spacing.md, lineHeight: 36 }}>
+          {before}
+          {locked ? (
+            <AppText variant="section" color={answerColor} style={{ fontFamily: fonts.extrabold }}>
+              {challenge.answer}
+            </AppText>
+          ) : (
+            <AppText variant="section" color={t.inkFaint} style={{ fontFamily: fonts.extrabold }}>
+              {CLOZE_BLANK}
+            </AppText>
+          )}
+          {after}
+        </AppText>
+      ) : challenge.kind === 'listen' ? (
+        <View style={{ alignItems: 'center', marginTop: spacing.lg }}>
+          <Pressable
+            onPress={() => speakGerman(challenge.prompt)}
+            hitSlop={12}
+            style={({ pressed }) => [
+              styles.listenBtn,
+              { backgroundColor: t.primaryDim },
+              pressed && { transform: [{ scale: 0.94 }] },
+            ]}>
+            <Ionicons name="volume-high" size={40} color={t.onPrimaryDim} />
+          </Pressable>
+          <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
+            Tippen zum Wiederholen
+          </AppText>
+        </View>
+      ) : (
+        <AppText variant="headword" style={{ marginTop: spacing.md, fontSize: 26 }}>
+          {challenge.prompt}
+        </AppText>
+      )}
+
+      {challenge.hint && (
+        <AppText variant="secondary" muted style={{ marginTop: spacing.sm }}>
+          {challenge.hint}
+        </AppText>
+      )}
+
+      {locked ? (
+        <View style={{ marginTop: spacing.xl, alignItems: 'center' }}>
+          <AppText variant="subtitle" color={answerColor} style={{ fontFamily: fonts.extrabold }}>
+            {answered!.correct
+              ? answered!.nearMiss
+                ? '✓ Fast — achte auf die Umlaute'
+                : '✓ Richtig!'
+              : `✗ Richtig wäre „${challenge.answer}“`}
+          </AppText>
+          <View style={[styles.rule, { backgroundColor: t.primary }]} />
+          {image && <VocabImage svg={image} gender={card.gender} size={56} style={{ marginBottom: spacing.sm }} />}
+          <AppText variant="subtitle" style={{ textAlign: 'center', fontSize: 19 }}>
+            {card.lemma}
+          </AppText>
+          <AppText variant="secondary" muted style={{ textAlign: 'center', marginTop: 2 }}>
+            {card.gloss}
+          </AppText>
+        </View>
+      ) : (
+        <>
+          <TextInput
+            value={text}
+            onChangeText={setText}
+            autoCapitalize="none"
+            autoCorrect={false}
+            placeholder="Fehlendes Wort…"
+            placeholderTextColor={t.inkFaint}
+            onSubmitEditing={check}
+            style={[styles.clozeInput, { backgroundColor: t.bg, borderColor: t.primary, color: t.ink }]}
+          />
+          <View style={styles.umlautRow}>
+            {UMLAUTS.map((u) => (
+              <Pressable
+                key={u}
+                onPress={() => setText((v) => v + u)}
+                style={[styles.umlautKey, { backgroundColor: t.bg, borderColor: t.line }]}>
+                <AppText variant="subtitle">{u}</AppText>
+              </Pressable>
+            ))}
+          </View>
+          <Pressable
+            disabled={!text.trim()}
+            onPress={check}
+            style={[styles.clozeCta, { backgroundColor: text.trim() ? t.primary : t.line }]}>
+            <AppText variant="subtitle" color={text.trim() ? '#fff' : t.inkFaint}>
+              Prüfen
+            </AppText>
+          </Pressable>
+        </>
+      )}
+    </Card>
   );
 }
 
@@ -335,6 +541,32 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   rule: { width: 54, height: 3, borderRadius: 99, marginVertical: spacing.lg },
+  clozeCard: { alignSelf: 'stretch', paddingTop: spacing.xl, paddingHorizontal: spacing.lg },
+  listenBtn: { width: 92, height: 92, borderRadius: 46, alignItems: 'center', justifyContent: 'center' },
+  clozeInput: {
+    borderWidth: 1.5,
+    borderRadius: 14,
+    paddingHorizontal: spacing.lg,
+    paddingVertical: 13,
+    fontFamily: fonts.semibold,
+    fontSize: 18,
+    marginTop: spacing.xl,
+  },
+  umlautRow: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.sm },
+  umlautKey: {
+    width: 46,
+    height: 40,
+    borderRadius: 10,
+    borderWidth: 1.5,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  clozeCta: {
+    borderRadius: radius.button,
+    paddingVertical: 14,
+    alignItems: 'center',
+    marginTop: spacing.lg,
+  },
   rating: {
     flexDirection: 'row',
     gap: spacing.sm,

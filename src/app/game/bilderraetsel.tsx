@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { fetchImageWords, recordGameResult, statsByGame, type RecordOutcome } from '@/db/gamesRepo';
+import { recordMistakes } from '@/db/mistakesRepo';
 import {
   applyArcadeAnswer,
   buildImageQuestions,
@@ -43,6 +44,7 @@ export default function BilderraetselScreen() {
   arcadeRef.current = arcade;
   const endAtRef = useRef(0);
   const finishedRef = useRef(false);
+  const missedRef = useRef<number[]>([]);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   useEffect(() => {
@@ -65,6 +67,7 @@ export default function BilderraetselScreen() {
     setSelected(null);
     setOutcome(null);
     finishedRef.current = false;
+    missedRef.current = [];
     endAtRef.current = Date.now() + WORTBLITZ_MS;
     setRemaining(WORTBLITZ_MS);
     setPhase('playing');
@@ -86,6 +89,7 @@ export default function BilderraetselScreen() {
     if (finishedRef.current) return;
     finishedRef.current = true;
     const s = arcadeRef.current;
+    recordMistakes(missedRef.current, new Date()).catch(() => {});
     recordGameResult(
       {
         gameKey: 'bilderraetsel',
@@ -107,6 +111,7 @@ export default function BilderraetselScreen() {
     const q = questions[index];
     if (!q || selected != null || finishedRef.current) return;
     const correct = i === q.correctIndex;
+    if (!correct) missedRef.current.push(q.word.id);
     if (haptics) {
       Haptics.notificationAsync(
         correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error

@@ -4,6 +4,7 @@
 export interface ThemeWord {
   lemma: string;
   pos: string;
+  level: string;
 }
 
 export interface Theme {
@@ -21,1595 +22,1993 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Bedienung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Trinkgeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Vorspeise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hauptgericht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Nachspeise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Beilage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Getränkekarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Reservierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Empfehlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "bedienen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Geschmack",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Appetit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Speise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Zutat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Rest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "getrennt",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "A2"
       },
       {
         "lemma": "bar",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "A2"
       },
       {
         "lemma": "Leitungswasser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sprudel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schorle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "alkoholfrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "Biergarten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Theke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tablett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tischdecke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Strohhalm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Buffet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Spezialität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Snack",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Braten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schnitzel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "gegrillt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "knusprig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "vegan",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "aufessen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Gaststätte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wirt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stammgast",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tageskarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorbestellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "nachbestellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Selbstbedienung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Brühe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "köstlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "saftig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "zäh",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "paniert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "glutenfrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "laktosefrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "würzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "hacken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "salzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "verrühren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "vorheizen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "würfeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kneten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abgießen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anbraten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "dünsten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "garen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "marinieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abschmecken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anrichten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einfrieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "auftauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "köcheln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anbrennen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "versalzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "pürieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "bestreichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ausrollen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schmoren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "bestreuen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aufkochen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Gewürz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Knoblauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Backofen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Esslöffel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Teelöffel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Rührei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Teig",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Zimt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Mixer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schneidebrett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schürze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kochlöffel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Zubereitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Prise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hefe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Auflauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Backblech",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gefrierfach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dosenöffner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Messbecher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Korkenzieher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Küchenwaage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schneebesen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Topflappen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reibe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nudelholz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Konsistenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "cremig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Pfirsich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Pflaume",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Himbeere",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Melone",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Ananas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Mango",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Weintraube",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Aprikose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mandarine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Avocado",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Walnuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Haselnuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mandel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Erdnuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Spinat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kohl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blumenkohl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Brokkoli",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Zucchini",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Aubergine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kürbis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Erbse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bohne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Linse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mais",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Spargel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Radieschen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Champignon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Petersilie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schnittlauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Basilikum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vanille",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ingwer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Chili",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Frischkäse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schlagsahne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Margarine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rindfleisch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schweinefleisch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hackfleisch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pute",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lamm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Speck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Salami",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Würstchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Steak",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Lachs",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Thunfisch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Garnele",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Meeresfrüchte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Geflügel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Toast",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Brezel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Croissant",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Vollkornbrot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Süßigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gummibärchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Chips",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Pudding",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Marzipan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mineralwasser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kakao",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Espresso",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Packung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Pfand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorrat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Aufschnitt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tiefkühlkost",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fertiggericht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Scheibe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Haferflocken",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Müsli",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tofu",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sauerkraut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Olive",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Vegetarier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "verdorben",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "fettarm",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "herzhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "knackig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "zuckerfrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "naschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verderben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "reifen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Gastronomie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kulinarik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Feinschmecker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gourmet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Genuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Genießer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Delikatesse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gaumen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aroma",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Würze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schärfe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Süße",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bitterkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachgeschmack",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Textur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Geschmackssinn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Küchenchef",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sternekoch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sommelier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Feinkost",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verkostung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weinprobe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Jahrgang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rebsorte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Winzer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weingut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weinkarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Likör",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spirituose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schnaps",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brauerei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hopfen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Malz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gerste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weizen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Roggen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dinkel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gärung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reifung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lagerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Haltbarkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konservierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zusatzstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geschmacksverstärker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Inhaltsstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nährwert",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ballaststoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fettsäure",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Unverträglichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Allergen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Laktose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gluten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Milchprodukt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hülsenfrucht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lebensmittelindustrie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mindesthaltbarkeitsdatum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Massentierhaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlachtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Erzeuger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hofladen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bioladen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lebensmittelverschwendung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nahrungsmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konditorei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gebäck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blätterteig",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sauerteig",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Glasur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Füllung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Belag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kruste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konfitüre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kompott",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Püree",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fond",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Marinade",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Panade",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spieß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Filet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Innereien",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Auster",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hummer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tintenfisch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Forelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Muskatnuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Safran",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kümmel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Koriander",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meerrettich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Olivenöl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schmalz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eintopf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ambiente",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tischmanieren",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gedeck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Häppchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kostprobe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leckerbissen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gaumenfreude",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bankett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Aperitif",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sättigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Heißhunger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fettleibigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mangelernährung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nahrungsergänzungsmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rohkost",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hausmannskost",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kochkunst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verzehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Einmachglas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Speisekammer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Küchenmaschine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fritteuse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Karaffe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "verfeinern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verkosten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schlemmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verzehren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "auftischen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "garnieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "glasieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "karamellisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "flambieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "frittieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "blanchieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "pochieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "gratinieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "tranchieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "entkernen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "raspeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zerkleinern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zerdrücken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einlegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einkochen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "fermentieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "gären",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "lagern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "aufschäumen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überbacken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "rösten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "dämpfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "sieden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "unterheben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "auspressen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "keltern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "brauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausschenken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zapfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nippen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schlürfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verspeisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "vertilgen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "sättigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verdauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verschlingen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "knabbern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ablöschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "anschwitzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "einweichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bestäuben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "beträufeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abtropfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "munden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "räuchern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "süßen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "deftig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "aromatisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "pikant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "süßlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "säuerlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "herb",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "lieblich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "vollmundig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "fruchtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "nussig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "rauchig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "samtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "mürbe",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "kross",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "schaumig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "bissfest",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "zähflüssig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "klumpig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "schmackhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "appetitlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "reichhaltig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "nahrhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kalorienreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kalorienarm",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "ballaststoffreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "zuckerhaltig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "koffeinhaltig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "naturbelassen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "saisonal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "verderblich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "genießbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "bekömmlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "erlesen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "exquisit",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "delikat",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kulinarisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "spritzig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "prickelnd",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "abgestanden",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "ranzig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "schimmelig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "raffiniert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       }
     ]
   },
@@ -1620,947 +2019,1183 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Vermieter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Mieter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Mietvertrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kaution",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Nebenkosten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Stockwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Terrasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Karton",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Umzugskarton",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Haustür",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kleiderschrank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wasserhahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Heizkörper",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Nachbarschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Innenstadt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hochhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "heizen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "möbliert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "Besichtigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Einzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Auszug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Makler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Untermiete",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nachmieter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hausmeister",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Renovierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Quadratmeter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Altbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Neubau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abstellraum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Eigentümer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wohnfläche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hausordnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Treppenhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stromrechnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wohnungssuche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Einrichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Umzugswagen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wohngemeinschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mitbewohner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stellplatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "geräumig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "renovieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ummelden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ablesen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schleppen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einleben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "defekt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "lüften",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Nebenkostenabrechnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Übergabeprotokoll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mieterhöhung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "sanieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "untervermieten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Architektur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baukunst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bauwesen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Baustil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gotik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Barock",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Renaissance",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klassizismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Jugendstil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baumeister",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bauingenieur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Funktionalität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Proportion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Symmetrie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Grundriss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bauplan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Giebel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fundament",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewölbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kuppel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bogen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pfeiler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Träger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stütze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Balken",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tragwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Portal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ornament",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Veranda",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pavillon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Atrium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Trakt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Geschoss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dachgeschoss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dachstuhl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dachrinne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schornstein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kamin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Flachdach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Satteldach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dachterrasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wintergarten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fensterrahmen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geländer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Brüstung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wendeltreppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schacht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rampe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baustoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Backstein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sandstein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Granit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zement",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mörtel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Putz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Estrich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Stahlbeton",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mauerwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dämmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Isolierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verkleidung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verglasung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bauvorhaben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bauprojekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rohbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baugrube",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Baukran",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bauherr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bauleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bauunternehmen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zimmermann",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Richtfest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Grundstein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baukosten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausschreibung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bauvorschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bauordnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Anbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einsturz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hochbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Tiefbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Modernisierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bausubstanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Denkmalschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baudenkmal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ruine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Festung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stadtmauer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Städtebau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bebauung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bebauungsplan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bauland",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baugrundstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erschließung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Siedlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Plattenbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wohnblock",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Quartier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorstadt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Grünfläche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baulücke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leerstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gebäudekomplex",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fertighaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Passivhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Barrierefreiheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rohrleitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lüftung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kanalisation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entwässerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schallschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Brandschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Damm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Viadukt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "erbauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bebauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überbauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ausbauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einreißen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "restaurieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "modernisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "isolieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verputzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "mauern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "betonieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verglasen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überdachen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "unterkellern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ausheben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abstützen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verankern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "entwerfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "konzipieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "konstruieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bemessen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "vermessen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "versiegeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "begrünen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "aufstocken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einstürzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verfallen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verwittern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "einweihen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "konservieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "umgestalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nachrüsten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abdichten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verfugen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "asphaltieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "baufällig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "denkmalgeschützt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "sanierungsbedürftig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "einsturzgefährdet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "tragend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "tragfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "massiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "mehrstöckig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "ebenerdig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "energieeffizient",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "wärmegedämmt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "schalldicht",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "feuerfest",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "witterungsbeständig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "marode",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "prunkvoll",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "verschnörkelt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "symmetrisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "monumental",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "lichtdurchflutet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "verwinkelt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gotisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "barock",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "mittelalterlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "architektonisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "baulich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unbebaut",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "schlüsselfertig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       }
     ]
   },
@@ -2571,347 +3206,433 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Bürgersteig",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gehweg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hauptstraße",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Laterne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Brunnen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Marktplatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Stadtzentrum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Stadtteil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Viertel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Großstadt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kleinstadt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Einwohner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bücherei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Dom",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Turm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Rolltreppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hof",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Halle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bushaltestelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tunnel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Buchhandlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Einkaufszentrum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Zoo",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Park",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tourist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Altstadt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fußweg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hausnummer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Allee",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sackgasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Statue",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stadtrand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bezirk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wohngebiet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bewohner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Passant",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wolkenkratzer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Obergeschoss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Haupteingang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Innenhof",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tiefgarage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Unterführung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Metzgerei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wochenmarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Feuerwache",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Freibad",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hallenbad",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Burg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Villa",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reihenhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Einfamilienhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zentrale",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sitzbank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fahrradständer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Müllcontainer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Orientierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "entlanggehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zentral",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "verirren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Kapelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fassade",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gerüst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kran",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bauwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Säule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hinterhof",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Palast",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mehrfamilienhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abriss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "abreißen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "errichten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Sanierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stadtverwaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Infrastruktur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Metropole",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wahrzeichen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aussichtspunkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beton",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ziegel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Asphalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "belebt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Baugenehmigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Stadtplanung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ballungsraum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       }
     ]
   },
@@ -2922,1739 +3643,2173 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Reiseveranstalter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verkehrsteilnehmer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verkehrsaufkommen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reisewarnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Anschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reisedokument",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sicherheitskontrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Raststätte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stoßzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rundreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Anreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gepäckband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mitfahrgelegenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gepäckwagen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Grenzkontrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wohnmobil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verkehrsschild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Maut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fahrtrichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kurzurlaub",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fahrpreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gepäckaufbewahrung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fahrzeug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Strecke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Route",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fahrkartenautomat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nahverkehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fernverkehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pendler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Streckennetz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reisegruppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pauschalreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Touristeninformation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Inlandsflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Auslandsreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kreuzfahrt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Umweg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Engpass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fahrverbot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tempolimit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verkehrsregel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Grenzübergang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Jetlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "orientieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verzögern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vorbeifahren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abfliegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "durchqueren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zurücklegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vorfahren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zurückkehren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erkunden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "weiterreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "auffallen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vorankommen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "liegenbleiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abschleppen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "volltanken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einparken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erkundigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "blinken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verlängern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beantragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "entwerten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schleudern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "losfahren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "überfahren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "transportieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "stauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ausweichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "grenzüberschreitend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "ländlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "städtisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "sehenswert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "touristisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "verkehrsreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "verkehrsberuhigt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "abgelegen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "weitläufig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gebührenpflichtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "ausgebucht",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "grenznah",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "inländisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "zollfrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "verkehrsgünstig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "entlang",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "via",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "außerhalb",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "innerhalb",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "entgegen",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "voraus",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "jenseits",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "rundherum",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "seitwärts",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "diesseits",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "Bremse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Lenkrad",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kofferraum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sicherheitsgurt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "anschnallen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Hupe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "hupen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Scheinwerfer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fahrschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fahrstunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Zebrastreifen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Blinker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Einbahnstraße",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Diesel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kupplung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Scheibenwischer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Motorhaube",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Windschutzscheibe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "schalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Rückspiegel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kennzeichen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reifenpanne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ersatzreifen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Inspektion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ladestation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fahrbahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Geschwindigkeitsbegrenzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blitzer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Strafzettel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Parklücke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Beifahrer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fahrprüfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fahrlehrer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "wenden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anfahren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abbremsen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Gaspedal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tacho",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Warndreieck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pannendienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kreisverkehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Winterreifen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Parkverbot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Waschanlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vollgas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kilometerstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reifendruck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Getriebe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "rasen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Verkehrskontrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rettungsgasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ölwechsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spediteur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ladung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umschlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Container",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Containerschiff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zustellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auslieferung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kurier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Transporter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sattelschlepper",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anhänger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Laderaum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Laderampe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gefahrgut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ausfuhr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Einfuhr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Güterverkehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Güterzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lieferfrist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fuhrpark",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lastwagen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Luftfahrt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fluggesellschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Flugverkehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Flugsicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fluglotse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Landebahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Startbahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rollfeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Cockpit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Besatzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zwischenlandung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Notlandung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Turbulenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tragfläche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fahrwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Luftfracht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Anflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abfertigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Luftraum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Linienflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Treibstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kerosin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Flugschreiber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bruchlandung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hubschrauber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fallschirm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schifffahrt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reederei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Seehafen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kai",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anlegestelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Liegeplatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Frachtschiff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tanker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlepper",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lotse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Matrose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kapitän",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Deck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Heck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schleuse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reiseroute",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reiseplan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reiseversicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reisebericht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reisetagebuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reisekasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reisekosten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reisebus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reiseapotheke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reisezeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reiselust",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reiseleiterin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reisebekanntschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Herberge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ferienhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ferienanlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gasthaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gasthof",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gästehaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gästezimmer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hotelanlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Luxushotel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Boutiquehotel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Resort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bettenburg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Chalet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bungalow",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zeltplatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hostel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ferienpark",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Empfangshalle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zimmerservice",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zimmerschlüssel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vollpension",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Frühstücksbuffet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verpflegung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Selbstverpflegung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Etagenbett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mehrbettzimmer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hotelzimmer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gästebuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Feriengast",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zimmermädchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Portier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Concierge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wellnessbereich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sauna",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Whirlpool",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Strandkorb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aussichtsplattform",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausblick",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rundgang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rundfahrt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stadtführung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eintrittspreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Attraktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Touristenattraktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Touristenmagnet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Highlight",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fremdenverkehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tourismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Massentourismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ökotourismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Tourismusbranche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reiseanbieter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gastfreundschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hotellerie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gastgewerbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Passagier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fluggast",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tagestourist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Touristin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fernreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kreuzfahrtschiff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Individualreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gruppenreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Studienreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildungsreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kulturreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Städtereise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abenteuerreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wanderreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wochenendtrip",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kurztrip",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pilgerreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wanderroute",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wanderkarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wanderschuh",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bergwanderung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bergsteigen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kletterausrüstung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klettersteig",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bergtour",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Skitour",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Trekkingtour",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Radtour",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bootstour",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bootsfahrt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Segeltörn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Safari",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zeltlager",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Proviant",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reisehinweis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufenthaltsgenehmigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Einreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Passkontrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zollkontrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Impfpass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auslandskrankenversicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zeitverschiebung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geldwechsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reisescheck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mautgebühr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vignette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anschlussflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Direktflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Langstreckenflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rückflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hinflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abflughalle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wartehalle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gepäckkontrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reisegepäck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gepäckstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anschlusszug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fahrschein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stornierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umbuchung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufpreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kurtaxe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kulanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reisemangel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nebensaison",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hauptsaison",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hochsaison",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Urlaubsziel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Urlaubsort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ferienort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Badeort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kurort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Skigebiet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wintersportort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sandstrand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Aussichtsturm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leuchtturm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wallfahrtsort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ausgrabungsstätte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kulturgut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Weltnaturerbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Promenade",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Uferpromenade",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bergbahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gondel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Skilift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Standseilbahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kulturschock",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mitbringsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kurhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wanderführer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bergführer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Basar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entspannung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wellness",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "bereisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "unterbringen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "beherbergen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "campen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "faulenzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "aufbrechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verzollen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abstempeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "aufsuchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einkehren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "rasten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verweilen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "nächtigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "absteigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "trampen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "herumreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "mitreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "stranden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "reiselustig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "weltoffen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gastfreundlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gastlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "atemberaubend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unvergesslich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "erholsam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "exotisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "überfüllt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "menschenleer",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "buchbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "urig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "komfortabel",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "luxuriös",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "einheimisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "ortsansässig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "ganzjährig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "wetterfest",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "wetterabhängig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "fußläufig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "kinderfreundlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "familienfreundlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "behindertengerecht",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "ausgeschildert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "verträumt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "weltberühmt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "geschichtsträchtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "traumhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "paradiesisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "schneesicher",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "mediterran",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "abenteuerlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "sagenhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       }
     ]
   },
@@ -4665,1619 +5820,2023 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Bluthochdruck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Behandlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nebenwirkung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ernährung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bewegungsmangel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Herzinfarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schlaganfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Diabetes",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Narkose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blutprobe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Entzündung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Infektion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Operation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Narbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Diät",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Übergewicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stress",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Erschöpfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorerkrankung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sucht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Impfstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vitamin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nährstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Massage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Heilmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kreislauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Risikofaktor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schmerzmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Atmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verdauung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stoffwechsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Immunsystem",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gelenk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Migräne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rückfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schwindel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schwellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bewusstsein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Quarantäne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Genesung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Erholung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ausdauer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hausarzt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Facharzt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "röntgen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vorbeugen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "genesen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abnehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "betäuben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "entzünden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kollabieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schwellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "leiden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "desinfizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erkranken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "operieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "inhalieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anstecken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "diagnostizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schonen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verschlimmern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verschlechtern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "nachlassen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einnehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schlucken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "spritzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "betreuen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ausheilen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schwitzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "atmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "übergeben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zittern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "jucken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ernähren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "chronisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "infektiös",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "entzündet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "übergewichtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "heilbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "unheilbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "erschöpft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "geschwächt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "immun",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "übertragbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "bewusstlos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "schmerzhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "schmerzfrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "ausgewogen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "akut",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "dringend",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "vorübergehend",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "innerlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "äußerlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "höchstens",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "unregelmäßig",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "ständig",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "zeitweise",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "übermäßig",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "gelegentlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "Arzttermin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Arztpraxis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Krankmeldung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Krankenversicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Versichertenkarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Überweisungsschein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Attest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Beschwerden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Befund",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Halsschmerzen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rückenschmerzen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Durchfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verstopfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Heiserkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ausschlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dosis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Heilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorsorge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hausmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kamillentee",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hustensaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nasenspray",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wärmflasche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bettruhe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Thermometer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Notdienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Apotheker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Patientin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Therapie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "krankschreiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erbrechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verordnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "auskurieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "allergisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "heiser",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "nüchtern",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "geschwollen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "rezeptfrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "rezeptpflichtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "versichert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Zuzahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Privatpatient",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kassenpatient",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorsorgeuntersuchung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erreger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wirkstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beipackzettel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arzneimittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blutbild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ultraschall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Atemnot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "abklären",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ambulant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "stationär",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "arbeitsunfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Klinik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Station",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Krankenpfleger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pfleger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Chefarzt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Chirurg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hebamme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Krücke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Infusion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Röntgenbild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Krankenbett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blutabnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reha",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Physiotherapie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Visite",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ambulanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Besuchszeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Aufnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Labor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blutgruppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Operationssaal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Eingriff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Organ",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blutspende",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hygiene",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Desinfektionsmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pflegeheim",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pflege",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Krankenakte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "verlegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Kaiserschnitt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stethoskop",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Keim",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Intensivstation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Oberarzt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anästhesie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bestrahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Chemotherapie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Transplantation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entbindung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Organspende",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewebe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "entnehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Tumor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "gutartig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "bösartig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Beatmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "beatmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Wiederbelebung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "wiederbeleben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Herzstillstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hospiz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufwachraum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schädel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nerv",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bandscheibe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Niere",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Milz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bauchspeicheldrüse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Darm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blinddarm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Speiseröhre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kehlkopf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nervensystem",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blutgefäß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arterie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vene",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Netzhaut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Trommelfell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Becken",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Knochenmark",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schleimhaut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Drüse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schilddrüse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hormon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blutgerinnsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Muskulatur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lunge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lungenentzündung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blasenentzündung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geschwür",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Metastase",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Epilepsie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Asthma",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bronchitis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Masern",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Seuche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Epidemie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pandemie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erkrankung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Infekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verbrennung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ohnmacht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lähmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwerhörigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Demenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rheuma",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bandscheibenvorfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verstauchung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Knochenbruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gehirnerschütterung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blutvergiftung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Herzrhythmusstörung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Karies",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Frühgeburt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wechseljahre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Krebs",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schüttelfrost",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gliederschmerzen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Krampf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Juckreiz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sodbrennen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blähungen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Appetitlosigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlafstörung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tinnitus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abgeschlagenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Medikation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dosierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Überdosis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wechselwirkung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Antibiotikum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beruhigungsmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zäpfchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pille",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kapsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betäubung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Heilpraktiker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachsorge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Früherkennung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Biopsie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Blutzucker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Cholesterin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Chirurgie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Psychiater",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Frauenarzt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Krankheitsbild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Prognose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sterblichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lebenserwartung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Todesursache",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Psychologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Psychotherapie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Psychotherapeut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Therapeut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Psyche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Depression",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Angststörung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Panikattacke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Phobie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zwang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zwangsstörung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Essstörung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Magersucht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Burnout",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Trauma",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unterbewusstsein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Persönlichkeitsstörung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Selbstwertgefühl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Halluzination",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Entzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beratungsstelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Selbsthilfegruppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wohlbefinden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Achtsamkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Resilienz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nervenzusammenbruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Empathie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reflex",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Psychiatrie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Alkoholiker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Droge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "abhören",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abtasten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verabreichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "dosieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "lindern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abklingen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "infizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "therapieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "einliefern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einweisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "amputieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "lähmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erblinden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verkrampfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zusammenbrechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erleiden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verstauchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verrenken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "quetschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verheilen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abheilen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "eitern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "sterilisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "kribbeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verdrängen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verarbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "traumatisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "hypnotisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "halluzinieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "immunisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "einwilligen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abmagern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "versorgen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "stillen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "belasten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überfordern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "grübeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "stabilisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "transplantieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "humpeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "hinken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "stottern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "psychisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "seelisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "mental",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "therapeutisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "klinisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "ärztlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "medizinisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "operativ",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "erblich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "angeboren",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gebrechlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "bettlägerig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "resistent",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "benommen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "labil",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "depressiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "süchtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "entzündlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unfruchtbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "schmerzstillend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "entzündungshemmend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "euphorisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "impulsiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "intuitiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "empathisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "zwanghaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "wirksam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "niedergeschlagen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "angespannt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unbewusst",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       }
     ]
   },
@@ -6288,1395 +7847,1743 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Bewerbungsgespräch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kündigungsfrist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Berufserfahrung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Teamarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fortbildung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Weiterbildung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Betrieb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Unternehmen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Geschäftsführer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Führungskraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fachkraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Arbeitsagentur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Arbeitslosigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Qualifikation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bewerbungsunterlagen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stellenangebot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stellenanzeige",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Beförderung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gehaltsabrechnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Personalabteilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Betriebsrat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gewerkschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vollzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dienstreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zuständigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "qualifizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beauftragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "delegieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verhandeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "absolvieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "koordinieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einteilen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einarbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "bewähren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verantworten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vertreten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zusammenarbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "weiterbilden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "antreten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einreichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ablehnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "annehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "krankmelden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "pendeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aushelfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "optimieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "dokumentieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "präsentieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "motivieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verwalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anleiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anordnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "durchsetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "übernehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beruflich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "arbeitslos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "teamfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "belastbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "flexibel",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "hauptberuflich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "nebenberuflich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "ehrenamtlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "kompetent",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "motiviert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "engagiert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "überlastet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gemäß",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "bezüglich",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "hinsichtlich",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "laut",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "seitens",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "sofern",
-        "pos": "conj"
+        "pos": "conj",
+        "level": "B1"
       },
       {
         "lemma": "sobald",
-        "pos": "conj"
+        "pos": "conj",
+        "level": "B1"
       },
       {
         "lemma": "diesbezüglich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "vorerst",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "beziehungsweise",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "Auftrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sitzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Überstunden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Motivation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Position",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Protokoll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bewerber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Absage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Konkurrenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "kurzfristig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "langfristig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Umsatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Branche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zusage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "einhalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Geschäftsreise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tagesordnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vereinbarung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "weiterleiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Projektleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abteilungsleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elternzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "aufsteigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "effizient",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Buchhaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufstieg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "kürzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Gehaltsverhandlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bilanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entlassung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Quartal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schichtarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "verfassen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Abgabetermin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konferenzraum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "protokollieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitsklima",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "absprechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Referenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "verbindlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Urlaubsantrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "abwickeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Spesen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tarifvertrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vergütung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "priorisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Belegschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gleitzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "erwirtschaften",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "netzwerken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Klempner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Elektriker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tischler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Maler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Maurer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dachdecker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mechaniker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Friseur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Metzger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Erzieher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Altenpfleger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tierarzt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Steuerberater",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Buchhalter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Übersetzer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dolmetscher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Architekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Informatiker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Programmierer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Berater",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Unternehmer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorgesetzter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auszubildender",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Praktikant",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Landwirt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Feuerwehrmann",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Soldat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pilot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Busfahrer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Briefträger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sekretär",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kaufmann",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Physiotherapeut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Psychologe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sozialarbeiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schweißer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachtschicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dienstplan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tagung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Visitenkarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fließband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Großraumbüro",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Empfang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Arbeitszeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Abfindung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mindestlohn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Minijob",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Arbeitslosengeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mutterschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rentner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Ruhestand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Altersvorsorge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Umschulung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fachkräftemangel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Personal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Arbeitsmarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kurzarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zuschlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Provision",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mobbing",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitsbedingungen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Industrie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Handel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Export",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Import",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lieferant",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachfrage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Investition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Insolvenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Konzern",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gründung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewerbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mehrwertsteuer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konjunktur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Inflation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hersteller",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "herstellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Produkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Händler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Messe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Logistik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reklamation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Garantie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sozialversicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rentenversicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Haftpflichtversicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klausel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Prämie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Arbeitsunfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitsschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Laufbahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werdegang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Karriereleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufsleben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufsaussichten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufstiegschance",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entwicklungsmöglichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abstieg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufswechsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Quereinsteiger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufseinsteiger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachwuchs",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufsbild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tätigkeitsfeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufsabschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zertifikat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schulung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Workshop",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Coaching",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mentor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kompetenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlüsselqualifikation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fachwissen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eignung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anschreiben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stellenausschreibung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anforderungsprofil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Initiativbewerbung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bewerbungsfrist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auswahlverfahren",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Jobbörse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stellensuche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Empfehlungsschreiben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitsvermittlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Festanstellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anstellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitsverhältnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beschäftigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Befristung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zeitarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nebentätigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erwerbstätigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Angestellter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einarbeitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bruttogehalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nettogehalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zulage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sozialabgaben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lohnfortzahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Betriebsrente",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rentenalter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorruhestand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Altersteilzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sabbatjahr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Führungsposition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Führungsstil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Führungsebene",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Geschäftsführung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hierarchie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Teamleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Team",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stellvertreter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachfolger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachfolge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Entscheidungsträger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Weisung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Anordnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorgabe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leitfaden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leitbild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Unternehmenskultur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geschäftsmodell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hauptsitz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufgabenbereich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitsteilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Arbeitsprozess",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betriebsklima",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Teamgeist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kritikfähigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Betriebsausflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitsalltag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitsbelastung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Überlastung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitspensum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zeitmanagement",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eigeninitiative",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Durchsetzungsvermögen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verhandlungsgeschick",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fingerspitzengefühl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Arbeitsmoral",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vereinbarkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gleichstellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Chancengleichheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vertraulichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mitarbeitergespräch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zielvereinbarung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leistungsbeurteilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Auszeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildungsurlaub",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Resturlaub",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Urlaubsanspruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Krankenstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Arbeitsunfähigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fehlzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wiedereingliederung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Berufskrankheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elterngeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betriebszugehörigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bereitschaftsdienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Arbeitsrecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kündigungsschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Abmahnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Aufhebungsvertrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Arbeitsgericht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mitbestimmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Betriebsvereinbarung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Tarifverhandlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitskampf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Arbeitszeitkonto",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Stellenabbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umstrukturierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fluktuation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Existenzgründung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gründer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Freiberufler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auftraggeber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auftragnehmer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Geschäftsidee",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Startkapital",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Akquise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Personalwesen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Personalentwicklung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       }
     ]
   },
@@ -7687,1975 +9594,2468 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Aktionär",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anleihe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wertpapier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dividende",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rendite",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zins",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zinssatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Darlehen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tilgung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verschuldung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konkurs",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gläubiger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schuldner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bürgschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Investor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anleger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geldanlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kapital",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fonds",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Portfolio",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Spekulation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Deflation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rezession",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufschwung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abschwung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bruttoinlandsprodukt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Etat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Subvention",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Steuersatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einkommensteuer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umsatzsteuer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewerbesteuer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ertrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erlös",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Abschreibung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rücklage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rückstellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Liquidität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Eigenkapital",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fremdkapital",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Finanzmarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kapitalmarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Monopol",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kartell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fusion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Übernahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Niederlassung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tochtergesellschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Aufsichtsrat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vorstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bonus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Honorar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lebensversicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Police",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Selbstbeteiligung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schadenersatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Absicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Devisen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kaufkraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Forderung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verbindlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Handelsabkommen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Freihandel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Weltwirtschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Binnenmarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lieferkette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Großhandel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einzelhandel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Marktanteil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Marktlücke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kundschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verbraucher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konsum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konsument",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beleg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Transaktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Überschuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Defizit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zentralbank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leitzins",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Geldpolitik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Finanzkrise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ökonomie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Volkswirtschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sektor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dienstleistung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dienstleister",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mittelstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Selbstständigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Effizienz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Produktivität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rentabilität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wirtschaftlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kalkulation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kostenvoranschlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aktiengesellschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Börsengang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Depot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ratenzahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anzahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bonität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Versicherungsnehmer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zahlungsverkehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zahlungsmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geldwäsche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Steuerhinterziehung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwarzarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wirtschaftsprüfer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Jahresabschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Geschäftsjahr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewinnspanne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Marge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Entschädigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zuschuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Finanzierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beteiligung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Knappheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lebenshaltungskosten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Preissteigerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "spekulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "auszahlen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verzinsen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "tilgen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "absichern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "kalkulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "wirtschaften",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "subventionieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "versteuern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "absetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abrechnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verbuchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "bilanzieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "veranschlagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "fusionieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "expandieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "florieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "stagnieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schrumpfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ankurbeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "privatisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verstaatlichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "exportieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "importieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "vertreiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "vermarkten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "konsumieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "begleichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "mahnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abwerten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "aufwerten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "einbüßen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "profitieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "rentieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausschütten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "akquirieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "rationalisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "veräußern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abzahlen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "gutschreiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "entschädigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "vergüten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "anschaffen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "rentabel",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "profitabel",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "lukrativ",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gewinnbringend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kostspielig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "erschwinglich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "zahlungsfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "zahlungsunfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "insolvent",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "verschuldet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "schuldenfrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "steuerpflichtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "steuerfrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "börsennotiert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "konkurrenzfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "wettbewerbsfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "defizitär",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "liquide",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "konjunkturell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "zinslos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "überteuert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gewerblich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "pauschal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "fällig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "rückläufig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "finanziell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "wirtschaftlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "steuerlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "vermögend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "Herstellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werkhalle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Produktionslinie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Industriezweig",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betriebsleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Facharbeiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Handwerksbetrieb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geselle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lehrling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meisterbrief",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Innung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zunft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gewerbegebiet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werkstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Halbfabrikat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Endprodukt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erzeugnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Charge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Stückzahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Qualitätskontrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prüfverfahren",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zertifizierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Feinmechanik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gießerei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Guss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schmiede",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schweißnaht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Drehbank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fräsmaschine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Walzwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Hochofen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Stahlwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Eisenerz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kunststoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gummi",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Keramik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spinnerei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Weberei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zulieferer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lieferengpass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Beschaffung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lagerhaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lagerbestand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Inventur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spedition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fracht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gabelstapler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rationalisierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Auslastung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kapazität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stillstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schutzhelm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sicherheitsvorschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Akkordarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Standort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Massenproduktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einzelanfertigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Techniker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mechatroniker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schlosser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Installateur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lackierer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Uhrmacher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Goldschmied",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Töpfer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schornsteinfeger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Montagehalle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Produktionsprozess",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Arbeitsablauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lagerhalle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werksgelände",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gütesiegel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fehlerquote",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Seriennummer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betriebsmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Handarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Maßarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Veredelung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Beschichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schmelze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gussform",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wertschöpfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Produktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Meister",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sortiment",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ladenkette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Handelskette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verkaufsfläche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Warenhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fachgeschäft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Discounter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kassenzettel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gutschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kundenkarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bonusprogramm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Treuepunkte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Warenkorb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konsumverhalten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konsumgesellschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verbraucherschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verbraucherzentrale",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stammkunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kundenbindung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kundenservice",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kundenzufriedenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beanstandung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mangel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewährleistung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Garantieschein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rückgabe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rückgaberecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Widerruf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Widerrufsrecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rückerstattung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erstattung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rücksendung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachbesserung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ersatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kaufvertrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vertragslaufzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vertragsbedingungen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Installation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lieferzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lieferschein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Liefertermin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zusteller",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Paketdienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Versandkosten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sendungsverfolgung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Abholung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abholstation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Paketstation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zwischenhändler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fehlkauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Impulskauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schnäppchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Preisnachlass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Preissenkung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Räumungsverkauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlussverkauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werbeanzeige",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Markenname",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Markenbewusstsein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Produktpalette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Neuware",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gebrauchtware",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tauschbörse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wiederverkauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wegwerfgesellschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verpackungsmüll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mehrweg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verfallsdatum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Preisvergleich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zahlungsweise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zahlungsart",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Onlineshop",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Onlinehandel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bestellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bestellvorgang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auftragsbestätigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kundenbewertung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rezension",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kaufberatung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beratungsgespräch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verkaufsgespräch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vermittlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vertrieb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kaufrausch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verbrauchermarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sonderpreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wucher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kundenkonto",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bestellnummer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rückgabefrist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rabattaktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lockangebot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kaufanreiz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ratenkauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Teilzahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Barzahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kartenzahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zahlungsverzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verbraucherrecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Käuferschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fernabsatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verfügbarkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lieferverzögerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Warenlager",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Retoure",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Retourenquote",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kaufreue",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Preispolitik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Preiskampf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Preisdruck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dumpingpreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Streichpreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Endpreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verkaufspreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aktionspreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gegenangebot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ladenhüter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verkaufsschlager",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gratisprobe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kundenwunsch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlichtungsstelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vergleichsportal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sternebewertung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kaufempfehlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Neukunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bestandskunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Anschaffungskosten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reparaturkosten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einkaufsliste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wunschliste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rücknahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Restposten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Restbestand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Auslaufmodell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausstellungsstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gebrauchtgerät",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ersatzgerät",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mietkauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leasing",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Herstellergarantie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Garantieleistung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Garantieanspruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gewährleistungsanspruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kulanzregelung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "zurückerstatten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausliefern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "versenden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "feilschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "herabsetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausverkaufen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "wiederverwenden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "austauschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nachbessern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "garantieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zurücknehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nachliefern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verschleudern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verramschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abzocken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "übervorteilen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "aufschlagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verrechnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "eintauschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zurücksenden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "anzahlen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zusenden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überteuern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verschrotten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "aussortieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "umrüsten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ausbessern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "aufbereiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verhökern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "horten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "hamstern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "aufrunden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "rabattieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "auszeichnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "etikettieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "einscannen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "freischalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "inkassieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "bepreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "unverbindlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "funktionsfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "neuwertig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kauflustig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "preisbewusst",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "markenbewusst",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unerschwinglich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "wiederverwertbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "exklusiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "limitiert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "vergriffen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "lieferbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kulant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "werbewirksam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "verkaufsoffen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kostendeckend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "preisgünstig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kundenfreundlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "serviceorientiert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "verbraucherfreundlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "ressourcenschonend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "langlebig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kurzlebig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "reparaturbedürftig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "originalverpackt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unbenutzt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "portofrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "versandkostenfrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unverkäuflich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "rückzahlbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "verhandelbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       }
     ]
   },
@@ -9666,215 +12066,268 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Bargeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Geldautomat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Geldbeutel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kontonummer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sparschwein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gebühr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sparkasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wert",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sparkonto",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kontostand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Taschengeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "abbuchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Einzahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Auszahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Girokarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zinsen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kredit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "zurückzahlen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Schulden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rate",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dauerauftrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lastschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "leisten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Währung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wechselkurs",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ausgabe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Einnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Einkommen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "betragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Budget",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Betrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bankleitzahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Online-Banking",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "überziehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Ersparnisse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Guthaben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gewinn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Summe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Scheck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "besitzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kontaktlos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "bargeldlos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "pleite",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "wertvoll",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "verschulden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "finanzieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "investieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "anlegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Hypothek",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aktie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Börse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vermögen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   },
@@ -9885,211 +12338,263 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Antrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Frist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Unterlagen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kopie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Personalausweis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reisepass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bestätigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "bestätigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Nachweis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bescheinigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Genehmigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ablehnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verlängerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bearbeitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sachbearbeiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "zuständig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Schalter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wartenummer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stempel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Original",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Urkunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Geburtsurkunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Akte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wohnsitz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "vorlegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Aufenthaltserlaubnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Arbeitserlaubnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ausländerbehörde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bürgeramt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Standesamt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Finanzamt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Steuererklärung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Steuernummer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "amtlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "vollständig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "ablaufen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Bürokratie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Behördengang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufenthaltstitel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Staatsbürgerschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einbürgerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meldebescheinigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "beglaubigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Vollmacht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Widerspruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Antragsteller",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "bewilligen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verweigern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nachreichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zustellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Aktenzeichen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "versäumen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       }
     ]
   },
@@ -10100,1123 +12605,1403 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Wahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wähler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kandidat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Partei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abgeordnete",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gesetz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verordnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verfassung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Demokratie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Diktatur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Regierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Opposition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Parlament",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bundestag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bürgermeister",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bürgerrecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Staatsangehörigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Staatsbürger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Demonstration",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Streik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gericht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Urteil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Anwalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Richter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verhandlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verwaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Behörde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Amt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abstimmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Steuerzahler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sozialstaat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mehrheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Minderheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Menschenrecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Grundrecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Freiheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gleichberechtigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Integration",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Flüchtling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Asyl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Botschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vertreter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Koalition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "wählen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abstimmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "demonstrieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "boykottieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "streiken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vereidigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "regieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beschließen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einführen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einschränken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "genehmigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "gründen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verurteilen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anklagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verteidigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kandidieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "herrschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "unterdrücken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "diskriminieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "integrieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "flüchten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "auswandern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einwandern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abschaffen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "reformieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "besteuern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "politisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "demokratisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gesetzlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "illegal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "legal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "sozial",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gleichberechtigt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "korrupt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "neutral",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "konservativ",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "liberal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "radikal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "friedlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "einstimmig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "rechtmäßig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "aufgrund",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "zugunsten",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "einerseits",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "andererseits",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "landesweit",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "überwiegend",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "mehrheitlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "bundesweit",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "Wahlkampf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wahlrecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wahlbeteiligung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wahlkreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wahlprogramm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wahlversprechen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stimmzettel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stichwahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Hochrechnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Briefwahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Neuwahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kandidatur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spitzenkandidat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Volksabstimmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Referendum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Enthaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bundesrat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Landtag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fraktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mandat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Legislaturperiode",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Plenarsitzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ausschuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anhörung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Anfrage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kanzler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Minister",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ministerium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Staatssekretär",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Staatsoberhaupt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Regierungschef",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kabinett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sondierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Koalitionsvertrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Minderheitsregierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Amtszeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Amtseid",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rücktritt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Misstrauensvotum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Machtwechsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Politiker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Parteitag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gesetzgebung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gesetzentwurf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Inkrafttreten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Erlass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Satzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rechtsstaat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewaltenteilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verfassungsgericht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verfassungsschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Monarchie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Republik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Souveränität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Populismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Extremismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ideologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meinungsfreiheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pressefreiheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zensur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Propaganda",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Korruption",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bestechung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vetternwirtschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Transparenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lobby",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorsitzende",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gremium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Petition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kundgebung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Putsch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Regime",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unterdrückung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Willkür",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Geheimdienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Immunität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bürgerinitiative",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dissident",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Diplomatie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Diplomat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Botschafter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Außenpolitik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abkommen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bündnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sanktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Embargo",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gipfeltreffen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Staatsbesuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Neutralität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Waffenstillstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abrüstung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mitgliedstaat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kommission",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Richtlinie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Delegation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Großmacht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Abschiebung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zuwanderung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beamte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einwohnermeldeamt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verwaltungsakt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verwaltungsgericht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ermessen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Befugnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dienstweg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Amtssprache",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Instanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Papierkram",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kommune",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Landkreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bundesland",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Föderalismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ressort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Staatsverschuldung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "erlassen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ratifizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "nominieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ernennen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zurücktreten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einberufen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "vertagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "unterzeichnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "anfechten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "amtieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ausweisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abschieben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einbürgern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "gewähren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "regulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "entmachten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "zensieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abwählen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "vollziehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verkünden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "billigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verwerfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "einbringen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verhängen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "entsenden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ausrufen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "untersagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ermächtigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "beanstanden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "beurkunden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "intervenieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "mobilisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "tagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausschreiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "annektieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "konsultieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "dementieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "legitimieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verschärfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "lockern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "enteignen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "begnadigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "mitbestimmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einbestellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abdanken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "staatlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "behördlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "bürokratisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kommunal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "föderal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "parlamentarisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "autoritär",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "totalitär",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "diplomatisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "parteiisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "parteilos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "populistisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "verfassungswidrig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "souverän",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "bilateral",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "multilateral",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "wahlberechtigt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "oppositionell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "überparteilich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "hauptamtlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "innenpolitisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "außenpolitisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "extremistisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unbürokratisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "fristgerecht",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "formlos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "rechtskräftig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       }
     ]
   },
@@ -11227,931 +14012,1163 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Klage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "klagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verklagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Kläger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prozess",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verfahren",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rechtsanwalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verteidiger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Staatsanwalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gerichtstermin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Anklage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "aussagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Zeugenaussage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "schwören",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Eid",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "urteilen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schuldig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "unschuldig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Schuld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Strafe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "bestrafen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Geldstrafe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bußgeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "freisprechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Freispruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einspruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betrug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "betrügen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "fälschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Fälschung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verbot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Erlaubnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Paragraf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "rechtlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "strafbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Justiz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Grundgesetz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Menschenrechte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Eigentum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mahnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "verpflichten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Haftung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "haften",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Schadensersatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Notar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Testament",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Erbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "erben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Erbschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "ungültig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Schutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kriminalität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Straftat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Delikt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verbrecher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Straftäter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mittäter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Komplize",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bande",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mord",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mörder",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Totschlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Körperverletzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erpressung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erpresser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entführung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entführer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geiselnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geisel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schmuggel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schmuggler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schmiergeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hehlerei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Unterschlagung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sachbeschädigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vandalismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brandstiftung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nötigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Belästigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Missbrauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Übergriff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Attentat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Attentäter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anschlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Terrorismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Terrorist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Selbstjustiz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Notwehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tatort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tatwaffe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Alibi",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Indiz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Beweismittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beweislast",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Spurensicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fingerabdruck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Obduktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ermittlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ermittler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kommissar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kriminalpolizei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fahndung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Razzia",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hausdurchsuchung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Festnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Haftbefehl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verhör",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geständnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Untersuchungshaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Haft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Häftling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Insasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Justizvollzugsanstalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Strafvollzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bewährung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Freiheitsstrafe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Todesstrafe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Amnestie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Resozialisierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wiederholungstäter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gerichtshof",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gerichtssaal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gerichtsverhandlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schöffe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Anklagebank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Plädoyer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schuldspruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Strafmaß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Revision",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rechtsmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verjährung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kronzeuge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verteidigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mandant",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rechtsprechung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Strafgesetzbuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Staatsanwaltschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Streife",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Streifenwagen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Handschellen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Überwachung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Überwachungskamera",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Phantombild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tatbestand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Strafregister",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorstrafe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Führungszeugnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gauner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Einbrecher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schusswaffe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lösegeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Knast",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Hausarrest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Detektiv",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spionage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Strafanzeige",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verwarnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fahrerflucht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Präzedenzfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Justizirrtum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dunkelziffer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leiche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "ermorden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erschießen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erstechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "entführen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erpressen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bestechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schmuggeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausrauben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "misshandeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "belästigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "missbrauchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ermitteln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "fahnden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verdächtigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "beschuldigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verhören",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "vernehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "leugnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abstreiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "inhaftieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "einsperren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "absitzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "entkommen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "untertauchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "observieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "überwachen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "durchsuchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "beschlagnahmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "sicherstellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "aufklären",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "hinterziehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "unterschlagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "veruntreuen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "vollstrecken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verbüßen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verüben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "anstiften",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "randalieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "plündern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "umbringen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausbrechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "begehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erwischen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "freilassen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "kriminell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "straffällig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "vorbestraft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gewalttätig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "bewaffnet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "rechtswidrig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "juristisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "strafrechtlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gerichtlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "geständig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "flüchtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "skrupellos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "verdeckt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "spurlos",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "C1"
       },
       {
         "lemma": "gewaltsam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "fahrlässig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "vorsätzlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "straffrei",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "befangen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "bestechlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "lebenslänglich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "berüchtigt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "zwielichtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "polizeilich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       }
     ]
   },
@@ -12162,1751 +15179,2188 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Anwendung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gerät",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Datenschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verbindung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Werbung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Berichterstattung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Software",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Netzwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Webseite",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Browser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Passwort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Datei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ordner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Speicher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Server",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Chat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ladekabel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Akku",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tastatur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lautsprecher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kopfhörer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mikrofon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Podcast",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Beitrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kommentar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sender",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Empfänger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reichweite",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Plattform",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Presse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rundfunk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Übertragung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sicherheitslücke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verschlüsselung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schnittstelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Anleitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Digitalisierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kommunikation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ausstrahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nutzer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Anbieter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tarif",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zielgruppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Redaktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Moderator",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "hochladen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "speichern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "löschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "veröffentlichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "installieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aktualisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abstürzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "klicken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "tippen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "scannen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "surfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "streamen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "posten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verbreiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kommentieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "bearbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "blockieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verschlüsseln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einloggen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ausloggen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verschicken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "empfangen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "übertragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anschließen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "programmieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "recherchieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "berichten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ausstrahlen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abonnieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "digital",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "virtuell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "technisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "elektronisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "drahtlos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "mobil",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "online",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "interaktiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "anonym",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "kompatibel",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "vernetzt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "veraltet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "benutzerfreundlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "verfügbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "vertraulich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "live",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "automatisch",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "offline",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "sowie",
-        "pos": "conj"
+        "pos": "conj",
+        "level": "B1"
       },
       {
         "lemma": "mittels",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "anhand",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "beziehungsweise",
-        "pos": "conj"
+        "pos": "conj",
+        "level": "B1"
       },
       {
         "lemma": "zeitnah",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "jederzeit",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "kontinuierlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "Laptop",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Smartphone",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tablet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "App",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "SMS",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "WLAN",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Link",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Daten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Netz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Scanner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Update",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Download",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Suchmaschine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Benutzername",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Anhang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Spam",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Cloud",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Festplatte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "USB-Stick",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Display",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Touchscreen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Webcam",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Router",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Posteingang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Signal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sprachnachricht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klingelton",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Flugmodus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bluetooth",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Screenshot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Emoji",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Profil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Profilbild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Benachrichtigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Datenvolumen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "SIM-Karte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Technik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Videoanruf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blog",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Forum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "PIN",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "QR-Code",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fehlermeldung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Störung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bedienungsanleitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Helligkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Speicherplatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Roboter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Backup",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betriebssystem",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hardware",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prozessor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entwickler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Informatik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Drohne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sensor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Chip",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildschirmzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Videokonferenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Cookie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lesezeichen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Absturz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Technologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elektronik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Adapter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auflösung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Datenbank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Algorithmus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "mailen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "googeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anhängen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anschalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "abschalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "entsperren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "sperren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "herunterfahren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einfügen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "markieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "scrollen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "antippen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zurücksetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "aktivieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "deaktivieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "deinstallieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "synchronisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abspielen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kabellos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "tragbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "leistungsstark",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "energiesparend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Ingenieurwesen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Maschinenbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elektrotechnik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verfahrenstechnik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mechanik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Robotik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Messtechnik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Statik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fertigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Serienfertigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Montage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konstruktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konstrukteur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entwurf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prototyp",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bauteil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baugruppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Komponente",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ersatzteil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baustein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werkstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Legierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Halbleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mikrochip",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leiterplatte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Platine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schaltkreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Transistor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kondensator",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Relais",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mikrocontroller",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Steuerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Regler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Steuergerät",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Antrieb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zahnrad",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kolben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ventil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Turbine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Generator",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elektromotor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verbrennungsmotor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hydraulik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Triebwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gewinde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorrichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Apparat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mechanismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werkzeugmaschine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Förderband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Automatisierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Qualitätssicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prüfstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Abmessung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Spezifikation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schaltplan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Inbetriebnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wartung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Instandhaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verschleiß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beanspruchung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Tragfähigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Festigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elastizität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leitfähigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Journalismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Redakteur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlagzeile",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pressemitteilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pressekonferenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Recherche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Korrespondent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leitartikel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kolumne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kolumnist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Auflage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abonnement",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abonnent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verleger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Herausgeber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Manuskript",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Exemplar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rubrik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Titelseite",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Impressum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Urheberrecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wortlaut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Moderation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Livestream",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zuhörer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einschaltquote",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Medienlandschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meinungsäußerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Öffentlichkeitsarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Werbespot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werbekampagne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kampagne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Slogan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sponsor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sponsoring",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Marketing",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vermarktung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Manipulation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Desinformation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Falschmeldung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gerücht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Skandal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Enthüllung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verschwörungstheorie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Glaubwürdigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Objektivität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Voreingenommenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Diskurs",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rhetorik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Redner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ansprache",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Argumentation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Überzeugungskraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wortwahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tonfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Anspielung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ironie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sarkasmus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Übertreibung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Metapher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Redewendung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sprichwort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausdrucksweise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Formulierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umgangssprache",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Jargon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dialekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sprachgebrauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gesprächspartner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klatsch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Shitstorm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hasskommentar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hassrede",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kommentarspalte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Follower",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Influencer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hashtag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Filterblase",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Echokammer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Anonymität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leserbrief",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leserschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Pressesprecher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sprecher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Medienkompetenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Überschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schlagwort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Boulevardpresse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Broschüre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Flugblatt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Newsletter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mitteilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ankündigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Inserat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schlagabtausch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Podiumsdiskussion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Talkshow",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachrichtenagentur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meldung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eilmeldung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Resonanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rückmeldung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Massenmedien",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "abdrucken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "herausgeben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "redigieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "interviewen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "moderieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "aufzeichnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bekanntgeben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ankündigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "benachrichtigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verständigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "kommunizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "übermitteln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "kursieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "widerrufen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "richtigstellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "klarstellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "anspielen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verharmlosen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "dramatisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "untertreiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "beschönigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verschweigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "vertuschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "enthüllen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "aufdecken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "durchsickern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "manipulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "irreführen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "hetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verleumden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "provozieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "polarisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "anpreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verlinken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bloggen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "lästern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verstummen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "entgegnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "erwidern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "anmerken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "artikulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "dolmetschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "rezensieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "zuspitzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "relativieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "differenzieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "medial",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "journalistisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "redaktionell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "seriös",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unseriös",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "reißerisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "einseitig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unglaubwürdig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "tendenziös",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "polemisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "provokant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "rhetorisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "eloquent",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "wortgewandt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unverständlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "missverständlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "mehrdeutig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "umgangssprachlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "förmlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "salopp",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "treffend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "viral",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "wörtlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "sinngemäß",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "ausdrücklich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "informativ",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "aufschlussreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "brisant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "verbal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "nonverbal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       }
     ]
   },
@@ -13917,1135 +17371,1418 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Klimawandel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klimaschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Erderwärmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nachhaltigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ressource",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rohstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verschmutzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Luftverschmutzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Artenvielfalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Aussterben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lebensraum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ökosystem",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Naturschutzgebiet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Umweltschützer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Umweltbewusstsein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Treibhauseffekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Treibhausgas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Emission",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kohlendioxid",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abgas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schadstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Feinstaub",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Energiequelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sonnenenergie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Windenergie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Windrad",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Solarzelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Brennstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mülltrennung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verpackung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Recycling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Entsorgung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Naturkatastrophe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dürre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Überschwemmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Waldbrand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Meeresspiegel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Regenwald",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abholzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Grundwasser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Trinkwasser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Energieverbrauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Elektroauto",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mehrwegflasche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pestizid",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "recyceln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verschwenden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verschmutzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "bedrohen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "gefährden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schmelzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "entsorgen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abholzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aufforsten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "pflanzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anbauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ernten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verrotten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "dämmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einsparen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "fördern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schädigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beeinflussen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "filtern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "spenden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "bewahren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erhalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aussterben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ausstoßen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "produzieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erzeugen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verbrauchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verringern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zerstören",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "retten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erneuerbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "umweltfreundlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "umweltschädlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "nachhaltig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "ökologisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "giftig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "schädlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "bedroht",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gefährdet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "knapp",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "klimafreundlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "umweltbewusst",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "nachwachsend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "fossil",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "biologisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "zusehends",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "folglich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "weltweit",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "langfristig",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "kurzfristig",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "weitgehend",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "zunächst",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "insbesondere",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "angesichts",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "weder ... noch",
-        "pos": "conj"
+        "pos": "conj",
+        "level": "B1"
       },
       {
         "lemma": "Wolke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Blitz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Donner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hagel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Niederschlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schauer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schneeflocke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Glatteis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hitzewelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hochwasser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Flut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ebbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Böe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Orkan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unwetter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wettervorhersage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Luftfeuchtigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Luftdruck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nieselregen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sonnenschein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wetterlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pfütze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Eiszapfen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Regentropfen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hitze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kälte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wärme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Trockenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Feuchtigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Matsch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Jahreszeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schatten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "hageln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "donnern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "blitzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "nieseln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "tauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "wehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aufklaren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "schwül",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "heiter",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Mond",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Planet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Weltall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Universum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Galaxie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sternschnuppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vollmond",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sonnenaufgang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sonnenuntergang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Horizont",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Atmosphäre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sonnenfinsternis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gebirge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klippe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlucht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erdbeben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Düne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Halbinsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bucht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ozean",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Strömung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Teich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wasserfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sumpf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Moor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wüste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Oase",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gelände",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Stein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Staub",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schlamm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gold",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Silber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Eisen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kupfer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rinde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Knospe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eiche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Birke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tanne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kastanie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Moos",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Löwenzahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klimapolitik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klimaziel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klimakrise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klimaneutralität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klimaabkommen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klimaanpassung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klimamodell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erwärmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kipppunkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rückkopplung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Methan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ozon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ozonschicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gletscherschmelze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Polkappe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Emissionshandel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ökosteuer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fußabdruck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verursacher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Grenzwert",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Energiewende",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Solaranlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Photovoltaik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Windkraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Windpark",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wasserkraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erdwärme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Biomasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Biogas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brennstoffzelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Atomkraftwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Atomausstieg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kernenergie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Endlager",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Stromnetz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Energieeffizienz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Energieversorgung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wärmepumpe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wärmedämmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kohlekraftwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erdgas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erdöl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Braunkohle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pipeline",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Raffinerie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Umweltverschmutzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verunreinigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mikroplastik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Plastikmüll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elektroschrott",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Deponie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kläranlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abwasser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pfandflasche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kreislaufwirtschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Smog",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lichtverschmutzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Chemikalie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwermetall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Düngemittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Monokultur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Überdüngung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Naturschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umweltschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Artenschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Artensterben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Biodiversität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ökologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nahrungskette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Insektensterben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bestand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wilderei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Überfischung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Renaturierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Aufforstung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schutzgebiet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nationalpark",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Biotop",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Erosion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wüstenbildung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Korallenriff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Korallenbleiche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Extremwetter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Starkregen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sturmflut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hurrikan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erdrutsch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dürreperiode",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Missernte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hungersnot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wasserknappheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Staudamm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Deich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Evakuierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Katastrophenschutz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Süßwasser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   },
@@ -15056,1103 +18793,1378 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Igel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Eichhörnchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Biene",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wespe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ameise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mücke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Käfer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schnecke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wurm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Adler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Eule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Krähe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Spatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schwan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Storch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Möwe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reh",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hirsch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wildschwein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kaninchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Ratte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fledermaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hai",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Muschel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Feder",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schnabel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Flügel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schwanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Pfote",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Beute",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Raubtier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Säugetier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "jagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "brüten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zähmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "stechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kriechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Wiese",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gipfel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hügel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Felsen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Höhle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sturm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Frost",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dämmerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Laub",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zweig",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blüte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Küste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gletscher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lawine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vulkan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Regenbogen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Dachs",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wolf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Luchs",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Otter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Biber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Marder",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wiesel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ziege",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Esel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kamel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nashorn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nilpferd",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leopard",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Robbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Delfin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Seehund",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Waschbär",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Faultier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Känguru",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Koala",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schimpanse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gorilla",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lama",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Alpaka",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Büffel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Antilope",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gazelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zebra",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hyäne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Falke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Uhu",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Specht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Amsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fink",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Meise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwalbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reiher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kranich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Star",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rabe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elster",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fasan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Pfau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kolibri",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Papagei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pinguin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Strauß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kuckuck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Truthahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachtigall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Marienkäfer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Libelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Heuschrecke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Grille",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hummel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Motte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Raupe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Larve",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Floh",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Laus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zecke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Milbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Spinne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Skorpion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tausendfüßler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kakerlake",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gottesanbeterin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Stechmücke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Falter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Hecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Karpfen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hering",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kabeljau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Scholle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Krake",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Qualle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Seestern",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Koralle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Molch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kaulquappe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Eidechse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Natter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Viper",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kröte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Salamander",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schildkröte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Krokodil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Chamäleon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kralle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klaue",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Huf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geweih",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schuppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Flosse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kieme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rüssel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stoßzahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mähne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stachel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Horn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Winterschlaf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Balz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rudel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Herde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwarm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wirbeltier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nagetier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pflanzenfresser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fleischfresser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Buche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fichte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lärche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ahorn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Esche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Weide",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pappel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Linde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nadelbaum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Laubbaum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Farn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Flechte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Klee",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Distel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brennnessel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gänseblümchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mohn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nelke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Veilchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Narzisse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lilie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Orchidee",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Efeu",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ranke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Blütenblatt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stängel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Halm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dorn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Staude",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Setzling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fotosynthese",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gattung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Population",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bestäubung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vererbung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verwesung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Symbiose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Parasit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zersetzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Chlorophyll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Metamorphose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nische",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Humus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nützling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Hochbeet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gartenschere",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "lauern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schlüpfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "häuten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "tarnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "wittern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "zwitschern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "krähen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "quaken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zischen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "flattern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "gackern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "wiehern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "grunzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "fauchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schnurren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nisten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "keimen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "sprießen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "gedeihen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "welken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verwelken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "wuchern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ranken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verblühen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "austreiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "wurzeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "überwintern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausschwärmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verwesen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "beschneiden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "veredeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "brummen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "muhen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "blöken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "winterhart",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "immergrün",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "räuberisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "scheu",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gefiedert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "stachelig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "pflanzlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "blühend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "verwelkt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "verholzt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "dornig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "buschig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "wuchernd",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "nachtaktiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "tagaktiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "wechselwarm",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "ausgestorben",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "heimisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "laublos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "robust",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "widerstandsfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gefräßig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "flink",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "träge",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "tierisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       }
     ]
   },
@@ -16163,715 +20175,893 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Gebirgskette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gebirgszug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hochgebirge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mittelgebirge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hochland",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tiefland",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hochebene",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Plateau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anhöhe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abhang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Steigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gefälle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Felswand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Steilküste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meerenge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Landzunge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Inselgruppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Archipel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Festland",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kontinent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fjord",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lagune",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Watt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wattenmeer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gezeiten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meeresboden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Binnensee",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stausee",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nebenfluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zufluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Flussbett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Flusslauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mündung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Delta",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stromschnelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kanal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Aue",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Feuchtgebiet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Steppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Savanne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tundra",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Urwald",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vegetation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Terrain",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bodenschätze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erdkruste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vulkanausbruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lava",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Magma",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Krater",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verwitterung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sediment",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ablagerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gestein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mineral",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kalkstein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geröll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lehm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kontinentalplatte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Plattentektonik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Geologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geografie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kartografie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Atlas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Höhenlinie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Koordinate",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Breitengrad",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Längengrad",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Äquator",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Halbkugel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pol",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Polarkreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wendekreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zeitzone",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Himmelsrichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Navigation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vermessung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Satellitenbild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Luftaufnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zone",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klimazone",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Höhenlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Höhenmeter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baumgrenze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schneegrenze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Steinschlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wasserscheide",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Einzugsgebiet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Massiv",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Grat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Serpentine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Steilhang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Topografie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Landmasse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Landenge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Territorium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Randgebiet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umland",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hinterland",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einöde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wildnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Riff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sandbank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brandung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gischt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Küstenlinie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Panorama",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bergkamm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ausläufer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Senke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mulde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Eiszeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erdschicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "entspringen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "münden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "durchfließen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "erstrecken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "angrenzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "grenzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ansteigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abfallen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abflachen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "erodieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ablagern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "versanden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "austrocknen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überfluten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überschwemmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "unterspülen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "aufstauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "begradigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "kartieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "besiedeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "säumen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "aufragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "überragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erklimmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "besteigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schlängeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "navigieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "orten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "gebirgig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "hügelig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "bergig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "eben",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "schroff",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "zerklüftet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "felsig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "steinig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "sandig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "sumpfig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "karg",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unwegsam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unberührt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "entlegen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "fruchtbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "dürr",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "bewaldet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "landschaftlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "geografisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "geologisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "vulkanisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kontinental",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "maritim",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "alpin",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "polar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "subtropisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "tropisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gemäßigt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "malerisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "idyllisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "seicht",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "reißend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unzugänglich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "umliegend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "tektonisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       }
     ]
   },
@@ -16882,2531 +21072,3163 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Studiengang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Prüfungsordnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Forschung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Erkenntnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wissenschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wissenschaftler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Forscher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Universität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hochschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fakultät",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Seminar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorlesung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dozent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Professor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stipendium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klausur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hausarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Referat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vortrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Diplom",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abschlussarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Doktorarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Studienfach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Studienplatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fachbereich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lehrplan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lehrkraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bildung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Erziehung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fähigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Begabung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Grundschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Realschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Berufsschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zulassung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Einschreibung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stundenplan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Grundlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Azubi",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fachliteratur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Quelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nachhilfe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "erforschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "nachweisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "begründen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vermitteln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "unterrichten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erlernen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "forschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "analysieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "interpretieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zitieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "belegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ausbilden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erweitern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vertiefen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "auswerten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "diskutieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aneignen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beherrschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "erwerben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beweisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einschreiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vortragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verdeutlichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "wissenschaftlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "theoretisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "akademisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "fachlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "obligatorisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "verpflichtend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "anspruchsvoll",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "begabt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gebildet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "anschaulich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "sachlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "nachvollziehbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "fundiert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "lehrreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "beispielsweise",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "demnach",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "somit",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "dementsprechend",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "zudem",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "letztlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "insofern",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "zumindest",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "vor allem",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "Note",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tafel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kreide",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Klassenzimmer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schulhof",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Turnhalle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schulranzen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Füller",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Radiergummi",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Lineal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Mäppchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Klassenarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Diktat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schulfach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schuljahr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Klassenfahrt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Pausenbrot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Mitschüler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Aufsatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "auswendig",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "A2"
       },
       {
         "lemma": "benoten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schwänzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "versetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Versetzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "abschreiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "nachsitzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "pauken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Spickzettel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Streber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Direktor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hauptschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Elternabend",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schulabschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Notendurchschnitt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "mündlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "schriftlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Studium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hörsaal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mensa",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wohnheim",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bachelor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Master",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Semesterferien",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "mitschreiben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Abgabe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kommilitone",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Campus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Institut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "immatrikulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "exmatrikulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Tutorium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Skript",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erstsemester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Studiengebühren",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "promovieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Promotion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Absolvent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Naturwissenschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Chemie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "chemisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Biologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Physik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "physikalisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Theorie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hypothese",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Experiment",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "experimentieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Versuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Beobachtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "beobachten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Messung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Element",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sauerstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wasserstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Säure",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Flüssigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "fest",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "flüssig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gasförmig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Gas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reaktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mischung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Formel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "auflösen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verdampfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "gefrieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Zelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Evolution",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Art",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lebewesen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Organismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bakterie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Virus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Photosynthese",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fortpflanzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "vererben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Atom",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Molekül",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Teilchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Energie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schwerkraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geschwindigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "beschleunigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Druck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Temperatur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Welle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Strahlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Magnet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "magnetisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Studie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Analyse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Methode",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Methodik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Datenerhebung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stichprobe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fragestellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auswertung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erhebung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Messwert",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Variable",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Korrelation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kausalität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fußnote",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Quellenangabe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Literaturverzeichnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zusammenfassung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gutachten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gutachter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fachzeitschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Publikation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dissertation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Habilitation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Doktorand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Professur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lehrstuhl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Masterarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Forschungsgruppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Forschungsprojekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Grundlagenforschung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Feldforschung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fragebogen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Proband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Versuchsperson",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kontrollgruppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Placebo",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Datensatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Statistik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mittelwert",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Abweichung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wahrscheinlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verteilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Signifikanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Diagramm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Grafik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tabelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Achse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kurve",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gleichung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Quadrat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prozentsatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anteil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mathematik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Geometrie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Algebra",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Winkel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dreieck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Durchmesser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Radius",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Volumen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dichte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Maßeinheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konstante",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Parameter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Skala",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Präzision",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Genauigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Messgerät",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mikroskop",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Teleskop",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sonde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reagenzglas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pipette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Substanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kohlenstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stickstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwefel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Katalysator",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Enzym",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Protein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kohlenhydrat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Chromosom",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erbgut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mutation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stammzelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Neuron",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nervenzelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mikrobe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Antikörper",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kernspaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reaktor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Isotop",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Elektron",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Proton",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Neutron",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Atomkern",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umlaufbahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwingung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Frequenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wellenlänge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lichtgeschwindigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vakuum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reibung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Widerstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stromkreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Magnetfeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anziehungskraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Astronomie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Astronom",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Urknall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Naturgesetz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Phänomen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Paradigma",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Modell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fachbegriff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Terminologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Primärquelle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Plagiat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "herleiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "publizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "referieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "klassifizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "kategorisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "definieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "formulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verifizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "falsifizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "simulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "modellieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "extrahieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "destillieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verdünnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "oxidieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "zersetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "sezieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "mutieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "klonen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bestrahlen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "rotieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "kreisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "kollidieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "komprimieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abweichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "korrelieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "quantifizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "standardisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "validieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "evaluieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "begutachten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "replizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "reproduzieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abstrahieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "generalisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verallgemeinern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "spezifizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "erheben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "aufstellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "empirisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "methodisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "systematisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "analytisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "experimentell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "statistisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "signifikant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "repräsentativ",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "präzise",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "exakt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "messbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "nachweisbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "interdisziplinär",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "mathematisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "atomar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "molekular",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "genetisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "organisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "anorganisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "radioaktiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "löslich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "brennbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "steril",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "synthetisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "konstant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "linear",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "proportional",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "exponentiell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "hypothetisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "qualitativ",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "quantitativ",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "renommiert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "aussagekräftig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "Bildungssystem",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildungsweg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildungspolitik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildungseinrichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildungsniveau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildungschance",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schulpflicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schulsystem",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gesamtschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ganztagsschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Internat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Privatschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abendschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Volkshochschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fernstudium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fernunterricht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Präsenzunterricht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schulleitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schulleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kollegium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lehramt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Referendariat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Didaktik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Pädagogik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pädagoge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Analphabet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Analphabetismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Alphabetisierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lehrermangel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lehrmethode",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lehrmaterial",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lehrbuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lehrveranstaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Curriculum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lernziel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lernstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unterrichtsstunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Doppelstunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Frontalunterricht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gruppenarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Förderunterricht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erwachsenenbildung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zusatzqualifikation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fachkompetenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Allgemeinbildung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorwissen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorkenntnisse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lernfortschritt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lernerfolg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leistungsdruck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prüfungsangst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Benotung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beurteilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abschlusszeugnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abiturient",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bestnote",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Prüfungsvorbereitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prüfer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prüfling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Prüfungsamt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Prüfungsleistung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Prüfungsphase",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prüfungstermin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prüfungskommission",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wiederholungsprüfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zwischenprüfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abschlussprüfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufnahmeprüfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eignungstest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anwesenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anwesenheitspflicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fehlstunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leistungsnachweis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leistungspunkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Studienberatung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Studienordnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Regelstudienzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wintersemester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sommersemester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorlesungsverzeichnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zulassungsbeschränkung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wartesemester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Hochschulreife",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Urlaubssemester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Auslandssemester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Austauschprogramm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gasthörer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Studentenwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Studienkredit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Werkstudent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Hilfskraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tutor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betreuer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betreuung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Doktorvater",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kolloquium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Exkursion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blockseminar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fachschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Staatsexamen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Doktortitel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Akademiker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hochschulabschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Studienabbruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Studienabbrecher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schulabbrecher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fachhochschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fachrichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spezialisierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wahlfach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pflichtfach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nebenfach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hauptfach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Modul",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Selbststudium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Meisterprüfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gesellenprüfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ausbildungsplatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausbildungsvertrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ausbildungsberuf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausbilder",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufsausbildung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausbildungsbetrieb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Pflichtpraktikum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Praxiserfahrung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Praxisbezug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Berufseinstieg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufsorientierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Berufsberatung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Berufswahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hauptteil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Paraphrase",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Abbildung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Inhaltsverzeichnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Deckblatt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rohfassung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Überarbeitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Korrektur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Literaturrecherche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sekundärliteratur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nachschlagewerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lexikon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fachbuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Exposé",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schreibstil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fachsprache",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Seminararbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Projektarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Präsentation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lernstrategie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lerntechnik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lerntyp",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Lernplan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lerngruppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Karteikarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eselsbrücke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kurzzeitgedächtnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Langzeitgedächtnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Konzentrationsfähigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Selbstdisziplin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prokrastination",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Auffassungsgabe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mitschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leseverständnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hörverständnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sprachkenntnisse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Autodidakt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Halbwissen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wissenslücke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pensum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "aufholen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einprägen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verinnerlichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abfragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überfliegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "durcharbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nacharbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "strukturieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überarbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "anrechnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "fortbilden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "umschulen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "spezialisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "hospitieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "unterfordern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "einstufen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abschneiden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nachlesen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verlernen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "auffrischen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "festigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "wiedergeben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abrufen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "herausarbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ausarbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erarbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "skizzieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "paraphrasieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "umformulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "unterstreichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "aufsagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "lehren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nachbereiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "abbrechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "anfertigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "exzerpieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "durchlesen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einordnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "rekapitulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "mitarbeiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schulisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "außerschulisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "universitär",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "berufsbegleitend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "dual",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "praxisnah",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "praxisorientiert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "lernfähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "wissbegierig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "aufnahmefähig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "eigenverantwortlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "lückenhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "überdurchschnittlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unterdurchschnittlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "hochbegabt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "leistungsschwach",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "prüfungsrelevant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "fakultativ",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "pädagogisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "didaktisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "autodidaktisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "belesen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "versiert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "bildungsfern",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "mangelhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "befriedigend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "ungenügend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "einprägsam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unkonzentriert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "vorbildlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "strebsam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       }
     ]
   },
@@ -19417,1579 +24239,1973 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Aufführung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Künstler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gemälde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Skulptur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Galerie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Literatur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Roman",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gedicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Autor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Regisseur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bühne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Trainer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wettkampf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Meisterschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Turnier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sportart",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Chor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Orchester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Melodie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rhythmus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Talent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Begeisterung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sammlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sammler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Brettspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wanderung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Denkmal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Brauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tradition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Feier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Festival",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Volksfest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mitspieler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gegner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schiedsrichter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Niederlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rekord",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kostüm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Applaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Probe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ehrenamt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Engagement",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ausrüstung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "veranstalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "auftreten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "begeistern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "faszinieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "bewundern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aufführen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "mitwirken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "komponieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "inszenieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vorführen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "trainieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "proben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "genießen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anfeuern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "jubeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "besiegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ausüben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "mitspielen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schwärmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "klatschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "pfeifen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "basteln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aufnehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "inspirieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "amüsieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "musizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "künstlerisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "begeistert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "spannend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "unterhaltsam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "talentiert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "musikalisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "sportlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "traditionell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "kulturell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "mitreißend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "abwechslungsreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "ausverkauft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "regelmäßig",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "mehrmals",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "vergeblich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "erneut",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "anlässlich",
-        "pos": "prep"
+        "pos": "prep",
+        "level": "B1"
       },
       {
         "lemma": "Zelt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "zelten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Schlafsack",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Isomatte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lagerfeuer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wohnwagen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Taschenlampe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wanderweg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Grill",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Picknick",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hängematte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kartenspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Würfel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Spielregel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Spielfigur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "schummeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Wette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "wetten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Rätsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kreuzworträtsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Puzzle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gewinner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Verlierer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bademeister",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bikini",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Badetuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sonnenbrand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sonnenschirm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Liegestuhl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sandburg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Taucherbrille",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schnorchel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "schnorcheln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Luftmatratze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Leinwand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Popcorn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Untertitel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Drehbuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hauptrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Premiere",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Theaterstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kulisse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Garderobe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Komödie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zirkus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Clown",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Zauberer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tanzfläche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nachtleben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Diskothek",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stammtisch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Freizeitpark",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Achterbahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Karussell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Riesenrad",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Jahrmarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Übernachtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Ferienwohnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Buchung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Saison",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tagesausflug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Heimweh",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fernweh",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reiseleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ermäßigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Warteschlange",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Meerblick",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Halbpension",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stadtrundfahrt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schläger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tischtennis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bowling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "kegeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Angel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schlittschuh",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schlitten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "rodeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Ski",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Seilbahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Snowboard",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Skateboard",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "segeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "rudern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "paddeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Kanu",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zeichnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fotografie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fernglas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zeitvertreib",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Steckenpferd",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Liebhaberei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Freizeitbeschäftigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bastelei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bastler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Heimwerken",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Näherei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Häkelarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Strickzeug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Staffelei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Töpferei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Modellbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Miniatur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Origami",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Baukasten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Selbermachen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bausatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kalligrafie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Skizzenbuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pinselstrich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "häkeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "sticken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "töpfern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schnitzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "werkeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "tüfteln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "knipsen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verzieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einrahmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Gesellschaftsspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Würfelspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spielbrett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Trumpf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schachbrett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Skat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sudoku",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Quiz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ratespiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Videospiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Computerspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konsole",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Controller",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spieler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Punktestand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Level",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spielstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dart",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Billard",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spielhalle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spielautomat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Glücksspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Roulette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Casino",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spielsucht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Jackpot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zaubertrick",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zauberei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewinnspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "pokern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "jonglieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "zaubern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verlosen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "mitfiebern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "mogeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Club",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Disko",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Barkeeper",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Cocktail",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vergnügung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Trubel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Menschenmenge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Türsteher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tresen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sperrstunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Höhepunkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Junggesellenabschied",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Polterabend",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Maskenball",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "kellnern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ausklingen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ausspannen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Fernsehsendung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Serie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stream",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Streamingdienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abo",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorführung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Werbepause",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dokumentation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spielfilm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kurzfilm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Trickfilm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zeichentrick",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Synchronisation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Handlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nebenrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Besetzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Szene",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gameshow",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Moderatorin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorspann",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Abspann",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kinosaal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blockbuster",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Uraufführung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nominierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Statist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Drehort",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hörspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hörbuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Comic",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "filmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zappen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "umschalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ablichten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "umblättern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Fotograf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blende",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Belichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schnappschuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildausschnitt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Auslöser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stativ",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brennweite",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Unschärfe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Filter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildbearbeitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Diashow",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Selfie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dunkelkammer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Weitwinkel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Teleobjektiv",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nahaufnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bildkomposition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "posieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Sammelstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rarität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kostbarkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Trödel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Antiquität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Liebhaberstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sammelleidenschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vitrine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Album",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Veranstaltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rummel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rummelplatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Parade",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Straßenfest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stadtfest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kostümfest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Feierlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Festzelt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bierzelt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geisterbahn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zuckerwatte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fahrgeschäft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vergnügungspark",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verabredung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vereinsleben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Geselligkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Spieleabend",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Grillabend",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unternehmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zusammenkunft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Freundeskreis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klassentreffen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Familienfeier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kaffeeklatsch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Plauderei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Klub",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "plaudern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "klönen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "beisammensitzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "toben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "fesselnd",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "kurzweilig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "gesellig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "ausgelassen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "feierlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "vergnügt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "handwerklich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "verspielt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "siegreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "spielerisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "packend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "stimmungsvoll",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "ausgefallen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "geschickt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kunstvoll",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "filigran",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "leidenschaftlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "ungezwungen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "zwanglos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "familiär",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "einladend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "amüsant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "rauschend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "angeheitert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "beschwipst",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "knifflig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "trickreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "detailverliebt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "fingerfertig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "fantasievoll",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "einfallsreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "originell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "antik",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "nostalgisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "farbenfroh",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "fotogen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "verwackelt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unscharf",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "körnig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "kontrastreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "fröhlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       }
     ]
   },
@@ -21000,203 +26216,253 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Instrument",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Geige",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Klavier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schlagzeug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Flöte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Trompete",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Trommel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Saite",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Notenblatt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Takt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ton",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Komponist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dirigent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Auftritt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verstärker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Band",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sängerin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Musiker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Musikerin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Klang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Musikschule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Musikunterricht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Harfe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Cello",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klarinette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Saxophon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Akkordeon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Orgel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Posaune",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kontrabass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Taste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Akkord",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tonleiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gesang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zugabe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pianist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ohrwurm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lautstärke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schallplatte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Keyboard",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klassik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Refrain",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Strophe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Solo",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "dirigieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "summen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vorspielen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "mitsingen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       }
     ]
   },
@@ -21207,199 +26473,248 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Malerei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kunstwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meisterwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Porträt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stillleben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aquarell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ölgemälde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Skizze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Palette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Komposition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Motiv",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vordergrund",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hintergrund",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Atelier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Karikatur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Illustration",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Büste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Relief",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bildhauer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vernissage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Exponat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kurator",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Restaurierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mäzen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nachlass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reproduktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kunstgeschichte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stilrichtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Avantgarde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Moderne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Romantik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Expressionismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Impressionismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Surrealismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Abstraktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ästhetik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anmut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kitsch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zeitgeist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kulturerbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Inspiration",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorstellungskraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Originalität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Genie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Muse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dichter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lyrik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prosa",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       }
     ]
   },
@@ -21410,603 +26725,753 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Fitnessstudio",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Training",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Übung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bewegung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Muskel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gewicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hantel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Laufband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Matte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Umkleide",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sporttasche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sportschuh",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Trinkflasche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fitness",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Yoga",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schweiß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "dehnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "strecken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "anstrengen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Mitgliedschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mitgliedsbeitrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Probetraining",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Trainingsplan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Krafttraining",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ausdauertraining",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wiederholung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Liegestütz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kniebeuge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klimmzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bauchmuskeln",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Muskelkater",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gleichgewicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kalorie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Eiweiß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Spind",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kurzhantel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Trainingsgerät",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Oberkörper",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Belastung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verspannung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "verspannt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "stemmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verbrennen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "steigern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beugen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "durchhalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Muskelaufbau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rumpf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sehne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zerrung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "auspowern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "schweißtreibend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Weltmeisterschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorrunde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gruppenphase",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Achtelfinale",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Viertelfinale",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Halbfinale",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Finale",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hinspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rückspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elfmeterschießen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auslosung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Tabellenführer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Aufsteiger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Absteiger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Titelverteidiger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Weltrekord",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bestleistung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Platzierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rangliste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Favorit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Außenseiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kontrahent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rivale",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Derby",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Revanche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sieger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Siegerehrung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Podest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Medaille",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pokal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Trophäe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Triumph",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unentschieden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Halbzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anpfiff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abpfiff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Duell",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kräftemessen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Linienrichter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Videobeweis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Foul",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Freistoß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eckball",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elfmeter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Platzverweis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sperre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Doping",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Disqualifikation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fairplay",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Taktik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufstellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abwehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stürmer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mittelfeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Torwart",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Flanke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ballbesitz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Konter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Angreifer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spielzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Doppelpass",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kopfball",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pfosten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eigentor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausgleich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Treffer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Torjäger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auswechslung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ersatzbank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spielmacher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dribbling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zweikampf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Strafraum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spielfeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anzeigetafel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zeitlupe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Flutlicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tribüne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fankurve",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dauerkarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Jubel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Heimspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auswärtsspiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Heimvorteil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leichtathletik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sprint",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hürde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Staffel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hochsprung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weitsprung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kugelstoßen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Marathon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ziellinie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Startschuss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fehlstart",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anlauf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   },
@@ -22017,583 +27482,728 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Missverständnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Versöhnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Geborgenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zuneigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Abneigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sehnsucht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Empörung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Trauer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verzweiflung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zufriedenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reue",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schuldgefühl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mitgefühl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rücksicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Toleranz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorwurf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kompromiss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Auseinandersetzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Versprechen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Trennung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Freundschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ehe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Partnerschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verständnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zärtlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Leidenschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verlegenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gleichgültigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wertschätzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Anerkennung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kränkung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verlust",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Neid",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hoffnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ärger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zuwendung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zweifel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Beleidigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Spannung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Harmonie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "versöhnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anvertrauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "hassen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "enttäuschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zweifeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beleidigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kränken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "trösten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verzeihen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vergeben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beschützen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "befürchten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "fürchten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anfreunden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aussprechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "missverstehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "respektieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "tolerieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "akzeptieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "meiden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "überreden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "ermutigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "beruhigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "aufregen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vertragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "loben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schätzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verachten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kuscheln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "nerven",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vorwerfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "umarmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "flirten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einsetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "rechtfertigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "besitzergreifend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "nachtragend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "versöhnlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "streitsüchtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "einfühlsam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "rachsüchtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gekränkt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "vertrauenswürdig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "taktvoll",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "selbstlos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "verbittert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "beleidigt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "liebevoll",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "schuldbewusst",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "reuig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "sozusagen",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "letztendlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "keineswegs",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "wechselseitig",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "vermutlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "absichtlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "unabsichtlich",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "miteinander",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "zueinander",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "aneinander",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "Hingabe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vertrautheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verbundenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bindung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Missgunst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Groll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verbitterung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zorn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verachtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bewunderung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ehrfurcht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Anteilnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Einfühlungsvermögen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Feingefühl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Taktgefühl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachsicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vergebung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zerwürfnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Meinungsverschiedenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Feindseligkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Feindschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rivalität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Machtkampf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Intrige",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verrat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Untreue",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Loyalität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufrichtigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Offenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verschwiegenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Diskretion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Güte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Großzügigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Egoismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Selbstlosigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hilfsbereitschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zugeständnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kompromissbereitschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eintracht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zwietracht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Demütigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erniedrigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gewissensbisse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kummer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Melancholie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   },
@@ -22604,363 +28214,453 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Augenbraue",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wimper",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nacken",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Handgelenk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Knöchel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ferse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Oberschenkel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wade",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Taille",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Daumen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fingernagel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Handfläche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kiefer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zahnfleisch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rippe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wirbelsäule",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kehle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aussehen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Frisur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Pony",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zopf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Locke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "lockig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "Glatze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schnurrbart",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "kahl",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Figur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "mollig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kräftig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "zierlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gebräunt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gutaussehend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "attraktiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "gepflegt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Sommersprosse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Falte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Grübchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Muttermal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ähnlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "ähneln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "wirken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Tätowierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Charakter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Persönlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Eigenschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ehrlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ehrgeiz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fleiß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Selbstbewusstsein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Humor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Stolz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gelassenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stärke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schwäche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Macke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Disziplin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Charme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Temperament",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "mutig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "frech",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "witzig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "gemein",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "ehrgeizig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "sparsam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "feige",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "stur",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "hartnäckig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "eingebildet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "aufrichtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "loyal",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "lebhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "ausgeglichen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "reizbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "aufgeschlossen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "kontaktfreudig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "gesprächig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "schweigsam",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gewissenhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "nachlässig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "chaotisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "vergesslich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "eitel",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "charmant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "anständig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "leichtsinnig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "zielstrebig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "dickköpfig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "schlagfertig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "taktlos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "diszipliniert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       }
     ]
   },
@@ -22971,463 +28671,578 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Ärmel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kragen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Knopf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Reißverschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Muster",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Baumwolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Seide",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Leinen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Faden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Unterwäsche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Jeans",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "T-Shirt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kapuze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Absatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sohle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schnürsenkel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Badehose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bademantel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Strumpf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hausschuh",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Armband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Trend",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Material",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Naht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Strickjacke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Weste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kapuzenpullover",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Jogginghose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kleiderbügel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Nähmaschine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schneider",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nachthemd",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Regenjacke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fleck",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Loch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Stil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fliege",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Pelz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "zuknöpfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "zusammenpassen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "färben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "reißen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "gepunktet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "modisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "elegant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "altmodisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "wasserdicht",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "einfarbig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "hochwertig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "lässig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Faser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Textilien",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Garn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Cord",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kunstleder",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wildleder",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kaschmir",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Viskose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Polyester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nylon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Elasthan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Filz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Jersey",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Tweed",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Satin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Saum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schnitt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schnittmuster",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Passform",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Maßanzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anprobe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stickerei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Masche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stecknadel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fingerhut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kordel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schnalle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Öse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Klettverschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Druckknopf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schneiderei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Änderungsschneiderei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Maßanfertigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Futter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Applikation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Spitze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rüsche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bund",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Konfektionsgröße",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Manschette",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Revers",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dekolleté",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ausschnitt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Oberteil",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kleidungsstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bekleidung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brosche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Accessoire",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kollektion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Modenschau",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Laufsteg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Model",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Designer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Outfit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eleganz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Raffinesse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Glamour",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Modebranche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Textilindustrie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Modeerscheinung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kleiderordnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schaufensterpuppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Boutique",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   },
@@ -23438,203 +29253,253 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Weihnachten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Heiligabend",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Weihnachtsmarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Weihnachtsbaum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Adventskalender",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Advent",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Silvester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Neujahr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Feuerwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Karneval",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fasching",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "verkleiden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Osterei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Osterhase",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Geburtstagsfeier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Luftballon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Dekoration",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "dekorieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "schmücken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Muttertag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Vatertag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Nikolaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Plätzchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Lebkuchen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Glühwein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Stimmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Mitternacht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Torte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "verpacken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "festlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "A2"
       },
       {
         "lemma": "Engel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Rakete",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Maske",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Blumenstrauß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Glückwunschkarte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Pfingsten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Braut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bräutigam",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Trauung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gastgeber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Girlande",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sitte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Jubiläum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wunderkerze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Konfetti",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bescherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "zuprosten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Jahreswechsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Vorsatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       }
     ]
   },
@@ -23645,211 +29510,263 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Notruf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Polizist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Dieb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "klauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Rauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "brennen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "Gefahr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sicherheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Alarm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Notausgang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Rettungswagen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sanitäter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Notarzt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rettung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zeuge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Diebstahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Einbruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "einbrechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Räuber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Raub",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "überfallen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Überfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Täter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Opfer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "verdächtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Verdacht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "anzeigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Alarmanlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rauchmelder",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Feuerlöscher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Brand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "fliehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Blutung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "ausrutschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Sturz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Warnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Waffe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Verbrechen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "festnehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "verhaften",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Gefängnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sirene",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "drohen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Beweis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Spur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fluchtweg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vergiftung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "ersticken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ertrinken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Zusammenstoß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abschleppdienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "evakuieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       }
     ]
   },
@@ -23860,231 +29777,288 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Militär",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Armee",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bundeswehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Streitkräfte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Truppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Offizier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "General",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kommandeur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kaserne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wehrpflicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wehrdienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rekrut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reservist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Veteran",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einsatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Manöver",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verteidigungsministerium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sicherheitspolitik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abschreckung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Aufrüstung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rüstungsindustrie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Munition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Panzer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kampfflugzeug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Luftabwehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Artillerie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sprengstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Granate",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewehr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bürgerkrieg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Angriffskrieg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gefecht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kampf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Angriff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Offensive",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Invasion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rückzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Front",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Feuerpause",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Waffenruhe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Friedensvertrag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Friedensverhandlungen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Friedensabkommen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blauhelm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vermittler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Allianz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beistand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Eskalation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Deeskalation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Krise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Provokation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Drohung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ultimatum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vergeltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Luftangriff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   },
@@ -24095,387 +30069,483 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Beet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schaufel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Unkraut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Samen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ernte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hecke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rasenmäher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gießkanne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Harke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Spaten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blumentopf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Erde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Dünger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gewächshaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kompost",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schädling",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zaun",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Strauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Busch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wurzel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Ast",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Stamm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stiel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Beere",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gras",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schlauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Regenwurm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Maulwurf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gärtner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gartenarbeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Rose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tulpe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sonnenblume",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Insekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schubkarre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Obstbaum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kraut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "düngen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "jäten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "säen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "umtopfen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "blühen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "wachsen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "graben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "pflücken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "harken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "vertrocknen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "welk",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Werkzeug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Hammer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schraube",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schraubenzieher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bohrmaschine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bohrer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Säge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zange",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Leiter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Pinsel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kleber",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Leim",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klebeband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Werkzeugkasten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Dübel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wasserwaage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Maßband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zollstock",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schraubenschlüssel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Axt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Feile",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schleifpapier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Holz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Draht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rohr",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Blech",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Glühbirne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Baumarkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Handwerker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Handwerk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Heimwerker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Griff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Schutzbrille",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Helm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Werkbank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "schrauben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "sägen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "tapezieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abschleifen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "zusammenbauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kleben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "umbauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "einbauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "anbringen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "montieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "lackieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "befestigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       }
     ]
   },
@@ -24486,887 +30556,1108 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Religion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "religiös",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Glaube",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gott",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "beten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Gebet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bibel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Koran",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Moschee",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Synagoge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Tempel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gottesdienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gemeinde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Pfarrer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Mönch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nonne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kloster",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Taufe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "taufen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Beerdigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Friedhof",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Grab",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Seele",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Hölle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Paradies",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sünde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Segen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "segnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "heilig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Wunder",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Teufel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "ewig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Schicksal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gewissen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "moralisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "evangelisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "katholisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Christentum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Islam",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "fasten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Theologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Philosophie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Philosoph",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "philosophisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Ethik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weltanschauung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Atheist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konfession",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Buddhismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rabbiner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Imam",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "pilgern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Wallfahrt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "göttlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Aberglaube",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weltreligion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Judentum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hinduismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Christ",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Muslim",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Jude",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sekte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Glaubensgemeinschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Missionar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mission",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bekehrung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prophet",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prophezeiung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Offenbarung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erleuchtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erlösung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erlöser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Messias",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Auferstehung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wiedergeburt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reinkarnation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Karma",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nirwana",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meditation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spiritualität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mystik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Askese",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ritus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kult",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gottheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Heiligtum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Altar",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Papst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bischof",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Priester",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Predigt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Seelsorge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Theologe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Glaubensbekenntnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bekenntnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gebot",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sakrament",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abendmahl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kommunion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beichte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Buße",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Barmherzigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Demut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Andacht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Frömmigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Heiligkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Märtyrer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ketzerei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Blasphemie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fastenzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prozession",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Evangelium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weihrauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gelübde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zölibat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Jünger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Apostel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wertvorstellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewissenskonflikt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Integrität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nächstenliebe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wohltätigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Almosen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Habgier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Hochmut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Verfehlung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Skrupel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Intoleranz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Atheismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Agnostiker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Säkularisierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fundamentalismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fanatismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Esoterik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schöpfung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schöpfer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorsehung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fügung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Heuchelei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Tabu",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ikone",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sterbehilfe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Pflichtgefühl",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schande",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dämon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Religionsfreiheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Orden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "meditieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "predigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "beichten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "büßen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "bereuen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "sündigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "weihen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "verehren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "anbeten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "preisen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "bekehren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "missionieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "konvertieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "dulden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verdammen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verfluchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "fluchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "spotten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "heiligen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "erlösen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "offenbaren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "prophezeien",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erleuchten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "auferstehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "opfern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "entsagen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "bekennen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "missachten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "gehorchen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "überliefern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "fromm",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gläubig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "ungläubig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "geistlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "weltlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "säkular",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "spirituell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "sakral",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "profan",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "heidnisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "jüdisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "christlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "islamisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "muslimisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "buddhistisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "hinduistisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "orthodox",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "protestantisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "ökumenisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "kirchlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "rituell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "andächtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "demütig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "barmherzig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gnädig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "sündhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "lasterhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "scheinheilig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "heuchlerisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "intolerant",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "fanatisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "abergläubisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "mystisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "asketisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "erhaben",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "transzendent",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "allmächtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unfehlbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "ehrwürdig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unantastbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "mythisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "konfessionslos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       }
     ]
   },
@@ -25377,563 +31668,703 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Historiker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geschichtsschreibung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Zeitalter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ära",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Antike",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mittelalter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Neuzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Steinzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bronzezeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Urzeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorgeschichte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Altertum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Reformation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Industrialisierung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zeitrechnung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Aufstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umsturz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kaiserreich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Königreich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Imperium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kolonie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kolonialismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Eroberung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Eroberer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Herrscher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Herrschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kaiser",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kaiserin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "König",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Königin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fürst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fürstentum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Herzog",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Graf",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Adel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Monarch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Thron",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Krone",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Zepter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dynastie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Thronfolger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Untertan",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Vasall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Feudalismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Leibeigenschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Sklaverei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sklave",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Königshaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Residenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ritter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rüstung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schwert",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lanze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Belagerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Feldzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kreuzzug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlacht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlachtfeld",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Krieger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Söldner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Heer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kerker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stadttor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fackel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kutsche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Chronik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Chronist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Handschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pergament",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schriftrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Siegel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wappen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Archiv",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Inschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hieroglyphe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Keilschrift",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Überlieferung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Legende",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mythos",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mythologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Folklore",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brauchtum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ritual",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zeremonie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tracht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Volkslied",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gilde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mahnmal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gedenken",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gedenktag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gedenkstätte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Weltkulturerbe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vermächtnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Andenken",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nostalgie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erbstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Freilichtmuseum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorfahre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ahne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nachkomme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachwelt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Stammbaum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abstammung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ahnenforschung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Archäologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Archäologe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ausgrabung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fund",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fundstück",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Artefakt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Relikt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Überrest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Grabmal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Mumie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pyramide",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Amphitheater",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fachwerkhaus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abtei",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Kathedrale",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Pilger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reliquie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Pest",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Völkerwanderung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Entdecker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entdeckung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Seefahrer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Seefahrt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Expedition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zeitzeuge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Jahrestag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verfall",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Untergang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Blütezeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Wendepunkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meilenstein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nachkriegszeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wiedervereinigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Teilung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   },
@@ -25944,683 +32375,853 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Begriff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anschauung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Urteilskraft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Schlussfolgerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Folgerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Prämisse",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Antithese",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Synthese",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Axiom",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Logik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Tugend",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Laster",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wille",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Willensfreiheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Determinismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Existenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dasein",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wesen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Materie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weltbild",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Metaphysik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ontologie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Erkenntnistheorie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dialektik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Beweisführung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Widerlegung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Notwendigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wirklichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Täuschung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Illusion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unwissenheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Weisheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kohärenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Paradoxon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dilemma",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Trugschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Fehlschluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Denkfehler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verallgemeinerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unterscheidung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Definition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kategorie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Maßstab",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wertung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unsinn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Beweggrund",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Grundsatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Maxime",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Imperativ",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Würde",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Autonomie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Selbstbestimmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Individuum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Subjekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Objekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Subjektivität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Relativismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Nihilismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Idealismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Materialismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Rationalismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Empirismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Humanismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Utilitarismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Pragmatismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Aufklärung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Reflexion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Betrachtung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kontemplation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Intuition",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Empfindung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Affekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Trieb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Streben",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Endlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Unendlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ewigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vergänglichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Unsterblichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leere",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ganzheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dualismus",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gegensatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Analogie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Allegorie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Deutung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auslegung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Hermeneutik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Disput",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Polemik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Plausibilität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Stichhaltigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Evidenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Herleitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ableitung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Deduktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Induktion",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Denkweise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Denkansatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gedankengang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gedankenexperiment",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Dogma",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Doktrin",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "entkräften",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "voraussetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "reflektieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "sinnieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "nachsinnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "philosophieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "auslegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "deuten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "postulieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "implizieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "bejahen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verneinen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "negieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "konstatieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "resümieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "mutmaßen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "ergründen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "durchdenken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "präzisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "konkretisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "disputieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "polemisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "erfassen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erschließen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "besinnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "vergegenwärtigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "rational",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "irrational",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "folgerichtig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "konsistent",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "inkonsistent",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "kohärent",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "metaphysisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "ethisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unmoralisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "tugendhaft",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "sittlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "universell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "allgemeingültig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "spekulativ",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "dogmatisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "existenziell",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "denkbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "undenkbar",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "begrifflich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "gedanklich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "triftig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unbegründet",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "haltlos",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "trügerisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "vermeintlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "mutmaßlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "offenkundig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "evident",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "zwingend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "vergänglich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "sterblich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unsterblich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "abwegig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "unumstößlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "strittig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "unstrittig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "besonnen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "scharfsinnig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "tiefgründig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "widersinnig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "C1"
       },
       {
         "lemma": "paradox",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       }
     ]
   },
@@ -26631,199 +33232,248 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Argument",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ansicht",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kritik",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "betonen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Aussage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "zugeben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Standpunkt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Meinungsaustausch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "widersprechen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "argumentieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Gegenargument",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einwand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "einwenden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "hervorheben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Stellungnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "äußern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Äußerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auffassung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Überzeugung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "überzeugend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "überzeugt",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Vermutung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Annahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Behauptung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "anzweifeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Feststellung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "beurteilen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bewerten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Bewertung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zustimmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Lob",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "debattieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Debatte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "nachgeben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "widerlegen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "befürworten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bestreiten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "hinzufügen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abwägen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "These",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Begründung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Haltung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sichtweise",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Skepsis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "skeptisch",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "subjektiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "objektiv",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "hingegen",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B2"
       }
     ]
   },
@@ -26834,547 +33484,683 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "berücksichtigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "gewährleisten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nachvollziehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ermöglichen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verfügen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "einschätzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "umsetzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "beitragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "bewältigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "beabsichtigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "wahrnehmen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "verhalten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "vorgehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erfolgen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "nutzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "abhängen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "feststellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "betrachten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erfordern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "erzielen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Auswirkung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Maßnahme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einschätzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umsetzung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anpassung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aspekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Faktor",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ansatz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bedürfnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Anforderung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wahrnehmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vorgehen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ergebnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Folge",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufwand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Nutzen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abhängigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einfluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bedingung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Merkmal",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kriterium",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Perspektive",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "zunehmend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "entscheidend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "umstritten",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "eindeutig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "offensichtlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "gering",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "aufwendig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "zahlreich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "grundsätzlich",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "weitgehend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "Zusammenhalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wandel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umbruch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Ausmaß",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Umfang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Basis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Prinzip",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Konzept",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Struktur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Rahmen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kontext",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Bemerkung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Anmerkung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hinweis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Andeutung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Respekt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Misstrauen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gewissheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Unsicherheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Klarheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verständigung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Dialog",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Absprache",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abmachung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konsequenz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wirkung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stellenwert",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Relevanz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Gemeinschaft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bürger",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Öffentlichkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Institution",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Organisation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Staat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Nation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Volk",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Herkunft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Migration",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Vielfalt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ungerechtigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Norm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Moral",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Identität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zugehörigkeit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Generation",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Jugend",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Armut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Reichtum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wohlstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ungleichheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Milieu",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Solidarität",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Epoche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Jahrhundert",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Jahrzehnt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ereignis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Krieg",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Frieden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Revolution",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wende",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Einheit",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Erinnerung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Gedächtnis",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Ursprung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Entstehung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rückschritt",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Niedergang",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "C1"
       },
       {
         "lemma": "Bestimmung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Regelung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "erwähnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "andeuten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "schildern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "gestehen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "unterstellen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "folgern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "schlussfolgern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "erwägen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "thematisieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "hinterfragen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "appellieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "plädieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "bemängeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "würdigen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "C1"
       },
       {
         "lemma": "anerkennen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       }
     ]
   },
@@ -27385,643 +34171,803 @@ export const THEMES: Theme[] = [
     "words": [
       {
         "lemma": "Shampoo",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kamm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bürste",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Rasierer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Föhn",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Toilettenpapier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Taschentuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Creme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sonnencreme",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Deo",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Spülmaschine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Trockner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Lappen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schwamm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Mülltonne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bettwäsche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Wecker",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A1"
       },
       {
         "lemma": "Ladegerät",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Fernbedienung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Klimaanlage",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Ventilator",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Klingel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Dachboden",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gefrierschrank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Flaschenöffner",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Thermoskanne",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Alufolie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schachtel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Korb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Sack",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schirm",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Brieftasche",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schlüsselbund",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Tüte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A1"
       },
       {
         "lemma": "Briefumschlag",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Notizbuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Streichholz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Aschenbecher",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Kaugummi",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Bonbon",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Puppe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A1"
       },
       {
         "lemma": "Geschenkpapier",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Klebstoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Schnur",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "Gummiband",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "A2"
       },
       {
         "lemma": "falten",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "laden",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "A2"
       },
       {
         "lemma": "krass",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "mega",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "quatschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Quatsch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kumpel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Typ",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kohle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "pennen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "glotzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "meckern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "chillen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "abhauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "doof",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Zeug",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "labern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Bock",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "kapieren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schnallen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "ätzend",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "bescheuert",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "blöd",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Mist",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Krempel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Klamotten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Kram",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "quasseln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "cool",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "geil",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "spinnen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schmeißen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "kotzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "heulen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "Zoff",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "motzen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "jammern",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "fressen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "saufen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "Schnauze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "zocken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "checken",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "schnorren",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "büffeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "tratschen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "mies",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "fies",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Bude",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Karre",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Glotze",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "besoffen",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B2"
       },
       {
         "lemma": "veräppeln",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B2"
       },
       {
         "lemma": "jobben",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "hauen",
-        "pos": "verb"
+        "pos": "verb",
+        "level": "B1"
       },
       {
         "lemma": "nervig",
-        "pos": "adj"
+        "pos": "adj",
+        "level": "B1"
       },
       {
         "lemma": "Krach",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "halt",
-        "pos": "adv"
+        "pos": "adv",
+        "level": "B1"
       },
       {
         "lemma": "Vorratskammer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Kehrschaufel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wischmopp",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Putzlappen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Putzmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Spülmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Weichspüler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Waschmittel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Fussel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Krümel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Staubsaugerbeutel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verlängerungskabel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Mehrfachsteckdose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Abfluss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sicherung",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zählerstand",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Stromverbrauch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Heizkosten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Thermostat",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schimmel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Zugluft",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Rollladen",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Jalousie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fensterbank",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Lichtschalter",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Türklinke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Türschloss",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Ersatzschlüssel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Schlüsseldienst",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Fußmatte",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wäscheständer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Wäscheklammer",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wäschekorb",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Wäscheleine",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Bügelbrett",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Frühjahrsputz",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Haushaltshilfe",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Verbandskasten",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Hausapotheke",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Brotdose",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Frischhaltefolie",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Haltbarkeitsdatum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Aufstrich",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Konserve",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Sparschäler",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Auflaufform",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Spülbecken",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Geschirrtuch",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Küchenrolle",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Müllbeutel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B1"
       },
       {
         "lemma": "Stauraum",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Krimskrams",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Gerümpel",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Sperrmüll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Altglas",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Restmüll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Biomüll",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       },
       {
         "lemma": "Leergut",
-        "pos": "noun"
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   }

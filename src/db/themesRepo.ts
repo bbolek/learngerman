@@ -7,6 +7,7 @@ export interface ThemeWordRow {
   lemma_id: number;
   lemma: string;
   pos: string;
+  level: string;
   gender: string | null;
   gloss: string;
   saved: boolean;
@@ -53,7 +54,7 @@ export async function themeWords(theme: Theme): Promise<ThemeWordRow[]> {
   const out: ThemeWordRow[] = [];
   for (const w of theme.words) {
     const r = byKey.get(key(w.lemma, w.pos));
-    if (r) out.push({ ...r, gloss: r.gloss ?? '', saved: r.saved === 1 });
+    if (r) out.push({ ...r, gloss: r.gloss ?? '', level: w.level, saved: r.saved === 1 });
   }
   return out;
 }

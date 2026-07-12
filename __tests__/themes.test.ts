@@ -28,6 +28,13 @@ describe('generated themes', () => {
     }
   });
 
+  it('every word carries a valid CEFR level', () => {
+    const cefr = new Set(['A1', 'A2', 'B1', 'B2', 'C1']);
+    for (const t of THEMES) {
+      for (const w of t.words) expect(cefr.has(w.level)).toBe(true);
+    }
+  });
+
   it('every themed word resolves to a real dictionary lemma', () => {
     for (const t of THEMES) {
       for (const w of t.words) {

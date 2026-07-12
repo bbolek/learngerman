@@ -4,8 +4,10 @@ import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { savedThemeKeys, THEMES, type Theme } from '@/db/themesRepo';
+import { useThemeFilter } from '@/store/themeFilter';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
+import { LevelFilter } from '@/ui/components/LevelFilter';
 import { Screen } from '@/ui/components/Screen';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -13,12 +15,16 @@ import { useTheme } from '@/ui/useTheme';
 export default function ThemesScreen() {
   const t = useTheme();
   const [savedKeys, setSavedKeys] = useState<Set<string>>(new Set());
+  const levels = useThemeFilter((s) => s.levels);
+  const selectedLevels = new Set<string>(levels);
 
   useFocusEffect(
     useCallback(() => {
       savedThemeKeys().then(setSavedKeys);
     }, [])
   );
+
+  const visible = THEMES.filter((theme) => theme.words.some((w) => selectedLevels.has(w.level)));
 
   return (
     <Screen>
@@ -33,22 +39,30 @@ export default function ThemesScreen() {
         Wortschatz nach Thema — lerne ganze Wortfelder auf einmal.
       </AppText>
 
+      <LevelFilter />
+
       <View style={styles.grid}>
-        {THEMES.map((theme) => (
-          <ThemeCard key={theme.slug} theme={theme} savedKeys={savedKeys} />
+        {visible.map((theme) => (
+          <ThemeCard key={theme.slug} theme={theme} savedKeys={savedKeys} levels={selectedLevels} />
         ))}
       </View>
     </Screen>
   );
 }
 
-function ThemeCard({ theme, savedKeys }: { theme: Theme; savedKeys: Set<string> }) {
+function ThemeCard({
+  theme,
+  savedKeys,
+  levels,
+}: {
+  theme: Theme;
+  savedKeys: Set<string>;
+  levels: Set<string>;
+}) {
   const t = useTheme();
-  const total = theme.words.length;
-  const learned = theme.words.reduce(
-    (n, w) => n + (savedKeys.has(`${w.lemma}|${w.pos}`) ? 1 : 0),
-    0
-  );
+  const words = theme.words.filter((w) => levels.has(w.level));
+  const total = words.length;
+  const learned = words.reduce((n, w) => n + (savedKeys.has(`${w.lemma}|${w.pos}`) ? 1 : 0), 0);
   const progress = total === 0 ? 0 : learned / total;
   const done = learned === total;
 

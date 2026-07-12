@@ -5,9 +5,11 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { enrollThemeWords, getTheme, themeWords, type ThemeWordRow } from '@/db/themesRepo';
+import { useThemeFilter } from '@/store/themeFilter';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
-import { GenderChip } from '@/ui/components/Chip';
+import { Chip, GenderChip } from '@/ui/components/Chip';
+import { LevelFilter } from '@/ui/components/LevelFilter';
 import { ListenButton } from '@/ui/components/ListenButton';
 import { Screen } from '@/ui/components/Screen';
 import { VocabImage } from '@/ui/components/VocabImage';
@@ -22,6 +24,8 @@ export default function ThemeDetailScreen() {
   const [rows, setRows] = useState<ThemeWordRow[] | null>(null);
   const [images, setImages] = useState<Map<number, string>>(new Map());
   const [busy, setBusy] = useState(false);
+  const levels = useThemeFilter((s) => s.levels);
+  const selectedLevels = new Set<string>(levels);
 
   const reload = useCallback(() => {
     if (!theme) return;
@@ -48,9 +52,10 @@ export default function ThemeDetailScreen() {
     );
   }
 
-  const learned = rows?.filter((r) => r.saved).length ?? 0;
-  const total = rows?.length ?? theme.words.length;
-  const unsaved = rows?.filter((r) => !r.saved).map((r) => r.lemma_id) ?? [];
+  const visibleRows = rows?.filter((r) => selectedLevels.has(r.level)) ?? null;
+  const learned = visibleRows?.filter((r) => r.saved).length ?? 0;
+  const total = visibleRows?.length ?? 0;
+  const unsaved = visibleRows?.filter((r) => !r.saved).map((r) => r.lemma_id) ?? [];
 
   const enroll = async () => {
     if (busy || unsaved.length === 0) return;
@@ -81,7 +86,15 @@ export default function ThemeDetailScreen() {
         </View>
       </View>
 
-      {unsaved.length > 0 ? (
+      <LevelFilter />
+
+      {visibleRows && total === 0 ? (
+        <View style={[styles.cta, { backgroundColor: t.surface, borderWidth: 1, borderColor: t.line }]}>
+          <AppText variant="secondary" muted>
+            Keine Wörter in dieser Stufe
+          </AppText>
+        </View>
+      ) : unsaved.length > 0 ? (
         <Pressable
           onPress={enroll}
           disabled={busy}
@@ -91,7 +104,7 @@ export default function ThemeDetailScreen() {
             {busy ? 'Wird hinzugefügt…' : `${unsaved.length} Wörter lernen`}
           </AppText>
         </Pressable>
-      ) : rows ? (
+      ) : visibleRows ? (
         <View style={[styles.cta, { backgroundColor: t.accentDim }]}>
           <Ionicons name="checkmark-circle" size={20} color={t.onAccentDim} />
           <AppText variant="subtitle" color={t.onAccentDim}>
@@ -101,7 +114,7 @@ export default function ThemeDetailScreen() {
       ) : null}
 
       <View style={{ marginTop: spacing.xl, gap: spacing.sm }}>
-        {rows?.map((w) => (
+        {visibleRows?.map((w) => (
           <WordRow key={w.lemma_id} word={w} image={images.get(w.lemma_id) ?? null} />
         ))}
       </View>
@@ -128,6 +141,7 @@ function WordRow({ word, image }: { word: ThemeWordRow; image: string | null }) 
             {word.gloss}
           </AppText>
         </View>
+        <Chip label={word.level} kind="level" small />
         <GenderChip gender={word.gender} small />
         {word.saved && <Ionicons name="heart" size={16} color={t.primary} />}
         <ListenButton text={`${spokenArticle}${word.lemma}`} size={19} />

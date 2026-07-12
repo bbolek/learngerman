@@ -2,21 +2,29 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
-import { Pressable, StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { buildClozes } from '@/db/clozeRepo';
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { applyRating, buildQueue, type ReviewCard } from '@/db/srsRepo';
+import { CLOZE_BLANK, type Cloze } from '@/logic/cloze';
 import { articleFor } from '@/logic/formLabels';
+import { gradeFillBlank, type FillResult } from '@/logic/graders';
 import { previewInterval, type Rating } from '@/logic/sm2';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
+import { Card } from '@/ui/components/Card';
 import { FlipCard } from '@/ui/components/FlipCard';
 import { ProgressRing } from '@/ui/components/ProgressRing';
 import { Chip } from '@/ui/components/Chip';
 import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
+
+/** Words already seen a few times get the tougher "type it in context" card. */
+const CLOZE_MIN_REPS = 2;
+const UMLAUTS = ['ä', 'ö', 'ü', 'ß'] as const;
 
 interface SessionStats {
   again: number;
@@ -33,13 +41,20 @@ export default function ReviewScreen() {
   const [queue, setQueue] = useState<ReviewCard[] | null>(null);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const [answered, setAnswered] = useState<FillResult | null>(null);
   const [stats, setStats] = useState<SessionStats>({ again: 0, hard: 0, good: 0, easy: 0 });
   const [totalPlanned, setTotalPlanned] = useState(0);
   const [images, setImages] = useState<Map<number, string>>(new Map());
+  const [clozes, setClozes] = useState<Map<number, Cloze>>(new Map());
 
   useEffect(() => {
     buildQueue(new Date(), sessionCap, dailyNewLimit).then(async (cards) => {
-      setImages(await getLemmaImages(cards.map((c) => c.lemma_id)));
+      const [imgs, cz] = await Promise.all([
+        getLemmaImages(cards.map((c) => c.lemma_id)),
+        buildClozes(cards),
+      ]);
+      setImages(imgs);
+      setClozes(cz);
       setQueue(cards);
       setTotalPlanned(cards.length);
     });
@@ -47,6 +62,11 @@ export default function ReviewScreen() {
 
   const card = queue?.[index];
   const now = useMemo(() => new Date(), [index]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // A familiar word with a usable example becomes a cloze ("type it in
+  // context") card; everything else stays a recall flip card.
+  const cloze = card && card.reps >= CLOZE_MIN_REPS ? clozes.get(card.lemma_id) ?? null : null;
+  const revealed = cloze ? answered != null : flipped;
 
   const rate = async (rating: Rating) => {
     if (!card || !queue) return;
@@ -76,7 +96,19 @@ export default function ReviewScreen() {
       ]);
     }
     setFlipped(false);
+    setAnswered(null);
     setIndex((i) => i + 1);
+  };
+
+  const onCloze = (result: FillResult) => {
+    if (hapticsEnabled) {
+      Haptics.notificationAsync(
+        result.correct
+          ? Haptics.NotificationFeedbackType.Success
+          : Haptics.NotificationFeedbackType.Error
+      );
+    }
+    setAnswered(result);
   };
 
   if (!queue) return <View style={[styles.fill, { backgroundColor: t.bg }]} />;
@@ -132,6 +164,16 @@ export default function ReviewScreen() {
       </View>
 
       <View style={styles.cardArea}>
+        {cloze ? (
+          <ClozeCard
+            key={card.lemma_id}
+            card={card}
+            cloze={cloze}
+            image={images.get(card.lemma_id) ?? null}
+            answered={answered}
+            onCheck={onCloze}
+          />
+        ) : (
         <FlipCard
           flipped={flipped}
           onFlip={() => setFlipped((f) => !f)}
@@ -196,16 +238,17 @@ export default function ReviewScreen() {
             </>
           }
         />
+        )}
       </View>
 
-      {flipped ? (
+      {revealed ? (
         <View style={[styles.rating, { paddingBottom: insets.bottom + spacing.md }]}>
           <RateButton bg={t.dangerDim} fg={t.onDangerDim} label="Nochmal" sub={previewInterval(cardState, 0, now)} onPress={() => rate(0)} />
           <RateButton bg={t.primaryDim} fg={t.onPrimaryDim} label="Schwer" sub={previewInterval(cardState, 1, now)} onPress={() => rate(1)} />
           <RateButton bg={t.accentDim} fg={t.onAccentDim} label="Gut" sub={previewInterval(cardState, 2, now)} onPress={() => rate(2)} />
           <RateButton bg={t.successDim} fg={t.onSuccessDim} label="Einfach" sub={previewInterval(cardState, 3, now)} onPress={() => rate(3)} />
         </View>
-      ) : (
+      ) : cloze ? null : (
         <View style={[styles.tapHint, { borderColor: t.line, marginBottom: insets.bottom + spacing.md }]}>
           <AppText variant="secondary" muted>
             Tippen zum Umdrehen
@@ -228,6 +271,110 @@ function CardChips({ card }: { card: ReviewCard }) {
       )}
       <Chip label={card.level} kind="level" small />
     </View>
+  );
+}
+
+function ClozeCard({
+  card,
+  cloze,
+  image,
+  answered,
+  onCheck,
+}: {
+  card: ReviewCard;
+  cloze: Cloze;
+  image: string | null;
+  answered: FillResult | null;
+  onCheck: (result: FillResult) => void;
+}) {
+  const t = useTheme();
+  const [text, setText] = useState('');
+  const [before, after] = cloze.masked.split(CLOZE_BLANK);
+  const locked = answered != null;
+
+  const check = () => {
+    if (locked || !text.trim()) return;
+    onCheck(gradeFillBlank({ prompt: '', accept: [cloze.answer], explanation: '' }, text));
+  };
+
+  const answerColor = answered?.correct ? t.success : t.danger;
+
+  return (
+    <Card style={styles.clozeCard}>
+      <CardChips card={card} />
+      <AppText variant="label" muted style={{ marginTop: spacing.xxl }}>
+        Lückentext · welches Wort fehlt?
+      </AppText>
+      <AppText variant="section" style={{ marginTop: spacing.md, lineHeight: 36 }}>
+        {before}
+        {locked ? (
+          <AppText variant="section" color={answerColor} style={{ fontFamily: fonts.extrabold }}>
+            {cloze.answer}
+          </AppText>
+        ) : (
+          <AppText variant="section" color={t.inkFaint} style={{ fontFamily: fonts.extrabold }}>
+            {CLOZE_BLANK}
+          </AppText>
+        )}
+        {after}
+      </AppText>
+      {card.example_en && (
+        <AppText variant="secondary" muted style={{ marginTop: spacing.sm }}>
+          {card.example_en}
+        </AppText>
+      )}
+
+      {locked ? (
+        <View style={{ marginTop: spacing.xl, alignItems: 'center' }}>
+          <AppText variant="subtitle" color={answerColor} style={{ fontFamily: fonts.extrabold }}>
+            {answered!.correct
+              ? answered!.nearMiss
+                ? '✓ Fast — achte auf die Umlaute'
+                : '✓ Richtig!'
+              : `✗ Richtig wäre „${cloze.answer}“`}
+          </AppText>
+          <View style={[styles.rule, { backgroundColor: t.primary }]} />
+          {image && <VocabImage svg={image} gender={card.gender} size={56} style={{ marginBottom: spacing.sm }} />}
+          <AppText variant="subtitle" style={{ textAlign: 'center', fontSize: 19 }}>
+            {card.lemma}
+          </AppText>
+          <AppText variant="secondary" muted style={{ textAlign: 'center', marginTop: 2 }}>
+            {card.gloss}
+          </AppText>
+        </View>
+      ) : (
+        <>
+          <TextInput
+            value={text}
+            onChangeText={setText}
+            autoCapitalize="none"
+            autoCorrect={false}
+            placeholder="Fehlendes Wort…"
+            placeholderTextColor={t.inkFaint}
+            onSubmitEditing={check}
+            style={[styles.clozeInput, { backgroundColor: t.bg, borderColor: t.primary, color: t.ink }]}
+          />
+          <View style={styles.umlautRow}>
+            {UMLAUTS.map((u) => (
+              <Pressable
+                key={u}
+                onPress={() => setText((v) => v + u)}
+                style={[styles.umlautKey, { backgroundColor: t.bg, borderColor: t.line }]}>
+                <AppText variant="subtitle">{u}</AppText>
+              </Pressable>
+            ))}
+          </View>
+          <Pressable
+            disabled={!text.trim()}
+            onPress={check}
+            style={[styles.clozeCta, { backgroundColor: text.trim() ? t.primary : t.line }]}>
+            <AppText variant="subtitle" color={text.trim() ? '#fff' : t.inkFaint}>
+              Prüfen
+            </AppText>
+          </Pressable>
+        </>
+      )}
+    </Card>
   );
 }
 
@@ -335,6 +482,31 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   rule: { width: 54, height: 3, borderRadius: 99, marginVertical: spacing.lg },
+  clozeCard: { alignSelf: 'stretch', paddingTop: spacing.xl, paddingHorizontal: spacing.lg },
+  clozeInput: {
+    borderWidth: 1.5,
+    borderRadius: 14,
+    paddingHorizontal: spacing.lg,
+    paddingVertical: 13,
+    fontFamily: fonts.semibold,
+    fontSize: 18,
+    marginTop: spacing.xl,
+  },
+  umlautRow: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.sm },
+  umlautKey: {
+    width: 46,
+    height: 40,
+    borderRadius: 10,
+    borderWidth: 1.5,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  clozeCta: {
+    borderRadius: radius.button,
+    paddingVertical: 14,
+    alignItems: 'center',
+    marginTop: spacing.lg,
+  },
   rating: {
     flexDirection: 'row',
     gap: spacing.sm,

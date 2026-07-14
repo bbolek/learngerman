@@ -13,6 +13,8 @@ import {
   type ArcadeState,
   type BlitzQuestion,
 } from '@/logic/games';
+import { settleGameRound } from '@/services/rewards';
+import { playSound } from '@/services/sound';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { GameIntro, GameResult, GameScreen, GameTopBar } from '@/ui/components/GameFrame';
@@ -36,6 +38,7 @@ export default function WortblitzScreen() {
   const [selected, setSelected] = useState<number | null>(null);
   const [remaining, setRemaining] = useState(WORTBLITZ_MS);
   const [outcome, setOutcome] = useState<RecordOutcome | null>(null);
+  const [xpEarned, setXpEarned] = useState<number | null>(null);
 
   const arcadeRef = useRef(arcade);
   arcadeRef.current = arcade;
@@ -57,6 +60,7 @@ export default function WortblitzScreen() {
     setArcade(initialArcade(0));
     setSelected(null);
     setOutcome(null);
+    setXpEarned(null);
     finishedRef.current = false;
     missedRef.current = [];
     endAtRef.current = Date.now() + WORTBLITZ_MS;
@@ -91,9 +95,10 @@ export default function WortblitzScreen() {
         durationMs: WORTBLITZ_MS,
       },
       new Date()
-    ).then((res) => {
+    ).then(async (res) => {
       setOutcome(res);
       setBest((b) => Math.max(b ?? 0, s.score));
+      setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
       setPhase('done');
     });
   };
@@ -103,6 +108,7 @@ export default function WortblitzScreen() {
     if (!q || selected != null || finishedRef.current) return;
     const correct = i === q.correctIndex;
     if (!correct) missedRef.current.push(q.word.id);
+    playSound(correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
         correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error
@@ -129,6 +135,7 @@ export default function WortblitzScreen() {
         info={INFO}
         score={arcade.score}
         outcome={outcome}
+        xpEarned={xpEarned}
         stats={[
           { label: 'Richtig', value: `${arcade.correct}/${arcade.total}` },
           { label: 'Beste Serie', value: `${arcade.bestStreak}` },

@@ -17,6 +17,9 @@ import {
   type DuelStanding,
 } from '@/logic/duel';
 import { gameInfo, shortGloss, type ChoiceQuestion, type ImageWord } from '@/logic/games';
+import { XP_DUEL_PLAYED, XP_DUEL_WIN } from '@/logic/xp';
+import { awardXp, settleRewards } from '@/services/rewards';
+import { playSound } from '@/services/sound';
 import { useDuel } from '@/store/duel';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
@@ -144,6 +147,7 @@ export default function DuelPlayScreen() {
     if (phase !== 'done' || !duel || recordedRef.current) return;
     recordedRef.current = true;
     recordMistakes(missedRef.current, new Date()).catch(() => {});
+    const won = duel.outcome === 'win' || duel.outcome === 'forfeitWin';
     recordGameResult(
       {
         gameKey: duel.game,
@@ -154,7 +158,11 @@ export default function DuelPlayScreen() {
         durationMs: duel.durationMs,
       },
       new Date()
-    ).catch(() => {});
+    )
+      .then(() => awardXp(won ? 'duel_win' : 'duel_played', won ? XP_DUEL_WIN : XP_DUEL_PLAYED, new Date()))
+      .then(() => settleRewards(new Date()))
+      .catch(() => {});
+    if (won) playSound('fanfare');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase]);
 
@@ -170,6 +178,7 @@ export default function DuelPlayScreen() {
     if (!q || selected != null || duel.me.finished || phase !== 'playing') return;
     const correct = i === q.correctIndex;
     if (!correct) missedRef.current.push(q.word.id);
+    playSound(correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
         correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error

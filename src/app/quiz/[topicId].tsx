@@ -32,6 +32,9 @@ import {
   type McPayload,
   type OrderPayload,
 } from '@/logic/graders';
+import { xpForQuizAnswer } from '@/logic/xp';
+import { awardXp, settleRewards } from '@/services/rewards';
+import { playSound } from '@/services/sound';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { ListenButton } from '@/ui/components/ListenButton';
@@ -102,13 +105,16 @@ export default function QuizScreen() {
     if (!topic || !questions || questions.length === 0) return;
     if (index >= questions.length && !gradedRef.current) {
       gradedRef.current = true;
-      applyTopicResult(topic.slug, correctCount, questions.length, new Date()).catch(() => {});
+      applyTopicResult(topic.slug, correctCount, questions.length, new Date())
+        .then(() => settleRewards(new Date()))
+        .catch(() => {});
       topicMastery(id).then(setMastery).catch(() => {});
     }
   }, [index, questions, topic, correctCount, id]);
 
   const submit = async (correct: boolean, detail: string, answer: unknown, nearMiss = false) => {
     if (!question || feedback) return;
+    playSound(correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
         correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error
@@ -123,6 +129,7 @@ export default function QuizScreen() {
     );
     setFeedback({ correct, nearMiss, detail });
     if (correct) setCorrectCount((c) => c + 1);
+    awardXp('quiz', xpForQuizAnswer(correct), new Date()).catch(() => {});
     await logAttempt(question.id, correct, answer, new Date());
   };
 

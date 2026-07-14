@@ -3,11 +3,16 @@ import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
+import { unlockedCount } from '@/db/achievementsRepo';
 import { listTopics, topicAccuracy, type TopicRow } from '@/db/grammarRepo';
 import { currentStreak, recentActivity, type DayActivity } from '@/db/srsRepo';
 import { savedCount } from '@/db/vocabRepo';
+import { xpTotals } from '@/db/xpRepo';
+import { ACHIEVEMENTS } from '@/logic/achievements';
+import { levelProgress, levelTitle, type LevelProgress } from '@/logic/xp';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
+import { ProgressRing } from '@/ui/components/ProgressRing';
 import { Screen } from '@/ui/components/Screen';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -20,6 +25,9 @@ export default function StatsScreen() {
   const [activity, setActivity] = useState<DayActivity[]>([]);
   const [saved, setSaved] = useState(0);
   const [topics, setTopics] = useState<TopicRow[]>([]);
+  const [level, setLevel] = useState<LevelProgress | null>(null);
+  const [totalXp, setTotalXp] = useState(0);
+  const [badges, setBadges] = useState(0);
 
   useEffect(() => {
     const now = new Date();
@@ -27,6 +35,11 @@ export default function StatsScreen() {
     recentActivity(DAYS, now).then(setActivity);
     savedCount().then(setSaved);
     listTopics().then(setTopics);
+    xpTotals().then((tot) => {
+      setTotalXp(tot.lifetime);
+      setLevel(levelProgress(tot.lifetime));
+    });
+    unlockedCount().then(setBadges);
   }, []);
 
   const byDay = new Map(activity.map((a) => [a.day, a]));
@@ -55,6 +68,43 @@ export default function StatsScreen() {
         </AppText>
       </Pressable>
       <AppText variant="title">Fortschritt</AppText>
+
+      {level && (
+        <Card style={styles.levelCard}>
+          <ProgressRing progress={level.ratio} size={62} strokeWidth={6} color={t.accent}>
+            <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 20 }}>
+              {level.level}
+            </AppText>
+          </ProgressRing>
+          <View style={{ flex: 1 }}>
+            <AppText variant="subtitle">
+              Level {level.level} · {levelTitle(level.level)}
+            </AppText>
+            <AppText variant="caption" muted style={{ marginTop: 2 }}>
+              {totalXp} XP gesamt · noch {level.span - level.into} XP bis Level {level.level + 1}
+            </AppText>
+            <View style={[styles.xpTrack, { backgroundColor: t.line }]}>
+              <View
+                style={[
+                  styles.xpFill,
+                  { width: `${Math.round(level.ratio * 100)}%`, backgroundColor: t.accent },
+                ]}
+              />
+            </View>
+          </View>
+        </Card>
+      )}
+
+      <Card style={styles.badgeCard} onPress={() => router.push('/achievements')}>
+        <AppText style={{ fontSize: 22 }}>🏅</AppText>
+        <View style={{ flex: 1 }}>
+          <AppText variant="subtitle">Abzeichen</AppText>
+          <AppText variant="caption" muted style={{ marginTop: 2 }}>
+            {badges} von {ACHIEVEMENTS.length} freigeschaltet
+          </AppText>
+        </View>
+        <Ionicons name="chevron-forward" size={18} color={t.inkMuted} />
+      </Card>
 
       <View style={styles.tiles}>
         <Card style={styles.tile}>
@@ -154,7 +204,21 @@ export default function StatsScreen() {
 
 const styles = StyleSheet.create({
   back: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: spacing.lg },
-  tiles: { flexDirection: 'row', gap: spacing.md, marginTop: spacing.lg },
+  levelCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.lg,
+    marginTop: spacing.lg,
+  },
+  xpTrack: { height: 6, borderRadius: 999, overflow: 'hidden', marginTop: spacing.sm },
+  xpFill: { height: '100%', borderRadius: 999 },
+  badgeCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    marginTop: spacing.md,
+  },
+  tiles: { flexDirection: 'row', gap: spacing.md, marginTop: spacing.md },
   tile: { flex: 1, alignItems: 'center', paddingVertical: spacing.lg },
   chart: {
     flexDirection: 'row',

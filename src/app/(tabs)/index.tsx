@@ -6,9 +6,23 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import { getLemmaImage, getWordOfTheDay } from '@/db/dictionaryRepo';
 import { listTopics, type TopicRow } from '@/db/grammarRepo';
 import { grammarDueSlugs } from '@/db/grammarSrsRepo';
-import { currentStreak, dueCounts, recentActivity, type DayActivity } from '@/db/srsRepo';
+import { dailyQuests, type DailyQuestState } from '@/db/questsRepo';
+import { dueCounts, recentActivity, type DayActivity } from '@/db/srsRepo';
+import {
+  frozenDays,
+  grantFreeze,
+  lastCelebratedMilestone,
+  repairStreak,
+  setLastCelebratedMilestone,
+  streakState,
+  type StreakState,
+} from '@/db/streakRepo';
 import { savedCount } from '@/db/vocabRepo';
+import { xpTotals } from '@/db/xpRepo';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
+import { isStreakMilestone, levelProgress, levelTitle, type LevelProgress } from '@/logic/xp';
+import { settleRewards } from '@/services/rewards';
+import { celebrate } from '@/store/celebration';
 import { TourTarget } from '@/tour/TourTarget';
 import { useTourTarget } from '@/tour/useTourTarget';
 import { AppText } from '@/ui/components/AppText';
@@ -20,7 +34,10 @@ import { fonts, radius, spacing, streakGradient } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 interface HomeData {
-  streak: number;
+  streakInfo: StreakState;
+  frozen: Set<string>;
+  level: LevelProgress;
+  quests: DailyQuestState[];
   due: number;
   fresh: number;
   doneToday: number;
@@ -36,35 +53,62 @@ export default function HomeScreen() {
   const [data, setData] = useState<HomeData | null>(null);
   const streakTarget = useTourTarget('home-streak');
 
-  useFocusEffect(
-    useCallback(() => {
-      const now = new Date();
-      const today = now.toISOString().slice(0, 10);
-      Promise.all([
-        currentStreak(now),
+  const load = useCallback(async () => {
+    const now = new Date();
+    const today = now.toISOString().slice(0, 10);
+    // Pay out anything earned since the last visit (quests finished off-screen,
+    // badges crossed) before reading the state we render.
+    await settleRewards(now);
+    const streakInfo = await streakState(now); // may auto-spend freezes
+    const [counts, week, saved, topics, wotd, dueSlugs, quests, totals, frozen] =
+      await Promise.all([
         dueCounts(now),
         recentActivity(7, now),
         savedCount(),
         listTopics(),
         getWordOfTheDay(today),
         grammarDueSlugs(now),
-      ]).then(async ([streak, counts, week, saved, topics, wotd, dueSlugs]) => {
-        const doneToday = week.find((a) => a.day === today)?.reviews_done ?? 0;
-        const wotdImage = wotd ? await getLemmaImage(wotd.id) : null;
-        const topicsWithDue = topics.map((tp) => ({ ...tp, due: dueSlugs.has(tp.slug) }));
-        setData({
-          streak,
-          due: counts.due,
-          fresh: counts.fresh,
-          doneToday,
-          saved,
-          week,
-          next: pickNextTopic(topicsWithDue, today),
-          wotd,
-          wotdImage,
-        });
+        dailyQuests(now),
+        xpTotals(),
+        frozenDays(),
+      ]);
+    const doneToday = week.find((a) => a.day === today)?.reviews_done ?? 0;
+    const wotdImage = wotd ? await getLemmaImage(wotd.id) : null;
+    const topicsWithDue = topics.map((tp) => ({ ...tp, due: dueSlugs.has(tp.slug) }));
+
+    // Streak milestone reached today → one-time celebration + a bonus freeze.
+    if (isStreakMilestone(streakInfo.streak) && (await lastCelebratedMilestone()) < streakInfo.streak) {
+      await setLastCelebratedMilestone(streakInfo.streak);
+      const freezeGranted = await grantFreeze();
+      if (freezeGranted) streakInfo.freezes += 1;
+      celebrate({
+        kind: 'streakMilestone',
+        emoji: '🔥',
+        title: `${streakInfo.streak} Tage am Stück!`,
+        subtitle: freezeGranted ? 'Stark! · +1 Streak-Retter 🧊' : 'Weiter so!',
       });
-    }, [])
+    }
+
+    setData({
+      streakInfo,
+      frozen,
+      level: levelProgress(totals.lifetime),
+      quests,
+      due: counts.due,
+      fresh: counts.fresh,
+      doneToday,
+      saved,
+      week,
+      next: pickNextTopic(topicsWithDue, today),
+      wotd,
+      wotdImage,
+    });
+  }, []);
+
+  useFocusEffect(
+    useCallback(() => {
+      load().catch(() => {});
+    }, [load])
   );
 
   const now = new Date();
@@ -94,6 +138,7 @@ export default function HomeScreen() {
       active:
         (a?.reviews_done ?? 0) + (a?.quiz_done ?? 0) + (a?.words_saved ?? 0) + (a?.games_played ?? 0) >
         0,
+      frozen: data?.frozen.has(key) ?? false,
       isToday: i === 6,
     };
   });
@@ -110,6 +155,9 @@ export default function HomeScreen() {
           </AppText>
         </View>
         <TourTarget id="home-header-icons" style={styles.headerIcons}>
+          <Pressable hitSlop={8} onPress={() => router.push('/achievements')} style={[styles.iconBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
+            <Ionicons name="trophy-outline" size={20} color={t.inkMuted} />
+          </Pressable>
           <Pressable hitSlop={8} onPress={() => router.push('/stats')} style={[styles.iconBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
             <Ionicons name="bar-chart-outline" size={20} color={t.inkMuted} />
           </Pressable>
@@ -128,12 +176,19 @@ export default function HomeScreen() {
           <AppText style={{ fontSize: 30 }}>🔥</AppText>
           <View style={{ flex: 1 }}>
             <AppText variant="section" color="#fff">
-              {data ? `${data.streak} ${data.streak === 1 ? 'Tag' : 'Tage'}` : '…'}
+              {data ? `${data.streakInfo.streak} ${data.streakInfo.streak === 1 ? 'Tag' : 'Tage'}` : '…'}
             </AppText>
             <AppText variant="secondary" color="#FFFFFFEB">
               Lernserie — weiter so!
             </AppText>
           </View>
+          {data != null && data.streakInfo.freezes > 0 && (
+            <View style={styles.freezeChip}>
+              <AppText variant="caption" color="#fff" style={{ fontFamily: fonts.extrabold }}>
+                🧊 ×{data.streakInfo.freezes}
+              </AppText>
+            </View>
+          )}
           <Ionicons name="chevron-forward" size={18} color="#FFFFFFB0" />
         </View>
         <View style={styles.weekRow}>
@@ -142,12 +197,16 @@ export default function HomeScreen() {
               <View
                 style={[
                   styles.weekDot,
-                  d.active
+                  d.active || d.frozen
                     ? { backgroundColor: '#FFFFFF' }
                     : { backgroundColor: '#FFFFFF3C' },
                   d.isToday && { borderWidth: 2, borderColor: '#FFFFFF' },
                 ]}>
-                {d.active && <Ionicons name="checkmark" size={13} color={streakGradient[0]} />}
+                {d.frozen && !d.active ? (
+                  <Ionicons name="snow" size={12} color="#4A6B99" />
+                ) : d.active ? (
+                  <Ionicons name="checkmark" size={13} color={streakGradient[0]} />
+                ) : null}
               </View>
               <AppText variant="caption" color={d.isToday ? '#FFFFFF' : '#FFFFFFB0'}>
                 {d.initial}
@@ -156,6 +215,28 @@ export default function HomeScreen() {
           ))}
         </View>
       </Pressable>
+
+      {data?.streakInfo.justProtected && (
+        <Card style={styles.noticeCard}>
+          <AppText style={{ fontSize: 22 }}>🧊</AppText>
+          <View style={{ flex: 1 }}>
+            <AppText variant="subtitle">Streak-Retter eingesetzt!</AppText>
+            <AppText variant="caption" muted style={{ marginTop: 2 }}>
+              {data.streakInfo.justProtected.length === 1
+                ? 'Ein verpasster Tag wurde überbrückt — deine Serie lebt weiter.'
+                : `${data.streakInfo.justProtected.length} verpasste Tage wurden überbrückt — deine Serie lebt weiter.`}
+            </AppText>
+          </View>
+        </Card>
+      )}
+
+      {data?.streakInfo.repair && (
+        <RepairCard repair={data.streakInfo.repair} onRepaired={load} />
+      )}
+
+      {data && <LevelCard level={data.level} />}
+
+      {data && data.quests.length > 0 && <QuestsCard quests={data.quests} />}
 
       <TourTarget id="home-daily">
       <Card style={styles.daily}>
@@ -232,6 +313,143 @@ export default function HomeScreen() {
         </TourTarget>
       )}
     </Screen>
+  );
+}
+
+function LevelCard({ level }: { level: LevelProgress }) {
+  const t = useTheme();
+  return (
+    <Card style={styles.levelCard} onPress={() => router.push('/stats')}>
+      <ProgressRing progress={level.ratio} size={62} strokeWidth={6} color={t.accent}>
+        <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 20 }}>
+          {level.level}
+        </AppText>
+      </ProgressRing>
+      <View style={{ flex: 1 }}>
+        <AppText variant="subtitle">
+          Level {level.level} · {levelTitle(level.level)}
+        </AppText>
+        <AppText variant="caption" muted style={{ marginTop: 2 }}>
+          {level.span - level.into} XP bis Level {level.level + 1}
+        </AppText>
+        <View style={[styles.xpTrack, { backgroundColor: t.line }]}>
+          <View
+            style={[
+              styles.xpFill,
+              { width: `${Math.round(level.ratio * 100)}%`, backgroundColor: t.accent },
+            ]}
+          />
+        </View>
+      </View>
+      <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
+    </Card>
+  );
+}
+
+function QuestsCard({ quests }: { quests: DailyQuestState[] }) {
+  const t = useTheme();
+  return (
+    <Card style={{ marginTop: spacing.md }}>
+      <View style={styles.questHead}>
+        <AppText variant="label" muted>
+          Tagesziele
+        </AppText>
+        <AppText variant="caption" muted>
+          {quests.filter((q) => q.claimed).length}/{quests.length} geschafft
+        </AppText>
+      </View>
+      <View style={{ marginTop: spacing.sm, gap: spacing.md }}>
+        {quests.map((q) => {
+          const ratio = q.target === 0 ? 1 : q.current / q.target;
+          return (
+            <View key={q.key} style={styles.questRow}>
+              <View
+                style={[
+                  styles.questIcon,
+                  { backgroundColor: q.claimed ? t.successDim : t.primaryDim },
+                ]}>
+                <AppText style={{ fontSize: 16 }}>{q.claimed ? '✅' : q.emoji}</AppText>
+              </View>
+              <View style={{ flex: 1 }}>
+                <View style={styles.questTitleRow}>
+                  <AppText
+                    variant="secondary"
+                    style={[{ flex: 1 }, q.claimed && { opacity: 0.55 }]}>
+                    {q.title}
+                  </AppText>
+                  <AppText
+                    variant="caption"
+                    color={q.claimed ? t.onSuccessDim : t.onPrimaryDim}
+                    style={{ fontFamily: fonts.extrabold }}>
+                    {q.claimed ? `+${q.xp} XP` : `${q.current}/${q.target}`}
+                  </AppText>
+                </View>
+                <View style={[styles.questTrack, { backgroundColor: t.line }]}>
+                  <View
+                    style={[
+                      styles.questFill,
+                      {
+                        width: `${Math.round(Math.min(1, ratio) * 100)}%`,
+                        backgroundColor: q.claimed ? t.success : t.primary,
+                      },
+                    ]}
+                  />
+                </View>
+              </View>
+            </View>
+          );
+        })}
+      </View>
+    </Card>
+  );
+}
+
+function RepairCard({
+  repair,
+  onRepaired,
+}: {
+  repair: NonNullable<StreakState['repair']>;
+  onRepaired: () => Promise<void>;
+}) {
+  const t = useTheme();
+  const [busy, setBusy] = useState(false);
+  const doRepair = async () => {
+    if (busy) return;
+    setBusy(true);
+    const revived = await repairStreak(new Date()).catch(() => null);
+    if (revived != null) {
+      celebrate({
+        kind: 'streakMilestone',
+        emoji: '🔥',
+        title: 'Serie gerettet!',
+        subtitle: `Deine ${revived}-Tage-Serie lebt weiter.`,
+      });
+    }
+    await onRepaired();
+    setBusy(false);
+  };
+  return (
+    <Card style={styles.noticeCard}>
+      <AppText style={{ fontSize: 22 }}>💔</AppText>
+      <View style={{ flex: 1 }}>
+        <AppText variant="subtitle">Deine {repair.lostStreak}-Tage-Serie ist gerissen</AppText>
+        <AppText variant="caption" muted style={{ marginTop: 2 }}>
+          {repair.affordable
+            ? `Nur heute: repariere gestern für ${repair.cost} XP.`
+            : `Mit ${repair.cost} XP könntest du sie retten — dir fehlen noch ein paar.`}
+        </AppText>
+        {repair.affordable && (
+          <Pressable
+            disabled={busy}
+            onPress={doRepair}
+            style={[styles.repairBtn, { backgroundColor: t.primary, opacity: busy ? 0.6 : 1 }]}>
+            <AppText variant="secondary" color="#fff" style={{ fontFamily: fonts.extrabold }}>
+              Serie reparieren · {repair.cost} XP
+            </AppText>
+          </Pressable>
+        )}
+      </View>
+    </Card>
   );
 }
 
@@ -396,6 +614,45 @@ const styles = StyleSheet.create({
     gap: spacing.lg,
     marginTop: spacing.md,
   },
+  freezeChip: {
+    backgroundColor: '#FFFFFF2E',
+    borderRadius: 999,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+  noticeCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    marginTop: spacing.md,
+  },
+  repairBtn: {
+    alignSelf: 'flex-start',
+    borderRadius: 10,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    marginTop: spacing.sm,
+  },
+  levelCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.lg,
+    marginTop: spacing.md,
+  },
+  xpTrack: { height: 6, borderRadius: 999, overflow: 'hidden', marginTop: spacing.sm },
+  xpFill: { height: '100%', borderRadius: 999 },
+  questHead: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  questRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
+  questIcon: {
+    width: 34,
+    height: 34,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  questTitleRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
+  questTrack: { height: 5, borderRadius: 999, overflow: 'hidden', marginTop: 5 },
+  questFill: { height: '100%', borderRadius: 999 },
   cta: {
     alignSelf: 'flex-start',
     borderRadius: 10,

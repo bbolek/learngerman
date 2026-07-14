@@ -78,6 +78,17 @@ export const gender = {
 
 export const streakGradient = ['#E8871E', '#F49B3F'] as const;
 
+/** Confetti colors for reward moments — festive accents, theme-independent. */
+export const confetti = [
+  '#E8871E',
+  '#2A9D8F',
+  '#F4C430',
+  '#E76F51',
+  '#7FA96B',
+  '#6C8EBF',
+  '#C97B84',
+] as const;
+
 export const spacing = {
   xs: 4,
   sm: 8,

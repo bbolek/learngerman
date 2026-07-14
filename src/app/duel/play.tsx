@@ -105,18 +105,27 @@ export default function DuelPlayScreen() {
 
   useEffect(() => () => timersRef.current.forEach(clearTimeout), []);
 
-  // Fresh round: reset local play state and run the 3-2-1 countdown. Each
-  // device counts down on its own clock from receipt of `start` — on a LAN
-  // that skew is milliseconds against a 60s round, so no ping compensation.
+  // Fresh round: reset local play state as soon as we see the phase flip to
+  // countdown (React-recommended "adjust state during render" pattern, so
+  // the reset lands in the same commit as the phase change).
+  const [prevPhase, setPrevPhase] = useState(phase);
+  if (phase !== prevPhase) {
+    setPrevPhase(phase);
+    if (phase === 'countdown' && duel) {
+      setIndex(0);
+      setSelected(null);
+      setRemaining(duel.durationMs);
+      setCountLeft(Math.ceil(duel.countdownMs / 1000));
+    }
+  }
+
+  // Each device counts down on its own clock from receipt of `start` — on a
+  // LAN that skew is milliseconds against a 60s round, so no ping compensation.
   useEffect(() => {
     if (phase !== 'countdown' || !duel) return;
-    setIndex(0);
-    setSelected(null);
     recordedRef.current = false;
     missedRef.current = [];
-    setRemaining(duel.durationMs);
     const countdownEnd = Date.now() + duel.countdownMs;
-    setCountLeft(Math.ceil(duel.countdownMs / 1000));
     const tick = setInterval(() => {
       const left = countdownEnd - Date.now();
       setCountLeft(Math.max(1, Math.ceil(left / 1000)));

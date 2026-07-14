@@ -217,7 +217,7 @@ export default function DuelLobbyScreen() {
                     onPress={startRound}
                     style={[styles.cta, { backgroundColor: t.primary, alignSelf: 'stretch' }]}>
                     <AppText variant="subtitle" color="#fff">
-                      Los geht's ({players.length} Spieler) →
+                      Los geht&apos;s ({players.length} Spieler) →
                     </AppText>
                   </Pressable>
                 </>

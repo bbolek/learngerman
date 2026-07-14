@@ -87,7 +87,6 @@ export function encodeFrame(msg: DuelMsg): string {
   return JSON.stringify(msg) + '\n';
 }
 
-/* eslint-disable @typescript-eslint/no-explicit-any */
 function validRoster(players: any): boolean {
   return (
     Array.isArray(players) &&
@@ -146,7 +145,6 @@ function validMsg(m: any): m is DuelMsg {
       return true; // bye / ping / pong carry no payload
   }
 }
-/* eslint-enable @typescript-eslint/no-explicit-any */
 
 /**
  * Feed a raw TCP chunk into the pending buffer; returns complete, valid

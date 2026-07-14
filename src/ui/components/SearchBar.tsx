@@ -57,6 +57,7 @@ export function SearchBar({ value, onChangeText, placeholder, autoFocus, ref }: 
           autoCorrect={false}
           onFocus={() => {
             setFocused(true);
+            // eslint-disable-next-line react-hooks/immutability -- Reanimated shared values are mutated via `.value` by design
             pulse.value = withSequence(
               withTiming(1.03, { duration: 110 }),
               withTiming(1, { duration: 160 })

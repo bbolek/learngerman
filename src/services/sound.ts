@@ -10,7 +10,6 @@ import { useSettings } from '@/store/settings';
  */
 export type SoundKind = 'correct' | 'wrong' | 'levelup' | 'fanfare' | 'quest';
 
-/* eslint-disable @typescript-eslint/no-require-imports */
 const SOURCES: Record<SoundKind, number> = {
   correct: require('../../assets/sounds/correct.wav'),
   wrong: require('../../assets/sounds/wrong.wav'),
@@ -18,7 +17,6 @@ const SOURCES: Record<SoundKind, number> = {
   fanfare: require('../../assets/sounds/fanfare.wav'),
   quest: require('../../assets/sounds/quest.wav'),
 };
-/* eslint-enable @typescript-eslint/no-require-imports */
 
 const players = new Map<SoundKind, AudioPlayer>();
 

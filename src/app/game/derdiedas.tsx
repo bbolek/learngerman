@@ -1,5 +1,5 @@
 import * as Haptics from 'expo-haptics';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
@@ -55,7 +55,8 @@ export default function DerDieDasScreen() {
 
   useEffect(() => {
     statsByGame().then((s) => setBest(s.get('derdiedas')?.best ?? null));
-    return () => timersRef.current.forEach(clearTimeout);
+    const timers = timersRef.current;
+    return () => timers.forEach(clearTimeout);
   }, []);
 
   const start = async () => {
@@ -72,7 +73,7 @@ export default function DerDieDasScreen() {
     setPhase('playing');
   };
 
-  const finish = (s: ArcadeState) => {
+  const finish = useCallback((s: ArcadeState) => {
     if (finishedRef.current) return;
     finishedRef.current = true;
     recordMistakes(missedRef.current, new Date()).catch(() => {});
@@ -92,7 +93,7 @@ export default function DerDieDasScreen() {
       setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
       setPhase('done');
     });
-  };
+  }, []);
 
   const answer = (gender: string) => {
     const word = words[index];

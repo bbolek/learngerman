@@ -28,11 +28,12 @@ export default function StatsScreen() {
   const [level, setLevel] = useState<LevelProgress | null>(null);
   const [totalXp, setTotalXp] = useState(0);
   const [badges, setBadges] = useState(0);
+  const [now] = useState(() => Date.now());
 
   useEffect(() => {
-    const now = new Date();
-    currentStreak(now).then(setStreak);
-    recentActivity(DAYS, now).then(setActivity);
+    const nowDate = new Date(now);
+    currentStreak(nowDate).then(setStreak);
+    recentActivity(DAYS, nowDate).then(setActivity);
     savedCount().then(setSaved);
     listTopics().then(setTopics);
     xpTotals().then((tot) => {
@@ -40,11 +41,10 @@ export default function StatsScreen() {
       setLevel(levelProgress(tot.lifetime));
     });
     unlockedCount().then(setBadges);
-  }, []);
+  }, [now]);
 
   const byDay = new Map(activity.map((a) => [a.day, a]));
   const days: { day: string; total: number; reviews: number }[] = [];
-  const now = Date.now();
   for (let i = DAYS - 1; i >= 0; i--) {
     const day = new Date(now - i * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
     const a = byDay.get(day);

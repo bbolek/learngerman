@@ -86,14 +86,23 @@ export default function QuizScreen() {
     });
   }, [id]);
 
-  // (Re)start a round whenever the topic or practice mode changes.
-  useEffect(() => {
-    if (!Number.isFinite(id)) return;
-    gradedRef.current = false;
+  // (Re)start a round whenever the topic or practice mode changes. State
+  // reset happens during render (React-recommended "adjust state" pattern,
+  // avoiding a set-state-in-effect cascade) while the fetches stay in an
+  // effect keyed on the same round identity.
+  const roundKey = Number.isFinite(id) ? `${id}:${mode}` : null;
+  const [prevRoundKey, setPrevRoundKey] = useState<string | null>(null);
+  if (roundKey !== null && roundKey !== prevRoundKey) {
+    setPrevRoundKey(roundKey);
     setIndex(0);
     setCorrectCount(0);
     setFeedback(null);
     setQuestions(null);
+  }
+
+  useEffect(() => {
+    if (!Number.isFinite(id)) return;
+    gradedRef.current = false;
     pickQuestions(id, ROUND_SIZE, mode).then(setQuestions);
     topicMastery(id).then(setMastery);
   }, [id, mode]);
@@ -120,6 +129,7 @@ export default function QuizScreen() {
         correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error
       );
     }
+    // eslint-disable-next-line react-hooks/immutability -- Reanimated shared values are mutated via `.value` by design
     if (!correct) shake.value = withSequence(
       withTiming(-7, { duration: 55 }),
       withTiming(7, { duration: 55 }),

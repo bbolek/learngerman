@@ -17,7 +17,7 @@ export function asciiFold(normalized: string): string {
     .replaceAll('ß', 'ss');
 }
 
-const EXPANSIONS: ReadonlyArray<readonly [string, string]> = [
+const EXPANSIONS: readonly (readonly [string, string])[] = [
   ['ae', 'ä'],
   ['oe', 'ö'],
   ['ue', 'ü'],

@@ -64,7 +64,7 @@ export function GameIntro({
         )}
         <Card style={{ marginTop: spacing.xl, alignSelf: 'stretch' }}>
           <AppText variant="label" muted>
-            So geht's
+            So geht&apos;s
           </AppText>
           <AppText variant="body" style={{ marginTop: spacing.sm, lineHeight: 23 }}>
             {info.rules}
@@ -74,7 +74,7 @@ export function GameIntro({
       <View style={{ paddingHorizontal: spacing.lg, paddingBottom: insets.bottom + spacing.md }}>
         <Pressable onPress={onStart} style={[styles.cta, { backgroundColor: t.primary }]}>
           <AppText variant="subtitle" color="#fff">
-            Los geht's! →
+            Los geht&apos;s! →
           </AppText>
         </Pressable>
       </View>

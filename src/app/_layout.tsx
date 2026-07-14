@@ -15,6 +15,7 @@ import { useEffect, useState } from 'react';
 import { AppState } from 'react-native';
 
 import { initDatabase } from '@/db/client';
+import { warmUpSpeech } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { TourController } from '@/tour/TourController';
 import { CelebrationOverlay } from '@/ui/components/CelebrationOverlay';
@@ -51,6 +52,18 @@ export default function RootLayout() {
   useEffect(() => {
     if (fontsLoaded && dbReady) SplashScreen.hideAsync();
   }, [fontsLoaded, dbReady]);
+
+  // Warm up TTS (audio session + voice lookup) so the first speaker tap
+  // doesn't stall for seconds behind voice enumeration. Re-warm on every
+  // foreground: Android tears the TTS engine down with the activity, and
+  // the user may have installed a German voice while away.
+  useEffect(() => {
+    warmUpSpeech();
+    const sub = AppState.addEventListener('change', (state) => {
+      if (state === 'active') warmUpSpeech();
+    });
+    return () => sub.remove();
+  }, []);
 
   // Top up the pending-notification buffer whenever the app returns to the
   // foreground — only ~60 local notifications can be scheduled ahead, so at

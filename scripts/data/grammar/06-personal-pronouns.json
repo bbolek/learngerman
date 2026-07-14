@@ -507,6 +507,238 @@
         "correctReasonIndex": 2,
         "explanation": "„[[danken]]“ is a dative verb — uns is the same form in Akkusativ and Dativ, but here it is Dativ."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Hörst du ___? (ich)",
+        "options": [
+          "mich",
+          "mir",
+          "ich"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[hören]]“ takes a direct object → Akkusativ: ich → mich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Kennst du ___? (er)",
+        "options": [
+          "ihn",
+          "ihm",
+          "er"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[kennen]]“ takes a direct object → Akkusativ: er → ihn."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Auto gehört ___. (du)",
+        "options": [
+          "dir",
+          "dich",
+          "du"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[gehören]]“ takes the Dativ: du → dir."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich spiele heute mit ___. (er)",
+        "options": [
+          "ihm",
+          "ihn",
+          "er"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[mit]]“ always takes the Dativ: er → ihm."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Karte ist von ___. (sie, Plural)",
+        "options": [
+          "ihnen",
+          "sie",
+          "ihr"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[von]]“ always takes the Dativ; the plural Dativ pronoun is ihnen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie erklärt ___ die Aufgabe. (ich)",
+        "options": [
+          "mir",
+          "mich",
+          "ich"
+        ],
+        "correctIndex": 0,
+        "explanation": "The person who gets the explanation is the recipient → Dativ: ich → mir. Die Aufgabe is the Akkusativ object."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir fragen ___. (sie, Plural)",
+        "accept": [
+          "sie"
+        ],
+        "hint": "fragen + Akkusativ",
+        "explanation": "„[[fragen]]“ takes the Akkusativ; plural sie stays sie."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Jacke gefällt ___. (ich)",
+        "accept": [
+          "mir"
+        ],
+        "hint": "gefallen + Dativ",
+        "explanation": "„[[gefallen]]“ takes the Dativ: ich → mir."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Kommst du morgen zu ___? (wir)",
+        "accept": [
+          "uns"
+        ],
+        "hint": "zu + Dativ",
+        "explanation": "„[[zu]]“ always takes the Dativ: wir → uns."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich zeige ___ die Stadt. (du)",
+        "accept": [
+          "dir"
+        ],
+        "hint": "recipient → Dativ",
+        "explanation": "The person you show something to is the recipient → Dativ: du → dir ([[zeigen]] + Dativ + Akkusativ)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "fragt",
+          "Er",
+          "mich",
+          "oft"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "fragt",
+            "mich",
+            "oft"
+          ]
+        ],
+        "translation": "He often asks me.",
+        "explanation": "„[[fragen]]“ takes the Akkusativ: ich → mich. The pronoun stands before „oft“."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "danken",
+          "Wir",
+          "euch",
+          "herzlich"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "danken",
+            "euch",
+            "herzlich"
+          ]
+        ],
+        "translation": "We thank you warmly.",
+        "explanation": "„[[danken]]“ takes the Dativ: ihr → euch."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "zeigt",
+          "Sie",
+          "mir",
+          "das",
+          "Foto"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "zeigt",
+            "mir",
+            "das",
+            "Foto"
+          ]
+        ],
+        "translation": "She shows me the photo.",
+        "explanation": "The recipient is Dativ: ich → mir. A Dativ pronoun stands before the Akkusativ noun „das Foto“."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Das Handy gehört **mir**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the direct object of the verb",
+          "„gehören“ always takes a Dativ object",
+          "It is the subject of the sentence",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "„[[gehören]]“ is a Dativ verb: ich → mir. Das Handy is the Nominativ subject."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Die Blumen sind für **dich**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It follows „für“, which always takes the Akkusativ",
+          "It is the indirect object (recipient)",
+          "It is the subject of the sentence",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "„[[für]]“ always takes the Akkusativ: du → dich — never „für dir“."
+      }
     }
   ]
 }

@@ -17,8 +17,9 @@ import Animated, {
 } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { getTopic, logAttempt, pickQuestions, type QuestionRow, type TopicRow } from '@/db/grammarRepo';
+import { getTopic, logAttempt, pickQuestions, topicMastery, type QuestionRow, type TopicRow } from '@/db/grammarRepo';
 import { applyTopicResult } from '@/db/grammarSrsRepo';
+import { type RoundMode } from '@/logic/quizRound';
 import {
   gradeCaseId,
   gradeFillBlank,
@@ -62,6 +63,9 @@ export default function QuizScreen() {
   const [index, setIndex] = useState(0);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
+  /** 'default' skips mastered questions; 'all' is free practice over everything. */
+  const [mode, setMode] = useState<RoundMode>('default');
+  const [mastery, setMastery] = useState<{ total: number; mastered: number } | null>(null);
 
   const shake = useSharedValue(0);
   const shakeStyle = useAnimatedStyle(() => ({ transform: [{ translateX: shake.value }] }));
@@ -77,9 +81,19 @@ export default function QuizScreen() {
       setShowExplainer(firstVisit);
       setIntroExplainer(firstVisit);
     });
-    gradedRef.current = false;
-    pickQuestions(id, ROUND_SIZE).then(setQuestions);
   }, [id]);
+
+  // (Re)start a round whenever the topic or practice mode changes.
+  useEffect(() => {
+    if (!Number.isFinite(id)) return;
+    gradedRef.current = false;
+    setIndex(0);
+    setCorrectCount(0);
+    setFeedback(null);
+    setQuestions(null);
+    pickQuestions(id, ROUND_SIZE, mode).then(setQuestions);
+    topicMastery(id).then(setMastery);
+  }, [id, mode]);
 
   const question = questions?.[index];
 
@@ -89,8 +103,9 @@ export default function QuizScreen() {
     if (index >= questions.length && !gradedRef.current) {
       gradedRef.current = true;
       applyTopicResult(topic.slug, correctCount, questions.length, new Date()).catch(() => {});
+      topicMastery(id).then(setMastery).catch(() => {});
     }
-  }, [index, questions, topic, correctCount]);
+  }, [index, questions, topic, correctCount, id]);
 
   const submit = async (correct: boolean, detail: string, answer: unknown, nearMiss = false) => {
     if (!question || feedback) return;
@@ -116,7 +131,59 @@ export default function QuizScreen() {
     setIndex((i) => i + 1);
   };
 
+  const restartRound = () => {
+    gradedRef.current = false;
+    setIndex(0);
+    setCorrectCount(0);
+    setFeedback(null);
+    setQuestions(null);
+    pickQuestions(id, ROUND_SIZE, mode).then(setQuestions);
+  };
+
+  const openQuestionList = () =>
+    router.push({ pathname: '/quiz/questions/[topicId]', params: { topicId: String(id) } });
+
   if (!topic || !questions) return <View style={[styles.fill, { backgroundColor: t.bg }]} />;
+
+  // Every question answered correctly at least once: nothing left in the
+  // default pool. Offer free practice over all questions instead.
+  if (questions.length === 0 && mode === 'default') {
+    return (
+      <View
+        style={[
+          styles.fill,
+          styles.center,
+          { backgroundColor: t.bg, padding: spacing.xl, paddingTop: insets.top + spacing.xl },
+        ]}>
+        <ProgressRing progress={1} size={140} strokeWidth={12} color={t.accent}>
+          <AppText style={{ fontSize: 44 }}>🏆</AppText>
+        </ProgressRing>
+        <AppText variant="title" style={{ marginTop: spacing.xl, textAlign: 'center' }}>
+          Thema gemeistert!
+        </AppText>
+        <AppText variant="secondary" muted style={{ marginTop: 4, textAlign: 'center' }}>
+          Du hast alle {topic.question_count} Fragen richtig beantwortet · {topic.title}
+        </AppText>
+        <View style={{ gap: spacing.md, marginTop: spacing.xxl, alignSelf: 'stretch' }}>
+          <Pressable onPress={() => setMode('all')} style={[styles.cta, { backgroundColor: t.primary }]}>
+            <AppText variant="subtitle" color="#fff">
+              Alle Fragen üben
+            </AppText>
+          </Pressable>
+          <Pressable onPress={openQuestionList} style={[styles.cta, { backgroundColor: t.primaryDim }]}>
+            <AppText variant="subtitle" color={t.onPrimaryDim}>
+              Fragen ansehen
+            </AppText>
+          </Pressable>
+          <Pressable onPress={() => router.back()} style={styles.cta}>
+            <AppText variant="subtitle" muted>
+              Fertig
+            </AppText>
+          </Pressable>
+        </View>
+      </View>
+    );
+  }
 
   if (showExplainer) {
     return (
@@ -161,6 +228,7 @@ export default function QuizScreen() {
 
   if (!question) {
     const share = questions.length === 0 ? 0 : correctCount / questions.length;
+    const fullyMastered = mastery != null && mastery.total > 0 && mastery.mastered >= mastery.total;
     return (
       <View
         style={[
@@ -177,26 +245,41 @@ export default function QuizScreen() {
         <AppText variant="secondary" muted style={{ marginTop: 4 }}>
           {correctCount} von {questions.length} richtig · {topic.title}
         </AppText>
+        {fullyMastered && (
+          <AppText variant="secondary" color={t.onAccentDim} style={{ marginTop: spacing.md, textAlign: 'center' }}>
+            Alle Fragen dieses Themas gemeistert! 🏆
+          </AppText>
+        )}
+        {mastery != null && !fullyMastered && mastery.mastered > 0 && (
+          <AppText variant="caption" muted style={{ marginTop: spacing.md }}>
+            {mastery.mastered} von {mastery.total} Fragen gemeistert
+          </AppText>
+        )}
         <View style={{ flexDirection: 'row', gap: spacing.md, marginTop: spacing.xxl }}>
-          <Pressable
-            onPress={() => {
-              setIndex(0);
-              setCorrectCount(0);
-              setFeedback(null);
-              gradedRef.current = false;
-              pickQuestions(id, ROUND_SIZE).then(setQuestions);
-            }}
-            style={[styles.cta, { backgroundColor: t.primaryDim }]}>
-            <AppText variant="subtitle" color={t.onPrimaryDim}>
-              Nochmal
-            </AppText>
-          </Pressable>
+          {fullyMastered && mode === 'default' ? (
+            <Pressable onPress={() => setMode('all')} style={[styles.cta, { backgroundColor: t.primaryDim }]}>
+              <AppText variant="subtitle" color={t.onPrimaryDim}>
+                Alle Fragen üben
+              </AppText>
+            </Pressable>
+          ) : (
+            <Pressable onPress={restartRound} style={[styles.cta, { backgroundColor: t.primaryDim }]}>
+              <AppText variant="subtitle" color={t.onPrimaryDim}>
+                Nochmal
+              </AppText>
+            </Pressable>
+          )}
           <Pressable onPress={() => router.back()} style={[styles.cta, { backgroundColor: t.primary }]}>
             <AppText variant="subtitle" color="#fff">
               Fertig
             </AppText>
           </Pressable>
         </View>
+        <Pressable onPress={openQuestionList} hitSlop={8} style={{ marginTop: spacing.xl }}>
+          <AppText variant="secondary" color={t.primary}>
+            Fragen ansehen →
+          </AppText>
+        </Pressable>
       </View>
     );
   }
@@ -221,6 +304,9 @@ export default function QuizScreen() {
         </AppText>
         <Pressable hitSlop={10} onPress={() => setShowExplainer(true)}>
           <Ionicons name="book-outline" size={22} color={t.inkMuted} />
+        </Pressable>
+        <Pressable hitSlop={10} onPress={openQuestionList}>
+          <Ionicons name="list-outline" size={22} color={t.inkMuted} />
         </Pressable>
       </View>
 

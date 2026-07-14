@@ -1,0 +1,1061 @@
+[
+  {
+    "lemma": "anfangen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beginnen", "note": "formeller" },
+      { "lemma": "starten", "note": "umgangssprachlich; auch für Geräte und Motoren" }
+    ]
+  },
+  {
+    "lemma": "beginnen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "anfangen", "note": "alltäglicher" },
+      { "lemma": "starten", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "starten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "anfangen" },
+      { "lemma": "beginnen", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "aufhören", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beenden", "note": "mit Objekt: etwas beenden" }
+    ]
+  },
+  {
+    "lemma": "beenden", "pos": "verb",
+    "synonyms": [
+      { "lemma": "aufhören", "note": "ohne Objekt: mit etwas aufhören" }
+    ]
+  },
+  {
+    "lemma": "sehen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "schauen", "note": "eher süddeutsch" },
+      { "lemma": "gucken", "note": "umgangssprachlich, eher norddeutsch" }
+    ]
+  },
+  {
+    "lemma": "schauen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "sehen", "note": "neutral, überall verständlich" },
+      { "lemma": "gucken", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "gucken", "pos": "verb",
+    "synonyms": [
+      { "lemma": "schauen" },
+      { "lemma": "sehen", "note": "neutral, auch formell" }
+    ]
+  },
+  {
+    "lemma": "sprechen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "reden", "note": "etwas informeller" }
+    ]
+  },
+  {
+    "lemma": "reden", "pos": "verb",
+    "synonyms": [
+      { "lemma": "sprechen", "note": "neutraler, auch formell" }
+    ]
+  },
+  {
+    "lemma": "bekommen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erhalten", "note": "formeller, oft schriftlich" },
+      { "lemma": "kriegen", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "erhalten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "bekommen", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "kriegen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "bekommen", "note": "neutraler; besser im Schriftlichen" }
+    ]
+  },
+  {
+    "lemma": "einfach", "pos": "adj",
+    "synonyms": [
+      { "lemma": "leicht", "note": "auch: geringes Gewicht" }
+    ]
+  },
+  {
+    "lemma": "leicht", "pos": "adj",
+    "synonyms": [
+      { "lemma": "einfach", "note": "auch: nicht kompliziert, schlicht" }
+    ]
+  },
+  {
+    "lemma": "schön", "pos": "adj",
+    "synonyms": [
+      { "lemma": "hübsch", "note": "für Personen und Dinge" },
+      { "lemma": "herrlich", "note": "stärker, begeistert" }
+    ]
+  },
+  {
+    "lemma": "hübsch", "pos": "adj",
+    "synonyms": [
+      { "lemma": "schön", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "toll", "pos": "adj",
+    "synonyms": [
+      { "lemma": "großartig", "note": "stärker" },
+      { "lemma": "prima", "note": "etwas altmodisch" },
+      { "lemma": "wunderbar" }
+    ]
+  },
+  {
+    "lemma": "großartig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "toll", "note": "umgangssprachlicher" },
+      { "lemma": "wunderbar" }
+    ]
+  },
+  {
+    "lemma": "wunderbar", "pos": "adj",
+    "synonyms": [
+      { "lemma": "herrlich" },
+      { "lemma": "großartig" }
+    ]
+  },
+  {
+    "lemma": "prima", "pos": "adj",
+    "synonyms": [
+      { "lemma": "toll", "note": "moderner" }
+    ]
+  },
+  {
+    "lemma": "herrlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "wunderbar" },
+      { "lemma": "schön", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "Arbeit", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Job", "note": "umgangssprachlich, oft für Nebenjobs" },
+      { "lemma": "Beruf", "note": "die erlernte Tätigkeit" },
+      { "lemma": "Stelle", "note": "die konkrete Position in einer Firma" }
+    ]
+  },
+  {
+    "lemma": "Job", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Arbeit", "note": "neutraler" },
+      { "lemma": "Stelle", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "Beruf", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Arbeit", "note": "allgemeiner" },
+      { "lemma": "Job", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "Stelle", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Job", "note": "als Arbeitsstelle" },
+      { "lemma": "Ort", "note": "als Punkt oder Platz" }
+    ]
+  },
+  {
+    "lemma": "Haus", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gebäude", "note": "neutral für jedes Bauwerk" }
+    ]
+  },
+  {
+    "lemma": "Gebäude", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Haus", "note": "meist zum Wohnen" }
+    ]
+  },
+  {
+    "lemma": "glücklich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "froh", "note": "schwächer" },
+      { "lemma": "zufrieden", "note": "ruhiger, ohne Euphorie" }
+    ]
+  },
+  {
+    "lemma": "froh", "pos": "adj",
+    "synonyms": [
+      { "lemma": "glücklich", "note": "stärker" },
+      { "lemma": "fröhlich", "note": "sichtbar gut gelaunt" }
+    ]
+  },
+  {
+    "lemma": "fröhlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "vergnügt" },
+      { "lemma": "heiter", "note": "eher gehoben" }
+    ]
+  },
+  {
+    "lemma": "zufrieden", "pos": "adj",
+    "synonyms": [
+      { "lemma": "glücklich", "note": "stärker" }
+    ]
+  },
+  {
+    "lemma": "traurig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "niedergeschlagen", "note": "stärker, ohne Energie" }
+    ]
+  },
+  {
+    "lemma": "kaufen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erwerben", "note": "formell, z. B. in Verträgen" }
+    ]
+  },
+  {
+    "lemma": "erwerben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "kaufen", "note": "alltäglich" }
+    ]
+  },
+  {
+    "lemma": "gehen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "laufen", "note": "umgangssprachlich auch: zu Fuß gehen" }
+    ]
+  },
+  {
+    "lemma": "laufen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "rennen", "note": "schneller" },
+      { "lemma": "gehen", "note": "langsamer, zu Fuß" }
+    ]
+  },
+  {
+    "lemma": "rennen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "laufen", "note": "langsamer oder neutraler" }
+    ]
+  },
+  {
+    "lemma": "verstehen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "begreifen", "note": "tiefer, vollständig verstehen" },
+      { "lemma": "kapieren", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "begreifen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verstehen", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "kapieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verstehen", "note": "neutral, auch formell" }
+    ]
+  },
+  {
+    "lemma": "antworten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erwidern", "note": "gehoben, eher literarisch" }
+    ]
+  },
+  {
+    "lemma": "benutzen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verwenden", "note": "etwas formeller" },
+      { "lemma": "nutzen", "note": "auch: einen Vorteil daraus ziehen" }
+    ]
+  },
+  {
+    "lemma": "verwenden", "pos": "verb",
+    "synonyms": [
+      { "lemma": "benutzen", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "nutzen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "benutzen" },
+      { "lemma": "verwenden" }
+    ]
+  },
+  {
+    "lemma": "versuchen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "probieren", "note": "umgangssprachlicher; auch: Essen testen" }
+    ]
+  },
+  {
+    "lemma": "probieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "versuchen", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "aufmachen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "öffnen", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "öffnen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "aufmachen", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "zumachen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "schließen", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "schließen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "zumachen", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "sofort", "pos": "adv",
+    "synonyms": [
+      { "lemma": "gleich", "note": "etwas später, weniger dringend" }
+    ]
+  },
+  {
+    "lemma": "gleich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "sofort", "note": "ohne jede Verzögerung" }
+    ]
+  },
+  {
+    "lemma": "jetzt", "pos": "adv",
+    "synonyms": [
+      { "lemma": "nun", "note": "etwas formeller" }
+    ]
+  },
+  {
+    "lemma": "nun", "pos": "adv",
+    "synonyms": [
+      { "lemma": "jetzt", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "vielleicht", "pos": "adv",
+    "synonyms": [
+      { "lemma": "möglicherweise", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "möglicherweise", "pos": "adv",
+    "synonyms": [
+      { "lemma": "vielleicht", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "oft", "pos": "adv",
+    "synonyms": [
+      { "lemma": "häufig", "note": "etwas formeller" }
+    ]
+  },
+  {
+    "lemma": "häufig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "oft", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "manchmal", "pos": "adv",
+    "synonyms": [
+      { "lemma": "gelegentlich", "note": "formeller, etwas seltener" }
+    ]
+  },
+  {
+    "lemma": "gelegentlich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "manchmal", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "zuerst", "pos": "adv",
+    "synonyms": [
+      { "lemma": "zunächst", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "zunächst", "pos": "adv",
+    "synonyms": [
+      { "lemma": "zuerst", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "danach", "pos": "adv",
+    "synonyms": [
+      { "lemma": "anschließend", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "anschließend", "pos": "adv",
+    "synonyms": [
+      { "lemma": "danach", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "trotzdem", "pos": "adv",
+    "synonyms": [
+      { "lemma": "dennoch", "note": "formeller, eher schriftlich" }
+    ]
+  },
+  {
+    "lemma": "dennoch", "pos": "adv",
+    "synonyms": [
+      { "lemma": "trotzdem", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "deshalb", "pos": "adv",
+    "synonyms": [
+      { "lemma": "deswegen" },
+      { "lemma": "daher", "note": "etwas formeller" }
+    ]
+  },
+  {
+    "lemma": "deswegen", "pos": "adv",
+    "synonyms": [
+      { "lemma": "deshalb" },
+      { "lemma": "daher", "note": "etwas formeller" }
+    ]
+  },
+  {
+    "lemma": "daher", "pos": "adv",
+    "synonyms": [
+      { "lemma": "deshalb", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "jedoch", "pos": "adv",
+    "synonyms": [
+      { "lemma": "aber", "note": "alltäglicher" },
+      { "lemma": "allerdings" }
+    ]
+  },
+  {
+    "lemma": "allerdings", "pos": "adv",
+    "synonyms": [
+      { "lemma": "jedoch", "note": "formeller" },
+      { "lemma": "aber", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "mögen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "lieben", "note": "viel stärker" }
+    ]
+  },
+  {
+    "lemma": "lieben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "mögen", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "Ort", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Platz", "note": "freie Fläche oder Sitzplatz" },
+      { "lemma": "Stelle", "note": "genauer Punkt" }
+    ]
+  },
+  {
+    "lemma": "Platz", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Ort", "note": "allgemeiner" },
+      { "lemma": "Stelle", "note": "genauer Punkt" }
+    ]
+  },
+  {
+    "lemma": "Gegend", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Region", "note": "formeller, geografisch" }
+    ]
+  },
+  {
+    "lemma": "Region", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gegend", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "ungefähr", "pos": "adv",
+    "synonyms": [
+      { "lemma": "etwa", "note": "kürzer, eher schriftlich" }
+    ]
+  },
+  {
+    "lemma": "etwa", "pos": "adv",
+    "synonyms": [
+      { "lemma": "ungefähr" }
+    ]
+  },
+  {
+    "lemma": "völlig", "pos": "adv",
+    "synonyms": [
+      { "lemma": "total", "note": "umgangssprachlich" },
+      { "lemma": "ganz" }
+    ]
+  },
+  {
+    "lemma": "total", "pos": "adv",
+    "synonyms": [
+      { "lemma": "völlig", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "wirklich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "echt", "note": "umgangssprachlich" },
+      { "lemma": "tatsächlich", "note": "betont, dass etwas real ist" }
+    ]
+  },
+  {
+    "lemma": "echt", "pos": "adj",
+    "synonyms": [
+      { "lemma": "wirklich", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "tatsächlich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "wirklich" }
+    ]
+  },
+  {
+    "lemma": "sicher", "pos": "adj",
+    "synonyms": [
+      { "lemma": "bestimmt", "note": "als Vermutung: sicherlich" }
+    ]
+  },
+  {
+    "lemma": "bestimmt", "pos": "adv",
+    "synonyms": [
+      { "lemma": "sicher" }
+    ]
+  },
+  {
+    "lemma": "berühmt", "pos": "adj",
+    "synonyms": [
+      { "lemma": "bekannt", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "bekannt", "pos": "adj",
+    "synonyms": [
+      { "lemma": "berühmt", "note": "stärker" }
+    ]
+  },
+  {
+    "lemma": "seltsam", "pos": "adj",
+    "synonyms": [
+      { "lemma": "komisch", "note": "umgangssprachlich; auch: lustig" },
+      { "lemma": "merkwürdig" }
+    ]
+  },
+  {
+    "lemma": "komisch", "pos": "adj",
+    "synonyms": [
+      { "lemma": "seltsam" },
+      { "lemma": "merkwürdig" }
+    ]
+  },
+  {
+    "lemma": "merkwürdig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "seltsam" },
+      { "lemma": "komisch", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "müde", "pos": "adj",
+    "synonyms": [
+      { "lemma": "erschöpft", "note": "viel stärker" }
+    ]
+  },
+  {
+    "lemma": "erschöpft", "pos": "adj",
+    "synonyms": [
+      { "lemma": "müde", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "wütend", "pos": "adj",
+    "synonyms": [
+      { "lemma": "sauer", "note": "umgangssprachlich" },
+      { "lemma": "böse" }
+    ]
+  },
+  {
+    "lemma": "sauer", "pos": "adj",
+    "synonyms": [
+      { "lemma": "wütend", "note": "stärker" },
+      { "lemma": "böse" }
+    ]
+  },
+  {
+    "lemma": "klug", "pos": "adj",
+    "synonyms": [
+      { "lemma": "schlau", "note": "auch: listig" },
+      { "lemma": "weise", "note": "durch Lebenserfahrung" }
+    ]
+  },
+  {
+    "lemma": "schlau", "pos": "adj",
+    "synonyms": [
+      { "lemma": "klug", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "dumm", "pos": "adj",
+    "synonyms": [
+      { "lemma": "blöd", "note": "umgangssprachlich" },
+      { "lemma": "doof", "note": "umgangssprachlich, eher norddeutsch" }
+    ]
+  },
+  {
+    "lemma": "blöd", "pos": "adj",
+    "synonyms": [
+      { "lemma": "dumm", "note": "neutraler" },
+      { "lemma": "doof" }
+    ]
+  },
+  {
+    "lemma": "doof", "pos": "adj",
+    "synonyms": [
+      { "lemma": "dumm", "note": "neutraler" },
+      { "lemma": "blöd" }
+    ]
+  },
+  {
+    "lemma": "dünn", "pos": "adj",
+    "synonyms": [
+      { "lemma": "schlank", "note": "positiv, für Personen" }
+    ]
+  },
+  {
+    "lemma": "schlank", "pos": "adj",
+    "synonyms": [
+      { "lemma": "dünn", "note": "neutral bis negativ" }
+    ]
+  },
+  {
+    "lemma": "billig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "günstig", "note": "positiver" },
+      { "lemma": "preiswert", "note": "positiv: gute Qualität zum guten Preis" }
+    ]
+  },
+  {
+    "lemma": "günstig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "billig", "note": "manchmal negativ: schlechte Qualität" },
+      { "lemma": "preiswert" }
+    ]
+  },
+  {
+    "lemma": "preiswert", "pos": "adj",
+    "synonyms": [
+      { "lemma": "günstig" }
+    ]
+  },
+  {
+    "lemma": "kaputt", "pos": "adj",
+    "synonyms": [
+      { "lemma": "defekt", "note": "formeller, technisch" }
+    ]
+  },
+  {
+    "lemma": "defekt", "pos": "adj",
+    "synonyms": [
+      { "lemma": "kaputt", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "sagen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erzählen", "note": "länger, als Geschichte" },
+      { "lemma": "mitteilen", "note": "formell" }
+    ]
+  },
+  {
+    "lemma": "erzählen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "berichten", "note": "sachlicher" }
+    ]
+  },
+  {
+    "lemma": "berichten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erzählen", "note": "persönlicher" }
+    ]
+  },
+  {
+    "lemma": "mitteilen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "sagen", "note": "alltäglich" }
+    ]
+  },
+  {
+    "lemma": "erklären", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erläutern", "note": "formeller, ausführlicher" }
+    ]
+  },
+  {
+    "lemma": "erläutern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erklären", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "helfen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "unterstützen", "note": "formeller; auch mit Geld" }
+    ]
+  },
+  {
+    "lemma": "unterstützen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "helfen", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "machen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "tun", "note": "etwas allgemeiner" },
+      { "lemma": "erledigen", "note": "eine Aufgabe abschließen" }
+    ]
+  },
+  {
+    "lemma": "tun", "pos": "verb",
+    "synonyms": [
+      { "lemma": "machen", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "erledigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "machen", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "herstellen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "produzieren" }
+    ]
+  },
+  {
+    "lemma": "produzieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "herstellen" }
+    ]
+  },
+  {
+    "lemma": "schicken", "pos": "verb",
+    "synonyms": [
+      { "lemma": "senden", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "senden", "pos": "verb",
+    "synonyms": [
+      { "lemma": "schicken", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "wohnen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "leben", "note": "allgemeiner: auch existieren" }
+    ]
+  },
+  {
+    "lemma": "leben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "wohnen", "note": "nur für den Wohnort" }
+    ]
+  },
+  {
+    "lemma": "aussehen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "wirken", "note": "einen Eindruck machen" }
+    ]
+  },
+  {
+    "lemma": "wirken", "pos": "verb",
+    "synonyms": [
+      { "lemma": "aussehen" },
+      { "lemma": "scheinen" }
+    ]
+  },
+  {
+    "lemma": "scheinen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "wirken" }
+    ]
+  },
+  {
+    "lemma": "Fahrrad", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Rad", "note": "umgangssprachlich kurz" }
+    ]
+  },
+  {
+    "lemma": "Rad", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Fahrrad", "note": "wenn das Fahrrad gemeint ist" }
+    ]
+  },
+  {
+    "lemma": "Arzt", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Doktor", "note": "umgangssprachlich" }
+    ]
+  },
+  {
+    "lemma": "Doktor", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Arzt", "note": "offizielle Berufsbezeichnung" }
+    ]
+  },
+  {
+    "lemma": "Firma", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Unternehmen", "note": "formeller" },
+      { "lemma": "Betrieb", "note": "betont den Arbeitsort" }
+    ]
+  },
+  {
+    "lemma": "Unternehmen", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Firma", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Betrieb", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Firma" },
+      { "lemma": "Unternehmen", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "Restaurant", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Lokal", "note": "allgemeiner" },
+      { "lemma": "Gaststätte", "note": "traditionell deutsch" }
+    ]
+  },
+  {
+    "lemma": "Lokal", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Restaurant" },
+      { "lemma": "Kneipe", "note": "einfacher, vor allem für Getränke" }
+    ]
+  },
+  {
+    "lemma": "Gaststätte", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Restaurant", "note": "moderner" }
+    ]
+  },
+  {
+    "lemma": "Kneipe", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Lokal", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "Essen", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Mahlzeit", "note": "formeller: Frühstück, Mittagessen …" },
+      { "lemma": "Speise", "note": "gehoben, auf Speisekarten" }
+    ]
+  },
+  {
+    "lemma": "Mahlzeit", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Essen", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Speise", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Essen", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "spannend", "pos": "adj",
+    "synonyms": [
+      { "lemma": "interessant", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "interessant", "pos": "adj",
+    "synonyms": [
+      { "lemma": "spannend", "note": "stärker, fesselnd" }
+    ]
+  },
+  {
+    "lemma": "langweilig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "eintönig", "note": "ohne Abwechslung" }
+    ]
+  },
+  {
+    "lemma": "eintönig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "langweilig", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "ruhig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "still", "note": "ganz ohne Geräusch und Bewegung" },
+      { "lemma": "leise", "note": "geringe Lautstärke" }
+    ]
+  },
+  {
+    "lemma": "still", "pos": "adj",
+    "synonyms": [
+      { "lemma": "ruhig" },
+      { "lemma": "leise" }
+    ]
+  },
+  {
+    "lemma": "leise", "pos": "adj",
+    "synonyms": [
+      { "lemma": "still" },
+      { "lemma": "ruhig" }
+    ]
+  },
+  {
+    "lemma": "sauber", "pos": "adj",
+    "synonyms": [
+      { "lemma": "rein", "note": "gehoben; auch: pur" }
+    ]
+  },
+  {
+    "lemma": "rein", "pos": "adj",
+    "synonyms": [
+      { "lemma": "sauber", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "nass", "pos": "adj",
+    "synonyms": [
+      { "lemma": "feucht", "note": "nur leicht nass" }
+    ]
+  },
+  {
+    "lemma": "feucht", "pos": "adj",
+    "synonyms": [
+      { "lemma": "nass", "note": "stärker" }
+    ]
+  },
+  {
+    "lemma": "eng", "pos": "adj",
+    "synonyms": [
+      { "lemma": "schmal", "note": "schmale Form; eng = wenig Platz" }
+    ]
+  },
+  {
+    "lemma": "schmal", "pos": "adj",
+    "synonyms": [
+      { "lemma": "eng", "note": "wenig Platz" }
+    ]
+  },
+  {
+    "lemma": "groß", "pos": "adj",
+    "synonyms": [
+      { "lemma": "riesig", "note": "viel größer" }
+    ]
+  },
+  {
+    "lemma": "riesig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "gewaltig" },
+      { "lemma": "enorm" }
+    ]
+  },
+  {
+    "lemma": "gewaltig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "riesig" },
+      { "lemma": "enorm" }
+    ]
+  },
+  {
+    "lemma": "enorm", "pos": "adj",
+    "synonyms": [
+      { "lemma": "riesig" }
+    ]
+  },
+  {
+    "lemma": "klein", "pos": "adj",
+    "synonyms": [
+      { "lemma": "winzig", "note": "viel kleiner" }
+    ]
+  },
+  {
+    "lemma": "winzig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "klein", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "pünktlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "rechtzeitig", "note": "früh genug, nicht exakt zur Zeit" }
+    ]
+  },
+  {
+    "lemma": "rechtzeitig", "pos": "adv",
+    "synonyms": [
+      { "lemma": "pünktlich", "note": "genau zur vereinbarten Zeit" }
+    ]
+  },
+  {
+    "lemma": "bald", "pos": "adv",
+    "synonyms": [
+      { "lemma": "demnächst", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "demnächst", "pos": "adv",
+    "synonyms": [
+      { "lemma": "bald", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Chef", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Leiter", "note": "offizieller Titel" }
+    ]
+  },
+  {
+    "lemma": "Leiter", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Chef", "note": "umgangssprachlicher" }
+    ]
+  }
+]

@@ -109,7 +109,7 @@ describe('applyContentUpdate', () => {
     const fresh = new Database(BUILT, { readonly: true });
     const count = (d: Database.Database, t: string) =>
       (d.prepare(`SELECT COUNT(*) c FROM ${t}`).get() as { c: number }).c;
-    for (const t of ['lemmas', 'forms', 'senses', 'examples', 'grammar_topics', 'grammar_questions']) {
+    for (const t of ['lemmas', 'forms', 'senses', 'examples', 'synonyms', 'grammar_topics', 'grammar_questions']) {
       expect(count(db, t)).toBe(count(fresh, t));
     }
     const hash = db.prepare("SELECT value FROM meta WHERE key = 'content_hash'").get() as { value: string };

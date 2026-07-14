@@ -102,6 +102,39 @@ Besides Noto emoji, entries can reference other vendored icon sets via
   Health Icons "filled" variants already do this.
 For pronouns list case forms in `note` (`"mich (Akk.) · mir (Dat.)"`).
 
+## Synonyms (`synonyms.json`)
+
+`scripts/data/synonyms.json` links entries to words the learner can use
+instead, shown as tappable rows in a "Synonyme" section on the word-detail
+screen:
+
+```jsonc
+[
+  {
+    "lemma": "anfangen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beginnen", "note": "formeller" },
+      { "lemma": "starten", "note": "umgangssprachlich; auch für Geräte und Motoren" }
+    ]
+  }
+]
+```
+
+Rules:
+
+- Every lemma (headword and synonym) must exist in a vocab batch; the build
+  fails otherwise. Synonym refs only need `"pos"` when the lemma exists under
+  more than one pos — the build tells you when it's ambiguous.
+- Links are **directional**: an entry only shows the synonyms authored for
+  it. Author both directions when both words should show the connection —
+  notes usually differ per direction ("erhalten: formeller" vs.
+  "bekommen: alltäglicher").
+- `note` is optional and explains the nuance in short **German** fragments
+  ("formeller", "umgangssprachlich", "stärker", "nur für Personen"). Add one
+  whenever the words are not freely interchangeable.
+- Duplicate headword entries, duplicate refs and self-references fail the
+  build.
+
 ### Form examples (`examples`, optional)
 
 Extra example sentences that demonstrate specific tenses/forms, shown in a

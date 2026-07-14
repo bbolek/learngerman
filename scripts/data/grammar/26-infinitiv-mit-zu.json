@@ -139,6 +139,351 @@
         "translation": "It is hard to learn a language.",
         "explanation": "Es ist + adjective + comma + zu-infinitive group."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich habe keine Zeit, heute ___ kochen.",
+        "options": ["zu", "für", "um"],
+        "correctIndex": 0,
+        "explanation": "keine Zeit haben + zu + infinitive: …, heute zu kochen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Es macht Spaß, Fußball ___ spielen.",
+        "options": ["zu", "zum", "um"],
+        "correctIndex": 0,
+        "explanation": "After „Es macht Spaß, …“ comes zu + infinitive: Fußball zu spielen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie hofft, die Stelle ___ bekommen.",
+        "options": ["zu", "an", "um"],
+        "correctIndex": 0,
+        "explanation": "„[[hoffen]]“ takes zu + infinitive: …, die Stelle zu bekommen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": ["Ich will jetzt schlafen.", "Ich will jetzt zu schlafen.", "Ich will jetzt schlafen zu."],
+        "correctIndex": 0,
+        "explanation": "„[[wollen]]“ is a modal verb — bare infinitive, never zu."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er verspricht, pünktlich ___ sein.",
+        "options": ["zu", "um", "als"],
+        "correctIndex": 0,
+        "explanation": "„[[versprechen]]“ + zu: …, pünktlich zu sein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir gehen heute Abend ___.",
+        "options": ["tanzen", "zu tanzen", "zum tanzen"],
+        "correctIndex": 0,
+        "explanation": "„[[gehen]]“ + infinitive takes no zu: Wir gehen tanzen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hat vergessen, das Licht ___.",
+        "options": ["auszumachen", "zu ausmachen", "ausmachen"],
+        "correctIndex": 0,
+        "explanation": "„[[ausmachen]]“ is separable: zu goes between prefix and stem — auszumachen, one word."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich versuche, abends früher ___.",
+        "options": ["einzuschlafen", "zu einschlafen", "einschlafen zu"],
+        "correctIndex": 0,
+        "explanation": "Separable „[[einschlafen]]“ → einzuschlafen, one word."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er lernt Deutsch, ___ in Berlin zu arbeiten.",
+        "options": ["um", "für", "damit"],
+        "correctIndex": 0,
+        "explanation": "Purpose with the same subject → um … zu + infinitive."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich spare Geld, ___ ein Auto zu kaufen.",
+        "options": ["um", "damit", "zu"],
+        "correctIndex": 0,
+        "explanation": "um … zu expresses a goal: in order to buy a car ([[sparen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Es ist gesund, viel Wasser ___ trinken.",
+        "options": ["zu", "um", "beim"],
+        "correctIndex": 0,
+        "explanation": "Es ist + adjective + zu-infinitive: …, viel Wasser zu trinken."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie fängt an, ein Buch ___ lesen.",
+        "options": ["zu", "an", "um"],
+        "correctIndex": 0,
+        "explanation": "„[[anfangen]]“ + zu: Sie fängt an, ein Buch zu lesen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Warum lernst du Deutsch? — ___ in Deutschland zu studieren.",
+        "options": ["Um", "Damit", "Für"],
+        "correctIndex": 0,
+        "explanation": "An answer to warum with an infinitive group starts with um: Um … zu studieren."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich lerne viel, ___ ich die Prüfung bestehe.",
+        "options": ["damit", "um", "zu"],
+        "correctIndex": 0,
+        "explanation": "A conjugated verb with its own subject (ich bestehe) follows → damit; um … zu would need an infinitive."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er spricht leise, ___ das Baby nicht aufwacht.",
+        "options": ["damit", "um", "zu"],
+        "correctIndex": 0,
+        "explanation": "Different subjects (er / das Baby) → damit, never um … zu."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir fahren ans Meer, um ___.",
+        "options": ["uns zu erholen", "wir uns erholen", "zu uns erholen"],
+        "correctIndex": 0,
+        "explanation": "um … zu takes an infinitive group: um uns zu erholen ([[erholen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wo steht KEIN zu?",
+        "options": ["Ich lasse mein Auto reparieren.", "Ich habe vor, morgen kommen.", "Es ist wichtig, pünktlich sein."],
+        "correctIndex": 0,
+        "explanation": "„[[lassen]]“ takes the bare infinitive. vorhaben and es ist wichtig DO need zu — those two sentences are wrong as written."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hört nicht auf ___ reden.",
+        "options": ["zu", "um", "für"],
+        "correctIndex": 0,
+        "explanation": "„[[aufhören]]“ + zu: Sie hört nicht auf zu reden."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Es ist wichtig, gesund ___ essen.",
+        "accept": ["zu"],
+        "explanation": "Es ist wichtig + zu-infinitive: …, gesund zu essen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Vergiss nicht, Milch ___ kaufen!",
+        "accept": ["zu"],
+        "explanation": "„[[vergessen]]“ + zu: …, Milch zu kaufen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er versucht, das Problem ___ lösen.",
+        "accept": ["zu"],
+        "explanation": "„[[versuchen]]“ + zu: …, das Problem zu lösen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Vergiss nicht, den Schlüssel ___! (mitnehmen)",
+        "accept": ["mitzunehmen"],
+        "hint": "trennbares Verb — ein Wort",
+        "explanation": "„[[mitnehmen]]“ is separable: mit + zu + nehmen → mitzunehmen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie plant, ihre Freundin ___. (einladen)",
+        "accept": ["einzuladen"],
+        "hint": "trennbares Verb — ein Wort",
+        "explanation": "„[[einladen]]“ → einzuladen: zu slips between the prefix and the stem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir haben vor, am Wochenende ___. (wegfahren)",
+        "accept": ["wegzufahren"],
+        "hint": "trennbares Verb — ein Wort",
+        "explanation": "„[[wegfahren]]“ → wegzufahren — separable, one word."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich gehe zum Kiosk, ___ eine Zeitung zu kaufen.",
+        "accept": ["um"],
+        "explanation": "Purpose → um … zu kaufen: in order to buy a newspaper."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er macht den Fernseher an, ___ die Nachrichten zu sehen.",
+        "accept": ["um"],
+        "explanation": "The goal of the action → um … zu sehen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich versuche, mit dem Rauchen ___. (aufhören)",
+        "accept": ["aufzuhören"],
+        "hint": "trennbares Verb — ein Wort",
+        "explanation": "„[[aufhören]]“ → aufzuhören: zu goes inside the separable verb."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Ich", "versuche", "zu", "schlafen"],
+        "solutions": [["Ich", "versuche", "zu", "schlafen"]],
+        "translation": "I am trying to sleep.",
+        "explanation": "„[[versuchen]]“ + zu + infinitive at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Es", "ist", "schön,", "dich", "zu", "sehen"],
+        "solutions": [["Es", "ist", "schön,", "dich", "zu", "sehen"]],
+        "translation": "It is nice to see you.",
+        "explanation": "Es ist + adjective + comma + zu-infinitive group."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "hat", "vergessen,", "die", "Tür", "zuzumachen"],
+        "solutions": [["Er", "hat", "vergessen,", "die", "Tür", "zuzumachen"]],
+        "translation": "He forgot to close the door.",
+        "explanation": "Separable zumachen → zuzumachen at the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "habe", "keine", "Zeit,", "lange", "zu", "warten"],
+        "solutions": [["Ich", "habe", "keine", "Zeit,", "lange", "zu", "warten"]],
+        "translation": "I have no time to wait long.",
+        "explanation": "keine Zeit haben + zu + infinitive ([[warten]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Sie", "fängt", "an,", "Deutsch", "zu", "lernen"],
+        "solutions": [["Sie", "fängt", "an,", "Deutsch", "zu", "lernen"]],
+        "translation": "She is starting to learn German.",
+        "explanation": "„[[anfangen]]“ separates (fängt … an), then the zu-group follows."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Ich", "lerne", "Deutsch,", "um", "in", "Berlin", "zu", "arbeiten"],
+        "solutions": [["Ich", "lerne", "Deutsch,", "um", "in", "Berlin", "zu", "arbeiten"]],
+        "translation": "I am learning German in order to work in Berlin.",
+        "explanation": "um opens the purpose group, zu + infinitive closes it."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Wir", "sparen", "Geld,", "um", "ein", "Auto", "zu", "kaufen"],
+        "solutions": [["Wir", "sparen", "Geld,", "um", "ein", "Auto", "zu", "kaufen"]],
+        "translation": "We are saving money in order to buy a car.",
+        "explanation": "um … zu + infinitive at the end expresses the goal ([[sparen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "hat", "versprochen,", "mich", "morgen", "anzurufen"],
+        "solutions": [["Er", "hat", "versprochen,", "mich", "morgen", "anzurufen"]],
+        "translation": "He promised to call me tomorrow.",
+        "explanation": "Separable „[[anrufen]]“ → anzurufen at the end of the zu-group."
+      }
     }
   ]
 }

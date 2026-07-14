@@ -198,6 +198,568 @@
         "translation": "As a child he often played football.",
         "explanation": "Regular Präteritum spielte; verb second after the fronted phrase."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du ___ gestern nicht in der Schule.",
+        "options": [
+          "warst",
+          "war",
+          "wart"
+        ],
+        "correctIndex": 0,
+        "explanation": "sein, du-form: du warst."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ als Kind einen Hund.",
+        "options": [
+          "hatte",
+          "hattest",
+          "habte"
+        ],
+        "correctIndex": 0,
+        "explanation": "haben → hatte (there is no form „habte“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ gestern früh aufstehen.",
+        "options": [
+          "mussten",
+          "musste",
+          "müssten"
+        ],
+        "correctIndex": 0,
+        "explanation": "müssen loses its umlaut: musste; wir-form → mussten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Meine Oma ___ früher lange Haare.",
+        "options": [
+          "hatte",
+          "hatten",
+          "hattest"
+        ],
+        "correctIndex": 0,
+        "explanation": "haben → hatte; ich and er/sie/es share the same form."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ihr ___ letzte Woche im Urlaub.",
+        "options": [
+          "wart",
+          "warst",
+          "waren"
+        ],
+        "correctIndex": 0,
+        "explanation": "sein, ihr-form: ihr wart ([[Urlaub]] = vacation)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Als Kind ___ er nicht schwimmen.",
+        "options": [
+          "konnte",
+          "kann",
+          "konnten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Past ability → konnte; er takes the singular form."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Kinder ___ gestern nicht fernsehen.",
+        "options": [
+          "durften",
+          "dürften",
+          "durfte"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[dürfen]]“ → durfte (no umlaut); plural subject → durften."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie ___ mit dem Zug nach Wien.",
+        "options": [
+          "fuhr",
+          "fahrte",
+          "führ"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[fahren]]“ is strong: fuhr (a → u)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Kind ___ den ganzen Kuchen.",
+        "options": [
+          "aß",
+          "isst",
+          "esste"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[essen]]“ is strong: aß."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich ___ ihn gestern im Bus.",
+        "options": [
+          "sah",
+          "sehte",
+          "sieh"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[sehen]]“ is strong: sah (e → a)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welche Präteritum-Form ist richtig? (lernen)",
+        "options": [
+          "ich lernte",
+          "ich lernete",
+          "ich gelernt"
+        ],
+        "correctIndex": 0,
+        "explanation": "Regular verb: lern + te → lernte; „gelernt“ is the Partizip, not Präteritum."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie ___ die Antwort nicht.",
+        "options": [
+          "wusste",
+          "wisste",
+          "wusst"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[wissen]]“ is mixed: vowel change + -te → wusste."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Form ist FALSCH?",
+        "options": [
+          "er gehte",
+          "er ging",
+          "er kam"
+        ],
+        "correctIndex": 0,
+        "explanation": "gehen is strong — the only past form is ging; „gehte“ does not exist."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Plötzlich ___ es an der Tür.",
+        "options": [
+          "klingelte",
+          "klang",
+          "klingte"
+        ],
+        "correctIndex": 0,
+        "explanation": "klingeln is regular: klingelte. („klang“ belongs to klingen = to sound.)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich ___ meinen Schlüssel nicht.",
+        "options": [
+          "fand",
+          "findete",
+          "fund"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[finden]]“ is strong: fand (i → a)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ du davon?",
+        "options": [
+          "Wusstest",
+          "Wusste",
+          "Wisstest"
+        ],
+        "correctIndex": 0,
+        "explanation": "wissen → wusste; the du-form adds -st: wusstest."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir ___ eine Stunde auf den Bus.",
+        "options": [
+          "warteten",
+          "wartete",
+          "warten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Verbs ending in -t insert -ete: „[[warten]]“ → wartete; wir → warteten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er ___ mir seine Telefonnummer.",
+        "options": [
+          "gab",
+          "gebte",
+          "gibt"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[geben]]“ is strong: gab (e → a)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ gestern sehr müde. (sein)",
+        "accept": [
+          "war"
+        ],
+        "explanation": "sein → war; ich and er/sie/es are identical."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ früher eine Katze. (haben)",
+        "accept": [
+          "hatten"
+        ],
+        "explanation": "haben → hatte; wir-form: hatten."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er ___ gestern nicht kommen. (wollen)",
+        "accept": [
+          "wollte"
+        ],
+        "explanation": "Modal verb: „[[wollen]]“ → wollte."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ihr viele Hausaufgaben? (haben)",
+        "accept": [
+          "Hattet"
+        ],
+        "explanation": "haben, ihr-form: hattet."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie ___ jeden Morgen Kaffee. (trinken)",
+        "accept": [
+          "trank"
+        ],
+        "hint": "strong verb",
+        "explanation": "„[[trinken]]“ is strong: trank (i → a)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich ___ das Buch in einer Nacht. (lesen)",
+        "accept": [
+          "las"
+        ],
+        "hint": "strong verb",
+        "explanation": "lesen is strong: las."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Zug ___ pünktlich ab. (abfahren)",
+        "accept": [
+          "fuhr"
+        ],
+        "hint": "separable verb",
+        "explanation": "Separable verb: the prefix ab stays at the end — der Zug fuhr … ab."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir ___ nach dem Weg fragen. (müssen)",
+        "accept": [
+          "mussten"
+        ],
+        "explanation": "„[[müssen]]“ → musste (no umlaut); wir → mussten."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie ___ an ihre Kindheit. (denken)",
+        "accept": [
+          "dachte"
+        ],
+        "hint": "mixed verb",
+        "explanation": "„[[denken]]“ is mixed: vowel change + -te → dachte."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "hatte",
+          "keine",
+          "Lust"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "hatte",
+            "keine",
+            "Lust"
+          ]
+        ],
+        "translation": "I did not feel like it.",
+        "explanation": "hatte in position 2 — one word instead of the two-part Perfekt."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Er",
+          "war",
+          "sehr",
+          "müde"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "war",
+            "sehr",
+            "müde"
+          ]
+        ],
+        "translation": "He was very tired.",
+        "explanation": "sein in the Präteritum: er war."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Früher",
+          "wohnten",
+          "wir",
+          "auf",
+          "dem",
+          "Land"
+        ],
+        "solutions": [
+          [
+            "Früher",
+            "wohnten",
+            "wir",
+            "auf",
+            "dem",
+            "Land"
+          ]
+        ],
+        "translation": "We used to live in the countryside.",
+        "explanation": "Fronted „Früher“ pushes the subject behind the verb wohnten."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Sie",
+          "konnte",
+          "gestern",
+          "nicht",
+          "schlafen"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "konnte",
+            "gestern",
+            "nicht",
+            "schlafen"
+          ]
+        ],
+        "translation": "She could not sleep yesterday.",
+        "explanation": "Modal konnte in position 2, the infinitive schlafen at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "mussten",
+          "lange",
+          "warten"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "mussten",
+            "lange",
+            "warten"
+          ]
+        ],
+        "translation": "We had to wait a long time.",
+        "explanation": "mussten second, infinitive warten last — modals keep the sentence frame."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Plötzlich",
+          "kam",
+          "ein",
+          "Hund",
+          "aus",
+          "dem",
+          "Haus"
+        ],
+        "solutions": [
+          [
+            "Plötzlich",
+            "kam",
+            "ein",
+            "Hund",
+            "aus",
+            "dem",
+            "Haus"
+          ],
+          [
+            "Plötzlich",
+            "kam",
+            "aus",
+            "dem",
+            "Haus",
+            "ein",
+            "Hund"
+          ]
+        ],
+        "translation": "Suddenly a dog came out of the house.",
+        "explanation": "Strong verb kam in position 2 after the fronted „Plötzlich“."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Letztes",
+          "Jahr",
+          "fuhren",
+          "wir",
+          "ans",
+          "Meer"
+        ],
+        "solutions": [
+          [
+            "Letztes",
+            "Jahr",
+            "fuhren",
+            "wir",
+            "ans",
+            "Meer"
+          ]
+        ],
+        "translation": "Last year we drove to the sea.",
+        "explanation": "fahren is strong: fuhren; verb second after the time phrase."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Warum",
+          "wart",
+          "ihr",
+          "nicht",
+          "auf",
+          "der",
+          "Party?"
+        ],
+        "solutions": [
+          [
+            "Warum",
+            "wart",
+            "ihr",
+            "nicht",
+            "auf",
+            "der",
+            "Party?"
+          ]
+        ],
+        "translation": "Why were you not at the party?",
+        "explanation": "W-question with sein: warum + wart + ihr."
+      }
     }
   ]
 }

@@ -141,6 +141,558 @@
         "translation": "Will you pick me up at the station?",
         "explanation": "Yes/no question: wirst first, subject second, infinitive last."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du ___ das Spiel gewinnen.",
+        "options": [
+          "wirst",
+          "wird",
+          "werdet"
+        ],
+        "correctIndex": 0,
+        "explanation": "du → wirst; the infinitive „[[gewinnen]]“ goes to the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ am Samstag Fußball spielen.",
+        "options": [
+          "werden",
+          "werdet",
+          "wird"
+        ],
+        "correctIndex": 0,
+        "explanation": "wir → werden — identical to the infinitive."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Meine Eltern ___ uns morgen besuchen.",
+        "options": [
+          "werden",
+          "wird",
+          "werdet"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural subject (meine Eltern = sie) → werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er ___ dir bestimmt helfen.",
+        "options": [
+          "wird",
+          "wirst",
+          "werde"
+        ],
+        "correctIndex": 0,
+        "explanation": "er → wird + „[[helfen]]“ at the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ heute früh ins Bett gehen.",
+        "options": [
+          "werde",
+          "wirst",
+          "wird"
+        ],
+        "correctIndex": 0,
+        "explanation": "ich → werde; the infinitive gehen closes the sentence."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ihr ___ viel Spaß haben!",
+        "options": [
+          "werdet",
+          "werden",
+          "wirst"
+        ],
+        "correctIndex": 0,
+        "explanation": "ihr → werdet — a prediction with Futur I."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ Sie morgen im Büro sein?",
+        "options": [
+          "Werden",
+          "Wird",
+          "Werdet"
+        ],
+        "correctIndex": 0,
+        "explanation": "Formal Sie always takes werden, just like sie (plural)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz steht im Futur I?",
+        "options": [
+          "Sie wird nach Hause fahren.",
+          "Sie wird müde.",
+          "Sie ist nach Hause gefahren."
+        ],
+        "correctIndex": 0,
+        "explanation": "Only werden + infinitive is Futur I; „Sie wird müde“ means she is getting tired (werden = become)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Kind ___ bald lesen lernen.",
+        "options": [
+          "wird",
+          "werden",
+          "wirst"
+        ],
+        "correctIndex": 0,
+        "explanation": "das Kind = es → wird; both infinitives stack at the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welche Wortstellung ist richtig?",
+        "options": [
+          "Morgen werde ich meine Oma besuchen.",
+          "Morgen ich werde meine Oma besuchen.",
+          "Morgen werde besuchen ich meine Oma."
+        ],
+        "correctIndex": 0,
+        "explanation": "werden must stay in position 2, so the subject moves behind it; the infinitive waits at the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nächste Woche ___ wir nach München fahren.",
+        "options": [
+          "werden",
+          "wird",
+          "werdet"
+        ],
+        "correctIndex": 0,
+        "explanation": "wir → werden — the fronted time phrase pushes the subject behind the verb."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Ich fahre morgen nach Berlin.“ — Warum ist hier kein Futur I nötig?",
+        "options": [
+          "The time word „morgen“ already makes the future clear.",
+          "The sentence is wrong.",
+          "„fahren“ has no future form."
+        ],
+        "correctIndex": 0,
+        "explanation": "With a time word, Germans normally use Präsens for the future; Futur I only adds emphasis."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Das wird schon stimmen.“ — Was drückt der Satz aus?",
+        "options": [
+          "a guess/assumption",
+          "a plan for the future",
+          "a past event"
+        ],
+        "correctIndex": 0,
+        "explanation": "werden + schon/wohl expresses probability: that is probably true."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz bedeutet „He is getting old“?",
+        "options": [
+          "Er wird alt.",
+          "Er wird alt werden.",
+          "Er ist alt geworden."
+        ],
+        "correctIndex": 0,
+        "explanation": "werden + adjective (no infinitive) means \"to become\": Er wird alt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Du wirst jetzt sofort aufräumen!“ — Wie wird Futur I hier benutzt?",
+        "options": [
+          "as a strict command",
+          "as a polite question",
+          "as a guess about the past"
+        ],
+        "correctIndex": 0,
+        "explanation": "Futur I can voice a firm order — parents love this one."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wie fragt man richtig?",
+        "options": [
+          "Werdet ihr morgen kommen?",
+          "Wirst ihr morgen kommen?",
+          "Werden ihr morgen kommen?"
+        ],
+        "correctIndex": 0,
+        "explanation": "ihr → werdet; in a yes/no question the verb comes first."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Sie werden wohl im Stau stehen.“ — Wann passiert das?",
+        "options": [
+          "probably right now",
+          "definitely tomorrow",
+          "yesterday"
+        ],
+        "correctIndex": 0,
+        "explanation": "werden + wohl is a guess about the present: they are probably stuck in traffic right now."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist KEIN Futur I?",
+        "options": [
+          "Sie wird Ärztin.",
+          "Sie wird Ärztin werden.",
+          "Sie wird morgen arbeiten."
+        ],
+        "correctIndex": 0,
+        "explanation": "„Sie wird Ärztin“ has no infinitive — werden means \"to become\" here."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du ___ morgen mehr Zeit haben.",
+        "accept": [
+          "wirst"
+        ],
+        "explanation": "du → wirst, one of the irregular forms."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Meine Schwester ___ dir das Buch geben.",
+        "accept": [
+          "wird"
+        ],
+        "explanation": "meine Schwester = sie → wird."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ dir eine E-Mail schreiben.",
+        "accept": [
+          "werde"
+        ],
+        "explanation": "ich → werde + „[[schreiben]]“ at the end."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ihr uns am Sonntag besuchen?",
+        "accept": [
+          "Werdet"
+        ],
+        "explanation": "ihr → werdet; the verb opens a yes/no question."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Kinder ___ im Garten spielen.",
+        "accept": [
+          "werden"
+        ],
+        "explanation": "die Kinder = sie (plural) → werden."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nächstes Jahr ___ ich Deutsch lernen.",
+        "accept": [
+          "werde"
+        ],
+        "explanation": "ich → werde — position 2 even after a fronted time phrase."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was ___ du später einmal machen?",
+        "accept": [
+          "wirst"
+        ],
+        "hint": "du-form",
+        "explanation": "du → wirst: a classic question about future plans."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Zug ___ wohl Verspätung haben.",
+        "accept": [
+          "wird"
+        ],
+        "explanation": "werden + wohl = probability: the train is probably delayed."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ihr ___ das Problem sicher lösen.",
+        "accept": [
+          "werdet"
+        ],
+        "explanation": "ihr → werdet + „[[lösen]]“ at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "werde",
+          "morgen",
+          "viel",
+          "arbeiten"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "werde",
+            "morgen",
+            "viel",
+            "arbeiten"
+          ]
+        ],
+        "translation": "I will work a lot tomorrow.",
+        "explanation": "werde in position 2, the infinitive arbeiten at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Er",
+          "wird",
+          "eine",
+          "Pizza",
+          "essen"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "wird",
+            "eine",
+            "Pizza",
+            "essen"
+          ]
+        ],
+        "translation": "He will eat a pizza.",
+        "explanation": "Subject — wird — object — infinitive: the standard Futur I frame."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "werden",
+          "am",
+          "Wochenende",
+          "wandern"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "werden",
+            "am",
+            "Wochenende",
+            "wandern"
+          ]
+        ],
+        "translation": "We will go hiking on the weekend.",
+        "explanation": "werden second, „[[wandern]]“ last — time information sits in the middle."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wird",
+          "sie",
+          "heute",
+          "kommen?"
+        ],
+        "solutions": [
+          [
+            "Wird",
+            "sie",
+            "heute",
+            "kommen?"
+          ]
+        ],
+        "translation": "Will she come today?",
+        "explanation": "Yes/no question: wird first, subject second, infinitive last."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Nächste",
+          "Woche",
+          "werde",
+          "ich",
+          "dich",
+          "besuchen"
+        ],
+        "solutions": [
+          [
+            "Nächste",
+            "Woche",
+            "werde",
+            "ich",
+            "dich",
+            "besuchen"
+          ]
+        ],
+        "translation": "Next week I will visit you.",
+        "explanation": "The fronted time phrase counts as position 1, so werde comes before ich."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Was",
+          "wirst",
+          "du",
+          "nach",
+          "der",
+          "Schule",
+          "machen?"
+        ],
+        "solutions": [
+          [
+            "Was",
+            "wirst",
+            "du",
+            "nach",
+            "der",
+            "Schule",
+            "machen?"
+          ]
+        ],
+        "translation": "What will you do after school?",
+        "explanation": "W-question: question word, then wirst, subject, and the infinitive at the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Meine",
+          "Eltern",
+          "werden",
+          "ein",
+          "neues",
+          "Auto",
+          "kaufen"
+        ],
+        "solutions": [
+          [
+            "Meine",
+            "Eltern",
+            "werden",
+            "ein",
+            "neues",
+            "Auto",
+            "kaufen"
+          ]
+        ],
+        "translation": "My parents will buy a new car.",
+        "explanation": "werden in position 2 after the subject phrase; kaufen closes the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Er",
+          "wird",
+          "wohl",
+          "krank",
+          "sein"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "wird",
+            "wohl",
+            "krank",
+            "sein"
+          ]
+        ],
+        "translation": "He is probably sick.",
+        "explanation": "werden + wohl + sein: a guess about the present, not the future."
+      }
     }
   ]
 }

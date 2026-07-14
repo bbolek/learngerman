@@ -129,6 +129,347 @@
         "translation": "She dreams of a house by the sea.",
         "explanation": "träumen von + Dativ → einem Haus."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie ärgert sich ___ den Lärm.",
+        "options": ["über", "auf", "von"],
+        "correctIndex": 0,
+        "explanation": "„sich [[ärgern]] über + Akkusativ“ = to be annoyed about."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir sprechen ___ unserem Lehrer.",
+        "options": ["mit", "zu", "an"],
+        "correctIndex": 0,
+        "explanation": "„[[sprechen]] mit + Dativ“ = to talk to someone."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich danke dir ___ deine Hilfe.",
+        "options": ["für", "um", "über"],
+        "correctIndex": 0,
+        "explanation": "„[[danken]] für + Akkusativ“ = to thank for."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er bittet mich ___ Hilfe.",
+        "options": ["um", "für", "nach"],
+        "correctIndex": 0,
+        "explanation": "„[[bitten]] um + Akkusativ“ = to ask for."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie kümmert sich ___ ihre Oma.",
+        "options": ["um", "für", "an"],
+        "correctIndex": 0,
+        "explanation": "„sich [[kümmern]] um + Akkusativ“ = to take care of."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich glaube ___ dich.",
+        "options": ["an", "auf", "über"],
+        "correctIndex": 0,
+        "explanation": "„[[glauben]] an + Akkusativ“ = to believe in."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er nimmt ___ einem Deutschkurs teil.",
+        "options": ["an", "auf", "bei"],
+        "correctIndex": 0,
+        "explanation": "„[[teilnehmen]] an + Dativ“ — hence einem Deutschkurs."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir gratulieren dir ___ Geburtstag!",
+        "options": ["zum", "für den", "auf den"],
+        "correctIndex": 0,
+        "explanation": "„[[gratulieren]] zu + Dativ“: zum (= zu dem) Geburtstag."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hat sich ___ ihren Nachbarn verliebt.",
+        "options": ["in", "an", "mit"],
+        "correctIndex": 0,
+        "explanation": "„sich [[verlieben]] in + Akkusativ“ = to fall in love with."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich möchte mich ___ die Verspätung entschuldigen.",
+        "options": ["für", "über", "um"],
+        "correctIndex": 0,
+        "explanation": "„sich [[entschuldigen]] für + Akkusativ“ = to apologize for."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Tourist fragt ___ dem Weg.",
+        "options": ["nach", "für", "über"],
+        "correctIndex": 0,
+        "explanation": "„[[fragen]] nach + Dativ“ = to ask about/for."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Kannst du mir ___ den Hausaufgaben helfen?",
+        "options": ["bei", "mit", "für"],
+        "correctIndex": 0,
+        "explanation": "„[[helfen]] bei + Dativ“ = to help with."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er hört ___ dem Rauchen auf.",
+        "options": ["mit", "von", "zu"],
+        "correctIndex": 0,
+        "explanation": "„[[aufhören]] mit + Dativ“ = to stop (doing) something."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Chef ärgert sich über ___ Fehler. (der)",
+        "options": ["den", "dem", "der"],
+        "correctIndex": 0,
+        "explanation": "über after sich ärgern takes Akkusativ: der Fehler → den Fehler."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie nimmt an ___ Kurs teil. (der)",
+        "options": ["dem", "den", "der"],
+        "correctIndex": 0,
+        "explanation": "an after „[[teilnehmen]]“ takes Dativ: an dem Kurs."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich denke oft an ___.",
+        "options": ["dich", "dir", "du"],
+        "correctIndex": 0,
+        "explanation": "„[[denken]] an + Akkusativ“ → dich, not dir."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ interessierst du dich? — Für Sport.",
+        "options": ["Wofür", "Worauf", "Wovon"],
+        "correctIndex": 0,
+        "explanation": "sich [[interessieren]] für → question word wofür for things."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ hast du Angst? — Vor der Prüfung.",
+        "options": ["Wovor", "Worüber", "Wonach"],
+        "correctIndex": 0,
+        "explanation": "[[Angst]] haben vor → wovor for things: Wovor hast du Angst?"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er erzählt ___ seiner Reise.",
+        "accept": ["von"],
+        "explanation": "„[[erzählen]] von + Dativ“ = to tell about."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir suchen ___ einer neuen Wohnung.",
+        "accept": ["nach"],
+        "explanation": "„[[suchen]] nach + Dativ“ = to look for."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Chef spricht ___ die neuen Pläne.",
+        "accept": ["über"],
+        "explanation": "„[[sprechen]] über + Akkusativ“ = to talk about."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie beschäftigt sich gern ___ Computern.",
+        "accept": ["mit"],
+        "explanation": "„sich [[beschäftigen]] mit + Dativ“ = to occupy oneself with."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Schüler antwortet ___ die Frage.",
+        "accept": ["auf"],
+        "explanation": "„[[antworten]] auf + Akkusativ“ = to answer (a question)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Dieses Buch gehört ___ meinen Lieblingsbüchern.",
+        "accept": ["zu"],
+        "explanation": "„[[gehören]] zu + Dativ“ = to belong to / be one of."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er hat Angst vor ___ Prüfung. (die)",
+        "accept": ["der"],
+        "explanation": "vor after [[Angst]] haben takes Dativ: die Prüfung → der Prüfung."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich freue mich über ___ schöne Geschenk. (das)",
+        "accept": ["das"],
+        "explanation": "über after sich [[freuen]] takes Akkusativ — neuter stays das: über das schöne Geschenk."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir erinnern uns gern an ___ Urlaub. (der)",
+        "accept": ["den"],
+        "explanation": "an after sich [[erinnern]] takes Akkusativ: der Urlaub → den Urlaub."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Ich", "warte", "auf", "dich"],
+        "solutions": [["Ich", "warte", "auf", "dich"]],
+        "translation": "I am waiting for you.",
+        "explanation": "„[[warten]] auf + Akkusativ“ → auf dich."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Er", "denkt", "an", "den", "Sommer"],
+        "solutions": [["Er", "denkt", "an", "den", "Sommer"]],
+        "translation": "He is thinking of the summer.",
+        "explanation": "„[[denken]] an + Akkusativ“: an den Sommer."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Wir", "freuen", "uns", "auf", "das", "Wochenende"],
+        "solutions": [["Wir", "freuen", "uns", "auf", "das", "Wochenende"]],
+        "translation": "We are looking forward to the weekend.",
+        "explanation": "Future event → sich [[freuen]] auf + Akkusativ."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Sie", "interessiert", "sich", "für", "Kunst"],
+        "solutions": [["Sie", "interessiert", "sich", "für", "Kunst"]],
+        "translation": "She is interested in art.",
+        "explanation": "„sich [[interessieren]] für + Akkusativ“."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "ärgere", "mich", "über", "den", "Stau"],
+        "solutions": [["Ich", "ärgere", "mich", "über", "den", "Stau"]],
+        "translation": "I am annoyed about the traffic jam.",
+        "explanation": "sich [[ärgern]] über + Akkusativ: über den Stau."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "nimmt", "an", "einem", "Kurs", "teil"],
+        "solutions": [["Er", "nimmt", "an", "einem", "Kurs", "teil"]],
+        "translation": "He is taking part in a course.",
+        "explanation": "„[[teilnehmen]]“ separates: nimmt … teil, with an + Dativ in between."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Das", "Kind", "hat", "Angst", "vor", "dem", "Gewitter"],
+        "solutions": [["Das", "Kind", "hat", "Angst", "vor", "dem", "Gewitter"]],
+        "translation": "The child is afraid of the thunderstorm.",
+        "explanation": "[[Angst]] haben vor + Dativ: vor dem Gewitter."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Sie", "erinnert", "sich", "an", "ihre", "Kindheit"],
+        "solutions": [["Sie", "erinnert", "sich", "an", "ihre", "Kindheit"]],
+        "translation": "She remembers her childhood.",
+        "explanation": "„sich [[erinnern]] an + Akkusativ“: an ihre Kindheit."
+      }
     }
   ]
 }

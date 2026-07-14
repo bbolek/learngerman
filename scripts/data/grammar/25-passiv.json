@@ -185,6 +185,567 @@
         "translation": "The room was cleaned yesterday.",
         "explanation": "Präteritum passive: wurde … geputzt."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Tür ___ geöffnet.",
+        "options": [
+          "wird",
+          "werden",
+          "hat"
+        ],
+        "correctIndex": 0,
+        "explanation": "Singular subject → wird: Die Tür wird geöffnet ([[öffnen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Blumen ___ gegossen.",
+        "options": [
+          "werden",
+          "wird",
+          "sind"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural subject → werden: Die Blumen werden gegossen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Brief ___ heute geschrieben.",
+        "options": [
+          "wird",
+          "werden",
+          "ist"
+        ],
+        "correctIndex": 0,
+        "explanation": "Der Brief (singular) → wird geschrieben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Essen wird ___ meiner Mutter gekocht.",
+        "options": [
+          "von",
+          "mit",
+          "für"
+        ],
+        "correctIndex": 0,
+        "explanation": "The doer in a passive sentence takes von + Dativ: von meiner Mutter."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Rechnung ___ bezahlt.",
+        "options": [
+          "wird",
+          "werdet",
+          "habt"
+        ],
+        "correctIndex": 0,
+        "explanation": "Passive = werden + Partizip II: Die Rechnung wird bezahlt ([[bezahlen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ vom Arzt untersucht.",
+        "options": [
+          "werde",
+          "wird",
+          "bin"
+        ],
+        "correctIndex": 0,
+        "explanation": "ich → werde: Ich werde untersucht ([[untersuchen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Wohnung ___ letzte Woche renoviert.",
+        "options": [
+          "wurde",
+          "wird",
+          "ist"
+        ],
+        "correctIndex": 0,
+        "explanation": "„letzte Woche“ → past → Präteritum passive: wurde renoviert."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Gäste ___ gestern vom Chef begrüßt.",
+        "options": [
+          "wurden",
+          "wurde",
+          "waren"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural + past → wurden: Die Gäste wurden begrüßt ([[begrüßen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Kuchen wird von ___ Kindern gegessen.",
+        "options": [
+          "den",
+          "die",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "von always takes Dativ — plural Dativ: von den Kindern."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Lied wird von ___ Sängerin gesungen.",
+        "options": [
+          "der",
+          "die",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "von + Dativ, feminine: von der Sängerin ([[singen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "In der Schweiz ___ vier Sprachen gesprochen.",
+        "options": [
+          "werden",
+          "wird",
+          "sind"
+        ],
+        "correctIndex": 0,
+        "explanation": "vier Sprachen (plural) is the subject → werden gesprochen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Du ___ um 8 Uhr abgeholt.",
+        "options": [
+          "wirst",
+          "wird",
+          "werdet"
+        ],
+        "correctIndex": 0,
+        "explanation": "du → wirst: Du wirst abgeholt ([[abholen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wo ___ hier frisches Brot verkauft?",
+        "options": [
+          "wird",
+          "werden",
+          "ist"
+        ],
+        "correctIndex": 0,
+        "explanation": "frisches Brot (singular) → wird verkauft ([[verkaufen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Auto ist gestern repariert ___.",
+        "options": [
+          "worden",
+          "geworden",
+          "werden"
+        ],
+        "correctIndex": 0,
+        "explanation": "Perfekt passive = sein + Partizip II + worden (not geworden): ist repariert worden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Fenster ___ schon geputzt worden.",
+        "options": [
+          "sind",
+          "haben",
+          "werden"
+        ],
+        "correctIndex": 0,
+        "explanation": "Perfekt passive always takes sein: Die Fenster sind geputzt worden ([[putzen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Dieb ___ von der Polizei gefunden worden.",
+        "options": [
+          "ist",
+          "hat",
+          "wurde"
+        ],
+        "correctIndex": 0,
+        "explanation": "With worden at the end the helper is sein, never haben: ist von der [[Polizei]] gefunden worden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist Passiv?",
+        "options": [
+          "Das Haus wird verkauft.",
+          "Er wird morgen kommen.",
+          "Sie wird müde."
+        ],
+        "correctIndex": 0,
+        "explanation": "werden + Partizip II = passive. werden + Infinitiv is future, werden + adjective means to become."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Aktiv: „Der Lehrer erklärt die Regel.“ — Wie heißt das Passiv?",
+        "options": [
+          "Die Regel wird vom Lehrer erklärt.",
+          "Die Regel wird vom Lehrer erklären.",
+          "Der Lehrer wird die Regel erklärt."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Akkusativ object (die Regel) becomes the subject; the Partizip II erklärt stands at the end."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Tisch ___ gedeckt. (werden)",
+        "accept": [
+          "wird"
+        ],
+        "explanation": "Singular subject → wird: Der Tisch wird gedeckt."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Hausaufgaben ___ kontrolliert. (werden)",
+        "accept": [
+          "werden"
+        ],
+        "explanation": "Die Hausaufgaben (plural) → werden kontrolliert."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Paket ___ morgen geliefert. (werden)",
+        "accept": [
+          "wird"
+        ],
+        "explanation": "Präsens passive, singular: wird geliefert ([[liefern]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Straße ___ letztes Jahr gebaut. (werden, Präteritum)",
+        "accept": [
+          "wurde"
+        ],
+        "explanation": "„letztes Jahr“ → Präteritum passive: wurde gebaut ([[bauen]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Bücher ___ von den Schülern gelesen. (werden)",
+        "accept": [
+          "werden"
+        ],
+        "explanation": "Plural subject → werden: Die Bücher werden gelesen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich ___ jeden Morgen vom Lärm geweckt. (werden)",
+        "accept": [
+          "werde"
+        ],
+        "explanation": "ich → werde: Ich werde geweckt ([[wecken]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Wohnung ist schon geputzt ___. (Perfekt)",
+        "accept": [
+          "worden"
+        ],
+        "hint": "nicht „geworden“!",
+        "explanation": "In the Perfekt passive the participle of werden loses its ge-: ist geputzt worden."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Museum ___ 1990 eröffnet. (werden, Präteritum)",
+        "accept": [
+          "wurde"
+        ],
+        "explanation": "Präteritum passive: Das Museum wurde 1990 eröffnet."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Autos ___ in Deutschland produziert worden. (Perfekt)",
+        "accept": [
+          "sind"
+        ],
+        "explanation": "Perfekt passive takes sein: Die Autos sind produziert worden ([[produzieren]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Text wird ___ der Lehrerin korrigiert. (Präposition)",
+        "accept": [
+          "von"
+        ],
+        "explanation": "The doer takes von + Dativ: von der Lehrerin ([[korrigieren]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Die",
+          "Suppe",
+          "wird",
+          "gekocht"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Suppe",
+            "wird",
+            "gekocht"
+          ]
+        ],
+        "translation": "The soup is being cooked.",
+        "explanation": "werden in position 2, Partizip II at the end ([[kochen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Das",
+          "Auto",
+          "wird",
+          "gewaschen"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Auto",
+            "wird",
+            "gewaschen"
+          ]
+        ],
+        "translation": "The car is being washed.",
+        "explanation": "Präsens passive: wird … gewaschen ([[waschen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Der",
+          "Brief",
+          "wird",
+          "von",
+          "Anna",
+          "geschrieben"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Brief",
+            "wird",
+            "von",
+            "Anna",
+            "geschrieben"
+          ]
+        ],
+        "translation": "The letter is being written by Anna.",
+        "explanation": "werden in position 2, von + doer, participle last."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Die",
+          "Kinder",
+          "werden",
+          "um",
+          "drei",
+          "Uhr",
+          "abgeholt"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Kinder",
+            "werden",
+            "um",
+            "drei",
+            "Uhr",
+            "abgeholt"
+          ]
+        ],
+        "translation": "The children are picked up at three o'clock.",
+        "explanation": "Plural → werden; the Partizip II abgeholt goes to the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Hier",
+          "wird",
+          "ein",
+          "Hotel",
+          "gebaut"
+        ],
+        "solutions": [
+          [
+            "Hier",
+            "wird",
+            "ein",
+            "Hotel",
+            "gebaut"
+          ]
+        ],
+        "translation": "A hotel is being built here.",
+        "explanation": "After Hier the verb stays in position 2: Hier wird … gebaut."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Das",
+          "Fahrrad",
+          "wurde",
+          "von",
+          "meinem",
+          "Bruder",
+          "verkauft"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Fahrrad",
+            "wurde",
+            "von",
+            "meinem",
+            "Bruder",
+            "verkauft"
+          ]
+        ],
+        "translation": "The bicycle was sold by my brother.",
+        "explanation": "Präteritum passive with von + Dativ: von meinem Bruder."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Die",
+          "Tür",
+          "ist",
+          "geöffnet",
+          "worden"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Tür",
+            "ist",
+            "geöffnet",
+            "worden"
+          ]
+        ],
+        "translation": "The door has been opened.",
+        "explanation": "Perfekt passive: sein + Partizip II + worden."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Gestern",
+          "wurde",
+          "das",
+          "Konzert",
+          "abgesagt"
+        ],
+        "solutions": [
+          [
+            "Gestern",
+            "wurde",
+            "das",
+            "Konzert",
+            "abgesagt"
+          ]
+        ],
+        "translation": "Yesterday the concert was cancelled.",
+        "explanation": "Gestern in position 1 → wurde in position 2 ([[absagen]])."
+      }
     }
   ]
 }

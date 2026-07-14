@@ -134,6 +134,355 @@
         "correctIndex": 0,
         "explanation": "Single past event (2010) → als + past tense: Als ich … zog."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ ich nach Hause komme, mache ich zuerst einen Kaffee.",
+        "options": ["Wenn", "Als", "Bis"],
+        "correctIndex": 0,
+        "explanation": "Present-tense habit → [[wenn]], never als."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ wir gestern im Kino waren, klingelte sein Handy.",
+        "options": ["Als", "Wenn", "Seit"],
+        "correctIndex": 0,
+        "explanation": "One single event in the past → [[als]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich putze mir die Zähne, ___ ich ins Bett gehe.",
+        "options": ["bevor", "nachdem", "seit"],
+        "correctIndex": 0,
+        "explanation": "The brushing happens first → [[bevor]] (before)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ das Baby schläft, liest die Mutter ein Buch.",
+        "options": ["Während", "Bis", "Als"],
+        "correctIndex": 0,
+        "explanation": "Two actions at the same time → [[während]] (while)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ er die Hausaufgaben gemacht hatte, durfte er fernsehen.",
+        "options": ["Nachdem", "Bevor", "Während"],
+        "correctIndex": 0,
+        "explanation": "Homework first, TV afterwards → [[nachdem]] with Plusquamperfekt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ich klein war, hatte ich Angst vor Hunden.",
+        "options": ["Als", "Wenn", "Nachdem"],
+        "correctIndex": 0,
+        "explanation": "One continuous period in the past (childhood) → als."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ich Deutsch lerne, verstehe ich die Nachrichten besser.",
+        "options": ["Seit", "Als", "Bis"],
+        "correctIndex": 0,
+        "explanation": "From a starting point until now → [[seit]] (since)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Warte bitte, ___ ich mit dem Telefonat fertig bin.",
+        "options": ["bis", "als", "seit"],
+        "correctIndex": 0,
+        "explanation": "Waiting up to a point in time → [[bis]] (until)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ wir in den Urlaub fahren, prüfen wir immer das Auto.",
+        "options": ["Bevor", "Nachdem", "Seit"],
+        "correctIndex": 0,
+        "explanation": "The check comes first → [[bevor]] (before)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Immer ___ ich dieses Lied höre, denke ich an den Sommer.",
+        "options": ["wenn", "als", "bis"],
+        "correctIndex": 0,
+        "explanation": "Repeated events take wenn — immer wenn = every time."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ er duschte, klingelte es an der Tür.",
+        "options": ["Während", "Bevor", "Bis"],
+        "correctIndex": 0,
+        "explanation": "The doorbell rang during the shower → [[während]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er blieb im Büro, ___ die Arbeit fertig war.",
+        "options": ["bis", "seit", "als"],
+        "correctIndex": 0,
+        "explanation": "He stayed up to that point → [[bis]] (until)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ sie den Brief gelesen hatte, rief sie sofort an.",
+        "options": ["Nachdem", "Bevor", "Während"],
+        "correctIndex": 0,
+        "explanation": "The Plusquamperfekt signals the earlier action → [[nachdem]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wenn ich müde bin, gehe ich früh ins Bett.",
+          "Wenn ich müde bin, ich gehe früh ins Bett.",
+          "Wenn ich bin müde, gehe ich früh ins Bett."
+        ],
+        "correctIndex": 0,
+        "explanation": "Subordinate clause: verb at the end; the main clause after it starts with its verb."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist grammatisch richtig?",
+        "options": [
+          "Bevor wir essen, waschen wir uns die Hände.",
+          "Bevor wir essen, wir waschen uns die Hände.",
+          "Bevor essen wir, waschen wir uns die Hände."
+        ],
+        "correctIndex": 0,
+        "explanation": "After a fronted bevor-clause the main clause begins with its verb: …, waschen wir …"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ meine Oma jung war, gab es noch kein Internet.",
+        "options": ["Als", "Wenn", "Nachdem"],
+        "correctIndex": 0,
+        "explanation": "A single period in the past → als."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ ich in Deutschland ankam, rief ich sofort meine Eltern an. (einmalig)",
+        "options": ["Als", "Wenn", "Während"],
+        "correctIndex": 0,
+        "explanation": "One single past event → als („[[ankommen]]“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Jedes Mal, ___ wir uns sahen, lachten wir viel.",
+        "options": ["wenn", "als", "bevor"],
+        "correctIndex": 0,
+        "explanation": "Repeated past events (jedes Mal) take wenn, not als."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ du gehst, mach bitte das Licht aus. (before)",
+        "accept": ["Bevor", "bevor"],
+        "explanation": "The light goes off before the leaving → [[bevor]]."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich bleibe bei dir, ___ der Arzt kommt. (until)",
+        "accept": ["bis"],
+        "explanation": "[[bis]] = until — the staying ends when the doctor arrives."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ wenn er müde ist, trinkt er einen Kaffee. (always …)",
+        "accept": ["Immer", "immer"],
+        "explanation": "immer wenn = whenever/every time — for repeated situations."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ er in Rente ist, hat er viel Zeit. (since)",
+        "accept": ["Seit", "seit", "Seitdem", "seitdem"],
+        "explanation": "[[seit]]/seitdem marks a starting point that continues until now."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ich zum ersten Mal Berlin besuchte, war ich fünfzehn. (when — einmalig)",
+        "accept": ["Als", "als"],
+        "explanation": "A single past event → als, never wenn."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ die Kinder spielen, kochen die Eltern das Abendessen. (while)",
+        "accept": ["Während", "während"],
+        "explanation": "Simultaneous actions → [[während]] (while)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ich Zeit habe, gehe ich schwimmen. (whenever)",
+        "accept": ["Wenn", "wenn", "Immer wenn", "immer wenn"],
+        "explanation": "Repeated or general situations take [[wenn]]."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ er das Abitur gemacht hatte, begann er ein Studium. (after)",
+        "accept": ["Nachdem", "nachdem"],
+        "explanation": "[[nachdem]] + Plusquamperfekt for the earlier event, then Präteritum."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir müssen warten, ___ die Ampel grün wird.",
+        "accept": ["bis"],
+        "explanation": "Waiting up to the moment the light changes → bis (until)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Wenn", "es", "schneit,", "bleiben", "wir", "zu", "Hause"],
+        "solutions": [["Wenn", "es", "schneit,", "bleiben", "wir", "zu", "Hause"]],
+        "translation": "When it snows, we stay at home.",
+        "explanation": "wenn-clause first → the main clause starts with its verb: …, bleiben wir … („[[schneien]]“)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Bevor", "ich", "esse,", "wasche", "ich", "mir", "die", "Hände"],
+        "solutions": [["Bevor", "ich", "esse,", "wasche", "ich", "mir", "die", "Hände"]],
+        "translation": "Before I eat, I wash my hands.",
+        "explanation": "bevor sends the verb to the end of its clause; the main clause then begins with wasche."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Als", "er", "ankam,", "war", "das", "Essen", "schon", "kalt"],
+        "solutions": [["Als", "er", "ankam,", "war", "das", "Essen", "schon", "kalt"]],
+        "translation": "When he arrived, the food was already cold.",
+        "explanation": "Single past event → als; after the comma the main clause starts with war."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "warte,", "bis", "du", "fertig", "bist"],
+        "solutions": [["Ich", "warte,", "bis", "du", "fertig", "bist"]],
+        "translation": "I will wait until you are ready.",
+        "explanation": "bis-clause at the end, with the conjugated verb bist in final position."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Seit", "sie", "joggt,", "ist", "sie", "viel", "fitter"],
+        "solutions": [["Seit", "sie", "joggt,", "ist", "sie", "viel", "fitter"]],
+        "translation": "Since she started jogging, she has been much fitter.",
+        "explanation": "seit-clause first, then the main clause with its verb: …, ist sie … („[[joggen]]“)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Nachdem", "wir", "gefrühstückt", "hatten,", "fuhren", "wir", "los"],
+        "solutions": [["Nachdem", "wir", "gefrühstückt", "hatten,", "fuhren", "wir", "los"]],
+        "translation": "After we had eaten breakfast, we set off.",
+        "explanation": "nachdem + Plusquamperfekt (gefrühstückt hatten), main clause in Präteritum („[[frühstücken]]“)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "liest", "Zeitung,", "während", "sie", "frühstückt"],
+        "solutions": [["Er", "liest", "Zeitung,", "während", "sie", "frühstückt"]],
+        "translation": "He reads the newspaper while she has breakfast.",
+        "explanation": "The während-clause follows the main clause; its verb frühstückt goes to the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Sie", "lernte", "Deutsch,", "als", "sie", "in", "Wien", "wohnte"],
+        "solutions": [["Sie", "lernte", "Deutsch,", "als", "sie", "in", "Wien", "wohnte"]],
+        "translation": "She learned German when she lived in Vienna.",
+        "explanation": "The als-clause can also follow the main clause — its verb wohnte stands at the end."
+      }
     }
   ]
 }

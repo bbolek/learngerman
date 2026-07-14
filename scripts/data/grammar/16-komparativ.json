@@ -201,6 +201,595 @@
         "translation": "In winter the days are shortest.",
         "explanation": "Superlative with am + -sten; verb in position 2 after the fronted phrase."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Meine Schwester ist ___ als mein Bruder.",
+        "options": [
+          "jünger",
+          "junger",
+          "am jüngsten"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[jung]]“ takes an umlaut in the comparative: jünger."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ein Elefant ist ___ als eine Maus.",
+        "options": [
+          "größer",
+          "großer",
+          "am größten"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[groß]]“ takes an umlaut: größer. The superlative „am größten“ doesn't fit with als."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Kaffee schmeckt mir ___ als Tee.",
+        "options": [
+          "besser",
+          "guter",
+          "mehr gut"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[gut]]“ is irregular: gut → besser → am besten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Im Winter ist es ___ als im Sommer.",
+        "options": [
+          "dunkler",
+          "dunkeler",
+          "am dunkelsten"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[dunkel]]“ drops the e of the stem: dunkler."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Heute ist das Wetter ___ als gestern.",
+        "options": [
+          "schöner",
+          "schoner",
+          "mehr schön"
+        ],
+        "correctIndex": 0,
+        "explanation": "Regular comparative: schön + -er. German never uses „mehr“ before an adjective."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Mein Vater ist so alt ___ meine Mutter.",
+        "options": [
+          "wie",
+          "als",
+          "dass"
+        ],
+        "correctIndex": 0,
+        "explanation": "so … wie expresses equality; „[[als]]“ only follows a comparative."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Dieser Film ist ___ als das Buch.",
+        "options": [
+          "interessanter",
+          "mehr interessant",
+          "interessantesten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Even long adjectives take -er: interessanter — never „mehr interessant“."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich habe ___ Zeit als du.",
+        "options": [
+          "mehr",
+          "vieler",
+          "am meisten"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[viel]]“ is irregular: viel → mehr → am meisten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist richtig?",
+        "options": [
+          "Ich bin größer als du.",
+          "Ich bin größer wie du.",
+          "Ich bin größer dass du."
+        ],
+        "correctIndex": 0,
+        "explanation": "After a comparative, standard German uses als — „größer wie“ is colloquial and wrong in writing."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Februar ist ___ als der Januar.",
+        "options": [
+          "kürzer",
+          "kurzer",
+          "am kürzesten"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[kurz]]“ takes an umlaut: kürzer."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Diese Tasche ist ___ als der Koffer.",
+        "options": [
+          "leichter",
+          "leichterer",
+          "am leichtesten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Comparing two things → Komparativ: leichter als."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Fernsehturm ist ___ als die Kirche.",
+        "options": [
+          "höher",
+          "höcher",
+          "hocher"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[hoch]]“ is irregular: hoch → höher — the c disappears."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Von allen Städten in Deutschland ist Berlin am ___.",
+        "options": [
+          "größten",
+          "größte",
+          "größer"
+        ],
+        "correctIndex": 0,
+        "explanation": "Superlative after sein without a noun: am größten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das war der ___ Tag meines Lebens.",
+        "options": [
+          "schönste",
+          "am schönsten",
+          "schöner"
+        ],
+        "correctIndex": 0,
+        "explanation": "Before a noun the superlative takes an adjective ending: der schönste Tag — not „am schönsten“."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich fahre ___ mit dem Rad als mit dem Auto.",
+        "options": [
+          "lieber",
+          "gerner",
+          "am liebsten"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[gern]]“ is irregular: gern → lieber = to prefer."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Von allen Getränken trinke ich Wasser am ___.",
+        "options": [
+          "liebsten",
+          "lieber",
+          "liebste"
+        ],
+        "correctIndex": 0,
+        "explanation": "Superlative of „[[gern]]“: am liebsten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Bahnhof ist ___ als der Flughafen.",
+        "options": [
+          "näher",
+          "naher",
+          "am nächsten"
+        ],
+        "correctIndex": 0,
+        "explanation": "nah is irregular: nah → näher → am nächsten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Sie läuft schneller als er.",
+          "Sie läuft mehr schnell als er.",
+          "Sie läuft schneller wie er."
+        ],
+        "correctIndex": 0,
+        "explanation": "Comparative with -er + als; „mehr schnell“ doesn't exist, and „schneller wie“ is only colloquial."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Mein Haus ist ___ als dein Haus. (klein)",
+        "accept": [
+          "kleiner"
+        ],
+        "explanation": "Regular comparative: klein + -er."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Sommer ist ___ als der Frühling. (warm)",
+        "accept": [
+          "wärmer"
+        ],
+        "explanation": "„[[warm]]“ takes an umlaut: wärmer.",
+        "hint": "umlaut!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Deutsch ist ___ als Englisch. (schwer)",
+        "accept": [
+          "schwerer"
+        ],
+        "explanation": "„[[schwer]]“ is regular and takes no umlaut: schwerer."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Meine Oma ist die ___ Person in unserer Familie. (alt)",
+        "accept": [
+          "älteste"
+        ],
+        "explanation": "Superlative before a noun: die älteste Person („[[alt]]“ → ältest- with umlaut).",
+        "hint": "superlative + ending"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Obst ist ___ als Schokolade. (gesund)",
+        "accept": [
+          "gesünder",
+          "gesunder"
+        ],
+        "explanation": "„[[gesund]]“ usually takes an umlaut: gesünder.",
+        "hint": "umlaut!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er isst ___ als ich. (viel)",
+        "accept": [
+          "mehr"
+        ],
+        "explanation": "„[[viel]]“ is irregular: viel → mehr.",
+        "hint": "irregular"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Im Juli sind die Nächte am ___. (kurz)",
+        "accept": [
+          "kürzesten"
+        ],
+        "explanation": "Superlative: am kürzesten („[[kurz]]“ → kürzer → am kürzesten).",
+        "hint": "superlative"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Von allen Geschäften ist der Supermarkt am ___. (nah)",
+        "accept": [
+          "nächsten"
+        ],
+        "explanation": "nah is irregular: nah → näher → am nächsten.",
+        "hint": "irregular"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Fußball gefällt mir am ___. (gut)",
+        "accept": [
+          "besten"
+        ],
+        "explanation": "Superlative of „[[gut]]“: am besten.",
+        "hint": "irregular"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Mein",
+          "Hund",
+          "ist",
+          "kleiner",
+          "als",
+          "deine",
+          "Katze"
+        ],
+        "solutions": [
+          [
+            "Mein",
+            "Hund",
+            "ist",
+            "kleiner",
+            "als",
+            "deine",
+            "Katze"
+          ]
+        ],
+        "translation": "My dog is smaller than your cat.",
+        "explanation": "Komparativ + als: kleiner als."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Anna",
+          "läuft",
+          "schneller",
+          "als",
+          "ihr",
+          "Bruder"
+        ],
+        "solutions": [
+          [
+            "Anna",
+            "läuft",
+            "schneller",
+            "als",
+            "ihr",
+            "Bruder"
+          ]
+        ],
+        "translation": "Anna runs faster than her brother.",
+        "explanation": "„[[schnell]]“ + -er as an adverb, then als."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Dieser",
+          "Pullover",
+          "ist",
+          "billiger",
+          "als",
+          "die",
+          "Jacke"
+        ],
+        "solutions": [
+          [
+            "Dieser",
+            "Pullover",
+            "ist",
+            "billiger",
+            "als",
+            "die",
+            "Jacke"
+          ]
+        ],
+        "translation": "This sweater is cheaper than the jacket.",
+        "explanation": "„[[billig]]“ + -er: billiger als."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "stehe",
+          "heute",
+          "früher",
+          "auf",
+          "als",
+          "gestern"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "stehe",
+            "heute",
+            "früher",
+            "auf",
+            "als",
+            "gestern"
+          ],
+          [
+            "Ich",
+            "stehe",
+            "heute",
+            "früher",
+            "als",
+            "gestern",
+            "auf"
+          ]
+        ],
+        "translation": "Today I am getting up earlier than yesterday.",
+        "explanation": "Comparative adverb früher; the separable prefix auf can stand before or after the als-phrase."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Mein",
+          "Bruder",
+          "isst",
+          "mehr",
+          "als",
+          "ich"
+        ],
+        "solutions": [
+          [
+            "Mein",
+            "Bruder",
+            "isst",
+            "mehr",
+            "als",
+            "ich"
+          ]
+        ],
+        "translation": "My brother eats more than me.",
+        "explanation": "Irregular comparative of „[[viel]]“: mehr als."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Er",
+          "ist",
+          "genauso",
+          "alt",
+          "wie",
+          "seine",
+          "Frau"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "ist",
+            "genauso",
+            "alt",
+            "wie",
+            "seine",
+            "Frau"
+          ]
+        ],
+        "translation": "He is just as old as his wife.",
+        "explanation": "Equality: genauso + adjective + „[[wie]]“."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Im",
+          "August",
+          "ist",
+          "es",
+          "am",
+          "heißesten"
+        ],
+        "solutions": [
+          [
+            "Im",
+            "August",
+            "ist",
+            "es",
+            "am",
+            "heißesten"
+          ]
+        ],
+        "translation": "It is hottest in August.",
+        "explanation": "Superlative with am + -esten; the verb stays in position 2 after „Im August“."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "trinke",
+          "am",
+          "liebsten",
+          "Apfelsaft"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "trinke",
+            "am",
+            "liebsten",
+            "Apfelsaft"
+          ],
+          [
+            "Ich",
+            "trinke",
+            "Apfelsaft",
+            "am",
+            "liebsten"
+          ]
+        ],
+        "translation": "I like drinking apple juice best of all.",
+        "explanation": "am liebsten is the superlative of „[[gern]]“."
+      }
     }
   ]
 }

@@ -6,8 +6,24 @@ import { Alert, Linking, Platform } from 'react-native';
 type GermanVoice = { found: true; identifier?: string } | { found: false };
 
 /** Only positive results are cached, so installing a voice after seeing the
- * alert takes effect on the next tap without restarting the app. */
+ * alert takes effect on the next tap without restarting the app. The cache
+ * is also dropped on every return to the foreground (see `warmUpSpeech`),
+ * so a voice installed while the app was backgrounded is picked up. */
 let cached: GermanVoice | null = null;
+
+/** Shared in-flight enumeration: a tap while the warm-up lookup is still
+ * running must wait on it, not start a second (slow) enumeration. */
+let resolving: Promise<GermanVoice> | null = null;
+
+function resolveGermanVoice(): Promise<GermanVoice> {
+  if (cached) return Promise.resolve(cached);
+  if (!resolving) {
+    resolving = lookupGermanVoice().finally(() => {
+      resolving = null;
+    });
+  }
+  return resolving;
+}
 
 /**
  * Pick the best installed German voice: enhanced quality beats default,
@@ -15,8 +31,7 @@ let cached: GermanVoice | null = null;
  * initialized, common on Android right after launch) is treated as unknown:
  * speak with the system default and don't cache.
  */
-async function resolveGermanVoice(): Promise<GermanVoice> {
-  if (cached) return cached;
+async function lookupGermanVoice(): Promise<GermanVoice> {
   let voices: Speech.Voice[];
   try {
     voices = await Speech.getAvailableVoicesAsync();
@@ -73,6 +88,20 @@ function ensureAudioMode(): Promise<void> {
     });
   }
   return audioModeReady;
+}
+
+/**
+ * Pre-initialize everything the first utterance would otherwise block on:
+ * the audio session and the voice enumeration, which can take seconds and
+ * on Android also revives the TTS engine after the activity was destroyed.
+ * Called on launch and on every return to the foreground; the voice cache
+ * is dropped first so it can never outlive an engine/voice change that
+ * happened while the app was away.
+ */
+export function warmUpSpeech(): void {
+  ensureAudioMode();
+  cached = null;
+  resolveGermanVoice().catch(() => {});
 }
 
 export interface SpeakCallbacks {

@@ -51,7 +51,7 @@ interface HomeData {
 export default function HomeScreen() {
   const t = useTheme();
   const [data, setData] = useState<HomeData | null>(null);
-  const streakTarget = useTourTarget('home-streak');
+  const { ref: streakRef, onLayout: streakOnLayout } = useTourTarget('home-streak');
 
   const load = useCallback(async () => {
     const now = new Date();
@@ -168,8 +168,8 @@ export default function HomeScreen() {
       </View>
 
       <Pressable
-        ref={streakTarget.ref}
-        onLayout={streakTarget.onLayout}
+        ref={streakRef}
+        onLayout={streakOnLayout}
         onPress={() => router.push('/stats')}
         style={[styles.streak, { backgroundColor: streakGradient[0] }]}>
         <View style={styles.streakTop}>

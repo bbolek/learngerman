@@ -11,7 +11,6 @@ const STAGED_NAME = 'dictionary-staged.db';
 let db: SQLite.SQLiteDatabase | null = null;
 let initPromise: Promise<SQLite.SQLiteDatabase> | null = null;
 
-// eslint-disable-next-line @typescript-eslint/no-require-imports
 const bundledDbAsset = () => require('../../assets/db/dictionary.db');
 
 async function storedContentHash(opened: SQLite.SQLiteDatabase): Promise<string | null> {

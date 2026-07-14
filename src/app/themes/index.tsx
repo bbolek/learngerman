@@ -9,7 +9,7 @@ import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { LevelFilter } from '@/ui/components/LevelFilter';
 import { Screen } from '@/ui/components/Screen';
-import { fonts, spacing } from '@/ui/theme';
+import { spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 export default function ThemesScreen() {

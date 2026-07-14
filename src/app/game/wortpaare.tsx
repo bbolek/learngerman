@@ -1,5 +1,5 @@
 import * as Haptics from 'expo-haptics';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { fetchGameWords, recordGameResult, statsByGame, type RecordOutcome } from '@/db/gamesRepo';
@@ -43,15 +43,19 @@ export default function WortpaareScreen() {
   const [elapsed, setElapsed] = useState(0);
   const [outcome, setOutcome] = useState<RecordOutcome | null>(null);
   const [xpEarned, setXpEarned] = useState<number | null>(null);
+  const [totalMs, setTotalMs] = useState(0);
 
   const boardStartRef = useRef(0);
   const totalMsRef = useRef(0);
   const finishedRef = useRef(false);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
 
+  const boardElapsedMs = useCallback(() => Date.now() - boardStartRef.current, []);
+
   useEffect(() => {
     statsByGame().then((s) => setBest(s.get('wortpaare')?.best ?? null));
-    return () => timersRef.current.forEach(clearTimeout);
+    const timers = timersRef.current;
+    return () => timers.forEach(clearTimeout);
   }, []);
 
   // Visible clock per board — the speed bonus depends on it.
@@ -87,6 +91,7 @@ export default function WortpaareScreen() {
   const finish = (finalScore: number, found: number, misses: number) => {
     if (finishedRef.current) return;
     finishedRef.current = true;
+    setTotalMs(totalMsRef.current);
     recordGameResult(
       {
         gameKey: 'wortpaare',
@@ -127,7 +132,7 @@ export default function WortpaareScreen() {
       const found = pairsFound + 1;
       setPairsFound(found);
       if (nextMatched.size === PAIRS_PER_BOARD) {
-        const boardMs = Date.now() - boardStartRef.current;
+        const boardMs = boardElapsedMs();
         totalMsRef.current += boardMs;
         const points = pairsBoardScore(PAIRS_PER_BOARD, mistakes, boardMs);
         const nextScore = score + points;
@@ -181,7 +186,7 @@ export default function WortpaareScreen() {
         stats={[
           { label: 'Paare', value: `${pairsFound}/${totalPairs}` },
           { label: 'Fehlversuche', value: `${totalMistakes}` },
-          { label: 'Zeit', value: `${Math.round(totalMsRef.current / 1000)}s` },
+          { label: 'Zeit', value: `${Math.round(totalMs / 1000)}s` },
         ]}
         onRetry={start}
       />

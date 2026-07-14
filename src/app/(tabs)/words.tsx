@@ -21,11 +21,13 @@ export default function WordsScreen() {
   const insets = useSafeAreaInsets();
   const [words, setWords] = useState<SavedWordRow[] | null>(null);
   const [images, setImages] = useState<Map<number, string>>(new Map());
+  const [now, setNow] = useState(0);
 
   const reload = useCallback(() => {
     listSavedWords().then(async (rows) => {
       setImages(await getLemmaImages(rows.map((w) => w.lemma_id)));
       setWords(rows);
+      setNow(Date.now());
     });
   }, []);
   useFocusEffect(reload);
@@ -49,7 +51,12 @@ export default function WordsScreen() {
         contentContainerStyle={[styles.pad, { paddingBottom: spacing.xxl, paddingTop: spacing.md }]}
         renderItem={({ item, index }) => {
           const row = (
-            <WordRow word={item} image={images.get(item.lemma_id) ?? null} onRemove={remove} />
+            <WordRow
+              word={item}
+              image={images.get(item.lemma_id) ?? null}
+              now={now}
+              onRemove={remove}
+            />
           );
           return index === 0 ? <TourTarget id="words-first-row">{row}</TourTarget> : row;
         }}
@@ -74,10 +81,12 @@ export default function WordsScreen() {
 function WordRow({
   word,
   image,
+  now,
   onRemove,
 }: {
   word: SavedWordRow;
   image: string | null;
+  now: number;
   onRemove: (id: number) => void;
 }) {
   const t = useTheme();
@@ -92,7 +101,7 @@ function WordRow({
   let srsChip: { label: string; kind: 'new' | 'learning' | 'due' } = { label: 'Neu', kind: 'new' };
   if (state && word.due_at) {
     const due = new Date(word.due_at);
-    if (state.reps > 0 && due.getTime() <= Date.now()) srsChip = { label: 'Fällig', kind: 'due' };
+    if (state.reps > 0 && due.getTime() <= now) srsChip = { label: 'Fällig', kind: 'due' };
     else if (phaseOf({ ...state, intervalDays: 22 }) === 'review' && state.reps >= 6)
       srsChip = { label: 'Reif', kind: 'learning' };
     else if (state.reps > 0) srsChip = { label: 'Lernen', kind: 'learning' };

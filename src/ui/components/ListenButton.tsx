@@ -59,6 +59,7 @@ export function ListenButton({
 
   const press = () => {
     if (haptics) Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    // eslint-disable-next-line react-hooks/immutability -- Reanimated shared values are mutated via `.value` by design
     scale.value = withSequence(
       withTiming(0.75, { duration: 80 }),
       withSpring(1.3, { damping: 5, stiffness: 320 }),

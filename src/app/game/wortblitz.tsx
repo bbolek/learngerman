@@ -1,5 +1,5 @@
 import * as Haptics from 'expo-haptics';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { fetchGameWords, recordGameResult, statsByGame, type RecordOutcome } from '@/db/gamesRepo';
@@ -41,15 +41,19 @@ export default function WortblitzScreen() {
   const [xpEarned, setXpEarned] = useState<number | null>(null);
 
   const arcadeRef = useRef(arcade);
-  arcadeRef.current = arcade;
   const endAtRef = useRef(0);
   const finishedRef = useRef(false);
   const missedRef = useRef<number[]>([]);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   useEffect(() => {
+    arcadeRef.current = arcade;
+  }, [arcade]);
+
+  useEffect(() => {
     statsByGame().then((s) => setBest(s.get('wortblitz')?.best ?? null));
-    return () => timersRef.current.forEach(clearTimeout);
+    const timers = timersRef.current;
+    return () => timers.forEach(clearTimeout);
   }, []);
 
   const start = async () => {
@@ -68,19 +72,7 @@ export default function WortblitzScreen() {
     setPhase('playing');
   };
 
-  // Countdown driven by wall clock so paused JS frames can't stretch the round.
-  useEffect(() => {
-    if (phase !== 'playing') return;
-    const tick = setInterval(() => {
-      const left = Math.max(0, endAtRef.current - Date.now());
-      setRemaining(left);
-      if (left <= 0) finish();
-    }, 150);
-    return () => clearInterval(tick);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase]);
-
-  const finish = () => {
+  const finish = useCallback(() => {
     if (finishedRef.current) return;
     finishedRef.current = true;
     const s = arcadeRef.current;
@@ -101,7 +93,18 @@ export default function WortblitzScreen() {
       setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
       setPhase('done');
     });
-  };
+  }, []);
+
+  // Countdown driven by wall clock so paused JS frames can't stretch the round.
+  useEffect(() => {
+    if (phase !== 'playing') return;
+    const tick = setInterval(() => {
+      const left = Math.max(0, endAtRef.current - Date.now());
+      setRemaining(left);
+      if (left <= 0) finish();
+    }, 150);
+    return () => clearInterval(tick);
+  }, [phase, finish]);
 
   const answer = (i: number) => {
     const q = questions[index];

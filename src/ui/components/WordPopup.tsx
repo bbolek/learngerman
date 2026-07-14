@@ -50,11 +50,21 @@ export function WordPopup({ word, onClose }: WordPopupProps) {
   const [saved, setSaved] = useState(false);
   const [missing, setMissing] = useState(false);
 
+  // Clear the previous entry the moment a new word is tapped (React-
+  // recommended "adjust state during render" pattern, so the sheet never
+  // flashes stale content while the new lookup is in flight).
+  const [prevWord, setPrevWord] = useState(word);
+  if (word !== prevWord) {
+    setPrevWord(word);
+    if (word) {
+      setLemma(null);
+      setSenses([]);
+      setMissing(false);
+    }
+  }
+
   useEffect(() => {
     if (!word) return;
-    setLemma(null);
-    setSenses([]);
-    setMissing(false);
     let cancelled = false;
     (async () => {
       const hits = await lookupGerman(getDb(), word, 1);

@@ -6,12 +6,12 @@ import { Pressable } from 'react-native';
 import { useTourTarget } from '@/tour/useTourTarget';
 
 function TourTabButton({ targetId, ...props }: BottomTabBarButtonProps & { targetId: string }) {
-  const target = useTourTarget(targetId);
+  const { ref, onLayout } = useTourTarget(targetId);
   const { style, onPress, onLongPress, children, accessibilityState, testID } = props;
   return (
     <Pressable
-      ref={target.ref}
-      onLayout={target.onLayout}
+      ref={ref}
+      onLayout={onLayout}
       style={style}
       onPress={onPress}
       onLongPress={onLongPress}

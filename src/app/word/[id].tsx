@@ -69,10 +69,10 @@ export default function WordDetailScreen() {
   const { rows: searchRows, searched } = useDictionarySearch(query);
   const searching = query.trim().length > 0;
 
-  const backTarget = useTourTarget('word-back');
-  const entryTarget = useTourTarget('word-entry');
-  const ttsTarget = useTourTarget('word-tts');
-  const saveTarget = useTourTarget('word-save');
+  const { ref: backRef, onLayout: backOnLayout } = useTourTarget('word-back');
+  const { ref: entryRef, onLayout: entryOnLayout } = useTourTarget('word-entry');
+  const { ref: ttsRef, onLayout: ttsOnLayout } = useTourTarget('word-tts');
+  const { ref: saveRef, onLayout: saveOnLayout } = useTourTarget('word-save');
 
   useEffect(() => {
     if (!Number.isFinite(lemmaId)) return;
@@ -119,8 +119,8 @@ export default function WordDetailScreen() {
     <VocabTapProvider>
     <Screen>
       <Pressable
-        ref={backTarget.ref}
-        onLayout={backTarget.onLayout}
+        ref={backRef}
+        onLayout={backOnLayout}
         onPress={() => router.back()}
         hitSlop={10}
         style={styles.back}>
@@ -162,8 +162,8 @@ export default function WordDetailScreen() {
       ) : (
         <>
       <View
-        ref={entryTarget.ref}
-        onLayout={entryTarget.onLayout}
+        ref={entryRef}
+        onLayout={entryOnLayout}
         collapsable={false}
         style={styles.headRow}>
         {image && <VocabImage svg={image} gender={lemma.gender} size={84} />}
@@ -179,7 +179,7 @@ export default function WordDetailScreen() {
           <Subline lemma={lemma} />
         </View>
         <View style={styles.actionCol}>
-          <View ref={ttsTarget.ref} onLayout={ttsTarget.onLayout} collapsable={false}>
+          <View ref={ttsRef} onLayout={ttsOnLayout} collapsable={false}>
             <ListenButton
               text={article ? `${article} ${lemma.lemma}` : lemma.lemma}
               size={24}
@@ -189,8 +189,8 @@ export default function WordDetailScreen() {
             />
           </View>
           <Pressable
-            ref={saveTarget.ref}
-            onLayout={saveTarget.onLayout}
+            ref={saveRef}
+            onLayout={saveOnLayout}
             onPress={toggleSave}
             hitSlop={8}
             style={[
@@ -318,7 +318,6 @@ export default function WordDetailScreen() {
 
 /** Principal parts (verbs) or plural (nouns) under the headword. */
 function Subline({ lemma }: { lemma: LemmaDetail }) {
-  const t = useTheme();
   if (lemma.pos === 'verb') {
     const parts = [lemma.verb_praeteritum, perfectOf(lemma)].filter(Boolean).join(' · ');
     if (!parts) return null;

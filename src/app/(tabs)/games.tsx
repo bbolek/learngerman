@@ -13,7 +13,6 @@ import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 export default function GamesScreen() {
-  const t = useTheme();
   const [stats, setStats] = useState<Map<GameKey, GameStats>>(new Map());
 
   useFocusEffect(

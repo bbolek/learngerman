@@ -15,9 +15,9 @@ interface TourTargetProps {
  * Android, where layout-only views are otherwise optimized away.
  */
 export function TourTarget({ id, style, children }: TourTargetProps) {
-  const target = useTourTarget(id);
+  const { ref, onLayout } = useTourTarget(id);
   return (
-    <View ref={target.ref} onLayout={target.onLayout} collapsable={false} style={style}>
+    <View ref={ref} onLayout={onLayout} collapsable={false} style={style}>
       {children}
     </View>
   );

@@ -23,13 +23,20 @@ export function useDictionarySearch(query: string): { rows: SearchRow[]; searche
   const [rows, setRows] = useState<SearchRow[]>([]);
   const [searched, setSearched] = useState(false);
 
-  useEffect(() => {
-    const q = query.trim();
-    if (!q) {
+  // Clear stale results the moment the query goes empty (React-recommended
+  // "adjust state during render" pattern, so there's no flash of old rows).
+  const [prevQuery, setPrevQuery] = useState(query);
+  if (query !== prevQuery) {
+    setPrevQuery(query);
+    if (!query.trim()) {
       setRows([]);
       setSearched(false);
-      return;
     }
+  }
+
+  useEffect(() => {
+    const q = query.trim();
+    if (!q) return;
     let cancelled = false;
     const handle = setTimeout(async () => {
       const db = getDb();

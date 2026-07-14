@@ -1832,5 +1832,29 @@
         "example_en": "The station is built to be accessible."
       }
     ]
+  },
+  {
+    "lemma": "Krankheit",
+    "pos": "noun",
+    "level": "A2",
+    "freq": 600,
+    "noun": {
+      "gender": "f",
+      "plural": "Krankheiten"
+    },
+    "senses": [
+      {
+        "en": "illness, disease",
+        "example_de": "Er kann wegen einer Krankheit nicht kommen.",
+        "example_en": "He cannot come because of an illness."
+      }
+    ],
+    "examples": [
+      {
+        "tag": "plural",
+        "de": "Viele Krankheiten kann man heute gut behandeln.",
+        "en": "Many illnesses can be treated well today."
+      }
+    ]
   }
 ]

@@ -140,6 +140,378 @@
         "correctReasonIndex": 0,
         "explanation": "„[[danken]]“ is a dative verb → dem Kollegen, with the n-Deklination ending."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Arzt untersucht den ___. (Patient)",
+        "options": ["Patienten", "Patient", "Patients"],
+        "correctIndex": 0,
+        "explanation": "Akkusativ of der [[Patient]] → den Patienten (n-Deklination)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Im Zoo füttern die Kinder den ___. (Affe)",
+        "options": ["Affen", "Affe", "Affes"],
+        "correctIndex": 0,
+        "explanation": "füttern + Akkusativ → den Affen. Animals like der [[Affe]] belong to the n-Deklination."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie fragt einen ___ nach dem Weg. (Polizist)",
+        "options": ["Polizisten", "Polizist", "Polizistes"],
+        "correctIndex": 0,
+        "explanation": "-ist nouns are weak: fragen + Akkusativ → einen Polizisten („[[Polizist]]“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der ___ wohnt direkt neben uns. (Nachbar — Nominativ!)",
+        "options": ["Nachbar", "Nachbarn", "Nachbaren"],
+        "correctIndex": 0,
+        "explanation": "Nominativ Singular is the only form without -n: der Nachbar."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der ___ schläft den ganzen Winter. (Bär — Nominativ)",
+        "options": ["Bär", "Bären", "Bärs"],
+        "correctIndex": 0,
+        "explanation": "As the subject, der [[Bär]] stays in its base form — no ending in the Nominativ."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Rede des ___ dauerte eine Stunde. (Präsident)",
+        "options": ["Präsidenten", "Präsidents", "Präsident"],
+        "correctIndex": 0,
+        "explanation": "Genitiv of weak nouns takes -en, not -s: des Präsidenten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir zeigen dem ___ die Altstadt. (Tourist)",
+        "options": ["Touristen", "Tourist", "Touristem"],
+        "correctIndex": 0,
+        "explanation": "zeigen + Dativ for the person: dem Touristen — der [[Tourist]] is a weak noun."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Reporter interviewt einen ___. (Experte)",
+        "options": ["Experten", "Experte", "Expertes"],
+        "correctIndex": 0,
+        "explanation": "Masculine nouns in -e for persons are weak: einen Experten (Akkusativ)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Hast du dem ___ geantwortet? (Journalist)",
+        "options": ["Journalisten", "Journalist", "Journalists"],
+        "correctIndex": 0,
+        "explanation": "antworten + Dativ → dem Journalisten („[[Journalist]]“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Fahrrad des ___ steht vor der Tür. (Junge)",
+        "options": ["Jungen", "Junges", "Junge"],
+        "correctIndex": 0,
+        "explanation": "Genitiv: des Jungen — weak nouns never take -s (only der Name does)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sehr geehrter ___ Müller, … (Anrede im Brief)",
+        "options": ["Herr", "Herrn", "Herren"],
+        "correctIndex": 0,
+        "explanation": "The salutation is Nominativ: Sehr geehrter Herr Müller."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir schreiben einen Brief an ___ Braun. (Herr)",
+        "options": ["Herrn", "Herr", "Herren"],
+        "correctIndex": 0,
+        "explanation": "an + Akkusativ here → Herrn Braun; der [[Herr]] adds just -n in the singular."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Form ist FALSCH?",
+        "options": ["mit dem Kunde", "mit dem Studenten", "wegen des Löwen", "für den Menschen"],
+        "correctIndex": 0,
+        "explanation": "Dativ needs the weak ending: mit dem Kunden. The other three forms are correct."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wie heißt der Plural von „der Herr“?",
+        "options": ["die Herren", "die Herrn", "die Herre"],
+        "correctIndex": 0,
+        "explanation": "In the plural der Herr takes -en (die Herren); in the singular it takes just -n (den Herrn)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich habe gestern ___ getroffen. (ein Kollege)",
+        "options": ["einen Kollegen", "einen Kollege", "ein Kollegen"],
+        "correctIndex": 0,
+        "explanation": "treffen + Akkusativ: einen Kollegen — the article AND the noun need their endings."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Das ist die Tasche des Praktikanten.",
+          "Das ist die Tasche des Praktikants.",
+          "Das ist die Tasche des Praktikant."
+        ],
+        "correctIndex": 0,
+        "explanation": "-ant nouns are weak: Genitiv des Praktikanten, without -s."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Hund läuft zu dem ___. (Junge)",
+        "accept": ["Jungen"],
+        "explanation": "zu + Dativ → dem Jungen („[[Junge]]“)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich besuche morgen einen ___. (Kunde)",
+        "accept": ["Kunden"],
+        "explanation": "besuchen + Akkusativ: einen Kunden — der [[Kunde]] is a weak noun."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir warten auf unseren ___. (Kollege)",
+        "accept": ["Kollegen"],
+        "explanation": "auf + Akkusativ after [[warten]]: unseren Kollegen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Fragen des ___ waren sehr direkt. (Journalist)",
+        "accept": ["Journalisten"],
+        "explanation": "Genitiv of -ist nouns: des Journalisten, with -en instead of -s."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Tierpfleger gibt dem ___ Fleisch. (Löwe)",
+        "accept": ["Löwen"],
+        "explanation": "geben + Dativ: dem Löwen — der [[Löwe]] belongs to the n-Deklination."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Kennst du den Bruder dieses ___? (Student)",
+        "accept": ["Studenten"],
+        "explanation": "Genitiv: dieses Studenten — -ent nouns take -en in every case except Nominativ („[[Student]]“)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Trotz des Regens kam der ___ pünktlich. (Praktikant — Nominativ!)",
+        "accept": ["Praktikant"],
+        "explanation": "The subject stays without ending: der Praktikant. Only the other cases add -en."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Am Anfang des ___ steht ein Großbuchstabe. (Name)",
+        "accept": ["Namens"],
+        "explanation": "der [[Name]] is the exception: Genitiv des Namens with -ns."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Polizei sucht einen ___ mit Bart. (Herr)",
+        "accept": ["Herrn"],
+        "explanation": "suchen + Akkusativ: einen Herrn — der Herr takes just -n in the singular."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Wir", "besuchen", "unseren", "Nachbarn", "am", "Sonntag"],
+        "solutions": [
+          ["Wir", "besuchen", "unseren", "Nachbarn", "am", "Sonntag"],
+          ["Wir", "besuchen", "am", "Sonntag", "unseren", "Nachbarn"]
+        ],
+        "translation": "We are visiting our neighbor on Sunday.",
+        "explanation": "besuchen + Akkusativ → unseren Nachbarn; the time phrase can stand before or after the object."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Die", "Ärztin", "hilft", "dem", "Patienten"],
+        "solutions": [["Die", "Ärztin", "hilft", "dem", "Patienten"]],
+        "translation": "The doctor helps the patient.",
+        "explanation": "[[helfen]] + Dativ → dem Patienten, with the weak -en ending."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Der", "Lehrer", "kennt", "den", "Namen", "des", "Studenten"],
+        "solutions": [["Der", "Lehrer", "kennt", "den", "Namen", "des", "Studenten"]],
+        "translation": "The teacher knows the student's name.",
+        "explanation": "Two weak forms in one sentence: den Namen (Akkusativ) and des Studenten (Genitiv)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "habe", "dem", "Touristen", "den", "Weg", "gezeigt"],
+        "solutions": [
+          ["Ich", "habe", "dem", "Touristen", "den", "Weg", "gezeigt"],
+          ["Ich", "habe", "den", "Weg", "dem", "Touristen", "gezeigt"]
+        ],
+        "translation": "I showed the tourist the way.",
+        "explanation": "dem Touristen is the Dativ object with the weak ending; the participle gezeigt closes the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Das", "ist", "das", "Auto", "meines", "Kollegen"],
+        "solutions": [["Das", "ist", "das", "Auto", "meines", "Kollegen"]],
+        "translation": "That is my colleague's car.",
+        "explanation": "Genitiv after the noun: meines Kollegen — the weak -n appears even with a possessive article."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Kennst", "du", "den", "Präsidenten", "dieses", "Landes?"],
+        "solutions": [["Kennst", "du", "den", "Präsidenten", "dieses", "Landes?"]],
+        "translation": "Do you know the president of this country?",
+        "explanation": "Yes/no question: verb first; den Präsidenten is Akkusativ with the weak ending."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "**Der Junge** spielt im Garten.",
+        "correctCase": "nominativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of „spielen“",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "der Junge is the subject → Nominativ, the only case without -n."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Wir warten auf **den Kollegen**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "„warten auf“ takes the accusative",
+          "„warten“ takes a dative object",
+          "It shows possession"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "After warten auf the noun is Akkusativ: den Kollegen („[[warten]]“ + auf)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Das ist das Haus **des Nachbarn**.",
+        "correctCase": "genitiv",
+        "reasons": [
+          "It shows possession — whose house it is",
+          "It is the direct object",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "Possession → Genitiv: des Nachbarn, with the weak -n instead of -s."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Der Arzt gibt **dem Patienten** ein Rezept.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the indirect object — the person receiving something",
+          "It is the direct object of „geben“",
+          "It is the subject of the sentence",
+          "It shows possession"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "The receiver with [[geben]] stands in the Dativ: dem Patienten."
+      }
     }
   ]
 }

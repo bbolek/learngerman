@@ -202,6 +202,549 @@
         "translation": "I don't like the food.",
         "explanation": "nicht at the end; „[[schmecken]]“ + Dativ (mir)."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Wetter ist ___ schön.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[schön]]“ is an adjective → negate with nicht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir haben ___ Brot.",
+        "options": [
+          "kein",
+          "nicht",
+          "keinen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[Brot]]“ stands without article → kein. Neuter: kein Brot."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich bin ___ müde.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[müde]]“ is an adjective → nicht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich habe ___ Schwester.",
+        "options": [
+          "keine",
+          "nicht",
+          "kein"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[Schwester]]“ is a noun with ein → kein. Feminine: keine Schwester."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er wohnt ___ in Berlin.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The verb „[[wohnen]]“ is negated → nicht, before the place."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich habe ___ Geld.",
+        "options": [
+          "kein",
+          "nicht",
+          "keine"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[Geld]]“ has no article → kein. Neuter: kein Geld."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir haben ___ Hund.",
+        "options": [
+          "keinen",
+          "kein",
+          "nicht"
+        ],
+        "correctIndex": 0,
+        "explanation": "der Hund, direct object → masculine Akkusativ: keinen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Auto ist ___ neu.",
+        "options": [
+          "nicht",
+          "kein",
+          "keinen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[neu]]“ is an adjective → nicht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich esse heute ___ Suppe.",
+        "options": [
+          "keine",
+          "nicht",
+          "kein"
+        ],
+        "correctIndex": 0,
+        "explanation": "die Suppe, no article → kein. Feminine: keine Suppe."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie trinkt ___ Milch.",
+        "options": [
+          "keine",
+          "nicht",
+          "keinen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[Milch]]“ is feminine and has no article → keine Milch."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das ist ___ dein Handy.",
+        "options": [
+          "nicht",
+          "kein"
+        ],
+        "correctIndex": 0,
+        "explanation": "Nouns with a possessive (dein) are negated with nicht, not kein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich kenne den Mann ___.",
+        "options": [
+          "nicht",
+          "kein",
+          "keinen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„den Mann“ has a definite article → the verb is negated with nicht at the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir kaufen ___ Äpfel.",
+        "options": [
+          "keine",
+          "nicht",
+          "keinen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural noun without article → keine Äpfel."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er hilft mir ___.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The verb „[[helfen]]“ is negated → nicht at the end of the sentence."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich habe ___ Fragen.",
+        "options": [
+          "keine",
+          "nicht",
+          "kein"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural without article → keine: keine Fragen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie isst ___ Ei zum Frühstück.",
+        "options": [
+          "kein",
+          "keinen",
+          "keine"
+        ],
+        "correctIndex": 0,
+        "explanation": "das Ei → kein (neuter looks the same in Nominativ and Akkusativ)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich sehe ___ Bus.",
+        "options": [
+          "keinen",
+          "kein",
+          "nicht"
+        ],
+        "correctIndex": 0,
+        "explanation": "der Bus, direct object → masculine Akkusativ: keinen Bus."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie geht heute ___ ins Kino.",
+        "options": [
+          "nicht",
+          "keine",
+          "kein"
+        ],
+        "correctIndex": 0,
+        "explanation": "nicht comes before place expressions like „ins Kino“."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist ___ schwer. (not)",
+        "accept": [
+          "nicht"
+        ],
+        "explanation": "„[[schwer]]“ is an adjective → nicht."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich habe ___ Katze. (die Katze)",
+        "accept": [
+          "keine"
+        ],
+        "explanation": "Noun with ein/no article → kein. Feminine: keine Katze.",
+        "hint": "feminine"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er trinkt ___ Bier. (das Bier)",
+        "accept": [
+          "kein"
+        ],
+        "explanation": "„[[Bier]]“ is neuter → kein Bier (the Akkusativ looks the same).",
+        "hint": "neuter"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir haben ___ Kinder. (plural)",
+        "accept": [
+          "keine"
+        ],
+        "explanation": "Plural → keine: Wir haben keine Kinder.",
+        "hint": "plural"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie arbeitet am Sonntag ___. (not)",
+        "accept": [
+          "nicht"
+        ],
+        "explanation": "The verb „[[arbeiten]]“ is negated → nicht at the end."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich brauche ___ Stuhl. (der Stuhl)",
+        "accept": [
+          "keinen"
+        ],
+        "explanation": "brauchen + Akkusativ: der Stuhl → keinen Stuhl.",
+        "hint": "masculine Akkusativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das ist ___ meine Tasche. (not)",
+        "accept": [
+          "nicht"
+        ],
+        "explanation": "Nouns with a possessive (meine) are negated with nicht, not kein.",
+        "hint": "possessive!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er isst ___ Salat. (der Salat)",
+        "accept": [
+          "keinen"
+        ],
+        "explanation": "essen + Akkusativ: der Salat → keinen Salat.",
+        "hint": "masculine Akkusativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir wohnen ___ mehr in Bonn. (no longer)",
+        "accept": [
+          "nicht"
+        ],
+        "explanation": "„nicht mehr“ means „no longer“: Wir wohnen nicht mehr in Bonn.",
+        "hint": "… mehr"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "habe",
+          "kein",
+          "Fahrrad"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "habe",
+            "kein",
+            "Fahrrad"
+          ]
+        ],
+        "translation": "I don't have a bicycle.",
+        "explanation": "das Fahrrad → kein (neuter)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Das",
+          "ist",
+          "nicht",
+          "teuer"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "ist",
+            "nicht",
+            "teuer"
+          ]
+        ],
+        "translation": "That is not expensive.",
+        "explanation": "nicht comes before the adjective „[[teuer]]“."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Er",
+          "trinkt",
+          "keine",
+          "Cola"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "trinkt",
+            "keine",
+            "Cola"
+          ]
+        ],
+        "translation": "He doesn't drink cola.",
+        "explanation": "die Cola, no article → keine."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "kommen",
+          "heute",
+          "nicht"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "kommen",
+            "heute",
+            "nicht"
+          ]
+        ],
+        "translation": "We are not coming today.",
+        "explanation": "The verb is negated → nicht goes to the end of the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "verstehe",
+          "die",
+          "Frage",
+          "nicht"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "verstehe",
+            "die",
+            "Frage",
+            "nicht"
+          ]
+        ],
+        "translation": "I don't understand the question.",
+        "explanation": "„die Frage“ has a definite article → nicht, at the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Er",
+          "hat",
+          "heute",
+          "keine",
+          "Zeit"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "hat",
+            "heute",
+            "keine",
+            "Zeit"
+          ]
+        ],
+        "translation": "He has no time today.",
+        "explanation": "die Zeit, no article → keine, directly before the noun."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Das",
+          "Wetter",
+          "ist",
+          "heute",
+          "nicht",
+          "gut"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Wetter",
+            "ist",
+            "heute",
+            "nicht",
+            "gut"
+          ]
+        ],
+        "translation": "The weather is not good today.",
+        "explanation": "nicht stands before the adjective, after the time word."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Meine",
+          "Schwester",
+          "isst",
+          "kein",
+          "Obst"
+        ],
+        "solutions": [
+          [
+            "Meine",
+            "Schwester",
+            "isst",
+            "kein",
+            "Obst"
+          ]
+        ],
+        "translation": "My sister doesn't eat fruit.",
+        "explanation": "„[[Obst]]“ is neuter and has no article → kein Obst."
+      }
     }
   ]
 }

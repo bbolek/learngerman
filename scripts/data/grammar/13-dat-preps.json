@@ -542,6 +542,251 @@
         "correctReasonIndex": 2,
         "explanation": "„[[bei]]“ always takes the Dativ — plural: seinen Großeltern (noun already ends in -n)."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Kind spielt mit ___ Ball.",
+        "options": [
+          "dem",
+          "den",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[mit]]“ always takes the Dativ. Masculine: der → dem (der Ball)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie kommt aus ___ Haus.",
+        "options": [
+          "dem",
+          "das",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[aus]]“ always takes the Dativ. Neuter: das → dem (das Haus)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich habe das Buch von ___ Freundin. (meine)",
+        "options": [
+          "meiner",
+          "meine",
+          "meinem"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[von]]“ takes the Dativ. Feminine: meine → meiner (die Freundin)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir fahren ___ Schwimmbad. (zu + das)",
+        "options": [
+          "zum",
+          "zur",
+          "zu den"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[zu]]“ takes the Dativ; zu + dem contracts to „zum“ (das Schwimmbad)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Nach ___ Ferien beginnt die Schule. (die, Plural)",
+        "options": [
+          "den",
+          "die",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[nach]]“ takes the Dativ. Plural: die → den (die Ferien)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er spricht oft von ___. (sie, Singular)",
+        "options": [
+          "ihr",
+          "sie",
+          "ihnen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[von]]“ always takes the Dativ, also with pronouns: sie → ihr."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Salat kommt aus ___ Garten. (der)",
+        "accept": [
+          "dem"
+        ],
+        "hint": "aus + Dativ, der Garten",
+        "explanation": "„[[aus]]“ always takes the Dativ. Masculine: der → dem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie wohnt bei ___ Tante. (ihre)",
+        "accept": [
+          "ihrer"
+        ],
+        "hint": "bei + Dativ, die Tante",
+        "explanation": "„[[bei]]“ always takes the Dativ. Feminine: ihre → ihrer."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er geht ___ Post. (zu + die Post)",
+        "accept": [
+          "zur",
+          "zu der"
+        ],
+        "hint": "contraction",
+        "explanation": "zu + der (feminine Dativ) contracts to „zur“ (die Post)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Fährst du mit ___ Kollegen zur Arbeit? (deine, Plural)",
+        "accept": [
+          "deinen"
+        ],
+        "hint": "mit + Dativ, plural die Kollegen",
+        "explanation": "„[[mit]]“ takes the Dativ. Plural: deine → deinen (die Kollegen)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "kommt",
+          "aus",
+          "Er",
+          "dem",
+          "Kino"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "kommt",
+            "aus",
+            "dem",
+            "Kino"
+          ]
+        ],
+        "translation": "He is coming out of the cinema.",
+        "explanation": "„[[aus]]“ takes the Dativ. Neuter: das → dem (das Kino)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "gehe",
+          "dem",
+          "Nach",
+          "Frühstück",
+          "ich",
+          "zur",
+          "Schule"
+        ],
+        "solutions": [
+          [
+            "Nach",
+            "dem",
+            "Frühstück",
+            "gehe",
+            "ich",
+            "zur",
+            "Schule"
+          ]
+        ],
+        "translation": "After breakfast I go to school.",
+        "explanation": "„[[nach]]“ takes the Dativ (dem Frühstück); zur = zu + der. After the fronted phrase the verb stays in position 2."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "arbeitet",
+          "zwei",
+          "Seit",
+          "Monaten",
+          "sie",
+          "beim",
+          "Zahnarzt"
+        ],
+        "solutions": [
+          [
+            "Seit",
+            "zwei",
+            "Monaten",
+            "arbeitet",
+            "sie",
+            "beim",
+            "Zahnarzt"
+          ]
+        ],
+        "translation": "She has been working at the dentist's for two months.",
+        "explanation": "„[[seit]]“ takes the Dativ — the plural noun adds -n (Monaten). beim = bei + dem."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Das Geschenk ist von **meiner Oma**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of the verb",
+          "It follows „von“, which always takes the Dativ",
+          "It follows an accusative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„[[von]]“ is a Dativ preposition. Feminine: meine → meiner (die Oma)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "**Die Lehrerin** spricht mit dem Schüler.",
+        "correctCase": "nominativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It follows „mit“, which always takes the Dativ",
+          "It is the direct object of the verb",
+          "It is the indirect object (recipient)"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "Die Lehrerin is the one speaking → subject → Nominativ. Only „dem Schüler“ follows the Dativ preposition „[[mit]]“."
+      }
     }
   ]
 }

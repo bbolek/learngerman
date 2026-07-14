@@ -208,6 +208,548 @@
         "translation": "We want to play football on Saturday.",
         "explanation": "Modal verb second, everything else in the middle, „[[spielen]]“ at the very end."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du ___ sehr gut singen.",
+        "options": [
+          "kannst",
+          "kann",
+          "könnt"
+        ],
+        "correctIndex": 0,
+        "explanation": "du keeps its normal -st ending: du kannst."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ nach Hause gehen.",
+        "options": [
+          "muss",
+          "musst",
+          "müssen"
+        ],
+        "correctIndex": 0,
+        "explanation": "ich muss — no ending and no umlaut in the singular."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Kinder ___ heute nicht fernsehen.",
+        "options": [
+          "dürfen",
+          "darf",
+          "dürft"
+        ],
+        "correctIndex": 0,
+        "explanation": "Die Kinder = plural sie, so the form matches the infinitive: dürfen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er ___ ein Eis essen.",
+        "options": [
+          "will",
+          "willst",
+          "wollen"
+        ],
+        "correctIndex": 0,
+        "explanation": "er/sie/es takes the same form as ich: er will."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ keinen Fisch.",
+        "options": [
+          "mag",
+          "magst",
+          "mögen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[mögen]]“ as a full verb (to like) needs no infinitive: ich mag."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Meine Schwester ___ sehr gut tanzen.",
+        "options": [
+          "kann",
+          "kannst",
+          "können"
+        ],
+        "correctIndex": 0,
+        "explanation": "Meine Schwester = sie → kann, the same form as ich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ihr am Sonntag kommen?",
+        "options": [
+          "Könnt",
+          "Kannst",
+          "Können"
+        ],
+        "correctIndex": 0,
+        "explanation": "ihr → könnt, with umlaut: Könnt ihr kommen?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Du ___ hier nicht so laut sein.",
+        "options": [
+          "darfst",
+          "darf",
+          "dürft"
+        ],
+        "correctIndex": 0,
+        "explanation": "du → darfst. „darf nicht“ = is not allowed to."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir ___ heute Abend einen Film sehen.",
+        "options": [
+          "wollen",
+          "wollt",
+          "will"
+        ],
+        "correctIndex": 0,
+        "explanation": "wir takes the infinitive form: wir wollen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ich das Fenster öffnen?",
+        "options": [
+          "Darf",
+          "Darfst",
+          "Dürfen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Asking for permission = „[[dürfen]]“ — ich darf, no ending."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ihr ___ eure Hausaufgaben machen.",
+        "options": [
+          "müsst",
+          "musst",
+          "müssen"
+        ],
+        "correctIndex": 0,
+        "explanation": "ihr → müsst, with umlaut — du musst has none."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er ___ morgen zum Arzt gehen.",
+        "options": [
+          "soll",
+          "sollst",
+          "sollen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[sollen]]“ = should / is supposed to: er soll, no ending."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ du Kaffee oder Tee?",
+        "options": [
+          "Möchtest",
+          "Möchte",
+          "Möchten"
+        ],
+        "correctIndex": 0,
+        "explanation": "möchten behaves like a modal but keeps -est for du: du möchtest."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich ___ morgen leider nicht kommen.",
+        "options": [
+          "kann",
+          "kannst",
+          "können"
+        ],
+        "correctIndex": 0,
+        "explanation": "ich kann — the polite way to say you can’t make it."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Man ___ vor dem Essen die Hände waschen.",
+        "options": [
+          "soll",
+          "sollst",
+          "sollt"
+        ],
+        "correctIndex": 0,
+        "explanation": "man behaves like er/sie/es: man soll."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie möchte einen Apfel ___.",
+        "options": [
+          "essen",
+          "isst",
+          "esse"
+        ],
+        "correctIndex": 0,
+        "explanation": "After a modal the main verb stays an infinitive at the end: essen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ihr ___ hier nicht spielen.",
+        "options": [
+          "dürft",
+          "dürfen",
+          "darfst"
+        ],
+        "correctIndex": 0,
+        "explanation": "ihr → dürft: you (all) are not allowed to play here."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich ___ Katzen, aber keine Hunde.",
+        "options": [
+          "mag",
+          "möchte",
+          "mögt"
+        ],
+        "correctIndex": 0,
+        "explanation": "General liking = mögen: ich mag Katzen. „möchte“ would mean I’d like to have one."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ Pizza essen. (wollen)",
+        "accept": [
+          "wollen"
+        ],
+        "explanation": "wir wollen — plural forms match the infinitive."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ Fußball spielen. (können)",
+        "accept": [
+          "kann"
+        ],
+        "explanation": "ich kann — no ending for ich.",
+        "hint": "no ending!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ihr ___ jetzt nach Hause gehen. (dürfen)",
+        "accept": [
+          "dürft"
+        ],
+        "explanation": "ihr → dürft: umlaut plus -t."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ du Musik? (mögen)",
+        "accept": [
+          "Magst"
+        ],
+        "explanation": "„[[mögen]]“ as a full verb: du magst Musik."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Meine Mutter ___ einen Kuchen backen. (wollen)",
+        "accept": [
+          "will"
+        ],
+        "explanation": "Meine Mutter = sie → will: the singular changes the vowel o → i.",
+        "hint": "vowel change"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie ___ hier warten, Herr Braun. (müssen)",
+        "accept": [
+          "müssen"
+        ],
+        "explanation": "Formal Sie takes the plural form: Sie müssen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er ___ heute zu Hause bleiben. (sollen)",
+        "accept": [
+          "soll"
+        ],
+        "explanation": "er soll — advice or instruction, no ending for er."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ ihr einen Saft? (möchten)",
+        "accept": [
+          "Möchtet"
+        ],
+        "explanation": "ihr → möchtet — the polite offer to several people."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Du ___ hier nicht telefonieren. (dürfen)",
+        "accept": [
+          "darfst"
+        ],
+        "explanation": "Singular loses the umlaut: du darfst.",
+        "hint": "vowel change"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "muss",
+          "jetzt",
+          "gehen"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "muss",
+            "jetzt",
+            "gehen"
+          ]
+        ],
+        "translation": "I have to go now.",
+        "explanation": "muss in position 2, the infinitive gehen at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Du",
+          "kannst",
+          "mir",
+          "helfen"
+        ],
+        "solutions": [
+          [
+            "Du",
+            "kannst",
+            "mir",
+            "helfen"
+          ]
+        ],
+        "translation": "You can help me.",
+        "explanation": "Modal second, the infinitive „[[helfen]]“ last."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "müssen",
+          "morgen",
+          "früh",
+          "aufstehen"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "müssen",
+            "morgen",
+            "früh",
+            "aufstehen"
+          ]
+        ],
+        "translation": "We have to get up early tomorrow.",
+        "explanation": "müssen in position 2, „[[aufstehen]]“ as infinitive at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Kannst",
+          "du",
+          "heute",
+          "kommen?"
+        ],
+        "solutions": [
+          [
+            "Kannst",
+            "du",
+            "heute",
+            "kommen?"
+          ]
+        ],
+        "translation": "Can you come today?",
+        "explanation": "In a yes/no question the modal moves to position 1 — the infinitive still ends the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "möchte",
+          "einen",
+          "Kaffee",
+          "trinken"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "möchte",
+            "einen",
+            "Kaffee",
+            "trinken"
+          ]
+        ],
+        "translation": "I would like to drink a coffee.",
+        "explanation": "möchte in position 2, „[[trinken]]“ at the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Heute",
+          "darf",
+          "ich",
+          "lange",
+          "schlafen"
+        ],
+        "solutions": [
+          [
+            "Heute",
+            "darf",
+            "ich",
+            "lange",
+            "schlafen"
+          ]
+        ],
+        "translation": "Today I am allowed to sleep in.",
+        "explanation": "Heute fills position 1, so the modal stays second and the subject moves after it."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Er",
+          "will",
+          "mit",
+          "dem",
+          "Bus",
+          "fahren"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "will",
+            "mit",
+            "dem",
+            "Bus",
+            "fahren"
+          ]
+        ],
+        "translation": "He wants to go by bus.",
+        "explanation": "will in position 2, „[[fahren]]“ closes the sentence bracket."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Am",
+          "Abend",
+          "wollen",
+          "wir",
+          "fernsehen"
+        ],
+        "solutions": [
+          [
+            "Am",
+            "Abend",
+            "wollen",
+            "wir",
+            "fernsehen"
+          ]
+        ],
+        "translation": "In the evening we want to watch TV.",
+        "explanation": "„Am Abend“ fills position 1; the infinitive „[[fernsehen]]“ goes to the end."
+      }
     }
   ]
 }

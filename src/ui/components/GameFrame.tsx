@@ -87,12 +87,15 @@ export function GameResult({
   info,
   score,
   outcome,
+  xpEarned,
   stats,
   onRetry,
 }: {
   info: GameInfo;
   score: number;
   outcome: RecordOutcome | null;
+  /** XP paid out for this round (shown as a chip when set). */
+  xpEarned?: number | null;
   stats: { label: string; value: string }[];
   onRetry: () => void;
 }) {
@@ -112,6 +115,13 @@ export function GameResult({
         <AppText variant="secondary" muted>
           Punkte · {info.title}
         </AppText>
+        {xpEarned != null && xpEarned > 0 && (
+          <View style={[styles.recordChip, { backgroundColor: t.primaryDim }]}>
+            <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+              ⭐ +{xpEarned} XP
+            </AppText>
+          </View>
+        )}
         {!newRecord && outcome != null && outcome.previousBest > 0 && (
           <View style={[styles.recordChip, { backgroundColor: t.primaryDim }]}>
             <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>

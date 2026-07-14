@@ -12,6 +12,9 @@ import { CLOZE_BLANK, type Cloze } from '@/logic/cloze';
 import { articleFor } from '@/logic/formLabels';
 import { gradeFillBlank, type FillResult } from '@/logic/graders';
 import { previewInterval, type Rating } from '@/logic/sm2';
+import { xpForReview } from '@/logic/xp';
+import { awardXp, settleRewards } from '@/services/rewards';
+import { playSound } from '@/services/sound';
 import { speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
@@ -55,6 +58,7 @@ export default function ReviewScreen() {
   const [flipped, setFlipped] = useState(false);
   const [answered, setAnswered] = useState<FillResult | null>(null);
   const [stats, setStats] = useState<SessionStats>({ again: 0, hard: 0, good: 0, easy: 0 });
+  const [xpEarned, setXpEarned] = useState(0);
   const [totalPlanned, setTotalPlanned] = useState(0);
   const [images, setImages] = useState<Map<number, string>>(new Map());
   const [clozes, setClozes] = useState<Map<number, Cloze>>(new Map());
@@ -110,6 +114,9 @@ export default function ReviewScreen() {
     );
     const key = (['again', 'hard', 'good', 'easy'] as const)[rating];
     setStats((s) => ({ ...s, [key]: s[key] + 1 }));
+    const xp = xpForReview(rating);
+    setXpEarned((x) => x + xp);
+    awardXp('review', xp, new Date()).catch(() => {});
 
     if (rating === 0) {
       // relearn this session: re-enqueue with updated state
@@ -124,6 +131,7 @@ export default function ReviewScreen() {
   };
 
   const onCloze = (result: FillResult) => {
+    playSound(result.correct ? 'correct' : 'wrong');
     if (hapticsEnabled) {
       Haptics.notificationAsync(
         result.correct
@@ -156,7 +164,7 @@ export default function ReviewScreen() {
     );
   }
 
-  if (!card) return <Summary stats={stats} />;
+  if (!card) return <Summary stats={stats} xpEarned={xpEarned} />;
 
   const cardState = {
     ease: card.ease,
@@ -468,11 +476,17 @@ function RateButton({
   );
 }
 
-function Summary({ stats }: { stats: SessionStats }) {
+function Summary({ stats, xpEarned }: { stats: SessionStats; xpEarned: number }) {
   const t = useTheme();
   const insets = useSafeAreaInsets();
   const total = stats.again + stats.hard + stats.good + stats.easy;
   const goodShare = total === 0 ? 0 : (stats.good + stats.easy) / total;
+
+  // Session over: pay out finished Tagesziele and freshly earned badges.
+  useEffect(() => {
+    settleRewards(new Date());
+  }, []);
+
   return (
     <View
       style={[
@@ -489,6 +503,13 @@ function Summary({ stats }: { stats: SessionStats }) {
       <AppText variant="secondary" muted style={{ marginTop: 4 }}>
         {total} Karten wiederholt
       </AppText>
+      {xpEarned > 0 && (
+        <View style={[styles.xpChip, { backgroundColor: t.primaryDim }]}>
+          <AppText variant="secondary" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+            ⭐ +{xpEarned} XP
+          </AppText>
+        </View>
+      )}
       <View style={styles.statRow}>
         <Stat label="Nochmal" value={stats.again} color={t.onDangerDim} />
         <Stat label="Schwer" value={stats.hard} color={t.onPrimaryDim} />
@@ -587,6 +608,12 @@ const styles = StyleSheet.create({
     borderRadius: radius.button,
     paddingVertical: 13,
     alignItems: 'center',
+  },
+  xpChip: {
+    borderRadius: 999,
+    paddingHorizontal: 14,
+    paddingVertical: 6,
+    marginTop: spacing.md,
   },
   statRow: { flexDirection: 'row', gap: spacing.xl, marginTop: spacing.xl },
   stat: { alignItems: 'center' },

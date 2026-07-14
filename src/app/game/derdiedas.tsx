@@ -14,6 +14,8 @@ import {
   type ArcadeState,
   type GameWord,
 } from '@/logic/games';
+import { settleGameRound } from '@/services/rewards';
+import { playSound } from '@/services/sound';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { GameIntro, GameResult, GameScreen, GameTopBar } from '@/ui/components/GameFrame';
@@ -44,6 +46,7 @@ export default function DerDieDasScreen() {
   const [arcade, setArcade] = useState<ArcadeState>(initialArcade(DERDIEDAS_LIVES));
   const [picked, setPicked] = useState<string | null>(null);
   const [outcome, setOutcome] = useState<RecordOutcome | null>(null);
+  const [xpEarned, setXpEarned] = useState<number | null>(null);
 
   const startedAtRef = useRef(0);
   const finishedRef = useRef(false);
@@ -62,6 +65,7 @@ export default function DerDieDasScreen() {
     setArcade(initialArcade(DERDIEDAS_LIVES));
     setPicked(null);
     setOutcome(null);
+    setXpEarned(null);
     finishedRef.current = false;
     missedRef.current = [];
     startedAtRef.current = Date.now();
@@ -82,9 +86,10 @@ export default function DerDieDasScreen() {
         durationMs: Date.now() - startedAtRef.current,
       },
       new Date()
-    ).then((res) => {
+    ).then(async (res) => {
       setOutcome(res);
       setBest((b) => Math.max(b ?? 0, s.score));
+      setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
       setPhase('done');
     });
   };
@@ -94,6 +99,7 @@ export default function DerDieDasScreen() {
     if (!word || picked != null || finishedRef.current) return;
     const correct = word.gender === gender;
     if (!correct) missedRef.current.push(word.id);
+    playSound(correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
         correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error
@@ -124,6 +130,7 @@ export default function DerDieDasScreen() {
         info={INFO}
         score={arcade.score}
         outcome={outcome}
+        xpEarned={xpEarned}
         stats={[
           { label: 'Richtig', value: `${arcade.correct}/${arcade.total}` },
           { label: 'Beste Serie', value: `${arcade.bestStreak}` },

@@ -10,6 +10,8 @@ import {
   pairsBoardScore,
   type PairsBoard,
 } from '@/logic/games';
+import { settleGameRound } from '@/services/rewards';
+import { playSound } from '@/services/sound';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { GameIntro, GameResult, GameScreen, GameTopBar } from '@/ui/components/GameFrame';
@@ -40,6 +42,7 @@ export default function WortpaareScreen() {
   const [interstitial, setInterstitial] = useState<{ points: number } | null>(null);
   const [elapsed, setElapsed] = useState(0);
   const [outcome, setOutcome] = useState<RecordOutcome | null>(null);
+  const [xpEarned, setXpEarned] = useState<number | null>(null);
 
   const boardStartRef = useRef(0);
   const totalMsRef = useRef(0);
@@ -73,6 +76,7 @@ export default function WortpaareScreen() {
     setPairsFound(0);
     setInterstitial(null);
     setOutcome(null);
+    setXpEarned(null);
     setElapsed(0);
     finishedRef.current = false;
     totalMsRef.current = 0;
@@ -93,9 +97,10 @@ export default function WortpaareScreen() {
         durationMs: totalMsRef.current,
       },
       new Date()
-    ).then((res) => {
+    ).then(async (res) => {
       setOutcome(res);
       setBest((b) => Math.max(b ?? 0, finalScore));
+      setXpEarned(await settleGameRound(INFO.title, finalScore, res, new Date()));
       setPhase('done');
     });
   };
@@ -113,6 +118,7 @@ export default function WortpaareScreen() {
     }
     if (de === en) {
       // match
+      playSound('correct');
       if (haptics) Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
       const nextMatched = new Set(matched).add(de);
       setMatched(nextMatched);
@@ -134,6 +140,7 @@ export default function WortpaareScreen() {
       }
     } else {
       // mismatch — flash, count, clear
+      playSound('wrong');
       if (haptics) Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
       setSelDe(de);
       setSelEn(en);
@@ -170,6 +177,7 @@ export default function WortpaareScreen() {
         info={INFO}
         score={score}
         outcome={outcome}
+        xpEarned={xpEarned}
         stats={[
           { label: 'Paare', value: `${pairsFound}/${totalPairs}` },
           { label: 'Fehlversuche', value: `${totalMistakes}` },

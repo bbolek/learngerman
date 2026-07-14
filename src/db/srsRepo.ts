@@ -1,5 +1,7 @@
 import { getDb } from '@/db/client';
+import { countedDays } from '@/db/streakRepo';
 import { schedule, type CardState, type Rating } from '@/logic/sm2';
+import { computeStreak } from '@/logic/streakSafe';
 
 export interface ReviewCard {
   lemma_id: number;
@@ -116,22 +118,10 @@ export async function recentActivity(days: number, now: Date): Promise<DayActivi
   );
 }
 
-/** Consecutive active days ending today or yesterday. */
+/**
+ * Consecutive counted days ending today or yesterday. Freeze-protected days
+ * (Streak-Retter, see streakRepo) count like active ones.
+ */
 export async function currentStreak(now: Date): Promise<number> {
-  const rows = await getDb().getAllAsync<{ day: string }>(
-    'SELECT day FROM daily_activity WHERE reviews_done > 0 OR quiz_done > 0 OR words_saved > 0 OR games_played > 0 ORDER BY day DESC LIMIT 400'
-  );
-  const active = new Set(rows.map((r) => r.day));
-  const DAY = 24 * 60 * 60 * 1000;
-  let cursor = now.getTime();
-  const today = now.toISOString().slice(0, 10);
-  if (!active.has(today)) cursor -= DAY; // streak may still be alive from yesterday
-  let streak = 0;
-  for (;;) {
-    const day = new Date(cursor).toISOString().slice(0, 10);
-    if (!active.has(day)) break;
-    streak++;
-    cursor -= DAY;
-  }
-  return streak;
+  return computeStreak(await countedDays(), now);
 }

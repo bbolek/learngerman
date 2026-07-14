@@ -96,6 +96,38 @@ export const MIGRATIONS: string[] = [
   );
   CREATE INDEX IF NOT EXISTS idx_grammar_srs_due ON grammar_srs(due_at);
   `,
+  // v6 — gamification: XP ledger, daily-quest claims, achievement unlocks and
+  // freeze-protected streak days. No content FKs — everything survives
+  // content swaps untouched. Freeze count itself lives in user_meta
+  // ('streak_freezes'), spending is a negative xp_events row.
+  `
+  CREATE TABLE IF NOT EXISTS xp_events (
+    id INTEGER PRIMARY KEY,
+    kind TEXT NOT NULL,
+    amount INTEGER NOT NULL,
+    day TEXT NOT NULL,
+    created_at TEXT NOT NULL
+  );
+  CREATE INDEX IF NOT EXISTS idx_xp_events_day ON xp_events(day);
+
+  CREATE TABLE IF NOT EXISTS quest_claims (
+    day TEXT NOT NULL,
+    quest_key TEXT NOT NULL,
+    xp INTEGER NOT NULL,
+    claimed_at TEXT NOT NULL,
+    PRIMARY KEY (day, quest_key)
+  );
+
+  CREATE TABLE IF NOT EXISTS achievements_unlocked (
+    id TEXT PRIMARY KEY,
+    unlocked_at TEXT NOT NULL
+  );
+
+  CREATE TABLE IF NOT EXISTS streak_freeze_days (
+    day TEXT PRIMARY KEY,
+    used_at TEXT NOT NULL
+  );
+  `,
 ];
 
 export async function runMigrations(db: SQLiteDatabase): Promise<void> {

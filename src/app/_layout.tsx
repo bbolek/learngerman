@@ -17,6 +17,7 @@ import { AppState } from 'react-native';
 import { initDatabase } from '@/db/client';
 import { useSettings } from '@/store/settings';
 import { TourController } from '@/tour/TourController';
+import { CelebrationOverlay } from '@/ui/components/CelebrationOverlay';
 import { palettes } from '@/ui/theme';
 import { useThemeName } from '@/ui/useTheme';
 
@@ -104,6 +105,7 @@ export default function RootLayout() {
         <Stack.Screen name="duel/index" options={{ gestureEnabled: false }} />
         <Stack.Screen name="duel/play" options={{ gestureEnabled: false }} />
       </Stack>
+      <CelebrationOverlay />
       <TourController />
     </ThemeProvider>
   );

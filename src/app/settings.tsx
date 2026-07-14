@@ -116,6 +116,23 @@ export default function SettingsScreen() {
       <Card style={styles.section}>
         <View style={styles.switchRow}>
           <View style={{ flex: 1 }}>
+            <AppText variant="subtitle">Soundeffekte</AppText>
+            <AppText variant="caption" muted style={{ marginTop: 2 }}>
+              Kurze Töne bei Antworten, Level-Aufstiegen und Erfolgen
+            </AppText>
+          </View>
+          <Switch
+            value={settings.soundEnabled}
+            onValueChange={settings.setSoundEnabled}
+            trackColor={{ true: t.primary, false: t.line }}
+            thumbColor="#fff"
+          />
+        </View>
+      </Card>
+
+      <Card style={styles.section}>
+        <View style={styles.switchRow}>
+          <View style={{ flex: 1 }}>
             <AppText variant="subtitle">Aktives Tippen</AppText>
             <AppText variant="caption" muted style={{ marginTop: 2 }}>
               Bekannte Wörter aktiv eintippen statt nur umdrehen — als Lückentext oder

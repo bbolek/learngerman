@@ -29,7 +29,8 @@
   {
     "lemma": "beenden", "pos": "verb",
     "synonyms": [
-      { "lemma": "aufhören", "note": "ohne Objekt: mit etwas aufhören" }
+      { "lemma": "aufhören", "note": "ohne Objekt: mit etwas aufhören" },
+      { "lemma": "abschließen", "note": "erfolgreich zu Ende bringen" }
     ]
   },
   {
@@ -284,7 +285,8 @@
   {
     "lemma": "verwenden", "pos": "verb",
     "synonyms": [
-      { "lemma": "benutzen", "note": "alltäglicher" }
+      { "lemma": "benutzen", "note": "alltäglicher" },
+      { "lemma": "einsetzen", "note": "für Werkzeuge und Mittel" }
     ]
   },
   {
@@ -333,7 +335,8 @@
   {
     "lemma": "sofort", "pos": "adv",
     "synonyms": [
-      { "lemma": "gleich", "note": "etwas später, weniger dringend" }
+      { "lemma": "gleich", "note": "etwas später, weniger dringend" },
+      { "lemma": "umgehend", "note": "formeller" }
     ]
   },
   {
@@ -443,7 +446,8 @@
   {
     "lemma": "daher", "pos": "adv",
     "synonyms": [
-      { "lemma": "deshalb", "note": "alltäglicher" }
+      { "lemma": "deshalb", "note": "alltäglicher" },
+      { "lemma": "folglich", "note": "formeller" }
     ]
   },
   {
@@ -495,7 +499,8 @@
   {
     "lemma": "Region", "pos": "noun",
     "synonyms": [
-      { "lemma": "Gegend", "note": "alltäglicher" }
+      { "lemma": "Gegend", "note": "alltäglicher" },
+      { "lemma": "Gebiet" }
     ]
   },
   {
@@ -551,7 +556,8 @@
   {
     "lemma": "bestimmt", "pos": "adv",
     "synonyms": [
-      { "lemma": "sicher" }
+      { "lemma": "sicher" },
+      { "lemma": "sicherlich" }
     ]
   },
   {
@@ -737,7 +743,8 @@
   {
     "lemma": "unterstützen", "pos": "verb",
     "synonyms": [
-      { "lemma": "helfen", "note": "alltäglicher" }
+      { "lemma": "helfen", "note": "alltäglicher" },
+      { "lemma": "fördern", "note": "gezielt, z. B. mit Programmen und Geld" }
     ]
   },
   {
@@ -1049,13 +1056,2135 @@
   {
     "lemma": "Chef", "pos": "noun",
     "synonyms": [
-      { "lemma": "Leiter", "note": "offizieller Titel" }
+      { "lemma": "Leiter", "note": "offizieller Titel" },
+      { "lemma": "Vorgesetzter", "note": "formell" }
     ]
   },
   {
     "lemma": "Leiter", "pos": "noun",
     "synonyms": [
-      { "lemma": "Chef", "note": "umgangssprachlicher" }
+      { "lemma": "Chef", "note": "umgangssprachlicher" },
+      { "lemma": "Vorgesetzter", "note": "formell" }
+    ]
+  },
+  {
+    "lemma": "diskutieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erörtern", "note": "formeller, sachlich" },
+      { "lemma": "debattieren", "note": "öffentlich, z. B. im Parlament" }
+    ]
+  },
+  {
+    "lemma": "erörtern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "diskutieren", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "debattieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "diskutieren", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "beurteilen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "bewerten" },
+      { "lemma": "einschätzen", "note": "vorläufiger, als Einschätzung" }
+    ]
+  },
+  {
+    "lemma": "bewerten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beurteilen" },
+      { "lemma": "einschätzen" }
+    ]
+  },
+  {
+    "lemma": "einschätzen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beurteilen", "note": "endgültiger" }
+    ]
+  },
+  {
+    "lemma": "vermuten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "annehmen" }
+    ]
+  },
+  {
+    "lemma": "annehmen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "vermuten", "note": "als Vermutung; annehmen auch: akzeptieren" }
+    ]
+  },
+  {
+    "lemma": "fordern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verlangen" }
+    ]
+  },
+  {
+    "lemma": "verlangen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "fordern", "note": "nachdrücklicher, oft öffentlich" }
+    ]
+  },
+  {
+    "lemma": "ablehnen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verweigern", "note": "stärker" },
+      { "lemma": "zurückweisen", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "verweigern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "ablehnen", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "zurückweisen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "ablehnen", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "zustimmen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "einwilligen", "note": "formeller" },
+      { "lemma": "billigen", "note": "formell: gutheißen" }
+    ]
+  },
+  {
+    "lemma": "einwilligen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "zustimmen", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "billigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "zustimmen", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "erlauben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "gestatten", "note": "formeller" },
+      { "lemma": "genehmigen", "note": "amtlich" }
+    ]
+  },
+  {
+    "lemma": "gestatten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erlauben", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "genehmigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erlauben", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "verbieten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "untersagen", "note": "formell, amtlich" }
+    ]
+  },
+  {
+    "lemma": "untersagen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verbieten", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "beobachten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "betrachten", "note": "ruhig und genau ansehen" }
+    ]
+  },
+  {
+    "lemma": "betrachten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beobachten", "note": "über längere Zeit" }
+    ]
+  },
+  {
+    "lemma": "untersuchen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erforschen", "note": "wissenschaftlich" },
+      { "lemma": "analysieren", "note": "systematisch" },
+      { "lemma": "prüfen", "note": "kontrollieren" }
+    ]
+  },
+  {
+    "lemma": "erforschen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "untersuchen", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "analysieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "untersuchen", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "prüfen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "untersuchen", "note": "gründlicher" }
+    ]
+  },
+  {
+    "lemma": "beweisen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "belegen", "note": "mit Dokumenten oder Zahlen" },
+      { "lemma": "nachweisen", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "belegen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beweisen", "note": "stärker" },
+      { "lemma": "nachweisen" }
+    ]
+  },
+  {
+    "lemma": "nachweisen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beweisen" },
+      { "lemma": "belegen" }
+    ]
+  },
+  {
+    "lemma": "erwähnen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "anmerken", "note": "als Kommentar" },
+      { "lemma": "bemerken", "note": "beiläufig" }
+    ]
+  },
+  {
+    "lemma": "anmerken", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erwähnen" }
+    ]
+  },
+  {
+    "lemma": "bemerken", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erwähnen", "note": "gezielter; bemerken auch: wahrnehmen" }
+    ]
+  },
+  {
+    "lemma": "betonen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "hervorheben" },
+      { "lemma": "unterstreichen", "note": "wörtlich und bildlich" }
+    ]
+  },
+  {
+    "lemma": "hervorheben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "betonen" }
+    ]
+  },
+  {
+    "lemma": "unterstreichen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "betonen", "note": "nur bildlich" }
+    ]
+  },
+  {
+    "lemma": "verursachen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "auslösen", "note": "den Anstoß geben" },
+      { "lemma": "hervorrufen" },
+      { "lemma": "bewirken", "note": "ein Ergebnis herbeiführen" }
+    ]
+  },
+  {
+    "lemma": "auslösen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verursachen" }
+    ]
+  },
+  {
+    "lemma": "hervorrufen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verursachen" },
+      { "lemma": "auslösen" }
+    ]
+  },
+  {
+    "lemma": "bewirken", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verursachen", "note": "eher für Negatives" }
+    ]
+  },
+  {
+    "lemma": "verringern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "reduzieren" },
+      { "lemma": "senken", "note": "z. B. Preise und Kosten" }
+    ]
+  },
+  {
+    "lemma": "reduzieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verringern" },
+      { "lemma": "senken" }
+    ]
+  },
+  {
+    "lemma": "senken", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verringern" },
+      { "lemma": "reduzieren" }
+    ]
+  },
+  {
+    "lemma": "erhöhen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "steigern" }
+    ]
+  },
+  {
+    "lemma": "steigern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erhöhen" }
+    ]
+  },
+  {
+    "lemma": "verbessern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "optimieren", "note": "fachsprachlich" }
+    ]
+  },
+  {
+    "lemma": "optimieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verbessern", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "vermeiden", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verhindern", "note": "aktiv stoppen" }
+    ]
+  },
+  {
+    "lemma": "verhindern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "vermeiden", "note": "aus dem Weg gehen" }
+    ]
+  },
+  {
+    "lemma": "abschließen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beenden", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "informieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "benachrichtigen", "note": "über ein Ereignis" },
+      { "lemma": "verständigen", "note": "formell, oft amtlich" }
+    ]
+  },
+  {
+    "lemma": "benachrichtigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "informieren", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "verständigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "benachrichtigen" },
+      { "lemma": "informieren" }
+    ]
+  },
+  {
+    "lemma": "empfehlen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "raten" }
+    ]
+  },
+  {
+    "lemma": "raten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "empfehlen", "note": "konkreter; raten auch: eine Antwort erraten" }
+    ]
+  },
+  {
+    "lemma": "überzeugen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "überreden", "note": "zum Handeln bringen, oft gegen den Willen" }
+    ]
+  },
+  {
+    "lemma": "überreden", "pos": "verb",
+    "synonyms": [
+      { "lemma": "überzeugen", "note": "mit Argumenten" }
+    ]
+  },
+  {
+    "lemma": "kritisieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "bemängeln" },
+      { "lemma": "beanstanden", "note": "formell, z. B. eine Ware" }
+    ]
+  },
+  {
+    "lemma": "bemängeln", "pos": "verb",
+    "synonyms": [
+      { "lemma": "kritisieren", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "beanstanden", "pos": "verb",
+    "synonyms": [
+      { "lemma": "kritisieren", "note": "allgemeiner" },
+      { "lemma": "bemängeln" }
+    ]
+  },
+  {
+    "lemma": "loben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "würdigen", "note": "formell, feierlich" }
+    ]
+  },
+  {
+    "lemma": "würdigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "loben", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "entlassen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "kündigen", "note": "jemandem kündigen" }
+    ]
+  },
+  {
+    "lemma": "kündigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "entlassen", "note": "nur der Arbeitgeber" }
+    ]
+  },
+  {
+    "lemma": "einstellen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "anstellen" },
+      { "lemma": "beschäftigen", "note": "dauerhaft als Arbeitgeber" }
+    ]
+  },
+  {
+    "lemma": "anstellen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "einstellen" },
+      { "lemma": "beschäftigen" }
+    ]
+  },
+  {
+    "lemma": "beschäftigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "anstellen", "note": "der Vorgang der Einstellung" }
+    ]
+  },
+  {
+    "lemma": "einsetzen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verwenden", "note": "allgemeiner" },
+      { "lemma": "benutzen" }
+    ]
+  },
+  {
+    "lemma": "durchführen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "umsetzen", "note": "einen Plan in die Tat" },
+      { "lemma": "realisieren", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "umsetzen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "durchführen" },
+      { "lemma": "verwirklichen" }
+    ]
+  },
+  {
+    "lemma": "realisieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verwirklichen" },
+      { "lemma": "umsetzen" }
+    ]
+  },
+  {
+    "lemma": "verwirklichen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "realisieren" },
+      { "lemma": "umsetzen" }
+    ]
+  },
+  {
+    "lemma": "planen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beabsichtigen", "note": "formeller" },
+      { "lemma": "vorhaben", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "beabsichtigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "planen" },
+      { "lemma": "vorhaben", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "vorhaben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "planen", "note": "konkreter, mit Plan" }
+    ]
+  },
+  {
+    "lemma": "gestehen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "zugeben" },
+      { "lemma": "einräumen", "note": "formell, zögernd" }
+    ]
+  },
+  {
+    "lemma": "zugeben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "gestehen", "note": "stärker, z. B. vor Gericht" },
+      { "lemma": "einräumen", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "einräumen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "zugeben", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "leugnen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "bestreiten" },
+      { "lemma": "abstreiten" }
+    ]
+  },
+  {
+    "lemma": "bestreiten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "leugnen", "note": "stärker" }
+    ]
+  },
+  {
+    "lemma": "abstreiten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "leugnen" },
+      { "lemma": "bestreiten" }
+    ]
+  },
+  {
+    "lemma": "fördern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "unterstützen", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "gefährden", "pos": "verb",
+    "synonyms": [
+      { "lemma": "bedrohen", "note": "direkter, mit Absicht" }
+    ]
+  },
+  {
+    "lemma": "bedrohen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "gefährden", "note": "indirekter" }
+    ]
+  },
+  {
+    "lemma": "geschehen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "passieren", "note": "alltäglicher" },
+      { "lemma": "vorkommen", "note": "immer wieder auftreten" }
+    ]
+  },
+  {
+    "lemma": "passieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "geschehen", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "vorkommen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "passieren" },
+      { "lemma": "geschehen", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "erreichen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erzielen", "note": "ein Ergebnis oder Punkte" }
+    ]
+  },
+  {
+    "lemma": "erzielen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "erreichen", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "berücksichtigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "einbeziehen" }
+    ]
+  },
+  {
+    "lemma": "einbeziehen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "berücksichtigen" }
+    ]
+  },
+  {
+    "lemma": "schildern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beschreiben", "note": "neutraler" },
+      { "lemma": "darstellen" }
+    ]
+  },
+  {
+    "lemma": "beschreiben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "schildern", "note": "lebendiger, ausführlicher" },
+      { "lemma": "darstellen" }
+    ]
+  },
+  {
+    "lemma": "darstellen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "beschreiben" },
+      { "lemma": "schildern" }
+    ]
+  },
+  {
+    "lemma": "äußern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "ausdrücken" },
+      { "lemma": "formulieren", "note": "genau in Worte fassen" }
+    ]
+  },
+  {
+    "lemma": "ausdrücken", "pos": "verb",
+    "synonyms": [
+      { "lemma": "äußern" },
+      { "lemma": "formulieren" }
+    ]
+  },
+  {
+    "lemma": "formulieren", "pos": "verb",
+    "synonyms": [
+      { "lemma": "ausdrücken" }
+    ]
+  },
+  {
+    "lemma": "befürchten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "fürchten" }
+    ]
+  },
+  {
+    "lemma": "fürchten", "pos": "verb",
+    "synonyms": [
+      { "lemma": "befürchten", "note": "nur: etwas Schlechtes erwarten" }
+    ]
+  },
+  {
+    "lemma": "bewältigen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "meistern" },
+      { "lemma": "schaffen", "note": "alltäglich" }
+    ]
+  },
+  {
+    "lemma": "meistern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "bewältigen" },
+      { "lemma": "schaffen", "note": "alltäglich" }
+    ]
+  },
+  {
+    "lemma": "schaffen", "pos": "verb",
+    "synonyms": [
+      { "lemma": "bewältigen", "note": "formeller" },
+      { "lemma": "meistern" }
+    ]
+  },
+  {
+    "lemma": "verzögern", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verschieben", "note": "bewusst auf später legen" }
+    ]
+  },
+  {
+    "lemma": "verschieben", "pos": "verb",
+    "synonyms": [
+      { "lemma": "verzögern", "note": "sich verzögern: später werden" }
+    ]
+  },
+  {
+    "lemma": "wichtig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "wesentlich", "note": "formeller" },
+      { "lemma": "entscheidend", "note": "stärker" },
+      { "lemma": "zentral" }
+    ]
+  },
+  {
+    "lemma": "wesentlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "wichtig" },
+      { "lemma": "entscheidend" }
+    ]
+  },
+  {
+    "lemma": "entscheidend", "pos": "adj",
+    "synonyms": [
+      { "lemma": "wichtig", "note": "schwächer" },
+      { "lemma": "wesentlich" }
+    ]
+  },
+  {
+    "lemma": "zentral", "pos": "adj",
+    "synonyms": [
+      { "lemma": "wichtig" },
+      { "lemma": "wesentlich" }
+    ]
+  },
+  {
+    "lemma": "erheblich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "wesentlich" },
+      { "lemma": "deutlich", "note": "spürbar groß" }
+    ]
+  },
+  {
+    "lemma": "ernst", "pos": "adj",
+    "synonyms": [
+      { "lemma": "ernsthaft", "note": "eher für Absichten und Bemühungen" }
+    ]
+  },
+  {
+    "lemma": "ernsthaft", "pos": "adj",
+    "synonyms": [
+      { "lemma": "ernst" }
+    ]
+  },
+  {
+    "lemma": "deutlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "eindeutig", "note": "ohne Zweifel" },
+      { "lemma": "klar" },
+      { "lemma": "offensichtlich", "pos": "adj", "note": "sofort erkennbar" }
+    ]
+  },
+  {
+    "lemma": "eindeutig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "deutlich" },
+      { "lemma": "klar" }
+    ]
+  },
+  {
+    "lemma": "klar", "pos": "adj",
+    "synonyms": [
+      { "lemma": "deutlich" },
+      { "lemma": "eindeutig" }
+    ]
+  },
+  {
+    "lemma": "offensichtlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "offenkundig", "note": "formeller" },
+      { "lemma": "deutlich" }
+    ]
+  },
+  {
+    "lemma": "offenkundig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "offensichtlich", "pos": "adj", "note": "alltäglicher" },
+      { "lemma": "eindeutig" }
+    ]
+  },
+  {
+    "lemma": "notwendig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "erforderlich", "note": "formeller" },
+      { "lemma": "nötig", "note": "alltäglicher" },
+      { "lemma": "unerlässlich", "note": "unbedingt notwendig" }
+    ]
+  },
+  {
+    "lemma": "erforderlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "notwendig" },
+      { "lemma": "nötig" }
+    ]
+  },
+  {
+    "lemma": "nötig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "notwendig" }
+    ]
+  },
+  {
+    "lemma": "unerlässlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "notwendig", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "umfangreich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "umfassend" },
+      { "lemma": "ausführlich", "note": "für Texte und Erklärungen" }
+    ]
+  },
+  {
+    "lemma": "umfassend", "pos": "adj",
+    "synonyms": [
+      { "lemma": "umfangreich" },
+      { "lemma": "vollständig" }
+    ]
+  },
+  {
+    "lemma": "ausführlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "umfassend" }
+    ]
+  },
+  {
+    "lemma": "knapp", "pos": "adj",
+    "synonyms": [
+      { "lemma": "kurz", "note": "knapp auch: fast nicht genug" }
+    ]
+  },
+  {
+    "lemma": "kurz", "pos": "adj",
+    "synonyms": [
+      { "lemma": "knapp", "note": "auch: kaum ausreichend" }
+    ]
+  },
+  {
+    "lemma": "geeignet", "pos": "adj",
+    "synonyms": [
+      { "lemma": "angemessen" },
+      { "lemma": "angebracht" }
+    ]
+  },
+  {
+    "lemma": "angemessen", "pos": "adj",
+    "synonyms": [
+      { "lemma": "angebracht" },
+      { "lemma": "geeignet" }
+    ]
+  },
+  {
+    "lemma": "angebracht", "pos": "adj",
+    "synonyms": [
+      { "lemma": "angemessen" }
+    ]
+  },
+  {
+    "lemma": "nützlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "sinnvoll" }
+    ]
+  },
+  {
+    "lemma": "sinnvoll", "pos": "adj",
+    "synonyms": [
+      { "lemma": "nützlich" }
+    ]
+  },
+  {
+    "lemma": "reich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "vermögend", "note": "formell" }
+    ]
+  },
+  {
+    "lemma": "vermögend", "pos": "adj",
+    "synonyms": [
+      { "lemma": "reich", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "zuverlässig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "verlässlich" },
+      { "lemma": "vertrauenswürdig" }
+    ]
+  },
+  {
+    "lemma": "verlässlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "zuverlässig" }
+    ]
+  },
+  {
+    "lemma": "vertrauenswürdig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "zuverlässig" }
+    ]
+  },
+  {
+    "lemma": "ehrlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "aufrichtig", "note": "formeller" },
+      { "lemma": "offen", "note": "direkt, nichts verbergend" }
+    ]
+  },
+  {
+    "lemma": "aufrichtig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "ehrlich", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "mutig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "tapfer", "note": "auch beim Ertragen von Schmerz" }
+    ]
+  },
+  {
+    "lemma": "tapfer", "pos": "adj",
+    "synonyms": [
+      { "lemma": "mutig" }
+    ]
+  },
+  {
+    "lemma": "faul", "pos": "adj",
+    "synonyms": [
+      { "lemma": "träge", "note": "langsam, ohne Energie" }
+    ]
+  },
+  {
+    "lemma": "träge", "pos": "adj",
+    "synonyms": [
+      { "lemma": "faul", "note": "ohne Lust zu arbeiten" }
+    ]
+  },
+  {
+    "lemma": "freundlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "nett", "note": "alltäglicher" },
+      { "lemma": "herzlich", "note": "wärmer" }
+    ]
+  },
+  {
+    "lemma": "nett", "pos": "adj",
+    "synonyms": [
+      { "lemma": "freundlich" }
+    ]
+  },
+  {
+    "lemma": "herzlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "freundlich", "note": "kühler" }
+    ]
+  },
+  {
+    "lemma": "höflich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "freundlich", "note": "höflich = gute Manieren" }
+    ]
+  },
+  {
+    "lemma": "unhöflich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "unfreundlich" },
+      { "lemma": "schroff", "note": "stärker" }
+    ]
+  },
+  {
+    "lemma": "unfreundlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "unhöflich" },
+      { "lemma": "schroff", "note": "stärker" }
+    ]
+  },
+  {
+    "lemma": "schroff", "pos": "adj",
+    "synonyms": [
+      { "lemma": "unhöflich", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "sparsam", "pos": "adj",
+    "synonyms": [
+      { "lemma": "geizig", "note": "negativ: zu sparsam" }
+    ]
+  },
+  {
+    "lemma": "geizig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "sparsam", "note": "positiv oder neutral" }
+    ]
+  },
+  {
+    "lemma": "stolz", "pos": "adj",
+    "synonyms": [
+      { "lemma": "eingebildet", "note": "negativ" },
+      { "lemma": "arrogant", "note": "negativ" }
+    ]
+  },
+  {
+    "lemma": "eingebildet", "pos": "adj",
+    "synonyms": [
+      { "lemma": "arrogant" },
+      { "lemma": "stolz", "note": "positiv oder neutral" }
+    ]
+  },
+  {
+    "lemma": "arrogant", "pos": "adj",
+    "synonyms": [
+      { "lemma": "eingebildet", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "bescheiden", "pos": "adj",
+    "synonyms": [
+      { "lemma": "zurückhaltend" }
+    ]
+  },
+  {
+    "lemma": "zurückhaltend", "pos": "adj",
+    "synonyms": [
+      { "lemma": "bescheiden" }
+    ]
+  },
+  {
+    "lemma": "gewöhnlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "normal" },
+      { "lemma": "üblich" }
+    ]
+  },
+  {
+    "lemma": "normal", "pos": "adj",
+    "synonyms": [
+      { "lemma": "gewöhnlich" },
+      { "lemma": "üblich" }
+    ]
+  },
+  {
+    "lemma": "üblich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "gewöhnlich" },
+      { "lemma": "normal" }
+    ]
+  },
+  {
+    "lemma": "ungewöhnlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "außergewöhnlich", "note": "stärker, oft positiv" },
+      { "lemma": "seltsam", "note": "negativer" }
+    ]
+  },
+  {
+    "lemma": "außergewöhnlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "ungewöhnlich", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "allmählich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "schrittweise" },
+      { "lemma": "langsam" }
+    ]
+  },
+  {
+    "lemma": "schrittweise", "pos": "adv",
+    "synonyms": [
+      { "lemma": "allmählich" }
+    ]
+  },
+  {
+    "lemma": "ständig", "pos": "adv",
+    "synonyms": [
+      { "lemma": "dauernd" },
+      { "lemma": "andauernd" },
+      { "lemma": "fortwährend", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "dauernd", "pos": "adv",
+    "synonyms": [
+      { "lemma": "ständig" },
+      { "lemma": "andauernd" }
+    ]
+  },
+  {
+    "lemma": "andauernd", "pos": "adv",
+    "synonyms": [
+      { "lemma": "ständig" },
+      { "lemma": "dauernd" }
+    ]
+  },
+  {
+    "lemma": "fortwährend", "pos": "adv",
+    "synonyms": [
+      { "lemma": "ständig", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "vorübergehend", "pos": "adj",
+    "synonyms": [
+      { "lemma": "zeitweise" }
+    ]
+  },
+  {
+    "lemma": "zeitweise", "pos": "adv",
+    "synonyms": [
+      { "lemma": "vorübergehend", "pos": "adj" }
+    ]
+  },
+  {
+    "lemma": "gegenwärtig", "pos": "adv",
+    "synonyms": [
+      { "lemma": "aktuell" },
+      { "lemma": "momentan" }
+    ]
+  },
+  {
+    "lemma": "aktuell", "pos": "adj",
+    "synonyms": [
+      { "lemma": "gegenwärtig", "note": "formeller" },
+      { "lemma": "momentan" }
+    ]
+  },
+  {
+    "lemma": "momentan", "pos": "adv",
+    "synonyms": [
+      { "lemma": "gegenwärtig", "note": "formeller" },
+      { "lemma": "aktuell" }
+    ]
+  },
+  {
+    "lemma": "künftig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "zukünftig" }
+    ]
+  },
+  {
+    "lemma": "zukünftig", "pos": "adv",
+    "synonyms": [
+      { "lemma": "künftig" }
+    ]
+  },
+  {
+    "lemma": "gesamt", "pos": "adj",
+    "synonyms": [
+      { "lemma": "vollständig" }
+    ]
+  },
+  {
+    "lemma": "vollständig", "pos": "adj",
+    "synonyms": [
+      { "lemma": "gesamt", "note": "als Ganzes" },
+      { "lemma": "umfassend" }
+    ]
+  },
+  {
+    "lemma": "genau", "pos": "adv",
+    "synonyms": [
+      { "lemma": "präzise", "note": "formeller" },
+      { "lemma": "exakt" }
+    ]
+  },
+  {
+    "lemma": "präzise", "pos": "adj",
+    "synonyms": [
+      { "lemma": "genau" },
+      { "lemma": "exakt" }
+    ]
+  },
+  {
+    "lemma": "exakt", "pos": "adj",
+    "synonyms": [
+      { "lemma": "genau" },
+      { "lemma": "präzise" }
+    ]
+  },
+  {
+    "lemma": "sachlich", "pos": "adj",
+    "synonyms": [
+      { "lemma": "objektiv" },
+      { "lemma": "neutral" }
+    ]
+  },
+  {
+    "lemma": "objektiv", "pos": "adj",
+    "synonyms": [
+      { "lemma": "sachlich" },
+      { "lemma": "neutral" }
+    ]
+  },
+  {
+    "lemma": "neutral", "pos": "adj",
+    "synonyms": [
+      { "lemma": "sachlich" },
+      { "lemma": "objektiv" }
+    ]
+  },
+  {
+    "lemma": "Ziel", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Absicht", "note": "was man erreichen will" },
+      { "lemma": "Zweck", "note": "wofür etwas dient" }
+    ]
+  },
+  {
+    "lemma": "Absicht", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Ziel" },
+      { "lemma": "Zweck" }
+    ]
+  },
+  {
+    "lemma": "Zweck", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Ziel" },
+      { "lemma": "Absicht" }
+    ]
+  },
+  {
+    "lemma": "Ergebnis", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Ausgang", "note": "wie etwas endet" }
+    ]
+  },
+  {
+    "lemma": "Ursache", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Grund" },
+      { "lemma": "Anlass", "note": "der konkrete Auslöser" },
+      { "lemma": "Auslöser" }
+    ]
+  },
+  {
+    "lemma": "Grund", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Ursache", "note": "sachlicher" },
+      { "lemma": "Anlass" }
+    ]
+  },
+  {
+    "lemma": "Anlass", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Grund" },
+      { "lemma": "Auslöser" }
+    ]
+  },
+  {
+    "lemma": "Folge", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Konsequenz", "note": "formeller" },
+      { "lemma": "Auswirkung" }
+    ]
+  },
+  {
+    "lemma": "Konsequenz", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Folge", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Auswirkung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Folge" },
+      { "lemma": "Konsequenz" }
+    ]
+  },
+  {
+    "lemma": "Möglichkeit", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gelegenheit", "note": "der günstige Moment" }
+    ]
+  },
+  {
+    "lemma": "Gelegenheit", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Möglichkeit", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "Problem", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Schwierigkeit" },
+      { "lemma": "Herausforderung", "note": "positiver" }
+    ]
+  },
+  {
+    "lemma": "Schwierigkeit", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Problem" },
+      { "lemma": "Herausforderung", "note": "positiver" }
+    ]
+  },
+  {
+    "lemma": "Herausforderung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Problem", "note": "negativer" },
+      { "lemma": "Aufgabe" }
+    ]
+  },
+  {
+    "lemma": "Aufgabe", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Auftrag", "note": "von jemandem erteilt" },
+      { "lemma": "Pflicht", "note": "moralisch oder gesetzlich" }
+    ]
+  },
+  {
+    "lemma": "Pflicht", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Aufgabe", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "Auftrag", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Aufgabe", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "Meinung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Ansicht" },
+      { "lemma": "Auffassung", "note": "formeller" },
+      { "lemma": "Standpunkt" }
+    ]
+  },
+  {
+    "lemma": "Ansicht", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Meinung" },
+      { "lemma": "Auffassung" }
+    ]
+  },
+  {
+    "lemma": "Auffassung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Meinung", "note": "alltäglicher" },
+      { "lemma": "Ansicht" }
+    ]
+  },
+  {
+    "lemma": "Standpunkt", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Meinung" },
+      { "lemma": "Haltung" }
+    ]
+  },
+  {
+    "lemma": "Einstellung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Haltung" },
+      { "lemma": "Meinung" }
+    ]
+  },
+  {
+    "lemma": "Haltung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Einstellung" },
+      { "lemma": "Standpunkt" }
+    ]
+  },
+  {
+    "lemma": "Gespräch", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Unterhaltung", "note": "lockerer" },
+      { "lemma": "Dialog", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "Unterhaltung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gespräch", "note": "Unterhaltung auch: Entertainment" }
+    ]
+  },
+  {
+    "lemma": "Dialog", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gespräch", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Streit", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Auseinandersetzung", "note": "formeller" },
+      { "lemma": "Konflikt" }
+    ]
+  },
+  {
+    "lemma": "Auseinandersetzung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Streit", "note": "alltäglicher" },
+      { "lemma": "Konflikt" }
+    ]
+  },
+  {
+    "lemma": "Konflikt", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Streit", "note": "lauter, persönlicher" },
+      { "lemma": "Auseinandersetzung" }
+    ]
+  },
+  {
+    "lemma": "Vertrag", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Abkommen", "note": "zwischen Staaten" },
+      { "lemma": "Vereinbarung", "note": "informeller" }
+    ]
+  },
+  {
+    "lemma": "Abkommen", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Vertrag" },
+      { "lemma": "Vereinbarung" }
+    ]
+  },
+  {
+    "lemma": "Vereinbarung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Vertrag", "note": "formeller, schriftlich" },
+      { "lemma": "Abkommen" }
+    ]
+  },
+  {
+    "lemma": "Gehalt", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Lohn", "note": "für Arbeiter, oft pro Stunde" },
+      { "lemma": "Einkommen", "note": "alles Geld zusammen" },
+      { "lemma": "Vergütung", "note": "formell" }
+    ]
+  },
+  {
+    "lemma": "Lohn", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gehalt", "note": "monatlich, für Angestellte" },
+      { "lemma": "Einkommen" }
+    ]
+  },
+  {
+    "lemma": "Einkommen", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gehalt" },
+      { "lemma": "Lohn" }
+    ]
+  },
+  {
+    "lemma": "Vergütung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gehalt" },
+      { "lemma": "Lohn" }
+    ]
+  },
+  {
+    "lemma": "Kunde", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Verbraucher", "note": "rechtlich, wirtschaftlich" },
+      { "lemma": "Konsument" }
+    ]
+  },
+  {
+    "lemma": "Verbraucher", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Kunde", "note": "einer konkreten Firma" },
+      { "lemma": "Konsument" }
+    ]
+  },
+  {
+    "lemma": "Konsument", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Verbraucher" },
+      { "lemma": "Kunde" }
+    ]
+  },
+  {
+    "lemma": "Fehler", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Irrtum", "note": "falsche Annahme" },
+      { "lemma": "Mangel", "note": "an einem Produkt" }
+    ]
+  },
+  {
+    "lemma": "Irrtum", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Fehler", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "Mangel", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Defizit", "note": "formeller" },
+      { "lemma": "Knappheit", "note": "zu wenig vorhanden" }
+    ]
+  },
+  {
+    "lemma": "Defizit", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Mangel" }
+    ]
+  },
+  {
+    "lemma": "Knappheit", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Mangel" }
+    ]
+  },
+  {
+    "lemma": "Angst", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Sorge", "note": "schwächer, rationaler" }
+    ]
+  },
+  {
+    "lemma": "Sorge", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Angst", "note": "stärker" }
+    ]
+  },
+  {
+    "lemma": "Freude", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Vergnügen" },
+      { "lemma": "Spaß", "note": "alltäglicher" },
+      { "lemma": "Begeisterung", "note": "stärker" }
+    ]
+  },
+  {
+    "lemma": "Vergnügen", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Freude" },
+      { "lemma": "Spaß" }
+    ]
+  },
+  {
+    "lemma": "Spaß", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Vergnügen", "note": "formeller" },
+      { "lemma": "Freude" }
+    ]
+  },
+  {
+    "lemma": "Begeisterung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Freude", "note": "schwächer" }
+    ]
+  },
+  {
+    "lemma": "Beginn", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Anfang", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Anfang", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Beginn", "note": "formeller" }
+    ]
+  },
+  {
+    "lemma": "Ende", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Schluss", "note": "alltäglicher" },
+      { "lemma": "Abschluss", "note": "erfolgreich beendet" }
+    ]
+  },
+  {
+    "lemma": "Schluss", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Ende" },
+      { "lemma": "Abschluss" }
+    ]
+  },
+  {
+    "lemma": "Abschluss", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Ende" },
+      { "lemma": "Schluss" }
+    ]
+  },
+  {
+    "lemma": "Gebiet", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Bereich", "note": "abstrakt: Themengebiet" },
+      { "lemma": "Region", "note": "geografisch" },
+      { "lemma": "Feld", "note": "fachlich" }
+    ]
+  },
+  {
+    "lemma": "Bereich", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gebiet" },
+      { "lemma": "Feld" },
+      { "lemma": "Sektor", "note": "wirtschaftlich" }
+    ]
+  },
+  {
+    "lemma": "Feld", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Bereich" },
+      { "lemma": "Gebiet", "note": "Feld auch: Acker" }
+    ]
+  },
+  {
+    "lemma": "Sektor", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Bereich" }
+    ]
+  },
+  {
+    "lemma": "Menge", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Anzahl", "note": "zählbare Dinge" }
+    ]
+  },
+  {
+    "lemma": "Anzahl", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Menge", "note": "auch nicht zählbar" }
+    ]
+  },
+  {
+    "lemma": "Methode", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Verfahren", "note": "technisch, formell" },
+      { "lemma": "Vorgehen" }
+    ]
+  },
+  {
+    "lemma": "Verfahren", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Methode", "note": "Verfahren auch: Gerichtsverfahren" }
+    ]
+  },
+  {
+    "lemma": "Vorgehen", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Methode" },
+      { "lemma": "Verfahren" }
+    ]
+  },
+  {
+    "lemma": "Beweis", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Beleg", "note": "Dokument oder Quittung" },
+      { "lemma": "Nachweis", "note": "formell" }
+    ]
+  },
+  {
+    "lemma": "Beleg", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Beweis", "note": "stärker" },
+      { "lemma": "Nachweis" }
+    ]
+  },
+  {
+    "lemma": "Nachweis", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Beweis" },
+      { "lemma": "Beleg" }
+    ]
+  },
+  {
+    "lemma": "Hinweis", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Tipp", "note": "freundlich, hilfreich" }
+    ]
+  },
+  {
+    "lemma": "Tipp", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Hinweis", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "Nachricht", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Mitteilung", "note": "formeller" },
+      { "lemma": "Meldung", "note": "in den Medien" },
+      { "lemma": "Botschaft" }
+    ]
+  },
+  {
+    "lemma": "Mitteilung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Nachricht", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Meldung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Nachricht" },
+      { "lemma": "Mitteilung" }
+    ]
+  },
+  {
+    "lemma": "Botschaft", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Nachricht", "note": "Botschaft auch: diplomatische Vertretung" }
+    ]
+  },
+  {
+    "lemma": "Krankheit", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Erkrankung", "note": "formeller, medizinisch" }
+    ]
+  },
+  {
+    "lemma": "Erkrankung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Krankheit", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Medikament", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Arzneimittel", "note": "formell, rechtlich" }
+    ]
+  },
+  {
+    "lemma": "Arzneimittel", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Medikament", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Gefahr", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Risiko", "note": "kalkulierbar" }
+    ]
+  },
+  {
+    "lemma": "Risiko", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Gefahr", "note": "direkter" }
+    ]
+  },
+  {
+    "lemma": "Reise", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Fahrt", "note": "kürzer, mit einem Fahrzeug" }
+    ]
+  },
+  {
+    "lemma": "Fahrt", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Reise", "note": "länger" }
+    ]
+  },
+  {
+    "lemma": "Bewohner", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Einwohner", "note": "einer Stadt oder eines Landes" }
+    ]
+  },
+  {
+    "lemma": "Einwohner", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Bewohner", "note": "eines Hauses oder Gebiets" }
+    ]
+  },
+  {
+    "lemma": "Mitarbeiter", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Angestellter", "note": "mit festem Vertrag" },
+      { "lemma": "Arbeitnehmer", "note": "rechtlich" }
+    ]
+  },
+  {
+    "lemma": "Angestellter", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Mitarbeiter" },
+      { "lemma": "Arbeitnehmer", "note": "rechtlich" }
+    ]
+  },
+  {
+    "lemma": "Arbeitnehmer", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Mitarbeiter" },
+      { "lemma": "Angestellter" }
+    ]
+  },
+  {
+    "lemma": "Vorgesetzter", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Chef", "note": "umgangssprachlicher" },
+      { "lemma": "Leiter" }
+    ]
+  },
+  {
+    "lemma": "Wissenschaftler", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Forscher" }
+    ]
+  },
+  {
+    "lemma": "Forscher", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Wissenschaftler" }
+    ]
+  },
+  {
+    "lemma": "Verfasser", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Autor", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Autor", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Verfasser", "note": "formell, z. B. eines Briefs" }
+    ]
+  },
+  {
+    "lemma": "Zuschauer", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Publikum", "note": "alle Zuschauer zusammen" }
+    ]
+  },
+  {
+    "lemma": "Publikum", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Zuschauer" }
+    ]
+  },
+  {
+    "lemma": "Wettkampf", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Wettbewerb", "note": "auch außerhalb des Sports" },
+      { "lemma": "Turnier", "note": "mit mehreren Runden" }
+    ]
+  },
+  {
+    "lemma": "Wettbewerb", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Wettkampf", "note": "sportlich" },
+      { "lemma": "Konkurrenz", "note": "wirtschaftlich" }
+    ]
+  },
+  {
+    "lemma": "Turnier", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Wettkampf" },
+      { "lemma": "Wettbewerb" }
+    ]
+  },
+  {
+    "lemma": "Konkurrenz", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Wettbewerb" }
+    ]
+  },
+  {
+    "lemma": "Mühe", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Aufwand", "note": "Zeit, Geld und Arbeit" }
+    ]
+  },
+  {
+    "lemma": "Aufwand", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Mühe" }
+    ]
+  },
+  {
+    "lemma": "Ereignis", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Vorfall", "note": "meist negativ" }
+    ]
+  },
+  {
+    "lemma": "Vorfall", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Ereignis", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "Grundsatz", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Prinzip" },
+      { "lemma": "Regel" }
+    ]
+  },
+  {
+    "lemma": "Prinzip", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Grundsatz" },
+      { "lemma": "Regel" }
+    ]
+  },
+  {
+    "lemma": "Regel", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Prinzip", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "Voraussetzung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Bedingung" }
+    ]
+  },
+  {
+    "lemma": "Bedingung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Voraussetzung" }
+    ]
+  },
+  {
+    "lemma": "Eigenschaft", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Merkmal", "note": "äußerlich erkennbar" }
+    ]
+  },
+  {
+    "lemma": "Merkmal", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Eigenschaft" }
+    ]
+  },
+  {
+    "lemma": "Unterschied", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Abweichung", "note": "von einer Norm" }
+    ]
+  },
+  {
+    "lemma": "Abweichung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Unterschied", "note": "allgemeiner" }
+    ]
+  },
+  {
+    "lemma": "Zusammenhang", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Verbindung" },
+      { "lemma": "Beziehung" }
+    ]
+  },
+  {
+    "lemma": "Verbindung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Zusammenhang" },
+      { "lemma": "Beziehung" }
+    ]
+  },
+  {
+    "lemma": "Beziehung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Verbindung", "note": "sachlicher" }
+    ]
+  },
+  {
+    "lemma": "Einfluss", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Wirkung" }
+    ]
+  },
+  {
+    "lemma": "Wirkung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Einfluss" },
+      { "lemma": "Auswirkung" }
+    ]
+  },
+  {
+    "lemma": "Entwicklung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Wandel", "note": "grundlegender" },
+      { "lemma": "Veränderung" },
+      { "lemma": "Fortschritt", "note": "positiv" }
+    ]
+  },
+  {
+    "lemma": "Wandel", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Veränderung" },
+      { "lemma": "Entwicklung" }
+    ]
+  },
+  {
+    "lemma": "Veränderung", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Wandel", "note": "größer, langsamer" },
+      { "lemma": "Entwicklung" }
+    ]
+  },
+  {
+    "lemma": "Fortschritt", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Entwicklung", "note": "neutraler" }
+    ]
+  },
+  {
+    "lemma": "außerdem", "pos": "adv",
+    "synonyms": [
+      { "lemma": "zudem", "note": "formeller" },
+      { "lemma": "überdies", "note": "formell" },
+      { "lemma": "ferner" }
+    ]
+  },
+  {
+    "lemma": "zudem", "pos": "adv",
+    "synonyms": [
+      { "lemma": "außerdem", "note": "alltäglicher" },
+      { "lemma": "ferner" }
+    ]
+  },
+  {
+    "lemma": "überdies", "pos": "adv",
+    "synonyms": [
+      { "lemma": "außerdem", "note": "alltäglicher" },
+      { "lemma": "zudem" }
+    ]
+  },
+  {
+    "lemma": "ferner", "pos": "adv",
+    "synonyms": [
+      { "lemma": "außerdem" },
+      { "lemma": "zudem" }
+    ]
+  },
+  {
+    "lemma": "folglich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "infolgedessen" },
+      { "lemma": "somit" },
+      { "lemma": "demnach" }
+    ]
+  },
+  {
+    "lemma": "infolgedessen", "pos": "adv",
+    "synonyms": [
+      { "lemma": "folglich" },
+      { "lemma": "somit" }
+    ]
+  },
+  {
+    "lemma": "somit", "pos": "adv",
+    "synonyms": [
+      { "lemma": "folglich" },
+      { "lemma": "daher" }
+    ]
+  },
+  {
+    "lemma": "demnach", "pos": "adv",
+    "synonyms": [
+      { "lemma": "folglich" },
+      { "lemma": "somit" }
+    ]
+  },
+  {
+    "lemma": "schließlich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "letztendlich" },
+      { "lemma": "letztlich" }
+    ]
+  },
+  {
+    "lemma": "letztendlich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "schließlich" },
+      { "lemma": "letztlich" }
+    ]
+  },
+  {
+    "lemma": "letztlich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "letztendlich" },
+      { "lemma": "schließlich" }
+    ]
+  },
+  {
+    "lemma": "endlich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "schließlich", "note": "endlich = nach langem Warten" }
+    ]
+  },
+  {
+    "lemma": "lediglich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "nur", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "beinahe", "pos": "adv",
+    "synonyms": [
+      { "lemma": "fast" }
+    ]
+  },
+  {
+    "lemma": "fast", "pos": "adv",
+    "synonyms": [
+      { "lemma": "beinahe", "note": "etwas formeller" }
+    ]
+  },
+  {
+    "lemma": "gewiss", "pos": "adj",
+    "synonyms": [
+      { "lemma": "sicherlich" },
+      { "lemma": "zweifellos", "note": "stärker" }
+    ]
+  },
+  {
+    "lemma": "sicherlich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "gewiss", "note": "formeller" },
+      { "lemma": "bestimmt" }
+    ]
+  },
+  {
+    "lemma": "zweifellos", "pos": "adv",
+    "synonyms": [
+      { "lemma": "gewiss" },
+      { "lemma": "sicherlich" }
+    ]
+  },
+  {
+    "lemma": "keineswegs", "pos": "adv",
+    "synonyms": [
+      { "lemma": "keinesfalls" }
+    ]
+  },
+  {
+    "lemma": "keinesfalls", "pos": "adv",
+    "synonyms": [
+      { "lemma": "keineswegs" }
+    ]
+  },
+  {
+    "lemma": "unverzüglich", "pos": "adv",
+    "synonyms": [
+      { "lemma": "sofort", "note": "alltäglicher" },
+      { "lemma": "umgehend", "note": "formell" }
+    ]
+  },
+  {
+    "lemma": "umgehend", "pos": "adv",
+    "synonyms": [
+      { "lemma": "sofort", "note": "alltäglicher" },
+      { "lemma": "unverzüglich" }
     ]
   }
 ]

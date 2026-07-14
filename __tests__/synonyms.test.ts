@@ -76,8 +76,19 @@ describe('synonym content', () => {
     expect(missing.c).toBe(0);
   });
 
-  it('ships a substantial seed set', () => {
+  it('a B2 word offers register alternatives: diskutieren → erörtern', () => {
+    const syns = synonymsFor('diskutieren').map((s) => s.syn);
+    expect(syns).toEqual(expect.arrayContaining(['erörtern', 'debattieren']));
+  });
+
+  it('ships a substantial seed set covering every CEFR level', () => {
     const total = (db.prepare('SELECT COUNT(*) c FROM synonyms').get() as { c: number }).c;
-    expect(total).toBeGreaterThan(150);
+    expect(total).toBeGreaterThan(500);
+    const levels = db
+      .prepare(
+        `SELECT DISTINCT l.level FROM synonyms s JOIN lemmas l ON l.id = s.lemma_id ORDER BY l.level`
+      )
+      .all() as { level: string }[];
+    expect(levels.map((r) => r.level)).toEqual(['A1', 'A2', 'B1', 'B2', 'C1']);
   });
 });

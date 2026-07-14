@@ -143,6 +143,547 @@
         "correctIndex": 0,
         "explanation": "wir → uns, and the pronoun follows the conjugated verb: Wir duschen uns … („[[duschen]]“)."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du freust ___ auf die Ferien.",
+        "options": [
+          "dich",
+          "dir",
+          "sich"
+        ],
+        "correctIndex": 0,
+        "explanation": "du → dich. „[[freuen]]“ takes an accusative reflexive pronoun."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir waschen ___ vor dem Essen.",
+        "options": [
+          "uns",
+          "sich",
+          "euch"
+        ],
+        "correctIndex": 0,
+        "explanation": "wir → uns. There is no other object, so the plain accusative reflexive is used."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Kinder ziehen ___ an.",
+        "options": [
+          "sich",
+          "ihnen",
+          "euch"
+        ],
+        "correctIndex": 0,
+        "explanation": "Third person plural also uses sich: Die Kinder ziehen sich an. („[[anziehen]]“)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich dusche ___ jeden Abend.",
+        "options": [
+          "mich",
+          "mir",
+          "sich"
+        ],
+        "correctIndex": 0,
+        "explanation": "ich → mich. „[[duschen]]“ can be used reflexively."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie freuen ___ über das Geschenk.",
+        "options": [
+          "sich",
+          "ihnen",
+          "euch"
+        ],
+        "correctIndex": 0,
+        "explanation": "sie (they) → sich: Sie freuen sich über das Geschenk."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er fühlt ___ heute nicht gut.",
+        "options": [
+          "sich",
+          "ihm",
+          "ihn"
+        ],
+        "correctIndex": 0,
+        "explanation": "er → sich, never ihm or ihn. („[[fühlen]]“)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Setzt ___ bitte, der Unterricht beginnt!",
+        "options": [
+          "euch",
+          "sich",
+          "uns"
+        ],
+        "correctIndex": 0,
+        "explanation": "Imperative to ihr → euch: Setzt euch! („[[setzen]]“)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Erinnerst du ___ an unseren Urlaub?",
+        "options": [
+          "dich",
+          "dir",
+          "sich"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[erinnern]]“ an takes an accusative reflexive: du → dich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich muss ___ beeilen, der Zug fährt gleich ab.",
+        "options": [
+          "mich",
+          "mir",
+          "sich"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[beeilen]]“ is always reflexive: ich → mich, right after the modal verb."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wo treffen wir ___ morgen?",
+        "options": [
+          "uns",
+          "euch",
+          "sich"
+        ],
+        "correctIndex": 0,
+        "explanation": "wir → uns: Wo treffen wir uns? („[[treffen]]“)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Interessierst du ___ für Musik?",
+        "options": [
+          "dich",
+          "dir",
+          "sich"
+        ],
+        "correctIndex": 0,
+        "explanation": "sich interessieren für — du → dich. („[[interessieren]]“)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ärgern Sie ___ nicht über den Stau!",
+        "options": [
+          "sich",
+          "Ihnen",
+          "euch"
+        ],
+        "correctIndex": 0,
+        "explanation": "Formal Sie also takes sich: Ärgern Sie sich nicht! („[[ärgern]]“)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich putze ___ die Zähne.",
+        "options": [
+          "mir",
+          "mich",
+          "sich"
+        ],
+        "correctIndex": 0,
+        "explanation": "die Zähne is the accusative object, so the reflexive pronoun is dative: mir. („[[putzen]]“)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wäschst du ___ das Gesicht?",
+        "options": [
+          "dir",
+          "dich",
+          "sich"
+        ],
+        "correctIndex": 0,
+        "explanation": "With the object das Gesicht the pronoun switches to dative: dir."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich ziehe ___ eine Jacke an.",
+        "options": [
+          "mir",
+          "mich",
+          "sich"
+        ],
+        "correctIndex": 0,
+        "explanation": "eine Jacke is the accusative object → dative reflexive: Ich ziehe mir eine Jacke an."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Kaufst du dir ein Eis?",
+          "Kaufst du dich ein Eis?",
+          "Kaufst dich du ein Eis?"
+        ],
+        "correctIndex": 0,
+        "explanation": "With an accusative object (ein Eis) the pronoun is dative: dir. („[[kaufen]]“)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er zieht ___ die Schuhe an.",
+        "options": [
+          "sich",
+          "ihm",
+          "ihn"
+        ],
+        "correctIndex": 0,
+        "explanation": "The dative reflexive for er is still sich — only ich and du show the accusative/dative difference."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich setze ___ auf das Sofa.",
+        "accept": [
+          "mich"
+        ],
+        "explanation": "ich → mich: Ich setze mich. („[[setzen]]“)"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Freut ihr ___ auf die Sommerferien?",
+        "accept": [
+          "euch"
+        ],
+        "explanation": "ihr → euch. In a question the pronoun follows the subject."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Mein Vater rasiert ___ jeden Morgen.",
+        "accept": [
+          "sich"
+        ],
+        "explanation": "Third person → sich. („[[rasieren]]“ — to shave.)"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir müssen ___ beeilen, das Kino ist weit weg.",
+        "accept": [
+          "uns"
+        ],
+        "explanation": "wir → uns; „[[beeilen]]“ is always reflexive."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Erinnern Sie ___ noch an mich?",
+        "accept": [
+          "sich"
+        ],
+        "explanation": "Formal Sie uses sich: Erinnern Sie sich noch an mich?"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Interessiert er ___ für Fußball?",
+        "accept": [
+          "sich"
+        ],
+        "explanation": "er → sich: Er interessiert sich für Fußball."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich wünsche ___ ein neues Handy.",
+        "accept": [
+          "mir"
+        ],
+        "explanation": "„[[wünschen]]“ takes a dative reflexive: Ich wünsche mir …"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Machst du ___ einen Tee?",
+        "accept": [
+          "dir"
+        ],
+        "explanation": "einen Tee is the accusative object, so the pronoun is dative: dir."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Kinder waschen ___ vor dem Essen die Hände.",
+        "accept": [
+          "sich"
+        ],
+        "explanation": "die Hände is the object, so the pronoun is dative — for third person still sich."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "freue",
+          "mich",
+          "auf",
+          "den",
+          "Sommer"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "freue",
+            "mich",
+            "auf",
+            "den",
+            "Sommer"
+          ]
+        ],
+        "translation": "I am looking forward to the summer.",
+        "explanation": "The reflexive pronoun follows the conjugated verb: Ich freue mich …"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "treffen",
+          "uns",
+          "am",
+          "Bahnhof"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "treffen",
+            "uns",
+            "am",
+            "Bahnhof"
+          ]
+        ],
+        "translation": "We are meeting at the train station.",
+        "explanation": "wir → uns, right after the verb. („[[treffen]]“)"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Sie",
+          "wäscht",
+          "sich",
+          "die",
+          "Haare"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "wäscht",
+            "sich",
+            "die",
+            "Haare"
+          ]
+        ],
+        "translation": "She washes her hair.",
+        "explanation": "German says „sich die Haare [[waschen]]“ instead of “her hair”: dative reflexive + article."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Du",
+          "musst",
+          "dich",
+          "jetzt",
+          "beeilen"
+        ],
+        "solutions": [
+          [
+            "Du",
+            "musst",
+            "dich",
+            "jetzt",
+            "beeilen"
+          ]
+        ],
+        "translation": "You have to hurry now.",
+        "explanation": "With a modal, the pronoun follows the modal and the reflexive verb goes to the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Erinnerst",
+          "du",
+          "dich",
+          "an",
+          "mich?"
+        ],
+        "solutions": [
+          [
+            "Erinnerst",
+            "du",
+            "dich",
+            "an",
+            "mich?"
+          ]
+        ],
+        "translation": "Do you remember me?",
+        "explanation": "In a yes/no question: verb, subject, then the reflexive pronoun."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "ziehe",
+          "mir",
+          "einen",
+          "warmen",
+          "Pullover",
+          "an"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "ziehe",
+            "mir",
+            "einen",
+            "warmen",
+            "Pullover",
+            "an"
+          ]
+        ],
+        "translation": "I put on a warm sweater.",
+        "explanation": "einen warmen Pullover is the object → dative mir; the separable prefix an goes last."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Er",
+          "kauft",
+          "sich",
+          "ein",
+          "neues",
+          "Fahrrad"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "kauft",
+            "sich",
+            "ein",
+            "neues",
+            "Fahrrad"
+          ]
+        ],
+        "translation": "He buys himself a new bicycle.",
+        "explanation": "Dative reflexive after „[[kaufen]]“ — for er it is still sich."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Warum",
+          "ärgerst",
+          "du",
+          "dich",
+          "über",
+          "deinen",
+          "Bruder?"
+        ],
+        "solutions": [
+          [
+            "Warum",
+            "ärgerst",
+            "du",
+            "dich",
+            "über",
+            "deinen",
+            "Bruder?"
+          ]
+        ],
+        "translation": "Why are you annoyed with your brother?",
+        "explanation": "In a W-question the pronoun follows the subject: … ärgerst du dich …"
+      }
     }
   ]
 }

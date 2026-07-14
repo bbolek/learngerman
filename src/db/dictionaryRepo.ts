@@ -64,6 +64,37 @@ export async function getForms(lemmaId: number): Promise<FormRow[]> {
   );
 }
 
+export interface SynonymRow {
+  lemmaId: number;
+  lemma: string;
+  pos: string;
+  gender: string | null;
+  level: string;
+  note: string | null;
+  gloss: string;
+}
+
+/**
+ * Synonyms authored for a lemma (synonyms content table), each resolving to
+ * another dictionary entry, with an optional German nuance note. Guarded:
+ * the table only exists from content version 5 on — degrade to "no synonyms"
+ * on an older schema instead of crashing.
+ */
+export async function getSynonyms(lemmaId: number): Promise<SynonymRow[]> {
+  try {
+    return await getDb().getAllAsync<SynonymRow>(
+      `SELECT l.id AS lemmaId, l.lemma, l.pos, l.gender, l.level, s.note, se.en AS gloss
+       FROM synonyms s
+       JOIN lemmas l ON l.id = s.syn_lemma_id
+       JOIN senses se ON se.lemma_id = l.id AND se.sense_order = 1
+       WHERE s.lemma_id = ? ORDER BY s.sort_order`,
+      [lemmaId]
+    );
+  } catch {
+    return [];
+  }
+}
+
 /**
  * Bundled Noto emoji SVG for a lemma (lemma_images content table), or null.
  * Guarded: the table only exists from content version 4 on, and a failed

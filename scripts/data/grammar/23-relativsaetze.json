@@ -193,6 +193,616 @@
         "translation": "That is the book that I love.",
         "explanation": "Neuter Akkusativ pronoun das; verb „[[liebe]]“ at the end of the clause."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Frau, ___ dort sitzt, ist meine Tante.",
+        "options": [
+          "die",
+          "der",
+          "das"
+        ],
+        "correctIndex": 0,
+        "explanation": "She sits (subject of the relative clause) → Nominativ feminine: die."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Kind, ___ dort spielt, ist mein Sohn.",
+        "options": [
+          "das",
+          "der",
+          "die"
+        ],
+        "correctIndex": 0,
+        "explanation": "The child plays (subject) → Nominativ neuter: das."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Hund, ___ laut bellt, gehört meinem Nachbarn.",
+        "options": [
+          "der",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "The dog barks (subject) → Nominativ masculine: der."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Schuhe, ___ ich trage, sind neu.",
+        "options": [
+          "die",
+          "denen",
+          "das"
+        ],
+        "correctIndex": 0,
+        "explanation": "I wear them → Akkusativ plural: die."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Kuchen, ___ sie backt, riecht gut.",
+        "options": [
+          "den",
+          "der",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "She bakes it → Akkusativ; masculine der → den."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Lehrerin, ___ Deutsch unterrichtet, kommt aus Wien.",
+        "options": [
+          "die",
+          "der",
+          "das"
+        ],
+        "correctIndex": 0,
+        "explanation": "The teacher teaches (subject) → Nominativ feminine: die."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Haus, ___ wir gekauft haben, ist alt.",
+        "options": [
+          "das",
+          "den",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "We bought it → Akkusativ; neuter stays das."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Kollege, ___ ich jeden Tag sehe, ist sehr nett.",
+        "options": [
+          "den",
+          "der",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "I see him → Akkusativ masculine: den."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Musik, ___ er hört, ist laut.",
+        "options": [
+          "die",
+          "der",
+          "das"
+        ],
+        "correctIndex": 0,
+        "explanation": "He listens to it → Akkusativ; feminine stays die."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Handy, ___ auf dem Tisch liegt, gehört mir.",
+        "options": [
+          "das",
+          "dem",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "The phone lies there (subject) → Nominativ neuter: das."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Nachbarin, ___ ich oft im Supermarkt treffe, ist freundlich.",
+        "options": [
+          "die",
+          "der",
+          "denen"
+        ],
+        "correctIndex": 0,
+        "explanation": "I meet her → Akkusativ; feminine stays die."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Zug, mit ___ wir fahren, hat Verspätung.",
+        "options": [
+          "dem",
+          "den",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "mit always takes Dativ; masculine → dem: der Zug, mit dem wir fahren."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Freunde, ___ ich vertraue, wohnen weit weg.",
+        "options": [
+          "denen",
+          "die",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[vertrauen]]“ + Dativ; Dativ plural is special: denen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Kind, ___ die Mutter ein Eis kauft, freut sich.",
+        "options": [
+          "dem",
+          "das",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "The mother buys an ice cream FOR the child → Dativ neuter: dem."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Mann, ___ Auto vor der Tür steht, ist unser Chef.",
+        "options": [
+          "dessen",
+          "deren",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Whose car → Genitiv; masculine → dessen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Frau, ___ Sohn in meiner Klasse ist, arbeitet im Krankenhaus.",
+        "options": [
+          "deren",
+          "dessen",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "Whose son → Genitiv; feminine → deren."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Dorf, in ___ meine Großeltern leben, ist sehr ruhig.",
+        "options": [
+          "dem",
+          "das",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "in + Wo? → Dativ; neuter → dem: das Dorf, in dem sie leben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Kollegin, von ___ ich dir erzählt habe, kommt morgen.",
+        "options": [
+          "der",
+          "die",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "von always takes Dativ; feminine → der: die Kollegin, von der ich erzählt habe."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist die Frau, ___ nebenan wohnt.",
+        "accept": [
+          "die"
+        ],
+        "explanation": "She lives next door (subject) → Nominativ feminine: die.",
+        "hint": "subject, feminine"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Bus, ___ zum Bahnhof fährt, kommt gleich.",
+        "accept": [
+          "der"
+        ],
+        "explanation": "The bus drives (subject) → Nominativ masculine: der.",
+        "hint": "subject of the clause"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist das Restaurant, ___ mir so gut gefällt.",
+        "accept": [
+          "das"
+        ],
+        "explanation": "The restaurant pleases me — it is the subject of „[[gefallen]]“ → Nominativ neuter: das.",
+        "hint": "subject, neuter"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Pullover, ___ ich gestern gekauft habe, war billig.",
+        "accept": [
+          "den"
+        ],
+        "explanation": "I bought it → Akkusativ masculine: den.",
+        "hint": "Akkusativ, masculine"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Suppe, ___ du gekocht hast, schmeckt super.",
+        "accept": [
+          "die"
+        ],
+        "explanation": "You cooked it → Akkusativ; feminine stays die.",
+        "hint": "Akkusativ, feminine"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Fahrrad, ___ ich dir geliehen habe, brauche ich morgen.",
+        "accept": [
+          "das"
+        ],
+        "explanation": "I lent it to you → Akkusativ; neuter stays das.",
+        "hint": "Akkusativ, neuter"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Bücher, ___ auf dem Regal stehen, gehören meiner Schwester.",
+        "accept": [
+          "die"
+        ],
+        "explanation": "The books stand there (subject) → Nominativ plural: die.",
+        "hint": "subject, plural"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Nachbar, ___ das Haus gehört, ist selten da.",
+        "accept": [
+          "dem"
+        ],
+        "explanation": "„[[gehören]]“ + Dativ; masculine → dem: der Nachbar, dem das Haus gehört.",
+        "hint": "gehören + Dativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Firma, bei ___ er arbeitet, ist sehr groß.",
+        "accept": [
+          "der"
+        ],
+        "explanation": "bei always takes Dativ; feminine → der: die Firma, bei der er arbeitet.",
+        "hint": "bei + Dativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Meine Eltern, ___ Garten sehr groß ist, wohnen auf dem Land.",
+        "accept": [
+          "deren"
+        ],
+        "explanation": "Whose garden → Genitiv plural: deren.",
+        "hint": "Genitiv, plural"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Die",
+          "Frau,",
+          "die",
+          "dort",
+          "steht,",
+          "ist",
+          "Ärztin"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Frau,",
+            "die",
+            "dort",
+            "steht,",
+            "ist",
+            "Ärztin"
+          ]
+        ],
+        "translation": "The woman who is standing there is a doctor.",
+        "explanation": "Nominativ feminine die; the clause verb (steht) goes to the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Der",
+          "Hund,",
+          "der",
+          "laut",
+          "bellt,",
+          "stört",
+          "mich"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Hund,",
+            "der",
+            "laut",
+            "bellt,",
+            "stört",
+            "mich"
+          ]
+        ],
+        "translation": "The dog that barks loudly bothers me.",
+        "explanation": "Nominativ masculine der; verb (bellt) at the end of the relative clause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Das",
+          "ist",
+          "der",
+          "Lehrer,",
+          "der",
+          "uns",
+          "hilft"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "ist",
+            "der",
+            "Lehrer,",
+            "der",
+            "uns",
+            "hilft"
+          ]
+        ],
+        "translation": "That is the teacher who helps us.",
+        "explanation": "The teacher helps (subject) → Nominativ der; verb at the clause end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "lese",
+          "das",
+          "Buch,",
+          "das",
+          "du",
+          "mir",
+          "empfohlen",
+          "hast"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "lese",
+            "das",
+            "Buch,",
+            "das",
+            "du",
+            "mir",
+            "empfohlen",
+            "hast"
+          ]
+        ],
+        "translation": "I am reading the book that you recommended to me.",
+        "explanation": "Neuter Akkusativ das; the conjugated verb (hast) goes to the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Er",
+          "kauft",
+          "das",
+          "Auto,",
+          "das",
+          "ihm",
+          "gefällt"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "kauft",
+            "das",
+            "Auto,",
+            "das",
+            "ihm",
+            "gefällt"
+          ]
+        ],
+        "translation": "He buys the car that he likes.",
+        "explanation": "The car pleases him (subject of the clause) → Nominativ neuter das."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Die",
+          "Stadt,",
+          "in",
+          "der",
+          "wir",
+          "wohnen,",
+          "ist",
+          "sehr",
+          "alt"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Stadt,",
+            "in",
+            "der",
+            "wir",
+            "wohnen,",
+            "ist",
+            "sehr",
+            "alt"
+          ]
+        ],
+        "translation": "The city we live in is very old.",
+        "explanation": "in + Dativ, feminine → in der; the clause verb (wohnen) at its end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Das",
+          "sind",
+          "die",
+          "Kinder,",
+          "denen",
+          "ich",
+          "geholfen",
+          "habe"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "sind",
+            "die",
+            "Kinder,",
+            "denen",
+            "ich",
+            "geholfen",
+            "habe"
+          ]
+        ],
+        "translation": "Those are the children I helped.",
+        "explanation": "„[[helfen]]“ + Dativ; Dativ plural → denen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Der",
+          "Film,",
+          "den",
+          "wir",
+          "gestern",
+          "gesehen",
+          "haben,",
+          "war",
+          "langweilig"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Film,",
+            "den",
+            "wir",
+            "gestern",
+            "gesehen",
+            "haben,",
+            "war",
+            "langweilig"
+          ]
+        ],
+        "translation": "The film we saw yesterday was boring.",
+        "explanation": "We saw it → Akkusativ masculine den; conjugated verb (haben) at the clause end."
+      }
     }
   ]
 }

@@ -142,6 +142,340 @@
         "correctIndex": 0,
         "explanation": "„[[essen]]“ changes e→i: du isst → Iss! (no -t: that would be the er-form spelling)."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "gehen → du-Imperativ: ___ jetzt ins Bett!",
+        "options": ["Geh", "Gehst", "Gehen"],
+        "correctIndex": 0,
+        "explanation": "du gehst → drop -st and du: Geh!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "trinken → du-Imperativ: ___ mehr Wasser!",
+        "options": ["Trink", "Trinkst", "Trinken"],
+        "correctIndex": 0,
+        "explanation": "Regular du-imperative: Trink!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "kommen → ihr-Imperativ: ___ schnell, Kinder!",
+        "options": ["Kommt", "Komm", "Kommen"],
+        "correctIndex": 0,
+        "explanation": "ihr-imperative = the normal ihr-form without ihr: Kommt!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie-Form: ___ Sie bitte langsam!",
+        "options": ["Sprechen", "Sprich", "Sprecht"],
+        "correctIndex": 0,
+        "explanation": "The Sie-imperative uses the infinitive — no vowel change: Sprechen Sie!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "schlafen → du-Imperativ: ___ gut!",
+        "options": ["Schlaf", "Schläf", "Schläfst"],
+        "correctIndex": 0,
+        "explanation": "a→ä verbs drop the umlaut: du schläfst, but „Schlaf gut!“"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "geben → du-Imperativ: ___ mir deine Hand!",
+        "options": ["Gib", "Geb", "Gibst"],
+        "correctIndex": 0,
+        "explanation": "„[[geben]]“ changes e→i: du gibst → Gib!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "helfen → du-Imperativ: ___ mir bitte!",
+        "options": ["Hilf", "Helf", "Hilfst"],
+        "correctIndex": 0,
+        "explanation": "„[[helfen]]“ changes e→i: du hilfst → Hilf!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "sehen → du-Imperativ: ___ mal!",
+        "options": ["Sieh", "Seh", "Siehst"],
+        "correctIndex": 0,
+        "explanation": "„[[sehen]]“ changes e→ie: du siehst → Sieh mal!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "laufen → du-Imperativ: ___ schneller!",
+        "options": ["Lauf", "Läuf", "Läufst"],
+        "correctIndex": 0,
+        "explanation": "au→äu also loses its umlaut in the imperative: du läufst → Lauf!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "arbeiten → du-Imperativ: ___ nicht so viel!",
+        "options": ["Arbeite", "Arbeit", "Arbeitest"],
+        "correctIndex": 0,
+        "explanation": "Stems ending in -t add an e: Arbeite!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "nehmen → ihr-Imperativ: ___ eure Jacken!",
+        "options": ["Nehmt", "Nimm", "Nehmen"],
+        "correctIndex": 0,
+        "explanation": "Only the du-form changes its vowel — the ihr-form stays regular: Nehmt!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie-Form von sein: ___ bitte so nett!",
+        "options": ["Seien Sie", "Sind Sie", "Sein Sie"],
+        "correctIndex": 0,
+        "explanation": "sein is irregular in the Sie-imperative: Seien Sie so nett!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "essen → ihr-Imperativ: ___ euer Gemüse!",
+        "options": ["Esst", "Isst", "Essen"],
+        "correctIndex": 0,
+        "explanation": "The ihr-form has no vowel change: Esst! — „Iss!“ is the du-form."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "haben → du-Imperativ: ___ keine Angst!",
+        "options": ["Hab", "Habst", "Hat"],
+        "correctIndex": 0,
+        "explanation": "The du-imperative of haben is Hab: „Hab keine Angst!“"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "warten → ihr-Imperativ: ___ hier!",
+        "options": ["Wartet", "Warte", "Warten"],
+        "correctIndex": 0,
+        "explanation": "ihr-form: Wartet! — „Warte!“ would be the du-form."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "anfangen → du-Imperativ: ___ jetzt an!",
+        "options": ["Fang", "Fäng", "Fangst"],
+        "correctIndex": 0,
+        "explanation": "„[[anfangen]]“: a→ä loses the umlaut (du fängst → Fang!) and the prefix an stays at the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "vergessen → du-Imperativ: ___ deine Tasche nicht!",
+        "options": ["Vergiss", "Vergess", "Vergisst"],
+        "correctIndex": 0,
+        "explanation": "„[[vergessen]]“ changes e→i: Vergiss deine Tasche nicht!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ nach Hause, Kinder! (gehen, ihr)",
+        "accept": ["Geht"],
+        "explanation": "ihr-imperative = ihr-form without the pronoun: Geht!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ Sie bitte hier! (bleiben)",
+        "accept": ["Bleiben"],
+        "explanation": "Sie-imperative = infinitive + Sie: „[[bleiben]]“ → Bleiben Sie hier!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ bitte das Licht an! (anmachen, du)",
+        "accept": ["Mach", "Mache"],
+        "hint": "trennbares Verb",
+        "explanation": "Separable „[[anmachen]]“: Mach … an! The prefix goes to the end."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ nicht so schnell! (fahren, ihr)",
+        "accept": ["Fahrt"],
+        "explanation": "ihr-form: Fahrt! There is no umlaut anywhere in the imperative of fahren."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ Sie bitte Ihren Namen! (schreiben)",
+        "accept": ["Schreiben"],
+        "explanation": "Sie-form: verb first, then Sie — Schreiben Sie Ihren Namen!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ den Text, bitte! (lesen, ihr)",
+        "accept": ["Lest"],
+        "explanation": "The ihr-form keeps the e: Lest! Only the du-form changes to ie: Lies!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ Sie bitte pünktlich! (sein)",
+        "accept": ["Seien"],
+        "hint": "irregular!",
+        "explanation": "The Sie-imperative of sein is irregular: Seien Sie pünktlich!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ ein bisschen lauter! (sprechen, ihr)",
+        "accept": ["Sprecht"],
+        "explanation": "ihr-form without vowel change: Sprecht! — „Sprich!“ is only for du."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ dein Zimmer auf! (aufräumen, du)",
+        "accept": ["Räum", "Räume"],
+        "hint": "trennbares Verb",
+        "explanation": "„[[aufräumen]]“ is separable: Räum … auf! (Räume is also fine.)"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Komm", "bitte", "schnell!"],
+        "solutions": [["Komm", "bitte", "schnell!"]],
+        "translation": "Come quickly, please!",
+        "explanation": "du-imperative: the verb comes first, bitte softens the command."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Trinkt", "euren", "Tee!"],
+        "solutions": [["Trinkt", "euren", "Tee!"]],
+        "translation": "Drink your tea!",
+        "explanation": "ihr-imperative first, without the pronoun ihr."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Warten", "Sie", "bitte", "hier!"],
+        "solutions": [["Warten", "Sie", "bitte", "hier!"]],
+        "translation": "Please wait here!",
+        "explanation": "Sie-imperative: verb first, then Sie."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Steh", "jetzt", "auf!"],
+        "solutions": [["Steh", "jetzt", "auf!"]],
+        "translation": "Get up now!",
+        "explanation": "Separable „[[aufstehen]]“: Steh … auf! The prefix ends the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Sei", "bitte", "nicht", "traurig!"],
+        "solutions": [["Sei", "bitte", "nicht", "traurig!"]],
+        "translation": "Please don’t be sad!",
+        "explanation": "Irregular du-imperative of sein: Sei!"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Ruf", "mich", "morgen", "an!"],
+        "solutions": [["Ruf", "mich", "morgen", "an!"]],
+        "translation": "Call me tomorrow!",
+        "explanation": "Separable „[[anrufen]]“: Ruf … an! — pronoun before the time word."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Nehmt", "eure", "Sachen", "mit!"],
+        "solutions": [["Nehmt", "eure", "Sachen", "mit!"]],
+        "translation": "Take your things with you!",
+        "explanation": "ihr-imperative of the separable verb „[[mitnehmen]]“ — mit at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Hören", "Sie", "bitte", "gut", "zu!"],
+        "solutions": [["Hören", "Sie", "bitte", "gut", "zu!"]],
+        "translation": "Please listen carefully!",
+        "explanation": "Sie-imperative of the separable verb „[[zuhören]]“ — zu goes to the very end."
+      }
     }
   ]
 }

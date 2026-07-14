@@ -543,6 +543,250 @@
         "correctReasonIndex": 1,
         "explanation": "„[[für]]“ always takes the Akkusativ — feminine ihre stays ihre."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Hund springt gegen ___ Tür.",
+        "options": [
+          "die",
+          "der",
+          "dem"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[gegen]]“ always takes the Akkusativ; feminine die stays die (die Tür)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Brief ist für ___ Vater.",
+        "options": [
+          "den",
+          "dem",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[für]]“ always takes the Akkusativ. Masculine: der → den (der Vater)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir fahren durch ___ Stadt.",
+        "options": [
+          "die",
+          "der",
+          "das"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[durch]]“ takes the Akkusativ; feminine die stays die (die Stadt)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich bin gegen ___ Plan.",
+        "options": [
+          "den",
+          "dem",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[gegen]]“ takes the Akkusativ. Masculine: der → den (der Plan)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ohne ___ können wir nicht anfangen. (ihr)",
+        "options": [
+          "euch",
+          "ihr",
+          "ihnen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[ohne]]“ always takes the Akkusativ, also with pronouns: ihr → euch."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir machen das Essen für ___ Gäste. (unsere)",
+        "options": [
+          "unsere",
+          "unseren",
+          "unserer"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[für]]“ takes the Akkusativ; plural unsere stays unsere — no Dativ -n here (die Gäste)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Kinder laufen durch ___ Haus. (das)",
+        "accept": [
+          "das"
+        ],
+        "hint": "durch + Akkusativ, das Haus",
+        "explanation": "„[[durch]]“ takes the Akkusativ; neuter das stays das."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie schreibt eine Karte für ___ Opa. (ihr)",
+        "accept": [
+          "ihren"
+        ],
+        "hint": "für + Akkusativ, der Opa",
+        "explanation": "„[[für]]“ takes the Akkusativ. Masculine: ihr → ihren (der Opa)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ohne ___ Handy gehe ich nicht aus dem Haus. (mein)",
+        "accept": [
+          "mein"
+        ],
+        "hint": "das Handy",
+        "explanation": "„[[ohne]]“ takes the Akkusativ, but neuter mein stays mein (das Handy)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir sind alle gegen ___. (er)",
+        "accept": [
+          "ihn"
+        ],
+        "hint": "gegen + Akkusativ, pronoun",
+        "explanation": "„[[gegen]]“ always takes the Akkusativ, also with pronouns: er → ihn."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "läuft",
+          "um",
+          "Die",
+          "den",
+          "Katze",
+          "Baum"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "Katze",
+            "läuft",
+            "um",
+            "den",
+            "Baum"
+          ]
+        ],
+        "translation": "The cat runs around the tree.",
+        "explanation": "„[[um]]“ takes the Akkusativ. Masculine: der → den (der Baum)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "fliegt",
+          "das",
+          "Der",
+          "durch",
+          "Fenster",
+          "Ball"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Ball",
+            "fliegt",
+            "durch",
+            "das",
+            "Fenster"
+          ]
+        ],
+        "translation": "The ball flies through the window.",
+        "explanation": "„[[durch]]“ takes the Akkusativ; neuter das stays das. Der Ball is the Nominativ subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Für",
+          "die",
+          "Prüfung",
+          "lerne",
+          "ich",
+          "jeden",
+          "Tag"
+        ],
+        "solutions": [
+          [
+            "Für",
+            "die",
+            "Prüfung",
+            "lerne",
+            "ich",
+            "jeden",
+            "Tag"
+          ]
+        ],
+        "translation": "I study every day for the exam.",
+        "explanation": "„[[für]]“ takes the Akkusativ. After the fronted für-phrase the verb stays in position 2: lerne ich."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Der Bus fährt durch **die Stadt**.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It follows „durch“, which always takes the Akkusativ",
+          "It follows a dative preposition",
+          "It is the indirect object (recipient)"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "„[[durch]]“ is an Akkusativ preposition; feminine die stays die, so the case is invisible but still Akkusativ."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "**Das Mädchen** läuft um den Tisch.",
+        "correctCase": "nominativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It follows „um“, which always takes the Akkusativ",
+          "It is the direct object of the verb",
+          "It is the indirect object (recipient)"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "Das Mädchen is the one running → subject → Nominativ. Only „den Tisch“ follows the Akkusativ preposition „[[um]]“."
+      }
     }
   ]
 }

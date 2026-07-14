@@ -133,6 +133,364 @@
         "translation": "The bus had already left when I came.",
         "explanation": "Movement verb → war + Partizip II: war weggefahren."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ die Tür schon geschlossen, als es klingelte.",
+        "options": ["hatte", "war", "habe"],
+        "correctIndex": 0,
+        "explanation": "„[[schließen]]“ takes haben → hatte geschlossen; the closing is the earlier event."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie ___ schon eingeschlafen, als der Film begann.",
+        "options": ["war", "hatte", "ist"],
+        "correctIndex": 0,
+        "explanation": "„[[einschlafen]]“ is a change of state → sein: war eingeschlafen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Nachdem wir das Haus geputzt ___, kamen die Gäste.",
+        "options": ["hatten", "waren", "haben"],
+        "correctIndex": 0,
+        "explanation": "putzen takes haben; wir → hatten geputzt at the end of the nachdem-clause."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er ___ noch nie geflogen, bevor er nach Amerika reiste.",
+        "options": ["war", "hatte", "ist"],
+        "correctIndex": 0,
+        "explanation": "„[[fliegen]]“ is a movement verb → sein: war geflogen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ das Geschenk schon gekauft. (Plusquamperfekt)",
+        "options": ["hatten", "haben", "waren"],
+        "correctIndex": 0,
+        "explanation": "Plusquamperfekt = Präteritum of haben + Partizip II: hatten gekauft."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nachdem sie umgezogen ___, fühlte sie sich zuerst einsam.",
+        "options": ["war", "hatte", "ist"],
+        "correctIndex": 0,
+        "explanation": "„[[umziehen]]“ (moving house) takes sein → umgezogen war."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Kinder ___ schon ins Bett gegangen, als der Vater nach Hause kam.",
+        "options": ["waren", "hatten", "sind"],
+        "correctIndex": 0,
+        "explanation": "gehen takes sein; plural subject → waren gegangen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich ___ den Brief schon geschrieben, bevor du anriefst.",
+        "options": ["hatte", "war", "habe"],
+        "correctIndex": 0,
+        "explanation": "The writing happened before the call → Plusquamperfekt: hatte geschrieben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nachdem er den Führerschein gemacht ___, kaufte er sich ein Auto.",
+        "options": ["hatte", "war", "hat"],
+        "correctIndex": 0,
+        "explanation": "machen takes haben: gemacht hatte, at the very end of the nachdem-clause."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Was passierte ZUERST? „Als sie ankam, hatte er schon gekocht.“",
+        "options": ["das Kochen", "die Ankunft", "beides gleichzeitig"],
+        "correctIndex": 0,
+        "explanation": "The Plusquamperfekt (hatte gekocht) marks the earlier event: first cooking, then arrival."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie war müde, weil sie in der Nacht schlecht ___ ___.",
+        "options": ["geschlafen hatte", "geschlafen war", "schlief hatte"],
+        "correctIndex": 0,
+        "explanation": "schlafen takes haben; in the weil-clause the verb cluster comes last: geschlafen hatte."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Film ___ schon begonnen, als wir das Kino betraten.",
+        "options": ["hatte", "war", "ist"],
+        "correctIndex": 0,
+        "explanation": "„[[beginnen]]“ takes haben: hatte begonnen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Form ist das Plusquamperfekt von „er geht“?",
+        "options": ["er war gegangen", "er ist gegangen", "er hatte gegangen"],
+        "correctIndex": 0,
+        "explanation": "gehen takes sein, and the auxiliary must be Präteritum: war gegangen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Nachdem ich geduscht hatte, frühstückte ich.",
+          "Nachdem ich duschte, frühstückte ich.",
+          "Nachdem ich geduscht habe, frühstückte ich."
+        ],
+        "correctIndex": 0,
+        "explanation": "nachdem needs a step back in time: Plusquamperfekt + Präteritum („[[duschen]]“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir fanden die Katze nicht, denn sie ___ weggelaufen.",
+        "options": ["war", "hatte", "ist"],
+        "correctIndex": 0,
+        "explanation": "„[[weglaufen]]“ is a movement verb → sein: war weggelaufen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Nachdem der Regen aufgehört ___, gingen wir spazieren.",
+        "options": ["hatte", "war", "hat"],
+        "correctIndex": 0,
+        "explanation": "„[[aufhören]]“ takes haben → aufgehört hatte."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er ___ sein ganzes Geld ausgegeben, deshalb konnte er nichts kaufen.",
+        "options": ["hatte", "war", "hat"],
+        "correctIndex": 0,
+        "explanation": "„[[ausgeben]]“ takes haben; the spending happened first → hatte ausgegeben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Aussage stimmt? „Nachdem sie gefrühstückt hatte, fuhr sie zur Arbeit.“",
+        "options": [
+          "Zuerst frühstückte sie, dann fuhr sie los.",
+          "Zuerst fuhr sie zur Arbeit, dann frühstückte sie.",
+          "Beides passierte gleichzeitig."
+        ],
+        "correctIndex": 0,
+        "explanation": "The nachdem-clause with Plusquamperfekt names the earlier action: breakfast first."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ schon gefrühstückt, als er kam. (haben)",
+        "accept": ["hatte"],
+        "explanation": "ich → hatte + gefrühstückt („[[frühstücken]]“ takes haben)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie ___ schon abgereist, als wir sie besuchen wollten. (sein)",
+        "accept": ["war"],
+        "explanation": "abreisen (movement) takes sein → war abgereist."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nachdem die Gäste gegangen ___, räumten wir auf.",
+        "accept": ["waren"],
+        "explanation": "gehen takes sein; plural → gegangen waren at the end of the nachdem-clause."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er hatte den Bus verpasst, deshalb ___ er zu spät. (kommen — Präteritum)",
+        "accept": ["kam"],
+        "explanation": "The later event stands in Präteritum: kam („[[verpassen]]“ happened first)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir waren müde, weil wir die ganze Nacht getanzt ___.",
+        "accept": ["hatten"],
+        "explanation": "tanzen takes haben; wir → getanzt hatten at the end of the weil-clause."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Straße war nass, weil es geregnet ___.",
+        "accept": ["hatte"],
+        "explanation": "The rain came first → Plusquamperfekt: geregnet hatte („[[regnen]]“)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Nachdem ich den Text zweimal ___ hatte, verstand ich ihn. (lesen — Partizip II)",
+        "accept": ["gelesen"],
+        "explanation": "Partizip II of [[lesen]]: gelesen — the reading happened before the understanding."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Als der Bus endlich kam, ___ wir schon eine Stunde gewartet.",
+        "accept": ["hatten"],
+        "explanation": "warten takes haben → hatten gewartet; the waiting began before the bus came."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Bevor sie nach Spanien zog, ___ sie noch nie im Ausland gelebt.",
+        "accept": ["hatte"],
+        "explanation": "leben takes haben: hatte gelebt — earlier than the move to Spain."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Er", "hatte", "seine", "Hausaufgaben", "vergessen"],
+        "solutions": [["Er", "hatte", "seine", "Hausaufgaben", "vergessen"]],
+        "translation": "He had forgotten his homework.",
+        "explanation": "hatte + Partizip II at the end: hatte … vergessen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Wir", "waren", "zu", "spät", "angekommen"],
+        "solutions": [["Wir", "waren", "zu", "spät", "angekommen"]],
+        "translation": "We had arrived too late.",
+        "explanation": "„[[ankommen]]“ takes sein → waren angekommen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Nachdem", "sie", "geduscht", "hatte,", "frühstückte", "sie"],
+        "solutions": [["Nachdem", "sie", "geduscht", "hatte,", "frühstückte", "sie"]],
+        "translation": "After she had showered, she ate breakfast.",
+        "explanation": "nachdem-clause: Partizip + hatte at its end, then the main clause starts with its verb."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Der", "Zug", "war", "schon", "abgefahren,", "als", "wir", "kamen"],
+        "solutions": [["Der", "Zug", "war", "schon", "abgefahren,", "als", "wir", "kamen"]],
+        "translation": "The train had already left when we came.",
+        "explanation": "Movement verb → sein: war abgefahren; the als-clause names the later event."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Als", "ich", "ankam,", "hatte", "das", "Konzert", "schon", "begonnen"],
+        "solutions": [["Als", "ich", "ankam,", "hatte", "das", "Konzert", "schon", "begonnen"]],
+        "translation": "When I arrived, the concert had already begun.",
+        "explanation": "The concert started earlier → Plusquamperfekt in the main clause: hatte … begonnen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Nachdem",
+          "wir",
+          "gegessen",
+          "hatten,",
+          "machten",
+          "wir",
+          "einen",
+          "Spaziergang"
+        ],
+        "solutions": [["Nachdem", "wir", "gegessen", "hatten,", "machten", "wir", "einen", "Spaziergang"]],
+        "translation": "After we had eaten, we took a walk.",
+        "explanation": "Classic pattern: nachdem + Plusquamperfekt, then the main clause in Präteritum."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Sie", "war", "traurig,", "weil", "ihr", "Freund", "abgereist", "war"],
+        "solutions": [["Sie", "war", "traurig,", "weil", "ihr", "Freund", "abgereist", "war"]],
+        "translation": "She was sad because her friend had left.",
+        "explanation": "In the weil-clause the verb cluster abgereist war stands at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Nachdem", "er", "das", "Auto", "repariert", "hatte,", "fuhr", "er", "los"],
+        "solutions": [["Nachdem", "er", "das", "Auto", "repariert", "hatte,", "fuhr", "er", "los"]],
+        "translation": "After he had repaired the car, he drove off.",
+        "explanation": "repariert hatte closes the nachdem-clause; fuhr opens the main clause."
+      }
     }
   ]
 }

@@ -10,10 +10,12 @@ import {
   getLemma,
   getLemmaImage,
   getSenses,
+  getSynonyms,
   type ExampleRow,
   type FormRow,
   type LemmaDetail,
   type SenseRow,
+  type SynonymRow,
 } from '@/db/dictionaryRepo';
 import { isSaved, saveWord, unsaveWord } from '@/db/vocabRepo';
 import { articleFor, exampleTagLabel } from '@/logic/formLabels';
@@ -59,6 +61,7 @@ export default function WordDetailScreen() {
   const [senses, setSenses] = useState<SenseRow[]>([]);
   const [forms, setForms] = useState<FormRow[]>([]);
   const [examples, setExamples] = useState<ExampleRow[]>([]);
+  const [synonyms, setSynonyms] = useState<SynonymRow[]>([]);
   const [saved, setSaved] = useState(false);
   const [showForms, setShowForms] = useState(true);
   const [image, setImage] = useState<string | null>(null);
@@ -78,13 +81,15 @@ export default function WordDetailScreen() {
       getSenses(lemmaId),
       getForms(lemmaId),
       getExamples(lemmaId),
+      getSynonyms(lemmaId),
       isSaved(lemmaId),
       getLemmaImage(lemmaId),
-    ]).then(([l, s, f, ex, sv, img]) => {
+    ]).then(([l, s, f, ex, syn, sv, img]) => {
       setLemma(l);
       setSenses(s);
       setForms(f);
       setExamples(ex);
+      setSynonyms(syn);
       setSaved(sv);
       setImage(img);
     });
@@ -228,6 +233,46 @@ export default function WordDetailScreen() {
           )}
         </Card>
       ))}
+
+      {synonyms.length > 0 && (
+        <Card style={styles.formsCard}>
+          <AppText variant="subtitle">Synonyme</AppText>
+          <View style={{ marginTop: spacing.xs }}>
+            {synonyms.map((syn, i) => (
+              <Pressable
+                key={syn.lemmaId}
+                onPress={() =>
+                  router.push({ pathname: '/word/[id]', params: { id: String(syn.lemmaId) } })
+                }
+                style={[styles.synRow, i > 0 && { borderTopWidth: 1, borderTopColor: t.line }]}>
+                <View style={{ flex: 1 }}>
+                  <AppText variant="body">
+                    {syn.pos === 'noun' && articleFor(syn.gender) ? (
+                      <AppText variant="body" color={t.success} style={{ fontFamily: fonts.semibold }}>
+                        {articleFor(syn.gender)}{' '}
+                      </AppText>
+                    ) : null}
+                    <AppText variant="body" style={{ fontFamily: fonts.semibold }}>
+                      {syn.lemma}
+                    </AppText>
+                    <AppText variant="secondary" muted>
+                      {'  '}
+                      {syn.gloss}
+                    </AppText>
+                  </AppText>
+                  {syn.note && (
+                    <AppText variant="secondary" color={t.primary} style={{ marginTop: 1 }}>
+                      {syn.note}
+                    </AppText>
+                  )}
+                </View>
+                <Chip label={syn.level} kind="level" small />
+                <Ionicons name="chevron-forward" size={16} color={t.inkMuted} />
+              </Pressable>
+            ))}
+          </View>
+        </Card>
+      )}
 
       {examples.length > 0 && (
         <Card style={styles.formsCard}>
@@ -384,6 +429,12 @@ const styles = StyleSheet.create({
   formsCard: { marginTop: spacing.md },
   formsHead: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   example: { paddingTop: spacing.sm },
+  synRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    paddingVertical: 10,
+  },
   exampleTag: { flexDirection: 'row', alignItems: 'center', marginBottom: 5 },
   exampleRow: { flexDirection: 'row', alignItems: 'flex-start', gap: spacing.sm },
   tr: {

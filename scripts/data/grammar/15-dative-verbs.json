@@ -513,6 +513,242 @@
         "correctReasonIndex": 2,
         "explanation": "„[[gratulieren]]“ is a dative verb: der Bruder → meinem Bruder."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Tee schmeckt ___ Oma.",
+        "options": [
+          "der",
+          "die",
+          "den"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[schmecken]]“ takes the Dativ. Feminine: die → der (die Oma)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir helfen ___ Kindern.",
+        "options": [
+          "den",
+          "die",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[helfen]]“ takes the Dativ. Plural: die → den, and the noun adds -n (Kindern)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Hund folgt ___ Mann.",
+        "options": [
+          "dem",
+          "den",
+          "der"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[folgen]]“ always takes a Dativ object. Masculine: der → dem (der Mann)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich danke ___ für Ihre Hilfe. (Sie, formal)",
+        "options": [
+          "Ihnen",
+          "Sie",
+          "Ihr"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[danken]]“ takes the Dativ, also with the formal pronoun: Sie → Ihnen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Gefällt ___ die Musik? (ihr, Plural)",
+        "options": [
+          "euch",
+          "ihr",
+          "ihnen"
+        ],
+        "correctIndex": 0,
+        "explanation": "With „[[gefallen]]“ the thing (die Musik) is the subject; the people are the Dativ object: ihr → euch."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Antwortet er ___ Chefin? (seine)",
+        "options": [
+          "seiner",
+          "seine",
+          "seinem"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[antworten]]“ takes the Dativ. Feminine: seine → seiner (die Chefin)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich helfe ___ Opa. (mein)",
+        "accept": [
+          "meinem"
+        ],
+        "hint": "helfen + Dativ, der Opa",
+        "explanation": "„[[helfen]]“ always takes a Dativ object. Masculine: mein → meinem."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Fisch schmeckt ___ nicht. (wir)",
+        "accept": [
+          "uns"
+        ],
+        "hint": "schmecken + Dativ, pronoun",
+        "explanation": "„[[schmecken]]“ takes the Dativ, also with pronouns: wir → uns."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Hilfst du ___ Nachbarn? (die, Plural)",
+        "accept": [
+          "den"
+        ],
+        "hint": "helfen + Dativ, plural die Nachbarn",
+        "explanation": "„[[helfen]]“ takes the Dativ. Plural: die → den (den Nachbarn)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Bitte folgen Sie ___! (ich)",
+        "accept": [
+          "mir"
+        ],
+        "hint": "folgen + Dativ, pronoun",
+        "explanation": "„[[folgen]]“ always takes a Dativ object: ich → mir."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "danke",
+          "sehr",
+          "Ich",
+          "dir"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "danke",
+            "dir",
+            "sehr"
+          ]
+        ],
+        "translation": "I thank you very much.",
+        "explanation": "„[[danken]]“ takes the Dativ pronoun: du → dir."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "passt",
+          "Pullover",
+          "Der",
+          "meinem",
+          "Bruder"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Pullover",
+            "passt",
+            "meinem",
+            "Bruder"
+          ]
+        ],
+        "translation": "The sweater fits my brother.",
+        "explanation": "„[[passen]]“ takes the Dativ: mein → meinem (der Bruder). Der Pullover is the Nominativ subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "schmeckt",
+          "Essen",
+          "Das",
+          "unseren",
+          "Gästen",
+          "gut"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Essen",
+            "schmeckt",
+            "unseren",
+            "Gästen",
+            "gut"
+          ]
+        ],
+        "translation": "Our guests like the food.",
+        "explanation": "„[[schmecken]]“ takes the Dativ. Plural: unsere → unseren, and the noun adds -n (Gästen)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Der Käse schmeckt **meiner Mutter**.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the direct object of the verb",
+          "„schmecken“ always takes a Dativ object",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "„[[schmecken]]“ is a Dativ verb: meine → meiner (die Mutter). Der Käse is the subject."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "**Die Jacke** passt mir nicht.",
+        "correctCase": "nominativ",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is the Dativ object of „passen“",
+          "It is the direct object of the verb",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "With „[[passen]]“ the thing that fits is the subject → Nominativ. „mir“ is the Dativ object."
+      }
     }
   ]
 }

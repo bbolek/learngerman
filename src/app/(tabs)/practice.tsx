@@ -133,6 +133,7 @@ export default function PracticeScreen() {
 function TopicCard({ topic, due }: { topic: TopicRow; due: boolean }) {
   const t = useTheme();
   const accuracy = topicAccuracy(topic);
+  const mastered = topic.question_count > 0 && topic.mastered_count === topic.question_count;
   return (
     <Card
       style={styles.topic}
@@ -149,6 +150,8 @@ function TopicCard({ topic, due }: { topic: TopicRow; due: boolean }) {
         </ProgressRing>
         {due ? (
           <Chip label="Fällig" kind="due" small />
+        ) : mastered ? (
+          <Chip label="🏆 Gemeistert" kind="new" small />
         ) : (
           <View style={[styles.levelBadge, { backgroundColor: t.primaryDim }]}>
             <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>

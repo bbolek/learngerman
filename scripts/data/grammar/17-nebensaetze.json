@@ -199,6 +199,599 @@
         "translation": "If it rains, I take the bus.",
         "explanation": "Nebensatz first → the main clause starts with its verb: … , nehme ich …"
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie bleibt im Bett, ___",
+        "options": [
+          "weil sie Fieber hat",
+          "weil sie hat Fieber",
+          "weil hat sie Fieber"
+        ],
+        "correctIndex": 0,
+        "explanation": "weil sends the conjugated verb to the very end: … weil sie Fieber hat."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich hoffe, ___",
+        "options": [
+          "dass du bald kommst",
+          "dass du kommst bald",
+          "dass kommst du bald"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[dass]]“ sends the verb to the end: dass du bald kommst."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir essen ein Eis, ___",
+        "options": [
+          "wenn es heiß ist",
+          "wenn es ist heiß"
+        ],
+        "correctIndex": 0,
+        "explanation": "wenn-clause: the verb goes to the end → wenn es heiß ist."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gehe früh ins Bett, weil ich müde ___.",
+        "options": [
+          "bin",
+          "bist",
+          "ist"
+        ],
+        "correctIndex": 0,
+        "explanation": "The subject is ich → bin, in final position of the weil-clause."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie sagt, ___ sie keine Zeit hat.",
+        "options": [
+          "dass",
+          "weil",
+          "ob"
+        ],
+        "correctIndex": 0,
+        "explanation": "A reported statement after sagen → dass."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er kauft kein Auto, ___ er kein Geld hat.",
+        "options": [
+          "weil",
+          "dass",
+          "ob"
+        ],
+        "correctIndex": 0,
+        "explanation": "It gives the reason → „[[weil]]“ (because)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich weiß nicht, ___ er heute kommt.",
+        "options": [
+          "ob",
+          "dass",
+          "weil"
+        ],
+        "correctIndex": 0,
+        "explanation": "An open yes/no question → ob (whether)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich frage ihn, ___ er mir helfen kann.",
+        "options": [
+          "ob",
+          "dass",
+          "wenn"
+        ],
+        "correctIndex": 0,
+        "explanation": "After „[[fragen]]“ an indirect yes/no question takes ob."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ich müde bin, trinke ich einen Kaffee.",
+        "options": [
+          "Wenn",
+          "Ob",
+          "Dass"
+        ],
+        "correctIndex": 0,
+        "explanation": "A repeated condition → wenn. The main clause then starts with its verb: trinke ich …"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wenn ich Hunger habe, ___",
+        "options": [
+          "koche ich etwas",
+          "ich koche etwas",
+          "koche etwas ich"
+        ],
+        "correctIndex": 0,
+        "explanation": "After a fronted Nebensatz the main clause begins with its verb: …, koche ich etwas."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist richtig?",
+        "options": [
+          "Ich glaube, dass er heute arbeitet.",
+          "Ich glaube, dass er arbeitet heute.",
+          "Ich glaube, dass arbeitet er heute."
+        ],
+        "correctIndex": 0,
+        "explanation": "In the dass-clause the verb stands at the very end: … heute arbeitet."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie ist traurig, weil ihre Freundin nicht kommen ___.",
+        "options": [
+          "kann",
+          "können",
+          "kannst"
+        ],
+        "correctIndex": 0,
+        "explanation": "With a modal the verb cluster ends the clause: … nicht kommen kann."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich nehme einen Regenschirm mit, ___ es regnet.",
+        "options": [
+          "wenn",
+          "ob",
+          "dass"
+        ],
+        "correctIndex": 0,
+        "explanation": "A condition → wenn; ob only appears after verbs like „[[fragen]]“ or „[[wissen]]“."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er fragt, ___ das Restaurant heute geöffnet ist.",
+        "options": [
+          "ob",
+          "wenn",
+          "dass"
+        ],
+        "correctIndex": 0,
+        "explanation": "An indirect yes/no question → ob. English „if“ is only wenn for conditions."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich bin sicher, ___ wir den Bus noch bekommen.",
+        "options": [
+          "dass",
+          "ob",
+          "weil"
+        ],
+        "correctIndex": 0,
+        "explanation": "After „Ich bin sicher“ comes a statement → dass, not a question."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Weil ich krank bin, bleibe ich heute zu Hause.",
+          "Weil ich krank bin, ich bleibe heute zu Hause.",
+          "Weil ich bin krank, bleibe ich heute zu Hause."
+        ],
+        "correctIndex": 0,
+        "explanation": "Nebensatz first: its verb goes last (bin), then the main clause starts with its verb (bleibe)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie spart Geld, weil sie im Sommer nach Spanien fliegen ___.",
+        "options": [
+          "will",
+          "wollen",
+          "willst"
+        ],
+        "correctIndex": 0,
+        "explanation": "The modal goes to the very end, after the infinitive: … fliegen will."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz hat das richtige Komma?",
+        "options": [
+          "Ich denke, dass es morgen schneit.",
+          "Ich denke dass, es morgen schneit.",
+          "Ich denke dass es morgen, schneit."
+        ],
+        "correctIndex": 0,
+        "explanation": "The comma stands directly before dass, separating main and subordinate clause."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich bleibe im Bett, ___ ich krank bin. (because)",
+        "accept": [
+          "weil"
+        ],
+        "explanation": "Reason → „[[weil]]“; the verb bin stands at the end."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie glaubt, ___ es morgen regnet. (that)",
+        "accept": [
+          "dass"
+        ],
+        "explanation": "After „[[glauben]]“: dass — with double s. („[[regnen]]“ — to rain.)"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ es schneit, bauen wir einen Schneemann. (when/if)",
+        "accept": [
+          "wenn"
+        ],
+        "explanation": "Condition → „[[wenn]]“. The main clause then begins with its verb: bauen wir …"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich weiß nicht, ___ der Zug pünktlich ist. (whether)",
+        "accept": [
+          "ob"
+        ],
+        "explanation": "Yes/no uncertainty after „[[wissen]]“ → ob."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er trägt eine Jacke, weil es draußen kalt ___. (sein)",
+        "accept": [
+          "ist"
+        ],
+        "explanation": "The conjugated verb goes to the end of the weil-clause: … draußen kalt ist."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich glaube, dass sie gern Musik ___. (hören)",
+        "accept": [
+          "hört"
+        ],
+        "explanation": "Subject sie (she) → hört, in final position of the dass-clause."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wenn ich Zeit ___, besuche ich dich. (haben)",
+        "accept": [
+          "habe"
+        ],
+        "explanation": "In the wenn-clause the verb is final: Wenn ich Zeit habe, …"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er kommt zu spät, weil er den Bus verpasst ___. (haben)",
+        "accept": [
+          "hat"
+        ],
+        "explanation": "In the Perfekt the auxiliary goes last in the Nebensatz: … verpasst hat."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie fragt mich, ___ ich morgen Zeit habe. (whether)",
+        "accept": [
+          "ob"
+        ],
+        "explanation": "An indirect yes/no question → ob, never wenn."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wenn du Hunger ___, mach dir ein Brot. (haben)",
+        "accept": [
+          "hast"
+        ],
+        "explanation": "du → hast, at the end of the wenn-clause; the main clause is an imperative."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "weiß,",
+          "dass",
+          "du",
+          "müde",
+          "bist"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "weiß,",
+            "dass",
+            "du",
+            "müde",
+            "bist"
+          ]
+        ],
+        "translation": "I know that you are tired.",
+        "explanation": "dass-clause: subject after dass, verb at the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Er",
+          "bleibt",
+          "zu",
+          "Hause,",
+          "weil",
+          "er",
+          "krank",
+          "ist"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "bleibt",
+            "zu",
+            "Hause,",
+            "weil",
+            "er",
+            "krank",
+            "ist"
+          ]
+        ],
+        "translation": "He stays at home because he is ill.",
+        "explanation": "„[[weil]]“ sends ist to the end of its clause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Sie",
+          "sagt,",
+          "dass",
+          "sie",
+          "morgen",
+          "kommt"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "sagt,",
+            "dass",
+            "sie",
+            "morgen",
+            "kommt"
+          ]
+        ],
+        "translation": "She says that she is coming tomorrow.",
+        "explanation": "The time word comes before the final verb: … morgen kommt."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "esse",
+          "einen",
+          "Apfel,",
+          "wenn",
+          "ich",
+          "Hunger",
+          "habe"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "esse",
+            "einen",
+            "Apfel,",
+            "wenn",
+            "ich",
+            "Hunger",
+            "habe"
+          ]
+        ],
+        "translation": "I eat an apple when I am hungry.",
+        "explanation": "Main clause first, then the wenn-clause with habe at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "wissen",
+          "nicht,",
+          "ob",
+          "das",
+          "Geschäft",
+          "offen",
+          "ist"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "wissen",
+            "nicht,",
+            "ob",
+            "das",
+            "Geschäft",
+            "offen",
+            "ist"
+          ]
+        ],
+        "translation": "We do not know whether the shop is open.",
+        "explanation": "ob introduces an indirect yes/no question; ist goes last."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Wenn",
+          "ich",
+          "Zeit",
+          "habe,",
+          "lese",
+          "ich",
+          "ein",
+          "Buch"
+        ],
+        "solutions": [
+          [
+            "Wenn",
+            "ich",
+            "Zeit",
+            "habe,",
+            "lese",
+            "ich",
+            "ein",
+            "Buch"
+          ]
+        ],
+        "translation": "When I have time, I read a book.",
+        "explanation": "Nebensatz first → the two verbs meet at the comma: … habe, lese …"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Weil",
+          "es",
+          "regnet,",
+          "nehmen",
+          "wir",
+          "ein",
+          "Taxi"
+        ],
+        "solutions": [
+          [
+            "Weil",
+            "es",
+            "regnet,",
+            "nehmen",
+            "wir",
+            "ein",
+            "Taxi"
+          ]
+        ],
+        "translation": "Because it is raining, we take a taxi.",
+        "explanation": "Weil-clause first, then the main clause starts with its verb: nehmen wir …"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "rufe",
+          "dich",
+          "an,",
+          "wenn",
+          "ich",
+          "zu",
+          "Hause",
+          "bin"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "rufe",
+            "dich",
+            "an,",
+            "wenn",
+            "ich",
+            "zu",
+            "Hause",
+            "bin"
+          ]
+        ],
+        "translation": "I will call you when I am home.",
+        "explanation": "The separable prefix an closes the main clause before the comma; bin ends the wenn-clause."
+      }
     }
   ]
 }

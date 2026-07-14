@@ -425,6 +425,362 @@
         "translation": "He threw out the trash.",
         "explanation": "Perfekt: the participle weggeworfen stays in one piece at the end ([[wegwerfen]])."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich wache um sechs Uhr ___.",
+        "options": [
+          "auf",
+          "an",
+          "aus"
+        ],
+        "correctIndex": 0,
+        "explanation": "[[aufwachen]] (to wake up) — the prefix auf goes to the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir steigen in den Bus ___.",
+        "options": [
+          "ein",
+          "an",
+          "auf"
+        ],
+        "correctIndex": 0,
+        "explanation": "[[einsteigen]] (to get on): Wir steigen … ein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er sieht jeden Abend ___.",
+        "options": [
+          "fern",
+          "aus",
+          "an"
+        ],
+        "correctIndex": 0,
+        "explanation": "[[fernsehen]] (to watch TV): Er sieht … fern."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich ziehe im August nach München ___.",
+        "options": [
+          "um",
+          "an",
+          "aus"
+        ],
+        "correctIndex": 0,
+        "explanation": "[[umziehen]] (to move house): Ich ziehe … um."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Hör bitte gut ___!",
+        "options": [
+          "zu",
+          "an",
+          "ein"
+        ],
+        "correctIndex": 0,
+        "explanation": "[[zuhören]] (to listen): Hör gut zu! The prefix goes to the end of the imperative."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hat ihre Freunde ___.",
+        "options": [
+          "eingeladen",
+          "geeinladen",
+          "einladet"
+        ],
+        "correctIndex": 0,
+        "explanation": "Perfekt of [[einladen]]: the -ge- goes between prefix and stem → ein-ge-laden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er hat gestern nicht ___.",
+        "options": [
+          "ferngesehen",
+          "gefernsehen",
+          "fernsehte"
+        ],
+        "correctIndex": 0,
+        "explanation": "Perfekt of [[fernsehen]]: fern + ge + sehen = ferngesehen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich versuche, früh ___.",
+        "options": [
+          "aufzustehen",
+          "zu aufstehen",
+          "aufstehen zu"
+        ],
+        "correctIndex": 0,
+        "explanation": "In a zu-infinitive the zu goes between prefix and stem: auf-zu-stehen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Steh bitte ___! (aufstehen)",
+        "accept": [
+          "auf"
+        ],
+        "explanation": "Imperative of [[aufstehen]]: Steh auf! The prefix goes to the end.",
+        "hint": "prefix at the end"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir gehen am Samstag ___. (ausgehen)",
+        "accept": [
+          "aus"
+        ],
+        "explanation": "[[ausgehen]] (to go out): Wir gehen … aus.",
+        "hint": "prefix at the end"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie zieht ihre Jacke ___. (anziehen)",
+        "accept": [
+          "an"
+        ],
+        "explanation": "[[anziehen]] (to put on): Sie zieht … an.",
+        "hint": "prefix at the end"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie räumt die Küche ___. (aufräumen)",
+        "accept": [
+          "auf"
+        ],
+        "explanation": "[[aufräumen]] (to tidy up): Sie räumt … auf.",
+        "hint": "prefix at the end"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er gibt das Buch morgen ___. (zurückgeben)",
+        "accept": [
+          "zurück"
+        ],
+        "explanation": "[[zurückgeben]] (to give back): Er gibt … zurück.",
+        "hint": "prefix at the end"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir sind um zehn Uhr in München ___. (ankommen)",
+        "accept": [
+          "angekommen"
+        ],
+        "explanation": "Perfekt of [[ankommen]] with sein: an + ge + kommen = angekommen.",
+        "hint": "Perfekt"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich habe mein Zimmer ___. (aufräumen)",
+        "accept": [
+          "aufgeräumt"
+        ],
+        "explanation": "Perfekt of [[aufräumen]]: auf + ge + räumt = aufgeräumt.",
+        "hint": "Perfekt"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Vergiss nicht, mich ___! (anrufen, mit „zu“)",
+        "accept": [
+          "anzurufen"
+        ],
+        "explanation": "In a zu-infinitive the zu goes between prefix and stem: an-zu-rufen ([[anrufen]]).",
+        "hint": "zu-infinitive"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "rufe",
+          "dich",
+          "morgen",
+          "an"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "rufe",
+            "dich",
+            "morgen",
+            "an"
+          ]
+        ],
+        "translation": "I'll call you tomorrow.",
+        "explanation": "[[anrufen]] splits: rufe … an. The prefix an stands at the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "kaufen",
+          "heute",
+          "im",
+          "Supermarkt",
+          "ein"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "kaufen",
+            "heute",
+            "im",
+            "Supermarkt",
+            "ein"
+          ]
+        ],
+        "translation": "We are shopping at the supermarket today.",
+        "explanation": "[[einkaufen]] splits: kaufen … ein. Time (heute) before place (im Supermarkt)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Der",
+          "Kurs",
+          "fängt",
+          "um",
+          "neun",
+          "an"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "Kurs",
+            "fängt",
+            "um",
+            "neun",
+            "an"
+          ]
+        ],
+        "translation": "The course starts at nine.",
+        "explanation": "[[anfangen]] splits: fängt … an."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "habe",
+          "meine",
+          "Oma",
+          "angerufen"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "habe",
+            "meine",
+            "Oma",
+            "angerufen"
+          ]
+        ],
+        "translation": "I called my grandma.",
+        "explanation": "Perfekt: the participle angerufen stays in one piece at the end ([[anrufen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Wann",
+          "stehst",
+          "du",
+          "morgen",
+          "auf"
+        ],
+        "solutions": [
+          [
+            "Wann",
+            "stehst",
+            "du",
+            "morgen",
+            "auf"
+          ]
+        ],
+        "translation": "When are you getting up tomorrow?",
+        "explanation": "W-question: verb in position 2, prefix auf at the very end ([[aufstehen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "möchte",
+          "heute",
+          "Abend",
+          "ausgehen"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "möchte",
+            "heute",
+            "Abend",
+            "ausgehen"
+          ]
+        ],
+        "translation": "I would like to go out tonight.",
+        "explanation": "With a modal verb the separable verb stays together at the end: ausgehen."
+      }
     }
   ]
 }

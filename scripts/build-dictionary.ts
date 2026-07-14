@@ -18,11 +18,12 @@ const ROOT = path.join(__dirname, '..');
 const VOCAB_DIR = path.join(ROOT, 'scripts/data/vocab');
 const GRAMMAR_DIR = path.join(ROOT, 'scripts/data/grammar');
 const IMAGES_FILE = path.join(ROOT, 'scripts/data/images.json');
+const SYNONYMS_FILE = path.join(ROOT, 'scripts/data/synonyms.json');
 const NOTO_DIR = path.join(ROOT, 'scripts/data/images/noto');
 const OUT_FILE = path.join(ROOT, 'assets/db/dictionary.db');
 const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 
-const CONTENT_VERSION = 4;
+const CONTENT_VERSION = 5;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
 /** Vocabulary spans the full CEFR range; grammar topics stay A1–B1. */
@@ -191,6 +192,112 @@ function loadImages(vocab: VocabEntry[]): (ImageEntry & { svg: string; source: s
   return out;
 }
 
+// ---------- load & validate synonyms ----------
+
+interface SynonymRef {
+  lemma: string;
+  /** Only needed when the lemma exists under more than one pos. */
+  pos?: string;
+  /** Short German nuance hint ("formeller", "nur für Personen"). */
+  note?: string;
+}
+
+interface SynonymEntry {
+  lemma: string;
+  pos: string;
+  synonyms: SynonymRef[];
+}
+
+/** A resolved, directional synonym link between two lemma|pos keys. */
+interface SynonymLink {
+  fromKey: string;
+  toKey: string;
+  note: string | null;
+}
+
+/**
+ * scripts/data/synonyms.json links dictionary entries to alternatives the
+ * learner can use instead, with an optional short German note explaining the
+ * nuance. Links are directional — author both directions when both entries
+ * should show the connection (notes usually differ per direction).
+ */
+function loadSynonyms(vocab: VocabEntry[]): SynonymLink[] {
+  if (!fs.existsSync(SYNONYMS_FILE)) return [];
+  const entries = JSON.parse(fs.readFileSync(SYNONYMS_FILE, 'utf8')) as SynonymEntry[];
+  const byKey = new Set(vocab.map((e) => `${e.lemma}|${e.pos}`));
+  const posByLemma = new Map<string, string[]>();
+  for (const e of vocab) {
+    const list = posByLemma.get(e.lemma) ?? [];
+    list.push(e.pos);
+    posByLemma.set(e.lemma, list);
+  }
+
+  const errors: string[] = [];
+  const seenHeads = new Set<string>();
+  const links: SynonymLink[] = [];
+
+  /** lemma (+optional pos) → unique lemma|pos key, or null with an error. */
+  const resolve = (where: string, ref: { lemma: string; pos?: string }): string | null => {
+    if (ref.pos) {
+      const key = `${ref.lemma}|${ref.pos}`;
+      if (!byKey.has(key)) {
+        errors.push(`${where}: no vocab entry for ${key}`);
+        return null;
+      }
+      return key;
+    }
+    const poses = posByLemma.get(ref.lemma) ?? [];
+    if (poses.length === 0) {
+      errors.push(`${where}: '${ref.lemma}' not in dictionary`);
+      return null;
+    }
+    if (poses.length > 1) {
+      errors.push(`${where}: '${ref.lemma}' is ambiguous (${poses.join(', ')}) — add "pos"`);
+      return null;
+    }
+    return `${ref.lemma}|${poses[0]}`;
+  };
+
+  for (const entry of entries) {
+    const where = `synonyms.json ${entry?.lemma ?? '?'}`;
+    if (!entry.lemma || !entry.pos || !Array.isArray(entry.synonyms) || entry.synonyms.length === 0) {
+      errors.push(`${where}: needs lemma, pos and a non-empty synonyms array`);
+      continue;
+    }
+    const fromKey = resolve(where, { lemma: entry.lemma, pos: entry.pos });
+    if (!fromKey) continue;
+    if (seenHeads.has(fromKey)) errors.push(`${where}: duplicate entry for ${fromKey}`);
+    seenHeads.add(fromKey);
+
+    const seenRefs = new Set<string>();
+    for (const ref of entry.synonyms) {
+      if (!ref.lemma) {
+        errors.push(`${where}: synonym ref missing lemma`);
+        continue;
+      }
+      const toKey = resolve(`${where} → ${ref.lemma}`, ref);
+      if (!toKey) continue;
+      if (toKey === fromKey) {
+        errors.push(`${where}: refers to itself`);
+        continue;
+      }
+      if (seenRefs.has(toKey)) {
+        errors.push(`${where}: duplicate synonym ${toKey}`);
+        continue;
+      }
+      seenRefs.add(toKey);
+      links.push({ fromKey, toKey, note: ref.note?.trim() || null });
+    }
+  }
+
+  if (errors.length) {
+    console.error(`✗ synonym validation failed (${errors.length} errors):`);
+    for (const err of errors.slice(0, 40)) console.error('  -', err);
+    process.exit(1);
+  }
+  return links;
+}
+
 // ---------- load & validate grammar ----------
 
 interface GrammarTopic {
@@ -327,6 +434,7 @@ function build() {
   const vocab = loadVocab();
   const grammar = loadGrammar();
   const images = loadImages(vocab);
+  const synonyms = loadSynonyms(vocab);
   validateVocabMarkers(grammar, vocab);
 
   // Fingerprint of everything that ends up in the DB. The app compares this
@@ -334,7 +442,7 @@ function build() {
   // content update when they differ (src/logic/contentUpdate.ts).
   const contentHash = crypto
     .createHash('sha1')
-    .update(JSON.stringify({ contentVersion: CONTENT_VERSION, vocab, grammar, images }))
+    .update(JSON.stringify({ contentVersion: CONTENT_VERSION, vocab, grammar, images, synonyms }))
     .digest('hex');
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
@@ -424,6 +532,15 @@ function build() {
       svg TEXT NOT NULL,
       source TEXT NOT NULL
     );
+
+    CREATE TABLE synonyms (
+      id INTEGER PRIMARY KEY,
+      lemma_id INTEGER NOT NULL REFERENCES lemmas(id),
+      syn_lemma_id INTEGER NOT NULL REFERENCES lemmas(id),
+      note TEXT,
+      sort_order INTEGER NOT NULL
+    );
+    CREATE INDEX idx_synonyms_lemma ON synonyms(lemma_id);
   `);
 
   const insLemma = db.prepare(`
@@ -441,6 +558,9 @@ function build() {
   );
 
   const insImage = db.prepare('INSERT INTO lemma_images (lemma_id, svg, source) VALUES (?, ?, ?)');
+  const insSynonym = db.prepare(
+    'INSERT INTO synonyms (lemma_id, syn_lemma_id, note, sort_order) VALUES (?, ?, ?, ?)'
+  );
 
   let formCount = 0;
   let exampleCount = 0;
@@ -499,6 +619,13 @@ function build() {
       insImage.run(lemmaIds.get(`${img.lemma}|${img.pos}`)!, img.svg, img.source);
     }
 
+    const orderPerHead = new Map<string, number>();
+    for (const syn of synonyms) {
+      const order = (orderPerHead.get(syn.fromKey) ?? 0) + 1;
+      orderPerHead.set(syn.fromKey, order);
+      insSynonym.run(lemmaIds.get(syn.fromKey)!, lemmaIds.get(syn.toKey)!, syn.note, order);
+    }
+
     grammar.forEach((t, ti) => {
       const info = db
         .prepare(
@@ -537,7 +664,8 @@ function build() {
   const sizeKb = Math.round(fs.statSync(OUT_FILE).size / 1024);
   console.log(
     `✓ dictionary.db built: ${lemmaCount} lemmas, ${formCount} forms, ${senseCount} senses, ` +
-      `${exampleCount} examples, ${images.length} images, ${grammar.length} topics, ${qCount} questions — ${sizeKb} KB ` +
+      `${exampleCount} examples, ${images.length} images, ${synonyms.length} synonyms, ` +
+      `${grammar.length} topics, ${qCount} questions — ${sizeKb} KB ` +
       `(content ${contentHash.slice(0, 8)})`
   );
 }

@@ -239,6 +239,526 @@
         "translation": "Tomorrow my brother plays football.",
         "explanation": "Verb in position 2 after the fronted „[[Morgen]]“ — subject follows the verb."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ machst du? — Ich koche.",
+        "options": [
+          "Was",
+          "Wer",
+          "Wo"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Ich koche“ answers WHAT you are doing → Was machst du?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ wohnt ihr? — In Hamburg.",
+        "options": [
+          "Wo",
+          "Woher",
+          "Wohin"
+        ],
+        "correctIndex": 0,
+        "explanation": "„In Hamburg“ answers where → Wo wohnt ihr?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ alt bist du?",
+        "options": [
+          "Wie",
+          "Was",
+          "Wer"
+        ],
+        "correctIndex": 0,
+        "explanation": "Asking for age: Wie alt bist du? — literally „How old are you?“"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ ihr Musik?",
+        "options": [
+          "Hört",
+          "Hörst",
+          "Höre"
+        ],
+        "correctIndex": 0,
+        "explanation": "Yes/no question: verb first, in the ihr-form → Hört ihr Musik?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ kostet das Brot?",
+        "options": [
+          "Was",
+          "Wie",
+          "Wo"
+        ],
+        "correctIndex": 0,
+        "explanation": "Asking for a price: Was kostet…? — „What does the bread cost?“"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ er in Berlin?",
+        "options": [
+          "Wohnt",
+          "Wohnst",
+          "Wohnen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Yes/no question: verb in position 1, er-form → Wohnt er in Berlin?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Morgen ___ Fußball.",
+        "options": [
+          "spielen wir",
+          "wir spielen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[morgen]]“ takes position 1, so the verb must come next: Morgen spielen wir Fußball."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ beginnt der Film? — Um neun Uhr.",
+        "options": [
+          "Wann",
+          "Wo",
+          "Was"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Um neun Uhr“ is a time → Wann?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Am Wochenende ___ meine Oma.",
+        "options": [
+          "besuche ich",
+          "ich besuche"
+        ],
+        "correctIndex": 0,
+        "explanation": "After a fronted time phrase the verb stays in position 2: Am Wochenende besuche ich…"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ Sie einen Moment Zeit? (Sie = formal)",
+        "options": [
+          "Haben",
+          "Hat",
+          "Habt"
+        ],
+        "correctIndex": 0,
+        "explanation": "Yes/no question with formal Sie: verb first, in the -en form → Haben Sie…?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ fahrt ihr? — Nach Italien.",
+        "options": [
+          "Wohin",
+          "Woher",
+          "Wo"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Nach Italien“ is a direction (where to) → Wohin?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Abends ___ oft Tee.",
+        "options": [
+          "trinke ich",
+          "ich trinke"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[abends]]“ fills position 1 → verb second, subject third: Abends trinke ich oft Tee."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Jeden Tag ___ zur Arbeit.",
+        "options": [
+          "fährt er",
+          "er fährt"
+        ],
+        "correctIndex": 0,
+        "explanation": "The time phrase „Jeden Tag“ is in position 1, so the verb comes before the subject."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Im Sommer ___ ans Meer.",
+        "options": [
+          "fahren wir",
+          "wir fahren"
+        ],
+        "correctIndex": 0,
+        "explanation": "Fronted time phrase → verb in position 2: Im Sommer fahren wir ans Meer."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Nach dem Essen ___ einen Spaziergang.",
+        "options": [
+          "machen wir",
+          "wir machen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Nach dem Essen“ takes position 1 → the verb must come second."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Vielleicht ___ morgen.",
+        "options": [
+          "kommt er",
+          "er kommt"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[vielleicht]]“ can fill position 1 too — the verb still comes second: Vielleicht kommt er morgen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Dort ___ meine Freundin.",
+        "options": [
+          "wohnt",
+          "wohnt sie"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[dort]]“ is in position 1; the subject „meine Freundin“ follows the verb — no extra „sie“ is needed."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ kommt ihr? — Aus Polen.",
+        "accept": [
+          "woher"
+        ],
+        "explanation": "„Aus Polen“ answers where FROM → Woher kommt ihr?",
+        "hint": "origin"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ ist das? — Das ist ein Kuli.",
+        "accept": [
+          "was"
+        ],
+        "explanation": "Asking about a thing → Was ist das?",
+        "hint": "thing"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ kommt der Zug? — Um zehn Uhr.",
+        "accept": [
+          "wann"
+        ],
+        "explanation": "„Um zehn Uhr“ is a time → Wann kommt der Zug?",
+        "hint": "time"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ist deine Telefonnummer?",
+        "accept": [
+          "wie"
+        ],
+        "explanation": "German asks with „wie“: Wie ist deine Telefonnummer? — literally „How is your phone number?“",
+        "hint": "not „was“!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ fährst du in den Urlaub? — Nach Spanien.",
+        "accept": [
+          "wohin"
+        ],
+        "explanation": "„Nach Spanien“ is a direction (where to) → Wohin?",
+        "hint": "direction"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ spielt heute Fußball? — Mein Bruder.",
+        "accept": [
+          "wer"
+        ],
+        "explanation": "The answer is a person → Wer spielt heute Fußball?",
+        "hint": "person"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ du mir bitte? (helfen)",
+        "accept": [
+          "hilfst"
+        ],
+        "explanation": "Yes/no question: the conjugated verb takes position 1. „[[helfen]]“ changes e→i: Hilfst du…?",
+        "hint": "verb first!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ ihr am Samstag Zeit? (haben)",
+        "accept": [
+          "habt"
+        ],
+        "explanation": "Yes/no question: verb in position 1, ihr-form → Habt ihr am Samstag Zeit?",
+        "hint": "verb first!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ spät ist es? — Es ist acht Uhr.",
+        "accept": [
+          "wie"
+        ],
+        "explanation": "Asking for the time: Wie spät ist es? — literally „How late is it?“",
+        "hint": "asking the time"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "spielen",
+          "heute",
+          "Fußball"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "spielen",
+            "heute",
+            "Fußball"
+          ]
+        ],
+        "translation": "We are playing football today.",
+        "explanation": "Statement: subject – verb (position 2) – time – object."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Was",
+          "machst",
+          "du",
+          "heute"
+        ],
+        "solutions": [
+          [
+            "Was",
+            "machst",
+            "du",
+            "heute"
+          ]
+        ],
+        "translation": "What are you doing today?",
+        "explanation": "W-question: question word first, verb second."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Kommst",
+          "du",
+          "aus",
+          "Berlin"
+        ],
+        "solutions": [
+          [
+            "Kommst",
+            "du",
+            "aus",
+            "Berlin"
+          ]
+        ],
+        "translation": "Do you come from Berlin?",
+        "explanation": "Yes/no question: the verb moves to position 1."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wo",
+          "wohnt",
+          "deine",
+          "Familie"
+        ],
+        "solutions": [
+          [
+            "Wo",
+            "wohnt",
+            "deine",
+            "Familie"
+          ]
+        ],
+        "translation": "Where does your family live?",
+        "explanation": "W-word in position 1, verb in position 2, then the subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Morgen",
+          "kaufe",
+          "ich",
+          "Brot"
+        ],
+        "solutions": [
+          [
+            "Morgen",
+            "kaufe",
+            "ich",
+            "Brot"
+          ]
+        ],
+        "translation": "Tomorrow I am buying bread.",
+        "explanation": "Fronted „Morgen“ → verb second → subject third."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Wann",
+          "beginnt",
+          "der",
+          "Deutschkurs"
+        ],
+        "solutions": [
+          [
+            "Wann",
+            "beginnt",
+            "der",
+            "Deutschkurs"
+          ]
+        ],
+        "translation": "When does the German course start?",
+        "explanation": "W-question: Wann + verb + subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Am",
+          "Samstag",
+          "besucht",
+          "sie",
+          "ihre",
+          "Oma"
+        ],
+        "solutions": [
+          [
+            "Am",
+            "Samstag",
+            "besucht",
+            "sie",
+            "ihre",
+            "Oma"
+          ]
+        ],
+        "translation": "On Saturday she visits her grandma.",
+        "explanation": "„Am Samstag“ fills position 1, so the subject moves behind the verb."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Abends",
+          "trinkt",
+          "mein",
+          "Vater",
+          "Tee"
+        ],
+        "solutions": [
+          [
+            "Abends",
+            "trinkt",
+            "mein",
+            "Vater",
+            "Tee"
+          ]
+        ],
+        "translation": "In the evening my father drinks tea.",
+        "explanation": "„[[abends]]“ takes position 1 — the verb stays second, the subject follows."
+      }
     }
   ]
 }

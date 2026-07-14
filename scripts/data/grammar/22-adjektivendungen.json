@@ -201,6 +201,568 @@
         "translation": "The young woman is reading a good book.",
         "explanation": "die junge Frau (feminine Nominativ, -e) · ein gutes Buch (neuter, -es)."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die ___ Katze schläft auf dem Sofa.",
+        "options": [
+          "junge",
+          "junger",
+          "jungen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Feminine Nominativ after die: just -e → die junge Katze."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ___ Kind lacht.",
+        "options": [
+          "kleine",
+          "kleines",
+          "kleinen"
+        ],
+        "correctIndex": 0,
+        "explanation": "After das (Nominativ) the adjective only takes -e: das kleine Kind."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich esse einen ___ Apfel.",
+        "options": [
+          "roten",
+          "roter",
+          "rotes"
+        ],
+        "correctIndex": 0,
+        "explanation": "Masculine Akkusativ always ends in -en: einen roten Apfel."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir haben ein ___ Haus.",
+        "options": [
+          "neues",
+          "neue",
+          "neuen"
+        ],
+        "correctIndex": 0,
+        "explanation": "ein shows no gender → the adjective shows the das-letter: ein neues Haus."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Mann trägt eine ___ Jacke.",
+        "options": [
+          "blaue",
+          "blauer",
+          "blauen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Feminine Akkusativ with eine: -e → eine blaue Jacke."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die ___ Schuhe sind teuer.",
+        "options": [
+          "neuen",
+          "neue",
+          "neues"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural after die → always -en: die neuen Schuhe."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er wohnt in einer ___ Stadt.",
+        "options": [
+          "kleinen",
+          "kleine",
+          "kleiner"
+        ],
+        "correctIndex": 0,
+        "explanation": "Dativ → always -en: in einer kleinen Stadt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Mein ___ Bruder studiert in Berlin.",
+        "options": [
+          "großer",
+          "große",
+          "großen"
+        ],
+        "correctIndex": 0,
+        "explanation": "mein works like ein: the adjective shows the der-letter → mein großer Bruder."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich fahre mit dem ___ Zug.",
+        "options": [
+          "nächsten",
+          "nächste",
+          "nächster"
+        ],
+        "correctIndex": 0,
+        "explanation": "mit + Dativ → -en: mit dem nächsten Zug."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie kauft keine ___ Kleider.",
+        "options": [
+          "teuren",
+          "teure",
+          "teures"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural after keine → -en: keine teuren Kleider."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das ist eine ___ Idee.",
+        "options": [
+          "gute",
+          "guter",
+          "guten"
+        ],
+        "correctIndex": 0,
+        "explanation": "Feminine Nominativ with eine: -e → eine gute Idee."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir besuchen unsere ___ Großeltern.",
+        "options": [
+          "alten",
+          "alte",
+          "altes"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural after unsere (Akkusativ) → -en: unsere alten Großeltern."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ Wetter macht mich müde.",
+        "options": [
+          "Schlechtes",
+          "Schlechte",
+          "Schlechten"
+        ],
+        "correctIndex": 0,
+        "explanation": "No article → the adjective takes the strong das-ending: Schlechtes Wetter."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er trinkt gern ___ Milch.",
+        "options": [
+          "kalte",
+          "kalten",
+          "kalter"
+        ],
+        "correctIndex": 0,
+        "explanation": "No article, feminine Akkusativ → the strong die-ending -e: kalte Milch."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Mit ___ Grüßen",
+        "options": [
+          "freundlichen",
+          "freundliche",
+          "freundlicher"
+        ],
+        "correctIndex": 0,
+        "explanation": "mit + Dativ plural, no article → strong ending -en: Mit freundlichen Grüßen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das ist das Ende eines ___ Films.",
+        "options": [
+          "langen",
+          "langes",
+          "langer"
+        ],
+        "correctIndex": 0,
+        "explanation": "Genitiv → always -en: eines langen Films."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Trotz des ___ Wetters gehen wir spazieren.",
+        "options": [
+          "schlechten",
+          "schlechtes",
+          "schlechte"
+        ],
+        "correctIndex": 0,
+        "explanation": "trotz + Genitiv → -en: trotz des schlechten Wetters."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ Kaffee schmeckt am besten.",
+        "options": [
+          "Frischer",
+          "Frische",
+          "Frisches"
+        ],
+        "correctIndex": 0,
+        "explanation": "No article, masculine Nominativ → the strong der-ending -er: Frischer Kaffee."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die ___ Sonne scheint. (warm)",
+        "accept": [
+          "warme"
+        ],
+        "explanation": "Feminine Nominativ after die → -e: die warme Sonne.",
+        "hint": "die Sonne, Nominativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich habe eine ___ Schwester. (klein)",
+        "accept": [
+          "kleine"
+        ],
+        "explanation": "Feminine with eine → -e: eine kleine Schwester.",
+        "hint": "feminine Akkusativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ___ Essen schmeckt super. (gut)",
+        "accept": [
+          "gute"
+        ],
+        "explanation": "Neuter Nominativ after das → just -e: das gute Essen.",
+        "hint": "after das: -e"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er kauft ein ___ Fahrrad. (neu)",
+        "accept": [
+          "neues"
+        ],
+        "explanation": "Neuter after ein → -es: ein neues Fahrrad.",
+        "hint": "das Fahrrad"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir essen in einem ___ Restaurant. (italienisch)",
+        "accept": [
+          "italienischen"
+        ],
+        "explanation": "Dativ → -en: in einem italienischen Restaurant.",
+        "hint": "Dativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich suche einen ___ Pullover. (warm)",
+        "accept": [
+          "warmen"
+        ],
+        "explanation": "Masculine Akkusativ → -en: einen warmen Pullover.",
+        "hint": "masculine Akkusativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hilft der ___ Frau. (alt)",
+        "accept": [
+          "alten"
+        ],
+        "explanation": "„[[helfen]]“ takes Dativ → -en: der alten Frau.",
+        "hint": "helfen + Dativ"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Preis des ___ Autos ist hoch. (neu)",
+        "accept": [
+          "neuen"
+        ],
+        "explanation": "Genitiv → always -en: des neuen Autos.",
+        "hint": "Genitiv"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich trinke meinen Kaffee mit ___ Milch. (heiß)",
+        "accept": [
+          "heißer"
+        ],
+        "explanation": "No article, feminine Dativ → the strong der-ending -er: mit heißer Milch.",
+        "hint": "no article, Dativ"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Der",
+          "alte",
+          "Mann",
+          "schläft"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "alte",
+            "Mann",
+            "schläft"
+          ]
+        ],
+        "translation": "The old man is sleeping.",
+        "explanation": "Masculine Nominativ after der: just -e → der alte Mann."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "habe",
+          "eine",
+          "nette",
+          "Lehrerin"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "habe",
+            "eine",
+            "nette",
+            "Lehrerin"
+          ]
+        ],
+        "translation": "I have a nice teacher.",
+        "explanation": "Feminine Akkusativ with eine: -e → eine nette Lehrerin."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Das",
+          "kleine",
+          "Kind",
+          "spielt"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "kleine",
+            "Kind",
+            "spielt"
+          ]
+        ],
+        "translation": "The little child is playing.",
+        "explanation": "Neuter Nominativ after das: -e → das kleine Kind."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Sie",
+          "trägt",
+          "einen",
+          "roten",
+          "Mantel"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "trägt",
+            "einen",
+            "roten",
+            "Mantel"
+          ]
+        ],
+        "translation": "She is wearing a red coat.",
+        "explanation": "Masculine Akkusativ: einen roten Mantel — both words end in -en."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "wohnen",
+          "in",
+          "einem",
+          "großen",
+          "Haus"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "wohnen",
+            "in",
+            "einem",
+            "großen",
+            "Haus"
+          ]
+        ],
+        "translation": "We live in a big house.",
+        "explanation": "in + Dativ → -en: in einem großen Haus."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Er",
+          "liest",
+          "die",
+          "neue",
+          "Zeitung"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "liest",
+            "die",
+            "neue",
+            "Zeitung"
+          ]
+        ],
+        "translation": "He is reading the new newspaper.",
+        "explanation": "Feminine Akkusativ after die: -e → die neue Zeitung."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Die",
+          "kleinen",
+          "Kinder",
+          "spielen",
+          "mit",
+          "dem",
+          "neuen",
+          "Ball"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "kleinen",
+            "Kinder",
+            "spielen",
+            "mit",
+            "dem",
+            "neuen",
+            "Ball"
+          ]
+        ],
+        "translation": "The little children are playing with the new ball.",
+        "explanation": "die kleinen Kinder (plural, -en) · mit dem neuen Ball (Dativ, -en)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "In",
+          "der",
+          "alten",
+          "Stadt",
+          "gibt",
+          "es",
+          "viele",
+          "Cafés"
+        ],
+        "solutions": [
+          [
+            "In",
+            "der",
+            "alten",
+            "Stadt",
+            "gibt",
+            "es",
+            "viele",
+            "Cafés"
+          ]
+        ],
+        "translation": "In the old city there are many cafés.",
+        "explanation": "in + Dativ, feminine → -en: in der alten Stadt."
+      }
     }
   ]
 }

@@ -221,6 +221,512 @@
         "translation": "My sister likes reading books.",
         "explanation": "er/sie/es-form with vowel change: liest. „[[gern]]“ comes right after the verb."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ in Hamburg.",
+        "options": [
+          "wohnen",
+          "wohnt",
+          "wohnst"
+        ],
+        "correctIndex": 0,
+        "explanation": "wir → stem + -en: wir wohnen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie ___ Tee. (sie = they)",
+        "options": [
+          "trinken",
+          "trinkt",
+          "trinke"
+        ],
+        "correctIndex": 0,
+        "explanation": "Plural sie (they) → stem + -en: sie trinken."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ eine Pizza.",
+        "options": [
+          "kaufe",
+          "kaufst",
+          "kauft"
+        ],
+        "correctIndex": 0,
+        "explanation": "ich → stem + -e: ich kaufe."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er ___ Englisch und Deutsch.",
+        "options": [
+          "lernt",
+          "lerne",
+          "lernst"
+        ],
+        "correctIndex": 0,
+        "explanation": "er/sie/es → stem + -t: er lernt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du ___ heute Abend.",
+        "options": [
+          "kochst",
+          "kocht",
+          "koche"
+        ],
+        "correctIndex": 0,
+        "explanation": "du → stem + -st: du kochst."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ihr ___ ein Lied.",
+        "options": [
+          "singt",
+          "singst",
+          "singen"
+        ],
+        "correctIndex": 0,
+        "explanation": "ihr → stem + -t: ihr singt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ihr aus Spanien?",
+        "options": [
+          "Kommt",
+          "Kommst",
+          "Kommen"
+        ],
+        "correctIndex": 0,
+        "explanation": "ihr → stem + -t: Kommt ihr aus Spanien?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir ___ ein Haus.",
+        "options": [
+          "haben",
+          "habt",
+          "hat"
+        ],
+        "correctIndex": 0,
+        "explanation": "wir → stem + -en, same as the infinitive: wir haben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ihr ___ sehr nett.",
+        "options": [
+          "seid",
+          "sind",
+          "bist"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[sein]]“ is irregular: ihr seid. (wir sind, du bist)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Meine Eltern ___ in München.",
+        "options": [
+          "wohnen",
+          "wohnt",
+          "wohne"
+        ],
+        "correctIndex": 0,
+        "explanation": "„Meine Eltern“ is plural (= sie) → stem + -en: sie wohnen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Baby ___ viel.",
+        "options": [
+          "schläft",
+          "schlaft",
+          "schläfst"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[schlafen]]“ takes an umlaut in the er/sie/es-form: es schläft."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ Sie Deutsch? (Sie = formal)",
+        "options": [
+          "Sprechen",
+          "Spricht",
+          "Sprichst"
+        ],
+        "correctIndex": 0,
+        "explanation": "Formal Sie always takes the -en form, like the infinitive: Sprechen Sie…?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Du ___ das Buch.",
+        "options": [
+          "nimmst",
+          "nehmst",
+          "nimmt"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[nehmen]]“ is strong: e→i (with mm) in the du-form, du nimmst."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er ___ mir ein Foto.",
+        "options": [
+          "gibt",
+          "gebt",
+          "gibst"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[geben]]“ changes e→i: er gibt. (ihr gebt, du gibst)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie ___ ihren Freund. (sie = she)",
+        "options": [
+          "trifft",
+          "trefft",
+          "triffst"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[treffen]]“ changes e→i: sie trifft."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Du ___ deiner Mutter.",
+        "options": [
+          "hilfst",
+          "helfst",
+          "hilft"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[helfen]]“ changes e→i in the du-form: du hilfst."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Du ___ den Film.",
+        "options": [
+          "siehst",
+          "sehst",
+          "sieht"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[sehen]]“ changes e→ie: du siehst."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ gern Pizza. (essen)",
+        "accept": [
+          "esse"
+        ],
+        "explanation": "ich → stem + -e: ich esse. (The vowel change only affects du and er/sie/es.)",
+        "hint": "ich-form"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du ___ in Wien. (wohnen)",
+        "accept": [
+          "wohnst"
+        ],
+        "explanation": "du → stem + -st: du wohnst.",
+        "hint": "du-form"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie ___ Fußball. (spielen, sie = they)",
+        "accept": [
+          "spielen"
+        ],
+        "explanation": "Plural sie → stem + -en, same as the infinitive: sie spielen.",
+        "hint": "plural"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ihr ___ müde. (sein)",
+        "accept": [
+          "seid"
+        ],
+        "explanation": "„[[sein]]“ is irregular: ihr seid.",
+        "hint": "irregular!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir ___ zwei Kinder. (haben)",
+        "accept": [
+          "haben"
+        ],
+        "explanation": "wir → stem + -en: wir haben. (Only du hast and er hat are irregular.)",
+        "hint": "wir-form"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Du ___ einen Brief. (schreiben)",
+        "accept": [
+          "schreibst"
+        ],
+        "explanation": "du → stem + -st: du schreibst. „[[schreiben]]“ has no vowel change.",
+        "hint": "du-form"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er ___ nach Hause. (laufen)",
+        "accept": [
+          "läuft"
+        ],
+        "explanation": "„[[laufen]]“ takes an umlaut: er läuft.",
+        "hint": "vowel change a→äu"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Du ___ mir das Salz. (geben)",
+        "accept": [
+          "gibst"
+        ],
+        "explanation": "„[[geben]]“ changes e→i in the du-form: du gibst.",
+        "hint": "vowel change e→i"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ihr ___ die Zeitung. (lesen)",
+        "accept": [
+          "lest"
+        ],
+        "explanation": "ihr → stem + -t: ihr lest. The vowel change (e→ie) only affects du and er/sie/es.",
+        "hint": "ihr-form"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Er",
+          "spielt",
+          "Gitarre"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "spielt",
+            "Gitarre"
+          ]
+        ],
+        "translation": "He plays the guitar.",
+        "explanation": "Subject – conjugated verb (position 2) – object."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "hören",
+          "gern",
+          "Musik"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "hören",
+            "gern",
+            "Musik"
+          ]
+        ],
+        "translation": "We like listening to music.",
+        "explanation": "wir → stem + -en; „[[gern]]“ comes right after the verb."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Du",
+          "kochst",
+          "heute",
+          "eine",
+          "Suppe"
+        ],
+        "solutions": [
+          [
+            "Du",
+            "kochst",
+            "heute",
+            "eine",
+            "Suppe"
+          ]
+        ],
+        "translation": "You are cooking a soup today.",
+        "explanation": "du-form: kochst. The time word „heute“ comes after the verb."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Am",
+          "Morgen",
+          "trinkt",
+          "sie",
+          "Tee"
+        ],
+        "solutions": [
+          [
+            "Am",
+            "Morgen",
+            "trinkt",
+            "sie",
+            "Tee"
+          ]
+        ],
+        "translation": "In the morning she drinks tea.",
+        "explanation": "„Am Morgen“ fills position 1, so the verb comes before the subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Ihr",
+          "spielt",
+          "zusammen",
+          "Karten"
+        ],
+        "solutions": [
+          [
+            "Ihr",
+            "spielt",
+            "zusammen",
+            "Karten"
+          ]
+        ],
+        "translation": "You (all) are playing cards together.",
+        "explanation": "ihr → stem + -t: ihr spielt."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Mein",
+          "Vater",
+          "spricht",
+          "drei",
+          "Sprachen"
+        ],
+        "solutions": [
+          [
+            "Mein",
+            "Vater",
+            "spricht",
+            "drei",
+            "Sprachen"
+          ]
+        ],
+        "translation": "My father speaks three languages.",
+        "explanation": "er/sie/es-form with vowel change e→i: spricht."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Das",
+          "Kind",
+          "isst",
+          "einen",
+          "Apfel"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "Kind",
+            "isst",
+            "einen",
+            "Apfel"
+          ]
+        ],
+        "translation": "The child is eating an apple.",
+        "explanation": "„[[essen]]“ changes e→i in the er/sie/es-form: das Kind isst."
+      }
     }
   ]
 }

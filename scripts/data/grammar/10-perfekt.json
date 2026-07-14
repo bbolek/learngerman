@@ -238,6 +238,532 @@
         "translation": "Yesterday I played football.",
         "explanation": "„[[Gestern]]“ takes position 1 → habe (verb) second, subject third, participle last."
       }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich ___ Wasser getrunken.",
+        "options": [
+          "habe",
+          "bin",
+          "hat"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[trinken]]“ is not movement → haben: ich habe getrunken."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er ___ nach Spanien geflogen.",
+        "options": [
+          "ist",
+          "hat",
+          "sind"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[fliegen]]“ = movement from A to B → sein: er ist geflogen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ Musik gehört.",
+        "options": [
+          "haben",
+          "sind",
+          "habt"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[hören]]“ takes haben: wir haben gehört."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du ___ lange geschlafen.",
+        "options": [
+          "hast",
+          "bist",
+          "hat"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[schlafen]]“ is no movement and no change of state → haben: du hast geschlafen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie hat einen Brief ___.",
+        "options": [
+          "geschrieben",
+          "geschreibt",
+          "schreiben"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[schreiben]]“ is strong: ge- + -en with vowel change → geschrieben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Hast du das Brot ___?",
+        "options": [
+          "gekauft",
+          "gekaufen",
+          "kaufen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[kaufen]]“ is regular: ge- + Stamm + -t → gekauft."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ihr ___ zu spät gekommen.",
+        "options": [
+          "seid",
+          "habt",
+          "sind"
+        ],
+        "correctIndex": 0,
+        "explanation": "kommen = movement → sein: ihr seid gekommen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich habe meine Oma ___.",
+        "options": [
+          "besucht",
+          "gebesucht",
+          "besuchen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[besuchen]]“ starts with be- → no ge-: besucht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er hat die Tür ___.",
+        "options": [
+          "aufgemacht",
+          "geaufmacht",
+          "aufmacht"
+        ],
+        "correctIndex": 0,
+        "explanation": "Separable verbs put the ge in the middle: auf-ge-macht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir ___ zwei Stunden im Park geblieben.",
+        "options": [
+          "sind",
+          "haben",
+          "seid"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[bleiben]]“ always takes sein, even though nobody moves."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Meine Freundin ___ gestern viel gelacht.",
+        "options": [
+          "hat",
+          "ist",
+          "haben"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[lachen]]“ → haben: sie hat gelacht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ihr gut nach Hause gekommen?",
+        "options": [
+          "Seid",
+          "Habt",
+          "Sind"
+        ],
+        "correctIndex": 0,
+        "explanation": "Movement → sein, and ihr → seid: Seid ihr gut nach Hause gekommen?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Zug ___ pünktlich abgefahren.",
+        "options": [
+          "ist",
+          "hat",
+          "sind"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[abfahren]]“ = movement → sein: der Zug ist abgefahren."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich habe das Wort nicht ___.",
+        "options": [
+          "verstanden",
+          "verstehte",
+          "verstehen"
+        ],
+        "correctIndex": 0,
+        "explanation": "ver- verbs take no ge-; „[[verstehen]]“ is strong → verstanden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wann bist du gestern ___?",
+        "options": [
+          "eingeschlafen",
+          "eingeschlaft",
+          "einschlafen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[einschlafen]]“ = change of state → sein; strong participle eingeschlafen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir haben ein Taxi ___.",
+        "options": [
+          "genommen",
+          "genehmt",
+          "nehmen"
+        ],
+        "correctIndex": 0,
+        "explanation": "„[[nehmen]]“ is strong with a vowel change: genommen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hat in Berlin Medizin ___.",
+        "options": [
+          "studiert",
+          "gestudiert",
+          "studieren"
+        ],
+        "correctIndex": 0,
+        "explanation": "-ieren verbs never take ge-: „[[studieren]]“ → studiert."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich habe eine Suppe ___. (kochen)",
+        "accept": [
+          "gekocht"
+        ],
+        "explanation": "„[[kochen]]“ is regular: gekocht.",
+        "hint": "regular verb"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir haben in München ___. (wohnen)",
+        "accept": [
+          "gewohnt"
+        ],
+        "explanation": "„[[wohnen]]“ is regular: gewohnt."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er ist schnell ___. (laufen)",
+        "accept": [
+          "gelaufen"
+        ],
+        "explanation": "„[[laufen]]“ = movement → sein; strong participle: gelaufen.",
+        "hint": "strong verb"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich habe meinen Schlüssel ___. (verlieren)",
+        "accept": [
+          "verloren"
+        ],
+        "explanation": "ver- → no ge-; „[[verlieren]]“ is strong: verloren."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir haben unsere Freunde ___. (treffen)",
+        "accept": [
+          "getroffen"
+        ],
+        "explanation": "„[[treffen]]“ is strong: getroffen.",
+        "hint": "strong verb"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ du gut geschlafen? (haben oder sein?)",
+        "accept": [
+          "Hast"
+        ],
+        "explanation": "schlafen → haben: Hast du gut geschlafen?"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er hat mir bei den Hausaufgaben ___. (helfen)",
+        "accept": [
+          "geholfen"
+        ],
+        "explanation": "„[[helfen]]“ is strong: geholfen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich ___ heute früh aufgewacht. (haben oder sein?)",
+        "accept": [
+          "bin"
+        ],
+        "explanation": "„[[aufwachen]]“ = change of state → sein: ich bin aufgewacht."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hat ihre Mutter ___. (anrufen)",
+        "accept": [
+          "angerufen"
+        ],
+        "explanation": "Separable „[[anrufen]]“: an-ge-rufen.",
+        "hint": "separable verb"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "bin",
+          "zu",
+          "Fuß",
+          "gegangen"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "bin",
+            "zu",
+            "Fuß",
+            "gegangen"
+          ]
+        ],
+        "translation": "I went on foot.",
+        "explanation": "sein in position 2, the participle gegangen at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Er",
+          "hat",
+          "einen",
+          "Kuchen",
+          "gebacken"
+        ],
+        "solutions": [
+          [
+            "Er",
+            "hat",
+            "einen",
+            "Kuchen",
+            "gebacken"
+          ]
+        ],
+        "translation": "He baked a cake.",
+        "explanation": "„[[backen]]“ takes haben; strong participle gebacken at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Sie",
+          "ist",
+          "gestern",
+          "nach",
+          "Hamburg",
+          "gefahren"
+        ],
+        "solutions": [
+          [
+            "Sie",
+            "ist",
+            "gestern",
+            "nach",
+            "Hamburg",
+            "gefahren"
+          ]
+        ],
+        "translation": "She went to Hamburg yesterday.",
+        "explanation": "Movement → sein; time (gestern) before place (nach Hamburg)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Hast",
+          "du",
+          "die",
+          "Hausaufgaben",
+          "gemacht?"
+        ],
+        "solutions": [
+          [
+            "Hast",
+            "du",
+            "die",
+            "Hausaufgaben",
+            "gemacht?"
+          ]
+        ],
+        "translation": "Did you do the homework?",
+        "explanation": "In a question haben moves to position 1 — the participle still ends the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Am",
+          "Morgen",
+          "habe",
+          "ich",
+          "Kaffee",
+          "getrunken"
+        ],
+        "solutions": [
+          [
+            "Am",
+            "Morgen",
+            "habe",
+            "ich",
+            "Kaffee",
+            "getrunken"
+          ]
+        ],
+        "translation": "In the morning I drank coffee.",
+        "explanation": "„Am Morgen“ fills position 1 → habe second, subject third, participle last."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "sind",
+          "sehr",
+          "spät",
+          "eingeschlafen"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "sind",
+            "sehr",
+            "spät",
+            "eingeschlafen"
+          ]
+        ],
+        "translation": "We fell asleep very late.",
+        "explanation": "Change of state → sein: wir sind eingeschlafen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "habe",
+          "meine",
+          "Tante",
+          "in",
+          "Köln",
+          "besucht"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "habe",
+            "meine",
+            "Tante",
+            "in",
+            "Köln",
+            "besucht"
+          ],
+          [
+            "Ich",
+            "habe",
+            "in",
+            "Köln",
+            "meine",
+            "Tante",
+            "besucht"
+          ]
+        ],
+        "translation": "I visited my aunt in Cologne.",
+        "explanation": "haben second, besucht last — the place phrase can stand before or after the object."
+      }
     }
   ]
 }

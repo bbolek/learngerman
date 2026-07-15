@@ -19,7 +19,13 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getTopic, logAttempt, pickQuestions, topicMastery, type QuestionRow, type TopicRow } from '@/db/grammarRepo';
 import { applyTopicResult } from '@/db/grammarSrsRepo';
-import { type RoundMode } from '@/logic/quizRound';
+import {
+  initialAnswerFlow,
+  reduceAnswerFlow,
+  type AnswerFlowEffect,
+  type AnswerPhase,
+} from '@/logic/answerFlow';
+import { correctAnswerText, type RoundMode } from '@/logic/quizRound';
 import {
   gradeCaseId,
   gradeFillBlank,
@@ -46,9 +52,9 @@ import { useTheme } from '@/ui/useTheme';
 const ROUND_SIZE = 10;
 const UMLAUTS = ['ä', 'ö', 'ü', 'ß'] as const;
 
-interface Feedback {
-  correct: boolean;
-  nearMiss?: boolean;
+interface Banner {
+  tone: 'correct' | 'wrong' | 'revealed' | 'practice';
+  title: string;
   detail: string;
 }
 
@@ -64,8 +70,11 @@ export default function QuizScreen() {
   const [showExplainer, setShowExplainer] = useState(false);
   const [introExplainer, setIntroExplainer] = useState(false);
   const [index, setIndex] = useState(0);
-  const [feedback, setFeedback] = useState<Feedback | null>(null);
+  const [flow, setFlow] = useState(initialAnswerFlow);
+  const [banner, setBanner] = useState<Banner | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
+  /** The latest submitted answer — logged when a reveal/skip finalizes as wrong. */
+  const lastAnswerRef = useRef<unknown>(null);
   /** 'default' skips mastered questions; 'all' is free practice over everything. */
   const [mode, setMode] = useState<RoundMode>('default');
   const [mastery, setMastery] = useState<{ total: number; mastered: number } | null>(null);
@@ -96,7 +105,8 @@ export default function QuizScreen() {
     setPrevRoundKey(roundKey);
     setIndex(0);
     setCorrectCount(0);
-    setFeedback(null);
+    setFlow(initialAnswerFlow);
+    setBanner(null);
     setQuestions(null);
   }
 
@@ -121,8 +131,45 @@ export default function QuizScreen() {
     }
   }, [index, questions, topic, correctCount, id]);
 
-  const submit = async (correct: boolean, detail: string, answer: unknown, nearMiss = false) => {
-    if (!question || feedback) return;
+  /** XP + attempt logging — the reducer guarantees this runs once per question. */
+  const runEffect = (effect: AnswerFlowEffect, answer: unknown) => {
+    if (!question || effect === 'none') return;
+    const correct = effect === 'finalize_correct';
+    if (correct) setCorrectCount((c) => c + 1);
+    awardXp('quiz', xpForQuizAnswer(correct), new Date()).catch(() => {});
+    logAttempt(question.id, correct, answer, new Date()).catch(() => {});
+  };
+
+  /** The revealing banner text — solution + explanation per question type. */
+  const revealDetail = (q: QuestionRow): string => {
+    const explanation = (q.payload as { explanation: string }).explanation;
+    const answer = correctAnswerText(q.qtype, q.payload);
+    switch (q.qtype) {
+      case 'mc':
+        return explanation; // the correct option is highlighted in place
+      case 'fill':
+        return `Richtig wäre „${answer}“. ${explanation}`;
+      case 'order':
+        return `Richtig wäre: „${answer}“. ${explanation}`;
+      case 'case_id':
+        return `Es ist ${answer}. ${explanation}`;
+    }
+  };
+
+  const submit = (
+    correct: boolean,
+    answer: unknown,
+    opts: { correctDetail: string; retryHint?: string; nearMiss?: boolean }
+  ) => {
+    if (!question || flow.phase === 'correct') return;
+    lastAnswerRef.current = answer;
+    const { state, effect } = reduceAnswerFlow(flow, {
+      type: 'submit',
+      correct,
+      nearMiss: opts.nearMiss,
+    });
+    setFlow(state);
+    runEffect(effect, answer);
     playSound(correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
@@ -137,14 +184,45 @@ export default function QuizScreen() {
       withTiming(5, { duration: 50 }),
       withTiming(0, { duration: 45 })
     );
-    setFeedback({ correct, nearMiss, detail });
-    if (correct) setCorrectCount((c) => c + 1);
-    awardXp('quiz', xpForQuizAnswer(correct), new Date()).catch(() => {});
-    await logAttempt(question.id, correct, answer, new Date());
+    if (state.phase === 'correct') {
+      setBanner({
+        tone: 'correct',
+        title: state.nearMiss ? '✓ Richtig (fast!)' : '✓ Richtig!',
+        detail: opts.correctDetail,
+      });
+    } else if (state.phase === 'wrong') {
+      setBanner({
+        tone: 'wrong',
+        title: '✗ Nicht ganz',
+        detail: opts.retryHint ?? 'Versuch es nochmal!',
+      });
+    } else if (state.phase === 'revealed') {
+      // Practice after the reveal: cosmetic feedback only, nothing counts.
+      setBanner({
+        tone: correct ? 'practice' : 'revealed',
+        title: correct ? '✓ Jetzt sitzt es!' : 'Antwort',
+        detail: revealDetail(question),
+      });
+    }
+  };
+
+  const revealAnswer = () => {
+    if (!question) return;
+    const { state, effect } = reduceAnswerFlow(flow, { type: 'reveal' });
+    setFlow(state);
+    runEffect(effect, lastAnswerRef.current);
+    if (state.phase === 'revealed') {
+      setBanner({ tone: 'revealed', title: 'Antwort', detail: revealDetail(question) });
+    }
   };
 
   const next = () => {
-    setFeedback(null);
+    // Skipping an unsolved question finalizes it as wrong.
+    const { effect } = reduceAnswerFlow(flow, { type: 'advance' });
+    runEffect(effect, lastAnswerRef.current);
+    lastAnswerRef.current = null;
+    setFlow(initialAnswerFlow);
+    setBanner(null);
     setIndex((i) => i + 1);
   };
 
@@ -152,7 +230,8 @@ export default function QuizScreen() {
     gradedRef.current = false;
     setIndex(0);
     setCorrectCount(0);
-    setFeedback(null);
+    setFlow(initialAnswerFlow);
+    setBanner(null);
     setQuestions(null);
     pickQuestions(id, ROUND_SIZE, mode).then(setQuestions);
   };
@@ -339,9 +418,9 @@ export default function QuizScreen() {
             <McQuestion
               key={question.id}
               payload={question.payload as McPayload}
-              feedback={feedback}
+              phase={flow.phase}
               onAnswer={(i, ok) =>
-                submit(ok, (question.payload as McPayload).explanation, { selected: i })
+                submit(ok, { selected: i }, { correctDetail: (question.payload as McPayload).explanation })
               }
             />
           )}
@@ -349,15 +428,13 @@ export default function QuizScreen() {
             <FillQuestion
               key={question.id}
               payload={question.payload as FillPayload}
-              feedback={feedback}
+              phase={flow.phase}
               onAnswer={(text) => {
                 const res = gradeFillBlank(question.payload as FillPayload, text);
-                const detail = res.correct
-                  ? res.nearMiss
-                    ? `Fast perfekt — achte auf die Schreibweise: „${res.expected}“. ${(question.payload as FillPayload).explanation}`
-                    : (question.payload as FillPayload).explanation
-                  : `Richtig wäre „${res.expected}“. ${(question.payload as FillPayload).explanation}`;
-                submit(res.correct, detail, { text }, res.nearMiss);
+                const correctDetail = res.nearMiss
+                  ? `Fast perfekt — achte auf die Schreibweise: „${res.expected}“. ${(question.payload as FillPayload).explanation}`
+                  : (question.payload as FillPayload).explanation;
+                submit(res.correct, { text }, { correctDetail, nearMiss: res.nearMiss });
               }}
             />
           )}
@@ -366,14 +443,10 @@ export default function QuizScreen() {
               key={question.id}
               payload={question.payload as OrderPayload}
               seed={question.id}
-              feedback={feedback}
+              phase={flow.phase}
               onAnswer={(seq) => {
                 const ok = gradeOrdering(question.payload as OrderPayload, seq);
-                const sol = (question.payload as OrderPayload).solutions[0].join(' ');
-                const detail = ok
-                  ? (question.payload as OrderPayload).explanation
-                  : `Richtig wäre: „${sol}“. ${(question.payload as OrderPayload).explanation}`;
-                submit(ok, detail, { sequence: seq });
+                submit(ok, { sequence: seq }, { correctDetail: (question.payload as OrderPayload).explanation });
               }}
             />
           )}
@@ -381,55 +454,72 @@ export default function QuizScreen() {
             <CaseIdQuestion
               key={question.id}
               payload={question.payload as CaseIdPayload}
-              feedback={feedback}
+              phase={flow.phase}
               onAnswer={(c, r) => {
                 const res = gradeCaseId(question.payload as CaseIdPayload, c, r);
-                const p = question.payload as CaseIdPayload;
-                let detail = p.explanation;
-                if (!res.correct) {
-                  if (res.caseCorrect && !res.reasonCorrect)
-                    detail = `Der Fall stimmt, aber die Begründung nicht. ${p.explanation}`;
-                  else detail = `Es ist ${cap(p.correctCase)}. ${p.explanation}`;
-                }
-                submit(res.correct, detail, { caseChoice: c, reasonIndex: r });
+                const retryHint =
+                  !res.correct && res.caseCorrect && !res.reasonCorrect
+                    ? 'Der Fall stimmt, aber die Begründung nicht. Versuch es nochmal!'
+                    : undefined;
+                submit(
+                  res.correct,
+                  { caseChoice: c, reasonIndex: r },
+                  { correctDetail: (question.payload as CaseIdPayload).explanation, retryHint }
+                );
               }}
             />
           )}
         </Animated.View>
       </ScrollView>
 
-      {feedback && (
-        <View
-          style={[
-            styles.feedback,
-            {
-              backgroundColor: feedback.correct ? t.accentDim : t.dangerDim,
-              paddingBottom: insets.bottom + spacing.md,
-            },
-          ]}>
-          <AppText
-            variant="subtitle"
-            color={feedback.correct ? t.onAccentDim : t.onDangerDim}>
-            {feedback.correct ? (feedback.nearMiss ? '✓ Richtig (fast!)' : '✓ Richtig!') : '✗ Nicht ganz'}
-          </AppText>
-          <AppText
-            variant="secondary"
-            color={feedback.correct ? t.onAccentDim : t.onDangerDim}
-            style={{ marginTop: 3, opacity: 0.9 }}>
-            <VocabText
-              text={feedback.detail}
-              color={feedback.correct ? t.onAccentDim : t.onDangerDim}
-            />
-          </AppText>
-          <Pressable
-            onPress={next}
-            style={[styles.cta, { backgroundColor: feedback.correct ? t.accent : t.danger, marginTop: spacing.md }]}>
-            <AppText variant="subtitle" color="#fff">
-              Weiter →
+      {banner && (() => {
+        const panelBg =
+          banner.tone === 'correct' ? t.accentDim : banner.tone === 'practice' ? t.successDim : t.dangerDim;
+        const fg =
+          banner.tone === 'correct' ? t.onAccentDim : banner.tone === 'practice' ? t.onSuccessDim : t.onDangerDim;
+        const ctaBg = banner.tone === 'correct' ? t.accent : banner.tone === 'practice' ? t.success : t.danger;
+        return (
+          <View
+            style={[
+              styles.feedback,
+              { backgroundColor: panelBg, paddingBottom: insets.bottom + spacing.md },
+            ]}>
+            <AppText variant="subtitle" color={fg}>
+              {banner.title}
             </AppText>
-          </Pressable>
-        </View>
-      )}
+            <AppText variant="secondary" color={fg} style={{ marginTop: 3, opacity: 0.9 }}>
+              <VocabText text={banner.detail} color={fg} />
+            </AppText>
+            {banner.tone === 'wrong' ? (
+              <View style={{ flexDirection: 'row', gap: spacing.md, marginTop: spacing.md }}>
+                <Pressable
+                  onPress={revealAnswer}
+                  style={[
+                    styles.cta,
+                    { flex: 1, backgroundColor: t.surface, borderWidth: 1.5, borderColor: t.danger },
+                  ]}>
+                  <AppText variant="subtitle" color={t.onDangerDim}>
+                    Antwort zeigen
+                  </AppText>
+                </Pressable>
+                <Pressable onPress={next} style={[styles.cta, { flex: 1, backgroundColor: t.danger }]}>
+                  <AppText variant="subtitle" color="#fff">
+                    Weiter →
+                  </AppText>
+                </Pressable>
+              </View>
+            ) : (
+              <Pressable
+                onPress={next}
+                style={[styles.cta, { backgroundColor: ctaBg, marginTop: spacing.md }]}>
+                <AppText variant="subtitle" color="#fff">
+                  Weiter →
+                </AppText>
+              </Pressable>
+            )}
+          </View>
+        );
+      })()}
     </View>
     </VocabTapProvider>
   );
@@ -448,15 +538,18 @@ function speakablePrompt(s: string): string {
 
 function McQuestion({
   payload,
-  feedback,
+  phase,
   onAnswer,
 }: {
   payload: McPayload;
-  feedback: Feedback | null;
+  phase: AnswerPhase;
   onAnswer: (index: number, correct: boolean) => void;
 }) {
   const t = useTheme();
-  const [selected, setSelected] = useState<number | null>(null);
+  // Wrong picks stay red and disabled so the user retries by elimination.
+  const [tried, setTried] = useState<number[]>([]);
+  const locked = phase === 'correct';
+  const showCorrect = phase === 'correct' || phase === 'revealed';
   return (
     <View>
       <View style={styles.promptRow}>
@@ -467,32 +560,30 @@ function McQuestion({
       </View>
       <View style={{ marginTop: spacing.lg, gap: spacing.sm }}>
         {payload.options.map((opt, i) => {
-          const isSel = selected === i;
-          const showState = feedback != null;
           const isCorrect = i === payload.correctIndex;
+          const isTried = tried.includes(i);
           let bg = t.surface;
           let border = t.line;
           let fg = t.ink;
-          if (showState && isCorrect) {
+          if (showCorrect && isCorrect) {
             bg = t.accentDim; border = t.accent; fg = t.onAccentDim;
-          } else if (showState && isSel && !isCorrect) {
+          } else if (isTried) {
             bg = t.dangerDim; border = t.danger; fg = t.onDangerDim;
-          } else if (isSel) {
-            bg = t.primaryDim; border = t.primary; fg = t.onPrimaryDim;
           }
           return (
             <Pressable
               key={i}
-              disabled={showState}
+              disabled={locked || isTried}
               onPress={() => {
-                setSelected(i);
-                onAnswer(i, gradeMultipleChoice(payload, i));
+                const ok = gradeMultipleChoice(payload, i);
+                if (!ok) setTried((v) => [...v, i]);
+                onAnswer(i, ok);
               }}
               style={[styles.option, { backgroundColor: bg, borderColor: border }]}>
               <AppText variant="subtitle" color={fg} style={{ fontSize: 17 }}>
                 {opt}
               </AppText>
-              {showState && isCorrect && <Ionicons name="checkmark" size={19} color={t.onAccentDim} />}
+              {showCorrect && isCorrect && <Ionicons name="checkmark" size={19} color={t.onAccentDim} />}
             </Pressable>
           );
         })}
@@ -505,16 +596,16 @@ function McQuestion({
 
 function FillQuestion({
   payload,
-  feedback,
+  phase,
   onAnswer,
 }: {
   payload: FillPayload;
-  feedback: Feedback | null;
+  phase: AnswerPhase;
   onAnswer: (text: string) => void;
 }) {
   const t = useTheme();
   const [text, setText] = useState('');
-  const locked = feedback != null;
+  const locked = phase === 'correct';
   return (
     <View>
       <View style={styles.promptRow}>
@@ -541,7 +632,11 @@ function FillQuestion({
         onSubmitEditing={() => text.trim() && onAnswer(text)}
         style={[
           styles.input,
-          { backgroundColor: t.surface, borderColor: locked ? t.line : t.primary, color: t.ink },
+          {
+            backgroundColor: t.surface,
+            borderColor: phase === 'wrong' ? t.danger : locked ? t.line : t.primary,
+            color: t.ink,
+          },
         ]}
       />
       <View style={styles.umlautRow}>
@@ -577,18 +672,18 @@ function FillQuestion({
 function OrderQuestion({
   payload,
   seed,
-  feedback,
+  phase,
   onAnswer,
 }: {
   payload: OrderPayload;
   seed: number;
-  feedback: Feedback | null;
+  phase: AnswerPhase;
   onAnswer: (sequence: string[]) => void;
 }) {
   const t = useTheme();
   const pool = useMemo(() => shuffled(payload.tokens, seed), [payload.tokens, seed]);
   const [placed, setPlaced] = useState<number[]>([]); // indexes into pool
-  const locked = feedback != null;
+  const locked = phase === 'correct';
 
   return (
     <View>
@@ -663,17 +758,17 @@ const CASES = ['nominativ', 'akkusativ', 'dativ', 'genitiv'] as const;
 
 function CaseIdQuestion({
   payload,
-  feedback,
+  phase,
   onAnswer,
 }: {
   payload: CaseIdPayload;
-  feedback: Feedback | null;
+  phase: AnswerPhase;
   onAnswer: (caseChoice: string, reasonIndex: number) => void;
 }) {
   const t = useTheme();
   const [caseChoice, setCaseChoice] = useState<string | null>(null);
   const [reason, setReason] = useState<number | null>(null);
-  const locked = feedback != null;
+  const locked = phase === 'correct';
   const [before, target, after] = splitHighlight(payload.sentence);
 
   return (

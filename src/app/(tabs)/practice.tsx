@@ -3,7 +3,7 @@ import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { listTopics, topicAccuracy, type TopicRow } from '@/db/grammarRepo';
+import { listTopics, type TopicRow } from '@/db/grammarRepo';
 import { grammarDueSlugs } from '@/db/grammarSrsRepo';
 import { dueCounts } from '@/db/srsRepo';
 import { TourTarget } from '@/tour/TourTarget';
@@ -132,7 +132,9 @@ export default function PracticeScreen() {
 
 function TopicCard({ topic, due }: { topic: TopicRow; due: boolean }) {
   const t = useTheme();
-  const accuracy = topicAccuracy(topic);
+  // Coverage of the topic (questions ever mastered), not accuracy — a few
+  // perfect answers on a 48-question topic shouldn't read as "100% done".
+  const progress = topic.question_count > 0 ? topic.mastered_count / topic.question_count : 0;
   const mastered = topic.question_count > 0 && topic.mastered_count === topic.question_count;
   return (
     <Card
@@ -140,12 +142,12 @@ function TopicCard({ topic, due }: { topic: TopicRow; due: boolean }) {
       onPress={() => router.push({ pathname: '/quiz/[topicId]', params: { topicId: String(topic.id) } })}>
       <View style={styles.topicTop}>
         <ProgressRing
-          progress={accuracy ?? 0}
+          progress={progress}
           size={54}
           strokeWidth={6}
-          color={accuracy != null && accuracy >= 0.7 ? t.accent : t.primary}>
-          <AppText variant="caption" color={accuracy != null && accuracy >= 0.7 ? t.onAccentDim : t.onPrimaryDim}>
-            {accuracy == null ? '–' : `${Math.round(accuracy * 100)}%`}
+          color={progress >= 0.7 ? t.accent : t.primary}>
+          <AppText variant="caption" color={progress >= 0.7 ? t.onAccentDim : t.onPrimaryDim}>
+            {topic.attempts === 0 ? '–' : `${Math.round(progress * 100)}%`}
           </AppText>
         </ProgressRing>
         {due ? (

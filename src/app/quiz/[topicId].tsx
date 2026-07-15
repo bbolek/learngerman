@@ -325,6 +325,9 @@ export default function QuizScreen() {
   if (!question) {
     const share = questions.length === 0 ? 0 : correctCount / questions.length;
     const fullyMastered = mastery != null && mastery.total > 0 && mastery.mastered >= mastery.total;
+    // The ring shows progress through the whole topic (questions ever mastered),
+    // not just this round's score — a perfect but small round shouldn't read as "done".
+    const topicShare = mastery != null && mastery.total > 0 ? mastery.mastered / mastery.total : share;
     return (
       <View
         style={[
@@ -332,14 +335,14 @@ export default function QuizScreen() {
           styles.center,
           { backgroundColor: t.bg, padding: spacing.xl, paddingTop: insets.top + spacing.xl },
         ]}>
-        <ProgressRing progress={share} size={140} strokeWidth={12} color={share >= 0.7 ? t.accent : t.primary}>
-          <AppText variant="title">{Math.round(share * 100)}%</AppText>
+        <ProgressRing progress={topicShare} size={140} strokeWidth={12} color={topicShare >= 0.7 ? t.accent : t.primary}>
+          <AppText variant="title">{Math.round(topicShare * 100)}%</AppText>
         </ProgressRing>
         <AppText variant="title" style={{ marginTop: spacing.xl, textAlign: 'center' }}>
           {share >= 0.8 ? 'Ausgezeichnet! 🎉' : share >= 0.5 ? 'Gut gemacht! 💪' : 'Übung macht den Meister!'}
         </AppText>
         <AppText variant="secondary" muted style={{ marginTop: 4 }}>
-          {correctCount} von {questions.length} richtig · {topic.title}
+          {correctCount} von {questions.length} in dieser Runde richtig · {topic.title}
         </AppText>
         {fullyMastered && (
           <AppText variant="secondary" color={t.onAccentDim} style={{ marginTop: spacing.md, textAlign: 'center' }}>

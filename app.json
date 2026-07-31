@@ -26,7 +26,11 @@
       "permissions": [
         "android.permission.SCHEDULE_EXACT_ALARM",
         "android.permission.ACCESS_WIFI_STATE",
-        "android.permission.ACCESS_NETWORK_STATE"
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
       ]
     },
     "web": {
@@ -76,6 +80,12 @@
         "projectId": "19df8a29-c25a-4daa-9c51-8a06d2e1e2c6"
       }
     },
-    "owner": "bbolek"
+    "owner": "bbolek",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/19df8a29-c25a-4daa-9c51-8a06d2e1e2c6"
+    }
   }
 }

@@ -85,23 +85,31 @@ export default function BilderraetselScreen() {
     if (finishedRef.current) return;
     finishedRef.current = true;
     const s = arcadeRef.current;
-    recordMistakes(missedRef.current, new Date()).catch(() => {});
-    recordGameResult(
-      {
-        gameKey: 'bilderraetsel',
-        score: s.score,
-        correct: s.correct,
-        total: s.total,
-        bestStreak: s.bestStreak,
-        durationMs: WORTBLITZ_MS,
-      },
-      new Date()
-    ).then(async (res) => {
-      setOutcome(res);
-      setBest((b) => Math.max(b ?? 0, s.score));
-      setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
+    (async () => {
+      // Sequenced: recordMistakes and recordGameResult each open a transaction
+      // on the same connection — running them concurrently rejects the second
+      // one, and the round would never reach the result screen.
+      await recordMistakes(missedRef.current, new Date()).catch(() => {});
+      try {
+        const res = await recordGameResult(
+          {
+            gameKey: 'bilderraetsel',
+            score: s.score,
+            correct: s.correct,
+            total: s.total,
+            bestStreak: s.bestStreak,
+            durationMs: WORTBLITZ_MS,
+          },
+          new Date()
+        );
+        setOutcome(res);
+        setBest((b) => Math.max(b ?? 0, s.score));
+        setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
+      } catch {
+        // persistence failed — still end the round instead of stranding it
+      }
       setPhase('done');
-    });
+    })();
   }, []);
 
   // Countdown driven by wall clock so paused JS frames can't stretch the round.

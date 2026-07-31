@@ -102,12 +102,16 @@ export default function WortpaareScreen() {
         durationMs: totalMsRef.current,
       },
       new Date()
-    ).then(async (res) => {
-      setOutcome(res);
-      setBest((b) => Math.max(b ?? 0, finalScore));
-      setXpEarned(await settleGameRound(INFO.title, finalScore, res, new Date()));
-      setPhase('done');
-    });
+    )
+      .then(async (res) => {
+        setOutcome(res);
+        setBest((b) => Math.max(b ?? 0, finalScore));
+        setXpEarned(await settleGameRound(INFO.title, finalScore, res, new Date()));
+      })
+      .catch(() => {
+        // persistence failed — still end the round instead of stranding it
+      })
+      .then(() => setPhase('done'));
   };
 
   const board = boards[boardIdx];

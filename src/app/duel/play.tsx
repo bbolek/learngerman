@@ -155,19 +155,24 @@ export default function DuelPlayScreen() {
   useEffect(() => {
     if (phase !== 'done' || !duel || recordedRef.current) return;
     recordedRef.current = true;
-    recordMistakes(missedRef.current, new Date()).catch(() => {});
     const won = duel.outcome === 'win' || duel.outcome === 'forfeitWin';
-    recordGameResult(
-      {
-        gameKey: duel.game,
-        score: duel.me.score,
-        correct: duel.me.correct,
-        total: duel.me.total,
-        bestStreak: duel.me.bestStreak,
-        durationMs: duel.durationMs,
-      },
-      new Date()
-    )
+    // Sequenced: recordMistakes and recordGameResult each open a transaction
+    // on the same connection — running them concurrently rejects the second.
+    recordMistakes(missedRef.current, new Date())
+      .catch(() => {})
+      .then(() =>
+        recordGameResult(
+          {
+            gameKey: duel.game,
+            score: duel.me.score,
+            correct: duel.me.correct,
+            total: duel.me.total,
+            bestStreak: duel.me.bestStreak,
+            durationMs: duel.durationMs,
+          },
+          new Date()
+        )
+      )
       .then(() => awardXp(won ? 'duel_win' : 'duel_played', won ? XP_DUEL_WIN : XP_DUEL_PLAYED, new Date()))
       .then(() => settleRewards(new Date()))
       .catch(() => {});
@@ -417,7 +422,12 @@ export default function DuelPlayScreen() {
             {q && isImageQuestion(q) ? (
               <VocabImage svg={q.word.svg} gender={null} size={150} />
             ) : (
-              <AppText variant="headword" style={{ textAlign: 'center' }}>
+              <AppText
+                variant="headword"
+                style={{ textAlign: 'center', width: '100%' }}
+                numberOfLines={1}
+                adjustsFontSizeToFit
+                minimumFontScale={0.5}>
                 {q?.word.lemma}
               </AppText>
             )}

@@ -76,23 +76,32 @@ export default function DerDieDasScreen() {
   const finish = useCallback((s: ArcadeState) => {
     if (finishedRef.current) return;
     finishedRef.current = true;
-    recordMistakes(missedRef.current, new Date()).catch(() => {});
-    recordGameResult(
-      {
-        gameKey: 'derdiedas',
-        score: s.score,
-        correct: s.correct,
-        total: s.total,
-        bestStreak: s.bestStreak,
-        durationMs: Date.now() - startedAtRef.current,
-      },
-      new Date()
-    ).then(async (res) => {
-      setOutcome(res);
-      setBest((b) => Math.max(b ?? 0, s.score));
-      setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
+    const durationMs = Date.now() - startedAtRef.current;
+    (async () => {
+      // Sequenced: recordMistakes and recordGameResult each open a transaction
+      // on the same connection — running them concurrently rejects the second
+      // one, and the round would never reach the result screen.
+      await recordMistakes(missedRef.current, new Date()).catch(() => {});
+      try {
+        const res = await recordGameResult(
+          {
+            gameKey: 'derdiedas',
+            score: s.score,
+            correct: s.correct,
+            total: s.total,
+            bestStreak: s.bestStreak,
+            durationMs,
+          },
+          new Date()
+        );
+        setOutcome(res);
+        setBest((b) => Math.max(b ?? 0, s.score));
+        setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
+      } catch {
+        // persistence failed — still end the round instead of stranding it
+      }
       setPhase('done');
-    });
+    })();
   }, []);
 
   const answer = (gender: string) => {
@@ -182,7 +191,12 @@ export default function DerDieDasScreen() {
 
       <View style={[styles.fill, { paddingHorizontal: spacing.lg }]}>
         <View style={[styles.fill, styles.center]}>
-          <AppText variant="headword" style={{ textAlign: 'center' }}>
+          <AppText
+            variant="headword"
+            style={{ textAlign: 'center', width: '100%' }}
+            numberOfLines={1}
+            adjustsFontSizeToFit
+            minimumFontScale={0.5}>
             {word?.lemma}
           </AppText>
           <AppText variant="secondary" muted style={{ marginTop: spacing.sm }}>
@@ -198,6 +212,9 @@ export default function DerDieDasScreen() {
                 <AppText
                   variant="secondary"
                   color={wasCorrect ? t.onAccentDim : t.onDangerDim}
+                  numberOfLines={1}
+                  adjustsFontSizeToFit
+                  minimumFontScale={0.6}
                   style={{ fontFamily: fonts.extrabold }}>
                   {wasCorrect ? '✓' : '✗'} {ARTICLE_LABEL[word.gender ?? '']} {word.lemma}
                   {!wasCorrect && word.plural ? ` · ${word.plural}` : ''}

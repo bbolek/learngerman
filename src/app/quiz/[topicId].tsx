@@ -421,6 +421,7 @@ export default function QuizScreen() {
             <McQuestion
               key={question.id}
               payload={question.payload as McPayload}
+              seed={question.id}
               phase={flow.phase}
               onAnswer={(i, ok) =>
                 submit(ok, { selected: i }, { correctDetail: (question.payload as McPayload).explanation })
@@ -541,14 +542,20 @@ function speakablePrompt(s: string): string {
 
 function McQuestion({
   payload,
+  seed,
   phase,
   onAnswer,
 }: {
   payload: McPayload;
+  seed: number;
   phase: AnswerPhase;
   onAnswer: (index: number, correct: boolean) => void;
 }) {
   const t = useTheme();
+  // Authored options often list the correct answer first — shuffle the display
+  // order (seeded by question id, stable across re-renders) and keep grading &
+  // attempt logging in original payload index space.
+  const order = useMemo(() => shuffled(payload.options.map((_, i) => i), seed), [payload, seed]);
   // Wrong picks stay red and disabled so the user retries by elimination.
   const [tried, setTried] = useState<number[]>([]);
   const locked = phase === 'correct';
@@ -562,7 +569,8 @@ function McQuestion({
         <ListenButton text={speakablePrompt(payload.prompt)} size={20} style={{ marginTop: 8 }} />
       </View>
       <View style={{ marginTop: spacing.lg, gap: spacing.sm }}>
-        {payload.options.map((opt, i) => {
+        {order.map((i) => {
+          const opt = payload.options[i];
           const isCorrect = i === payload.correctIndex;
           const isTried = tried.includes(i);
           let bg = t.surface;

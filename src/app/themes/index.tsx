@@ -4,10 +4,10 @@ import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { savedThemeKeys, THEMES, type Theme } from '@/db/themesRepo';
-import { useThemeFilter } from '@/store/themeFilter';
+import { matchesWordType, useThemeFilter, type WordType } from '@/store/themeFilter';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
-import { LevelFilter } from '@/ui/components/LevelFilter';
+import { LevelFilter, WordTypeFilter } from '@/ui/components/LevelFilter';
 import { Screen } from '@/ui/components/Screen';
 import { spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -16,6 +16,7 @@ export default function ThemesScreen() {
   const t = useTheme();
   const [savedKeys, setSavedKeys] = useState<Set<string>>(new Set());
   const levels = useThemeFilter((s) => s.levels);
+  const wordType = useThemeFilter((s) => s.wordType);
   const selectedLevels = new Set<string>(levels);
 
   useFocusEffect(
@@ -24,7 +25,9 @@ export default function ThemesScreen() {
     }, [])
   );
 
-  const visible = THEMES.filter((theme) => theme.words.some((w) => selectedLevels.has(w.level)));
+  const visible = THEMES.filter((theme) =>
+    theme.words.some((w) => selectedLevels.has(w.level) && matchesWordType(w.pos, wordType))
+  );
 
   return (
     <Screen>
@@ -40,10 +43,17 @@ export default function ThemesScreen() {
       </AppText>
 
       <LevelFilter />
+      <WordTypeFilter />
 
       <View style={styles.grid}>
         {visible.map((theme) => (
-          <ThemeCard key={theme.slug} theme={theme} savedKeys={savedKeys} levels={selectedLevels} />
+          <ThemeCard
+            key={theme.slug}
+            theme={theme}
+            savedKeys={savedKeys}
+            levels={selectedLevels}
+            wordType={wordType}
+          />
         ))}
       </View>
     </Screen>
@@ -54,13 +64,15 @@ function ThemeCard({
   theme,
   savedKeys,
   levels,
+  wordType,
 }: {
   theme: Theme;
   savedKeys: Set<string>;
   levels: Set<string>;
+  wordType: WordType;
 }) {
   const t = useTheme();
-  const words = theme.words.filter((w) => levels.has(w.level));
+  const words = theme.words.filter((w) => levels.has(w.level) && matchesWordType(w.pos, wordType));
   const total = words.length;
   const learned = words.reduce((n, w) => n + (savedKeys.has(`${w.lemma}|${w.pos}`) ? 1 : 0), 0);
   const progress = total === 0 ? 0 : learned / total;

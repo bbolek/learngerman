@@ -5,11 +5,11 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { getTheme, themeWords, type ThemeWordRow } from '@/db/themesRepo';
-import { useThemeFilter } from '@/store/themeFilter';
+import { matchesWordType, useThemeFilter } from '@/store/themeFilter';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip, GenderChip } from '@/ui/components/Chip';
-import { LevelFilter } from '@/ui/components/LevelFilter';
+import { LevelFilter, WordTypeFilter } from '@/ui/components/LevelFilter';
 import { ListenButton } from '@/ui/components/ListenButton';
 import { Screen } from '@/ui/components/Screen';
 import { VocabImage } from '@/ui/components/VocabImage';
@@ -24,6 +24,7 @@ export default function ThemeDetailScreen() {
   const [rows, setRows] = useState<ThemeWordRow[] | null>(null);
   const [images, setImages] = useState<Map<number, string>>(new Map());
   const levels = useThemeFilter((s) => s.levels);
+  const wordType = useThemeFilter((s) => s.wordType);
   const selectedLevels = new Set<string>(levels);
 
   const reload = useCallback(() => {
@@ -51,7 +52,8 @@ export default function ThemeDetailScreen() {
     );
   }
 
-  const visibleRows = rows?.filter((r) => selectedLevels.has(r.level)) ?? null;
+  const visibleRows =
+    rows?.filter((r) => selectedLevels.has(r.level) && matchesWordType(r.pos, wordType)) ?? null;
   const learned = visibleRows?.filter((r) => r.saved).length ?? 0;
   const total = visibleRows?.length ?? 0;
 
@@ -77,11 +79,12 @@ export default function ThemeDetailScreen() {
       </View>
 
       <LevelFilter />
+      <WordTypeFilter />
 
       {visibleRows && total === 0 ? (
         <View style={[styles.cta, { backgroundColor: t.surface, borderWidth: 1, borderColor: t.line }]}>
           <AppText variant="secondary" muted>
-            Keine Wörter in dieser Stufe
+            Keine Wörter für diese Auswahl
           </AppText>
         </View>
       ) : visibleRows && learned === total ? (

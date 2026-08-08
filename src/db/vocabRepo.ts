@@ -81,7 +81,7 @@ export interface NotificationWord {
 
 /**
  * Picks a random word for notification content. Limited to A1–B1 so push
- * reminders stay approachable; B2/C1 entries are dictionary-only.
+ * reminders stay approachable; B2/C1/C2 entries are dictionary-only.
  * Saved words get no special treatment.
  */
 export async function pickNotificationWord(): Promise<NotificationWord | null> {

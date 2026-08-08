@@ -27,7 +27,7 @@ const CONTENT_VERSION = 5;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
 /** Vocabulary spans the full CEFR range; grammar topics stay A1–B1. */
-const VOCAB_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1']);
+const VOCAB_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 const GRAMMAR_LEVELS = new Set(['A1', 'A2', 'B1']);
 const QTYPES = new Set(['mc', 'fill', 'order', 'case_id']);
 const EXAMPLE_TAGS = new Set([

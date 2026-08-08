@@ -26,10 +26,18 @@
   { "slug": "notfall", "title": "Notfall & Sicherheit", "emoji": "🚨", "batches": ["batch-33-notfall-sicherheit"] },
   { "slug": "militaer", "title": "Militär & Konflikt", "emoji": "🎖️", "batches": ["batch-92-militaer-konflikt-b2"] },
   { "slug": "garten", "title": "Garten & Werkzeug", "emoji": "🌱", "batches": ["batch-50-garten", "batch-49-werkzeug-heimwerken"] },
+  { "slug": "landwirtschaft", "title": "Landwirtschaft", "emoji": "🚜", "batches": ["batch-105-landwirtschaft"] },
   { "slug": "religion", "title": "Religion & Glaube", "emoji": "🕊️", "batches": ["batch-43-religion-glaube", "batch-87-religion-ethik-b2"] },
   { "slug": "geschichte", "title": "Geschichte & Tradition", "emoji": "📜", "batches": ["batch-86-geschichte-tradition-b2"] },
   { "slug": "philosophie", "title": "Philosophie & Denken", "emoji": "🧠", "batches": ["batch-75-philosophie-abstrakta-c1"] },
   { "slug": "meinung", "title": "Meinung & Diskussion", "emoji": "💬", "batches": ["batch-36-meinung-diskussion"] },
   { "slug": "abstrakt", "title": "Abstrakte Begriffe", "emoji": "💭", "batches": ["batch-35-abstrakt-b2", "batch-63-gesellschaft-abstrakta"] },
-  { "slug": "alltag", "title": "Alltag & Umgangssprache", "emoji": "☕", "batches": ["batch-53-alltag", "batch-52-umgangssprache", "batch-91-alltag-fortgeschritten-b2"] }
+  { "slug": "alltag", "title": "Alltag & Umgangssprache", "emoji": "☕", "batches": ["batch-53-alltag", "batch-52-umgangssprache", "batch-91-alltag-fortgeschritten-b2"] },
+  { "slug": "bewegung", "title": "Körper & Bewegung", "emoji": "🏃", "batches": ["batch-94-koerper-bewegung-verben-b2"] },
+  { "slug": "denken", "title": "Denken & Sprechen", "emoji": "🗣️", "batches": ["batch-89-denk-sprech-verben-b2"] },
+  { "slug": "bewerten", "title": "Bewerten & Beschreiben", "emoji": "🌟", "batches": ["batch-90-bewertungs-adjektive-b2"] },
+  { "slug": "konnektoren", "title": "Konnektoren & Struktur", "emoji": "🔗", "batches": ["batch-88-konnektoren-adverbien-b2"] },
+  { "slug": "formell", "title": "Formelle Sprache", "emoji": "🖋️", "batches": ["batch-38-formell-c1"] },
+  { "slug": "gehoben", "title": "Gehobene Sprache", "emoji": "📖", "batches": ["batch-99-c1-verben-gehoben", "batch-100-c1-nomen-abstrakta", "batch-101-c1-adjektive"] },
+  { "slug": "bildungssprache", "title": "Bildungssprache", "emoji": "📚", "batches": ["batch-102-c2-verben-bildungssprache", "batch-103-c2-nomen-bildungssprache", "batch-104-c2-adjektive-adverbien"] }
 ]

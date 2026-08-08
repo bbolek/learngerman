@@ -27,12 +27,17 @@ Umgangssprache) were executed and now live in `scripts/data/vocab/`.
 
 ## Further candidates (unscoped, gap-probe before authoring)
 
-- Post & Lieferungen (Paket exists; Absender, Briefkasten, zustellen?)
-- Hotel & Übernachtung (buchen exists; Rezeption, Einzelzimmer?)
+- Post & Lieferungen (gap-probed 2026-08: core words — Absender, Empfänger,
+  Briefkasten, Paket, zustellen, Porto — all exist already; only rarities
+  like frankieren, Einschreiben, Postfach remain. Too thin for a batch.)
+- Hotel & Übernachtung (gap-probed 2026-08: Rezeption, Einzelzimmer,
+  einchecken, Halbpension etc. all exist via the Reisen/Tourismus batches;
+  only Suite, Minibar, Hotelgast remain. Too thin for a batch.)
 - Friseur & Kosmetik (Haare schneiden; Pony, färben — färben now exists
   via batch-48; Rasur?)
 - Computer & Gaming vertieft (batch-20 covers B1 tech/media; Tastatur,
   Maus dual senses; zocken now exists via batch-52)
-- Landwirtschaft (Bauernhof exists?; Acker, Traktor, Stall, Weide)
 - Liebe & Beziehungen vertieft (batch-22 covers B1 basics; flirten?,
   Verlobung?, Trauzeuge?)
+
+Landwirtschaft was executed as batch-105 (own theme in themes.json).

@@ -30550,6 +30550,333 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "landwirtschaft",
+    "title": "Landwirtschaft",
+    "emoji": "🚜",
+    "words": [
+      {
+        "lemma": "Bauernhof",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Bäuerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Traktor",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Stall",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Scheune",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Acker",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ackerbau",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ackerland",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Feldweg",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Feldarbeit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Saat",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Aussaat",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Pflug",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Furche",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Heu",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Heuballen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Stroh",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Strohballen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Getreide",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Hafer",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ähre",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kornfeld",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Vogelscheuche",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Vieh",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Viehzucht",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Zucht",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Züchter",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Aufzucht",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Melkmaschine",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kalb",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Ferkel",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Henne",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Hahn",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Küken",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Legehenne",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Freilandhaltung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Bienenzucht",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Imker",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bioprodukt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gülle",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Silo",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Mähdrescher",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Sense",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Erntezeit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Erntedankfest",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Treibhaus",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Obstgarten",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Weinberg",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Weinlese",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Molkerei",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Käserei",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Schlachthof",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Weidezaun",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Bauernmarkt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Landleben",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "pflügen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "bewässern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Bewässerung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "grasen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "weiden",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ackern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "schlachten",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "landwirtschaftlich",
+        "pos": "adj",
+        "level": "B1"
+      },
+      {
+        "lemma": "artgerecht",
+        "pos": "adj",
+        "level": "B2"
+      }
+    ]
+  },
+  {
     "slug": "religion",
     "title": "Religion & Glaube",
     "emoji": "🕊️",
@@ -34968,6 +35295,4685 @@ export const THEMES: Theme[] = [
         "lemma": "Leergut",
         "pos": "noun",
         "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "bewegung",
+    "title": "Körper & Bewegung",
+    "emoji": "🏃",
+    "words": [
+      {
+        "lemma": "bücken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "hocken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "kauern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "knien",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "anlehnen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "aufrichten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "recken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "räkeln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "wälzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "neigen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "kippen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ducken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "verharren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "erstarren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "innehalten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "stützen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausstrecken",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "anspannen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "schwanken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "taumeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "torkeln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "wanken",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "straucheln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "umkippen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "purzeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "plumpsen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abrutschen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "schlittern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "balancieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "wackeln",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "schaukeln",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "wippen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "baumeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "schlenkern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "hangeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "schreiten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "schlendern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "bummeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "flanieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "marschieren",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "stapfen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "trotten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "schlurfen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "trippeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "tänzeln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "stolzieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "hopsen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "waten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "stampfen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "trampeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "pirschen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "huschen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "flitzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "sausen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "sprinten",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "traben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "galoppieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "robben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "tappen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "zappeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "strampeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "zucken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "beben",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "schaudern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "frösteln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "keuchen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "hecheln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "schnaufen",
+        "pos": "verb",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "denken",
+    "title": "Denken & Sprechen",
+    "emoji": "🗣️",
+    "words": [
+      {
+        "lemma": "überdenken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "bedenken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "überschätzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "unterschätzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abschätzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "hochrechnen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "einkalkulieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorwegnehmen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "antizipieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "prognostizieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "nachgrübeln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verkennen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "missdeuten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "gleichsetzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "herausstellen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "herausstreichen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "hervortreten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "hervorbringen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "hervorkehren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "abzielen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "systematisieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "darstellen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausführen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausformulieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "benennen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "bezeichnen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "umschreiben",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "kontern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "beipflichten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "bekräftigen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "beteuern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "beharren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "insistieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "berichtigen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "anführen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "hinweisen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "kundtun",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verlautbaren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "bekunden",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "kundgeben",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verlauten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "entgegensetzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "entgegenhalten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "dagegenhalten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "einwerfen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorbringen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorhalten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorgeben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "vornehmen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "anregen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ansprechen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "anmahnen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "anprangern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "schönreden",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "herunterspielen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "aufbauschen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "übertreiben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "illustrieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "exemplifizieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "umreißen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "eingrenzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausklammern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausblenden",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "herunterbrechen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "aufschlüsseln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "aufgliedern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "untergliedern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "gegenüberstellen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abgrenzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "gewichten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "entgegenwirken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "entgegentreten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "aufwerfen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "aufgreifen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "offenlegen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "bloßstellen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "entlarven",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "zurückweisen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abtun",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abwiegeln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "abschwächen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "geradestehen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "einstehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "eintreten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "eingestehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "verfechten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "pochen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "propagieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "agitieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "herausfordern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "einfordern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "drängen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "auffordern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ersuchen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "nahelegen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abmahnen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "bezichtigen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "rügen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "tadeln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "honorieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "missbilligen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "gutheißen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verwehren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "zulassen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "gestatten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "zurechtweisen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "revidieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "konzedieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "monieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "pauschalisieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "bagatellisieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "problematisieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "fokussieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "proklamieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "festlegen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "festsetzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "festschreiben",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "veranlassen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "einlenken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "zugestehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "zusichern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "zuschreiben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "zuordnen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "zuraten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "abraten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "schlichten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abmachen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "absegnen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "bereinigen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "entschärfen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "eskalieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "durchringen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "anstreben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "bezwecken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "verwirklichen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "durchführen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "betreiben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "angehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "initiieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "bewerkstelligen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "bewirken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "herbeiführen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "auslösen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "hervorrufen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorantreiben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "einsehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "einleiten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "einbeziehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausschließen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausdiskutieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "erwirken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ersinnen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "erdenken",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "erachten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ermahnen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausdenken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "widerspiegeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "unterbreiten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "durchschauen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "durchleuchten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "unterlaufen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "unterbinden",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "nachhaken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "eingehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausweiten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abrunden",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abschweifen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "aufzwingen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "aufdrängen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "einwirken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "hinarbeiten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "untergraben",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "aushöhlen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "umstoßen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "ausufern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verzetteln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "herausreden",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "zurückführen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausräumen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "klarmachen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "heranziehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "herangehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "herantasten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "abverlangen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "terminieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "disponieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "taktieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "manövrieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "forcieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "meistern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "anschieben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "weiterverfolgen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "durchziehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "agieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "eingreifen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "einschreiten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abwarten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorsehen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "einplanen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorausplanen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ansetzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Darlegung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Abwägung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Einwilligung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rechtfertigung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Vorgehensweise",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "bewerten",
+    "title": "Bewerten & Beschreiben",
+    "emoji": "🌟",
+    "words": [
+      {
+        "lemma": "fragwürdig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "tadellos",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "einwandfrei",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "fehlerhaft",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "minderwertig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "erstklassig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "mittelmäßig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unzulänglich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unzureichend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "vortrefflich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "meisterhaft",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "dilettantisch",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "solide",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "makellos",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "brauchbar",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unbrauchbar",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "tauglich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "untauglich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "ungeeignet",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unangemessen",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "akzeptabel",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "inakzeptabel",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "zufriedenstellend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unbefriedigend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "mustergültig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "vorzüglich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "miserabel",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "überragend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unübertroffen",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "beispiellos",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unvergleichlich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "konsequent",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "inkonsequent",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "widersprüchlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "stimmig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "überprüfbar",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unhaltbar",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "vertretbar",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "gerechtfertigt",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "ungerechtfertigt",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "berechtigt",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unberechtigt",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "angebracht",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unangebracht",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "zweckmäßig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "zielführend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "effektiv",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "ineffizient",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "wirkungsvoll",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "wirkungslos",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "ergiebig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unergiebig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "nichtssagend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "banal",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "trivial",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "tiefgreifend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "weitreichend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unvollständig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "ungenau",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "zutreffend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "irreführend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "verzerrt",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unausgewogen",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unsachlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "fadenscheinig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unwiderlegbar",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "indiskutabel",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "untragbar",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "annehmbar",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "vielsagend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "bezeichnend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "exemplarisch",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "ausschlaggebend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unabdingbar",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unverzichtbar",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "entbehrlich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "redundant",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "obsolet",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "beachtlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "immens",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "drastisch",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "gravierend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "marginal",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "minimal",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unwesentlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unerheblich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "nennenswert",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "spürbar",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "merklich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "überproportional",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "maßlos",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "überhöht",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "überzogen",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unverhältnismäßig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "reichlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "spärlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "dürftig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "üppig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "umfangreich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "durchweg",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "ausnahmslos",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "regelrecht",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausgesprochen",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "dermaßen",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "derart",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "weitaus",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "einigermaßen",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "halbwegs",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "annähernd",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "zweifelhaft",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unbestreitbar",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "fraglich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unumstritten",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "ungewiss",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "gesichert",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "erwiesen",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "nachweislich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "womöglich",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "unvermeidlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "zwangsläufig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "erwartungsgemäß",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "erfahrungsgemäß",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "verlässlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "gehoben",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "zeitgemäß",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "unzeitgemäß",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "schlicht",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "blumig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "umständlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "weitschweifig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "eintönig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "ansprechend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "geschmackvoll",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "geschmacklos",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "stilvoll",
+        "pos": "adj",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "konnektoren",
+    "title": "Konnektoren & Struktur",
+    "emoji": "🔗",
+    "words": [
+      {
+        "lemma": "zumal",
+        "pos": "conj",
+        "level": "B2"
+      },
+      {
+        "lemma": "wenngleich",
+        "pos": "conj",
+        "level": "B2"
+      },
+      {
+        "lemma": "obschon",
+        "pos": "conj",
+        "level": "C1"
+      },
+      {
+        "lemma": "wohingegen",
+        "pos": "conj",
+        "level": "B2"
+      },
+      {
+        "lemma": "insoweit",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "geschweige",
+        "pos": "conj",
+        "level": "C1"
+      },
+      {
+        "lemma": "desto",
+        "pos": "conj",
+        "level": "B2"
+      },
+      {
+        "lemma": "umso",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "respektive",
+        "pos": "conj",
+        "level": "C1"
+      },
+      {
+        "lemma": "mithin",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "demgemäß",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "daraufhin",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "hierauf",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "gleichwohl",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "nichtsdestotrotz",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "nichtsdestoweniger",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "demgegenüber",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "indes",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "indessen",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "freilich",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "keinesfalls",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "mitnichten",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "schwerlich",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "gleichsam",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "quasi",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "geradezu",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "schlichtweg",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "schlechthin",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "allemal",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "allenfalls",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "bestenfalls",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "schlimmstenfalls",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "notfalls",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "andernfalls",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "zweifellos",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "zweifelsohne",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "wohlgemerkt",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "bekanntlich",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "bezeichnenderweise",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "erstaunlicherweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "bedauerlicherweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "erfreulicherweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "üblicherweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "seltsamerweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "interessanterweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "verständlicherweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "fälschlicherweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "klugerweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "dummerweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "typischerweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "logischerweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "notwendigerweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "idealerweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "paradoxerweise",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "merkwürdigerweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "überraschenderweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausnahmsweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "stellenweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "ansatzweise",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "versuchsweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "schrittweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "stufenweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "vergleichsweise",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "verhältnismäßig",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "einschließlich",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "zuzüglich",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "abzüglich",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "zulasten",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "mangels",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "entsprechend",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "zufolge",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "vonseiten",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "binnen",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "nebst",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "vorbehaltlich",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "abseits",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "oberhalb",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "unterhalb",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "anstelle",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "anstatt",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "inmitten",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "fernab",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "unweit",
+        "pos": "prep",
+        "level": "B2"
+      },
+      {
+        "lemma": "längs",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "überaus",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "ungemein",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "höchst",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "zutiefst",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "weithin",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "größtenteils",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorwiegend",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "vornehmlich",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "namentlich",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "vorrangig",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "beträchtlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "geringfügig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "schlussendlich",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "zuvor",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorab",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "vorweg",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "eingangs",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "abschließend",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "zusammenfassend",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "hierzu",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "hierbei",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "hierfür",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "hiermit",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "hierdurch",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "hieraus",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "hierzulande",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "desgleichen",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "gleichfalls",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "obendrein",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "sprich",
+        "pos": "other",
+        "level": "B2"
+      },
+      {
+        "lemma": "ergo",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "unterdessen",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "derweil",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "nunmehr",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "fortan",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "seither",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "bislang",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "einstweilen",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "sogleich",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "umgehend",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "unverzüglich",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "seinerzeit",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "derzeit",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "abermals",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "wiederum",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "unlängst",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "jüngst",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "neuerdings",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "vormals",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "ehemals",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "einst",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "gegenwärtig",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "momentan",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "zukünftig",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "fortwährend",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "unentwegt",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "unablässig",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "stets",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "zwischenzeitlich",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "mitunter",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "bisweilen",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "zuweilen",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "vereinzelt",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "sporadisch",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "teils",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "eigens",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "ausdrücklich",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "vergebens",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "keinerlei",
+        "pos": "other",
+        "level": "B2"
+      },
+      {
+        "lemma": "jeweils",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "jeweilig",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "etwaig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "vollends",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "gänzlich",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "restlos",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "allesamt",
+        "pos": "adv",
+        "level": "B2"
+      },
+      {
+        "lemma": "mancherorts",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "vielerorts",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "anderweitig",
+        "pos": "adv",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "formell",
+    "title": "Formelle Sprache",
+    "emoji": "🖋️",
+    "words": [
+      {
+        "lemma": "zwecks",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "infolge",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "ungeachtet",
+        "pos": "prep",
+        "level": "C1"
+      },
+      {
+        "lemma": "obgleich",
+        "pos": "conj",
+        "level": "C1"
+      },
+      {
+        "lemma": "demzufolge",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "infolgedessen",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "gewissermaßen",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "gleichermaßen",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "ebenso",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "vielmehr",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "überdies",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "ferner",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "gegebenenfalls",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "ableiten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "erörtern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "darlegen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "veranschaulichen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "erläutern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "untermauern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "gliedern",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "zusammenfassen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "hervorgehen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "beruhen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "basieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verweisen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "aufzeigen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "vorliegen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "Erörterung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Erläuterung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Gliederung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Fazit",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Resümee",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Verweis",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Zitat",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Verfasser",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Veröffentlichung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Abhandlung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Sachverhalt",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Gegebenheit",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Umstand",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "erheblich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "umfassend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "erforderlich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "differenziert",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "hinreichend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "maßgeblich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unerlässlich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "stichhaltig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "plausibel",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "prägnant",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "schlüssig",
+        "pos": "adj",
+        "level": "C1"
+      }
+    ]
+  },
+  {
+    "slug": "gehoben",
+    "title": "Gehobene Sprache",
+    "emoji": "📖",
+    "words": [
+      {
+        "lemma": "anmuten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "entbehren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "beherzigen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "gipfeln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "entfachen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "schüren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "eindämmen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "suggerieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "divergieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "konvergieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "erhärten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "ausloten",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "sondieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "taxieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "avancieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "kulminieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "prosperieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "darben",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "argwöhnen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "beäugen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "belächeln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verhöhnen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "schmähen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "diffamieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "denunzieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "diskreditieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verunglimpfen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "brüskieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "torpedieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "unterminieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "sabotieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "vereiteln",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "durchkreuzen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "zunichtemachen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "unterliegen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "kapitulieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "resignieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verzagen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "bangen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "harren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "lechzen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "gieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "erliegen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "frönen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "wähnen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "erahnen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "evozieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "tangieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "marginalisieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "stigmatisieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "glorifizieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "verklären",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "instrumentalisieren",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "anbahnen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "Akribie",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Ambivalenz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Affinität",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Diskrepanz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Divergenz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Konvergenz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Prägnanz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Redundanz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Quintessenz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Essenz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Präferenz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Koinzidenz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Wehmut",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Schwermut",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Übermut",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Unmut",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Argwohn",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Häme",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Schadenfreude",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Geiz",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Gier",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Begierde",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Verlangen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Zuversicht",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ekel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hochachtung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Geringschätzung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Abscheu",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Aversion",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Antipathie",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Sympathie",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Apathie",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Lethargie",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Euphorie",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Ekstase",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Unbehagen",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Verdruss",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Überdruss",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Wohlwollen",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Entzücken",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Sinnbild",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Gleichnis",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Eloquenz",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Scharfsinn",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Leichtsinn",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Wahnsinn",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Eigensinn",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Inbegriff",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Beredsamkeit",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "akribisch",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "ambivalent",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "diffus",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "subtil",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "stringent",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "rudimentär",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "fragmentarisch",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "peripher",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "eklatant",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "frappierend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "latent",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "prekär",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "fatal",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "desaströs",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "verheerend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "folgenschwer",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "schwerwiegend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "belanglos",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "nichtig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "nobel",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "generös",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "großmütig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "wankelmütig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "anmutig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "wehmütig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "schwermütig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "übermütig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "missmutig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "inbrünstig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "sehnsüchtig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "ehrfürchtig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unterwürfig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "devot",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "herablassend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "hochmütig",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "überheblich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "anmaßend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "dreist",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unverfroren",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "lakonisch",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "grotesk",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "skurril",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "bizarr",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "kurios",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "obskur",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "kryptisch",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "rätselhaft",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "mysteriös",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "ominös",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "dubios",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "suspekt",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "bedenklich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "besorgniserregend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "alarmierend",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "beunruhigend",
+        "pos": "adj",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "bildungssprache",
+    "title": "Bildungssprache",
+    "emoji": "📚",
+    "words": [
+      {
+        "lemma": "obliegen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "obsiegen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "desavouieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "düpieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "konterkarieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "insinuieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "dürsten",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "gereichen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "gemahnen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "behelligen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "weilen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "ereifern",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "echauffieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "mokieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "goutieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "rekurrieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "subsumieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "oktroyieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "perpetuieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "kolportieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "lancieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "eruieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "extrapolieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "explizieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "anschicken",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "entsinnen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "gewahren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "währen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "feilbieten",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "munkeln",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "raunen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "erdreisten",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "anheimfallen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "Unwägbarkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Gemengelage",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Zäsur",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Verve",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Kalkül",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Räson",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Metier",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Sujet",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Fauxpas",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Faible",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Malaise",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Desiderat",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Diktum",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Verdikt",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Novum",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Kuriosum",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Charakteristikum",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Sammelsurium",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Konglomerat",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Konvolut",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Kompendium",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Antagonismus",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Widerpart",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Fürsprecher",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Apologet",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Epigone",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Koryphäe",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Adept",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Dilettant",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Scharlatan",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Demagoge",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Contenance",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Gepflogenheit",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Usus",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Kolorit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Patina",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Melange",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Nimbus",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Zenit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Schisma",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Dissens",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Einvernehmen",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Hader",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Zwist",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Fehde",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Animosität",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Ressentiment",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Furor",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Entzweiung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "sublim",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "hehr",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "enigmatisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "despektierlich",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "pejorativ",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "euphemistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "impertinent",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "servil",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "gönnerhaft",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "apodiktisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "dezidiert",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "abstrus",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "diffizil",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "genuin",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "immanent",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "inhärent",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "intrinsisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "ubiquitär",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "omnipräsent",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "ephemer",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "antiquiert",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "anachronistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "archaisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "nuanciert",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "pointiert",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "süffisant",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "maliziös",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "larmoyant",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "exaltiert",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "affektiert",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "blasiert",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "dünkelhaft",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "selbstherrlich",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "despotisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "altruistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "hedonistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "stoisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "fatalistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "defätistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "doktrinär",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "profund",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "morbid",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "rigide",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "permissiv",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "renitent",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "mannigfaltig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "unumgänglich",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "unabkömmlich",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "hämisch",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "brüsk",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "vonnöten",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "einerlei",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "gemeinhin",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "hernach",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "dereinst",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "ehedem",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "allenthalben",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "andernorts",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "schlechterdings",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "dergestalt",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "augenscheinlich",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "unweigerlich",
+        "pos": "adv",
+        "level": "C1"
+      },
+      {
+        "lemma": "wiewohl",
+        "pos": "conj",
+        "level": "C2"
       }
     ]
   }

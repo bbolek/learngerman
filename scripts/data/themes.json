@@ -20,6 +20,9 @@
   { "slug": "kunst", "title": "Kunst & Literatur", "emoji": "🎨", "batches": ["batch-74-kunst-literatur-b2"] },
   { "slug": "sport", "title": "Sport & Fitness", "emoji": "⚽", "batches": ["batch-40-fitness-sport", "batch-82-sport-wettkampf-b2"] },
   { "slug": "gefuehle", "title": "Gefühle & Beziehungen", "emoji": "❤️", "batches": ["batch-22-b1-gefuehle-beziehungen", "batch-76-gefuehle-beziehungen-b2"] },
+  { "slug": "liebe", "title": "Liebe & Hochzeit", "emoji": "💍", "batches": ["batch-108-liebe-beziehungen"] },
+  { "slug": "friseur", "title": "Friseur & Kosmetik", "emoji": "💇", "batches": ["batch-106-friseur-kosmetik"] },
+  { "slug": "gaming", "title": "Computer & Gaming", "emoji": "🎮", "batches": ["batch-107-computer-gaming"] },
   { "slug": "aussehen", "title": "Aussehen & Charakter", "emoji": "🙂", "batches": ["batch-57-aussehen-charakter"] },
   { "slug": "kleidung", "title": "Kleidung & Mode", "emoji": "👗", "batches": ["batch-48-kleidung-mode", "batch-93-mode-textil-design-b2"] },
   { "slug": "feste", "title": "Feste & Feiern", "emoji": "🎉", "batches": ["batch-32-feste-feiern"] },
@@ -39,5 +42,5 @@
   { "slug": "konnektoren", "title": "Konnektoren & Struktur", "emoji": "🔗", "batches": ["batch-88-konnektoren-adverbien-b2"] },
   { "slug": "formell", "title": "Formelle Sprache", "emoji": "🖋️", "batches": ["batch-38-formell-c1"] },
   { "slug": "gehoben", "title": "Gehobene Sprache", "emoji": "📖", "batches": ["batch-99-c1-verben-gehoben", "batch-100-c1-nomen-abstrakta", "batch-101-c1-adjektive"] },
-  { "slug": "bildungssprache", "title": "Bildungssprache", "emoji": "📚", "batches": ["batch-102-c2-verben-bildungssprache", "batch-103-c2-nomen-bildungssprache", "batch-104-c2-adjektive-adverbien"] }
+  { "slug": "bildungssprache", "title": "Bildungssprache", "emoji": "📚", "batches": ["batch-102-c2-verben-bildungssprache", "batch-103-c2-nomen-bildungssprache", "batch-104-c2-adjektive-adverbien", "batch-109-c2-gehoben-vertieft"] }
 ]

@@ -28208,6 +28208,667 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "liebe",
+    "title": "Liebe & Hochzeit",
+    "emoji": "💍",
+    "words": [
+      {
+        "lemma": "Flirt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kompliment",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Verliebtheit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Herzklopfen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Umarmung",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Händchen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "turteln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "schmachten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "anschmachten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "anhimmeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "erobern",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Verehrer",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Liebesbrief",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Liebeserklärung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Liebespaar",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Romanze",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "romantisch",
+        "pos": "adj",
+        "level": "A2"
+      },
+      {
+        "lemma": "Liebesfilm",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Rendezvous",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Traumfrau",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Traummann",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Single",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "vergeben",
+        "pos": "adj",
+        "level": "B1"
+      },
+      {
+        "lemma": "Beziehungsstatus",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Fernbeziehung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Affäre",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Seitensprung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Techtelmechtel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Liebeskummer",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "verkuppeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "verloben",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Verlobung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Heiratsantrag",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ehering",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Brautkleid",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Brautstrauß",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rosenstrauß",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Trauzeuge",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Flitterwochen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ehepaar",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Junggeselle",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Junggesellin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Witwe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Witwer",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Liebesglück",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Herzensbrecher",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "friseur",
+    "title": "Friseur & Kosmetik",
+    "emoji": "💇",
+    "words": [
+      {
+        "lemma": "Friseurin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Haarschnitt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kurzhaarschnitt",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Scheitel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Strähne",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Haaransatz",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Haarfarbe",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Tönung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "tönen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Dutt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "flechten",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Haargummi",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Haarspange",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Haarbürste",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "bürsten",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Glätteisen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "glätten",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Lockenwickler",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Haarspray",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gel",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Spülung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Spliss",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Haarausfall",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Perücke",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "nachschneiden",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "stutzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rasur",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Rasierschaum",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Rasierklinge",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Nassrasur",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Bartstoppel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kosmetikerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gesichtsmaske",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Peeling",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Puder",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Lippenstift",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Wimperntusche",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "zupfen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Nagellack",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Nagelfeile",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "feilen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Maniküre",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Selbstbräuner",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "gaming",
+    "title": "Computer & Gaming",
+    "emoji": "🎮",
+    "words": [
+      {
+        "lemma": "Spielekonsole",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Onlinespiel",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gamer",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gamerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Joystick",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Headset",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Avatar",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Spielwelt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gegenstand",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Endgegner",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Highscore",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bestenliste",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "aufleveln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Cheat",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "cheaten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ruckeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Lag",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "laggen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ladezeit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ladebildschirm",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Startbildschirm",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bildschirmschoner",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Mehrspielermodus",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Einzelspieler",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Modus",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Grafikkarte",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Arbeitsspeicher",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Bildrate",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Pixel",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "verpixelt",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Cursor",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Tastenkombination",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Benutzerkonto",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Speicherkarte",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "zwischenspeichern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Patch",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "patchen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Verzögerung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Streamer",
+        "pos": "noun",
+        "level": "B1"
+      }
+    ]
+  },
+  {
     "slug": "aussehen",
     "title": "Aussehen & Charakter",
     "emoji": "🙂",
@@ -39973,6 +40634,256 @@ export const THEMES: Theme[] = [
       {
         "lemma": "wiewohl",
         "pos": "conj",
+        "level": "C2"
+      },
+      {
+        "lemma": "bezirzen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "geruhen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "dünken",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "behagen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "entledigen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "bemächtigen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "anheimstellen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "verbrämen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "unterjochen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "knechten",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "gängeln",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "drangsalieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "beschwichtigen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "besänftigen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "kaschieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "Unbill",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Ungemach",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Obhut",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Gebaren",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Gehabe",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Niedertracht",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Arglist",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Tücke",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Ränke",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Komplott",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Kabale",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Anwandlung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Aufwallung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Regung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Befindlichkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Missstimmung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Verstimmung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Unstimmigkeit",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Querelen",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Scharmützel",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Geplänkel",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Wortgefecht",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "gewahr",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "habhaft",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "teilhaftig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "gewogen",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "zugetan",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "hinlänglich",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "inständig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "flehentlich",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "sattsam",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "nachgerade",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "fürwahr",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "beileibe",
+        "pos": "adv",
+        "level": "C2"
+      },
+      {
+        "lemma": "bar",
+        "pos": "prep",
         "level": "C2"
       }
     ]

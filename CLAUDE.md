@@ -19,6 +19,7 @@ Offline German learning app (Expo SDK 57, TypeScript, expo-router, expo-sqlite).
 - Vocabulary & grammar authoring schema: `scripts/data/AUTHORING.md` (vocab batches in `scripts/data/vocab/`, one grammar topic per file in `scripts/data/grammar/`). The build script validates everything and fails loudly — trust its error messages.
 - Backup/restore (Einstellungen → Backup): `src/logic/backup.ts` serializes every user table into one JSON file (content refs stored as natural keys, same as the content swap) and restore replaces the whole user state in one transaction; the file goes through the share sheet so it survives uninstall. **When adding a user table or a content-id column, extend the table lists in `backup.ts`** — `__tests__/backup.test.ts` round-trips against the real built DB.
 - German UI copy throughout the app; English used in grammar explanations.
+- OTA updates (EAS Update, `runtimeVersion: appVersion`): an update publishes JS only, and it lands on every store binary with the same `version`. **Adding a dependency with native code therefore requires bumping `version` in app.json in the same PR** — otherwise the OTA bundle reaches binaries that lack the native module and `requireNativeModule` crashes at import. New native modules must additionally be imported lazily (see `src/services/backup.ts`) so screens degrade instead of crashing on older binaries.
 
 ## Gamification (XP · streak insurance · quests · badges)
 

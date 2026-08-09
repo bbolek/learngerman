@@ -216,7 +216,7 @@ export const TOUR_STEPS: TourStepDef[] = [
     route: '/practice',
     title: 'Flashcards & grammar',
     body:
-      '“Karteikarten” quizzes your saved words with spaced repetition — rate yourself and Deutschly schedules the perfect next review. Below: grammar quizzes for every A1–B1 topic, with explanations.',
+      '“Karteikarten” quizzes your saved words with spaced repetition — rate yourself and Deutschly schedules the perfect next review. Below: grammar quizzes for every A1–C2 topic, with explanations.',
     advance: { kind: 'next' },
   },
   {

@@ -176,16 +176,18 @@ payloads) and fails loudly. JSON syntax can be checked standalone:
 
 Grammar lives in `scripts/data/grammar/*.json` — one topic per file, named
 `NN-slug.json`. The numeric prefix defines `sort_order` (group by level:
-01–09 A1, 10–19 A2, 20–30 B1). Topics must stay level-contiguous in that
-order — a test asserts A1 before A2 before B1 — so inserting a topic into
-a level means renumbering the files after it (slugs are the stable key,
-so renaming files is safe for user data).
+01–09 A1, 10–19 A2, 20–30 B1, 31–38 B2, 39–44 C1, 45–47 C2). Topics must
+stay level-contiguous in that order — a test asserts levels never go
+backwards — so inserting a topic into a level means renumbering the files
+after it (slugs are the stable key, so renaming files is safe for user
+data). Keep prefixes at two digits below 100: filename sort is
+lexicographic, `100-` would sort before `31-`.
 
 ```jsonc
 {
   "slug": "akkusativ",        // stable id, kebab-case
   "title": "Akkusativ",       // shown on the topic card (German)
-  "level": "A1",              // A1|A2|B1 — practice screen groups by this
+  "level": "A1",              // A1|A2|B1|B2|C1|C2 — practice screen groups by this
   "explainer_md": "…",        // intro shown before the first quiz round
   "questions": [ … ]
 }
@@ -226,8 +228,10 @@ feedback panel renders them tappable); the convention there is to mark the
   `reasons` (one correct), `correctReasonIndex`, `explanation`. Only for
   case-related topics.
 
-`difficulty` is 1–3 (easy rounds are served first). Aim for ≥ 12 questions
-per topic and a mix of at least three qtypes where the topic allows it.
+`difficulty` is 1–3 (easy rounds are served first). Every topic ships 48
+questions (a test asserts ≥ 48) with a mix of at least three qtypes and at
+least one difficulty-1 question; the going ratio is roughly 24 mc / 13 fill /
+10 order, with ~6 case_id replacing mc on case-related topics.
 
 ## Reading texts (Leseecke)
 

@@ -28,9 +28,9 @@ const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 const CONTENT_VERSION = 7;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
-/** Vocabulary spans the full CEFR range; grammar topics stay A1–B1. */
+/** Vocabulary and grammar span the full CEFR range; reading stays A1–B1. */
 const VOCAB_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
-const GRAMMAR_LEVELS = new Set(['A1', 'A2', 'B1']);
+const GRAMMAR_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 const READING_LEVELS = ['A1', 'A2', 'B1'];
 const QTYPES = new Set(['mc', 'fill', 'order', 'case_id']);
 const EXAMPLE_TAGS = new Set([
@@ -725,7 +725,7 @@ function build() {
       id INTEGER PRIMARY KEY,
       slug TEXT UNIQUE NOT NULL,
       title TEXT NOT NULL,
-      level TEXT NOT NULL CHECK (level IN ('A1','A2','B1')),
+      level TEXT NOT NULL CHECK (level IN ('A1','A2','B1','B2','C1','C2')),
       explainer_md TEXT NOT NULL,
       sort_order INTEGER NOT NULL,
       vocab_count INTEGER NOT NULL DEFAULT 0

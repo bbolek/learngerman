@@ -13,7 +13,7 @@ export interface TopicRow {
   id: number;
   slug: string;
   title: string;
-  level: 'A1' | 'A2' | 'B1';
+  level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
   explainer_md: string;
   /** Distinct dictionary words the topic introduces via [[vocab]] markers. */
   vocab_count: number;

@@ -32,7 +32,7 @@ import { VocabMc, type ExerciseWord } from '@/ui/components/questions/VocabExerc
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
-/** Grammar share of a stage where the level has grammar topics (A1–B1). */
+/** Grammar share of a stage — filled with vocab when a level has no topics. */
 const GRAMMAR_PER_STAGE = 2;
 
 type StageQuestion =

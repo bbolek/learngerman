@@ -1,0 +1,107 @@
+{
+  "slug": "b1-geld",
+  "title": "Geld & Bank",
+  "emoji": "💶",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-geld-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Sparkonto",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kontostand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abbuchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Einzahlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auszahlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Girokarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zinsen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kredit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zurückzahlen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schulden",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-geld-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Rate",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dauerauftrag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lastschrift",
+          "pos": "noun"
+        },
+        {
+          "lemma": "leisten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Währung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wechselkurs",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausgabe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einnahme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einkommen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "betragen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-geld-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

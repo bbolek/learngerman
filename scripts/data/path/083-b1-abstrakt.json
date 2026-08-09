@@ -1,0 +1,148 @@
+{
+  "slug": "b1-abstrakt",
+  "title": "Abstrakte Begriffe",
+  "emoji": "💭",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-abstrakt-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Krieg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Staat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Frieden",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jahrhundert",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Volk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Respekt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bürger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erinnerung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jugend",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-abstrakt-2",
+      "kind": "lesson",
+      "title": "Adjektivendungen",
+      "words": [
+        {
+          "lemma": "Hinweis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Generation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gemeinschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ereignis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Prinzip",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Organisation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rahmen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konzept",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Struktur",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "adjektivendungen",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-abstrakt-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "erwähnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wirkung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bemerkung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Herkunft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Armut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dialog",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unsicherheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konsequenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jahrzehnt",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-abstrakt-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

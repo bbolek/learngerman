@@ -1,0 +1,138 @@
+{
+  "slug": "b1-technik-3",
+  "title": "Technik & Medien 3",
+  "emoji": "💻",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-technik-3-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Festplatte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Posteingang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klingelton",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Forum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Helligkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "mailen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "entsperren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abspielen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Dialekt",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-technik-3-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Tarif",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zielgruppe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Redaktion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Moderator",
+          "pos": "noun"
+        },
+        {
+          "lemma": "hochladen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Touchscreen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flugmodus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anhängen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einfügen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-technik-3-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "kabellos",
+          "pos": "adj"
+        },
+        {
+          "lemma": "speichern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "löschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "veröffentlichen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "installieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aktualisieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abstürzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "klicken",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-technik-3-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

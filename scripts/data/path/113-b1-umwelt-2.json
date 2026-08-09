@@ -1,0 +1,201 @@
+{
+  "slug": "b1-umwelt-2",
+  "title": "Umwelt & Wetter 2",
+  "emoji": "🌿",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-umwelt-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Verpackung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Recycling",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Entsorgung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Naturkatastrophe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dürre",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hagel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Niederschlag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hitzewelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Horizont",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Überschwemmung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-umwelt-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Waldbrand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Meeresspiegel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Regenwald",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abholzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Grundwasser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trinkwasser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schauer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feuchtigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wasserfall",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-umwelt-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Energieverbrauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Elektroauto",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mehrwegflasche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pestizid",
+          "pos": "noun"
+        },
+        {
+          "lemma": "recyceln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verschwenden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Pfütze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "tauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schwül",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Bucht",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-umwelt-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Eiche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verschmutzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bedrohen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gefährden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schmelzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "entsorgen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abholzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aufforsten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Glatteis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brise",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-umwelt-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

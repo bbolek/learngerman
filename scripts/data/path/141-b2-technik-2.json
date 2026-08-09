@@ -1,0 +1,201 @@
+{
+  "slug": "b2-technik-2",
+  "title": "Technik & Medien 2",
+  "emoji": "💻",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-technik-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Abonnement",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gerücht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sprecher",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Generator",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Elektromotor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verbrennungsmotor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dichtung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Apparat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anlage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zuhörer",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-technik-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Skandal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Meldung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kommunizieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Mechanismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Förderband",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Automatisierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Qualitätssicherung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Betriebssystem",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Drohne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Absturz",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-technik-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Auflösung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "deaktivieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Pressekonferenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kampagne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ankündigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "seriös",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Wartung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verschleiß",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Festigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auflage",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-technik-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Marketing",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Influencer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rückmeldung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ankündigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Backup",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hardware",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Chip",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Cookie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Adapter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pressemitteilung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-technik-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

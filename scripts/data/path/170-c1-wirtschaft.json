@@ -1,0 +1,177 @@
+{
+  "slug": "c1-wirtschaft",
+  "title": "Wirtschaft & Handel",
+  "emoji": "📈",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-wirtschaft-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Innung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zunft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Halbfabrikat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Charge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feinmechanik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gießerei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schweißnaht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Drehbank",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fräsmaschine",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-wirtschaft-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Walzwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hochofen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eisenerz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spinnerei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weberei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lieferengpass",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lagerhaltung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rationalisierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Akkordarbeit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-wirtschaft-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Einzelanfertigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mechatroniker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Werksgelände",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gütesiegel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Betriebsmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Maßarbeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Veredelung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schmelze",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-wirtschaft-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Gussform",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wertschöpfung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rendite",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufsichtsrat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eigenkapital",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Etat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mittelstand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tilgung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-wirtschaft-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

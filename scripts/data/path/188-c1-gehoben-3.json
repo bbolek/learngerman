@@ -1,0 +1,103 @@
+{
+  "slug": "c1-gehoben-3",
+  "title": "Gehobene Sprache 3",
+  "emoji": "📖",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-gehoben-3-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "unterwürfig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "beäugen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Aversion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "nichtig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "durchkreuzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Eloquenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lakonisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Affinität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "generös",
+          "pos": "adj"
+        },
+        {
+          "lemma": "taxieren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-3-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "unverfroren",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Geringschätzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "rudimentär",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unterminieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "suspekt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Überdruss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "großmütig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Redundanz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fragmentarisch",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-3-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

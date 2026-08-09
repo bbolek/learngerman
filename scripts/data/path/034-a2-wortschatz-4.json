@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-4",
+  "title": "Wortschatz 4",
+  "emoji": "🌟",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-4-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "verspäten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wechseln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bestimmt",
+          "pos": "adv"
+        },
+        {
+          "lemma": "dafür",
+          "pos": "adv"
+        },
+        {
+          "lemma": "echt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gefährlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "hoffentlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Kirche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kosten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kunst",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-4-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Luft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mund",
+          "pos": "noun"
+        },
+        {
+          "lemma": "nämlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "nötig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Paar",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Politik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "probieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Recht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Richtung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stimme",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-4-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "umsteigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Vorschlag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "nennen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "fremd",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Schluss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "teilnehmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Versicherung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wunderbar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Schwierigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Traum",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-4-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "verletzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zuletzt",
+          "pos": "adv"
+        },
+        {
+          "lemma": "stören",
+          "pos": "verb"
+        },
+        {
+          "lemma": "untersuchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "weinen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Freude",
+          "pos": "noun"
+        },
+        {
+          "lemma": "See",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Test",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vergleichen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zeitschrift",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-4-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

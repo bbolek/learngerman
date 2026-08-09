@@ -1,0 +1,185 @@
+{
+  "slug": "a2-feste",
+  "title": "Feste & Feiern",
+  "emoji": "🎉",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-feste-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Weihnachten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Silvester",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weihnachtsmarkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weihnachtsbaum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geburtstagsfeier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heiligabend",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feuerwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Torte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Neujahr",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-feste-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Stimmung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Karneval",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mitternacht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sekt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dekoration",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Engel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Advent",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Plätzchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Luftballon",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-feste-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Adventskalender",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nikolaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verkleiden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Maske",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fasching",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schmücken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Osterei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Glühwein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Osterhase",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-feste-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "dekorieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Muttertag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verpacken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Lebkuchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rakete",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vatertag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blumenstrauß",
+          "pos": "noun"
+        },
+        {
+          "lemma": "festlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Glückwunschkarte",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-feste-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

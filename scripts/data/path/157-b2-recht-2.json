@@ -1,0 +1,142 @@
+{
+  "slug": "b2-recht-2",
+  "title": "Recht & Justiz 2",
+  "emoji": "⚖️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-recht-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Verhör",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verhören",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geständnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "leugnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Häftling",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einsperren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Bewährung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "entkommen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Todesstrafe",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-recht-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "überwachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Gerichtshof",
+          "pos": "noun"
+        },
+        {
+          "lemma": "durchsuchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Gerichtsverhandlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "sicherstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aufklären",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Straftäter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausbrechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Körperverletzung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-recht-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "freilassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Erpressung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gewalttätig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Entführung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bewaffnet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Überwachungskamera",
+          "pos": "noun"
+        },
+        {
+          "lemma": "juristisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Geisel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gerichtlich",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-recht-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

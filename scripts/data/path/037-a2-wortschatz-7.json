@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-7",
+  "title": "Wortschatz 7",
+  "emoji": "🔤",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-7-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Flug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Steuer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "träumen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Vorstellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Witz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schmutzig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Überraschung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vermuten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zustand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anbieten",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-7-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "anschauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aufpassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Berg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bevor",
+          "pos": "conj"
+        },
+        {
+          "lemma": "braun",
+          "pos": "adj"
+        },
+        {
+          "lemma": "damals",
+          "pos": "adv"
+        },
+        {
+          "lemma": "entscheiden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Erfolg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feuer",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-7-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Gegend",
+          "pos": "noun"
+        },
+        {
+          "lemma": "günstig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "irgendwann",
+          "pos": "adv"
+        },
+        {
+          "lemma": "komisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "langweilig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "modern",
+          "pos": "adj"
+        },
+        {
+          "lemma": "niedrig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "organisieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "per",
+          "pos": "prep"
+        },
+        {
+          "lemma": "prüfen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-7-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "pünktlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "rechnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Region",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reihe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rolle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "scharf",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Sendung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "sympathisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "übernachten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "warnen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-7-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

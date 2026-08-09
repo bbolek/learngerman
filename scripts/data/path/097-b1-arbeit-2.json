@@ -1,0 +1,201 @@
+{
+  "slug": "b1-arbeit-2",
+  "title": "Arbeit & Beruf 2",
+  "emoji": "💼",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-arbeit-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Praktikant",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Partnerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Personalabteilung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Betriebsrat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gewerkschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Überstunden",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tischler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kaufmann",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitsmarkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachfrage",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Händler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Team",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Autorin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Politikerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vollzeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anwältin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Richterin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Motivation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beschäftigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dienstreise",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Apothekerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Architektin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zuständigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Übersetzerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dolmetscherin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erzieherin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Maurer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dolmetscher",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Landwirt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachtschicht",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Mindestlohn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Messe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jäger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschäftsmann",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschäftsfrau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kauffrau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "qualifizieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Hausmann",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Position",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pflegerin",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

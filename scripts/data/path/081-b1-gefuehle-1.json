@@ -1,0 +1,201 @@
+{
+  "slug": "b1-gefuehle-1",
+  "title": "Gefühle & Beziehungen 1",
+  "emoji": "❤️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-gefuehle-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Missverständnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Versöhnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geborgenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zuneigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abneigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sehnsucht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Empörung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trauer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verzweiflung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zufriedenheit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gefuehle-1-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Reue",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schuldgefühl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mitgefühl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rücksicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Toleranz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorwurf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kompromiss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auseinandersetzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Versprechen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trennung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gefuehle-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Freundschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ehe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Partnerschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verständnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zärtlichkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Leidenschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verlegenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gleichgültigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wertschätzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anerkennung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gefuehle-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Kränkung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verlust",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Neid",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hoffnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ärger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zuwendung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zweifel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beleidigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spannung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Harmonie",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gefuehle-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

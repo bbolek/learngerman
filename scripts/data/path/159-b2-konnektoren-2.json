@@ -1,0 +1,130 @@
+{
+  "slug": "b2-konnektoren-2",
+  "title": "Konnektoren & Struktur 2",
+  "emoji": "🔗",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-konnektoren-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "schrittweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "notfalls",
+          "pos": "adv"
+        },
+        {
+          "lemma": "keinerlei",
+          "pos": "other"
+        },
+        {
+          "lemma": "vergleichsweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "verhältnismäßig",
+          "pos": "adv"
+        },
+        {
+          "lemma": "andernfalls",
+          "pos": "adv"
+        },
+        {
+          "lemma": "jeweilig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "idealerweise",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "b2-konnektoren-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "gleichfalls",
+          "pos": "adv"
+        },
+        {
+          "lemma": "nichtsdestotrotz",
+          "pos": "adv"
+        },
+        {
+          "lemma": "überraschenderweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "typischerweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "unverzüglich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "logischerweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "vorab",
+          "pos": "adv"
+        },
+        {
+          "lemma": "interessanterweise",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "b2-konnektoren-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "neuerdings",
+          "pos": "adv"
+        },
+        {
+          "lemma": "bedauerlicherweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "gänzlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "verständlicherweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "einst",
+          "pos": "adv"
+        },
+        {
+          "lemma": "erstaunlicherweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "restlos",
+          "pos": "adv"
+        },
+        {
+          "lemma": "erfreulicherweise",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "b2-konnektoren-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

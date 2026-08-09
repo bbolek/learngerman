@@ -1,0 +1,201 @@
+{
+  "slug": "b1-wortschatz-6",
+  "title": "Wortschatz 6",
+  "emoji": "🗒️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wortschatz-6-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "bemühen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beschäftigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verwenden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "betreffen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "geschehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schütteln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schimpfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zögern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schief",
+          "pos": "adj"
+        },
+        {
+          "lemma": "demnächst",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-6-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Fläche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Transport",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gehirn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ernsthaft",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Gastgeber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verändern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verlassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Argument",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vertrauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verlangen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-6-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "fordern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unterstützen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "blicken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Fantasie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lebendig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Braut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Band",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anpassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verursachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vermeiden",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-6-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "konzentrieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "überprüfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "reduzieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "nachholen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zerreißen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "stinken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "steil",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Symbol",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fair",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Auftritt",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-6-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

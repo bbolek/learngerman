@@ -1,0 +1,107 @@
+{
+  "slug": "b1-notfall",
+  "title": "Notfall & Sicherheit",
+  "emoji": "🚨",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-notfall-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Rettungswagen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sanitäter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Notarzt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rettung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zeuge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Diebstahl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einbruch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einbrechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Räuber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Raub",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-notfall-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "überfallen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Überfall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Täter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Opfer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verdächtig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Verdacht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anzeigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Alarmanlage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rauchmelder",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feuerlöscher",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-notfall-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

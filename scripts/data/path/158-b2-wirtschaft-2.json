@@ -1,0 +1,142 @@
+{
+  "slug": "b2-wirtschaft-2",
+  "title": "Wirtschaft & Handel 2",
+  "emoji": "📈",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-wirtschaft-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Sortiment",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lieferzeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dienstleistung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auslastung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kapazität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stillstand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausfall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Forderung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Warenkorb",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wirtschaft-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Schutzhelm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sicherheitsvorschrift",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rückgabe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Standort",
+          "pos": "noun"
+        },
+        {
+          "lemma": "profitieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Massenproduktion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fachgeschäft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kaufvertrag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Finanzierung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wirtschaft-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Stammkunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "austauschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schnäppchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kartenzahlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlosser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kassenzettel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Installateur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lackierer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Uhrmacher",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wirtschaft-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "slug": "b2-geografie-2",
+  "title": "Geografie & Landschaft 2",
+  "emoji": "🗺️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-geografie-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Lava",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krater",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ablagerung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gestein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mineral",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kalkstein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lehm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kontinentalplatte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geologie",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-geografie-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Koordinate",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Breitengrad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Längengrad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Äquator",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Halbkugel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pol",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Polarkreis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zeitzone",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Himmelsrichtung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Navigation",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-geografie-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Vermessung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Satellitenbild",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Luftaufnahme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zone",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klimazone",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Höhenlage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Höhenmeter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Baumgrenze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schneegrenze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Steinschlag",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-geografie-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "b1-wortschatz-1",
+  "title": "Wortschatz 1",
+  "emoji": "📚",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wortschatz-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "aktuell",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gelten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "perfekt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "häufig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "wohl",
+          "pos": "adv"
+        },
+        {
+          "lemma": "System",
+          "pos": "noun"
+        },
+        {
+          "lemma": "statt",
+          "pos": "prep"
+        },
+        {
+          "lemma": "erkennen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schrecklich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "allgemein",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-1-2",
+      "kind": "lesson",
+      "title": "Präteritum",
+      "words": [
+        {
+          "lemma": "bisher",
+          "pos": "adv"
+        },
+        {
+          "lemma": "völlig",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Tatsache",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gedanke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausgezeichnet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Sinn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bieten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verschwinden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "behalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "befinden",
+          "pos": "verb"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "praeteritum",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "erfahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "handeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "großartig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unmöglich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "niemals",
+          "pos": "adv"
+        },
+        {
+          "lemma": "total",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Bereich",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Inhalt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "entstehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bemerken",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "bilden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "spüren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "hervorragend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "absolut",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Macht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "enthalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einfallen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bestimmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beenden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kämpfen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

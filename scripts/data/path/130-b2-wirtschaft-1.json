@@ -1,0 +1,201 @@
+{
+  "slug": "b2-wirtschaft-1",
+  "title": "Wirtschaft & Handel 1",
+  "emoji": "📈",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-wirtschaft-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Herstellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Werk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Werkhalle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Produktionslinie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Industriezweig",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Betriebsleiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Facharbeiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Handwerksbetrieb",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geselle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lehrling",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wirtschaft-1-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Meisterbrief",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gewerbegebiet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Werkstück",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Endprodukt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erzeugnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stückzahl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Qualitätskontrolle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Prüfverfahren",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zertifizierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Guss",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wirtschaft-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Schmiede",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wirtschaftlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Ersatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stahlwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "finanziell",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Keramik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mangel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zulieferer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Onlineshop",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beschaffung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wirtschaft-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Kapital",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lagerbestand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kundenservice",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Versandkosten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "garantieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Inventur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spedition",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fracht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gabelstapler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verbraucher",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wirtschaft-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

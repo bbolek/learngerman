@@ -1,0 +1,105 @@
+{
+  "slug": "a2-wohnen",
+  "title": "Wohnen & Zuhause",
+  "emoji": "🏠",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wohnen-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Vermieter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mieter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mietvertrag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kaution",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nebenkosten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stockwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Terrasse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Karton",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umzugskarton",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wohnen-2",
+      "kind": "lesson",
+      "title": "Reflexive Verben",
+      "words": [
+        {
+          "lemma": "Haustür",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kleiderschrank",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wasserhahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heizkörper",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachbarschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Innenstadt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hochhaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "heizen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "möbliert",
+          "pos": "adj"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "reflexive-verben",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-wohnen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "b1-garten",
+  "title": "Garten & Werkzeug",
+  "emoji": "🌱",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-garten-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Unkraut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Säge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ernte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Griff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Samen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Busch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rohr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stamm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "befestigen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-garten-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "zusammenbauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zange",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schrauben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kraut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einbauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Bohrmaschine",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hecke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "sägen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-garten-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "graben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "umbauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Klebeband",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Draht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Strauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "montieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Axt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rasenmäher",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-garten-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

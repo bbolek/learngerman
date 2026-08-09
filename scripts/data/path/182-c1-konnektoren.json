@@ -1,0 +1,142 @@
+{
+  "slug": "c1-konnektoren",
+  "title": "Konnektoren & Struktur",
+  "emoji": "🔗",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-konnektoren-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "freilich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "gleichwohl",
+          "pos": "adv"
+        },
+        {
+          "lemma": "binnen",
+          "pos": "prep"
+        },
+        {
+          "lemma": "allemal",
+          "pos": "adv"
+        },
+        {
+          "lemma": "mangels",
+          "pos": "prep"
+        },
+        {
+          "lemma": "nunmehr",
+          "pos": "adv"
+        },
+        {
+          "lemma": "geschweige",
+          "pos": "conj"
+        },
+        {
+          "lemma": "paradoxerweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "sogleich",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "c1-konnektoren-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "ansatzweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "seinerzeit",
+          "pos": "adv"
+        },
+        {
+          "lemma": "eigens",
+          "pos": "adv"
+        },
+        {
+          "lemma": "indes",
+          "pos": "adv"
+        },
+        {
+          "lemma": "namentlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "bisweilen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "indessen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "weithin",
+          "pos": "adv"
+        },
+        {
+          "lemma": "jüngst",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "c1-konnektoren-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "hierauf",
+          "pos": "adv"
+        },
+        {
+          "lemma": "zweifelsohne",
+          "pos": "adv"
+        },
+        {
+          "lemma": "längs",
+          "pos": "prep"
+        },
+        {
+          "lemma": "sporadisch",
+          "pos": "adv"
+        },
+        {
+          "lemma": "obschon",
+          "pos": "conj"
+        },
+        {
+          "lemma": "schwerlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "zulasten",
+          "pos": "prep"
+        },
+        {
+          "lemma": "fortwährend",
+          "pos": "adv"
+        },
+        {
+          "lemma": "etwaig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-konnektoren-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

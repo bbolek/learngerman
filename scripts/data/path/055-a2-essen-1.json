@@ -1,0 +1,207 @@
+{
+  "slug": "a2-essen-1",
+  "title": "Essen & Trinken 1",
+  "emoji": "🍽️",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-essen-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Bedienung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gewürz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mineralwasser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Packung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Scheibe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trinkgeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorspeise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Knoblauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hauptgericht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachspeise",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-essen-1-2",
+      "kind": "lesson",
+      "title": "Komparativ & Superlativ",
+      "words": [
+        {
+          "lemma": "würzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Beilage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pfirsich",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Getränkekarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Backofen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reservierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Empfehlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bedienen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geschmack",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Esslöffel",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "komparativ",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-essen-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Pflaume",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Melone",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rindfleisch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Süßigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Appetit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Speise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zutat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Teelöffel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rest",
+          "pos": "noun"
+        },
+        {
+          "lemma": "getrennt",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a2-essen-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Himbeere",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weintraube",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schweinefleisch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Würstchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kakao",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bar",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Leitungswasser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sprudel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "hacken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schorle",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-essen-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

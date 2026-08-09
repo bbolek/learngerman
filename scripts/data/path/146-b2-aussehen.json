@@ -1,0 +1,99 @@
+{
+  "slug": "b2-aussehen",
+  "title": "Aussehen & Charakter",
+  "emoji": "🙂",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-aussehen-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "hartnäckig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Taille",
+          "pos": "noun"
+        },
+        {
+          "lemma": "aufrichtig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "aufgeschlossen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Wade",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rippe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kahl",
+          "pos": "adj"
+        },
+        {
+          "lemma": "loyal",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ausgeglichen",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-aussehen-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "gewissenhaft",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Ferse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kehle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gelassenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Charme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "eingebildet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nachlässig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "leichtsinnig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zielstrebig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-aussehen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

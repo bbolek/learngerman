@@ -1,0 +1,150 @@
+{
+  "slug": "b2-religion",
+  "title": "Religion & Glaube",
+  "emoji": "🕊️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-religion-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Papst",
+          "pos": "noun"
+        },
+        {
+          "lemma": "christlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Christ",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Muslim",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jude",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Priester",
+          "pos": "noun"
+        },
+        {
+          "lemma": "jüdisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "islamisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "bereuen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gläubig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-religion-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Meditation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "muslimisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "kirchlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Gebot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Prophet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bischof",
+          "pos": "noun"
+        },
+        {
+          "lemma": "meditieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Mission",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verehren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dulden",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b2-religion-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "opfern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Weltreligion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fromm",
+          "pos": "adj"
+        },
+        {
+          "lemma": "fluchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gehorchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "spirituell",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Judentum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wertvorstellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tabu",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-religion-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

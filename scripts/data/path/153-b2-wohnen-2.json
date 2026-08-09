@@ -1,0 +1,122 @@
+{
+  "slug": "b2-wohnen-2",
+  "title": "Wohnen & Zuhause 2",
+  "emoji": "🏠",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-wohnen-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Granit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mörtel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Putz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stahlbeton",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dämmung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Isolierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verkleidung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verglasung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wohnen-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Bauvorhaben",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bauprojekt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rohbau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Baukran",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bauleiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bauunternehmen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zimmermann",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wohnen-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Grundstein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Baukosten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anbau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausbau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umbau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einsturz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Modernisierung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wohnen-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

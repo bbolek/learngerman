@@ -1,0 +1,95 @@
+{
+  "slug": "b1-kleidung",
+  "title": "Kleidung & Mode",
+  "emoji": "👗",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-kleidung-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Material",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Faden",
+          "pos": "noun"
+        },
+        {
+          "lemma": "elegant",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Stil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trend",
+          "pos": "noun"
+        },
+        {
+          "lemma": "modisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "färben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zusammenpassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kragen",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-kleidung-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "altmodisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Seide",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Absatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "reißen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kapuze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weste",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lässig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Bademantel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-kleidung-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

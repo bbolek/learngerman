@@ -1,0 +1,150 @@
+{
+  "slug": "c1-wortschatz-2",
+  "title": "Wortschatz 2",
+  "emoji": "💬",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-wortschatz-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "beben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Blutgerinnsel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verschnörkelt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Groll",
+          "pos": "noun"
+        },
+        {
+          "lemma": "maritim",
+          "pos": "adj"
+        },
+        {
+          "lemma": "alpin",
+          "pos": "adj"
+        },
+        {
+          "lemma": "lichtdurchflutet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Drüse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wanken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Verbitterung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-wortschatz-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Medikation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gedenken",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unterbewusstsein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schleimhaut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "räkeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verzehren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kolonialismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "unweigerlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Ehrfurcht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abklingen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-wortschatz-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Gewand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zeitzeuge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Milz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verharren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Textur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschichtsschreibung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "belesen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "versiert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "einprägsam",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-wortschatz-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

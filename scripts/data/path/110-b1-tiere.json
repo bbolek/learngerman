@@ -1,0 +1,138 @@
+{
+  "slug": "b1-tiere",
+  "title": "Tiere & Pflanzen",
+  "emoji": "🐾",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-tiere-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Wespe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ameise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Adler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krähe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Storch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Möwe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reh",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hirsch",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-tiere-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Wildschwein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fledermaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wolf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hai",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ziege",
+          "pos": "noun"
+        },
+        {
+          "lemma": "robust",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Muschel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schnabel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-tiere-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Pfote",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Esel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "scheu",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Beute",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Raubtier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Säugetier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "brüten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zähmen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-tiere-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

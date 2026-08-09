@@ -1,0 +1,154 @@
+{
+  "slug": "b2-politik",
+  "title": "Politik & Gesellschaft",
+  "emoji": "🏛️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-politik-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Wahlkampf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ministerium",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beamte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wahlrecht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beschluss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rücktritt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorsitzende",
+          "pos": "noun"
+        },
+        {
+          "lemma": "staatlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Anfrage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fraktion",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-politik-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Republik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Meinungsfreiheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abkommen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zurücktreten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Volksabstimmung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Korruption",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Richtlinie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wahlbeteiligung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausschuss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rechtsstaat",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-politik-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Pressefreiheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Außenpolitik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kommission",
+          "pos": "noun"
+        },
+        {
+          "lemma": "unterzeichnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verkünden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "diplomatisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Wahlprogramm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Amtszeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Transparenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Botschafter",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-politik-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "c1-kunst",
+  "title": "Kunst & Literatur",
+  "emoji": "🎨",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-kunst-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Prosa",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zeitgeist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Palette",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stilrichtung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Impressionismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Expressionismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Büste",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-kunst-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Originalität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abstraktion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reproduktion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Surrealismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachlass",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Relief",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-kunst-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

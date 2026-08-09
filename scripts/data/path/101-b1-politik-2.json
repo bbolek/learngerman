@@ -1,0 +1,146 @@
+{
+  "slug": "b1-politik-2",
+  "title": "Politik & Gesellschaft 2",
+  "emoji": "🏛️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-politik-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Asyl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Botschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vertreter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Koalition",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wählen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abstimmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "demonstrieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kanzler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Politiker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "boykottieren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-politik-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "streiken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Minister",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vereidigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Bundesland",
+          "pos": "noun"
+        },
+        {
+          "lemma": "regieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beschließen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einführen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einschränken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "genehmigen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-politik-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "gründen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verurteilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anklagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verteidigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kandidieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "herrschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unterdrücken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "diskriminieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "integrieren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-politik-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

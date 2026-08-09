@@ -1,0 +1,207 @@
+{
+  "slug": "a2-wortschatz-5",
+  "title": "Wortschatz 5",
+  "emoji": "🎒",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-5-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Angst",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anziehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "außerdem",
+          "pos": "adv"
+        },
+        {
+          "lemma": "bitten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "damit",
+          "pos": "conj"
+        },
+        {
+          "lemma": "direkt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "draußen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "etwa",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Gebäude",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gesundheit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-5-2",
+      "kind": "lesson",
+      "title": "Trennbare Verben",
+      "words": [
+        {
+          "lemma": "Hälfte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Himmel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "informieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Katze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kultur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "mehrere",
+          "pos": "pron"
+        },
+        {
+          "lemma": "Mitte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Natur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "öffentlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "planen",
+          "pos": "verb"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "trennbare-verben",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-5-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "praktisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Projekt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Regel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "reich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Strand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "umziehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vorschlagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zeichen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krankheit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-5-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "vorher",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Entscheidung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schnee",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tante",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verschieben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wenigstens",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Fahrer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gegenüber",
+          "pos": "prep"
+        },
+        {
+          "lemma": "schwach",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Strom",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-5-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

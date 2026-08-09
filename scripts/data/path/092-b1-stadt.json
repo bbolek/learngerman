@@ -1,0 +1,169 @@
+{
+  "slug": "b1-stadt",
+  "title": "Stadt & Gebäude",
+  "emoji": "🏙️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-stadt-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Bewohner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Burg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zentral",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Bezirk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorort",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stadtrand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Freibad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Allee",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-stadt-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Haupteingang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tiefgarage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Metzgerei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hallenbad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Orientierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Statue",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wohngebiet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Obergeschoss",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-stadt-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Wochenmarkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reihenhaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einfamilienhaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zentrale",
+          "pos": "noun"
+        },
+        {
+          "lemma": "entlanggehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sackgasse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Passant",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Innenhof",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-stadt-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Villa",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wolkenkratzer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unterführung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feuerwache",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sitzbank",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Müllcontainer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrradständer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verirren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-stadt-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

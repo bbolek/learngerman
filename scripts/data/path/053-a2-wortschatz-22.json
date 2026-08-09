@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-22",
+  "title": "Wortschatz 22",
+  "emoji": "🗒️",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-22-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Tablet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "aufgeben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Bargeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausgehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Notruf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anfassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anmachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Polizist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Instrument",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-22-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Imbiss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kaputtmachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Lippe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rasen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rind",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sitzplatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Landkarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrgast",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verband",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Symptom",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-22-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "überqueren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "mitfahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gesperrt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "einziehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wegnehmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Titel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pech",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bauernhof",
+          "pos": "noun"
+        },
+        {
+          "lemma": "auspacken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geldautomat",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-22-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Dieb",
+          "pos": "noun"
+        },
+        {
+          "lemma": "aufwachsen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zuhören",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Abitur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anfänger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausdrucken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Batterie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Besserung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bildschirm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Briefkasten",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-22-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

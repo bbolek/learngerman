@@ -1,0 +1,201 @@
+{
+  "slug": "b1-wortschatz-7",
+  "title": "Wortschatz 7",
+  "emoji": "🔤",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wortschatz-7-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Vieh",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bauernmarkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "König",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verbessern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ansicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "irren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "lohnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Lautstärke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gelingen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "scheitern",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-7-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "einigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Oberfläche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bräutigam",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trompete",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bioprodukt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Königin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Haarschnitt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zins",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bestellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zustimmen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-7-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Onlinespiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spielekonsole",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verantwortlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nicken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Stille",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zeitraum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Befehl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "leuchten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Jubiläum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kritik",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-7-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Schlagzeug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Acker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Landleben",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kaiser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bürsten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Einkaufsliste",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kontinent",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erfolgreich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "knien",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abhängig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-7-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

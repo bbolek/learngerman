@@ -1,0 +1,142 @@
+{
+  "slug": "a2-kultur",
+  "title": "Kultur & Freizeit",
+  "emoji": "🎭",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-kultur-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Zelt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Grill",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gewinner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Übernachtung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rätsel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Taschenlampe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Picknick",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kartenspiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schach",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-kultur-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Ferienwohnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ski",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlafsack",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Würfel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zelten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Puzzle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zirkus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tischtennis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Badetuch",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-kultur-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Sonnenschirm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Popcorn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heimweh",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Skateboard",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bikini",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Clown",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlitten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bowling",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Karussell",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-kultur-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-21",
+  "title": "Wortschatz 21",
+  "emoji": "🎒",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-21-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Versand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kassierer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kassiererin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schaufenster",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wechselgeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Portemonnaie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "reklamieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aushandeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zurückschicken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einlösen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-21-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "brutto",
+          "pos": "adj"
+        },
+        {
+          "lemma": "netto",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unbefristet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "vorübergehend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Aufenthalt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stadtplan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Radweg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reiseführer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Allergie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abbiegen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-21-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "impfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "brechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "übel",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unwohl",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nachfragen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bescheiden",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gestresst",
+          "pos": "adj"
+        },
+        {
+          "lemma": "optimistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "tolerant",
+          "pos": "adj"
+        },
+        {
+          "lemma": "selbstbewusst",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-21-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "sanft",
+          "pos": "adj"
+        },
+        {
+          "lemma": "spontan",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unzufrieden",
+          "pos": "adj"
+        },
+        {
+          "lemma": "frustriert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "immerhin",
+          "pos": "adv"
+        },
+        {
+          "lemma": "zunehmend",
+          "pos": "adv"
+        },
+        {
+          "lemma": "zusätzlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Wut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zuschauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sorte",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-21-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

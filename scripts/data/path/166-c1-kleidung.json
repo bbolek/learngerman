@@ -1,0 +1,103 @@
+{
+  "slug": "c1-kleidung",
+  "title": "Kleidung & Mode",
+  "emoji": "👗",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-kleidung-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Viskose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Elasthan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jersey",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tweed",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schnittmuster",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fingerhut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Öse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Änderungsschneiderei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Maßanfertigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Applikation",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-kleidung-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Rüsche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bund",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konfektionsgröße",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Manschette",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Revers",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dekolleté",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Laufsteg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Raffinesse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Modeerscheinung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-kleidung-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

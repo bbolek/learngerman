@@ -1,0 +1,169 @@
+{
+  "slug": "b1-alltag",
+  "title": "Alltag & Umgangssprache",
+  "emoji": "☕",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-alltag-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "cool",
+          "pos": "adj"
+        },
+        {
+          "lemma": "blöd",
+          "pos": "adj"
+        },
+        {
+          "lemma": "krass",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Typ",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Quatsch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "quatschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "doof",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Kumpel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-alltag-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Zeug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kohle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Waschmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klamotten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fressen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "chillen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Spülmittel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-alltag-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "kapieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abhauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Bock",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Putzmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "checken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "meckern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "spinnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "geil",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-alltag-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "schmeißen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zocken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "pennen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "heulen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kram",
+          "pos": "noun"
+        },
+        {
+          "lemma": "jammern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schnauze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "mies",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-alltag-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

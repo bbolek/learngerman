@@ -1,0 +1,83 @@
+{
+  "slug": "a2-aussehen",
+  "title": "Aussehen & Charakter",
+  "emoji": "🙂",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-aussehen-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "kräftig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Figur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "mutig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Aussehen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "witzig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Daumen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Humor",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-aussehen-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "gemein",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Frisur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "attraktiv",
+          "pos": "adj"
+        },
+        {
+          "lemma": "frech",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Locke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lockig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Glatze",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-aussehen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "b1-aussehen",
+  "title": "Aussehen & Charakter",
+  "emoji": "🙂",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-aussehen-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "wirken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Eigenschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Charakter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stärke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schwäche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nacken",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Persönlichkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Disziplin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Handgelenk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gepflegt",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-aussehen-2",
+      "kind": "lesson",
+      "title": "Konjunktiv II",
+      "words": [
+        {
+          "lemma": "ähneln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Selbstbewusstsein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "sparsam",
+          "pos": "adj"
+        },
+        {
+          "lemma": "lebhaft",
+          "pos": "adj"
+        },
+        {
+          "lemma": "anständig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Augenbraue",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Knöchel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Falte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ähnlichkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stolz",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "konjunktiv2",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-aussehen-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "ehrgeizig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "stur",
+          "pos": "adj"
+        },
+        {
+          "lemma": "charmant",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Oberschenkel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gutaussehend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Ehrlichkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ehrgeiz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "chaotisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "diszipliniert",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-aussehen-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Wimper",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fingernagel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tätowierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fleiß",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vergesslich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Zahnfleisch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zopf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "feige",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gesprächig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-aussehen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

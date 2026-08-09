@@ -1,0 +1,99 @@
+{
+  "slug": "b2-essen",
+  "title": "Essen & Trinken",
+  "emoji": "🍽️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-essen-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Gastronomie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "herzhaft",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Genuss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nahrungsmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Marzipan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufschnitt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verdorben",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Aroma",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weizen",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-essen-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Tiefkühlkost",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jahrgang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brauerei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Milchprodukt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schnaps",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lagern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Füllung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feinschmecker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einlegen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b2-essen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

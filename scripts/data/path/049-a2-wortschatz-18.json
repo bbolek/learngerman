@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-18",
+  "title": "Wortschatz 18",
+  "emoji": "💬",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-18-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Boot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dokument",
+          "pos": "noun"
+        },
+        {
+          "lemma": "drüben",
+          "pos": "adv"
+        },
+        {
+          "lemma": "einschalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Eintritt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "extra",
+          "pos": "adv"
+        },
+        {
+          "lemma": "fett",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Frisör",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gewitter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hähnchen",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-18-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Krankenkasse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lebenslauf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lokal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Marmelade",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nebel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Panne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pkw",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pommes",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Publikum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "reif",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-18-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Rezeption",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kündigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konferenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Teilzeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitsvertrag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ware",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Filiale",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geldschein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kleingeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Girokonto",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-18-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Kontoauszug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einzahlen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "entlassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "leiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "ausstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "befristet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "qualifiziert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Fähre",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wartezimmer",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-18-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

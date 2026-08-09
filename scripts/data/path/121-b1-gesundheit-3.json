@@ -1,0 +1,122 @@
+{
+  "slug": "b1-gesundheit-3",
+  "title": "Gesundheit & Körper 3",
+  "emoji": "🩺",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-gesundheit-3-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Ambulanz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorsorge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorbeugen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Besuchszeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "genesen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Hausmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abnehmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Aufnahme",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-3-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Kamillentee",
+          "pos": "noun"
+        },
+        {
+          "lemma": "betäuben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Hustensaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Labor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "entzünden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Nasenspray",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blutgruppe",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-3-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "kollabieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wärmflasche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schwellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Operationssaal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bettruhe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "leiden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Eingriff",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-3-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

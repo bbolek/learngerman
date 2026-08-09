@@ -1,0 +1,201 @@
+{
+  "slug": "b1-arbeit-1",
+  "title": "Arbeit & Beruf 1",
+  "emoji": "💼",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-arbeit-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Bewerbungsgespräch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kündigungsfrist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Berufserfahrung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Soldat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Industrie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Teamarbeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fortbildung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weiterbildung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Architekt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Personal",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-1-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Handel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Betrieb",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unternehmen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Berater",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschäftsführer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Führungskraft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fachkraft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erzieher",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unternehmer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Empfang",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "herstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Arbeitsagentur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitslosigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Informatiker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sekretär",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Qualifikation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bewerbungsunterlagen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stellenangebot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klempner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Übersetzer",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Auszubildender",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Psychologe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hersteller",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stellenanzeige",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beförderung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auftrag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mitarbeiterin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gehaltsabrechnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sitzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Programmierer",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

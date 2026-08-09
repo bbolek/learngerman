@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-14",
+  "title": "Wortschatz 14",
+  "emoji": "🗒️",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-14-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "einschlafen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "eng",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Feiertag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Führung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gratulieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ingenieur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kellner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kopfschmerzen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kritisieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kürzlich",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-14-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "liefern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Mauer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mode",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Motor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "nirgends",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Ring",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorstellungsgespräch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abteilung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kollegin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rabatt",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-14-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Lieferung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sonderangebot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Öffnungszeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zurückgeben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beschweren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "erledigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "reduziert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gratis",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Tablette",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Öffnungszeiten",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-14-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "erkälten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "landen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "rechtzeitig",
+          "pos": "adv"
+        },
+        {
+          "lemma": "wütend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "überrascht",
+          "pos": "adj"
+        },
+        {
+          "lemma": "peinlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sowohl",
+          "pos": "conj"
+        },
+        {
+          "lemma": "allmählich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "offensichtlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "daher",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-14-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

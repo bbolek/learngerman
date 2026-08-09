@@ -1,0 +1,99 @@
+{
+  "slug": "b2-gefuehle",
+  "title": "Gefühle & Beziehungen",
+  "emoji": "❤️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-gefuehle-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Zorn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kummer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bewunderung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bindung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verrat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Offenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verachtung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Meinungsverschiedenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Loyalität",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-gefuehle-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Egoismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vertrautheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufrichtigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Großzügigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vergebung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Güte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verbundenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feindschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Untreue",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-gefuehle-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

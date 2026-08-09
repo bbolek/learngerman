@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-8",
+  "title": "Wortschatz 8",
+  "emoji": "🧠",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-8-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Zwiebel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Liebe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ungefähr",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Linie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "eigen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "normal",
+          "pos": "adj"
+        },
+        {
+          "lemma": "streiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ursache",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zunehmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Fluss",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-8-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "sammeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Stern",
+          "pos": "noun"
+        },
+        {
+          "lemma": "überraschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verschreiben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wild",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schützen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "streng",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Umgebung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "weich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Streit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-8-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "übermorgen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Zeugnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ändern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ausbildung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausmachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "erinnern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Feld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "grau",
+          "pos": "adj"
+        },
+        {
+          "lemma": "heben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Hochzeit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-8-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Jugendliche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "klappen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Lied",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mantel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "nachdenken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "nervös",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Pflanze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "putzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "reservieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Rücken",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-8-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

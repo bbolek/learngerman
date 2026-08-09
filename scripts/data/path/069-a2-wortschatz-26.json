@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-26",
+  "title": "Wortschatz 26",
+  "emoji": "💬",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-26-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Abschied",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sparschwein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Getreide",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erleben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ehepaar",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ergänzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geige",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gegenstand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "entdecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Gebühr",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-26-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Gefahr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umarmung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Single",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rost",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mietwagen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fußgängerzone",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Übelkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "barrierefrei",
+          "pos": "adj"
+        },
+        {
+          "lemma": "klingen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geräusch",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-26-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Lüge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Traktor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "scheinen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sängerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Liebesfilm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "reichen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sicherheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Musikerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "achten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sparkasse",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-26-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Henne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "sorgen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Küken",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anklicken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Badewanne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bewölkt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Campingplatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fax",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kopierer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gehaltserhöhung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-26-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

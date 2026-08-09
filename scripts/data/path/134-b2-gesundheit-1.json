@@ -1,0 +1,201 @@
+{
+  "slug": "b2-gesundheit-1",
+  "title": "Gesundheit & Körper 1",
+  "emoji": "🩺",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-gesundheit-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "medizinisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Krebs",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Psychologie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Depression",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erkrankung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wirksam",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Therapeut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Psyche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trauma",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wohlbefinden",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-gesundheit-1-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Droge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "infizieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zusammenbrechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "erleiden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verdrängen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verarbeiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Nerv",
+          "pos": "noun"
+        },
+        {
+          "lemma": "versorgen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "belasten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "überfordern",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b2-gesundheit-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "stabilisieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "psychisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Leber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "seelisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Niere",
+          "pos": "noun"
+        },
+        {
+          "lemma": "mental",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ärztlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "depressiv",
+          "pos": "adj"
+        },
+        {
+          "lemma": "süchtig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Darm",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-gesundheit-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "angespannt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Hormon",
+          "pos": "noun"
+        },
+        {
+          "lemma": "unbewusst",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Antibiotikum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Prognose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Psychotherapie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anfall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pandemie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Demenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krampf",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-gesundheit-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

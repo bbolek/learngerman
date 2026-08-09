@@ -1,0 +1,118 @@
+{
+  "slug": "a2-sport",
+  "title": "Sport & Fitness",
+  "emoji": "⚽",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-sport-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Fitnessstudio",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Training",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Übung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bewegung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kraft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Muskel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gewicht",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-sport-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Hantel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Laufband",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Matte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umkleide",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sporttasche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sportschuh",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trinkflasche",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-sport-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Fitness",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Yoga",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schweiß",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fett",
+          "pos": "noun"
+        },
+        {
+          "lemma": "dehnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "strecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anstrengen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-sport-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

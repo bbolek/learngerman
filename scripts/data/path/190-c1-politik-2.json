@@ -1,0 +1,83 @@
+{
+  "slug": "c1-politik-2",
+  "title": "Politik & Gesellschaft 2",
+  "emoji": "🏛️",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-politik-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Verwaltungsgericht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Befugnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ressort",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ratifizieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vertagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vollziehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verwerfen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-politik-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "untersagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "intervenieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dementieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "föderal",
+          "pos": "adj"
+        },
+        {
+          "lemma": "verfassungswidrig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "bilateral",
+          "pos": "adj"
+        },
+        {
+          "lemma": "oppositionell",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-politik-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

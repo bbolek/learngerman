@@ -1,0 +1,103 @@
+{
+  "slug": "b1-kultur-3",
+  "title": "Kultur & Freizeit 3",
+  "emoji": "🎭",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-kultur-3-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Probe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ehrenamt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Engagement",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausrüstung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "veranstalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "auftreten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Spielfigur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bademeister",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tanzfläche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Riesenrad",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-kultur-3-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Halbpension",
+          "pos": "noun"
+        },
+        {
+          "lemma": "paddeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kanu",
+          "pos": "noun"
+        },
+        {
+          "lemma": "begeistern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "faszinieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bewundern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aufführen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "mitwirken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "komponieren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-kultur-3-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

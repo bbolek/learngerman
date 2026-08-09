@@ -1,0 +1,79 @@
+{
+  "slug": "c1-religion",
+  "title": "Religion & Glaube",
+  "emoji": "🕊️",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-religion-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Integrität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Skrupel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "büßen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Jünger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "weihen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "preisen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "erhaben",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-religion-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Sterbehilfe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ritus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "offenbaren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Habgier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "scheinheilig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Ikone",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-religion-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "slug": "b1-wortschatz-9",
+  "title": "Wortschatz 9",
+  "emoji": "📚",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wortschatz-9-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "freiwillig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "einfühlsam",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Kunststoff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "selbstverständlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Unterbrechung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorsatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Komponist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Imker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gummi",
+          "pos": "noun"
+        },
+        {
+          "lemma": "rachsüchtig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-9-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Hinflug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gegenseitig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Klassik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gekränkt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "durchqueren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beliebt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "vertrauenswürdig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Hubschrauber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Parklücke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fallschirm",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-9-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "geeignet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "summen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "taktvoll",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zurücklegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "angemessen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "selbstlos",
+          "pos": "adj"
+        },
+        {
+          "lemma": "vorfahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "forschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Notendurchschnitt",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-9-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "dennoch",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Sitte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aussage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Takt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feldweg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Molkerei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gamer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verbittert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Beifahrer",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-9-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

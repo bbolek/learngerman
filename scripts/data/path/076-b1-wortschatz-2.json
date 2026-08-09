@@ -1,0 +1,201 @@
+{
+  "slug": "b1-wortschatz-2",
+  "title": "Wortschatz 2",
+  "emoji": "💬",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wortschatz-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "herrlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "extrem",
+          "pos": "adj"
+        },
+        {
+          "lemma": "mittlerweile",
+          "pos": "adv"
+        },
+        {
+          "lemma": "seitdem",
+          "pos": "adv"
+        },
+        {
+          "lemma": "gesamt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Leistung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gebiet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorkommen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "begegnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vergehen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "verhindern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "greifen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "ehemalig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zufällig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "speziell",
+          "pos": "adj"
+        },
+        {
+          "lemma": "längst",
+          "pos": "adv"
+        },
+        {
+          "lemma": "beinahe",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Eindruck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gelegenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lösen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "unterscheiden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Gewalt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Veränderung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausreichen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "herausfinden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beibringen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "erfinden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verfolgen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "erhöhen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schießen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "sinken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "heutig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "heftig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "anschließend",
+          "pos": "adv"
+        },
+        {
+          "lemma": "teilweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Ebene",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einzeln",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Zufall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dienst",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erstellen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

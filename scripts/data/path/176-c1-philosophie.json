@@ -1,0 +1,193 @@
+{
+  "slug": "c1-philosophie",
+  "title": "Philosophie & Denken",
+  "emoji": "🧠",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-philosophie-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Anschauung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vermeintlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "mutmaßlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Folgerung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Prämisse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "auslegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Idealismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Humanismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "existenziell",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Auslegung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-philosophie-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "offenkundig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Synthese",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erschließen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ableitung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trugschluss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Evidenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Urteilskraft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dogma",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Materialismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "präzisieren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-philosophie-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "besonnen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "trügerisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Pragmatismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Affekt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "implizieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Beweisführung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "entkräften",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unstrittig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Imperativ",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-philosophie-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "konstatieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dogmatisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Widerlegung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "triftig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Maxime",
+          "pos": "noun"
+        },
+        {
+          "lemma": "allgemeingültig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Antithese",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Doktrin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ergründen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-philosophie-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

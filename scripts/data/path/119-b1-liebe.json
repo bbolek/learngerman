@@ -1,0 +1,75 @@
+{
+  "slug": "b1-liebe",
+  "title": "Liebe & Hochzeit",
+  "emoji": "💍",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-liebe-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Flirt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verloben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Verlobung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heiratsantrag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ehering",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flitterwochen",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-liebe-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Witwe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Witwer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Liebeskummer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erobern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Liebesbrief",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Affäre",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-liebe-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

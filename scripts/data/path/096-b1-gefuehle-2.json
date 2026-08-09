@@ -1,0 +1,201 @@
+{
+  "slug": "b1-gefuehle-2",
+  "title": "Gefühle & Beziehungen 2",
+  "emoji": "❤️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-gefuehle-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "versöhnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anvertrauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "hassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "enttäuschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zweifeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beleidigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kränken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "trösten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verzeihen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vergeben",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gefuehle-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "beschützen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "befürchten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "fürchten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anfreunden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aussprechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "missverstehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "respektieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "tolerieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "akzeptieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "meiden",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gefuehle-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "überreden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Hilfsbereitschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ermutigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beruhigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aufregen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vertragen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "loben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schätzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verachten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kuscheln",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gefuehle-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "nerven",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vorwerfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "umarmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "flirten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einsetzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "rechtfertigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "besitzergreifend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nachtragend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "versöhnlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "streitsüchtig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gefuehle-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

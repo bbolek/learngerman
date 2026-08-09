@@ -1,0 +1,201 @@
+{
+  "slug": "c2-bildungssprache-4",
+  "title": "Bildungssprache 4",
+  "emoji": "📚",
+  "level": "C2",
+  "lessons": [
+    {
+      "slug": "c2-bildungssprache-4-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "enigmatisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "fatalistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "drangsalieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Melange",
+          "pos": "noun"
+        },
+        {
+          "lemma": "exaltiert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Kolorit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "hehr",
+          "pos": "adj"
+        },
+        {
+          "lemma": "renitent",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Nimbus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "pejorativ",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-4-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Gehabe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schisma",
+          "pos": "noun"
+        },
+        {
+          "lemma": "servil",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Anwandlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hader",
+          "pos": "noun"
+        },
+        {
+          "lemma": "apodiktisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Furor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ubiquitär",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Entzweiung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ephemer",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-4-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Missstimmung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "maliziös",
+          "pos": "adj"
+        },
+        {
+          "lemma": "doktrinär",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zugetan",
+          "pos": "adj"
+        },
+        {
+          "lemma": "larmoyant",
+          "pos": "adj"
+        },
+        {
+          "lemma": "morbid",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Querelen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "blasiert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "bezirzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dünkelhaft",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-4-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "gewogen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "defätistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Wortgefecht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "permissiv",
+          "pos": "adj"
+        },
+        {
+          "lemma": "allenthalben",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Gebaren",
+          "pos": "noun"
+        },
+        {
+          "lemma": "hernach",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Niedertracht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "dereinst",
+          "pos": "adv"
+        },
+        {
+          "lemma": "unterjochen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-4-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

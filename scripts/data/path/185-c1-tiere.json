@@ -1,0 +1,130 @@
+{
+  "slug": "c1-tiere",
+  "title": "Tiere & Pflanzen",
+  "emoji": "🐾",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-tiere-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Hyäne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachtigall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gattung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kranich",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Waschbär",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Larve",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gazelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brut",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-tiere-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Bestäubung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Faultier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fasan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Falter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Salamander",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pappel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Halm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gedeihen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-tiere-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Fink",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Scholle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Chamäleon",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pflanzenfresser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vererbung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wittern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wuchern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beschneiden",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-tiere-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

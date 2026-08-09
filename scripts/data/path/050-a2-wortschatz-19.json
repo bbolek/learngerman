@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-19",
+  "title": "Wortschatz 19",
+  "emoji": "🧩",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-19-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Verletzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "heilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zurückfahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einsam",
+          "pos": "adj"
+        },
+        {
+          "lemma": "treu",
+          "pos": "adj"
+        },
+        {
+          "lemma": "aggressiv",
+          "pos": "adj"
+        },
+        {
+          "lemma": "kreativ",
+          "pos": "adj"
+        },
+        {
+          "lemma": "insgesamt",
+          "pos": "adv"
+        },
+        {
+          "lemma": "andauernd",
+          "pos": "adv"
+        },
+        {
+          "lemma": "weiterhin",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-19-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Laune",
+          "pos": "noun"
+        },
+        {
+          "lemma": "reiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Höhe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "SMS",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zurückbringen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "weitermachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "weitergehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Flur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gabel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "grillen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-19-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Kaufhaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "klettern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Krimi",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lager",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mütze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Oper",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pfeffer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Plakat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "rasieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "rollen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-19-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Reiseziel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Parkhaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spritze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verlaufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "erholen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "durchfallen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "hereinkommen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Auswahl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "mitteilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vorbeikommen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-19-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

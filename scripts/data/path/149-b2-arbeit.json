@@ -1,0 +1,134 @@
+{
+  "slug": "b2-arbeit",
+  "title": "Arbeit & Beruf",
+  "emoji": "💼",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-arbeit-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Laufbahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kompetenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorgesetzter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konzern",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Angestellter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Physiotherapeut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ruhestand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Export",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gründung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-arbeit-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Mehrwertsteuer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Berufsleben",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Import",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schulung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschäftsführung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Steuerberater",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tagung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitsbedingungen",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-arbeit-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Lieferant",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Investition",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Inflation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fachwissen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gründer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anstellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zertifikat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachfolger",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-arbeit-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

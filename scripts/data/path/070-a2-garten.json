@@ -1,0 +1,173 @@
+{
+  "slug": "a2-garten",
+  "title": "Garten & Werkzeug",
+  "emoji": "🌱",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-garten-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "wachsen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Erde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Holz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Werkzeug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hammer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gras",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kleben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Rose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "blühen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-garten-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Insekt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Handwerker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ast",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schraube",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Leiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wurzel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "pflücken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schaufel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-garten-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Brett",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zaun",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Glühbirne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gärtner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schraubenzieher",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blumentopf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pinsel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beere",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-garten-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Baumarkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gartenarbeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Helm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tulpe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kleber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sonnenblume",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Regenwurm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Obstbaum",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-garten-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

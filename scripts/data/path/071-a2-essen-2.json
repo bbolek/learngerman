@@ -1,0 +1,201 @@
+{
+  "slug": "a2-essen-2",
+  "title": "Essen & Trinken 2",
+  "emoji": "🍽️",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-essen-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "alkoholfrei",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Rührei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ananas",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mandarine",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bohne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Steak",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Toast",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Chips",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Müsli",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Biergarten",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-essen-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "salzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Theke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tablett",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tischdecke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spinat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Salami",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vollkornbrot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Strohhalm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Teig",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Buffet",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-essen-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Spezialität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zimt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Snack",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Braten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erbse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lachs",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brezel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pudding",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Olive",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schnitzel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-essen-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Mixer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gegrillt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "verrühren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "knusprig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Schneidebrett",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vegan",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Mais",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Thunfisch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Croissant",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schürze",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-essen-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

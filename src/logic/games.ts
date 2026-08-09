@@ -4,7 +4,7 @@
  * screens so everything here is deterministic and unit-testable.
  */
 
-import { shuffled } from '@/logic/graders';
+import { gradeFillBlank, shuffled, type FillResult } from '@/logic/graders';
 
 export type GameKey =
   | 'wortblitz'
@@ -12,7 +12,8 @@ export type GameKey =
   | 'derdiedas'
   | 'wortpaare'
   | 'konjugation'
-  | 'satzbau';
+  | 'satzbau'
+  | 'diktat';
 
 export interface GameInfo {
   key: GameKey;
@@ -70,6 +71,14 @@ export const GAMES: GameInfo[] = [
     tagline: 'Bring die Wörter in die richtige Reihenfolge!',
     rules:
       'Baue aus den Wortbausteinen den deutschen Satz — die Übersetzung hilft dir. Richtige Sätze bringen Punkte und verlängern deine Serie. Drei Fehler — und die Runde ist vorbei.',
+  },
+  {
+    key: 'diktat',
+    emoji: '🎧',
+    title: 'Diktat',
+    tagline: 'Hör genau hin — und schreib, was du hörst!',
+    rules:
+      'Hör dir das Wort an und tippe es ein — Nomen mit Artikel. Zehn Wörter pro Runde, richtige Antworten bringen Punkte und verlängern deine Serie. Du kannst dir jedes Wort mehrmals anhören.',
   },
 ];
 
@@ -357,6 +366,43 @@ export function buildSatzbauQuestions(pool: SentenceWord[], seed: number): Satzb
       }
       return { lemmaId: w.id, en: w.en, solution, tiles };
     });
+}
+
+// ---------- Diktat rounds ----------
+
+export const DIKTAT_WORDS = 10;
+
+export interface DiktatQuestion {
+  word: GameWord;
+  /** What is spoken and must be typed: nouns with article ("das Haus"). */
+  text: string;
+}
+
+/**
+ * Ten distinct dictation words per round. Nouns are spoken (and typed) with
+ * their article, which disambiguates most homophones and drills gender for
+ * free.
+ */
+export function buildDiktatQuestions(pool: GameWord[], seed: number): DiktatQuestion[] {
+  const seen = new Set<string>();
+  return shuffled(pool, seed)
+    .filter((w) => {
+      const key = withArticle(w).toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .slice(0, DIKTAT_WORDS)
+    .map((word) => ({ word, text: withArticle(word) }));
+}
+
+/**
+ * Case/whitespace-insensitive; ae/oe/ue/ss for ä/ö/ü/ß counts as correct but
+ * is flagged as a near-miss so the proper spelling can be shown (same
+ * tolerance as the grammar fill-blank grader, which this delegates to).
+ */
+export function gradeDiktat(expected: string, answer: string): FillResult {
+  return gradeFillBlank({ prompt: '', accept: [expected], explanation: '' }, answer);
 }
 
 // ---------- Wortpaare rounds ----------

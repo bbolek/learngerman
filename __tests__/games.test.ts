@@ -9,9 +9,12 @@ import {
   buildArtikelQuestions,
   buildBlitzQuestions,
   buildImageQuestions,
+  buildDiktatQuestions,
   buildKonjugationQuestions,
   buildPairsBoards,
   buildSatzbauQuestions,
+  DIKTAT_WORDS,
+  gradeDiktat,
   gradeSatzbau,
   dedupeByGloss,
   DERDIEDAS_LIVES,
@@ -45,7 +48,7 @@ const POOL: GameWord[] = Array.from({ length: 40 }, (_, i) =>
 );
 
 describe('registry', () => {
-  it('exposes all six games', () => {
+  it('exposes all seven games', () => {
     expect(GAMES.map((g) => g.key)).toEqual([
       'wortblitz',
       'bilderraetsel',
@@ -53,6 +56,7 @@ describe('registry', () => {
       'wortpaare',
       'konjugation',
       'satzbau',
+      'diktat',
     ]);
     expect(gameInfo('derdiedas').title).toBe('Der, die oder das?');
   });
@@ -356,6 +360,42 @@ describe('Satzbau', () => {
     expect(gradeSatzbau(solution, ['Die', 'Frau', 'sieht', 'die', 'Kinder'])).toBe(true);
     expect(gradeSatzbau(solution, ['die', 'Frau', 'sieht', 'Die', 'Kinder'])).toBe(false);
     expect(gradeSatzbau(solution, solution.slice(0, 4))).toBe(false);
+  });
+});
+
+describe('Diktat', () => {
+  const pool: GameWord[] = [
+    { id: 1, lemma: 'Haus', gender: 'n', plural: null, gloss: 'house' },
+    { id: 2, lemma: 'laufen', gender: null, plural: null, gloss: 'to run' },
+    { id: 3, lemma: 'Frau', gender: 'f', plural: null, gloss: 'woman' },
+    { id: 4, lemma: 'schön', gender: null, plural: null, gloss: 'beautiful' },
+    ...Array.from({ length: 12 }, (_, i) =>
+      word(10 + i, `Wort${i}`, `gloss${i}`)
+    ),
+  ];
+
+  it('speaks nouns with their article, everything else bare, capped at DIKTAT_WORDS', () => {
+    const questions = buildDiktatQuestions(pool, 3);
+    expect(questions).toHaveLength(DIKTAT_WORDS);
+    const byId = new Map(questions.map((q) => [q.word.id, q.text]));
+    if (byId.has(1)) expect(byId.get(1)).toBe('das Haus');
+    if (byId.has(2)) expect(byId.get(2)).toBe('laufen');
+    expect(new Set(questions.map((q) => q.text.toLowerCase())).size).toBe(questions.length);
+  });
+
+  it('is deterministic per seed', () => {
+    expect(buildDiktatQuestions(pool, 5)).toEqual(buildDiktatQuestions(pool, 5));
+    expect(buildDiktatQuestions(pool, 5).map((q) => q.word.id)).not.toEqual(
+      buildDiktatQuestions(pool, 6).map((q) => q.word.id)
+    );
+  });
+
+  it('gradeDiktat ignores case and spacing, tolerates folded umlauts as a near-miss', () => {
+    expect(gradeDiktat('das Haus', ' das  haus ')).toMatchObject({ correct: true, nearMiss: false });
+    expect(gradeDiktat('schön', 'schoen')).toMatchObject({ correct: true, nearMiss: true });
+    expect(gradeDiktat('die Straße', 'die strasse')).toMatchObject({ correct: true, nearMiss: true });
+    expect(gradeDiktat('das Haus', 'die Haus')).toMatchObject({ correct: false });
+    expect(gradeDiktat('laufen', 'kaufen')).toMatchObject({ correct: false });
   });
 });
 

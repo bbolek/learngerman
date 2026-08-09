@@ -54,7 +54,7 @@
     {
       "slug": "c2-bildungssprache-3-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "es-Konstruktionen",
       "words": [
         {
           "lemma": "Befindlichkeit",
@@ -95,6 +95,12 @@
         {
           "lemma": "bemächtigen",
           "pos": "verb"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "es-konstruktionen",
+          "questions": 4
         }
       ]
     },

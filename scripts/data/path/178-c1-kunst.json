@@ -42,7 +42,7 @@
     {
       "slug": "c1-kunst-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Irreale Vergleiche & Wünsche",
       "words": [
         {
           "lemma": "Originalität",
@@ -67,6 +67,12 @@
         {
           "lemma": "Relief",
           "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "irreale-vergleichssaetze",
+          "questions": 4
         }
       ]
     },

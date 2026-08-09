@@ -207,9 +207,20 @@ export interface ReviewPool {
  * strictly before this node (due cards flagged), plus questions from covered
  * grammar topics whose SRS card is due.
  */
+/** Per-due-topic question count: denser grammar repetition from B1 upward. */
+const REVIEW_QUESTIONS_BASE = 3;
+const REVIEW_QUESTIONS_UPPER = 5;
+
 export async function getReviewPool(reviewSlug: string, now: Date): Promise<ReviewPool> {
   const db = getDb();
   const endOfDay = now.toISOString().slice(0, 10) + 'T23:59:59.999Z';
+  const nodeLevel = await db.getFirstAsync<{ level: string }>(
+    `SELECT pu.level FROM path_lessons pl JOIN path_units pu ON pu.id = pl.unit_id
+     WHERE pl.slug = ?`,
+    [reviewSlug]
+  );
+  const upper = nodeLevel != null && nodeLevel.level >= 'B1'; // CEFR order is lexicographic
+  const perTopic = upper ? REVIEW_QUESTIONS_UPPER : REVIEW_QUESTIONS_BASE;
   const before = `
     WITH me AS (
       SELECT pl.sort_order AS lsort, pu.sort_order AS usort
@@ -250,8 +261,8 @@ export async function getReviewPool(reviewSlug: string, now: Date): Promise<Revi
         `SELECT q.id, q.qtype, q.payload, q.difficulty, t.slug AS topic_slug, t.title AS topic_title
          FROM grammar_questions q JOIN grammar_topics t ON t.id = q.topic_id
          WHERE t.slug = ?
-         ORDER BY RANDOM() LIMIT 3`,
-        [t.slug]
+         ORDER BY RANDOM() LIMIT ?`,
+        [t.slug, perTopic]
       ))
     );
   }

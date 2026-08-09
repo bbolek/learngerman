@@ -54,7 +54,7 @@
     {
       "slug": "c1-gehoben-1-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Modalpartikeln",
       "words": [
         {
           "lemma": "schüren",
@@ -95,6 +95,12 @@
         {
           "lemma": "erliegen",
           "pos": "verb"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "modalpartikeln",
+          "questions": 4
         }
       ]
     },

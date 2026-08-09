@@ -54,7 +54,7 @@
     {
       "slug": "c1-sport-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Partizipialsätze",
       "words": [
         {
           "lemma": "Videobeweis",
@@ -91,6 +91,12 @@
         {
           "lemma": "Kugelstoßen",
           "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "partizipialsaetze",
+          "questions": 4
         }
       ]
     },

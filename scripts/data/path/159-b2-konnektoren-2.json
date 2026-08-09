@@ -46,7 +46,7 @@
     {
       "slug": "b2-konnektoren-2-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Relativsätze mit wer, was & wo(r)-",
       "words": [
         {
           "lemma": "gleichfalls",
@@ -79,6 +79,12 @@
         {
           "lemma": "interessanterweise",
           "pos": "adv"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "relativsaetze-wer-was-wo",
+          "questions": 4
         }
       ]
     },

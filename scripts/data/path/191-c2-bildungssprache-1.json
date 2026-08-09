@@ -54,7 +54,7 @@
     {
       "slug": "c2-bildungssprache-1-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Appositionen & Nachträge",
       "words": [
         {
           "lemma": "lancieren",
@@ -95,6 +95,12 @@
         {
           "lemma": "profund",
           "pos": "adj"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "appositionen-und-nachtraege",
+          "questions": 4
         }
       ]
     },

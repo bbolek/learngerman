@@ -54,7 +54,7 @@
     {
       "slug": "c1-wortschatz-2-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Wortbildung: Präfixe",
       "words": [
         {
           "lemma": "Medikation",
@@ -95,6 +95,12 @@
         {
           "lemma": "abklingen",
           "pos": "verb"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "wortbildung-praefixe",
+          "questions": 4
         }
       ]
     },

@@ -50,7 +50,7 @@
     {
       "slug": "b2-kultur-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Nominalisierung",
       "words": [
         {
           "lemma": "Videospiel",
@@ -87,6 +87,12 @@
         {
           "lemma": "Höhepunkt",
           "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "nominalisierung",
+          "questions": 4
         }
       ]
     },

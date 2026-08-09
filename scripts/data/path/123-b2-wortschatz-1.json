@@ -54,7 +54,7 @@
     {
       "slug": "b2-wortschatz-1-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Konjunktiv I & indirekte Rede",
       "words": [
         {
           "lemma": "erstaunlich",
@@ -95,6 +95,12 @@
         {
           "lemma": "voraussichtlich",
           "pos": "adv"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "konjunktiv1-indirekte-rede",
+          "questions": 4
         }
       ]
     },

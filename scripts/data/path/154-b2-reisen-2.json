@@ -50,7 +50,7 @@
     {
       "slug": "b2-reisen-2-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Präpositionen mit Genitiv",
       "words": [
         {
           "lemma": "Stadtführung",
@@ -87,6 +87,12 @@
         {
           "lemma": "traumhaft",
           "pos": "adj"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "genitiv-praepositionen",
+          "questions": 4
         }
       ]
     },

@@ -54,7 +54,7 @@
     {
       "slug": "b2-religion-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Subjektive Modalverben",
       "words": [
         {
           "lemma": "Meditation",
@@ -95,6 +95,12 @@
         {
           "lemma": "dulden",
           "pos": "verb"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "subjektive-modalverben",
+          "questions": 4
         }
       ]
     },

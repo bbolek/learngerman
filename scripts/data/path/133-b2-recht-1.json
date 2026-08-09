@@ -54,7 +54,7 @@
     {
       "slug": "b2-recht-1-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Partizipien als Attribute",
       "words": [
         {
           "lemma": "Tatort",
@@ -95,6 +95,12 @@
         {
           "lemma": "Einbrecher",
           "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "partizipien-als-attribute",
+          "questions": 4
         }
       ]
     },

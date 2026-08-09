@@ -54,7 +54,7 @@
     {
       "slug": "c2-bildungssprache-4-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Hervorhebung & Wortstellung",
       "words": [
         {
           "lemma": "Gehabe",
@@ -95,6 +95,12 @@
         {
           "lemma": "ephemer",
           "pos": "adj"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "hervorhebung-und-inversion",
+          "questions": 4
         }
       ]
     },

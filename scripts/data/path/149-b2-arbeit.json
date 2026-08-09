@@ -50,7 +50,7 @@
     {
       "slug": "b2-arbeit-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Zweiteilige Konnektoren",
       "words": [
         {
           "lemma": "Mehrwertsteuer",
@@ -83,6 +83,12 @@
         {
           "lemma": "Arbeitsbedingungen",
           "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "zweiteilige-konnektoren",
+          "questions": 4
         }
       ]
     },

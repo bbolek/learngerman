@@ -54,7 +54,7 @@
     {
       "slug": "c1-technik-1-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Funktionsverbgefüge",
       "words": [
         {
           "lemma": "Mikrocontroller",
@@ -95,6 +95,12 @@
         {
           "lemma": "Spezifikation",
           "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "funktionsverbgefuege",
+          "questions": 4
         }
       ]
     },

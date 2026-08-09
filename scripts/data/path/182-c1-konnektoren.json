@@ -50,7 +50,7 @@
     {
       "slug": "c1-konnektoren-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Textkonnektoren der Schriftsprache",
       "words": [
         {
           "lemma": "ansatzweise",
@@ -87,6 +87,12 @@
         {
           "lemma": "jüngst",
           "pos": "adv"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "textkonnektoren-c1",
+          "questions": 4
         }
       ]
     },

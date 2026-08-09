@@ -54,7 +54,7 @@
     {
       "slug": "b2-wohnen-1-2",
       "kind": "lesson",
-      "title": "Neue Wörter 2",
+      "title": "Passiv-Ersatzformen",
       "words": [
         {
           "lemma": "Grundriss",
@@ -95,6 +95,12 @@
         {
           "lemma": "Balken",
           "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "passiv-ersatzformen",
+          "questions": 4
         }
       ]
     },

@@ -1,0 +1,130 @@
+{
+  "slug": "a1-telefon",
+  "title": "Telefon & Post",
+  "emoji": "📱",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-telefon-1",
+      "kind": "lesson",
+      "title": "Am Telefon",
+      "words": [
+        {
+          "lemma": "anrufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "telefonieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Telefon",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Handy",
+          "pos": "noun"
+        },
+        {
+          "lemma": "rufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "hören",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Nachricht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gespräch",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-telefon-2",
+      "kind": "lesson",
+      "title": "Digital",
+      "words": [
+        {
+          "lemma": "E-Mail",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Internet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Computer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Information",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schicken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "erzählen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zeitung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Foto",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-telefon-3",
+      "kind": "lesson",
+      "title": "Die Post",
+      "words": [
+        {
+          "lemma": "Brief",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Postkarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Briefmarke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Adresse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Postleitzahl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bekommen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zeigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vergessen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a1-telefon-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

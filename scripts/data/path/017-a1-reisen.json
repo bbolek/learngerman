@@ -1,0 +1,134 @@
+{
+  "slug": "a1-reisen",
+  "title": "Reisen & Urlaub",
+  "emoji": "✈️",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-reisen-1",
+      "kind": "lesson",
+      "title": "Der Urlaub",
+      "words": [
+        {
+          "lemma": "Reise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "reisen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Urlaub",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ferien",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hotel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Meer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausflug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausland",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-reisen-2",
+      "kind": "lesson",
+      "title": "Gepäck & Papiere",
+      "words": [
+        {
+          "lemma": "Koffer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gepäck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pass",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausweis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Führerschein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "buchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Reisebüro",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Prospekt",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-reisen-3",
+      "kind": "lesson",
+      "title": "Unterwegs",
+      "words": [
+        {
+          "lemma": "Doppelzimmer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einzelzimmer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jugendherberge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flughafen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Autobahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "parken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Parkplatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "weit",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zurück",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-reisen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

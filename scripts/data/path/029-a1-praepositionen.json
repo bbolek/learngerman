@@ -1,0 +1,130 @@
+{
+  "slug": "a1-praepositionen",
+  "title": "Präpositionen",
+  "emoji": "🧩",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-praepositionen-1",
+      "kind": "lesson",
+      "title": "Präpositionen I",
+      "words": [
+        {
+          "lemma": "in",
+          "pos": "prep"
+        },
+        {
+          "lemma": "mit",
+          "pos": "prep"
+        },
+        {
+          "lemma": "für",
+          "pos": "prep"
+        },
+        {
+          "lemma": "zu",
+          "pos": "prep"
+        },
+        {
+          "lemma": "von",
+          "pos": "prep"
+        },
+        {
+          "lemma": "an",
+          "pos": "prep"
+        },
+        {
+          "lemma": "auf",
+          "pos": "prep"
+        },
+        {
+          "lemma": "nach",
+          "pos": "prep"
+        }
+      ]
+    },
+    {
+      "slug": "a1-praepositionen-2",
+      "kind": "lesson",
+      "title": "Präpositionen II",
+      "words": [
+        {
+          "lemma": "aus",
+          "pos": "prep"
+        },
+        {
+          "lemma": "bei",
+          "pos": "prep"
+        },
+        {
+          "lemma": "vor",
+          "pos": "prep"
+        },
+        {
+          "lemma": "um",
+          "pos": "prep"
+        },
+        {
+          "lemma": "bis",
+          "pos": "prep"
+        },
+        {
+          "lemma": "gegen",
+          "pos": "prep"
+        },
+        {
+          "lemma": "seit",
+          "pos": "prep"
+        },
+        {
+          "lemma": "ohne",
+          "pos": "prep"
+        }
+      ]
+    },
+    {
+      "slug": "a1-praepositionen-3",
+      "kind": "lesson",
+      "title": "Präpositionen III",
+      "words": [
+        {
+          "lemma": "zwischen",
+          "pos": "prep"
+        },
+        {
+          "lemma": "neben",
+          "pos": "prep"
+        },
+        {
+          "lemma": "hinter",
+          "pos": "prep"
+        },
+        {
+          "lemma": "ab",
+          "pos": "prep"
+        },
+        {
+          "lemma": "pro",
+          "pos": "prep"
+        },
+        {
+          "lemma": "über",
+          "pos": "prep"
+        },
+        {
+          "lemma": "unter",
+          "pos": "prep"
+        },
+        {
+          "lemma": "aber",
+          "pos": "conj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-praepositionen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

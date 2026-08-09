@@ -1,0 +1,138 @@
+{
+  "slug": "a1-woche",
+  "title": "Tage & Monate",
+  "emoji": "📅",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-woche-1",
+      "kind": "lesson",
+      "title": "Die Wochentage",
+      "words": [
+        {
+          "lemma": "Montag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dienstag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mittwoch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Donnerstag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Freitag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Samstag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sonntag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Woche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wochenende",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-woche-2",
+      "kind": "lesson",
+      "title": "Januar bis Juni",
+      "words": [
+        {
+          "lemma": "Januar",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Februar",
+          "pos": "noun"
+        },
+        {
+          "lemma": "März",
+          "pos": "noun"
+        },
+        {
+          "lemma": "April",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mai",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Juni",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Monat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jahr",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-woche-3",
+      "kind": "lesson",
+      "title": "Juli bis Dezember",
+      "words": [
+        {
+          "lemma": "Juli",
+          "pos": "noun"
+        },
+        {
+          "lemma": "August",
+          "pos": "noun"
+        },
+        {
+          "lemma": "September",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Oktober",
+          "pos": "noun"
+        },
+        {
+          "lemma": "November",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dezember",
+          "pos": "noun"
+        },
+        {
+          "lemma": "heute",
+          "pos": "adv"
+        },
+        {
+          "lemma": "morgen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "gestern",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-woche-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "a1-verkehr",
+  "title": "Bus & Bahn",
+  "emoji": "🚌",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-verkehr-1",
+      "kind": "lesson",
+      "title": "Fahrzeuge",
+      "words": [
+        {
+          "lemma": "Auto",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrrad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Taxi",
+          "pos": "noun"
+        },
+        {
+          "lemma": "U-Bahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Straßenbahn",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-verkehr-2",
+      "kind": "lesson",
+      "title": "Am Bahnhof",
+      "words": [
+        {
+          "lemma": "Bahnhof",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Haltestelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bahnsteig",
+          "pos": "noun"
+        },
+        {
+          "lemma": "S-Bahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrkarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rückfahrkarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ticket",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Automat",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-verkehr-3",
+      "kind": "lesson",
+      "title": "Abfahrt & Ankunft",
+      "words": [
+        {
+          "lemma": "einsteigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aussteigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abfahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "ankommen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Abfahrt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ankunft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fliegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Flugzeug",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-verkehr-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

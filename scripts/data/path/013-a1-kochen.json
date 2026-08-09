@@ -1,0 +1,130 @@
+{
+  "slug": "a1-kochen",
+  "title": "Kochen & Küche",
+  "emoji": "🍳",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-kochen-1",
+      "kind": "lesson",
+      "title": "In der Küche",
+      "words": [
+        {
+          "lemma": "kochen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zubereiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Pfanne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschirr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Herd",
+          "pos": "noun"
+        },
+        {
+          "lemma": "decken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Reis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fleisch",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-kochen-2",
+      "kind": "lesson",
+      "title": "Mahlzeiten",
+      "words": [
+        {
+          "lemma": "Frühstück",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mittagessen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abendessen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "frühstücken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Fisch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Salat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Suppe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Soße",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-kochen-3",
+      "kind": "lesson",
+      "title": "Guten Appetit",
+      "words": [
+        {
+          "lemma": "Pizza",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brötchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lebensmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "riechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "lieben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gern",
+          "pos": "adv"
+        },
+        {
+          "lemma": "lieber",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Lieblings-",
+          "pos": "other"
+        }
+      ]
+    },
+    {
+      "slug": "a1-kochen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

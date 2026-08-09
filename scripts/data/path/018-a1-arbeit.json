@@ -1,0 +1,136 @@
+{
+  "slug": "a1-arbeit",
+  "title": "Arbeit & Beruf",
+  "emoji": "💼",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-arbeit-1",
+      "kind": "lesson",
+      "title": "Im Büro",
+      "words": [
+        {
+          "lemma": "arbeiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Arbeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beruf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Job",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Büro",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Chef",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Firma",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kollege",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-arbeit-2",
+      "kind": "lesson",
+      "title": "Modalverben",
+      "words": [
+        {
+          "lemma": "können",
+          "pos": "verb"
+        },
+        {
+          "lemma": "müssen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wollen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dürfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "sollen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "mögen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wichtig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "möglich",
+          "pos": "adj"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "modalverben",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-arbeit-3",
+      "kind": "lesson",
+      "title": "Arbeitswelt",
+      "words": [
+        {
+          "lemma": "Praktikum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hausfrau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Maschine",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fabrik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "funktionieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "reparieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kaputt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "fertig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-arbeit-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

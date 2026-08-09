@@ -1,0 +1,130 @@
+{
+  "slug": "a1-cafe",
+  "title": "Im Café",
+  "emoji": "☕",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-cafe-1",
+      "kind": "lesson",
+      "title": "Getränke",
+      "words": [
+        {
+          "lemma": "Kaffee",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tee",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Saft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Cola",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Getränk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tasse",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-cafe-2",
+      "kind": "lesson",
+      "title": "Bestellen",
+      "words": [
+        {
+          "lemma": "Restaurant",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Café",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bestellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Speisekarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rechnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Teller",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gast",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eis",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-cafe-3",
+      "kind": "lesson",
+      "title": "Süßes",
+      "words": [
+        {
+          "lemma": "Kuchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schokolade",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Keks",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sahne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Joghurt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zucker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Salz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Butter",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-cafe-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

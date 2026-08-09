@@ -1,0 +1,134 @@
+{
+  "slug": "a1-eigenschaften",
+  "title": "Gefühle & Eigenschaften",
+  "emoji": "😊",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-eigenschaften-1",
+      "kind": "lesson",
+      "title": "Wie ist es?",
+      "words": [
+        {
+          "lemma": "groß",
+          "pos": "adj"
+        },
+        {
+          "lemma": "klein",
+          "pos": "adj"
+        },
+        {
+          "lemma": "alt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "neu",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schnell",
+          "pos": "adj"
+        },
+        {
+          "lemma": "lang",
+          "pos": "adj"
+        },
+        {
+          "lemma": "kurz",
+          "pos": "adj"
+        },
+        {
+          "lemma": "hoch",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-eigenschaften-2",
+      "kind": "lesson",
+      "title": "Gut & Schlecht",
+      "words": [
+        {
+          "lemma": "richtig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "falsch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schlecht",
+          "pos": "adj"
+        },
+        {
+          "lemma": "laut",
+          "pos": "adj"
+        },
+        {
+          "lemma": "leise",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ruhig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "voll",
+          "pos": "adj"
+        },
+        {
+          "lemma": "los",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-eigenschaften-3",
+      "kind": "lesson",
+      "title": "Charakter",
+      "words": [
+        {
+          "lemma": "klug",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ehrlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "fleißig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "verrückt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "letzte",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nächste",
+          "pos": "adj"
+        },
+        {
+          "lemma": "andere",
+          "pos": "pron"
+        },
+        {
+          "lemma": "beide",
+          "pos": "pron"
+        },
+        {
+          "lemma": "welcher",
+          "pos": "pron"
+        }
+      ]
+    },
+    {
+      "slug": "a1-eigenschaften-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "a1-stadt",
+  "title": "In der Stadt",
+  "emoji": "🏙️",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-stadt-1",
+      "kind": "lesson",
+      "title": "Orte",
+      "words": [
+        {
+          "lemma": "Ort",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dorf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zentrum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Platz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Straße",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nähe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ecke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Meter",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-stadt-2",
+      "kind": "lesson",
+      "title": "Gebäude",
+      "words": [
+        {
+          "lemma": "Post",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bank",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bibliothek",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kino",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Theater",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Museum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schwimmbad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kindergarten",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-stadt-3",
+      "kind": "lesson",
+      "title": "Nach dem Weg fragen",
+      "words": [
+        {
+          "lemma": "links",
+          "pos": "adv"
+        },
+        {
+          "lemma": "rechts",
+          "pos": "adv"
+        },
+        {
+          "lemma": "geradeaus",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Ampel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schild",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eingang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausgang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Toilette",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wohin",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-stadt-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

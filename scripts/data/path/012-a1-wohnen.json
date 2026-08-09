@@ -1,0 +1,134 @@
+{
+  "slug": "a1-wohnen",
+  "title": "Wohnen & Zuhause",
+  "emoji": "🏠",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-wohnen-1",
+      "kind": "lesson",
+      "title": "Die Wohnung",
+      "words": [
+        {
+          "lemma": "Haus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wohnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zimmer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Küche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tür",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fenster",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Garten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlüssel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-wohnen-2",
+      "kind": "lesson",
+      "title": "Möbel",
+      "words": [
+        {
+          "lemma": "Möbel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tisch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stuhl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bett",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lampe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sofa",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schrank",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kühlschrank",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-wohnen-3",
+      "kind": "lesson",
+      "title": "Mieten & Wohnen",
+      "words": [
+        {
+          "lemma": "Miete",
+          "pos": "noun"
+        },
+        {
+          "lemma": "mieten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vermieten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Balkon",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stock",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erdgeschoss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufzug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heizung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-wohnen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

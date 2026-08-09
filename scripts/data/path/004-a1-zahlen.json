@@ -1,0 +1,152 @@
+{
+  "slug": "a1-zahlen",
+  "title": "Zahlen",
+  "emoji": "🔢",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-zahlen-1",
+      "kind": "lesson",
+      "title": "Eins bis zehn",
+      "words": [
+        {
+          "lemma": "eins",
+          "pos": "num"
+        },
+        {
+          "lemma": "zwei",
+          "pos": "num"
+        },
+        {
+          "lemma": "drei",
+          "pos": "num"
+        },
+        {
+          "lemma": "vier",
+          "pos": "num"
+        },
+        {
+          "lemma": "fünf",
+          "pos": "num"
+        },
+        {
+          "lemma": "sechs",
+          "pos": "num"
+        },
+        {
+          "lemma": "sieben",
+          "pos": "num"
+        },
+        {
+          "lemma": "acht",
+          "pos": "num"
+        },
+        {
+          "lemma": "neun",
+          "pos": "num"
+        },
+        {
+          "lemma": "zehn",
+          "pos": "num"
+        }
+      ]
+    },
+    {
+      "slug": "a1-zahlen-2",
+      "kind": "lesson",
+      "title": "Wortstellung",
+      "words": [
+        {
+          "lemma": "elf",
+          "pos": "num"
+        },
+        {
+          "lemma": "zwölf",
+          "pos": "num"
+        },
+        {
+          "lemma": "dreizehn",
+          "pos": "num"
+        },
+        {
+          "lemma": "achtzehn",
+          "pos": "num"
+        },
+        {
+          "lemma": "neunzehn",
+          "pos": "num"
+        },
+        {
+          "lemma": "zwanzig",
+          "pos": "num"
+        },
+        {
+          "lemma": "dreißig",
+          "pos": "num"
+        },
+        {
+          "lemma": "null",
+          "pos": "num"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "wortstellung",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-zahlen-3",
+      "kind": "lesson",
+      "title": "Große Zahlen",
+      "words": [
+        {
+          "lemma": "sechzig",
+          "pos": "num"
+        },
+        {
+          "lemma": "siebzig",
+          "pos": "num"
+        },
+        {
+          "lemma": "achtzig",
+          "pos": "num"
+        },
+        {
+          "lemma": "neunzig",
+          "pos": "num"
+        },
+        {
+          "lemma": "hundert",
+          "pos": "num"
+        },
+        {
+          "lemma": "tausend",
+          "pos": "num"
+        },
+        {
+          "lemma": "Million",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zahl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nummer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wie viel",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-zahlen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

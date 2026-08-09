@@ -1,0 +1,144 @@
+{
+  "slug": "a1-menschen",
+  "title": "Menschen um uns",
+  "emoji": "👥",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-menschen-1",
+      "kind": "lesson",
+      "title": "Personen",
+      "words": [
+        {
+          "lemma": "Mensch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Leute",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Person",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dame",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Junge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mädchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Baby",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachbar",
+          "pos": "noun"
+        },
+        {
+          "lemma": "alle",
+          "pos": "pron"
+        },
+        {
+          "lemma": "jeder",
+          "pos": "pron"
+        }
+      ]
+    },
+    {
+      "slug": "a1-menschen-2",
+      "kind": "lesson",
+      "title": "Possessivartikel",
+      "words": [
+        {
+          "lemma": "mein",
+          "pos": "pron"
+        },
+        {
+          "lemma": "dein",
+          "pos": "pron"
+        },
+        {
+          "lemma": "euer",
+          "pos": "pron"
+        },
+        {
+          "lemma": "Großeltern",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Großmutter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Großvater",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschwister",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorname",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "possessive-articles",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-menschen-3",
+      "kind": "lesson",
+      "title": "Kennenlernen",
+      "words": [
+        {
+          "lemma": "kennenlernen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "besuchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Besuch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verheiratet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ledig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "geboren",
+          "pos": "adj"
+        },
+        {
+          "lemma": "jung",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nett",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-menschen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

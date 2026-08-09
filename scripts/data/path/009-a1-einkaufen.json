@@ -1,0 +1,140 @@
+{
+  "slug": "a1-einkaufen",
+  "title": "Einkaufen & Geld",
+  "emoji": "🛒",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-einkaufen-1",
+      "kind": "lesson",
+      "title": "Geld & Preise",
+      "words": [
+        {
+          "lemma": "Geld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Euro",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Preis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kosten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "teuer",
+          "pos": "adj"
+        },
+        {
+          "lemma": "billig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "bezahlen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kaufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zu",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-einkaufen-2",
+      "kind": "lesson",
+      "title": "Akkusativ",
+      "words": [
+        {
+          "lemma": "einkaufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verkaufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zahlen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Supermarkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Markt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschäft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kasse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kreditkarte",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "akkusativ",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-einkaufen-3",
+      "kind": "lesson",
+      "title": "Mengen",
+      "words": [
+        {
+          "lemma": "Kilo",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gramm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Liter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stück",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flasche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Glas",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tasche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wenig",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-einkaufen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

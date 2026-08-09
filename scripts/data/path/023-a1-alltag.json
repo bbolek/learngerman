@@ -1,0 +1,136 @@
+{
+  "slug": "a1-alltag",
+  "title": "Zu Hause im Alltag",
+  "emoji": "🧼",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-alltag-1",
+      "kind": "lesson",
+      "title": "Morgenroutine",
+      "words": [
+        {
+          "lemma": "waschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "duschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "baden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Dusche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zahnbürste",
+          "pos": "noun"
+        },
+        {
+          "lemma": "aussehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Licht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bild",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-alltag-2",
+      "kind": "lesson",
+      "title": "Imperativ",
+      "words": [
+        {
+          "lemma": "legen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "stellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "setzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "holen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "mitnehmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "mitbringen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abholen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kissen",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "imperativ",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-alltag-3",
+      "kind": "lesson",
+      "title": "Zusammen leben",
+      "words": [
+        {
+          "lemma": "mitkommen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "mitmachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "rauchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zigarette",
+          "pos": "noun"
+        },
+        {
+          "lemma": "leben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "sauber",
+          "pos": "adj"
+        },
+        {
+          "lemma": "allein",
+          "pos": "adv"
+        },
+        {
+          "lemma": "zusammen",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-alltag-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

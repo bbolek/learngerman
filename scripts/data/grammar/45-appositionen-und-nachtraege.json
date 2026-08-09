@@ -1,0 +1,481 @@
+{
+  "slug": "appositionen-und-nachtraege",
+  "title": "Appositionen & Nachträge",
+  "level": "C2",
+  "explainer_md": "An apposition is a second noun phrase placed beside the first that names the same person or thing — and the golden rule is that it copies the **case** of its head noun. In the nominative that stays invisible: *Herr Weber, unser neuer [[Kollege]], kommt aus Bremen.* The case only becomes audible once the head moves: *Ich sprach mit Frau Dr. Klein, der Chefin der [[Abteilung]].* Falling back on the nominative there (*mit Frau Klein, die Chefin …*) is the single most common slip in formal writing.\n\n| Kasus | Bezugswort | Apposition |\n|---|---|---|\n| Nom. | Herr Weber | unser neuer Kollege |\n| Akk. | Ich kenne Herrn Weber | unseren neuen Kollegen |\n| Dat. | mit Herrn Weber | unserem neuen Kollegen |\n| Gen. | das Büro Herrn Webers | unseres neuen Kollegen |\n\nAn apposition inside the sentence sits between **two** commas — the closing one is the one people forget: *Mein [[Bruder]], ein guter Koch, kocht heute.*\n\nPhrases with *als* and *wie* work the same way but take no comma: *sein Ruf als erfahrener [[Arzt]]* (nominative, because *Ruf* is), but *Man kennt ihn als erfahrenen Arzt* (accusative, because *ihn* is).\n\nA **Nachtrag** is an afterthought hung on at the end, marked by a dash, a comma or *und zwar*: *Er kam zu spät — wie immer [[eigentlich]].* It comments on what was said instead of continuing the clause, so it stands outside the sentence frame.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Herr Weber, unser neuer ___, kommt aus Bremen.",
+        "options": ["Kollege", "Kollegen", "Kollegin"],
+        "correctIndex": 0,
+        "explanation": "The head Herr Weber is nominative, so the apposition is too: unser neuer Kollege."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist Frau Meier, ___ Chefin der Firma.",
+        "options": ["die", "der", "den"],
+        "correctIndex": 0,
+        "explanation": "Frau Meier stands in the nominative, so the apposition takes die Chefin."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Womit muss eine Apposition übereinstimmen?",
+        "options": ["mit dem Kasus des Bezugsworts", "mit dem Kasus des Verbs", "immer mit dem Nominativ"],
+        "correctIndex": 0,
+        "explanation": "An apposition always copies the case of the noun it explains — never a fixed nominative."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich kenne Herrn Weber, ___ neuen Kollegen, schon lange.",
+        "options": ["unseren", "unser", "unserem"],
+        "correctIndex": 0,
+        "explanation": "kennen takes the accusative, so the apposition is accusative too: unseren neuen Kollegen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wie wird eine Apposition im Satzinneren abgetrennt?",
+        "options": ["durch Kommas auf beiden Seiten", "nur durch ein Komma davor", "durch einen Doppelpunkt"],
+        "correctIndex": 0,
+        "explanation": "Commas on both sides: Mein Bruder, ein guter Koch, kocht heute."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich sprach mit Frau Dr. Klein, ___ Leiterin der Abteilung.",
+        "options": ["der", "die", "den"],
+        "correctIndex": 0,
+        "explanation": "mit takes the dative, and the apposition follows: mit Frau Dr. Klein, der Leiterin."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir gratulieren Herrn Bauer, ___ Gewinner des Abends.",
+        "options": ["dem", "der", "den"],
+        "correctIndex": 0,
+        "explanation": "gratulieren governs the dative → dem Gewinner, matching Herrn Bauer."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Buch meines Onkels, ___ bekannten Autors, ist neu.",
+        "options": ["eines", "ein", "einem"],
+        "correctIndex": 0,
+        "explanation": "The head meines Onkels is genitive, so the apposition is genitive: eines bekannten Autors."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ohne Herrn Klein, ___ besten Fahrer im Team, hätten wir verloren.",
+        "options": ["unseren", "unserem", "unser"],
+        "correctIndex": 0,
+        "explanation": "ohne takes the accusative, so the apposition is accusative: unseren besten Fahrer."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sein Ruf als ___ Arzt reicht weit über die Stadt hinaus.",
+        "options": ["erfahrener", "erfahrenen", "erfahrenem"],
+        "correctIndex": 0,
+        "explanation": "als copies the case of the reference word: Ruf is nominative → erfahrener Arzt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Man kennt ihn als ___ Arzt.",
+        "options": ["erfahrenen", "erfahrener", "erfahrenem"],
+        "correctIndex": 0,
+        "explanation": "Here the reference word ihn is accusative, so als erfahrenen Arzt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Er kam zu spät — wie immer eigentlich.“ Was ist der Teil nach dem Gedankenstrich?",
+        "options": ["ein Nachtrag", "ein Relativsatz", "ein Hauptsatz"],
+        "correctIndex": 0,
+        "explanation": "An afterthought (Nachtrag): it comments on the sentence and has no verb of its own."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": ["Ich fahre mit Herrn Meier, unserem Nachbarn.", "Ich fahre mit Herrn Meier, unser Nachbar.", "Ich fahre mit Herr Meier, unserem Nachbarn."],
+        "correctIndex": 0,
+        "explanation": "Dative head after mit plus dative apposition — and Herr also takes the n-declension ending: Herrn."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Rede des Bürgermeisters, ___ alten Freundes meiner Eltern, war kurz.",
+        "options": ["eines", "ein", "einem"],
+        "correctIndex": 0,
+        "explanation": "Genitive head (des Bürgermeisters) → genitive apposition: eines alten Freundes."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz enthält einen Fehler?",
+        "options": ["Wir danken Frau Schulz, die Organisatorin des Abends.", "Wir danken Frau Schulz, der Organisatorin des Abends.", "Wir loben Frau Schulz, die Organisatorin des Abends."],
+        "correctIndex": 0,
+        "explanation": "danken takes the dative, so the apposition must be der Organisatorin — the nominative die is the classic mistake."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir treffen uns morgen, ___ zwar um acht.",
+        "options": ["und", "so", "auch"],
+        "correctIndex": 0,
+        "explanation": "und zwar introduces a Nachtrag that specifies what was just said."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Für Frau Dr. Klein, ___ Leiterin der Abteilung, ist das kein Problem.“",
+        "options": ["die", "der", "den"],
+        "correctIndex": 0,
+        "explanation": "für takes the accusative, and die Leiterin is the accusative form of a feminine noun."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Ausdruck braucht KEIN Komma?",
+        "options": ["sein Ruf als erfahrener Arzt", "mein Bruder, ein guter Koch", "Herr Weber, unser Kollege"],
+        "correctIndex": 0,
+        "explanation": "als- and wie-phrases are tight attributes and stay without commas; a true apposition is set off by commas."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Warum steht in „Ich half dem Nachbarn, einem alten Mann“ der Dativ?",
+        "options": ["weil helfen den Dativ verlangt und die Apposition ihn übernimmt", "weil alte Männer immer im Dativ stehen", "weil nach einem Komma der Dativ folgt"],
+        "correctIndex": 0,
+        "explanation": "The verb sets the case of the head, and the apposition simply copies it."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Herr Weber, **unser neuer Kollege**, kommt aus Bremen.",
+        "correctCase": "nominativ",
+        "reasons": ["It explains the subject Herr Weber", "It is the direct object of kommen", "It follows a dative preposition", "It shows possession"],
+        "correctReasonIndex": 0,
+        "explanation": "The head Herr Weber is the subject → the apposition is nominative too."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Ich sprach mit Frau Klein, **der Chefin der Firma**.",
+        "correctCase": "dativ",
+        "reasons": ["It is the subject of the sentence", "It explains a head noun after the dative preposition mit", "It is the direct object of sprechen", "It answers wessen?"],
+        "correctReasonIndex": 1,
+        "explanation": "mit + Dativ sets the case of Frau Klein, and the apposition copies it: der Chefin."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Ich kenne Herrn Weber, **unseren neuen Kollegen**, schon lange.",
+        "correctCase": "akkusativ",
+        "reasons": ["It explains the direct object of kennen", "It is the subject", "It follows a genitive preposition", "It is an indirect object"],
+        "correctReasonIndex": 0,
+        "explanation": "kennen takes an accusative object, so the apposition is accusative: unseren neuen Kollegen."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Das Auto meines Bruders, **eines guten Kochs**, ist alt.",
+        "correctCase": "genitiv",
+        "reasons": ["It is the subject", "It explains a genitive attribute (wessen Auto?)", "It follows the preposition ohne", "It is a dative object"],
+        "correctReasonIndex": 1,
+        "explanation": "The head meines Bruders answers wessen? → genitive, and so does the apposition."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Wir helfen dem Nachbarn, **einem alten Mann**, im Garten.",
+        "correctCase": "dativ",
+        "reasons": ["It is the direct object", "It explains the dative object of helfen", "It is the subject", "It answers wessen?"],
+        "correctReasonIndex": 1,
+        "explanation": "helfen governs the dative, so both dem Nachbarn and einem alten Mann are dative."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Ohne meinen Onkel, **den Besitzer des Ladens**, ginge hier nichts.",
+        "correctCase": "akkusativ",
+        "reasons": ["It follows ohne, which takes the accusative", "It is the subject of gehen", "It shows possession", "It follows a dative verb"],
+        "correctReasonIndex": 0,
+        "explanation": "ohne + Akkusativ → meinen Onkel, den Besitzer: the apposition stays accusative."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Herr Weber, unser neuer ___ (Kollege), kommt aus Bremen.",
+        "accept": ["Kollege"],
+        "explanation": "Nominative head → nominative apposition: unser neuer Kollege."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist Frau Meier, ___ Chefin der Firma.",
+        "accept": ["die"],
+        "explanation": "Frau Meier is nominative, so the apposition is die Chefin."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich kenne Herrn Weber, ___ (unser) neuen Kollegen.",
+        "accept": ["unseren"],
+        "explanation": "Accusative object → accusative apposition: unseren neuen Kollegen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir sprachen mit Frau Klein, ___ Leiterin der Abteilung.",
+        "accept": ["der"],
+        "explanation": "mit + Dativ → der Leiterin."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er hilft dem Nachbarn, ___ (ein) alten Mann.",
+        "accept": ["einem"],
+        "explanation": "helfen takes the dative, so the apposition is einem alten Mann."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Haus meiner Tante, ___ (eine) bekannten Ärztin, steht am See.",
+        "accept": ["einer"],
+        "explanation": "Genitive head (meiner Tante) → genitive apposition: einer bekannten Ärztin."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ohne meinen Onkel, ___ Besitzer des Ladens, ginge hier nichts.",
+        "accept": ["den"],
+        "explanation": "ohne + Akkusativ: meinen Onkel, den Besitzer."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sein Ruf als ___ (erfahren) Arzt reicht weit.",
+        "accept": ["erfahrener"],
+        "explanation": "als copies the case of Ruf (nominative) → erfahrener Arzt."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Man kennt ihn als ___ (erfahren) Arzt.",
+        "accept": ["erfahrenen"],
+        "explanation": "Here als refers to ihn (accusative) → erfahrenen Arzt."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir gratulieren Herrn Bauer, ___ Gewinner des Abends.",
+        "accept": ["dem"],
+        "explanation": "gratulieren + Dativ, and the apposition follows: dem Gewinner."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Rede des Bürgermeisters, ___ alten Freundes meiner Eltern, war kurz.",
+        "accept": ["eines"],
+        "explanation": "Genitive head → eines alten Freundes."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir treffen uns morgen, und ___ um acht Uhr.",
+        "accept": ["zwar"],
+        "explanation": "und zwar adds a Nachtrag that makes the previous statement precise."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Nach der Apposition „ein guter Koch“ fehlt in „Mein Bruder, ein guter Koch kocht heute“ ein ___.",
+        "accept": ["Komma"],
+        "explanation": "An apposition inside the sentence needs a comma before AND after it."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Herr", "Weber,", "unser", "Kollege,", "kommt", "heute"],
+        "solutions": [["Herr", "Weber,", "unser", "Kollege,", "kommt", "heute"]],
+        "translation": "Mr Weber, our colleague, is coming today.",
+        "explanation": "The apposition stands between two commas, both parts in the nominative."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Das", "ist", "Frau", "Meier,", "die", "Chefin"],
+        "solutions": [["Das", "ist", "Frau", "Meier,", "die", "Chefin"]],
+        "translation": "That is Ms Meier, the boss.",
+        "explanation": "At the end of the sentence one comma is enough: … Frau Meier, die Chefin."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Mein", "Bruder,", "ein", "Koch,", "kocht", "heute"],
+        "solutions": [["Mein", "Bruder,", "ein", "Koch,", "kocht", "heute"]],
+        "translation": "My brother, a cook, is cooking today.",
+        "explanation": "Nominative subject plus nominative apposition, framed by commas."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Ich", "kenne", "Herrn", "Weber,", "unseren", "Kollegen"],
+        "solutions": [["Ich", "kenne", "Herrn", "Weber,", "unseren", "Kollegen"]],
+        "translation": "I know Mr Weber, our colleague.",
+        "explanation": "Accusative object and accusative apposition: unseren Kollegen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Wir", "sprachen", "mit", "Frau", "Klein,", "der", "Chefin"],
+        "solutions": [["Wir", "sprachen", "mit", "Frau", "Klein,", "der", "Chefin"]],
+        "translation": "We spoke with Ms Klein, the boss.",
+        "explanation": "mit + Dativ pulls the apposition into the dative: der Chefin."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "hilft", "dem", "Nachbarn,", "einem", "alten", "Mann"],
+        "solutions": [["Er", "hilft", "dem", "Nachbarn,", "einem", "alten", "Mann"]],
+        "translation": "He helps the neighbour, an old man.",
+        "explanation": "Dative object plus dative apposition — [[helfen]] governs the dative."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Sein", "Ruf", "als", "erfahrener", "Arzt", "ist", "gut"],
+        "solutions": [["Sein", "Ruf", "als", "erfahrener", "Arzt", "ist", "gut"]],
+        "translation": "His reputation as an experienced doctor is good.",
+        "explanation": "The als-phrase needs no comma and copies the nominative of Ruf."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "kam", "zu", "spät", "—", "wie", "immer"],
+        "solutions": [["Er", "kam", "zu", "spät", "—", "wie", "immer"]],
+        "translation": "He arrived late — as always.",
+        "explanation": "The Nachtrag hangs behind the finished sentence, separated by a dash."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Ohne", "meinen", "Onkel,", "den", "Besitzer,", "geht", "nichts"],
+        "solutions": [["Ohne", "meinen", "Onkel,", "den", "Besitzer,", "geht", "nichts"]],
+        "translation": "Without my uncle, the owner, nothing works.",
+        "explanation": "ohne + Akkusativ, so the apposition is accusative: den Besitzer."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Wir", "treffen", "uns", "morgen,", "und", "zwar", "früh"],
+        "solutions": [["Wir", "treffen", "uns", "morgen,", "und", "zwar", "früh"]],
+        "translation": "We are meeting tomorrow — early, in fact.",
+        "explanation": "und zwar introduces a Nachtrag that specifies the time more precisely."
+      }
+    }
+  ]
+}

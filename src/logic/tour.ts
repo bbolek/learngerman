@@ -204,11 +204,12 @@ export const TOUR_STEPS: TourStepDef[] = [
     resumeTo: 'dict-search',
   },
   {
-    id: 'tab-words',
-    targetId: 'tab-words',
+    id: 'dict-saved',
+    targetId: 'dict-saved',
     route: '/dictionary',
     title: 'Your word list',
-    body: '“Wörter” holds every word you’ve saved. Tap it — your new word is already waiting there.',
+    body:
+      '“Meine Wörter” holds every word you’ve saved. Tap it — your new word is already waiting there.',
     advance: { kind: 'route', pathname: '/words' },
   },
   {
@@ -221,9 +222,17 @@ export const TOUR_STEPS: TourStepDef[] = [
     advance: { kind: 'next' },
   },
   {
+    id: 'words-back',
+    targetId: 'words-back',
+    route: '/words',
+    title: 'Back to the dictionary',
+    body: 'Tap “Zurück” to head back — you can reach this list from here any time.',
+    advance: { kind: 'route', pathname: '/dictionary' },
+  },
+  {
     id: 'tab-practice',
     targetId: 'tab-practice',
-    route: '/words',
+    route: '/dictionary',
     title: 'Time to practice',
     body: '“Üben” means practice — this is where the real learning happens. Tap it.',
     advance: { kind: 'route', pathname: '/practice' },

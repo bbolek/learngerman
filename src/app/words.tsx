@@ -40,6 +40,14 @@ export default function WordsScreen() {
   return (
     <View style={[styles.fill, { backgroundColor: t.bg, paddingTop: insets.top + spacing.md }]}>
       <View style={styles.pad}>
+        <TourTarget id="words-back">
+          <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
+            <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
+            <AppText variant="secondary" muted>
+              Zurück
+            </AppText>
+          </Pressable>
+        </TourTarget>
         <AppText variant="section">Meine Wörter</AppText>
         <AppText variant="secondary" muted style={{ marginTop: 2 }}>
           {words ? `${words.length} gespeichert` : ' '}
@@ -139,6 +147,7 @@ function WordRow({
 const styles = StyleSheet.create({
   fill: { flex: 1 },
   pad: { paddingHorizontal: spacing.lg },
+  back: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: spacing.lg },
   row: { marginBottom: spacing.sm, paddingVertical: 13 },
   rowInner: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
   chips: { flexDirection: 'row', gap: 6 },

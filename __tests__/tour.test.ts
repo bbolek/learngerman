@@ -140,7 +140,7 @@ describe('isOffRoute', () => {
   });
 
   it('the destination of a route step is handled as advance, not off-route', () => {
-    const i = indexOf('tab-words');
+    const i = indexOf('dict-saved');
     const advanced = nextIndexForEvent(TOUR_STEPS, i, { type: 'route', pathname: '/words' });
     expect(advanced).toBe(i + 1);
   });

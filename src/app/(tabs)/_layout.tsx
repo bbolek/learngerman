@@ -42,14 +42,6 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="words"
-        options={{
-          title: 'Wörter',
-          tabBarIcon: ({ color, size }) => <Ionicons name="heart" size={size} color={color} />,
-          tabBarButton: tourTabButton('tab-words'),
-        }}
-      />
-      <Tabs.Screen
         name="practice"
         options={{
           title: 'Üben',

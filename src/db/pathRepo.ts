@@ -217,7 +217,8 @@ export async function getReviewPool(reviewSlug: string, now: Date): Promise<Revi
       WHERE pl.slug = ?
     )
     SELECT pl.id FROM path_lessons pl
-    JOIN path_units pu ON pu.id = pl.unit_id, me
+    JOIN path_units pu ON pu.id = pl.unit_id
+    CROSS JOIN me
     WHERE pu.sort_order < me.usort
        OR (pu.sort_order = me.usort AND pl.sort_order < me.lsort)`;
 

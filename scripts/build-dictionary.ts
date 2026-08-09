@@ -18,13 +18,14 @@ const ROOT = path.join(__dirname, '..');
 const VOCAB_DIR = path.join(ROOT, 'scripts/data/vocab');
 const GRAMMAR_DIR = path.join(ROOT, 'scripts/data/grammar');
 const READING_DIR = path.join(ROOT, 'scripts/data/reading');
+const PATH_DIR = path.join(ROOT, 'scripts/data/path');
 const IMAGES_FILE = path.join(ROOT, 'scripts/data/images.json');
 const SYNONYMS_FILE = path.join(ROOT, 'scripts/data/synonyms.json');
 const NOTO_DIR = path.join(ROOT, 'scripts/data/images/noto');
 const OUT_FILE = path.join(ROOT, 'assets/db/dictionary.db');
 const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 
-const CONTENT_VERSION = 6;
+const CONTENT_VERSION = 7;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
 /** Vocabulary spans the full CEFR range; grammar topics stay A1–B1. */
@@ -436,6 +437,140 @@ function readingWordCount(t: ReadingText): number {
   return t.paragraphs.reduce((sum, p) => sum + p.de.trim().split(/\s+/).length, 0);
 }
 
+// ---------- load & validate learning path ----------
+
+interface PathWordRef {
+  lemma: string;
+  pos: string;
+}
+
+interface PathGrammarRef {
+  /** grammar_topics.slug */
+  topic: string;
+  /** Questions drawn from this topic per lesson session. */
+  questions: number;
+}
+
+interface PathLessonDef {
+  slug: string;
+  kind: 'lesson' | 'review';
+  title: string;
+  words?: PathWordRef[];
+  grammar?: PathGrammarRef[];
+}
+
+interface PathUnit {
+  slug: string;
+  title: string;
+  emoji: string;
+  level: string;
+  lessons: PathLessonDef[];
+}
+
+/** CEFR order for the path — lexicographic sorting breaks past B1. */
+const LEVEL_RANK: Record<string, number> = { A1: 0, A2: 1, B1: 2, B2: 3, C1: 4, C2: 5 };
+
+const PATH_WORDS_MIN = 4;
+const PATH_WORDS_MAX = 10;
+const PATH_NODES_MIN = 3;
+const PATH_NODES_MAX = 6;
+
+/**
+ * scripts/data/path/*.json — one Lernpfad unit per file, numeric filename
+ * prefix = sort order (grammar-topic convention). Slugs are stable natural
+ * keys: user progress (path_progress) references lesson slugs, so renaming
+ * one orphans progress. Never rename, only add.
+ */
+function loadPath(): PathUnit[] {
+  if (!fs.existsSync(PATH_DIR)) return [];
+  const files = fs
+    .readdirSync(PATH_DIR)
+    .filter((f) => f.endsWith('.json'))
+    .sort();
+  const units = files.map(
+    (f) => JSON.parse(fs.readFileSync(path.join(PATH_DIR, f), 'utf8')) as PathUnit
+  );
+  const errors: string[] = [];
+  const slugs = new Set<string>();
+  let prevRank = 0;
+  for (const u of units) {
+    const where = `path ${u?.slug ?? '?'}`;
+    if (!u.slug || !/^[a-z0-9-]+$/.test(u.slug)) errors.push(`${where}: bad slug`);
+    if (slugs.has(u.slug)) errors.push(`${where}: duplicate slug`);
+    slugs.add(u.slug);
+    if (!u.title || !u.emoji) errors.push(`${where}: missing title/emoji`);
+    const rank = LEVEL_RANK[u.level];
+    if (rank == null) errors.push(`${where}: bad level '${u.level}'`);
+    else if (rank < prevRank) errors.push(`${where}: level ${u.level} out of order (units must run A1→C2)`);
+    else prevRank = rank;
+    if (!Array.isArray(u.lessons) || u.lessons.length < PATH_NODES_MIN || u.lessons.length > PATH_NODES_MAX) {
+      errors.push(`${where}: needs ${PATH_NODES_MIN}–${PATH_NODES_MAX} lessons`);
+      continue;
+    }
+    u.lessons.forEach((l, i) => {
+      const lwhere = `${where} › ${l?.slug ?? `[${i}]`}`;
+      if (!l.slug || !/^[a-z0-9-]+$/.test(l.slug)) errors.push(`${lwhere}: bad slug`);
+      if (slugs.has(l.slug)) errors.push(`${lwhere}: duplicate slug`);
+      slugs.add(l.slug);
+      if (!l.title) errors.push(`${lwhere}: missing title`);
+      if (l.kind !== 'lesson' && l.kind !== 'review')
+        return void errors.push(`${lwhere}: kind must be 'lesson' or 'review'`);
+      if (l.kind === 'review') {
+        if (l.words?.length || l.grammar?.length)
+          errors.push(`${lwhere}: review nodes carry no words/grammar — their session is computed`);
+        return;
+      }
+      if (!Array.isArray(l.words) || l.words.length < PATH_WORDS_MIN || l.words.length > PATH_WORDS_MAX)
+        errors.push(`${lwhere}: needs ${PATH_WORDS_MIN}–${PATH_WORDS_MAX} words`);
+      for (const g of l.grammar ?? []) {
+        if (!g.topic) errors.push(`${lwhere}: grammar ref missing topic slug`);
+        if (typeof g.questions !== 'number' || g.questions < 1 || g.questions > 8)
+          errors.push(`${lwhere}: grammar '${g.topic}' questions must be 1–8`);
+      }
+    });
+    const last = u.lessons[u.lessons.length - 1];
+    if (last && last.kind !== 'review')
+      errors.push(`${where}: last lesson must be kind 'review' (the unit's repetition node)`);
+  }
+  if (errors.length) {
+    console.error(`✗ path validation failed (${errors.length} errors):`);
+    for (const err of errors.slice(0, 40)) console.error('  -', err);
+    process.exit(1);
+  }
+  return units;
+}
+
+/** Every path word must resolve in the dictionary (once, path-wide), every grammar ref to a topic. */
+function validatePathRefs(units: PathUnit[], vocab: VocabEntry[], grammar: GrammarTopic[]) {
+  const known = new Set(vocab.map((e) => `${e.lemma}|${e.pos}`));
+  const topics = new Set(grammar.map((t) => t.slug));
+  const errors: string[] = [];
+  const taught = new Map<string, string>(); // lemma|pos -> lesson slug
+  const topicUsed = new Map<string, string>(); // topic slug -> lesson slug
+  for (const u of units) {
+    for (const l of u.lessons) {
+      for (const w of l.words ?? []) {
+        const key = `${w.lemma}|${w.pos}`;
+        if (!known.has(key)) errors.push(`${l.slug}: word '${key}' not in dictionary`);
+        const dup = taught.get(key);
+        if (dup) errors.push(`${l.slug}: word '${key}' already taught in ${dup}`);
+        else taught.set(key, l.slug);
+      }
+      for (const g of l.grammar ?? []) {
+        if (!topics.has(g.topic)) errors.push(`${l.slug}: grammar topic '${g.topic}' not found`);
+        const dup = topicUsed.get(g.topic);
+        if (dup) errors.push(`${l.slug}: grammar topic '${g.topic}' already covered in ${dup}`);
+        else topicUsed.set(g.topic, l.slug);
+      }
+    }
+  }
+  if (errors.length) {
+    console.error(`✗ path reference validation failed (${errors.length} errors):`);
+    for (const err of errors.slice(0, 40)) console.error('  -', err);
+    process.exit(1);
+  }
+}
+
 // ---------- vocab markers in explainers & question explanations ----------
 
 /** All texts of a topic that may contain [[vocab]] markers. */
@@ -501,7 +636,9 @@ function build() {
   const images = loadImages(vocab);
   const synonyms = loadSynonyms(vocab);
   const reading = loadReading();
+  const pathUnits = loadPath();
   validateVocabMarkers(grammar, vocab);
+  validatePathRefs(pathUnits, vocab, grammar);
 
   // Fingerprint of everything that ends up in the DB. The app compares this
   // against the hash stored in the installed DB and applies an in-place
@@ -509,7 +646,15 @@ function build() {
   const contentHash = crypto
     .createHash('sha1')
     .update(
-      JSON.stringify({ contentVersion: CONTENT_VERSION, vocab, grammar, images, synonyms, reading })
+      JSON.stringify({
+        contentVersion: CONTENT_VERSION,
+        vocab,
+        grammar,
+        images,
+        synonyms,
+        reading,
+        path: pathUnits,
+      })
     )
     .digest('hex');
 
@@ -628,6 +773,39 @@ function build() {
       en TEXT NOT NULL
     );
     CREATE INDEX idx_reading_paragraphs_text ON reading_paragraphs(text_id);
+
+    CREATE TABLE path_units (
+      id INTEGER PRIMARY KEY,
+      slug TEXT UNIQUE NOT NULL,
+      title TEXT NOT NULL,
+      emoji TEXT NOT NULL,
+      level TEXT NOT NULL CHECK (level IN ('A1','A2','B1','B2','C1','C2')),
+      sort_order INTEGER NOT NULL
+    );
+
+    CREATE TABLE path_lessons (
+      id INTEGER PRIMARY KEY,
+      unit_id INTEGER NOT NULL REFERENCES path_units(id),
+      slug TEXT UNIQUE NOT NULL,
+      title TEXT NOT NULL,
+      kind TEXT NOT NULL CHECK (kind IN ('lesson','review')),
+      sort_order INTEGER NOT NULL
+    );
+    CREATE INDEX idx_path_lessons_unit ON path_lessons(unit_id);
+
+    CREATE TABLE path_lesson_words (
+      lesson_id INTEGER NOT NULL REFERENCES path_lessons(id),
+      lemma_id INTEGER NOT NULL REFERENCES lemmas(id),
+      sort_order INTEGER NOT NULL,
+      PRIMARY KEY (lesson_id, lemma_id)
+    );
+
+    CREATE TABLE path_lesson_topics (
+      lesson_id INTEGER NOT NULL REFERENCES path_lessons(id),
+      topic_id INTEGER NOT NULL REFERENCES grammar_topics(id),
+      question_count INTEGER NOT NULL DEFAULT 4,
+      PRIMARY KEY (lesson_id, topic_id)
+    );
   `);
 
   const insLemma = db.prepare(`
@@ -727,6 +905,7 @@ function build() {
       });
     });
 
+    const topicIds = new Map<string, number>(); // slug -> id (for path refs)
     grammar.forEach((t, ti) => {
       const info = db
         .prepare(
@@ -734,12 +913,40 @@ function build() {
         )
         .run(t.slug, t.title, t.level, t.explainer_md, ti + 1, topicVocab(t).size);
       const topicId = info.lastInsertRowid as number;
+      topicIds.set(t.slug, topicId);
       const insQ = db.prepare(
         'INSERT INTO grammar_questions (topic_id, qtype, payload, difficulty) VALUES (?, ?, ?, ?)'
       );
       for (const q of t.questions ?? []) {
         insQ.run(topicId, q.qtype, JSON.stringify(q.payload), q.difficulty ?? 1);
       }
+    });
+
+    const insPathUnit = db.prepare(
+      'INSERT INTO path_units (slug, title, emoji, level, sort_order) VALUES (?, ?, ?, ?, ?)'
+    );
+    const insPathLesson = db.prepare(
+      'INSERT INTO path_lessons (unit_id, slug, title, kind, sort_order) VALUES (?, ?, ?, ?, ?)'
+    );
+    const insPathWord = db.prepare(
+      'INSERT INTO path_lesson_words (lesson_id, lemma_id, sort_order) VALUES (?, ?, ?)'
+    );
+    const insPathTopic = db.prepare(
+      'INSERT INTO path_lesson_topics (lesson_id, topic_id, question_count) VALUES (?, ?, ?)'
+    );
+    pathUnits.forEach((u, ui) => {
+      const unitId = insPathUnit.run(u.slug, u.title, u.emoji, u.level, ui + 1)
+        .lastInsertRowid as number;
+      u.lessons.forEach((l, li) => {
+        const lessonId = insPathLesson.run(unitId, l.slug, l.title, l.kind, li + 1)
+          .lastInsertRowid as number;
+        (l.words ?? []).forEach((w, wi) => {
+          insPathWord.run(lessonId, lemmaIds.get(`${w.lemma}|${w.pos}`)!, wi + 1);
+        });
+        for (const g of l.grammar ?? []) {
+          insPathTopic.run(lessonId, topicIds.get(g.topic)!, g.questions);
+        }
+      });
     });
 
     db.exec("INSERT INTO senses_fts(senses_fts) VALUES('rebuild')");
@@ -754,6 +961,7 @@ function build() {
   const lemmaCount = (db.prepare('SELECT COUNT(*) c FROM lemmas').get() as any).c;
   const senseCount = (db.prepare('SELECT COUNT(*) c FROM senses').get() as any).c;
   const qCount = (db.prepare('SELECT COUNT(*) c FROM grammar_questions').get() as any).c;
+  const pathLessonCount = (db.prepare('SELECT COUNT(*) c FROM path_lessons').get() as any).c;
   db.exec('VACUUM');
   db.close();
 
@@ -766,7 +974,8 @@ function build() {
   console.log(
     `✓ dictionary.db built: ${lemmaCount} lemmas, ${formCount} forms, ${senseCount} senses, ` +
       `${exampleCount} examples, ${images.length} images, ${synonyms.length} synonyms, ` +
-      `${grammar.length} topics, ${qCount} questions, ${reading.length} reading texts — ` +
+      `${grammar.length} topics, ${qCount} questions, ${reading.length} reading texts, ` +
+      `${pathUnits.length} path units (${pathLessonCount} lessons) — ` +
       `${sizeKb} KB (content ${contentHash.slice(0, 8)})`
   );
 }

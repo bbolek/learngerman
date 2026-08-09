@@ -1,0 +1,52 @@
+{
+  "slug": "a1-hallo",
+  "title": "Hallo!",
+  "emoji": "👋",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-hallo-1",
+      "kind": "lesson",
+      "title": "Erste Wörter",
+      "words": [
+        { "lemma": "hallo", "pos": "other" },
+        { "lemma": "danke", "pos": "other" },
+        { "lemma": "bitte", "pos": "other" },
+        { "lemma": "ja", "pos": "other" },
+        { "lemma": "nein", "pos": "other" },
+        { "lemma": "tschüs", "pos": "other" }
+      ]
+    },
+    {
+      "slug": "a1-hallo-2",
+      "kind": "lesson",
+      "title": "Wie heißt du?",
+      "words": [
+        { "lemma": "heißen", "pos": "verb" },
+        { "lemma": "Name", "pos": "noun" },
+        { "lemma": "wie", "pos": "adv" },
+        { "lemma": "wer", "pos": "pron" },
+        { "lemma": "Frau", "pos": "noun" },
+        { "lemma": "Herr", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "a1-hallo-3",
+      "kind": "lesson",
+      "title": "Guten Tag!",
+      "words": [
+        { "lemma": "Tag", "pos": "noun" },
+        { "lemma": "Morgen", "pos": "noun" },
+        { "lemma": "Abend", "pos": "noun" },
+        { "lemma": "Nacht", "pos": "noun" },
+        { "lemma": "gut", "pos": "adj" },
+        { "lemma": "Entschuldigung", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "a1-hallo-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

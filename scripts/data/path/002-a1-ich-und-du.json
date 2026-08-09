@@ -1,0 +1,53 @@
+{
+  "slug": "a1-ich-und-du",
+  "title": "Ich und du",
+  "emoji": "🙋",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-ich-und-du-1",
+      "kind": "lesson",
+      "title": "Ich bin …",
+      "words": [
+        { "lemma": "ich", "pos": "pron" },
+        { "lemma": "du", "pos": "pron" },
+        { "lemma": "sein", "pos": "verb" },
+        { "lemma": "haben", "pos": "verb" },
+        { "lemma": "und", "pos": "conj" },
+        { "lemma": "auch", "pos": "adv" }
+      ]
+    },
+    {
+      "slug": "a1-ich-und-du-2",
+      "kind": "lesson",
+      "title": "Woher kommst du?",
+      "words": [
+        { "lemma": "kommen", "pos": "verb" },
+        { "lemma": "wohnen", "pos": "verb" },
+        { "lemma": "wo", "pos": "adv" },
+        { "lemma": "woher", "pos": "adv" },
+        { "lemma": "Stadt", "pos": "noun" },
+        { "lemma": "Land", "pos": "noun" }
+      ],
+      "grammar": [{ "topic": "praesens", "questions": 4 }]
+    },
+    {
+      "slug": "a1-ich-und-du-3",
+      "kind": "lesson",
+      "title": "Sprichst du Deutsch?",
+      "words": [
+        { "lemma": "sprechen", "pos": "verb" },
+        { "lemma": "verstehen", "pos": "verb" },
+        { "lemma": "Sprache", "pos": "noun" },
+        { "lemma": "fragen", "pos": "verb" },
+        { "lemma": "antworten", "pos": "verb" },
+        { "lemma": "langsam", "pos": "adj" }
+      ]
+    },
+    {
+      "slug": "a1-ich-und-du-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

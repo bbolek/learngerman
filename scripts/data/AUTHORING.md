@@ -256,3 +256,46 @@ Rules:
   linked; nothing breaks.
 - The list orders by level, then German title; the build derives the
   word count shown in the UI.
+
+## Learning path (Lernpfad)
+
+One unit per file in `scripts/data/path/NNN-slug.json`; the numeric filename
+prefix is the sort order along the path (same convention as grammar topics).
+Units must run in CEFR order A1 → C2.
+
+```jsonc
+{
+  "slug": "a1-hallo",          // stable forever — see rules below
+  "title": "Hallo!",
+  "emoji": "👋",
+  "level": "A1",               // A1|A2|B1|B2|C1|C2
+  "lessons": [
+    {
+      "slug": "a1-hallo-1",    // globally unique, stable forever
+      "kind": "lesson",
+      "title": "Erste Wörter",
+      "words": [               // 4–10 new words, taught nowhere else on the path
+        { "lemma": "hallo", "pos": "other" }
+      ],
+      "grammar": [             // optional: interleave quiz questions
+        { "topic": "praesens", "questions": 4 }   // grammar_topics.slug
+      ]
+    },
+    { "slug": "a1-hallo-wdh", "kind": "review", "title": "Wiederholung" }
+  ]
+}
+```
+
+Rules:
+
+- **Never rename a slug** (unit or lesson) — the user's completion state
+  (`path_progress`) is keyed by lesson slug and would be orphaned. Only add.
+- 3–6 nodes per unit; the **last node must be `kind: "review"`** — it carries
+  no content of its own (the session is computed at runtime from due
+  spaced-repetition material introduced earlier on the path).
+- Every `{lemma, pos}` must exist in the dictionary and may be taught by
+  only one lesson path-wide; every grammar `topic` slug must exist and may
+  be covered by only one lesson path-wide.
+- A1 units are hand-curated (thematic arcs, highest-frequency words first);
+  A2–C2 units are drafted by `scripts/generate-path-units.ts` and committed
+  after review.

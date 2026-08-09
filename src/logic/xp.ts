@@ -13,7 +13,8 @@ export type XpKind =
   | 'duel_played'
   | 'quest'
   | 'streak_repair'
-  | 'reading';
+  | 'reading'
+  | 'path';
 
 // ---------- award sizes ----------
 
@@ -34,6 +35,20 @@ export const STREAK_REPAIR_COST = 100;
 
 /** First completion of a Leseecke text. */
 export const XP_READING_TEXT = 15;
+
+/**
+ * Lernpfad: flat award per finished node — the session's vocab/grammar
+ * answers don't earn per-answer XP (that would double-pay against the free
+ * practice modes), the completed node does.
+ */
+export const XP_PATH_LESSON = 20;
+export const XP_PATH_REVIEW = 15;
+export const XP_PATH_REPEAT = 5;
+
+export function xpForPathLesson(kind: 'lesson' | 'review', firstTime: boolean): number {
+  if (!firstTime) return XP_PATH_REPEAT;
+  return kind === 'review' ? XP_PATH_REVIEW : XP_PATH_LESSON;
+}
 
 export function xpForReview(rating: number): number {
   return rating === 0 ? XP_REVIEW_AGAIN : XP_REVIEW_RECALLED;

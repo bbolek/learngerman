@@ -111,6 +111,8 @@ export default function RootLayout() {
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: palette.bg } }}>
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="review" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="lesson/[slug]" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="placement" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/wortblitz" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/bilderraetsel" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/derdiedas" options={{ gestureEnabled: false }} />

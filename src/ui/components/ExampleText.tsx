@@ -19,6 +19,7 @@ export function ExampleText({
   variant = 'body',
   style,
   color,
+  linkAll = false,
 }: {
   text: string;
   /** The screen's own headword — never linked to itself. */
@@ -26,6 +27,8 @@ export function ExampleText({
   variant?: 'body' | 'secondary';
   style?: StyleProp<TextStyle>;
   color?: string;
+  /** Link A1 words too (Leseecke, where beginners tap everything). */
+  linkAll?: boolean;
 }) {
   const t = useTheme();
   const onWordTap = useWordTap();
@@ -49,7 +52,10 @@ export function ExampleText({
       {segments.map((seg, i) => {
         const hit = seg.word && seg.text.length >= 2 ? hits?.get(normalizeToken(seg.text)) : undefined;
         const linked =
-          hit != null && hit.lemmaId !== excludeLemmaId && hit.level !== 'A1' && onWordTap != null;
+          hit != null &&
+          hit.lemmaId !== excludeLemmaId &&
+          (linkAll || hit.level !== 'A1') &&
+          onWordTap != null;
         if (!linked) return seg.text;
         return (
           <AppText

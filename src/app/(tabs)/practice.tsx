@@ -94,6 +94,19 @@ export default function PracticeScreen() {
         <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
       </Card>
 
+      <Card style={styles.themes} onPress={() => router.push('/lesen')}>
+        <View style={[styles.themesIcon, { backgroundColor: t.primaryDim }]}>
+          <AppText style={{ fontSize: 20 }}>📖</AppText>
+        </View>
+        <View style={{ flex: 1 }}>
+          <AppText variant="subtitle">Leseecke</AppText>
+          <AppText variant="secondary" muted style={{ marginTop: 2 }}>
+            Kurze Geschichten auf Deutsch lesen
+          </AppText>
+        </View>
+        <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
+      </Card>
+
       <AppText variant="label" muted style={{ marginTop: spacing.xl, marginBottom: spacing.sm }}>
         {dueSlugs.size > 0 ? `Grammatik · ${dueSlugs.size} fällig` : 'Grammatik'}
       </AppText>

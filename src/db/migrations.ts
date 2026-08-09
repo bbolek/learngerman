@@ -128,6 +128,17 @@ export const MIGRATIONS: string[] = [
     used_at TEXT NOT NULL
   );
   `,
+  // v7 — Leseecke: completed reading texts, keyed by the text SLUG (stable
+  // natural key like grammar_srs, so content swaps never touch it), plus a
+  // daily_activity column so a finished text counts toward the streak.
+  `
+  CREATE TABLE IF NOT EXISTS reading_progress (
+    slug TEXT PRIMARY KEY,
+    completed_at TEXT NOT NULL
+  );
+
+  ALTER TABLE daily_activity ADD COLUMN texts_read INTEGER NOT NULL DEFAULT 0;
+  `,
 ];
 
 export async function runMigrations(db: SQLiteDatabase): Promise<void> {

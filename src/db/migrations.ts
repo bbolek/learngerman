@@ -139,6 +139,21 @@ export const MIGRATIONS: string[] = [
 
   ALTER TABLE daily_activity ADD COLUMN texts_read INTEGER NOT NULL DEFAULT 0;
   `,
+  // v8 — Lernpfad: per-lesson completion keyed by the lesson SLUG (stable
+  // natural key; content swaps never touch it, like grammar_srs/reading_progress).
+  // Stars keep the best run; a daily_activity column counts lessons toward
+  // the streak. The placement result lives in user_meta ('path_placement').
+  `
+  CREATE TABLE IF NOT EXISTS path_progress (
+    lesson_slug TEXT PRIMARY KEY,
+    stars INTEGER NOT NULL DEFAULT 1,
+    first_completed_at TEXT NOT NULL,
+    last_completed_at TEXT NOT NULL,
+    last_accuracy REAL
+  );
+
+  ALTER TABLE daily_activity ADD COLUMN path_lessons_done INTEGER NOT NULL DEFAULT 0;
+  `,
 ];
 
 export async function runMigrations(db: SQLiteDatabase): Promise<void> {

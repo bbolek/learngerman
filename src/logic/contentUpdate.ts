@@ -25,10 +25,11 @@ export interface UpdateDb {
 
 /**
  * Natural key for a grammar question: topic slug + qtype + main prompt
- * field. Used to carry quiz history across content updates; questions whose
- * key changed (or is ambiguous) simply lose their history.
+ * field. Used to carry quiz history across content updates (and through
+ * backup/restore in src/logic/backup.ts); questions whose key changed (or is
+ * ambiguous) simply lose their history.
  */
-const QUESTION_KEY = (db: 'main' | 'newc') => `
+export const QUESTION_KEY = (db: string) => `
   SELECT q.id AS id,
          t.slug || '|' || q.qtype || '|' || COALESCE(
            json_extract(q.payload, '$.prompt'),

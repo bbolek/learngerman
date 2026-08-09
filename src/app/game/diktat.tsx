@@ -18,7 +18,7 @@ import {
 } from '@/logic/games';
 import { settleGameRound } from '@/services/rewards';
 import { playSound } from '@/services/sound';
-import { speakGerman } from '@/services/speech';
+import { SPEECH_RATE_SLOW, speakGerman } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { GameIntro, GameResult, GameScreen, GameTopBar } from '@/ui/components/GameFrame';
@@ -52,6 +52,7 @@ export default function DiktatScreen() {
   const finishedRef = useRef(false);
   const missedRef = useRef<number[]>([]);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
+  const playCountRef = useRef(0);
 
   useEffect(() => {
     statsByGame().then((s) => setBest(s.get('diktat')?.best ?? null));
@@ -59,8 +60,11 @@ export default function DiktatScreen() {
     return () => timers.forEach(clearTimeout);
   }, []);
 
+  // From the second listen of a word on, speak slower so it's easier to catch.
   const speak = useCallback((text: string) => {
+    playCountRef.current += 1;
     speakGerman(text, {
+      rate: playCountRef.current >= 2 ? SPEECH_RATE_SLOW : undefined,
       onStart: () => setSpeaking(true),
       onEnd: () => setSpeaking(false),
     });
@@ -71,6 +75,7 @@ export default function DiktatScreen() {
     if (phase !== 'playing') return;
     const text = questions[index]?.text;
     if (!text) return;
+    playCountRef.current = 0;
     const timer = setTimeout(() => speak(text), 350);
     timersRef.current.push(timer);
   }, [phase, index, questions, speak]);

@@ -1,5 +1,5 @@
 import { getDb } from '@/db/client';
-import { type GameKey, type GameWord, type ImageWord } from '@/logic/games';
+import { type GameKey, type GameWord, type ImageWord, type VerbWord } from '@/logic/games';
 
 // ---------- word pools ----------
 
@@ -39,6 +39,34 @@ export async function fetchImageWords(limit: number): Promise<ImageWord[]> {
   } catch {
     return [];
   }
+}
+
+/**
+ * Random verbs with their full form table (Konjugations-Trainer). Forms are
+ * fetched in one IN query and grouped in JS; verbs with too few forms are
+ * filtered later by the round builder, not here.
+ */
+export async function fetchVerbWords(limit: number): Promise<VerbWord[]> {
+  const db = getDb();
+  const verbs = await db.getAllAsync<Omit<VerbWord, 'forms'>>(
+    `SELECT l.id, l.lemma, l.gender, l.plural, l.verb_aux AS aux, s.en AS gloss
+     FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
+     WHERE l.pos = 'verb' ORDER BY RANDOM() LIMIT ?`,
+    [limit]
+  );
+  if (verbs.length === 0) return [];
+  const placeholders = verbs.map(() => '?').join(',');
+  const forms = await db.getAllAsync<{ lemma_id: number; form: string; tag: string }>(
+    `SELECT lemma_id, form, tag FROM forms WHERE lemma_id IN (${placeholders})`,
+    verbs.map((v) => v.id)
+  );
+  const byLemma = new Map<number, { form: string; tag: string }[]>();
+  for (const f of forms) {
+    const list = byLemma.get(f.lemma_id) ?? [];
+    list.push({ form: f.form, tag: f.tag });
+    byLemma.set(f.lemma_id, list);
+  }
+  return verbs.map((v) => ({ ...v, forms: byLemma.get(v.id) ?? [] }));
 }
 
 // ---------- results & stats ----------

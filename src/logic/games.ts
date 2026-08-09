@@ -6,7 +6,7 @@
 
 import { shuffled } from '@/logic/graders';
 
-export type GameKey = 'wortblitz' | 'bilderraetsel' | 'derdiedas' | 'wortpaare';
+export type GameKey = 'wortblitz' | 'bilderraetsel' | 'derdiedas' | 'wortpaare' | 'konjugation';
 
 export interface GameInfo {
   key: GameKey;
@@ -48,6 +48,14 @@ export const GAMES: GameInfo[] = [
     tagline: 'Finde die Paare — schnell und fehlerfrei.',
     rules:
       'Verbinde jedes deutsche Wort mit seiner Übersetzung. Drei Runden mit je sechs Paaren: je schneller und fehlerfreier, desto mehr Punkte.',
+  },
+  {
+    key: 'konjugation',
+    emoji: '🔁',
+    title: 'Konjugations-Trainer',
+    tagline: 'fahren, fährt, fuhr — sitzt jede Verbform?',
+    rules:
+      'Wähle die richtige Verbform für Person und Zeit. Richtige Antworten bringen Punkte und verlängern deine Serie. Drei Fehler — und die Runde ist vorbei.',
   },
 ];
 
@@ -207,6 +215,65 @@ export function buildImageQuestions(pool: ImageWord[], seed: number): ChoiceQues
     return true;
   });
   return buildChoiceQuestions(words, seed, withArticle);
+}
+
+// ---------- Konjugations-Trainer rounds ----------
+
+export const KONJUGATION_LIVES = 3;
+
+/** A verb pulled with every inflected surface form the dictionary knows. */
+export interface VerbWord extends GameWord {
+  /** Perfekt auxiliary ('haben' | 'sein'), null only on malformed content. */
+  aux: string | null;
+  forms: { form: string; tag: string }[];
+}
+
+export interface KonjugationQuestion extends ChoiceQuestion<VerbWord> {
+  /** Form tag being asked for (präsens_du, präteritum_er, partizip2 …). */
+  tag: string;
+}
+
+/** Tags worth drilling: stem changes, Präteritum and Partizip II live here. */
+export const KONJUGATION_TAGS = ['präsens_du', 'präsens_er', 'präteritum_er', 'partizip2'];
+
+/** How a question frames its tag: "du ___" chip plus a tense label. */
+export function konjugationContext(tag: string, aux: string | null): { lead: string; tense: string } {
+  switch (tag) {
+    case 'präsens_du':
+      return { lead: 'du', tense: 'Präsens' };
+    case 'präsens_er':
+      return { lead: 'er/sie/es', tense: 'Präsens' };
+    case 'präteritum_er':
+      return { lead: 'er/sie/es', tense: 'Präteritum' };
+    case 'partizip2':
+      return { lead: aux === 'sein' ? 'er ist' : 'er hat', tense: 'Perfekt' };
+    default:
+      return { lead: '', tense: tag };
+  }
+}
+
+/**
+ * One question per usable verb: a seeded drill tag, its form as the answer,
+ * and three OTHER forms of the same verb as distractors — so every option is
+ * a real word of that verb and guessing means actually knowing the form.
+ * Verbs without enough distinct forms are skipped.
+ */
+export function buildKonjugationQuestions(pool: VerbWord[], seed: number): KonjugationQuestion[] {
+  const questions: KonjugationQuestion[] = [];
+  shuffled(pool, seed).forEach((word, i) => {
+    const byTag = new Map<string, string>();
+    for (const f of word.forms) if (!byTag.has(f.tag)) byTag.set(f.tag, f.form);
+    const drillable = KONJUGATION_TAGS.filter((tag) => byTag.has(tag));
+    if (drillable.length === 0) return;
+    const tag = drillable[(seed + i * 13) % drillable.length];
+    const correct = byTag.get(tag)!;
+    const others = [...new Set(word.forms.map((f) => f.form))].filter((f) => f !== correct);
+    if (others.length < BLITZ_OPTIONS - 1) return;
+    const distractors = shuffled(others, seed * 31 + i + 1).slice(0, BLITZ_OPTIONS - 1);
+    const options = shuffled([correct, ...distractors], seed + i * 7 + 3);
+    questions.push({ word, tag, options, correctIndex: options.indexOf(correct) });
+  });
+  return questions;
 }
 
 // ---------- Wortpaare rounds ----------

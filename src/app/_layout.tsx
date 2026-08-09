@@ -115,6 +115,7 @@ export default function RootLayout() {
         <Stack.Screen name="game/bilderraetsel" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/derdiedas" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/wortpaare" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="game/konjugation" options={{ gestureEnabled: false }} />
         <Stack.Screen name="duel/index" options={{ gestureEnabled: false }} />
         <Stack.Screen name="duel/play" options={{ gestureEnabled: false }} />
       </Stack>

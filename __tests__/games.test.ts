@@ -9,12 +9,15 @@ import {
   buildArtikelQuestions,
   buildBlitzQuestions,
   buildImageQuestions,
+  buildKonjugationQuestions,
   buildPairsBoards,
   dedupeByGloss,
   DERDIEDAS_LIVES,
   GAMES,
   gameInfo,
   initialArcade,
+  KONJUGATION_TAGS,
+  konjugationContext,
   PAIRS_BOARDS,
   PAIRS_PER_BOARD,
   pairsBoardScore,
@@ -23,6 +26,7 @@ import {
   withArticle,
   type GameWord,
   type ImageWord,
+  type VerbWord,
 } from '@/logic/games';
 
 function word(id: number, lemma: string, gloss: string): GameWord {
@@ -34,8 +38,14 @@ const POOL: GameWord[] = Array.from({ length: 40 }, (_, i) =>
 );
 
 describe('registry', () => {
-  it('exposes all four games', () => {
-    expect(GAMES.map((g) => g.key)).toEqual(['wortblitz', 'bilderraetsel', 'derdiedas', 'wortpaare']);
+  it('exposes all five games', () => {
+    expect(GAMES.map((g) => g.key)).toEqual([
+      'wortblitz',
+      'bilderraetsel',
+      'derdiedas',
+      'wortpaare',
+      'konjugation',
+    ]);
     expect(gameInfo('derdiedas').title).toBe('Der, die oder das?');
   });
 });
@@ -199,6 +209,90 @@ describe('buildArtikelQuestions', () => {
   });
 });
 
+describe('buildKonjugationQuestions', () => {
+  function verb(id: number, lemma: string, forms: [string, string][], aux = 'haben'): VerbWord {
+    return {
+      id,
+      lemma,
+      gender: null,
+      plural: null,
+      gloss: `to ${lemma}`,
+      aux,
+      forms: forms.map(([form, tag]) => ({ form, tag })),
+    };
+  }
+
+  const fahren = verb(
+    1,
+    'fahren',
+    [
+      ['fahre', 'präsens_ich'],
+      ['fährst', 'präsens_du'],
+      ['fährt', 'präsens_er'],
+      ['fahrt', 'präsens_ihr'],
+      ['fuhr', 'präteritum_ich'],
+      ['fuhr', 'präteritum_er'],
+      ['fuhren', 'präteritum_wir'],
+      ['gefahren', 'partizip2'],
+    ],
+    'sein'
+  );
+  const machen = verb(2, 'machen', [
+    ['mache', 'präsens_ich'],
+    ['machst', 'präsens_du'],
+    ['macht', 'präsens_er'],
+    ['machte', 'präteritum_er'],
+    ['machten', 'präteritum_wir'],
+    ['gemacht', 'partizip2'],
+  ]);
+
+  it('asks a drillable tag with the right form among real sibling forms', () => {
+    const questions = buildKonjugationQuestions([fahren, machen], 42);
+    expect(questions).toHaveLength(2);
+    for (const q of questions) {
+      expect(KONJUGATION_TAGS).toContain(q.tag);
+      expect(q.options).toHaveLength(BLITZ_OPTIONS);
+      expect(new Set(q.options).size).toBe(BLITZ_OPTIONS);
+      const expected = q.word.forms.find((f) => f.tag === q.tag)!.form;
+      expect(q.options[q.correctIndex]).toBe(expected);
+      const all = new Set(q.word.forms.map((f) => f.form));
+      for (const opt of q.options) expect(all.has(opt)).toBe(true);
+    }
+  });
+
+  it('is deterministic per seed and varies with the seed', () => {
+    const pool = [fahren, machen];
+    expect(buildKonjugationQuestions(pool, 7)).toEqual(buildKonjugationQuestions(pool, 7));
+    const many = Array.from({ length: 20 }, (_, i) => ({ ...fahren, id: i + 1 }));
+    expect(buildKonjugationQuestions(many, 7).map((q) => q.options)).not.toEqual(
+      buildKonjugationQuestions(many, 8).map((q) => q.options)
+    );
+  });
+
+  it('skips verbs without enough distinct forms for four options', () => {
+    const thin = verb(3, 'sein', [
+      ['war', 'präteritum_er'],
+      ['gewesen', 'partizip2'],
+    ]);
+    expect(buildKonjugationQuestions([thin], 5)).toHaveLength(0);
+  });
+
+  it('never repeats a duplicated surface form inside the options', () => {
+    // fuhr appears under two tags — options must stay four distinct strings
+    for (let seed = 1; seed < 30; seed++) {
+      for (const q of buildKonjugationQuestions([fahren], seed)) {
+        expect(new Set(q.options).size).toBe(BLITZ_OPTIONS);
+      }
+    }
+  });
+
+  it('konjugationContext picks the Perfekt auxiliary from the verb', () => {
+    expect(konjugationContext('präsens_du', 'haben')).toEqual({ lead: 'du', tense: 'Präsens' });
+    expect(konjugationContext('partizip2', 'haben').lead).toBe('er hat');
+    expect(konjugationContext('partizip2', 'sein').lead).toBe('er ist');
+  });
+});
+
 describe('buildPairsBoards', () => {
   it('builds full boards where every tile pairs up exactly once', () => {
     const boards = buildPairsBoards(POOL, 99);
@@ -274,6 +368,17 @@ describe('dictionary content supports the games', () => {
       )
       .get() as { c: number };
     expect(row.c).toBeGreaterThan(100);
+  });
+
+  it('has plenty of verbs with enough distinct forms for the Konjugations-Trainer', () => {
+    const rows = db
+      .prepare(
+        `SELECT l.id, COUNT(DISTINCT f.form) AS distinct_forms
+         FROM lemmas l JOIN forms f ON f.lemma_id = l.id
+         WHERE l.pos = 'verb' GROUP BY l.id HAVING distinct_forms >= 4`
+      )
+      .all();
+    expect(rows.length).toBeGreaterThan(500);
   });
 
   it('random word pools survive gloss dedupe with enough words for all boards', () => {

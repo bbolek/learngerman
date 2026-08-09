@@ -1,0 +1,476 @@
+{
+  "slug": "modalpartikeln",
+  "title": "Modalpartikeln",
+  "level": "C1",
+  "explainer_md": "Modalpartikeln are the small unstressed words that give a German sentence its tone. They change no facts — delete them and the sentence stays true — but they colour the speaker's attitude, and German without them sounds cold and abrupt. They sit in the middle field, after the verb and the pronouns, before the new information: *Komm [[doch]] mit!*\n\n| Partikel | Wirkung | Satztyp |\n|---|---|---|\n| doch | urging, mild reproach | Imperativ, Aussage |\n| ja | shared knowledge, surprise | Aussage |\n| mal | casual, non-binding | Imperativ |\n| eben / halt | resigned *that's how it is* | Aussage |\n| denn | friendly interest | Frage |\n\n*Das ist [[ja]] toll!* signals surprise, *Mach das [[mal]]!* softens an order, *Das ist [[eben]] so* shrugs. **schon** reassures or concedes (*Das schaffst du schon*), **wohl** guesses (*Er ist wohl krank*), **eigentlich** asks in passing or reveals a hidden truth (*Eigentlich wollte ich zu Hause bleiben*).\n\nThe sentence type decides: *denn* only ever appears in questions, *mal* mainly in requests, *ja* never in a question. And do not mix the particle up with its stressed twin — *Ich komme doch mit* (particle) against *Doch, ich komme!* (contradicting a negative question).",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wie alt bist du ___? (freundliches Interesse)",
+        "options": ["denn", "doch", "ja"],
+        "correctIndex": 0,
+        "explanation": "[[denn]] makes a question sound friendly instead of like an interrogation."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Komm ___ mit ins Kino! (dringliche Bitte)",
+        "options": ["doch", "denn", "wohl"],
+        "correctIndex": 0,
+        "explanation": "[[doch]] in an imperative urges someone on: Komm doch mit!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist ___ toll! (Überraschung)",
+        "options": ["ja", "mal", "denn"],
+        "correctIndex": 0,
+        "explanation": "[[ja]] in a statement expresses surprise or shared knowledge."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Mach ___ das Fenster auf! (locker, freundlich)",
+        "options": ["mal", "denn", "ja"],
+        "correctIndex": 0,
+        "explanation": "[[mal]] softens an order into a casual request."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das ist ___ so — da kann man nichts machen.",
+        "options": ["eben", "denn", "mal"],
+        "correctIndex": 0,
+        "explanation": "[[eben]] signals resignation: that is simply how things are."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "In welchem Satztyp steht „denn“?",
+        "options": ["in Fragen", "in Imperativen", "in Aussagesätzen"],
+        "correctIndex": 0,
+        "explanation": "The particle denn only appears in questions — never in an order or a statement."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welches Wort ist in „Er ist wohl krank“ die Modalpartikel?",
+        "options": ["wohl", "ist", "krank"],
+        "correctIndex": 0,
+        "explanation": "[[wohl]] marks the sentence as a guess: I suppose he is ill."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Bus kommt ___ später. (Der Sprecher vermutet es nur.)",
+        "options": ["wohl", "ja", "mal"],
+        "correctIndex": 0,
+        "explanation": "wohl = probably, presumably — the speaker does not know for sure."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das schaffst du ___! (Der Sprecher macht Mut.)",
+        "options": ["schon", "denn", "ja"],
+        "correctIndex": 0,
+        "explanation": "[[schon]] as a particle reassures: don't worry, you'll manage."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wo warst du ___ so lange? (freundliche Nachfrage)",
+        "options": ["denn", "doch", "halt"],
+        "correctIndex": 0,
+        "explanation": "denn belongs in questions and takes the edge off the enquiry."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wie spät ist es ___? (beiläufige Frage)",
+        "options": ["eigentlich", "eben", "ja"],
+        "correctIndex": 0,
+        "explanation": "[[eigentlich]] makes a question sound casual, almost like an afterthought."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welche Partikel benutzt man süddeutsch statt „eben“?",
+        "options": ["halt", "doch", "wohl"],
+        "correctIndex": 0,
+        "explanation": "[[halt]] and eben mean the same; halt is southern German and Austrian."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist falsch?",
+        "options": ["Kommst du ja mit?", "Kommst du denn mit?", "Kommst du eigentlich mit?"],
+        "correctIndex": 0,
+        "explanation": "ja is never used as a particle in a question; denn and eigentlich are."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wo steht die Modalpartikel im Satz?",
+        "options": ["im Mittelfeld, vor der neuen Information", "immer am Satzanfang", "immer am Satzende"],
+        "correctIndex": 0,
+        "explanation": "Particles live in the middle field, behind verb and pronouns: Ich habe dir doch alles erklärt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ruf mich ___ an, wenn du Zeit hast. (unverbindlich)",
+        "options": ["mal", "ja", "denn"],
+        "correctIndex": 0,
+        "explanation": "mal makes the request light and non-binding — sometime, whenever."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das habe ich dir ___ gesagt! (Vorwurf: du weißt es)",
+        "options": ["doch", "mal", "wohl"],
+        "correctIndex": 0,
+        "explanation": "doch in a statement appeals to knowledge both sides share — often as a reproach."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Zug ist ___ schon weg — das sehen wir beide.",
+        "options": ["ja", "denn", "mal"],
+        "correctIndex": 0,
+        "explanation": "ja points to something obvious to speaker and listener alike ([[Zug]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Bedeutung hat „schon“ in „Das wird schon klappen“?",
+        "options": ["Zuversicht", "eine Zeitangabe", "eine Frage"],
+        "correctIndex": 0,
+        "explanation": "Here schon is not temporal (already) but reassuring: it'll work out fine."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was drückt „eigentlich“ in „Eigentlich wollte ich zu Hause bleiben“ aus?",
+        "options": ["einen Gegensatz zur Wirklichkeit", "eine höfliche Bitte", "eine Vermutung"],
+        "correctIndex": 0,
+        "explanation": "eigentlich reveals the plan behind the facts: actually I wanted to stay in — but I didn't."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "In welchem Satz ist „doch“ KEINE Modalpartikel?",
+        "options": ["Doch, ich habe Zeit!", "Komm doch her!", "Das ist doch klar."],
+        "correctIndex": 0,
+        "explanation": "Stressed Doch at the front contradicts a negative question; the particle is unstressed and stands inside the sentence."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Sie ist wohl krank.“ bedeutet:",
+        "options": ["Ich vermute, dass sie krank ist.", "Ich weiß sicher, dass sie krank ist.", "Es geht ihr gut."],
+        "correctIndex": 0,
+        "explanation": "wohl weakens the claim to an assumption — comparable to dürfte or vermutlich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Wortstellung ist richtig?",
+        "options": ["Ich habe ja gestern angerufen.", "Ja ich habe gestern angerufen.", "Ich habe gestern angerufen ja."],
+        "correctIndex": 0,
+        "explanation": "The particle stands in the middle field after the finite verb, never first and never last ([[anrufen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Partikel passt NICHT in einen Imperativ?",
+        "options": ["denn", "doch", "mal"],
+        "correctIndex": 0,
+        "explanation": "denn is restricted to questions; doch and mal are typical of imperatives."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Das ist halt so.“ klingt:",
+        "options": ["resigniert und umgangssprachlich", "höflich und formell", "überrascht"],
+        "correctIndex": 0,
+        "explanation": "halt (= eben) shrugs the matter off and belongs to spoken, southern German."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche zwei Partikeln bedeuten fast dasselbe?",
+        "options": ["eben und halt", "denn und mal", "ja und wohl"],
+        "correctIndex": 0,
+        "explanation": "eben and halt are regional twins; the other pairs differ in meaning and sentence type."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Komm ___ mit, es wird bestimmt lustig! (dringliche Bitte)",
+        "accept": ["doch"],
+        "explanation": "doch urges the listener on in an invitation."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Wetter ist heute ___ super! (Überraschung)",
+        "accept": ["ja"],
+        "explanation": "ja marks surprise about something both can see ([[Wetter]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Warte ___ kurz! (locker, freundlich)",
+        "accept": ["mal"],
+        "explanation": "mal turns an order into a light request: Warte mal kurz!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wie heißt du ___? (freundliche Frage)",
+        "accept": ["denn"],
+        "explanation": "denn only ever appears in questions and makes them sound friendly ([[heißen]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "So ist das ___, da kann man nichts ändern. (norddeutsche Variante)",
+        "accept": ["eben"],
+        "hint": "süddeutsch: halt",
+        "explanation": "eben expresses resignation; in the south people say halt instead."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er ist ___ krank, sonst wäre er gekommen. (Vermutung)",
+        "accept": ["wohl"],
+        "explanation": "wohl marks the sentence as an assumption, not a fact."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Keine Sorge, die Prüfung schaffst du ___! (Zuversicht)",
+        "accept": ["schon"],
+        "explanation": "schon reassures: you will manage it all right."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Was machst du ___ am Wochenende? (beiläufiges Interesse)",
+        "accept": ["eigentlich"],
+        "explanation": "eigentlich adds a casual, by-the-way tone to the question."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wo bleibst du ___ so lange? (ungeduldige Frage)",
+        "accept": ["denn"],
+        "explanation": "In a question denn carries the speaker's involvement — here impatience."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Statt „eben“ sagt man in Bayern und Österreich oft ___.",
+        "accept": ["halt"],
+        "explanation": "halt is the southern equivalent of eben: Das ist halt so."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich habe es dir ___ erklärt, hörst du nie zu? (Vorwurf)",
+        "accept": ["doch"],
+        "explanation": "doch appeals to knowledge the listener should already have ([[erklären]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Schau dir das ___ an, wenn du Lust hast. (unverbindlich)",
+        "accept": ["mal"],
+        "explanation": "mal keeps the request non-binding and informal."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Du weißt ___, dass ich morgen keine Zeit habe. (gemeinsames Wissen)",
+        "accept": ["ja"],
+        "explanation": "ja refers to information both speaker and listener already share."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Komm", "doch", "mit"],
+        "solutions": [["Komm", "doch", "mit"]],
+        "translation": "Do come along!",
+        "explanation": "In an imperative the particle follows the verb directly ([[mitkommen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Das", "ist", "ja", "toll"],
+        "solutions": [["Das", "ist", "ja", "toll"]],
+        "translation": "Well, that's great!",
+        "explanation": "ja stands behind the finite verb, before the new information ([[toll]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Mach", "mal", "das", "Fenster", "auf"],
+        "solutions": [["Mach", "mal", "das", "Fenster", "auf"], ["Mach", "das", "Fenster", "mal", "auf"]],
+        "translation": "Open the window, would you?",
+        "explanation": "mal may stand before or after the object, but always inside the sentence bracket."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Das", "ist", "eben", "so"],
+        "solutions": [["Das", "ist", "eben", "so"]],
+        "translation": "That's just how it is.",
+        "explanation": "eben in a statement expresses resignation."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Wo", "warst", "du", "denn"],
+        "solutions": [["Wo", "warst", "du", "denn"]],
+        "translation": "So where were you?",
+        "explanation": "In a W-Frage denn follows the subject pronoun."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "ist", "wohl", "krank"],
+        "solutions": [["Er", "ist", "wohl", "krank"]],
+        "translation": "He's probably ill.",
+        "explanation": "wohl turns the statement into an assumption ([[krank]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Das", "habe", "ich", "dir", "doch", "gesagt"],
+        "solutions": [["Das", "habe", "ich", "dir", "doch", "gesagt"]],
+        "translation": "But I told you that!",
+        "explanation": "The particle stands behind the pronouns and before the participle at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Wie", "heißt", "du", "eigentlich"],
+        "solutions": [["Wie", "heißt", "du", "eigentlich"]],
+        "translation": "What's your name, by the way?",
+        "explanation": "eigentlich gives the question a relaxed, by-the-way tone."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Die", "Prüfung", "schaffst", "du", "schon"],
+        "solutions": [["Die", "Prüfung", "schaffst", "du", "schon"]],
+        "translation": "You'll manage the exam all right.",
+        "explanation": "The object opens the sentence, the verb stays second, schon reassures at the end of the middle field."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Ruf", "mich", "mal", "später", "an"],
+        "solutions": [["Ruf", "mich", "mal", "später", "an"], ["Ruf", "mich", "später", "mal", "an"]],
+        "translation": "Give me a call later sometime.",
+        "explanation": "mal makes the request casual; the separable prefix an closes the sentence."
+      }
+    }
+  ]
+}

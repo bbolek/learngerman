@@ -1,0 +1,475 @@
+{
+  "slug": "funktionsverbgefuege",
+  "title": "Funktionsverbgefüge",
+  "level": "C1",
+  "explainer_md": "A *Funktionsverbgefüge* (light-verb construction) splits one verb's meaning in two: a noun carries the content, while a bleached verb — *stehen, stellen, kommen, nehmen, bringen, treffen, üben, treten* — supplies only tense and person. *Die Zeitung **übt Kritik** an der Regierung.* says what *Die Zeitung kritisiert die Regierung* says, but it belongs to news reports, contracts and academic prose, not to everyday talk.\n\nTwo things are fixed and have to be learnt as one block: the article (often none at all) and the preposition.\n\n| Funktionsverbgefüge | einfaches Verb |\n|---|---|\n| eine [[Entscheidung]] treffen | entscheiden |\n| [[Kritik]] üben an + Dativ | kritisieren |\n| in [[Frage]] stellen | bezweifeln |\n| zum [[Ausdruck]] bringen | ausdrücken |\n\nMany pairs contrast a state with an action: *zur Verfügung stehen* (to be available) against *zur Verfügung stellen* (to make available), *in Frage kommen* (to be a possible option) against *in Frage stellen* (to call into question). The noun normally takes no adjective and no plural, and the whole group closes the sentence: *Das Gesetz **tritt** am Montag **in Kraft**.* Watch the verb as well — you [[nehmen]] a service *in Anspruch* and *Bezug auf* a letter, but you never *machen* either of them.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Regierung ___ eine Entscheidung.",
+        "options": ["trifft", "macht", "nimmt"],
+        "correctIndex": 0,
+        "explanation": "The fixed light verb is treffen: eine [[Entscheidung]] treffen = entscheiden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das neue Gesetz tritt morgen in ___.",
+        "options": ["Kraft", "Kräfte", "Kräften"],
+        "correctIndex": 0,
+        "explanation": "in [[Kraft]] treten — the noun stays bare, singular, without article."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Journalist übt ___ an der Regierung.",
+        "options": ["Kritik", "Kritiken", "eine Kritik"],
+        "correctIndex": 0,
+        "explanation": "[[Kritik]] üben has no article and no plural: Er übt Kritik an + Dativ."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welches Funktionsverbgefüge bedeutet „kritisieren“?",
+        "options": ["Kritik üben", "Kritik machen", "Kritik nehmen"],
+        "correctIndex": 0,
+        "explanation": "Only üben works here; the simple verb is [[kritisieren]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Chef stellt uns ein Auto zur ___.",
+        "options": ["Verfügung", "Verfügungen", "Verfüge"],
+        "correctIndex": 0,
+        "explanation": "zur Verfügung stellen = to make available; the noun never changes form."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir ___ Ihr Angebot gern in Anspruch.",
+        "options": ["nehmen", "machen", "bringen"],
+        "correctIndex": 0,
+        "explanation": "in [[Anspruch]] nehmen = to make use of. Only nehmen is possible."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welches Verb gehört zu „zum Ausdruck ___“?",
+        "options": ["bringen", "machen", "stellen"],
+        "correctIndex": 0,
+        "explanation": "zum [[Ausdruck]] bringen = ausdrücken (to express)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ein Wagen ___ uns während der Reise zur Verfügung.",
+        "options": ["stand", "stellte", "brachte"],
+        "correctIndex": 0,
+        "explanation": "stehen = the state (it was available); stellen = the action (someone provides it)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Anwalt stellt den ganzen Vertrag in ___.",
+        "options": ["Frage", "Fragen", "die Frage"],
+        "correctIndex": 0,
+        "explanation": "in [[Frage]] stellen = to call into question — bare noun, no article."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Diese Lösung ___ für uns nicht in Frage.",
+        "options": ["kommt", "stellt", "nimmt"],
+        "correctIndex": 0,
+        "explanation": "in Frage kommen = to be a possible option; in Frage stellen = to doubt something."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Betriebsrat übt Kritik ___ dem neuen Plan.",
+        "options": ["an", "über", "gegen"],
+        "correctIndex": 0,
+        "explanation": "The preposition is part of the construction: Kritik üben an + Dativ."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie nimmt Bezug ___ unser letztes Gespräch.",
+        "options": ["auf", "an", "über"],
+        "correctIndex": 0,
+        "explanation": "Bezug nehmen auf + Akkusativ = to refer to something."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz klingt am wenigsten formell?",
+        "options": ["Er kritisiert den Plan.", "Er übt Kritik an dem Plan.", "Er bringt seine Kritik zum Ausdruck."],
+        "correctIndex": 0,
+        "explanation": "The simple verb is neutral; the Funktionsverbgefüge lifts the register to official style."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Firma ___ ihren Gästen einen Bus zur Verfügung.",
+        "options": ["stellt", "steht", "kommt"],
+        "correctIndex": 0,
+        "explanation": "Somebody provides something → zur Verfügung stellen (transitive, with Akkusativ)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er bringt seine Sorgen deutlich zum ___.",
+        "options": ["Ausdruck", "Ausdrücken", "Eindruck"],
+        "correctIndex": 0,
+        "explanation": "zum Ausdruck bringen — Eindruck belongs to a different phrase (Eindruck machen)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„eine Entscheidung treffen“ entspricht dem einfachen Verb ___",
+        "options": ["entscheiden", "bezweifeln", "verlangen"],
+        "correctIndex": 0,
+        "explanation": "The noun Entscheidung carries the meaning; the simple verb is [[entscheiden]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Minister ___ zu den Vorwürfen Stellung.",
+        "options": ["nimmt", "macht", "bringt"],
+        "correctIndex": 0,
+        "explanation": "Stellung nehmen zu + Dativ = to comment on something officially."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was bedeutet „Diese Stelle kommt für mich nicht in Frage“?",
+        "options": ["Ich bewerbe mich nicht darauf.", "Ich habe eine Frage zu der Stelle.", "Ich bezweifle diese Stelle."],
+        "correctIndex": 0,
+        "explanation": "in Frage kommen = to be a candidate/option; negated it means: it is out of the question."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was bedeutet „Er stellt meine Ergebnisse in Frage“?",
+        "options": ["Er bezweifelt sie.", "Er stellt sie vor.", "Er fragt nach ihnen."],
+        "correctIndex": 0,
+        "explanation": "in Frage stellen = to call into question, to doubt — despite the similar wording it is not a question."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": ["Der Vertrag tritt am 1. Januar in Kraft.", "Der Vertrag tritt am 1. Januar in die Kraft.", "Der Vertrag tritt am 1. Januar zur Kraft."],
+        "correctIndex": 0,
+        "explanation": "The article is fixed — and here there is none: in Kraft treten ([[Vertrag]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das Angebot ___ nur bis Freitag zur Verfügung.",
+        "options": ["steht", "stellt", "tritt"],
+        "correctIndex": 0,
+        "explanation": "No agent is named, the subject is the thing itself → the state verb stehen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Verbindung gibt es im Deutschen nicht?",
+        "options": ["in Anspruch stellen", "in Anspruch nehmen", "in Kraft treten"],
+        "correctIndex": 0,
+        "explanation": "The verb of a Funktionsverbgefüge is fixed: only in Anspruch nehmen exists."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Passiv: „Die Entscheidung wurde gestern ___.“",
+        "options": ["getroffen", "genommen", "gemacht"],
+        "correctIndex": 0,
+        "explanation": "Even in the passive the light verb stays treffen: eine Entscheidung wird getroffen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Nebensatz: „…, weil das Gesetz nächste Woche in Kraft ___.“",
+        "options": ["tritt", "treten", "getreten"],
+        "correctIndex": 0,
+        "explanation": "In a subordinate clause the finite verb closes the sentence, behind the fixed part: … in Kraft tritt ([[Gesetz]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "In welchem Stil sind Funktionsverbgefüge typisch?",
+        "options": ["Amtssprache, Verträge und Nachrichten", "Gespräche unter Freunden", "Kindergeschichten"],
+        "correctIndex": 0,
+        "explanation": "They mark formal written German; in everyday speech the simple verb sounds better."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir müssen heute eine Entscheidung ___. (Verb)",
+        "accept": ["treffen"],
+        "explanation": "eine Entscheidung treffen — never „machen“."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Gesetz tritt am Montag in ___. (Nomen)",
+        "accept": ["Kraft"],
+        "explanation": "in Kraft treten = to come into force."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Kollege übt ___ an meinem Vorschlag. (Nomen zu „kritisieren“)",
+        "accept": ["Kritik"],
+        "explanation": "kritisieren → Kritik üben an + Dativ."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Firma stellt mir einen Laptop zur ___. (Nomen)",
+        "accept": ["Verfügung"],
+        "explanation": "zur Verfügung stellen — the noun is always Verfügung, singular."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ein Dolmetscher ___ Ihnen während der Konferenz zur Verfügung. (Verb, Präsens)",
+        "accept": ["steht"],
+        "explanation": "The interpreter is available → zur Verfügung stehen, 3. Person Singular: steht."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Diese Möglichkeit ___ für uns leider nicht in Frage. (kommen)",
+        "accept": ["kommt"],
+        "explanation": "in Frage kommen = to be an option; negated: it is ruled out."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich nehme Bezug ___ Ihr Schreiben vom 3. Mai. (Präposition)",
+        "accept": ["auf"],
+        "explanation": "Bezug nehmen auf + Akkusativ — a standard opening in business letters."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Presse übt Kritik ___ der Entscheidung des Gerichts. (Präposition)",
+        "accept": ["an"],
+        "explanation": "Kritik üben an + Dativ — the preposition belongs to the construction."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er brachte seine Freude deutlich zum ___. (Nomen)",
+        "accept": ["Ausdruck"],
+        "explanation": "zum Ausdruck bringen = ausdrücken."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir haben Ihre Hilfe gern in Anspruch ___. (Perfekt)",
+        "accept": ["genommen"],
+        "explanation": "Perfekt of nehmen: Wir haben die [[Hilfe]] in Anspruch genommen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Vorstand hat den ganzen Plan in Frage ___. (Perfekt)",
+        "accept": ["gestellt"],
+        "explanation": "in Frage stellen → hat in Frage gestellt (he doubted it)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die neue Regel ist gestern in Kraft ___. (Perfekt)",
+        "accept": ["getreten"],
+        "explanation": "treten takes sein in the Perfekt: ist in Kraft getreten ([[Regel]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Er kritisiert den Bericht.“ → Er ___ Kritik an dem Bericht. (Funktionsverb)",
+        "accept": ["übt"],
+        "explanation": "The simple verb becomes noun + light verb: kritisieren → Kritik üben."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Wir", "treffen", "eine", "Entscheidung"],
+        "solutions": [["Wir", "treffen", "eine", "Entscheidung"]],
+        "translation": "We are making a decision.",
+        "explanation": "Verb in position 2, the noun of the Funktionsverbgefüge at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Das", "Gesetz", "tritt", "in", "Kraft"],
+        "solutions": [["Das", "Gesetz", "tritt", "in", "Kraft"]],
+        "translation": "The law comes into force.",
+        "explanation": "The fixed part in Kraft stays together at the end of the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Der", "Chef", "stellt", "uns", "ein", "Auto", "zur", "Verfügung"],
+        "solutions": [["Der", "Chef", "stellt", "uns", "ein", "Auto", "zur", "Verfügung"]],
+        "translation": "The boss makes a car available to us.",
+        "explanation": "zur Verfügung closes the sentence; the Akkusativ object stands before it ([[Auto]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Die", "Zeitung", "übt", "Kritik", "an", "der", "Regierung"],
+        "solutions": [["Die", "Zeitung", "übt", "Kritik", "an", "der", "Regierung"]],
+        "translation": "The newspaper criticises the government.",
+        "explanation": "Kritik üben an + Dativ: the prepositional phrase follows the bare noun."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Diese", "Lösung", "kommt", "nicht", "in", "Frage"],
+        "solutions": [["Diese", "Lösung", "kommt", "nicht", "in", "Frage"]],
+        "translation": "This solution is out of the question.",
+        "explanation": "nicht stands before the fixed group in Frage, which closes the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "bringt", "seine", "Zweifel", "zum", "Ausdruck"],
+        "solutions": [["Er", "bringt", "seine", "Zweifel", "zum", "Ausdruck"]],
+        "translation": "He expresses his doubts.",
+        "explanation": "zum Ausdruck bringen = ausdrücken; the object stands in the middle field."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Wir", "nehmen", "Ihr", "Angebot", "gern", "in", "Anspruch"],
+        "solutions": [["Wir", "nehmen", "Ihr", "Angebot", "gern", "in", "Anspruch"]],
+        "translation": "We are glad to take up your offer.",
+        "explanation": "in Anspruch stays at the end, behind object and adverb ([[Angebot]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Ich", "nehme", "Bezug", "auf", "Ihren", "Brief"],
+        "solutions": [["Ich", "nehme", "Bezug", "auf", "Ihren", "Brief"]],
+        "translation": "I refer to your letter.",
+        "explanation": "Bezug nehmen auf + Akkusativ — typical opening of a formal letter."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Ein", "Dolmetscher", "steht", "Ihnen", "zur", "Verfügung"],
+        "solutions": [["Ein", "Dolmetscher", "steht", "Ihnen", "zur", "Verfügung"]],
+        "translation": "An interpreter is at your disposal.",
+        "explanation": "zur Verfügung stehen describes the state; the person served stands in the Dativ."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Der", "Vertrag", "ist", "gestern", "in", "Kraft", "getreten"],
+        "solutions": [["Der", "Vertrag", "ist", "gestern", "in", "Kraft", "getreten"]],
+        "translation": "The contract came into force yesterday.",
+        "explanation": "Perfekt with sein: ist … in Kraft getreten — the participle goes last."
+      }
+    }
+  ]
+}

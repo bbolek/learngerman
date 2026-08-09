@@ -104,20 +104,27 @@ export function warmUpSpeech(): void {
   resolveGermanVoice().catch(() => {});
 }
 
-export interface SpeakCallbacks {
+/** Normal speaking rate for German utterances. */
+export const SPEECH_RATE_NORMAL = 0.9;
+/** Slowed-down rate for repeated listening (e.g. Diktat replays). */
+export const SPEECH_RATE_SLOW = 0.6;
+
+export interface SpeakOptions {
   /** Speech actually started coming out of the engine. */
   onStart?: () => void;
   /** Utterance finished, was interrupted, or failed — always the last call. */
   onEnd?: () => void;
+  /** Speaking rate; defaults to SPEECH_RATE_NORMAL. */
+  rate?: number;
 }
 
 /** Speak a German word/phrase, cancelling any previous utterance. */
-export async function speakGerman(text: string, callbacks: SpeakCallbacks = {}): Promise<void> {
+export async function speakGerman(text: string, options: SpeakOptions = {}): Promise<void> {
   await ensureAudioMode();
   const voice = await resolveGermanVoice();
   if (!voice.found) {
     showMissingVoiceAlert();
-    callbacks.onEnd?.();
+    options.onEnd?.();
     return;
   }
   await Speech.stop();
@@ -125,10 +132,10 @@ export async function speakGerman(text: string, callbacks: SpeakCallbacks = {}):
     Speech.speak(text, {
       language: 'de-DE',
       voice: identifier,
-      rate: 0.9,
-      onStart: callbacks.onStart,
-      onDone: callbacks.onEnd,
-      onStopped: callbacks.onEnd,
+      rate: options.rate ?? SPEECH_RATE_NORMAL,
+      onStart: options.onStart,
+      onDone: options.onEnd,
+      onStopped: options.onEnd,
       // A cached voice can go stale (uninstalled, engine swapped). Drop it
       // and retry once with the engine's own German default.
       onError: identifier
@@ -136,7 +143,7 @@ export async function speakGerman(text: string, callbacks: SpeakCallbacks = {}):
             cached = null;
             speak(undefined);
           }
-        : callbacks.onEnd,
+        : options.onEnd,
     });
   speak(voice.identifier);
 }

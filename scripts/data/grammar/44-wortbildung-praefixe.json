@@ -1,0 +1,474 @@
+{
+  "slug": "wortbildung-praefixe",
+  "title": "Wortbildung: Präfixe",
+  "level": "C1",
+  "explainer_md": "German builds new verbs by putting an unstressed prefix in front of an old one, and each prefix carries a fairly reliable meaning. **ver-** either turns something into something else — *[[verbessern]]*, *verkleinern*, *verändern* — or marks an action that goes wrong, usually with a reflexive pronoun: *Wir haben uns im Wald **verlaufen**.* The same idea sits in *sich versprechen* (to misspeak).\n\n| Prefix | Meaning | Examples |\n|---|---|---|\n| zer- | into pieces | zerbrechen, zerreißen |\n| ent- | away, removal | entfernen, entkommen |\n| miss- | wrongly, badly | missverstehen, missachten |\n| be- | makes the verb transitive | beantworten, besteigen |\n| er- | reaching a result | [[erreichen]], erfinden |\n\n*Ent-* can also mean the start of something: *[[entdecken]]* is to uncover, not to remove. *Be-* swallows a preposition and produces a direct object: *auf eine Frage antworten* becomes *eine Frage **beantworten***.\n\nAll six prefixes are **inseparable and unstressed**. They never split off, and the Partizip II takes no *ge-*: *Er hat das Ziel **erreicht**.* — *Sie hat mich **missverstanden**.* With *zu* the verb stays in one piece: *ohne den [[Fehler]] zu verbessern*. Compare separable *anrufen*, which is stressed on the prefix: *Er hat **angerufen**.*",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir haben die Karte vergessen und uns im Wald ___.",
+        "options": ["verlaufen", "gelaufen", "zerlaufen"],
+        "correctIndex": 0,
+        "explanation": "ver- + reflexive marks a wrong action: sich verlaufen = to get lost ([[laufen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Glas ist auf den Boden gefallen und ___.",
+        "options": ["zerbrochen", "verbrochen", "entbrochen"],
+        "correctIndex": 0,
+        "explanation": "zer- means into pieces: zerbrechen ([[brechen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Kolumbus hat Amerika ___.",
+        "options": ["entdeckt", "verdeckt", "bedeckt"],
+        "correctIndex": 0,
+        "explanation": "entdecken = to uncover, to discover; verdecken and bedecken both mean to cover."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Bitte ___ Sie meine Frage.",
+        "options": ["beantworten", "antworten", "verantworten"],
+        "correctIndex": 0,
+        "explanation": "be- makes the verb transitive: auf eine Frage antworten → eine Frage beantworten ([[antworten]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Nach zehn Jahren hat er sein Ziel ___.",
+        "options": ["erreicht", "verreicht", "zerreicht"],
+        "correctIndex": 0,
+        "explanation": "er- marks a result that is finally achieved: erreichen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Du hast mich ___ — ich meinte etwas ganz anderes.",
+        "options": ["missverstanden", "verstanden", "entstanden"],
+        "correctIndex": 0,
+        "explanation": "miss- = wrongly: missverstehen ([[verstehen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welches Präfix bedeutet „in Stücke“?",
+        "options": ["zer-", "be-", "er-"],
+        "correctIndex": 0,
+        "explanation": "zer- always points to destruction: zerreißen, zerschneiden, [[zerstören]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welches Präfix macht aus einem Präpositionalobjekt ein Akkusativobjekt?",
+        "options": ["be-", "zer-", "miss-"],
+        "correctIndex": 0,
+        "explanation": "be- transitivizes: über etwas sprechen → etwas besprechen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welches Präfix drückt „weg von etwas“ aus?",
+        "options": ["ent-", "er-", "ver-"],
+        "correctIndex": 0,
+        "explanation": "ent- signals removal or escape: [[entfernen]], entladen, entkommen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er hat den Brief ___ und weggeworfen.",
+        "options": ["zerrissen", "verrissen", "errissen"],
+        "correctIndex": 0,
+        "explanation": "zerreißen = to tear to pieces; verreißen means to slate a book or film."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welches Verb bedeutet „fliehen und nicht gefasst werden“?",
+        "options": ["entkommen", "bekommen", "verkommen"],
+        "correctIndex": 0,
+        "explanation": "ent- = away: entkommen. bekommen = to receive, verkommen = to go to seed."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welches Verb bedeutet „etwas Neues erschaffen“?",
+        "options": ["erfinden", "befinden", "empfinden"],
+        "correctIndex": 0,
+        "explanation": "er- + finden = to invent, a classic result verb ([[finden]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die alte Fabrik ist völlig ___.",
+        "options": ["zerfallen", "entfallen", "befallen"],
+        "correctIndex": 0,
+        "explanation": "zerfallen = to fall apart; entfallen = to slip one's mind, befallen = to afflict."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich habe deine Stimme am Telefon sofort ___.",
+        "options": ["erkannt", "bekannt", "verkannt"],
+        "correctIndex": 0,
+        "explanation": "er- marks the achieved result: [[erkennen]] = to recognize."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Letzten Sommer hat sie den Berg ___.",
+        "options": ["bestiegen", "gestiegen", "aufgestiegen"],
+        "correctIndex": 0,
+        "explanation": "be- makes steigen transitive: auf den [[Berg]] steigen → den Berg besteigen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": ["Er hat die Frage beantwortet.", "Er hat die Frage geantwortet.", "Er hat auf die Frage beantwortet."],
+        "correctIndex": 0,
+        "explanation": "beantworten takes a bare Akkusativ object — no preposition, no ge- in the participle."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wie lautet das Partizip II von „verbessern“?",
+        "options": ["verbessert", "geverbessert", "verbesserte"],
+        "correctIndex": 0,
+        "explanation": "Inseparable prefixes block ge-: verbessert, not geverbessert."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wie lautet das Partizip II von „entdecken“?",
+        "options": ["entdeckt", "geentdeckt", "entgedeckt"],
+        "correctIndex": 0,
+        "explanation": "ent- is unstressed and inseparable → entdeckt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Infinitivform mit „zu“ ist korrekt?",
+        "options": ["ohne den Fehler zu verbessern", "ohne den Fehler verzubessern", "ohne den Fehler zu verbesseren"],
+        "correctIndex": 0,
+        "explanation": "zu stands before an inseparable verb; only separable verbs take zu inside (anzurufen)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Perfektform von „anrufen“ ist korrekt?",
+        "options": ["Er hat angerufen.", "Er hat geanrufen.", "Er hat anrufen."],
+        "correctIndex": 0,
+        "explanation": "Separable prefixes put ge- between prefix and stem; inseparable ones drop it entirely ([[anrufen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "In welchem Verb ist das Präfix betont und trennbar?",
+        "options": ["anrufen", "erreichen", "besuchen"],
+        "correctIndex": 0,
+        "explanation": "an- carries the stress and separates; er- and be- are unstressed and never do ([[besuchen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hat sich beim Tippen mehrmals ___.",
+        "options": ["vertippt", "zertippt", "enttippt"],
+        "correctIndex": 0,
+        "explanation": "ver- + reflexive = doing it wrong: sich vertippen = to make a typo."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welches Verb gehört nicht zur Bedeutung „etwas falsch machen“?",
+        "options": ["verbessern", "sich verlaufen", "sich versprechen"],
+        "correctIndex": 0,
+        "explanation": "ver- has two jobs: verbessern belongs to the change-of-state group, the other two to the error group."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was bedeutet „missachten“?",
+        "options": ["nicht beachten", "genau beachten", "wieder beachten"],
+        "correctIndex": 0,
+        "explanation": "miss- negates or devalues the base verb: achten → missachten."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich habe mich in der fremden Stadt ___. (sich verlaufen, Perfekt)",
+        "accept": ["verlaufen"],
+        "explanation": "Inseparable ver- → the Partizip II has no ge-: verlaufen ([[Stadt]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Vase ist vom Tisch gefallen und ___. (zerbrechen, Perfekt)",
+        "accept": ["zerbrochen"],
+        "explanation": "zerbrechen → zerbrochen, with sein because it describes a change of state ([[Vase]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Können Sie mir bitte meine E-Mail ___? (beantworten)",
+        "accept": ["beantworten"],
+        "explanation": "be- + antworten gives a transitive verb with an Akkusativ object."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Nach langer Arbeit hat sie ihr Ziel ___. (erreichen, Perfekt)",
+        "accept": ["erreicht"],
+        "explanation": "er- names the achieved result: erreicht, no ge- ([[Ziel]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___brechen bedeutet „in viele Stücke gehen“. (Präfix)",
+        "accept": ["zer", "zer-", "Zer", "Zer-"],
+        "explanation": "zer- is the prefix of destruction ([[zerbrechen]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___fernen bedeutet „etwas wegnehmen“. (Präfix)",
+        "accept": ["ent", "ent-", "Ent", "Ent-"],
+        "explanation": "ent- expresses removal: entfernen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Du hast mich völlig ___. (missverstehen, Perfekt)",
+        "accept": ["missverstanden"],
+        "explanation": "miss- is inseparable: missverstanden, never gemissverstanden ([[missverstehen]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wer hat die Glühbirne ___? (erfinden, Perfekt)",
+        "accept": ["erfunden"],
+        "explanation": "erfinden → erfunden; the strong stem change stays, the ge- does not appear ([[erfinden]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Sturm hat viele Häuser ___. (zerstören, Perfekt)",
+        "accept": ["zerstört"],
+        "explanation": "zerstören → zerstört ([[Sturm]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Am Wochenende haben wir das neue Museum ___. (besuchen, Perfekt)",
+        "accept": ["besucht"],
+        "explanation": "be- is unstressed and inseparable → besucht ([[Museum]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie versucht seit Monaten, ihr Deutsch zu ___. (verbessern)",
+        "accept": ["verbessern"],
+        "explanation": "zu stands in front of the whole inseparable verb: zu verbessern."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er hat mich gestern Abend ___. (anrufen, Perfekt)",
+        "accept": ["angerufen"],
+        "explanation": "Separable an- takes ge- inside the word — the opposite of ver-, be-, er-."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Dieb konnte der Polizei ___. (entkommen)",
+        "accept": ["entkommen"],
+        "explanation": "ent- = away from; entkommen governs the Dativ ([[Polizei]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Auf dem alten Foto ___ ich meinen Großvater sofort. (erkennen, Präsens)",
+        "accept": ["erkenne"],
+        "explanation": "er- marks the successful outcome of the seeing: ich erkenne ihn."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Das", "Glas", "ist", "zerbrochen"],
+        "solutions": [["Das", "Glas", "ist", "zerbrochen"]],
+        "translation": "The glass has broken.",
+        "explanation": "zer- stays attached, so the Partizip II is zerbrochen without ge-."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Er", "hat", "sein", "Ziel", "erreicht"],
+        "solutions": [["Er", "hat", "sein", "Ziel", "erreicht"]],
+        "translation": "He has reached his goal.",
+        "explanation": "erreichen is inseparable: erreicht closes the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Wir", "haben", "uns", "leider", "verlaufen"],
+        "solutions": [["Wir", "haben", "uns", "leider", "verlaufen"]],
+        "translation": "Unfortunately we got lost.",
+        "explanation": "Reflexive ver- verb: the pronoun uns comes early, the participle last."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Sie", "hat", "meine", "Frage", "beantwortet"],
+        "solutions": [["Sie", "hat", "meine", "Frage", "beantwortet"]],
+        "translation": "She answered my question.",
+        "explanation": "be- gives the verb a direct object: meine Frage beantworten."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Das", "Telefon", "wurde", "1876", "erfunden"],
+        "solutions": [["Das", "Telefon", "wurde", "1876", "erfunden"]],
+        "translation": "The telephone was invented in 1876.",
+        "explanation": "Passive with an inseparable verb: erfunden, no ge-."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Du", "hast", "mich", "völlig", "missverstanden"],
+        "solutions": [["Du", "hast", "mich", "völlig", "missverstanden"]],
+        "translation": "You completely misunderstood me.",
+        "explanation": "miss- behaves like ver-: it never separates and blocks ge-."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Der", "Sturm", "hat", "das", "Dach", "zerstört"],
+        "solutions": [["Der", "Sturm", "hat", "das", "Dach", "zerstört"]],
+        "translation": "The storm destroyed the roof.",
+        "explanation": "zer- = destruction; zerstört stands at the end ([[Dach]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Ich", "versuche,", "mein", "Deutsch", "zu", "verbessern"],
+        "solutions": [["Ich", "versuche,", "mein", "Deutsch", "zu", "verbessern"]],
+        "translation": "I am trying to improve my German.",
+        "explanation": "With inseparable verbs zu is a separate word in front of the infinitive."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Bitte", "entfernen", "Sie", "das", "alte", "Bild"],
+        "solutions": [["Bitte", "entfernen", "Sie", "das", "alte", "Bild"]],
+        "translation": "Please remove the old picture.",
+        "explanation": "The Sie-imperative keeps the prefix attached: entfernen Sie ([[Bild]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "hat", "mich", "gestern", "angerufen"],
+        "solutions": [["Er", "hat", "mich", "gestern", "angerufen"]],
+        "translation": "He called me yesterday.",
+        "explanation": "Separable an- → ge- appears inside the participle: angerufen."
+      }
+    }
+  ]
+}

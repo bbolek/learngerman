@@ -208,15 +208,16 @@ function main() {
     }
     const perLesson = LESSON_WORDS[level];
     const lessons: Lesson[] = [];
-    // Distribute words into lessons of `perLesson`, folding a tiny tail
-    // (< 4, the validator minimum) into the previous lesson.
+    // Balanced lesson sizes (13 words → 7+6, never a 3-word tail) so every
+    // lesson satisfies the validator's 4–10 range.
+    const lessonCount = Math.max(2, Math.ceil(d.words.length / perLesson));
+    const base = Math.floor(d.words.length / lessonCount);
+    const extra = d.words.length % lessonCount;
     const chunks: VocabWord[][] = [];
-    for (let i = 0; i < d.words.length; i += perLesson) chunks.push(d.words.slice(i, i + perLesson));
-    if (chunks.length > 1 && chunks[chunks.length - 1].length < 4) {
-      const tail = chunks.pop()!;
-      const prev = chunks[chunks.length - 1];
-      while (tail.length && prev.length < 10) prev.push(tail.shift()!);
-      // whatever still doesn't fit is dropped from the path
+    for (let i = 0, off = 0; i < lessonCount; i++) {
+      const size = base + (i < extra ? 1 : 0);
+      chunks.push(d.words.slice(off, off + size));
+      off += size;
     }
     chunks.forEach((chunk, i) => {
       lessons.push({

@@ -81,6 +81,11 @@ function makeOldInstall(dir: string) {
 
   db.prepare("INSERT INTO daily_activity (day, reviews_done, quiz_done, words_saved) VALUES ('2026-07-01', 3, 2, 1)").run();
   db.prepare("INSERT INTO user_meta (key, value) VALUES ('onboarded', 'yes')").run();
+  // Lernpfad progress is slug-keyed — it must ride through the swap untouched.
+  db.prepare(
+    `INSERT INTO path_progress (lesson_slug, stars, first_completed_at, last_completed_at, last_accuracy)
+     VALUES ('a1-hallo-1', 3, '2026-07-01T10:00:00Z', '2026-07-01T10:00:00Z', 0.95)`
+  ).run();
   db.close();
   return oldPath;
 }
@@ -109,7 +114,19 @@ describe('applyContentUpdate', () => {
     const fresh = new Database(BUILT, { readonly: true });
     const count = (d: Database.Database, t: string) =>
       (d.prepare(`SELECT COUNT(*) c FROM ${t}`).get() as { c: number }).c;
-    for (const t of ['lemmas', 'forms', 'senses', 'examples', 'synonyms', 'grammar_topics', 'grammar_questions']) {
+    for (const t of [
+      'lemmas',
+      'forms',
+      'senses',
+      'examples',
+      'synonyms',
+      'grammar_topics',
+      'grammar_questions',
+      'path_units',
+      'path_lessons',
+      'path_lesson_words',
+      'path_lesson_topics',
+    ]) {
       expect(count(db, t)).toBe(count(fresh, t));
     }
     const hash = db.prepare("SELECT value FROM meta WHERE key = 'content_hash'").get() as { value: string };
@@ -158,6 +175,14 @@ describe('applyContentUpdate', () => {
     expect(day).toMatchObject({ reviews_done: 3, quiz_done: 2, words_saved: 1 });
     const meta = db.prepare("SELECT value FROM user_meta WHERE key = 'onboarded'").get() as any;
     expect(meta?.value).toBe('yes');
+  });
+
+  it('keeps slug-keyed path progress across the swap', () => {
+    const row = db.prepare("SELECT * FROM path_progress WHERE lesson_slug = 'a1-hallo-1'").get() as any;
+    expect(row).toMatchObject({ stars: 3, last_accuracy: 0.95 });
+    // ...and the lesson it points at still exists in the new content
+    const lesson = db.prepare("SELECT 1 FROM path_lessons WHERE slug = 'a1-hallo-1'").get();
+    expect(lesson).not.toBeUndefined();
   });
 
   it('new content is fully usable: schema, FTS and FK integrity', () => {

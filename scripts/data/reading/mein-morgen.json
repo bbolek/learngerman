@@ -1,0 +1,24 @@
+{
+  "slug": "mein-morgen",
+  "title": "Mein Morgen",
+  "level": "A1",
+  "teaser": "Aufstehen, frühstücken, zur Schule fahren — ein ganz normaler Morgen.",
+  "paragraphs": [
+    {
+      "de": "Ich stehe um halb sieben auf. Zuerst dusche ich. Dann ziehe ich mich an und packe meine Tasche.",
+      "en": "I get up at half past six. First I take a shower. Then I get dressed and pack my bag."
+    },
+    {
+      "de": "Um sieben Uhr frühstücke ich. Ich esse ein Brötchen mit Marmelade und trinke einen Tee. Meine Mutter trinkt Kaffee.",
+      "en": "At seven o'clock I have breakfast. I eat a roll with jam and drink a tea. My mother drinks coffee."
+    },
+    {
+      "de": "Um halb acht fahre ich mit dem Fahrrad zur Schule. Der Weg dauert fünfzehn Minuten. Mein Freund Tim fährt auch mit.",
+      "en": "At half past seven I ride my bike to school. The trip takes fifteen minutes. My friend Tim rides along too."
+    },
+    {
+      "de": "Der Unterricht beginnt um acht Uhr. Heute haben wir Deutsch, Mathe und Sport. Ich mag Sport am liebsten.",
+      "en": "Class starts at eight o'clock. Today we have German, math and physical education. I like PE best."
+    }
+  ]
+}

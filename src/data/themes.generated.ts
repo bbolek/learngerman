@@ -3200,6 +3200,143 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "umzug",
+    "title": "Umzug & Neues Zuhause",
+    "emoji": "📦",
+    "words": [
+      {
+        "lemma": "Kiste",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Umzugstag",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Umzugskosten",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Umzugsfirma",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Umzugshelfer",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Möbelwagen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Möbelpacker",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Luftpolsterfolie",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "entrümpeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausmisten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tapete",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Tapetenwechsel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Schlüsselübergabe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Wohnungsübergabe",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Endreinigung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Vormieter",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Zwischenmiete",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ummeldung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Adressänderung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Nachsendeauftrag",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Halteverbot",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Einweihungsparty",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Einweihungsfeier",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "eingewöhnen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bleibe",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Umzugsstress",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
     "slug": "stadt",
     "title": "Stadt & Gebäude",
     "emoji": "🏙️",
@@ -5843,6 +5980,113 @@ export const THEMES: Theme[] = [
       },
       {
         "lemma": "Tower",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "fuehrerschein",
+    "title": "Führerschein & Erstes Auto",
+    "emoji": "🚗",
+    "words": [
+      {
+        "lemma": "Fahrschüler",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fahrlehrerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Theorieprüfung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Führerscheinprüfung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Führerscheinklasse",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sehtest",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Erste-Hilfe-Kurs",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fahrübung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Fahrpraxis",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Fahrsicherheitstraining",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Fahranfänger",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "abwürgen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "TÜV",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Nummernschild",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Autoversicherung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Probefahrt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Autohändler",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gebrauchtwagen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Neuwagen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Autokauf",
         "pos": "noun",
         "level": "B2"
       }
@@ -10211,6 +10455,128 @@ export const THEMES: Theme[] = [
         "lemma": "Büroalltag",
         "pos": "noun",
         "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "aufstieg",
+    "title": "Beförderung & Aufstieg",
+    "emoji": "🚀",
+    "words": [
+      {
+        "lemma": "Karrieresprung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Beförderungsgespräch",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Jahresgespräch",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Leitung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Posten",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Manager",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Managerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Teamleiterin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Abteilungsleiterin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Vorgesetzte",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Untergebene",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Personalverantwortung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Karrierechance",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "weiterkommen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "hocharbeiten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sprosse",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Chefetage",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Chefsessel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Eckbüro",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Dienstwagen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Firmenwagen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Amtsantritt",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Antrittsrede",
+        "pos": "noun",
+        "level": "C1"
       }
     ]
   },
@@ -24860,6 +25226,113 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "abschluss",
+    "title": "Einschulung & Abschluss",
+    "emoji": "🎒",
+    "words": [
+      {
+        "lemma": "Einschulung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "einschulen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Schultüte",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Klassenlehrer",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Klassenlehrerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Mitschülerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Schulweg",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Federmäppchen",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Ranzen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rede",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Festrede",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Abschlussfeier",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Zeugnisvergabe",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Abschlussball",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Abiball",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Abiturientin",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Studienabschluss",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Absolventin",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Doktorhut",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Talar",
+        "pos": "noun",
+        "level": "C1"
+      }
+    ]
+  },
+  {
     "slug": "kultur",
     "title": "Kultur & Freizeit",
     "emoji": "🎭",
@@ -29872,6 +30345,113 @@ export const THEMES: Theme[] = [
       {
         "lemma": "Wiedersehen",
         "pos": "noun",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "slug": "ruhestand",
+    "title": "Ruhestand & Rente",
+    "emoji": "🧓",
+    "words": [
+      {
+        "lemma": "Rentnerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Senior",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Seniorin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Seniorenheim",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "pensionieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Pensionär",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Renteneintritt",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rentenbescheid",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Lebensabend",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Lebenswerk",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Abschiedsfeier",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Abschiedsgeschenk",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Abschiedsrede",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Nachfolgerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Übergabe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Dankbarkeit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "wohlverdient",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "zurückblicken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rückblick",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "aktiv",
+        "pos": "adj",
         "level": "A2"
       }
     ]

@@ -108,14 +108,33 @@ export interface DayActivity {
   quiz_done: number;
   words_saved: number;
   games_played: number;
+  texts_read: number;
 }
 
 export async function recentActivity(days: number, now: Date): Promise<DayActivity[]> {
   const since = new Date(now.getTime() - days * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   return getDb().getAllAsync<DayActivity>(
-    'SELECT day, reviews_done, quiz_done, words_saved, games_played FROM daily_activity WHERE day >= ? ORDER BY day',
+    `SELECT day, reviews_done, quiz_done, words_saved, games_played, texts_read
+     FROM daily_activity WHERE day >= ? ORDER BY day`,
     [since]
   );
+}
+
+/**
+ * due_at of every already-seen card that becomes due within the next `days`
+ * days — including overdue ones, which the forecast folds into today.
+ */
+export async function upcomingDueDates(now: Date, days: number): Promise<string[]> {
+  const horizonEnd =
+    new Date(now.getTime() + (days - 1) * 24 * 60 * 60 * 1000).toISOString().slice(0, 10) +
+    'T23:59:59.999Z';
+  const rows = await getDb().getAllAsync<{ due_at: string }>(
+    `SELECT s.due_at FROM srs_state s
+     JOIN user_saved_words w ON w.lemma_id = s.lemma_id
+     WHERE s.last_reviewed_at IS NOT NULL AND s.due_at <= ?`,
+    [horizonEnd]
+  );
+  return rows.map((r) => r.due_at);
 }
 
 /**

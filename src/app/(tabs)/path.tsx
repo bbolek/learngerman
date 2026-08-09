@@ -30,14 +30,12 @@ export default function PathScreen() {
       (async () => {
         const [path, placement] = await Promise.all([listPath(), getPlacement()]);
         if (!alive) return;
+        // Boundary by unit slug when possible (stable across curriculum
+        // growth); the stored order covers the all-or-nothing extremes.
         let boundary: number | null = null;
         if (placement && 'boundaryUnitSlug' in placement) {
-          if (placement.boundaryUnitSlug == null) {
-            boundary = Number.MAX_SAFE_INTEGER;
-          } else {
-            const unit = path.find((u) => u.slug === placement.boundaryUnitSlug);
-            boundary = unit?.nodes[0]?.order ?? null;
-          }
+          const unit = path.find((u) => u.slug === placement.boundaryUnitSlug);
+          boundary = unit?.nodes[0]?.order ?? placement.boundaryOrder ?? null;
         }
         const hasProgress = path.some((u) => u.nodes.some((n) => n.stars > 0));
         setShowPlacementBanner(placement == null && !hasProgress);

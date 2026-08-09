@@ -315,7 +315,13 @@ export async function completeLesson(
 
 export type PathPlacement =
   | { skipped: true }
-  | { boundaryUnitSlug: string | null; placedLevel: string; takenAt: string };
+  | {
+      boundaryUnitSlug: string | null;
+      /** First global node order NOT unlocked — 0 = nothing, MAX = everything. */
+      boundaryOrder: number;
+      placedLevel: string | null;
+      takenAt: string;
+    };
 
 const PLACEMENT_KEY = 'path_placement';
 
@@ -337,6 +343,34 @@ export async function setPlacement(placement: PathPlacement): Promise<void> {
     PLACEMENT_KEY,
     JSON.stringify(placement),
   ]);
+}
+
+/**
+ * Einstufungstest material: the most frequent words of a level (tested words
+ * and MC distractors come from the same pool) and a handful of MC grammar
+ * questions. Drawn from the dictionary directly so placement works no matter
+ * how much of the path is authored.
+ */
+export async function placementVocab(level: string, limit: number): Promise<LessonWord[]> {
+  return getDb().getAllAsync<LessonWord>(
+    `SELECT ${WORD_SELECT}
+     FROM lemmas l
+     WHERE l.level = ?
+     ORDER BY COALESCE(l.freq_rank, 999999), l.id
+     LIMIT ?`,
+    [level, limit]
+  );
+}
+
+export async function placementGrammarMc(level: string, limit: number): Promise<LessonQuestion[]> {
+  return getDb().getAllAsync<LessonQuestion>(
+    `SELECT q.id, q.qtype, q.payload, q.difficulty, t.slug AS topic_slug, t.title AS topic_title
+     FROM grammar_questions q
+     JOIN grammar_topics t ON t.id = q.topic_id
+     WHERE t.level = ? AND q.qtype = 'mc'
+     ORDER BY RANDOM() LIMIT ?`,
+    [level, limit]
+  );
 }
 
 /** Progress counters for achievements and the Home card. */

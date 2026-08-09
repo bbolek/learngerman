@@ -1,0 +1,757 @@
+{
+  "slug": "partizipien-als-attribute",
+  "title": "Partizipien als Attribute",
+  "level": "B2",
+  "explainer_md": "German loves to squeeze a whole relative clause into one word in front of the noun. Both participles can do that, and each brings its own meaning.\n\n**Partizip I = Infinitiv + d** (*schlafen → schlafend*). As an attribute it takes normal adjective endings and means **active and ongoing** — the noun is doing something right now: *das schlafende [[Kind]]* = das Kind, das schläft.\n\n**Partizip II** as an attribute means **passive and finished** — something was done to the noun: *die geöffnete [[Tür]]* = die Tür, die geöffnet wurde. With verbs that build the Perfekt with *sein*, the Partizip II stays active but finished: *der angekommene [[Zug]]* = der Zug, der angekommen ist.\n\n| Relativsatz | Attribut |\n|---|---|\n| das Kind, das schläft | das **schlafende** Kind |\n| die Tür, die geöffnet wurde | die **geöffnete** Tür |\n| die E-Mail, die er schrieb | die **von ihm geschriebene** E-Mail |\n\nAn **erweitertes Partizipialattribut** parks the rest of the clause between article and participle: *die von ihm [[geschriebene|schreiben]] E-Mail*, *die im [[Garten]] spielenden Kinder*. Read such phrases from the back: first the noun, then the participle, then the extra details.\n\nGoing back to a relative clause is mechanical: Partizip I → an active verb in the same tense, Partizip II → a passive form (or a sein-Perfekt).",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "das ___ Kind (schlafen — Partizip I)",
+        "options": [
+          "schlafende",
+          "geschlafene",
+          "schlafend"
+        ],
+        "correctIndex": 0,
+        "explanation": "Partizip I = Infinitiv + d, then an adjective ending: das schlafende Kind."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "die ___ Tür (öffnen — Partizip II)",
+        "options": [
+          "geöffnete",
+          "öffnende",
+          "geöffnet"
+        ],
+        "correctIndex": 0,
+        "explanation": "Partizip II as an attribute needs an ending: die geöffnete Tür ([[öffnen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "die ___ Kinder (spielen — Partizip I)",
+        "options": [
+          "spielenden",
+          "gespielten",
+          "spielend"
+        ],
+        "correctIndex": 0,
+        "explanation": "spielen → spielend; plural after the definite article takes -en: die spielenden Kinder."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "ein ___ Hund (bellen — Partizip I)",
+        "options": [
+          "bellender",
+          "bellende",
+          "gebellter"
+        ],
+        "correctIndex": 0,
+        "explanation": "Masculine Nominativ after ein → -er: ein bellender [[Hund]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wie lautet das Partizip I von „lachen“?",
+        "options": [
+          "lachend",
+          "gelacht",
+          "lachte"
+        ],
+        "correctIndex": 0,
+        "explanation": "Partizip I = Infinitiv + d: lachen → lachend. gelacht is the Partizip II."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "das ___ Fenster (schließen — Partizip II)",
+        "options": [
+          "geschlossene",
+          "schließende",
+          "geschlossen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Passive and finished → Partizip II with ending: das geschlossene Fenster."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "der ___ Brief (schreiben — Partizip II)",
+        "options": [
+          "geschriebene",
+          "schreibende",
+          "geschrieben"
+        ],
+        "correctIndex": 0,
+        "explanation": "der Brief, der geschrieben wurde → der geschriebene Brief ([[schreiben]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Kind, das weint → das ___ Kind",
+        "options": [
+          "weinende",
+          "geweinte",
+          "weinend"
+        ],
+        "correctIndex": 0,
+        "explanation": "An active relative clause in the present becomes Partizip I: das weinende Kind."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Kuchen, der gebacken wurde → der ___ Kuchen",
+        "options": [
+          "gebackene",
+          "backende",
+          "gebacken"
+        ],
+        "correctIndex": 0,
+        "explanation": "A passive relative clause becomes Partizip II: der gebackene Kuchen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welche Wortgruppe hat passive Bedeutung?",
+        "options": [
+          "das gelesene Buch",
+          "das lesende Kind"
+        ],
+        "correctIndex": 0,
+        "explanation": "Partizip II = passive: das [[Buch]], das gelesen wurde. Partizip I is active: das Kind, das liest."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "die von ihm ___ E-Mail (schreiben)",
+        "options": [
+          "geschriebene",
+          "schreibende",
+          "geschrieben"
+        ],
+        "correctIndex": 0,
+        "explanation": "Erweitertes Attribut: die E-Mail, die von ihm geschrieben wurde → die von ihm geschriebene E-Mail."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "der gestern ___ Film (sehen)",
+        "options": [
+          "gesehene",
+          "sehende",
+          "gesehen"
+        ],
+        "correctIndex": 0,
+        "explanation": "der [[Film]], den wir gestern gesehen haben → der gestern gesehene Film."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "die laut ___ Kinder (singen)",
+        "options": [
+          "singenden",
+          "gesungenen",
+          "singend"
+        ],
+        "correctIndex": 0,
+        "explanation": "The children sing themselves → active → Partizip I: die laut singenden Kinder ([[singen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ein Mann, der Deutsch spricht → ein Deutsch ___ Mann",
+        "options": [
+          "sprechender",
+          "gesprochener",
+          "sprechend"
+        ],
+        "correctIndex": 0,
+        "explanation": "Active meaning → Partizip I with masculine ending -er: ein Deutsch sprechender Mann."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Suppe, die gekocht wurde → die ___ Suppe",
+        "options": [
+          "gekochte",
+          "kochende",
+          "gekocht"
+        ],
+        "correctIndex": 0,
+        "explanation": "Something was done to the soup → Partizip II: die gekochte Suppe ([[kochen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "das ___ Wasser (kochen — Partizip I)",
+        "options": [
+          "kochende",
+          "gekochte",
+          "kochend"
+        ],
+        "correctIndex": 0,
+        "explanation": "Partizip I describes what is happening now: das kochende Wasser — the water that is boiling."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„die von der Lehrerin korrigierten Texte“ — wo steht das Partizip?",
+        "options": [
+          "direkt vor dem Nomen",
+          "direkt nach dem Artikel",
+          "ganz am Satzende"
+        ],
+        "correctIndex": 0,
+        "explanation": "In an extended attribute the participle always sits right before the noun; the extra details stand between article and participle."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "die von meiner Schwester ___ Wohnung (mieten)",
+        "options": [
+          "gemietete",
+          "mietende",
+          "gemietet"
+        ],
+        "correctIndex": 0,
+        "explanation": "die Wohnung, die meine Schwester gemietet hat → die von meiner Schwester gemietete Wohnung."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Zug ist pünktlich angekommen. → der pünktlich ___ Zug",
+        "options": [
+          "angekommene",
+          "ankommende",
+          "angekommen"
+        ],
+        "correctIndex": 0,
+        "explanation": "ankommen builds the Perfekt with sein, so its Partizip II is active but finished: der pünktlich angekommene Zug."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Die im Garten spielenden Kinder sind laut.",
+          "Die spielenden im Garten Kinder sind laut.",
+          "Die Kinder spielenden im Garten sind laut."
+        ],
+        "correctIndex": 0,
+        "explanation": "Order inside the attribute: Artikel – Zusatz – Partizip – Nomen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ein Buch, das viel gelesen wird → ein viel ___ Buch",
+        "options": [
+          "gelesenes",
+          "lesendes",
+          "gelesen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Passive → Partizip II; neuter Nominativ after ein takes -es: ein viel gelesenes Buch ([[lesen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "die seit Jahren ___ Firma (bestehen)",
+        "options": [
+          "bestehende",
+          "bestandene",
+          "bestehend"
+        ],
+        "correctIndex": 0,
+        "explanation": "The company still exists → ongoing → Partizip I: die seit Jahren bestehende [[Firma]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was bedeutet „die geöffneten Läden“?",
+        "options": [
+          "Die Läden sind schon geöffnet worden.",
+          "Die Läden öffnen gerade."
+        ],
+        "correctIndex": 0,
+        "explanation": "Partizip II = passive and completed. For the ongoing action you would need a relative clause: die Läden, die gerade öffnen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Baum ist gefallen. → der ___ Baum",
+        "options": [
+          "gefallene",
+          "fallende",
+          "gefallen"
+        ],
+        "correctIndex": 0,
+        "explanation": "fallen takes sein in the Perfekt, so der gefallene [[Baum]] = der Baum, der gefallen ist."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "die von den Studenten ___ Fragen (stellen)",
+        "options": [
+          "gestellten",
+          "stellenden",
+          "gestellt"
+        ],
+        "correctIndex": 0,
+        "explanation": "die [[Fragen|Frage]], die die Studenten gestellt haben → die von den Studenten gestellten Fragen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "der ___ Mann (schlafen — Partizip I)",
+        "accept": [
+          "schlafende"
+        ],
+        "explanation": "schlafen → schlafend + Endung -e nach „der“: der schlafende Mann."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "die ___ Tür (schließen — Partizip II)",
+        "accept": [
+          "geschlossene"
+        ],
+        "explanation": "Passive and finished: die Tür, die geschlossen wurde → die geschlossene Tür."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "die ___ Blumen (blühen — Partizip I)",
+        "accept": [
+          "blühenden"
+        ],
+        "explanation": "Plural after the definite article takes -en: die blühenden Blumen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "das gerade ___ Baby (weinen — Partizip I)",
+        "accept": [
+          "weinende"
+        ],
+        "explanation": "„gerade“ signals an ongoing action → Partizip I: das gerade weinende Baby."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "die von Anna ___ Fotos (machen — Partizip II)",
+        "accept": [
+          "gemachten"
+        ],
+        "explanation": "Erweitertes Attribut, Plural nach „die“ → -en: die von Anna gemachten Fotos."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "ein gut ___ Buch (schreiben — Partizip II)",
+        "accept": [
+          "geschriebenes"
+        ],
+        "hint": "Neutrum nach „ein“",
+        "explanation": "Neuter after ein takes -es: ein gut geschriebenes Buch."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Kind, das lacht → das ___ Kind",
+        "accept": [
+          "lachende"
+        ],
+        "explanation": "Active relative clause → Partizip I: das lachende Kind ([[lachen]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Uhr, die repariert wurde → die ___ Uhr",
+        "accept": [
+          "reparierte"
+        ],
+        "explanation": "Passive relative clause → Partizip II: die reparierte [[Uhr]]."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "die von meinem Vater ___ Suppe (kochen — Partizip II)",
+        "accept": [
+          "gekochte"
+        ],
+        "explanation": "die Suppe, die mein Vater gekocht hat → die von meinem Vater gekochte Suppe."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "der um sechs Uhr ___ Zug (abfahren — Partizip I)",
+        "accept": [
+          "abfahrende"
+        ],
+        "explanation": "der Zug, der um sechs Uhr abfährt → der um sechs Uhr abfahrende Zug ([[abfahren]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "die im Wald ___ Touristen (wandern — Partizip I)",
+        "accept": [
+          "wandernden"
+        ],
+        "hint": "Plural!",
+        "explanation": "Active and ongoing, Plural nach „die“ → -en: die im Wald wandernden Touristen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "die gestern ___ Rechnung (bezahlen — Partizip II)",
+        "accept": [
+          "bezahlte"
+        ],
+        "explanation": "die [[Rechnung]], die gestern bezahlt wurde → die gestern bezahlte Rechnung."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ein Auto, das in Deutschland gebaut wurde → ein in Deutschland ___ Auto",
+        "accept": [
+          "gebautes"
+        ],
+        "explanation": "Passive → Partizip II; Neutrum nach „ein“ → -es: ein in Deutschland gebautes Auto."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Das",
+          "schlafende",
+          "Kind",
+          "ist",
+          "süß"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "schlafende",
+            "Kind",
+            "ist",
+            "süß"
+          ]
+        ],
+        "translation": "The sleeping child is sweet.",
+        "explanation": "Partizip I as an attribute stands directly before the noun."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Ich",
+          "sehe",
+          "die",
+          "geöffnete",
+          "Tür"
+        ],
+        "solutions": [
+          [
+            "Ich",
+            "sehe",
+            "die",
+            "geöffnete",
+            "Tür"
+          ]
+        ],
+        "translation": "I see the opened door.",
+        "explanation": "Partizip II attribute in the Akkusativ: die geöffnete Tür."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Die",
+          "spielenden",
+          "Kinder",
+          "lachen"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "spielenden",
+            "Kinder",
+            "lachen"
+          ]
+        ],
+        "translation": "The playing children are laughing.",
+        "explanation": "Plural attribute after the definite article takes -en ([[spielen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Der",
+          "geschriebene",
+          "Brief",
+          "liegt",
+          "auf",
+          "dem",
+          "Tisch"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "geschriebene",
+            "Brief",
+            "liegt",
+            "auf",
+            "dem",
+            "Tisch"
+          ]
+        ],
+        "translation": "The written letter is lying on the table.",
+        "explanation": "Partizip II attribute: der Brief, der geschrieben wurde."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Die",
+          "von",
+          "ihm",
+          "geschriebene",
+          "E-Mail",
+          "kam",
+          "gestern"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "von",
+            "ihm",
+            "geschriebene",
+            "E-Mail",
+            "kam",
+            "gestern"
+          ]
+        ],
+        "translation": "The e-mail written by him arrived yesterday.",
+        "explanation": "Erweitertes Attribut: Artikel – von ihm – Partizip – Nomen ([[E-Mail]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Wir",
+          "essen",
+          "die",
+          "gekochten",
+          "Kartoffeln"
+        ],
+        "solutions": [
+          [
+            "Wir",
+            "essen",
+            "die",
+            "gekochten",
+            "Kartoffeln"
+          ]
+        ],
+        "translation": "We are eating the boiled potatoes.",
+        "explanation": "Plural Akkusativ nach „die“ → -en: die gekochten [[Kartoffeln|Kartoffel]]."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Der",
+          "bellende",
+          "Hund",
+          "stört",
+          "die",
+          "Nachbarn"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "bellende",
+            "Hund",
+            "stört",
+            "die",
+            "Nachbarn"
+          ]
+        ],
+        "translation": "The barking dog disturbs the neighbours.",
+        "explanation": "Partizip I = active and ongoing: der Hund, der bellt ([[bellen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Die",
+          "gestern",
+          "reparierte",
+          "Uhr",
+          "geht",
+          "wieder"
+        ],
+        "solutions": [
+          [
+            "Die",
+            "gestern",
+            "reparierte",
+            "Uhr",
+            "geht",
+            "wieder"
+          ]
+        ],
+        "translation": "The watch repaired yesterday works again.",
+        "explanation": "Time details go between article and Partizip II."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Das",
+          "von",
+          "allen",
+          "gelesene",
+          "Buch",
+          "war",
+          "teuer"
+        ],
+        "solutions": [
+          [
+            "Das",
+            "von",
+            "allen",
+            "gelesene",
+            "Buch",
+            "war",
+            "teuer"
+          ]
+        ],
+        "translation": "The book read by everyone was expensive.",
+        "explanation": "The doer stands as von + Dativ inside the extended attribute."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Der",
+          "gerade",
+          "ankommende",
+          "Zug",
+          "ist",
+          "voll"
+        ],
+        "solutions": [
+          [
+            "Der",
+            "gerade",
+            "ankommende",
+            "Zug",
+            "ist",
+            "voll"
+          ]
+        ],
+        "translation": "The train arriving right now is full.",
+        "explanation": "Partizip I for the action in progress: der Zug, der gerade ankommt."
+      }
+    }
+  ]
+}

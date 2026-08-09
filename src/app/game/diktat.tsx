@@ -1,7 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Haptics from 'expo-haptics';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { KeyboardAvoidingView, Platform, Pressable, StyleSheet, TextInput, View } from 'react-native';
+import { KeyboardAvoidingView, Pressable, StyleSheet, TextInput, View } from 'react-native';
 
 import { fetchGameWords, recordGameResult, statsByGame, type RecordOutcome } from '@/db/gamesRepo';
 import { recordMistakes } from '@/db/mistakesRepo';
@@ -202,9 +202,9 @@ export default function DiktatScreen() {
         </AppText>
       </GameTopBar>
 
-      <KeyboardAvoidingView
-        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-        style={styles.fill}>
+      {/* Edge-to-edge Android no longer resizes the window for the keyboard,
+          so both platforms need explicit padding to keep the input visible. */}
+      <KeyboardAvoidingView behavior="padding" style={styles.fill}>
         <View style={[styles.fill, { paddingHorizontal: spacing.lg }]}>
           <View style={styles.speakerBlock}>
             <Pressable

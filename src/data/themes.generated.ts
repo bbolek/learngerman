@@ -3333,6 +3333,76 @@ export const THEMES: Theme[] = [
         "lemma": "Umzugsstress",
         "pos": "noun",
         "level": "B2"
+      },
+      {
+        "lemma": "Elternhaus",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "WG",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Mitbewohnerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Untermieter",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Haushalt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Einzimmerwohnung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Studentenwohnheim",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Putzplan",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Erstausstattung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "unmöbliert",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Klingelschild",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "abnabeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "flügge",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "Nesthocker",
+        "pos": "noun",
+        "level": "C1"
       }
     ]
   },
@@ -6870,6 +6940,41 @@ export const THEMES: Theme[] = [
       {
         "lemma": "arbeitsunfähig",
         "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rehabilitation",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Krankenbesuch",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Schonung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hühnersuppe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fieberthermometer",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Genesungskarte",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Krankenschein",
+        "pos": "noun",
         "level": "B2"
       },
       {
@@ -10581,6 +10686,148 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "gruendung",
+    "title": "Firmengründung & Start-up",
+    "emoji": "💡",
+    "words": [
+      {
+        "lemma": "Firmengründung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Gründerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Existenzgründer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Jungunternehmer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Start-up",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Businessplan",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Pitch",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "GmbH",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Rechtsform",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Gewerbeanmeldung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Firmenname",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Logo",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "eröffnen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Eröffnung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Neueröffnung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sitz",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bankkredit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fördermittel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Förderung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gründerzentrum",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kleinunternehmen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Standbein",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Netzwerken",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kundengewinnung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Durchbruch",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Pleite",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Scheitern",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
     "slug": "wirtschaft",
     "title": "Wirtschaft & Handel",
     "emoji": "📈",
@@ -13321,6 +13568,133 @@ export const THEMES: Theme[] = [
         "lemma": "Vermögen",
         "pos": "noun",
         "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "lotto",
+    "title": "Lottogewinn & Glück",
+    "emoji": "🍀",
+    "words": [
+      {
+        "lemma": "Lotto",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Lottoschein",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Lottozahlen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gewinnzahl",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ziehung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hauptgewinn",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Millionär",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Millionärin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Glückspilz",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Glücksfee",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tippgemeinschaft",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Los",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Losnummer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rubbellos",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sechser",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Volltreffer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Gewinnchance",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "verprassen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abkassieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Erspartes",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Spende",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Finanzberater",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Traumhaus",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Weltreise",
+        "pos": "noun",
+        "level": "B1"
       }
     ]
   },
@@ -21157,6 +21531,163 @@ export const THEMES: Theme[] = [
       {
         "lemma": "tierisch",
         "pos": "adj",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "haustier",
+    "title": "Haustier & Tierliebe",
+    "emoji": "🐶",
+    "words": [
+      {
+        "lemma": "Haustier",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Tierheim",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "adoptieren",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Welpe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kätzchen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Wurf",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Napf",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Leine",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Halsband",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gassi",
+        "pos": "other",
+        "level": "B1"
+      },
+      {
+        "lemma": "spazieren",
+        "pos": "verb",
+        "level": "A2"
+      },
+      {
+        "lemma": "Körbchen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kratzbaum",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Katzenklo",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "stubenrein",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Käfig",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Aquarium",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Terrarium",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hundeschule",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "erziehen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kommando",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Leckerli",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "chippen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "kastrieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kastration",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tierpension",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tiersitter",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tierschutz",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Rasse",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Mischling",
+        "pos": "noun",
         "level": "B2"
       }
     ]

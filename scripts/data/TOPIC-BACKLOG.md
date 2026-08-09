@@ -41,8 +41,13 @@ Heiratsantrag & Hochzeit (batch-115), Bewerbung & Jobsuche (batch-116),
 Geburt & Baby (batch-117), Tod & Trauer (batch-118), Sieg &
 Meisterschaft (batch-119), Beförderung & Aufstieg (batch-120), Umzug &
 Neues Zuhause (batch-121), Einschulung & Abschluss (batch-122),
-Ruhestand & Rente (batch-123), Führerschein & Erstes Auto (batch-124)
-— life-event themes; batch-108's theme was
+Ruhestand & Rente (batch-123), Führerschein & Erstes Auto (batch-124),
+Lottogewinn & Glück (batch-125), Haustier & Tierliebe (batch-126),
+Firmengründung & Start-up (batch-127) — life-event themes; batch-108's
+theme was
 retitled from „Liebe & Hochzeit" when 115 took over the wedding
 vocabulary. Job/sport/wedding basics already lived in older domain
 batches, so these batches carry only the event-specific gap words.
+Two probed events were too thin for own themes and were folded into
+existing batches instead: leaving home → batch-121 (Umzug theme),
+illness & recovery → batch-34 (Gesundheit theme).

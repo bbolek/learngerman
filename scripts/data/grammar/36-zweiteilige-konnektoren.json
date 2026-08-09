@@ -1,0 +1,484 @@
+{
+  "slug": "zweiteilige-konnektoren",
+  "title": "Zweiteilige Konnektoren",
+  "level": "B2",
+  "explainer_md": "Two-part connectors (*zweiteilige Konnektoren*) come as a pair: the first half announces the structure, the second half completes it. The meanings are easy; the trap is the **word order**.\n\n| Paar | Bedeutung |\n|---|---|\n| [[sowohl]] … als auch | both … and |\n| [[entweder]] … oder | either … or |\n| [[weder]] … noch | neither … nor |\n| nicht nur … sondern auch | not only … but also |\n| [[zwar]] … aber | admittedly … but |\n| einerseits … andererseits | on the one hand … on the other |\n\nThe first four join two equal elements and leave the word order untouched: *Er spricht sowohl Englisch als auch Spanisch.* — He speaks both English and Spanish. *weder … noch* is already negative, so never add *nicht*: *Sie trinkt weder Kaffee noch Tee.*\n\n**Agreement:** *sowohl … als auch* takes a plural verb (*Sowohl Anna als auch Tim kommen mit.*), while *weder … noch* and *entweder … oder* follow the nearer subject (*Weder mein Vater noch meine Mutter hat Zeit.*).\n\n**je … [[desto]]** is the odd one out: *je* + comparative opens a **subordinate clause** (verb at the end), *desto* (or *umso*) + comparative the main clause, with the finite verb straight after: *Je länger ich warte, desto nervöser werde ich.* — The longer I wait, the more nervous I get.\n\nWhen *zwar* or *andererseits* stand first, they fill position 1, so the verb follows: *Zwar ist das Hotel teuer, aber das Frühstück ist gut.*",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er spricht ___ Englisch als auch Spanisch.",
+        "options": ["sowohl", "entweder", "weder"],
+        "correctIndex": 0,
+        "explanation": "The pair is [[sowohl]] … als auch = both … and."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie trinkt weder Kaffee ___ Tee.",
+        "options": ["noch", "oder", "und"],
+        "correctIndex": 0,
+        "explanation": "[[weder]] is always answered by noch: weder Kaffee noch Tee."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir fahren entweder nach Wien ___ nach Prag.",
+        "options": ["oder", "noch", "aber"],
+        "correctIndex": 0,
+        "explanation": "[[entweder]] … oder offers two alternatives."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Nicht nur die Kinder, ___ auch die Eltern hatten Spaß.",
+        "options": ["sondern", "aber", "denn"],
+        "correctIndex": 0,
+        "explanation": "After a negation the correction takes [[sondern]]: nicht nur …, sondern auch …"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Je mehr ich lerne, ___ besser verstehe ich die Grammatik.",
+        "options": ["desto", "als", "wie"],
+        "correctIndex": 0,
+        "explanation": "je + Komparativ, then [[desto]] + Komparativ."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Einerseits ist der Job gut bezahlt, ___ habe ich wenig Freizeit.",
+        "options": ["andererseits", "außerdem", "trotzdem"],
+        "correctIndex": 0,
+        "explanation": "einerseits is completed by [[andererseits]] — two sides of the same thing."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Zwar ist die Wohnung klein, ___ sie ist sehr hell.",
+        "options": ["aber", "sondern", "denn"],
+        "correctIndex": 0,
+        "explanation": "[[zwar]] concedes a point, aber contradicts it."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sowohl mein Bruder ___ auch meine Schwester wohnen in Berlin.",
+        "options": ["als", "wie", "so"],
+        "correctIndex": 0,
+        "explanation": "The fixed form is sowohl … als auch (in writing rather than „sowohl … wie auch“)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist richtig?",
+        "options": [
+          "Je länger ich warte, desto nervöser werde ich.",
+          "Je länger warte ich, desto nervöser ich werde.",
+          "Je ich länger warte, desto werde nervöser ich."
+        ],
+        "correctIndex": 0,
+        "explanation": "je-clause = Nebensatz (verb last), desto-clause = Hauptsatz with the verb right after the comparative."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nach „je“ steht das Verb ___.",
+        "options": ["am Ende", "auf Position 2", "auf Position 1"],
+        "correctIndex": 0,
+        "explanation": "je opens a subordinate clause: Je mehr ich *lerne*, …"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nach „desto“ steht ___.",
+        "options": ["der Komparativ und dann das Verb", "das Verb und dann der Komparativ", "sofort das Subjekt"],
+        "correctIndex": 0,
+        "explanation": "desto + Komparativ counts as position 1, so the finite verb comes next: desto besser *verstehe* ich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sowohl mein Onkel als auch meine Tante ___ in Hamburg.",
+        "options": ["wohnen", "wohnt", "wohnst"],
+        "correctIndex": 0,
+        "explanation": "sowohl … als auch joins two subjects → plural verb: wohnen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Weder mein Vater noch meine Mutter ___ heute Zeit.",
+        "options": ["hat", "habe", "hast"],
+        "correctIndex": 0,
+        "explanation": "weder … noch agrees with the nearer subject (meine Mutter) → hat."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Entweder Anna oder Tim ___ uns morgen helfen.",
+        "options": ["kann", "kannst", "könnt"],
+        "correctIndex": 0,
+        "explanation": "entweder … oder also takes the nearer subject: Tim → kann."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Je ___ das Auto ist, desto mehr Benzin braucht es.",
+        "options": ["größer", "groß", "am größten"],
+        "correctIndex": 0,
+        "explanation": "Both halves need a comparative — never the positive or the superlative."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie hat weder Zeit ___ Lust.",
+        "options": ["noch", "nicht", "kein"],
+        "correctIndex": 0,
+        "explanation": "weder … noch already carries the negation; nicht or kein would double it."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Weder … noch“ ist ___.",
+        "options": ["schon verneint", "immer positiv", "eine Frage"],
+        "correctIndex": 0,
+        "explanation": "Weder … noch means neither … nor, so no extra nicht is allowed."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Zwar ___ er wenig Geld, aber er ist glücklich.",
+        "options": ["hat", "er hat", "haben"],
+        "correctIndex": 0,
+        "explanation": "Zwar stands in position 1, so the finite verb follows: Zwar hat er …"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Entweder du gehst jetzt, ___ du hilfst mir in der Küche.",
+        "options": ["oder", "noch", "aber"],
+        "correctIndex": 0,
+        "explanation": "Both halves are full main clauses here — the pair stays entweder … oder."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Nicht nur ___, sondern auch das Wetter war perfekt.",
+        "options": ["das Essen", "war das Essen", "das Essen war"],
+        "correctIndex": 0,
+        "explanation": "Here nicht nur … sondern auch joins two subjects, not two clauses — no extra verb."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Je schneller du arbeitest, ___.",
+        "options": ["desto früher bist du fertig", "desto du bist früher fertig", "desto früher du bist fertig"],
+        "correctIndex": 0,
+        "explanation": "desto + Komparativ + finites Verb + Subjekt: desto früher bist du fertig."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist falsch?",
+        "options": [
+          "Sie isst weder Fleisch noch nicht Fisch.",
+          "Sie isst weder Fleisch noch Fisch.",
+          "Sie isst kein Fleisch und keinen Fisch."
+        ],
+        "correctIndex": 0,
+        "explanation": "Double negation: after weder … noch there is no room for nicht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Umso“ ist ein Synonym für ___.",
+        "options": ["desto", "je", "zwar"],
+        "correctIndex": 0,
+        "explanation": "[[umso]] and desto are interchangeable: Je mehr, umso besser."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er ist zwar müde, ___ er arbeitet weiter.",
+        "options": ["aber", "sondern", "obwohl"],
+        "correctIndex": 0,
+        "explanation": "zwar always pairs with aber; sondern needs a negation before it."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Einerseits will ich sparen, andererseits ___ ich gern.",
+        "options": ["reise", "ich reise", "reisen"],
+        "correctIndex": 0,
+        "explanation": "andererseits fills position 1, so the finite verb comes directly after it."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Kurs ist ___ interessant als auch nützlich.",
+        "accept": ["sowohl"],
+        "explanation": "sowohl … als auch = both … and; here it joins two adjectives."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich trinke weder Bier ___ Wein.",
+        "accept": ["noch"],
+        "explanation": "The second half of weder is always noch."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir gehen entweder ins Kino ___ ins Theater.",
+        "accept": ["oder"],
+        "explanation": "entweder … oder — one of two alternatives."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Je mehr man übt, ___ leichter wird es.",
+        "accept": ["desto", "umso"],
+        "explanation": "desto or umso both work: Je mehr man übt, desto leichter wird es."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Nicht nur ich, ___ auch mein Kollege war überrascht.",
+        "accept": ["sondern"],
+        "explanation": "nicht nur …, sondern auch … — the correction after a negation."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ist das Hotel teuer, aber das Frühstück ist inklusive. (Konzession)",
+        "accept": ["zwar"],
+        "explanation": "Zwar concedes the point, aber brings the counter-argument."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Einerseits ist die Stadt laut, ___ ist sie sehr lebendig.",
+        "accept": ["andererseits"],
+        "explanation": "einerseits … andererseits weighs two sides against each other."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Je länger die Sitzung dauert, ___ müder werde ich.",
+        "accept": ["desto", "umso"],
+        "explanation": "The second half of a je-sentence starts with desto/umso + Komparativ."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sowohl der Chef ___ auch die Kollegen kommen zur Feier.",
+        "accept": ["als"],
+        "explanation": "The fixed pair is sowohl … als auch."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Weder der Bus ___ die Bahn fährt heute.",
+        "accept": ["noch"],
+        "explanation": "weder … noch; the verb agrees with the nearer subject (die Bahn) → fährt."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Je ___ wir losfahren, desto besser. (früh)",
+        "accept": ["früher"],
+        "hint": "Komparativ!",
+        "explanation": "Both halves of je … desto need a comparative: je früher, desto besser."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Je mehr Zeit ich habe, desto ___ lese ich. (viel)",
+        "accept": ["mehr"],
+        "explanation": "The comparative of viel is mehr: desto mehr lese ich."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Entweder ihr helft mit, ___ ihr geht nach Hause.",
+        "accept": ["oder"],
+        "explanation": "Two main clauses joined by entweder … oder — the word order stays normal."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Sie", "liest", "sowohl", "Bücher", "als", "auch", "Zeitungen"],
+        "solutions": [["Sie", "liest", "sowohl", "Bücher", "als", "auch", "Zeitungen"]],
+        "translation": "She reads both books and newspapers.",
+        "explanation": "sowohl … als auch joins two objects; the sentence order stays normal."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Ich", "kenne", "weder", "ihn", "noch", "seine", "Frau"],
+        "solutions": [["Ich", "kenne", "weder", "ihn", "noch", "seine", "Frau"]],
+        "translation": "I know neither him nor his wife.",
+        "explanation": "weder … noch replaces the negation — no nicht is needed."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "nehme", "entweder", "den", "Bus", "oder", "das", "Rad"],
+        "solutions": [["Ich", "nehme", "entweder", "den", "Bus", "oder", "das", "Rad"]],
+        "translation": "I'll take either the bus or the bike.",
+        "explanation": "entweder … oder connects two equal phrases after the verb."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Zwar", "ist", "es", "teuer,", "aber", "es", "lohnt", "sich"],
+        "solutions": [["Zwar", "ist", "es", "teuer,", "aber", "es", "lohnt", "sich"]],
+        "translation": "It is expensive, admittedly, but it's worth it.",
+        "explanation": "Zwar in position 1 → verb in position 2; aber then opens a normal main clause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Je", "älter", "man", "wird,", "desto", "ruhiger", "wird", "man"],
+        "solutions": [["Je", "älter", "man", "wird,", "desto", "ruhiger", "wird", "man"]],
+        "translation": "The older you get, the calmer you get.",
+        "explanation": "je-clause with the verb last, then desto + Komparativ + Verb + Subjekt."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Das", "Zimmer", "ist", "zwar", "klein,", "aber", "günstig"],
+        "solutions": [["Das", "Zimmer", "ist", "zwar", "klein,", "aber", "günstig"]],
+        "translation": "The room is small, admittedly, but cheap.",
+        "explanation": "zwar can also sit inside the clause — then the word order is completely normal."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Nicht", "nur", "Anna,", "sondern", "auch", "Tim", "kommt", "mit"],
+        "solutions": [["Nicht", "nur", "Anna,", "sondern", "auch", "Tim", "kommt", "mit"]],
+        "translation": "Not only Anna but also Tim is coming along.",
+        "explanation": "The verb agrees with the nearer subject Tim → kommt."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Einerseits", "möchte", "ich", "reisen,", "andererseits", "fehlt", "das", "Geld"],
+        "solutions": [["Einerseits", "möchte", "ich", "reisen,", "andererseits", "fehlt", "das", "Geld"]],
+        "translation": "On the one hand I'd like to travel, on the other hand the money is missing.",
+        "explanation": "Both connectors stand in position 1, so both verbs follow immediately."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Weder", "der", "Vater", "noch", "die", "Mutter", "war", "da"],
+        "solutions": [["Weder", "der", "Vater", "noch", "die", "Mutter", "war", "da"]],
+        "translation": "Neither the father nor the mother was there.",
+        "explanation": "The nearer subject (die Mutter) decides the verb form: war."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Entweder", "du", "kommst", "mit", "oder", "du", "bleibst"],
+        "solutions": [["Entweder", "du", "kommst", "mit", "oder", "du", "bleibst"]],
+        "translation": "Either you come along or you stay.",
+        "explanation": "Two main clauses in normal order — entweder does not push the verb anywhere."
+      }
+    }
+  ]
+}

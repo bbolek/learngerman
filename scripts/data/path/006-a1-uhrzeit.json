@@ -1,0 +1,140 @@
+{
+  "slug": "a1-uhrzeit",
+  "title": "Uhrzeit & Tageszeiten",
+  "emoji": "🕐",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-uhrzeit-1",
+      "kind": "lesson",
+      "title": "Wie spät ist es?",
+      "words": [
+        {
+          "lemma": "Uhr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Minute",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Moment",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "halb",
+          "pos": "adj"
+        },
+        {
+          "lemma": "spät",
+          "pos": "adj"
+        },
+        {
+          "lemma": "früh",
+          "pos": "adj"
+        },
+        {
+          "lemma": "wann",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-uhrzeit-2",
+      "kind": "lesson",
+      "title": "Negation",
+      "words": [
+        {
+          "lemma": "nicht",
+          "pos": "adv"
+        },
+        {
+          "lemma": "kein",
+          "pos": "other"
+        },
+        {
+          "lemma": "nie",
+          "pos": "adv"
+        },
+        {
+          "lemma": "nichts",
+          "pos": "pron"
+        },
+        {
+          "lemma": "Mittag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vormittag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachmittag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pause",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "negation",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-uhrzeit-3",
+      "kind": "lesson",
+      "title": "Morgens bis nachts",
+      "words": [
+        {
+          "lemma": "morgens",
+          "pos": "adv"
+        },
+        {
+          "lemma": "abends",
+          "pos": "adv"
+        },
+        {
+          "lemma": "nachts",
+          "pos": "adv"
+        },
+        {
+          "lemma": "nachmittags",
+          "pos": "adv"
+        },
+        {
+          "lemma": "täglich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "jetzt",
+          "pos": "adv"
+        },
+        {
+          "lemma": "dann",
+          "pos": "adv"
+        },
+        {
+          "lemma": "bald",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-uhrzeit-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

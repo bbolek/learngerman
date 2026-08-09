@@ -1,0 +1,201 @@
+{
+  "slug": "b2-umwelt-1",
+  "title": "Umwelt & Wetter 1",
+  "emoji": "🌿",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-umwelt-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Gelände",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Atmosphäre",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klimapolitik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klimaziel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klimakrise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Energiewende",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Solaranlage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klimaabkommen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Windkraft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Windpark",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-umwelt-1-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Wasserkraft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erdwärme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erwärmung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Biomasse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Biogas",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Atomkraftwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kernenergie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stromnetz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Energieeffizienz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Energieversorgung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-umwelt-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Strömung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fußabdruck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wärmepumpe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kohlekraftwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erdgas",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erdöl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Braunkohle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pipeline",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umweltverschmutzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verunreinigung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-umwelt-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Mikroplastik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Grenzwert",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Plastikmüll",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Elektroschrott",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Deponie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kläranlage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abwasser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pfandflasche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Smog",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Orkan",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-umwelt-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

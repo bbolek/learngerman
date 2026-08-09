@@ -1,0 +1,150 @@
+{
+  "slug": "a2-stadt",
+  "title": "Stadt & Gebäude",
+  "emoji": "🏙️",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-stadt-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Viertel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Park",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einwohner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stadtzentrum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Großstadt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hof",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stadtteil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tourist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Altstadt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hauptstraße",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-stadt-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Marktplatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Turm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bushaltestelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einkaufszentrum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bürgersteig",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kleinstadt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Halle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zoo",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brunnen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dom",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-stadt-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Tunnel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hausnummer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gehweg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gasse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bücherei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Buchhandlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fußweg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Laterne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rolltreppe",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-stadt-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

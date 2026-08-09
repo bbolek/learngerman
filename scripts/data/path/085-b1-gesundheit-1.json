@@ -1,0 +1,201 @@
+{
+  "slug": "b1-gesundheit-1",
+  "title": "Gesundheit & Körper 1",
+  "emoji": "🩺",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-gesundheit-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Bluthochdruck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Behandlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nebenwirkung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ernährung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bewegungsmangel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Herzinfarkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlaganfall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Diabetes",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Narkose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blutprobe",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-1-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Entzündung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Infektion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Operation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Narbe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Diät",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Übergewicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stress",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erschöpfung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorerkrankung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Sucht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Impfstoff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vitamin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nährstoff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Massage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heilmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kreislauf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arzttermin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klinik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Risikofaktor",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Station",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arztpraxis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schmerzmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krankenpfleger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krankmeldung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Atmung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pfleger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verdauung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krankenversicherung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Chefarzt",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

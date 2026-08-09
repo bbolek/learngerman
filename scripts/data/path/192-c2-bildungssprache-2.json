@@ -1,0 +1,201 @@
+{
+  "slug": "c2-bildungssprache-2",
+  "title": "Bildungssprache 2",
+  "emoji": "📚",
+  "level": "C2",
+  "lessons": [
+    {
+      "slug": "c2-bildungssprache-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Charakteristikum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "rigide",
+          "pos": "adj"
+        },
+        {
+          "lemma": "behagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gereichen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Gemengelage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "antiquiert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "dürsten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zwist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "altruistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "kaschieren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "echauffieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sammelsurium",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abstrus",
+          "pos": "adj"
+        },
+        {
+          "lemma": "obsiegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Usus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "archaisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gemahnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Konglomerat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "despektierlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "brüsk",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "düpieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Verve",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anachronistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "inständig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "goutieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Demagoge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "omnipräsent",
+          "pos": "adj"
+        },
+        {
+          "lemma": "augenscheinlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "desavouieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Contenance",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "selbstherrlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Komplott",
+          "pos": "noun"
+        },
+        {
+          "lemma": "insinuieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kuriosum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "diffizil",
+          "pos": "adj"
+        },
+        {
+          "lemma": "hinlänglich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "rekurrieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sujet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "süffisant",
+          "pos": "adj"
+        },
+        {
+          "lemma": "entledigen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

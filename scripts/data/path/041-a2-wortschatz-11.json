@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-11",
+  "title": "Wortschatz 11",
+  "emoji": "🧩",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-11-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Sänger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spielzeug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umzug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wettbewerb",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bereit",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Situation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Smartphone",
+          "pos": "noun"
+        },
+        {
+          "lemma": "selbstständig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "tanken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schwanger",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-11-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Unterkunft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schmal",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Tankstelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "App",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schweigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Topf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ab und zu",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Alter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anstrengend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "aufräumen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-11-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "backen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Bauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bescheid",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bestehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "breit",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Brücke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Datum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "dringend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "dumm",
+          "pos": "adj"
+        },
+        {
+          "lemma": "entweder",
+          "pos": "conj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-11-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "erlauben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Fahrplan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geheimnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gucken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "hübsch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Journalist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kamera",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klima",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konto",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Landschaft",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-11-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

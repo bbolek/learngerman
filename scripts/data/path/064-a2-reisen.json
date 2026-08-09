@@ -1,0 +1,95 @@
+{
+  "slug": "a2-reisen",
+  "title": "Reisen & Verkehr",
+  "emoji": "✈️",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-reisen-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Bremse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lenkrad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kofferraum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sicherheitsgurt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Start",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anschnallen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Abflug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hupe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Landung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-reisen-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "hupen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Scheinwerfer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrschule",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrstunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zebrastreifen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blinker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einbahnstraße",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Diesel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-reisen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

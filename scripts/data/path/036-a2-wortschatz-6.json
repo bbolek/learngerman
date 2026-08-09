@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-6",
+  "title": "Wortschatz 6",
+  "emoji": "🗒️",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-6-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Treppe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Spaziergang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "trocken",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Zettel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Finger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schritt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tipp",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verbieten",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-6-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "wach",
+          "pos": "adj"
+        },
+        {
+          "lemma": "anders",
+          "pos": "adv"
+        },
+        {
+          "lemma": "ansehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "benutzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dagegen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "egal",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Grenze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "heiraten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kontakt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "leer",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-6-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "mindestens",
+          "pos": "adv"
+        },
+        {
+          "lemma": "notwendig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Ohr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Punkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Qualität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "regelmäßig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Ruhe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "still",
+          "pos": "adj"
+        },
+        {
+          "lemma": "übersetzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wäsche",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-6-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "zuverlässig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nachher",
+          "pos": "adv"
+        },
+        {
+          "lemma": "verschieden",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Schulter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "trennen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verbinden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zeichnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "stolz",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Untersuchung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wiegen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-6-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

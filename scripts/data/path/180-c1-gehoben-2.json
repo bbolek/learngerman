@@ -1,0 +1,201 @@
+{
+  "slug": "c1-gehoben-2",
+  "title": "Gehobene Sprache 2",
+  "emoji": "📖",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-gehoben-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "wehmütig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "bangen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Übermut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "diffus",
+          "pos": "adj"
+        },
+        {
+          "lemma": "belächeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Gleichnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bizarr",
+          "pos": "adj"
+        },
+        {
+          "lemma": "vereiteln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Abscheu",
+          "pos": "noun"
+        },
+        {
+          "lemma": "übermütig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "erhärten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Scharfsinn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anmaßend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Begierde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anmutig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ausloten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sinnbild",
+          "pos": "noun"
+        },
+        {
+          "lemma": "latent",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zunichtemachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schwermut",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "hochmütig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "diffamieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Verdruss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "eklatant",
+          "pos": "adj"
+        },
+        {
+          "lemma": "anmuten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Argwohn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ehrfürchtig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "verhöhnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ekstase",
+          "pos": "noun"
+        },
+        {
+          "lemma": "desaströs",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "denunzieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dubios",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Häme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "missmutig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sondieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Antipathie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "folgenschwer",
+          "pos": "adj"
+        },
+        {
+          "lemma": "diskreditieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Quintessenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ambivalent",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

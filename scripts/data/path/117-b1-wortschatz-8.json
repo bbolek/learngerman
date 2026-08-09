@@ -1,0 +1,201 @@
+{
+  "slug": "b1-wortschatz-8",
+  "title": "Wortschatz 8",
+  "emoji": "🧠",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wortschatz-8-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "wackeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unabhängig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schaukeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "typisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "marschieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unterschiedlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Flamme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jahreswechsel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trommel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ferkel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-8-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Krone",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anlehnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vielfältig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ausstrecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wesentlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Nagellack",
+          "pos": "noun"
+        },
+        {
+          "lemma": "deutlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "umkippen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kanal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vernünftig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-8-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "hopsen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gerecht",
+          "pos": "adj"
+        },
+        {
+          "lemma": "kauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Landwirtschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stich",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Belohnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "grob",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Trauung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "betonen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Klang",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-8-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Scheune",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weinberg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ritter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "sprinten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "ungerecht",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sinnvoll",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Stahl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "sinnlos",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Schwert",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-8-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

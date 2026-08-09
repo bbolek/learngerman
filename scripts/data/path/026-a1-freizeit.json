@@ -1,0 +1,130 @@
+{
+  "slug": "a1-freizeit",
+  "title": "Freizeit & Hobbys",
+  "emoji": "⚽",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-freizeit-1",
+      "kind": "lesson",
+      "title": "Sport",
+      "words": [
+        {
+          "lemma": "spielen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Spiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sport",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fußball",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schwimmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "tanzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Hobby",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Freizeit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-freizeit-2",
+      "kind": "lesson",
+      "title": "Musik & Filme",
+      "words": [
+        {
+          "lemma": "Musik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konzert",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Film",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fernsehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Fernseher",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Radio",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "lustig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-freizeit-3",
+      "kind": "lesson",
+      "title": "Spaß haben",
+      "words": [
+        {
+          "lemma": "Spaß",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lust",
+          "pos": "noun"
+        },
+        {
+          "lemma": "toll",
+          "pos": "adj"
+        },
+        {
+          "lemma": "prima",
+          "pos": "adj"
+        },
+        {
+          "lemma": "interessant",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gerade",
+          "pos": "adv"
+        },
+        {
+          "lemma": "oft",
+          "pos": "adv"
+        },
+        {
+          "lemma": "manchmal",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-freizeit-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

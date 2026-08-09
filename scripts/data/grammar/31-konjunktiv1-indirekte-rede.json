@@ -1,0 +1,491 @@
+{
+  "slug": "konjunktiv1-indirekte-rede",
+  "title": "Konjunktiv I & indirekte Rede",
+  "level": "B2",
+  "explainer_md": "When you report what someone said without quoting them word for word, German uses **Konjunktiv I**: *Sie sagt, sie **komme** morgen.* — She says she is coming tomorrow. The forms come from the infinitive stem plus -e endings; only *sein* is fully irregular (ich sei, er sei, wir seien).\n\n| | Indikativ | Konjunktiv I |\n|---|---|---|\n| er/sie | kommt | komme |\n| er/sie | hat | habe |\n| er/sie | ist | sei |\n| er/sie | kann | könne |\n\n**Fallback:** in the plural, Konjunktiv I looks exactly like the indicative (*sie kommen*), so German switches to **Konjunktiv II** instead: *Er sagt, seine Freunde **kämen** später.*\n\n**Tense:** anything past (Perfekt or Präteritum) becomes **habe/sei + Partizip II**: *Sie sagt, sie **habe** das [[Buch]] gelesen.* / *Er sagt, er **sei** zu Hause gewesen.* The future uses **werde + Infinitiv**: *Er sagt, er **werde** morgen [[kommen]].*\n\n**Questions and requests:** yes/no questions are reported with *ob* (*Er fragt, **ob** sie Zeit habe.*), W-questions keep their question word (*Sie fragt, wann der Zug komme.*). Requests use *[[bitten]] + zu-Infinitiv*: *Sie bittet ihn, das Fenster zu öffnen.* You will meet Konjunktiv I constantly in the [[Zeitung]] — journalists use it to signal: this is what was said, not verified fact.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie sagt, sie ___ morgen.",
+        "options": ["komme", "kommt", "kam"],
+        "correctIndex": 0,
+        "explanation": "Konjunktiv I for reported speech: Sie sagt, sie komme morgen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er sagt, er ___ krank.",
+        "options": ["sei", "ist", "war"],
+        "correctIndex": 0,
+        "explanation": "Konjunktiv I of sein, 3rd person singular: er sei."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Mann sagt, er ___ keine Zeit.",
+        "options": ["habe", "hat", "hätte"],
+        "correctIndex": 0,
+        "explanation": "er habe = Konjunktiv I of haben. hätte (Konjunktiv II) is only the fallback when Konjunktiv I looks like the indicative."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Anna sagt, sie ___ gut schwimmen.",
+        "options": ["könne", "kann", "konnte"],
+        "correctIndex": 0,
+        "explanation": "Konjunktiv I of können: sie könne gut schwimmen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wie lautet der Konjunktiv I von „sein“ (er)?",
+        "options": ["sei", "wäre", "ist"],
+        "correctIndex": 0,
+        "explanation": "sein is the only fully irregular Konjunktiv I: er sei. wäre is Konjunktiv II."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Direkte Rede: „Ich bin müde.“ → Er sagt, er ___ müde.",
+        "options": ["sei", "ist", "bin"],
+        "correctIndex": 0,
+        "explanation": "ich bin becomes er sei in reported speech — person and mood both shift."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Schüler sagt, er ___ seine Hausaufgaben.",
+        "options": ["mache", "macht", "machte"],
+        "correctIndex": 0,
+        "explanation": "Konjunktiv I = stem + -e: er mache."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie sagt, ihr Bruder ___ in Berlin.",
+        "options": ["wohne", "wohnt", "wohnte"],
+        "correctIndex": 0,
+        "explanation": "Reported speech, 3rd singular: er wohne (Konjunktiv I)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Arzt sagt, ich ___ mehr schlafen.",
+        "options": ["solle", "soll", "sollte"],
+        "correctIndex": 0,
+        "explanation": "Reported advice uses sollen in Konjunktiv I: ich solle mehr schlafen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er fragt, ___ sie Zeit habe.",
+        "options": ["ob", "dass", "wenn"],
+        "correctIndex": 0,
+        "explanation": "Reported yes/no questions start with ob: Er fragt, ob sie Zeit habe."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie fragt, wann der Zug ___.",
+        "options": ["komme", "kommt", "kommen"],
+        "correctIndex": 0,
+        "explanation": "Reported W-questions keep the question word; the verb takes Konjunktiv I: wann der Zug komme."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er sagt, seine Frau ___ das Auto verkauft.",
+        "options": ["habe", "hat", "ist"],
+        "correctIndex": 0,
+        "explanation": "Past events in reported speech: habe/sei + Partizip II — sie habe verkauft."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie sagt, sie ___ morgen anrufen.",
+        "options": ["werde", "wird", "will"],
+        "correctIndex": 0,
+        "explanation": "Future in reported speech: werde + Infinitiv — sie werde anrufen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie bittet ihn, das Fenster ___ öffnen.",
+        "options": ["zu", "um", "für"],
+        "correctIndex": 0,
+        "explanation": "Reported requests use bitten + zu-Infinitiv: Sie bittet ihn, das Fenster zu öffnen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er sagt, das Essen ___ ihm gut.",
+        "options": ["schmecke", "schmeckt", "schmeckte"],
+        "correctIndex": 0,
+        "explanation": "Konjunktiv I, 3rd singular: das Essen schmecke ihm gut."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Minister erklärt, man ___ das Problem lösen.",
+        "options": ["könne", "kann", "konnte"],
+        "correctIndex": 0,
+        "explanation": "man counts as 3rd singular → Konjunktiv I: man könne."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Lehrerin sagt, der Test ___ nicht schwer.",
+        "options": ["sei", "ist", "hat"],
+        "correctIndex": 0,
+        "explanation": "Reported statement with sein: der Test sei nicht schwer."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie sagen, sie ___ morgen keine Zeit.",
+        "options": ["hätten", "haben", "habe"],
+        "correctIndex": 0,
+        "explanation": "Plural Konjunktiv I (haben) looks like the indicative, so Konjunktiv II steps in: sie hätten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er sagt, seine Freunde ___ später.",
+        "options": ["kämen", "kommen", "komme"],
+        "correctIndex": 0,
+        "explanation": "sie kommen (Konjunktiv I) = indicative → fallback to Konjunktiv II: sie kämen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Zeitung schreibt, die Preise ___ weiter.",
+        "options": ["stiegen", "steigen", "steige"],
+        "correctIndex": 0,
+        "explanation": "Plural fallback: Konjunktiv I steigen = indicative, so Konjunktiv II stiegen is used."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Warum heißt es „Er sagt, sie kämen“ und nicht „sie kommen“?",
+        "options": [
+          "Konjunktiv I plural looks like the indicative, so Konjunktiv II steps in",
+          "Konjunktiv II sounds more polite",
+          "kommen has no Konjunktiv I forms"
+        ],
+        "correctIndex": 0,
+        "explanation": "When Konjunktiv I is indistinguishable from the indicative (sie kommen), German uses Konjunktiv II (sie kämen)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er sagt, er ___ gestern im Kino gewesen.",
+        "options": ["sei", "habe", "ist"],
+        "correctIndex": 0,
+        "explanation": "sein-verbs form the reported past with sei + Partizip II: er sei gewesen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie fragt, warum er nicht gekommen ___.",
+        "options": ["sei", "habe", "ist"],
+        "correctIndex": 0,
+        "explanation": "kommen takes sein → reported past: warum er nicht gekommen sei."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekte indirekte Rede?",
+        "options": [
+          "Sie sagt, sie habe das nicht gewusst.",
+          "Sie sagt, sie hat das nicht gewusst habe.",
+          "Sie sagt, sie wisse das nicht gewusst."
+        ],
+        "correctIndex": 0,
+        "explanation": "Reported past = habe + Partizip II: sie habe das nicht gewusst."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Chef sagt, alle Mitarbeiter ___ pünktlich kommen.",
+        "options": ["sollten", "sollen", "solle"],
+        "correctIndex": 0,
+        "explanation": "Plural sollen (Konjunktiv I) = indicative → Konjunktiv II fallback: sie sollten."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er sagt, er ___ Hunger. (haben, Konjunktiv I)",
+        "accept": ["habe"],
+        "explanation": "Konjunktiv I of haben, 3rd singular: er habe Hunger."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie sagt, sie ___ Lehrerin. (sein, Konjunktiv I)",
+        "accept": ["sei"],
+        "explanation": "Konjunktiv I of sein: sie sei Lehrerin."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Junge sagt, er ___ nicht gern Suppe. (essen, Konjunktiv I)",
+        "accept": ["esse"],
+        "explanation": "Konjunktiv I = infinitive stem + -e: er esse (not: er isst)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie behauptet, sie ___ jeden Morgen im Park. (laufen, Konjunktiv I)",
+        "accept": ["laufe"],
+        "explanation": "No umlaut in Konjunktiv I: sie laufe (indicative: sie läuft)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er sagt, er ___ uns morgen besuchen. (werden, Konjunktiv I)",
+        "accept": ["werde"],
+        "explanation": "Reported future: werde + Infinitiv — er werde uns besuchen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Nachbarin sagt, sie ___ nichts gehört. (haben, Konjunktiv I)",
+        "accept": ["habe"],
+        "explanation": "Reported past: habe + Partizip II — sie habe nichts gehört."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er fragt, ___ ich morgen Zeit habe. (Konjunktion)",
+        "accept": ["ob"],
+        "explanation": "Reported yes/no question → ob: Er fragt, ob ich Zeit habe.",
+        "hint": "ja/nein-Frage"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie bittet mich, ihr bei der Aufgabe ___ helfen. (Partikel)",
+        "accept": ["zu"],
+        "explanation": "Reported request: bitten + zu-Infinitiv — ihr zu helfen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Arzt sagt, der Patient ___ viel Wasser trinken. (müssen, Konjunktiv I)",
+        "accept": ["müsse"],
+        "explanation": "Konjunktiv I of müssen: der Patient müsse viel Wasser trinken."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er sagt, seine Eltern ___ kein Auto. (haben, Konjunktiv II als Ersatz)",
+        "accept": ["hätten"],
+        "explanation": "Plural haben (Konjunktiv I) = indicative → Konjunktiv II: sie hätten.",
+        "hint": "Plural!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie sagt, die Kinder ___ schon im Bett. (sein, Konjunktiv I)",
+        "accept": ["seien"],
+        "explanation": "sein keeps distinct plural forms: die Kinder seien im Bett."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Reporter schreibt, der Zug ___ pünktlich angekommen. (sein, Konjunktiv I)",
+        "accept": ["sei"],
+        "explanation": "ankommen takes sein → reported past: der Zug sei angekommen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie sagt, ihre Kollegen ___ heute länger arbeiten. (wollen, Konjunktiv II als Ersatz)",
+        "accept": ["wollten"],
+        "explanation": "Plural wollen (Konjunktiv I) = indicative → Konjunktiv II fallback: sie wollten."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Er", "sagt,", "er", "komme", "morgen"],
+        "solutions": [
+          ["Er", "sagt,", "er", "komme", "morgen"],
+          ["Er", "sagt,", "morgen", "komme", "er"]
+        ],
+        "translation": "He says he is coming tomorrow.",
+        "explanation": "Indirect speech without dass keeps main-clause word order; the verb is Konjunktiv I (komme)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Sie", "sagt,", "sie", "sei", "müde"],
+        "solutions": [["Sie", "sagt,", "sie", "sei", "müde"]],
+        "translation": "She says she is tired.",
+        "explanation": "Konjunktiv I of sein: sie sei müde."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Der", "Mann", "sagt,", "er", "habe", "Zeit"],
+        "solutions": [["Der", "Mann", "sagt,", "er", "habe", "Zeit"]],
+        "translation": "The man says he has time.",
+        "explanation": "Konjunktiv I of haben: er habe Zeit."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "fragt,", "ob", "sie", "komme"],
+        "solutions": [["Er", "fragt,", "ob", "sie", "komme"]],
+        "translation": "He asks whether she is coming.",
+        "explanation": "Reported yes/no question: ob + verb-final Konjunktiv I."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Sie", "sagt,", "sie", "habe", "das", "Buch", "gelesen"],
+        "solutions": [["Sie", "sagt,", "sie", "habe", "das", "Buch", "gelesen"]],
+        "translation": "She says she has read the book.",
+        "explanation": "Reported past: habe + Partizip II at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "sagt,", "er", "werde", "morgen", "kommen"],
+        "solutions": [
+          ["Er", "sagt,", "er", "werde", "morgen", "kommen"],
+          ["Er", "sagt,", "morgen", "werde", "er", "kommen"]
+        ],
+        "translation": "He says he will come tomorrow.",
+        "explanation": "Reported future: werde + Infinitiv at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Sie", "fragt,", "wann", "der", "Zug", "ankomme"],
+        "solutions": [["Sie", "fragt,", "wann", "der", "Zug", "ankomme"]],
+        "translation": "She asks when the train arrives.",
+        "explanation": "Reported W-question: question word + verb-final Konjunktiv I (ankomme)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "sagt,", "seine", "Freunde", "hätten", "keine", "Zeit"],
+        "solutions": [["Er", "sagt,", "seine", "Freunde", "hätten", "keine", "Zeit"]],
+        "translation": "He says his friends have no time.",
+        "explanation": "Plural fallback to Konjunktiv II: hätten instead of haben."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Sie", "bittet", "ihn,", "das", "Fenster", "zu", "öffnen"],
+        "solutions": [["Sie", "bittet", "ihn,", "das", "Fenster", "zu", "öffnen"]],
+        "translation": "She asks him to open the window.",
+        "explanation": "Reported request: bitten + zu-Infinitiv clause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "sagt,", "er", "sei", "zu", "Hause", "gewesen"],
+        "solutions": [["Er", "sagt,", "er", "sei", "zu", "Hause", "gewesen"]],
+        "translation": "He says he was at home.",
+        "explanation": "Reported past with sein: sei + gewesen."
+      }
+    }
+  ]
+}

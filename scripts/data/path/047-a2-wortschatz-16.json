@@ -1,0 +1,207 @@
+{
+  "slug": "a2-wortschatz-16",
+  "title": "Wortschatz 16",
+  "emoji": "🧠",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-16-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "bunt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Decke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "drucken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Fahrstuhl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "frieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gebraucht",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Gitarre",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Grippe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gymnasium",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kalender",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-16-2",
+      "kind": "lesson",
+      "title": "Wechselpräpositionen",
+      "words": [
+        {
+          "lemma": "klopfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "küssen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Lehre",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lügen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Marke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Motorrad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nudel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ostern",
+          "pos": "noun"
+        },
+        {
+          "lemma": "protestieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Rand",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "two-way-preps",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-16-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Regal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reparatur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rückfahrt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schere",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitgeber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Besprechung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Chefin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feierabend",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einkaufswagen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gutschein",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-16-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Münze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Überweisung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abheben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Rucksack",
+          "pos": "noun"
+        },
+        {
+          "lemma": "behandeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verletzt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zusagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verliebt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "aufmerksam",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-16-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

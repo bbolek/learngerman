@@ -1,0 +1,130 @@
+{
+  "slug": "a1-formulare",
+  "title": "Formulare & Ämter",
+  "emoji": "📝",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-formulare-1",
+      "kind": "lesson",
+      "title": "Das Formular",
+      "words": [
+        {
+          "lemma": "Formular",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausfüllen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unterschreiben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Unterschrift",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anmeldung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anmelden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Familienname",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ordnung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-formulare-2",
+      "kind": "lesson",
+      "title": "Öffnungszeiten",
+      "words": [
+        {
+          "lemma": "geöffnet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "geschlossen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "öffnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schließen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aufmachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zumachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "besetzt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "frei",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-formulare-3",
+      "kind": "lesson",
+      "title": "Bei der Polizei",
+      "words": [
+        {
+          "lemma": "Polizei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verboten",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Vorsicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "entschuldigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "privat",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Ding",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wahrscheinlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "sofort",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-formulare-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

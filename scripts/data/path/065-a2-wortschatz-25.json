@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-25",
+  "title": "Wortschatz 25",
+  "emoji": "📚",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-25-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Drogerie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Familienstand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kanne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nadel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Porto",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reportage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitsamt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aushilfe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kassenbon",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausverkauf",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-25-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Preisschild",
+          "pos": "noun"
+        },
+        {
+          "lemma": "umbuchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schaffner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Handgepäck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umleitung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorfahrt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Notaufnahme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Puls",
+          "pos": "noun"
+        },
+        {
+          "lemma": "hin und zurück",
+          "pos": "adv"
+        },
+        {
+          "lemma": "erwarten",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-25-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "arrogant",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gelangweilt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zärtlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "fürsorglich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "naiv",
+          "pos": "adj"
+        },
+        {
+          "lemma": "pessimistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "egoistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "neidisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unsympathisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "verständnisvoll",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-25-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "gelassen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "rücksichtsvoll",
+          "pos": "adj"
+        },
+        {
+          "lemma": "humorvoll",
+          "pos": "adj"
+        },
+        {
+          "lemma": "rücksichtslos",
+          "pos": "adj"
+        },
+        {
+          "lemma": "währenddessen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Neugier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "weglaufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Entfernung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "unangenehm",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Abenteuer",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-25-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "b2-denken",
+  "title": "Denken & Sprechen",
+  "emoji": "🗣️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-denken-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "bedenken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bezeichnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "darstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "durchführen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "hinweisen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "ausführen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "auffordern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "auslösen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "eingehen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b2-denken-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "ansprechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "festlegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "übertreiben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "drängen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zulassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einsehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vornehmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "ausschließen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anführen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b2-denken-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "eintreten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abmachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einleiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "ausdenken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abwarten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "überdenken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "herausfordern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "angehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "klarmachen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b2-denken-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

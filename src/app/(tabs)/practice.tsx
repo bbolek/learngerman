@@ -20,6 +20,9 @@ const LEVEL_SECTIONS: { level: TopicRow['level']; label: string }[] = [
   { level: 'A1', label: 'A1 · Grundlagen' },
   { level: 'A2', label: 'A2 · Aufbau' },
   { level: 'B1', label: 'B1 · Fortgeschritten' },
+  { level: 'B2', label: 'B2 · Sicher' },
+  { level: 'C1', label: 'C1 · Souverän' },
+  { level: 'C2', label: 'C2 · Meisterhaft' },
 ];
 
 /** Lowercase + fold umlauts so "prasens" finds "Präsens". */

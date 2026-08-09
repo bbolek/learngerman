@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-17",
+  "title": "Wortschatz 17",
+  "emoji": "📚",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-17-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "aufgeregt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unsicher",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gleichzeitig",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Mut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geduld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "montags",
+          "pos": "adv"
+        },
+        {
+          "lemma": "tot",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Netz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorlesen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vorziehen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-17-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "anhalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "weggehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "fit",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Garage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gießen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gültig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Hut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kopieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kreuzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lkw",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-17-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Mahlzeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pfund",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Portion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Regenschirm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reifen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Souvenir",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Impfung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krankenschwester",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wartezeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "husten",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-17-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "wegfahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Rat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wegwerfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zurückkommen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zurückrufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Anzeige",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausländer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausschalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aussuchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "blond",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-17-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

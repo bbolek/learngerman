@@ -1,0 +1,107 @@
+{
+  "slug": "a2-kleidung",
+  "title": "Kleidung & Mode",
+  "emoji": "👗",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-kleidung-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "T-Shirt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jeans",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Loch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fliege",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Knopf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ärmel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wolle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unterwäsche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reißverschluss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Baumwolle",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-kleidung-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Muster",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fleck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Badehose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Armband",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gepunktet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Strumpf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hausschuh",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Regenjacke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jogginghose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kleiderbügel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-kleidung-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

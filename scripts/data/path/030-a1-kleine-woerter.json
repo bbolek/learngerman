@@ -1,0 +1,134 @@
+{
+  "slug": "a1-kleine-woerter",
+  "title": "Kleine Wörter",
+  "emoji": "💬",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-kleine-woerter-1",
+      "kind": "lesson",
+      "title": "Und, oder, weil",
+      "words": [
+        {
+          "lemma": "oder",
+          "pos": "conj"
+        },
+        {
+          "lemma": "dass",
+          "pos": "conj"
+        },
+        {
+          "lemma": "denn",
+          "pos": "conj"
+        },
+        {
+          "lemma": "weil",
+          "pos": "conj"
+        },
+        {
+          "lemma": "wenn",
+          "pos": "conj"
+        },
+        {
+          "lemma": "sich",
+          "pos": "pron"
+        },
+        {
+          "lemma": "man",
+          "pos": "pron"
+        },
+        {
+          "lemma": "etwas",
+          "pos": "pron"
+        },
+        {
+          "lemma": "warum",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-kleine-woerter-2",
+      "kind": "lesson",
+      "title": "Wie viel? Wie sehr?",
+      "words": [
+        {
+          "lemma": "sehr",
+          "pos": "adv"
+        },
+        {
+          "lemma": "viel",
+          "pos": "adv"
+        },
+        {
+          "lemma": "mehr",
+          "pos": "adv"
+        },
+        {
+          "lemma": "nur",
+          "pos": "adv"
+        },
+        {
+          "lemma": "noch",
+          "pos": "adv"
+        },
+        {
+          "lemma": "schon",
+          "pos": "adv"
+        },
+        {
+          "lemma": "immer",
+          "pos": "adv"
+        },
+        {
+          "lemma": "ganz",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-kleine-woerter-3",
+      "kind": "lesson",
+      "title": "Hier & da",
+      "words": [
+        {
+          "lemma": "hier",
+          "pos": "adv"
+        },
+        {
+          "lemma": "da",
+          "pos": "adv"
+        },
+        {
+          "lemma": "so",
+          "pos": "adv"
+        },
+        {
+          "lemma": "mal",
+          "pos": "adv"
+        },
+        {
+          "lemma": "wieder",
+          "pos": "adv"
+        },
+        {
+          "lemma": "doch",
+          "pos": "adv"
+        },
+        {
+          "lemma": "erst",
+          "pos": "adv"
+        },
+        {
+          "lemma": "gleich",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-kleine-woerter-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

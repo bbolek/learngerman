@@ -1,0 +1,201 @@
+{
+  "slug": "b2-wortschatz-2",
+  "title": "Wortschatz 2",
+  "emoji": "💬",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-wortschatz-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "ablegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "eilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "glänzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "überflüssig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "glaubwürdig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Masse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Basis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zeitalter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Entdeckung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gewiss",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wortschatz-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "schildern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Herrscher",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlacht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schleichen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "entgegenkommen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "haltbar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Vernunft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Übergang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "tödlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Öffentlichkeit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wortschatz-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Historiker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schimmel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spinne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eskalation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Legende",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wahnsinn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Provokation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Drohung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ultimatum",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wortschatz-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Modebranche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Luftangriff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Textilindustrie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wiedervereinigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kleiderordnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schaufensterpuppe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Irrtum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Königreich",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Delfin",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wortschatz-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "a2-bildung",
+  "title": "Bildung & Wissenschaft",
+  "emoji": "🎓",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-bildung-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Note",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tafel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kreide",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klassenzimmer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schulhof",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Turnhalle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schulranzen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Füller",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Radiergummi",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lineal",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-bildung-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Mäppchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klassenarbeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Diktat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schulfach",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schuljahr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klassenfahrt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pausenbrot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mitschüler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufsatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "auswendig",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a2-bildung-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

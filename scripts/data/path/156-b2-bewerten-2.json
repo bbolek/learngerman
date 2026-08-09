@@ -1,0 +1,99 @@
+{
+  "slug": "b2-bewerten-2",
+  "title": "Bewerten & Beschreiben 2",
+  "emoji": "🌟",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-bewerten-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "weitreichend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unvollständig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ungenau",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zutreffend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "irreführend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unsachlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "annehmbar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ausschlaggebend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unverzichtbar",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-bewerten-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "beachtlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "drastisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gravierend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "minimal",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unwesentlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unerheblich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nennenswert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "spürbar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "merklich",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-bewerten-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

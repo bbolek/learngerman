@@ -1,0 +1,181 @@
+{
+  "slug": "b1-essen-2",
+  "title": "Essen & Trinken 2",
+  "emoji": "🍽️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-essen-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "anbraten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einfrieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Gang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aubergine",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schnittlauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Basilikum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Garnele",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fertiggericht",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-essen-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Tofu",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fettarm",
+          "pos": "adj"
+        },
+        {
+          "lemma": "knackig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "naschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Prise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stammgast",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zuckerfrei",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Olivenöl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "auftauen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-essen-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "kneten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Tageskarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "reifen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Eintopf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hefe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abgießen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Vorbestellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "cremig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "abschmecken",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-essen-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "nachbestellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Auflauf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "garen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Selbstbedienung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "aufkochen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Brühe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Backblech",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-essen-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

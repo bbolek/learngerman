@@ -1,0 +1,187 @@
+{
+  "slug": "b2-kultur",
+  "title": "Kultur & Freizeit",
+  "emoji": "🎭",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-kultur-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Serie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Veranstaltung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Club",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spieler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Disko",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Szene",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Handlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fotograf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Drehbuch",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-kultur-2",
+      "kind": "lesson",
+      "title": "Nominalisierung",
+      "words": [
+        {
+          "lemma": "Videospiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fernsehsendung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Album",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verabredung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Computerspiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spielfilm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gesellschaftsspiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Level",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Höhepunkt",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "nominalisierung",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b2-kultur-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Dokumentation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konsole",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stream",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Comic",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kulisse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Freizeitbeschäftigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Quiz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Cocktail",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abo",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-kultur-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Hörbuch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Filter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Freundeskreis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "geschickt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Controller",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Menschenmenge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "filmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Familienfeier",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-kultur-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -20,6 +20,9 @@ export interface AchievementStats {
   bestScores: Partial<Record<string, number>>;
   /** Best answer streak across arcade games. */
   bestGameStreak: number;
+  /** Lernpfad: completed lessons / fully completed units. */
+  pathLessonsDone: number;
+  pathUnitsDone: number;
 }
 
 export interface AchievementDef {
@@ -76,6 +79,10 @@ export const ACHIEVEMENTS: AchievementDef[] = [
   counter('level-5', '⭐', 'Aufsteiger:in', 'Level 5 erreicht', 5, (s) => s.level),
   counter('level-10', '🌟', 'Zweistellig', 'Level 10 erreicht', 10, (s) => s.level),
   counter('level-20', '💫', 'Höhenflug', 'Level 20 erreicht', 20, (s) => s.level),
+  // Lernpfad
+  counter('path-lessons-10', '🧭', 'Auf dem Weg', '10 Pfad-Lektionen abgeschlossen', 10, (s) => s.pathLessonsDone),
+  counter('path-lessons-50', '🥾', 'Pfadfinder:in', '50 Pfad-Lektionen abgeschlossen', 50, (s) => s.pathLessonsDone),
+  counter('path-units-5', '🏔️', 'Etappensieg', '5 Einheiten im Lernpfad geschafft', 5, (s) => s.pathUnitsDone),
   // Dedication
   counter('days-30', '📅', 'Stammgast', 'An 30 Tagen gelernt', 30, (s) => s.activeDays),
   counter('xp-2500', '💎', 'XP-Schatz', '2500 XP gesammelt', 2500, (s) => s.totalXp),

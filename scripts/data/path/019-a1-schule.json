@@ -1,0 +1,130 @@
+{
+  "slug": "a1-schule",
+  "title": "Schule & Lernen",
+  "emoji": "📚",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-schule-1",
+      "kind": "lesson",
+      "title": "In der Schule",
+      "words": [
+        {
+          "lemma": "Schule",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lernen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Lehrer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schüler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schülerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klasse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kurs",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hausaufgabe",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-schule-2",
+      "kind": "lesson",
+      "title": "Lesen & Schreiben",
+      "words": [
+        {
+          "lemma": "lesen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schreiben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Buch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wort",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Satz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Text",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Seite",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heft",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-schule-3",
+      "kind": "lesson",
+      "title": "Die Prüfung",
+      "words": [
+        {
+          "lemma": "Prüfung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufgabe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Frage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Antwort",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beispiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fehler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lösung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wiederholen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a1-schule-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-15",
+  "title": "Wortschatz 15",
+  "emoji": "🔤",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-15-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "ebenfalls",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Gefühl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beginn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Daten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verfahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "hinsetzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bewerben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Feuerwehr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fremdsprache",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gleis",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-15-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "hässlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Hemd",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kenntnisse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Koch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "korrigieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kündigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Lohn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Magen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mühe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ofen",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-15-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Quittung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rock",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Seife",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verkehrsmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zahnarzt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wandern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wehtun",
+          "pos": "verb"
+        },
+        {
+          "lemma": "hinlegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wundern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schämen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-15-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "engagieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "absagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abschließen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "angenehm",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ausfallen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Auskunft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausstellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "begrüßen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "besichtigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Buchstabe",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-15-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

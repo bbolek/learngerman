@@ -1,0 +1,201 @@
+{
+  "slug": "c1-bildung-2",
+  "title": "Bildung & Wissenschaft 2",
+  "emoji": "🎓",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-bildung-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Stammzelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Quellenangabe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Neuron",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Doktorand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mikrobe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kausalität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "herleiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "empirisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Referendariat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Analphabet",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-bildung-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Erwachsenenbildung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bestnote",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Prüfling",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Prüfungsamt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anwesenheitspflicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Leistungspunkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Regelstudienzeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Studentenwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Werkstudent",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fachschaft",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-bildung-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Studienabbruch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Meisterprüfung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pflichtpraktikum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Praxisbezug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Berufsorientierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Deckblatt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Literaturrecherche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sekundärliteratur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kurzzeitgedächtnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Langzeitgedächtnis",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-bildung-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Halbwissen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verinnerlichen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "nacharbeiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "umschulen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unterfordern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "umformulieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "universitär",
+          "pos": "adj"
+        },
+        {
+          "lemma": "berufsbegleitend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "praxisorientiert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "lernfähig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-bildung-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

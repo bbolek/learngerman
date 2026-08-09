@@ -1,0 +1,53 @@
+{
+  "slug": "a1-familie",
+  "title": "Meine Familie",
+  "emoji": "👪",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-familie-1",
+      "kind": "lesson",
+      "title": "Mutter und Vater",
+      "words": [
+        { "lemma": "Familie", "pos": "noun" },
+        { "lemma": "Mutter", "pos": "noun" },
+        { "lemma": "Vater", "pos": "noun" },
+        { "lemma": "Eltern", "pos": "noun" },
+        { "lemma": "Kind", "pos": "noun" },
+        { "lemma": "Mann", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "a1-familie-2",
+      "kind": "lesson",
+      "title": "Geschwister",
+      "words": [
+        { "lemma": "Bruder", "pos": "noun" },
+        { "lemma": "Schwester", "pos": "noun" },
+        { "lemma": "Sohn", "pos": "noun" },
+        { "lemma": "Tochter", "pos": "noun" },
+        { "lemma": "Oma", "pos": "noun" },
+        { "lemma": "Opa", "pos": "noun" }
+      ],
+      "grammar": [{ "topic": "personal-pronouns", "questions": 4 }]
+    },
+    {
+      "slug": "a1-familie-3",
+      "kind": "lesson",
+      "title": "Er, sie, wir",
+      "words": [
+        { "lemma": "er", "pos": "pron" },
+        { "lemma": "sie", "pos": "pron" },
+        { "lemma": "es", "pos": "pron" },
+        { "lemma": "wir", "pos": "pron" },
+        { "lemma": "ihr", "pos": "pron" },
+        { "lemma": "Freund", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "a1-familie-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

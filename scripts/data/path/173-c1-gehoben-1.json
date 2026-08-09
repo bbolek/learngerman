@@ -1,0 +1,207 @@
+{
+  "slug": "c1-gehoben-1",
+  "title": "Gehobene Sprache 1",
+  "emoji": "📖",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-gehoben-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "unterliegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "suggerieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schwerwiegend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "resignieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verheerend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "eindämmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Unbehagen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fatal",
+          "pos": "adj"
+        },
+        {
+          "lemma": "kapitulieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "sehnsüchtig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-1-2",
+      "kind": "lesson",
+      "title": "Modalpartikeln",
+      "words": [
+        {
+          "lemma": "schüren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "überheblich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Präferenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "subtil",
+          "pos": "adj"
+        },
+        {
+          "lemma": "entfachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Euphorie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "dreist",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Wohlwollen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kurios",
+          "pos": "adj"
+        },
+        {
+          "lemma": "erliegen",
+          "pos": "verb"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "modalpartikeln",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Wehmut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "prekär",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sabotieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "besorgniserregend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Essenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "alarmierend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "beherzigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "herablassend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Unmut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "entbehren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "belanglos",
+          "pos": "adj"
+        },
+        {
+          "lemma": "anbahnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Hochachtung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "skurril",
+          "pos": "adj"
+        },
+        {
+          "lemma": "erahnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "nobel",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Diskrepanz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "grotesk",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gipfeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Inbegriff",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-gehoben-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

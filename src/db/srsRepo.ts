@@ -109,12 +109,14 @@ export interface DayActivity {
   words_saved: number;
   games_played: number;
   texts_read: number;
+  path_lessons_done: number;
 }
 
 export async function recentActivity(days: number, now: Date): Promise<DayActivity[]> {
   const since = new Date(now.getTime() - days * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   return getDb().getAllAsync<DayActivity>(
-    `SELECT day, reviews_done, quiz_done, words_saved, games_played, texts_read
+    `SELECT day, reviews_done, quiz_done, words_saved, games_played, texts_read,
+            path_lessons_done
      FROM daily_activity WHERE day >= ? ORDER BY day`,
     [since]
   );

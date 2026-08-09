@@ -1,0 +1,113 @@
+{
+  "slug": "b1-recht",
+  "title": "Recht & Justiz",
+  "emoji": "⚖️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-recht-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Klage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "klagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verklagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Prozess",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verfahren",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rechtsanwalt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verteidiger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gerichtstermin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "urteilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schuldig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-recht-2",
+      "kind": "lesson",
+      "title": "n-Deklination",
+      "words": [
+        {
+          "lemma": "unschuldig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Schuld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Strafe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bestrafen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geldstrafe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bußgeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Betrug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "betrügen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "fälschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Verbot",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "n-deklination",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-recht-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

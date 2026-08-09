@@ -1,0 +1,126 @@
+{
+  "slug": "c1-arbeit",
+  "title": "Arbeit & Beruf",
+  "emoji": "💼",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-arbeit-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Abfindung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Altersvorsorge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kurzarbeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Provision",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Insolvenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Logistik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Prämie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachfolge",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-arbeit-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Fachkräftemangel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konjunktur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klausel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitsschutz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mitbestimmung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erwerbstätigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abmahnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auftragnehmer",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-arbeit-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Arbeitsvermittlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Leitfaden",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitsgericht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vereinbarkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Existenzgründung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sozialabgaben",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kündigungsschutz",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-arbeit-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

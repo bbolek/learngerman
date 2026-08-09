@@ -1,0 +1,201 @@
+{
+  "slug": "b1-wortschatz-5",
+  "title": "Wortschatz 5",
+  "emoji": "🎒",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wortschatz-5-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Enttäuschung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vertrauen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gerechtigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zusammenarbeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Diskussion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umfrage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fähig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Durchschnitt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ungewöhnlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Bevölkerung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-5-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Fortschritt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bericht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "überzeugen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vereinbaren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bezweifeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "loslassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "betreten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "töten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "trauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "künstlich",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-5-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "stabil",
+          "pos": "adj"
+        },
+        {
+          "lemma": "heimlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "erreichbar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "anfangs",
+          "pos": "adv"
+        },
+        {
+          "lemma": "tagsüber",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Breite",
+          "pos": "noun"
+        },
+        {
+          "lemma": "berechnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Vergnügen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verbesserung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "behaupten",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-5-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "beteiligen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "reagieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "entwickeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beziehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bedauern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Tiefe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "beschädigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Katastrophe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "weigern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verzichten",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-5-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

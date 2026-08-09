@@ -1,0 +1,134 @@
+{
+  "slug": "c1-recht",
+  "title": "Recht & Justiz",
+  "emoji": "⚖️",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-recht-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Knast",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Indiz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tatbestand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erstechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Rechtsprechung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vernehmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Mandant",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gauner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Totschlag",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-recht-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "inhaftieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Revision",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unterschlagung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "absitzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Rechtsmittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spurensicherung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "untertauchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Verjährung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-recht-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Obduktion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "observieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Strafmaß",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Insasse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "beschlagnahmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "straffällig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Schuldspruch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hehlerei",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-recht-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

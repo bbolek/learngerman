@@ -1,0 +1,142 @@
+{
+  "slug": "b2-philosophie",
+  "title": "Philosophie & Denken",
+  "emoji": "🧠",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-philosophie-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Begriff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Logik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wirklichkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wille",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Definition",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Notwendigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Existenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gegensatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wesen",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-philosophie-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Kategorie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Würde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlussfolgerung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Grundsatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "voraussetzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Unsinn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufklärung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Illusion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "rational",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-philosophie-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Weisheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ewigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Maßstab",
+          "pos": "noun"
+        },
+        {
+          "lemma": "deuten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Dilemma",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erfassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Objekt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "denkbar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ethisch",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-philosophie-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

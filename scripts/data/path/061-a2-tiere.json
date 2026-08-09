@@ -1,0 +1,130 @@
+{
+  "slug": "a2-tiere",
+  "title": "Tiere & Pflanzen",
+  "emoji": "🐾",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-tiere-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Biene",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Igel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eichhörnchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mücke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schnecke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wurm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Käfer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eule",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-tiere-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Schwan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kaninchen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ratte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feder",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fell",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flügel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schwanz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nest",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-tiere-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Wiese",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bach",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hügel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sturm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Küste",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Regenbogen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "jagen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-tiere-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

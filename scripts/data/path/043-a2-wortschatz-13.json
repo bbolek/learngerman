@@ -1,0 +1,207 @@
+{
+  "slug": "a2-wortschatz-13",
+  "title": "Wortschatz 13",
+  "emoji": "🎒",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-13-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "klingeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kühl",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Lärm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Löffel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Notfall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "pflegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Rente",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schnupfen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "überholen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-13-2",
+      "kind": "lesson",
+      "title": "Präpositionen + Dativ",
+      "words": [
+        {
+          "lemma": "Gehalt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mitarbeiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Verspätung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "starten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "entspannen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "enttäuscht",
+          "pos": "adj"
+        },
+        {
+          "lemma": "inzwischen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "losgehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wahrheit",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "dat-preps",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-13-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "WLAN",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abmelden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Tropfen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bewegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "fotografieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "sortieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Vorwahl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gewöhnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Alkohol",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitsplatz",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-13-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "ausruhen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beeilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "berühmt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Bewerbung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blatt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dach",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Doktor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "drinnen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "drücken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dünn",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-13-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

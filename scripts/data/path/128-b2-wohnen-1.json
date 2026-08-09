@@ -1,0 +1,207 @@
+{
+  "slug": "b2-wohnen-1",
+  "title": "Wohnen & Zuhause 1",
+  "emoji": "🏠",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-wohnen-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Architektur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Baustil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gotik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Barock",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Renaissance",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jugendstil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bauingenieur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Funktionalität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Proportion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Symmetrie",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wohnen-1-2",
+      "kind": "lesson",
+      "title": "Passiv-Ersatzformen",
+      "words": [
+        {
+          "lemma": "Grundriss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bauplan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Giebel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fundament",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kuppel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bogen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pfeiler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Träger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stütze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Balken",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "passiv-ersatzformen",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b2-wohnen-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Portal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ornament",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Veranda",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pavillon",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschoss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dachgeschoss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dachrinne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schornstein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flachdach",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Satteldach",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wohnen-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Dachterrasse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wintergarten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fensterrahmen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schwelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wendeltreppe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schacht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rampe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Baustoff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Backstein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sandstein",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-wohnen-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

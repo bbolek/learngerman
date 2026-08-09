@@ -15,7 +15,7 @@
 export interface TopicStats {
   id: number;
   title: string;
-  level: 'A1' | 'A2' | 'B1';
+  level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
   attempts: number;
   correct: number;
   /** SRS card is due today (set by the caller from grammar_srs). */
@@ -61,7 +61,7 @@ export function pickNextTopic<T extends TopicStats>(
 
   const fresh = topics.filter((t) => t.attempts === 0);
   if (fresh.length > 0) {
-    // 'A1' < 'A2' < 'B1' holds lexicographically.
+    // 'A1' < 'A2' < 'B1' < 'B2' < 'C1' < 'C2' holds lexicographically.
     const lowestLevel = fresh.reduce((min, t) => (t.level < min ? t.level : min), fresh[0].level);
     const pool = fresh.filter((t) => t.level === lowestLevel);
     const topic = pool[dayHash(dayKey) % pool.length];

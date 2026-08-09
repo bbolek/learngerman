@@ -1,0 +1,207 @@
+{
+  "slug": "a2-arbeit-1",
+  "title": "Arbeit & Beruf 1",
+  "emoji": "💼",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-arbeit-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Produkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Friseur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rentner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachbarin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kundin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Maler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitszeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schauspielerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Polizistin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mechaniker",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-arbeit-1-2",
+      "kind": "lesson",
+      "title": "Futur I",
+      "words": [
+        {
+          "lemma": "Busfahrer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kellnerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Köchin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zahnärztin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tierärztin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Elektriker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feuerwehrmann",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Garantie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bäckerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ingenieurin",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "futur1",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-arbeit-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Journalistin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pilotin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sekretärin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tierarzt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pilot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Taxifahrer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Malerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fischer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Busfahrerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gärtnerin",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-arbeit-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Flugbegleiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Elektrikerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Metzger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Briefträger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fleischer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mechanikerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Postbote",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feuerwehrfrau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Putzfrau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Taxifahrerin",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-arbeit-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "b1-arbeit-3",
+  "title": "Arbeit & Beruf 3",
+  "emoji": "💼",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-arbeit-3-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "beauftragen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Präsidentin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "delegieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Direktorin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ministerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verhandeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Bürgermeisterin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Protokoll",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Altenpfleger",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-3-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Buchhalter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sozialarbeiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dienstplan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Minijob",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitslosengeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reklamation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "absolvieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Psychologin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "koordinieren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-3-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Chirurgin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bewerber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Professorin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einteilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wissenschaftlerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Forscherin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einarbeiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Unternehmerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bewähren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-arbeit-3-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

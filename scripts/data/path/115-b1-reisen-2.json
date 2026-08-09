@@ -1,0 +1,207 @@
+{
+  "slug": "b1-reisen-2",
+  "title": "Reisen & Verkehr 2",
+  "emoji": "✈️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-reisen-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Touristeninformation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Inlandsflug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rückspiegel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auslandsreise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kennzeichen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hotelzimmer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Passagier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kreuzfahrt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umweg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reifenpanne",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-reisen-2-2",
+      "kind": "lesson",
+      "title": "Plusquamperfekt",
+      "words": [
+        {
+          "lemma": "Engpass",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrverbot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ersatzreifen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sauna",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrschein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tempolimit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Inspektion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verkehrsregel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Terminal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lastwagen",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "plusquamperfekt",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-reisen-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Gate",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Grenzübergang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ladestation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gasthaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausblick",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jetlag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "orientieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Fahrbahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abreisen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geschwindigkeitsbegrenzung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-reisen-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Hostel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Attraktion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rückflug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Urlaubsziel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anreisen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verzögern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Blitzer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorbeifahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abfliegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Strafzettel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-reisen-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "b2-reisen-2",
+  "title": "Reisen & Verkehr 2",
+  "emoji": "✈️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-reisen-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Schlepper",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Matrose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Deck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reiseplan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Highlight",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schleuse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reiseroute",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-reisen-2-2",
+      "kind": "lesson",
+      "title": "Präpositionen mit Genitiv",
+      "words": [
+        {
+          "lemma": "Stadtführung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Städtereise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Radtour",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Urlaubsort",
+          "pos": "noun"
+        },
+        {
+          "lemma": "aufbrechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Reisebus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eintrittspreis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Direktflug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "traumhaft",
+          "pos": "adj"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "genitiv-praepositionen",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b2-reisen-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

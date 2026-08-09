@@ -1,0 +1,181 @@
+{
+  "slug": "c1-technik-2",
+  "title": "Technik & Medien 2",
+  "emoji": "💻",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-technik-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "kursieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verharmlosen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "vertuschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "irreführen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "entgegnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zuspitzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "differenzieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "brisant",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Einschaltquote",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-technik-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Überzeugungskraft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausdrucksweise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jargon",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sprachgebrauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Leserschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Boulevardpresse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Inserat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "redigieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "widerrufen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-technik-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "richtigstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "untertreiben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beschönigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "durchsickern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verleumden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anpreisen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verstummen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "artikulieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "rezensieren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "c1-technik-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "relativieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "redaktionell",
+          "pos": "adj"
+        },
+        {
+          "lemma": "reißerisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "polemisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "eloquent",
+          "pos": "adj"
+        },
+        {
+          "lemma": "wortgewandt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "salopp",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sinngemäß",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-technik-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

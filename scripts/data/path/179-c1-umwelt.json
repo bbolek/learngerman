@@ -1,0 +1,99 @@
+{
+  "slug": "c1-umwelt",
+  "title": "Umwelt & Wetter",
+  "emoji": "🌿",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-umwelt-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Böe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kipppunkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verursacher",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Photovoltaik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brennstoffzelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Atomausstieg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Endlager",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Oase",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rückkopplung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-umwelt-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Biotop",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wärmedämmung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erosion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Raffinerie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wüstenbildung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Korallenbleiche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kreislaufwirtschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Katastrophenschutz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gletscherschmelze",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-umwelt-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

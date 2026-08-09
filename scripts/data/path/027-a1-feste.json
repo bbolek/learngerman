@@ -1,0 +1,130 @@
+{
+  "slug": "a1-feste",
+  "title": "Feste & Feiern",
+  "emoji": "🎉",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-feste-1",
+      "kind": "lesson",
+      "title": "Die Party",
+      "words": [
+        {
+          "lemma": "feiern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Fest",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Party",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geburtstag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geschenk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kerze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einladen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Einladung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-feste-2",
+      "kind": "lesson",
+      "title": "Glückwünsche",
+      "words": [
+        {
+          "lemma": "Glückwunsch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Glück",
+          "pos": "noun"
+        },
+        {
+          "lemma": "wünschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "grüßen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Gruß",
+          "pos": "noun"
+        },
+        {
+          "lemma": "herzlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "willkommen",
+          "pos": "other"
+        },
+        {
+          "lemma": "lieb",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-feste-3",
+      "kind": "lesson",
+      "title": "Schöne Momente",
+      "words": [
+        {
+          "lemma": "glücklich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zufrieden",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schade",
+          "pos": "adj"
+        },
+        {
+          "lemma": "leider",
+          "pos": "adv"
+        },
+        {
+          "lemma": "natürlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "einmal",
+          "pos": "adv"
+        },
+        {
+          "lemma": "nochmal",
+          "pos": "adv"
+        },
+        {
+          "lemma": "übrigens",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-feste-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "b1-wortschatz-4",
+  "title": "Wortschatz 4",
+  "emoji": "🌟",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wortschatz-4-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "merkwürdig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ausreichend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sichtbar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gründlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "neulich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "hauptsächlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "ansonsten",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Zeile",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gewohnheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dauer",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-4-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Ausnahme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anlass",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Absicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorteil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachteil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konflikt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorurteil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abstand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kenntnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beschwerde",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-4-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Erwartung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Herausforderung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zusammenhang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vergangenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gegenwart",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erlebnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erschrecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schaden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "auflegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "endgültig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-4-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "verständlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sorgfältig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ausführlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nirgendwo",
+          "pos": "adv"
+        },
+        {
+          "lemma": "stattdessen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "glücklicherweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Anzahl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "angreifen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zugang",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-4-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

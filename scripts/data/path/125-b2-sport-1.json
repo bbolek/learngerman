@@ -1,0 +1,201 @@
+{
+  "slug": "b2-sport-1",
+  "title": "Sport & Fitness 1",
+  "emoji": "⚽",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-sport-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Weltmeisterschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorrunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gruppenphase",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Achtelfinale",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Viertelfinale",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Halbfinale",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hinspiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rückspiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Elfmeterschießen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufsteiger",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-sport-1-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Weltrekord",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bestleistung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Platzierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rangliste",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Favorit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Außenseiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rivale",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Derby",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Revanche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pokal",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-sport-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Trophäe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Triumph",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unentschieden",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Halbzeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anpfiff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Duell",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Freistoß",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eckball",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Elfmeter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sperre",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-sport-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Doping",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Disqualifikation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fairplay",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Taktik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufstellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abwehr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stürmer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mittelfeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flanke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Konter",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-sport-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "b1-bildung-2",
+  "title": "Bildung & Wissenschaft 2",
+  "emoji": "🎓",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-bildung-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Biologie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Realschule",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Versetzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reaktion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mathematik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Berufsschule",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Physik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Temperatur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zulassung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abschreiben",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-bildung-2-2",
+      "kind": "lesson",
+      "title": "Temporalsätze: als, wenn, bevor …",
+      "words": [
+        {
+          "lemma": "Einschreibung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Experiment",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tabelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stundenplan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "nachsitzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "pauken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Grundlage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Versuch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Azubi",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spickzettel",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "temporale-nebensaetze",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-bildung-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Fachliteratur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Quelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Streber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Element",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachhilfe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Druck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erforschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Direktor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "nachweisen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Stoff",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-bildung-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "begründen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Hauptschule",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vermitteln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "chemisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unterrichten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Elternabend",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erlernen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sauerstoff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schulabschluss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "flüssig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-bildung-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

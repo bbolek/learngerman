@@ -1,0 +1,138 @@
+{
+  "slug": "a1-essen",
+  "title": "Essen & Trinken",
+  "emoji": "🍎",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-essen-1",
+      "kind": "lesson",
+      "title": "Erste Lebensmittel",
+      "words": [
+        {
+          "lemma": "essen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "trinken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Essen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Apfel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wasser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Milch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ei",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-essen-2",
+      "kind": "lesson",
+      "title": "Obst & Gemüse",
+      "words": [
+        {
+          "lemma": "Obst",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gemüse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Frucht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Banane",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Orange",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zitrone",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tomate",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kartoffel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gurke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Karotte",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-essen-3",
+      "kind": "lesson",
+      "title": "Hunger & Durst",
+      "words": [
+        {
+          "lemma": "Hunger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Durst",
+          "pos": "noun"
+        },
+        {
+          "lemma": "hungrig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "lecker",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schmecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Käse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wurst",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schinken",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-essen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "b1-amt",
+  "title": "Amt & Bürokratie",
+  "emoji": "📋",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-amt-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Antrag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Frist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unterlagen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kopie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Personalausweis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reisepass",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bestätigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bestätigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Nachweis",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-amt-2",
+      "kind": "lesson",
+      "title": "Verben mit Präpositionen",
+      "words": [
+        {
+          "lemma": "Bescheinigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Genehmigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ablehnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verlängerung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bearbeitung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sachbearbeiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zuständig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Schalter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wartenummer",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "verben-mit-praepositionen",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-amt-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Stempel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Original",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Urkunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geburtsurkunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Akte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wohnsitz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorlegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Aufenthaltserlaubnis",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-amt-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

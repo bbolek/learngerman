@@ -1,0 +1,475 @@
+{
+  "slug": "es-konstruktionen",
+  "title": "es-Konstruktionen",
+  "level": "C2",
+  "explainer_md": "German uses several different *es*, and telling them apart decides whether the little word may be dropped or not.\n\nThe **placeholder es** only keeps position 1 occupied while the real subject waits further back: *Es warten viele [[Gäste|Gast]] vor der [[Tür]].* As soon as anything else takes the first slot, this es vanishes without trace: *Vor der Tür warten viele Gäste.* — never *Vor der Tür es warten …*\n\nThe **correlate es** points forward to a dass-clause or a zu-infinitive: *Es freut mich, dass du kommst.* and *Ich finde es gut, dass du anrufst.* If the clause itself moves to the front, the correlate goes with it: *Dass du kommst, freut mich.* After verbs like *finden*, *hassen* or *lieben*, though, the es in the middle field is obligatory: *Ich hasse es, früh aufzustehen.*\n\n**Fixed es** belongs to the expression itself and can never be dropped, no matter what opens the sentence:\n\n| Wendung | Beispiel |\n|---|---|\n| es gibt | In der Stadt gibt es kein Kino. |\n| es geht um | Worum geht es hier? |\n| es handelt sich um | Dabei [[handelt|handeln]] es sich um einen Irrtum. |\n| es kommt darauf an | Es kommt darauf an, wer fragt. |\n\nWeather verbs behave the same way: *Es [[regnet|regnen]] seit gestern.* *Draußen schneit es.* Here es is the real grammatical subject, so it survives in every position — the placeholder es only ever shows up at the very front.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ regnet seit gestern.",
+        "options": ["Es", "Das", "Er"],
+        "correctIndex": 0,
+        "explanation": "Weather verbs take es as their grammatical subject: Es regnet."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ gibt hier keinen Bahnhof.",
+        "options": ["Es", "Das", "Man"],
+        "correctIndex": 0,
+        "explanation": "es gibt is a fixed expression — the es belongs to it permanently."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "„Es warten viele Gäste vor der Tür.“ → Vor der Tür ___ viele Gäste.",
+        "options": ["warten", "es warten", "warten es"],
+        "correctIndex": 0,
+        "explanation": "The placeholder es disappears once another element fills position 1."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ schneit den ganzen Tag.",
+        "options": ["Es", "Das", "Man"],
+        "correctIndex": 0,
+        "explanation": "Impersonal weather verb: Es schneit den ganzen Tag."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Es freut mich, ___ du kommst.",
+        "options": ["dass", "damit", "als"],
+        "correctIndex": 0,
+        "explanation": "The es is a correlate pointing forward to the dass-clause."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Worum ___ es in dem Film?",
+        "options": ["geht", "gibt", "handelt"],
+        "correctIndex": 0,
+        "explanation": "es geht um = to be about. Worum geht es in dem Film?"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "In welcher Wendung ist „es“ fest und kann nie wegfallen?",
+        "options": ["es gibt", "es warten Gäste", "es kamen viele Leute"],
+        "correctIndex": 0,
+        "explanation": "es gibt keeps its es everywhere; in the other two it is only a placeholder for position 1."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "In dem Roman ___ es sich um eine Familie.",
+        "options": ["handelt", "geht", "gibt"],
+        "correctIndex": 0,
+        "explanation": "es handelt sich um … — the reflexive sich only fits handeln."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Gestern ___ den ganzen Tag.",
+        "options": ["regnete es", "es regnete", "regnete"],
+        "correctIndex": 0,
+        "explanation": "The subject es is obligatory but moves behind the verb: Gestern regnete es."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich finde ___ gut, dass du dich entschuldigt hast.",
+        "options": ["es", "ihn", "sie"],
+        "correctIndex": 0,
+        "explanation": "finden needs the correlate es for the following dass-clause."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": ["Vor der Tür warten viele Gäste.", "Vor der Tür es warten viele Gäste.", "Vor der Tür warten es viele Gäste."],
+        "correctIndex": 0,
+        "explanation": "The placeholder es exists only in position 1 — elsewhere it is simply wrong."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Es kommt ___ an, wer zuerst kommt.",
+        "options": ["darauf", "davon", "dafür"],
+        "correctIndex": 0,
+        "explanation": "Fixed expression: es kommt darauf an, … = it depends on …"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Hier ___ es viele Möglichkeiten.",
+        "options": ["gibt", "geben", "gibst"],
+        "correctIndex": 0,
+        "explanation": "es gibt is always 3rd person singular, even with a plural object: es gibt viele Möglichkeiten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "In welchem Satz ist „es“ ein festes Subjekt und kann nicht wegfallen?",
+        "options": ["Es gibt keinen Zucker mehr.", "Es warten drei Leute draußen.", "Es kamen gestern viele Gäste."],
+        "correctIndex": 0,
+        "explanation": "Only es gibt is fixed; the others lose their es as soon as something else opens the sentence."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Es ist schade, ___ du nicht mitkommst.",
+        "options": ["dass", "damit", "ob"],
+        "correctIndex": 0,
+        "explanation": "The es stands in for the dass-clause that follows."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Mir ___ heute nicht gut.",
+        "options": ["geht es", "es geht", "geht"],
+        "correctIndex": 0,
+        "explanation": "es geht mir … keeps its es; after the fronted Mir the verb comes first, then es."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Es tut mir leid.“ → „Das ___ mir leid.“",
+        "options": ["tut", "tut es", "es tut"],
+        "correctIndex": 0,
+        "explanation": "Here es was only a placeholder subject; Das replaces it completely."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Es freut mich, dass du da bist.“ — Wie lautet der Satz mit vorangestelltem dass-Satz?",
+        "options": ["Dass du da bist, freut mich.", "Dass du da bist, es freut mich.", "Es dass du da bist, freut mich."],
+        "correctIndex": 0,
+        "explanation": "The clause itself now fills position 1, so the correlate es drops out."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist falsch?",
+        "options": ["Heute es gibt keinen Kaffee.", "Heute gibt es keinen Kaffee.", "Es gibt heute keinen Kaffee."],
+        "correctIndex": 0,
+        "explanation": "The es of es gibt stays, but it never stands between position 1 and the verb."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Warum fällt „es“ in „Vor der Tür warten viele Gäste“ weg?",
+        "options": ["weil das Vorfeld schon besetzt ist", "weil „Gäste“ im Plural steht", "weil der Satz kein Objekt hat"],
+        "correctIndex": 0,
+        "explanation": "The placeholder es exists only to fill the pre-field; a real constituent there makes it superfluous."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was ist in „Es warten viele Gäste“ das Subjekt?",
+        "options": ["viele Gäste", "es", "warten"],
+        "correctIndex": 0,
+        "explanation": "The verb agrees with viele Gäste (plural warten) — es is only a placeholder."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich hasse ___, früh aufzustehen.",
+        "options": ["es", "ihn", "dem"],
+        "correctIndex": 0,
+        "explanation": "hassen, lieben and finden keep an obligatory correlate es before the zu-infinitive."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Aussage über das Platzhalter-„es“ stimmt?",
+        "options": ["Es steht nur an erster Stelle.", "Es steht immer direkt vor dem Verb.", "Es kann an jeder Stelle stehen."],
+        "correctIndex": 0,
+        "explanation": "Placeholder es lives in the pre-field only; fixed es (es gibt, es regnet) lives everywhere."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Es ist nicht leicht, eine Wohnung ___ finden.",
+        "options": ["zu", "um", "für"],
+        "correctIndex": 0,
+        "explanation": "The correlate es points forward to an infinitive clause with zu."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Es wurde viel getanzt.“ Welche Funktion hat „es“?",
+        "options": ["Es besetzt nur das Vorfeld.", "Es ist das Objekt des Satzes.", "Es bezeichnet eine Person."],
+        "correctIndex": 0,
+        "explanation": "The subjectless passive needs something in position 1 — compare Gestern wurde viel getanzt, where es is gone."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ regnet schon wieder.",
+        "accept": ["Es", "es"],
+        "explanation": "Weather verbs always take es: Es regnet schon wieder."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ gibt in diesem Dorf keine Schule.",
+        "accept": ["Es", "es"],
+        "explanation": "Fixed expression es gibt + Akkusativ."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Worum geht ___ in dem Buch?",
+        "accept": ["es"],
+        "explanation": "es geht um … keeps its es in questions too."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "In dem Artikel handelt ___ sich um den Klimaschutz.",
+        "accept": ["es"],
+        "explanation": "es handelt sich um … — a fixed formula of written German."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Es warten viele Leute draußen.“ → Draußen ___ viele Leute.",
+        "accept": ["warten"],
+        "explanation": "The placeholder es is gone; the verb agrees with viele Leute."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich finde ___ gut, dass du anrufst.",
+        "accept": ["es"],
+        "explanation": "Obligatory correlate es with finden."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Es kommt ___ an, ob du regelmäßig übst.",
+        "accept": ["darauf"],
+        "explanation": "es kommt darauf an, ob/wer/wie … = it depends."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Es hängt ___ ab, wie das Wetter wird.",
+        "accept": ["davon"],
+        "explanation": "es hängt davon ab, … — like es kommt darauf an, the es stays put."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Es freut mich, dass du kommst.“ → Dass du kommst, ___ mich.",
+        "accept": ["freut"],
+        "explanation": "The fronted dass-clause is now the subject, so the correlate es disappears."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Gestern ___ es den ganzen Abend geschneit.",
+        "accept": ["hat"],
+        "explanation": "Weather verbs form the Perfekt with haben and keep their es: Gestern hat es geschneit."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Mir ___ es heute viel besser.",
+        "accept": ["geht"],
+        "explanation": "es geht mir gut — with Mir in position 1 the order is verb, then es."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Es ist wichtig, pünktlich zu sein.“ → Pünktlich zu sein, ___ wichtig.",
+        "accept": ["ist"],
+        "explanation": "The infinitive clause now fills position 1, so no correlate es is needed."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie liebt ___, im Regen spazieren zu gehen.",
+        "accept": ["es"],
+        "explanation": "lieben keeps an obligatory es before the zu-infinitive."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Es", "regnet", "seit", "gestern"],
+        "solutions": [["Es", "regnet", "seit", "gestern"]],
+        "translation": "It has been raining since yesterday.",
+        "explanation": "Impersonal es in position 1, verb in position 2."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Es", "gibt", "hier", "keinen", "Bahnhof"],
+        "solutions": [["Es", "gibt", "hier", "keinen", "Bahnhof"]],
+        "translation": "There is no station here.",
+        "explanation": "es gibt + Akkusativ — the object is keinen Bahnhof."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Es", "warten", "viele", "Gäste", "draußen"],
+        "solutions": [["Es", "warten", "viele", "Gäste", "draußen"]],
+        "translation": "Many guests are waiting outside.",
+        "explanation": "Placeholder es in the pre-field; the verb still agrees with the real subject viele Gäste."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Vor", "der", "Tür", "warten", "viele", "Gäste"],
+        "solutions": [["Vor", "der", "Tür", "warten", "viele", "Gäste"]],
+        "translation": "Many guests are waiting outside the door.",
+        "explanation": "The pre-field is taken by Vor der Tür, so there is no es left in the sentence."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Es", "freut", "mich,", "dass", "du", "kommst"],
+        "solutions": [["Es", "freut", "mich,", "dass", "du", "kommst"]],
+        "translation": "I am glad that you are coming.",
+        "explanation": "Correlate es first, the dass-clause it announces last."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Dass", "du", "kommst,", "freut", "mich"],
+        "solutions": [["Dass", "du", "kommst,", "freut", "mich"]],
+        "translation": "That you are coming makes me happy.",
+        "explanation": "With the clause in position 1 the correlate es is dropped."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "finde", "es", "gut,", "dass", "du", "hilfst"],
+        "solutions": [["Ich", "finde", "es", "gut,", "dass", "du", "hilfst"]],
+        "translation": "I think it's good that you are helping.",
+        "explanation": "With [[finden]] the es in the middle field is obligatory."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Es", "handelt", "sich", "um", "einen", "Irrtum"],
+        "solutions": [["Es", "handelt", "sich", "um", "einen", "Irrtum"]],
+        "translation": "It is a misunderstanding.",
+        "explanation": "Fixed formula: es handelt sich um + Akkusativ."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Es", "kommt", "darauf", "an,", "wer", "gewinnt"],
+        "solutions": [["Es", "kommt", "darauf", "an,", "wer", "gewinnt"]],
+        "translation": "It depends on who wins.",
+        "explanation": "es kommt darauf an announces the indirect question that follows."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Worum", "geht", "es", "in", "dem", "Film"],
+        "solutions": [["Worum", "geht", "es", "in", "dem", "Film"]],
+        "translation": "What is the film about?",
+        "explanation": "In a w-question the es follows the verb but can never be left out."
+      }
+    }
+  ]
+}

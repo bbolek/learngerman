@@ -1,0 +1,475 @@
+{
+  "slug": "hervorhebung-und-inversion",
+  "title": "Hervorhebung & Wortstellung",
+  "level": "C2",
+  "explainer_md": "A German main clause has exactly one slot in front of the finite verb — the pre-field (*Vorfeld*) — and it holds **one** constituent, never two. Whatever you park there is what the sentence is about, which makes the pre-field the cheapest emphasis device the language has.\n\nAlmost anything can move up there: an object (*Den Film habe ich schon [[gesehen|sehen]].*), a participle (*Gesehen habe ich ihn nicht.*), a predicative adjective (*Schön ist das nicht.*), even a whole clause. The finite verb stays welded to position 2 — *Gestern ich habe ihn gesehen* is the classic slip.\n\n| Betonung | Beispiel |\n|---|---|\n| neutral | Ich habe den Film nicht gesehen. |\n| Objekt vorn | Den Film habe ich nicht gesehen. |\n| Partizip vorn | Gesehen habe ich ihn nicht. |\n| Spaltsatz | Es war Anna, die angerufen hat. |\n\n**Focus particles** stand immediately before the element they highlight, and shifting them shifts the meaning: *[[Sogar]] mein [[Chef]] hat gelacht* (even he did) against *Mein Chef hat sogar gelacht* (he even went as far as laughing). *Gerade*, *ausgerechnet* and *[[lediglich]]* behave the same way.\n\nInside the middle field the tendencies are firm: pronouns come before nouns, two nouns run dative before accusative, two pronouns accusative before dative — *Ich gebe dem Kind das Buch*, but *Ich gebe es dem Kind* and *Ich gebe es ihm*.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wie viele Satzglieder stehen im Vorfeld, also vor dem finiten Verb?",
+        "options": ["genau eins", "zwei", "beliebig viele"],
+        "correctIndex": 0,
+        "explanation": "The pre-field takes exactly one constituent — everything else follows the verb."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welcher Satz betont das Objekt am stärksten?",
+        "options": ["Den Film habe ich schon gesehen.", "Ich habe den Film schon gesehen.", "Ich habe schon den Film gesehen."],
+        "correctIndex": 0,
+        "explanation": "Fronting the object into the pre-field highlights it: Den Film habe ich schon gesehen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gebe ___ das Buch.",
+        "options": ["dem Kind", "das Kind", "des Kindes"],
+        "correctIndex": 0,
+        "explanation": "Two noun objects: dative before accusative — dem Kind das Buch."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gebe es ___.",
+        "options": ["ihm", "ihn", "er"],
+        "correctIndex": 0,
+        "explanation": "geben takes a dative person: es (Akk.) before ihm (Dat.)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welche Wortstellung ist neutral?",
+        "options": ["Ich gebe es dem Kind.", "Ich gebe dem Kind es.", "Ich es gebe dem Kind."],
+        "correctIndex": 0,
+        "explanation": "A pronoun object comes before a noun object, whatever their cases."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ ist das nicht. (schön)",
+        "options": ["Schön", "Schöne", "Schönes"],
+        "correctIndex": 0,
+        "explanation": "A predicative adjective takes no ending, even in the pre-field: Schön ist das nicht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wo steht das finite Verb im Aussagesatz?",
+        "options": ["an zweiter Position", "am Satzende", "an erster Position"],
+        "correctIndex": 0,
+        "explanation": "Position 2 is fixed — the pre-field only decides what stands before it."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Gesehen ___ ich ihn nicht.",
+        "options": ["habe", "bin", "werde"],
+        "correctIndex": 0,
+        "explanation": "The participle is fronted, the auxiliary keeps position 2: Gesehen habe ich ihn nicht."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist falsch?",
+        "options": ["Gestern ich habe ihn gesehen.", "Gestern habe ich ihn gesehen.", "Ich habe ihn gestern gesehen."],
+        "correctIndex": 0,
+        "explanation": "Gestern already fills the pre-field, so ich must move behind the verb."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Sogar mein Chef hat gelacht.“ Worauf bezieht sich „sogar“?",
+        "options": ["auf „mein Chef“", "auf „gelacht“", "auf „hat“"],
+        "correctIndex": 0,
+        "explanation": "A focus particle scopes over what stands directly after it — here the person."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Mein Chef hat sogar gelacht.“ Worauf bezieht sich „sogar“ hier?",
+        "options": ["auf „gelacht“", "auf „mein Chef“", "auf den ganzen Satz"],
+        "correctIndex": 0,
+        "explanation": "Moved in front of the participle, sogar now highlights the action, not the person."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welches Wort betont, dass es überraschend genau diese Person trifft?",
+        "options": ["ausgerechnet", "ungefähr", "vielleicht"],
+        "correctIndex": 0,
+        "explanation": "ausgerechnet du = of all people, you. It is a focus particle with a note of annoyance."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ war Anna, die den Vertrag unterschrieben hat.",
+        "options": ["Es", "Sie", "Dort"],
+        "correctIndex": 0,
+        "explanation": "Cleft-like construction: Es war + focus + relative clause singles out Anna."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„lediglich“ bedeutet ungefähr:",
+        "options": ["nur", "sogar", "besonders"],
+        "correctIndex": 0,
+        "explanation": "lediglich is the formal equivalent of nur and restricts what follows it."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich habe ___ gegeben. (beide Objekte als Pronomen)",
+        "options": ["es ihm", "ihm es", "ihn ihm"],
+        "correctIndex": 0,
+        "explanation": "Two pronouns: accusative before dative — es ihm."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wie ordnet man zwei Nomen-Objekte neutral an?",
+        "options": ["Dativ vor Akkusativ", "Akkusativ vor Dativ", "Genitiv vor Dativ"],
+        "correctIndex": 0,
+        "explanation": "Ich gebe dem Kind das Buch — dative person first, accusative thing second."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wie ordnet man zwei Pronomen-Objekte an?",
+        "options": ["Akkusativ vor Dativ", "Dativ vor Akkusativ", "Die Reihenfolge ist frei."],
+        "correctIndex": 0,
+        "explanation": "With pronouns the order flips: Ich gebe es ihm (not ihm es)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt gebaut?",
+        "options": ["Den Kuchen hat meine Mutter gebacken.", "Den Kuchen meine Mutter hat gebacken.", "Meine Mutter den Kuchen hat gebacken."],
+        "correctIndex": 0,
+        "explanation": "Only one constituent may precede the finite verb; the other two options put two there."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was steht im Vorfeld von „Wegen des Regens blieben wir zu Hause“?",
+        "options": ["die ganze Gruppe „wegen des Regens“", "nur „wegen“", "„wir“"],
+        "correctIndex": 0,
+        "explanation": "A prepositional phrase counts as one single constituent, however long it is."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Es war Anna, die den Vertrag unterschrieben hat.“ Wozu dient diese Konstruktion?",
+        "options": ["Sie hebt „Anna“ hervor.", "Sie drückt Zweifel aus.", "Sie stellt eine Frage."],
+        "correctIndex": 0,
+        "explanation": "The cleft splits the sentence in two so that one element carries the whole focus."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz betont das Partizip am stärksten?",
+        "options": ["Verstanden habe ich das nicht.", "Ich habe das nicht verstanden.", "Das habe ich nicht verstanden."],
+        "correctIndex": 0,
+        "explanation": "Fronting the participle is a strong contrastive move: heard yes, understood no."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wo stehen Pronomen im Mittelfeld normalerweise?",
+        "options": ["möglichst früh, vor den Nomen", "am Ende des Mittelfelds", "hinter dem Partizip"],
+        "correctIndex": 0,
+        "explanation": "Known information comes first, and pronouns are always known: Ich habe es meinem Bruder geliehen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Gerade dich wollte ich sprechen.“ Was leistet „gerade“ hier?",
+        "options": ["Es hebt „dich“ hervor.", "Es bedeutet „soeben“.", "Es verneint den Satz."],
+        "correctIndex": 0,
+        "explanation": "In front of a noun phrase gerade is a focus particle: exactly you, no one else."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist ungrammatisch?",
+        "options": ["Ihm ich habe es gegeben.", "Ihm habe ich es gegeben.", "Ich habe es ihm gegeben."],
+        "correctIndex": 0,
+        "explanation": "The fronted dative pronoun fills the pre-field, so the verb must come next."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Warum ist „Gestern den Film habe ich gesehen“ falsch?",
+        "options": ["Im Vorfeld darf nur ein Satzglied stehen.", "„Gestern“ darf nie vorn stehen.", "Das Partizip steht an der falschen Stelle."],
+        "correctIndex": 0,
+        "explanation": "Gestern and den Film are two constituents — pick one: Gestern habe ich den Film gesehen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ Film habe ich schon gesehen. (der Film als Akkusativobjekt)",
+        "accept": ["Den"],
+        "explanation": "The fronted accusative object keeps its accusative form: Den Film habe ich schon gesehen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich gebe ___ Kind das Buch.",
+        "accept": ["dem"],
+        "explanation": "Dative before accusative when both objects are nouns."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Schön ___ das nicht.",
+        "accept": ["ist"],
+        "explanation": "The adjective occupies the pre-field, so the finite verb follows immediately."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Verstanden ___ ich das nicht.",
+        "accept": ["habe"],
+        "explanation": "Fronted participle, auxiliary in position 2, subject right after it."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ich gebe es ___ (er, Dativ).",
+        "accept": ["ihm"],
+        "explanation": "Accusative pronoun first, dative pronoun second: es ihm."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ mein Chef hat gelacht. (= auch er, überraschend)",
+        "accept": ["Sogar", "sogar"],
+        "explanation": "The focus particle stands directly before the phrase it highlights."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Es war Anna, ___ den Vertrag unterschrieben hat.",
+        "accept": ["die"],
+        "explanation": "The cleft continues with a relative clause agreeing with Anna."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er hat ___ zwei Euro bezahlt. (= nur, formell)",
+        "accept": ["lediglich"],
+        "explanation": "lediglich restricts the phrase that follows it — here the amount."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Ich habe meinem Bruder das Buch gegeben.“ → Ich habe es ___ gegeben.",
+        "accept": ["ihm"],
+        "explanation": "Both objects as pronouns: accusative es before dative ihm."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Ich habe den Brief gestern geschrieben.“ → Betone die Zeit: ___ habe ich den Brief geschrieben.",
+        "accept": ["Gestern", "gestern"],
+        "explanation": "Moving the time phrase into the pre-field puts the emphasis on it."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Ich habe das nicht verstanden.“ → Betone das Partizip: ___ habe ich das nicht.",
+        "accept": ["Verstanden", "verstanden"],
+        "explanation": "Contrastive fronting of the participle: Verstanden habe ich das nicht."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "___ dich wollte ich sprechen! (= genau dich)",
+        "accept": ["Gerade", "gerade", "Ausgerechnet", "ausgerechnet"],
+        "explanation": "gerade and ausgerechnet both focus the pronoun they precede."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Platz vor dem finiten Verb, in dem genau ein Satzglied steht, heißt ___.",
+        "accept": ["Vorfeld", "das Vorfeld"],
+        "explanation": "Vorfeld = pre-field; filling it is the standard way of marking emphasis."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Den", "Film", "habe", "ich", "schon", "gesehen"],
+        "solutions": [["Den", "Film", "habe", "ich", "schon", "gesehen"]],
+        "translation": "That film I have already seen.",
+        "explanation": "Object in the pre-field, finite verb second, subject right behind it."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Schön", "ist", "das", "wirklich", "nicht"],
+        "solutions": [["Schön", "ist", "das", "wirklich", "nicht"]],
+        "translation": "Pretty it really is not.",
+        "explanation": "A predicative adjective in the pre-field creates a strong contrast."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Ich", "gebe", "es", "dem", "Kind"],
+        "solutions": [["Ich", "gebe", "es", "dem", "Kind"]],
+        "translation": "I give it to the child.",
+        "explanation": "Pronoun before noun — es comes first even though it is the accusative."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Gesehen", "habe", "ich", "ihn", "nicht"],
+        "solutions": [["Gesehen", "habe", "ich", "ihn", "nicht"]],
+        "translation": "Seen him I have not.",
+        "explanation": "Contrastive fronting of the participle; the auxiliary stays in position 2."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Sogar", "mein", "Chef", "hat", "gelacht"],
+        "solutions": [["Sogar", "mein", "Chef", "hat", "gelacht"]],
+        "translation": "Even my boss laughed.",
+        "explanation": "The particle and the phrase it focuses form one constituent in the pre-field."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Es", "war", "Anna,", "die", "angerufen", "hat"],
+        "solutions": [["Es", "war", "Anna,", "die", "angerufen", "hat"]],
+        "translation": "It was Anna who called.",
+        "explanation": "Cleft construction: Es war + focus + relative clause with the verb at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Ich", "habe", "es", "ihm", "gestern", "gegeben"],
+        "solutions": [["Ich", "habe", "es", "ihm", "gestern", "gegeben"]],
+        "translation": "I gave it to him yesterday.",
+        "explanation": "Both pronouns come early, accusative before dative, then the time phrase."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Ihm", "habe", "ich", "das", "Buch", "geliehen"],
+        "solutions": [["Ihm", "habe", "ich", "das", "Buch", "geliehen"]],
+        "translation": "To him I lent the book.",
+        "explanation": "The dative pronoun is fronted for contrast — and the verb still holds position 2."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Gestern", "hat", "er", "mir", "die", "Wahrheit", "gesagt"],
+        "solutions": [["Gestern", "hat", "er", "mir", "die", "Wahrheit", "gesagt"]],
+        "translation": "Yesterday he told me the truth.",
+        "explanation": "Time phrase in the pre-field, then subject and the pronoun mir before the noun object."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Lediglich", "zwei", "Gäste", "sind", "gekommen"],
+        "solutions": [["Lediglich", "zwei", "Gäste", "sind", "gekommen"]],
+        "translation": "Only two guests came.",
+        "explanation": "lediglich focuses zwei Gäste and travels with it into the pre-field."
+      }
+    }
+  ]
+}

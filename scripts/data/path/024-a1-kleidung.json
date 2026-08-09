@@ -1,0 +1,122 @@
+{
+  "slug": "a1-kleidung",
+  "title": "Kleidung & Farben",
+  "emoji": "👕",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-kleidung-1",
+      "kind": "lesson",
+      "title": "Die Kleidung",
+      "words": [
+        {
+          "lemma": "Kleidung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jacke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schuh",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brille",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Größe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verkäufer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verkäuferin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Karte",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-kleidung-2",
+      "kind": "lesson",
+      "title": "Farben",
+      "words": [
+        {
+          "lemma": "Farbe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "rot",
+          "pos": "adj"
+        },
+        {
+          "lemma": "grün",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gelb",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schwarz",
+          "pos": "adj"
+        },
+        {
+          "lemma": "weiß",
+          "pos": "adj"
+        },
+        {
+          "lemma": "hell",
+          "pos": "adj"
+        },
+        {
+          "lemma": "dunkel",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-kleidung-3",
+      "kind": "lesson",
+      "title": "Beim Bäcker",
+      "words": [
+        {
+          "lemma": "Bäckerei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kiosk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dank",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zuerst",
+          "pos": "adv"
+        },
+        {
+          "lemma": "bisschen",
+          "pos": "pron"
+        },
+        {
+          "lemma": "vielleicht",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-kleidung-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

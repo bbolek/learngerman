@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-28",
+  "title": "Wortschatz 28",
+  "emoji": "🌟",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-28-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Taschengeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Notausgang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "stornieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Flugbegleiterin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "aufessen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "messen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Stroh",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fotografin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorheizen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schneien",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-28-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Musikschule",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trainerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ankreuzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Durchsage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Büroklammer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "quittieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Parkschein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zwischenstopp",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krankschreibung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "auschecken",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-28-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "untreu",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unruhig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "blind",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Musikunterricht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kochlöffel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brokkoli",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bremsen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schmutz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anrufbeantworter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schlau",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-28-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Feuerzeug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "unbequem",
+          "pos": "adj"
+        },
+        {
+          "lemma": "hüpfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unpünktlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unpraktisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zudecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geschenkpapier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlüsselbund",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aschenbecher",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gummiband",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-28-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

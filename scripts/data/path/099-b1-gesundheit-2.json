@@ -1,0 +1,207 @@
+{
+  "slug": "b1-gesundheit-2",
+  "title": "Gesundheit & Körper 2",
+  "emoji": "🩺",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-gesundheit-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Stoffwechsel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Versichertenkarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Immunsystem",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Chirurg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Überweisungsschein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gelenk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hebamme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Attest",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Migräne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beschwerden",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-2-2",
+      "kind": "lesson",
+      "title": "Infinitiv mit zu",
+      "words": [
+        {
+          "lemma": "Krücke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rückfall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Befund",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schwindel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Infusion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lunge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Halsschmerzen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schwellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Röntgenbild",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bewusstsein",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "infinitiv-mit-zu",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Rückenschmerzen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pille",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krankenbett",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Quarantäne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Durchfall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Genesung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blutabnahme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verstopfung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erholung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reha",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Heiserkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausdauer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausschlag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Physiotherapie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hausarzt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dosis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Facharzt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Visite",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heilung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "röntgen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-gesundheit-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

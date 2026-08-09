@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-27",
+  "title": "Wortschatz 27",
+  "emoji": "🧩",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-27-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Arbeitszeugnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Etikett",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Visum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reisetasche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schließfach",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gips",
+          "pos": "noun"
+        },
+        {
+          "lemma": "niesen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kostenpflichtig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schlagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gehorsam",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-27-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "gutmütig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "launisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "misstrauisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "distanziert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schockiert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "verschlossen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "temperamentvoll",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Scham",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eifersucht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "winken",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-27-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Dunkelheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "aufregend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Stall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Haarfarbe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "werfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Alarm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Taste",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kalb",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Haarbürste",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wert",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-27-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Lippenstift",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fundbüro",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wartesaal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bordkarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blutdruck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schieben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Flöte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heu",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Haargummi",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ziehen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-27-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

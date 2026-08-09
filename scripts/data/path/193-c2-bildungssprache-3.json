@@ -1,0 +1,207 @@
+{
+  "slug": "c2-bildungssprache-3",
+  "title": "Bildungssprache 3",
+  "emoji": "📚",
+  "level": "C2",
+  "lessons": [
+    {
+      "slug": "c2-bildungssprache-3-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "oktroyieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kompendium",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gönnerhaft",
+          "pos": "adj"
+        },
+        {
+          "lemma": "perpetuieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Malaise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "immanent",
+          "pos": "adj"
+        },
+        {
+          "lemma": "vonnöten",
+          "pos": "adj"
+        },
+        {
+          "lemma": "kolportieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Verdikt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "inhärent",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-3-2",
+      "kind": "lesson",
+      "title": "es-Konstruktionen",
+      "words": [
+        {
+          "lemma": "Befindlichkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "extrapolieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Antagonismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "euphemistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "einerlei",
+          "pos": "adj"
+        },
+        {
+          "lemma": "explizieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Räson",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Patina",
+          "pos": "noun"
+        },
+        {
+          "lemma": "intrinsisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "bemächtigen",
+          "pos": "verb"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "es-konstruktionen",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-3-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "gewahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Konvolut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "impertinent",
+          "pos": "adj"
+        },
+        {
+          "lemma": "andernorts",
+          "pos": "adv"
+        },
+        {
+          "lemma": "feilbieten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Diktum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "sublim",
+          "pos": "adj"
+        },
+        {
+          "lemma": "erdreisten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Desiderat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "genuin",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-3-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "unabkömmlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gängeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anheimfallen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Widerpart",
+          "pos": "noun"
+        },
+        {
+          "lemma": "despotisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Apologet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "hedonistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Epigone",
+          "pos": "noun"
+        },
+        {
+          "lemma": "affektiert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Adept",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-3-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "b2-gesundheit-2",
+  "title": "Gesundheit & Körper 2",
+  "emoji": "🩺",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-gesundheit-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Schlafstörung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schädel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Chirurgie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Psychiater",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lebenserwartung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Psychotherapeut",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-gesundheit-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "lindern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Becken",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einliefern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Angststörung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verheilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Panikattacke",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-gesundheit-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

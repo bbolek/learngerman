@@ -1,0 +1,201 @@
+{
+  "slug": "b1-wortschatz-3",
+  "title": "Wortschatz 3",
+  "emoji": "🧩",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wortschatz-3-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Unterstützung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Angelegenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "angeben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "fortsetzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unterbrechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "begreifen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beraten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "existieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "fließen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "treiben",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-3-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "ideal",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gewöhnlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unklar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "dicht",
+          "pos": "adj"
+        },
+        {
+          "lemma": "logisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "dauernd",
+          "pos": "adv"
+        },
+        {
+          "lemma": "möglicherweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "umsonst",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Niveau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ersetzen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-3-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Risiko",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verantwortung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erfahrung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umwelt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gesellschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wirtschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Entwicklung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verteilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zeitpunkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bedeutung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-3-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Beziehung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Voraussetzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einstellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verhalten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verhältnis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausdrücken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aufhalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "entfernen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verraten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "stammen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wortschatz-3-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

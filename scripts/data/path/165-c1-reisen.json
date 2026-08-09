@@ -1,0 +1,99 @@
+{
+  "slug": "c1-reisen",
+  "title": "Reisen & Verkehr",
+  "emoji": "✈️",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-reisen-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Spediteur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gefahrgut",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausfuhr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einfuhr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fuhrpark",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flugsicherung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fluglotse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rollfeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tragfläche",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-reisen-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Fahrwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Luftfracht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abfertigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kerosin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flugschreiber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reederei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Werft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Liegeplatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lotse",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-reisen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

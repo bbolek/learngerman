@@ -120,9 +120,27 @@ export const TOUR_STEPS: TourStepDef[] = [
     advance: { kind: 'next' },
   },
   {
+    id: 'tab-path',
+    targetId: 'tab-path',
+    route: '/',
+    title: 'Your learning path',
+    body:
+      '“Lernpfad” is your guided course — units from A1 to C2 with vocabulary, grammar and reviews in the right order. Tap it to take a look.',
+    advance: { kind: 'route', pathname: '/path' },
+  },
+  {
+    id: 'path-map',
+    targetId: 'path-map',
+    route: '/path',
+    title: 'Follow the path',
+    body:
+      'Each circle is a short lesson; finish one to unlock the next and earn up to three stars. Already know some German? The Einstufungstest places you at your level.',
+    advance: { kind: 'next' },
+  },
+  {
     id: 'tab-dictionary',
     targetId: 'tab-dictionary',
-    route: '/',
+    route: '/path',
     title: 'The dictionary',
     body:
       '“Wörterbuch” is your dictionary — the entire Goethe A1/A2 vocabulary, fully offline. Tap it to open.',
@@ -216,7 +234,7 @@ export const TOUR_STEPS: TourStepDef[] = [
     route: '/practice',
     title: 'Flashcards & grammar',
     body:
-      '“Karteikarten” quizzes your saved words with spaced repetition — rate yourself and Deutschly schedules the perfect next review. Below: grammar quizzes for every A1–B1 topic, with explanations.',
+      '“Karteikarten” quizzes your saved words with spaced repetition — rate yourself and Deutschly schedules the perfect next review. Below: grammar quizzes for every A1–C2 topic, with explanations.',
     advance: { kind: 'next' },
   },
   {
@@ -233,7 +251,7 @@ export const TOUR_STEPS: TourStepDef[] = [
     route: '/games',
     title: 'Play to remember',
     body:
-      'Four quick games — Wort-Blitz, Bilderrätsel, Der-die-das and Wortpaare. They all count toward your streak.',
+      'Seven quick games — from Wort-Blitz and Der-die-das to the Konjugations-Trainer — plus live duels. They all count toward your streak.',
     advance: { kind: 'next' },
   },
   {

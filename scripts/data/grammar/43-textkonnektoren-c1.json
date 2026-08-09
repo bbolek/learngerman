@@ -1,0 +1,475 @@
+{
+  "slug": "textkonnektoren-c1",
+  "title": "Textkonnektoren der Schriftsprache",
+  "level": "C1",
+  "explainer_md": "Written German links its sentences with connectors that spoken German almost never uses. Most of them are **adverbs**: they may fill position 1, and the conjugated verb still comes second — *Die [[Kosten]] stiegen; **folglich** musste die [[Firma]] sparen.* Never *folglich die Firma musste …*\n\n| Function | Connectors |\n|---|---|\n| consequence | folglich, demzufolge, demnach, infolgedessen |\n| concession | gleichwohl, dennoch, nichtsdestotrotz |\n| contrast | indes, indessen, hingegen |\n| addition | überdies, zudem, ferner |\n\n*Demnach* and *demzufolge* draw a conclusion from something just quoted, while *infolgedessen* names a real-world result. *Gleichwohl* and *dennoch* concede: *Der [[Preis]] war hoch; **dennoch** kauften wir das Gerät.* *Nichtsdestotrotz* means the same but sounds heavy, so most editors prefer *dennoch*.\n\nTwo connectors are **subjunctions** and send the verb to the end: *wohingegen* (contrast) and *sofern* (condition) — *Wir kommen, **sofern** das [[Wetter]] gut bleibt.* Compare the adverb *hingegen*, which needs no subordinate clause: *Er blieb; sie hingegen ging.* Finally, *insofern* alone means \"in that respect\", but followed by *als* it too becomes a subjunction: *Das gilt insofern, als niemand widersprochen hat.*",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Es regnete stark; folglich ___.",
+        "options": ["blieben wir zu Hause", "wir blieben zu Hause", "wir zu Hause blieben"],
+        "correctIndex": 0,
+        "explanation": "folglich is a connecting adverb in position 1, so the verb comes second and the subject follows."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welches Wort drückt eine Folge aus?",
+        "options": ["infolgedessen", "überdies", "wohingegen"],
+        "correctIndex": 0,
+        "explanation": "infolgedessen = as a result. überdies adds, wohingegen contrasts."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welches Wort drückt einen Gegensatz aus?",
+        "options": ["hingegen", "zudem", "folglich"],
+        "correctIndex": 0,
+        "explanation": "hingegen = by contrast; zudem adds, folglich concludes."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welches Wort fügt ein Argument hinzu?",
+        "options": ["überdies", "dennoch", "sofern"],
+        "correctIndex": 0,
+        "explanation": "überdies = moreover. dennoch concedes, sofern sets a condition."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Preis war hoch; ___ kauften wir das Gerät.",
+        "options": ["dennoch", "folglich", "zudem"],
+        "correctIndex": 0,
+        "explanation": "The high price argues against buying, so a concessive connector is needed: dennoch."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Studie ist alt; ___ sind ihre Ergebnisse noch wichtig.",
+        "options": ["gleichwohl", "demnach", "ferner"],
+        "correctIndex": 0,
+        "explanation": "gleichwohl = nevertheless, the formal twin of trotzdem ([[Ergebnis]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wir fahren morgen, sofern ___.",
+        "options": ["das Wetter gut bleibt", "bleibt das Wetter gut", "das Wetter bleibt gut"],
+        "correctIndex": 0,
+        "explanation": "sofern is a subjunction: the conjugated verb goes to the end of the clause."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er arbeitet im Büro, wohingegen ___.",
+        "options": ["seine Frau zu Hause arbeitet", "arbeitet seine Frau zu Hause", "seine Frau arbeitet zu Hause"],
+        "correctIndex": 0,
+        "explanation": "wohingegen introduces a subordinate clause → verb last."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er blieb im Büro; sie ___ ging nach Hause.",
+        "options": ["hingegen", "wohingegen", "sofern"],
+        "correctIndex": 0,
+        "explanation": "hingegen is an adverb and may sit inside a main clause; wohingegen would require a subordinate clause."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Laut dem Bericht sind die Kosten gestiegen; ___ muss der Preis steigen.",
+        "options": ["demzufolge", "dennoch", "sofern"],
+        "correctIndex": 0,
+        "explanation": "demzufolge draws a conclusion from the quoted source ([[Bericht]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Zudem ___ die Firma neue Stellen geschaffen.",
+        "options": ["hat", "sie hat", "haben"],
+        "correctIndex": 0,
+        "explanation": "After the adverb zudem in position 1 the finite verb follows immediately: Zudem hat die Firma …"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Konnektor verlangt das Verb am Satzende?",
+        "options": ["sofern", "folglich", "überdies"],
+        "correctIndex": 0,
+        "explanation": "Only sofern is a subjunction here; folglich and überdies are adverbs and trigger inversion instead."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Text ist lang; ___ ist er schwer zu lesen.",
+        "options": ["überdies", "wohingegen", "sofern"],
+        "correctIndex": 0,
+        "explanation": "A second drawback is added, so überdies fits ([[Text]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Ferner ___ wir auf zwei Probleme hinweisen.",
+        "options": ["möchten", "wir möchten", "möchte"],
+        "correctIndex": 0,
+        "explanation": "ferner occupies position 1 → möchten in position 2, subject after it."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welches Wort gehört nicht zur Bedeutungsgruppe „Folge“?",
+        "options": ["gleichwohl", "folglich", "infolgedessen"],
+        "correctIndex": 0,
+        "explanation": "gleichwohl concedes; the other two express a consequence."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Maschine war defekt; infolgedessen ___ die Produktion gestoppt werden.",
+        "options": ["musste", "muss man", "hat"],
+        "correctIndex": 0,
+        "explanation": "infolgedessen in position 1 → musste in position 2, passive infinitive at the end."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt? (Einräumung)",
+        "options": ["Dennoch blieb er ruhig.", "Dennoch er blieb ruhig.", "Dennoch, blieb er ruhig."],
+        "correctIndex": 0,
+        "explanation": "dennoch counts as position 1 and takes no comma, so the verb must follow directly."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt? (Gegensatz)",
+        "options": ["Er lachte, wohingegen sie weinte.", "Er lachte, wohingegen weinte sie.", "Er lachte, hingegen sie weinte."],
+        "correctIndex": 0,
+        "explanation": "wohingegen = subjunction (verb last); hingegen is an adverb and cannot introduce a clause this way."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das gilt insofern, ___ niemand widersprochen hat.",
+        "options": ["als", "dass", "wie"],
+        "correctIndex": 0,
+        "explanation": "insofern … als is the fixed pair meaning \"insofar as\"."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welches Wort wirkt in einem gepflegten Text am schwerfälligsten?",
+        "options": ["nichtsdestotrotz", "gleichwohl", "dennoch"],
+        "correctIndex": 0,
+        "explanation": "nichtsdestotrotz is a blend of nichtsdestoweniger and trotzdem — accepted, but heavy; editors prefer dennoch."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Indes ___ die Preise weiter.",
+        "options": ["stiegen", "die Preise stiegen", "stieg"],
+        "correctIndex": 0,
+        "explanation": "indes is a literary contrast adverb: Indes stiegen die Preise weiter ([[steigen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was bedeutet „demnach“?",
+        "options": ["daraus folgt", "trotzdem", "außerdem"],
+        "correctIndex": 0,
+        "explanation": "demnach draws the conclusion from what was just said."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hat den Vertrag gelesen; ___ kennt sie die Bedingungen.",
+        "options": ["demnach", "indes", "sofern"],
+        "correctIndex": 0,
+        "explanation": "The second sentence follows logically from the first → demnach."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Formulierung passt am besten in einen wissenschaftlichen Text?",
+        "options": ["Die Daten sind unvollständig; gleichwohl lassen sich Tendenzen erkennen.", "Die Daten sind unvollständig, aber man sieht trotzdem schon was.", "Die Daten sind unvollständig und da sieht man halt Tendenzen."],
+        "correctIndex": 0,
+        "explanation": "gleichwohl plus the impersonal lassen sich keeps the register formal."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Es war schon spät; ___ gingen wir nach Hause. (Folge)",
+        "accept": ["folglich", "infolgedessen"],
+        "explanation": "A consequence adverb in position 1: Folglich gingen wir nach Hause."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Weg war weit; ___ waren wir schnell da. (Einräumung)",
+        "accept": ["dennoch", "gleichwohl"],
+        "explanation": "Concession: dennoch/gleichwohl, both followed directly by the verb."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Hotel ist günstig; ___ liegt es sehr zentral. (Addition)",
+        "accept": ["zudem", "überdies", "ferner"],
+        "explanation": "An additive adverb in position 1 → liegt in position 2."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wir gehen spazieren, ___ es nicht regnet. (Bedingung, Verb am Ende)",
+        "accept": ["sofern"],
+        "explanation": "sofern = provided that; as a subjunction it pushes regnet to the end."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Firma machte Verluste; ___ wurden Stellen gestrichen. (Folge)",
+        "accept": ["infolgedessen", "folglich"],
+        "explanation": "infolgedessen names the real-world result of the losses.",
+        "hint": "in…dessen"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er spricht drei Sprachen; seine Schwester ___ spricht nur Deutsch. (Gegensatz, Adverb)",
+        "accept": ["hingegen", "indes", "indessen"],
+        "explanation": "As an adverb, hingegen can stand after the subject inside the main clause."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Zeitung nennt neue Zahlen; ___ muss der Plan geändert werden. (dem…)",
+        "accept": ["demnach", "demzufolge"],
+        "explanation": "Both draw a conclusion from the quoted source ([[Zeitung]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Zudem ___ die Regel nur für Neukunden. (gelten)",
+        "accept": ["gilt"],
+        "explanation": "After zudem in position 1 the finite verb follows: Zudem gilt die [[Regel]] …"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Arbeit war schwer; gleichwohl ___ sie ihm Freude gemacht. (haben)",
+        "accept": ["hat"],
+        "explanation": "gleichwohl triggers inversion: gleichwohl hat sie ihm Freude gemacht."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er kam nicht, wohingegen alle anderen pünktlich ___. (sein, Präteritum)",
+        "accept": ["waren"],
+        "explanation": "wohingegen is a subjunction → waren stands at the end."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wir helfen gern, sofern wir genug Zeit ___. (haben)",
+        "accept": ["haben"],
+        "explanation": "Conditional subjunction sofern: the verb closes the clause."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das stimmt insofern, ___ die Zahlen von 2010 stammen. (Konjunktion)",
+        "accept": ["als"],
+        "explanation": "insofern … als restricts a statement: it is true only in this respect."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ferner ___ darauf hingewiesen, dass die Kosten steigen. (werden, Passiv)",
+        "accept": ["wird"],
+        "explanation": "ferner + passive: Ferner wird darauf hingewiesen … — typical of reports."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Die Sitzung dauerte vier Stunden; ___ blieb das Ergebnis unklar. (nichtsdesto…)",
+        "accept": ["nichtsdestotrotz", "nichtsdestoweniger"],
+        "explanation": "Both are heavy concessive adverbs; nichtsdestoweniger is the older, more formal variant."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Folglich", "mussten", "wir", "warten"],
+        "solutions": [["Folglich", "mussten", "wir", "warten"]],
+        "translation": "Consequently we had to wait.",
+        "explanation": "Adverb in position 1, finite verb in position 2, subject third."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Dennoch", "blieb", "er", "ruhig"],
+        "solutions": [["Dennoch", "blieb", "er", "ruhig"]],
+        "translation": "Nevertheless he stayed calm.",
+        "explanation": "dennoch counts as the first element, so blieb comes second."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Zudem", "ist", "das", "Hotel", "günstig"],
+        "solutions": [["Zudem", "ist", "das", "Hotel", "günstig"]],
+        "translation": "Moreover the hotel is cheap.",
+        "explanation": "zudem adds an argument and triggers inversion."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Infolgedessen", "stieg", "der", "Preis", "stark"],
+        "solutions": [["Infolgedessen", "stieg", "der", "Preis", "stark"]],
+        "translation": "As a result the price rose sharply.",
+        "explanation": "infolgedessen names the consequence and stands in position 1."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Wir", "kommen,", "sofern", "es", "nicht", "regnet"],
+        "solutions": [["Wir", "kommen,", "sofern", "es", "nicht", "regnet"]],
+        "translation": "We will come provided that it doesn't rain.",
+        "explanation": "Subjunction sofern: regnet closes the subordinate clause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "liest", "gern,", "sie", "hingegen", "nicht"],
+        "solutions": [["Er", "liest", "gern,", "sie", "hingegen", "nicht"]],
+        "translation": "He likes reading, she by contrast does not.",
+        "explanation": "hingegen is an adverb and follows the subject it contrasts ([[lesen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Überdies", "fehlt", "uns", "das", "Geld"],
+        "solutions": [["Überdies", "fehlt", "uns", "das", "Geld"]],
+        "translation": "Moreover we lack the money.",
+        "explanation": "überdies in position 1 → fehlt in position 2."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "arbeitet,", "wohingegen", "sie", "studiert"],
+        "solutions": [["Er", "arbeitet,", "wohingegen", "sie", "studiert"]],
+        "translation": "He works, whereas she studies.",
+        "explanation": "wohingegen sends studiert to the end of its clause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Demnach", "ist", "der", "Plan", "gescheitert"],
+        "solutions": [["Demnach", "ist", "der", "Plan", "gescheitert"]],
+        "translation": "Accordingly the plan has failed.",
+        "explanation": "demnach draws the conclusion and takes position 1."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Gleichwohl", "hat", "sich", "die", "Lage", "verbessert"],
+        "solutions": [["Gleichwohl", "hat", "sich", "die", "Lage", "verbessert"]],
+        "translation": "Nevertheless the situation has improved.",
+        "explanation": "gleichwohl + inversion; the Partizip II closes the sentence."
+      }
+    }
+  ]
+}

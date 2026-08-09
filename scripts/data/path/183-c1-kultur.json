@@ -1,0 +1,169 @@
+{
+  "slug": "c1-kultur",
+  "title": "Kultur & Freizeit",
+  "emoji": "🎭",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-kultur-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Zeitvertreib",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Liebhaberei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Roulette",
+          "pos": "noun"
+        },
+        {
+          "lemma": "jonglieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Vorspann",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ablichten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Blende",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Antiquität",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-kultur-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "fesselnd",
+          "pos": "adj"
+        },
+        {
+          "lemma": "stimmungsvoll",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nostalgisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Abspann",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Belichtung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kunstvoll",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Bildausschnitt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zusammenkunft",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-kultur-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "ungezwungen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ausklingen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Unschärfe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feierlichkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geselligkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kurzweilig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "trickreich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Näherei",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c1-kultur-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Spielsucht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Synchronisation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brennweite",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bildband",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rarität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrgeschäft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Plauderei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zwanglos",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "c1-kultur-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

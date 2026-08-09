@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-10",
+  "title": "Wortschatz 10",
+  "emoji": "💬",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-10-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "nass",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Onkel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Paket",
+          "pos": "noun"
+        },
+        {
+          "lemma": "raten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "rund",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Schauspieler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "üblich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "offen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "deswegen",
+          "pos": "adv"
+        },
+        {
+          "lemma": "verbringen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-10-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "zweimal",
+          "pos": "adv"
+        },
+        {
+          "lemma": "wahr",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Tod",
+          "pos": "noun"
+        },
+        {
+          "lemma": "seltsam",
+          "pos": "adj"
+        },
+        {
+          "lemma": "umtauschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schloss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "tauschen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sieg",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Teppich",
+          "pos": "noun"
+        },
+        {
+          "lemma": "versichern",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-10-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Sehenswürdigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ahnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "arm",
+          "pos": "adj"
+        },
+        {
+          "lemma": "aufwachen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beantworten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "empfehlen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gemütlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Hauptbahnhof",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heimat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Keller",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-10-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Kleid",
+          "pos": "noun"
+        },
+        {
+          "lemma": "kostenlos",
+          "pos": "adj"
+        },
+        {
+          "lemma": "leihen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Mannschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mitglied",
+          "pos": "noun"
+        },
+        {
+          "lemma": "nützlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Patient",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pullover",
+          "pos": "noun"
+        },
+        {
+          "lemma": "rein",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Rezept",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-10-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

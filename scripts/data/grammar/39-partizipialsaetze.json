@@ -1,0 +1,475 @@
+{
+  "slug": "partizipialsaetze",
+  "title": "Partizipialsätze",
+  "level": "C1",
+  "explainer_md": "Participle clauses (*Partizipialsätze*) compress a whole adverbial clause into a short phrase — a hallmark of written, formal German. The participle stands at the end of its group, and the clause is set off by a comma.\n\n**Partizip I** (infinitive + *-d*) describes an action happening *at the same time* as the main clause, with active meaning: *Laut [[singend|singen]] ging er durch die Stadt.* — Singing loudly, he walked through the city. It replaces a *[[während]]*-clause: *Während er laut sang, ging er durch die Stadt.*\n\n**Partizip II** describes a *completed* action or has passive meaning: *In Berlin [[angekommen|ankommen]], rief sie ihre Mutter an.* — Having arrived in Berlin, she called her mother. It replaces a *[[nachdem]]*- or *weil*-clause: *Nachdem sie angekommen war, …* or *Von allen gelobt, verließ er die Bühne* (= *weil er gelobt wurde* — passive).\n\n| Nebensatz | Partizipialsatz |\n|---|---|\n| Während sie laut [[lachte|lachen]], … | Laut lachend, … |\n| Nachdem er angekommen war, … | Angekommen, … |\n| Weil sie erschöpft war, … | Erschöpft, … |\n\nTwo rules. First, the implied subject of the participle clause must be the subject of the main clause — *In Rom angekommen, besuchte sie das Museum* works because **she** arrived and **she** visited. Second, when the participle clause opens the sentence, the finite verb follows directly after the comma: *Gut vorbereitet, bestand sie die Prüfung.*",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Laut ___ ging er durch die Stadt.",
+        "options": ["singend", "gesungen", "singen"],
+        "correctIndex": 0,
+        "explanation": "Partizip I for simultaneity: he sang while walking — Laut singend ging er durch die Stadt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "In Berlin ___, rief sie ihre Mutter an.",
+        "options": ["angekommen", "ankommend", "ankommen"],
+        "correctIndex": 0,
+        "explanation": "Partizip II for a completed action: first she arrived, then she called."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wie lautet das Partizip I von „lachen“?",
+        "options": ["lachend", "gelacht", "lachte"],
+        "correctIndex": 0,
+        "explanation": "Partizip I = infinitive + d: lachen → lachend."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welche Form drückt Gleichzeitigkeit aus?",
+        "options": ["Partizip I", "Partizip II", "der Infinitiv"],
+        "correctIndex": 0,
+        "explanation": "Partizip I (singend, lachend) = happening at the same time; Partizip II = completed or passive."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ saß das Kind auf dem Sofa. (gleichzeitig, aktiv)",
+        "options": ["Lachend", "Gelacht", "Lachen"],
+        "correctIndex": 0,
+        "explanation": "Simultaneous, active → Partizip I: Lachend saß das Kind auf dem Sofa."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wie lautet das Partizip I von „schlafen“?",
+        "options": ["schlafend", "geschlafen", "schlief"],
+        "correctIndex": 0,
+        "explanation": "Partizip I = infinitive + d: schlafen → schlafend."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Von der Reise ___, ging er sofort ins Bett.",
+        "options": ["erschöpft", "erschöpfend", "erschöpfen"],
+        "correctIndex": 0,
+        "explanation": "Passive sense (he was exhausted by the trip) → Partizip II: erschöpft."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Während sie Musik hörte, putzte sie die Küche.“ = Musik ___, putzte sie die Küche.",
+        "options": ["hörend", "gehört", "hören"],
+        "correctIndex": 0,
+        "explanation": "A während-clause (simultaneity) becomes a Partizip-I clause: Musik hörend."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Nachdem er die Arbeit beendet hatte, ging er heim.“ = Die Arbeit ___, ging er heim.",
+        "options": ["beendet", "beendend", "beenden"],
+        "correctIndex": 0,
+        "explanation": "A nachdem-clause (completed action) becomes a Partizip-II clause: Die Arbeit beendet, …"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Nebensatz entspricht „Laut lachend erzählte sie die Geschichte“?",
+        "options": ["Während sie laut lachte, …", "Nachdem sie laut gelacht hatte, …", "Bevor sie laut lachte, …"],
+        "correctIndex": 0,
+        "explanation": "Partizip I = simultaneity → a während-clause: Während sie laut lachte, erzählte sie die Geschichte."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Nebensatz entspricht „In München angekommen, suchte er ein Hotel“?",
+        "options": ["Nachdem er in München angekommen war, …", "Während er in München ankam, …", "Bevor er in München ankam, …"],
+        "correctIndex": 0,
+        "explanation": "Partizip II = completed action → a nachdem-clause with Plusquamperfekt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wo steht das finite Verb nach einem vorangestellten Partizipialsatz?",
+        "options": ["direkt nach dem Komma", "am Satzende", "an dritter Position"],
+        "correctIndex": 0,
+        "explanation": "The participle clause fills position 1, so the finite verb follows right after the comma: In Berlin angekommen, rief sie an."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Vom Chef gelobt, arbeitete sie noch motivierter.“ — Das Partizip II hat hier welche Bedeutung?",
+        "options": ["eine passivische", "eine aktive, gleichzeitige", "eine zukünftige"],
+        "correctIndex": 0,
+        "explanation": "She was praised by the boss — Partizip II carries a passive sense (= weil sie gelobt wurde)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Kaffee ___, las er die Zeitung.",
+        "options": ["trinkend", "getrunken", "trinken"],
+        "correctIndex": 0,
+        "explanation": "He drank and read at the same time → Partizip I: Kaffee trinkend."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Von allen gelobt ___ verließ er die Bühne.“ Was fehlt an der markierten Stelle?",
+        "options": ["ein Komma", "das Wort „und“", "nichts"],
+        "correctIndex": 0,
+        "explanation": "A fronted participle clause is set off by a comma: Von allen gelobt, verließ er die Bühne."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Vor dem Haus ___, wartete der Fahrer auf uns.",
+        "options": ["stehend", "gestanden", "stehen"],
+        "correctIndex": 0,
+        "explanation": "Standing and waiting happen at the same time → Partizip I: Vor dem Haus stehend."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt gebildet?",
+        "options": ["In Rom angekommen, besuchte sie das Museum.", "In Rom angekommen, gefiel ihr das Museum.", "In Rom ankommend, hatte sie das Museum besucht."],
+        "correctIndex": 0,
+        "explanation": "The implied subject of the participle clause must be the subject of the main clause — she arrived AND she visited. In the second sentence the subject is das Museum, which never arrived."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Nachdem sie früh aufgestanden war, joggte sie im Park.“ = Früh ___, joggte sie im Park.",
+        "options": ["aufgestanden", "aufstehend", "aufzustehen"],
+        "correctIndex": 0,
+        "explanation": "Completed action before the main clause → Partizip II: Früh aufgestanden, joggte sie im Park."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Nebensatz lässt sich NICHT durch einen Partizipialsatz ersetzen?",
+        "options": ["Weil das Wetter schlecht war, blieben wir zu Hause.", "Während er kochte, hörte er Radio.", "Nachdem sie angekommen war, rief sie an."],
+        "correctIndex": 0,
+        "explanation": "The subjects differ (das Wetter / wir) — a participle clause requires the same subject in both clauses."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Von der Polizei ___, hielt der Fahrer sofort an.“",
+        "options": ["gestoppt", "stoppend", "stoppen"],
+        "correctIndex": 0,
+        "explanation": "The driver was stopped by the police — passive sense → Partizip II: gestoppt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Das Buch gelesen, gab sie es zurück.“ entspricht:",
+        "options": ["Nachdem sie das Buch gelesen hatte, …", "Während sie das Buch las, …", "Weil sie das Buch liest, …"],
+        "correctIndex": 0,
+        "explanation": "Partizip II = the reading was finished first → nachdem + Plusquamperfekt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Umformung von „Während er telefonierte, machte er Notizen“ ist richtig?",
+        "options": ["Telefonierend machte er Notizen.", "Telefoniert machte er Notizen.", "Telefonieren machte er Notizen."],
+        "correctIndex": 0,
+        "explanation": "Simultaneity → Partizip I: Telefonierend machte er Notizen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Schwer verletzt ___ der Mann ins Krankenhaus gebracht.“",
+        "options": ["wurde", "würde", "worden"],
+        "correctIndex": 0,
+        "explanation": "After the fronted participle group the finite verb comes next: Schwer verletzt wurde der Mann … gebracht (Präteritum passive)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Weil sie gut vorbereitet war, bestand sie die Prüfung.“ = Gut ___, bestand sie die Prüfung.",
+        "options": ["vorbereitet", "vorbereitend", "vorzubereiten"],
+        "correctIndex": 0,
+        "explanation": "She had been prepared (passive/resultative sense) → Partizip II: Gut vorbereitet, …"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Was signalisiert ein Partizipialsatz stilistisch?",
+        "options": ["geschriebene, formelle Sprache", "lockere Umgangssprache", "Kindersprache"],
+        "correctIndex": 0,
+        "explanation": "Participle clauses are typical of formal written German (essays, journalism, literature) — in speech, full clauses with während/nachdem/weil are preferred."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Partizip I von „singen“: ___",
+        "accept": ["singend"],
+        "explanation": "Partizip I = infinitive + d: singend."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Partizip I von „weinen“: ___",
+        "accept": ["weinend"],
+        "explanation": "Partizip I = infinitive + d: weinend."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ (lachen, Partizip I) lief das Kind zur Oma.",
+        "accept": ["Lachend", "lachend"],
+        "explanation": "Simultaneous and active → Partizip I: Lachend lief das Kind zur Oma."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "In Hamburg ___ (ankommen, Partizip II), suchte er ein Hotel.",
+        "accept": ["angekommen"],
+        "explanation": "Completed action → Partizip II: In Hamburg angekommen, suchte er ein Hotel."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Von der Arbeit ___ (erschöpfen, Partizip II), schlief sie sofort ein.",
+        "accept": ["erschöpft"],
+        "explanation": "Passive sense — she was exhausted by work → erschöpft."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Laut ___ (singen, Partizip I) ging sie durchs Haus.",
+        "accept": ["singend"],
+        "explanation": "Simultaneity → Partizip I: Laut singend ging sie durchs Haus."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Vom Publikum ___ (feiern, Partizip II), verließ die Band die Bühne.",
+        "accept": ["gefeiert"],
+        "explanation": "Passive sense (the band was celebrated) → Partizip II: gefeiert."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Gut ___ (vorbereiten, Partizip II), ging sie ins Gespräch.",
+        "accept": ["vorbereitet"],
+        "explanation": "Resultative/passive sense → Partizip II: Gut vorbereitet, ging sie ins Gespräch."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Leise ___ (sprechen, Partizip I) erklärte er den Plan.",
+        "accept": ["sprechend"],
+        "explanation": "Speaking and explaining happen together → Partizip I: sprechend."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Während er Zeitung las, trank er Kaffee.“ → Zeitung ___, trank er Kaffee.",
+        "accept": ["lesend"],
+        "explanation": "während-clause → Partizip-I clause: Zeitung lesend, trank er Kaffee."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Nachdem sie die Prüfung bestanden hatte, feierte sie.“ → Die Prüfung ___, feierte sie.",
+        "accept": ["bestanden"],
+        "explanation": "nachdem-clause → Partizip-II clause: Die Prüfung bestanden, feierte sie."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Weil er vom Lärm geweckt worden war, stand er auf.“ → Vom Lärm ___, stand er auf.",
+        "accept": ["geweckt"],
+        "explanation": "Passive weil-clause → Partizip-II clause: Vom Lärm geweckt, stand er auf."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Vor Freude ___ (strahlen, Partizip I) öffnete sie das Geschenk.",
+        "accept": ["strahlend"],
+        "explanation": "Beaming while opening → Partizip I: Vor Freude strahlend öffnete sie das Geschenk."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Laut", "singend", "ging", "er", "nach", "Hause"],
+        "solutions": [["Laut", "singend", "ging", "er", "nach", "Hause"]],
+        "translation": "Singing loudly, he went home.",
+        "explanation": "Partizip I clause first, then the finite verb: Laut singend ging er nach Hause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Lachend", "lief", "das", "Kind", "zur", "Oma"],
+        "solutions": [["Lachend", "lief", "das", "Kind", "zur", "Oma"]],
+        "translation": "Laughing, the child ran to grandma.",
+        "explanation": "Partizip I in position 1, finite verb directly after it."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Weinend", "saß", "sie", "auf", "dem", "Sofa"],
+        "solutions": [["Weinend", "saß", "sie", "auf", "dem", "Sofa"]],
+        "translation": "Crying, she sat on the sofa.",
+        "explanation": "Simultaneity: Partizip I (weinend) opens the sentence, verb in position 2."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["In", "Berlin", "angekommen,", "rief", "sie", "an"],
+        "solutions": [["In", "Berlin", "angekommen,", "rief", "sie", "an"]],
+        "translation": "Having arrived in Berlin, she called.",
+        "explanation": "Partizip-II clause + comma, then the finite verb: In Berlin angekommen, rief sie an."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Zeitung", "lesend", "saß", "er", "im", "Garten"],
+        "solutions": [["Zeitung", "lesend", "saß", "er", "im", "Garten"]],
+        "translation": "Reading the newspaper, he sat in the garden.",
+        "explanation": "The participle closes its group (Zeitung lesend), then the finite verb follows."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Vom", "Chef", "gelobt,", "arbeitete", "sie", "weiter"],
+        "solutions": [["Vom", "Chef", "gelobt,", "arbeitete", "sie", "weiter"]],
+        "translation": "Praised by the boss, she kept working.",
+        "explanation": "Passive-sense Partizip II with von + doer: Vom Chef gelobt, arbeitete sie weiter."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Erschöpft", "von", "der", "Reise,", "machten", "wir", "Pause"],
+        "solutions": [["Erschöpft", "von", "der", "Reise,", "machten", "wir", "Pause"]],
+        "translation": "Exhausted from the trip, we took a break.",
+        "explanation": "Fronted Partizip-II clause, comma, then the finite verb: … Reise, machten wir Pause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["In", "Rom", "angekommen,", "suchte", "er", "ein", "Hotel"],
+        "solutions": [["In", "Rom", "angekommen,", "suchte", "er", "ein", "Hotel"]],
+        "translation": "Having arrived in Rome, he looked for a hotel.",
+        "explanation": "Completed action → Partizip II clause first; the same subject (er) does both actions."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Früh", "aufgestanden,", "joggte", "sie", "im", "Park"],
+        "solutions": [["Früh", "aufgestanden,", "joggte", "sie", "im", "Park"]],
+        "translation": "Having got up early, she jogged in the park.",
+        "explanation": "Partizip II of a sein-verb (aufstehen) expresses the earlier, completed action."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Von", "allen", "kritisiert,", "verteidigte", "er", "seinen", "Plan"],
+        "solutions": [["Von", "allen", "kritisiert,", "verteidigte", "er", "seinen", "Plan"]],
+        "translation": "Criticized by everyone, he defended his plan.",
+        "explanation": "Passive-sense participle clause (= weil er von allen [[kritisiert|kritisieren]] wurde), then verb in position 2."
+      }
+    }
+  ]
+}

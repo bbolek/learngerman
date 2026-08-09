@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-2",
+  "title": "Wortschatz 2",
+  "emoji": "💬",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Herz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "niemand",
+          "pos": "pron"
+        },
+        {
+          "lemma": "obwohl",
+          "pos": "conj"
+        },
+        {
+          "lemma": "passen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "reden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Thema",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "singen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "traurig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gewinnen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "kaum",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Stelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorbei",
+          "pos": "adv"
+        },
+        {
+          "lemma": "folgen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schaffen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Unterricht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "sterben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unterwegs",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Ziel",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "blau",
+          "pos": "adj"
+        },
+        {
+          "lemma": "deshalb",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Haar",
+          "pos": "noun"
+        },
+        {
+          "lemma": "interessieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Meinung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "plötzlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "selten",
+          "pos": "adv"
+        },
+        {
+          "lemma": "verdienen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zahn",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Sorge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "überall",
+          "pos": "adv"
+        },
+        {
+          "lemma": "vorbereiten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zukunft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "gemeinsam",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schneiden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unbedingt",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Wald",
+          "pos": "noun"
+        },
+        {
+          "lemma": "freundlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "hängen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

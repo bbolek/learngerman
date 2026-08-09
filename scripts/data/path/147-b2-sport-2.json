@@ -1,0 +1,169 @@
+{
+  "slug": "b2-sport-2",
+  "title": "Sport & Fitness 2",
+  "emoji": "⚽",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-sport-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Angreifer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kopfball",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pfosten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eigentor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausgleich",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Treffer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Torjäger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auswechslung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-sport-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Ersatzbank",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dribbling",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Strafraum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spielfeld",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anzeigetafel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zeitlupe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flutlicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tribüne",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-sport-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Dauerkarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jubel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heimspiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auswärtsspiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Heimvorteil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Leichtathletik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sprint",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hürde",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-sport-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Staffel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hochsprung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Weitsprung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Marathon",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ziellinie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Startschuss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fehlstart",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anlauf",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-sport-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

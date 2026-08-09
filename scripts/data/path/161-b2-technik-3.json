@@ -1,0 +1,95 @@
+{
+  "slug": "b2-technik-3",
+  "title": "Technik & Medien 3",
+  "emoji": "💻",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-technik-3-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Exemplar",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Redner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Formulierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Follower",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Massenmedien",
+          "pos": "noun"
+        },
+        {
+          "lemma": "provozieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wörtlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "informativ",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Kolumne",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-technik-3-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Titelseite",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sprichwort",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gesprächspartner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "moderieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bekanntgeben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "manipulieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einseitig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ausdrücklich",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b2-technik-3-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

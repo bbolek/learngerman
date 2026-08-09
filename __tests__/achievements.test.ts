@@ -16,6 +16,8 @@ const zero: AchievementStats = {
   activeDays: 0,
   bestScores: {},
   bestGameStreak: 0,
+  pathLessonsDone: 0,
+  pathUnitsDone: 0,
 };
 
 describe('achievement definitions', () => {
@@ -41,6 +43,8 @@ describe('achievement definitions', () => {
       activeDays: 999,
       bestScores: { wortblitz: 9999 },
       bestGameStreak: 999,
+      pathLessonsDone: 9999,
+      pathUnitsDone: 999,
     };
     for (const a of ACHIEVEMENTS) {
       const { current, target } = a.progress(maxed);

@@ -1,0 +1,207 @@
+{
+  "slug": "a2-wortschatz-20",
+  "title": "Wortschatz 20",
+  "emoji": "🌟",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-20-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "vorbeigehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "nachschauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Abfall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anzug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausleihen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Bauer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Benzin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Birne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bitter",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Cousin",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-20-2",
+      "kind": "lesson",
+      "title": "Verben mit Dativ",
+      "words": [
+        {
+          "lemma": "Cousine",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Drucker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ehefrau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ehemann",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einpacken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Enkel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "erkältet",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Erkältung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Etage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fußgänger",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "dative-verbs",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-20-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Handtuch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Husten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "joggen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Kneipe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krankenwagen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lift",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Metall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachtisch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pension",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pilz",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-20-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "realisieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Reinigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "roh",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Überstunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arbeitnehmer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schreibtisch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Homeoffice",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Probezeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einkaufskorb",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-20-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

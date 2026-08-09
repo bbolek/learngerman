@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-23",
+  "title": "Wortschatz 23",
+  "emoji": "🔤",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-23-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Disco",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eintrittskarte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Erdbeere",
+          "pos": "noun"
+        },
+        {
+          "lemma": "füttern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Honig",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kantine",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Leder",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Neffe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Parfüm",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-23-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Poster",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nebenjob",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umtausch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umkleidekabine",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kundendienst",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sparbuch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "befördern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kassieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "erstatten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "freiberuflich",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-23-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Abteil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wegbeschreibung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Landstraße",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sprechstunde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rollstuhl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "bluten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "weiterfahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "ansteckend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zusehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "eifersüchtig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-23-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "gleichgültig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "zurückhaltend",
+          "pos": "adj"
+        },
+        {
+          "lemma": "unhöflich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sensibel",
+          "pos": "adj"
+        },
+        {
+          "lemma": "verzweifelt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "locker",
+          "pos": "adj"
+        },
+        {
+          "lemma": "verlegen",
+          "pos": "adj"
+        },
+        {
+          "lemma": "jedenfalls",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Erleichterung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verschenken",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-23-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

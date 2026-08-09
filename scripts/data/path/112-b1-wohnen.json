@@ -1,0 +1,107 @@
+{
+  "slug": "b1-wohnen",
+  "title": "Wohnen & Zuhause",
+  "emoji": "🏠",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-wohnen-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Besichtigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Einzug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auszug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Makler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Untermiete",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nachmieter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hausmeister",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Renovierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Quadratmeter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Altbau",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wohnen-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Neubau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abstellraum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Eigentümer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kamin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wohnfläche",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hausordnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geländer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Treppenhaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stromrechnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wohnungssuche",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-wohnen-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

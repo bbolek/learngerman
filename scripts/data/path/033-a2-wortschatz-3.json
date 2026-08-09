@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-3",
+  "title": "Wortschatz 3",
+  "emoji": "🧩",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-3-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "kriegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Schmerz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "süß",
+          "pos": "adj"
+        },
+        {
+          "lemma": "üben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Verkehr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "steigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Unfall",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "zählen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "besonders",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-3-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "dabei",
+          "pos": "adv"
+        },
+        {
+          "lemma": "danach",
+          "pos": "adv"
+        },
+        {
+          "lemma": "einige",
+          "pos": "pron"
+        },
+        {
+          "lemma": "froh",
+          "pos": "adj"
+        },
+        {
+          "lemma": "hart",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Interesse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Körper",
+          "pos": "noun"
+        },
+        {
+          "lemma": "meiste",
+          "pos": "adj"
+        },
+        {
+          "lemma": "nachdem",
+          "pos": "conj"
+        },
+        {
+          "lemma": "Plan",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-3-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Programm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Raum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "stattfinden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Unterschied",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorsichtig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "früher",
+          "pos": "adv"
+        },
+        {
+          "lemma": "Möglichkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "tief",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Vertrag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrt",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-3-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Gesicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schenken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "überlegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "versprechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wind",
+          "pos": "noun"
+        },
+        {
+          "lemma": "teilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verpassen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wunsch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "frisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sparen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-3-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

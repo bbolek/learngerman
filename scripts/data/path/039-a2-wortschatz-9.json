@@ -1,0 +1,207 @@
+{
+  "slug": "a2-wortschatz-9",
+  "title": "Wortschatz 9",
+  "emoji": "📚",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-9-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Schwein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tor",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verabreden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zuschauer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bäcker",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Form",
+          "pos": "noun"
+        },
+        {
+          "lemma": "persönlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sauer",
+          "pos": "adj"
+        },
+        {
+          "lemma": "stehlen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "übrig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-9-2",
+      "kind": "lesson",
+      "title": "Präpositionen + Akkusativ",
+      "words": [
+        {
+          "lemma": "Werkstatt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spiegel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verstecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Grad",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Insel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "satt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "überweisen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Zweck",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spielplatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Unterhaltung",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "akk-preps",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-9-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "ähnlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Angebot",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anruf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Augenblick",
+          "pos": "noun"
+        },
+        {
+          "lemma": "ausgeben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ball",
+          "pos": "noun"
+        },
+        {
+          "lemma": "beschreiben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Boden",
+          "pos": "noun"
+        },
+        {
+          "lemma": "böse",
+          "pos": "adj"
+        },
+        {
+          "lemma": "dick",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-9-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "einverstanden",
+          "pos": "adj"
+        },
+        {
+          "lemma": "erreichen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "furchtbar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Hals",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hauptstadt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "irgendwo",
+          "pos": "adv"
+        },
+        {
+          "lemma": "kontrollieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "malen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Menge",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-9-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

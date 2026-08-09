@@ -59,7 +59,12 @@ export default function StatsScreen() {
   }, [now]);
 
   const dayTotal = (a: DayActivity) =>
-    a.reviews_done + a.quiz_done + a.games_played + a.words_saved + (a.texts_read ?? 0);
+    a.reviews_done +
+    a.quiz_done +
+    a.games_played +
+    a.words_saved +
+    (a.texts_read ?? 0) +
+    (a.path_lessons_done ?? 0);
   const heatmap = buildHeatmap(
     new Map(activity.map((a) => [a.day, dayTotal(a)])),
     new Date(now)

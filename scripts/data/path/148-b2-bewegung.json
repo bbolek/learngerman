@@ -1,0 +1,79 @@
+{
+  "slug": "b2-bewegung",
+  "title": "Körper & Bewegung",
+  "emoji": "🏃",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-bewegung-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "bücken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "neigen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "zucken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "stützen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schwanken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kippen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schlendern",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b2-bewegung-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "bummeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "hocken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "balancieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aufrichten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anspannen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abrutschen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b2-bewegung-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

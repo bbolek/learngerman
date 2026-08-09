@@ -1,0 +1,134 @@
+{
+  "slug": "a1-verben",
+  "title": "Verben des Alltags",
+  "emoji": "🏃",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-verben-1",
+      "kind": "lesson",
+      "title": "Wichtige Verben",
+      "words": [
+        {
+          "lemma": "gehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "machen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "fahren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "sehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "geben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "nehmen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "sagen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wissen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "was",
+          "pos": "pron"
+        }
+      ]
+    },
+    {
+      "slug": "a1-verben-2",
+      "kind": "lesson",
+      "title": "Suchen & Finden",
+      "words": [
+        {
+          "lemma": "finden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "suchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "brauchen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "kennen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "glauben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "meinen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "tun",
+          "pos": "verb"
+        },
+        {
+          "lemma": "werden",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a1-verben-3",
+      "kind": "lesson",
+      "title": "Jeden Tag",
+      "words": [
+        {
+          "lemma": "aufstehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schlafen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "warten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bleiben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "stehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "liegen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "laufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bringen",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a1-verben-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

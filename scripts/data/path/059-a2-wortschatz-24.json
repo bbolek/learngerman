@@ -1,0 +1,207 @@
+{
+  "slug": "a2-wortschatz-24",
+  "title": "Wortschatz 24",
+  "emoji": "🧠",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-24-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "preiswert",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Plastik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geburt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anschalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Geldbeutel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Klavier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bäuerin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vorhaben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "klauen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Friseurin",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-24-2",
+      "kind": "lesson",
+      "title": "Nebensätze: weil, dass, wenn",
+      "words": [
+        {
+          "lemma": "Kontonummer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ton",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flohmarkt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nagel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nichte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pflaster",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zoll",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wegweiser",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kompass",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Salbe",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "nebensaetze",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-24-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Diagnose",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einchecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "schwindelig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "herunterladen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Länge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kindheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "aufladen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Musiker",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-24-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Kompliment",
+          "pos": "noun"
+        },
+        {
+          "lemma": "vermissen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "brennen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "romantisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Absender",
+          "pos": "noun"
+        },
+        {
+          "lemma": "anprobieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Bart",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Baustelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bluse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "chatten",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-24-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "b2-reisen-1",
+  "title": "Reisen & Verkehr 1",
+  "emoji": "✈️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-reisen-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Ladung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umschlag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Container",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Containerschiff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zustellung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auslieferung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kurier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Transporter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sattelschlepper",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anhänger",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-reisen-1-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Laderaum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Laderampe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tourismus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Güterverkehr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Güterzug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lieferfrist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Luftfahrt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fluggesellschaft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Flugverkehr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Landebahn",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-reisen-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Startbahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Cockpit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Besatzung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zwischenlandung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Notlandung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Turbulenz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anflug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Luftraum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Linienflug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Treibstoff",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-reisen-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Touristin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bruchlandung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schifffahrt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Seehafen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kai",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reisekosten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Entspannung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anlegestelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Frachtschiff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tanker",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-reisen-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "c2-bildungssprache-5",
+  "title": "Bildungssprache 5",
+  "emoji": "📚",
+  "level": "C2",
+  "lessons": [
+    {
+      "slug": "c2-bildungssprache-5-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "ehedem",
+          "pos": "adv"
+        },
+        {
+          "lemma": "beileibe",
+          "pos": "adv"
+        },
+        {
+          "lemma": "schlechterdings",
+          "pos": "adv"
+        },
+        {
+          "lemma": "knechten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dergestalt",
+          "pos": "adv"
+        },
+        {
+          "lemma": "geruhen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "wiewohl",
+          "pos": "conj"
+        },
+        {
+          "lemma": "verbrämen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bar",
+          "pos": "prep"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-5-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "dünken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "anheimstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gewahr",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Unbill",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ungemach",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Arglist",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ränke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kabale",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Aufwallung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-5-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Scharmützel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Geplänkel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "habhaft",
+          "pos": "adj"
+        },
+        {
+          "lemma": "teilhaftig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "flehentlich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "sattsam",
+          "pos": "adv"
+        },
+        {
+          "lemma": "nachgerade",
+          "pos": "adv"
+        },
+        {
+          "lemma": "fürwahr",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "c2-bildungssprache-5-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

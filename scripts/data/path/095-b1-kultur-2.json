@@ -1,0 +1,207 @@
+{
+  "slug": "b1-kultur-2",
+  "title": "Kultur & Freizeit 2",
+  "emoji": "🎭",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-kultur-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Hauptrolle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tagesausflug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Begeisterung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sammlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sammler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brettspiel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Premiere",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zauberer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Diskothek",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Freizeitpark",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-kultur-2-2",
+      "kind": "lesson",
+      "title": "Passiv",
+      "words": [
+        {
+          "lemma": "Stadtrundfahrt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schlittschuh",
+          "pos": "noun"
+        },
+        {
+          "lemma": "segeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wanderung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Denkmal",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Brauch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tradition",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Feier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Festival",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Volksfest",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "passiv",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-kultur-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Lagerfeuer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kreuzworträtsel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Garderobe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reiseleiter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Seilbahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Snowboard",
+          "pos": "noun"
+        },
+        {
+          "lemma": "rudern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Mitspieler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gegner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schiedsrichter",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-kultur-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Niederlage",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rekord",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kostüm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Applaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schummeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Nachtleben",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Achterbahn",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Angel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fernglas",
+          "pos": "noun"
+        },
+        {
+          "lemma": "fröhlich",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "b1-kultur-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "a1-gesundheit",
+  "title": "Körper & Gesundheit",
+  "emoji": "🩺",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-gesundheit-1",
+      "kind": "lesson",
+      "title": "Der Körper",
+      "words": [
+        {
+          "lemma": "Arm",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fuß",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nase",
+          "pos": "noun"
+        },
+        {
+          "lemma": "krank",
+          "pos": "adj"
+        },
+        {
+          "lemma": "gesund",
+          "pos": "adj"
+        },
+        {
+          "lemma": "müde",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-gesundheit-2",
+      "kind": "lesson",
+      "title": "Dativ",
+      "words": [
+        {
+          "lemma": "helfen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gefallen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "gehören",
+          "pos": "verb"
+        },
+        {
+          "lemma": "danken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "fehlen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "leidtun",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Hilfe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "freuen",
+          "pos": "verb"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "dativ",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-gesundheit-3",
+      "kind": "lesson",
+      "title": "Beim Arzt",
+      "words": [
+        {
+          "lemma": "Arzt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Krankenhaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Apotheke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Medikament",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fieber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Praxis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Termin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Problem",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a1-gesundheit-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "a2-wortschatz-12",
+  "title": "Wortschatz 12",
+  "emoji": "🌟",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-wortschatz-12-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "melden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Messer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Müll",
+          "pos": "noun"
+        },
+        {
+          "lemma": "neugierig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Öl",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pflicht",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rathaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schick",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Stadion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wetterbericht",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-12-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "kümmern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "unterhalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dankbar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "ernst",
+          "pos": "adj"
+        },
+        {
+          "lemma": "weder",
+          "pos": "conj"
+        },
+        {
+          "lemma": "sowieso",
+          "pos": "adv"
+        },
+        {
+          "lemma": "tatsächlich",
+          "pos": "adv"
+        },
+        {
+          "lemma": "normalerweise",
+          "pos": "adv"
+        },
+        {
+          "lemma": "stecken",
+          "pos": "verb"
+        },
+        {
+          "lemma": "einzig",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-12-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Laptop",
+          "pos": "noun"
+        },
+        {
+          "lemma": "streichen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "verlieben",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Semester",
+          "pos": "noun"
+        },
+        {
+          "lemma": "verabschieden",
+          "pos": "verb"
+        },
+        {
+          "lemma": "stürzen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "spülen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ufer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "langweilen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "abgeben",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-12-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "ärgern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "ausziehen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bequem",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Fan",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gegenteil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "guck mal",
+          "pos": "other"
+        },
+        {
+          "lemma": "Hafen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "höflich",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Interview",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Karriere",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-wortschatz-12-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

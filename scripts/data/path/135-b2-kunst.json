@@ -1,0 +1,79 @@
+{
+  "slug": "b2-kunst",
+  "title": "Kunst & Literatur",
+  "emoji": "🎨",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-kunst-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Kunstwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Malerei",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Meisterwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Dichter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Porträt",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Motiv",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hintergrund",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-kunst-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Vordergrund",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Skizze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Inspiration",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Genie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vorstellungskraft",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kunstgeschichte",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-kunst-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

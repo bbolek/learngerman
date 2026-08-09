@@ -1,0 +1,207 @@
+{
+  "slug": "b1-reisen-1",
+  "title": "Reisen & Verkehr 1",
+  "emoji": "✈️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-reisen-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Reiseveranstalter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verkehrsteilnehmer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stau",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verkehrsaufkommen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reisewarnung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anschluss",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reisedokument",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sicherheitskontrolle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Raststätte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Stoßzeit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-reisen-1-2",
+      "kind": "lesson",
+      "title": "Relativsätze",
+      "words": [
+        {
+          "lemma": "Rundreise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anreise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abreise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gepäckband",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mitfahrgelegenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gepäckwagen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Grenzkontrolle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wohnmobil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verkehrsschild",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Maut",
+          "pos": "noun"
+        }
+      ],
+      "grammar": [
+        {
+          "topic": "relativsaetze",
+          "questions": 4
+        }
+      ]
+    },
+    {
+      "slug": "b1-reisen-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Fahrtrichtung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kurzurlaub",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrpreis",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gepäckaufbewahrung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrzeug",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Strecke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Route",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kupplung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fahrkartenautomat",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nahverkehr",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-reisen-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "Scheibenwischer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fernverkehr",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pendler",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Motorhaube",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Streckennetz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Windschutzscheibe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Reisegruppe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pauschalreise",
+          "pos": "noun"
+        },
+        {
+          "lemma": "schalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Ferienhaus",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-reisen-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

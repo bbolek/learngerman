@@ -1,0 +1,134 @@
+{
+  "slug": "a1-studium",
+  "title": "Studium & Sprache",
+  "emoji": "🎓",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-studium-1",
+      "kind": "lesson",
+      "title": "An der Uni",
+      "words": [
+        {
+          "lemma": "Student",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Studentin",
+          "pos": "noun"
+        },
+        {
+          "lemma": "studieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Deutsch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "deutsch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Gruppe",
+          "pos": "noun"
+        },
+        {
+          "lemma": "international",
+          "pos": "adj"
+        },
+        {
+          "lemma": "bekannt",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-studium-2",
+      "kind": "lesson",
+      "title": "Erklären & Verstehen",
+      "words": [
+        {
+          "lemma": "erklären",
+          "pos": "verb"
+        },
+        {
+          "lemma": "bedeuten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "buchstabieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Papier",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bleistift",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kugelschreiber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Idee",
+          "pos": "noun"
+        },
+        {
+          "lemma": "genau",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-studium-3",
+      "kind": "lesson",
+      "title": "Anfang & Ende",
+      "words": [
+        {
+          "lemma": "anfangen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "beginnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "aufhören",
+          "pos": "verb"
+        },
+        {
+          "lemma": "dauern",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Anfang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ende",
+          "pos": "noun"
+        },
+        {
+          "lemma": "einfach",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schwer",
+          "pos": "adj"
+        },
+        {
+          "lemma": "leicht",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-studium-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "slug": "subjektive-modalverben",
+  "title": "Subjektive Modalverben",
+  "level": "B2",
+  "explainer_md": "Modal verbs lead a double life. Used **objectively**, they talk about obligation, permission or ability: *Er muss arbeiten.* — he has to work. Used **subjectively**, the same verbs express how sure the speaker is about a guess: *Er [[muss|müssen]] krank sein.* — He must be ill (I'm almost certain).\n\n| Form | Speaker's certainty |\n|---|---|\n| muss | almost 100% — must be |\n| dürfte | probably (about 75%) |\n| könnte / mag | possibly (about 50%) |\n| kann nicht | impossible |\n\n*Sie dürfte schon zu Hause sein.* — She is probably home already. *Das könnte stimmen.* — That could be true. *Das kann nicht wahr sein!* — That can't be true!\n\nTwo modals report other people's words. **sollen** marks hearsay — the speaker only passes on a [[Gerücht]]: *Er [[soll|sollen]] sehr reich sein.* — He is said to be very rich. **wollen** marks someone's own claim, which the speaker doubts: *Er [[will|wollen]] das gesehen haben.* — He claims to have seen it.\n\nFor guesses about the **past**, combine the modal with Infinitiv II (Partizip II + haben/sein): *Sie muss das gewusst haben.* — She must have known it. *Er dürfte gestern angekommen sein.* — He probably arrived yesterday.\n\nOnly context separates the two readings: *Er muss viel arbeiten* (obligation — objective) vs. *Er muss viel gearbeitet haben* (deduction — subjective).",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "„Er muss krank sein.“ — Der Sprecher ist ___.",
+        "options": ["fast sicher", "unsicher", "dagegen"],
+        "correctIndex": 0,
+        "explanation": "Subjective [[müssen]] = the speaker is almost certain: he must be ill."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "„Das kann nicht wahr sein!“ — Der Sprecher hält es für ___.",
+        "options": ["unmöglich", "sicher", "wahrscheinlich"],
+        "correctIndex": 0,
+        "explanation": "kann nicht = the speaker rules it out: that can't be true."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "„Er soll sehr reich sein.“ — Woher weiß der Sprecher das?",
+        "options": ["Man sagt es (Gerüchte)", "Er hat es selbst gesehen", "Er ist ganz sicher"],
+        "correctIndex": 0,
+        "explanation": "Subjective [[sollen]] = hearsay: people say he is rich."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "„Sie dürfte zu Hause sein.“ bedeutet: ___",
+        "options": ["wahrscheinlich", "unmöglich", "hoffentlich"],
+        "correctIndex": 0,
+        "explanation": "dürfte = probably ([[wahrscheinlich]]), about 75% certainty."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "„Das könnte stimmen.“ — Wie sicher ist der Sprecher?",
+        "options": ["Es ist möglich", "Es ist sicher", "Es ist unmöglich"],
+        "correctIndex": 0,
+        "explanation": "könnte = possibly ([[vielleicht]]), around 50% certainty."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Licht brennt. Er ___ zu Hause sein.",
+        "options": ["muss", "will", "soll"],
+        "correctIndex": 0,
+        "explanation": "Clear evidence → confident deduction with muss: he must be home."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "„Er will das gesehen haben.“ — Wer behauptet das?",
+        "options": ["er selbst", "die Nachbarn", "der Sprecher"],
+        "correctIndex": 0,
+        "explanation": "Subjective [[wollen]] = his own claim; the speaker doubts it."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich bin nicht sicher, aber sie ___ noch in der Schule sein.",
+        "options": ["könnte", "muss", "will"],
+        "correctIndex": 0,
+        "explanation": "Not sure → könnte (possibly): sie könnte noch in der Schule sein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Alle sagen es: Der neue Chef ___ sehr streng sein.",
+        "options": ["soll", "will", "muss"],
+        "correctIndex": 0,
+        "explanation": "Hearsay (alle sagen es) → soll: Er soll sehr streng sein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er behauptet es selbst: Er ___ den Chef persönlich kennen.",
+        "options": ["will", "soll", "dürfte"],
+        "correctIndex": 0,
+        "explanation": "His own claim ([[behaupten]]) → will: Er will den Chef kennen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Es klingelt. Das ___ der Postbote sein — er kommt immer um diese Zeit.",
+        "options": ["dürfte", "will", "soll"],
+        "correctIndex": 0,
+        "explanation": "Strong probability from experience → dürfte: Das dürfte der Postbote sein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie ist seit zwölf Stunden unterwegs. Sie ___ müde sein.",
+        "options": ["muss", "soll", "will"],
+        "correctIndex": 0,
+        "explanation": "Logical conclusion → muss: after twelve hours she must be tired."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das ___ nicht sein Auto sein — er hat gar kein Auto!",
+        "options": ["kann", "dürfte", "mag"],
+        "correctIndex": 0,
+        "explanation": "Impossibility → kann nicht: that can't be his car."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Sie mag vierzig sein.“ bedeutet: ___",
+        "options": ["Vielleicht ist sie vierzig", "Sie ist gern vierzig", "Sie ist sicher vierzig"],
+        "correctIndex": 0,
+        "explanation": "Subjective [[mögen]] = maybe, a neutral guess: she may be forty."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Vergangenheit: Sie muss das ___ haben.",
+        "options": ["gewusst", "wissen", "weiß"],
+        "correctIndex": 0,
+        "explanation": "Past inference = modal + Infinitiv II: [[gewusst|wissen]] haben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er dürfte gestern ___ sein.",
+        "options": ["angekommen", "ankommen", "ankam"],
+        "correctIndex": 0,
+        "explanation": "Infinitiv II with sein-verbs: Partizip II + sein → angekommen sein."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist subjektiv (Vermutung)?",
+        "options": ["Er muss sehr reich sein.", "Er muss heute lange arbeiten.", "Er muss den Bericht schreiben."],
+        "correctIndex": 0,
+        "explanation": "muss + sein + adjective = deduction; the others are obligations (objective)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist objektiv (Pflicht)?",
+        "options": ["Du musst den Vertrag unterschreiben.", "Du musst müde sein.", "Das muss ein Fehler sein."],
+        "correctIndex": 0,
+        "explanation": "Signing a contract is a real obligation; the other two are guesses."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Der Zeuge will nichts gehört haben.“ bedeutet: ___",
+        "options": [
+          "Er behauptet, dass er nichts gehört hat.",
+          "Man sagt, dass er nichts gehört hat.",
+          "Er hat sicher nichts gehört."
+        ],
+        "correctIndex": 0,
+        "explanation": "wollen + Infinitiv II = his own claim about the past, which the speaker doubts."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Das Haus soll früher ein Hotel gewesen sein.“ bedeutet: ___",
+        "options": ["Man erzählt sich das.", "Der Sprecher hat es selbst gesehen.", "Es ist unmöglich."],
+        "correctIndex": 0,
+        "explanation": "sollen + Infinitiv II = hearsay about the past: people say it used to be a hotel."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Sie kann den Brief nicht geschrieben haben.“ — Der Sprecher hält es für ___.",
+        "options": ["ausgeschlossen", "wahrscheinlich", "sicher"],
+        "correctIndex": 0,
+        "explanation": "kann nicht + Infinitiv II = impossible in the speaker's view."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Vermutung über die Vergangenheit: Er muss den Zug ___.",
+        "options": ["verpasst haben", "verpassen haben", "verpasst hat"],
+        "correctIndex": 0,
+        "explanation": "Infinitiv II = Partizip II + haben: verpasst haben."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welche Aussage ist am sichersten?",
+        "options": ["Er muss krank sein.", "Er dürfte krank sein.", "Er könnte krank sein."],
+        "correctIndex": 0,
+        "explanation": "Certainty scale: muss (almost 100%) > dürfte (probably) > könnte (possibly)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Sie will als Kind in Paris gelebt haben.“ — Der Sprecher ___.",
+        "options": ["zweifelt an ihrer Behauptung", "ist ganz sicher", "hat es von Nachbarn gehört"],
+        "correctIndex": 0,
+        "explanation": "wollen marks her own claim — and signals the speaker's doubt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Der Boden ist nass. Es ___ geregnet haben.",
+        "options": ["muss", "soll", "will"],
+        "correctIndex": 0,
+        "explanation": "Evidence (wet ground) → confident deduction about the past: Es muss geregnet haben."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Ich bin ganz sicher: Das ___ ein Fehler sein. (müssen)",
+        "accept": ["muss"],
+        "explanation": "Almost certain → muss: Das muss ein Fehler sein."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Man sagt: Das Restaurant ___ sehr gut sein. (sollen)",
+        "accept": ["soll"],
+        "explanation": "Hearsay → soll: Das Restaurant soll sehr gut sein."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Vielleicht: Sie ___ noch im Bett liegen. (können, Konjunktiv II)",
+        "accept": ["könnte"],
+        "explanation": "Possibility → Konjunktiv II: Sie könnte noch im Bett liegen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wahrscheinlich: Der Brief ___ morgen ankommen. (dürfen, Konjunktiv II)",
+        "accept": ["dürfte"],
+        "explanation": "Probability is expressed with dürfte — only in Konjunktiv II.",
+        "hint": "Konjunktiv II von dürfen"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er behauptet es selbst: Er ___ nichts davon gewusst haben. (wollen)",
+        "accept": ["will"],
+        "explanation": "His own claim → will: Er will nichts [[gewusst|wissen]] haben."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Unmöglich: Das ___ nicht stimmen. (können)",
+        "accept": ["kann"],
+        "explanation": "Impossibility → kann nicht: Das kann nicht stimmen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Zeitung schreibt es: Der Sänger ___ bald heiraten. (sollen)",
+        "accept": ["soll"],
+        "explanation": "Report from a source → soll: Der Sänger soll bald heiraten."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie sieht jung aus, aber sie ___ schon fünfzig sein. (mögen)",
+        "accept": ["mag"],
+        "explanation": "Neutral guess → mag: sie mag schon fünfzig sein."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Vergangenheit: Er muss den Schlüssel verloren ___.",
+        "accept": ["haben"],
+        "explanation": "Infinitiv II with haben-verbs: verloren haben."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie dürfte inzwischen angekommen ___.",
+        "accept": ["sein"],
+        "explanation": "[[ankommen]] takes sein → Infinitiv II: angekommen sein."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er will den Unfall gesehen ___.",
+        "accept": ["haben"],
+        "explanation": "Claim about the past: wollen + Partizip II + haben: gesehen haben."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Vermutung: Sie muss das Buch schon ___ haben. (lesen, Partizip II)",
+        "accept": ["gelesen"],
+        "explanation": "Past deduction: muss + Partizip II + haben: gelesen haben ([[lesen]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Hörensagen über die Vergangenheit: Der Film ___ sehr gut gewesen sein. (sollen)",
+        "accept": ["soll"],
+        "explanation": "sollen + gewesen sein = people say it was very good."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Das", "muss", "ein", "Witz", "sein"],
+        "solutions": [["Das", "muss", "ein", "Witz", "sein"]],
+        "translation": "That must be a joke.",
+        "explanation": "Confident deduction: muss in position 2, sein at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Sie", "soll", "eine", "gute", "Ärztin", "sein"],
+        "solutions": [["Sie", "soll", "eine", "gute", "Ärztin", "sein"]],
+        "translation": "She is said to be a good doctor.",
+        "explanation": "Hearsay: soll in position 2, infinitive sein at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Das", "könnte", "ein", "Problem", "sein"],
+        "solutions": [["Das", "könnte", "ein", "Problem", "sein"]],
+        "translation": "That could be a problem.",
+        "explanation": "Possibility: könnte (Konjunktiv II) in position 2."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "dürfte", "schon", "im", "Büro", "sein"],
+        "solutions": [["Er", "dürfte", "schon", "im", "Büro", "sein"]],
+        "translation": "He is probably already at the office.",
+        "explanation": "Probability: dürfte in position 2, sein at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Das", "kann", "nicht", "dein", "Ernst", "sein"],
+        "solutions": [["Das", "kann", "nicht", "dein", "Ernst", "sein"]],
+        "translation": "You can't be serious.",
+        "explanation": "kann nicht = impossible in the speaker's eyes."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Sie", "will", "den", "Film", "schon", "kennen"],
+        "solutions": [["Sie", "will", "den", "Film", "schon", "kennen"]],
+        "translation": "She claims to already know the film.",
+        "explanation": "Subjective wollen: her own claim, which the speaker doubts."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Sie", "muss", "sehr", "viel", "gelernt", "haben"],
+        "solutions": [["Sie", "muss", "sehr", "viel", "gelernt", "haben"]],
+        "translation": "She must have studied a lot.",
+        "explanation": "Past deduction: modal + Partizip II + haben at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Der", "Zug", "dürfte", "schon", "abgefahren", "sein"],
+        "solutions": [["Der", "Zug", "dürfte", "schon", "abgefahren", "sein"]],
+        "translation": "The train has probably already left.",
+        "explanation": "Past probability: dürfte + Partizip II + sein (motion verb)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "will", "das", "Geld", "gefunden", "haben"],
+        "solutions": [["Er", "will", "das", "Geld", "gefunden", "haben"]],
+        "translation": "He claims to have found the money.",
+        "explanation": "Claim about the past: wollen + gefunden haben."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Sie", "kann", "das", "nicht", "gesagt", "haben"],
+        "solutions": [["Sie", "kann", "das", "nicht", "gesagt", "haben"]],
+        "translation": "She can't have said that.",
+        "explanation": "Ruling something out in the past: kann nicht + gesagt haben."
+      }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "b1-technik-2",
+  "title": "Technik & Medien 2",
+  "emoji": "💻",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-technik-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "googeln",
+          "pos": "verb"
+        },
+        {
+          "lemma": "sperren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Mikrofon",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Podcast",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beitrag",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Cloud",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kommentar",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sender",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Empfänger",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Suchmaschine",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-technik-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Bluetooth",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Profilbild",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Videoanruf",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bedienungsanleitung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abschalten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Reichweite",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Plattform",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Presse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Rundfunk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Übertragung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-technik-2-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Sicherheitslücke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Verschlüsselung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Scanner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Spam",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Router",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Datenvolumen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blog",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fehlermeldung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Speicherplatz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "markieren",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "slug": "b1-technik-2-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "scrollen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Mitteilung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schnittstelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anleitung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Digitalisierung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Überschrift",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kommunikation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Ausstrahlung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nutzer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Anbieter",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-technik-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "b2-stadt",
+  "title": "Stadt & Gebäude",
+  "emoji": "🏙️",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-stadt-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Fassade",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mehrfamilienhaus",
+          "pos": "noun"
+        },
+        {
+          "lemma": "abreißen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Infrastruktur",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kapelle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kran",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-stadt-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Bauwerk",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hinterhof",
+          "pos": "noun"
+        },
+        {
+          "lemma": "errichten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Stadtverwaltung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wahrzeichen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Beton",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-stadt-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

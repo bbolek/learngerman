@@ -1,0 +1,103 @@
+{
+  "slug": "a2-umwelt",
+  "title": "Umwelt & Wetter",
+  "emoji": "🌿",
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-umwelt-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Stein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wolke",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schatten",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mond",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Jahreszeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gold",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hitze",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Wärme",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kälte",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sand",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-umwelt-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Blitz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Silber",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Donner",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sonnenschein",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sonnenuntergang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sonnenaufgang",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Teich",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Regentropfen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schneeflocke",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "a2-umwelt-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

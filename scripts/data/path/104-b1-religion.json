@@ -1,0 +1,142 @@
+{
+  "slug": "b1-religion",
+  "title": "Religion & Glaube",
+  "emoji": "🕊️",
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-religion-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Religion",
+          "pos": "noun"
+        },
+        {
+          "lemma": "religiös",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Glaube",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gott",
+          "pos": "noun"
+        },
+        {
+          "lemma": "beten",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Gebet",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Bibel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Koran",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Moschee",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-religion-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Synagoge",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Tempel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gottesdienst",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Gemeinde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pfarrer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Mönch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Nonne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kloster",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Taufe",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-religion-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "taufen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Beerdigung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Friedhof",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Grab",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Seele",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hölle",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Paradies",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sünde",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Segen",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b1-religion-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

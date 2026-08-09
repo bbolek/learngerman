@@ -1,4 +1,5 @@
 import { getDb } from '@/db/client';
+import { pathCounts } from '@/db/pathRepo';
 import { countedDays } from '@/db/streakRepo';
 import { xpTotals } from '@/db/xpRepo';
 import {
@@ -12,20 +13,22 @@ import { levelForXp } from '@/logic/xp';
 
 async function gatherStats(now: Date): Promise<AchievementStats> {
   const db = getDb();
-  const [totals, days, activity, saved, games] = await Promise.all([
+  const [totals, days, activity, saved, games, path] = await Promise.all([
     xpTotals(),
     countedDays(),
     db.getFirstAsync<{ reviews: number | null; quiz: number | null; active: number | null }>(
       `SELECT SUM(reviews_done) AS reviews, SUM(quiz_done) AS quiz,
               COUNT(*) AS active
        FROM daily_activity
-       WHERE reviews_done > 0 OR quiz_done > 0 OR words_saved > 0 OR games_played > 0`
+       WHERE reviews_done > 0 OR quiz_done > 0 OR words_saved > 0 OR games_played > 0
+          OR path_lessons_done > 0`
     ),
     db.getFirstAsync<{ c: number }>('SELECT COUNT(*) AS c FROM user_saved_words'),
     db.getAllAsync<{ game_key: string; plays: number; best: number; best_streak: number }>(
       `SELECT game_key, COUNT(*) AS plays, MAX(score) AS best, MAX(best_streak) AS best_streak
        FROM game_results GROUP BY game_key`
     ),
+    pathCounts(),
   ]);
   const bestScores: Partial<Record<string, number>> = {};
   let gamesPlayed = 0;
@@ -46,6 +49,8 @@ async function gatherStats(now: Date): Promise<AchievementStats> {
     activeDays: activity?.active ?? 0,
     bestScores,
     bestGameStreak,
+    pathLessonsDone: path.lessonsDone,
+    pathUnitsDone: path.unitsDone,
   };
 }
 

@@ -1,0 +1,201 @@
+{
+  "slug": "b2-bildung-1",
+  "title": "Bildung & Wissenschaft 1",
+  "emoji": "🎓",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-bildung-1-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Studie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Analyse",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Methode",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Statistik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "definieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Anteil",
+          "pos": "noun"
+        },
+        {
+          "lemma": "formulieren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Modell",
+          "pos": "noun"
+        },
+        {
+          "lemma": "aufstellen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Wahrscheinlichkeit",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-bildung-1-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Widerstand",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Phänomen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Fachbegriff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Zusammenfassung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "systematisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Fragebogen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "statistisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Präsentation",
+          "pos": "noun"
+        },
+        {
+          "lemma": "lehren",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Diagramm",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-bildung-1-3",
+      "kind": "lesson",
+      "title": "Neue Wörter 3",
+      "words": [
+        {
+          "lemma": "Grafik",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kurve",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Winkel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Auswertung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Genauigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "präzise",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Bildungssystem",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Lehrbuch",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Berufsausbildung",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Abbildung",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-bildung-1-4",
+      "kind": "lesson",
+      "title": "Neue Wörter 4",
+      "words": [
+        {
+          "lemma": "abbrechen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Mikroskop",
+          "pos": "noun"
+        },
+        {
+          "lemma": "exakt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Teleskop",
+          "pos": "noun"
+        },
+        {
+          "lemma": "mathematisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Substanz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "genetisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Kohlenstoff",
+          "pos": "noun"
+        },
+        {
+          "lemma": "organisch",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Stickstoff",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-bildung-1-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

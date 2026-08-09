@@ -1,0 +1,130 @@
+{
+  "slug": "a1-wetter",
+  "title": "Wetter & Natur",
+  "emoji": "🌦️",
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-wetter-1",
+      "kind": "lesson",
+      "title": "Das Wetter",
+      "words": [
+        {
+          "lemma": "Wetter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Regen",
+          "pos": "noun"
+        },
+        {
+          "lemma": "regnen",
+          "pos": "verb"
+        },
+        {
+          "lemma": "Sonne",
+          "pos": "noun"
+        },
+        {
+          "lemma": "sonnig",
+          "pos": "adj"
+        },
+        {
+          "lemma": "warm",
+          "pos": "adj"
+        },
+        {
+          "lemma": "kalt",
+          "pos": "adj"
+        },
+        {
+          "lemma": "schön",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "slug": "a1-wetter-2",
+      "kind": "lesson",
+      "title": "Jahreszeiten",
+      "words": [
+        {
+          "lemma": "Frühling",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Sommer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Herbst",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Winter",
+          "pos": "noun"
+        },
+        {
+          "lemma": "klar",
+          "pos": "adj"
+        },
+        {
+          "lemma": "meistens",
+          "pos": "adv"
+        },
+        {
+          "lemma": "dort",
+          "pos": "adv"
+        },
+        {
+          "lemma": "oben",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-wetter-3",
+      "kind": "lesson",
+      "title": "Natur & Tiere",
+      "words": [
+        {
+          "lemma": "Baum",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Blume",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Vogel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Pferd",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Hund",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Kilometer",
+          "pos": "noun"
+        },
+        {
+          "lemma": "hinten",
+          "pos": "adv"
+        },
+        {
+          "lemma": "sonst",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "slug": "a1-wetter-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

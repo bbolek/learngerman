@@ -1,0 +1,75 @@
+{
+  "slug": "b2-umwelt-2",
+  "title": "Umwelt & Wetter 2",
+  "emoji": "🌿",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-umwelt-2-1",
+      "kind": "lesson",
+      "title": "Neue Wörter 1",
+      "words": [
+        {
+          "lemma": "Luftfeuchtigkeit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Trockenheit",
+          "pos": "noun"
+        },
+        {
+          "lemma": "heiter",
+          "pos": "adj"
+        },
+        {
+          "lemma": "Klimaneutralität",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Chemikalie",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Schwermetall",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-umwelt-2-2",
+      "kind": "lesson",
+      "title": "Neue Wörter 2",
+      "words": [
+        {
+          "lemma": "Düngemittel",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Naturschutz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Umweltschutz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Artenschutz",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Artensterben",
+          "pos": "noun"
+        },
+        {
+          "lemma": "Biodiversität",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "slug": "b2-umwelt-2-wdh",
+      "kind": "review",
+      "title": "Wiederholung"
+    }
+  ]
+}

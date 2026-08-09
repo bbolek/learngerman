@@ -5,7 +5,7 @@ import {
   type QuestCounters,
 } from '@/logic/quests';
 
-const NO_PROGRESS: QuestCounters = { reviews: 0, quiz: 0, games: 0, words: 0, xp: 0 };
+const NO_PROGRESS: QuestCounters = { reviews: 0, quiz: 0, games: 0, words: 0, xp: 0, path: 0 };
 
 describe('questsForDay', () => {
   it('is deterministic — same day, same quests', () => {

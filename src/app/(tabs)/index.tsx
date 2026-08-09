@@ -17,9 +17,11 @@ import {
   streakState,
   type StreakState,
 } from '@/db/streakRepo';
+import { getPlacement, listPath } from '@/db/pathRepo';
 import { savedCount } from '@/db/vocabRepo';
 import { xpTotals } from '@/db/xpRepo';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
+import { computeNodeStates, currentPosition } from '@/logic/path';
 import { isStreakMilestone, levelProgress, levelTitle, type LevelProgress } from '@/logic/xp';
 import { settleRewards } from '@/services/rewards';
 import { celebrate } from '@/store/celebration';
@@ -46,6 +48,13 @@ interface HomeData {
   next: NextTopic<TopicRow> | null;
   wotd: Awaited<ReturnType<typeof getWordOfTheDay>>;
   wotdImage: string | null;
+  pathNext: {
+    slug: string;
+    title: string;
+    unitTitle: string;
+    unitEmoji: string;
+    unitLevel: string;
+  } | null;
 }
 
 export default function HomeScreen() {
@@ -76,6 +85,35 @@ export default function HomeScreen() {
     const wotdImage = wotd ? await getLemmaImage(wotd.id) : null;
     const topicsWithDue = topics.map((tp) => ({ ...tp, due: dueSlugs.has(tp.slug) }));
 
+    // "Weiter im Lernpfad" — the map's active node, boundary-aware.
+    const [pathUnits, placement] = await Promise.all([listPath(), getPlacement()]);
+    let pathNext: HomeData['pathNext'] = null;
+    if (pathUnits.length > 0) {
+      let boundary: number | null = null;
+      if (placement && 'boundaryUnitSlug' in placement) {
+        const unit = pathUnits.find((u) => u.slug === placement.boundaryUnitSlug);
+        boundary = unit?.nodes[0]?.order ?? placement.boundaryOrder ?? null;
+      }
+      const allNodes = pathUnits.flatMap((u) => u.nodes);
+      const active = currentPosition(
+        computeNodeStates(
+          allNodes.map((n) => ({ slug: n.slug, order: n.order, stars: n.stars })),
+          boundary
+        )
+      );
+      if (active) {
+        const unit = pathUnits.find((u) => u.nodes.some((n) => n.slug === active.slug))!;
+        const node = unit.nodes.find((n) => n.slug === active.slug)!;
+        pathNext = {
+          slug: node.slug,
+          title: node.title,
+          unitTitle: unit.title,
+          unitEmoji: unit.emoji,
+          unitLevel: unit.level,
+        };
+      }
+    }
+
     // Streak milestone reached today → one-time celebration + a bonus freeze.
     if (isStreakMilestone(streakInfo.streak) && (await lastCelebratedMilestone()) < streakInfo.streak) {
       await setLastCelebratedMilestone(streakInfo.streak);
@@ -102,6 +140,7 @@ export default function HomeScreen() {
       next: pickNextTopic(topicsWithDue, today),
       wotd,
       wotdImage,
+      pathNext,
     });
   }, []);
 
@@ -272,6 +311,25 @@ export default function HomeScreen() {
         </View>
       </Card>
       </TourTarget>
+
+      {data?.pathNext && (
+        <Card
+          style={styles.miniWide}
+          onPress={() =>
+            router.push({ pathname: '/lesson/[slug]', params: { slug: data.pathNext!.slug } })
+          }>
+          <View style={[styles.themesIcon, { backgroundColor: t.primaryDim }]}>
+            <AppText style={{ fontSize: 20 }}>{data.pathNext.unitEmoji}</AppText>
+          </View>
+          <View style={{ flex: 1 }}>
+            <AppText variant="subtitle">Weiter im Lernpfad</AppText>
+            <AppText variant="secondary" muted style={{ marginTop: 2 }} numberOfLines={1}>
+              {data.pathNext.unitTitle} · {data.pathNext.title} · {data.pathNext.unitLevel}
+            </AppText>
+          </View>
+          <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
+        </Card>
+      )}
 
       {data?.next && (
         <TourTarget id="home-grammar">

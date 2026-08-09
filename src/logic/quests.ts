@@ -4,7 +4,7 @@
  * them at any time without persisting the rotation itself.
  */
 
-export type QuestMetric = 'reviews' | 'quiz' | 'games' | 'words' | 'xp';
+export type QuestMetric = 'reviews' | 'quiz' | 'games' | 'words' | 'xp' | 'path';
 
 export interface QuestDef {
   /** Stable key persisted in quest_claims — never rename existing ones. */
@@ -24,6 +24,7 @@ export interface QuestCounters {
   games: number;
   words: number;
   xp: number;
+  path: number;
 }
 
 /**
@@ -54,9 +55,13 @@ const POOL: Record<QuestMetric, QuestDef[]> = {
     { key: 'xp-50', metric: 'xp', target: 50, title: 'Sammle 50 XP', emoji: '⭐', xp: 20 },
     { key: 'xp-100', metric: 'xp', target: 100, title: 'Sammle 100 XP', emoji: '⭐', xp: 30 },
   ],
+  path: [
+    { key: 'path-1', metric: 'path', target: 1, title: 'Schließe 1 Pfad-Lektion ab', emoji: '🧭', xp: 20 },
+    { key: 'path-2', metric: 'path', target: 2, title: 'Schließe 2 Pfad-Lektionen ab', emoji: '🧭', xp: 30 },
+  ],
 };
 
-const METRICS: QuestMetric[] = ['reviews', 'quiz', 'games', 'words', 'xp'];
+const METRICS: QuestMetric[] = ['reviews', 'quiz', 'games', 'words', 'xp', 'path'];
 export const QUESTS_PER_DAY = 3;
 
 /** Small deterministic hash (FNV-1a) so a day string becomes a stable seed. */

@@ -17,15 +17,19 @@ async function counters(day: string): Promise<QuestCounters> {
     quiz_done: number;
     words_saved: number;
     games_played: number;
-  }>('SELECT reviews_done, quiz_done, words_saved, games_played FROM daily_activity WHERE day = ?', [
-    day,
-  ]);
+    path_lessons_done: number;
+  }>(
+    `SELECT reviews_done, quiz_done, words_saved, games_played, path_lessons_done
+     FROM daily_activity WHERE day = ?`,
+    [day]
+  );
   return {
     reviews: row?.reviews_done ?? 0,
     quiz: row?.quiz_done ?? 0,
     games: row?.games_played ?? 0,
     words: row?.words_saved ?? 0,
     xp: await xpEarnedOnDay(day),
+    path: row?.path_lessons_done ?? 0,
   };
 }
 

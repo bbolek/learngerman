@@ -11,7 +11,7 @@ export async function countedDays(): Promise<Set<string>> {
   const active = await db.getAllAsync<{ day: string }>(
     `SELECT day FROM daily_activity
      WHERE reviews_done > 0 OR quiz_done > 0 OR words_saved > 0 OR games_played > 0
-        OR texts_read > 0
+        OR texts_read > 0 OR path_lessons_done > 0
      ORDER BY day DESC LIMIT 500`
   );
   const frozen = await db.getAllAsync<{ day: string }>(

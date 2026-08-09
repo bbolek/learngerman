@@ -1,0 +1,40 @@
+{
+  "slug": "c2-gehobener-ausdruck",
+  "title": "Gehobener Ausdruck",
+  "emoji": "🖋️",
+  "level": "C2",
+  "lessons": [
+    {
+      "slug": "c2-gehobener-ausdruck-1",
+      "kind": "lesson",
+      "title": "Gehobene Verben",
+      "words": [
+        { "lemma": "gedenken", "pos": "verb" },
+        { "lemma": "harren", "pos": "verb" },
+        { "lemma": "frönen", "pos": "verb" },
+        { "lemma": "entsagen", "pos": "verb" },
+        { "lemma": "bezichtigen", "pos": "verb" },
+        { "lemma": "wähnen", "pos": "verb" },
+        { "lemma": "ersuchen", "pos": "verb" },
+        { "lemma": "sinnieren", "pos": "verb" }
+      ],
+      "grammar": [{ "topic": "verben-mit-genitiv", "questions": 4 }]
+    },
+    {
+      "slug": "c2-gehobener-ausdruck-2",
+      "kind": "lesson",
+      "title": "Diskurs & Reflexion",
+      "words": [
+        { "lemma": "mutmaßen", "pos": "verb" },
+        { "lemma": "postulieren", "pos": "verb" },
+        { "lemma": "negieren", "pos": "verb" },
+        { "lemma": "resümieren", "pos": "verb" },
+        { "lemma": "disputieren", "pos": "verb" },
+        { "lemma": "polemisieren", "pos": "verb" },
+        { "lemma": "besinnen", "pos": "verb" },
+        { "lemma": "vergegenwärtigen", "pos": "verb" }
+      ]
+    },
+    { "slug": "c2-gehobener-ausdruck-wdh", "kind": "review", "title": "Wiederholung" }
+  ]
+}

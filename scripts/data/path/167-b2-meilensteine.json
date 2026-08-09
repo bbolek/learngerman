@@ -1,0 +1,60 @@
+{
+  "slug": "b2-meilensteine",
+  "title": "Meilensteine",
+  "emoji": "🏆",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-meilensteine-1",
+      "kind": "lesson",
+      "title": "Der Triumph",
+      "words": [
+        { "lemma": "Podium", "pos": "noun" },
+        { "lemma": "Siegertreppchen", "pos": "noun" },
+        { "lemma": "Ehrung", "pos": "noun" },
+        { "lemma": "ehren", "pos": "verb" },
+        { "lemma": "Hymne", "pos": "noun" },
+        { "lemma": "applaudieren", "pos": "verb" },
+        { "lemma": "triumphieren", "pos": "verb" },
+        { "lemma": "Ruhm", "pos": "noun" },
+        { "lemma": "krönen", "pos": "verb" },
+        { "lemma": "Comeback", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "b2-meilensteine-2",
+      "kind": "lesson",
+      "title": "Das große Los",
+      "words": [
+        { "lemma": "Gewinnzahl", "pos": "noun" },
+        { "lemma": "Ziehung", "pos": "noun" },
+        { "lemma": "Glücksfee", "pos": "noun" },
+        { "lemma": "Tippgemeinschaft", "pos": "noun" },
+        { "lemma": "Rubbellos", "pos": "noun" },
+        { "lemma": "Sechser", "pos": "noun" },
+        { "lemma": "Volltreffer", "pos": "noun" },
+        { "lemma": "verprassen", "pos": "verb" },
+        { "lemma": "abkassieren", "pos": "verb" },
+        { "lemma": "Erspartes", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "b2-meilensteine-3",
+      "kind": "lesson",
+      "title": "Der Abschied",
+      "words": [
+        { "lemma": "kondolieren", "pos": "verb" },
+        { "lemma": "versterben", "pos": "verb" },
+        { "lemma": "verstorben", "pos": "adj" },
+        { "lemma": "Todesanzeige", "pos": "noun" },
+        { "lemma": "Nachruf", "pos": "noun" },
+        { "lemma": "Bestattung", "pos": "noun" },
+        { "lemma": "Beisetzung", "pos": "noun" },
+        { "lemma": "Hinterbliebene", "pos": "noun" },
+        { "lemma": "Gedenkfeier", "pos": "noun" },
+        { "lemma": "Schweigeminute", "pos": "noun" }
+      ]
+    },
+    { "slug": "b2-meilensteine-wdh", "kind": "review", "title": "Wiederholung" }
+  ]
+}

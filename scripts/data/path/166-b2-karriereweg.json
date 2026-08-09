@@ -1,0 +1,76 @@
+{
+  "slug": "b2-karriereweg",
+  "title": "Karriereweg",
+  "emoji": "🧭",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-karriereweg-1",
+      "kind": "lesson",
+      "title": "Die Bewerbung",
+      "words": [
+        { "lemma": "Jobmesse", "pos": "noun" },
+        { "lemma": "Headhunter", "pos": "noun" },
+        { "lemma": "Personaler", "pos": "noun" },
+        { "lemma": "Einstellungstest", "pos": "noun" },
+        { "lemma": "Probearbeiten", "pos": "noun" },
+        { "lemma": "Traineeprogramm", "pos": "noun" },
+        { "lemma": "Gehaltsvorstellung", "pos": "noun" },
+        { "lemma": "Wunschgehalt", "pos": "noun" },
+        { "lemma": "Teamfähigkeit", "pos": "noun" },
+        { "lemma": "Belastbarkeit", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "b2-karriereweg-2",
+      "kind": "lesson",
+      "title": "Der Aufstieg",
+      "words": [
+        { "lemma": "Karrieresprung", "pos": "noun" },
+        { "lemma": "Beförderungsgespräch", "pos": "noun" },
+        { "lemma": "Jahresgespräch", "pos": "noun" },
+        { "lemma": "Untergebene", "pos": "noun" },
+        { "lemma": "Personalverantwortung", "pos": "noun" },
+        { "lemma": "hocharbeiten", "pos": "verb" },
+        { "lemma": "Sprosse", "pos": "noun" },
+        { "lemma": "Chefetage", "pos": "noun" },
+        { "lemma": "Chefsessel", "pos": "noun" },
+        { "lemma": "Eckbüro", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "b2-karriereweg-3",
+      "kind": "lesson",
+      "title": "Die eigene Firma",
+      "words": [
+        { "lemma": "Firmengründung", "pos": "noun" },
+        { "lemma": "Existenzgründer", "pos": "noun" },
+        { "lemma": "Jungunternehmer", "pos": "noun" },
+        { "lemma": "Start-up", "pos": "noun" },
+        { "lemma": "Businessplan", "pos": "noun" },
+        { "lemma": "Gewerbeanmeldung", "pos": "noun" },
+        { "lemma": "Fördermittel", "pos": "noun" },
+        { "lemma": "Gründerzentrum", "pos": "noun" },
+        { "lemma": "Standbein", "pos": "noun" },
+        { "lemma": "Netzwerken", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "b2-karriereweg-4",
+      "kind": "lesson",
+      "title": "Der Ruhestand",
+      "words": [
+        { "lemma": "pensionieren", "pos": "verb" },
+        { "lemma": "Pensionär", "pos": "noun" },
+        { "lemma": "Renteneintritt", "pos": "noun" },
+        { "lemma": "Rentenbescheid", "pos": "noun" },
+        { "lemma": "Lebensabend", "pos": "noun" },
+        { "lemma": "Lebenswerk", "pos": "noun" },
+        { "lemma": "Abschiedsrede", "pos": "noun" },
+        { "lemma": "wohlverdient", "pos": "adj" },
+        { "lemma": "zurückblicken", "pos": "verb" }
+      ]
+    },
+    { "slug": "b2-karriereweg-wdh", "kind": "review", "title": "Wiederholung" }
+  ]
+}

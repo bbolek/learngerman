@@ -1,0 +1,57 @@
+{
+  "slug": "b2-hochzeit-familie",
+  "title": "Hochzeit & Familie",
+  "emoji": "💒",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-hochzeit-familie-1",
+      "kind": "lesson",
+      "title": "Der große Tag",
+      "words": [
+        { "lemma": "Jawort", "pos": "noun" },
+        { "lemma": "Ringtausch", "pos": "noun" },
+        { "lemma": "Eheversprechen", "pos": "noun" },
+        { "lemma": "Ehevertrag", "pos": "noun" },
+        { "lemma": "standesamtlich", "pos": "adj" },
+        { "lemma": "Traumhochzeit", "pos": "noun" },
+        { "lemma": "Hochzeitsplaner", "pos": "noun" },
+        { "lemma": "Gästeliste", "pos": "noun" }
+      ],
+      "grammar": [{ "topic": "futur2", "questions": 4 }]
+    },
+    {
+      "slug": "b2-hochzeit-familie-2",
+      "kind": "lesson",
+      "title": "Die Feier",
+      "words": [
+        { "lemma": "Brautjungfer", "pos": "noun" },
+        { "lemma": "Blumenmädchen", "pos": "noun" },
+        { "lemma": "Sektempfang", "pos": "noun" },
+        { "lemma": "Schleier", "pos": "noun" },
+        { "lemma": "Brautvater", "pos": "noun" },
+        { "lemma": "Hochzeitswalzer", "pos": "noun" },
+        { "lemma": "Hochzeitsnacht", "pos": "noun" },
+        { "lemma": "Eheleute", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "b2-hochzeit-familie-3",
+      "kind": "lesson",
+      "title": "Nachwuchs",
+      "words": [
+        { "lemma": "Babybauch", "pos": "noun" },
+        { "lemma": "Wehen", "pos": "noun" },
+        { "lemma": "Kreißsaal", "pos": "noun" },
+        { "lemma": "entbinden", "pos": "verb" },
+        { "lemma": "gebären", "pos": "verb" },
+        { "lemma": "Säugling", "pos": "noun" },
+        { "lemma": "neugeboren", "pos": "adj" },
+        { "lemma": "Wiege", "pos": "noun" },
+        { "lemma": "Babyparty", "pos": "noun" },
+        { "lemma": "Familienzuwachs", "pos": "noun" }
+      ]
+    },
+    { "slug": "b2-hochzeit-familie-wdh", "kind": "review", "title": "Wiederholung" }
+  ]
+}

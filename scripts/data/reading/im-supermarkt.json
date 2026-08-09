@@ -1,0 +1,24 @@
+{
+  "slug": "im-supermarkt",
+  "title": "Im Supermarkt",
+  "level": "A1",
+  "teaser": "Frau Weber kauft Essen für das Wochenende ein.",
+  "paragraphs": [
+    {
+      "de": "Frau Weber braucht Essen für das Wochenende. Sie fährt mit dem Bus zum Supermarkt. Der Supermarkt ist groß und modern.",
+      "en": "Mrs. Weber needs food for the weekend. She takes the bus to the supermarket. The supermarket is big and modern."
+    },
+    {
+      "de": "Sie nimmt einen Einkaufswagen. Auf ihrer Liste stehen Milch, Eier, Käse und Tomaten. Sie findet alles schnell.",
+      "en": "She takes a shopping cart. On her list are milk, eggs, cheese and tomatoes. She finds everything quickly."
+    },
+    {
+      "de": "An der Kasse ist eine lange Schlange. Frau Weber wartet zehn Minuten. Dann bezahlt sie mit Karte. Alles kostet zwanzig Euro.",
+      "en": "At the checkout there is a long line. Mrs. Weber waits ten minutes. Then she pays by card. Everything costs twenty euros."
+    },
+    {
+      "de": "Zu Hause packt sie die Sachen aus. Die Milch kommt in den Kühlschrank. Jetzt trinkt sie einen Kaffee. Der Einkauf ist fertig.",
+      "en": "At home she unpacks the things. The milk goes into the fridge. Now she drinks a coffee. The shopping is done."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "mein-hund-bruno",
+  "title": "Mein Hund Bruno",
+  "level": "A1",
+  "teaser": "Bruno ist groß, braun und hat immer Hunger.",
+  "paragraphs": [
+    {
+      "de": "Das ist Bruno. Bruno ist mein Hund. Er ist drei Jahre alt und sehr groß. Sein Fell ist braun und weich.",
+      "en": "This is Bruno. Bruno is my dog. He is three years old and very big. His fur is brown and soft."
+    },
+    {
+      "de": "Jeden Morgen gehen wir in den Park. Bruno läuft schnell und spielt gern mit dem Ball. Er hat viel Energie.",
+      "en": "Every morning we go to the park. Bruno runs fast and likes to play with the ball. He has a lot of energy."
+    },
+    {
+      "de": "Bruno hat immer Hunger. Er frisst zwei Mal am Tag. Sein Lieblingsessen ist Fleisch. Wasser trinkt er auch sehr viel.",
+      "en": "Bruno is always hungry. He eats twice a day. His favorite food is meat. He also drinks a lot of water."
+    },
+    {
+      "de": "Am Abend liegt Bruno auf dem Sofa. Er ist müde und schläft schnell ein. Ich liebe meinen Hund.",
+      "en": "In the evening Bruno lies on the sofa. He is tired and falls asleep quickly. I love my dog."
+    }
+  ]
+}

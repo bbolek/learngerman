@@ -4,9 +4,16 @@
  * screens so everything here is deterministic and unit-testable.
  */
 
-import { shuffled } from '@/logic/graders';
+import { gradeFillBlank, shuffled, type FillResult } from '@/logic/graders';
 
-export type GameKey = 'wortblitz' | 'bilderraetsel' | 'derdiedas' | 'wortpaare';
+export type GameKey =
+  | 'wortblitz'
+  | 'bilderraetsel'
+  | 'derdiedas'
+  | 'wortpaare'
+  | 'konjugation'
+  | 'satzbau'
+  | 'diktat';
 
 export interface GameInfo {
   key: GameKey;
@@ -48,6 +55,30 @@ export const GAMES: GameInfo[] = [
     tagline: 'Finde die Paare — schnell und fehlerfrei.',
     rules:
       'Verbinde jedes deutsche Wort mit seiner Übersetzung. Drei Runden mit je sechs Paaren: je schneller und fehlerfreier, desto mehr Punkte.',
+  },
+  {
+    key: 'konjugation',
+    emoji: '🔁',
+    title: 'Konjugations-Trainer',
+    tagline: 'fahren, fährt, fuhr — sitzt jede Verbform?',
+    rules:
+      'Wähle die richtige Verbform für Person und Zeit. Richtige Antworten bringen Punkte und verlängern deine Serie. Drei Fehler — und die Runde ist vorbei.',
+  },
+  {
+    key: 'satzbau',
+    emoji: '🧱',
+    title: 'Satzbau',
+    tagline: 'Bring die Wörter in die richtige Reihenfolge!',
+    rules:
+      'Baue aus den Wortbausteinen den deutschen Satz — die Übersetzung hilft dir. Richtige Sätze bringen Punkte und verlängern deine Serie. Drei Fehler — und die Runde ist vorbei.',
+  },
+  {
+    key: 'diktat',
+    emoji: '🎧',
+    title: 'Diktat',
+    tagline: 'Hör genau hin — und schreib, was du hörst!',
+    rules:
+      'Hör dir das Wort an und tippe es ein — Nomen mit Artikel. Zehn Wörter pro Runde, richtige Antworten bringen Punkte und verlängern deine Serie. Du kannst dir jedes Wort mehrmals anhören.',
   },
 ];
 
@@ -207,6 +238,171 @@ export function buildImageQuestions(pool: ImageWord[], seed: number): ChoiceQues
     return true;
   });
   return buildChoiceQuestions(words, seed, withArticle);
+}
+
+// ---------- Konjugations-Trainer rounds ----------
+
+export const KONJUGATION_LIVES = 3;
+
+/** A verb pulled with every inflected surface form the dictionary knows. */
+export interface VerbWord extends GameWord {
+  /** Perfekt auxiliary ('haben' | 'sein'), null only on malformed content. */
+  aux: string | null;
+  forms: { form: string; tag: string }[];
+}
+
+export interface KonjugationQuestion extends ChoiceQuestion<VerbWord> {
+  /** Form tag being asked for (präsens_du, präteritum_er, partizip2 …). */
+  tag: string;
+}
+
+/** Tags worth drilling: stem changes, Präteritum and Partizip II live here. */
+export const KONJUGATION_TAGS = ['präsens_du', 'präsens_er', 'präteritum_er', 'partizip2'];
+
+/** How a question frames its tag: "du ___" chip plus a tense label. */
+export function konjugationContext(tag: string, aux: string | null): { lead: string; tense: string } {
+  switch (tag) {
+    case 'präsens_du':
+      return { lead: 'du', tense: 'Präsens' };
+    case 'präsens_er':
+      return { lead: 'er/sie/es', tense: 'Präsens' };
+    case 'präteritum_er':
+      return { lead: 'er/sie/es', tense: 'Präteritum' };
+    case 'partizip2':
+      return { lead: aux === 'sein' ? 'er ist' : 'er hat', tense: 'Perfekt' };
+    default:
+      return { lead: '', tense: tag };
+  }
+}
+
+/**
+ * One question per usable verb: a seeded drill tag, its form as the answer,
+ * and three OTHER forms of the same verb as distractors — so every option is
+ * a real word of that verb and guessing means actually knowing the form.
+ * Verbs without enough distinct forms are skipped.
+ */
+export function buildKonjugationQuestions(pool: VerbWord[], seed: number): KonjugationQuestion[] {
+  const questions: KonjugationQuestion[] = [];
+  shuffled(pool, seed).forEach((word, i) => {
+    const byTag = new Map<string, string>();
+    for (const f of word.forms) if (!byTag.has(f.tag)) byTag.set(f.tag, f.form);
+    const drillable = KONJUGATION_TAGS.filter((tag) => byTag.has(tag));
+    if (drillable.length === 0) return;
+    const tag = drillable[(seed + i * 13) % drillable.length];
+    const correct = byTag.get(tag)!;
+    const others = [...new Set(word.forms.map((f) => f.form))].filter((f) => f !== correct);
+    if (others.length < BLITZ_OPTIONS - 1) return;
+    const distractors = shuffled(others, seed * 31 + i + 1).slice(0, BLITZ_OPTIONS - 1);
+    const options = shuffled([correct, ...distractors], seed + i * 7 + 3);
+    questions.push({ word, tag, options, correctIndex: options.indexOf(correct) });
+  });
+  return questions;
+}
+
+// ---------- Satzbau rounds ----------
+
+export const SATZBAU_LIVES = 3;
+export const SATZBAU_SENTENCES = 10;
+export const SATZBAU_MIN_TOKENS = 4;
+export const SATZBAU_MAX_TOKENS = 9;
+
+/** An example sentence pulled with the lemma it belongs to. */
+export interface SentenceWord {
+  /** Lemma id — feeds recordMistakes when the sentence is built wrong. */
+  id: number;
+  de: string;
+  en: string;
+}
+
+/** Word tiles carry their original position as id so duplicate words stay distinct. */
+export interface SatzbauTile {
+  id: number;
+  text: string;
+}
+
+export interface SatzbauQuestion {
+  lemmaId: number;
+  en: string;
+  /** Tokens in the original order — the only accepted solution. */
+  solution: string[];
+  /** The same tokens scrambled (never presented in the original order). */
+  tiles: SatzbauTile[];
+}
+
+/** Whitespace tokens with the final punctuation dropped ("Was machst du?" → 3 tokens). */
+export function tokenizeSentence(sentence: string): string[] {
+  const trimmed = sentence.trim().replace(/[.!?…]+$/, '');
+  return trimmed.length === 0 ? [] : trimmed.split(/\s+/);
+}
+
+export function gradeSatzbau(solution: string[], sequence: string[]): boolean {
+  return solution.length === sequence.length && solution.every((tok, i) => tok === sequence[i]);
+}
+
+/**
+ * Up to SATZBAU_SENTENCES buildable sentences: 4–9 words, distinct, seeded
+ * order. Tiles are scrambled; when a shuffle lands on the original order the
+ * tiles are rotated one step, which differs unless every token is identical.
+ */
+export function buildSatzbauQuestions(pool: SentenceWord[], seed: number): SatzbauQuestion[] {
+  const seen = new Set<string>();
+  const usable = pool.filter((w) => {
+    const count = tokenizeSentence(w.de).length;
+    if (count < SATZBAU_MIN_TOKENS || count > SATZBAU_MAX_TOKENS) return false;
+    if (seen.has(w.de)) return false;
+    seen.add(w.de);
+    return true;
+  });
+  return shuffled(usable, seed)
+    .slice(0, SATZBAU_SENTENCES)
+    .map((w, i) => {
+      const solution = tokenizeSentence(w.de);
+      let tiles = shuffled(
+        solution.map((text, id) => ({ id, text })),
+        seed * 17 + i * 31 + 1
+      );
+      if (!tiles.some((t, j) => t.text !== solution[j])) {
+        tiles = [...tiles.slice(1), tiles[0]];
+      }
+      return { lemmaId: w.id, en: w.en, solution, tiles };
+    });
+}
+
+// ---------- Diktat rounds ----------
+
+export const DIKTAT_WORDS = 10;
+
+export interface DiktatQuestion {
+  word: GameWord;
+  /** What is spoken and must be typed: nouns with article ("das Haus"). */
+  text: string;
+}
+
+/**
+ * Ten distinct dictation words per round. Nouns are spoken (and typed) with
+ * their article, which disambiguates most homophones and drills gender for
+ * free.
+ */
+export function buildDiktatQuestions(pool: GameWord[], seed: number): DiktatQuestion[] {
+  const seen = new Set<string>();
+  return shuffled(pool, seed)
+    .filter((w) => {
+      const key = withArticle(w).toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .slice(0, DIKTAT_WORDS)
+    .map((word) => ({ word, text: withArticle(word) }));
+}
+
+/**
+ * Case/whitespace-insensitive; ae/oe/ue/ss for ä/ö/ü/ß counts as correct but
+ * is flagged as a near-miss so the proper spelling can be shown (same
+ * tolerance as the grammar fill-blank grader, which this delegates to).
+ */
+export function gradeDiktat(expected: string, answer: string): FillResult {
+  return gradeFillBlank({ prompt: '', accept: [expected], explanation: '' }, answer);
 }
 
 // ---------- Wortpaare rounds ----------

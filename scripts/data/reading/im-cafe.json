@@ -1,0 +1,24 @@
+{
+  "slug": "im-cafe",
+  "title": "Im Café",
+  "level": "A1",
+  "teaser": "Lena hat Durst und findet ein kleines Café in der Stadt.",
+  "paragraphs": [
+    {
+      "de": "Lena hat Durst. Sie geht in ein kleines Café in der Stadt. Das Café ist neu und sehr schön.",
+      "en": "Lena is thirsty. She goes to a small café in the city. The café is new and very beautiful."
+    },
+    {
+      "de": "Im Café gibt es Kaffee, Tee und Kuchen. Lena liest die Karte. Der Apfelkuchen kostet drei Euro.",
+      "en": "The café has coffee, tea and cake. Lena reads the menu. The apple cake costs three euros."
+    },
+    {
+      "de": "Die Kellnerin kommt an den Tisch. „Was möchten Sie?“, fragt sie. Lena bestellt einen Kaffee mit Milch und ein Stück Apfelkuchen.",
+      "en": "The waitress comes to the table. \"What would you like?\", she asks. Lena orders a coffee with milk and a piece of apple cake."
+    },
+    {
+      "de": "Der Kaffee ist heiß und der Kuchen schmeckt sehr gut. Lena bleibt eine Stunde. Dann bezahlt sie und geht nach Hause.",
+      "en": "The coffee is hot and the cake tastes very good. Lena stays for an hour. Then she pays and goes home."
+    }
+  ]
+}

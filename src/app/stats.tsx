@@ -5,10 +5,20 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { unlockedCount } from '@/db/achievementsRepo';
 import { listTopics, topicAccuracy, type TopicRow } from '@/db/grammarRepo';
-import { currentStreak, recentActivity, type DayActivity } from '@/db/srsRepo';
+import { currentStreak, recentActivity, upcomingDueDates, type DayActivity } from '@/db/srsRepo';
 import { savedCount } from '@/db/vocabRepo';
 import { xpTotals } from '@/db/xpRepo';
 import { ACHIEVEMENTS } from '@/logic/achievements';
+import {
+  bucketDueDates,
+  buildHeatmap,
+  dayKeyOf,
+  FORECAST_DAYS,
+  forecastLabel,
+  HEATMAP_WEEKS,
+  type ForecastDay,
+  type HeatWeek,
+} from '@/logic/heatmap';
 import { levelProgress, levelTitle, type LevelProgress } from '@/logic/xp';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -18,6 +28,7 @@ import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 const DAYS = 14;
+const HEAT_DAYS = HEATMAP_WEEKS * 7;
 
 export default function StatsScreen() {
   const t = useTheme();
@@ -28,12 +39,16 @@ export default function StatsScreen() {
   const [level, setLevel] = useState<LevelProgress | null>(null);
   const [totalXp, setTotalXp] = useState(0);
   const [badges, setBadges] = useState(0);
+  const [forecast, setForecast] = useState<ForecastDay[]>([]);
   const [now] = useState(() => Date.now());
 
   useEffect(() => {
     const nowDate = new Date(now);
     currentStreak(nowDate).then(setStreak);
-    recentActivity(DAYS, nowDate).then(setActivity);
+    recentActivity(HEAT_DAYS, nowDate).then(setActivity);
+    upcomingDueDates(nowDate, FORECAST_DAYS).then((dates) =>
+      setForecast(bucketDueDates(dates, nowDate))
+    );
     savedCount().then(setSaved);
     listTopics().then(setTopics);
     xpTotals().then((tot) => {
@@ -43,21 +58,19 @@ export default function StatsScreen() {
     unlockedCount().then(setBadges);
   }, [now]);
 
-  const byDay = new Map(activity.map((a) => [a.day, a]));
-  const days: { day: string; total: number; reviews: number }[] = [];
-  for (let i = DAYS - 1; i >= 0; i--) {
-    const day = new Date(now - i * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-    const a = byDay.get(day);
-    days.push({
-      day,
-      reviews: a?.reviews_done ?? 0,
-      total: (a?.reviews_done ?? 0) + (a?.quiz_done ?? 0) + (a?.games_played ?? 0),
-    });
-  }
-  const maxTotal = Math.max(1, ...days.map((d) => d.total));
-  const totalReviews = activity.reduce((sum, a) => sum + a.reviews_done, 0);
-  const totalQuiz = activity.reduce((sum, a) => sum + a.quiz_done, 0);
-  const totalGames = activity.reduce((sum, a) => sum + a.games_played, 0);
+  const dayTotal = (a: DayActivity) =>
+    a.reviews_done + a.quiz_done + a.games_played + a.words_saved + (a.texts_read ?? 0);
+  const heatmap = buildHeatmap(
+    new Map(activity.map((a) => [a.day, dayTotal(a)])),
+    new Date(now)
+  );
+  const twoWeeksAgo = new Date(now - DAYS * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const recent = activity.filter((a) => a.day >= twoWeeksAgo);
+  const totalReviews = recent.reduce((sum, a) => sum + a.reviews_done, 0);
+  const totalQuiz = recent.reduce((sum, a) => sum + a.quiz_done, 0);
+  const totalGames = recent.reduce((sum, a) => sum + a.games_played, 0);
+  const forecastMax = Math.max(1, ...forecast.map((d) => d.count));
+  const forecastTotal = forecast.reduce((sum, d) => sum + d.count, 0);
 
   return (
     <Screen>
@@ -137,34 +150,66 @@ export default function StatsScreen() {
       </View>
 
       <Card style={{ marginTop: spacing.md }}>
-        <AppText variant="subtitle">Aktivität · letzte {DAYS} Tage</AppText>
-        <View style={styles.chart}>
-          {days.map((d) => {
-            const isToday = d.day === new Date().toISOString().slice(0, 10);
-            const h = d.total === 0 ? 3 : Math.max(6, Math.round((d.total / maxTotal) * 84));
-            return (
-              <View key={d.day} style={styles.barCol}>
-                <View
-                  style={[
-                    styles.chartBar,
-                    {
-                      height: h,
-                      backgroundColor: d.total === 0 ? t.line : isToday ? t.primary : t.primaryDim,
-                    },
-                  ]}
-                />
-              </View>
-            );
-          })}
+        <AppText variant="subtitle">Aktivität · letzte {HEATMAP_WEEKS} Wochen</AppText>
+        <View style={styles.heatRow}>
+          <View style={styles.heatLabels}>
+            {['Mo', 'Mi', 'Fr'].map((label, i) => (
+              <AppText
+                key={label}
+                variant="caption"
+                muted
+                style={[styles.heatLabel, { top: i * 2 * (HEAT_CELL + HEAT_GAP) - 1 }]}>
+                {label}
+              </AppText>
+            ))}
+          </View>
+          <View style={styles.heatGrid}>
+            {heatmap.map((week, w) => (
+              <HeatColumn key={w} week={week} />
+            ))}
+          </View>
         </View>
         <View style={styles.chartLabels}>
           <AppText variant="caption" muted>
-            vor {DAYS} Tagen
+            vor {HEATMAP_WEEKS} Wochen
           </AppText>
           <AppText variant="caption" muted>
             heute
           </AppText>
         </View>
+      </Card>
+
+      <Card style={{ marginTop: spacing.md }}>
+        <AppText variant="subtitle">Fällige Karten · nächste {FORECAST_DAYS} Tage</AppText>
+        {forecastTotal === 0 ? (
+          <AppText variant="secondary" muted style={{ marginTop: spacing.md }}>
+            Nichts fällig — alle Karten sind gelernt. 🎉
+          </AppText>
+        ) : (
+          <View style={{ marginTop: spacing.md, gap: spacing.sm }}>
+            {forecast.map((d) => (
+              <View key={d.day} style={styles.forecastRow}>
+                <AppText variant="caption" muted style={styles.forecastLabel}>
+                  {forecastLabel(d.day, dayKeyOf(new Date(now)))}
+                </AppText>
+                <View style={[styles.forecastTrack, { backgroundColor: t.line }]}>
+                  <View
+                    style={[
+                      styles.forecastFill,
+                      {
+                        width: `${Math.round((d.count / forecastMax) * 100)}%`,
+                        backgroundColor: d.day === dayKeyOf(new Date(now)) ? t.primary : t.accent,
+                      },
+                    ]}
+                  />
+                </View>
+                <AppText variant="caption" style={styles.forecastCount}>
+                  {d.count}
+                </AppText>
+              </View>
+            ))}
+          </View>
+        )}
       </Card>
 
       <Card style={{ marginTop: spacing.md }}>
@@ -202,6 +247,31 @@ export default function StatsScreen() {
   );
 }
 
+const HEAT_CELL = 13;
+const HEAT_GAP = 3;
+
+/** One heatmap week column; extracted so the cell colors can use the theme hook. */
+function HeatColumn({ week }: { week: HeatWeek }) {
+  const t = useTheme();
+  const colorFor = (level: number) => {
+    if (level === 0) return { backgroundColor: t.line, opacity: 0.6 };
+    if (level === 1) return { backgroundColor: t.primaryDim, opacity: 1 };
+    if (level === 2) return { backgroundColor: t.primary, opacity: 0.55 };
+    return { backgroundColor: t.primary, opacity: 1 };
+  };
+  return (
+    <View style={styles.heatCol}>
+      {week.map((day, i) =>
+        day == null ? (
+          <View key={i} style={styles.heatCell} />
+        ) : (
+          <View key={i} style={[styles.heatCell, colorFor(day.level)]} />
+        )
+      )}
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   back: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: spacing.lg },
   levelCard: {
@@ -220,16 +290,18 @@ const styles = StyleSheet.create({
   },
   tiles: { flexDirection: 'row', gap: spacing.md, marginTop: spacing.md },
   tile: { flex: 1, alignItems: 'center', paddingVertical: spacing.lg },
-  chart: {
-    flexDirection: 'row',
-    alignItems: 'flex-end',
-    gap: 5,
-    height: 90,
-    marginTop: spacing.md,
-  },
-  barCol: { flex: 1, alignItems: 'stretch', justifyContent: 'flex-end' },
-  chartBar: { borderRadius: 4 },
-  chartLabels: { flexDirection: 'row', justifyContent: 'space-between', marginTop: 6 },
+  heatRow: { flexDirection: 'row', gap: 6, marginTop: spacing.md },
+  heatLabels: { width: 20, position: 'relative' },
+  heatLabel: { position: 'absolute', left: 0 },
+  heatGrid: { flex: 1, flexDirection: 'row', gap: HEAT_GAP, justifyContent: 'space-between' },
+  heatCol: { gap: HEAT_GAP },
+  heatCell: { width: HEAT_CELL, height: HEAT_CELL, borderRadius: 3.5 },
+  chartLabels: { flexDirection: 'row', justifyContent: 'space-between', marginTop: 8 },
+  forecastRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
+  forecastLabel: { width: 48 },
+  forecastTrack: { flex: 1, height: 10, borderRadius: 999, overflow: 'hidden' },
+  forecastFill: { height: '100%', borderRadius: 999 },
+  forecastCount: { width: 34, textAlign: 'right', fontFamily: fonts.extrabold },
   accRow: { flexDirection: 'row', alignItems: 'center', marginBottom: 5 },
   accTrack: { height: 8, borderRadius: 999, overflow: 'hidden' },
   accFill: { height: '100%', borderRadius: 999 },

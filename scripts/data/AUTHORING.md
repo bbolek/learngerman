@@ -228,3 +228,31 @@ feedback panel renders them tappable); the convention there is to mark the
 
 `difficulty` is 1–3 (easy rounds are served first). Aim for ≥ 12 questions
 per topic and a mix of at least three qtypes where the topic allows it.
+
+## Reading texts (Leseecke)
+
+One graded text per file in `scripts/data/reading/*.json`:
+
+```jsonc
+{
+  "slug": "im-cafe",          // kebab-case, stable — reading_progress keys on it
+  "title": "Im Café",
+  "level": "A1",              // A1|A2|B1
+  "teaser": "Lena hat Durst …",   // one-line hook for the list screen
+  "paragraphs": [
+    { "de": "…", "en": "…" }  // German paragraph + English translation
+  ]
+}
+```
+
+Rules:
+
+- Never rename a `slug` — the user's completion state (`reading_progress`)
+  is keyed by it and would be orphaned.
+- Keep texts short (80–160 words) and level-appropriate: A1 Präsens and
+  core vocab, A2 may use Perfekt, B1 subordinate clauses.
+- Every word is tappable in the reader (fuzzy dictionary lookup) — prefer
+  vocabulary the dictionary knows, but unmatched words are simply not
+  linked; nothing breaks.
+- The list orders by level, then German title; the build derives the
+  word count shown in the UI.

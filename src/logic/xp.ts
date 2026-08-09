@@ -12,7 +12,8 @@ export type XpKind =
   | 'duel_win'
   | 'duel_played'
   | 'quest'
-  | 'streak_repair';
+  | 'streak_repair'
+  | 'reading';
 
 // ---------- award sizes ----------
 
@@ -30,6 +31,9 @@ export const XP_DUEL_PLAYED = 10;
 
 /** Same-day streak repair when no Streak-Retter is left. */
 export const STREAK_REPAIR_COST = 100;
+
+/** First completion of a Leseecke text. */
+export const XP_READING_TEXT = 15;
 
 export function xpForReview(rating: number): number {
   return rating === 0 ? XP_REVIEW_AGAIN : XP_REVIEW_RECALLED;

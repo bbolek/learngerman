@@ -9,20 +9,34 @@ import {
   buildArtikelQuestions,
   buildBlitzQuestions,
   buildImageQuestions,
+  buildDiktatQuestions,
+  buildKonjugationQuestions,
   buildPairsBoards,
+  buildSatzbauQuestions,
+  DIKTAT_WORDS,
+  gradeDiktat,
+  gradeSatzbau,
   dedupeByGloss,
   DERDIEDAS_LIVES,
   GAMES,
   gameInfo,
   initialArcade,
+  KONJUGATION_TAGS,
+  konjugationContext,
   PAIRS_BOARDS,
   PAIRS_PER_BOARD,
   pairsBoardScore,
+  SATZBAU_MAX_TOKENS,
+  SATZBAU_MIN_TOKENS,
+  SATZBAU_SENTENCES,
   shortGloss,
   streakBonus,
+  tokenizeSentence,
   withArticle,
   type GameWord,
   type ImageWord,
+  type SentenceWord,
+  type VerbWord,
 } from '@/logic/games';
 
 function word(id: number, lemma: string, gloss: string): GameWord {
@@ -34,8 +48,16 @@ const POOL: GameWord[] = Array.from({ length: 40 }, (_, i) =>
 );
 
 describe('registry', () => {
-  it('exposes all four games', () => {
-    expect(GAMES.map((g) => g.key)).toEqual(['wortblitz', 'bilderraetsel', 'derdiedas', 'wortpaare']);
+  it('exposes all seven games', () => {
+    expect(GAMES.map((g) => g.key)).toEqual([
+      'wortblitz',
+      'bilderraetsel',
+      'derdiedas',
+      'wortpaare',
+      'konjugation',
+      'satzbau',
+      'diktat',
+    ]);
     expect(gameInfo('derdiedas').title).toBe('Der, die oder das?');
   });
 });
@@ -199,6 +221,184 @@ describe('buildArtikelQuestions', () => {
   });
 });
 
+describe('buildKonjugationQuestions', () => {
+  function verb(id: number, lemma: string, forms: [string, string][], aux = 'haben'): VerbWord {
+    return {
+      id,
+      lemma,
+      gender: null,
+      plural: null,
+      gloss: `to ${lemma}`,
+      aux,
+      forms: forms.map(([form, tag]) => ({ form, tag })),
+    };
+  }
+
+  const fahren = verb(
+    1,
+    'fahren',
+    [
+      ['fahre', 'präsens_ich'],
+      ['fährst', 'präsens_du'],
+      ['fährt', 'präsens_er'],
+      ['fahrt', 'präsens_ihr'],
+      ['fuhr', 'präteritum_ich'],
+      ['fuhr', 'präteritum_er'],
+      ['fuhren', 'präteritum_wir'],
+      ['gefahren', 'partizip2'],
+    ],
+    'sein'
+  );
+  const machen = verb(2, 'machen', [
+    ['mache', 'präsens_ich'],
+    ['machst', 'präsens_du'],
+    ['macht', 'präsens_er'],
+    ['machte', 'präteritum_er'],
+    ['machten', 'präteritum_wir'],
+    ['gemacht', 'partizip2'],
+  ]);
+
+  it('asks a drillable tag with the right form among real sibling forms', () => {
+    const questions = buildKonjugationQuestions([fahren, machen], 42);
+    expect(questions).toHaveLength(2);
+    for (const q of questions) {
+      expect(KONJUGATION_TAGS).toContain(q.tag);
+      expect(q.options).toHaveLength(BLITZ_OPTIONS);
+      expect(new Set(q.options).size).toBe(BLITZ_OPTIONS);
+      const expected = q.word.forms.find((f) => f.tag === q.tag)!.form;
+      expect(q.options[q.correctIndex]).toBe(expected);
+      const all = new Set(q.word.forms.map((f) => f.form));
+      for (const opt of q.options) expect(all.has(opt)).toBe(true);
+    }
+  });
+
+  it('is deterministic per seed and varies with the seed', () => {
+    const pool = [fahren, machen];
+    expect(buildKonjugationQuestions(pool, 7)).toEqual(buildKonjugationQuestions(pool, 7));
+    const many = Array.from({ length: 20 }, (_, i) => ({ ...fahren, id: i + 1 }));
+    expect(buildKonjugationQuestions(many, 7).map((q) => q.options)).not.toEqual(
+      buildKonjugationQuestions(many, 8).map((q) => q.options)
+    );
+  });
+
+  it('skips verbs without enough distinct forms for four options', () => {
+    const thin = verb(3, 'sein', [
+      ['war', 'präteritum_er'],
+      ['gewesen', 'partizip2'],
+    ]);
+    expect(buildKonjugationQuestions([thin], 5)).toHaveLength(0);
+  });
+
+  it('never repeats a duplicated surface form inside the options', () => {
+    // fuhr appears under two tags — options must stay four distinct strings
+    for (let seed = 1; seed < 30; seed++) {
+      for (const q of buildKonjugationQuestions([fahren], seed)) {
+        expect(new Set(q.options).size).toBe(BLITZ_OPTIONS);
+      }
+    }
+  });
+
+  it('konjugationContext picks the Perfekt auxiliary from the verb', () => {
+    expect(konjugationContext('präsens_du', 'haben')).toEqual({ lead: 'du', tense: 'Präsens' });
+    expect(konjugationContext('partizip2', 'haben').lead).toBe('er hat');
+    expect(konjugationContext('partizip2', 'sein').lead).toBe('er ist');
+  });
+});
+
+describe('Satzbau', () => {
+  function sentence(id: number, de: string, en = 'translation'): SentenceWord {
+    return { id, de, en };
+  }
+
+  const POOL_DE: SentenceWord[] = [
+    sentence(1, 'Ich gehe heute ins Kino.'),
+    sentence(2, 'Was machst du morgen Abend?'),
+    sentence(3, 'Er fährt jeden Tag mit dem Bus zur Arbeit.'),
+    sentence(4, 'Wir haben gestern einen Film gesehen.'),
+    sentence(5, 'Sie liest gern Bücher.'),
+    sentence(6, 'Das Wetter ist heute sehr schön.'),
+    sentence(7, 'Kannst du mir bitte helfen?'),
+    sentence(8, 'Der Zug kommt um acht Uhr an.'),
+    sentence(9, 'Mein Bruder wohnt in Berlin.'),
+    sentence(10, 'Ich möchte einen Kaffee bestellen.'),
+    sentence(11, 'Am Wochenende besuchen wir unsere Großeltern.'),
+    sentence(12, 'Hunger!'), // too short — dropped
+    sentence(13, 'Ich gehe heute ins Kino.'), // duplicate — dropped
+  ];
+
+  it('tokenizeSentence splits words and drops the final punctuation only', () => {
+    expect(tokenizeSentence('Was machst du?')).toEqual(['Was', 'machst', 'du']);
+    expect(tokenizeSentence('Ich gehe ins Kino.')).toEqual(['Ich', 'gehe', 'ins', 'Kino']);
+    expect(tokenizeSentence('Komm her!')).toEqual(['Komm', 'her']);
+    expect(tokenizeSentence('  Hallo Welt  ')).toEqual(['Hallo', 'Welt']);
+    expect(tokenizeSentence('')).toEqual([]);
+  });
+
+  it('builds up to SATZBAU_SENTENCES questions from usable, distinct sentences', () => {
+    const questions = buildSatzbauQuestions(POOL_DE, 42);
+    expect(questions).toHaveLength(SATZBAU_SENTENCES);
+    for (const q of questions) {
+      expect(q.solution.length).toBeGreaterThanOrEqual(SATZBAU_MIN_TOKENS);
+      expect(q.solution.length).toBeLessThanOrEqual(SATZBAU_MAX_TOKENS);
+      // tiles are a permutation of the solution …
+      expect(q.tiles.map((t) => t.text).sort()).toEqual([...q.solution].sort());
+      expect(new Set(q.tiles.map((t) => t.id)).size).toBe(q.tiles.length);
+      // … but never presented in the original order
+      expect(q.tiles.map((t) => t.text)).not.toEqual(q.solution);
+    }
+  });
+
+  it('is deterministic per seed and varies with the seed', () => {
+    expect(buildSatzbauQuestions(POOL_DE, 9)).toEqual(buildSatzbauQuestions(POOL_DE, 9));
+    expect(buildSatzbauQuestions(POOL_DE, 9).map((q) => q.solution)).not.toEqual(
+      buildSatzbauQuestions(POOL_DE, 10).map((q) => q.solution)
+    );
+  });
+
+  it('gradeSatzbau accepts only the exact sequence, duplicates included', () => {
+    const solution = ['Die', 'Frau', 'sieht', 'die', 'Kinder'];
+    expect(gradeSatzbau(solution, ['Die', 'Frau', 'sieht', 'die', 'Kinder'])).toBe(true);
+    expect(gradeSatzbau(solution, ['die', 'Frau', 'sieht', 'Die', 'Kinder'])).toBe(false);
+    expect(gradeSatzbau(solution, solution.slice(0, 4))).toBe(false);
+  });
+});
+
+describe('Diktat', () => {
+  const pool: GameWord[] = [
+    { id: 1, lemma: 'Haus', gender: 'n', plural: null, gloss: 'house' },
+    { id: 2, lemma: 'laufen', gender: null, plural: null, gloss: 'to run' },
+    { id: 3, lemma: 'Frau', gender: 'f', plural: null, gloss: 'woman' },
+    { id: 4, lemma: 'schön', gender: null, plural: null, gloss: 'beautiful' },
+    ...Array.from({ length: 12 }, (_, i) =>
+      word(10 + i, `Wort${i}`, `gloss${i}`)
+    ),
+  ];
+
+  it('speaks nouns with their article, everything else bare, capped at DIKTAT_WORDS', () => {
+    const questions = buildDiktatQuestions(pool, 3);
+    expect(questions).toHaveLength(DIKTAT_WORDS);
+    const byId = new Map(questions.map((q) => [q.word.id, q.text]));
+    if (byId.has(1)) expect(byId.get(1)).toBe('das Haus');
+    if (byId.has(2)) expect(byId.get(2)).toBe('laufen');
+    expect(new Set(questions.map((q) => q.text.toLowerCase())).size).toBe(questions.length);
+  });
+
+  it('is deterministic per seed', () => {
+    expect(buildDiktatQuestions(pool, 5)).toEqual(buildDiktatQuestions(pool, 5));
+    expect(buildDiktatQuestions(pool, 5).map((q) => q.word.id)).not.toEqual(
+      buildDiktatQuestions(pool, 6).map((q) => q.word.id)
+    );
+  });
+
+  it('gradeDiktat ignores case and spacing, tolerates folded umlauts as a near-miss', () => {
+    expect(gradeDiktat('das Haus', ' das  haus ')).toMatchObject({ correct: true, nearMiss: false });
+    expect(gradeDiktat('schön', 'schoen')).toMatchObject({ correct: true, nearMiss: true });
+    expect(gradeDiktat('die Straße', 'die strasse')).toMatchObject({ correct: true, nearMiss: true });
+    expect(gradeDiktat('das Haus', 'die Haus')).toMatchObject({ correct: false });
+    expect(gradeDiktat('laufen', 'kaufen')).toMatchObject({ correct: false });
+  });
+});
+
 describe('buildPairsBoards', () => {
   it('builds full boards where every tile pairs up exactly once', () => {
     const boards = buildPairsBoards(POOL, 99);
@@ -274,6 +474,34 @@ describe('dictionary content supports the games', () => {
       )
       .get() as { c: number };
     expect(row.c).toBeGreaterThan(100);
+  });
+
+  it('has plenty of verbs with enough distinct forms for the Konjugations-Trainer', () => {
+    const rows = db
+      .prepare(
+        `SELECT l.id, COUNT(DISTINCT f.form) AS distinct_forms
+         FROM lemmas l JOIN forms f ON f.lemma_id = l.id
+         WHERE l.pos = 'verb' GROUP BY l.id HAVING distinct_forms >= 4`
+      )
+      .all();
+    expect(rows.length).toBeGreaterThan(500);
+  });
+
+  it('has plenty of punctuation-free 4–9 word example sentences for Satzbau', () => {
+    const rows = db
+      .prepare(
+        `SELECT s.example_de AS de FROM senses s
+         WHERE s.sense_order = 1 AND s.example_de IS NOT NULL AND s.example_en IS NOT NULL
+           AND s.example_de NOT LIKE '%,%' AND s.example_de NOT LIKE '%:%'
+           AND s.example_de NOT LIKE '%"%' AND s.example_de NOT LIKE '%„%'
+           AND s.example_de NOT LIKE '%–%' AND s.example_de NOT LIKE '%(%'`
+      )
+      .all() as { de: string }[];
+    const usable = rows.filter((r) => {
+      const count = tokenizeSentence(r.de).length;
+      return count >= SATZBAU_MIN_TOKENS && count <= SATZBAU_MAX_TOKENS;
+    });
+    expect(usable.length).toBeGreaterThan(1000);
   });
 
   it('random word pools survive gloss dedupe with enough words for all boards', () => {

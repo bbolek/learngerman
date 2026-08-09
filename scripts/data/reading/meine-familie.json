@@ -1,0 +1,28 @@
+{
+  "slug": "meine-familie",
+  "title": "Meine Familie",
+  "level": "A1",
+  "teaser": "Tom wohnt am See und erzählt von seiner Familie.",
+  "paragraphs": [
+    {
+      "de": "Ich heiße Tom und ich bin acht Jahre alt. Ich wohne mit meiner Familie in einem Haus am See.",
+      "en": "My name is Tom and I am eight years old. I live with my family in a house by the lake."
+    },
+    {
+      "de": "Mein Vater heißt Peter. Er ist Lehrer und arbeitet in einer Schule. Er kocht auch gern — seine Pizza ist super!",
+      "en": "My father's name is Peter. He is a teacher and works at a school. He also likes to cook — his pizza is great!"
+    },
+    {
+      "de": "Meine Mutter heißt Anna. Sie ist Ärztin. Am Wochenende spielt sie mit mir Fußball im Garten.",
+      "en": "My mother's name is Anna. She is a doctor. On the weekend she plays football with me in the garden."
+    },
+    {
+      "de": "Ich habe auch eine Schwester. Sie heißt Mia und ist noch klein. Sie ist erst zwei Jahre alt, aber sie lacht sehr viel.",
+      "en": "I also have a sister. Her name is Mia and she is still little. She is only two years old, but she laughs a lot."
+    },
+    {
+      "de": "Wir haben einen Hund. Er heißt Bello und ist schwarz. Ich liebe meine Familie.",
+      "en": "We have a dog. His name is Bello and he is black. I love my family."
+    }
+  ]
+}

@@ -17,18 +17,20 @@ import { expandForms, type VocabEntry } from './inflect';
 const ROOT = path.join(__dirname, '..');
 const VOCAB_DIR = path.join(ROOT, 'scripts/data/vocab');
 const GRAMMAR_DIR = path.join(ROOT, 'scripts/data/grammar');
+const READING_DIR = path.join(ROOT, 'scripts/data/reading');
 const IMAGES_FILE = path.join(ROOT, 'scripts/data/images.json');
 const SYNONYMS_FILE = path.join(ROOT, 'scripts/data/synonyms.json');
 const NOTO_DIR = path.join(ROOT, 'scripts/data/images/noto');
 const OUT_FILE = path.join(ROOT, 'assets/db/dictionary.db');
 const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 
-const CONTENT_VERSION = 5;
+const CONTENT_VERSION = 6;
 
 const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
 /** Vocabulary spans the full CEFR range; grammar topics stay A1–B1. */
 const VOCAB_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 const GRAMMAR_LEVELS = new Set(['A1', 'A2', 'B1']);
+const READING_LEVELS = ['A1', 'A2', 'B1'];
 const QTYPES = new Set(['mc', 'fill', 'order', 'case_id']);
 const EXAMPLE_TAGS = new Set([
   'präsens',
@@ -371,6 +373,69 @@ function loadGrammar(): GrammarTopic[] {
   return topics;
 }
 
+// ---------- load & validate reading texts ----------
+
+interface ReadingParagraph {
+  de: string;
+  en: string;
+}
+
+interface ReadingText {
+  slug: string;
+  title: string;
+  level: string;
+  /** One-line hook shown on the Leseecke list. */
+  teaser: string;
+  paragraphs: ReadingParagraph[];
+}
+
+/**
+ * scripts/data/reading/*.json — one graded text per file for the Leseecke.
+ * Sorted by level, then title, so the list screen reads easiest-first.
+ */
+function loadReading(): ReadingText[] {
+  if (!fs.existsSync(READING_DIR)) return [];
+  const files = fs
+    .readdirSync(READING_DIR)
+    .filter((f) => f.endsWith('.json'))
+    .sort();
+  const texts = files.map(
+    (f) => JSON.parse(fs.readFileSync(path.join(READING_DIR, f), 'utf8')) as ReadingText
+  );
+  const errors: string[] = [];
+  const slugs = new Set<string>();
+  for (const t of texts) {
+    const where = `reading ${t?.slug ?? '?'}`;
+    if (!t.slug || !/^[a-z0-9-]+$/.test(t.slug)) errors.push(`${where}: bad slug`);
+    if (slugs.has(t.slug)) errors.push(`${where}: duplicate slug`);
+    slugs.add(t.slug);
+    if (!t.title || !t.teaser) errors.push(`${where}: missing title/teaser`);
+    if (!READING_LEVELS.includes(t.level)) errors.push(`${where}: bad level '${t.level}'`);
+    if (!Array.isArray(t.paragraphs) || t.paragraphs.length === 0) {
+      errors.push(`${where}: needs at least one paragraph`);
+      continue;
+    }
+    for (const p of t.paragraphs) {
+      if (!p.de || !p.en) errors.push(`${where}: paragraph needs both 'de' and 'en'`);
+    }
+  }
+  if (errors.length) {
+    console.error(`✗ reading validation failed (${errors.length} errors):`);
+    for (const err of errors.slice(0, 40)) console.error('  -', err);
+    process.exit(1);
+  }
+  return texts.sort(
+    (a, b) =>
+      READING_LEVELS.indexOf(a.level) - READING_LEVELS.indexOf(b.level) ||
+      a.title.localeCompare(b.title, 'de')
+  );
+}
+
+/** German words in a text, for the "≈ 120 Wörter" badge. */
+function readingWordCount(t: ReadingText): number {
+  return t.paragraphs.reduce((sum, p) => sum + p.de.trim().split(/\s+/).length, 0);
+}
+
 // ---------- vocab markers in explainers & question explanations ----------
 
 /** All texts of a topic that may contain [[vocab]] markers. */
@@ -435,6 +500,7 @@ function build() {
   const grammar = loadGrammar();
   const images = loadImages(vocab);
   const synonyms = loadSynonyms(vocab);
+  const reading = loadReading();
   validateVocabMarkers(grammar, vocab);
 
   // Fingerprint of everything that ends up in the DB. The app compares this
@@ -442,7 +508,9 @@ function build() {
   // content update when they differ (src/logic/contentUpdate.ts).
   const contentHash = crypto
     .createHash('sha1')
-    .update(JSON.stringify({ contentVersion: CONTENT_VERSION, vocab, grammar, images, synonyms }))
+    .update(
+      JSON.stringify({ contentVersion: CONTENT_VERSION, vocab, grammar, images, synonyms, reading })
+    )
     .digest('hex');
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
@@ -541,6 +609,25 @@ function build() {
       sort_order INTEGER NOT NULL
     );
     CREATE INDEX idx_synonyms_lemma ON synonyms(lemma_id);
+
+    CREATE TABLE reading_texts (
+      id INTEGER PRIMARY KEY,
+      slug TEXT UNIQUE NOT NULL,
+      title TEXT NOT NULL,
+      level TEXT NOT NULL CHECK (level IN ('A1','A2','B1')),
+      teaser TEXT NOT NULL,
+      word_count INTEGER NOT NULL,
+      sort_order INTEGER NOT NULL
+    );
+
+    CREATE TABLE reading_paragraphs (
+      id INTEGER PRIMARY KEY,
+      text_id INTEGER NOT NULL REFERENCES reading_texts(id),
+      sort_order INTEGER NOT NULL,
+      de TEXT NOT NULL,
+      en TEXT NOT NULL
+    );
+    CREATE INDEX idx_reading_paragraphs_text ON reading_paragraphs(text_id);
   `);
 
   const insLemma = db.prepare(`
@@ -626,6 +713,20 @@ function build() {
       insSynonym.run(lemmaIds.get(syn.fromKey)!, lemmaIds.get(syn.toKey)!, syn.note, order);
     }
 
+    const insReadingText = db.prepare(
+      'INSERT INTO reading_texts (slug, title, level, teaser, word_count, sort_order) VALUES (?, ?, ?, ?, ?, ?)'
+    );
+    const insReadingPara = db.prepare(
+      'INSERT INTO reading_paragraphs (text_id, sort_order, de, en) VALUES (?, ?, ?, ?)'
+    );
+    reading.forEach((t, ti) => {
+      const info = insReadingText.run(t.slug, t.title, t.level, t.teaser, readingWordCount(t), ti + 1);
+      const textId = info.lastInsertRowid as number;
+      t.paragraphs.forEach((p, pi) => {
+        insReadingPara.run(textId, pi + 1, p.de, p.en);
+      });
+    });
+
     grammar.forEach((t, ti) => {
       const info = db
         .prepare(
@@ -665,8 +766,8 @@ function build() {
   console.log(
     `✓ dictionary.db built: ${lemmaCount} lemmas, ${formCount} forms, ${senseCount} senses, ` +
       `${exampleCount} examples, ${images.length} images, ${synonyms.length} synonyms, ` +
-      `${grammar.length} topics, ${qCount} questions — ${sizeKb} KB ` +
-      `(content ${contentHash.slice(0, 8)})`
+      `${grammar.length} topics, ${qCount} questions, ${reading.length} reading texts — ` +
+      `${sizeKb} KB (content ${contentHash.slice(0, 8)})`
   );
 }
 

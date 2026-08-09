@@ -3200,6 +3200,213 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "umzug",
+    "title": "Umzug & Neues Zuhause",
+    "emoji": "📦",
+    "words": [
+      {
+        "lemma": "Kiste",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Umzugstag",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Umzugskosten",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Umzugsfirma",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Umzugshelfer",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Möbelwagen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Möbelpacker",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Luftpolsterfolie",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "entrümpeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ausmisten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tapete",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Tapetenwechsel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Schlüsselübergabe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Wohnungsübergabe",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Endreinigung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Vormieter",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Zwischenmiete",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ummeldung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Adressänderung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Nachsendeauftrag",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Halteverbot",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Einweihungsparty",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Einweihungsfeier",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "eingewöhnen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bleibe",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Umzugsstress",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Elternhaus",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "WG",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Mitbewohnerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Untermieter",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Haushalt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Einzimmerwohnung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Studentenwohnheim",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Putzplan",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Erstausstattung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "unmöbliert",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Klingelschild",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "abnabeln",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "flügge",
+        "pos": "adj",
+        "level": "C1"
+      },
+      {
+        "lemma": "Nesthocker",
+        "pos": "noun",
+        "level": "C1"
+      }
+    ]
+  },
+  {
     "slug": "stadt",
     "title": "Stadt & Gebäude",
     "emoji": "🏙️",
@@ -5849,6 +6056,113 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "fuehrerschein",
+    "title": "Führerschein & Erstes Auto",
+    "emoji": "🚗",
+    "words": [
+      {
+        "lemma": "Fahrschüler",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fahrlehrerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Theorieprüfung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Führerscheinprüfung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Führerscheinklasse",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sehtest",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Erste-Hilfe-Kurs",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fahrübung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Fahrpraxis",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Fahrsicherheitstraining",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Fahranfänger",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "abwürgen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "TÜV",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Nummernschild",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Autoversicherung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Probefahrt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Autohändler",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gebrauchtwagen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Neuwagen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Autokauf",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
     "slug": "gesundheit",
     "title": "Gesundheit & Körper",
     "emoji": "🩺",
@@ -6626,6 +6940,41 @@ export const THEMES: Theme[] = [
       {
         "lemma": "arbeitsunfähig",
         "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rehabilitation",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Krankenbesuch",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Schonung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hühnersuppe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fieberthermometer",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Genesungskarte",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Krankenschein",
+        "pos": "noun",
         "level": "B2"
       },
       {
@@ -10073,6 +10422,412 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "bewerbung",
+    "title": "Bewerbung & Jobsuche",
+    "emoji": "🤝",
+    "words": [
+      {
+        "lemma": "Jobsuche",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Arbeitssuche",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Jobangebot",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Traumjob",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Jobwechsel",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Jobcenter",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Jobmesse",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Headhunter",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Personaler",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Bewerbungsmappe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bewerbungsfoto",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Motivationsschreiben",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Onlinebewerbung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Vorstellungstermin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Einstellungstest",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Probetag",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Probearbeiten",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Traineeprogramm",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Berufsanfänger",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Händedruck",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Arbeitsbeginn",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gehaltsvorstellung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Wunschgehalt",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Teamfähigkeit",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Belastbarkeit",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Flexibilität",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Büroalltag",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "aufstieg",
+    "title": "Beförderung & Aufstieg",
+    "emoji": "🚀",
+    "words": [
+      {
+        "lemma": "Karrieresprung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Beförderungsgespräch",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Jahresgespräch",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Leitung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Posten",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Manager",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Managerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Teamleiterin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Abteilungsleiterin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Vorgesetzte",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Untergebene",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Personalverantwortung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Karrierechance",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "weiterkommen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "hocharbeiten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sprosse",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Chefetage",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Chefsessel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Eckbüro",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Dienstwagen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Firmenwagen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Amtsantritt",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Antrittsrede",
+        "pos": "noun",
+        "level": "C1"
+      }
+    ]
+  },
+  {
+    "slug": "gruendung",
+    "title": "Firmengründung & Start-up",
+    "emoji": "💡",
+    "words": [
+      {
+        "lemma": "Firmengründung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Gründerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Existenzgründer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Jungunternehmer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Start-up",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Businessplan",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Pitch",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "GmbH",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Rechtsform",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Gewerbeanmeldung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Firmenname",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Logo",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "eröffnen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Eröffnung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Neueröffnung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sitz",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bankkredit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fördermittel",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Förderung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gründerzentrum",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kleinunternehmen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Standbein",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Netzwerken",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kundengewinnung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Durchbruch",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Pleite",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Scheitern",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
     "slug": "wirtschaft",
     "title": "Wirtschaft & Handel",
     "emoji": "📈",
@@ -12813,6 +13568,133 @@ export const THEMES: Theme[] = [
         "lemma": "Vermögen",
         "pos": "noun",
         "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "lotto",
+    "title": "Lottogewinn & Glück",
+    "emoji": "🍀",
+    "words": [
+      {
+        "lemma": "Lotto",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Lottoschein",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Lottozahlen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gewinnzahl",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ziehung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hauptgewinn",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Millionär",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Millionärin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Glückspilz",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Glücksfee",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tippgemeinschaft",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Los",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Losnummer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rubbellos",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sechser",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Volltreffer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Gewinnchance",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "verprassen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abkassieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Erspartes",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Spende",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Finanzberater",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Traumhaus",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Weltreise",
+        "pos": "noun",
+        "level": "B1"
       }
     ]
   },
@@ -20654,6 +21536,163 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "haustier",
+    "title": "Haustier & Tierliebe",
+    "emoji": "🐶",
+    "words": [
+      {
+        "lemma": "Haustier",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Tierheim",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "adoptieren",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Welpe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kätzchen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Wurf",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Napf",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Leine",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Halsband",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gassi",
+        "pos": "other",
+        "level": "B1"
+      },
+      {
+        "lemma": "spazieren",
+        "pos": "verb",
+        "level": "A2"
+      },
+      {
+        "lemma": "Körbchen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kratzbaum",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Katzenklo",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "stubenrein",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Käfig",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Aquarium",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Terrarium",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hundeschule",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "erziehen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kommando",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Leckerli",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "chippen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "kastrieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kastration",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tierpension",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tiersitter",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tierschutz",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Rasse",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Mischling",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
     "slug": "geografie",
     "title": "Geografie & Landschaft",
     "emoji": "🗺️",
@@ -24718,6 +25757,113 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "abschluss",
+    "title": "Einschulung & Abschluss",
+    "emoji": "🎒",
+    "words": [
+      {
+        "lemma": "Einschulung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "einschulen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Schultüte",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Klassenlehrer",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Klassenlehrerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Mitschülerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Schulweg",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Federmäppchen",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Ranzen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rede",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Festrede",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Abschlussfeier",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Zeugnisvergabe",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Abschlussball",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Abiball",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Abiturientin",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Studienabschluss",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Absolventin",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Doktorhut",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Talar",
+        "pos": "noun",
+        "level": "C1"
+      }
+    ]
+  },
+  {
     "slug": "kultur",
     "title": "Kultur & Freizeit",
     "emoji": "🎭",
@@ -27961,6 +29107,153 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "sieg",
+    "title": "Sieg & Meisterschaft",
+    "emoji": "🏆",
+    "words": [
+      {
+        "lemma": "siegen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Siegerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Meisterin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Champion",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Weltmeister",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Europameister",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Endspiel",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Goldmedaille",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Podium",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Siegertreppchen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ehrung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "ehren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Auszeichnung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Preisverleihung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hymne",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Nationalhymne",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "applaudieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "triumphieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ruhm",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Held",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Heldin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "krönen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Krönung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sensation",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Comeback",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Höchstleistung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Karriereende",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Abschiedsspiel",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
     "slug": "gefuehle",
     "title": "Gefühle & Beziehungen",
     "emoji": "❤️",
@@ -28693,9 +29986,328 @@ export const THEMES: Theme[] = [
     ]
   },
   {
+    "slug": "geburt",
+    "title": "Geburt & Baby",
+    "emoji": "👶",
+    "words": [
+      {
+        "lemma": "Schwangerschaft",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Babybauch",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Geburtstermin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Wehen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kreißsaal",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "entbinden",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "gebären",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Säugling",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "neugeboren",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kinderwagen",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Schnuller",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Windel",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "wickeln",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fläschchen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Brei",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "zahnen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Wiege",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kinderzimmer",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Strampler",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Lätzchen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Babyphone",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Babysitter",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Babyparty",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Pate",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Patin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Patenkind",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Geschwisterchen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Familienzuwachs",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "partnersuche",
+    "title": "Partnersuche & Dating",
+    "emoji": "💘",
+    "words": [
+      {
+        "lemma": "Partner",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Date",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Dating",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Dating-App",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Partnersuche",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Singlebörse",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Partnervermittlung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kontaktanzeige",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Match",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "matchen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "anschreiben",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Smalltalk",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kennenlernen",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Treffpunkt",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Telefonnummer",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "verabredet",
+        "pos": "adj",
+        "level": "A2"
+      },
+      {
+        "lemma": "Blickkontakt",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Lächeln",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "anlächeln",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Funke",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Anziehung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "anziehend",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Gemeinsamkeit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Traumpartner",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "verknallt",
+        "pos": "adj",
+        "level": "B1"
+      },
+      {
+        "lemma": "erröten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Herzrasen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kuss",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Jugendliebe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Zweisamkeit",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "schmusen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "anbaggern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "abblitzen",
+        "pos": "verb",
+        "level": "B2"
+      }
+    ]
+  },
+  {
     "slug": "liebe",
-    "title": "Liebe & Hochzeit",
-    "emoji": "💍",
+    "title": "Liebe & Romantik",
+    "emoji": "🌹",
     "words": [
       {
         "lemma": "Flirt",
@@ -28924,6 +30536,599 @@ export const THEMES: Theme[] = [
       },
       {
         "lemma": "Herzensbrecher",
+        "pos": "noun",
+        "level": "B2"
+      }
+    ]
+  },
+  {
+    "slug": "hochzeit",
+    "title": "Heiratsantrag & Hochzeit",
+    "emoji": "💍",
+    "words": [
+      {
+        "lemma": "Verlobungsring",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kniefall",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Jawort",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ringtausch",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Eheversprechen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ehevertrag",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "standesamtlich",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Brautpaar",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Brautjungfer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Blumenmädchen",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Trauzeugin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Brautvater",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hochzeitskleid",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Schleier",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hochzeitsfeier",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Hochzeitsgast",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gästeliste",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Sektempfang",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hochzeitstorte",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Hochzeitswalzer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hochzeitsnacht",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hochzeitsreise",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Hochzeitstag",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Hochzeitsplaner",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Traumhochzeit",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Ehepartner",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Eheleute",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Vermählung",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "vermählen",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "Mitgift",
+        "pos": "noun",
+        "level": "C1"
+      }
+    ]
+  },
+  {
+    "slug": "trennung",
+    "title": "Trennung & Neuanfang",
+    "emoji": "💔",
+    "words": [
+      {
+        "lemma": "Ex",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ex-Freund",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ex-Freundin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "fremdgehen",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Vertrauensbruch",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Beziehungskrise",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Aussprache",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "klären",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "auseinanderleben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Distanz",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Schlussstrich",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Scheidung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "scheiden",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Rosenkrieg",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Sorgerecht",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Unterhalt",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "alleinerziehend",
+        "pos": "adj",
+        "level": "B1"
+      },
+      {
+        "lemma": "Patchworkfamilie",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Herzschmerz",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Trennungsschmerz",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Träne",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Trost",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Einsamkeit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Abschiedsbrief",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Funkstille",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kontaktabbruch",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "nachtrauern",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "ablenken",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ablenkung",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "erleichtert",
+        "pos": "adj",
+        "level": "B1"
+      },
+      {
+        "lemma": "aufarbeiten",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Kapitel",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Neuanfang",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Neustart",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Wiedersehen",
+        "pos": "noun",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "slug": "ruhestand",
+    "title": "Ruhestand & Rente",
+    "emoji": "🧓",
+    "words": [
+      {
+        "lemma": "Rentnerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Senior",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Seniorin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Seniorenheim",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "pensionieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Pensionär",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Renteneintritt",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rentenbescheid",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Lebensabend",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Lebenswerk",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Abschiedsfeier",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Abschiedsgeschenk",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Abschiedsrede",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Nachfolgerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Übergabe",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Dankbarkeit",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "wohlverdient",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "zurückblicken",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Rückblick",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "aktiv",
+        "pos": "adj",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "slug": "trauer",
+    "title": "Tod & Trauer",
+    "emoji": "🕯️",
+    "words": [
+      {
+        "lemma": "trauern",
+        "pos": "verb",
+        "level": "B1"
+      },
+      {
+        "lemma": "Beileid",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "kondolieren",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "versterben",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "verstorben",
+        "pos": "adj",
+        "level": "B2"
+      },
+      {
+        "lemma": "Todesfall",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Todesanzeige",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Nachruf",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Bestattung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Trauerfeier",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Trauerrede",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Grabrede",
+        "pos": "noun",
+        "level": "C1"
+      },
+      {
+        "lemma": "Sarg",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Urne",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Grabstein",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kranz",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "beisetzen",
+        "pos": "verb",
+        "level": "B2"
+      },
+      {
+        "lemma": "Beisetzung",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Hinterbliebene",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Waise",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Erbin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Sterbebett",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Lebensende",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Jenseits",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "gedenken",
+        "pos": "verb",
+        "level": "C1"
+      },
+      {
+        "lemma": "Gedenkfeier",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Schweigeminute",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Trauerjahr",
         "pos": "noun",
         "level": "B2"
       }

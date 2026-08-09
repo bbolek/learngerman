@@ -176,7 +176,7 @@ payloads) and fails loudly. JSON syntax can be checked standalone:
 
 Grammar lives in `scripts/data/grammar/*.json` — one topic per file, named
 `NN-slug.json`. The numeric prefix defines `sort_order` (group by level:
-01–09 A1, 10–19 A2, 20–30 B1, 31–38 B2, 39–44 C1, 45–47 C2). Topics must
+01–09 A1, 10–19 A2, 20–30 B1, 31–40 B2, 41–48 C1, 49–52 C2). Topics must
 stay level-contiguous in that order — a test asserts levels never go
 backwards — so inserting a topic into a level means renumbering the files
 after it (slugs are the stable key, so renaming files is safe for user

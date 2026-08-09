@@ -1141,5 +1141,12 @@
         "note": "steht so auf der Krankschreibung"
       }
     ]
-  }
+  },
+  {"lemma":"Rehabilitation","pos":"noun","level":"B2","freq":3775,"noun":{"gender":"f","plural":"Rehabilitationen"},"senses":[{"en":"rehabilitation","note":"kurz: Reha","example_de":"Nach der Operation folgt eine lange Rehabilitation.","example_en":"A long rehabilitation follows the operation."}]},
+  {"lemma":"Krankenbesuch","pos":"noun","level":"B1","freq":2787,"noun":{"gender":"m","plural":"Krankenbesuche"},"senses":[{"en":"visit to a sick person","example_de":"Zum Krankenbesuch bringt sie Blumen mit.","example_en":"She brings flowers for her visit to the sick."}]},
+  {"lemma":"Schonung","pos":"noun","level":"B2","freq":3781,"noun":{"gender":"f","plural":null},"senses":[{"en":"rest, taking it easy","note":"der Arzt verordnet Schonung","example_de":"Der Arzt verordnet ihm eine Woche Schonung.","example_en":"The doctor orders him to rest for a week."}]},
+  {"lemma":"Hühnersuppe","pos":"noun","level":"B1","freq":2797,"noun":{"gender":"f","plural":"Hühnersuppen"},"senses":[{"en":"chicken soup","example_de":"Bei Erkältung hilft Omas Hühnersuppe.","example_en":"Grandma's chicken soup helps with a cold."}]},
+  {"lemma":"Fieberthermometer","pos":"noun","level":"B1","freq":2807,"noun":{"gender":"n","plural":"Fieberthermometer","genitive":"Fieberthermometers"},"senses":[{"en":"clinical thermometer","example_de":"Das Fieberthermometer zeigt 39 Grad.","example_en":"The thermometer shows 39 degrees."}]},
+  {"lemma":"Genesungskarte","pos":"noun","level":"B2","freq":3785,"noun":{"gender":"f","plural":"Genesungskarten"},"senses":[{"en":"get-well card","example_de":"Die Kollegen schicken ihm eine Genesungskarte.","example_en":"His colleagues send him a get-well card."}]},
+  {"lemma":"Krankenschein","pos":"noun","level":"B2","freq":3789,"noun":{"gender":"m","plural":"Krankenscheine"},"senses":[{"en":"sick note","note":"umgangssprachlich für die Krankschreibung","example_de":"Den Krankenschein schickt er an die Firma.","example_en":"He sends the sick note to the company."}]}
 ]

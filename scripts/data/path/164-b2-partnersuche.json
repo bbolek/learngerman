@@ -1,0 +1,66 @@
+{
+  "slug": "b2-partnersuche",
+  "title": "Partnersuche",
+  "emoji": "💘",
+  "level": "B2",
+  "lessons": [
+    {
+      "slug": "b2-partnersuche-1",
+      "kind": "lesson",
+      "title": "Online-Dating",
+      "words": [
+        { "lemma": "Match", "pos": "noun" },
+        { "lemma": "matchen", "pos": "verb" },
+        { "lemma": "Singlebörse", "pos": "noun" },
+        { "lemma": "Partnervermittlung", "pos": "noun" },
+        { "lemma": "Kontaktanzeige", "pos": "noun" },
+        { "lemma": "anbaggern", "pos": "verb" },
+        { "lemma": "abblitzen", "pos": "verb" },
+        { "lemma": "Funke", "pos": "noun" },
+        { "lemma": "Anziehung", "pos": "noun" },
+        { "lemma": "anziehend", "pos": "adj" }
+      ],
+      "grammar": [{ "topic": "pronominaladverbien", "questions": 4 }]
+    },
+    {
+      "slug": "b2-partnersuche-2",
+      "kind": "lesson",
+      "title": "Schmetterlinge",
+      "words": [
+        { "lemma": "erröten", "pos": "verb" },
+        { "lemma": "Herzrasen", "pos": "noun" },
+        { "lemma": "Zweisamkeit", "pos": "noun" },
+        { "lemma": "schmusen", "pos": "verb" }
+      ]
+    },
+    {
+      "slug": "b2-partnersuche-3",
+      "kind": "lesson",
+      "title": "Liebeskummer",
+      "words": [
+        { "lemma": "Herzschmerz", "pos": "noun" },
+        { "lemma": "Trennungsschmerz", "pos": "noun" },
+        { "lemma": "Schlussstrich", "pos": "noun" },
+        { "lemma": "Funkstille", "pos": "noun" },
+        { "lemma": "Kontaktabbruch", "pos": "noun" },
+        { "lemma": "nachtrauern", "pos": "verb" },
+        { "lemma": "aufarbeiten", "pos": "verb" },
+        { "lemma": "Neustart", "pos": "noun" },
+        { "lemma": "Beziehungskrise", "pos": "noun" },
+        { "lemma": "Vertrauensbruch", "pos": "noun" }
+      ]
+    },
+    {
+      "slug": "b2-partnersuche-4",
+      "kind": "lesson",
+      "title": "Nach der Trennung",
+      "words": [
+        { "lemma": "auseinanderleben", "pos": "verb" },
+        { "lemma": "Sorgerecht", "pos": "noun" },
+        { "lemma": "Unterhalt", "pos": "noun" },
+        { "lemma": "Patchworkfamilie", "pos": "noun" }
+      ]
+    },
+    { "slug": "b2-partnersuche-wdh", "kind": "review", "title": "Wiederholung" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "c1-lebensereignisse",
+  "title": "Lebensereignisse",
+  "emoji": "🎩",
+  "level": "C1",
+  "lessons": [
+    {
+      "slug": "c1-lebensereignisse-1",
+      "kind": "lesson",
+      "title": "Feierliche Anlässe",
+      "words": [
+        { "lemma": "Vermählung", "pos": "noun" },
+        { "lemma": "vermählen", "pos": "verb" },
+        { "lemma": "Mitgift", "pos": "noun" },
+        { "lemma": "Kniefall", "pos": "noun" },
+        { "lemma": "Talar", "pos": "noun" },
+        { "lemma": "Amtsantritt", "pos": "noun" },
+        { "lemma": "Antrittsrede", "pos": "noun" }
+      ],
+      "grammar": [{ "topic": "vergangenheit-modalverben", "questions": 4 }]
+    },
+    {
+      "slug": "c1-lebensereignisse-2",
+      "kind": "lesson",
+      "title": "Wendepunkte",
+      "words": [
+        { "lemma": "Rosenkrieg", "pos": "noun" },
+        { "lemma": "Grabrede", "pos": "noun" },
+        { "lemma": "flügge", "pos": "adj" },
+        { "lemma": "Nesthocker", "pos": "noun" },
+        { "lemma": "Pitch", "pos": "noun" },
+        { "lemma": "Rechtsform", "pos": "noun" }
+      ],
+      "grammar": [{ "topic": "gerundivum", "questions": 4 }]
+    },
+    { "slug": "c1-lebensereignisse-wdh", "kind": "review", "title": "Wiederholung" }
+  ]
+}

@@ -6,6 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getPlacement, listPath, setPlacement, type PathUnit } from '@/db/pathRepo';
 import { computeNodeStates, currentPosition } from '@/logic/path';
+import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
 import {
   UnitSegment,
@@ -140,17 +141,19 @@ export default function PathScreen() {
         </View>
       )}
 
-      <FlatList
-        ref={listRef}
-        data={vms}
-        keyExtractor={(u) => u.slug}
-        renderItem={({ item }) => <UnitSegment unit={item} onNodePress={onNodePress} />}
-        getItemLayout={getItemLayout}
-        initialScrollIndex={activeUnitIndex}
-        onScrollToIndexFailed={() => {}}
-        contentContainerStyle={{ paddingBottom: spacing.xxl, paddingTop: spacing.md }}
-        showsVerticalScrollIndicator={false}
-      />
+      <TourTarget id="path-map" style={styles.fill}>
+        <FlatList
+          ref={listRef}
+          data={vms}
+          keyExtractor={(u) => u.slug}
+          renderItem={({ item }) => <UnitSegment unit={item} onNodePress={onNodePress} />}
+          getItemLayout={getItemLayout}
+          initialScrollIndex={activeUnitIndex}
+          onScrollToIndexFailed={() => {}}
+          contentContainerStyle={{ paddingBottom: spacing.xxl, paddingTop: spacing.md }}
+          showsVerticalScrollIndicator={false}
+        />
+      </TourTarget>
     </View>
   );
 }

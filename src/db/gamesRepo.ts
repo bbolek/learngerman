@@ -1,5 +1,11 @@
 import { getDb } from '@/db/client';
-import { type GameKey, type GameWord, type ImageWord, type VerbWord } from '@/logic/games';
+import {
+  type GameKey,
+  type GameWord,
+  type ImageWord,
+  type SentenceWord,
+  type VerbWord,
+} from '@/logic/games';
 
 // ---------- word pools ----------
 
@@ -67,6 +73,25 @@ export async function fetchVerbWords(limit: number): Promise<VerbWord[]> {
     byLemma.set(f.lemma_id, list);
   }
   return verbs.map((v) => ({ ...v, forms: byLemma.get(v.id) ?? [] }));
+}
+
+/**
+ * Random example sentences with their translation (Satzbau). Sentences with
+ * inner punctuation are excluded — a comma or quote glued to a word tile
+ * reads badly and often gives the order away. Length is filtered by the
+ * round builder, which sees token counts.
+ */
+export async function fetchSentenceWords(limit: number): Promise<SentenceWord[]> {
+  return getDb().getAllAsync<SentenceWord>(
+    `SELECT l.id, s.example_de AS de, s.example_en AS en
+     FROM senses s JOIN lemmas l ON l.id = s.lemma_id
+     WHERE s.sense_order = 1 AND s.example_de IS NOT NULL AND s.example_en IS NOT NULL
+       AND s.example_de NOT LIKE '%,%' AND s.example_de NOT LIKE '%:%'
+       AND s.example_de NOT LIKE '%"%' AND s.example_de NOT LIKE '%„%'
+       AND s.example_de NOT LIKE '%–%' AND s.example_de NOT LIKE '%(%'
+     ORDER BY RANDOM() LIMIT ?`,
+    [limit]
+  );
 }
 
 // ---------- results & stats ----------

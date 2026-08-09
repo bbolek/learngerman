@@ -11,6 +11,8 @@ import {
   buildImageQuestions,
   buildKonjugationQuestions,
   buildPairsBoards,
+  buildSatzbauQuestions,
+  gradeSatzbau,
   dedupeByGloss,
   DERDIEDAS_LIVES,
   GAMES,
@@ -21,11 +23,16 @@ import {
   PAIRS_BOARDS,
   PAIRS_PER_BOARD,
   pairsBoardScore,
+  SATZBAU_MAX_TOKENS,
+  SATZBAU_MIN_TOKENS,
+  SATZBAU_SENTENCES,
   shortGloss,
   streakBonus,
+  tokenizeSentence,
   withArticle,
   type GameWord,
   type ImageWord,
+  type SentenceWord,
   type VerbWord,
 } from '@/logic/games';
 
@@ -38,13 +45,14 @@ const POOL: GameWord[] = Array.from({ length: 40 }, (_, i) =>
 );
 
 describe('registry', () => {
-  it('exposes all five games', () => {
+  it('exposes all six games', () => {
     expect(GAMES.map((g) => g.key)).toEqual([
       'wortblitz',
       'bilderraetsel',
       'derdiedas',
       'wortpaare',
       'konjugation',
+      'satzbau',
     ]);
     expect(gameInfo('derdiedas').title).toBe('Der, die oder das?');
   });
@@ -293,6 +301,64 @@ describe('buildKonjugationQuestions', () => {
   });
 });
 
+describe('Satzbau', () => {
+  function sentence(id: number, de: string, en = 'translation'): SentenceWord {
+    return { id, de, en };
+  }
+
+  const POOL_DE: SentenceWord[] = [
+    sentence(1, 'Ich gehe heute ins Kino.'),
+    sentence(2, 'Was machst du morgen Abend?'),
+    sentence(3, 'Er fährt jeden Tag mit dem Bus zur Arbeit.'),
+    sentence(4, 'Wir haben gestern einen Film gesehen.'),
+    sentence(5, 'Sie liest gern Bücher.'),
+    sentence(6, 'Das Wetter ist heute sehr schön.'),
+    sentence(7, 'Kannst du mir bitte helfen?'),
+    sentence(8, 'Der Zug kommt um acht Uhr an.'),
+    sentence(9, 'Mein Bruder wohnt in Berlin.'),
+    sentence(10, 'Ich möchte einen Kaffee bestellen.'),
+    sentence(11, 'Am Wochenende besuchen wir unsere Großeltern.'),
+    sentence(12, 'Hunger!'), // too short — dropped
+    sentence(13, 'Ich gehe heute ins Kino.'), // duplicate — dropped
+  ];
+
+  it('tokenizeSentence splits words and drops the final punctuation only', () => {
+    expect(tokenizeSentence('Was machst du?')).toEqual(['Was', 'machst', 'du']);
+    expect(tokenizeSentence('Ich gehe ins Kino.')).toEqual(['Ich', 'gehe', 'ins', 'Kino']);
+    expect(tokenizeSentence('Komm her!')).toEqual(['Komm', 'her']);
+    expect(tokenizeSentence('  Hallo Welt  ')).toEqual(['Hallo', 'Welt']);
+    expect(tokenizeSentence('')).toEqual([]);
+  });
+
+  it('builds up to SATZBAU_SENTENCES questions from usable, distinct sentences', () => {
+    const questions = buildSatzbauQuestions(POOL_DE, 42);
+    expect(questions).toHaveLength(SATZBAU_SENTENCES);
+    for (const q of questions) {
+      expect(q.solution.length).toBeGreaterThanOrEqual(SATZBAU_MIN_TOKENS);
+      expect(q.solution.length).toBeLessThanOrEqual(SATZBAU_MAX_TOKENS);
+      // tiles are a permutation of the solution …
+      expect(q.tiles.map((t) => t.text).sort()).toEqual([...q.solution].sort());
+      expect(new Set(q.tiles.map((t) => t.id)).size).toBe(q.tiles.length);
+      // … but never presented in the original order
+      expect(q.tiles.map((t) => t.text)).not.toEqual(q.solution);
+    }
+  });
+
+  it('is deterministic per seed and varies with the seed', () => {
+    expect(buildSatzbauQuestions(POOL_DE, 9)).toEqual(buildSatzbauQuestions(POOL_DE, 9));
+    expect(buildSatzbauQuestions(POOL_DE, 9).map((q) => q.solution)).not.toEqual(
+      buildSatzbauQuestions(POOL_DE, 10).map((q) => q.solution)
+    );
+  });
+
+  it('gradeSatzbau accepts only the exact sequence, duplicates included', () => {
+    const solution = ['Die', 'Frau', 'sieht', 'die', 'Kinder'];
+    expect(gradeSatzbau(solution, ['Die', 'Frau', 'sieht', 'die', 'Kinder'])).toBe(true);
+    expect(gradeSatzbau(solution, ['die', 'Frau', 'sieht', 'Die', 'Kinder'])).toBe(false);
+    expect(gradeSatzbau(solution, solution.slice(0, 4))).toBe(false);
+  });
+});
+
 describe('buildPairsBoards', () => {
   it('builds full boards where every tile pairs up exactly once', () => {
     const boards = buildPairsBoards(POOL, 99);
@@ -379,6 +445,23 @@ describe('dictionary content supports the games', () => {
       )
       .all();
     expect(rows.length).toBeGreaterThan(500);
+  });
+
+  it('has plenty of punctuation-free 4–9 word example sentences for Satzbau', () => {
+    const rows = db
+      .prepare(
+        `SELECT s.example_de AS de FROM senses s
+         WHERE s.sense_order = 1 AND s.example_de IS NOT NULL AND s.example_en IS NOT NULL
+           AND s.example_de NOT LIKE '%,%' AND s.example_de NOT LIKE '%:%'
+           AND s.example_de NOT LIKE '%"%' AND s.example_de NOT LIKE '%„%'
+           AND s.example_de NOT LIKE '%–%' AND s.example_de NOT LIKE '%(%'`
+      )
+      .all() as { de: string }[];
+    const usable = rows.filter((r) => {
+      const count = tokenizeSentence(r.de).length;
+      return count >= SATZBAU_MIN_TOKENS && count <= SATZBAU_MAX_TOKENS;
+    });
+    expect(usable.length).toBeGreaterThan(1000);
   });
 
   it('random word pools survive gloss dedupe with enough words for all boards', () => {

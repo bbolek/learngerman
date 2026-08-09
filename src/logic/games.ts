@@ -6,7 +6,13 @@
 
 import { shuffled } from '@/logic/graders';
 
-export type GameKey = 'wortblitz' | 'bilderraetsel' | 'derdiedas' | 'wortpaare' | 'konjugation';
+export type GameKey =
+  | 'wortblitz'
+  | 'bilderraetsel'
+  | 'derdiedas'
+  | 'wortpaare'
+  | 'konjugation'
+  | 'satzbau';
 
 export interface GameInfo {
   key: GameKey;
@@ -56,6 +62,14 @@ export const GAMES: GameInfo[] = [
     tagline: 'fahren, fährt, fuhr — sitzt jede Verbform?',
     rules:
       'Wähle die richtige Verbform für Person und Zeit. Richtige Antworten bringen Punkte und verlängern deine Serie. Drei Fehler — und die Runde ist vorbei.',
+  },
+  {
+    key: 'satzbau',
+    emoji: '🧱',
+    title: 'Satzbau',
+    tagline: 'Bring die Wörter in die richtige Reihenfolge!',
+    rules:
+      'Baue aus den Wortbausteinen den deutschen Satz — die Übersetzung hilft dir. Richtige Sätze bringen Punkte und verlängern deine Serie. Drei Fehler — und die Runde ist vorbei.',
   },
 ];
 
@@ -274,6 +288,75 @@ export function buildKonjugationQuestions(pool: VerbWord[], seed: number): Konju
     questions.push({ word, tag, options, correctIndex: options.indexOf(correct) });
   });
   return questions;
+}
+
+// ---------- Satzbau rounds ----------
+
+export const SATZBAU_LIVES = 3;
+export const SATZBAU_SENTENCES = 10;
+export const SATZBAU_MIN_TOKENS = 4;
+export const SATZBAU_MAX_TOKENS = 9;
+
+/** An example sentence pulled with the lemma it belongs to. */
+export interface SentenceWord {
+  /** Lemma id — feeds recordMistakes when the sentence is built wrong. */
+  id: number;
+  de: string;
+  en: string;
+}
+
+/** Word tiles carry their original position as id so duplicate words stay distinct. */
+export interface SatzbauTile {
+  id: number;
+  text: string;
+}
+
+export interface SatzbauQuestion {
+  lemmaId: number;
+  en: string;
+  /** Tokens in the original order — the only accepted solution. */
+  solution: string[];
+  /** The same tokens scrambled (never presented in the original order). */
+  tiles: SatzbauTile[];
+}
+
+/** Whitespace tokens with the final punctuation dropped ("Was machst du?" → 3 tokens). */
+export function tokenizeSentence(sentence: string): string[] {
+  const trimmed = sentence.trim().replace(/[.!?…]+$/, '');
+  return trimmed.length === 0 ? [] : trimmed.split(/\s+/);
+}
+
+export function gradeSatzbau(solution: string[], sequence: string[]): boolean {
+  return solution.length === sequence.length && solution.every((tok, i) => tok === sequence[i]);
+}
+
+/**
+ * Up to SATZBAU_SENTENCES buildable sentences: 4–9 words, distinct, seeded
+ * order. Tiles are scrambled; when a shuffle lands on the original order the
+ * tiles are rotated one step, which differs unless every token is identical.
+ */
+export function buildSatzbauQuestions(pool: SentenceWord[], seed: number): SatzbauQuestion[] {
+  const seen = new Set<string>();
+  const usable = pool.filter((w) => {
+    const count = tokenizeSentence(w.de).length;
+    if (count < SATZBAU_MIN_TOKENS || count > SATZBAU_MAX_TOKENS) return false;
+    if (seen.has(w.de)) return false;
+    seen.add(w.de);
+    return true;
+  });
+  return shuffled(usable, seed)
+    .slice(0, SATZBAU_SENTENCES)
+    .map((w, i) => {
+      const solution = tokenizeSentence(w.de);
+      let tiles = shuffled(
+        solution.map((text, id) => ({ id, text })),
+        seed * 17 + i * 31 + 1
+      );
+      if (!tiles.some((t, j) => t.text !== solution[j])) {
+        tiles = [...tiles.slice(1), tiles[0]];
+      }
+      return { lemmaId: w.id, en: w.en, solution, tiles };
+    });
 }
 
 // ---------- Wortpaare rounds ----------

@@ -1,0 +1,517 @@
+{
+  "slug": "genitiv-praepositionen",
+  "title": "Präpositionen mit Genitiv",
+  "level": "B2",
+  "explainer_md": "A small group of prepositions governs the **Genitiv**. The everyday ones are *[[wegen]]* (because of), *[[trotz]]* (in spite of), *[[während]]* (during), *[[innerhalb]]* (within) and *[[außerhalb]]* (outside of); the formal ones are *aufgrund*, *infolge*, *anlässlich*, *mithilfe* and *anstelle* (= *statt*).\n\n| | m / n | f | Plural |\n|---|---|---|---|\n| Artikel | des / eines | der / einer | der / meiner |\n| Nomen | + -(e)s | — | — |\n\n*Wegen des Regens bleiben wir zu Hause.* — Because of the rain we're staying home. *Während der Woche arbeite ich viel.* — During the week I work a lot. *Innerhalb eines Jahres ist das Haus fertig.* — Within a year the house will be finished.\n\nAdjectives after these prepositions always end in **-en**: *trotz des starken Regens*, *wegen der langen Fahrt*, *innerhalb der nächsten Wochen*.\n\n**The dative drift:** in everyday speech you constantly hear *wegen dem Regen* or *trotz dem Schnee*. Everyone understands it, but in writing and in exams the Genitiv is the correct form: *trotz des Schnees*. With a bare noun and no article, German drops the ending altogether: *wegen Umbau geschlossen*.\n\nDon't confuse this small group with the many dative prepositions (*nach, mit, bei, seit, von, zu*) or the accusative ones (*für, ohne, durch, gegen*) — only these few ask for *des* and *der*.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ des Regens bleiben wir zu Hause.",
+        "options": ["Wegen", "Für", "Mit"],
+        "correctIndex": 0,
+        "explanation": "[[wegen]] + Genitiv gives the reason: wegen des Regens."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Trotz ___ Wetters gehen wir spazieren.",
+        "options": ["des", "dem", "das"],
+        "correctIndex": 0,
+        "explanation": "[[trotz]] takes the Genitiv, neuter: des Wetters."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Während ___ Woche arbeite ich sehr viel.",
+        "options": ["der", "die", "dem"],
+        "correctIndex": 0,
+        "explanation": "Feminine Genitiv is der: während der Woche."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Innerhalb ___ Jahres muss die Arbeit fertig sein.",
+        "options": ["eines", "einem", "ein"],
+        "correctIndex": 0,
+        "explanation": "[[innerhalb]] + Genitiv, neuter: innerhalb eines Jahres."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Außerhalb ___ Stadt ist es viel ruhiger.",
+        "options": ["der", "dem", "die"],
+        "correctIndex": 0,
+        "explanation": "[[außerhalb]] + Genitiv, feminine: außerhalb der Stadt."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welcher Fall folgt im Standarddeutsch auf „wegen“?",
+        "options": ["Genitiv", "Dativ", "Akkusativ"],
+        "correctIndex": 0,
+        "explanation": "Standard German uses the Genitiv; wegen dem … is spoken language only."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Aufgrund ___ Unfalls kam der Zug zu spät.",
+        "options": ["des", "dem", "den"],
+        "correctIndex": 0,
+        "explanation": "[[aufgrund]] + Genitiv, masculine: aufgrund des Unfalls."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wegen ___ Lärms konnte ich nicht schlafen.",
+        "options": ["des", "dem", "der"],
+        "correctIndex": 0,
+        "explanation": "Masculine Genitiv: des Lärms — the noun takes -s as well."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Während ___ Ferien war ich in Italien.",
+        "options": ["der", "den", "die"],
+        "correctIndex": 0,
+        "explanation": "die Ferien is plural → Genitiv Plural der: während der Ferien."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Anstelle ___ Chefs kam seine Assistentin.",
+        "options": ["des", "dem", "den"],
+        "correctIndex": 0,
+        "explanation": "[[anstelle]] (= statt) + Genitiv: anstelle des Chefs."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Infolge ___ Sturms fielen viele Bäume um.",
+        "options": ["des", "dem", "der"],
+        "correctIndex": 0,
+        "explanation": "[[infolge]] is a formal genitive preposition: infolge des Sturms."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Anlässlich ___ Geburtstags gab es eine große Feier.",
+        "options": ["seines", "seinem", "seinen"],
+        "correctIndex": 0,
+        "explanation": "[[anlässlich]] + Genitiv; the possessive takes the genitive ending -es."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Mithilfe ___ Wörterbuchs habe ich den Text verstanden.",
+        "options": ["eines", "einem", "einen"],
+        "correctIndex": 0,
+        "explanation": "mithilfe + Genitiv, neuter: mithilfe eines Wörterbuchs."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wegen ___ schlechten Wetters fiel das Spiel aus.",
+        "options": ["des", "dem", "der"],
+        "correctIndex": 0,
+        "explanation": "Neuter Genitiv des + adjective in -en: des schlechten Wetters."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welche Präposition steht NICHT mit Genitiv?",
+        "options": ["seit", "trotz", "während"],
+        "correctIndex": 0,
+        "explanation": "[[seit]] is a dative preposition: seit einem Jahr."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist standardsprachlich korrekt?",
+        "options": [
+          "Wegen des Regens bleiben wir hier.",
+          "Wegen dem Regen bleiben wir hier.",
+          "Wegen den Regen bleiben wir hier."
+        ],
+        "correctIndex": 0,
+        "explanation": "Only the Genitiv is correct in written German: wegen des Regens."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Trotz dem Schnee“ ist ___.",
+        "options": ["umgangssprachlich (Standard: trotz des Schnees)", "immer korrekt", "ein Akkusativ"],
+        "correctIndex": 0,
+        "explanation": "The spoken dative is very common, but exams expect trotz des Schnees."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Innerhalb ___ nächsten Wochen ziehen wir um.",
+        "options": ["der", "den", "die"],
+        "correctIndex": 0,
+        "explanation": "Genitiv Plural: der nächsten Wochen — article der, adjective -en."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Während ___ langen Reise haben wir viel gesehen.",
+        "options": ["der", "dem", "die"],
+        "correctIndex": 0,
+        "explanation": "Feminine Genitiv der + adjective -en: während der langen Reise."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Außerhalb ___ Öffnungszeiten erreichen Sie niemanden.",
+        "options": ["der", "den", "die"],
+        "correctIndex": 0,
+        "explanation": "die Öffnungszeiten is plural → Genitiv der."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wegen ___ Regens bleiben wir zu Hause. (der Regen)",
+        "accept": ["des"],
+        "explanation": "Masculine Genitiv: wegen des Regens."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Trotz ___ Kälte spielen die Kinder draußen. (die Kälte)",
+        "accept": ["der"],
+        "explanation": "Feminine Genitiv: trotz der Kälte."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Während ___ Unterrichts darf man nicht essen. (der Unterricht)",
+        "accept": ["des"],
+        "explanation": "[[während]] + Genitiv, masculine: während des Unterrichts."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Innerhalb ___ Stunde bin ich zurück. (eine Stunde)",
+        "accept": ["einer"],
+        "explanation": "Feminine Genitiv of ein: einer Stunde."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Außerhalb ___ Gebäudes darf man rauchen. (das Gebäude)",
+        "accept": ["des"],
+        "explanation": "Neuter Genitiv: außerhalb des Gebäudes."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Aufgrund ___ Krankheit konnte er nicht kommen. (seine Krankheit)",
+        "accept": ["seiner"],
+        "explanation": "Feminine Genitiv of the possessive: seiner Krankheit."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wegen ___ Bauarbeiten ist die Straße gesperrt. (die Bauarbeiten, Pl.)",
+        "accept": ["der"],
+        "explanation": "Genitiv Plural: wegen der Bauarbeiten."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Statt ___ Autos nehme ich heute das Fahrrad. (das Auto)",
+        "accept": ["des"],
+        "explanation": "[[statt]] behaves like anstelle: statt des Autos."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Trotz ___ starken Regens läuft er weiter. (der starke Regen)",
+        "accept": ["des"],
+        "hint": "Der Artikel, nicht das Adjektiv.",
+        "explanation": "trotz des starken Regens — article des, adjective ending -en."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Anlässlich ___ Jubiläums gibt es ein Fest. (das Jubiläum)",
+        "accept": ["des"],
+        "explanation": "Neuter Genitiv: anlässlich des Jubiläums."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Mithilfe ___ Freunde haben wir den Umzug geschafft. (die Freunde, Pl.)",
+        "accept": ["der"],
+        "explanation": "Genitiv Plural: mithilfe der Freunde."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Umgangssprachlich hört man „wegen dem Wetter“ — korrekt ist „wegen ___ Wetters“.",
+        "accept": ["des"],
+        "explanation": "The written standard keeps the Genitiv: wegen des Wetters."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Wegen", "des", "Regens", "bleiben", "wir", "zu", "Hause"],
+        "solutions": [["Wegen", "des", "Regens", "bleiben", "wir", "zu", "Hause"]],
+        "translation": "Because of the rain we're staying home.",
+        "explanation": "The genitive phrase fills position 1, so the verb comes second."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Trotz", "der", "Kälte", "spielen", "die", "Kinder", "draußen"],
+        "solutions": [["Trotz", "der", "Kälte", "spielen", "die", "Kinder", "draußen"]],
+        "translation": "Despite the cold the children are playing outside.",
+        "explanation": "trotz + Genitiv feminine: trotz der Kälte."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Während", "der", "Woche", "arbeite", "ich", "viel"],
+        "solutions": [["Während", "der", "Woche", "arbeite", "ich", "viel"]],
+        "translation": "During the week I work a lot.",
+        "explanation": "während der Woche — feminine Genitiv der."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Innerhalb", "eines", "Jahres", "ist", "das", "Haus", "fertig"],
+        "solutions": [["Innerhalb", "eines", "Jahres", "ist", "das", "Haus", "fertig"]],
+        "translation": "Within a year the house will be finished.",
+        "explanation": "innerhalb eines Jahres — neuter Genitiv with -es on the noun."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Außerhalb", "der", "Stadt", "wohnt", "meine", "Tante"],
+        "solutions": [["Außerhalb", "der", "Stadt", "wohnt", "meine", "Tante"]],
+        "translation": "My aunt lives outside the city.",
+        "explanation": "außerhalb der Stadt, then verb, then subject."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Aufgrund", "des", "Sturms", "fällt", "der", "Unterricht", "aus"],
+        "solutions": [["Aufgrund", "des", "Sturms", "fällt", "der", "Unterricht", "aus"]],
+        "translation": "Because of the storm the lesson is cancelled.",
+        "explanation": "aufgrund des Sturms; the separable prefix aus goes to the very end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Anstelle", "des", "Chefs", "kam", "die", "Assistentin"],
+        "solutions": [["Anstelle", "des", "Chefs", "kam", "die", "Assistentin"]],
+        "translation": "Instead of the boss, the assistant came.",
+        "explanation": "anstelle des Chefs — masculine Genitiv."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Trotz", "des", "schlechten", "Wetters", "fahren", "wir", "los"],
+        "solutions": [["Trotz", "des", "schlechten", "Wetters", "fahren", "wir", "los"]],
+        "translation": "Despite the bad weather we're setting off.",
+        "explanation": "Adjective in the Genitiv always ends in -en: des schlechten Wetters."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Wegen", "eines", "Unfalls", "kam", "der", "Bus", "später"],
+        "solutions": [["Wegen", "eines", "Unfalls", "kam", "der", "Bus", "später"]],
+        "translation": "Because of an accident the bus came later.",
+        "explanation": "wegen eines Unfalls — indefinite masculine Genitiv."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Während", "der", "Ferien", "war", "ich", "in", "Italien"],
+        "solutions": [["Während", "der", "Ferien", "war", "ich", "in", "Italien"]],
+        "translation": "During the holidays I was in Italy.",
+        "explanation": "die Ferien is plural, so the Genitiv article is der."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 1,
+      "payload": {
+        "sentence": "Wegen **des schlechten Wetters** fällt das Spiel aus.",
+        "correctCase": "genitiv",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It follows „wegen“, which takes the Genitiv",
+          "It is the direct object",
+          "It follows a dative preposition"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "[[wegen]] is a genitive preposition: wegen des schlechten Wetters."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Während **der Ferien** haben wir Freunde besucht.",
+        "correctCase": "genitiv",
+        "reasons": [
+          "It shows a point in time in the Akkusativ",
+          "It is the subject of the sentence",
+          "It follows „während“, which takes the Genitiv",
+          "It follows a two-way preposition"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "[[während]] + Genitiv; die Ferien is plural, so the article is der."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Nach **dem Unterricht** gehen wir ins Café.",
+        "correctCase": "dativ",
+        "reasons": [
+          "It follows „nach“, which always takes the Dativ",
+          "It follows a genitive preposition",
+          "It is the direct object of „gehen“",
+          "It shows possession"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "Careful: nach is a dative preposition, not a genitive one — nach dem Unterricht."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 2,
+      "payload": {
+        "sentence": "Innerhalb **eines Monats** ist die Wohnung fertig.",
+        "correctCase": "genitiv",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It is a dative time phrase",
+          "It follows „innerhalb“, which takes the Genitiv",
+          "It is the direct object"
+        ],
+        "correctReasonIndex": 2,
+        "explanation": "[[innerhalb]] + Genitiv: innerhalb eines Monats (Nomen mit -s)."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Ohne **einen gültigen Ausweis** darf man nicht fliegen.",
+        "correctCase": "akkusativ",
+        "reasons": [
+          "It follows „ohne“, which takes the Akkusativ",
+          "It follows a genitive preposition",
+          "It is the subject of the sentence",
+          "It shows whose passport it is"
+        ],
+        "correctReasonIndex": 0,
+        "explanation": "[[ohne]] always takes the Akkusativ — don't let the long phrase fool you."
+      }
+    },
+    {
+      "qtype": "case_id",
+      "difficulty": 3,
+      "payload": {
+        "sentence": "Trotz **der langen Fahrt** waren die Kinder gut gelaunt.",
+        "correctCase": "genitiv",
+        "reasons": [
+          "It is the subject of the sentence",
+          "It follows „trotz“, which takes the Genitiv",
+          "It follows a dative preposition",
+          "It is the direct object of „sein“"
+        ],
+        "correctReasonIndex": 1,
+        "explanation": "[[trotz]] + Genitiv, feminine der, and the adjective ends in -en: der langen Fahrt."
+      }
+    }
+  ]
+}

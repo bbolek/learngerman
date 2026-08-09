@@ -3186,5 +3186,74 @@
       { "lemma": "sofort", "note": "alltäglicher" },
       { "lemma": "unverzüglich" }
     ]
+  },
+  {
+    "lemma": "Metzger", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Fleischer", "note": "norddeutsch/ostdeutsch" },
+      { "lemma": "Schlachter", "note": "norddeutsch" }
+    ]
+  },
+  {
+    "lemma": "Fleischer", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Metzger", "note": "süddeutsch/westdeutsch" },
+      { "lemma": "Schlachter", "note": "norddeutsch" }
+    ]
+  },
+  {
+    "lemma": "Schlachter", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Metzger", "note": "süddeutsch/westdeutsch" },
+      { "lemma": "Fleischer", "note": "standardsprachlich" }
+    ]
+  },
+  {
+    "lemma": "Tischler", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Schreiner", "note": "süddeutsch/westdeutsch" }
+    ]
+  },
+  {
+    "lemma": "Schreiner", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Tischler", "note": "norddeutsch/ostdeutsch" }
+    ]
+  },
+  {
+    "lemma": "Schuster", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Schuhmacher", "note": "offizielle Berufsbezeichnung" }
+    ]
+  },
+  {
+    "lemma": "Schuhmacher", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Schuster", "note": "alltäglicher" }
+    ]
+  },
+  {
+    "lemma": "Postbote", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Briefträger" }
+    ]
+  },
+  {
+    "lemma": "Briefträger", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Postbote" }
+    ]
+  },
+  {
+    "lemma": "Stewardess", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Flugbegleiterin", "note": "heutige Bezeichnung" }
+    ]
+  },
+  {
+    "lemma": "Flugbegleiterin", "pos": "noun",
+    "synonyms": [
+      { "lemma": "Stewardess", "note": "veraltend" }
+    ]
   }
 ]

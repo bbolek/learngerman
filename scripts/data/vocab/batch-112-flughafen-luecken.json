@@ -1,0 +1,9 @@
+[
+{"lemma":"Abflug","pos":"noun","level":"A2","freq":1450,"noun":{"gender":"m","plural":"Abflüge"},"senses":[{"en":"departure (of a plane), takeoff","example_de":"Der Abflug verspätet sich um eine Stunde.","example_en":"The departure is delayed by an hour."}]},
+{"lemma":"Landung","pos":"noun","level":"A2","freq":1480,"noun":{"gender":"f","plural":"Landungen"},"senses":[{"en":"landing","example_de":"Die Landung war ganz weich.","example_en":"The landing was very smooth."}]},
+{"lemma":"Start","pos":"noun","level":"A2","freq":1410,"noun":{"gender":"m","plural":"Starts"},"senses":[{"en":"takeoff; start","example_de":"Beim Start muss man sich anschnallen.","example_en":"You have to buckle up during takeoff."},{"en":"start (of a race, project)","example_de":"Der Start des Rennens ist um zehn Uhr.","example_en":"The start of the race is at ten o'clock."}]},
+{"lemma":"Terminal","pos":"noun","level":"B1","freq":2135,"noun":{"gender":"n","plural":"Terminals"},"senses":[{"en":"terminal (airport)","example_de":"Unser Flug geht von Terminal zwei.","example_en":"Our flight leaves from terminal two."}]},
+{"lemma":"Gate","pos":"noun","level":"B1","freq":2145,"noun":{"gender":"n","plural":"Gates"},"senses":[{"en":"gate (airport)","example_de":"Die Passagiere warten am Gate auf das Boarding.","example_en":"The passengers wait at the gate for boarding."}]},
+{"lemma":"Boarding","pos":"noun","level":"B2","freq":3120,"noun":{"gender":"n","plural":null},"senses":[{"en":"boarding","example_de":"Das Boarding beginnt dreißig Minuten vor dem Abflug.","example_en":"Boarding starts thirty minutes before departure."}]},
+{"lemma":"Tower","pos":"noun","level":"B2","freq":3130,"noun":{"gender":"m","plural":"Tower"},"senses":[{"en":"control tower","example_de":"Der Tower gibt dem Flugzeug die Erlaubnis zur Landung.","example_en":"The control tower gives the plane permission to land."}]}
+]

@@ -26,6 +26,13 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
+        name="path"
+        options={{
+          title: 'Lernpfad',
+          tabBarIcon: ({ color, size }) => <Ionicons name="map" size={size} color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="dictionary"
         options={{
           title: 'Wörterbuch',

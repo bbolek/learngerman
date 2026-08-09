@@ -5810,6 +5810,41 @@ export const THEMES: Theme[] = [
         "lemma": "sagenhaft",
         "pos": "adj",
         "level": "C1"
+      },
+      {
+        "lemma": "Abflug",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Landung",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Start",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Terminal",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gate",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Boarding",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Tower",
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   },
@@ -9584,6 +9619,456 @@ export const THEMES: Theme[] = [
         "lemma": "Personalentwicklung",
         "pos": "noun",
         "level": "C1"
+      },
+      {
+        "lemma": "Taxifahrer",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Optiker",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bibliothekar",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Förster",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Fischer",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Jäger",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Schreiner",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Schuster",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Schuhmacher",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Juwelier",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Stewardess",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Flugbegleiter",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Fleischer",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Schlachter",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Konditor",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Müller",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Brauer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Schmied",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Steinmetz",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Weber",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Glaser",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Fliesenleger",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Gerüstbauer",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Postbote",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Bestatter",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Geschäftsmann",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Geschäftsfrau",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Kauffrau",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Feuerwehrfrau",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Putzfrau",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Hausmann",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ärztin",
+        "pos": "noun",
+        "level": "A1"
+      },
+      {
+        "lemma": "Lehrerin",
+        "pos": "noun",
+        "level": "A1"
+      },
+      {
+        "lemma": "Polizistin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Kellnerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Köchin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Zahnärztin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Tierärztin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Bäckerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Ingenieurin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Journalistin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Pilotin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Sekretärin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Schauspielerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Malerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Busfahrerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Kundin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Nachbarin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Gärtnerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Elektrikerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Mechanikerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Taxifahrerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Flugbegleiterin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Fotografin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Trainerin",
+        "pos": "noun",
+        "level": "A2"
+      },
+      {
+        "lemma": "Anwältin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Richterin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Apothekerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Architektin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Übersetzerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Dolmetscherin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Psychologin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Chirurgin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Professorin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Wissenschaftlerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Forscherin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Unternehmerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Buchhalterin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Erzieherin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Pflegerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Schneiderin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Mitarbeiterin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Soldatin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bibliothekarin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Optikerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Autorin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Politikerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Präsidentin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Direktorin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Ministerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bürgermeisterin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Zeugin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Assistentin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Praktikantin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Bewerberin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Expertin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Partnerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Metzgerin",
+        "pos": "noun",
+        "level": "B1"
+      },
+      {
+        "lemma": "Therapeutin",
+        "pos": "noun",
+        "level": "B2"
+      },
+      {
+        "lemma": "Beamtin",
+        "pos": "noun",
+        "level": "B2"
       }
     ]
   },

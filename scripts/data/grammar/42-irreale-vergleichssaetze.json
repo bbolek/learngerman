@@ -1,0 +1,478 @@
+{
+  "slug": "irreale-vergleichssaetze",
+  "title": "Irreale Vergleiche & Wünsche",
+  "level": "C1",
+  "explainer_md": "To compare reality with something imagined, German uses *als ob* plus **Konjunktiv II**, with the verb at the end of the clause: *Er [[tut]], als ob er alles wüsste.* — He acts as if he knew everything (he doesn't). *Als wenn* works the same way. You can also drop *ob* — then the conjugated verb moves directly behind *als*: *Er tut, als wüsste er alles.* Same meaning, slightly more literary.\n\nIf the imagined situation lies in the past, use hätte/wäre + Partizip II: *Sie sah aus, als ob sie die ganze Nacht gearbeitet hätte.* — She looked as if she had worked all night.\n\nThe same mood expresses **irreal wishes**. Either start with *wenn* or put the verb first — and always add a particle like *doch*, *nur* or *bloß*, because that little word is what turns the sentence into a wish: *Wenn ich doch mehr [[Zeit]] hätte!* — If only I had more time! *Hätte ich das nur gewusst!* ([[wissen]]) — If only I had known!\n\nFinally, *beinahe* and *[[fast]]* (almost) combine with the past Konjunktiv II for things that nearly happened but didn't: *Beinahe wäre ich gefallen.* — I almost fell. *Fast hätten wir den Zug verpasst.* — We almost missed the train. The Konjunktiv alone signals: it did not actually happen.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er tut, als ob er alles ___.",
+        "options": ["wüsste", "weiß", "wusste"],
+        "correctIndex": 0,
+        "explanation": "als ob takes Konjunktiv II: als ob er alles wüsste ([[wissen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie sieht aus, als ob sie müde ___.",
+        "options": ["wäre", "ist", "war"],
+        "correctIndex": 0,
+        "explanation": "Irreal comparison → Konjunktiv II: als ob sie müde wäre."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wenn ich doch mehr Zeit ___!",
+        "options": ["hätte", "habe", "hatte"],
+        "correctIndex": 0,
+        "explanation": "Irreal wish = wenn + doch/nur + Konjunktiv II: Wenn ich doch mehr Zeit hätte!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Beinahe ___ ich ins Wasser gefallen.",
+        "options": ["wäre", "bin", "hätte"],
+        "correctIndex": 0,
+        "explanation": "beinahe + past Konjunktiv II: it almost happened, but didn't. [[fallen]] takes sein → wäre gefallen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er tut so, als ob er mich nicht ___.",
+        "options": ["kennen würde", "kennt", "kannte"],
+        "correctIndex": 0,
+        "explanation": "When the one-word Konjunktiv II sounds odd, use würde + Infinitiv: als ob er mich nicht kennen würde."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Es klingt, als ob sie recht ___.",
+        "options": ["hätte", "hat", "haben"],
+        "correctIndex": 0,
+        "explanation": "als ob → Konjunktiv II at the end: als ob sie recht hätte."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er tut, als ___ er alles.",
+        "options": ["wüsste", "ob wüsste", "weiß"],
+        "correctIndex": 0,
+        "explanation": "Without ob, the Konjunktiv II verb comes directly after als: Er tut, als wüsste er alles."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie tat, als ___ sie nichts gehört.",
+        "options": ["hätte", "hat", "hatte"],
+        "correctIndex": 0,
+        "explanation": "Past irrealis after als: als hätte sie nichts gehört."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ich das nur gewusst!",
+        "options": ["Hätte", "Habe", "Hatte"],
+        "correctIndex": 0,
+        "explanation": "Wish without wenn: the Konjunktiv II verb goes first — Hätte ich das nur gewusst!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wenn er doch hier ___!",
+        "options": ["wäre", "ist", "sei"],
+        "correctIndex": 0,
+        "explanation": "Irreal wish → Konjunktiv II wäre; sei is Konjunktiv I (reported speech)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Fast ___ wir den Zug verpasst.",
+        "options": ["hätten", "haben", "hatten"],
+        "correctIndex": 0,
+        "explanation": "fast + hätten + Partizip II: we did NOT miss it ([[verpassen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er sieht aus, als ob er die ganze Nacht gearbeitet ___.",
+        "options": ["hätte", "hat", "wäre"],
+        "correctIndex": 0,
+        "explanation": "Past irrealis: arbeiten takes haben → als ob er gearbeitet hätte."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Welcher Satz ist ein irrealer Wunsch?",
+        "options": ["Wenn ich doch reich wäre!", "Wenn ich reich bin, kaufe ich ein Haus.", "Ich möchte reich werden."],
+        "correctIndex": 0,
+        "explanation": "Konjunktiv II + particle doch marks the irreal wish; the others are a real condition and a plain statement."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Sie redet, als ___ sie die Chefin.",
+        "options": ["wäre", "ist", "war"],
+        "correctIndex": 0,
+        "explanation": "als + verb in position 2, Konjunktiv II: als wäre sie die Chefin."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Beinahe ___ er den Fehler übersehen.",
+        "options": ["hätte", "wäre", "hat"],
+        "correctIndex": 0,
+        "explanation": "übersehen takes haben → Beinahe hätte er den Fehler übersehen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er tut, als ob er kein Deutsch ___.",
+        "options": ["verstehen würde", "versteht", "verstand"],
+        "correctIndex": 0,
+        "explanation": "würde + Infinitiv replaces rare Konjunktiv II forms: als ob er kein Deutsch verstehen würde ([[verstehen]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er lächelt, als ___ nichts passiert.",
+        "options": ["wäre", "ob wäre", "ist"],
+        "correctIndex": 0,
+        "explanation": "als + verb second, past irrealis: als wäre nichts passiert."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie tat, als ob sie mich nicht gesehen ___.",
+        "options": ["hätte", "wäre", "hat"],
+        "correctIndex": 0,
+        "explanation": "sehen takes haben → als ob sie mich nicht gesehen hätte."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Beinahe ___ das Glas zerbrochen.",
+        "options": ["wäre", "hätte", "ist"],
+        "correctIndex": 0,
+        "explanation": "[[zerbrechen]] (to shatter, intransitive) takes sein → Beinahe wäre das Glas zerbrochen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Fast ___ ich zu spät gekommen.",
+        "options": ["wäre", "hätte", "bin"],
+        "correctIndex": 0,
+        "explanation": "kommen takes sein → Fast wäre ich zu spät gekommen (but I wasn't late)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": ["Er tut, als wüsste er alles.", "Er tut, als er wüsste alles.", "Er tut, als ob wüsste er alles."],
+        "correctIndex": 0,
+        "explanation": "Without ob the verb follows als directly; with ob it goes to the end — never both patterns mixed."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Wenn sie das doch nur früher gesagt ___!",
+        "options": ["hätte", "hat", "wäre"],
+        "correctIndex": 0,
+        "explanation": "Past irreal wish: hätte + Partizip II — Wenn sie das doch nur früher gesagt hätte!"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Hätte ich bloß nichts ___!",
+        "options": ["gesagt", "sagen", "sage"],
+        "correctIndex": 0,
+        "explanation": "hätte + Partizip II: Hätte ich bloß nichts gesagt! (If only I had said nothing!)"
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er gibt so viel Geld aus, als ___ er im Lotto gewonnen.",
+        "options": ["hätte", "würde", "hat"],
+        "correctIndex": 0,
+        "explanation": "Past irrealis: als hätte er im Lotto gewonnen ([[gewinnen]] takes haben)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Er tut, als ob er alles verstehen ___. (werden, Konjunktiv II)",
+        "accept": ["würde"],
+        "explanation": "würde + Infinitiv is the everyday Konjunktiv II: als ob er alles verstehen würde."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Sie sieht aus, als ob sie krank ___. (sein)",
+        "accept": ["wäre"],
+        "explanation": "als ob → Konjunktiv II at the end: als ob sie krank wäre."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wenn wir doch mehr Geld ___! (haben)",
+        "accept": ["hätten"],
+        "explanation": "Irreal wish, wir → hätten: Wenn wir doch mehr Geld hätten!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Beinahe ___ er die Prüfung nicht bestanden. (haben)",
+        "accept": ["hätte"],
+        "explanation": "beinahe + hätte + Partizip II: he DID pass ([[bestehen]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "___ ich das nur früher gewusst! (haben)",
+        "accept": ["Hätte"],
+        "explanation": "Verb-first wish: Hätte ich das nur früher gewusst!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er tut, als ___ er mein Freund. (sein, ohne „ob“)",
+        "accept": ["wäre", "sei"],
+        "explanation": "Verb directly after als: als wäre er mein Freund (Konjunktiv I sei is also possible in writing)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Fast ___ ich meinen Schlüssel verloren. (haben)",
+        "accept": ["hätte"],
+        "explanation": "fast + hätte + Partizip II: the key was NOT lost."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Er tat, als ob er den Brief nicht gelesen ___. (haben)",
+        "accept": ["hätte", "habe"],
+        "explanation": "Past irrealis: als ob er den Brief nicht gelesen hätte."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wenn er doch endlich ___! (kommen, Konjunktiv II — ein Wort)",
+        "accept": ["käme"],
+        "hint": "Konjunktiv II mit Umlaut",
+        "explanation": "Strong verbs form Konjunktiv II from the Präteritum plus umlaut: kam → käme."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Wenn das Wetter doch besser ___! (sein)",
+        "accept": ["wäre"],
+        "explanation": "Irreal wish: Wenn das Wetter doch besser wäre!"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Beinahe ___ ich den Termin vergessen. (haben)",
+        "accept": ["hätte"],
+        "explanation": "[[vergessen]] takes haben: Beinahe hätte ich den Termin vergessen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er redet, als ___ er alles besser. (wissen)",
+        "accept": ["wüsste", "wisse"],
+        "explanation": "als + verb second: als wüsste er alles besser (wisse = Konjunktiv I, also correct in formal writing)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Fast ___ das Konzert abgesagt worden. (sein)",
+        "accept": ["wäre"],
+        "explanation": "Passive + irrealis: Fast wäre das Konzert abgesagt worden — it took place after all ([[absagen]])."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie sah aus, als ob sie geweint ___. (haben)",
+        "accept": ["hätte", "habe"],
+        "explanation": "Past irrealis: als ob sie geweint hätte ([[weinen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Er", "tut,", "als", "ob", "er", "reich", "wäre"],
+        "solutions": [["Er", "tut,", "als", "ob", "er", "reich", "wäre"]],
+        "translation": "He acts as if he were rich.",
+        "explanation": "als ob sends the Konjunktiv II verb to the end of the clause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Wenn", "ich", "doch", "mehr", "Zeit", "hätte"],
+        "solutions": [["Wenn", "ich", "doch", "mehr", "Zeit", "hätte"]],
+        "translation": "If only I had more time!",
+        "explanation": "wenn-wish: particle doch in the middle, Konjunktiv II verb at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Beinahe", "wäre", "ich", "hingefallen"],
+        "solutions": [["Beinahe", "wäre", "ich", "hingefallen"]],
+        "translation": "I almost fell down.",
+        "explanation": "beinahe first, then wäre in position 2 + Partizip II ([[hinfallen]])."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Hätte", "ich", "das", "nur", "gewusst"],
+        "solutions": [
+          ["Hätte", "ich", "das", "nur", "gewusst"],
+          ["Hätte", "ich", "nur", "das", "gewusst"]
+        ],
+        "translation": "If only I had known that!",
+        "explanation": "Wish without wenn: the conjugated verb moves to the front — Hätte ich das nur gewusst!"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Er", "tut,", "als", "hätte", "er", "keine", "Angst"],
+        "solutions": [["Er", "tut,", "als", "hätte", "er", "keine", "Angst"]],
+        "translation": "He acts as if he weren't afraid.",
+        "explanation": "als without ob: the verb hätte follows als directly."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Fast", "hätte", "er", "den", "Termin", "verpasst"],
+        "solutions": [["Fast", "hätte", "er", "den", "Termin", "verpasst"]],
+        "translation": "He almost missed the appointment.",
+        "explanation": "fast + hätte … verpasst: near-event that did not happen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "sieht", "aus,", "als", "wäre", "er", "krank"],
+        "solutions": [["Er", "sieht", "aus,", "als", "wäre", "er", "krank"]],
+        "translation": "He looks as if he were sick.",
+        "explanation": "aussehen + als + Konjunktiv II in position 2: als wäre er krank."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Wenn", "er", "doch", "nur", "früher", "gekommen", "wäre"],
+        "solutions": [["Wenn", "er", "doch", "nur", "früher", "gekommen", "wäre"]],
+        "translation": "If only he had come earlier!",
+        "explanation": "Past irreal wish: doch nur + Partizip II + wäre at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Sie", "tat,", "als", "ob", "sie", "schliefe"],
+        "solutions": [["Sie", "tat,", "als", "ob", "sie", "schliefe"]],
+        "translation": "She pretended to be asleep.",
+        "explanation": "One-word Konjunktiv II of [[schlafen]]: schlief → schliefe."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Beinahe", "wäre", "das", "Glas", "vom", "Tisch", "gefallen"],
+        "solutions": [["Beinahe", "wäre", "das", "Glas", "vom", "Tisch", "gefallen"]],
+        "translation": "The glass almost fell off the table.",
+        "explanation": "beinahe + wäre … gefallen: it stayed on the table."
+      }
+    }
+  ]
+}

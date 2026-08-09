@@ -1,0 +1,516 @@
+{
+  "slug": "passiv-ersatzformen",
+  "title": "Passiv-Ersatzformen",
+  "level": "B2",
+  "explainer_md": "German has a whole toolbox of elegant alternatives to the passive. Instead of *Das Problem kann gelöst werden*, you can say the same thing several other ways.\n\n**man + Aktiv** is the everyday one: *Man spricht hier Deutsch.* = Hier wird Deutsch gesprochen. **sich lassen + Infinitiv** expresses possibility: *Das lässt sich [[machen]].* = Das kann gemacht werden. **sein + zu + Infinitiv** covers possibility or necessity: *Die [[Aufgabe]] ist zu [[lösen]].* = must (or can) be solved — context decides. **-bar adjectives** turn a verb into \"can be X-ed\": *Der Text ist lesbar.* = Er kann gelesen werden. And some verbs offer a **reflexive alternative**: *Das [[Buch]] verkauft sich gut.* = Es wird gut verkauft.\n\n| Ersatzform | Beispiel | = Passiv |\n|---|---|---|\n| man | Man repariert das. | Es wird repariert. |\n| sich lassen | Es lässt sich reparieren. | Es kann repariert werden. |\n| sein + zu | Es ist zu reparieren. | Es muss/kann repariert werden. |\n| -bar | Es ist reparierbar. | Es kann repariert werden. |\n\nNote the meanings: *sich lassen* and *-bar* always mean **können**, while *sein + zu* can also mean **müssen**: *Die Rechnung ist bis Freitag zu bezahlen* — it has to be paid. When you convert back to a real passive, keep the tense, and remember that the accusative object of the man-sentence becomes the subject.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das lässt ___ machen.",
+        "options": ["sich", "es", "zu"],
+        "correctIndex": 0,
+        "explanation": "sich lassen + Infinitiv = kann gemacht werden: Das lässt sich machen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Die Aufgabe ist ___ lösen.",
+        "options": ["zu", "für", "um"],
+        "correctIndex": 0,
+        "explanation": "sein + zu + Infinitiv: Die Aufgabe ist zu lösen (= kann/muss gelöst werden)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ spricht hier Deutsch. (= Hier wird Deutsch gesprochen)",
+        "options": ["Man", "Er", "Es"],
+        "correctIndex": 0,
+        "explanation": "man + active verb replaces a passive without a named doer."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Text ist gut ___. (= kann gelesen werden)",
+        "options": ["lesbar", "lesen", "gelesen"],
+        "correctIndex": 0,
+        "explanation": "-bar adjective: lesbar = kann gelesen werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das Buch verkauft ___ gut.",
+        "options": ["sich", "es", "ihm"],
+        "correctIndex": 0,
+        "explanation": "Reflexive alternative: Das Buch verkauft sich gut = wird gut verkauft."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "„Das Fenster lässt sich öffnen.“ bedeutet:",
+        "options": [
+          "Das Fenster kann geöffnet werden.",
+          "Das Fenster muss geöffnet werden.",
+          "Das Fenster wurde geöffnet."
+        ],
+        "correctIndex": 0,
+        "explanation": "sich lassen always expresses possibility (können), never necessity."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Welches Adjektiv bedeutet „kann gemacht werden“?",
+        "options": ["machbar", "gemacht", "machend"],
+        "correctIndex": 0,
+        "explanation": "Verb stem + -bar: machbar = kann gemacht werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Man kann das Wasser trinken.“ = Das Wasser ist ___.",
+        "options": ["trinkbar", "getrunken", "trinken"],
+        "correctIndex": 0,
+        "explanation": "können + Passiv → -bar adjective: trinkbar."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Die Rechnung ist bis Freitag zu bezahlen.“ bedeutet:",
+        "options": [
+          "Sie muss bezahlt werden.",
+          "Sie kann nicht bezahlt werden.",
+          "Sie wurde schon bezahlt."
+        ],
+        "correctIndex": 0,
+        "explanation": "sein + zu with a deadline expresses necessity: muss bezahlt werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Tür ___ sich nicht öffnen.",
+        "options": ["lässt", "kann", "ist"],
+        "correctIndex": 0,
+        "explanation": "sich lassen: Die Tür lässt sich nicht öffnen = kann nicht geöffnet werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Hier wird viel gebaut.“ = ___ baut hier viel.",
+        "options": ["Man", "Ihr", "Es"],
+        "correctIndex": 0,
+        "explanation": "Passive without agent → man-construction: Man baut hier viel."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Problem lässt sich leicht ___.",
+        "options": ["lösen", "gelöst", "zu lösen"],
+        "correctIndex": 0,
+        "explanation": "sich lassen takes the bare infinitive: lässt sich lösen (no zu, no participle)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Der Text ist übersetzbar.“ = Der Text kann ___ werden.",
+        "options": ["übersetzt", "übersetzen", "übersetzbar"],
+        "correctIndex": 0,
+        "explanation": "-bar → können + Partizip II + werden: kann übersetzt werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Diese Frage ist schwer ___ beantworten.",
+        "options": ["zu", "für", "zum"],
+        "correctIndex": 0,
+        "explanation": "sein + Adverb + zu + Infinitiv: ist schwer zu beantworten."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Das Auto lässt sich nicht mehr reparieren.“ — Passiv:",
+        "options": [
+          "Das Auto kann nicht mehr repariert werden.",
+          "Das Auto muss nicht mehr repariert werden.",
+          "Das Auto wird gerade repariert."
+        ],
+        "correctIndex": 0,
+        "explanation": "sich lassen = können: kann nicht mehr repariert werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Wein trinkt ___ gut. (reflexive Ersatzform)",
+        "options": ["sich", "es", "man"],
+        "correctIndex": 0,
+        "explanation": "Reflexive alternative with an adverb: Der Wein trinkt sich gut."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Man erreicht mich unter dieser Nummer.“ = Ich bin unter dieser Nummer ___.",
+        "options": ["erreichbar", "erreichend", "erreichen"],
+        "correctIndex": 0,
+        "explanation": "-bar adjective: erreichbar = kann erreicht werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Die Aufgabe ist zu lösen.“ kann bedeuten:",
+        "options": [
+          "muss oder kann gelöst werden",
+          "nur: kann gelöst werden",
+          "ist schon gelöst"
+        ],
+        "correctIndex": 0,
+        "explanation": "sein + zu is ambiguous between necessity and possibility — context decides."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist KEINE Passiv-Ersatzform?",
+        "options": [
+          "Der Brief wird geschrieben.",
+          "Der Brief lässt sich schreiben.",
+          "Man schreibt den Brief."
+        ],
+        "correctIndex": 0,
+        "explanation": "werden + Partizip II is the real passive; the others are substitutes."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Das Problem kann gelöst werden.“ — Ersatzform mit lassen:",
+        "options": [
+          "Das Problem lässt sich lösen.",
+          "Das Problem lässt sich gelöst.",
+          "Das Problem ist sich zu lösen."
+        ],
+        "correctIndex": 0,
+        "explanation": "können + Passiv → lässt sich + Infinitiv."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Das Buch liest sich leicht.“ bedeutet:",
+        "options": [
+          "Man kann es leicht lesen.",
+          "Es liest selbst.",
+          "Es muss gelesen werden."
+        ],
+        "correctIndex": 0,
+        "explanation": "Reflexive alternative: liest sich leicht = kann leicht gelesen werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Der Fehler ist leicht zu finden.“ — Passiv mit Modalverb:",
+        "options": [
+          "Der Fehler kann leicht gefunden werden.",
+          "Der Fehler muss leicht gefunden werden.",
+          "Der Fehler wird leicht finden."
+        ],
+        "correctIndex": 0,
+        "explanation": "With leicht/schwer, sein + zu expresses possibility: kann gefunden werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ersetze: „Hier kann man gut essen.“",
+        "options": [
+          "Hier lässt es sich gut essen.",
+          "Hier isst es sich gut lassen.",
+          "Hier ist gut zu essen man."
+        ],
+        "correctIndex": 0,
+        "explanation": "Impersonal es lässt sich + Adverb + Infinitiv: Hier lässt es sich gut essen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Diese Wörter sind unübersetzbar.“ = Sie ___ nicht übersetzt werden.",
+        "options": ["können", "müssen", "dürfen"],
+        "correctIndex": 0,
+        "explanation": "un- + -bar = kann nicht: sie können nicht übersetzt werden."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz drückt Notwendigkeit aus?",
+        "options": [
+          "Die Miete ist pünktlich zu zahlen.",
+          "Die Miete lässt sich zahlen.",
+          "Die Miete ist zahlbar."
+        ],
+        "correctIndex": 0,
+        "explanation": "Only sein + zu can mean müssen; sich lassen and -bar always mean können."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Das lässt ___ leicht ändern. (Reflexivpronomen)",
+        "accept": ["sich"],
+        "explanation": "sich lassen + Infinitiv: Das lässt sich leicht ändern."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Der Text ist schnell ___ lesen. (Partikel)",
+        "accept": ["zu"],
+        "explanation": "sein + zu + Infinitiv: ist schnell zu lesen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ isst in Italien viel Pasta. (Ersatz für Passiv)",
+        "accept": ["Man", "man"],
+        "explanation": "man + active verb: Man isst in Italien viel Pasta = Es wird viel Pasta gegessen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Frage lässt sich einfach ___. (beantworten, Infinitiv)",
+        "accept": ["beantworten"],
+        "explanation": "sich lassen takes the bare infinitive: lässt sich beantworten."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Dieses Wasser ist ___. (trinken + -bar)",
+        "accept": ["trinkbar"],
+        "explanation": "Verb stem + -bar: trinkbar = kann getrunken werden."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Das Auto ___ sich nicht mehr reparieren. (lassen)",
+        "accept": ["lässt"],
+        "explanation": "3rd singular of lassen: Das Auto lässt sich nicht mehr reparieren."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Die Hausaufgaben sind bis Montag ___ machen. (Partikel)",
+        "accept": ["zu"],
+        "explanation": "sein + zu with a deadline = necessity: sind bis Montag zu machen.",
+        "hint": "= müssen gemacht werden"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Der Roman verkauft ___ sehr gut. (Reflexivpronomen)",
+        "accept": ["sich"],
+        "explanation": "Reflexive alternative: verkauft sich gut = wird gut verkauft."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Seine Handschrift ist kaum ___. (lesen + -bar)",
+        "accept": ["lesbar"],
+        "explanation": "lesbar = kann gelesen werden; kaum lesbar = kann kaum gelesen werden."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Man kann das Gerät benutzen.“ → Das Gerät ist ___. (-bar)",
+        "accept": ["benutzbar"],
+        "explanation": "können + benutzen → benutzbar."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Die Tür kann nicht geöffnet werden.“ → Die Tür lässt sich nicht ___. (Infinitiv)",
+        "accept": ["öffnen"],
+        "explanation": "Passive with können → sich lassen + bare infinitive: lässt sich nicht öffnen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Man kann den Berg von hier gut sehen.“ → Der Berg ist von hier gut ___. (-bar)",
+        "accept": ["sichtbar"],
+        "explanation": "sehen → sichtbar (irregular stem): kann gesehen werden."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Das Fleisch kann man gut schneiden.“ → Das Fleisch ___ sich gut schneiden. (lassen)",
+        "accept": ["lässt"],
+        "explanation": "man kann + Infinitiv → lässt sich + Infinitiv."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Das", "lässt", "sich", "machen"],
+        "solutions": [["Das", "lässt", "sich", "machen"]],
+        "translation": "That can be done.",
+        "explanation": "sich lassen + Infinitiv: lässt in position 2, infinitive at the end."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Die", "Aufgabe", "ist", "zu", "lösen"],
+        "solutions": [["Die", "Aufgabe", "ist", "zu", "lösen"]],
+        "translation": "The task must (or can) be solved.",
+        "explanation": "sein + zu + Infinitiv: ist … zu lösen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Man", "spricht", "hier", "Deutsch"],
+        "solutions": [["Man", "spricht", "hier", "Deutsch"]],
+        "translation": "German is spoken here.",
+        "explanation": "man-construction as passive substitute."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Das", "Buch", "verkauft", "sich", "gut"],
+        "solutions": [["Das", "Buch", "verkauft", "sich", "gut"]],
+        "translation": "The book sells well.",
+        "explanation": "Reflexive alternative: verkauft sich gut = wird gut verkauft."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Die", "Tür", "lässt", "sich", "nicht", "öffnen"],
+        "solutions": [["Die", "Tür", "lässt", "sich", "nicht", "öffnen"]],
+        "translation": "The door cannot be opened.",
+        "explanation": "sich lassen with negation: lässt sich nicht öffnen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Der", "Text", "ist", "schwer", "zu", "verstehen"],
+        "solutions": [["Der", "Text", "ist", "schwer", "zu", "verstehen"]],
+        "translation": "The text is hard to understand.",
+        "explanation": "sein + Adverb + zu + Infinitiv: ist schwer zu verstehen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Das", "Problem", "lässt", "sich", "leicht", "lösen"],
+        "solutions": [["Das", "Problem", "lässt", "sich", "leicht", "lösen"]],
+        "translation": "The problem can easily be solved.",
+        "explanation": "lässt sich + Adverb + Infinitiv = kann leicht gelöst werden."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Die", "Rechnung", "ist", "bis", "Freitag", "zu", "bezahlen"],
+        "solutions": [["Die", "Rechnung", "ist", "bis", "Freitag", "zu", "bezahlen"]],
+        "translation": "The bill has to be paid by Friday.",
+        "explanation": "sein + zu with a deadline expresses necessity."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Hier", "lässt", "es", "sich", "gut", "leben"],
+        "solutions": [["Hier", "lässt", "es", "sich", "gut", "leben"]],
+        "translation": "One can live well here.",
+        "explanation": "Impersonal es lässt sich + Adverb + Infinitiv."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Der", "Wein", "trinkt", "sich", "sehr", "gut"],
+        "solutions": [["Der", "Wein", "trinkt", "sich", "sehr", "gut"]],
+        "translation": "The wine goes down very well.",
+        "explanation": "Reflexive alternative with an adverb: trinkt sich sehr gut."
+      }
+    }
+  ]
+}

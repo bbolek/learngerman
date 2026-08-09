@@ -1,0 +1,483 @@
+{
+  "slug": "nominalisierung",
+  "title": "Nominalisierung",
+  "level": "B2",
+  "explainer_md": "Written German loves nouns. **Nominalisierung** turns verbs and adjectives into nouns — mastering it is the key to formal, academic style.\n\nThe simplest recipe: capitalize the infinitive. The result is always **das**: *[[lesen]] → das Lesen, essen → das Essen*. You meet it constantly after prepositions: *Beim Essen sprechen wir nicht.* — We don't talk while eating.\n\n| Suffix | Gender | Example |\n|---|---|---|\n| -ung | die | entscheiden → die [[Entscheidung]] |\n| -heit | die | frei → die [[Freiheit]] |\n| -keit | die | möglich → die Möglichkeit |\n| -nis | mostly das | erleben → das Erlebnis (but: die Erlaubnis) |\n| -tum | mostly das | das Eigentum (but: der Reichtum) |\n\n**Nouns in -ung, -heit and -keit are always feminine** — that one rule fixes hundreds of articles. After -ig and -lich the suffix is -keit (wichtig → die Wichtigkeit). Some verbs form short nouns instead: *ankommen → die [[Ankunft]]*.\n\nNominal style replaces whole clauses with noun phrases: *Nachdem er angekommen war, rief er an.* → *Nach seiner Ankunft rief er an.* Learn the pairs: nachdem → nach, bevor → vor, während → während + Genitiv, weil → wegen, obwohl → trotz.\n\nAdjectives become nouns too, after etwas, nichts and viel: *etwas Schönes, nichts Neues, viel Interessantes* — capitalized, with adjective endings. The superlative works the same way: *das Wichtigste* — the most important thing.",
+  "questions": [
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "tanzen → ___ Tanzen",
+        "options": ["das", "der", "die"],
+        "correctIndex": 0,
+        "explanation": "Nominalized infinitives are always neuter: das Tanzen."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "Wörter auf -ung sind immer ___.",
+        "options": ["feminin", "maskulin", "neutrum"],
+        "correctIndex": 0,
+        "explanation": "-ung nouns are always feminine: die Übung, die [[Hoffnung]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "dumm → die ___",
+        "options": ["Dummheit", "Dummkeit", "Dummung"],
+        "correctIndex": 0,
+        "explanation": "Adjective + -heit: die Dummheit (stupidity)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "möglich → die ___",
+        "options": ["Möglichkeit", "Möglichheit", "Möglichung"],
+        "correctIndex": 0,
+        "explanation": "After -lich the suffix is -keit: die [[Möglichkeit]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "___ Schwimmen ist gesund.",
+        "options": ["Das", "Der", "Die"],
+        "correctIndex": 0,
+        "explanation": "Nominalized infinitive → always das: Das Schwimmen ist gesund."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "wichtig → die ___",
+        "options": ["Wichtigkeit", "Wichtigheit", "Wichtignis"],
+        "correctIndex": 0,
+        "explanation": "After -ig the suffix is -keit: die Wichtigkeit ([[wichtig]])."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "wohnen → die ___",
+        "options": ["Wohnung", "Wohnheit", "Wohnnis"],
+        "correctIndex": 0,
+        "explanation": "Verb stem + -ung: die [[Wohnung]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "hoffen → die ___",
+        "options": ["Hoffnung", "Hoffheit", "Hoffkeit"],
+        "correctIndex": 0,
+        "explanation": "[[hoffen]] → die Hoffnung (hope), with linking -n-: Hoffnung."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "ankommen → die ___",
+        "options": ["Ankunft", "Ankommung", "Ankommnis"],
+        "correctIndex": 0,
+        "explanation": "Some verbs form short irregular nouns: [[ankommen]] → die Ankunft."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "traurig → die Traurig___",
+        "options": ["keit", "heit"],
+        "correctIndex": 0,
+        "explanation": "After -ig always -keit: die Traurigkeit."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "schön → die ___",
+        "options": ["Schönheit", "Schönkeit", "Schönung"],
+        "correctIndex": 0,
+        "explanation": "[[schön]] + -heit: die Schönheit (beauty)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "ergeben → das ___",
+        "options": ["Ergebnis", "Ergebkeit", "Ergebheit"],
+        "correctIndex": 0,
+        "explanation": "Verb + -nis, neuter: das [[Ergebnis]] (result)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "prüfen → die ___",
+        "options": ["Prüfung", "Prüfnis", "Prüfheit"],
+        "correctIndex": 0,
+        "explanation": "Verb stem + -ung: die [[Prüfung]] (exam)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "erfahren → die ___",
+        "options": ["Erfahrung", "Erfahrnis", "Erfahrheit"],
+        "correctIndex": 0,
+        "explanation": "Verb stem + -ung: die [[Erfahrung]] (experience)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Bevor sie abreiste, packte sie.“ → „___ ihrer Abreise packte sie.“",
+        "options": ["Vor", "Nach", "Bei"],
+        "correctIndex": 0,
+        "explanation": "bevor + clause → vor + noun: Vor ihrer Abreise."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "„Während sie arbeitete, hörte sie Radio.“ → „___ der Arbeit hörte sie Radio.“",
+        "options": ["Während", "Wegen", "Trotz"],
+        "correctIndex": 0,
+        "explanation": "während as a preposition + Genitiv replaces the clause: Während der Arbeit."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Was bedeutet „das Wichtigste“?",
+        "options": ["the most important thing", "the importance", "importantly"],
+        "correctIndex": 0,
+        "explanation": "Nominalized superlative: das Wichtigste = the most important thing."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "frei → die ___",
+        "options": ["Freiheit", "Freikeit", "Freiung"],
+        "correctIndex": 0,
+        "explanation": "[[frei]] + -heit: die Freiheit (freedom)."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Nomen auf -tum sind meistens neutrum. Welches ist eine Ausnahme?",
+        "options": ["der Reichtum", "das Eigentum", "das Christentum"],
+        "correctIndex": 0,
+        "explanation": "-tum is usually neuter (das [[Eigentum]]), but der [[Reichtum]] and der Irrtum are masculine."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Weil er krank war, blieb er zu Hause.“ → „___ seiner Krankheit blieb er zu Hause.“",
+        "options": ["Wegen", "Weil", "Während"],
+        "correctIndex": 0,
+        "explanation": "weil + clause → wegen + Genitiv: Wegen seiner [[Krankheit]]."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Obwohl es schneite, fuhren wir los.“ → „___ des Schnees fuhren wir los.“",
+        "options": ["Trotz", "Wegen", "Vor"],
+        "correctIndex": 0,
+        "explanation": "obwohl + clause → trotz + Genitiv: Trotz des Schnees."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Ich habe etwas ___ gekauft. (schön)",
+        "options": ["Schönes", "schönes", "Schöne"],
+        "correctIndex": 0,
+        "explanation": "After etwas the adjective becomes a capitalized noun with -es: etwas Schönes."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Sie hat viel ___ erlebt. (interessant)",
+        "options": ["Interessantes", "interessantes", "Interessante"],
+        "correctIndex": 0,
+        "explanation": "After viel: nominalized adjective with -es: viel Interessantes."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Welcher Satz ist Nominalstil?",
+        "options": [
+          "Nach der Ankunft des Zuges stiegen alle aus.",
+          "Nachdem der Zug angekommen war, stiegen alle aus.",
+          "Als der Zug ankam, stiegen alle aus."
+        ],
+        "correctIndex": 0,
+        "explanation": "Nominal style packs the event into a noun phrase (die [[Ankunft]] des Zuges) instead of a clause."
+      }
+    },
+    {
+      "qtype": "mc",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "erlauben → die ___",
+        "options": ["Erlaubnis", "Erlaubung", "Erlaubheit"],
+        "correctIndex": 0,
+        "explanation": "die Erlaubnis — one of the feminine -nis nouns (also die Kenntnis); most others are neuter."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "lesen → das ___ (Nomen)",
+        "accept": ["Lesen"],
+        "explanation": "Capitalize the infinitive: [[lesen]] → das Lesen."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "entscheiden → die ___",
+        "accept": ["Entscheidung"],
+        "explanation": "[[entscheiden]] → die Entscheidung (decision), with -ung."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 1,
+      "payload": {
+        "prompt": "üben → die ___",
+        "accept": ["Übung"],
+        "explanation": "Verb stem + -ung: die Übung (exercise)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "meinen → die ___",
+        "accept": ["Meinung"],
+        "explanation": "Verb stem + -ung: die [[Meinung]] (opinion)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "wahr → die ___",
+        "accept": ["Wahrheit"],
+        "explanation": "Adjective + -heit: die [[Wahrheit]] (truth)."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "freundlich → die ___",
+        "accept": ["Freundlichkeit"],
+        "explanation": "After -lich the suffix is -keit: die Freundlichkeit.",
+        "hint": "-heit oder -keit?"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Beim ___ lernt man Geduld. (warten)",
+        "accept": ["Warten"],
+        "explanation": "bei + dem + nominalized infinitive: beim Warten — while waiting."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 2,
+      "payload": {
+        "prompt": "Vor der ___ des Zuges warteten wir am Gleis. (abfahren)",
+        "accept": ["Abfahrt"],
+        "explanation": "abfahren forms a short noun: die Abfahrt (departure).",
+        "hint": "kurzes Nomen mit -t"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Nachdem wir gegessen hatten, …“ → „Nach dem ___ …“",
+        "accept": ["Essen"],
+        "explanation": "nachdem + clause → nach + nominalized infinitive: Nach dem [[Essen]]."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Er erzählte nichts ___. (neu)",
+        "accept": ["Neues"],
+        "explanation": "After nichts: nominalized adjective with capital letter and -es: nichts Neues."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "Das ___ ist, dass du gesund bist. (wichtig → Superlativ als Nomen)",
+        "accept": ["Wichtigste"],
+        "explanation": "Nominalized superlative: das Wichtigste — the most important thing."
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "„Obwohl er müde war, …“ → „Trotz seiner ___ …“",
+        "accept": ["Müdigkeit"],
+        "explanation": "müde → die Müdigkeit (-igkeit); obwohl becomes trotz + Genitiv.",
+        "hint": "-igkeit"
+      }
+    },
+    {
+      "qtype": "fill",
+      "difficulty": 3,
+      "payload": {
+        "prompt": "erleben → das ___",
+        "accept": ["Erlebnis"],
+        "explanation": "Verb + -nis, neuter: das [[Erlebnis]] (experience, event).",
+        "hint": "-nis"
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Das", "Lesen", "macht", "mir", "Spaß"],
+        "solutions": [["Das", "Lesen", "macht", "mir", "Spaß"]],
+        "translation": "Reading is fun for me.",
+        "explanation": "Nominalized infinitive as subject: Das Lesen (neuter, capitalized)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 1,
+      "payload": {
+        "tokens": ["Beim", "Essen", "sprechen", "wir", "nicht"],
+        "solutions": [["Beim", "Essen", "sprechen", "wir", "nicht"]],
+        "translation": "We don't talk while eating.",
+        "explanation": "beim + nominalized infinitive = while doing something: Beim Essen."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Nach", "seiner", "Ankunft", "besuchte", "er", "uns"],
+        "solutions": [["Nach", "seiner", "Ankunft", "besuchte", "er", "uns"]],
+        "translation": "After his arrival he visited us.",
+        "explanation": "Nominal style: nach + noun instead of a nachdem-clause; the verb stays in position 2."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Vor", "der", "Prüfung", "bin", "ich", "nervös"],
+        "solutions": [["Vor", "der", "Prüfung", "bin", "ich", "nervös"]],
+        "translation": "Before the exam I am nervous.",
+        "explanation": "vor + noun replaces a bevor-clause: Vor der Prüfung."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Das", "Rauchen", "ist", "hier", "verboten"],
+        "solutions": [["Das", "Rauchen", "ist", "hier", "verboten"]],
+        "translation": "Smoking is forbidden here.",
+        "explanation": "Nominalized infinitive as subject: Das Rauchen (das, capitalized)."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 2,
+      "payload": {
+        "tokens": ["Wegen", "der", "Kälte", "bleiben", "wir", "zu", "Hause"],
+        "solutions": [["Wegen", "der", "Kälte", "bleiben", "wir", "zu", "Hause"]],
+        "translation": "Because of the cold we stay at home.",
+        "explanation": "kalt → die Kälte; wegen + Genitiv replaces a weil-clause."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Trotz", "des", "Regens", "spielen", "die", "Kinder", "draußen"],
+        "solutions": [["Trotz", "des", "Regens", "spielen", "die", "Kinder", "draußen"]],
+        "translation": "Despite the rain the children play outside.",
+        "explanation": "trotz + Genitiv replaces an obwohl-clause: Trotz des Regens."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Er", "hat", "mir", "etwas", "Wichtiges", "gesagt"],
+        "solutions": [["Er", "hat", "mir", "etwas", "Wichtiges", "gesagt"]],
+        "translation": "He told me something important.",
+        "explanation": "After etwas the adjective is nominalized: etwas Wichtiges."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Das", "Wichtigste", "ist", "deine", "Gesundheit"],
+        "solutions": [["Das", "Wichtigste", "ist", "deine", "Gesundheit"]],
+        "translation": "The most important thing is your health.",
+        "explanation": "Nominalized superlative das Wichtigste; gesund → die [[Gesundheit]]."
+      }
+    },
+    {
+      "qtype": "order",
+      "difficulty": 3,
+      "payload": {
+        "tokens": ["Beim", "Kochen", "höre", "ich", "gern", "Musik"],
+        "solutions": [["Beim", "Kochen", "höre", "ich", "gern", "Musik"]],
+        "translation": "While cooking I like to listen to music.",
+        "explanation": "Beim Kochen in position 1 → verb in position 2: höre ich."
+      }
+    }
+  ]
+}

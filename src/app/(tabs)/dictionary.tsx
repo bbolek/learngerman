@@ -1,6 +1,7 @@
-import { useFocusEffect } from 'expo-router';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { FlatList, StyleSheet, View } from 'react-native';
+import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { tourEmit } from '@/tour/tourStore';
@@ -12,7 +13,7 @@ import {
   SearchResultRow,
   useDictionarySearch,
 } from '@/ui/components/SearchResults';
-import { spacing } from '@/ui/theme';
+import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 export default function DictionaryScreen() {
@@ -39,7 +40,20 @@ export default function DictionaryScreen() {
   return (
     <View style={[styles.fill, { backgroundColor: t.bg, paddingTop: insets.top + spacing.md }]}>
       <View style={styles.pad}>
-        <AppText variant="section">Wörterbuch</AppText>
+        <View style={styles.headerRow}>
+          <AppText variant="section">Wörterbuch</AppText>
+          <TourTarget id="dict-saved">
+            <Pressable
+              onPress={() => router.push('/words')}
+              hitSlop={8}
+              style={[styles.savedLink, { backgroundColor: t.primaryDim }]}>
+              <Ionicons name="heart" size={15} color={t.onPrimaryDim} />
+              <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+                Meine Wörter
+              </AppText>
+            </Pressable>
+          </TourTarget>
+        </View>
         <View style={{ height: spacing.md }} />
         <TourTarget id="dict-search">
           <SearchBar
@@ -93,5 +107,14 @@ export default function DictionaryScreen() {
 const styles = StyleSheet.create({
   fill: { flex: 1 },
   pad: { paddingHorizontal: spacing.lg },
+  headerRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  savedLink: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 999,
+  },
   empty: { alignItems: 'center', paddingTop: 48, paddingHorizontal: spacing.xl },
 });

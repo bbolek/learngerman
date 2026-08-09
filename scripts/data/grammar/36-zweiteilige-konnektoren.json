@@ -266,9 +266,9 @@
       "qtype": "fill",
       "difficulty": 1,
       "payload": {
-        "prompt": "Er spricht ___ Deutsch als auch Französisch.",
+        "prompt": "Der Kurs ist ___ interessant als auch nützlich.",
         "accept": ["sowohl"],
-        "explanation": "sowohl … als auch = both … and."
+        "explanation": "sowohl … als auch = both … and; here it joins two adjectives."
       }
     },
     {
@@ -384,9 +384,9 @@
       "qtype": "order",
       "difficulty": 1,
       "payload": {
-        "tokens": ["Er", "spricht", "sowohl", "Deutsch", "als", "auch", "Spanisch"],
-        "solutions": [["Er", "spricht", "sowohl", "Deutsch", "als", "auch", "Spanisch"]],
-        "translation": "He speaks both German and Spanish.",
+        "tokens": ["Sie", "liest", "sowohl", "Bücher", "als", "auch", "Zeitungen"],
+        "solutions": [["Sie", "liest", "sowohl", "Bücher", "als", "auch", "Zeitungen"]],
+        "translation": "She reads both books and newspapers.",
         "explanation": "sowohl … als auch joins two objects; the sentence order stays normal."
       }
     },
@@ -394,9 +394,9 @@
       "qtype": "order",
       "difficulty": 1,
       "payload": {
-        "tokens": ["Sie", "trinkt", "weder", "Kaffee", "noch", "Tee"],
-        "solutions": [["Sie", "trinkt", "weder", "Kaffee", "noch", "Tee"]],
-        "translation": "She drinks neither coffee nor tea.",
+        "tokens": ["Ich", "kenne", "weder", "ihn", "noch", "seine", "Frau"],
+        "solutions": [["Ich", "kenne", "weder", "ihn", "noch", "seine", "Frau"]],
+        "translation": "I know neither him nor his wife.",
         "explanation": "weder … noch replaces the negation — no nicht is needed."
       }
     },
@@ -404,9 +404,9 @@
       "qtype": "order",
       "difficulty": 2,
       "payload": {
-        "tokens": ["Wir", "fahren", "entweder", "nach", "Wien", "oder", "nach", "Rom"],
-        "solutions": [["Wir", "fahren", "entweder", "nach", "Wien", "oder", "nach", "Rom"]],
-        "translation": "We're going either to Vienna or to Rome.",
+        "tokens": ["Ich", "nehme", "entweder", "den", "Bus", "oder", "das", "Rad"],
+        "solutions": [["Ich", "nehme", "entweder", "den", "Bus", "oder", "das", "Rad"]],
+        "translation": "I'll take either the bus or the bike.",
         "explanation": "entweder … oder connects two equal phrases after the verb."
       }
     },
@@ -424,9 +424,9 @@
       "qtype": "order",
       "difficulty": 2,
       "payload": {
-        "tokens": ["Je", "mehr", "ich", "lerne,", "desto", "besser", "werde", "ich"],
-        "solutions": [["Je", "mehr", "ich", "lerne,", "desto", "besser", "werde", "ich"]],
-        "translation": "The more I study, the better I get.",
+        "tokens": ["Je", "älter", "man", "wird,", "desto", "ruhiger", "wird", "man"],
+        "solutions": [["Je", "älter", "man", "wird,", "desto", "ruhiger", "wird", "man"]],
+        "translation": "The older you get, the calmer you get.",
         "explanation": "je-clause with the verb last, then desto + Komparativ + Verb + Subjekt."
       }
     },
@@ -434,9 +434,9 @@
       "qtype": "order",
       "difficulty": 2,
       "payload": {
-        "tokens": ["Er", "ist", "zwar", "krank,", "aber", "er", "arbeitet"],
-        "solutions": [["Er", "ist", "zwar", "krank,", "aber", "er", "arbeitet"]],
-        "translation": "He is ill, admittedly, but he works.",
+        "tokens": ["Das", "Zimmer", "ist", "zwar", "klein,", "aber", "günstig"],
+        "solutions": [["Das", "Zimmer", "ist", "zwar", "klein,", "aber", "günstig"]],
+        "translation": "The room is small, admittedly, but cheap.",
         "explanation": "zwar can also sit inside the clause — then the word order is completely normal."
       }
     },

@@ -212,18 +212,18 @@
       "qtype": "fill",
       "difficulty": 1,
       "payload": {
-        "prompt": "Wegen ___ Regens bleiben wir zu Hause. (der Regen)",
+        "prompt": "Wegen ___ Nebels fielen viele Flüge aus. (der Nebel)",
         "accept": ["des"],
-        "explanation": "Masculine Genitiv: wegen des Regens."
+        "explanation": "Masculine Genitiv: wegen des Nebels."
       }
     },
     {
       "qtype": "fill",
       "difficulty": 1,
       "payload": {
-        "prompt": "Trotz ___ Kälte spielen die Kinder draußen. (die Kälte)",
+        "prompt": "Trotz ___ Hitze arbeiten sie weiter. (die Hitze)",
         "accept": ["der"],
-        "explanation": "Feminine Genitiv: trotz der Kälte."
+        "explanation": "Feminine Genitiv: trotz der Hitze."
       }
     },
     {
@@ -321,9 +321,9 @@
       "qtype": "order",
       "difficulty": 1,
       "payload": {
-        "tokens": ["Wegen", "des", "Regens", "bleiben", "wir", "zu", "Hause"],
-        "solutions": [["Wegen", "des", "Regens", "bleiben", "wir", "zu", "Hause"]],
-        "translation": "Because of the rain we're staying home.",
+        "tokens": ["Wegen", "des", "Streiks", "fährt", "heute", "kein", "Zug"],
+        "solutions": [["Wegen", "des", "Streiks", "fährt", "heute", "kein", "Zug"]],
+        "translation": "Because of the strike no train is running today.",
         "explanation": "The genitive phrase fills position 1, so the verb comes second."
       }
     },
@@ -341,10 +341,10 @@
       "qtype": "order",
       "difficulty": 2,
       "payload": {
-        "tokens": ["Während", "der", "Woche", "arbeite", "ich", "viel"],
-        "solutions": [["Während", "der", "Woche", "arbeite", "ich", "viel"]],
-        "translation": "During the week I work a lot.",
-        "explanation": "während der Woche — feminine Genitiv der."
+        "tokens": ["Während", "des", "Sommers", "ist", "es", "hier", "voll"],
+        "solutions": [["Während", "des", "Sommers", "ist", "es", "hier", "voll"]],
+        "translation": "During the summer it is crowded here.",
+        "explanation": "während des Sommers — masculine Genitiv with -s on the noun."
       }
     },
     {
@@ -411,10 +411,10 @@
       "qtype": "order",
       "difficulty": 3,
       "payload": {
-        "tokens": ["Während", "der", "Ferien", "war", "ich", "in", "Italien"],
-        "solutions": [["Während", "der", "Ferien", "war", "ich", "in", "Italien"]],
-        "translation": "During the holidays I was in Italy.",
-        "explanation": "die Ferien is plural, so the Genitiv article is der."
+        "tokens": ["Anlässlich", "des", "Festes", "kamen", "viele", "Gäste"],
+        "solutions": [["Anlässlich", "des", "Festes", "kamen", "viele", "Gäste"]],
+        "translation": "Many guests came for the festival.",
+        "explanation": "anlässlich des Festes — neuter Genitiv with -es."
       }
     },
     {

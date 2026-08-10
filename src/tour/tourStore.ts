@@ -28,8 +28,9 @@ interface TourState {
   /** Welcome → step 0. Caller ensures we're on the home tab first. */
   begin: () => void;
   next: () => void;
-  /** Advance regardless of the step's rule — unmeasured-target fallback. */
-  forceNext: () => void;
+  /** Jump straight to `index` regardless of the current step's rule —
+   * skipping an action step or the unmeasured-target fallback. */
+  jumpTo: (index: number) => void;
   skip: () => void;
   closeFinish: () => void;
   emit: (name: TourActionName) => void;
@@ -78,14 +79,12 @@ export const useTourStore = create<TourState>((set, get) => {
 
     next: () => dispatch({ type: 'next' }),
 
-    forceNext: () => {
-      const { status, stepIndex } = get();
-      if (status !== 'running') return;
-      const next = stepIndex + 1;
-      if (next >= TOUR_STEPS.length) {
-        set({ status: 'finish', stepIndex: next });
+    jumpTo: (index) => {
+      if (get().status !== 'running') return;
+      if (index >= TOUR_STEPS.length) {
+        set({ status: 'finish', stepIndex: index });
       } else {
-        set({ stepIndex: next });
+        set({ stepIndex: index });
         queueMicrotask(() => get().remeasureCurrent());
       }
     },

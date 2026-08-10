@@ -78,6 +78,37 @@ export function resumeIndexFor(steps: TourStepDef[], index: number): number {
   return target >= 0 ? target : index;
 }
 
+/** Destinations that need a dynamic segment (a word id) — skipping can't
+ * navigate there on the user's behalf. */
+const DYNAMIC_ROUTES = new Set(['/word']);
+
+export type SkipAdvance =
+  | { kind: 'navigate'; pathname: string }
+  | { kind: 'jump'; index: number };
+
+/**
+ * What "Next" does on an action step when the user skips the interaction
+ * instead of performing it. Route steps complete themselves by navigating
+ * (the route event then advances the tour exactly as a real tap would);
+ * everything else jumps to the next step reachable from the current screen —
+ * which skips e.g. the whole word-detail block when no entry is open.
+ * A jump index of `steps.length` means "finish the tour".
+ */
+export function skipAdvanceFor(
+  steps: TourStepDef[],
+  index: number,
+  pathname: string
+): SkipAdvance {
+  const a = steps[index]?.advance;
+  if (a?.kind === 'route' && !DYNAMIC_ROUTES.has(a.pathname)) {
+    return { kind: 'navigate', pathname: a.pathname };
+  }
+  for (let i = index + 1; i < steps.length; i++) {
+    if (matchesRoute(steps[i].route, pathname)) return { kind: 'jump', index: i };
+  }
+  return { kind: 'jump', index: steps.length };
+}
+
 /**
  * The word-detail steps resume at the dictionary search: the specific
  * entry the user had open is gone once they navigate away.

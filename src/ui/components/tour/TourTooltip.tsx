@@ -11,7 +11,8 @@ interface TourTooltipProps {
   /** 0-based step index and total, for the progress bar. */
   index: number;
   total: number;
-  /** Info steps get a "Next" pill; action steps a "Try it" hint chip. */
+  /** Info steps get a "Next" pill; action steps a "Try it" hint chip plus
+   * a quieter "Next" that skips the interaction. */
   showNext: boolean;
   onNext: () => void;
   onSkip: () => void;
@@ -106,10 +107,17 @@ export function TourTooltip({
             </AppText>
           </Pressable>
         ) : (
-          <View style={[styles.tryChip, { backgroundColor: t.primaryDim }]}>
-            <AppText variant="secondary" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-              Try it 👆
-            </AppText>
+          <View style={styles.actionRow}>
+            <Pressable onPress={onNext} hitSlop={10}>
+              <AppText variant="secondary" muted>
+                Next →
+              </AppText>
+            </Pressable>
+            <View style={[styles.tryChip, { backgroundColor: t.primaryDim }]}>
+              <AppText variant="secondary" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+                Try it 👆
+              </AppText>
+            </View>
           </View>
         )}
       </View>
@@ -156,6 +164,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.lg,
     paddingVertical: 9,
   },
+  actionRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.lg },
   tryChip: {
     borderRadius: 999,
     paddingHorizontal: spacing.md,

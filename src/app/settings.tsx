@@ -348,6 +348,7 @@ function BackupCard() {
   const [busy, setBusy] = useState(false);
   // Stable per mount: whether the installed binary has the backup native modules.
   const [available] = useState(backupAvailable);
+  if (!available) return null;
 
   const onExport = async () => {
     setBusy(true);
@@ -405,23 +406,15 @@ function BackupCard() {
         Drive, Google Drive oder Downloads. Die Datei bleibt beim Löschen der App erhalten und
         kann nach einer Neuinstallation wiederhergestellt werden.
       </AppText>
-      {!available && (
-        <View style={[styles.permissionWarning, { backgroundColor: t.dangerDim }]}>
-          <AppText variant="caption" color={t.onDangerDim}>
-            ⚠️ Diese App-Version unterstützt Backups noch nicht. Bitte installiere das neueste
-            Update aus dem App Store bzw. Play Store.
-          </AppText>
-        </View>
-      )}
       <Pressable
-        disabled={busy || !available}
+        disabled={busy}
         onPress={onExport}
         style={({ pressed }) => [
           styles.guideBtn,
           {
             backgroundColor: pressed ? t.primaryDim : t.surface,
             borderColor: t.primary,
-            opacity: busy || !available ? 0.5 : 1,
+            opacity: busy ? 0.5 : 1,
           },
         ]}>
         <Ionicons name="share-outline" size={18} color={t.primary} />
@@ -430,14 +423,14 @@ function BackupCard() {
         </AppText>
       </Pressable>
       <Pressable
-        disabled={busy || !available}
+        disabled={busy}
         onPress={onImport}
         style={({ pressed }) => [
           styles.guideBtn,
           {
             backgroundColor: pressed ? t.primaryDim : t.surface,
             borderColor: t.line,
-            opacity: busy || !available ? 0.5 : 1,
+            opacity: busy ? 0.5 : 1,
           },
         ]}>
         <Ionicons name="download-outline" size={18} color={t.inkMuted} />

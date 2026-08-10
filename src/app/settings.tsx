@@ -1,7 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Device from 'expo-device';
 import { router } from 'expo-router';
-import { Pressable, StyleSheet, Switch, TextInput, View } from 'react-native';
+import { Linking, Pressable, StyleSheet, Switch, TextInput, View } from 'react-native';
 
 import { CEFR_LEVELS } from '@/logic/levels';
 import { useSettings, type ThemePreference } from '@/store/settings';
@@ -17,6 +17,8 @@ const THEME_OPTIONS: { value: ThemePreference; label: string }[] = [
   { value: 'light', label: 'Hell' },
   { value: 'dark', label: 'Dunkel' },
 ];
+
+const DONATE_URL = 'https://ko-fi.com/bbolek';
 
 const NEW_LIMITS = [5, 10, 20];
 const SESSION_CAPS = [20, 30, 50];
@@ -364,6 +366,26 @@ export default function SettingsScreen() {
         <AppText variant="caption" muted style={{ marginTop: spacing.md, lineHeight: 17 }}>
           Wortbilder: Noto Emoji © Google — Apache License 2.0 / SIL Open Font License.
         </AppText>
+      </Card>
+
+      <Card style={styles.section}>
+        <AppText variant="subtitle">Deutschly unterstützen</AppText>
+        <AppText variant="secondary" muted style={{ marginTop: 6, lineHeight: 21 }}>
+          Deutschly ist kostenlos und bleibt es auch — ohne Werbung und ohne Abo. Wenn dir
+          die App beim Deutschlernen hilft, kannst du die Weiterentwicklung freiwillig mit
+          einer kleinen Spende unterstützen.
+        </AppText>
+        <Pressable
+          onPress={() => Linking.openURL(DONATE_URL)}
+          style={({ pressed }) => [
+            styles.guideBtn,
+            { backgroundColor: pressed ? t.primaryDim : t.surface, borderColor: t.primary },
+          ]}>
+          <Ionicons name="heart" size={18} color={t.primary} />
+          <AppText variant="secondary" color={t.primary}>
+            Spenden ☕
+          </AppText>
+        </Pressable>
       </Card>
     </Screen>
   );

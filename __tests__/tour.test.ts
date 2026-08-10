@@ -4,8 +4,10 @@ import {
   matchesRoute,
   nextIndexForEvent,
   resumeIndexFor,
+  skipAdvanceFor,
   TOUR_STEPS,
   type TourEvent,
+  type TourStepDef,
 } from '@/logic/tour';
 
 const indexOf = (id: string) => TOUR_STEPS.findIndex((s) => s.id === id);
@@ -154,6 +156,51 @@ describe('resumeIndexFor', () => {
 
   it('steps without resumeTo resume in place', () => {
     expect(resumeIndexFor(TOUR_STEPS, indexOf('home-daily'))).toBe(indexOf('home-daily'));
+  });
+});
+
+describe('skipAdvanceFor', () => {
+  it('route steps navigate to their destination on the user’s behalf', () => {
+    expect(skipAdvanceFor(TOUR_STEPS, indexOf('tab-path'), '/')).toEqual({
+      kind: 'navigate',
+      pathname: '/path',
+    });
+    expect(skipAdvanceFor(TOUR_STEPS, indexOf('word-back'), '/word/12')).toEqual({
+      kind: 'navigate',
+      pathname: '/dictionary',
+    });
+  });
+
+  it('action steps jump to the next step on the current screen', () => {
+    expect(skipAdvanceFor(TOUR_STEPS, indexOf('dict-search'), '/dictionary')).toEqual({
+      kind: 'jump',
+      index: indexOf('dict-first-result'),
+    });
+    expect(skipAdvanceFor(TOUR_STEPS, indexOf('word-tts'), '/word/12')).toEqual({
+      kind: 'jump',
+      index: indexOf('word-save'),
+    });
+  });
+
+  it('opening a specific word can’t be done for the user — skips the word-detail block', () => {
+    expect(skipAdvanceFor(TOUR_STEPS, indexOf('dict-first-result'), '/dictionary')).toEqual({
+      kind: 'jump',
+      index: indexOf('dict-saved'),
+    });
+  });
+
+  it('finishes the tour when nothing ahead is reachable', () => {
+    const steps: TourStepDef[] = [
+      {
+        id: 'only',
+        targetId: 'only',
+        route: '/games',
+        title: 't',
+        body: 'b',
+        advance: { kind: 'action', name: 'tts-played' },
+      },
+    ];
+    expect(skipAdvanceFor(steps, 0, '/games')).toEqual({ kind: 'jump', index: 1 });
   });
 });
 

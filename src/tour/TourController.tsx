@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Keyboard, Pressable, StyleSheet, useWindowDimensions, View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
-import { resumeIndexFor, TOUR_STEPS } from '@/logic/tour';
+import { isActionStep, resumeIndexFor, skipAdvanceFor, TOUR_STEPS } from '@/logic/tour';
 import { useSettings } from '@/store/settings';
 import { useTourStore } from '@/tour/tourStore';
 import { AppText } from '@/ui/components/AppText';
@@ -84,6 +84,15 @@ export function TourController() {
 
   const store = useTourStore.getState();
 
+  // "Next" on an action step skips the interaction instead of dispatching a
+  // next-event (which action steps ignore): route steps navigate on the
+  // user's behalf, the rest jump to the next step on the current screen.
+  const skipStep = () => {
+    const adv = skipAdvanceFor(TOUR_STEPS, stepIndex, pathname);
+    if (adv.kind === 'navigate') router.navigate(adv.pathname as never);
+    else store.jumpTo(adv.index);
+  };
+
   return (
     <>
       <TourWelcome
@@ -102,7 +111,7 @@ export function TourController() {
             rect={rect}
             index={stepIndex}
             total={TOUR_STEPS.length}
-            onNext={rect ? store.next : store.forceNext}
+            onNext={isActionStep(step) ? skipStep : store.next}
             onSkip={store.skip}
             forceNext={!rect}
           />

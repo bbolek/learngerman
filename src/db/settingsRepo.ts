@@ -1,4 +1,5 @@
 import { getDb } from '@/db/client';
+import type { CefrLevel } from '@/logic/levels';
 
 export interface PersistedSettings {
   themePreference?: 'system' | 'light' | 'dark';
@@ -15,6 +16,8 @@ export interface PersistedSettings {
   hasSeenTour?: boolean;
   /** Multiplayer display name; '' falls back to the device name. */
   userName?: string;
+  /** Sprachniveau — content above this CEFR level is hidden/filtered. */
+  userLevel?: CefrLevel;
 }
 
 const KEY = 'settings';

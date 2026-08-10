@@ -33,11 +33,13 @@ import {
   type HeroAction,
   type ResumeItem,
 } from '@/logic/homeFeed';
+import { levelsUpTo, withinLevel } from '@/logic/levels';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
 import { findPathResume, resolveBoundaryOrder } from '@/logic/pathResume';
 import { isStreakMilestone, levelProgress, levelTitle, type LevelProgress } from '@/logic/xp';
 import { settleRewards } from '@/services/rewards';
 import { celebrate } from '@/store/celebration';
+import { useSettings } from '@/store/settings';
 import { TourTarget } from '@/tour/TourTarget';
 import { useTourTarget } from '@/tour/useTourTarget';
 import { AppText } from '@/ui/components/AppText';
@@ -87,6 +89,8 @@ export default function HomeScreen() {
   const load = useCallback(async () => {
     const now = new Date();
     const today = now.toISOString().slice(0, 10);
+    // Everything recommended below stays at the user's Sprachniveau.
+    const maxLevel = useSettings.getState().userLevel;
     // Pay out anything earned since the last visit (quests finished off-screen,
     // badges crossed) before reading the state we render.
     await settleRewards(now);
@@ -109,7 +113,7 @@ export default function HomeScreen() {
       recentActivity(1, now),
       savedCount(),
       listTopics(),
-      getWordOfTheDay(today),
+      getWordOfTheDay(today, levelsUpTo(maxLevel)),
       grammarDueSlugs(now),
       dailyQuests(now),
       xpTotals(),
@@ -120,11 +124,13 @@ export default function HomeScreen() {
     ]);
     const doneToday = week.find((a) => a.day === today)?.reviews_done ?? 0;
     const wotdImage = wotd ? await getLemmaImage(wotd.id) : null;
-    const topicsWithDue = topics.map((tp) => ({ ...tp, due: dueSlugs.has(tp.slug) }));
+    const levelTopics = topics.filter((tp) => withinLevel(tp.level, maxLevel));
+    const topicsWithDue = levelTopics.map((tp) => ({ ...tp, due: dueSlugs.has(tp.slug) }));
+    const levelTexts = readingTexts.filter((r) => withinLevel(r.level, maxLevel));
 
     const pathNext = findPathResume(pathUnits, resolveBoundaryOrder(pathUnits, placement));
     const hero = pickHeroAction(counts.due, counts.fresh, pathNext);
-    const nextReading = nextUnreadText(readingTexts);
+    const nextReading = nextUnreadText(levelTexts);
     const resume = buildResumeShelf({
       hero,
       due: counts.due,
@@ -155,16 +161,19 @@ export default function HomeScreen() {
       fresh: counts.fresh,
       doneToday,
       saved,
-      topicsCount: topics.length,
+      topicsCount: levelTopics.length,
       next: pickNextTopic(topicsWithDue, today),
       wotd,
       wotdImage,
       hero,
       resume,
       gameStats,
-      readingRead: readingTexts.filter((r) => r.completed_at != null).length,
-      readingTotal: readingTexts.length,
-      themeTip: pickDailyTheme(THEMES, today),
+      readingRead: levelTexts.filter((r) => r.completed_at != null).length,
+      readingTotal: levelTexts.length,
+      themeTip: pickDailyTheme(
+        THEMES.filter((th) => th.words.some((w) => withinLevel(w.level, maxLevel))),
+        today
+      ),
     });
   }, []);
 

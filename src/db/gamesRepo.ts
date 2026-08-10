@@ -6,6 +6,8 @@ import {
   type SentenceWord,
   type VerbWord,
 } from '@/logic/games';
+import { CEFR_LEVELS, levelsUpTo } from '@/logic/levels';
+import { useSettings } from '@/store/settings';
 
 // ---------- word pools ----------
 
@@ -13,15 +15,29 @@ const WORD_SELECT = `
   SELECT l.id, l.lemma, l.gender, l.plural, s.en AS gloss
   FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1`;
 
+/**
+ * SQL condition keeping game pools at the user's Sprachniveau. Inlined as a
+ * literal (values come from the CEFR_LEVELS const, not user input); `1=1`
+ * when every level is allowed so it composes with WHERE/AND either way.
+ */
+function levelCond(): string {
+  const levels = levelsUpTo(useSettings.getState().userLevel);
+  if (levels.length >= CEFR_LEVELS.length) return '1=1';
+  return `l.level IN (${levels.map((l) => `'${l}'`).join(', ')})`;
+}
+
 /** Random words with a first-sense gloss (any part of speech). */
 export async function fetchGameWords(limit: number): Promise<GameWord[]> {
-  return getDb().getAllAsync<GameWord>(`${WORD_SELECT} ORDER BY RANDOM() LIMIT ?`, [limit]);
+  return getDb().getAllAsync<GameWord>(
+    `${WORD_SELECT} WHERE ${levelCond()} ORDER BY RANDOM() LIMIT ?`,
+    [limit]
+  );
 }
 
 /** Random nouns with a der/die/das article (pl-only nouns excluded). */
 export async function fetchGenderNouns(limit: number): Promise<GameWord[]> {
   return getDb().getAllAsync<GameWord>(
-    `${WORD_SELECT} WHERE l.pos = 'noun' AND l.gender IN ('m', 'f', 'n')
+    `${WORD_SELECT} WHERE l.pos = 'noun' AND l.gender IN ('m', 'f', 'n') AND ${levelCond()}
      ORDER BY RANDOM() LIMIT ?`,
     [limit]
   );
@@ -39,6 +55,7 @@ export async function fetchImageWords(limit: number): Promise<ImageWord[]> {
        FROM lemma_images i
        JOIN lemmas l ON l.id = i.lemma_id
        JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
+       WHERE ${levelCond()}
        ORDER BY RANDOM() LIMIT ?`,
       [limit]
     );
@@ -57,7 +74,7 @@ export async function fetchVerbWords(limit: number): Promise<VerbWord[]> {
   const verbs = await db.getAllAsync<Omit<VerbWord, 'forms'>>(
     `SELECT l.id, l.lemma, l.gender, l.plural, l.verb_aux AS aux, s.en AS gloss
      FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
-     WHERE l.pos = 'verb' ORDER BY RANDOM() LIMIT ?`,
+     WHERE l.pos = 'verb' AND ${levelCond()} ORDER BY RANDOM() LIMIT ?`,
     [limit]
   );
   if (verbs.length === 0) return [];
@@ -85,7 +102,8 @@ export async function fetchSentenceWords(limit: number): Promise<SentenceWord[]>
   return getDb().getAllAsync<SentenceWord>(
     `SELECT l.id, s.example_de AS de, s.example_en AS en
      FROM senses s JOIN lemmas l ON l.id = s.lemma_id
-     WHERE s.sense_order = 1 AND s.example_de IS NOT NULL AND s.example_en IS NOT NULL
+     WHERE s.sense_order = 1 AND ${levelCond()}
+       AND s.example_de IS NOT NULL AND s.example_en IS NOT NULL
        AND s.example_de NOT LIKE '%,%' AND s.example_de NOT LIKE '%:%'
        AND s.example_de NOT LIKE '%"%' AND s.example_de NOT LIKE '%„%'
        AND s.example_de NOT LIKE '%–%' AND s.example_de NOT LIKE '%(%'

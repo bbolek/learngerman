@@ -80,18 +80,22 @@ export interface NotificationWord {
 }
 
 /**
- * Picks a random word for notification content. Limited to A1–B1 so push
- * reminders stay approachable; B2/C1/C2 entries are dictionary-only.
- * Saved words get no special treatment.
+ * Picks a random word for notification content, limited to the given CEFR
+ * levels (the user's Sprachniveau range; A1–B1 when absent) so reminders
+ * stay approachable. Saved words get no special treatment.
  */
-export async function pickNotificationWord(): Promise<NotificationWord | null> {
+export async function pickNotificationWord(
+  levels: string[] = ['A1', 'A2', 'B1']
+): Promise<NotificationWord | null> {
+  const placeholders = levels.map(() => '?').join(', ');
   return (
     (await getDb().getFirstAsync<NotificationWord>(
       `SELECT l.id AS lemma_id, l.lemma, l.gender,
               s.en AS gloss, s.example_de, s.example_en
        FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
-       WHERE l.level IN ('A1', 'A2', 'B1')
-       ORDER BY RANDOM() LIMIT 1`
+       WHERE l.level IN (${placeholders})
+       ORDER BY RANDOM() LIMIT 1`,
+      levels
     )) ?? null
   );
 }

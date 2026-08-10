@@ -134,24 +134,44 @@ export function TourOverlay({ step, rect, index, total, onNext, onSkip, forceNex
     transform: [{ scale: 1 + pulse.value * 0.035 }],
   }));
 
-  // Tooltip above or below the spotlight, whichever half has more room.
-  const below = hole ? hole.y + hole.h / 2 < sh * 0.55 : false;
-  const tooltipStyle = hole
-    ? below
+  // Tooltip above or below the spotlight — on whichever side the hole
+  // leaves room. A near-fullscreen spotlight (path map, games grid) leaves
+  // room on neither, so the card floats over the hole instead of sliding
+  // off-screen and taking its buttons with it.
+  const TOOLTIP_SPACE = 260;
+  const spaceAbove = hole ? hole.y : 0;
+  const spaceBelow = hole ? sh - hole.y - hole.h : 0;
+  const preferBelow = hole != null && hole.y + hole.h / 2 < sh * 0.55;
+  const placement: 'below' | 'above' | 'float' = !hole
+    ? 'float'
+    : (preferBelow ? spaceBelow : spaceAbove) >= TOOLTIP_SPACE
+      ? preferBelow
+        ? 'below'
+        : 'above'
+      : (preferBelow ? spaceAbove : spaceBelow) >= TOOLTIP_SPACE
+        ? preferBelow
+          ? 'above'
+          : 'below'
+        : 'float';
+  const tooltipStyle =
+    hole && placement === 'below'
       ? {
           top: Math.max(hole.y + hole.h + TOOLTIP_GAP, insets.top + spacing.md),
           left: spacing.lg,
           right: spacing.lg,
         }
-      : {
-          bottom: Math.max(sh - hole.y + TOOLTIP_GAP, insets.bottom + spacing.md),
-          left: spacing.lg,
-          right: spacing.lg,
-        }
-    : { top: sh * 0.32, left: spacing.lg, right: spacing.lg };
-  const caretX = hole
-    ? Math.min(Math.max(hole.x + hole.w / 2 - spacing.lg, 28), sw - spacing.lg * 2 - 28)
-    : undefined;
+      : hole && placement === 'above'
+        ? {
+            bottom: Math.max(sh - hole.y + TOOLTIP_GAP, insets.bottom + spacing.md),
+            left: spacing.lg,
+            right: spacing.lg,
+          }
+        : { top: sh * 0.32, left: spacing.lg, right: spacing.lg };
+  const caret = placement === 'float' ? undefined : placement;
+  const caretX =
+    hole && caret
+      ? Math.min(Math.max(hole.x + hole.w / 2 - spacing.lg, 28), sw - spacing.lg * 2 - 28)
+      : undefined;
 
   const blockers = hole
     ? [
@@ -219,7 +239,7 @@ export function TourOverlay({ step, rect, index, total, onNext, onSkip, forceNex
         showNext={!isActionStep(step) || !!forceNext}
         onNext={onNext}
         onSkip={onSkip}
-        caret={hole ? (below ? 'below' : 'above') : undefined}
+        caret={caret}
         caretX={caretX}
         style={tooltipStyle}
       />

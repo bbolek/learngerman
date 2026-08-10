@@ -34,7 +34,7 @@ export interface NextTopic<T extends TopicStats> {
 const WEAK_THRESHOLD = 0.75;
 
 /** Deterministic hash of the day key so the rotation is stable within a day. */
-function dayHash(dayKey: string): number {
+export function dayHash(dayKey: string): number {
   let h = 0;
   for (let i = 0; i < dayKey.length; i++) h = (h * 31 + dayKey.charCodeAt(i)) >>> 0;
   return h;

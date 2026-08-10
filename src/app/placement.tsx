@@ -23,8 +23,10 @@ import {
   type PlacementLevel,
   type StageResult,
 } from '@/logic/placement';
+import { levelRank } from '@/logic/levels';
 import { seededRng } from '@/logic/pathSession';
 import { celebrate } from '@/store/celebration';
+import { useSettings } from '@/store/settings';
 import { playSound } from '@/services/sound';
 import { AppText } from '@/ui/components/AppText';
 import { McQuestion } from '@/ui/components/questions/GrammarQuestions';
@@ -111,6 +113,12 @@ export default function PlacementScreen() {
         placedLevel: outcome.placedLevel,
         takenAt: new Date().toISOString(),
       }).catch(() => {});
+    }
+    // The test can only raise the Sprachniveau — lowering it stays a manual
+    // choice in the settings, mirroring the never-regress path boundary.
+    const settings = useSettings.getState();
+    if (outcome.placedLevel && levelRank(outcome.placedLevel) > levelRank(settings.userLevel)) {
+      settings.setUserLevel(outcome.placedLevel);
     }
     if (outcome.placedLevel) {
       celebrate({

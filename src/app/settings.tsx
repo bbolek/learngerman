@@ -3,6 +3,7 @@ import * as Device from 'expo-device';
 import { router } from 'expo-router';
 import { Pressable, StyleSheet, Switch, TextInput, View } from 'react-native';
 
+import { CEFR_LEVELS } from '@/logic/levels';
 import { useSettings, type ThemePreference } from '@/store/settings';
 import { useTourStore } from '@/tour/tourStore';
 import { AppText } from '@/ui/components/AppText';
@@ -145,6 +146,35 @@ export default function SettingsScreen() {
             trackColor={{ true: t.primary, false: t.line }}
             thumbColor="#fff"
           />
+        </View>
+      </Card>
+
+      <Card style={styles.section}>
+        <AppText variant="subtitle">Mein Sprachniveau</AppText>
+        <AppText variant="caption" muted style={{ marginTop: 2 }}>
+          Empfehlungen, Spiele und Texte zeigen Inhalte bis zu diesem Niveau. Der
+          Einstufungstest im Lernpfad passt es automatisch an.
+        </AppText>
+        <View style={styles.segmentRow}>
+          {CEFR_LEVELS.map((level) => {
+            const selected = settings.userLevel === level;
+            return (
+              <Pressable
+                key={level}
+                onPress={() => settings.setUserLevel(level)}
+                style={[
+                  styles.segment,
+                  {
+                    backgroundColor: selected ? t.primaryDim : t.surface,
+                    borderColor: selected ? t.primary : t.line,
+                  },
+                ]}>
+                <AppText variant="caption" color={selected ? t.onPrimaryDim : t.inkMuted}>
+                  {level}
+                </AppText>
+              </Pressable>
+            );
+          })}
         </View>
       </Card>
 

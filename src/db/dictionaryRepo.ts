@@ -165,7 +165,11 @@ export async function resolveExampleWords(tokens: string[]): Promise<Map<string,
   return map;
 }
 
-export async function getWordOfTheDay(daySeed: string): Promise<{
+export async function getWordOfTheDay(
+  daySeed: string,
+  /** Restrict the pool to these CEFR levels (e.g. up to the user's Sprachniveau). */
+  levels?: string[]
+): Promise<{
   id: number;
   lemma: string;
   gender: string | null;
@@ -173,8 +177,12 @@ export async function getWordOfTheDay(daySeed: string): Promise<{
   example_de: string | null;
   example_en: string | null;
 } | null> {
-  // Deterministic per day: hash the ISO date onto the lemma count.
-  const row = await getDb().getFirstAsync<{ c: number }>('SELECT COUNT(*) AS c FROM lemmas');
+  // COUNT and SELECT must share join + filter, or the offset drifts out of range.
+  const base = `FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1`;
+  const cond = levels && levels.length > 0 ? ` WHERE l.level IN (${levels.map(() => '?').join(', ')})` : '';
+  const args = levels && levels.length > 0 ? levels : [];
+  // Deterministic per day: hash the ISO date onto the pool size.
+  const row = await getDb().getFirstAsync<{ c: number }>(`SELECT COUNT(*) AS c ${base}${cond}`, args);
   if (!row || row.c === 0) return null;
   let hash = 0;
   for (const ch of daySeed) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
@@ -182,9 +190,9 @@ export async function getWordOfTheDay(daySeed: string): Promise<{
   return (
     (await getDb().getFirstAsync(
       `SELECT l.id, l.lemma, l.gender, s.en AS gloss, s.example_de, s.example_en
-       FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
+       ${base}${cond}
        ORDER BY l.id LIMIT 1 OFFSET ?`,
-      [offset]
+      [...args, offset]
     )) ?? null
   );
 }

@@ -6,6 +6,8 @@ import { StyleSheet, View } from 'react-native';
 import { listTopics, type TopicRow } from '@/db/grammarRepo';
 import { grammarDueSlugs } from '@/db/grammarSrsRepo';
 import { dueCounts } from '@/db/srsRepo';
+import { withinLevel } from '@/logic/levels';
+import { useSettings } from '@/store/settings';
 import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -42,6 +44,7 @@ export default function PracticeScreen() {
   const [due, setDue] = useState({ due: 0, fresh: 0 });
   const [dueSlugs, setDueSlugs] = useState<Set<string>>(new Set());
   const [query, setQuery] = useState('');
+  const userLevel = useSettings((s) => s.userLevel);
 
   useFocusEffect(
     useCallback(() => {
@@ -116,6 +119,9 @@ export default function PracticeScreen() {
       <SearchBar value={query} onChangeText={setQuery} placeholder="Thema suchen…" />
 
       {LEVEL_SECTIONS.map(({ level, label }) => {
+        // Browsing stays at the user's Sprachniveau; an explicit search
+        // still finds topics of every level.
+        if (query.trim().length === 0 && !withinLevel(level, userLevel)) return null;
         const sectionTopics = filtered.filter((topic) => topic.level === level);
         if (sectionTopics.length === 0) return null;
         return (

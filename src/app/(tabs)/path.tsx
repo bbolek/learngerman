@@ -6,6 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getPlacement, listPath, setPlacement, type PathUnit } from '@/db/pathRepo';
 import { computeNodeStates, currentPosition } from '@/logic/path';
+import { resolveBoundaryOrder } from '@/logic/pathResume';
 import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
 import {
@@ -31,13 +32,7 @@ export default function PathScreen() {
       (async () => {
         const [path, placement] = await Promise.all([listPath(), getPlacement()]);
         if (!alive) return;
-        // Boundary by unit slug when possible (stable across curriculum
-        // growth); the stored order covers the all-or-nothing extremes.
-        let boundary: number | null = null;
-        if (placement && 'boundaryUnitSlug' in placement) {
-          const unit = path.find((u) => u.slug === placement.boundaryUnitSlug);
-          boundary = unit?.nodes[0]?.order ?? placement.boundaryOrder ?? null;
-        }
+        const boundary = resolveBoundaryOrder(path, placement);
         const hasProgress = path.some((u) => u.nodes.some((n) => n.stars > 0));
         setShowPlacementBanner(placement == null && !hasProgress);
         setBoundaryOrder(boundary);

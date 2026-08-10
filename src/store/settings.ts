@@ -1,10 +1,12 @@
 import { create } from 'zustand';
 
 import { loadSettings, persistSettings } from '@/db/settingsRepo';
+import { levelsUpTo, type CefrLevel } from '@/logic/levels';
 import {
   rescheduleNotifications,
   type NotificationScheduleStatus,
 } from '@/services/notificationScheduler';
+import { seedThemeFilter } from '@/store/themeFilter';
 
 export type ThemePreference = 'system' | 'light' | 'dark';
 
@@ -32,6 +34,11 @@ interface SettingsState {
   hasSeenTour: boolean;
   /** Multiplayer display name; '' falls back to the device name. */
   userName: string;
+  /**
+   * Sprachniveau (CEFR) — recommendations, games and lists show content up
+   * to this level. Set manually here or raised by the Einstufungstest.
+   */
+  userLevel: CefrLevel;
   hydrated: boolean;
   hydrate: () => Promise<void>;
   /** Re-fill the pending-notification buffer (called on app foreground). */
@@ -49,6 +56,7 @@ interface SettingsState {
   setNotificationIntervalMinutes: (m: number) => void;
   setHasSeenTour: (seen: boolean) => void;
   setUserName: (name: string) => void;
+  setUserLevel: (level: CefrLevel) => void;
 }
 
 function persist(get: () => SettingsState) {
@@ -66,6 +74,7 @@ function persist(get: () => SettingsState) {
     notificationIntervalMinutes,
     hasSeenTour,
     userName,
+    userLevel,
   } = get();
   persistSettings({
     themePreference,
@@ -81,6 +90,7 @@ function persist(get: () => SettingsState) {
     notificationIntervalMinutes,
     hasSeenTour,
     userName,
+    userLevel,
   }).catch(() => {});
 }
 
@@ -98,7 +108,8 @@ function reschedule(
       endHour: notificationEndHour,
       intervalMinutes: notificationIntervalMinutes,
     },
-    new Date()
+    new Date(),
+    levelsUpTo(get().userLevel)
   )
     .then((notificationStatus) => set({ notificationStatus }))
     .catch(() => {});
@@ -119,11 +130,13 @@ export const useSettings = create<SettingsState>((set, get) => ({
   notificationStatus: 'unknown',
   hasSeenTour: false,
   userName: '',
+  userLevel: 'A1',
   hydrated: false,
 
   hydrate: async () => {
     const stored = await loadSettings();
     set({ ...stored, hydrated: true });
+    seedThemeFilter(get().userLevel);
     if (get().notificationsEnabled) reschedule(get, set);
   },
   refreshNotifications: () => {
@@ -185,5 +198,12 @@ export const useSettings = create<SettingsState>((set, get) => ({
   setUserName: (userName) => {
     set({ userName });
     persist(get);
+  },
+  setUserLevel: (userLevel) => {
+    set({ userLevel });
+    persist(get);
+    seedThemeFilter(userLevel);
+    // Reminder words follow the level too.
+    if (get().notificationsEnabled) reschedule(get, set);
   },
 }));

@@ -4,6 +4,8 @@ import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { listReadingTexts, type ReadingTextRow } from '@/db/readingRepo';
+import { withinLevel } from '@/logic/levels';
+import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Screen } from '@/ui/components/Screen';
@@ -18,14 +20,20 @@ const LEVEL_SECTIONS: { level: string; label: string }[] = [
 
 export default function LesenScreen() {
   const t = useTheme();
-  const [texts, setTexts] = useState<ReadingTextRow[]>([]);
+  const [allTexts, setAllTexts] = useState<ReadingTextRow[]>([]);
+  const userLevel = useSettings((s) => s.userLevel);
 
   useFocusEffect(
     useCallback(() => {
-      listReadingTexts().then(setTexts);
+      listReadingTexts().then(setAllTexts);
     }, [])
   );
 
+  // Show texts at the user's Sprachniveau — but never hide a level the
+  // reader already started, so finished stories stay reachable.
+  const texts = allTexts.filter(
+    (row) => withinLevel(row.level, userLevel) || row.completed_at != null
+  );
   const readCount = texts.filter((row) => row.completed_at != null).length;
 
   return (

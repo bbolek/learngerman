@@ -42,7 +42,9 @@ export async function requestNotificationPermission(): Promise<boolean> {
  */
 export async function rescheduleNotifications(
   schedule: NotificationSchedule,
-  now: Date
+  now: Date,
+  /** CEFR levels the reminder words may come from (defaults to A1–B1). */
+  wordLevels?: string[]
 ): Promise<NotificationScheduleStatus> {
   await Notifications.cancelAllScheduledNotificationsAsync();
   if (!schedule.enabled) return 'disabled';
@@ -63,7 +65,7 @@ export async function rescheduleNotifications(
   const times = computeUpcomingFireTimes(schedule, now, { horizonDays: HORIZON_DAYS, max: MAX_PENDING });
   let scheduled = 0;
   for (const date of times) {
-    const word = await pickNotificationWord();
+    const word = await pickNotificationWord(wordLevels);
     if (!word) break; // empty dictionary — cannot happen in practice
 
     const article = word.gender === 'm' ? 'der ' : word.gender === 'f' ? 'die ' : word.gender === 'n' ? 'das ' : '';

@@ -1,10 +1,8 @@
 import { create } from 'zustand';
 
-export const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
-export type CefrLevel = (typeof CEFR_LEVELS)[number];
+import { CEFR_LEVELS, levelsUpTo, type CefrLevel } from '@/logic/levels';
 
-/** Beginner-to-intermediate shown by default; B2/C1/C2 opt-in. */
-const DEFAULT_LEVELS: CefrLevel[] = ['A1', 'A2', 'B1'];
+export { CEFR_LEVELS, type CefrLevel };
 
 export const WORD_TYPES = [
   { key: 'all', label: 'Alle' },
@@ -18,20 +16,33 @@ export const matchesWordType = (pos: string, type: WordType) => type === 'all' |
 interface ThemeFilterState {
   levels: CefrLevel[];
   wordType: WordType;
+  /** The user tapped a chip — stop following the profile level. */
+  touched: boolean;
   toggle: (level: CefrLevel) => void;
   setWordType: (type: WordType) => void;
 }
 
 export const useThemeFilter = create<ThemeFilterState>((set) => ({
-  levels: DEFAULT_LEVELS,
+  levels: levelsUpTo('A1'),
   wordType: 'all',
+  touched: false,
   setWordType: (wordType) => set({ wordType }),
   toggle: (level) =>
     set((s) => {
       const next = s.levels.includes(level)
         ? s.levels.filter((l) => l !== level)
         : [...s.levels, level];
-      // Never leave the filter empty — fall back to the defaults.
-      return { levels: next.length === 0 ? DEFAULT_LEVELS : next };
+      // Never leave the filter empty — fall back to everything up to A1.
+      return { levels: next.length === 0 ? levelsUpTo('A1') : next, touched: true };
     }),
 }));
+
+/**
+ * Follow the user's Sprachniveau until they touch the filter themselves.
+ * Called on settings hydration and whenever the level setting changes.
+ */
+export function seedThemeFilter(userLevel: CefrLevel) {
+  if (!useThemeFilter.getState().touched) {
+    useThemeFilter.setState({ levels: levelsUpTo(userLevel) });
+  }
+}

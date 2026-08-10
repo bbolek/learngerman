@@ -6,6 +6,8 @@
  * it doesn't walk through them). Pure rules; screens supply questions.
  */
 
+import { levelRank } from '@/logic/levels';
+
 export type PlacementLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
 
 export const PLACEMENT_STAGES: PlacementLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1'];
@@ -71,8 +73,12 @@ export function placementOutcome(
 
   // First unit above the placed level (not "the exact next level" — the
   // path may not have units for every CEFR step yet).
-  const RANK: Record<string, number> = { A1: 0, A2: 1, B1: 2, B2: 3, C1: 4, C2: 5 };
-  const boundaryUnit = units.find((u) => (RANK[u.level] ?? 99) > RANK[placedLevel!]);
+  // Unknown unit levels sort high so they land beyond every placed level.
+  const rank = (level: string) => {
+    const r = levelRank(level);
+    return r < 0 ? 99 : r;
+  };
+  const boundaryUnit = units.find((u) => rank(u.level) > rank(placedLevel!));
   if (!boundaryUnit) {
     // Passed everything the path has — unlock it all.
     const last = units[units.length - 1];

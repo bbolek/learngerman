@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { scannerAvailable } from '@/services/scanner';
 import { tourEmit } from '@/tour/tourStore';
 import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
@@ -42,17 +43,27 @@ export default function DictionaryScreen() {
       <View style={styles.pad}>
         <View style={styles.headerRow}>
           <AppText variant="section">Wörterbuch</AppText>
-          <TourTarget id="dict-saved">
-            <Pressable
-              onPress={() => router.push('/words')}
-              hitSlop={8}
-              style={[styles.savedLink, { backgroundColor: t.primaryDim }]}>
-              <Ionicons name="heart" size={15} color={t.onPrimaryDim} />
-              <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                Meine Wörter
-              </AppText>
-            </Pressable>
-          </TourTarget>
+          <View style={styles.headerActions}>
+            {scannerAvailable() && (
+              <Pressable
+                onPress={() => router.push('/scan')}
+                hitSlop={8}
+                style={[styles.scanBtn, { backgroundColor: t.accentDim }]}>
+                <Ionicons name="camera" size={16} color={t.onAccentDim} />
+              </Pressable>
+            )}
+            <TourTarget id="dict-saved">
+              <Pressable
+                onPress={() => router.push('/words')}
+                hitSlop={8}
+                style={[styles.savedLink, { backgroundColor: t.primaryDim }]}>
+                <Ionicons name="heart" size={15} color={t.onPrimaryDim} />
+                <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+                  Meine Wörter
+                </AppText>
+              </Pressable>
+            </TourTarget>
+          </View>
         </View>
         <View style={{ height: spacing.md }} />
         <TourTarget id="dict-search">
@@ -108,6 +119,14 @@ const styles = StyleSheet.create({
   fill: { flex: 1 },
   pad: { paddingHorizontal: spacing.lg },
   headerRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  headerActions: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
+  scanBtn: {
+    width: 30,
+    height: 30,
+    borderRadius: 999,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   savedLink: {
     flexDirection: 'row',
     alignItems: 'center',

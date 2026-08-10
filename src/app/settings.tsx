@@ -1,10 +1,8 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Device from 'expo-device';
 import { router } from 'expo-router';
-import { useState } from 'react';
-import { Alert, Pressable, StyleSheet, Switch, TextInput, View } from 'react-native';
+import { Pressable, StyleSheet, Switch, TextInput, View } from 'react-native';
 
-import { backupAvailable, exportBackupFile, importBackupFile } from '@/services/backup';
 import { useSettings, type ThemePreference } from '@/store/settings';
 import { useTourStore } from '@/tour/tourStore';
 import { AppText } from '@/ui/components/AppText';
@@ -326,8 +324,6 @@ export default function SettingsScreen() {
         </Pressable>
       </Card>
 
-      <BackupCard />
-
       <Card style={styles.section}>
         <AppText variant="subtitle">Über Deutschly</AppText>
         <AppText variant="secondary" muted style={{ marginTop: 6, lineHeight: 21 }}>
@@ -340,105 +336,6 @@ export default function SettingsScreen() {
         </AppText>
       </Card>
     </Screen>
-  );
-}
-
-function BackupCard() {
-  const t = useTheme();
-  const [busy, setBusy] = useState(false);
-  // Stable per mount: whether the installed binary has the backup native modules.
-  const [available] = useState(backupAvailable);
-  if (!available) return null;
-
-  const onExport = async () => {
-    setBusy(true);
-    try {
-      await exportBackupFile();
-    } catch (err) {
-      Alert.alert('Backup fehlgeschlagen', err instanceof Error ? err.message : String(err));
-    } finally {
-      setBusy(false);
-    }
-  };
-
-  const onImport = () => {
-    Alert.alert(
-      'Backup wiederherstellen?',
-      'Alle aktuellen Lerndaten auf diesem Gerät werden durch das Backup ersetzt. Das kann nicht rückgängig gemacht werden.',
-      [
-        { text: 'Abbrechen', style: 'cancel' },
-        {
-          text: 'Wiederherstellen',
-          style: 'destructive',
-          onPress: async () => {
-            setBusy(true);
-            try {
-              const summary = await importBackupFile();
-              if (summary) {
-                await useSettings.getState().hydrate();
-                Alert.alert(
-                  'Backup wiederhergestellt',
-                  `${summary.restored} Einträge wiederhergestellt.` +
-                    (summary.dropped > 0
-                      ? ` ${summary.dropped} Einträge übersprungen (Inhalt existiert nicht mehr).`
-                      : '')
-                );
-              }
-            } catch (err) {
-              Alert.alert(
-                'Wiederherstellung fehlgeschlagen',
-                err instanceof Error ? err.message : String(err)
-              );
-            } finally {
-              setBusy(false);
-            }
-          },
-        },
-      ]
-    );
-  };
-
-  return (
-    <Card style={styles.section}>
-      <AppText variant="subtitle">Backup</AppText>
-      <AppText variant="caption" muted style={{ marginTop: 2 }}>
-        Sichere alle Lerndaten (Wörter, XP, Streak, Fortschritt) als Datei — z. B. in iCloud
-        Drive, Google Drive oder Downloads. Die Datei bleibt beim Löschen der App erhalten und
-        kann nach einer Neuinstallation wiederhergestellt werden.
-      </AppText>
-      <Pressable
-        disabled={busy}
-        onPress={onExport}
-        style={({ pressed }) => [
-          styles.guideBtn,
-          {
-            backgroundColor: pressed ? t.primaryDim : t.surface,
-            borderColor: t.primary,
-            opacity: busy ? 0.5 : 1,
-          },
-        ]}>
-        <Ionicons name="share-outline" size={18} color={t.primary} />
-        <AppText variant="secondary" color={t.primary}>
-          Backup exportieren
-        </AppText>
-      </Pressable>
-      <Pressable
-        disabled={busy}
-        onPress={onImport}
-        style={({ pressed }) => [
-          styles.guideBtn,
-          {
-            backgroundColor: pressed ? t.primaryDim : t.surface,
-            borderColor: t.line,
-            opacity: busy ? 0.5 : 1,
-          },
-        ]}>
-        <Ionicons name="download-outline" size={18} color={t.inkMuted} />
-        <AppText variant="secondary" muted>
-          Backup wiederherstellen
-        </AppText>
-      </Pressable>
-    </Card>
   );
 }
 

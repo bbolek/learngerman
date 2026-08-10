@@ -22,7 +22,6 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "allowBackup": true,
       "package": "com.bbolek.deutschly",
       "permissions": [
         "android.permission.SCHEDULE_EXACT_ALARM",
@@ -66,8 +65,7 @@
           "color": "#E8871E"
         }
       ],
-      "expo-audio",
-      "expo-sharing"
+      "expo-audio"
     ],
     "experiments": {
       "typedRoutes": true,

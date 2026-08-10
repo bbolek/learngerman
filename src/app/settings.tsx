@@ -18,8 +18,7 @@ const THEME_OPTIONS: { value: ThemePreference; label: string }[] = [
   { value: 'dark', label: 'Dunkel' },
 ];
 
-// TODO: replace with your real donation page (e.g. Ko-fi or Buy Me a Coffee)
-const DONATE_URL = 'https://ko-fi.com/deutschly';
+const DONATE_URL = 'https://ko-fi.com/bbolek';
 
 const NEW_LIMITS = [5, 10, 20];
 const SESSION_CAPS = [20, 30, 50];

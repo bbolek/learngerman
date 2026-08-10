@@ -15,13 +15,19 @@ import { getLemmaImages } from '@/db/dictionaryRepo';
 import { logAttempt } from '@/db/grammarRepo';
 import { applyTopicResult } from '@/db/grammarSrsRepo';
 import {
+  clearLessonSession,
   completeLesson,
   enrollPathWords,
   getLessonContent,
   getReviewPool,
+  getSavedLessonSession,
+  lessonQuestionsByIds,
+  lessonWordsByIds,
   listPath,
+  saveLessonSession,
   type LessonContent,
   type LessonQuestion,
+  type LessonWord,
   type ReviewPool,
 } from '@/db/pathRepo';
 import { applyRating } from '@/db/srsRepo';
@@ -41,6 +47,11 @@ import {
   type OrderPayload,
   type QuestionPayload,
 } from '@/logic/graders';
+import {
+  missingSessionIds,
+  parseSavedSession,
+  SAVED_SESSION_VERSION,
+} from '@/logic/lessonProgress';
 import { starsForAccuracy } from '@/logic/path';
 import {
   buildLessonPlan,
@@ -97,6 +108,11 @@ export default function LessonScreen() {
   const [queue, setQueue] = useState<QueueItem[] | null>(null);
   const [images, setImages] = useState<Map<number, string>>(new Map());
   const [index, setIndex] = useState(0);
+  /** Rows a restored snapshot references beyond the fresh load (randomized distractor/question draws). */
+  const [extraWords, setExtraWords] = useState<LessonWord[]>([]);
+  const [extraQuestions, setExtraQuestions] = useState<LessonQuestion[]>([]);
+  /** Last step index persisted, so snapshots only happen at step boundaries. */
+  const lastSavedIndexRef = useRef(0);
   const [flow, setFlow] = useState(initialAnswerFlow);
   const [banner, setBanner] = useState<Banner | null>(null);
   const [graded, setGraded] = useState({ correct: 0, total: 0 });
@@ -117,11 +133,46 @@ export default function LessonScreen() {
       const c = await getLessonContent(slug);
       if (!c) return;
       const now = new Date();
+      const reviewPool = c.kind === 'review' ? await getReviewPool(slug, now) : null;
+
+      // An interrupted run resumes where it stopped — if every id the
+      // snapshot references still resolves (content swaps break that).
+      const saved = parseSavedSession(await getSavedLessonSession(slug).catch(() => null), slug);
+      if (saved) {
+        const knownLemmas = new Set(
+          [...c.words, ...c.distractors, ...(reviewPool?.vocab ?? [])].map((w) => w.lemma_id)
+        );
+        const knownQuestions = new Set(
+          [...c.questions, ...(reviewPool?.questions ?? [])].map((q) => q.id)
+        );
+        const missing = missingSessionIds(saved, knownLemmas, knownQuestions);
+        const words = await lessonWordsByIds(missing.lemmaIds);
+        const questions = await lessonQuestionsByIds(missing.questionIds);
+        if (
+          words.length === missing.lemmaIds.length &&
+          questions.length === missing.questionIds.length
+        ) {
+          const wordIds = (c.kind === 'review' ? (reviewPool?.vocab ?? []) : c.words).map(
+            (w) => w.lemma_id
+          );
+          setImages(await getLemmaImages(wordIds));
+          setExtraWords(words);
+          setExtraQuestions(questions);
+          grammarResultsRef.current = new Map(saved.grammarResults);
+          setGraded({ correct: saved.correct, total: saved.total });
+          lastSavedIndexRef.current = saved.index;
+          setPool(reviewPool);
+          setContent(c);
+          setQueue(saved.queue.map((q) => ({ ex: q.ex, retry: q.retry })));
+          setIndex(saved.index);
+          return;
+        }
+        await clearLessonSession(slug).catch(() => {});
+      }
+
       const seed = seedFromString(`${slug}:${now.toISOString().slice(0, 10)}`);
       let plan: PathExercise[];
-      let reviewPool: ReviewPool | null = null;
-      if (c.kind === 'review') {
-        reviewPool = await getReviewPool(slug, now);
+      if (c.kind === 'review' && reviewPool) {
         const due = reviewPool.vocab.filter((v) => v.due);
         const fresh = reviewPool.vocab.filter((v) => !v.due);
         plan = buildReviewPlan(
@@ -171,18 +222,40 @@ export default function LessonScreen() {
       }
     }
     if (pool) for (const w of pool.vocab) map.set(w.lemma_id, w);
+    for (const w of extraWords) if (!map.has(w.lemma_id)) map.set(w.lemma_id, w);
     return map;
-  }, [content, pool]);
+  }, [content, pool, extraWords]);
 
   const questionsById = useMemo(() => {
     const map = new Map<number, LessonQuestion>();
     for (const q of content?.questions ?? []) map.set(q.id, q);
     for (const q of pool?.questions ?? []) map.set(q.id, q);
+    for (const q of extraQuestions) if (!map.has(q.id)) map.set(q.id, q);
     return map;
-  }, [content, pool]);
+  }, [content, pool, extraQuestions]);
 
   const item = queue?.[index];
   const done = queue != null && index >= queue.length;
+
+  // Remember the run at every step boundary so closing mid-lesson resumes
+  // here. Only the index advance triggers a write — grading effects for the
+  // current step stay out of the snapshot, so re-answering it after a resume
+  // can't double-count.
+  useEffect(() => {
+    if (!content || !queue || done) return;
+    if (index === 0 || index === lastSavedIndexRef.current) return;
+    lastSavedIndexRef.current = index;
+    saveLessonSession({
+      version: SAVED_SESSION_VERSION,
+      slug: content.slug,
+      savedAt: new Date().toISOString(),
+      index,
+      correct: graded.correct,
+      total: graded.total,
+      queue,
+      grammarResults: [...grammarResultsRef.current],
+    }).catch(() => {});
+  }, [index, done, content, queue, graded]);
 
   /** Everything that happens exactly once when a step is finalized. */
   const runEffect = (effect: AnswerFlowEffect, answer: unknown) => {
@@ -291,6 +364,7 @@ export default function LessonScreen() {
     finishedRef.current = true;
     (async () => {
       const now = new Date();
+      await clearLessonSession(content.slug).catch(() => {});
       const accuracy = graded.total === 0 ? 1 : graded.correct / graded.total;
       const stars = starsForAccuracy(
         graded.total === 0 ? 1 : graded.correct,

@@ -1,4 +1,5 @@
 import { getDb } from '@/db/client';
+import { type SavedLessonSession } from '@/logic/lessonProgress';
 
 /**
  * Lernpfad data access. Content rows (path_units/path_lessons/…) are built by
@@ -382,6 +383,60 @@ export async function placementGrammarMc(level: string, limit: number): Promise<
      WHERE t.level = ? AND q.qtype = 'mc'
      ORDER BY RANDOM() LIMIT ?`,
     [level, limit]
+  );
+}
+
+/**
+ * Mid-lesson resume snapshots, one user_meta row per lesson slug. Written by
+ * the lesson screen at each step boundary, cleared on completion; a snapshot
+ * that no longer matches live content is discarded at load (lemma/question
+ * ids are not stable across content swaps).
+ */
+const SESSION_KEY_PREFIX = 'path_session:';
+
+export async function getSavedLessonSession(slug: string): Promise<unknown | null> {
+  const row = await getDb().getFirstAsync<{ value: string }>(
+    'SELECT value FROM user_meta WHERE key = ?',
+    [SESSION_KEY_PREFIX + slug]
+  );
+  if (!row) return null;
+  try {
+    return JSON.parse(row.value);
+  } catch {
+    return null;
+  }
+}
+
+export async function saveLessonSession(session: SavedLessonSession): Promise<void> {
+  await getDb().runAsync('INSERT OR REPLACE INTO user_meta (key, value) VALUES (?, ?)', [
+    SESSION_KEY_PREFIX + session.slug,
+    JSON.stringify(session),
+  ]);
+}
+
+export async function clearLessonSession(slug: string): Promise<void> {
+  await getDb().runAsync('DELETE FROM user_meta WHERE key = ?', [SESSION_KEY_PREFIX + slug]);
+}
+
+/** Word rows by id — resolves snapshot references the fresh load lacks. */
+export async function lessonWordsByIds(lemmaIds: number[]): Promise<LessonWord[]> {
+  if (lemmaIds.length === 0) return [];
+  const marks = lemmaIds.map(() => '?').join(',');
+  return getDb().getAllAsync<LessonWord>(
+    `SELECT ${WORD_SELECT} FROM lemmas l WHERE l.id IN (${marks})`,
+    lemmaIds
+  );
+}
+
+/** Grammar question rows by id — see lessonWordsByIds. */
+export async function lessonQuestionsByIds(questionIds: number[]): Promise<LessonQuestion[]> {
+  if (questionIds.length === 0) return [];
+  const marks = questionIds.map(() => '?').join(',');
+  return getDb().getAllAsync<LessonQuestion>(
+    `SELECT q.id, q.qtype, q.payload, q.difficulty, t.slug AS topic_slug, t.title AS topic_title
+     FROM grammar_questions q JOIN grammar_topics t ON t.id = q.topic_id
+     WHERE q.id IN (${marks})`,
+    questionIds
   );
 }
 

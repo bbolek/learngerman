@@ -89,25 +89,25 @@ export const TOUR_STEPS: TourStepDef[] = [
     route: '/',
     title: 'Your streak',
     body:
-      'Every day you practice keeps the flame alive. The dots show your last 7 days — try not to break the chain!',
+      'Every day you practice keeps the flame alive — the 🔥 chip counts your days in a row, the ⭐ chip your level. Tap either for full statistics.',
     advance: { kind: 'next' },
   },
   {
     id: 'home-daily',
     targetId: 'home-daily',
     route: '/',
-    title: 'Today’s cards',
+    title: 'Your next step',
     body:
-      '“Heute fällig” means due today. Words you save become flashcards, and this card counts the ones ready for review. The ring fills as you finish them.',
+      'Deutschly picks your best next step — flashcards that are due first, then your Lernpfad. The ring fills as you finish today’s cards, and the Tagesziele below are three small daily goals.',
     advance: { kind: 'next' },
   },
   {
     id: 'home-grammar',
     targetId: 'home-grammar',
     route: '/',
-    title: 'Grammar topic of the day',
+    title: 'Fresh picks every day',
     body:
-      'Deutschly recommends one grammar topic each day — new ones at first, later the ones you find hardest.',
+      '“Entdecken” means discover: a word of the day, a grammar topic picked for you — new ones at first, later the ones you find hardest — and a vocabulary theme. Swipe the row, or tap “Alle” to see everything.',
     advance: { kind: 'next' },
   },
   {
@@ -116,7 +116,7 @@ export const TOUR_STEPS: TourStepDef[] = [
     route: '/',
     title: 'Word of the day',
     body:
-      'A fresh German word every day, with an example sentence. Tap it any time to see the full entry.',
+      'A fresh German word every day. Tap it any time to see the full entry, with example sentences and all its forms.',
     advance: { kind: 'next' },
   },
   {

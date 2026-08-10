@@ -1,15 +1,18 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
-import { Pressable, StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, useWindowDimensions, View } from 'react-native';
+import Animated, { FadeInUp } from 'react-native-reanimated';
 
 import { getLemmaImage, getWordOfTheDay } from '@/db/dictionaryRepo';
+import { statsByGame, type GameStats } from '@/db/gamesRepo';
 import { listTopics, type TopicRow } from '@/db/grammarRepo';
 import { grammarDueSlugs } from '@/db/grammarSrsRepo';
+import { getPlacement, listPath } from '@/db/pathRepo';
 import { dailyQuests, type DailyQuestState } from '@/db/questsRepo';
-import { dueCounts, recentActivity, type DayActivity } from '@/db/srsRepo';
+import { listReadingTexts } from '@/db/readingRepo';
+import { dueCounts, recentActivity } from '@/db/srsRepo';
 import {
-  frozenDays,
   grantFreeze,
   lastCelebratedMilestone,
   repairStreak,
@@ -17,11 +20,21 @@ import {
   streakState,
   type StreakState,
 } from '@/db/streakRepo';
-import { getPlacement, listPath } from '@/db/pathRepo';
 import { savedCount } from '@/db/vocabRepo';
 import { xpTotals } from '@/db/xpRepo';
+import { THEMES, type Theme } from '@/data/themes.generated';
+import { GAMES, gameInfo, type GameKey } from '@/logic/games';
+import {
+  buildResumeShelf,
+  lastPlayedGame,
+  nextUnreadText,
+  pickDailyTheme,
+  pickHeroAction,
+  type HeroAction,
+  type ResumeItem,
+} from '@/logic/homeFeed';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
-import { computeNodeStates, currentPosition } from '@/logic/path';
+import { findPathResume, resolveBoundaryOrder } from '@/logic/pathResume';
 import { isStreakMilestone, levelProgress, levelTitle, type LevelProgress } from '@/logic/xp';
 import { settleRewards } from '@/services/rewards';
 import { celebrate } from '@/store/celebration';
@@ -29,38 +42,47 @@ import { TourTarget } from '@/tour/TourTarget';
 import { useTourTarget } from '@/tour/useTourTarget';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
+import { ProgressBar } from '@/ui/components/ProgressBar';
 import { ProgressRing } from '@/ui/components/ProgressRing';
 import { Screen } from '@/ui/components/Screen';
+import { SectionHeader } from '@/ui/components/SectionHeader';
+import { Shelf } from '@/ui/components/Shelf';
+import { StatChip } from '@/ui/components/StatChip';
 import { VocabImage } from '@/ui/components/VocabImage';
-import { fonts, radius, spacing, streakGradient } from '@/ui/theme';
+import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 interface HomeData {
   streakInfo: StreakState;
-  frozen: Set<string>;
   level: LevelProgress;
   quests: DailyQuestState[];
   due: number;
   fresh: number;
   doneToday: number;
   saved: number;
-  week: DayActivity[];
+  topicsCount: number;
   next: NextTopic<TopicRow> | null;
   wotd: Awaited<ReturnType<typeof getWordOfTheDay>>;
   wotdImage: string | null;
-  pathNext: {
-    slug: string;
-    title: string;
-    unitTitle: string;
-    unitEmoji: string;
-    unitLevel: string;
-  } | null;
+  hero: HeroAction;
+  resume: ResumeItem[];
+  gameStats: Map<GameKey, GameStats>;
+  readingRead: number;
+  readingTotal: number;
+  themeTip: Theme | null;
+}
+
+/** Staggered entrance for the top-level blocks — subtle, mount-only. */
+function blockEntering(i: number) {
+  return FadeInUp.delay(i * 60).duration(400);
 }
 
 export default function HomeScreen() {
   const t = useTheme();
   const [data, setData] = useState<HomeData | null>(null);
   const { ref: streakRef, onLayout: streakOnLayout } = useTourTarget('home-streak');
+  const { width: winW } = useWindowDimensions();
+  const shelfW = Math.min(280, Math.round(winW * 0.72));
 
   const load = useCallback(async () => {
     const now = new Date();
@@ -69,50 +91,48 @@ export default function HomeScreen() {
     // badges crossed) before reading the state we render.
     await settleRewards(now);
     const streakInfo = await streakState(now); // may auto-spend freezes
-    const [counts, week, saved, topics, wotd, dueSlugs, quests, totals, frozen] =
-      await Promise.all([
-        dueCounts(now),
-        recentActivity(7, now),
-        savedCount(),
-        listTopics(),
-        getWordOfTheDay(today),
-        grammarDueSlugs(now),
-        dailyQuests(now),
-        xpTotals(),
-        frozenDays(),
-      ]);
+    const [
+      counts,
+      week,
+      saved,
+      topics,
+      wotd,
+      dueSlugs,
+      quests,
+      totals,
+      gameStats,
+      readingTexts,
+      pathUnits,
+      placement,
+    ] = await Promise.all([
+      dueCounts(now),
+      recentActivity(1, now),
+      savedCount(),
+      listTopics(),
+      getWordOfTheDay(today),
+      grammarDueSlugs(now),
+      dailyQuests(now),
+      xpTotals(),
+      statsByGame(),
+      listReadingTexts(),
+      listPath(),
+      getPlacement(),
+    ]);
     const doneToday = week.find((a) => a.day === today)?.reviews_done ?? 0;
     const wotdImage = wotd ? await getLemmaImage(wotd.id) : null;
     const topicsWithDue = topics.map((tp) => ({ ...tp, due: dueSlugs.has(tp.slug) }));
 
-    // "Weiter im Lernpfad" — the map's active node, boundary-aware.
-    const [pathUnits, placement] = await Promise.all([listPath(), getPlacement()]);
-    let pathNext: HomeData['pathNext'] = null;
-    if (pathUnits.length > 0) {
-      let boundary: number | null = null;
-      if (placement && 'boundaryUnitSlug' in placement) {
-        const unit = pathUnits.find((u) => u.slug === placement.boundaryUnitSlug);
-        boundary = unit?.nodes[0]?.order ?? placement.boundaryOrder ?? null;
-      }
-      const allNodes = pathUnits.flatMap((u) => u.nodes);
-      const active = currentPosition(
-        computeNodeStates(
-          allNodes.map((n) => ({ slug: n.slug, order: n.order, stars: n.stars })),
-          boundary
-        )
-      );
-      if (active) {
-        const unit = pathUnits.find((u) => u.nodes.some((n) => n.slug === active.slug))!;
-        const node = unit.nodes.find((n) => n.slug === active.slug)!;
-        pathNext = {
-          slug: node.slug,
-          title: node.title,
-          unitTitle: unit.title,
-          unitEmoji: unit.emoji,
-          unitLevel: unit.level,
-        };
-      }
-    }
+    const pathNext = findPathResume(pathUnits, resolveBoundaryOrder(pathUnits, placement));
+    const hero = pickHeroAction(counts.due, counts.fresh, pathNext);
+    const nextReading = nextUnreadText(readingTexts);
+    const resume = buildResumeShelf({
+      hero,
+      due: counts.due,
+      fresh: counts.fresh,
+      pathNext,
+      nextReading,
+      lastGame: lastPlayedGame(gameStats),
+    });
 
     // Streak milestone reached today → one-time celebration + a bonus freeze.
     if (isStreakMilestone(streakInfo.streak) && (await lastCelebratedMilestone()) < streakInfo.streak) {
@@ -129,18 +149,22 @@ export default function HomeScreen() {
 
     setData({
       streakInfo,
-      frozen,
       level: levelProgress(totals.lifetime),
       quests,
       due: counts.due,
       fresh: counts.fresh,
       doneToday,
       saved,
-      week,
+      topicsCount: topics.length,
       next: pickNextTopic(topicsWithDue, today),
       wotd,
       wotdImage,
-      pathNext,
+      hero,
+      resume,
+      gameStats,
+      readingRead: readingTexts.filter((r) => r.completed_at != null).length,
+      readingTotal: readingTexts.length,
+      themeTip: pickDailyTheme(THEMES, today),
     });
   }, []);
 
@@ -158,28 +182,6 @@ export default function HomeScreen() {
     weekday: 'long',
     day: 'numeric',
     month: 'long',
-  });
-
-  const pending = (data?.due ?? 0) + (data?.fresh ?? 0);
-  const planned = pending + (data?.doneToday ?? 0);
-  const progress = planned === 0 ? 1 : (data?.doneToday ?? 0) / planned;
-
-  // Last 7 days for the streak card's weekday row (oldest → today).
-  const byDay = new Map((data?.week ?? []).map((a) => [a.day, a]));
-  const DAY_MS = 24 * 60 * 60 * 1000;
-  const weekDays = Array.from({ length: 7 }, (_, i) => {
-    const d = new Date(now.getTime() - (6 - i) * DAY_MS);
-    const key = d.toISOString().slice(0, 10);
-    const a = byDay.get(key);
-    return {
-      key,
-      initial: d.toLocaleDateString('de-DE', { weekday: 'short' }).slice(0, 2),
-      active:
-        (a?.reviews_done ?? 0) + (a?.quiz_done ?? 0) + (a?.words_saved ?? 0) + (a?.games_played ?? 0) >
-        0,
-      frozen: data?.frozen.has(key) ?? false,
-      isToday: i === 6,
-    };
   });
 
   return (
@@ -206,258 +208,476 @@ export default function HomeScreen() {
         </TourTarget>
       </View>
 
-      <Pressable
-        ref={streakRef}
-        onLayout={streakOnLayout}
-        onPress={() => router.push('/stats')}
-        style={[styles.streak, { backgroundColor: streakGradient[0] }]}>
-        <View style={styles.streakTop}>
-          <AppText style={{ fontSize: 30 }}>🔥</AppText>
-          <View style={{ flex: 1 }}>
-            <AppText variant="section" color="#fff">
-              {data ? `${data.streakInfo.streak} ${data.streakInfo.streak === 1 ? 'Tag' : 'Tage'}` : '…'}
-            </AppText>
-            <AppText variant="secondary" color="#FFFFFFEB">
-              Lernserie — weiter so!
-            </AppText>
-          </View>
-          {data != null && data.streakInfo.freezes > 0 && (
-            <View style={styles.freezeChip}>
-              <AppText variant="caption" color="#fff" style={{ fontFamily: fonts.extrabold }}>
-                🧊 ×{data.streakInfo.freezes}
-              </AppText>
+      {data && (
+        <>
+          <Animated.View entering={blockEntering(0)}>
+            <View
+              ref={streakRef}
+              onLayout={streakOnLayout}
+              collapsable={false}
+              style={styles.chipRow}>
+              <StatChip
+                emoji="🔥"
+                label={`${data.streakInfo.streak} ${data.streakInfo.streak === 1 ? 'Tag' : 'Tage'}${
+                  data.streakInfo.freezes > 0 ? ` · 🧊×${data.streakInfo.freezes}` : ''
+                }`}
+                onPress={() => router.push('/stats')}
+              />
+              <StatChip
+                emoji="⭐"
+                label={`Lv ${data.level.level} · ${levelTitle(data.level.level)}`}
+                onPress={() => router.push('/stats')}
+              />
             </View>
+          </Animated.View>
+
+          {data.streakInfo.justProtected && (
+            <Animated.View entering={blockEntering(1)}>
+              <Card style={styles.noticeCard}>
+                <AppText style={{ fontSize: 22 }}>🧊</AppText>
+                <View style={{ flex: 1 }}>
+                  <AppText variant="subtitle">Streak-Retter eingesetzt!</AppText>
+                  <AppText variant="caption" muted style={{ marginTop: 2 }}>
+                    {data.streakInfo.justProtected.length === 1
+                      ? 'Ein verpasster Tag wurde überbrückt — deine Serie lebt weiter.'
+                      : `${data.streakInfo.justProtected.length} verpasste Tage wurden überbrückt — deine Serie lebt weiter.`}
+                  </AppText>
+                </View>
+              </Card>
+            </Animated.View>
           )}
-          <Ionicons name="chevron-forward" size={18} color="#FFFFFFB0" />
-        </View>
-        <View style={styles.weekRow}>
-          {weekDays.map((d) => (
-            <View key={d.key} style={styles.weekCol}>
-              <View
-                style={[
-                  styles.weekDot,
-                  d.active || d.frozen
-                    ? { backgroundColor: '#FFFFFF' }
-                    : { backgroundColor: '#FFFFFF3C' },
-                  d.isToday && { borderWidth: 2, borderColor: '#FFFFFF' },
-                ]}>
-                {d.frozen && !d.active ? (
-                  <Ionicons name="snow" size={12} color="#4A6B99" />
-                ) : d.active ? (
-                  <Ionicons name="checkmark" size={13} color={streakGradient[0]} />
-                ) : null}
-              </View>
-              <AppText variant="caption" color={d.isToday ? '#FFFFFF' : '#FFFFFFB0'}>
-                {d.initial}
-              </AppText>
+
+          {data.streakInfo.repair && (
+            <Animated.View entering={blockEntering(1)}>
+              <RepairCard repair={data.streakInfo.repair} onRepaired={load} />
+            </Animated.View>
+          )}
+
+          <Animated.View entering={blockEntering(2)}>
+            <TourTarget id="home-daily">
+              <HeroCard
+                hero={data.hero}
+                due={data.due}
+                fresh={data.fresh}
+                doneToday={data.doneToday}
+                quests={data.quests}
+              />
+            </TourTarget>
+          </Animated.View>
+
+          {data.resume.length > 0 && (
+            <Animated.View entering={blockEntering(3)}>
+              <SectionHeader title="Weiter lernen" onAction={() => router.push('/path')} />
+              <Shelf cardWidth={shelfW}>
+                {data.resume.map((item) => (
+                  <ResumeCard key={item.kind} item={item} width={shelfW} />
+                ))}
+              </Shelf>
+            </Animated.View>
+          )}
+
+          <Animated.View entering={blockEntering(4)}>
+            <TourTarget id="home-grammar">
+              <SectionHeader title="Entdecken" onAction={() => router.push('/dictionary')} />
+              <Shelf cardWidth={shelfW}>
+                {data.wotd && (
+                  <TourTarget id="home-wotd">
+                    <WotdCard wotd={data.wotd} image={data.wotdImage} width={shelfW} />
+                  </TourTarget>
+                )}
+                {data.next && <GrammarCard next={data.next} width={shelfW} />}
+                {data.themeTip && <ThemeCard theme={data.themeTip} width={shelfW} />}
+              </Shelf>
+            </TourTarget>
+          </Animated.View>
+
+          <Animated.View entering={blockEntering(5)}>
+            <SectionHeader title="Spiele" onAction={() => router.push('/games')} />
+            <Shelf cardWidth={120}>
+              {GAMES.map((g) => (
+                <GameTile key={g.key} gameKey={g.key} stats={data.gameStats.get(g.key) ?? null} />
+              ))}
+              <GameTile gameKey={null} stats={null} />
+            </Shelf>
+          </Animated.View>
+
+          <Animated.View entering={blockEntering(6)}>
+            <SectionHeader title="Deine Sammlung" />
+            <View style={styles.collectionGrid}>
+              <CollectionCard
+                emoji="❤️"
+                title="Meine Wörter"
+                caption={`${data.saved} gespeichert`}
+                onPress={() => router.push('/words')}
+              />
+              <CollectionCard
+                emoji="🗂️"
+                title="Themen"
+                caption={`${THEMES.length} Wortfelder`}
+                onPress={() => router.push('/themes')}
+              />
+              {data.readingTotal > 0 && (
+                <CollectionCard
+                  emoji="📖"
+                  title="Leseecke"
+                  caption={`${data.readingRead}/${data.readingTotal} gelesen`}
+                  onPress={() => router.push('/lesen')}
+                />
+              )}
+              <CollectionCard
+                emoji="🧠"
+                title="Grammatik"
+                caption={`${data.topicsCount} Themen`}
+                onPress={() => router.push('/practice')}
+              />
             </View>
-          ))}
-        </View>
-      </Pressable>
-
-      {data?.streakInfo.justProtected && (
-        <Card style={styles.noticeCard}>
-          <AppText style={{ fontSize: 22 }}>🧊</AppText>
-          <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Streak-Retter eingesetzt!</AppText>
-            <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              {data.streakInfo.justProtected.length === 1
-                ? 'Ein verpasster Tag wurde überbrückt — deine Serie lebt weiter.'
-                : `${data.streakInfo.justProtected.length} verpasste Tage wurden überbrückt — deine Serie lebt weiter.`}
-            </AppText>
-          </View>
-        </Card>
-      )}
-
-      {data?.streakInfo.repair && (
-        <RepairCard repair={data.streakInfo.repair} onRepaired={load} />
-      )}
-
-      {data && <LevelCard level={data.level} />}
-
-      {data && data.quests.length > 0 && <QuestsCard quests={data.quests} />}
-
-      <TourTarget id="home-daily">
-      <Card style={styles.daily}>
-        <ProgressRing progress={progress} size={86}>
-          <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 19 }}>
-            {data ? `${data.doneToday}/${planned}` : '…'}
-          </AppText>
-        </ProgressRing>
-        <View style={{ flex: 1 }}>
-          <AppText variant="subtitle">Heute fällig</AppText>
-          <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-            {pending === 0
-              ? 'Alles geschafft für heute! 🎉'
-              : `${data?.due ?? 0} fällig · ${data?.fresh ?? 0} neu`}
-          </AppText>
-          {pending > 0 ? (
-            <Pressable
-              onPress={() => router.push('/review')}
-              style={[styles.cta, { backgroundColor: t.primary }]}>
-              <AppText variant="secondary" color="#fff" style={{ fontFamily: fonts.extrabold }}>
-                {pending} Karten üben →
-              </AppText>
-            </Pressable>
-          ) : (
-            <Pressable
-              onPress={() => router.push('/dictionary')}
-              style={[styles.cta, { backgroundColor: t.accentDim }]}>
-              <AppText variant="secondary" color={t.onAccentDim} style={{ fontFamily: fonts.extrabold }}>
-                Neue Wörter entdecken →
-              </AppText>
-            </Pressable>
-          )}
-        </View>
-      </Card>
-      </TourTarget>
-
-      {data?.pathNext && (
-        <Card
-          style={styles.miniWide}
-          onPress={() =>
-            router.push({ pathname: '/lesson/[slug]', params: { slug: data.pathNext!.slug } })
-          }>
-          <View style={[styles.themesIcon, { backgroundColor: t.primaryDim }]}>
-            <AppText style={{ fontSize: 20 }}>{data.pathNext.unitEmoji}</AppText>
-          </View>
-          <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Weiter im Lernpfad</AppText>
-            <AppText variant="secondary" muted style={{ marginTop: 2 }} numberOfLines={1}>
-              {data.pathNext.unitTitle} · {data.pathNext.title} · {data.pathNext.unitLevel}
-            </AppText>
-          </View>
-          <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
-        </Card>
-      )}
-
-      {data?.next && (
-        <TourTarget id="home-grammar">
-          <GrammarCard next={data.next} />
-        </TourTarget>
-      )}
-
-      <Card style={styles.miniWide} onPress={() => router.push('/words')}>
-        <View style={[styles.miniIcon, { backgroundColor: t.primaryDim }]}>
-          <Ionicons name="heart" size={16} color={t.onPrimaryDim} />
-        </View>
-        <View style={{ flex: 1 }}>
-          <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 24 }}>
-            {data?.saved ?? '…'}
-          </AppText>
-          <AppText variant="caption" muted>
-            Meine Wörter
-          </AppText>
-        </View>
-        <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
-      </Card>
-
-      <Card style={styles.miniWide} onPress={() => router.push('/themes')}>
-        <View style={[styles.themesIcon, { backgroundColor: t.accentDim }]}>
-          <AppText style={{ fontSize: 20 }}>🗂️</AppText>
-        </View>
-        <View style={{ flex: 1 }}>
-          <AppText variant="subtitle">Themen</AppText>
-          <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-            Wortschatz nach Thema lernen
-          </AppText>
-        </View>
-        <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
-      </Card>
-
-      {data?.wotd && (
-        <TourTarget id="home-wotd">
-          <WordOfTheDay wotd={data.wotd} image={data.wotdImage} />
-        </TourTarget>
+          </Animated.View>
+        </>
       )}
     </Screen>
   );
 }
 
-function LevelCard({ level }: { level: LevelProgress }) {
+function heroRoute(hero: HeroAction) {
+  if (hero.kind === 'review') router.push('/review');
+  else if (hero.kind === 'path')
+    router.push({ pathname: '/lesson/[slug]', params: { slug: hero.node.slug } });
+  else router.push('/dictionary');
+}
+
+function HeroCard({
+  hero,
+  due,
+  fresh,
+  doneToday,
+  quests,
+}: {
+  hero: HeroAction;
+  due: number;
+  fresh: number;
+  doneToday: number;
+  quests: DailyQuestState[];
+}) {
   const t = useTheme();
+  const pending = due + fresh;
+  const planned = pending + doneToday;
+  const progress = planned === 0 ? 1 : doneToday / planned;
+
+  const label =
+    hero.kind === 'review' ? 'Heute fällig' : hero.kind === 'path' ? 'Weiter im Lernpfad' : 'Als Nächstes';
+  const title =
+    hero.kind === 'review'
+      ? `${pending} ${pending === 1 ? 'Karte wartet' : 'Karten warten'}`
+      : hero.kind === 'path'
+        ? hero.node.title
+        : 'Alles geschafft! 🎉';
+  const subtitle =
+    hero.kind === 'review'
+      ? `${due} fällig · ${fresh} neu`
+      : hero.kind === 'path'
+        ? `${hero.node.unitEmoji} ${hero.node.unitTitle} · ${hero.node.unitLevel}`
+        : 'Zeit, Neues zu entdecken';
+  const cta =
+    hero.kind === 'review' ? 'Jetzt üben →' : hero.kind === 'path' ? 'Weiter →' : 'Neue Wörter entdecken →';
+  const ctaColors =
+    hero.kind === 'discover'
+      ? { bg: t.accentDim, fg: t.onAccentDim }
+      : { bg: t.primary, fg: '#fff' };
+  const claimed = quests.filter((q) => q.claimed).length;
+
   return (
-    <Card style={styles.levelCard} onPress={() => router.push('/stats')}>
-      <ProgressRing progress={level.ratio} size={62} strokeWidth={6} color={t.accent}>
-        <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 20 }}>
-          {level.level}
-        </AppText>
-      </ProgressRing>
-      <View style={{ flex: 1 }}>
-        <AppText variant="subtitle">
-          Level {level.level} · {levelTitle(level.level)}
-        </AppText>
-        <AppText variant="caption" muted style={{ marginTop: 2 }}>
-          {level.span - level.into} XP bis Level {level.level + 1}
-        </AppText>
-        <View style={[styles.xpTrack, { backgroundColor: t.line }]}>
-          <View
-            style={[
-              styles.xpFill,
-              { width: `${Math.round(level.ratio * 100)}%`, backgroundColor: t.accent },
-            ]}
-          />
+    <Card style={styles.hero} onPress={() => heroRoute(hero)}>
+      <View style={styles.heroBody}>
+        <View style={{ flex: 1 }}>
+          <AppText variant="label" muted>
+            {label}
+          </AppText>
+          <AppText
+            variant="subtitle"
+            numberOfLines={2}
+            style={{ fontFamily: fonts.serif, fontSize: 23, marginTop: spacing.sm }}>
+            {title}
+          </AppText>
+          <AppText variant="secondary" muted numberOfLines={1} style={{ marginTop: 2 }}>
+            {subtitle}
+          </AppText>
+          <View style={[styles.cta, { backgroundColor: ctaColors.bg }]}>
+            <AppText variant="secondary" color={ctaColors.fg} style={{ fontFamily: fonts.extrabold }}>
+              {cta}
+            </AppText>
+          </View>
         </View>
+        <ProgressRing progress={progress} size={96}>
+          <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 20 }}>
+            {doneToday}/{planned}
+          </AppText>
+          <AppText variant="caption" muted>
+            heute
+          </AppText>
+        </ProgressRing>
       </View>
-      <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
+      {quests.length > 0 && (
+        <View style={[styles.questStrip, { borderTopColor: t.line }]}>
+          <AppText variant="label" muted>
+            Tagesziele
+          </AppText>
+          <View style={styles.questTokens}>
+            {quests.map((q) => (
+              <View
+                key={q.key}
+                style={[
+                  styles.questToken,
+                  { backgroundColor: q.claimed ? t.successDim : t.primaryDim },
+                ]}>
+                <AppText style={{ fontSize: 13 }}>{q.claimed ? '✅' : q.emoji}</AppText>
+              </View>
+            ))}
+          </View>
+          <AppText variant="caption" muted style={{ fontFamily: fonts.extrabold }}>
+            {claimed}/{quests.length}
+          </AppText>
+        </View>
+      )}
     </Card>
   );
 }
 
-function QuestsCard({ quests }: { quests: DailyQuestState[] }) {
+function ResumeCard({ item, width }: { item: ResumeItem; width: number }) {
   const t = useTheme();
+  const view =
+    item.kind === 'path'
+      ? {
+          emoji: item.node.unitEmoji,
+          tile: t.primaryDim,
+          label: 'Weiter im Lernpfad',
+          title: item.node.title,
+          caption: `${item.node.unitTitle} · ${item.node.unitLevel}`,
+          go: () => router.push({ pathname: '/lesson/[slug]', params: { slug: item.node.slug } }),
+        }
+      : item.kind === 'review'
+        ? {
+            emoji: '📇',
+            tile: t.primaryDim,
+            label: 'Karteikarten',
+            title: `${item.count} ${item.count === 1 ? 'Karte' : 'Karten'} fällig`,
+            caption: 'Kurz wiederholen',
+            go: () => router.push('/review'),
+          }
+        : item.kind === 'reading'
+          ? {
+              emoji: '📖',
+              tile: t.accentDim,
+              label: 'Weiterlesen',
+              title: item.title,
+              caption: `${item.level} · ${item.wordCount} Wörter · Leseecke`,
+              go: () => router.push({ pathname: '/lesen/[slug]', params: { slug: item.slug } }),
+            }
+          : {
+              emoji: gameInfo(item.key).emoji,
+              tile: t.accentDim,
+              label: 'Letztes Spiel',
+              title: gameInfo(item.key).title,
+              caption: `Rekord ${item.best}`,
+              go: () => router.push(`/game/${item.key}`),
+            };
   return (
-    <Card style={{ marginTop: spacing.md }}>
-      <View style={styles.questHead}>
+    <Card style={[styles.resumeCard, { width }]} onPress={view.go}>
+      <View style={[styles.resumeIcon, { backgroundColor: view.tile }]}>
+        <AppText style={{ fontSize: 20 }}>{view.emoji}</AppText>
+      </View>
+      <AppText variant="label" muted style={{ marginTop: spacing.md }}>
+        {view.label}
+      </AppText>
+      <AppText variant="subtitle" numberOfLines={1} style={{ marginTop: 2 }}>
+        {view.title}
+      </AppText>
+      <AppText variant="caption" muted numberOfLines={1} style={{ marginTop: 2 }}>
+        {view.caption}
+      </AppText>
+    </Card>
+  );
+}
+
+function GrammarCard({ next, width }: { next: NextTopic<TopicRow>; width: number }) {
+  const t = useTheme();
+  const { topic, reason, accuracy } = next;
+  const pct = accuracy == null ? null : Math.round(accuracy * 100);
+  const reasonText =
+    reason === 'due'
+      ? pct != null
+        ? `Fällig zur Wiederholung · ${pct} % richtig`
+        : 'Fällig zur Wiederholung'
+      : reason === 'weak'
+        ? `Dein schwächstes Thema · ${pct} % richtig`
+        : reason === 'new'
+          ? 'Heutige Empfehlung — noch nicht geübt'
+          : `Zum Auffrischen · ${pct} % richtig`;
+  return (
+    <Card
+      style={[styles.discoverCard, { width }]}
+      onPress={() =>
+        router.push({ pathname: '/quiz/[topicId]', params: { topicId: String(topic.id) } })
+      }>
+      <View style={styles.discoverHead}>
         <AppText variant="label" muted>
-          Tagesziele
+          Thema des Tages
         </AppText>
-        <AppText variant="caption" muted>
-          {quests.filter((q) => q.claimed).length}/{quests.length} geschafft
+        <View style={[styles.levelBadge, { backgroundColor: t.caseChip }]}>
+          <AppText variant="caption" color={t.onCaseChip} style={{ fontFamily: fonts.extrabold }}>
+            {topic.level}
+          </AppText>
+        </View>
+      </View>
+      <AppText
+        variant="subtitle"
+        numberOfLines={2}
+        style={{ fontFamily: fonts.serif, fontSize: 20, marginTop: spacing.sm }}>
+        {topic.title}
+      </AppText>
+      <View style={{ flex: 1 }} />
+      <AppText variant="caption" muted numberOfLines={2}>
+        {reasonText}
+      </AppText>
+      {pct != null && (
+        <View style={{ marginTop: spacing.sm }}>
+          <ProgressBar
+            ratio={accuracy ?? 0}
+            color={accuracy != null && accuracy >= 0.7 ? t.accent : t.primary}
+            height={6}
+          />
+        </View>
+      )}
+    </Card>
+  );
+}
+
+function WotdCard({
+  wotd,
+  image,
+  width,
+}: {
+  wotd: NonNullable<HomeData['wotd']>;
+  image: string | null;
+  width: number;
+}) {
+  const t = useTheme();
+  const article =
+    wotd.gender === 'm' ? 'der' : wotd.gender === 'f' ? 'die' : wotd.gender === 'n' ? 'das' : null;
+  const articleColors =
+    article === 'der'
+      ? { bg: t.derChip, fg: t.onDerChip }
+      : article === 'die'
+        ? { bg: t.dieChip, fg: t.onDieChip }
+        : { bg: t.dasChip, fg: t.onDasChip };
+  return (
+    <Card
+      style={[styles.discoverCard, { width }]}
+      onPress={() => router.push({ pathname: '/word/[id]', params: { id: String(wotd.id) } })}>
+      <AppText variant="label" muted>
+        Wort des Tages
+      </AppText>
+      <View style={styles.wotdRow}>
+        {article && (
+          <View style={[styles.articleChip, { backgroundColor: articleColors.bg }]}>
+            <AppText variant="caption" color={articleColors.fg} style={{ fontFamily: fonts.extrabold }}>
+              {article}
+            </AppText>
+          </View>
+        )}
+        <AppText
+          variant="subtitle"
+          numberOfLines={1}
+          style={{ fontFamily: fonts.serif, fontSize: 23, flexShrink: 1 }}>
+          {wotd.lemma}
         </AppText>
       </View>
-      <View style={{ marginTop: spacing.sm, gap: spacing.md }}>
-        {quests.map((q) => {
-          const ratio = q.target === 0 ? 1 : q.current / q.target;
-          return (
-            <View key={q.key} style={styles.questRow}>
-              <View
-                style={[
-                  styles.questIcon,
-                  { backgroundColor: q.claimed ? t.successDim : t.primaryDim },
-                ]}>
-                <AppText style={{ fontSize: 16 }}>{q.claimed ? '✅' : q.emoji}</AppText>
-              </View>
-              <View style={{ flex: 1 }}>
-                <View style={styles.questTitleRow}>
-                  <AppText
-                    variant="secondary"
-                    style={[{ flex: 1 }, q.claimed && { opacity: 0.55 }]}>
-                    {q.title}
-                  </AppText>
-                  <AppText
-                    variant="caption"
-                    color={q.claimed ? t.onSuccessDim : t.onPrimaryDim}
-                    style={{ fontFamily: fonts.extrabold }}>
-                    {q.claimed ? `+${q.xp} XP` : `${q.current}/${q.target}`}
-                  </AppText>
-                </View>
-                <View style={[styles.questTrack, { backgroundColor: t.line }]}>
-                  <View
-                    style={[
-                      styles.questFill,
-                      {
-                        width: `${Math.round(Math.min(1, ratio) * 100)}%`,
-                        backgroundColor: q.claimed ? t.success : t.primary,
-                      },
-                    ]}
-                  />
-                </View>
-              </View>
-            </View>
-          );
-        })}
+      <View style={styles.wotdBody}>
+        <AppText variant="secondary" muted numberOfLines={2} style={{ flex: 1 }}>
+          {wotd.gloss}
+        </AppText>
+        {image && <VocabImage svg={image} gender={wotd.gender} size={56} />}
       </View>
+    </Card>
+  );
+}
+
+function ThemeCard({ theme, width }: { theme: Theme; width: number }) {
+  return (
+    <Card
+      style={[styles.discoverCard, { width }]}
+      onPress={() => router.push({ pathname: '/themes/[slug]', params: { slug: theme.slug } })}>
+      <AppText variant="label" muted>
+        Themen-Tipp
+      </AppText>
+      <View style={styles.wotdRow}>
+        <AppText style={{ fontSize: 24 }}>{theme.emoji}</AppText>
+        <AppText
+          variant="subtitle"
+          numberOfLines={1}
+          style={{ fontFamily: fonts.serif, fontSize: 20, flexShrink: 1 }}>
+          {theme.title}
+        </AppText>
+      </View>
+      <View style={{ flex: 1 }} />
+      <AppText variant="caption" muted>
+        {theme.words.length} Wörter · Wortfeld lernen
+      </AppText>
+    </Card>
+  );
+}
+
+/** One arcade tile; `gameKey: null` renders the Duell tile. */
+function GameTile({ gameKey, stats }: { gameKey: GameKey | null; stats: GameStats | null }) {
+  const t = useTheme();
+  const info = gameKey ? gameInfo(gameKey) : null;
+  const record = stats && stats.plays > 0 ? `🏅 ${stats.best}` : null;
+  return (
+    <Card
+      style={styles.gameTile}
+      onPress={() => (gameKey ? router.push(`/game/${gameKey}`) : router.push('/duel'))}>
+      <AppText style={{ fontSize: 30 }}>{info?.emoji ?? '⚔️'}</AppText>
+      <AppText variant="caption" numberOfLines={1} style={{ marginTop: spacing.sm }}>
+        {info?.title ?? 'Duell'}
+      </AppText>
+      {gameKey == null ? (
+        <AppText variant="caption" muted style={{ marginTop: 3 }}>
+          Zu zweit
+        </AppText>
+      ) : record ? (
+        <AppText variant="caption" muted style={{ marginTop: 3 }}>
+          {record}
+        </AppText>
+      ) : (
+        <View style={[styles.newPill, { backgroundColor: t.accentDim }]}>
+          <AppText variant="caption" color={t.onAccentDim} style={{ fontFamily: fonts.extrabold, fontSize: 10 }}>
+            Neu
+          </AppText>
+        </View>
+      )}
+    </Card>
+  );
+}
+
+function CollectionCard({
+  emoji,
+  title,
+  caption,
+  onPress,
+}: {
+  emoji: string;
+  title: string;
+  caption: string;
+  onPress: () => void;
+}) {
+  return (
+    <Card style={styles.collectionCard} onPress={onPress}>
+      <AppText style={{ fontSize: 24 }}>{emoji}</AppText>
+      <AppText variant="subtitle" numberOfLines={1} style={{ marginTop: spacing.sm }}>
+        {title}
+      </AppText>
+      <AppText variant="caption" muted numberOfLines={1} style={{ marginTop: 2 }}>
+        {caption}
+      </AppText>
     </Card>
   );
 }
@@ -511,128 +731,6 @@ function RepairCard({
   );
 }
 
-function GrammarCard({ next }: { next: NextTopic<TopicRow> }) {
-  const t = useTheme();
-  const { topic, reason, accuracy } = next;
-  const pct = accuracy == null ? null : Math.round(accuracy * 100);
-  const reasonText =
-    reason === 'due'
-      ? pct != null
-        ? `Fällig zur Wiederholung · ${pct} % richtig`
-        : 'Fällig zur Wiederholung'
-      : reason === 'weak'
-        ? `Dein schwächstes Thema · ${pct} % richtig`
-        : reason === 'new'
-          ? 'Heutige Empfehlung — noch nicht geübt'
-          : `Zum Auffrischen · ${pct} % richtig`;
-  return (
-    <Card
-      style={styles.grammar}
-      onPress={() =>
-        router.push({ pathname: '/quiz/[topicId]', params: { topicId: String(topic.id) } })
-      }>
-      <View style={styles.grammarHead}>
-        <AppText variant="label" muted>
-          Grammatik · Thema des Tages
-        </AppText>
-        <View style={[styles.levelBadge, { backgroundColor: t.caseChip }]}>
-          <AppText variant="caption" color={t.onCaseChip} style={{ fontFamily: fonts.extrabold }}>
-            {topic.level}
-          </AppText>
-        </View>
-      </View>
-      <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 21, marginTop: spacing.sm }}>
-        {topic.title}
-      </AppText>
-      <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-        {reasonText}
-      </AppText>
-      {pct != null && (
-        <View style={[styles.accTrack, { backgroundColor: t.line }]}>
-          <View
-            style={[
-              styles.accFill,
-              {
-                width: `${pct}%`,
-                backgroundColor: accuracy != null && accuracy >= 0.7 ? t.accent : t.primary,
-              },
-            ]}
-          />
-        </View>
-      )}
-      <View style={styles.grammarFoot}>
-        <View style={[styles.badge, { backgroundColor: t.primaryDim }]}>
-          <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-            Jetzt üben →
-          </AppText>
-        </View>
-        <Pressable hitSlop={8} onPress={() => router.push('/practice')}>
-          <AppText variant="secondary" muted>
-            Alle Themen
-          </AppText>
-        </Pressable>
-      </View>
-    </Card>
-  );
-}
-
-function WordOfTheDay({
-  wotd,
-  image,
-}: {
-  wotd: NonNullable<HomeData['wotd']>;
-  image: string | null;
-}) {
-  const t = useTheme();
-  const article =
-    wotd.gender === 'm' ? 'der' : wotd.gender === 'f' ? 'die' : wotd.gender === 'n' ? 'das' : null;
-  const articleColors =
-    article === 'der'
-      ? { bg: t.derChip, fg: t.onDerChip }
-      : article === 'die'
-        ? { bg: t.dieChip, fg: t.onDieChip }
-        : { bg: t.dasChip, fg: t.onDasChip };
-  return (
-    <Card
-      style={styles.wotd}
-      onPress={() => router.push({ pathname: '/word/[id]', params: { id: String(wotd.id) } })}>
-      <View style={styles.wotdBody}>
-        <View style={{ flex: 1 }}>
-          <AppText variant="label" muted>
-            Wort des Tages
-          </AppText>
-          <View style={styles.wotdRow}>
-            {article && (
-              <View style={[styles.articleChip, { backgroundColor: articleColors.bg }]}>
-                <AppText variant="caption" color={articleColors.fg} style={{ fontFamily: fonts.extrabold }}>
-                  {article}
-                </AppText>
-              </View>
-            )}
-            <AppText variant="subtitle" style={{ fontFamily: fonts.serif, fontSize: 24 }}>
-              {wotd.lemma}
-            </AppText>
-          </View>
-          <AppText variant="secondary" muted>
-            {wotd.gloss}
-          </AppText>
-        </View>
-        {image && <VocabImage svg={image} gender={wotd.gender} size={64} />}
-      </View>
-      {wotd.example_de && (
-        <View style={[styles.example, { borderLeftColor: t.primaryDim }]}>
-          <AppText variant="secondary">{wotd.example_de}</AppText>
-          {wotd.example_en && (
-            <AppText variant="secondary" muted>
-              {wotd.example_en}
-            </AppText>
-          )}
-        </View>
-      )}
-    </Card>
-  );
-}
-
 const styles = StyleSheet.create({
   headerRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
   headerIcons: { flexDirection: 'row', gap: 10 },
@@ -644,39 +742,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  streak: {
-    borderRadius: radius.card + 2,
-    padding: spacing.lg,
-    marginTop: spacing.lg,
-  },
-  streakTop: { flexDirection: 'row', alignItems: 'center', gap: spacing.lg },
-  weekRow: {
+  chipRow: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginTop: spacing.lg,
-    borderTopWidth: 1,
-    borderTopColor: '#FFFFFF2E',
-    paddingTop: spacing.md,
-  },
-  weekCol: { alignItems: 'center', gap: 4, minWidth: 26 },
-  weekDot: {
-    width: 22,
-    height: 22,
-    borderRadius: 999,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  daily: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.lg,
+    gap: spacing.sm,
     marginTop: spacing.md,
-  },
-  freezeChip: {
-    backgroundColor: '#FFFFFF2E',
-    borderRadius: 999,
-    paddingHorizontal: 10,
-    paddingVertical: 4,
+    alignSelf: 'flex-start',
   },
   noticeCard: {
     flexDirection: 'row',
@@ -691,78 +761,68 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     marginTop: spacing.sm,
   },
-  levelCard: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.lg,
-    marginTop: spacing.md,
-  },
-  xpTrack: { height: 6, borderRadius: 999, overflow: 'hidden', marginTop: spacing.sm },
-  xpFill: { height: '100%', borderRadius: 999 },
-  questHead: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  questRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
-  questIcon: {
-    width: 34,
-    height: 34,
-    borderRadius: 10,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  questTitleRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
-  questTrack: { height: 5, borderRadius: 999, overflow: 'hidden', marginTop: 5 },
-  questFill: { height: '100%', borderRadius: 999 },
+  hero: { marginTop: spacing.lg },
+  heroBody: { flexDirection: 'row', alignItems: 'center', gap: spacing.lg },
   cta: {
     alignSelf: 'flex-start',
     borderRadius: 10,
     paddingHorizontal: 14,
     paddingVertical: 8,
-    marginTop: spacing.sm,
-  },
-  grammar: { marginTop: spacing.md },
-  grammarHead: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  levelBadge: { borderRadius: 999, paddingHorizontal: 9, paddingVertical: 3 },
-  accTrack: { height: 6, borderRadius: 999, overflow: 'hidden', marginTop: spacing.sm },
-  accFill: { height: '100%', borderRadius: 999 },
-  grammarFoot: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
     marginTop: spacing.md,
   },
-  miniWide: {
+  questStrip: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: spacing.md,
-    marginTop: spacing.md,
+    borderTopWidth: 1,
+    marginTop: spacing.lg,
+    paddingTop: spacing.md,
   },
-  miniIcon: {
-    width: 30,
-    height: 30,
+  questTokens: { flexDirection: 'row', gap: spacing.sm, flex: 1 },
+  questToken: {
+    width: 26,
+    height: 26,
     borderRadius: 999,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  themesIcon: {
+  resumeCard: { minHeight: 132 },
+  resumeIcon: {
     width: 40,
     height: 40,
     borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  badge: {
-    alignSelf: 'flex-start',
-    borderRadius: 999,
-    paddingHorizontal: 12,
-    paddingVertical: 5,
-  },
-  wotd: { marginTop: spacing.md },
-  wotdBody: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
-  wotdRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, marginTop: 6, marginBottom: 2 },
-  articleChip: { borderRadius: 999, paddingHorizontal: 9, paddingVertical: 3 },
-  example: {
-    borderLeftWidth: 3,
-    paddingLeft: spacing.md,
+  discoverCard: { minHeight: 132 },
+  discoverHead: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  levelBadge: { borderRadius: 999, paddingHorizontal: 9, paddingVertical: 3 },
+  wotdRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
     marginTop: spacing.sm,
-    gap: 2,
   },
+  wotdBody: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    marginTop: spacing.sm,
+    flex: 1,
+  },
+  articleChip: { borderRadius: 999, paddingHorizontal: 9, paddingVertical: 3 },
+  gameTile: {
+    width: 120,
+    alignItems: 'center',
+    paddingVertical: spacing.lg,
+    paddingHorizontal: spacing.md,
+  },
+  newPill: {
+    borderRadius: 999,
+    paddingHorizontal: 8,
+    paddingVertical: 2,
+    marginTop: 3,
+  },
+  collectionGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.md },
+  collectionCard: { flexBasis: '45%', flexGrow: 1 },
 });

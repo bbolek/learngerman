@@ -2,7 +2,7 @@
   "expo": {
     "name": "Deutschly",
     "slug": "deutschly",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "deutschly",
@@ -22,8 +22,10 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
+      "allowBackup": true,
       "package": "com.bbolek.deutschly",
       "permissions": [
+        "android.permission.CAMERA",
         "android.permission.SCHEDULE_EXACT_ALARM",
         "android.permission.ACCESS_WIFI_STATE",
         "android.permission.ACCESS_NETWORK_STATE",
@@ -65,7 +67,16 @@
           "color": "#E8871E"
         }
       ],
-      "expo-audio"
+      "expo-audio",
+      "expo-sharing",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Deutschly nutzt die Kamera, um deutschen Text zu scannen und Wörter im Wörterbuch nachzuschlagen.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,

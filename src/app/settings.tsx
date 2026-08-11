@@ -1,7 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Device from 'expo-device';
 import { router } from 'expo-router';
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { Alert, Linking, Pressable, StyleSheet, Switch, TextInput, View } from 'react-native';
 
 import { CEFR_LEVELS } from '@/logic/levels';
@@ -11,8 +11,8 @@ import { useTourStore } from '@/tour/tourStore';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Screen } from '@/ui/components/Screen';
-import { spacing } from '@/ui/theme';
-import { useTheme } from '@/ui/useTheme';
+import { colorThemeNames, colorThemes, fonts, spacing } from '@/ui/theme';
+import { useTheme, useThemeName } from '@/ui/useTheme';
 
 const THEME_OPTIONS: { value: ThemePreference; label: string }[] = [
   { value: 'system', label: 'System' },
@@ -60,8 +60,11 @@ export default function SettingsScreen() {
       </Pressable>
       <AppText variant="title">Einstellungen</AppText>
 
+      <SectionLabel>Aussehen</SectionLabel>
       <Card style={styles.section}>
-        <AppText variant="subtitle">Design</AppText>
+        <AppText variant="caption" muted>
+          Design
+        </AppText>
         <View style={styles.segmentRow}>
           {THEME_OPTIONS.map((opt) => {
             const selected = settings.themePreference === opt.value;
@@ -83,8 +86,13 @@ export default function SettingsScreen() {
             );
           })}
         </View>
+        <AppText variant="caption" muted style={{ marginTop: spacing.lg }}>
+          Farbe · {colorThemes[settings.colorTheme]?.label ?? colorThemes.marigold.label}
+        </AppText>
+        <ColorPicker />
       </Card>
 
+      <SectionLabel>Profil</SectionLabel>
       <Card style={styles.section}>
         <AppText variant="subtitle">Spielername</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
@@ -101,58 +109,7 @@ export default function SettingsScreen() {
         />
       </Card>
 
-      <Card style={styles.section}>
-        <View style={styles.switchRow}>
-          <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Haptik</AppText>
-            <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              Vibration bei richtigen/falschen Antworten
-            </AppText>
-          </View>
-          <Switch
-            value={settings.hapticsEnabled}
-            onValueChange={settings.setHapticsEnabled}
-            trackColor={{ true: t.primary, false: t.line }}
-            thumbColor="#fff"
-          />
-        </View>
-      </Card>
-
-      <Card style={styles.section}>
-        <View style={styles.switchRow}>
-          <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Soundeffekte</AppText>
-            <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              Kurze Töne bei Antworten, Level-Aufstiegen und Erfolgen
-            </AppText>
-          </View>
-          <Switch
-            value={settings.soundEnabled}
-            onValueChange={settings.setSoundEnabled}
-            trackColor={{ true: t.primary, false: t.line }}
-            thumbColor="#fff"
-          />
-        </View>
-      </Card>
-
-      <Card style={styles.section}>
-        <View style={styles.switchRow}>
-          <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Aktives Tippen</AppText>
-            <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              Bekannte Wörter aktiv eintippen statt nur umdrehen — als Lückentext oder
-              Übersetzung. Stärkt das aktive Erinnern.
-            </AppText>
-          </View>
-          <Switch
-            value={settings.typedRecall}
-            onValueChange={settings.setTypedRecall}
-            trackColor={{ true: t.primary, false: t.line }}
-            thumbColor="#fff"
-          />
-        </View>
-      </Card>
-
+      <SectionLabel>Lernen</SectionLabel>
       <Card style={styles.section}>
         <AppText variant="subtitle">Mein Sprachniveau</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
@@ -180,10 +137,12 @@ export default function SettingsScreen() {
             );
           })}
         </View>
-      </Card>
 
-      <Card style={styles.section}>
-        <AppText variant="subtitle">Neue Karten pro Tag</AppText>
+        <Divider />
+
+        <AppText variant="caption" muted>
+          Neue Karten pro Tag
+        </AppText>
         <View style={styles.segmentRow}>
           {NEW_LIMITS.map((n) => {
             const selected = settings.dailyNewLimit === n;
@@ -205,10 +164,10 @@ export default function SettingsScreen() {
             );
           })}
         </View>
-      </Card>
 
-      <Card style={styles.section}>
-        <AppText variant="subtitle">Karten pro Lernsession</AppText>
+        <AppText variant="caption" muted style={{ marginTop: spacing.lg }}>
+          Karten pro Lernsession
+        </AppText>
         <View style={styles.segmentRow}>
           {SESSION_CAPS.map((n) => {
             const selected = settings.sessionCap === n;
@@ -230,8 +189,27 @@ export default function SettingsScreen() {
             );
           })}
         </View>
+
+        <Divider />
+
+        <View style={styles.switchRow}>
+          <View style={{ flex: 1 }}>
+            <AppText variant="subtitle">Aktives Tippen</AppText>
+            <AppText variant="caption" muted style={{ marginTop: 2 }}>
+              Bekannte Wörter aktiv eintippen statt nur umdrehen — als Lückentext oder
+              Übersetzung. Stärkt das aktive Erinnern.
+            </AppText>
+          </View>
+          <Switch
+            value={settings.typedRecall}
+            onValueChange={settings.setTypedRecall}
+            trackColor={{ true: t.primary, false: t.line }}
+            thumbColor="#fff"
+          />
+        </View>
       </Card>
 
+      <SectionLabel>Erinnerungen</SectionLabel>
       <Card style={styles.section}>
         <View style={styles.switchRow}>
           <View style={{ flex: 1 }}>
@@ -337,6 +315,44 @@ export default function SettingsScreen() {
         )}
       </Card>
 
+      <SectionLabel>Töne & Haptik</SectionLabel>
+      <Card style={styles.section}>
+        <View style={styles.switchRow}>
+          <View style={{ flex: 1 }}>
+            <AppText variant="subtitle">Soundeffekte</AppText>
+            <AppText variant="caption" muted style={{ marginTop: 2 }}>
+              Kurze Töne bei Antworten, Level-Aufstiegen und Erfolgen
+            </AppText>
+          </View>
+          <Switch
+            value={settings.soundEnabled}
+            onValueChange={settings.setSoundEnabled}
+            trackColor={{ true: t.primary, false: t.line }}
+            thumbColor="#fff"
+          />
+        </View>
+
+        <Divider />
+
+        <View style={styles.switchRow}>
+          <View style={{ flex: 1 }}>
+            <AppText variant="subtitle">Haptik</AppText>
+            <AppText variant="caption" muted style={{ marginTop: 2 }}>
+              Vibration bei richtigen/falschen Antworten
+            </AppText>
+          </View>
+          <Switch
+            value={settings.hapticsEnabled}
+            onValueChange={settings.setHapticsEnabled}
+            trackColor={{ true: t.primary, false: t.line }}
+            thumbColor="#fff"
+          />
+        </View>
+      </Card>
+
+      <BackupCard />
+
+      <SectionLabel>Hilfe & Info</SectionLabel>
       <Card style={styles.section}>
         <AppText variant="subtitle">App-Guide</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
@@ -357,8 +373,6 @@ export default function SettingsScreen() {
           </AppText>
         </Pressable>
       </Card>
-
-      <BackupCard />
 
       <Card style={styles.section}>
         <AppText variant="subtitle">Über Deutschly</AppText>
@@ -392,6 +406,52 @@ export default function SettingsScreen() {
         </Pressable>
       </Card>
     </Screen>
+  );
+}
+
+function SectionLabel({ children }: { children: ReactNode }) {
+  return (
+    <AppText variant="caption" muted style={styles.sectionLabel}>
+      {children}
+    </AppText>
+  );
+}
+
+function Divider() {
+  const t = useTheme();
+  return <View style={[styles.divider, { backgroundColor: t.line }]} />;
+}
+
+/** Swatch grid for the primary/accent color pair. */
+function ColorPicker() {
+  const t = useTheme();
+  const themeName = useThemeName();
+  const colorTheme = useSettings((s) => s.colorTheme);
+  const setColorTheme = useSettings((s) => s.setColorTheme);
+
+  return (
+    <View style={styles.swatchRow}>
+      {colorThemeNames.map((name) => {
+        const selected = colorTheme === name;
+        const tokens = colorThemes[name][themeName];
+        return (
+          <Pressable
+            key={name}
+            onPress={() => setColorTheme(name)}
+            accessibilityLabel={colorThemes[name].label}
+            hitSlop={4}
+            style={[
+              styles.swatch,
+              { backgroundColor: tokens.primary, borderColor: selected ? t.ink : 'transparent' },
+            ]}>
+            <View style={[styles.swatchAccent, { backgroundColor: tokens.accent }]} />
+            {selected && (
+              <Ionicons name="checkmark" size={16} color="#fff" style={styles.swatchCheck} />
+            )}
+          </Pressable>
+        );
+      })}
+    </View>
   );
 }
 
@@ -451,46 +511,49 @@ function BackupCard() {
   };
 
   return (
-    <Card style={styles.section}>
-      <AppText variant="subtitle">Backup</AppText>
-      <AppText variant="caption" muted style={{ marginTop: 2 }}>
-        Sichere alle Lerndaten (Wörter, XP, Streak, Fortschritt) als Datei — z. B. in iCloud
-        Drive, Google Drive oder Downloads. Die Datei bleibt beim Löschen der App erhalten und
-        kann nach einer Neuinstallation wiederhergestellt werden.
-      </AppText>
-      <Pressable
-        disabled={busy}
-        onPress={onExport}
-        style={({ pressed }) => [
-          styles.guideBtn,
-          {
-            backgroundColor: pressed ? t.primaryDim : t.surface,
-            borderColor: t.primary,
-            opacity: busy ? 0.5 : 1,
-          },
-        ]}>
-        <Ionicons name="share-outline" size={18} color={t.primary} />
-        <AppText variant="secondary" color={t.primary}>
-          Backup exportieren
+    <>
+      <SectionLabel>Daten</SectionLabel>
+      <Card style={styles.section}>
+        <AppText variant="subtitle">Backup</AppText>
+        <AppText variant="caption" muted style={{ marginTop: 2 }}>
+          Sichere alle Lerndaten (Wörter, XP, Streak, Fortschritt) als Datei — z. B. in iCloud
+          Drive, Google Drive oder Downloads. Die Datei bleibt beim Löschen der App erhalten und
+          kann nach einer Neuinstallation wiederhergestellt werden.
         </AppText>
-      </Pressable>
-      <Pressable
-        disabled={busy}
-        onPress={onImport}
-        style={({ pressed }) => [
-          styles.guideBtn,
-          {
-            backgroundColor: pressed ? t.primaryDim : t.surface,
-            borderColor: t.line,
-            opacity: busy ? 0.5 : 1,
-          },
-        ]}>
-        <Ionicons name="download-outline" size={18} color={t.inkMuted} />
-        <AppText variant="secondary" muted>
-          Backup wiederherstellen
-        </AppText>
-      </Pressable>
-    </Card>
+        <Pressable
+          disabled={busy}
+          onPress={onExport}
+          style={({ pressed }) => [
+            styles.guideBtn,
+            {
+              backgroundColor: pressed ? t.primaryDim : t.surface,
+              borderColor: t.primary,
+              opacity: busy ? 0.5 : 1,
+            },
+          ]}>
+          <Ionicons name="share-outline" size={18} color={t.primary} />
+          <AppText variant="secondary" color={t.primary}>
+            Backup exportieren
+          </AppText>
+        </Pressable>
+        <Pressable
+          disabled={busy}
+          onPress={onImport}
+          style={({ pressed }) => [
+            styles.guideBtn,
+            {
+              backgroundColor: pressed ? t.primaryDim : t.surface,
+              borderColor: t.line,
+              opacity: busy ? 0.5 : 1,
+            },
+          ]}>
+          <Ionicons name="download-outline" size={18} color={t.inkMuted} />
+          <AppText variant="secondary" muted>
+            Backup wiederherstellen
+          </AppText>
+        </Pressable>
+      </Card>
+    </>
   );
 }
 
@@ -524,6 +587,14 @@ function HourStepper({
 const styles = StyleSheet.create({
   back: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: spacing.lg },
   section: { marginTop: spacing.md },
+  sectionLabel: {
+    marginTop: spacing.lg,
+    marginLeft: spacing.xs,
+    textTransform: 'uppercase',
+    letterSpacing: 1.2,
+    fontFamily: fonts.bold,
+  },
+  divider: { height: 1, marginVertical: spacing.lg },
   permissionWarning: {
     borderRadius: 12,
     paddingHorizontal: spacing.md,
@@ -547,6 +618,33 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   switchRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
+  swatchRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: spacing.sm + 2,
+    marginTop: spacing.md,
+  },
+  swatch: {
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    borderWidth: 2.5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
+  },
+  swatchAccent: {
+    position: 'absolute',
+    right: 2,
+    bottom: 2,
+    width: 11,
+    height: 11,
+    borderRadius: 6,
+  },
+  swatchCheck: {
+    textShadowColor: 'rgba(0,0,0,0.35)',
+    textShadowRadius: 3,
+  },
   guideBtn: {
     flexDirection: 'row',
     alignItems: 'center',

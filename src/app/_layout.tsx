@@ -19,14 +19,13 @@ import { warmUpSpeech } from '@/services/speech';
 import { useSettings } from '@/store/settings';
 import { TourController } from '@/tour/TourController';
 import { CelebrationOverlay } from '@/ui/components/CelebrationOverlay';
-import { palettes } from '@/ui/theme';
-import { useThemeName } from '@/ui/useTheme';
+import { useTheme, useThemeName } from '@/ui/useTheme';
 
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const themeName = useThemeName();
-  const palette = palettes[themeName];
+  const palette = useTheme();
   const [dbReady, setDbReady] = useState(false);
 
   const [fontsLoaded] = useFonts({

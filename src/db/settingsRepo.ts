@@ -1,8 +1,11 @@
 import { getDb } from '@/db/client';
 import type { CefrLevel } from '@/logic/levels';
+import type { ColorThemeName } from '@/ui/theme';
 
 export interface PersistedSettings {
   themePreference?: 'system' | 'light' | 'dark';
+  /** Primary/accent color pair (Einstellungen → Aussehen). */
+  colorTheme?: ColorThemeName;
   hapticsEnabled?: boolean;
   soundEnabled?: boolean;
   typedRecall?: boolean;

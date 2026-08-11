@@ -7,11 +7,14 @@ import {
   type NotificationScheduleStatus,
 } from '@/services/notificationScheduler';
 import { seedThemeFilter } from '@/store/themeFilter';
+import { colorThemes, DEFAULT_COLOR_THEME, type ColorThemeName } from '@/ui/theme';
 
 export type ThemePreference = 'system' | 'light' | 'dark';
 
 interface SettingsState {
   themePreference: ThemePreference;
+  /** Primary/accent color pair applied on top of the light/dark palette. */
+  colorTheme: ColorThemeName;
   hapticsEnabled: boolean;
   /** Short sound cues for answers and reward moments. */
   soundEnabled: boolean;
@@ -44,6 +47,7 @@ interface SettingsState {
   /** Re-fill the pending-notification buffer (called on app foreground). */
   refreshNotifications: () => void;
   setThemePreference: (pref: ThemePreference) => void;
+  setColorTheme: (name: ColorThemeName) => void;
   setHapticsEnabled: (on: boolean) => void;
   setSoundEnabled: (on: boolean) => void;
   setTypedRecall: (on: boolean) => void;
@@ -62,6 +66,7 @@ interface SettingsState {
 function persist(get: () => SettingsState) {
   const {
     themePreference,
+    colorTheme,
     hapticsEnabled,
     soundEnabled,
     typedRecall,
@@ -78,6 +83,7 @@ function persist(get: () => SettingsState) {
   } = get();
   persistSettings({
     themePreference,
+    colorTheme,
     hapticsEnabled,
     soundEnabled,
     typedRecall,
@@ -117,6 +123,7 @@ function reschedule(
 
 export const useSettings = create<SettingsState>((set, get) => ({
   themePreference: 'system',
+  colorTheme: DEFAULT_COLOR_THEME,
   hapticsEnabled: true,
   soundEnabled: true,
   typedRecall: true,
@@ -135,6 +142,8 @@ export const useSettings = create<SettingsState>((set, get) => ({
 
   hydrate: async () => {
     const stored = await loadSettings();
+    // Guard against unknown color names from older backups or future versions.
+    if (stored.colorTheme && !(stored.colorTheme in colorThemes)) delete stored.colorTheme;
     set({ ...stored, hydrated: true });
     seedThemeFilter(get().userLevel);
     if (get().notificationsEnabled) reschedule(get, set);
@@ -144,6 +153,10 @@ export const useSettings = create<SettingsState>((set, get) => ({
   },
   setThemePreference: (themePreference) => {
     set({ themePreference });
+    persist(get);
+  },
+  setColorTheme: (colorTheme) => {
+    set({ colorTheme });
     persist(get);
   },
   setHapticsEnabled: (hapticsEnabled) => {

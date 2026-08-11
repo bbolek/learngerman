@@ -121,7 +121,12 @@ export default function WordDetailScreen() {
       <Pressable
         ref={backRef}
         onLayout={backOnLayout}
-        onPress={() => router.back()}
+        onPress={() => {
+          // Opened from a notification the screen can sit at the bottom of the
+          // stack, where back() is a silent no-op — fall back to the Wörterbuch.
+          if (router.canGoBack()) router.back();
+          else router.replace('/(tabs)/dictionary');
+        }}
         hitSlop={10}
         style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
@@ -147,7 +152,9 @@ export default function WordDetailScreen() {
                 onPress={() => {
                   setQuery('');
                   if (row.hit.lemmaId !== lemmaId) {
-                    router.push({ pathname: '/word/[id]', params: { id: String(row.hit.lemmaId) } });
+                    // replace, not push: searching word after word must not stack
+                    // entries — back always returns to the page before the words.
+                    router.replace({ pathname: '/word/[id]', params: { id: String(row.hit.lemmaId) } });
                   }
                 }}
               />
@@ -242,7 +249,7 @@ export default function WordDetailScreen() {
               <Pressable
                 key={syn.lemmaId}
                 onPress={() =>
-                  router.push({ pathname: '/word/[id]', params: { id: String(syn.lemmaId) } })
+                  router.replace({ pathname: '/word/[id]', params: { id: String(syn.lemmaId) } })
                 }
                 style={[styles.synRow, i > 0 && { borderTopWidth: 1, borderTopColor: t.line }]}>
                 <View style={{ flex: 1 }}>

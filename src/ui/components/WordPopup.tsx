@@ -1,6 +1,6 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Haptics from 'expo-haptics';
-import { router } from 'expo-router';
+import { router, usePathname } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Modal, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -43,6 +43,7 @@ interface WordPopupProps {
 export function WordPopup({ word, onClose }: WordPopupProps) {
   const t = useTheme();
   const insets = useSafeAreaInsets();
+  const pathname = usePathname();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
   const [lemma, setLemma] = useState<LemmaDetail | null>(null);
@@ -107,7 +108,11 @@ export function WordPopup({ word, onClose }: WordPopupProps) {
   const openFullEntry = () => {
     if (!lemma) return;
     onClose();
-    router.push({ pathname: '/word/[id]', params: { id: String(lemma.id) } });
+    const target = { pathname: '/word/[id]', params: { id: String(lemma.id) } } as const;
+    // Word screens never stack on each other — back always leaves the
+    // dictionary. From any other screen (lesson, review) a push is correct.
+    if (pathname.startsWith('/word/')) router.replace(target);
+    else router.push(target);
   };
 
   const article = lemma?.pos === 'noun' ? articleFor(lemma.gender) : null;

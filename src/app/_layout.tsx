@@ -79,7 +79,15 @@ export default function RootLayout() {
   // directly instead of just foregrounding the app.
   useEffect(() => {
     if (!dbReady) return;
+    // On a cold start the launching tap arrives twice — once via
+    // getLastNotificationResponseAsync and once via the response listener.
+    // Without deduping, the word screen is pushed twice and the first
+    // "Zurück" pops to an identical copy, looking like back is broken.
+    let lastHandled: string | null = null;
     const openFromResponse = (response: Notifications.NotificationResponse) => {
+      const requestId = response.notification.request.identifier;
+      if (requestId === lastHandled) return;
+      lastHandled = requestId;
       const lemmaId = response.notification.request.content.data?.lemmaId;
       if (lemmaId != null) router.push({ pathname: '/word/[id]', params: { id: String(lemmaId) } });
     };

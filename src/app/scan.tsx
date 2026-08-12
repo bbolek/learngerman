@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 import {
   ActivityIndicator,
   Linking,
+  Platform,
   Pressable,
   StyleSheet,
   useWindowDimensions,
@@ -33,6 +34,7 @@ import {
   dedupeScanWords,
   mapFrameToView,
   resolveScanWords,
+  uprightScanFrame,
   type ScanHit,
   type ScanWord,
 } from '@/logic/scan';
@@ -86,11 +88,22 @@ export default function ScanScreen() {
     setBusy(true);
     setFailed(false);
     try {
-      const photo = await camRef.current?.takePictureAsync({ quality: 0.7, shutterSound: false });
+      const photo = await camRef.current?.takePictureAsync({
+        quality: 0.7,
+        shutterSound: false,
+        exif: true,
+      });
       if (!photo) return;
       const ocr = await mods.recognize(photo.uri);
       const elements = ocr.blocks.flatMap((b) => b.lines.flatMap((li) => li.elements));
-      const words = collectScanWords(elements);
+      // iOS keeps the sensor's landscape pixels and marks the rotation in
+      // EXIF; ML Kit frames come back in that buffer space. Android already
+      // returns upright frames (its ML Kit input applies the EXIF rotation).
+      const orientation =
+        Platform.OS === 'ios' ? Number((photo.exif as { Orientation?: unknown })?.Orientation) || 1 : 1;
+      const words = collectScanWords(elements).map((w) =>
+        w.frame ? { ...w, frame: uprightScanFrame(w.frame, orientation, photo) } : w
+      );
       const unique = dedupeScanWords(words);
       const hits = await resolveScanWords(getDb(), unique.map((w) => w.norm));
       setResult({ photo, words, unique, hits });

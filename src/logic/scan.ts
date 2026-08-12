@@ -124,6 +124,48 @@ export async function resolveScanWords(
 }
 
 /**
+ * Rotate/mirror an OCR frame from the photo's stored-pixel (buffer) space
+ * into the upright space the photo is displayed in.
+ *
+ * iOS saves camera photos with the sensor's landscape pixels plus an EXIF
+ * orientation tag (expo-camera reports upright width/height and the tag via
+ * `exif.Orientation`), and ML Kit on iOS returns frames in the raw buffer's
+ * coordinates — so a portrait shot (orientation 6) comes back with frames
+ * rotated 90° against the displayed image. Android's ML Kit input applies
+ * the EXIF rotation itself, so callers pass 1 there (no-op).
+ *
+ * `photo` is the upright size as reported by the camera. Unknown/missing
+ * orientation values leave the frame untouched.
+ */
+export function uprightScanFrame(
+  frame: ScanFrame,
+  exifOrientation: number,
+  photo: { width: number; height: number }
+): ScanFrame {
+  const { left: x, top: y, width: w, height: h } = frame;
+  const pw = photo.width;
+  const ph = photo.height;
+  switch (exifOrientation) {
+    case 2: // mirrored horizontally
+      return { left: pw - (x + w), top: y, width: w, height: h };
+    case 3: // rotated 180°
+      return { left: pw - (x + w), top: ph - (y + h), width: w, height: h };
+    case 4: // mirrored vertically
+      return { left: x, top: ph - (y + h), width: w, height: h };
+    case 5: // mirrored + rotated 90° CW
+      return { left: y, top: x, width: h, height: w };
+    case 6: // rotated 90° CW (portrait, home button right)
+      return { left: pw - (y + h), top: x, width: h, height: w };
+    case 7: // mirrored + rotated 90° CCW
+      return { left: pw - (y + h), top: ph - (x + w), width: h, height: w };
+    case 8: // rotated 90° CCW (portrait upside-down grip)
+      return { left: y, top: ph - (x + w), width: h, height: w };
+    default:
+      return frame;
+  }
+}
+
+/**
  * Project a photo-pixel frame onto a view that shows the photo with
  * "contain" fit (letterboxed, centered). Returns null when the photo
  * dimensions are unusable so callers can skip the overlay.

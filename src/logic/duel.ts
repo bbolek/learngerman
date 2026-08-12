@@ -21,15 +21,36 @@
  * tolerates content-version differences between phones.
  */
 
-import { applyArcadeAnswer, type ChoiceQuestion, type GameKey } from '@/logic/games';
+import {
+  applyArcadeAnswer,
+  type ChoiceQuestion,
+  type GameKey,
+  type SatzbauQuestion,
+} from '@/logic/games';
 
-export const DUEL_PROTOCOL_VERSION = 2;
+// v3 added Diktat, Satzbau and Konjugation rounds, which older clients can't
+// play — mismatched versions reject cleanly with an update hint.
+export const DUEL_PROTOCOL_VERSION = 3;
 export const DUEL_COUNTDOWN_MS = 3000;
 export const DUEL_MAX_PLAYERS = 30;
 export const HOST_ID = 'h';
 
 /** Games playable in multiplayer (Wortpaare has no timed-round variant yet). */
-export const DUEL_GAMES: GameKey[] = ['wortblitz', 'bilderraetsel', 'derdiedas'];
+export const DUEL_GAMES: GameKey[] = [
+  'wortblitz',
+  'bilderraetsel',
+  'derdiedas',
+  'konjugation',
+  'satzbau',
+  'diktat',
+];
+
+/**
+ * One round task as shipped in `start`: option questions (Wort-Blitz,
+ * Bilderrätsel, Der-die-das, Konjugation), bare words (Diktat, where the
+ * spoken text is derived on-device) or sentences to build (Satzbau).
+ */
+export type DuelQuestion = ChoiceQuestion | SatzbauQuestion;
 
 /** Trim + cap a player name; '' means "nothing usable, fall back". */
 export function cleanPlayerName(name: string): string {
@@ -57,7 +78,7 @@ export type DuelMsg =
       seed: number;
       durationMs: number;
       countdownMs: number;
-      questions: ChoiceQuestion[];
+      questions: DuelQuestion[];
     }
   | { t: 'progress'; id: string; score: number; correct: number; total: number; streak: number }
   | { t: 'finish'; id: string; score: number; correct: number; total: number; bestStreak: number }
@@ -198,7 +219,7 @@ export interface DuelState {
   peers: DuelPeer[];
   me: DuelPlayer;
   game: GameKey;
-  questions: ChoiceQuestion[];
+  questions: DuelQuestion[];
   seed: number;
   durationMs: number;
   countdownMs: number;
@@ -212,7 +233,7 @@ export type DuelEvent =
   | { type: 'hosted' }
   | { type: 'connected' }
   | { type: 'msg'; msg: DuelMsg; from?: string }
-  | { type: 'localStart'; questions: ChoiceQuestion[]; seed: number; durationMs: number }
+  | { type: 'localStart'; questions: DuelQuestion[]; seed: number; durationMs: number }
   | { type: 'countdownDone' }
   | { type: 'localAnswer'; correct: boolean }
   | { type: 'localFinish' }

@@ -8,6 +8,7 @@ import { type RecordOutcome } from '@/db/gamesRepo';
 import { type GameInfo } from '@/logic/games';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
+import { useWordTap, VocabTapProvider } from '@/ui/components/MarkdownLite';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
@@ -82,6 +83,36 @@ export function GameIntro({
   );
 }
 
+/**
+ * Words the round tripped over, as tappable chips that open the dictionary
+ * popup — the moment right after a round is when "what did that word mean?"
+ * actually gets asked. Must render inside a VocabTapProvider.
+ */
+export function ReviewWords({ words }: { words: string[] }) {
+  const t = useTheme();
+  const onWordTap = useWordTap();
+  if (words.length === 0) return null;
+  return (
+    <View style={styles.reviewBlock}>
+      <AppText variant="label" muted>
+        Schau sie dir nochmal an
+      </AppText>
+      <View style={styles.reviewWrap}>
+        {words.map((w) => (
+          <Pressable
+            key={w}
+            onPress={onWordTap ? () => onWordTap(w) : undefined}
+            style={[styles.reviewChip, { backgroundColor: t.surface, borderColor: t.line }]}>
+            <AppText variant="secondary" color={t.primary} style={{ textDecorationLine: 'underline' }}>
+              {w}
+            </AppText>
+          </Pressable>
+        ))}
+      </View>
+    </View>
+  );
+}
+
 /** End-of-round summary: score, record banner, stat tiles, retry/done. */
 export function GameResult({
   info,
@@ -89,6 +120,7 @@ export function GameResult({
   outcome,
   xpEarned,
   stats,
+  reviewWords,
   onRetry,
 }: {
   info: GameInfo;
@@ -97,12 +129,15 @@ export function GameResult({
   /** XP paid out for this round (shown as a chip when set). */
   xpEarned?: number | null;
   stats: { label: string; value: string }[];
+  /** Words answered wrong this round — shown as tappable dictionary chips. */
+  reviewWords?: string[];
   onRetry: () => void;
 }) {
   const t = useTheme();
   const insets = useSafeAreaInsets();
   const newRecord = outcome?.newRecord ?? false;
   return (
+    <VocabTapProvider>
     <GameScreen>
       <View style={[styles.fill, styles.center, { padding: spacing.xl }]}>
         <AppText style={{ fontSize: 52 }}>{newRecord ? '🏆' : info.emoji}</AppText>
@@ -139,6 +174,7 @@ export function GameResult({
             </Card>
           ))}
         </View>
+        {reviewWords != null && <ReviewWords words={reviewWords} />}
       </View>
       <View
         style={[
@@ -159,6 +195,7 @@ export function GameResult({
         </Pressable>
       </View>
     </GameScreen>
+    </VocabTapProvider>
   );
 }
 
@@ -180,6 +217,14 @@ const styles = StyleSheet.create({
   },
   statRow: { flexDirection: 'row', gap: spacing.md, marginTop: spacing.xl, alignSelf: 'stretch' },
   statTile: { flex: 1, alignItems: 'center', paddingVertical: spacing.md },
+  reviewBlock: { alignSelf: 'stretch', marginTop: spacing.xl },
+  reviewWrap: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.sm },
+  reviewChip: {
+    borderWidth: 1,
+    borderRadius: 999,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+  },
   buttonRow: { flexDirection: 'row', gap: spacing.md },
   grow: { flex: 1 },
   cta: {

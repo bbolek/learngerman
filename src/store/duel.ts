@@ -10,22 +10,31 @@ import * as Network from 'expo-network';
 import { AppState, type NativeEventSubscription } from 'react-native';
 import { create } from 'zustand';
 
-import { fetchGameWords, fetchGenderNouns, fetchImageWords } from '@/db/gamesRepo';
+import {
+  fetchGameWords,
+  fetchGenderNouns,
+  fetchImageWords,
+  fetchSentenceWords,
+  fetchVerbWords,
+} from '@/db/gamesRepo';
 import {
   cleanPlayerName,
   duelReducer,
   initialDuel,
   type DuelEvent,
   type DuelMsg,
+  type DuelQuestion,
   type DuelState,
 } from '@/logic/duel';
 import { decodeRoomCode, encodeRoomCode } from '@/logic/duelCode';
 import {
   buildArtikelQuestions,
   buildBlitzQuestions,
+  buildDiktatDuelQuestions,
   buildImageQuestions,
-  WORTBLITZ_MS,
-  type ChoiceQuestion,
+  buildKonjugationQuestions,
+  buildSatzbauQuestions,
+  duelRoundMs,
   type GameKey,
 } from '@/logic/games';
 import { DuelSocket } from '@/net/duelSocket';
@@ -63,13 +72,19 @@ function playerName(): string {
 }
 
 /** Same word pool sizes as the solo games; the host ships these to everyone. */
-async function buildQuestions(game: GameKey, seed: number): Promise<ChoiceQuestion[]> {
+async function buildQuestions(game: GameKey, seed: number): Promise<DuelQuestion[]> {
   switch (game) {
     case 'derdiedas':
       return buildArtikelQuestions(await fetchGenderNouns(90), seed);
     case 'bilderraetsel':
       // Smaller pool: every question carries its SVG over the wire.
       return buildImageQuestions(await fetchImageWords(60), seed);
+    case 'konjugation':
+      return buildKonjugationQuestions(await fetchVerbWords(60), seed);
+    case 'satzbau':
+      return buildSatzbauQuestions(await fetchSentenceWords(80), seed);
+    case 'diktat':
+      return buildDiktatDuelQuestions(await fetchGameWords(40), seed);
     default:
       return buildBlitzQuestions(await fetchGameWords(90), seed);
   }
@@ -179,7 +194,7 @@ export const useDuel = create<DuelSessionState>((set, get) => {
         set({ error: 'noWords' });
         return;
       }
-      dispatch({ type: 'localStart', questions, seed, durationMs: WORTBLITZ_MS });
+      dispatch({ type: 'localStart', questions, seed, durationMs: duelRoundMs(duel.game) });
     },
 
     leave: () => {

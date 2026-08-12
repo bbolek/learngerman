@@ -8,6 +8,7 @@ import {
   dedupeScanWords,
   mapFrameToView,
   resolveScanWords,
+  uprightScanFrame,
 } from '@/logic/scan';
 
 /** Adapt better-sqlite3 to the async QueryDb surface used by the app. */
@@ -101,6 +102,71 @@ describe('resolveScanWords', () => {
   it('handles an empty token list', async () => {
     const hits = await resolveScanWords(db, []);
     expect(hits.size).toBe(0);
+  });
+});
+
+describe('uprightScanFrame', () => {
+  // Portrait photo as reported by the camera: upright 3000×4000, so the
+  // stored buffer is landscape 4000×3000 for the rotated orientations.
+  const photo = { width: 3000, height: 4000 };
+  const frame = { left: 100, top: 200, width: 400, height: 50 };
+
+  it('leaves frames untouched for orientation 1 and unknown values', () => {
+    expect(uprightScanFrame(frame, 1, photo)).toEqual(frame);
+    expect(uprightScanFrame(frame, 0, photo)).toEqual(frame);
+    expect(uprightScanFrame(frame, NaN, photo)).toEqual(frame);
+  });
+
+  it('rotates 90° CW frames (orientation 6, normal portrait shot)', () => {
+    // Buffer top-left corner must land in the upright top-right corner.
+    expect(uprightScanFrame({ left: 0, top: 0, width: 400, height: 50 }, 6, photo)).toEqual({
+      left: 3000 - 50,
+      top: 0,
+      width: 50,
+      height: 400,
+    });
+    expect(uprightScanFrame(frame, 6, photo)).toEqual({
+      left: 3000 - 250,
+      top: 100,
+      width: 50,
+      height: 400,
+    });
+  });
+
+  it('rotates 90° CCW frames (orientation 8)', () => {
+    // Buffer top-left corner must land in the upright bottom-left corner.
+    expect(uprightScanFrame({ left: 0, top: 0, width: 400, height: 50 }, 8, photo)).toEqual({
+      left: 0,
+      top: 4000 - 400,
+      width: 50,
+      height: 400,
+    });
+  });
+
+  it('rotates 180° frames (orientation 3)', () => {
+    expect(uprightScanFrame(frame, 3, photo)).toEqual({
+      left: 3000 - 500,
+      top: 4000 - 250,
+      width: 400,
+      height: 50,
+    });
+  });
+
+  it('mirrors horizontal/vertical frames (orientations 2 and 4)', () => {
+    expect(uprightScanFrame(frame, 2, photo)).toEqual({ ...frame, left: 3000 - 500 });
+    expect(uprightScanFrame(frame, 4, photo)).toEqual({ ...frame, top: 4000 - 250 });
+  });
+
+  it('keeps rotated frames inside the upright photo bounds', () => {
+    for (const orientation of [1, 2, 3, 4, 5, 6, 7, 8]) {
+      const buffer = orientation >= 5 ? { width: 4000, height: 3000 } : photo;
+      const f = { left: buffer.width - 700, top: buffer.height - 90, width: 600, height: 80 };
+      const up = uprightScanFrame(f, orientation, photo);
+      expect(up.left).toBeGreaterThanOrEqual(0);
+      expect(up.top).toBeGreaterThanOrEqual(0);
+      expect(up.left + up.width).toBeLessThanOrEqual(photo.width);
+      expect(up.top + up.height).toBeLessThanOrEqual(photo.height);
+    }
   });
 });
 

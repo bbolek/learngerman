@@ -2,8 +2,16 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Haptics from 'expo-haptics';
 import { useKeepAwake } from 'expo-keep-awake';
 import { router } from 'expo-router';
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { ActivityIndicator, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import {
+  ActivityIndicator,
+  KeyboardAvoidingView,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  TextInput,
+  View,
+} from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { recordGameResult } from '@/db/gamesRepo';
@@ -14,17 +22,32 @@ import {
   duelStandings,
   HOST_ID,
   rankOf,
+  type DuelQuestion,
   type DuelStanding,
 } from '@/logic/duel';
-import { gameInfo, shortGloss, type ChoiceQuestion, type ImageWord } from '@/logic/games';
+import {
+  addReviewWord,
+  gameInfo,
+  gradeDiktat,
+  gradeSatzbau,
+  konjugationContext,
+  shortGloss,
+  withArticle,
+  type ChoiceQuestion,
+  type ImageWord,
+  type KonjugationQuestion,
+  type SatzbauQuestion,
+} from '@/logic/games';
 import { XP_DUEL_PLAYED, XP_DUEL_WIN } from '@/logic/xp';
 import { awardXp, settleRewards } from '@/services/rewards';
 import { playSound } from '@/services/sound';
+import { SPEECH_RATE_SLOW, speakGerman } from '@/services/speech';
 import { useDuel } from '@/store/duel';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
-import { GameScreen } from '@/ui/components/GameFrame';
+import { GameScreen, ReviewWords } from '@/ui/components/GameFrame';
+import { VocabTapProvider } from '@/ui/components/MarkdownLite';
 import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -35,10 +58,22 @@ const PROMPTS: Record<string, string> = {
   wortblitz: 'Was bedeutet das?',
   derdiedas: 'Der, die oder das?',
   bilderraetsel: 'Was ist das?',
+  konjugation: 'Wähle die richtige Form!',
+  diktat: 'Schreib, was du hörst!',
 };
+
+const UMLAUTS = ['ä', 'ö', 'ü', 'ß'] as const;
+
+function isSatzbau(q: DuelQuestion): q is SatzbauQuestion {
+  return (q as SatzbauQuestion).tiles != null;
+}
 
 function isImageQuestion(q: ChoiceQuestion): q is ChoiceQuestion<ImageWord> {
   return typeof (q.word as ImageWord).svg === 'string';
+}
+
+function isKonjugation(q: ChoiceQuestion): q is KonjugationQuestion {
+  return typeof (q as KonjugationQuestion).tag === 'string';
 }
 
 /** One leaderboard row, shared by the live and the final list. */
@@ -87,11 +122,23 @@ export default function DuelPlayScreen() {
   const [selected, setSelected] = useState<number | null>(null);
   const [remaining, setRemaining] = useState(0);
   const [countLeft, setCountLeft] = useState(3);
+  // Diktat rounds: typed answer, grading feedback, TTS activity.
+  const [typed, setTyped] = useState('');
+  const [verdict, setVerdict] = useState<{ correct: boolean; nearMiss: boolean; text: string } | null>(
+    null
+  );
+  const [speaking, setSpeaking] = useState(false);
+  // Satzbau rounds: tile indexes placed so far.
+  const [placed, setPlaced] = useState<number[]>([]);
+  // Words answered wrong this round — dictionary chips on the result screen.
+  const [reviewWords, setReviewWords] = useState<string[]>([]);
 
   const endAtRef = useRef(0);
   const recordedRef = useRef(false);
   const missedRef = useRef<number[]>([]);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
+  const playCountRef = useRef(0);
+  const inputRef = useRef<TextInput>(null);
 
   const phase = duel?.phase;
 
@@ -114,10 +161,39 @@ export default function DuelPlayScreen() {
     if (phase === 'countdown' && duel) {
       setIndex(0);
       setSelected(null);
+      setTyped('');
+      setVerdict(null);
+      setPlaced([]);
+      setReviewWords([]);
       setRemaining(duel.durationMs);
       setCountLeft(Math.ceil(duel.countdownMs / 1000));
     }
   }
+
+  // From the second listen of a word on, speak slower (same as solo Diktat).
+  const speakWord = useCallback((text: string) => {
+    playCountRef.current += 1;
+    speakGerman(text, {
+      rate: playCountRef.current >= 2 ? SPEECH_RATE_SLOW : undefined,
+      onStart: () => setSpeaking(true),
+      onEnd: () => setSpeaking(false),
+    });
+  }, []);
+
+  // Diktat: each word announces itself once; the speaker button replays it.
+  // Keyed on index/phase only — progress messages mutate `duel` constantly
+  // and must not re-trigger the utterance.
+  const diktatQ =
+    duel?.game === 'diktat' && phase === 'playing' && !duel.me.finished
+      ? duel.questions[index]
+      : null;
+  const diktatText = diktatQ != null && !isSatzbau(diktatQ) ? withArticle(diktatQ.word) : null;
+  useEffect(() => {
+    if (diktatText == null) return;
+    playCountRef.current = 0;
+    const timer = setTimeout(() => speakWord(diktatText), 350);
+    timersRef.current.push(timer);
+  }, [diktatText, speakWord]);
 
   // Each device counts down on its own clock from receipt of `start` — on a
   // LAN that skew is milliseconds against a 60s round, so no ping compensation.
@@ -189,9 +265,12 @@ export default function DuelPlayScreen() {
 
   const answer = (i: number) => {
     const q = duel.questions[index];
-    if (!q || selected != null || duel.me.finished || phase !== 'playing') return;
+    if (!q || isSatzbau(q) || selected != null || duel.me.finished || phase !== 'playing') return;
     const correct = i === q.correctIndex;
-    if (!correct) missedRef.current.push(q.word.id);
+    if (!correct) {
+      missedRef.current.push(q.word.id);
+      setReviewWords((cur) => addReviewWord(cur, q.word.lemma));
+    }
     playSound(correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
@@ -207,6 +286,66 @@ export default function DuelPlayScreen() {
         else setIndex(index + 1);
       },
       correct ? 350 : 800
+    );
+    timersRef.current.push(timer);
+  };
+
+  /** Diktat: grade the typed word, flash the verdict, move on. */
+  const submitTyped = () => {
+    const q = duel.questions[index];
+    if (!q || isSatzbau(q) || verdict != null || duel.me.finished || phase !== 'playing') return;
+    if (!typed.trim()) return;
+    const text = withArticle(q.word);
+    const result = gradeDiktat(text, typed);
+    if (!result.correct) {
+      missedRef.current.push(q.word.id);
+      setReviewWords((cur) => addReviewWord(cur, q.word.lemma));
+    }
+    playSound(result.correct ? 'correct' : 'wrong');
+    if (haptics) {
+      Haptics.notificationAsync(
+        result.correct
+          ? Haptics.NotificationFeedbackType.Success
+          : Haptics.NotificationFeedbackType.Error
+      );
+    }
+    setVerdict({ correct: result.correct, nearMiss: result.nearMiss, text });
+    dispatch({ type: 'localAnswer', correct: result.correct });
+    const timer = setTimeout(
+      () => {
+        setTyped('');
+        setVerdict(null);
+        if (index + 1 >= duel.questions.length) dispatch({ type: 'localFinish' });
+        else setIndex(index + 1);
+      },
+      result.correct && !result.nearMiss ? 600 : 1500
+    );
+    timersRef.current.push(timer);
+  };
+
+  /** Satzbau: grade the built sentence, flash the solution, move on. */
+  const submitSatzbau = () => {
+    const q = duel.questions[index];
+    if (!q || !isSatzbau(q) || verdict != null || duel.me.finished || phase !== 'playing') return;
+    if (placed.length !== q.tiles.length) return;
+    const correct = gradeSatzbau(q.solution, placed.map((i) => q.tiles[i].text));
+    if (!correct) missedRef.current.push(q.lemmaId);
+    playSound(correct ? 'correct' : 'wrong');
+    if (haptics) {
+      Haptics.notificationAsync(
+        correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error
+      );
+    }
+    setVerdict({ correct, nearMiss: false, text: q.solution.join(' ') });
+    dispatch({ type: 'localAnswer', correct });
+    const timer = setTimeout(
+      () => {
+        setPlaced([]);
+        setVerdict(null);
+        if (index + 1 >= duel.questions.length) dispatch({ type: 'localFinish' });
+        else setIndex(index + 1);
+      },
+      correct ? 700 : 2000
     );
     timersRef.current.push(timer);
   };
@@ -251,6 +390,7 @@ export default function DuelPlayScreen() {
     const hostConnected = isHost || duel.peers.some((p) => p.id === HOST_ID && p.connected);
 
     return (
+      <VocabTapProvider>
       <GameScreen>
         <View style={[styles.center, { paddingTop: spacing.lg, paddingHorizontal: spacing.xl }]}>
           <AppText style={{ fontSize: 52 }}>{headline.emoji}</AppText>
@@ -279,6 +419,7 @@ export default function DuelPlayScreen() {
               />
             );
           })}
+          <ReviewWords words={reviewWords} />
           {!isHost && (
             <AppText variant="caption" muted style={{ textAlign: 'center', marginTop: spacing.md }}>
               {hostConnected
@@ -313,6 +454,7 @@ export default function DuelPlayScreen() {
           </Pressable>
         </View>
       </GameScreen>
+      </VocabTapProvider>
     );
   }
 
@@ -348,6 +490,12 @@ export default function DuelPlayScreen() {
 
   // ---------- playing ----------
   const q = duel.questions[index];
+  const choiceQ = q != null && !isSatzbau(q) ? q : undefined;
+  const satzbauQ = q != null && isSatzbau(q) ? q : undefined;
+  const konjCtx =
+    choiceQ != null && isKonjugation(choiceQ)
+      ? konjugationContext(choiceQ.tag, choiceQ.word.aux)
+      : null;
   const secondsLeft = Math.ceil(remaining / 1000);
   const urgent = remaining < 10_000;
   const { rank, of } = duelRank(standings);
@@ -409,6 +557,194 @@ export default function DuelPlayScreen() {
             />
           ))}
         </ScrollView>
+      ) : duel.game === 'satzbau' && satzbauQ != null ? (
+        <ScrollView
+          style={styles.fill}
+          contentContainerStyle={{ paddingHorizontal: spacing.lg, paddingBottom: spacing.xl }}
+          keyboardShouldPersistTaps="handled">
+          {duel.me.streak >= 2 && (
+            <View style={[styles.streakChip, { backgroundColor: t.primaryDim, alignSelf: 'center' }]}>
+              <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+                🔥 Serie ×{duel.me.streak}
+              </AppText>
+            </View>
+          )}
+          <AppText variant="secondary" muted style={{ textAlign: 'center' }}>
+            “{satzbauQ.en}”
+          </AppText>
+          <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
+            Tippe die Wörter in der richtigen Reihenfolge:
+          </AppText>
+          <View style={[styles.slot, { backgroundColor: t.surface, borderColor: t.inkFaint }]}>
+            {placed.map((tileIdx, pos) => (
+              <Pressable
+                key={`${tileIdx}-${pos}`}
+                disabled={verdict != null}
+                onPress={() => setPlaced((p) => p.filter((_, j) => j !== pos))}
+                style={[styles.tile, { backgroundColor: t.primaryDim, borderColor: t.primary }]}>
+                <AppText variant="secondary" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+                  {satzbauQ.tiles[tileIdx].text}
+                </AppText>
+              </Pressable>
+            ))}
+          </View>
+          <View style={styles.pool}>
+            {satzbauQ.tiles.map((tile, i) => {
+              const used = placed.includes(i);
+              return (
+                <Pressable
+                  key={i}
+                  disabled={verdict != null || used}
+                  onPress={() => setPlaced((p) => [...p, i])}
+                  style={[
+                    styles.tile,
+                    { backgroundColor: t.surface, borderColor: t.line },
+                    used && { opacity: 0.25 },
+                  ]}>
+                  <AppText variant="secondary" style={{ fontFamily: fonts.extrabold }}>
+                    {tile.text}
+                  </AppText>
+                </Pressable>
+              );
+            })}
+          </View>
+          <View style={styles.verdictSlot}>
+            {verdict != null && (
+              <View
+                style={[
+                  styles.verdictChip,
+                  { backgroundColor: verdict.correct ? t.accentDim : t.dangerDim },
+                ]}>
+                <AppText
+                  variant="secondary"
+                  color={verdict.correct ? t.onAccentDim : t.onDangerDim}
+                  numberOfLines={2}
+                  style={{ fontFamily: fonts.extrabold, textAlign: 'center' }}>
+                  {verdict.correct ? '✓ Richtig!' : `✗ ${verdict.text}`}
+                </AppText>
+              </View>
+            )}
+          </View>
+          {verdict == null && (
+            <Pressable
+              disabled={placed.length !== satzbauQ.tiles.length}
+              onPress={submitSatzbau}
+              style={[
+                styles.cta,
+                {
+                  backgroundColor: placed.length === satzbauQ.tiles.length ? t.primary : t.line,
+                  marginTop: spacing.sm,
+                },
+              ]}>
+              <AppText
+                variant="subtitle"
+                color={placed.length === satzbauQ.tiles.length ? '#fff' : t.inkFaint}>
+                Prüfen
+              </AppText>
+            </Pressable>
+          )}
+        </ScrollView>
+      ) : duel.game === 'diktat' ? (
+        <KeyboardAvoidingView behavior="padding" style={styles.fill}>
+          <View style={[styles.fill, { paddingHorizontal: spacing.lg }]}>
+            <View style={styles.speakerBlock}>
+              {duel.me.streak >= 2 && (
+                <View style={[styles.streakChip, { backgroundColor: t.primaryDim }]}>
+                  <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+                    🔥 Serie ×{duel.me.streak}
+                  </AppText>
+                </View>
+              )}
+              <Pressable
+                onPress={() => choiceQ && speakWord(withArticle(choiceQ.word))}
+                style={[styles.speaker, { backgroundColor: speaking ? t.primary : t.primaryDim }]}>
+                <Ionicons name="volume-high" size={38} color={speaking ? '#fff' : t.onPrimaryDim} />
+              </Pressable>
+              <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
+                {PROMPTS.diktat} Zum Wiederholen antippen.
+              </AppText>
+            </View>
+
+            <View style={styles.verdictSlot}>
+              {verdict != null && (
+                <View
+                  style={[
+                    styles.verdictChip,
+                    { backgroundColor: verdict.correct ? t.accentDim : t.dangerDim },
+                  ]}>
+                  <AppText
+                    variant="secondary"
+                    color={verdict.correct ? t.onAccentDim : t.onDangerDim}
+                    numberOfLines={2}
+                    style={{ fontFamily: fonts.extrabold, textAlign: 'center' }}>
+                    {verdict.correct
+                      ? verdict.nearMiss
+                        ? `✓ Fast! Richtig geschrieben: ${verdict.text}`
+                        : `✓ ${verdict.text}`
+                      : `✗ ${verdict.text}`}
+                  </AppText>
+                </View>
+              )}
+            </View>
+
+            <View style={{ flex: 1 }} />
+
+            <View style={{ paddingBottom: spacing.xl }}>
+              <View
+                style={[
+                  styles.inputBar,
+                  {
+                    backgroundColor: t.surface,
+                    borderColor: verdict != null ? (verdict.correct ? t.accent : t.danger) : t.line,
+                  },
+                ]}>
+                <TextInput
+                  ref={inputRef}
+                  value={typed}
+                  onChangeText={setTyped}
+                  editable={verdict == null}
+                  placeholder="Schreib, was du hörst …"
+                  placeholderTextColor={t.inkFaint}
+                  autoCapitalize="none"
+                  autoCorrect={false}
+                  autoFocus
+                  returnKeyType="done"
+                  submitBehavior="submit"
+                  onSubmitEditing={submitTyped}
+                  style={[styles.input, { color: t.ink }]}
+                />
+                <Pressable
+                  hitSlop={8}
+                  disabled={verdict != null || typed.trim().length === 0}
+                  onPress={submitTyped}>
+                  <Ionicons
+                    name="checkmark-circle"
+                    size={30}
+                    color={typed.trim().length > 0 && verdict == null ? t.primary : t.inkFaint}
+                  />
+                </Pressable>
+              </View>
+              <View style={styles.umlautRow}>
+                {UMLAUTS.map((u) => (
+                  <Pressable
+                    key={u}
+                    disabled={verdict != null}
+                    onPress={() => {
+                      setTyped((cur) => cur + u);
+                      inputRef.current?.focus();
+                    }}
+                    style={({ pressed }) => [
+                      styles.umlautKey,
+                      { backgroundColor: t.surface, borderColor: t.line },
+                      pressed && { backgroundColor: t.primaryDim, borderColor: t.primary },
+                    ]}>
+                    <AppText variant="subtitle">{u}</AppText>
+                  </Pressable>
+                ))}
+              </View>
+            </View>
+          </View>
+        </KeyboardAvoidingView>
       ) : (
         <View style={[styles.fill, { paddingHorizontal: spacing.lg }]}>
           <View style={[styles.fill, styles.center]}>
@@ -419,8 +755,8 @@ export default function DuelPlayScreen() {
                 </AppText>
               </View>
             )}
-            {q && isImageQuestion(q) ? (
-              <VocabImage svg={q.word.svg} gender={null} size={150} />
+            {choiceQ && isImageQuestion(choiceQ) ? (
+              <VocabImage svg={choiceQ.word.svg} gender={null} size={150} />
             ) : (
               <AppText
                 variant="headword"
@@ -428,13 +764,20 @@ export default function DuelPlayScreen() {
                 numberOfLines={1}
                 adjustsFontSizeToFit
                 minimumFontScale={0.5}>
-                {q?.word.lemma}
+                {choiceQ?.word.lemma}
               </AppText>
             )}
-            {duel.game === 'derdiedas' && q != null && (
+            {duel.game === 'derdiedas' && choiceQ != null && (
               <AppText variant="secondary" muted style={{ marginTop: spacing.xs }}>
-                {shortGloss(q.word.gloss)}
+                {shortGloss(choiceQ.word.gloss)}
               </AppText>
+            )}
+            {konjCtx != null && (
+              <View style={[styles.konjChip, { backgroundColor: t.primaryDim }]}>
+                <AppText variant="secondary" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
+                  {konjCtx.lead} ___ · {konjCtx.tense}
+                </AppText>
+              </View>
             )}
             <AppText variant="secondary" muted style={{ marginTop: spacing.sm }}>
               {PROMPTS[duel.game] ?? PROMPTS.wortblitz}
@@ -442,9 +785,9 @@ export default function DuelPlayScreen() {
           </View>
 
           <View style={{ gap: spacing.sm, paddingBottom: spacing.xl }}>
-            {q?.options.map((opt, i) => {
+            {choiceQ?.options.map((opt, i) => {
               const showState = selected != null;
-              const isCorrect = i === q.correctIndex;
+              const isCorrect = i === choiceQ.correctIndex;
               const isSel = selected === i;
               let bg = t.surface;
               let border = t.line;
@@ -502,6 +845,66 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 5,
     marginBottom: spacing.md,
+  },
+  speakerBlock: { alignItems: 'center', marginTop: spacing.lg },
+  konjChip: {
+    borderRadius: 999,
+    paddingHorizontal: 14,
+    paddingVertical: 6,
+    marginTop: spacing.md,
+  },
+  slot: {
+    minHeight: 96,
+    borderWidth: 1.5,
+    borderStyle: 'dashed',
+    borderRadius: 16,
+    padding: spacing.md,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: spacing.sm,
+    alignContent: 'flex-start',
+    marginTop: spacing.sm,
+  },
+  pool: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.md },
+  tile: {
+    borderWidth: 1.5,
+    borderRadius: 11,
+    paddingHorizontal: 14,
+    paddingVertical: 9,
+  },
+  speaker: {
+    width: 92,
+    height: 92,
+    borderRadius: 46,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  verdictSlot: { minHeight: 56, marginTop: spacing.md, justifyContent: 'center' },
+  verdictChip: {
+    borderRadius: 14,
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    alignSelf: 'center',
+    maxWidth: '100%',
+  },
+  inputBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    borderRadius: 14,
+    borderWidth: 1.5,
+    paddingHorizontal: spacing.lg,
+    paddingVertical: 11,
+  },
+  input: { flex: 1, fontFamily: fonts.semibold, fontSize: 17, padding: 0 },
+  umlautRow: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.sm },
+  umlautKey: {
+    flex: 1,
+    height: 42,
+    borderRadius: 10,
+    borderWidth: 1.5,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   option: {
     alignItems: 'center',

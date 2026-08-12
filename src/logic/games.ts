@@ -113,6 +113,14 @@ export function dedupeByGloss(words: GameWord[]): GameWord[] {
   return out;
 }
 
+/**
+ * Accumulate a missed word for the result screen's dictionary chips:
+ * deduped, in the order the misses happened.
+ */
+export function addReviewWord(words: string[], lemma: string): string[] {
+  return words.includes(lemma) ? words : [...words, lemma];
+}
+
 // ---------- arcade scoring (Wort-Blitz & Der-die-das) ----------
 
 export const BASE_POINTS = 10;
@@ -132,6 +140,11 @@ export interface ArcadeState {
 
 export function initialArcade(lives: number): ArcadeState {
   return { score: 0, streak: 0, bestStreak: 0, correct: 0, total: 0, lives };
+}
+
+/** Duel round length: typing/building games need more time than option-tapping. */
+export function duelRoundMs(game: GameKey): number {
+  return game === 'diktat' || game === 'satzbau' ? 90_000 : WORTBLITZ_MS;
 }
 
 /** Bonus for the answer that extends a run of `streak` prior correct answers. */
@@ -371,6 +384,8 @@ export function buildSatzbauQuestions(pool: SentenceWord[], seed: number): Satzb
 // ---------- Diktat rounds ----------
 
 export const DIKTAT_WORDS = 10;
+/** Duel rounds are a race — ship enough words that nobody runs dry. */
+export const DIKTAT_DUEL_WORDS = 20;
 
 export interface DiktatQuestion {
   word: GameWord;
@@ -379,11 +394,15 @@ export interface DiktatQuestion {
 }
 
 /**
- * Ten distinct dictation words per round. Nouns are spoken (and typed) with
- * their article, which disambiguates most homophones and drills gender for
- * free.
+ * Distinct dictation words per round (DIKTAT_WORDS unless told otherwise).
+ * Nouns are spoken (and typed) with their article, which disambiguates most
+ * homophones and drills gender for free.
  */
-export function buildDiktatQuestions(pool: GameWord[], seed: number): DiktatQuestion[] {
+export function buildDiktatQuestions(
+  pool: GameWord[],
+  seed: number,
+  count: number = DIKTAT_WORDS
+): DiktatQuestion[] {
   const seen = new Set<string>();
   return shuffled(pool, seed)
     .filter((w) => {
@@ -392,8 +411,21 @@ export function buildDiktatQuestions(pool: GameWord[], seed: number): DiktatQues
       seen.add(key);
       return true;
     })
-    .slice(0, DIKTAT_WORDS)
+    .slice(0, count)
     .map((word) => ({ word, text: withArticle(word) }));
+}
+
+/**
+ * Diktat round in the duel's wire shape: the spoken/typed text is always
+ * withArticle(word), so shipping the word alone suffices — options and
+ * correctIndex are meaningless placeholders for this typing game.
+ */
+export function buildDiktatDuelQuestions(pool: GameWord[], seed: number): ChoiceQuestion[] {
+  return buildDiktatQuestions(pool, seed, DIKTAT_DUEL_WORDS).map((q) => ({
+    word: q.word,
+    options: [],
+    correctIndex: -1,
+  }));
 }
 
 /**

@@ -9,10 +9,12 @@ import {
   buildArtikelQuestions,
   buildBlitzQuestions,
   buildImageQuestions,
+  buildDiktatDuelQuestions,
   buildDiktatQuestions,
   buildKonjugationQuestions,
   buildPairsBoards,
   buildSatzbauQuestions,
+  DIKTAT_DUEL_WORDS,
   DIKTAT_WORDS,
   gradeDiktat,
   gradeSatzbau,
@@ -24,6 +26,7 @@ import {
   KONJUGATION_TAGS,
   konjugationContext,
   PAIRS_BOARDS,
+  addReviewWord,
   PAIRS_PER_BOARD,
   pairsBoardScore,
   SATZBAU_MAX_TOKENS,
@@ -396,6 +399,34 @@ describe('Diktat', () => {
     expect(gradeDiktat('die Straße', 'die strasse')).toMatchObject({ correct: true, nearMiss: true });
     expect(gradeDiktat('das Haus', 'die Haus')).toMatchObject({ correct: false });
     expect(gradeDiktat('laufen', 'kaufen')).toMatchObject({ correct: false });
+  });
+
+  it('honors a custom word count for duel rounds', () => {
+    expect(buildDiktatQuestions(pool, 3, 4)).toHaveLength(4);
+    expect(buildDiktatQuestions(pool, 3, DIKTAT_DUEL_WORDS)).toHaveLength(
+      Math.min(DIKTAT_DUEL_WORDS, pool.length)
+    );
+  });
+
+  it('buildDiktatDuelQuestions ships plain words in the duel wire shape', () => {
+    const questions = buildDiktatDuelQuestions(pool, 7);
+    expect(questions).toHaveLength(Math.min(DIKTAT_DUEL_WORDS, pool.length));
+    for (const q of questions) {
+      expect(q.options).toEqual([]);
+      expect(q.correctIndex).toBe(-1);
+    }
+    // The spoken text is reconstructible on every device from the word alone.
+    expect(questions.map((q) => withArticle(q.word))).toEqual(
+      buildDiktatQuestions(pool, 7, DIKTAT_DUEL_WORDS).map((q) => q.text)
+    );
+  });
+});
+
+describe('addReviewWord', () => {
+  it('appends missed words once, keeping miss order', () => {
+    let words: string[] = [];
+    for (const lemma of ['Baum', 'Haus', 'Baum']) words = addReviewWord(words, lemma);
+    expect(words).toEqual(['Baum', 'Haus']);
   });
 });
 

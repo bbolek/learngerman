@@ -15,20 +15,27 @@ import { useTheme } from '@/ui/useTheme';
  */
 export function ExampleText({
   text,
-  excludeLemmaId,
+  excludeLemmaId = -1,
   variant = 'body',
   style,
   color,
   linkAll = false,
+  subtle = false,
 }: {
   text: string;
   /** The screen's own headword — never linked to itself. */
-  excludeLemmaId: number;
-  variant?: 'body' | 'secondary';
+  excludeLemmaId?: number;
+  variant?: 'body' | 'secondary' | 'section';
   style?: StyleProp<TextStyle>;
   color?: string;
   /** Link A1 words too (Leseecke, where beginners tap everything). */
   linkAll?: boolean;
+  /**
+   * Quiet links for question prompts: tappable words keep the surrounding
+   * text color and only carry the underline, so the exercise text doesn't
+   * turn into a wall of accent color.
+   */
+  subtle?: boolean;
 }) {
   const t = useTheme();
   const onWordTap = useWordTap();
@@ -63,7 +70,7 @@ export function ExampleText({
             variant={variant}
             suppressHighlighting
             onPress={() => onWordTap(seg.text)}
-            color={t.primary}
+            color={subtle ? color : t.primary}
             style={[style, { textDecorationLine: 'underline' }]}>
             {seg.text}
           </AppText>

@@ -6,6 +6,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { fetchGenderNouns, recordGameResult, statsByGame, type RecordOutcome } from '@/db/gamesRepo';
 import { recordMistakes } from '@/db/mistakesRepo';
 import {
+  addReviewWord,
   applyArcadeAnswer,
   DERDIEDAS_LIVES,
   gameInfo,
@@ -47,6 +48,7 @@ export default function DerDieDasScreen() {
   const [picked, setPicked] = useState<string | null>(null);
   const [outcome, setOutcome] = useState<RecordOutcome | null>(null);
   const [xpEarned, setXpEarned] = useState<number | null>(null);
+  const [reviewWords, setReviewWords] = useState<string[]>([]);
 
   const startedAtRef = useRef(0);
   const finishedRef = useRef(false);
@@ -67,6 +69,7 @@ export default function DerDieDasScreen() {
     setPicked(null);
     setOutcome(null);
     setXpEarned(null);
+    setReviewWords([]);
     finishedRef.current = false;
     missedRef.current = [];
     startedAtRef.current = Date.now();
@@ -108,7 +111,10 @@ export default function DerDieDasScreen() {
     const word = words[index];
     if (!word || picked != null || finishedRef.current) return;
     const correct = word.gender === gender;
-    if (!correct) missedRef.current.push(word.id);
+    if (!correct) {
+      missedRef.current.push(word.id);
+      setReviewWords((cur) => addReviewWord(cur, word.lemma));
+    }
     playSound(correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
@@ -149,6 +155,7 @@ export default function DerDieDasScreen() {
             value: arcade.total > 0 ? `${Math.round((arcade.correct / arcade.total) * 100)}%` : '–',
           },
         ]}
+        reviewWords={reviewWords}
         onRetry={start}
       />
     );

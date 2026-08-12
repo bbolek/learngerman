@@ -6,6 +6,7 @@ import { KeyboardAvoidingView, Pressable, StyleSheet, TextInput, View } from 're
 import { fetchGameWords, recordGameResult, statsByGame, type RecordOutcome } from '@/db/gamesRepo';
 import { recordMistakes } from '@/db/mistakesRepo';
 import {
+  addReviewWord,
   applyArcadeAnswer,
   buildDiktatQuestions,
   DIKTAT_WORDS,
@@ -46,6 +47,7 @@ export default function DiktatScreen() {
   const [speaking, setSpeaking] = useState(false);
   const [outcome, setOutcome] = useState<RecordOutcome | null>(null);
   const [xpEarned, setXpEarned] = useState<number | null>(null);
+  const [reviewWords, setReviewWords] = useState<string[]>([]);
 
   const inputRef = useRef<TextInput>(null);
   const startedAtRef = useRef(0);
@@ -90,6 +92,7 @@ export default function DiktatScreen() {
     setVerdict(null);
     setOutcome(null);
     setXpEarned(null);
+    setReviewWords([]);
     finishedRef.current = false;
     missedRef.current = [];
     startedAtRef.current = Date.now();
@@ -131,7 +134,10 @@ export default function DiktatScreen() {
     const q = questions[index];
     if (!q || verdict != null || finishedRef.current || answer.trim().length === 0) return;
     const result = gradeDiktat(q.text, answer);
-    if (!result.correct) missedRef.current.push(q.word.id);
+    if (!result.correct) {
+      missedRef.current.push(q.word.id);
+      setReviewWords((cur) => addReviewWord(cur, q.word.lemma));
+    }
     playSound(result.correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
@@ -175,6 +181,7 @@ export default function DiktatScreen() {
             value: arcade.total > 0 ? `${Math.round((arcade.correct / arcade.total) * 100)}%` : '–',
           },
         ]}
+        reviewWords={reviewWords}
         onRetry={start}
       />
     );

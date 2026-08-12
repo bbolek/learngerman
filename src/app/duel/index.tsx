@@ -95,7 +95,7 @@ export default function DuelLobbyScreen() {
       {mode === 'menu' && (
         <View style={{ padding: spacing.lg, gap: spacing.md }}>
           <AppText variant="secondary" muted style={{ marginBottom: spacing.sm }}>
-            Spielt gemeinsam im selben WLAN — gleiche Aufgaben, 60 Sekunden, bis zu{' '}
+            Spielt gemeinsam im selben WLAN — gleiche Aufgaben, gleiche Zeit, bis zu{' '}
             {DUEL_MAX_PLAYERS} Spieler. Wer die meisten Punkte holt, gewinnt.
           </AppText>
           <Card style={styles.choice} onPress={() => setMode('pick')}>

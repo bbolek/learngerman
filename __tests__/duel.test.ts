@@ -13,7 +13,17 @@ import {
   type DuelMsg,
   type DuelState,
 } from '@/logic/duel';
-import { buildArtikelQuestions, buildBlitzQuestions, type GameWord } from '@/logic/games';
+import {
+  buildArtikelQuestions,
+  buildBlitzQuestions,
+  buildDiktatDuelQuestions,
+  buildDiktatQuestions,
+  buildSatzbauQuestions,
+  duelRoundMs,
+  withArticle,
+  type GameWord,
+  type SentenceWord,
+} from '@/logic/games';
 
 // ---------- fixtures ----------
 
@@ -275,7 +285,51 @@ describe('round play', () => {
     const artikel = buildArtikelQuestions(POOL, 7);
     sim.dispatchHost({ type: 'localStart', questions: artikel, seed: 7, durationMs: 60_000 });
     expect(sim.guest('g1').game).toBe('derdiedas');
-    expect(sim.guest('g1').questions[0].options).toEqual(['der', 'die', 'das']);
+    const first = sim.guest('g1').questions[0];
+    expect('options' in first && first.options).toEqual(['der', 'die', 'das']);
+  });
+
+  it('a Diktat round survives the wire: option-less questions, longer clock', () => {
+    const sim = new Sim('diktat');
+    sim.join('g1', 'Ben');
+    const diktat = buildDiktatDuelQuestions(POOL, 7);
+    sim.dispatchHost({
+      type: 'localStart',
+      questions: diktat,
+      seed: 7,
+      durationMs: duelRoundMs('diktat'),
+    });
+    const g = sim.guest('g1');
+    expect(g.game).toBe('diktat');
+    expect(g.durationMs).toBe(duelRoundMs('diktat'));
+    expect(duelRoundMs('diktat')).toBeGreaterThan(duelRoundMs('wortblitz'));
+    expect(JSON.parse(JSON.stringify(g.questions))).toEqual(JSON.parse(JSON.stringify(diktat)));
+    // Every device rebuilds the spoken text from the shipped word.
+    const words = g.questions.map((q) => ('word' in q ? q.word : null));
+    expect(words.map((w) => w && withArticle(w))).toEqual(
+      buildDiktatQuestions(POOL, 7, g.questions.length).map((q) => q.text)
+    );
+  });
+
+  it('a Satzbau round ships sentences with pre-scrambled tiles to every guest', () => {
+    const sentences: SentenceWord[] = Array.from({ length: 12 }, (_, i) => ({
+      id: 100 + i,
+      de: `Der Mann kauft heute Brot Nummer${i}.`,
+      en: `The man buys bread number${i} today.`,
+    }));
+    const sim = new Sim('satzbau');
+    sim.join('g1', 'Ben');
+    const satzbau = buildSatzbauQuestions(sentences, 5);
+    sim.dispatchHost({
+      type: 'localStart',
+      questions: satzbau,
+      seed: 5,
+      durationMs: duelRoundMs('satzbau'),
+    });
+    const g = sim.guest('g1');
+    expect(g.game).toBe('satzbau');
+    // Tiles arrive in the host's scrambled order — identical round everywhere.
+    expect(JSON.parse(JSON.stringify(g.questions))).toEqual(JSON.parse(JSON.stringify(satzbau)));
   });
 
   it('progress is relayed live to every other player', () => {

@@ -6,6 +6,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import { fetchVerbWords, recordGameResult, statsByGame, type RecordOutcome } from '@/db/gamesRepo';
 import { recordMistakes } from '@/db/mistakesRepo';
 import {
+  addReviewWord,
   applyArcadeAnswer,
   buildKonjugationQuestions,
   gameInfo,
@@ -41,6 +42,7 @@ export default function KonjugationScreen() {
   const [selected, setSelected] = useState<number | null>(null);
   const [outcome, setOutcome] = useState<RecordOutcome | null>(null);
   const [xpEarned, setXpEarned] = useState<number | null>(null);
+  const [reviewWords, setReviewWords] = useState<string[]>([]);
 
   const startedAtRef = useRef(0);
   const finishedRef = useRef(false);
@@ -62,6 +64,7 @@ export default function KonjugationScreen() {
     setSelected(null);
     setOutcome(null);
     setXpEarned(null);
+    setReviewWords([]);
     finishedRef.current = false;
     missedRef.current = [];
     startedAtRef.current = Date.now();
@@ -103,7 +106,10 @@ export default function KonjugationScreen() {
     const q = questions[index];
     if (!q || selected != null || finishedRef.current) return;
     const correct = i === q.correctIndex;
-    if (!correct) missedRef.current.push(q.word.id);
+    if (!correct) {
+      missedRef.current.push(q.word.id);
+      setReviewWords((cur) => addReviewWord(cur, q.word.lemma));
+    }
     playSound(correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
@@ -144,6 +150,7 @@ export default function KonjugationScreen() {
             value: arcade.total > 0 ? `${Math.round((arcade.correct / arcade.total) * 100)}%` : '–',
           },
         ]}
+        reviewWords={reviewWords}
         onRetry={start}
       />
     );

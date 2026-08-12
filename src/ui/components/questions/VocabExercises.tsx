@@ -13,6 +13,7 @@ import { articleFor } from '@/logic/formLabels';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip } from '@/ui/components/Chip';
+import { ExampleText } from '@/ui/components/ExampleText';
 import { ListenButton } from '@/ui/components/ListenButton';
 import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, radius, spacing } from '@/ui/theme';
@@ -95,9 +96,11 @@ export function WordIntro({
         )}
         {word.example_de && (
           <View style={{ marginTop: spacing.lg, alignItems: 'center' }}>
-            <AppText variant="body" style={{ fontFamily: fonts.serif, textAlign: 'center', fontSize: 17 }}>
-              „{word.example_de}“
-            </AppText>
+            <ExampleText
+              text={`„${word.example_de}“`}
+              excludeLemmaId={word.lemma_id}
+              style={{ fontFamily: fonts.serif, textAlign: 'center', fontSize: 17 }}
+            />
             {word.example_en && (
               <AppText variant="secondary" muted style={{ marginTop: 3, textAlign: 'center' }}>
                 {word.example_en}

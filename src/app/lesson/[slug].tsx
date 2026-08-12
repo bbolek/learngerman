@@ -66,6 +66,7 @@ import { playSound } from '@/services/sound';
 import { celebrate } from '@/store/celebration';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
+import { VocabTapProvider } from '@/ui/components/MarkdownLite';
 import { ProgressRing } from '@/ui/components/ProgressRing';
 import {
   CaseIdQuestion,
@@ -522,6 +523,7 @@ export default function LessonScreen() {
   const progress = index / queue.length;
 
   return (
+    <VocabTapProvider>
     <View style={[styles.fill, { backgroundColor: t.bg, paddingTop: insets.top + spacing.md }]}>
       <View style={styles.top}>
         <Pressable hitSlop={10} onPress={() => router.back()}>
@@ -723,6 +725,7 @@ export default function LessonScreen() {
         );
       })()}
     </View>
+    </VocabTapProvider>
   );
 }
 

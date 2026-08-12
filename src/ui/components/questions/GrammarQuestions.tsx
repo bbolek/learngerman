@@ -19,11 +19,30 @@ import {
   type OrderPayload,
 } from '@/logic/graders';
 import { AppText } from '@/ui/components/AppText';
+import { ExampleText } from '@/ui/components/ExampleText';
 import { ListenButton } from '@/ui/components/ListenButton';
 import { fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 const UMLAUTS = ['ä', 'ö', 'ü', 'ß'] as const;
+
+/**
+ * Question sentence with every dictionary word tappable (underlined, quiet
+ * styling) — learners meet unknown vocabulary inside grammar exercises, so
+ * each prompt doubles as a lookup surface. Needs a VocabTapProvider up the
+ * tree; without one it renders as plain text.
+ */
+function PromptText({ text }: { text: string }) {
+  return (
+    <ExampleText
+      text={text}
+      variant="section"
+      linkAll
+      subtle
+      style={{ flex: 1, lineHeight: 34 }}
+    />
+  );
+}
 
 function cap(s: string): string {
   return s.charAt(0).toUpperCase() + s.slice(1);
@@ -59,9 +78,7 @@ export function McQuestion({
   return (
     <View>
       <View style={styles.promptRow}>
-        <AppText variant="section" style={{ flex: 1, lineHeight: 34 }}>
-          {payload.prompt}
-        </AppText>
+        <PromptText text={payload.prompt} />
         <ListenButton text={speakablePrompt(payload.prompt)} size={20} style={{ marginTop: 8 }} />
       </View>
       <View style={{ marginTop: spacing.lg, gap: spacing.sm }}>
@@ -116,9 +133,7 @@ export function FillQuestion({
   return (
     <View>
       <View style={styles.promptRow}>
-        <AppText variant="section" style={{ flex: 1, lineHeight: 34 }}>
-          {payload.prompt}
-        </AppText>
+        <PromptText text={payload.prompt} />
         <ListenButton text={speakablePrompt(payload.prompt)} size={20} style={{ marginTop: 8 }} />
       </View>
       {payload.hint && (
@@ -282,11 +297,11 @@ export function CaseIdQuestion({
     <View>
       <View style={styles.promptRow}>
         <AppText variant="section" style={{ flex: 1, lineHeight: 34 }}>
-          {before}
+          <ExampleText text={before} variant="section" linkAll subtle style={{ lineHeight: 34 }} />
           <AppText variant="section" color={t.onPrimaryDim} style={{ backgroundColor: t.primaryDim }}>
             {target}
           </AppText>
-          {after}
+          <ExampleText text={after} variant="section" linkAll subtle style={{ lineHeight: 34 }} />
         </AppText>
         <ListenButton text={`${before}${target}${after}`} size={20} style={{ marginTop: 8 }} />
       </View>

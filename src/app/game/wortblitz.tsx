@@ -5,6 +5,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import { fetchGameWords, recordGameResult, statsByGame, type RecordOutcome } from '@/db/gamesRepo';
 import { recordMistakes } from '@/db/mistakesRepo';
 import {
+  addReviewWord,
   applyArcadeAnswer,
   buildBlitzQuestions,
   gameInfo,
@@ -39,6 +40,7 @@ export default function WortblitzScreen() {
   const [remaining, setRemaining] = useState(WORTBLITZ_MS);
   const [outcome, setOutcome] = useState<RecordOutcome | null>(null);
   const [xpEarned, setXpEarned] = useState<number | null>(null);
+  const [reviewWords, setReviewWords] = useState<string[]>([]);
 
   const arcadeRef = useRef(arcade);
   const endAtRef = useRef(0);
@@ -65,6 +67,7 @@ export default function WortblitzScreen() {
     setSelected(null);
     setOutcome(null);
     setXpEarned(null);
+    setReviewWords([]);
     finishedRef.current = false;
     missedRef.current = [];
     endAtRef.current = Date.now() + WORTBLITZ_MS;
@@ -118,7 +121,10 @@ export default function WortblitzScreen() {
     const q = questions[index];
     if (!q || selected != null || finishedRef.current) return;
     const correct = i === q.correctIndex;
-    if (!correct) missedRef.current.push(q.word.id);
+    if (!correct) {
+      missedRef.current.push(q.word.id);
+      setReviewWords((cur) => addReviewWord(cur, q.word.lemma));
+    }
     playSound(correct ? 'correct' : 'wrong');
     if (haptics) {
       Haptics.notificationAsync(
@@ -152,6 +158,7 @@ export default function WortblitzScreen() {
           { label: 'Beste Serie', value: `${arcade.bestStreak}` },
           { label: 'Pro Wort', value: arcade.correct > 0 ? `${(60 / arcade.correct).toFixed(1)}s` : '–' },
         ]}
+        reviewWords={reviewWords}
         onRetry={start}
       />
     );

@@ -241,10 +241,13 @@ One graded text per file in `scripts/data/reading/*.json`:
 {
   "slug": "im-cafe",          // kebab-case, stable — reading_progress keys on it
   "title": "Im Café",
-  "level": "A1",              // A1|A2|B1
+  "level": "A1",              // A1|A2|B1|B2|C1|C2
   "teaser": "Lena hat Durst …",   // one-line hook for the list screen
+  "source": "Nacherzählung nach den Brüdern Grimm · gemeinfrei",  // optional
+  "illustration": "☕",       // optional cover emoji (Noto, vendored)
   "paragraphs": [
-    { "de": "…", "en": "…" }  // German paragraph + English translation
+    // German paragraph + English translation, optional scene emoji
+    { "de": "…", "en": "…", "illustration": "🌙" }
   ]
 }
 ```
@@ -253,8 +256,23 @@ Rules:
 
 - Never rename a `slug` — the user's completion state (`reading_progress`)
   is keyed by it and would be orphaned.
-- Keep texts short (80–160 words) and level-appropriate: A1 Präsens and
-  core vocab, A2 may use Perfekt, B1 subordinate clauses.
+- Length grows with the level: A1/A2 80–250 words, B1 100–350, B2/C1 350–450,
+  C2 450–550. The build derives the word-count badge, `xpForReadingText()`
+  pays more for longer texts, and a test caps texts at 700 words — a text
+  should still be one sitting.
+- Level-appropriate grammar: A1 Präsens and core vocab, A2 may use Perfekt,
+  B1 subordinate clauses and Präteritum, B2 Passiv and Konjunktiv II,
+  C1/C2 Partizipialkonstruktionen, Nominalisierungen, indirekte Rede.
+- `illustration` takes a single emoji and resolves to the same vendored Noto
+  SVGs as `images.json` (`scripts/data/images/noto/emoji_uXXXX.svg`) — the
+  build fails when the file is missing, so vendor it first. Unlike vocabulary
+  images these may repeat across texts: reading art never feeds the
+  Bilderrätsel answer pool. Use a cover emoji per text and two or three
+  scene emoji on the paragraphs that carry a turning point.
+- `source` is required whenever the text retells existing material. Only
+  public-domain sources (Grimm, Äsop, Eulenspiegel, Bürger, Storm, Kafka …),
+  written as a fresh graded **Nacherzählung** rather than a copied original,
+  and the line must end in `· gemeinfrei` (a test checks it).
 - Every word is tappable in the reader (fuzzy dictionary lookup) — prefer
   vocabulary the dictionary knows, but unmatched words are simply not
   linked; nothing breaks.

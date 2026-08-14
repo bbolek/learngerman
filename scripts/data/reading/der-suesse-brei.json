@@ -1,0 +1,36 @@
+{
+  "slug": "der-suesse-brei",
+  "title": "Der süße Brei",
+  "level": "A2",
+  "teaser": "Ein Topf kocht Brei, so viel man will — wenn man nur das richtige Wort kennt.",
+  "source": "Nacherzählung nach den Brüdern Grimm · gemeinfrei",
+  "illustration": "🍲",
+  "paragraphs": [
+    {
+      "de": "Es war einmal ein armes Mädchen. Es lebte allein mit seiner Mutter, und die beiden hatten fast nichts mehr zu essen. Eines Tages ging das Mädchen in den Wald, weil es Hunger hatte und nicht mehr weiterwusste.",
+      "en": "Once upon a time there was a poor girl. She lived alone with her mother, and the two of them had almost nothing left to eat. One day the girl went into the forest, because she was hungry and did not know what else to do.",
+      "illustration": "🌲"
+    },
+    {
+      "de": "Im Wald traf sie eine alte Frau. Die Frau kannte die Not des Mädchens und schenkte ihm einen kleinen Topf. „Wenn du sagst: Töpfchen, koche! — dann kocht er süßen Brei. Und wenn du sagst: Töpfchen, steh! — dann hört er wieder auf.“",
+      "en": "In the forest she met an old woman. The woman knew the girl's hardship and gave her a small pot. \"If you say: Little pot, cook! — then it cooks sweet porridge. And if you say: Little pot, stop! — then it stops again.\"",
+      "illustration": "👵"
+    },
+    {
+      "de": "Das Mädchen brachte den Topf nach Hause. Von diesem Tag an hatten Mutter und Tochter immer genug zu essen. Sie konnten so oft süßen Brei kochen, wie sie wollten.",
+      "en": "The girl brought the pot home. From that day on, mother and daughter always had enough to eat. They could cook sweet porridge as often as they wanted."
+    },
+    {
+      "de": "Eines Tages war das Mädchen nicht zu Hause. Die Mutter hatte Hunger und sagte: „Töpfchen, koche!“ Der Topf kochte, und die Mutter aß. Dann wollte sie ihn wieder anhalten — aber sie hatte das zweite Wort vergessen.",
+      "en": "One day the girl was not at home. The mother was hungry and said: \"Little pot, cook!\" The pot cooked, and the mother ate. Then she wanted to stop it again — but she had forgotten the second word."
+    },
+    {
+      "de": "Der Brei lief aus dem Topf, über den Tisch, aus der Küche und auf die Straße. Bald war das ganze Dorf voll süßem Brei, und die Leute liefen aus ihren Häusern.",
+      "en": "The porridge ran out of the pot, across the table, out of the kitchen and onto the street. Soon the whole village was full of sweet porridge, and the people ran out of their houses."
+    },
+    {
+      "de": "Endlich kam das Mädchen zurück und rief: „Töpfchen, steh!“ Da hörte der Topf sofort auf. Wer aber danach in das Dorf wollte, der musste sich erst einen Weg durch den Brei essen.",
+      "en": "At last the girl came back and called: \"Little pot, stop!\" Then the pot stopped at once. But anyone who wanted to get into the village after that first had to eat a path through the porridge."
+    }
+  ]
+}

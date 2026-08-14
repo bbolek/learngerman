@@ -6,13 +6,18 @@ export interface ReadingTextRow {
   title: string;
   level: string;
   teaser: string;
+  /** Provenance line for retold public-domain material; null for originals. */
+  source: string | null;
+  /** Cover artwork (vendored Noto emoji SVG), null when the text has none. */
+  illustration_svg: string | null;
   word_count: number;
   /** Set when the user finished this text (join on reading_progress). */
   completed_at: string | null;
 }
 
 const TEXT_SELECT = `
-  SELECT t.id, t.slug, t.title, t.level, t.teaser, t.word_count, p.completed_at
+  SELECT t.id, t.slug, t.title, t.level, t.teaser, t.source, t.illustration_svg,
+         t.word_count, p.completed_at
   FROM reading_texts t LEFT JOIN reading_progress p ON p.slug = t.slug`;
 
 /**
@@ -31,6 +36,8 @@ export async function listReadingTexts(): Promise<ReadingTextRow[]> {
 export interface ReadingParagraph {
   de: string;
   en: string;
+  /** Optional scene artwork shown above the paragraph. */
+  illustration_svg: string | null;
 }
 
 export interface ReadingText extends ReadingTextRow {
@@ -47,7 +54,7 @@ export async function getReadingText(slug: string): Promise<ReadingText | null> 
   }
   if (!text) return null;
   const paragraphs = await db.getAllAsync<ReadingParagraph>(
-    'SELECT de, en FROM reading_paragraphs WHERE text_id = ? ORDER BY sort_order',
+    'SELECT de, en, illustration_svg FROM reading_paragraphs WHERE text_id = ? ORDER BY sort_order',
     [text.id]
   );
   return { ...text, paragraphs };

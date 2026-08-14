@@ -4,7 +4,7 @@ import { SvgXml } from 'react-native-svg';
 import { useTheme } from '@/ui/useTheme';
 
 interface VocabImageProps {
-  /** SVG document text from lemma_images (bundled Noto emoji). */
+  /** SVG document text from lemma_images or reading_texts (bundled Noto emoji). */
   svg: string;
   /** Noun gender tints the tile (der/die/das chip colors); others get primary. */
   gender: string | null;

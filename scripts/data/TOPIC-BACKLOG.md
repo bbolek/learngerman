@@ -51,3 +51,26 @@ batches, so these batches carry only the event-specific gap words.
 Two probed events were too thin for own themes and were folded into
 existing batches instead: leaving home → batch-121 (Umzug theme),
 illness & recovery → batch-34 (Gesundheit theme).
+
+## C2 expansion (batches 128–131)
+
+C2 was the thinnest band by far — 186 headwords against 1711 at C1 — so
+learners who finished C1 ran out of new words. Four batches added 256
+entries, all gap-probed against the built dictionary before authoring:
+
+- batch-128 Wissenschaft & Erkenntnis (theme: philosophie) — the vocabulary
+  of argument and method: Postulat, Kontingenz, Aporie, deduzieren,
+  kontrafaktisch.
+- batch-129 Recht, Macht & Charakter (theme: recht) — Amtssprache and the
+  words for how people behave under power: Obliegenheit, Einrede, ahnden,
+  willfährig.
+- batch-130 Stil, Rhetorik & Literatur (theme: sprache, new) — how texts are
+  described: Duktus, Litotes, Gemeinplatz, schwadronieren, lapidar.
+- batch-131 Wirtschaft & Gesellschaft (theme: wirtschaft) — the register of
+  policy debate: Prekariat, Daseinsvorsorge, Externalität, aushebeln,
+  antizyklisch.
+
+C2 now stands at 442. Remaining candidates for a fifth batch (probed, not
+yet authored): Verwaltung & Diplomatie (Demarche, Notifikation, Kommuniqué,
+Ressortabstimmung), Medizin & Psyche gehoben (Rekonvaleszenz, Somatisierung,
+Ätiologie), Technik & Ingenieurwesen C2 (Redundanzauslegung, Toleranzkette).

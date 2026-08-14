@@ -13296,6 +13296,301 @@ export const THEMES: Theme[] = [
         "lemma": "verhandelbar",
         "pos": "adj",
         "level": "B2"
+      },
+      {
+        "lemma": "Prekariat",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Prosperität",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Stagnation",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Austerität",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Disruption",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Umverteilung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Teilhabe",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Durchlässigkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Segregation",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Polarisierung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Radikalisierung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Entfremdung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Vereinzelung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Gemeinwohl",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Daseinsvorsorge",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Subsidiarität",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Solidargemeinschaft",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Generationenvertrag",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Abwanderung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Landflucht",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Gentrifizierung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Verdrängung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Marktversagen",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Externalität",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Oligopol",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Kartellbildung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Realeinkommen",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Verteilungsgerechtigkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Bürokratieabbau",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Regulierungsdichte",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Innovationskraft",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Wettbewerbsfähigkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Standortvorteil",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Skaleneffekt",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Effizienzgewinn",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "aushebeln",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "abfedern",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "abmildern",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "flankieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "gegensteuern",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "umsteuern",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "nachjustieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "nachschärfen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "deregulieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "entbürokratisieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "umschichten",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "quersubventionieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "strukturell",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "zyklisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "antizyklisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "prozyklisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "disruptiv",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "skalierbar",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "systemrelevant",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "marktbeherrschend",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "gemeinnützig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "krisenfest",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "kapitalintensiv",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "arbeitsintensiv",
+        "pos": "adj",
+        "level": "C2"
       }
     ]
   },
@@ -16536,6 +16831,361 @@ export const THEMES: Theme[] = [
         "lemma": "polizeilich",
         "pos": "adj",
         "level": "B2"
+      },
+      {
+        "lemma": "Obliegenheit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Maßgabe",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Einrede",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Anfechtung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Dekret",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Plebiszit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Junktim",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Repressalie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Rechtsbeugung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Amtsanmaßung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Befangenheit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Insubordination",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Restitution",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Sühne",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Läuterung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Zerknirschung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Absolution",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Hybris",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Vermessenheit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Dünkel",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Schikane",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Lauterkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Redlichkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Unbescholtenheit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Verschlagenheit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Skrupellosigkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Unbeugsamkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Willfährigkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Obrigkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Würdenträger",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Statthalter",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Sachwalter",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Widersacher",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Antipode",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Verfechter",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Wortführer",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Mitläufer",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Denunziant",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Aufwiegler",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Querulant",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "ahnden",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "maßregeln",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "geißeln",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "brandmarken",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "usurpieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "vereinnahmen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "sanktionieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "nivellieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "huldigen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "abschwören",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "zeitigen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "anberaumen",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "unbeugsam",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "halsstarrig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "willfährig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "untertänig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "aufsässig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "unbescholten",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "redlich",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "verschlagen",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "durchtrieben",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "unerbittlich",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "unnachgiebig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "konziliant",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "vehement",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "integer",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "unbestechlich",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "arglistig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "rechthaberisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "unversöhnlich",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "spitzfindig",
+        "pos": "adj",
+        "level": "C2"
       }
     ]
   },
@@ -36900,6 +37550,301 @@ export const THEMES: Theme[] = [
         "lemma": "paradox",
         "pos": "adj",
         "level": "B2"
+      },
+      {
+        "lemma": "Postulat",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Empirie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Kontingenz",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Reziprozität",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Heuristik",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Antinomie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Aporie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Dichotomie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Stringenz",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Explikation",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Falsifikation",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Konnotation",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Denotation",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Epistemologie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Teleologie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Introspektion",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Intersubjektivität",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Operationalisierung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Deutungshoheit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Erkenntnisgewinn",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Erkenntnisinteresse",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Begriffsschärfe",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Denkfigur",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Zirkelschluss",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Scheinargument",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Widerspruchsfreiheit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Erklärungskraft",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Vorannahme",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Denkanstoß",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Indizienkette",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "konzeptualisieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "operationalisieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "kontextualisieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "deduzieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "plausibilisieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "historisieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "interpolieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "fundieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "kontingent",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "deduktiv",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "induktiv",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "heuristisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "axiomatisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "tautologisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "reziprok",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "komplementär",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "normativ",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "deskriptiv",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "präskriptiv",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "teleologisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "epistemisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "apriorisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "kategorial",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "konstitutiv",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "positivistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "relativistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "holistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "reduktionistisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "kontrafaktisch",
+        "pos": "adj",
+        "level": "C2"
       }
     ]
   },
@@ -43574,6 +44519,348 @@ export const THEMES: Theme[] = [
       {
         "lemma": "bar",
         "pos": "prep",
+        "level": "C2"
+      }
+    ]
+  },
+  {
+    "slug": "sprache",
+    "title": "Sprache & Stil",
+    "emoji": "✍️",
+    "words": [
+      {
+        "lemma": "Duktus",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Diktion",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Lakonie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Pathos",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Zynismus",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Persiflage",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Travestie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Metonymie",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Hyperbel",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Litotes",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Anapher",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Ellipse",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Topos",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Leitmotiv",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Chiffre",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Aphorismus",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Sentenz",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Bonmot",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Plattitüde",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Gemeinplatz",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Binsenweisheit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Truismus",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Floskel",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Stilblüte",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Stilbruch",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Schwulst",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Manierismus",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Epigonentum",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Weitschweifigkeit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Wortkargheit",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Zuspitzung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Untertreibung",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Sprachwitz",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Sprachgefühl",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "Idiom",
+        "pos": "noun",
+        "level": "C2"
+      },
+      {
+        "lemma": "schwadronieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "dozieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "räsonieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "persiflieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "parodieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "deklamieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "rezitieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "apostrophieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "titulieren",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "schönfärben",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "ausschmücken",
+        "pos": "verb",
+        "level": "C2"
+      },
+      {
+        "lemma": "lapidar",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "prosaisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "bombastisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "schwülstig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "gestelzt",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "gespreizt",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "geschliffen",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "vielschichtig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "abgründig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "hintergründig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "doppelbödig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "unterschwellig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "eklektisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "nebulös",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "orakelhaft",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "emphatisch",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "scharfzüngig",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "wortkarg",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "ausschweifend",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "beredt",
+        "pos": "adj",
+        "level": "C2"
+      },
+      {
+        "lemma": "treffsicher",
+        "pos": "adj",
         "level": "C2"
       }
     ]

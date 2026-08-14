@@ -10,12 +10,12 @@
   { "slug": "bewerbung", "title": "Bewerbung & Jobsuche", "emoji": "🤝", "batches": ["batch-116-bewerbung-jobsuche"] },
   { "slug": "aufstieg", "title": "Beförderung & Aufstieg", "emoji": "🚀", "batches": ["batch-120-befoerderung-aufstieg"] },
   { "slug": "gruendung", "title": "Firmengründung & Start-up", "emoji": "💡", "batches": ["batch-127-firmengruendung"] },
-  { "slug": "wirtschaft", "title": "Wirtschaft & Handel", "emoji": "📈", "batches": ["batch-67-wirtschaft-finanzen-b2", "batch-83-industrie-produktion-b2", "batch-98-konsum-handel-dienstleistung-b2"] },
+  { "slug": "wirtschaft", "title": "Wirtschaft & Handel", "emoji": "📈", "batches": ["batch-67-wirtschaft-finanzen-b2", "batch-83-industrie-produktion-b2", "batch-98-konsum-handel-dienstleistung-b2", "batch-131-c2-wirtschaft-gesellschaft"] },
   { "slug": "geld", "title": "Geld & Bank", "emoji": "💶", "batches": ["batch-30-bank-geld"] },
   { "slug": "lotto", "title": "Lottogewinn & Glück", "emoji": "🍀", "batches": ["batch-125-lottogewinn"] },
   { "slug": "amt", "title": "Amt & Bürokratie", "emoji": "📋", "batches": ["batch-29-amt-buerokratie"] },
   { "slug": "politik", "title": "Politik & Gesellschaft", "emoji": "🏛️", "batches": ["batch-19-b1-politik-gesellschaft", "batch-68-politik-verwaltung-b2"] },
-  { "slug": "recht", "title": "Recht & Justiz", "emoji": "⚖️", "batches": ["batch-44-recht-gesetz", "batch-79-kriminalitaet-justiz-b2"] },
+  { "slug": "recht", "title": "Recht & Justiz", "emoji": "⚖️", "batches": ["batch-44-recht-gesetz", "batch-79-kriminalitaet-justiz-b2", "batch-129-c2-recht-macht-charakter"] },
   { "slug": "technik", "title": "Technik & Medien", "emoji": "💻", "batches": ["batch-20-b1-technologie-medien", "batch-59-technik-internet", "batch-71-technik-ingenieur-b2", "batch-73-medien-kommunikation-b2"] },
   { "slug": "umwelt", "title": "Umwelt & Wetter", "emoji": "🌿", "batches": ["batch-24-b1-umwelt-natur", "batch-56-natur-wetter", "batch-72-umwelt-klima-b2"] },
   { "slug": "tiere", "title": "Tiere & Pflanzen", "emoji": "🐾", "batches": ["batch-47-tiere-natur", "batch-95-tierwelt-pflanzen-b2"] },
@@ -47,7 +47,7 @@
   { "slug": "landwirtschaft", "title": "Landwirtschaft", "emoji": "🚜", "batches": ["batch-105-landwirtschaft"] },
   { "slug": "religion", "title": "Religion & Glaube", "emoji": "🕊️", "batches": ["batch-43-religion-glaube", "batch-87-religion-ethik-b2"] },
   { "slug": "geschichte", "title": "Geschichte & Tradition", "emoji": "📜", "batches": ["batch-86-geschichte-tradition-b2"] },
-  { "slug": "philosophie", "title": "Philosophie & Denken", "emoji": "🧠", "batches": ["batch-75-philosophie-abstrakta-c1"] },
+  { "slug": "philosophie", "title": "Philosophie & Denken", "emoji": "🧠", "batches": ["batch-75-philosophie-abstrakta-c1", "batch-128-c2-wissenschaft-erkenntnis"] },
   { "slug": "meinung", "title": "Meinung & Diskussion", "emoji": "💬", "batches": ["batch-36-meinung-diskussion"] },
   { "slug": "abstrakt", "title": "Abstrakte Begriffe", "emoji": "💭", "batches": ["batch-35-abstrakt-b2", "batch-63-gesellschaft-abstrakta"] },
   { "slug": "alltag", "title": "Alltag & Umgangssprache", "emoji": "☕", "batches": ["batch-53-alltag", "batch-52-umgangssprache", "batch-91-alltag-fortgeschritten-b2"] },
@@ -57,5 +57,6 @@
   { "slug": "konnektoren", "title": "Konnektoren & Struktur", "emoji": "🔗", "batches": ["batch-88-konnektoren-adverbien-b2"] },
   { "slug": "formell", "title": "Formelle Sprache", "emoji": "🖋️", "batches": ["batch-38-formell-c1"] },
   { "slug": "gehoben", "title": "Gehobene Sprache", "emoji": "📖", "batches": ["batch-99-c1-verben-gehoben", "batch-100-c1-nomen-abstrakta", "batch-101-c1-adjektive"] },
-  { "slug": "bildungssprache", "title": "Bildungssprache", "emoji": "📚", "batches": ["batch-102-c2-verben-bildungssprache", "batch-103-c2-nomen-bildungssprache", "batch-104-c2-adjektive-adverbien", "batch-109-c2-gehoben-vertieft"] }
+  { "slug": "bildungssprache", "title": "Bildungssprache", "emoji": "📚", "batches": ["batch-102-c2-verben-bildungssprache", "batch-103-c2-nomen-bildungssprache", "batch-104-c2-adjektive-adverbien", "batch-109-c2-gehoben-vertieft"] },
+  { "slug": "sprache", "title": "Sprache & Stil", "emoji": "✍️", "batches": ["batch-130-c2-stil-rhetorik-literatur"] }
 ]

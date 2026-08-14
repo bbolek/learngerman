@@ -33,7 +33,8 @@
         { "lemma": "polemisieren", "pos": "verb" },
         { "lemma": "besinnen", "pos": "verb" },
         { "lemma": "vergegenwärtigen", "pos": "verb" }
-      ]
+      ],
+      "grammar": [{ "topic": "praepositionen-amtssprache", "questions": 4 }]
     },
     { "slug": "c2-gehobener-ausdruck-wdh", "kind": "review", "title": "Wiederholung" }
   ]

@@ -96,6 +96,12 @@
           "lemma": "verfugen",
           "pos": "verb"
         }
+      ],
+      "grammar": [
+        {
+          "topic": "mittelfeld-wortstellung",
+          "questions": 4
+        }
       ]
     },
     {

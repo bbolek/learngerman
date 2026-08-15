@@ -1,0 +1,39 @@
+{
+  "slug": "die-grosse-ruebe",
+  "title": "Die große Rübe",
+  "level": "A1",
+  "teaser": "Die Rübe ist riesig. Der Großvater zieht und zieht — allein geht es nicht.",
+  "source": "Nacherzählung nach einem russischen Volksmärchen · gemeinfrei",
+  "illustration": "🥕",
+  "paragraphs": [
+    {
+      "de": "Der Großvater pflanzt eine Rübe. Die Rübe wächst und wächst. Sie wird sehr, sehr groß.",
+      "en": "The grandfather plants a turnip. The turnip grows and grows. It becomes very, very big."
+    },
+    {
+      "de": "Der Großvater will die Rübe aus der Erde ziehen. Er zieht und zieht. Die Rübe kommt nicht heraus.",
+      "en": "The grandfather wants to pull the turnip out of the ground. He pulls and pulls. The turnip does not come out."
+    },
+    {
+      "de": "Er ruft die Großmutter. Die Großmutter hält den Großvater. Sie ziehen zusammen. Die Rübe kommt nicht heraus.",
+      "en": "He calls the grandmother. The grandmother holds the grandfather. They pull together. The turnip does not come out."
+    },
+    {
+      "de": "Sie rufen das Kind. Das Kind hält die Großmutter. Alle drei ziehen. Die Rübe kommt nicht heraus.",
+      "en": "They call the child. The child holds the grandmother. All three pull. The turnip does not come out."
+    },
+    {
+      "de": "Sie rufen den Hund. Sie rufen die Katze. Alle ziehen zusammen. Die Rübe kommt immer noch nicht heraus.",
+      "en": "They call the dog. They call the cat. Everyone pulls together. The turnip still does not come out."
+    },
+    {
+      "de": "Zuletzt kommt die kleine Maus. Die Maus hält die Katze. Jetzt ziehen alle: der Großvater, die Großmutter, das Kind, der Hund, die Katze und die Maus.",
+      "en": "Last of all the little mouse comes. The mouse holds the cat. Now everyone pulls: the grandfather, the grandmother, the child, the dog, the cat and the mouse.",
+      "illustration": "🐭"
+    },
+    {
+      "de": "Und da kommt die Rübe heraus! Am Abend essen alle zusammen Suppe. Auch die kleine Maus bekommt etwas.",
+      "en": "And out comes the turnip! In the evening everyone eats soup together. The little mouse gets some too."
+    }
+  ]
+}

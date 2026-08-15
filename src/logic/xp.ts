@@ -33,8 +33,19 @@ export const XP_DUEL_PLAYED = 10;
 /** Same-day streak repair when no Streak-Retter is left. */
 export const STREAK_REPAIR_COST = 100;
 
-/** First completion of a Leseecke text. */
+/** First completion of a Leseecke text — the floor, paid for short A1 pieces. */
 export const XP_READING_TEXT = 15;
+export const XP_READING_TEXT_MAX = 40;
+
+/**
+ * Reading pays by length: the B2–C2 stories run several hundred words, so a
+ * flat award would make the 70-word A1 texts the efficient choice. Every 100
+ * words past 150 add 5 XP, up to the cap.
+ */
+export function xpForReadingText(wordCount: number): number {
+  const bonus = Math.max(0, Math.floor((wordCount - 150) / 100)) * 5;
+  return Math.min(XP_READING_TEXT + bonus, XP_READING_TEXT_MAX);
+}
 
 /**
  * Lernpfad: flat award per finished node — the session's vocab/grammar

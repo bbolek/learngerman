@@ -1,0 +1,14 @@
+[
+{"lemma":"Häresie","pos":"noun","level":"C2","freq":5700,"noun":{"gender":"f","plural":"Häresien"},"senses":[{"en":"heresy","example_de":"Die Lehre galt der Kirche als Häresie.","example_en":"The doctrine counted as heresy for the church."}]},
+{"lemma":"Liturgie","pos":"noun","level":"C2","freq":5300,"noun":{"gender":"f","plural":"Liturgien"},"senses":[{"en":"liturgy","example_de":"Die Liturgie hat sich kaum verändert.","example_en":"The liturgy has scarcely changed."}]},
+{"lemma":"Verzeihung","pos":"noun","level":"C2","freq":5050,"noun":{"gender":"f","plural":null},"senses":[{"en":"forgiveness","example_de":"Er bat um Verzeihung, nicht um Verständnis.","example_en":"He asked for forgiveness, not for understanding."}]},
+{"lemma":"Kanzel","pos":"noun","level":"C2","freq":5450,"noun":{"gender":"f","plural":"Kanzeln"},"senses":[{"en":"pulpit","example_de":"Von der Kanzel herab klingt alles gewichtiger.","example_en":"From the pulpit everything sounds weightier."}]},
+{"lemma":"Altarraum","pos":"noun","level":"C2","freq":5800,"noun":{"gender":"m","plural":"Altarräume"},"senses":[{"en":"chancel, sanctuary of a church","example_de":"Der Altarraum wurde neu gestaltet.","example_en":"The chancel was redesigned."}]},
+{"lemma":"Sakristei","pos":"noun","level":"C2","freq":5850,"noun":{"gender":"f","plural":"Sakristeien"},"senses":[{"en":"sacristy","example_de":"Der Pfarrer wartete in der Sakristei.","example_en":"The priest waited in the sacristy."}]},
+{"lemma":"Diesseits","pos":"noun","level":"C2","freq":5700,"noun":{"gender":"n","plural":null},"senses":[{"en":"this world, the here and now","example_de":"Sie interessierte sich mehr für das Diesseits.","example_en":"She was more interested in this world."}]},
+{"lemma":"Vorherbestimmung","pos":"noun","level":"C2","freq":5900,"noun":{"gender":"f","plural":null},"senses":[{"en":"predestination","example_de":"Die Lehre von der Vorherbestimmung spaltete die Kirche.","example_en":"The doctrine of predestination split the church."}]},
+{"lemma":"läutern","pos":"verb","level":"C2","freq":5550,"verb":{"aux":"haben"},"senses":[{"en":"to purify morally","example_de":"Die Erfahrung hat ihn geläutert.","example_en":"The experience purified him."}]},
+{"lemma":"kasteien","pos":"verb","level":"C2","freq":5950,"verb":{"aux":"haben","partizip2":"kasteit"},"senses":[{"en":"to mortify (the flesh), to deny oneself harshly","example_de":"Er kasteite sich mit Fasten und Kälte.","example_en":"He mortified himself with fasting and cold."}]},
+{"lemma":"gottesfürchtig","pos":"adj","level":"C2","freq":5600,"senses":[{"en":"god-fearing","example_de":"Eine gottesfürchtige Familie vom Land.","example_en":"A god-fearing family from the countryside."}]},
+{"lemma":"eschatologisch","pos":"adj","level":"C2","freq":5950,"senses":[{"en":"eschatological, concerning the last things","example_de":"Der Roman hat eine eschatologische Dimension.","example_en":"The novel has an eschatological dimension."}]}
+]

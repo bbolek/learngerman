@@ -1,0 +1,27 @@
+[
+{"lemma":"sechzehn","pos":"num","level":"A1","freq":1500,"senses":[{"en":"sixteen","example_de":"Sie ist sechzehn Jahre alt.","example_en":"She is sixteen years old."}]},
+{"lemma":"siebzehn","pos":"num","level":"A1","freq":1520,"senses":[{"en":"seventeen","example_de":"Der Bus fährt um siebzehn Uhr.","example_en":"The bus leaves at five p.m."}]},
+
+{"lemma":"erste","pos":"num","level":"A1","freq":40,"senses":[{"en":"first","note":"ordinal: written 1. — declines like an adjective (der erste Tag, am ersten Tag)","example_de":"Am ersten Tag hat es geregnet.","example_en":"It rained on the first day."}]},
+{"lemma":"zweite","pos":"num","level":"A1","freq":60,"senses":[{"en":"second","note":"ordinal: 2.","example_de":"Nimm die zweite Straße links.","example_en":"Take the second street on the left."}]},
+{"lemma":"dritte","pos":"num","level":"A1","freq":80,"senses":[{"en":"third","note":"ordinal: 3. — irregular stem: drei → dritt-","example_de":"Das ist mein drittes Jahr hier.","example_en":"This is my third year here."}]},
+{"lemma":"vierte","pos":"num","level":"A1","freq":150,"senses":[{"en":"fourth","note":"ordinal: 4.","example_de":"Der vierte Stock ist ganz oben.","example_en":"The fourth floor is at the very top."}]},
+{"lemma":"fünfte","pos":"num","level":"A1","freq":170,"senses":[{"en":"fifth","note":"ordinal: 5.","example_de":"Heute ist der fünfte Mai.","example_en":"Today is the fifth of May."}]},
+{"lemma":"sechste","pos":"num","level":"A1","freq":190,"senses":[{"en":"sixth","note":"ordinal: 6.","example_de":"Sie geht in die sechste Klasse.","example_en":"She is in the sixth grade."}]},
+{"lemma":"siebte","pos":"num","level":"A1","freq":210,"senses":[{"en":"seventh","note":"ordinal: 7. — siebte, not \"siebente\" in everyday German","example_de":"Der siebte Versuch war erfolgreich.","example_en":"The seventh attempt worked."}]},
+{"lemma":"achte","pos":"num","level":"A1","freq":230,"senses":[{"en":"eighth","note":"ordinal: 8. — one t only (acht + e)","example_de":"Am achten Dezember habe ich Geburtstag.","example_en":"My birthday is on the eighth of December."}]},
+{"lemma":"neunte","pos":"num","level":"A1","freq":250,"senses":[{"en":"ninth","note":"ordinal: 9.","example_de":"Beethovens neunte Sinfonie.","example_en":"Beethoven's ninth symphony."}]},
+{"lemma":"zehnte","pos":"num","level":"A1","freq":270,"senses":[{"en":"tenth","note":"ordinal: 10. — from 20 on the ending is -ste (zwanzigste)","example_de":"Das ist mein zehnter Besuch.","example_en":"This is my tenth visit."}]},
+{"lemma":"elfte","pos":"num","level":"A2","freq":800,"senses":[{"en":"eleventh","note":"ordinal: 11.","example_de":"Der elfte November ist Karnevalsbeginn.","example_en":"The eleventh of November is the start of carnival."}]},
+{"lemma":"zwölfte","pos":"num","level":"A2","freq":820,"senses":[{"en":"twelfth","note":"ordinal: 12.","example_de":"Im zwölften Monat wird es kalt.","example_en":"It gets cold in the twelfth month."}]},
+{"lemma":"dreizehnte","pos":"num","level":"A2","freq":900,"senses":[{"en":"thirteenth","note":"ordinal: 13.","example_de":"Freitag, der dreizehnte.","example_en":"Friday the thirteenth."}]},
+{"lemma":"zwanzigste","pos":"num","level":"A2","freq":850,"senses":[{"en":"twentieth","note":"ordinal: 20. — from 20 on, ordinals end in -ste","example_de":"Am zwanzigsten Juni fahren wir weg.","example_en":"We are leaving on the twentieth of June."}]},
+{"lemma":"dreißigste","pos":"num","level":"A2","freq":950,"senses":[{"en":"thirtieth","note":"ordinal: 30.","example_de":"Der dreißigste Geburtstag wird gefeiert.","example_en":"The thirtieth birthday gets celebrated."}]},
+{"lemma":"hundertste","pos":"num","level":"B1","freq":1300,"senses":[{"en":"hundredth","note":"ordinal: 100.","example_de":"Zum hundertsten Mal: nein!","example_en":"For the hundredth time: no!"}]},
+{"lemma":"vierzehnte","pos":"num","level":"A2","freq":920,"senses":[{"en":"fourteenth","note":"ordinal: 14.","example_de":"Am vierzehnten Februar ist Valentinstag.","example_en":"The fourteenth of February is Valentine's Day."}]},
+{"lemma":"fünfzehnte","pos":"num","level":"A2","freq":930,"senses":[{"en":"fifteenth","note":"ordinal: 15.","example_de":"Die fünfzehnte Runde entschied das Spiel.","example_en":"The fifteenth round decided the match."}]},
+{"lemma":"sechzehnte","pos":"num","level":"A2","freq":940,"senses":[{"en":"sixteenth","note":"ordinal: 16.","example_de":"Im sechzehnten Jahrhundert entstand die Sage.","example_en":"The legend arose in the sixteenth century."}]},
+{"lemma":"siebzehnte","pos":"num","level":"A2","freq":945,"senses":[{"en":"seventeenth","note":"ordinal: 17.","example_de":"Sie feiert ihren siebzehnten Geburtstag.","example_en":"She is celebrating her seventeenth birthday."}]},
+{"lemma":"achtzehnte","pos":"num","level":"A2","freq":960,"senses":[{"en":"eighteenth","note":"ordinal: 18.","example_de":"Der achtzehnte Geburtstag ist wichtig.","example_en":"The eighteenth birthday matters."}]},
+{"lemma":"neunzehnte","pos":"num","level":"A2","freq":970,"senses":[{"en":"nineteenth","note":"ordinal: 19.","example_de":"Im neunzehnten Jahrhundert schrieb Storm seine Novellen.","example_en":"Storm wrote his novellas in the nineteenth century."}]}
+]

@@ -1,0 +1,35 @@
+{
+  "slug": "der-nordwind-und-die-sonne",
+  "title": "Der Nordwind und die Sonne",
+  "level": "A1",
+  "teaser": "Wer ist stärker? Der kalte Wind oder die warme Sonne?",
+  "source": "Nacherzählung nach einer Fabel von Äsop · gemeinfrei",
+  "illustration": "🌞",
+  "paragraphs": [
+    {
+      "de": "Der Nordwind und die Sonne streiten. Jeder sagt: „Ich bin stärker als du.“",
+      "en": "The north wind and the sun are arguing. Each one says: \"I am stronger than you.\""
+    },
+    {
+      "de": "Da kommt ein Mann über den Weg. Er trägt einen warmen Mantel.",
+      "en": "Then a man comes along the road. He is wearing a warm coat."
+    },
+    {
+      "de": "Sie machen eine Wette: Wer den Mantel zuerst bekommt, ist stärker.",
+      "en": "They make a bet: whoever gets the coat off first is the stronger one."
+    },
+    {
+      "de": "Der Nordwind bläst. Er bläst kalt und laut. Aber der Mann hält den Mantel fest. Er zieht ihn noch enger zu.",
+      "en": "The north wind blows. He blows cold and loud. But the man holds his coat tight. He pulls it even closer.",
+      "illustration": "💨"
+    },
+    {
+      "de": "Dann scheint die Sonne. Sie scheint warm und freundlich. Dem Mann wird heiß.",
+      "en": "Then the sun shines. She shines warm and friendly. The man gets hot."
+    },
+    {
+      "de": "Nach einer Minute zieht er den Mantel aus. Die Sonne gewinnt. Freundlich ist oft stärker als laut.",
+      "en": "After a minute he takes off his coat. The sun wins. Friendly is often stronger than loud."
+    }
+  ]
+}

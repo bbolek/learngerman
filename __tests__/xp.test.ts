@@ -6,11 +6,14 @@ import {
   xpForGameScore,
   xpForLevel,
   xpForQuizAnswer,
+  xpForReadingText,
   xpForReview,
   XP_GAME_MAX,
   XP_GAME_MIN,
   XP_QUIZ_CORRECT,
   XP_QUIZ_WRONG,
+  XP_READING_TEXT,
+  XP_READING_TEXT_MAX,
   XP_REVIEW_AGAIN,
   XP_REVIEW_RECALLED,
 } from '@/logic/xp';
@@ -73,6 +76,14 @@ describe('award sizes', () => {
     expect(xpForGameScore(0)).toBe(XP_GAME_MIN);
     expect(xpForGameScore(120)).toBe(12);
     expect(xpForGameScore(10_000)).toBe(XP_GAME_MAX);
+  });
+
+  it('reading: short texts pay the floor, long ones more, all capped', () => {
+    expect(xpForReadingText(80)).toBe(XP_READING_TEXT);
+    expect(xpForReadingText(150)).toBe(XP_READING_TEXT);
+    expect(xpForReadingText(250)).toBe(XP_READING_TEXT + 5);
+    expect(xpForReadingText(550)).toBe(XP_READING_TEXT + 20);
+    expect(xpForReadingText(5_000)).toBe(XP_READING_TEXT_MAX);
   });
 });
 

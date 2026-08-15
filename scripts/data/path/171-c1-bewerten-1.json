@@ -143,6 +143,12 @@
           "lemma": "immens",
           "pos": "adj"
         }
+      ],
+      "grammar": [
+        {
+          "topic": "konzessiv-konsekutiv-final",
+          "questions": 4
+        }
       ]
     },
     {

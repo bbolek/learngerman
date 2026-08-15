@@ -9,6 +9,7 @@ import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Screen } from '@/ui/components/Screen';
+import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
@@ -16,6 +17,9 @@ const LEVEL_SECTIONS: { level: string; label: string }[] = [
   { level: 'A1', label: 'A1 · Erste Texte' },
   { level: 'A2', label: 'A2 · Kleine Geschichten' },
   { level: 'B1', label: 'B1 · Zum Eintauchen' },
+  { level: 'B2', label: 'B2 · Längere Erzählungen' },
+  { level: 'C1', label: 'C1 · Literarisch' },
+  { level: 'C2', label: 'C2 · Anspruchsvoll' },
 ];
 
 export default function LesenScreen() {
@@ -76,9 +80,13 @@ function TextCard({ row }: { row: ReadingTextRow }) {
   const done = row.completed_at != null;
   return (
     <Card style={styles.card} onPress={() => router.push(`/lesen/${row.slug}`)}>
-      <View style={[styles.iconBox, { backgroundColor: done ? t.accentDim : t.primaryDim }]}>
-        <AppText style={{ fontSize: 24 }}>{done ? '✅' : '📖'}</AppText>
-      </View>
+      {row.illustration_svg ? (
+        <VocabImage svg={row.illustration_svg} gender={null} size={54} />
+      ) : (
+        <View style={[styles.iconBox, { backgroundColor: done ? t.accentDim : t.primaryDim }]}>
+          <AppText style={{ fontSize: 24 }}>{done ? '✅' : '📖'}</AppText>
+        </View>
+      )}
       <View style={{ flex: 1 }}>
         <AppText variant="subtitle">{row.title}</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }} numberOfLines={2}>

@@ -83,6 +83,117 @@ describe('lookupGerman', () => {
   });
 });
 
+/** Function words are the words learners tap most; every form must resolve. */
+describe('function-word forms', () => {
+  const cases: [string, string, string][] = [
+    ['mich', 'ich', 'akkusativ'],
+    ['mir', 'ich', 'dativ'],
+    ['ihn', 'er', 'akkusativ'],
+    ['ihm', 'er', 'dativ'],
+    ['ihnen', 'sie', 'dativ'],
+    ['euch', 'ihr', 'akkusativ'],
+    ['wen', 'wer', 'akkusativ'],
+    ['seine', 'er', 'possessiv'],
+    ['unserem', 'wir', 'possessiv'],
+    ['meinen', 'mein', 'dekliniert'],
+    ['eure', 'euer', 'dekliniert'],
+    ['dem', 'der', 'dekliniert'],
+    ['dessen', 'der', 'genitiv'],
+    ['einer', 'ein', 'dekliniert'],
+    ['keinem', 'kein', 'dekliniert'],
+    ['diesen', 'dieser', 'dekliniert'],
+    ['jedes', 'jeder', 'dekliniert'],
+    ['vieler', 'viel', 'dekliniert'],
+    ['ganzen', 'ganz', 'dekliniert'],
+    ['ersten', 'erste', 'dekliniert'],
+    ['zwanzigsten', 'zwanzigste', 'dekliniert'],
+  ];
+
+  it.each(cases)('%s → %s (%s)', async (form, lemma, tag) => {
+    const hits = await lookupGerman(db, form);
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain(`${lemma}|${tag}`);
+  });
+
+  it.each([
+    ['im', 'in'],
+    ['ins', 'in'],
+    ['am', 'an'],
+    ['ans', 'an'],
+    ['zum', 'zu'],
+    ['zur', 'zu'],
+    ['vom', 'von'],
+    ['beim', 'bei'],
+  ])('contraction %s → %s', async (form, lemma) => {
+    const hits = await lookupGerman(db, form);
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain(`${lemma}|kontraktion`);
+  });
+
+  it.each([
+    ['wäre', 'sein'],
+    ['wärst', 'sein'],
+    ['hätte', 'haben'],
+    ['würden', 'werden'],
+    ['könnte', 'können'],
+    ['müsste', 'müssen'],
+    ['käme', 'kommen'],
+    ['ginge', 'gehen'],
+  ])('Konjunktiv II %s → %s', async (form, lemma) => {
+    const hits = await lookupGerman(db, form);
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain(`${lemma}|konjunktiv2`);
+  });
+
+  it('keeps the dative -e of one-syllable nouns: Kinde → Kind', async () => {
+    const hits = await lookupGerman(db, 'Kinde');
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain('Kind|dativ');
+  });
+
+  it('declines adjectives whose citation form ends in -e: leiser → leise', async () => {
+    const hits = await lookupGerman(db, 'leiser');
+    expect(hits.map((h) => h.lemma)).toContain('leise');
+  });
+
+  it('keeps the e of -er adjectives that never elided it: schwere → schwer', async () => {
+    const hits = await lookupGerman(db, 'schwere');
+    expect(hits.map((h) => h.lemma)).toContain('schwer');
+  });
+
+  it('indexes Konjunktiv I for indirect speech: könne → können', async () => {
+    const hits = await lookupGerman(db, 'könne');
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain('können|konjunktiv1');
+  });
+
+  it('wraps zu inside separable verbs: zurückzulassen → zurücklassen', async () => {
+    const hits = await lookupGerman(db, 'zurückzulassen');
+    expect(hits.map((h) => h.lemma)).toContain('zurücklassen');
+  });
+
+  it('shifts e→i in the imperative: sieh → sehen', async () => {
+    const hits = await lookupGerman(db, 'sieh');
+    expect(hits.map((h) => h.lemma)).toContain('sehen');
+  });
+});
+
+/** Open word classes German builds on the fly — see src/logic/wordParts.ts. */
+describe('words assembled on the fly', () => {
+  it.each([
+    ['Apfelkuchen', 'Kuchen'],
+    ['Fischbrötchen', 'Brötchen'],
+    ['Königstochter', 'Tochter'],
+    ['Zweizimmerwohnung', 'Wohnung'],
+    ['Läuferinnen', 'Läufer'],
+    ['Töpfchen', 'Topf'],
+    ['erstarrenden', 'erstarren'],
+  ])('%s resolves through %s', async (word, expected) => {
+    const hits = await lookupGerman(db, word);
+    expect(hits.map((h) => h.lemma)).toContain(expected);
+  });
+
+  it('offers both halves of a compound, head first', async () => {
+    const hits = await lookupGerman(db, 'Apfelkuchen');
+    expect(hits.slice(0, 2).map((h) => h.lemma)).toEqual(['Kuchen', 'Apfel']);
+  });
+});
+
 describe('lookupEnglish', () => {
   it('finds German word by English gloss: house → Haus', async () => {
     const hits = await lookupEnglish(db, 'house');

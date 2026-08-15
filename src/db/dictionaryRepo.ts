@@ -1,4 +1,5 @@
 import { getDb } from '@/db/client';
+import { partCandidates, resolveByParts } from '@/logic/wordParts';
 
 export interface LemmaDetail {
   id: number;
@@ -162,7 +163,57 @@ export async function resolveExampleWords(tokens: string[]): Promise<Map<string,
       if (!map.has(r.form_norm)) map.set(r.form_norm, { lemmaId: r.id, level: r.level });
     }
   }
+
+  // Whatever is left is either a declined participle or a compound. Both
+  // reduce to parts the dictionary knows, so one more query over every
+  // candidate part keeps those words tappable too.
+  const unresolved = tokens.filter((t) => !map.has(t));
+  if (unresolved.length > 0) {
+    // Compounds may only be split on lemmas — allowing inflected forms turns
+    // "nachsehen" into nach + Ehen. Endings may come off any indexed form.
+    const lemmaParts = await lookupParts(
+      db,
+      [...new Set(unresolved.flatMap(partCandidates))],
+      'SELECT lemma_norm AS key, id, level FROM lemmas WHERE lemma_norm IN'
+    );
+    const formParts = await lookupParts(
+      db,
+      [...new Set(unresolved.flatMap(partCandidates))],
+      `SELECT f.form_norm AS key, l.id, l.level FROM forms f
+       JOIN lemmas l ON l.id = f.lemma_id WHERE f.form_norm IN`
+    );
+
+    for (const token of unresolved) {
+      const part = resolveByParts(
+        token,
+        (p) => lemmaParts.has(p),
+        (p) => formParts.has(p)
+      );
+      if (part) map.set(token, (lemmaParts.get(part) ?? formParts.get(part))!);
+    }
+  }
   return map;
+}
+
+/** SQLite caps bound parameters, and candidate parts add up fast. */
+const PART_CHUNK = 400;
+
+/** Run a keyed `… IN (?, ?, …)` query over many candidates, chunk by chunk. */
+async function lookupParts(
+  db: ReturnType<typeof getDb>,
+  candidates: string[],
+  selectPrefix: string
+): Promise<Map<string, TokenHit>> {
+  const found = new Map<string, TokenHit>();
+  for (let i = 0; i < candidates.length; i += PART_CHUNK) {
+    const chunk = candidates.slice(i, i + PART_CHUNK);
+    const rows = await db.getAllAsync<{ key: string; id: number; level: string }>(
+      `${selectPrefix} (${chunk.map(() => '?').join(',')})`,
+      chunk
+    );
+    for (const r of rows) if (!found.has(r.key)) found.set(r.key, { lemmaId: r.id, level: r.level });
+  }
+  return found;
 }
 
 export async function getWordOfTheDay(
@@ -178,8 +229,11 @@ export async function getWordOfTheDay(
   example_en: string | null;
 } | null> {
   // COUNT and SELECT must share join + filter, or the offset drifts out of range.
-  const base = `FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1`;
-  const cond = levels && levels.length > 0 ? ` WHERE l.level IN (${levels.map(() => '?').join(', ')})` : '';
+  // Proper names are dictionary entries so stories stay tappable, but nobody
+  // wants "Rumpelstilzchen" as their Wort des Tages.
+  const base = `FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
+     WHERE l.pos <> 'name'`;
+  const cond = levels && levels.length > 0 ? ` AND l.level IN (${levels.map(() => '?').join(', ')})` : '';
   const args = levels && levels.length > 0 ? levels : [];
   // Deterministic per day: hash the ISO date onto the pool size.
   const row = await getDb().getFirstAsync<{ c: number }>(`SELECT COUNT(*) AS c ${base}${cond}`, args);

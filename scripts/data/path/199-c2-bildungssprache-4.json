@@ -149,6 +149,12 @@
           "lemma": "dünkelhaft",
           "pos": "adj"
         }
+      ],
+      "grammar": [
+        {
+          "topic": "uneingeleitete-nebensaetze",
+          "questions": 4
+        }
       ]
     },
     {

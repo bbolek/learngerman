@@ -9,7 +9,7 @@ pairs across files fail the build.
 ```jsonc
 {
   "lemma": "machen",          // dictionary form; nouns capitalized
-  "pos": "verb",              // verb|noun|adj|adv|prep|pron|conj|num|other
+  "pos": "verb",              // verb|noun|adj|adv|prep|pron|det|conj|num|other
   "level": "A1",              // A1|A2|B1|B2|C1|C2
   "freq": 8,                  // approximate frequency rank (1 = most common)
   "verb": { ... },            // required for pos=verb
@@ -56,8 +56,39 @@ pairs across files fail the build.
 
 ### Other POS
 
-adv/prep/pron/conj/num/other take no morphology block. For prepositions put
+adv/prep/pron/det/conj/num/other take no morphology block. For prepositions put
 the case in `note` (`"+ Dativ"`, `"+ Akkusativ"`, `"Wechselpräposition: …"`).
+
+`det` is the article-word class (der, ein, dieser, jener, mancher, solcher) —
+labelled *Artikelwort* in the app. `kein` predates the class and stays `other`;
+never change an existing entry's `pos`, or the content swap loses the user rows
+attached to it (they are remapped by lemma+pos).
+
+`name` is for proper names (Hans, Bremen, Rotkäppchen). They are dictionary
+entries so that stories stay tappable, but they are filtered out of the random
+word pools — nobody wants Rumpelstilzchen as their Wort des Tages. Give them
+the level of the text they appear in and put the explanation in the German
+`note`; a name needs no `example_de`.
+
+Closed-class words are inflected from tables in `scripts/inflect.ts` rather
+than from the JSON, so adding one of these lemmas is enough to make every one
+of its forms tappable:
+
+- personal/interrogative pronoun case forms (`CASE_FORMS`: ich → mich, mir)
+- possessives with no lemma of their own hang off their pronoun
+  (`POSSESSIVE_OF`: seine → er, unserem → wir)
+- der- and ein-paradigms (`DER_WORDS`, `EIN_WORDS`), also used for the adverbs
+  that still take adjective endings (viel, wenig, ganz)
+- preposition + article contractions (`CONTRACTIONS`: im, ins, zum, zur, vom)
+- ordinals: any `num` lemma ending in -te/-ste declines like an adjective
+
+Add the lemma to the matching table when a new function word does not fit an
+existing paradigm; unknown lemmas simply expand to nothing.
+
+Verbs additionally get Konjunktiv II (`wäre`, `käme`, `würde`) derived from the
+Präteritum by umlaut, with the irregular ones listed in `KONJUNKTIV2`; weak
+verbs add nothing because their Konjunktiv II is spelled like the Präteritum.
+One-syllable m/n nouns get the dative -e (`dem Kinde`).
 
 ## Vocabulary images (`images.json`)
 
@@ -176,7 +207,7 @@ payloads) and fails loudly. JSON syntax can be checked standalone:
 
 Grammar lives in `scripts/data/grammar/*.json` — one topic per file, named
 `NN-slug.json`. The numeric prefix defines `sort_order` (group by level:
-01–09 A1, 10–19 A2, 20–30 B1, 31–40 B2, 41–48 C1, 49–52 C2). Topics must
+01–09 A1, 10–19 A2, 20–30 B1, 31–40 B2, 41–50 C1, 51–56 C2). Topics must
 stay level-contiguous in that order — a test asserts levels never go
 backwards — so inserting a topic into a level means renumbering the files
 after it (slugs are the stable key, so renaming files is safe for user
@@ -241,10 +272,13 @@ One graded text per file in `scripts/data/reading/*.json`:
 {
   "slug": "im-cafe",          // kebab-case, stable — reading_progress keys on it
   "title": "Im Café",
-  "level": "A1",              // A1|A2|B1
+  "level": "A1",              // A1|A2|B1|B2|C1|C2
   "teaser": "Lena hat Durst …",   // one-line hook for the list screen
+  "source": "Nacherzählung nach den Brüdern Grimm · gemeinfrei",  // optional
+  "illustration": "☕",       // optional cover emoji (Noto, vendored)
   "paragraphs": [
-    { "de": "…", "en": "…" }  // German paragraph + English translation
+    // German paragraph + English translation, optional scene emoji
+    { "de": "…", "en": "…", "illustration": "🌙" }
   ]
 }
 ```
@@ -253,11 +287,32 @@ Rules:
 
 - Never rename a `slug` — the user's completion state (`reading_progress`)
   is keyed by it and would be orphaned.
-- Keep texts short (80–160 words) and level-appropriate: A1 Präsens and
-  core vocab, A2 may use Perfekt, B1 subordinate clauses.
-- Every word is tappable in the reader (fuzzy dictionary lookup) — prefer
-  vocabulary the dictionary knows, but unmatched words are simply not
-  linked; nothing breaks.
+- Length grows with the level: A1/A2 80–250 words, B1 100–350, B2/C1 350–450,
+  C2 450–550. The build derives the word-count badge, `xpForReadingText()`
+  pays more for longer texts, and a test caps texts at 700 words — a text
+  should still be one sitting.
+- Level-appropriate grammar: A1 Präsens and core vocab, A2 may use Perfekt,
+  B1 subordinate clauses and Präteritum, B2 Passiv and Konjunktiv II,
+  C1/C2 Partizipialkonstruktionen, Nominalisierungen, indirekte Rede.
+- `illustration` takes a single emoji and resolves to the same vendored Noto
+  SVGs as `images.json` (`scripts/data/images/noto/emoji_uXXXX.svg`) — the
+  build fails when the file is missing, so vendor it first. Unlike vocabulary
+  images these may repeat across texts: reading art never feeds the
+  Bilderrätsel answer pool. Use a cover emoji per text and two or three
+  scene emoji on the paragraphs that carry a turning point.
+- `source` is required whenever the text retells existing material. Only
+  public-domain sources (Grimm, Äsop, Eulenspiegel, Bürger, Storm, Kafka …),
+  written as a fresh graded **Nacherzählung** rather than a copied original,
+  and the line must end in `· gemeinfrei` (a test checks it).
+- **Every word must reach a dictionary entry** — a word that resolves to
+  nothing is not underlined, so the learner who does not know it gets no help.
+  `reading.test.ts` fails with the exact list when one does not. It resolves
+  through the fallbacks in `src/logic/wordParts.ts` too (endings, feminines,
+  diminutives, compounds), so a transparent compound like Apfelkuchen needs no
+  entry of its own as long as both halves exist. When a word does not resolve,
+  fix it in this order: add the missing base word (Rübe, Geiß) rather than the
+  compound; add a `name` entry for a person or place; and only reword the text
+  when the word was a one-off invention that no learner needs.
 - The list orders by level, then German title; the build derives the
   word count shown in the UI.
 
@@ -299,7 +354,9 @@ Rules:
   spaced-repetition material introduced earlier on the path).
 - Every `{lemma, pos}` must exist in the dictionary and may be taught by
   only one lesson path-wide; every grammar `topic` slug must exist and may
-  be covered by only one lesson path-wide.
+  be covered by **exactly** one lesson path-wide — `pathContent.test.ts`
+  fails on both zero and two. Adding a grammar topic therefore always means
+  attaching it to a lesson of the same level that has no `grammar` block yet.
 - A1 units are hand-curated (thematic arcs, highest-frequency words first);
   A2–C2 units are drafted by `scripts/generate-path-units.ts` and committed
   after review.

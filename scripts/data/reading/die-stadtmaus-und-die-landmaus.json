@@ -1,0 +1,36 @@
+{
+  "slug": "die-stadtmaus-und-die-landmaus",
+  "title": "Die Stadtmaus und die Landmaus",
+  "level": "A1",
+  "teaser": "In der Stadt gibt es besseres Essen. Aber es gibt auch eine Katze.",
+  "source": "Nacherzählung nach einer Fabel von Äsop · gemeinfrei",
+  "illustration": "🐭",
+  "paragraphs": [
+    {
+      "de": "Die Landmaus wohnt auf dem Feld. Sie isst Körner und Wurzeln. Ihr Haus ist klein und ruhig.",
+      "en": "The country mouse lives in the field. She eats grain and roots. Her house is small and quiet.",
+      "illustration": "🌾"
+    },
+    {
+      "de": "Eines Tages kommt die Stadtmaus zu Besuch. Sie sieht das Essen und sagt: „Das ist alles?“",
+      "en": "One day the town mouse comes to visit. She looks at the food and says: \"Is that all?\""
+    },
+    {
+      "de": "„Komm mit in die Stadt“, sagt die Stadtmaus. „Dort ist das Essen viel besser.“ Die Landmaus geht mit.",
+      "en": "\"Come with me to the town,\" says the town mouse. \"The food there is much better.\" The country mouse goes along.",
+      "illustration": "🏙️"
+    },
+    {
+      "de": "In der Stadt stehen Brot, Käse und Kuchen auf dem Tisch. Die Landmaus staunt. So viel Essen!",
+      "en": "In the town there is bread, cheese and cake on the table. The country mouse is amazed. So much food!"
+    },
+    {
+      "de": "Plötzlich kommt die Katze. Die beiden Mäuse laufen schnell weg. Sie warten lange in einem Loch.",
+      "en": "Suddenly the cat comes. The two mice run away quickly. They wait a long time in a hole."
+    },
+    {
+      "de": "Die Landmaus sagt: „Danke, aber ich gehe nach Hause. Bei mir gibt es wenig. Dort habe ich aber keine Angst.“",
+      "en": "The country mouse says: \"Thank you, but I am going home. At my place there is little. But there I am not afraid.\""
+    }
+  ]
+}

@@ -93,7 +93,7 @@ export async function pickNotificationWord(
       `SELECT l.id AS lemma_id, l.lemma, l.gender,
               s.en AS gloss, s.example_de, s.example_en
        FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
-       WHERE l.level IN (${placeholders})
+       WHERE l.pos <> 'name' AND l.level IN (${placeholders})
        ORDER BY RANDOM() LIMIT 1`,
       levels
     )) ?? null

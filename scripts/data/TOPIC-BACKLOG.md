@@ -51,3 +51,55 @@ batches, so these batches carry only the event-specific gap words.
 Two probed events were too thin for own themes and were folded into
 existing batches instead: leaving home → batch-121 (Umzug theme),
 illness & recovery → batch-34 (Gesundheit theme).
+
+## C2 expansion (batches 128–131)
+
+C2 was the thinnest band by far — 186 headwords against 1711 at C1 — so
+learners who finished C1 ran out of new words. Four batches added 256
+entries, all gap-probed against the built dictionary before authoring:
+
+- batch-128 Wissenschaft & Erkenntnis (theme: philosophie) — the vocabulary
+  of argument and method: Postulat, Kontingenz, Aporie, deduzieren,
+  kontrafaktisch.
+- batch-129 Recht, Macht & Charakter (theme: recht) — Amtssprache and the
+  words for how people behave under power: Obliegenheit, Einrede, ahnden,
+  willfährig.
+- batch-130 Stil, Rhetorik & Literatur (theme: sprache, new) — how texts are
+  described: Duktus, Litotes, Gemeinplatz, schwadronieren, lapidar.
+- batch-131 Wirtschaft & Gesellschaft (theme: wirtschaft) — the register of
+  policy debate: Prekariat, Daseinsvorsorge, Externalität, aushebeln,
+  antizyklisch.
+
+## C2 to C1 parity (batches 133–163)
+
+A second pass took C2 from 442 to **1718**, level with C1's 1711. Thirty-one
+further batches, organised by register rather than by everyday theme, because
+what C2 lacks is not more household words but the specialist and literary
+vocabulary an advanced reader meets in print:
+
+- Specialist domains: Medizin & Klinik (133), Verwaltung & Diplomatie (135),
+  Militär & Konflikt (136), Technik & Werkstoffe (139), Physik & Chemie (140),
+  Biologie & Ökologie (141), Geologie & Geografie (142), Seefahrt (143),
+  Architektur & Bauwesen (144), Recht & Verfahren (145), Finanzen & Börse
+  (146), Medien & Journalismus (147), Wissenschaftsbetrieb (148), Musik &
+  Theater (149), Handwerk & Material (150), Politik & Ideologie (158),
+  Textil & Mode (161).
+- Registers and word classes: Psyche (134), Religion (137), Kunst & Ästhetik
+  (138), gehobene Verben (151), Adjektive (152), Zeit & Wahrnehmung (153),
+  Latinismen (154), Historisches (155), Ländliches (156), Essen & Genuss
+  (157), Abstrakta & Wendungen (159), Körper & Gestik (160),
+  Bildungssprache (162), Nachtrag (163).
+- batch-132 filled the connector and officialese-preposition gaps the new
+  grammar explainers needed.
+
+Method: every candidate was probed against the built dictionary before
+authoring, and a dedup pass stripped anything that still collided — the
+level shown is always the level the word was *first* authored at, so nothing
+was relabelled upward to inflate the count. Five new themes were added
+(naturwissenschaft, seefahrt, medien, handwerk, zeit); the rest feed existing
+themes.
+
+Known follow-up: the new C2 entries are reachable through the dictionary,
+themes, flashcards and quizzes, but are **not yet taught on the Lernpfad**.
+Adding path units for them means running `scripts/generate-path-units.ts`
+and reviewing the draft, which was deliberately left out of this pass.

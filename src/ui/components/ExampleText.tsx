@@ -21,6 +21,7 @@ export function ExampleText({
   color,
   linkAll = false,
   subtle = false,
+  plain = false,
 }: {
   text: string;
   /** The screen's own headword — never linked to itself. */
@@ -36,6 +37,12 @@ export function ExampleText({
    * turn into a wall of accent color.
    */
   subtle?: boolean;
+  /**
+   * Tappable but unmarked (Leseecke). Virtually every word resolves, so an
+   * underline on each one distinguishes nothing and a story ends up looking
+   * like a page of links — prose should read as prose.
+   */
+  plain?: boolean;
 }) {
   const t = useTheme();
   const onWordTap = useWordTap();
@@ -70,8 +77,8 @@ export function ExampleText({
             variant={variant}
             suppressHighlighting
             onPress={() => onWordTap(seg.text)}
-            color={subtle ? color : t.primary}
-            style={[style, { textDecorationLine: 'underline' }]}>
+            color={subtle || plain ? color : t.primary}
+            style={[style, plain ? null : { textDecorationLine: 'underline' }]}>
             {seg.text}
           </AppText>
         );

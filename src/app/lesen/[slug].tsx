@@ -5,13 +5,14 @@ import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getReadingText, markTextCompleted, type ReadingText } from '@/db/readingRepo';
-import { XP_READING_TEXT } from '@/logic/xp';
+import { xpForReadingText } from '@/logic/xp';
 import { awardXp, settleRewards } from '@/services/rewards';
 import { celebrate } from '@/store/celebration';
 import { AppText } from '@/ui/components/AppText';
 import { ExampleText } from '@/ui/components/ExampleText';
 import { ListenButton } from '@/ui/components/ListenButton';
 import { VocabTapProvider } from '@/ui/components/MarkdownLite';
+import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
@@ -48,12 +49,13 @@ export default function ReadingTextScreen() {
     try {
       const first = await markTextCompleted(text.slug, now);
       if (first) {
-        await awardXp('reading', XP_READING_TEXT, now);
+        const xp = xpForReadingText(text.word_count);
+        await awardXp('reading', xp, now);
         celebrate({
           kind: 'quest',
           emoji: '📖',
           title: 'Text gelesen!',
-          subtitle: `${text.title} · +${XP_READING_TEXT} XP`,
+          subtitle: `${text.title} · +${xp} XP`,
         });
         await settleRewards(now);
       }
@@ -88,18 +90,40 @@ export default function ReadingTextScreen() {
             paddingTop: spacing.sm,
             paddingBottom: insets.bottom + spacing.xl,
           }}>
+          {text.illustration_svg && (
+            <VocabImage
+              svg={text.illustration_svg}
+              gender={null}
+              size={104}
+              style={{ alignSelf: 'center', marginBottom: spacing.lg }}
+            />
+          )}
           <AppText variant="title">{text.title}</AppText>
+          {text.source && (
+            <AppText variant="caption" muted style={{ marginTop: 2, fontStyle: 'italic' }}>
+              {text.source}
+            </AppText>
+          )}
           <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
-            Tippe unterstrichene Wörter an, um sie nachzuschlagen.
+            Tippe ein beliebiges Wort an, um es nachzuschlagen.
           </AppText>
 
           <View style={{ marginTop: spacing.lg, gap: spacing.xl }}>
             {text.paragraphs.map((p, i) => (
               <View key={i}>
+                {p.illustration_svg && (
+                  <VocabImage
+                    svg={p.illustration_svg}
+                    gender={null}
+                    size={72}
+                    style={{ alignSelf: 'center', marginBottom: spacing.md }}
+                  />
+                )}
                 <ExampleText
                   text={p.de}
                   excludeLemmaId={-1}
                   linkAll
+                  plain
                   style={{ fontSize: 17, lineHeight: 28 }}
                 />
                 <View style={styles.paraActions}>

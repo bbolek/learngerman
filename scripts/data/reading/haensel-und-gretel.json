@@ -1,0 +1,41 @@
+{
+  "slug": "haensel-und-gretel",
+  "title": "Hänsel und Gretel",
+  "level": "B2",
+  "teaser": "Zwei Kinder werden im Wald ausgesetzt und finden ein Haus, das viel zu freundlich aussieht.",
+  "source": "Nacherzählung nach den Brüdern Grimm · gemeinfrei",
+  "illustration": "🏚️",
+  "paragraphs": [
+    {
+      "de": "Vor dem großen Wald wohnte ein armer Holzhacker mit seiner Frau und seinen beiden Kindern, Hänsel und Gretel. Als eine Teuerung über das Land kam, reichte das Brot kaum noch für einen Tag. Nachts, wenn die Kinder längst schlafen sollten, sprachen die Eltern darüber, wie es weitergehen könne — und die Frau schlug vor, die Kinder tief in den Wald zu führen und dort zurückzulassen. Der Mann wehrte sich lange, doch schließlich gab er nach.",
+      "en": "In front of the great forest lived a poor woodcutter with his wife and his two children, Hansel and Gretel. When a famine came over the land, the bread barely lasted a single day. At night, when the children were supposed to have been asleep long ago, the parents talked about how they could carry on — and the wife suggested leading the children deep into the forest and leaving them there. The man resisted for a long time, but in the end he gave in."
+    },
+    {
+      "de": "Hänsel hatte alles gehört. Weil er wusste, dass Klagen nichts nützen würde, schlich er sich hinaus und sammelte weiße Kieselsteine, die im Mondlicht glänzten wie kleine Münzen. Am nächsten Morgen ließ er unterwegs einen Stein nach dem anderen fallen, und als die Eltern verschwunden waren, führte der helle Weg die Kinder in der Nacht zurück nach Hause.",
+      "en": "Hansel had heard everything. Because he knew that complaining would be of no use, he crept outside and collected white pebbles that glittered in the moonlight like little coins. The next morning he dropped one stone after another along the way, and when the parents had disappeared, the bright path led the children back home in the night.",
+      "illustration": "🌙"
+    },
+    {
+      "de": "Beim zweiten Mal wurde die Tür abgeschlossen. Hänsel fand keine Steine mehr und nahm stattdessen sein Stück Brot, das er in Krümel zerbröckelte und hinter sich streute. Was er nicht bedacht hatte: Die Vögel des Waldes fanden die Krümel lange vor dem Abend. So irrten die Kinder drei Tage lang zwischen Bäumen umher, die alle gleich aussahen.",
+      "en": "The second time, the door was locked. Hansel could find no more stones and instead took his piece of bread, which he crumbled and scattered behind him. What he had not considered: the birds of the forest found the crumbs long before evening. And so the children wandered for three days among trees that all looked alike.",
+      "illustration": "🍞"
+    },
+    {
+      "de": "Am dritten Tag entdeckten sie ein Häuschen, das aus Brot gebaut war, mit einem Dach aus Kuchen und Fenstern aus hellem Zucker. Vor Hunger brachen sie sich Stücke ab. Da rief eine feine Stimme aus dem Inneren, und eine sehr alte Frau kam heraus, die freundlich lächelte und die Kinder hereinbat. Sie stellte ihnen Milch und Pfannkuchen hin und machte ihnen zwei weiche Betten.",
+      "en": "On the third day they discovered a little house built of bread, with a roof of cake and windows of clear sugar. Out of hunger they broke off pieces. Then a thin voice called from inside, and a very old woman came out, smiling kindly and inviting the children in. She set out milk and pancakes for them and made up two soft beds."
+    },
+    {
+      "de": "Doch die Freundlichkeit war nur gespielt. Die Alte war eine Hexe, die schlecht sah, dafür aber roch wie ein Tier, wenn ein Mensch in die Nähe kam. Am Morgen wurde Hänsel in einen Stall gesperrt und gemästet; Gretel musste kochen. Jeden Tag sollte Hänsel einen Finger durch das Gitter strecken, damit die Hexe prüfen konnte, ob er schon fett genug sei. Er hielt ihr jedes Mal einen dünnen Knochen hin, und weil sie so schlecht sah, merkte sie den Betrug wochenlang nicht.",
+      "en": "But the friendliness was only pretended. The old woman was a witch who saw poorly but had a sense of smell like an animal whenever a human came near. In the morning Hansel was locked in a shed and fattened up; Gretel had to cook. Every day Hansel was supposed to stick a finger through the bars so that the witch could test whether he was fat enough yet. Each time he held out a thin bone to her, and because her eyesight was so bad, she did not notice the trick for weeks."
+    },
+    {
+      "de": "Schließlich verlor die Hexe die Geduld. Der Ofen wurde geheizt, und Gretel sollte hineinkriechen, angeblich um nachzusehen, ob er heiß genug sei. Das Mädchen aber stellte sich dumm und bat die Alte, es ihr vorzumachen. Kaum hatte die Hexe sich vorgebeugt, stieß Gretel sie hinein und schlug die eiserne Tür zu.",
+      "en": "At last the witch lost her patience. The oven was heated, and Gretel was to crawl inside, supposedly to see whether it was hot enough. The girl, however, played dumb and asked the old woman to show her how. Hardly had the witch bent forward when Gretel pushed her in and slammed the iron door shut.",
+      "illustration": "🔥"
+    },
+    {
+      "de": "In den Truhen des Hauses fanden die Kinder Perlen und Edelsteine, so viele, wie sie tragen konnten. Der Weg nach Hause dauerte lange, und ein breites Wasser hätte sie beinahe aufgehalten, wäre nicht eine weiße Ente gekommen, die sie einzeln hinübertrug. Der Vater, der seit Wochen keine frohe Stunde mehr gehabt hatte, umarmte sie unter der Tür. Die Frau war inzwischen gestorben, und die Not hatte damit ein Ende.",
+      "en": "In the chests of the house the children found pearls and precious stones, as many as they could carry. The journey home took a long time, and a wide stretch of water would almost have stopped them, had a white duck not come along and carried them across one by one. The father, who had not had a single happy hour for weeks, embraced them in the doorway. The wife had died in the meantime, and with that their hardship was over."
+    }
+  ]
+}

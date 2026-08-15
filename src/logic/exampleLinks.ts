@@ -10,8 +10,11 @@ export interface ExampleSegment {
   word: boolean;
 }
 
-/** German word runs: letters (incl. umlauts/ß), inner hyphens kept ("E-Mail"). */
-const WORD_RE = /[A-Za-zÄÖÜäöüß]+(?:-[A-Za-zÄÖÜäöüß]+)*/g;
+/**
+ * Word runs: any letter, so loanwords keep their accents (Café, Croissant),
+ * with inner hyphens kept ("E-Mail").
+ */
+const WORD_RE = /\p{L}+(?:-\p{L}+)*/gu;
 
 /** Split a sentence into alternating word / non-word segments (lossless). */
 export function segmentExample(text: string): ExampleSegment[] {

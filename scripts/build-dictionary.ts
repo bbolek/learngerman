@@ -25,13 +25,13 @@ const NOTO_DIR = path.join(ROOT, 'scripts/data/images/noto');
 const OUT_FILE = path.join(ROOT, 'assets/db/dictionary.db');
 const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 
-const CONTENT_VERSION = 7;
+const CONTENT_VERSION = 8;
 
-const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
-/** Vocabulary and grammar span the full CEFR range; reading stays A1–B1. */
+const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'det', 'conj', 'num', 'name', 'other']);
+/** Vocabulary, grammar and reading all span the full CEFR range. */
 const VOCAB_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 const GRAMMAR_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
-const READING_LEVELS = ['A1', 'A2', 'B1'];
+const READING_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const QTYPES = new Set(['mc', 'fill', 'order', 'case_id']);
 const EXAMPLE_TAGS = new Set([
   'präsens',
@@ -143,6 +143,15 @@ function notoFileName(emoji: string): string {
     .filter((cp) => cp !== 0xfe0f)
     .map((cp) => cp.toString(16));
   return `emoji_u${cps.join('_')}.svg`;
+}
+
+/**
+ * Vendored Noto SVG text for an emoji, or null when the asset is missing —
+ * builds never touch the network, so the caller reports a loud error.
+ */
+function notoSvg(emoji: string): string | null {
+  const file = path.join(NOTO_DIR, notoFileName(emoji));
+  return fs.existsSync(file) ? fs.readFileSync(file, 'utf8').trim() : null;
 }
 
 /**
@@ -379,6 +388,8 @@ function loadGrammar(): GrammarTopic[] {
 interface ReadingParagraph {
   de: string;
   en: string;
+  /** Optional Noto emoji shown as a small tile beside the paragraph. */
+  illustration?: string;
 }
 
 interface ReadingText {
@@ -387,6 +398,10 @@ interface ReadingText {
   level: string;
   /** One-line hook shown on the Leseecke list. */
   teaser: string;
+  /** Provenance for retold public-domain material ("nach den Brüdern Grimm"). */
+  source?: string;
+  /** Optional Noto emoji used as the text's cover tile. */
+  illustration?: string;
   paragraphs: ReadingParagraph[];
 }
 
@@ -418,6 +433,12 @@ function loadReading(): ReadingText[] {
     }
     for (const p of t.paragraphs) {
       if (!p.de || !p.en) errors.push(`${where}: paragraph needs both 'de' and 'en'`);
+      if (p.illustration && !notoSvg(p.illustration)) {
+        errors.push(`${where}: no vendored Noto SVG for paragraph emoji ${p.illustration}`);
+      }
+    }
+    if (t.illustration && !notoSvg(t.illustration)) {
+      errors.push(`${where}: no vendored Noto SVG for cover emoji ${t.illustration}`);
     }
   }
   if (errors.length) {
@@ -759,8 +780,10 @@ function build() {
       id INTEGER PRIMARY KEY,
       slug TEXT UNIQUE NOT NULL,
       title TEXT NOT NULL,
-      level TEXT NOT NULL CHECK (level IN ('A1','A2','B1')),
+      level TEXT NOT NULL CHECK (level IN ('A1','A2','B1','B2','C1','C2')),
       teaser TEXT NOT NULL,
+      source TEXT,
+      illustration_svg TEXT,
       word_count INTEGER NOT NULL,
       sort_order INTEGER NOT NULL
     );
@@ -770,7 +793,8 @@ function build() {
       text_id INTEGER NOT NULL REFERENCES reading_texts(id),
       sort_order INTEGER NOT NULL,
       de TEXT NOT NULL,
-      en TEXT NOT NULL
+      en TEXT NOT NULL,
+      illustration_svg TEXT
     );
     CREATE INDEX idx_reading_paragraphs_text ON reading_paragraphs(text_id);
 
@@ -892,16 +916,26 @@ function build() {
     }
 
     const insReadingText = db.prepare(
-      'INSERT INTO reading_texts (slug, title, level, teaser, word_count, sort_order) VALUES (?, ?, ?, ?, ?, ?)'
+      `INSERT INTO reading_texts (slug, title, level, teaser, source, illustration_svg, word_count, sort_order)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
     );
     const insReadingPara = db.prepare(
-      'INSERT INTO reading_paragraphs (text_id, sort_order, de, en) VALUES (?, ?, ?, ?)'
+      'INSERT INTO reading_paragraphs (text_id, sort_order, de, en, illustration_svg) VALUES (?, ?, ?, ?, ?)'
     );
     reading.forEach((t, ti) => {
-      const info = insReadingText.run(t.slug, t.title, t.level, t.teaser, readingWordCount(t), ti + 1);
+      const info = insReadingText.run(
+        t.slug,
+        t.title,
+        t.level,
+        t.teaser,
+        t.source ?? null,
+        t.illustration ? notoSvg(t.illustration) : null,
+        readingWordCount(t),
+        ti + 1
+      );
       const textId = info.lastInsertRowid as number;
       t.paragraphs.forEach((p, pi) => {
-        insReadingPara.run(textId, pi + 1, p.de, p.en);
+        insReadingPara.run(textId, pi + 1, p.de, p.en, p.illustration ? notoSvg(p.illustration) : null);
       });
     });
 

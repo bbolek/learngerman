@@ -105,7 +105,7 @@ export default function ReadingTextScreen() {
             </AppText>
           )}
           <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
-            Tippe unterstrichene Wörter an, um sie nachzuschlagen.
+            Tippe ein beliebiges Wort an, um es nachzuschlagen.
           </AppText>
 
           <View style={{ marginTop: spacing.lg, gap: spacing.xl }}>
@@ -123,6 +123,7 @@ export default function ReadingTextScreen() {
                   text={p.de}
                   excludeLemmaId={-1}
                   linkAll
+                  plain
                   style={{ fontSize: 17, lineHeight: 28 }}
                 />
                 <View style={styles.paraActions}>

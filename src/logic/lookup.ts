@@ -1,4 +1,5 @@
 import { asciiFold, normalize } from '@/logic/normalize';
+import { partCandidates, reducedCandidates, resolveCompound } from '@/logic/wordParts';
 
 /** Minimal query surface — expo-sqlite satisfies it directly; tests adapt better-sqlite3. */
 export interface QueryDb {
@@ -45,27 +46,22 @@ async function attachGlosses(db: QueryDb, hits: Omit<LemmaHit, 'gloss'>[]): Prom
   return hits.map((h) => ({ ...h, gloss: gloss.get(h.lemmaId) ?? '' }));
 }
 
-/** German → English: exact lemma, exact inflected form, then prefix/in-word matches. */
-export async function lookupGerman(db: QueryDb, input: string, limit = 20): Promise<LemmaHit[]> {
-  const q = normalize(input);
-  if (!q) return [];
+type ExactLemmaRow = Omit<LemmaHit, 'gloss' | 'via'> & { exact: number };
+type ExactFormRow = ExactLemmaRow & { matchedForm: string; matchedTag: string };
+
+/** Exact lemma and form matches for one spelling, umlaut folds included. */
+async function exactMatches(db: QueryDb, q: string) {
   const fold = asciiFold(q);
   const plain = plainFold(q);
 
-  const lemmaRows = await db.getAllAsync<
-    Omit<LemmaHit, 'gloss' | 'via'> & { exact: number }
-  >(
+  const lemmaRows = await db.getAllAsync<ExactLemmaRow>(
     `SELECT ${LEMMA_COLS}, (l.lemma_norm = ?) AS exact FROM lemmas l
      WHERE l.lemma_norm = ? OR l.lemma_fold = ? OR l.lemma_plain = ?
      ORDER BY exact DESC, l.freq_rank IS NULL, l.freq_rank`,
     [q, q, fold, plain]
   );
 
-  const formRows = await db.getAllAsync<Omit<LemmaHit, 'gloss' | 'via'> & {
-    matchedForm: string;
-    matchedTag: string;
-    exact: number;
-  }>(
+  const formRows = await db.getAllAsync<ExactFormRow>(
     `SELECT ${LEMMA_COLS}, f.form AS matchedForm, MIN(f.tag) AS matchedTag,
             MAX(f.form_norm = ?) AS exact
      FROM forms f JOIN lemmas l ON l.id = f.lemma_id
@@ -74,6 +70,51 @@ export async function lookupGerman(db: QueryDb, input: string, limit = 20): Prom
      ORDER BY exact DESC, l.freq_rank IS NULL, l.freq_rank`,
     [q, q, fold, plain]
   );
+
+  return { lemmaRows, formRows };
+}
+
+/** German → English: exact lemma, exact inflected form, then prefix/in-word matches. */
+export async function lookupGerman(db: QueryDb, input: string, limit = 20): Promise<LemmaHit[]> {
+  const q = normalize(input);
+  if (!q) return [];
+  const fold = asciiFold(q);
+  const plain = plainFold(q);
+
+  let { lemmaRows, formRows } = await exactMatches(db, q);
+
+  // Participles and adjectives are indexed bare, so a word that carries an
+  // adjective ending and matches nothing gets one retry without it
+  // ("erstarrenden" → erstarrend, "zugesagte" → zugesagt).
+  if (lemmaRows.length === 0 && formRows.length === 0) {
+    for (const stem of reducedCandidates(q)) {
+      const retry = await exactMatches(db, stem);
+      if (retry.lemmaRows.length || retry.formRows.length) {
+        ({ lemmaRows, formRows } = retry);
+        break;
+      }
+    }
+  }
+
+  // Still nothing: try reading it as a compound and offer its parts,
+  // head first ("Fischbrötchen" → Brötchen, Fisch).
+  if (lemmaRows.length === 0 && formRows.length === 0) {
+    const parts = partCandidates(q);
+    if (parts.length > 0) {
+      const rows = await db.getAllAsync<ExactLemmaRow>(
+        `SELECT ${LEMMA_COLS}, 1 AS exact FROM lemmas l
+         WHERE l.lemma_norm IN (${parts.map(() => '?').join(',')})`,
+        parts
+      );
+      const byLemma = new Map(rows.map((r) => [normalize(r.lemma), r]));
+      for (const base of [q, ...reducedCandidates(q)]) {
+        const split = resolveCompound(base, (p) => byLemma.has(p));
+        if (!split) continue;
+        lemmaRows = [byLemma.get(split.head)!, byLemma.get(split.modifier)!];
+        break;
+      }
+    }
+  }
 
   // Precision tiers: exact-spelling lemma > exact-spelling form >
   // umlaut-folded lemma > umlaut-folded form ("fährt" → fahren, not Fahrt;

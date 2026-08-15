@@ -1,0 +1,39 @@
+{
+  "slug": "der-hase-und-die-schildkroete",
+  "title": "Der Hase und die Schildkröte",
+  "level": "A1",
+  "teaser": "Der Hase läuft sehr schnell. Die Schildkröte ist sehr langsam. Wer gewinnt?",
+  "source": "Nacherzählung nach einer Fabel von Äsop · gemeinfrei",
+  "illustration": "🐢",
+  "paragraphs": [
+    {
+      "de": "Der Hase läuft sehr schnell. Er sagt jeden Tag: „Ich bin der Schnellste!“ Die anderen Tiere hören das nicht mehr gern.",
+      "en": "The hare runs very fast. Every day he says: \"I am the fastest!\" The other animals do not like hearing it any more."
+    },
+    {
+      "de": "Die Schildkröte ist langsam. Sie sagt: „Wir machen ein Rennen.“ Der Hase lacht laut. „Du? Gegen mich?“",
+      "en": "The tortoise is slow. She says: \"Let us have a race.\" The hare laughs loudly. \"You? Against me?\""
+    },
+    {
+      "de": "Am Morgen beginnt das Rennen. Der Hase läuft los. Nach zwei Minuten ist er weit vorn.",
+      "en": "In the morning the race begins. The hare runs off. After two minutes he is far ahead."
+    },
+    {
+      "de": "Der Hase denkt: „Ich habe viel Zeit.“ Er legt sich unter einen Baum und schläft ein.",
+      "en": "The hare thinks: \"I have plenty of time.\" He lies down under a tree and falls asleep.",
+      "illustration": "🌲"
+    },
+    {
+      "de": "Die Schildkröte geht weiter. Sie geht langsam, aber sie bleibt nicht stehen. Schritt für Schritt.",
+      "en": "The tortoise keeps going. She goes slowly, but she does not stop. Step by step."
+    },
+    {
+      "de": "Der Hase wacht auf. Er läuft schnell zum Ziel. Aber die Schildkröte ist schon da.",
+      "en": "The hare wakes up. He runs quickly to the finish. But the tortoise is already there."
+    },
+    {
+      "de": "Sie sagt freundlich: „Langsam und immer weiter ist besser als schnell und dann schlafen.“",
+      "en": "She says in a friendly way: \"Slow and steady is better than fast and then asleep.\""
+    }
+  ]
+}

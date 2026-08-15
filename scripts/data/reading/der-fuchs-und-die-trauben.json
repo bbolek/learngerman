@@ -1,0 +1,31 @@
+{
+  "slug": "der-fuchs-und-die-trauben",
+  "title": "Der Fuchs und die Trauben",
+  "level": "A1",
+  "teaser": "Der Fuchs hat Hunger. Die Trauben hängen sehr hoch.",
+  "source": "Nacherzählung nach einer Fabel von Äsop · gemeinfrei",
+  "illustration": "🦊",
+  "paragraphs": [
+    {
+      "de": "Es ist Sommer. Der Fuchs geht durch den Garten. Er hat Hunger und sucht etwas zu essen.",
+      "en": "It is summer. The fox walks through the garden. He is hungry and is looking for something to eat."
+    },
+    {
+      "de": "Da sieht er Trauben. Die Trauben sind blau und dick. Sie hängen hoch oben.",
+      "en": "Then he sees some grapes. The grapes are blue and fat. They are hanging high up.",
+      "illustration": "🍇"
+    },
+    {
+      "de": "Der Fuchs springt. Er springt noch einmal. Er springt zehnmal. Aber die Trauben sind zu hoch.",
+      "en": "The fox jumps. He jumps again. He jumps ten times. But the grapes are too high."
+    },
+    {
+      "de": "Der Fuchs ist müde. Er geht weg und sagt: „Die Trauben sind sauer. Ich will sie nicht.“",
+      "en": "The fox is tired. He walks away and says: \"The grapes are sour. I do not want them.\""
+    },
+    {
+      "de": "Aber das ist nicht wahr. Die Trauben sind süß. Der Fuchs kann sie nur nicht bekommen.",
+      "en": "But that is not true. The grapes are sweet. The fox simply cannot get them."
+    }
+  ]
+}

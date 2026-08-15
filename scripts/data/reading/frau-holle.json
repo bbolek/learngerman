@@ -1,0 +1,44 @@
+{
+  "slug": "frau-holle",
+  "title": "Frau Holle",
+  "level": "A2",
+  "teaser": "Wer die Betten gut schüttelt, lässt es auf der Erde schneien — und bekommt Gold.",
+  "source": "Nacherzählung nach den Brüdern Grimm · gemeinfrei",
+  "illustration": "❄️",
+  "paragraphs": [
+    {
+      "de": "Eine Witwe hat zwei Töchter. Die eine ist fleißig, die andere ist faul. Die Mutter mag nur die faule Tochter. Die fleißige muss jeden Tag am Brunnen spinnen.",
+      "en": "A widow has two daughters. One is hard-working, the other is lazy. The mother only likes the lazy daughter. The hard-working one has to spin at the well every day."
+    },
+    {
+      "de": "Eines Tages fällt ihr die Spule in den Brunnen. Die Mutter ist böse und sagt: „Hol sie wieder!“ Da springt das Mädchen hinterher.",
+      "en": "One day her spindle falls into the well. The mother is angry and says: \"Get it back!\" So the girl jumps in after it."
+    },
+    {
+      "de": "Sie wacht auf einer schönen Wiese auf. Sie geht weiter und kommt an einem Backofen vorbei. Das Brot ruft: „Hol mich heraus, ich verbrenne!“ Das Mädchen holt das Brot heraus.",
+      "en": "She wakes up in a beautiful meadow. She walks on and passes a baking oven. The bread calls: \"Take me out, I am burning!\" The girl takes the bread out."
+    },
+    {
+      "de": "Dann kommt sie zu einem Apfelbaum. Der Baum ruft: „Schüttle mich, meine Äpfel sind reif!“ Das Mädchen schüttelt den Baum und legt die Äpfel ordentlich auf einen Haufen.",
+      "en": "Then she comes to an apple tree. The tree calls: \"Shake me, my apples are ripe!\" The girl shakes the tree and lays the apples neatly in a heap.",
+      "illustration": "🍎"
+    },
+    {
+      "de": "Zuletzt kommt sie zu einem kleinen Haus. Dort wohnt Frau Holle. Sie hat große Zähne, aber sie ist freundlich. „Bleib bei mir“, sagt sie. „Schüttle jeden Tag meine Betten. Dann schneit es auf der Erde.“",
+      "en": "At last she comes to a little house. Frau Holle lives there. She has big teeth, but she is friendly. \"Stay with me,\" she says. \"Shake out my beds every day. Then it snows on earth.\"",
+      "illustration": "🛏️"
+    },
+    {
+      "de": "Das Mädchen arbeitet gut und bekommt genug zu essen. Aber nach einiger Zeit hat es Heimweh. Frau Holle bringt es zu einem großen Tor. Dort fällt Gold auf das Mädchen. „Das ist dein Lohn“, sagt Frau Holle.",
+      "en": "The girl works well and gets enough to eat. But after a while she gets homesick. Frau Holle takes her to a big gate. There gold falls onto the girl. \"That is your reward,\" says Frau Holle."
+    },
+    {
+      "de": "Zu Hause staunen alle. Jetzt will auch die faule Tochter Gold. Sie springt in den Brunnen. Aber sie lässt das Brot verbrennen und den Apfelbaum stehen. Bei Frau Holle arbeitet sie nur einen Tag.",
+      "en": "At home everyone is amazed. Now the lazy daughter wants gold too. She jumps into the well. But she lets the bread burn and leaves the apple tree alone. She works for Frau Holle for only one day."
+    },
+    {
+      "de": "Am Tor fällt kein Gold auf sie, sondern Pech. Es bleibt an ihr kleben, ihr ganzes Leben lang.",
+      "en": "At the gate no gold falls on her, but pitch. It sticks to her for the rest of her life."
+    }
+  ]
+}

@@ -46,6 +46,7 @@ const POS_LABEL: Record<string, string> = {
   adv: 'Adverb',
   prep: 'Präposition',
   pron: 'Pronomen',
+  det: 'Artikelwort',
   conj: 'Konjunktion',
   num: 'Zahlwort',
   other: 'Wort',
@@ -358,6 +359,7 @@ const VERB_ROWS: [string, string][] = [
   ['präsens_ihr', 'ihr'],
   ['präteritum_ich', 'Präteritum (ich/er)'],
   ['partizip2', 'Perfekt'],
+  ['konjunktiv2', 'Konjunktiv II'],
   ['imperativ_du', 'Imperativ (du)'],
 ];
 
@@ -372,6 +374,18 @@ const ADJ_ROWS: [string, string][] = [
   ['superlativ', 'Superlativ'],
 ];
 
+/** Function words have few forms but several per case, so each row lists them all. */
+const FUNCTION_ROWS: [string, string][] = [
+  ['dekliniert', 'Formen'],
+  ['akkusativ', 'Akkusativ'],
+  ['dativ', 'Dativ'],
+  ['genitiv', 'Genitiv'],
+  ['possessiv', 'Possessivform'],
+  ['kontraktion', 'mit Artikel'],
+];
+
+const FUNCTION_POS = new Set(['pron', 'det', 'prep', 'conj', 'adv', 'num', 'other']);
+
 /** Pronoun spoken before conjugated forms so TTS reads a natural phrase. */
 const SPOKEN_PREFIX: Record<string, string> = {
   präsens_ich: 'ich',
@@ -380,23 +394,36 @@ const SPOKEN_PREFIX: Record<string, string> = {
   präsens_wir: 'wir',
   präsens_ihr: 'ihr',
   präteritum_ich: 'ich',
+  konjunktiv2: 'ich',
 };
 
 function FormsTable({ lemma, forms }: { lemma: LemmaDetail; forms: FormRow[] }) {
   const t = useTheme();
-  const byTag = new Map<string, string>();
-  for (const f of forms) if (!byTag.has(f.tag)) byTag.set(f.tag, f.form);
+  const byTag = new Map<string, string[]>();
+  for (const f of forms) {
+    const list = byTag.get(f.tag) ?? [];
+    if (!list.includes(f.form)) list.push(f.form);
+    byTag.set(f.tag, list);
+  }
 
-  const rows =
-    lemma.pos === 'verb' ? VERB_ROWS : lemma.pos === 'noun' ? NOUN_ROWS : ADJ_ROWS;
+  const functionWord = FUNCTION_POS.has(lemma.pos);
+  const rows = functionWord
+    ? FUNCTION_ROWS
+    : lemma.pos === 'verb'
+      ? VERB_ROWS
+      : lemma.pos === 'noun'
+        ? NOUN_ROWS
+        : ADJ_ROWS;
 
   return (
     <View style={{ marginTop: spacing.sm }}>
       {rows.map(([tag, label]) => {
-        let value = byTag.get(tag);
+        const all = byTag.get(tag);
+        let value = functionWord ? all?.join(' · ') : all?.[0];
         if (tag === 'partizip2' && value) value = `${lemma.verb_aux === 'sein' ? 'ist' : 'hat'} ${value}`;
         if (tag === 'präsens_wir') value = lemma.lemma;
         if (!value) return null;
+        const spoken = functionWord ? all!.join(', ') : value;
         const prefix = SPOKEN_PREFIX[tag];
         return (
           <View key={tag} style={[styles.tr, { borderTopColor: t.line }]}>
@@ -406,7 +433,7 @@ function FormsTable({ lemma, forms }: { lemma: LemmaDetail; forms: FormRow[] }) 
             <AppText variant="body" style={{ fontFamily: fonts.semibold, flex: 1 }}>
               {value}
             </AppText>
-            <ListenButton text={prefix ? `${prefix} ${value}` : value} size={17} />
+            <ListenButton text={prefix ? `${prefix} ${spoken}` : spoken} size={17} />
           </View>
         );
       })}

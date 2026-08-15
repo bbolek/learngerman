@@ -9,7 +9,7 @@ pairs across files fail the build.
 ```jsonc
 {
   "lemma": "machen",          // dictionary form; nouns capitalized
-  "pos": "verb",              // verb|noun|adj|adv|prep|pron|conj|num|other
+  "pos": "verb",              // verb|noun|adj|adv|prep|pron|det|conj|num|other
   "level": "A1",              // A1|A2|B1|B2|C1|C2
   "freq": 8,                  // approximate frequency rank (1 = most common)
   "verb": { ... },            // required for pos=verb
@@ -56,8 +56,33 @@ pairs across files fail the build.
 
 ### Other POS
 
-adv/prep/pron/conj/num/other take no morphology block. For prepositions put
+adv/prep/pron/det/conj/num/other take no morphology block. For prepositions put
 the case in `note` (`"+ Dativ"`, `"+ Akkusativ"`, `"Wechselpräposition: …"`).
+
+`det` is the article-word class (der, ein, dieser, jener, mancher, solcher) —
+labelled *Artikelwort* in the app. `kein` predates the class and stays `other`;
+never change an existing entry's `pos`, or the content swap loses the user rows
+attached to it (they are remapped by lemma+pos).
+
+Closed-class words are inflected from tables in `scripts/inflect.ts` rather
+than from the JSON, so adding one of these lemmas is enough to make every one
+of its forms tappable:
+
+- personal/interrogative pronoun case forms (`CASE_FORMS`: ich → mich, mir)
+- possessives with no lemma of their own hang off their pronoun
+  (`POSSESSIVE_OF`: seine → er, unserem → wir)
+- der- and ein-paradigms (`DER_WORDS`, `EIN_WORDS`), also used for the adverbs
+  that still take adjective endings (viel, wenig, ganz)
+- preposition + article contractions (`CONTRACTIONS`: im, ins, zum, zur, vom)
+- ordinals: any `num` lemma ending in -te/-ste declines like an adjective
+
+Add the lemma to the matching table when a new function word does not fit an
+existing paradigm; unknown lemmas simply expand to nothing.
+
+Verbs additionally get Konjunktiv II (`wäre`, `käme`, `würde`) derived from the
+Präteritum by umlaut, with the irregular ones listed in `KONJUNKTIV2`; weak
+verbs add nothing because their Konjunktiv II is spelled like the Präteritum.
+One-syllable m/n nouns get the dative -e (`dem Kinde`).
 
 ## Vocabulary images (`images.json`)
 

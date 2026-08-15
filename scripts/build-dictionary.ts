@@ -27,7 +27,7 @@ const META_FILE = path.join(ROOT, 'assets/db/content-meta.json');
 
 const CONTENT_VERSION = 8;
 
-const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'conj', 'num', 'other']);
+const POS = new Set(['verb', 'noun', 'adj', 'adv', 'prep', 'pron', 'det', 'conj', 'num', 'other']);
 /** Vocabulary, grammar and reading all span the full CEFR range. */
 const VOCAB_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 const GRAMMAR_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);

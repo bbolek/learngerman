@@ -25,6 +25,7 @@ const POS_LABEL: Record<string, string> = {
   adv: 'Adverb',
   prep: 'Präposition',
   pron: 'Pronomen',
+  det: 'Artikelwort',
   conj: 'Konjunktion',
   num: 'Zahlwort',
   other: 'Wort',

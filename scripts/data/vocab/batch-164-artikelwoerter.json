@@ -1,0 +1,92 @@
+[
+  {
+    "lemma": "der",
+    "pos": "det",
+    "level": "A1",
+    "freq": 1,
+    "senses": [
+      {
+        "en": "the",
+        "note": "definite article: der (m) · die (f/pl) · das (n); also the relative pronoun \"who, which\"",
+        "example_de": "Der Mann, die Frau, das Kind.",
+        "example_en": "The man, the woman, the child."
+      },
+      {
+        "en": "who, which, that",
+        "note": "relative pronoun: der Mann, der dort steht",
+        "example_de": "Das ist der Zug, der nach Berlin fährt.",
+        "example_en": "That is the train that goes to Berlin."
+      }
+    ]
+  },
+  {
+    "lemma": "ein",
+    "pos": "det",
+    "level": "A1",
+    "freq": 3,
+    "senses": [
+      {
+        "en": "a, an",
+        "note": "indefinite article: ein (m/n) · eine (f); no plural form",
+        "example_de": "Ein Apfel und eine Banane.",
+        "example_en": "An apple and a banana."
+      }
+    ]
+  },
+  {
+    "lemma": "dieser",
+    "pos": "det",
+    "level": "A1",
+    "freq": 35,
+    "senses": [
+      {
+        "en": "this, these",
+        "note": "declines like der: dieser · diese · dieses · diesen · diesem",
+        "example_de": "Diese Woche habe ich viel zu tun.",
+        "example_en": "This week I have a lot to do."
+      }
+    ]
+  },
+  {
+    "lemma": "mancher",
+    "pos": "det",
+    "level": "B1",
+    "freq": 620,
+    "senses": [
+      {
+        "en": "many a, some",
+        "note": "declines like dieser; often plural: manche Leute",
+        "example_de": "Manche Leute stehen gern früh auf.",
+        "example_en": "Some people like getting up early."
+      }
+    ]
+  },
+  {
+    "lemma": "solcher",
+    "pos": "det",
+    "level": "B1",
+    "freq": 540,
+    "senses": [
+      {
+        "en": "such (a), that kind of",
+        "note": "solch ein Tag = so ein Tag; after ein it declines like an adjective",
+        "example_de": "Bei solchem Wetter bleibe ich zu Hause.",
+        "example_en": "In weather like that I stay at home."
+      }
+    ]
+  },
+  {
+    "lemma": "jener",
+    "pos": "det",
+    "level": "B2",
+    "freq": 900,
+    "senses": [
+      {
+        "en": "that, those (over there)",
+        "note": "literary; everyday German says der da or dieser",
+        "example_de": "In jenen Jahren war alles anders.",
+        "example_en": "In those years everything was different."
+      }
+    ]
+  }
+]

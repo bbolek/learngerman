@@ -83,6 +83,76 @@ describe('lookupGerman', () => {
   });
 });
 
+/** Function words are the words learners tap most; every form must resolve. */
+describe('function-word forms', () => {
+  const cases: [string, string, string][] = [
+    ['mich', 'ich', 'akkusativ'],
+    ['mir', 'ich', 'dativ'],
+    ['ihn', 'er', 'akkusativ'],
+    ['ihm', 'er', 'dativ'],
+    ['ihnen', 'sie', 'dativ'],
+    ['euch', 'ihr', 'akkusativ'],
+    ['wen', 'wer', 'akkusativ'],
+    ['seine', 'er', 'possessiv'],
+    ['unserem', 'wir', 'possessiv'],
+    ['meinen', 'mein', 'dekliniert'],
+    ['eure', 'euer', 'dekliniert'],
+    ['dem', 'der', 'dekliniert'],
+    ['dessen', 'der', 'genitiv'],
+    ['einer', 'ein', 'dekliniert'],
+    ['keinem', 'kein', 'dekliniert'],
+    ['diesen', 'dieser', 'dekliniert'],
+    ['jedes', 'jeder', 'dekliniert'],
+    ['vieler', 'viel', 'dekliniert'],
+    ['ganzen', 'ganz', 'dekliniert'],
+    ['ersten', 'erste', 'dekliniert'],
+    ['zwanzigsten', 'zwanzigste', 'dekliniert'],
+  ];
+
+  it.each(cases)('%s → %s (%s)', async (form, lemma, tag) => {
+    const hits = await lookupGerman(db, form);
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain(`${lemma}|${tag}`);
+  });
+
+  it.each([
+    ['im', 'in'],
+    ['ins', 'in'],
+    ['am', 'an'],
+    ['ans', 'an'],
+    ['zum', 'zu'],
+    ['zur', 'zu'],
+    ['vom', 'von'],
+    ['beim', 'bei'],
+  ])('contraction %s → %s', async (form, lemma) => {
+    const hits = await lookupGerman(db, form);
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain(`${lemma}|kontraktion`);
+  });
+
+  it.each([
+    ['wäre', 'sein'],
+    ['wärst', 'sein'],
+    ['hätte', 'haben'],
+    ['würden', 'werden'],
+    ['könnte', 'können'],
+    ['müsste', 'müssen'],
+    ['käme', 'kommen'],
+    ['ginge', 'gehen'],
+  ])('Konjunktiv II %s → %s', async (form, lemma) => {
+    const hits = await lookupGerman(db, form);
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain(`${lemma}|konjunktiv2`);
+  });
+
+  it('keeps the dative -e of one-syllable nouns: Kinde → Kind', async () => {
+    const hits = await lookupGerman(db, 'Kinde');
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain('Kind|dativ');
+  });
+
+  it('declines adjectives whose citation form ends in -e: leiser → leise', async () => {
+    const hits = await lookupGerman(db, 'leiser');
+    expect(hits.map((h) => h.lemma)).toContain('leise');
+  });
+});
+
 describe('lookupEnglish', () => {
   it('finds German word by English gloss: house → Haus', async () => {
     const hits = await lookupEnglish(db, 'house');

@@ -229,8 +229,11 @@ export async function getWordOfTheDay(
   example_en: string | null;
 } | null> {
   // COUNT and SELECT must share join + filter, or the offset drifts out of range.
-  const base = `FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1`;
-  const cond = levels && levels.length > 0 ? ` WHERE l.level IN (${levels.map(() => '?').join(', ')})` : '';
+  // Proper names are dictionary entries so stories stay tappable, but nobody
+  // wants "Rumpelstilzchen" as their Wort des Tages.
+  const base = `FROM lemmas l JOIN senses s ON s.lemma_id = l.id AND s.sense_order = 1
+     WHERE l.pos <> 'name'`;
+  const cond = levels && levels.length > 0 ? ` AND l.level IN (${levels.map(() => '?').join(', ')})` : '';
   const args = levels && levels.length > 0 ? levels : [];
   // Deterministic per day: hash the ISO date onto the pool size.
   const row = await getDb().getFirstAsync<{ c: number }>(`SELECT COUNT(*) AS c ${base}${cond}`, args);

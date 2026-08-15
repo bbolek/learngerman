@@ -28,6 +28,7 @@ const POS_LABEL: Record<string, string> = {
   det: 'Artikelwort',
   conj: 'Konjunktion',
   num: 'Zahlwort',
+  name: 'Eigenname',
   other: 'Wort',
 };
 

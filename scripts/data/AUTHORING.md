@@ -64,6 +64,12 @@ labelled *Artikelwort* in the app. `kein` predates the class and stays `other`;
 never change an existing entry's `pos`, or the content swap loses the user rows
 attached to it (they are remapped by lemma+pos).
 
+`name` is for proper names (Hans, Bremen, Rotkäppchen). They are dictionary
+entries so that stories stay tappable, but they are filtered out of the random
+word pools — nobody wants Rumpelstilzchen as their Wort des Tages. Give them
+the level of the text they appear in and put the explanation in the German
+`note`; a name needs no `example_de`.
+
 Closed-class words are inflected from tables in `scripts/inflect.ts` rather
 than from the JSON, so adding one of these lemmas is enough to make every one
 of its forms tappable:
@@ -298,9 +304,15 @@ Rules:
   public-domain sources (Grimm, Äsop, Eulenspiegel, Bürger, Storm, Kafka …),
   written as a fresh graded **Nacherzählung** rather than a copied original,
   and the line must end in `· gemeinfrei` (a test checks it).
-- Every word is tappable in the reader (fuzzy dictionary lookup) — prefer
-  vocabulary the dictionary knows, but unmatched words are simply not
-  linked; nothing breaks.
+- **Every word must reach a dictionary entry** — a word that resolves to
+  nothing is not underlined, so the learner who does not know it gets no help.
+  `reading.test.ts` fails with the exact list when one does not. It resolves
+  through the fallbacks in `src/logic/wordParts.ts` too (endings, feminines,
+  diminutives, compounds), so a transparent compound like Apfelkuchen needs no
+  entry of its own as long as both halves exist. When a word does not resolve,
+  fix it in this order: add the missing base word (Rübe, Geiß) rather than the
+  compound; add a `name` entry for a person or place; and only reword the text
+  when the word was a one-off invention that no learner needs.
 - The list orders by level, then German title; the build derives the
   word count shown in the UI.
 

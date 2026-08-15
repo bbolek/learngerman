@@ -17,5 +17,11 @@
 {"lemma":"dreizehnte","pos":"num","level":"A2","freq":900,"senses":[{"en":"thirteenth","note":"ordinal: 13.","example_de":"Freitag, der dreizehnte.","example_en":"Friday the thirteenth."}]},
 {"lemma":"zwanzigste","pos":"num","level":"A2","freq":850,"senses":[{"en":"twentieth","note":"ordinal: 20. — from 20 on, ordinals end in -ste","example_de":"Am zwanzigsten Juni fahren wir weg.","example_en":"We are leaving on the twentieth of June."}]},
 {"lemma":"dreißigste","pos":"num","level":"A2","freq":950,"senses":[{"en":"thirtieth","note":"ordinal: 30.","example_de":"Der dreißigste Geburtstag wird gefeiert.","example_en":"The thirtieth birthday gets celebrated."}]},
-{"lemma":"hundertste","pos":"num","level":"B1","freq":1300,"senses":[{"en":"hundredth","note":"ordinal: 100.","example_de":"Zum hundertsten Mal: nein!","example_en":"For the hundredth time: no!"}]}
+{"lemma":"hundertste","pos":"num","level":"B1","freq":1300,"senses":[{"en":"hundredth","note":"ordinal: 100.","example_de":"Zum hundertsten Mal: nein!","example_en":"For the hundredth time: no!"}]},
+{"lemma":"vierzehnte","pos":"num","level":"A2","freq":920,"senses":[{"en":"fourteenth","note":"ordinal: 14.","example_de":"Am vierzehnten Februar ist Valentinstag.","example_en":"The fourteenth of February is Valentine's Day."}]},
+{"lemma":"fünfzehnte","pos":"num","level":"A2","freq":930,"senses":[{"en":"fifteenth","note":"ordinal: 15.","example_de":"Die fünfzehnte Runde entschied das Spiel.","example_en":"The fifteenth round decided the match."}]},
+{"lemma":"sechzehnte","pos":"num","level":"A2","freq":940,"senses":[{"en":"sixteenth","note":"ordinal: 16.","example_de":"Im sechzehnten Jahrhundert entstand die Sage.","example_en":"The legend arose in the sixteenth century."}]},
+{"lemma":"siebzehnte","pos":"num","level":"A2","freq":945,"senses":[{"en":"seventeenth","note":"ordinal: 17.","example_de":"Sie feiert ihren siebzehnten Geburtstag.","example_en":"She is celebrating her seventeenth birthday."}]},
+{"lemma":"achtzehnte","pos":"num","level":"A2","freq":960,"senses":[{"en":"eighteenth","note":"ordinal: 18.","example_de":"Der achtzehnte Geburtstag ist wichtig.","example_en":"The eighteenth birthday matters."}]},
+{"lemma":"neunzehnte","pos":"num","level":"A2","freq":970,"senses":[{"en":"nineteenth","note":"ordinal: 19.","example_de":"Im neunzehnten Jahrhundert schrieb Storm seine Novellen.","example_en":"Storm wrote his novellas in the nineteenth century."}]}
 ]

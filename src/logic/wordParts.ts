@@ -13,20 +13,23 @@
  */
 
 /** Adjective/participle endings, longest first. */
-const ADJ_ENDINGS = ['en', 'em', 'er', 'es', 'e'];
+const ADJ_ENDINGS = ['en', 'em', 'er', 'es', 'e', 'n'];
 
 /** Feminine person suffixes: Läuferin, Läuferinnen → Läufer. */
 const FEMININE_SUFFIXES = ['innen', 'in'];
 
+/** Diminutives: Töpfchen → Topf, Geißlein → Geiß. */
+const DIMINUTIVE_SUFFIXES = ['chen', 'lein'];
+
 /** Shortest part that may stand as one half of a compound. */
 const MIN_MODIFIER = 3;
-/** Heads carry the meaning, so they need more substance than the modifier. */
-const MIN_HEAD = 4;
+/** Hof + Tor is a real compound, so heads go down to three letters too. */
+const MIN_HEAD = 3;
 /** A head that is only an inflected form needs more letters to be believable. */
 const MIN_INFLECTED_HEAD = 5;
 
 /** Linking morphemes: Königskind, Straßenrand, Menschengedenken. */
-const FUGEN = ['', 's', 'n', 'en', 'es', 'er'];
+const FUGEN = ['', 's', 'n', 'e', 'en', 'es', 'er'];
 
 function strip(word: string, suffixes: string[], minRest: number): string[] {
   const out: string[] = [];
@@ -38,16 +41,24 @@ function strip(word: string, suffixes: string[], minRest: number): string[] {
   return out;
 }
 
+/** Undo the diminutive umlaut: Töpf → Topf, Häus → Haus, Bäum → Baum. */
+function unumlaut(stem: string): string[] {
+  const plain = stem.replace(/äu/g, 'au').replaceAll('ä', 'a').replaceAll('ö', 'o').replaceAll('ü', 'u');
+  return plain === stem ? [] : [plain];
+}
+
 /**
- * The word with one ending removed, longest ending first. Both the adjective
- * endings and the feminine suffixes are tried, since either can sit on a word
- * whose base form is all the dictionary holds.
+ * The word with one ending removed, longest ending first. Adjective endings,
+ * feminine suffixes and diminutives are all tried, since any of them can sit
+ * on a word whose base form is all the dictionary holds. Diminutives lose
+ * their umlaut and may need the noun's final -e back (Entlein → Ente).
  */
 export function reducedCandidates(word: string): string[] {
-  return [
-    ...strip(word, ADJ_ENDINGS, MIN_MODIFIER),
-    ...strip(word, FEMININE_SUFFIXES, MIN_HEAD),
-  ];
+  const out = [...strip(word, ADJ_ENDINGS, MIN_MODIFIER), ...strip(word, FEMININE_SUFFIXES, MIN_HEAD)];
+  for (const stem of strip(word, DIMINUTIVE_SUFFIXES, MIN_MODIFIER)) {
+    for (const base of [stem, ...unumlaut(stem)]) out.push(base, base + 'e');
+  }
+  return out;
 }
 
 export interface CompoundSplit {
@@ -84,6 +95,11 @@ export function partCandidates(word: string): string[] {
     for (const { modifier, head } of compoundCandidates(base)) {
       parts.add(modifier);
       parts.add(head);
+      // A modifier may be a compound of its own (zweizimmer → zwei + Zimmer).
+      for (const inner of compoundCandidates(modifier)) {
+        parts.add(inner.modifier);
+        parts.add(inner.head);
+      }
     }
   }
   return [...parts];
@@ -101,12 +117,17 @@ export function resolveCompound(
   isForm: (part: string) => boolean = () => false
 ): CompoundSplit | null {
   const candidates = compoundCandidates(word);
+  // Modifiers may themselves be compounds — Zweizimmerwohnung is
+  // (zwei + Zimmer) + Wohnung — but only one level down, to keep this cheap.
+  const validModifier = (part: string) =>
+    isLemma(part) || compoundCandidates(part).some((s) => isLemma(s.head) && isLemma(s.modifier));
+
   for (const split of candidates) {
-    if (isLemma(split.head) && isLemma(split.modifier)) return split;
+    if (isLemma(split.head) && validModifier(split.modifier)) return split;
   }
   for (const split of candidates) {
     if (split.head.length < MIN_INFLECTED_HEAD) continue;
-    if (isForm(split.head) && isLemma(split.modifier)) return split;
+    if (isForm(split.head) && validModifier(split.modifier)) return split;
   }
   return null;
 }

@@ -1,6 +1,9 @@
 import Database from 'better-sqlite3';
 import * as path from 'node:path';
 
+import { normalizeToken, segmentExample } from '@/logic/exampleLinks';
+import { resolveByParts } from '@/logic/wordParts';
+
 // ---- content assumptions the Leseecke relies on (real built DB) ----
 
 describe('reading texts content', () => {
@@ -82,6 +85,39 @@ describe('reading texts content', () => {
   it('lists easiest level first', () => {
     const order = texts.map((t) => RANK[t.level]);
     expect([...order].sort((a, b) => a - b)).toEqual(order);
+  });
+
+  /**
+   * A word in a reading text that resolves to nothing is not tappable, so the
+   * learner who does not know it gets no help at all. Every word must reach an
+   * entry — directly, through a form, or through the fallbacks in wordParts
+   * (endings, feminines, diminutives, compounds).
+   */
+  it('every word in every text reaches a dictionary entry', () => {
+    const lemmas = new Set(
+      (db.prepare('SELECT lemma_norm FROM lemmas').all() as { lemma_norm: string }[]).map(
+        (r) => r.lemma_norm
+      )
+    );
+    const forms = new Set(
+      (db.prepare('SELECT form_norm FROM forms').all() as { form_norm: string }[]).map(
+        (r) => r.form_norm
+      )
+    );
+    const resolves = (word: string) =>
+      lemmas.has(word) ||
+      forms.has(word) ||
+      resolveByParts(word, (p) => lemmas.has(p), (p) => forms.has(p)) != null;
+
+    const paragraphs = db.prepare('SELECT de FROM reading_paragraphs').all() as { de: string }[];
+    const unresolved = new Set<string>();
+    for (const p of paragraphs) {
+      for (const seg of segmentExample(p.de)) {
+        if (!seg.word || seg.text.length < 2) continue;
+        if (!resolves(normalizeToken(seg.text))) unresolved.add(seg.text);
+      }
+    }
+    expect([...unresolved]).toEqual([]);
   });
 
   it('slugs are unique', () => {

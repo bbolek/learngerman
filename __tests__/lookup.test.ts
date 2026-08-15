@@ -151,6 +151,47 @@ describe('function-word forms', () => {
     const hits = await lookupGerman(db, 'leiser');
     expect(hits.map((h) => h.lemma)).toContain('leise');
   });
+
+  it('keeps the e of -er adjectives that never elided it: schwere → schwer', async () => {
+    const hits = await lookupGerman(db, 'schwere');
+    expect(hits.map((h) => h.lemma)).toContain('schwer');
+  });
+
+  it('indexes Konjunktiv I for indirect speech: könne → können', async () => {
+    const hits = await lookupGerman(db, 'könne');
+    expect(hits.map((h) => `${h.lemma}|${h.matchedTag}`)).toContain('können|konjunktiv1');
+  });
+
+  it('wraps zu inside separable verbs: zurückzulassen → zurücklassen', async () => {
+    const hits = await lookupGerman(db, 'zurückzulassen');
+    expect(hits.map((h) => h.lemma)).toContain('zurücklassen');
+  });
+
+  it('shifts e→i in the imperative: sieh → sehen', async () => {
+    const hits = await lookupGerman(db, 'sieh');
+    expect(hits.map((h) => h.lemma)).toContain('sehen');
+  });
+});
+
+/** Open word classes German builds on the fly — see src/logic/wordParts.ts. */
+describe('words assembled on the fly', () => {
+  it.each([
+    ['Apfelkuchen', 'Kuchen'],
+    ['Fischbrötchen', 'Brötchen'],
+    ['Königstochter', 'Tochter'],
+    ['Zweizimmerwohnung', 'Wohnung'],
+    ['Läuferinnen', 'Läufer'],
+    ['Töpfchen', 'Topf'],
+    ['erstarrenden', 'erstarren'],
+  ])('%s resolves through %s', async (word, expected) => {
+    const hits = await lookupGerman(db, word);
+    expect(hits.map((h) => h.lemma)).toContain(expected);
+  });
+
+  it('offers both halves of a compound, head first', async () => {
+    const hits = await lookupGerman(db, 'Apfelkuchen');
+    expect(hits.slice(0, 2).map((h) => h.lemma)).toEqual(['Kuchen', 'Apfel']);
+  });
 });
 
 describe('lookupEnglish', () => {

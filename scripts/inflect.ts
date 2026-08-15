@@ -54,7 +54,8 @@ export interface FormExample {
 
 export interface VocabEntry {
   lemma: string;
-  pos: 'verb' | 'noun' | 'adj' | 'adv' | 'prep' | 'pron' | 'det' | 'conj' | 'num' | 'other';
+  pos:
+    | 'verb' | 'noun' | 'adj' | 'adv' | 'prep' | 'pron' | 'det' | 'conj' | 'num' | 'name' | 'other';
   level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
   freq?: number;
   verb?: VerbSpec;
@@ -90,6 +91,8 @@ export function expandForms(e: VocabEntry): Form[] {
       return prepForms(e.lemma);
     case 'num':
       return numForms(e.lemma);
+    case 'name':
+      return nameForms(e.lemma);
     default:
       return [];
   }
@@ -107,6 +110,9 @@ function stemOf(infinitive: string): string {
  * (komm-, stimm-, renn-) don't, so m/n count as "easy" precedents too. */
 function needsE(stem: string): boolean {
   if (/[dt]$/.test(stem)) return true;
+  // rechn- and zeichn- need the e, wohn- and lern- do not: what matters is
+  // whether a consonant precedes the h/l/r, not the h/l/r itself.
+  if (/[^aeiouäöü][hlr][mn]$/.test(stem)) return true;
   return /[^aeiouäöülrhmn][mn]$/.test(stem);
 }
 
@@ -145,7 +151,7 @@ function verbForms(lemma: string, v: VerbSpec): Form[] {
     (base.endsWith('ieren') ? stem + 't' : prefix ? `${prefix}ge${stem}${e}t` : `ge${stem}${e}t`);
 
   /** machend, tuend, seiend — the base of every participial adjective. */
-  const partizip1 = base.endsWith('en') ? base + 'd' : stem + 'end';
+  const partizip1 = /(en|ln|rn)$/.test(base) ? base + 'd' : stem + 'end';
 
   const join = (f: string) => prefix + f;
   const forms: Form[] = [
@@ -164,6 +170,14 @@ function verbForms(lemma: string, v: VerbSpec): Form[] {
     { form: join(praesens.ihr), tag: 'imperativ_ihr' },
   ];
   if (!e && !v.praesens) forms.push({ form: join(stem + 'e'), tag: 'imperativ_du' });
+
+  // Verbs that shift e→i keep the shift in the imperative and drop the ending
+  // (du siehst → sieh!, du gibst → gib!). Umlauting verbs do not (du fährst →
+  // fahr!), so the shift has to be visible in the vowel itself.
+  const duStem = (v.du ?? praesens.du).replace(/e?st$/, '');
+  if (/e/.test(stem) && /i/.test(duStem) && duStem !== stem) {
+    forms.push({ form: join(duStem), tag: 'imperativ_du' });
+  }
 
   // Participles also work as adjectives (die erstarrende Luft, das zugesagte
   // Geld). Only the bare forms are indexed — lookupGerman strips the adjective
@@ -336,7 +350,8 @@ function adjForms(lemma: string, a: AdjSpec): Form[] {
   const supStem = baseStem(lemma);
   if (!a.superlative && /st$/.test(supStem)) return forms;
 
-  const sup = a.superlative ?? (/(d|t|s|ß|x|z)$/.test(supStem) ? supStem + 'est' : supStem + 'st');
+  const sup =
+    a.superlative ?? (/(d|t|s|ß|x|z|sch)$/.test(supStem) ? supStem + 'est' : supStem + 'st');
   forms.push({ form: 'am ' + sup + 'en', tag: 'superlativ' });
   for (const end of ADJ_ENDINGS) {
     forms.push({ form: sup + end, tag: 'superlativ' });
@@ -407,6 +422,16 @@ const CASE_FORMS: Record<string, [string, string][]> = {
     ['niemandem', 'dativ'],
     ['niemandes', 'genitiv'],
   ],
+  derselbe: [
+    ['dieselbe', 'dekliniert'],
+    ['dasselbe', 'dekliniert'],
+    ['denselben', 'dekliniert'],
+    ['demselben', 'dekliniert'],
+    ['desselben', 'dekliniert'],
+    ['derselben', 'dekliniert'],
+    ['dieselben', 'dekliniert'],
+    ['denselben', 'dekliniert'],
+  ],
   der: [
     ['die', 'dekliniert'],
     ['das', 'dekliniert'],
@@ -431,6 +456,7 @@ const DER_WORDS: Record<string, string> = {
   alle: 'all',
   beide: 'beid',
   einige: 'einig',
+  selb: 'selb',
   mehrere: 'mehrer',
   andere: 'ander',
   // Adverbs that still take adjective endings before a noun.
@@ -499,6 +525,14 @@ const CONTRACTIONS: Record<string, string[]> = {
 
 function prepForms(lemma: string): Form[] {
   return (CONTRACTIONS[lemma] ?? []).map((form) => ({ form, tag: 'kontraktion' }));
+}
+
+// ---------- proper names ----------
+
+/** Names only inflect in the genitive: Ninas Buch, Hans' Buch. */
+function nameForms(lemma: string): Form[] {
+  if (/(s|ß|x|z)$/.test(lemma)) return [{ form: lemma + "'", tag: 'genitiv' }];
+  return [{ form: lemma + 's', tag: 'genitiv' }];
 }
 
 // ---------- numerals ----------

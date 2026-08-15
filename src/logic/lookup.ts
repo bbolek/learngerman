@@ -110,7 +110,11 @@ export async function lookupGerman(db: QueryDb, input: string, limit = 20): Prom
       for (const base of [q, ...reducedCandidates(q)]) {
         const split = resolveCompound(base, (p) => byLemma.has(p));
         if (!split) continue;
-        lemmaRows = [byLemma.get(split.head)!, byLemma.get(split.modifier)!];
+        // The modifier may itself be a compound (zweizimmer) and have no entry
+        // of its own; the head always does.
+        lemmaRows = [byLemma.get(split.head)!, byLemma.get(split.modifier)].filter(
+          (r): r is ExactLemmaRow => r != null
+        );
         break;
       }
     }

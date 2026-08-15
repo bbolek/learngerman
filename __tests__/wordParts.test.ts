@@ -25,10 +25,16 @@ const forms = new Set(['ehen', 'namen', 'sieht', 'erstarrende']);
 const resolve = (w: string) => resolveByParts(w, (p) => lemmas.has(p), (p) => forms.has(p));
 
 describe('reducedCandidates', () => {
-  it('offers the stem without its adjective ending', () => {
-    expect(reducedCandidates('erstarrenden')).toEqual(['erstarrend']);
+  it('offers the stem without its adjective ending, longest ending first', () => {
+    expect(reducedCandidates('erstarrenden')).toEqual(['erstarrend', 'erstarrende']);
     expect(reducedCandidates('zugesagtes')).toEqual(['zugesagt']);
     expect(reducedCandidates('goldene')).toEqual(['golden']);
+  });
+
+  it('undoes the diminutive, umlaut and all: Töpfchen → Topf', () => {
+    expect(reducedCandidates('töpfchen')).toContain('topf');
+    expect(reducedCandidates('entlein')).toContain('ente');
+    expect(reducedCandidates('häuschen')).toContain('haus');
   });
 
   it('strips the feminine suffix: Läuferinnen → Läufer', () => {

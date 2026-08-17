@@ -1,6 +1,8 @@
 import { create } from 'zustand';
 
 import { loadSettings, persistSettings } from '@/db/settingsRepo';
+import { resolveLocale, setLocale } from '@/i18n';
+import { isLocale, type LanguagePreference } from '@/i18n/locales';
 import { levelsUpTo, type CefrLevel } from '@/logic/levels';
 import {
   rescheduleNotifications,
@@ -13,6 +15,8 @@ export type ThemePreference = 'system' | 'light' | 'dark';
 
 interface SettingsState {
   themePreference: ThemePreference;
+  /** UI language; 'system' follows the device, falling back to German. */
+  uiLanguage: LanguagePreference;
   /** Primary/accent color pair applied on top of the light/dark palette. */
   colorTheme: ColorThemeName;
   hapticsEnabled: boolean;
@@ -47,6 +51,7 @@ interface SettingsState {
   /** Re-fill the pending-notification buffer (called on app foreground). */
   refreshNotifications: () => void;
   setThemePreference: (pref: ThemePreference) => void;
+  setUiLanguage: (pref: LanguagePreference) => void;
   setColorTheme: (name: ColorThemeName) => void;
   setHapticsEnabled: (on: boolean) => void;
   setSoundEnabled: (on: boolean) => void;
@@ -66,6 +71,7 @@ interface SettingsState {
 function persist(get: () => SettingsState) {
   const {
     themePreference,
+    uiLanguage,
     colorTheme,
     hapticsEnabled,
     soundEnabled,
@@ -83,6 +89,7 @@ function persist(get: () => SettingsState) {
   } = get();
   persistSettings({
     themePreference,
+    uiLanguage,
     colorTheme,
     hapticsEnabled,
     soundEnabled,
@@ -123,6 +130,7 @@ function reschedule(
 
 export const useSettings = create<SettingsState>((set, get) => ({
   themePreference: 'system',
+  uiLanguage: 'system',
   colorTheme: DEFAULT_COLOR_THEME,
   hapticsEnabled: true,
   soundEnabled: true,
@@ -144,7 +152,12 @@ export const useSettings = create<SettingsState>((set, get) => ({
     const stored = await loadSettings();
     // Guard against unknown color names from older backups or future versions.
     if (stored.colorTheme && !(stored.colorTheme in colorThemes)) delete stored.colorTheme;
+    // Same for a language a newer build shipped and this one doesn't have.
+    if (stored.uiLanguage && stored.uiLanguage !== 'system' && !isLocale(stored.uiLanguage)) {
+      delete stored.uiLanguage;
+    }
     set({ ...stored, hydrated: true });
+    setLocale(resolveLocale(get().uiLanguage));
     seedThemeFilter(get().userLevel);
     if (get().notificationsEnabled) reschedule(get, set);
   },
@@ -154,6 +167,13 @@ export const useSettings = create<SettingsState>((set, get) => ({
   setThemePreference: (themePreference) => {
     set({ themePreference });
     persist(get);
+  },
+  setUiLanguage: (uiLanguage) => {
+    set({ uiLanguage });
+    persist(get);
+    setLocale(resolveLocale(uiLanguage));
+    // Reminder copy is built from the catalog, so re-render the queue.
+    if (get().notificationsEnabled) reschedule(get, set);
   },
   setColorTheme: (colorTheme) => {
     set({ colorTheme });

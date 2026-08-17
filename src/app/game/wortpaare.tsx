@@ -10,6 +10,8 @@ import {
   pairsBoardScore,
   type PairsBoard,
 } from '@/logic/games';
+import { useTr } from '@/i18n';
+import { gameTitle } from '@/i18n/labels';
 import { settleGameRound } from '@/services/rewards';
 import { playSound } from '@/services/sound';
 import { useSettings } from '@/store/settings';
@@ -25,6 +27,7 @@ type Phase = 'intro' | 'playing' | 'done';
 
 export default function WortpaareScreen() {
   const t = useTheme();
+  const tr = useTr();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
   const [phase, setPhase] = useState<Phase>('intro');
@@ -106,7 +109,7 @@ export default function WortpaareScreen() {
       .then(async (res) => {
         setOutcome(res);
         setBest((b) => Math.max(b ?? 0, finalScore));
-        setXpEarned(await settleGameRound(INFO.title, finalScore, res, new Date()));
+        setXpEarned(await settleGameRound(gameTitle(tr, INFO.key), finalScore, res, new Date()));
       })
       .catch(() => {
         // persistence failed — still end the round instead of stranding it
@@ -188,9 +191,9 @@ export default function WortpaareScreen() {
         outcome={outcome}
         xpEarned={xpEarned}
         stats={[
-          { label: 'Paare', value: `${pairsFound}/${totalPairs}` },
-          { label: 'Fehlversuche', value: `${totalMistakes}` },
-          { label: 'Zeit', value: `${Math.round(totalMs / 1000)}s` },
+          { label: tr('gameStats.pairs'), value: `${pairsFound}/${totalPairs}` },
+          { label: tr('gameStats.mistakes'), value: `${totalMistakes}` },
+          { label: tr('gameStats.time'), value: `${Math.round(totalMs / 1000)}s` },
         ]}
         onRetry={start}
       />
@@ -211,7 +214,7 @@ export default function WortpaareScreen() {
     <GameScreen>
       <GameTopBar>
         <AppText variant="caption" muted>
-          Runde {boardIdx + 1}/{boards.length}
+          {tr('game.wortpaare.round', { current: boardIdx + 1, total: boards.length })}
         </AppText>
         <View style={{ flex: 1 }} />
         <AppText variant="caption" muted>
@@ -226,16 +229,16 @@ export default function WortpaareScreen() {
         <View style={[styles.fill, styles.center, { padding: spacing.xl }]}>
           <AppText style={{ fontSize: 52 }}>🎉</AppText>
           <AppText variant="title" style={{ marginTop: spacing.md }}>
-            Runde geschafft!
+            {tr('game.wortpaare.boardDone')}
           </AppText>
           <AppText variant="subtitle" color={t.primary} style={{ marginTop: spacing.sm }}>
-            +{interstitial.points} Punkte
+            {tr('game.wortpaare.boardPoints', { points: interstitial.points })}
           </AppText>
           <Pressable
             onPress={nextBoard}
             style={[styles.cta, { backgroundColor: t.primary, marginTop: spacing.xl }]}>
             <AppText variant="subtitle" color="#fff">
-              Weiter →
+              {tr('common.next')}
             </AppText>
           </Pressable>
         </View>

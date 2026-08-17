@@ -14,6 +14,8 @@ import {
   type ArcadeState,
   type BlitzQuestion,
 } from '@/logic/games';
+import { useTr } from '@/i18n';
+import { gameTitle } from '@/i18n/labels';
 import { settleGameRound } from '@/services/rewards';
 import { playSound } from '@/services/sound';
 import { useSettings } from '@/store/settings';
@@ -29,6 +31,7 @@ type Phase = 'intro' | 'playing' | 'done';
 
 export default function WortblitzScreen() {
   const t = useTheme();
+  const tr = useTr();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
   const [phase, setPhase] = useState<Phase>('intro');
@@ -98,7 +101,7 @@ export default function WortblitzScreen() {
         );
         setOutcome(res);
         setBest((b) => Math.max(b ?? 0, s.score));
-        setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
+        setXpEarned(await settleGameRound(gameTitle(tr, INFO.key), s.score, res, new Date()));
       } catch {
         // persistence failed — still end the round instead of stranding it
       }
@@ -154,9 +157,9 @@ export default function WortblitzScreen() {
         outcome={outcome}
         xpEarned={xpEarned}
         stats={[
-          { label: 'Richtig', value: `${arcade.correct}/${arcade.total}` },
-          { label: 'Beste Serie', value: `${arcade.bestStreak}` },
-          { label: 'Pro Wort', value: arcade.correct > 0 ? `${(60 / arcade.correct).toFixed(1)}s` : '–' },
+          { label: tr('gameStats.correct'), value: `${arcade.correct}/${arcade.total}` },
+          { label: tr('gameStats.bestStreak'), value: `${arcade.bestStreak}` },
+          { label: tr('gameStats.perWord'), value: arcade.correct > 0 ? `${(60 / arcade.correct).toFixed(1)}s` : '–' },
         ]}
         reviewWords={reviewWords}
         onRetry={start}
@@ -195,7 +198,7 @@ export default function WortblitzScreen() {
           {arcade.streak >= 2 && (
             <View style={[styles.streakChip, { backgroundColor: t.primaryDim }]}>
               <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                🔥 Serie ×{arcade.streak}
+                {tr('gameHud.streak', { count: arcade.streak })}
               </AppText>
             </View>
           )}

@@ -4,7 +4,9 @@ import { StyleSheet, View } from 'react-native';
 
 import { getDb } from '@/db/client';
 import { getLemmaImages } from '@/db/dictionaryRepo';
-import { articleFor, formLabel } from '@/logic/formLabels';
+import { useTr } from '@/i18n';
+import { formLabel } from '@/i18n/labels';
+import { articleFor } from '@/logic/formLabels';
 import { lookupEnglish, lookupGerman, type LemmaHit } from '@/logic/lookup';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -52,6 +54,8 @@ export function useDictionarySearch(query: string): { rows: SearchRow[]; searche
       });
       const next: SearchRow[] = [];
       if (de.length) {
+        // The gloss data is English, so these headers name the dictionary's
+        // own two languages rather than the UI language.
         next.push({ type: 'header', key: 'h-de', title: 'Deutsch → English' });
         next.push(...de.map(toRow('de')));
       }
@@ -83,7 +87,8 @@ export function SearchResultRow({
   onPress?: () => void;
 }) {
   const t = useTheme();
-  const label = formLabel(hit.matchedTag);
+  const tr = useTr();
+  const label = formLabel(tr, hit.matchedTag);
   const article = hit.gender && hit.gender !== 'pl' ? articleFor(hit.gender) : null;
   const spoken = article ? `${article} ${hit.lemma}` : hit.lemma;
   return (
@@ -113,7 +118,11 @@ export function SearchResultRow({
       {hit.via === 'form' && hit.matchedForm && (
         <View style={[styles.formOf, { backgroundColor: t.primaryDim }]}>
           <AppText variant="caption" color={t.onPrimaryDim}>
-            {hit.matchedForm} → {label ?? 'Form'} von „{hit.lemma}“
+            {tr('search.formOf', {
+              form: hit.matchedForm,
+              label: label ?? tr('search.genericForm'),
+              lemma: hit.lemma,
+            })}
           </AppText>
         </View>
       )}

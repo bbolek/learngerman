@@ -232,8 +232,7 @@ export function TourOverlay({ step, rect, index, total, onNext, onSkip, forceNex
       )}
 
       <TourTooltip
-        title={step.title}
-        body={step.body}
+        stepId={step.id}
         index={index}
         total={total}
         showNext={!isActionStep(step) || !!forceNext}

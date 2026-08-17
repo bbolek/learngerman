@@ -107,11 +107,20 @@ export function bucketDueDates(
   return order.map((day) => ({ day, count: buckets.get(day)! }));
 }
 
-/** "Heute", "Morgen", then "Mo." style weekday shorts for forecast rows. */
-const WEEKDAY_SHORT = ['Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.', 'So.'];
+/**
+ * What a forecast row is called: today, tomorrow, or a weekday (Monday-first
+ * index). The words themselves are UI copy — see `forecastLabelText` in
+ * src/i18n/labels.ts.
+ */
+export type ForecastLabel =
+  | { kind: 'today' }
+  | { kind: 'tomorrow' }
+  | { kind: 'weekday'; index: number };
 
-export function forecastLabel(day: string, todayKey: string): string {
-  if (day === todayKey) return 'Heute';
-  if (day === dayKeyOf(addDays(new Date(todayKey + 'T00:00:00Z'), 1))) return 'Morgen';
-  return WEEKDAY_SHORT[weekdayIndex(day)];
+export function forecastLabel(day: string, todayKey: string): ForecastLabel {
+  if (day === todayKey) return { kind: 'today' };
+  if (day === dayKeyOf(addDays(new Date(todayKey + 'T00:00:00Z'), 1))) {
+    return { kind: 'tomorrow' };
+  }
+  return { kind: 'weekday', index: weekdayIndex(day) };
 }

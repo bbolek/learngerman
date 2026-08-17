@@ -17,6 +17,8 @@ import {
   type ArcadeState,
   type DiktatQuestion,
 } from '@/logic/games';
+import { useTr } from '@/i18n';
+import { gameTitle } from '@/i18n/labels';
 import { settleGameRound } from '@/services/rewards';
 import { playSound } from '@/services/sound';
 import { SPEECH_RATE_SLOW, speakGerman } from '@/services/speech';
@@ -35,6 +37,7 @@ type Verdict = { correct: boolean; nearMiss: boolean } | null;
 
 export default function DiktatScreen() {
   const t = useTheme();
+  const tr = useTr();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
   const [phase, setPhase] = useState<Phase>('intro');
@@ -122,7 +125,7 @@ export default function DiktatScreen() {
         );
         setOutcome(res);
         setBest((b) => Math.max(b ?? 0, s.score));
-        setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
+        setXpEarned(await settleGameRound(gameTitle(tr, INFO.key), s.score, res, new Date()));
       } catch {
         // persistence failed — still end the round instead of stranding it
       }
@@ -174,10 +177,10 @@ export default function DiktatScreen() {
         outcome={outcome}
         xpEarned={xpEarned}
         stats={[
-          { label: 'Richtig', value: `${arcade.correct}/${arcade.total}` },
-          { label: 'Beste Serie', value: `${arcade.bestStreak}` },
+          { label: tr('gameStats.correct'), value: `${arcade.correct}/${arcade.total}` },
+          { label: tr('gameStats.bestStreak'), value: `${arcade.bestStreak}` },
           {
-            label: 'Genauigkeit',
+            label: tr('gameStats.accuracy'),
             value: arcade.total > 0 ? `${Math.round((arcade.correct / arcade.total) * 100)}%` : '–',
           },
         ]}
@@ -224,7 +227,7 @@ export default function DiktatScreen() {
               />
             </Pressable>
             <AppText variant="secondary" muted style={{ marginTop: spacing.md }}>
-              Nochmal anhören? Einfach antippen.
+              {tr('game.diktat.replayHint')}
             </AppText>
           </View>
 
@@ -242,7 +245,7 @@ export default function DiktatScreen() {
                   style={{ fontFamily: fonts.extrabold, textAlign: 'center' }}>
                   {verdict.correct
                     ? verdict.nearMiss
-                      ? `✓ Fast! Richtig geschrieben: ${q.text}`
+                      ? tr('game.diktat.nearMiss', { text: q.text })
                       : `✓ ${q.text}`
                     : `✗ ${q.text}`}
                   {'\n'}
@@ -270,7 +273,7 @@ export default function DiktatScreen() {
                 value={answer}
                 onChangeText={setAnswer}
                 editable={!showState}
-                placeholder="Schreib, was du hörst …"
+                placeholder={tr('game.diktat.placeholder')}
                 placeholderTextColor={t.inkFaint}
                 autoCapitalize="none"
                 autoCorrect={false}

@@ -4,6 +4,8 @@ import { useCallback, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { statsByGame, type GameStats } from '@/db/gamesRepo';
+import { useTr } from '@/i18n';
+import { gameTagline, gameTitle } from '@/i18n/labels';
 import { GAMES, type GameInfo, type GameKey } from '@/logic/games';
 import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
@@ -13,6 +15,7 @@ import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 export default function GamesScreen() {
+  const tr = useTr();
   const [stats, setStats] = useState<Map<GameKey, GameStats>>(new Map());
 
   useFocusEffect(
@@ -27,9 +30,9 @@ export default function GamesScreen() {
 
   return (
     <Screen>
-      <AppText variant="section">Spiele</AppText>
+      <AppText variant="section">{tr('games.title')}</AppText>
       <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-        Spielen, punkten, Deutsch lernen.
+        {tr('games.subtitle')}
       </AppText>
 
       <View style={styles.tiles}>
@@ -39,7 +42,7 @@ export default function GamesScreen() {
             {totalPlays}
           </AppText>
           <AppText variant="caption" muted>
-            Runden
+            {tr('games.stat.rounds')}
           </AppText>
         </Card>
         <Card style={styles.tile}>
@@ -48,7 +51,7 @@ export default function GamesScreen() {
             {totalScore}
           </AppText>
           <AppText variant="caption" muted>
-            Punkte gesamt
+            {tr('games.stat.points')}
           </AppText>
         </Card>
         <Card style={styles.tile}>
@@ -57,7 +60,7 @@ export default function GamesScreen() {
             {bestStreak}
           </AppText>
           <AppText variant="caption" muted>
-            Beste Serie
+            {tr('games.stat.bestStreak')}
           </AppText>
         </Card>
       </View>
@@ -74,21 +77,21 @@ export default function GamesScreen() {
 
 function DuelCard() {
   const t = useTheme();
+  const tr = useTr();
   return (
     <Card style={styles.game} onPress={() => router.push('/duel')}>
       <View style={[styles.emojiBox, { backgroundColor: t.accentDim }]}>
         <AppText style={{ fontSize: 26 }}>⚔️</AppText>
       </View>
       <View style={{ flex: 1 }}>
-        <AppText variant="subtitle">Multiplayer</AppText>
+        <AppText variant="subtitle">{tr('games.duel.title')}</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
-          Fordere Freunde oder die ganze Klasse im selben WLAN heraus — Spiel auswählen, Code
-          teilen, los!
+          {tr('games.duel.caption')}
         </AppText>
         <View style={styles.gameMeta}>
           <View style={[styles.recordChip, { backgroundColor: t.accentDim }]}>
             <AppText variant="caption" color={t.onAccentDim} style={{ fontFamily: fonts.extrabold }}>
-              2–30 Spieler · live
+              {tr('games.duel.meta')}
             </AppText>
           </View>
         </View>
@@ -100,32 +103,33 @@ function DuelCard() {
 
 function GameCard({ game, stats }: { game: GameInfo; stats?: GameStats }) {
   const t = useTheme();
+  const tr = useTr();
   return (
     <Card style={styles.game} onPress={() => router.push(`/game/${game.key}`)}>
       <View style={[styles.emojiBox, { backgroundColor: t.primaryDim }]}>
         <AppText style={{ fontSize: 26 }}>{game.emoji}</AppText>
       </View>
       <View style={{ flex: 1 }}>
-        <AppText variant="subtitle">{game.title}</AppText>
+        <AppText variant="subtitle">{gameTitle(tr, game.key)}</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
-          {game.tagline}
+          {gameTagline(tr, game.key)}
         </AppText>
         <View style={styles.gameMeta}>
           {stats ? (
             <>
               <View style={[styles.recordChip, { backgroundColor: t.accentDim }]}>
                 <AppText variant="caption" color={t.onAccentDim} style={{ fontFamily: fonts.extrabold }}>
-                  🏆 Rekord: {stats.best}
+                  {tr('games.record', { best: stats.best })}
                 </AppText>
               </View>
               <AppText variant="caption" muted>
-                {stats.plays} {stats.plays === 1 ? 'Runde' : 'Runden'}
+                {tr('games.plays', { count: stats.plays })}
               </AppText>
             </>
           ) : (
             <View style={[styles.recordChip, { backgroundColor: t.primaryDim }]}>
               <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                Neu — jetzt ausprobieren!
+                {tr('games.new')}
               </AppText>
             </View>
           )}

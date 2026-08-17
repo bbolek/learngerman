@@ -5,6 +5,8 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { type RecordOutcome } from '@/db/gamesRepo';
+import { useTr } from '@/i18n';
+import { gameRules, gameTitle } from '@/i18n/labels';
 import { type GameInfo } from '@/logic/games';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -47,6 +49,7 @@ export function GameIntro({
   onStart: () => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   return (
     <GameScreen>
@@ -54,28 +57,28 @@ export function GameIntro({
       <View style={[styles.fill, styles.center, { padding: spacing.xl }]}>
         <AppText style={{ fontSize: 64 }}>{info.emoji}</AppText>
         <AppText variant="title" style={{ marginTop: spacing.lg, textAlign: 'center' }}>
-          {info.title}
+          {gameTitle(tr, info.key)}
         </AppText>
         {best != null && best > 0 && (
           <View style={[styles.recordChip, { backgroundColor: t.accentDim }]}>
             <AppText variant="caption" color={t.onAccentDim} style={{ fontFamily: fonts.extrabold }}>
-              🏆 Dein Rekord: {best}
+              {tr('gameFrame.yourRecord', { best })}
             </AppText>
           </View>
         )}
         <Card style={{ marginTop: spacing.xl, alignSelf: 'stretch' }}>
           <AppText variant="label" muted>
-            So geht&apos;s
+            {tr('gameFrame.howTo')}
           </AppText>
           <AppText variant="body" style={{ marginTop: spacing.sm, lineHeight: 23 }}>
-            {info.rules}
+            {gameRules(tr, info.key)}
           </AppText>
         </Card>
       </View>
       <View style={{ paddingHorizontal: spacing.lg, paddingBottom: insets.bottom + spacing.md }}>
         <Pressable onPress={onStart} style={[styles.cta, { backgroundColor: t.primary }]}>
           <AppText variant="subtitle" color="#fff">
-            Los geht&apos;s! →
+            {tr('gameFrame.start')}
           </AppText>
         </Pressable>
       </View>
@@ -90,12 +93,13 @@ export function GameIntro({
  */
 export function ReviewWords({ words }: { words: string[] }) {
   const t = useTheme();
+  const tr = useTr();
   const onWordTap = useWordTap();
   if (words.length === 0) return null;
   return (
     <View style={styles.reviewBlock}>
       <AppText variant="label" muted>
-        Schau sie dir nochmal an
+        {tr('gameFrame.reviewWords')}
       </AppText>
       <View style={styles.reviewWrap}>
         {words.map((w) => (
@@ -134,6 +138,7 @@ export function GameResult({
   onRetry: () => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const newRecord = outcome?.newRecord ?? false;
   return (
@@ -142,13 +147,13 @@ export function GameResult({
       <View style={[styles.fill, styles.center, { padding: spacing.xl }]}>
         <AppText style={{ fontSize: 52 }}>{newRecord ? '🏆' : info.emoji}</AppText>
         <AppText variant="title" style={{ marginTop: spacing.md, textAlign: 'center' }}>
-          {newRecord ? 'Neuer Rekord!' : 'Runde vorbei!'}
+          {newRecord ? tr('gameFrame.newRecord') : tr('gameFrame.roundOver')}
         </AppText>
         <AppText variant="headword" color={t.primary} style={{ marginTop: spacing.md }}>
           {score}
         </AppText>
         <AppText variant="secondary" muted>
-          Punkte · {info.title}
+          {tr('gameFrame.points', { game: gameTitle(tr, info.key) })}
         </AppText>
         {xpEarned != null && xpEarned > 0 && (
           <View style={[styles.recordChip, { backgroundColor: t.primaryDim }]}>
@@ -160,7 +165,7 @@ export function GameResult({
         {!newRecord && outcome != null && outcome.previousBest > 0 && (
           <View style={[styles.recordChip, { backgroundColor: t.primaryDim }]}>
             <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-              🏆 Rekord: {outcome.previousBest}
+              {tr('gameFrame.record', { best: outcome.previousBest })}
             </AppText>
           </View>
         )}
@@ -183,14 +188,14 @@ export function GameResult({
         ]}>
         <Pressable onPress={onRetry} style={[styles.cta, styles.grow, { backgroundColor: t.primaryDim }]}>
           <AppText variant="subtitle" color={t.onPrimaryDim}>
-            Nochmal
+            {tr('common.again')}
           </AppText>
         </Pressable>
         <Pressable
           onPress={() => router.back()}
           style={[styles.cta, styles.grow, { backgroundColor: t.primary }]}>
           <AppText variant="subtitle" color="#fff">
-            Fertig
+            {tr('common.done')}
           </AppText>
         </Pressable>
       </View>

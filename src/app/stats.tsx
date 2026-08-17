@@ -8,6 +8,8 @@ import { listTopics, topicAccuracy, type TopicRow } from '@/db/grammarRepo';
 import { currentStreak, recentActivity, upcomingDueDates, type DayActivity } from '@/db/srsRepo';
 import { savedCount } from '@/db/vocabRepo';
 import { xpTotals } from '@/db/xpRepo';
+import { useTr } from '@/i18n';
+import { forecastLabelText, levelTitle } from '@/i18n/labels';
 import { ACHIEVEMENTS } from '@/logic/achievements';
 import {
   bucketDueDates,
@@ -19,7 +21,7 @@ import {
   type ForecastDay,
   type HeatWeek,
 } from '@/logic/heatmap';
-import { levelProgress, levelTitle, type LevelProgress } from '@/logic/xp';
+import { levelProgress, type LevelProgress } from '@/logic/xp';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { ProgressRing } from '@/ui/components/ProgressRing';
@@ -32,6 +34,7 @@ const HEAT_DAYS = HEATMAP_WEEKS * 7;
 
 export default function StatsScreen() {
   const t = useTheme();
+  const tr = useTr();
   const [streak, setStreak] = useState(0);
   const [activity, setActivity] = useState<DayActivity[]>([]);
   const [saved, setSaved] = useState(0);
@@ -82,10 +85,10 @@ export default function StatsScreen() {
       <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
         <AppText variant="secondary" muted>
-          Zurück
+          {tr('common.back')}
         </AppText>
       </Pressable>
-      <AppText variant="title">Fortschritt</AppText>
+      <AppText variant="title">{tr('stats.title')}</AppText>
 
       {level && (
         <Card style={styles.levelCard}>
@@ -96,10 +99,14 @@ export default function StatsScreen() {
           </ProgressRing>
           <View style={{ flex: 1 }}>
             <AppText variant="subtitle">
-              Level {level.level} · {levelTitle(level.level)}
+              {tr('stats.level', { level: level.level, title: levelTitle(tr, level.level) })}
             </AppText>
             <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              {totalXp} XP gesamt · noch {level.span - level.into} XP bis Level {level.level + 1}
+              {tr('stats.xpSummary', {
+                total: totalXp,
+                remaining: level.span - level.into,
+                next: level.level + 1,
+              })}
             </AppText>
             <View style={[styles.xpTrack, { backgroundColor: t.line }]}>
               <View
@@ -116,9 +123,9 @@ export default function StatsScreen() {
       <Card style={styles.badgeCard} onPress={() => router.push('/achievements')}>
         <AppText style={{ fontSize: 22 }}>🏅</AppText>
         <View style={{ flex: 1 }}>
-          <AppText variant="subtitle">Abzeichen</AppText>
+          <AppText variant="subtitle">{tr('stats.badges')}</AppText>
           <AppText variant="caption" muted style={{ marginTop: 2 }}>
-            {badges} von {ACHIEVEMENTS.length} freigeschaltet
+            {tr('stats.badges.count', { unlocked: badges, total: ACHIEVEMENTS.length })}
           </AppText>
         </View>
         <Ionicons name="chevron-forward" size={18} color={t.inkMuted} />
@@ -131,7 +138,7 @@ export default function StatsScreen() {
             {streak}
           </AppText>
           <AppText variant="caption" muted>
-            Tage-Serie
+            {tr('stats.tile.streak')}
           </AppText>
         </Card>
         <Card style={styles.tile}>
@@ -140,7 +147,7 @@ export default function StatsScreen() {
             {saved}
           </AppText>
           <AppText variant="caption" muted>
-            Wörter
+            {tr('stats.tile.words')}
           </AppText>
         </Card>
         <Card style={styles.tile}>
@@ -149,16 +156,16 @@ export default function StatsScreen() {
             {totalReviews + totalQuiz + totalGames}
           </AppText>
           <AppText variant="caption" muted>
-            Übungen (14 T.)
+            {tr('stats.tile.exercises')}
           </AppText>
         </Card>
       </View>
 
       <Card style={{ marginTop: spacing.md }}>
-        <AppText variant="subtitle">Aktivität · letzte {HEATMAP_WEEKS} Wochen</AppText>
+        <AppText variant="subtitle">{tr('stats.activity', { weeks: HEATMAP_WEEKS })}</AppText>
         <View style={styles.heatRow}>
           <View style={styles.heatLabels}>
-            {['Mo', 'Mi', 'Fr'].map((label, i) => (
+            {[tr('stats.weekday.mon'), tr('stats.weekday.wed'), tr('stats.weekday.fri')].map((label, i) => (
               <AppText
                 key={label}
                 variant="caption"
@@ -176,26 +183,26 @@ export default function StatsScreen() {
         </View>
         <View style={styles.chartLabels}>
           <AppText variant="caption" muted>
-            vor {HEATMAP_WEEKS} Wochen
+            {tr('stats.weeksAgo', { weeks: HEATMAP_WEEKS })}
           </AppText>
           <AppText variant="caption" muted>
-            heute
+            {tr('common.today')}
           </AppText>
         </View>
       </Card>
 
       <Card style={{ marginTop: spacing.md }}>
-        <AppText variant="subtitle">Fällige Karten · nächste {FORECAST_DAYS} Tage</AppText>
+        <AppText variant="subtitle">{tr('stats.forecast', { days: FORECAST_DAYS })}</AppText>
         {forecastTotal === 0 ? (
           <AppText variant="secondary" muted style={{ marginTop: spacing.md }}>
-            Nichts fällig — alle Karten sind gelernt. 🎉
+            {tr('stats.forecast.empty')}
           </AppText>
         ) : (
           <View style={{ marginTop: spacing.md, gap: spacing.sm }}>
             {forecast.map((d) => (
               <View key={d.day} style={styles.forecastRow}>
                 <AppText variant="caption" muted style={styles.forecastLabel}>
-                  {forecastLabel(d.day, dayKeyOf(new Date(now)))}
+                  {forecastLabelText(tr, forecastLabel(d.day, dayKeyOf(new Date(now))))}
                 </AppText>
                 <View style={[styles.forecastTrack, { backgroundColor: t.line }]}>
                   <View
@@ -218,7 +225,7 @@ export default function StatsScreen() {
       </Card>
 
       <Card style={{ marginTop: spacing.md }}>
-        <AppText variant="subtitle">Grammatik-Genauigkeit</AppText>
+        <AppText variant="subtitle">{tr('stats.grammarAccuracy')}</AppText>
         <View style={{ marginTop: spacing.md, gap: spacing.md }}>
           {topics.map((topic) => {
             const acc = topicAccuracy(topic);
@@ -229,7 +236,7 @@ export default function StatsScreen() {
                     {topic.title}
                   </AppText>
                   <AppText variant="secondary" muted>
-                    {acc == null ? 'noch nicht geübt' : `${Math.round(acc * 100)}%`}
+                    {acc == null ? tr('common.notPracticedYet') : `${Math.round(acc * 100)}%`}
                   </AppText>
                 </View>
                 <View style={[styles.accTrack, { backgroundColor: t.line }]}>

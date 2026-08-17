@@ -6,13 +6,15 @@
 
 export type QuestMetric = 'reviews' | 'quiz' | 'games' | 'words' | 'xp' | 'path';
 
+/**
+ * The goal line ("Wiederhole 15 Karten") lives in the translation catalogs
+ * under `quest.<key>.title`, so each language phrases the count naturally.
+ */
 export interface QuestDef {
   /** Stable key persisted in quest_claims — never rename existing ones. */
   key: string;
   metric: QuestMetric;
   target: number;
-  /** German goal line, e.g. "Wiederhole 15 Karten". */
-  title: string;
   emoji: string;
   xp: number;
 }
@@ -33,31 +35,31 @@ export interface QuestCounters {
  */
 const POOL: Record<QuestMetric, QuestDef[]> = {
   reviews: [
-    { key: 'reviews-10', metric: 'reviews', target: 10, title: 'Wiederhole 10 Karten', emoji: '🃏', xp: 20 },
-    { key: 'reviews-15', metric: 'reviews', target: 15, title: 'Wiederhole 15 Karten', emoji: '🃏', xp: 25 },
-    { key: 'reviews-25', metric: 'reviews', target: 25, title: 'Wiederhole 25 Karten', emoji: '🃏', xp: 35 },
+    { key: 'reviews-10', metric: 'reviews', target: 10, emoji: '🃏', xp: 20 },
+    { key: 'reviews-15', metric: 'reviews', target: 15, emoji: '🃏', xp: 25 },
+    { key: 'reviews-25', metric: 'reviews', target: 25, emoji: '🃏', xp: 35 },
   ],
   quiz: [
-    { key: 'quiz-5', metric: 'quiz', target: 5, title: 'Beantworte 5 Grammatikfragen', emoji: '📐', xp: 20 },
-    { key: 'quiz-10', metric: 'quiz', target: 10, title: 'Beantworte 10 Grammatikfragen', emoji: '📐', xp: 25 },
-    { key: 'quiz-20', metric: 'quiz', target: 20, title: 'Beantworte 20 Grammatikfragen', emoji: '📐', xp: 35 },
+    { key: 'quiz-5', metric: 'quiz', target: 5, emoji: '📐', xp: 20 },
+    { key: 'quiz-10', metric: 'quiz', target: 10, emoji: '📐', xp: 25 },
+    { key: 'quiz-20', metric: 'quiz', target: 20, emoji: '📐', xp: 35 },
   ],
   games: [
-    { key: 'games-1', metric: 'games', target: 1, title: 'Spiele 1 Spielrunde', emoji: '🕹️', xp: 15 },
-    { key: 'games-2', metric: 'games', target: 2, title: 'Spiele 2 Spielrunden', emoji: '🕹️', xp: 25 },
-    { key: 'games-3', metric: 'games', target: 3, title: 'Spiele 3 Spielrunden', emoji: '🕹️', xp: 30 },
+    { key: 'games-1', metric: 'games', target: 1, emoji: '🕹️', xp: 15 },
+    { key: 'games-2', metric: 'games', target: 2, emoji: '🕹️', xp: 25 },
+    { key: 'games-3', metric: 'games', target: 3, emoji: '🕹️', xp: 30 },
   ],
   words: [
-    { key: 'words-3', metric: 'words', target: 3, title: 'Speichere 3 neue Wörter', emoji: '💾', xp: 15 },
-    { key: 'words-5', metric: 'words', target: 5, title: 'Speichere 5 neue Wörter', emoji: '💾', xp: 20 },
+    { key: 'words-3', metric: 'words', target: 3, emoji: '💾', xp: 15 },
+    { key: 'words-5', metric: 'words', target: 5, emoji: '💾', xp: 20 },
   ],
   xp: [
-    { key: 'xp-50', metric: 'xp', target: 50, title: 'Sammle 50 XP', emoji: '⭐', xp: 20 },
-    { key: 'xp-100', metric: 'xp', target: 100, title: 'Sammle 100 XP', emoji: '⭐', xp: 30 },
+    { key: 'xp-50', metric: 'xp', target: 50, emoji: '⭐', xp: 20 },
+    { key: 'xp-100', metric: 'xp', target: 100, emoji: '⭐', xp: 30 },
   ],
   path: [
-    { key: 'path-1', metric: 'path', target: 1, title: 'Schließe 1 Pfad-Lektion ab', emoji: '🧭', xp: 20 },
-    { key: 'path-2', metric: 'path', target: 2, title: 'Schließe 2 Pfad-Lektionen ab', emoji: '🧭', xp: 30 },
+    { key: 'path-1', metric: 'path', target: 1, emoji: '🧭', xp: 20 },
+    { key: 'path-2', metric: 'path', target: 2, emoji: '🧭', xp: 30 },
   ],
 };
 

@@ -15,6 +15,8 @@ import {
   type ArcadeState,
   type SatzbauQuestion,
 } from '@/logic/games';
+import { useTr } from '@/i18n';
+import { gameTitle } from '@/i18n/labels';
 import { settleGameRound } from '@/services/rewards';
 import { playSound } from '@/services/sound';
 import { useSettings } from '@/store/settings';
@@ -31,6 +33,7 @@ type Verdict = 'correct' | 'wrong' | null;
 
 export default function SatzbauScreen() {
   const t = useTheme();
+  const tr = useTr();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
   const [phase, setPhase] = useState<Phase>('intro');
@@ -93,7 +96,7 @@ export default function SatzbauScreen() {
         );
         setOutcome(res);
         setBest((b) => Math.max(b ?? 0, s.score));
-        setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
+        setXpEarned(await settleGameRound(gameTitle(tr, INFO.key), s.score, res, new Date()));
       } catch {
         // persistence failed — still end the round instead of stranding it
       }
@@ -154,10 +157,10 @@ export default function SatzbauScreen() {
         outcome={outcome}
         xpEarned={xpEarned}
         stats={[
-          { label: 'Richtig', value: `${arcade.correct}/${arcade.total}` },
-          { label: 'Beste Serie', value: `${arcade.bestStreak}` },
+          { label: tr('gameStats.correct'), value: `${arcade.correct}/${arcade.total}` },
+          { label: tr('gameStats.bestStreak'), value: `${arcade.bestStreak}` },
           {
-            label: 'Genauigkeit',
+            label: tr('gameStats.accuracy'),
             value: arcade.total > 0 ? `${Math.round((arcade.correct / arcade.total) * 100)}%` : '–',
           },
         ]}
@@ -202,7 +205,7 @@ export default function SatzbauScreen() {
         <View style={[styles.answerArea, { borderColor: t.line }]}>
           {placed.length === 0 && (
             <AppText variant="secondary" color={t.inkFaint}>
-              Tippe die Wörter in der richtigen Reihenfolge an …
+              {tr('game.satzbau.prompt')}
             </AppText>
           )}
           {placed.map((id) => {
@@ -235,7 +238,7 @@ export default function SatzbauScreen() {
                 adjustsFontSizeToFit
                 minimumFontScale={0.7}
                 style={{ fontFamily: fonts.extrabold, textAlign: 'center' }}>
-                {verdict === 'correct' ? '✓ Richtig!' : `✗ ${q.solution.join(' ')}`}
+                {verdict === 'correct' ? tr('feedback.correct') : `✗ ${q.solution.join(' ')}`}
               </AppText>
             </View>
           )}

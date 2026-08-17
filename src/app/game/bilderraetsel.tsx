@@ -15,6 +15,8 @@ import {
   type ChoiceQuestion,
   type ImageWord,
 } from '@/logic/games';
+import { useTr } from '@/i18n';
+import { gameTitle } from '@/i18n/labels';
 import { settleGameRound } from '@/services/rewards';
 import { playSound } from '@/services/sound';
 import { useSettings } from '@/store/settings';
@@ -31,6 +33,7 @@ type Phase = 'intro' | 'playing' | 'done';
 
 export default function BilderraetselScreen() {
   const t = useTheme();
+  const tr = useTr();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
   const [phase, setPhase] = useState<Phase>('intro');
@@ -107,7 +110,7 @@ export default function BilderraetselScreen() {
         );
         setOutcome(res);
         setBest((b) => Math.max(b ?? 0, s.score));
-        setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
+        setXpEarned(await settleGameRound(gameTitle(tr, INFO.key), s.score, res, new Date()));
       } catch {
         // persistence failed — still end the round instead of stranding it
       }
@@ -163,7 +166,7 @@ export default function BilderraetselScreen() {
             Keine Bilder gefunden
           </AppText>
           <AppText variant="secondary" muted style={{ marginTop: spacing.sm, textAlign: 'center' }}>
-            Aktualisiere die App, um das Bilderrätsel zu spielen.
+            {tr('game.bilderraetsel.needsUpdate')}
           </AppText>
         </View>
       </GameScreen>
@@ -180,9 +183,9 @@ export default function BilderraetselScreen() {
         outcome={outcome}
         xpEarned={xpEarned}
         stats={[
-          { label: 'Richtig', value: `${arcade.correct}/${arcade.total}` },
-          { label: 'Beste Serie', value: `${arcade.bestStreak}` },
-          { label: 'Pro Bild', value: arcade.correct > 0 ? `${(60 / arcade.correct).toFixed(1)}s` : '–' },
+          { label: tr('gameStats.correct'), value: `${arcade.correct}/${arcade.total}` },
+          { label: tr('gameStats.bestStreak'), value: `${arcade.bestStreak}` },
+          { label: tr('gameStats.perImage'), value: arcade.correct > 0 ? `${(60 / arcade.correct).toFixed(1)}s` : '–' },
         ]}
         reviewWords={reviewWords}
         onRetry={start}
@@ -221,14 +224,14 @@ export default function BilderraetselScreen() {
           {arcade.streak >= 2 && (
             <View style={[styles.streakChip, { backgroundColor: t.primaryDim }]}>
               <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                🔥 Serie ×{arcade.streak}
+                {tr('gameHud.streak', { count: arcade.streak })}
               </AppText>
             </View>
           )}
           {/* gender={null} keeps the tile neutral — the tint would give away the article */}
           {q && <VocabImage svg={q.word.svg} gender={null} size={170} />}
           <AppText variant="secondary" muted style={{ marginTop: spacing.md }}>
-            Wie heißt das auf Deutsch?
+            {tr('game.bilderraetsel.prompt')}
           </AppText>
         </View>
 

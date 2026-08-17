@@ -1,9 +1,12 @@
 import { getDb } from '@/db/client';
+import type { LanguagePreference } from '@/i18n/locales';
 import type { CefrLevel } from '@/logic/levels';
 import type { ColorThemeName } from '@/ui/theme';
 
 export interface PersistedSettings {
   themePreference?: 'system' | 'light' | 'dark';
+  /** UI language (Einstellungen → Sprache); 'system' follows the device. */
+  uiLanguage?: LanguagePreference;
   /** Primary/accent color pair (Einstellungen → Aussehen). */
   colorTheme?: ColorThemeName;
   hapticsEnabled?: boolean;

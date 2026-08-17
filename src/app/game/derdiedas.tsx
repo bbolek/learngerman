@@ -15,6 +15,8 @@ import {
   type ArcadeState,
   type GameWord,
 } from '@/logic/games';
+import { useTr } from '@/i18n';
+import { gameTitle } from '@/i18n/labels';
 import { settleGameRound } from '@/services/rewards';
 import { playSound } from '@/services/sound';
 import { useSettings } from '@/store/settings';
@@ -38,6 +40,7 @@ type Phase = 'intro' | 'playing' | 'done';
 
 export default function DerDieDasScreen() {
   const t = useTheme();
+  const tr = useTr();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
   const [phase, setPhase] = useState<Phase>('intro');
@@ -99,7 +102,7 @@ export default function DerDieDasScreen() {
         );
         setOutcome(res);
         setBest((b) => Math.max(b ?? 0, s.score));
-        setXpEarned(await settleGameRound(INFO.title, s.score, res, new Date()));
+        setXpEarned(await settleGameRound(gameTitle(tr, INFO.key), s.score, res, new Date()));
       } catch {
         // persistence failed — still end the round instead of stranding it
       }
@@ -148,10 +151,10 @@ export default function DerDieDasScreen() {
         outcome={outcome}
         xpEarned={xpEarned}
         stats={[
-          { label: 'Richtig', value: `${arcade.correct}/${arcade.total}` },
-          { label: 'Beste Serie', value: `${arcade.bestStreak}` },
+          { label: tr('gameStats.correct'), value: `${arcade.correct}/${arcade.total}` },
+          { label: tr('gameStats.bestStreak'), value: `${arcade.bestStreak}` },
           {
-            label: 'Genauigkeit',
+            label: tr('gameStats.accuracy'),
             value: arcade.total > 0 ? `${Math.round((arcade.correct / arcade.total) * 100)}%` : '–',
           },
         ]}

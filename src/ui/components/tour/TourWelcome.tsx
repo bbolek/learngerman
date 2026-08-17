@@ -2,6 +2,7 @@ import { Modal, Pressable, StyleSheet, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown, FadeInUp } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { useTr } from '@/i18n';
 import { AppText } from '@/ui/components/AppText';
 import { fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -15,6 +16,7 @@ interface TourWelcomeProps {
 /** First-launch greeting: offers the interactive tour before anything else. */
 export function TourWelcome({ visible, onStart, onSkip }: TourWelcomeProps) {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
 
   return (
@@ -43,14 +45,13 @@ export function TourWelcome({ visible, onStart, onSkip }: TourWelcomeProps) {
 
           <Animated.View entering={FadeInDown.delay(220).duration(500)}>
             <AppText variant="subtitle" style={styles.hello} color={t.primary}>
-              Willkommen! 👋
+              {tr('tour.welcome.hello')}
             </AppText>
             <AppText variant="body" muted style={styles.blurb}>
-              Your offline German companion — a full A1/A2 dictionary, smart flashcards, grammar
-              practice and word games.
+              {tr('tour.welcome.blurb')}
             </AppText>
             <AppText variant="body" muted style={[styles.blurb, { marginTop: spacing.md }]}>
-              Take a 2-minute tour and learn the app by actually using it.
+              {tr('tour.welcome.invite')}
             </AppText>
           </Animated.View>
         </View>
@@ -64,13 +65,13 @@ export function TourWelcome({ visible, onStart, onSkip }: TourWelcomeProps) {
               pressed && { opacity: 0.88, transform: [{ scale: 0.98 }] },
             ]}>
             <AppText variant="subtitle" color="#FFFFFF" style={{ fontFamily: fonts.extrabold }}>
-              Take the tour
+              {tr('tour.welcome.start')}
             </AppText>
           </Pressable>
           <Animated.View entering={FadeIn.delay(600)}>
             <Pressable onPress={onSkip} hitSlop={10} style={styles.skipBtn}>
               <AppText variant="secondary" muted>
-                Skip for now
+                {tr('tour.welcome.skip')}
               </AppText>
             </Pressable>
           </Animated.View>

@@ -1,11 +1,12 @@
 /**
  * First-run interactive tour — pure step machine. No RN imports; the
  * runtime store (src/tour/tourStore.ts) feeds events in and renders the
- * overlay from the returned indices. All tour copy lives here.
+ * overlay from the returned indices.
  *
- * The tour is intentionally in ENGLISH (the rest of the app is German):
- * first-time users may not know German yet, so the guide teaches the
- * German labels as it goes.
+ * Step copy lives in the translation catalogs under `tour.<id>.title` and
+ * `tour.<id>.body`, so the guide speaks whatever language the UI is set to.
+ * Each translation teaches the German words the app itself uses (Lernpfad,
+ * Wörterbuch, …) alongside the localized labels.
  */
 
 export type TourActionName = 'dict-results' | 'tts-played' | 'word-saved';
@@ -21,13 +22,12 @@ export type TourAdvance =
   | { kind: 'action'; name: TourActionName };
 
 export interface TourStepDef {
+  /** Also the catalog key stem: `tour.<id>.title` / `tour.<id>.body`. */
   id: string;
   /** Key registered via useTourTarget; the overlay spotlights its rect. */
   targetId: string;
   /** Pathname (prefix) this step lives on — leaving it means "off route". */
   route: string;
-  title: string;
-  body: string;
   advance: TourAdvance;
   /** Step id to resume at after wandering off route (default: this step). */
   resumeTo?: string;
@@ -114,94 +114,34 @@ export function skipAdvanceFor(
  * entry the user had open is gone once they navigate away.
  */
 export const TOUR_STEPS: TourStepDef[] = [
-  {
-    id: 'home-streak',
-    targetId: 'home-streak',
-    route: '/',
-    title: 'Your streak',
-    body:
-      'Every day you practice keeps the flame alive — the 🔥 chip counts your days in a row, the ⭐ chip your level. Tap either for full statistics.',
-    advance: { kind: 'next' },
-  },
-  {
-    id: 'home-daily',
-    targetId: 'home-daily',
-    route: '/',
-    title: 'Your next step',
-    body:
-      'Deutschly picks your best next step — flashcards that are due first, then your Lernpfad. The ring fills as you finish today’s cards, and the Tagesziele below are three small daily goals.',
-    advance: { kind: 'next' },
-  },
-  {
-    id: 'home-grammar',
-    targetId: 'home-grammar',
-    route: '/',
-    title: 'Fresh picks every day',
-    body:
-      '“Entdecken” means discover: a word of the day, a grammar topic picked for you — new ones at first, later the ones you find hardest — and a vocabulary theme. Swipe the row, or tap “Alle” to see everything.',
-    advance: { kind: 'next' },
-  },
-  {
-    id: 'home-wotd',
-    targetId: 'home-wotd',
-    route: '/',
-    title: 'Word of the day',
-    body:
-      'A fresh German word every day. Tap it any time to see the full entry, with example sentences and all its forms.',
-    advance: { kind: 'next' },
-  },
-  {
-    id: 'tab-path',
-    targetId: 'tab-path',
-    route: '/',
-    title: 'Your learning path',
-    body:
-      '“Lernpfad” is your guided course — units from A1 to C2 with vocabulary, grammar and reviews in the right order. Tap it to take a look.',
-    advance: { kind: 'route', pathname: '/path' },
-  },
-  {
-    id: 'path-map',
-    targetId: 'path-map',
-    route: '/path',
-    title: 'Follow the path',
-    body:
-      'Each circle is a short lesson; finish one to unlock the next and earn up to three stars. Already know some German? The Einstufungstest places you at your level.',
-    advance: { kind: 'next' },
-  },
+  { id: 'home-streak', targetId: 'home-streak', route: '/', advance: { kind: 'next' } },
+  { id: 'home-daily', targetId: 'home-daily', route: '/', advance: { kind: 'next' } },
+  { id: 'home-grammar', targetId: 'home-grammar', route: '/', advance: { kind: 'next' } },
+  { id: 'home-wotd', targetId: 'home-wotd', route: '/', advance: { kind: 'next' } },
+  { id: 'tab-path', targetId: 'tab-path', route: '/', advance: { kind: 'route', pathname: '/path' } },
+  { id: 'path-map', targetId: 'path-map', route: '/path', advance: { kind: 'next' } },
   {
     id: 'tab-dictionary',
     targetId: 'tab-dictionary',
     route: '/path',
-    title: 'The dictionary',
-    body:
-      '“Wörterbuch” is your dictionary — the entire Goethe A1/A2 vocabulary, fully offline. Tap it to open.',
     advance: { kind: 'route', pathname: '/dictionary' },
   },
   {
     id: 'dict-search',
     targetId: 'dict-search',
     route: '/dictionary',
-    title: 'Look something up',
-    body:
-      'Try it: type “Haus” (house). Any German form works — even “gemacht” — and English words too.',
     advance: { kind: 'action', name: 'dict-results' },
   },
   {
     id: 'dict-first-result',
     targetId: 'dict-first-result',
     route: '/dictionary',
-    title: 'Open the entry',
-    body:
-      'There it is! Tap the word to see its full entry. (The speaker icon pronounces it right from the list.)',
     advance: { kind: 'route', pathname: '/word' },
   },
   {
     id: 'word-entry',
     targetId: 'word-entry',
     route: '/word',
-    title: 'Everything about a word',
-    body:
-      'Article, plural, level and meaning at a glance — with example sentences and full conjugation or case tables further down.',
     advance: { kind: 'next' },
     resumeTo: 'dict-search',
   },
@@ -209,9 +149,6 @@ export const TOUR_STEPS: TourStepDef[] = [
     id: 'word-tts',
     targetId: 'word-tts',
     route: '/word',
-    title: 'Hear it spoken',
-    body:
-      'Tap the speaker to hear the word. Nouns are read with their article, so “das Haus” sticks together in your memory.',
     advance: { kind: 'action', name: 'tts-played' },
     resumeTo: 'dict-search',
   },
@@ -219,9 +156,6 @@ export const TOUR_STEPS: TourStepDef[] = [
     id: 'word-save',
     targetId: 'word-save',
     route: '/word',
-    title: 'Save it to learn it',
-    body:
-      'Tap the heart to save this word. Saved words become flashcards and join your daily review queue.',
     advance: { kind: 'action', name: 'word-saved' },
     resumeTo: 'dict-search',
   },
@@ -229,8 +163,6 @@ export const TOUR_STEPS: TourStepDef[] = [
     id: 'word-back',
     targetId: 'word-back',
     route: '/word',
-    title: 'Your first saved word!',
-    body: 'Nice — it’s in your collection now. Tap “Zurück” to head back.',
     advance: { kind: 'route', pathname: '/dictionary' },
     resumeTo: 'dict-search',
   },
@@ -238,77 +170,34 @@ export const TOUR_STEPS: TourStepDef[] = [
     id: 'dict-saved',
     targetId: 'dict-saved',
     route: '/dictionary',
-    title: 'Your word list',
-    body:
-      '“Meine Wörter” holds every word you’ve saved. Tap it — your new word is already waiting there.',
     advance: { kind: 'route', pathname: '/words' },
   },
-  {
-    id: 'words-first-row',
-    targetId: 'words-first-row',
-    route: '/words',
-    title: 'Your learning queue',
-    body:
-      'Each saved word shows its status — new, learning, or due for review. Tap the speaker to hear it; the trash icon removes it.',
-    advance: { kind: 'next' },
-  },
+  { id: 'words-first-row', targetId: 'words-first-row', route: '/words', advance: { kind: 'next' } },
   {
     id: 'words-back',
     targetId: 'words-back',
     route: '/words',
-    title: 'Back to the dictionary',
-    body: 'Tap “Zurück” to head back — you can reach this list from here any time.',
     advance: { kind: 'route', pathname: '/dictionary' },
   },
   {
     id: 'tab-practice',
     targetId: 'tab-practice',
     route: '/dictionary',
-    title: 'Time to practice',
-    body: '“Üben” means practice — this is where the real learning happens. Tap it.',
     advance: { kind: 'route', pathname: '/practice' },
   },
-  {
-    id: 'practice-cards',
-    targetId: 'practice-cards',
-    route: '/practice',
-    title: 'Flashcards & grammar',
-    body:
-      '“Karteikarten” quizzes your saved words with spaced repetition — rate yourself and Deutschly schedules the perfect next review. Below: grammar quizzes for every A1–C2 topic, with explanations.',
-    advance: { kind: 'next' },
-  },
+  { id: 'practice-cards', targetId: 'practice-cards', route: '/practice', advance: { kind: 'next' } },
   {
     id: 'tab-games',
     targetId: 'tab-games',
     route: '/practice',
-    title: 'And for fun…',
-    body: 'Tap “Spiele” for quick word games.',
     advance: { kind: 'route', pathname: '/games' },
   },
-  {
-    id: 'games-grid',
-    targetId: 'games-grid',
-    route: '/games',
-    title: 'Play to remember',
-    body:
-      'Seven quick games — from Wort-Blitz and Der-die-das to the Konjugations-Trainer — plus live duels. They all count toward your streak.',
-    advance: { kind: 'next' },
-  },
-  {
-    id: 'tab-home',
-    targetId: 'tab-home',
-    route: '/games',
-    title: 'Back to Start',
-    body: 'One last thing — tap the home tab.',
-    advance: { kind: 'route', pathname: '/' },
-  },
+  { id: 'games-grid', targetId: 'games-grid', route: '/games', advance: { kind: 'next' } },
+  { id: 'tab-home', targetId: 'tab-home', route: '/games', advance: { kind: 'route', pathname: '/' } },
   {
     id: 'home-header-icons',
     targetId: 'home-header-icons',
     route: '/',
-    title: 'Progress & settings',
-    body:
-      'The chart icon opens your statistics — streak history, activity and accuracy. The gear holds settings: dark mode, daily limits, reminders… and this guide, any time you want a refresher.',
     advance: { kind: 'next' },
   },
 ];

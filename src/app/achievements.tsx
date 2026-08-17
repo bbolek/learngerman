@@ -4,6 +4,8 @@ import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { listAchievements, type AchievementStatus } from '@/db/achievementsRepo';
+import { useTr } from '@/i18n';
+import { achievementDescription, achievementTitle } from '@/i18n/labels';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Screen } from '@/ui/components/Screen';
@@ -12,6 +14,7 @@ import { useTheme } from '@/ui/useTheme';
 
 export default function AchievementsScreen() {
   const t = useTheme();
+  const tr = useTr();
   const [items, setItems] = useState<AchievementStatus[] | null>(null);
 
   useFocusEffect(
@@ -28,12 +31,14 @@ export default function AchievementsScreen() {
       <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
         <AppText variant="secondary" muted>
-          Zurück
+          {tr('common.back')}
         </AppText>
       </Pressable>
-      <AppText variant="title">Abzeichen</AppText>
+      <AppText variant="title">{tr('achievements.title')}</AppText>
       <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-        {items ? `${earned.length} von ${items.length} freigeschaltet` : '…'}
+        {items
+          ? tr('achievements.count', { unlocked: earned.length, total: items.length })
+          : '…'}
       </AppText>
 
       {earned.length > 0 && (
@@ -47,7 +52,7 @@ export default function AchievementsScreen() {
       {locked.length > 0 && (
         <>
           <AppText variant="label" muted style={{ marginTop: spacing.xl }}>
-            Noch zu holen
+            {tr('achievements.locked')}
           </AppText>
           <View style={styles.grid}>
             {locked.map((a) => (
@@ -62,6 +67,7 @@ export default function AchievementsScreen() {
 
 function Badge({ item }: { item: AchievementStatus }) {
   const t = useTheme();
+  const tr = useTr();
   const unlocked = item.unlockedAt != null;
   const ratio = item.target === 0 ? 0 : item.current / item.target;
   return (
@@ -77,15 +83,15 @@ function Badge({ item }: { item: AchievementStatus }) {
         variant="secondary"
         style={{ fontFamily: fonts.extrabold, textAlign: 'center', marginTop: spacing.sm }}
         numberOfLines={1}>
-        {item.def.title}
+        {achievementTitle(tr, item.def.id)}
       </AppText>
       <AppText variant="caption" muted style={{ textAlign: 'center', marginTop: 2 }} numberOfLines={2}>
-        {item.def.description}
+        {achievementDescription(tr, item.def.id)}
       </AppText>
       {unlocked ? (
         <View style={[styles.badgeState, { backgroundColor: t.successDim }]}>
           <AppText variant="caption" color={t.onSuccessDim} style={{ fontFamily: fonts.extrabold }}>
-            ✓ Geschafft
+            {tr('achievements.unlocked')}
           </AppText>
         </View>
       ) : (

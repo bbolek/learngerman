@@ -1,13 +1,14 @@
 import { Pressable, StyleSheet, View, type StyleProp, type ViewStyle } from 'react-native';
 import Animated, { FadeInDown } from 'react-native-reanimated';
 
+import { useTr, type TranslationKey } from '@/i18n';
 import { AppText } from '@/ui/components/AppText';
 import { fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 interface TourTooltipProps {
-  title: string;
-  body: string;
+  /** Tour step id; its copy lives at `tour.<id>.title` / `.body`. */
+  stepId: string;
   /** 0-based step index and total, for the progress bar. */
   index: number;
   total: number;
@@ -27,8 +28,7 @@ const CARET = 10;
 
 /** The floating explanation card of the first-run tour. */
 export function TourTooltip({
-  title,
-  body,
+  stepId,
   index,
   total,
   showNext,
@@ -39,6 +39,9 @@ export function TourTooltip({
   style,
 }: TourTooltipProps) {
   const t = useTheme();
+  const tr = useTr();
+  const title = tr(`tour.${stepId}.title` as TranslationKey);
+  const body = tr(`tour.${stepId}.body` as TranslationKey);
 
   const caretStyle = caret && caretX != null && (
     <View
@@ -90,7 +93,7 @@ export function TourTooltip({
       <View style={styles.footer}>
         <Pressable onPress={onSkip} hitSlop={10}>
           <AppText variant="secondary" muted>
-            Skip tour
+            {tr('tour.skip')}
           </AppText>
         </Pressable>
         {showNext ? (
@@ -103,19 +106,19 @@ export function TourTooltip({
               pressed && { opacity: 0.85, transform: [{ scale: 0.97 }] },
             ]}>
             <AppText variant="secondary" color="#FFFFFF" style={{ fontFamily: fonts.extrabold }}>
-              Next →
+              {tr('tour.next')}
             </AppText>
           </Pressable>
         ) : (
           <View style={styles.actionRow}>
             <Pressable onPress={onNext} hitSlop={10}>
               <AppText variant="secondary" muted>
-                Next →
+                {tr('tour.next')}
               </AppText>
             </Pressable>
             <View style={[styles.tryChip, { backgroundColor: t.primaryDim }]}>
               <AppText variant="secondary" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                Try it 👆
+                {tr('tour.tryIt')}
               </AppText>
             </View>
           </View>

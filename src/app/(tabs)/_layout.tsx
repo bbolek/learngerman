@@ -1,12 +1,14 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { Tabs } from 'expo-router';
 
+import { useTr } from '@/i18n';
 import { tourTabButton } from '@/tour/TourTabButton';
 import { fonts } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
 export default function TabsLayout() {
   const t = useTheme();
+  const tr = useTr();
   return (
     <Tabs
       screenOptions={{
@@ -20,7 +22,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Start',
+          title: tr('tabs.home'),
           tabBarIcon: ({ color, size }) => <Ionicons name="home" size={size} color={color} />,
           tabBarButton: tourTabButton('tab-home'),
         }}
@@ -28,7 +30,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="path"
         options={{
-          title: 'Lernpfad',
+          title: tr('tabs.path'),
           tabBarIcon: ({ color, size }) => <Ionicons name="map" size={size} color={color} />,
           tabBarButton: tourTabButton('tab-path'),
         }}
@@ -36,7 +38,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="dictionary"
         options={{
-          title: 'Wörterbuch',
+          title: tr('tabs.dictionary'),
           tabBarIcon: ({ color, size }) => <Ionicons name="search" size={size} color={color} />,
           tabBarButton: tourTabButton('tab-dictionary'),
         }}
@@ -44,7 +46,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="practice"
         options={{
-          title: 'Üben',
+          title: tr('tabs.practice'),
           tabBarIcon: ({ color, size }) => <Ionicons name="school" size={size} color={color} />,
           tabBarButton: tourTabButton('tab-practice'),
         }}
@@ -52,7 +54,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="games"
         options={{
-          title: 'Spiele',
+          title: tr('tabs.games'),
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="game-controller" size={size} color={color} />
           ),

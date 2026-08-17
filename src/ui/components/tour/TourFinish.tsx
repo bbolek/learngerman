@@ -14,6 +14,7 @@ import Animated, {
 } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { useTr } from '@/i18n';
 import { AppText } from '@/ui/components/AppText';
 import { fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
@@ -26,7 +27,11 @@ interface TourFinishProps {
 /** Celebratory closing screen of the first-run tour. */
 export function TourFinish({ visible, onClose }: TourFinishProps) {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
+  // The headline stays German — it is the phrase being taught. Languages
+  // other than German add a translation under it; German leaves it empty.
+  const headlineGloss = tr('tour.finish.headlineGloss');
 
   const bounce = useSharedValue(0);
   useEffect(() => {
@@ -67,20 +72,21 @@ export function TourFinish({ visible, onClose }: TourFinishProps) {
 
           <Animated.View entering={FadeInDown.delay(150).duration(500)}>
             <AppText variant="title" style={styles.headline}>
-              Du schaffst das!
+              {tr('tour.finish.headline')}
             </AppText>
-            <AppText variant="secondary" muted style={styles.sub}>
-              (“You’ve got this!”)
-            </AppText>
+            {headlineGloss !== '' && (
+              <AppText variant="secondary" muted style={styles.sub}>
+                {headlineGloss}
+              </AppText>
+            )}
           </Animated.View>
 
           <Animated.View entering={FadeInDown.delay(280).duration(500)}>
             <AppText variant="body" muted style={styles.blurb}>
-              You’ve seen it all — dictionary, flashcards, grammar and games. Your first saved word
-              is already in your review queue.
+              {tr('tour.finish.blurb')}
             </AppText>
             <AppText variant="body" muted style={[styles.blurb, { marginTop: spacing.md }]}>
-              Learn a few words a day, keep the streak alive, and German will come to you.
+              {tr('tour.finish.encouragement')}
             </AppText>
           </Animated.View>
         </View>
@@ -94,7 +100,7 @@ export function TourFinish({ visible, onClose }: TourFinishProps) {
               pressed && { opacity: 0.88, transform: [{ scale: 0.98 }] },
             ]}>
             <AppText variant="subtitle" color="#FFFFFF" style={{ fontFamily: fonts.extrabold }}>
-              Start learning →
+              {tr('tour.finish.cta')}
             </AppText>
           </Pressable>
         </Animated.View>

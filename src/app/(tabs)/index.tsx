@@ -23,7 +23,9 @@ import {
 import { savedCount } from '@/db/vocabRepo';
 import { xpTotals } from '@/db/xpRepo';
 import { THEMES, type Theme } from '@/data/themes.generated';
-import { GAMES, gameInfo, type GameKey } from '@/logic/games';
+import { formatDate, useTr } from '@/i18n';
+import { levelTitle } from '@/i18n/labels';
+import { GAMES, type GameKey } from '@/logic/games';
 import {
   buildResumeShelf,
   lastPlayedGame,
@@ -36,7 +38,7 @@ import {
 import { levelsUpTo, withinLevel } from '@/logic/levels';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
 import { findPathResume, resolveBoundaryOrder } from '@/logic/pathResume';
-import { isStreakMilestone, levelProgress, levelTitle, type LevelProgress } from '@/logic/xp';
+import { isStreakMilestone, levelProgress, type LevelProgress } from '@/logic/xp';
 import { settleRewards } from '@/services/rewards';
 import { celebrate } from '@/store/celebration';
 import { useSettings } from '@/store/settings';
@@ -74,6 +76,11 @@ interface HomeData {
   themeTip: Theme | null;
 }
 
+/** Game emoji by key — the titles come from the translation catalog. */
+const GAME_EMOJI: Record<GameKey, string> = Object.fromEntries(
+  GAMES.map((g) => [g.key, g.emoji])
+) as Record<GameKey, string>;
+
 /** Staggered entrance for the top-level blocks — subtle, mount-only. */
 function blockEntering(i: number) {
   return FadeInUp.delay(i * 60).duration(400);
@@ -81,6 +88,7 @@ function blockEntering(i: number) {
 
 export default function HomeScreen() {
   const t = useTheme();
+  const tr = useTr();
   const [data, setData] = useState<HomeData | null>(null);
   const { ref: streakRef, onLayout: streakOnLayout } = useTourTarget('home-streak');
   const { width: winW } = useWindowDimensions();
@@ -148,8 +156,10 @@ export default function HomeScreen() {
       celebrate({
         kind: 'streakMilestone',
         emoji: '🔥',
-        title: `${streakInfo.streak} Tage am Stück!`,
-        subtitle: freezeGranted ? 'Stark! · +1 Streak-Retter 🧊' : 'Weiter so!',
+        title: tr('home.milestone.title', { count: streakInfo.streak }),
+        subtitle: freezeGranted
+          ? tr('home.milestone.subtitleWithFreeze')
+          : tr('home.milestone.subtitle'),
       });
     }
 
@@ -175,7 +185,7 @@ export default function HomeScreen() {
         today
       ),
     });
-  }, []);
+  }, [tr]);
 
   useFocusEffect(
     useCallback(() => {
@@ -186,12 +196,12 @@ export default function HomeScreen() {
   const now = new Date();
   const hour = now.getHours();
   const greeting =
-    hour < 11 ? 'Guten Morgen! ☀️' : hour < 18 ? 'Guten Tag! 👋' : 'Guten Abend! 🌙';
-  const dateLabel = now.toLocaleDateString('de-DE', {
-    weekday: 'long',
-    day: 'numeric',
-    month: 'long',
-  });
+    hour < 11
+      ? tr('home.greeting.morning')
+      : hour < 18
+        ? tr('home.greeting.day')
+        : tr('home.greeting.evening');
+  const dateLabel = formatDate(now, { weekday: 'long', day: 'numeric', month: 'long' });
 
   return (
     <Screen>
@@ -227,14 +237,17 @@ export default function HomeScreen() {
               style={styles.chipRow}>
               <StatChip
                 emoji="🔥"
-                label={`${data.streakInfo.streak} ${data.streakInfo.streak === 1 ? 'Tag' : 'Tage'}${
+                label={`${tr('home.streak.chip', { count: data.streakInfo.streak })}${
                   data.streakInfo.freezes > 0 ? ` · 🧊×${data.streakInfo.freezes}` : ''
                 }`}
                 onPress={() => router.push('/stats')}
               />
               <StatChip
                 emoji="⭐"
-                label={`Lv ${data.level.level} · ${levelTitle(data.level.level)}`}
+                label={tr('home.level.chip', {
+                  level: data.level.level,
+                  title: levelTitle(tr, data.level.level),
+                })}
                 onPress={() => router.push('/stats')}
               />
             </View>
@@ -245,11 +258,9 @@ export default function HomeScreen() {
               <Card style={styles.noticeCard}>
                 <AppText style={{ fontSize: 22 }}>🧊</AppText>
                 <View style={{ flex: 1 }}>
-                  <AppText variant="subtitle">Streak-Retter eingesetzt!</AppText>
+                  <AppText variant="subtitle">{tr('home.freeze.title')}</AppText>
                   <AppText variant="caption" muted style={{ marginTop: 2 }}>
-                    {data.streakInfo.justProtected.length === 1
-                      ? 'Ein verpasster Tag wurde überbrückt — deine Serie lebt weiter.'
-                      : `${data.streakInfo.justProtected.length} verpasste Tage wurden überbrückt — deine Serie lebt weiter.`}
+                    {tr('home.freeze.body', { count: data.streakInfo.justProtected.length })}
                   </AppText>
                 </View>
               </Card>
@@ -276,7 +287,7 @@ export default function HomeScreen() {
 
           {data.resume.length > 0 && (
             <Animated.View entering={blockEntering(3)}>
-              <SectionHeader title="Weiter lernen" onAction={() => router.push('/path')} />
+              <SectionHeader title={tr('home.section.continue')} onAction={() => router.push('/path')} />
               <Shelf cardWidth={shelfW}>
                 {data.resume.map((item) => (
                   <ResumeCard key={item.kind} item={item} width={shelfW} />
@@ -287,7 +298,7 @@ export default function HomeScreen() {
 
           <Animated.View entering={blockEntering(4)}>
             <TourTarget id="home-grammar">
-              <SectionHeader title="Entdecken" onAction={() => router.push('/dictionary')} />
+              <SectionHeader title={tr('home.section.discover')} onAction={() => router.push('/dictionary')} />
               <Shelf cardWidth={shelfW}>
                 {data.wotd && (
                   <TourTarget id="home-wotd">
@@ -301,7 +312,7 @@ export default function HomeScreen() {
           </Animated.View>
 
           <Animated.View entering={blockEntering(5)}>
-            <SectionHeader title="Spiele" onAction={() => router.push('/games')} />
+            <SectionHeader title={tr('home.section.games')} onAction={() => router.push('/games')} />
             <Shelf cardWidth={120}>
               {GAMES.map((g) => (
                 <GameTile key={g.key} gameKey={g.key} stats={data.gameStats.get(g.key) ?? null} />
@@ -311,32 +322,35 @@ export default function HomeScreen() {
           </Animated.View>
 
           <Animated.View entering={blockEntering(6)}>
-            <SectionHeader title="Deine Sammlung" />
+            <SectionHeader title={tr('home.section.collection')} />
             <View style={styles.collectionGrid}>
               <CollectionCard
                 emoji="❤️"
-                title="Meine Wörter"
-                caption={`${data.saved} gespeichert`}
+                title={tr('home.collection.words')}
+                caption={tr('home.collection.wordsCaption', { count: data.saved })}
                 onPress={() => router.push('/words')}
               />
               <CollectionCard
                 emoji="🗂️"
-                title="Themen"
-                caption={`${THEMES.length} Wortfelder`}
+                title={tr('home.collection.themes')}
+                caption={tr('home.collection.themesCaption', { count: THEMES.length })}
                 onPress={() => router.push('/themes')}
               />
               {data.readingTotal > 0 && (
                 <CollectionCard
                   emoji="📖"
-                  title="Leseecke"
-                  caption={`${data.readingRead}/${data.readingTotal} gelesen`}
+                  title={tr('home.collection.reading')}
+                  caption={tr('home.collection.readingCaption', {
+                    read: data.readingRead,
+                    total: data.readingTotal,
+                  })}
                   onPress={() => router.push('/lesen')}
                 />
               )}
               <CollectionCard
                 emoji="🧠"
-                title="Grammatik"
-                caption={`${data.topicsCount} Themen`}
+                title={tr('home.collection.grammar')}
+                caption={tr('home.collection.grammarCaption', { count: data.topicsCount })}
                 onPress={() => router.push('/practice')}
               />
             </View>
@@ -368,26 +382,35 @@ function HeroCard({
   quests: DailyQuestState[];
 }) {
   const t = useTheme();
+  const tr = useTr();
   const pending = due + fresh;
   const planned = pending + doneToday;
   const progress = planned === 0 ? 1 : doneToday / planned;
 
   const label =
-    hero.kind === 'review' ? 'Heute fällig' : hero.kind === 'path' ? 'Weiter im Lernpfad' : 'Als Nächstes';
+    hero.kind === 'review'
+      ? tr('home.hero.label.review')
+      : hero.kind === 'path'
+        ? tr('home.hero.label.path')
+        : tr('home.hero.label.discover');
   const title =
     hero.kind === 'review'
-      ? `${pending} ${pending === 1 ? 'Karte wartet' : 'Karten warten'}`
+      ? tr('home.hero.title.review', { count: pending })
       : hero.kind === 'path'
         ? hero.node.title
-        : 'Alles geschafft! 🎉';
+        : tr('home.hero.title.discover');
   const subtitle =
     hero.kind === 'review'
-      ? `${due} fällig · ${fresh} neu`
+      ? tr('home.hero.subtitle.review', { due, fresh })
       : hero.kind === 'path'
         ? `${hero.node.unitEmoji} ${hero.node.unitTitle} · ${hero.node.unitLevel}`
-        : 'Zeit, Neues zu entdecken';
+        : tr('home.hero.subtitle.discover');
   const cta =
-    hero.kind === 'review' ? 'Jetzt üben →' : hero.kind === 'path' ? 'Weiter →' : 'Neue Wörter entdecken →';
+    hero.kind === 'review'
+      ? tr('home.hero.cta.review')
+      : hero.kind === 'path'
+        ? tr('home.hero.cta.path')
+        : tr('home.hero.cta.discover');
   const ctaColors =
     hero.kind === 'discover'
       ? { bg: t.accentDim, fg: t.onAccentDim }
@@ -421,14 +444,14 @@ function HeroCard({
             {doneToday}/{planned}
           </AppText>
           <AppText variant="caption" muted>
-            heute
+            {tr('common.today')}
           </AppText>
         </ProgressRing>
       </View>
       {quests.length > 0 && (
         <View style={[styles.questStrip, { borderTopColor: t.line }]}>
           <AppText variant="label" muted>
-            Tagesziele
+            {tr('home.quests.label')}
           </AppText>
           <View style={styles.questTokens}>
             {quests.map((q) => (
@@ -453,12 +476,13 @@ function HeroCard({
 
 function ResumeCard({ item, width }: { item: ResumeItem; width: number }) {
   const t = useTheme();
+  const tr = useTr();
   const view =
     item.kind === 'path'
       ? {
           emoji: item.node.unitEmoji,
           tile: t.primaryDim,
-          label: 'Weiter im Lernpfad',
+          label: tr('home.hero.label.path'),
           title: item.node.title,
           caption: `${item.node.unitTitle} · ${item.node.unitLevel}`,
           go: () => router.push({ pathname: '/lesson/[slug]', params: { slug: item.node.slug } }),
@@ -467,26 +491,29 @@ function ResumeCard({ item, width }: { item: ResumeItem; width: number }) {
         ? {
             emoji: '📇',
             tile: t.primaryDim,
-            label: 'Karteikarten',
-            title: `${item.count} ${item.count === 1 ? 'Karte' : 'Karten'} fällig`,
-            caption: 'Kurz wiederholen',
+            label: tr('home.resume.review.label'),
+            title: tr('home.resume.review.title', { count: item.count }),
+            caption: tr('home.resume.review.caption'),
             go: () => router.push('/review'),
           }
         : item.kind === 'reading'
           ? {
               emoji: '📖',
               tile: t.accentDim,
-              label: 'Weiterlesen',
+              label: tr('home.resume.reading.label'),
               title: item.title,
-              caption: `${item.level} · ${item.wordCount} Wörter · Leseecke`,
+              caption: tr('home.resume.reading.caption', {
+                level: item.level,
+                count: item.wordCount,
+              }),
               go: () => router.push({ pathname: '/lesen/[slug]', params: { slug: item.slug } }),
             }
           : {
-              emoji: gameInfo(item.key).emoji,
+              emoji: GAME_EMOJI[item.key],
               tile: t.accentDim,
-              label: 'Letztes Spiel',
-              title: gameInfo(item.key).title,
-              caption: `Rekord ${item.best}`,
+              label: tr('home.resume.game.label'),
+              title: tr(`game.${item.key}.title`),
+              caption: tr('home.resume.game.caption', { best: item.best }),
               go: () => router.push(`/game/${item.key}`),
             };
   return (
@@ -509,18 +536,19 @@ function ResumeCard({ item, width }: { item: ResumeItem; width: number }) {
 
 function GrammarCard({ next, width }: { next: NextTopic<TopicRow>; width: number }) {
   const t = useTheme();
+  const tr = useTr();
   const { topic, reason, accuracy } = next;
   const pct = accuracy == null ? null : Math.round(accuracy * 100);
   const reasonText =
     reason === 'due'
       ? pct != null
-        ? `Fällig zur Wiederholung · ${pct} % richtig`
-        : 'Fällig zur Wiederholung'
+        ? tr('home.grammar.reason.dueWithPct', { pct })
+        : tr('home.grammar.reason.due')
       : reason === 'weak'
-        ? `Dein schwächstes Thema · ${pct} % richtig`
+        ? tr('home.grammar.reason.weak', { pct: pct ?? 0 })
         : reason === 'new'
-          ? 'Heutige Empfehlung — noch nicht geübt'
-          : `Zum Auffrischen · ${pct} % richtig`;
+          ? tr('home.grammar.reason.new')
+          : tr('home.grammar.reason.refresh', { pct: pct ?? 0 });
   return (
     <Card
       style={[styles.discoverCard, { width }]}
@@ -529,7 +557,7 @@ function GrammarCard({ next, width }: { next: NextTopic<TopicRow>; width: number
       }>
       <View style={styles.discoverHead}>
         <AppText variant="label" muted>
-          Thema des Tages
+          {tr('home.grammar.label')}
         </AppText>
         <View style={[styles.levelBadge, { backgroundColor: t.caseChip }]}>
           <AppText variant="caption" color={t.onCaseChip} style={{ fontFamily: fonts.extrabold }}>
@@ -570,6 +598,7 @@ function WotdCard({
   width: number;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const article =
     wotd.gender === 'm' ? 'der' : wotd.gender === 'f' ? 'die' : wotd.gender === 'n' ? 'das' : null;
   const articleColors =
@@ -583,7 +612,7 @@ function WotdCard({
       style={[styles.discoverCard, { width }]}
       onPress={() => router.push({ pathname: '/word/[id]', params: { id: String(wotd.id) } })}>
       <AppText variant="label" muted>
-        Wort des Tages
+        {tr('home.wotd.label')}
       </AppText>
       <View style={styles.wotdRow}>
         {article && (
@@ -611,12 +640,13 @@ function WotdCard({
 }
 
 function ThemeCard({ theme, width }: { theme: Theme; width: number }) {
+  const tr = useTr();
   return (
     <Card
       style={[styles.discoverCard, { width }]}
       onPress={() => router.push({ pathname: '/themes/[slug]', params: { slug: theme.slug } })}>
       <AppText variant="label" muted>
-        Themen-Tipp
+        {tr('home.theme.label')}
       </AppText>
       <View style={styles.wotdRow}>
         <AppText style={{ fontSize: 24 }}>{theme.emoji}</AppText>
@@ -629,7 +659,7 @@ function ThemeCard({ theme, width }: { theme: Theme; width: number }) {
       </View>
       <View style={{ flex: 1 }} />
       <AppText variant="caption" muted>
-        {theme.words.length} Wörter · Wortfeld lernen
+        {tr('home.theme.caption', { count: theme.words.length })}
       </AppText>
     </Card>
   );
@@ -638,19 +668,19 @@ function ThemeCard({ theme, width }: { theme: Theme; width: number }) {
 /** One arcade tile; `gameKey: null` renders the Duell tile. */
 function GameTile({ gameKey, stats }: { gameKey: GameKey | null; stats: GameStats | null }) {
   const t = useTheme();
-  const info = gameKey ? gameInfo(gameKey) : null;
+  const tr = useTr();
   const record = stats && stats.plays > 0 ? `🏅 ${stats.best}` : null;
   return (
     <Card
       style={styles.gameTile}
       onPress={() => (gameKey ? router.push(`/game/${gameKey}`) : router.push('/duel'))}>
-      <AppText style={{ fontSize: 30 }}>{info?.emoji ?? '⚔️'}</AppText>
+      <AppText style={{ fontSize: 30 }}>{gameKey ? GAME_EMOJI[gameKey] : '⚔️'}</AppText>
       <AppText variant="caption" numberOfLines={1} style={{ marginTop: spacing.sm }}>
-        {info?.title ?? 'Duell'}
+        {gameKey ? tr(`game.${gameKey}.title`) : tr('home.tile.duel')}
       </AppText>
       {gameKey == null ? (
         <AppText variant="caption" muted style={{ marginTop: 3 }}>
-          Zu zweit
+          {tr('home.tile.duelCaption')}
         </AppText>
       ) : record ? (
         <AppText variant="caption" muted style={{ marginTop: 3 }}>
@@ -659,7 +689,7 @@ function GameTile({ gameKey, stats }: { gameKey: GameKey | null; stats: GameStat
       ) : (
         <View style={[styles.newPill, { backgroundColor: t.accentDim }]}>
           <AppText variant="caption" color={t.onAccentDim} style={{ fontFamily: fonts.extrabold, fontSize: 10 }}>
-            Neu
+            {tr('home.tile.new')}
           </AppText>
         </View>
       )}
@@ -699,6 +729,7 @@ function RepairCard({
   onRepaired: () => Promise<void>;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const [busy, setBusy] = useState(false);
   const doRepair = async () => {
     if (busy) return;
@@ -708,8 +739,8 @@ function RepairCard({
       celebrate({
         kind: 'streakMilestone',
         emoji: '🔥',
-        title: 'Serie gerettet!',
-        subtitle: `Deine ${revived}-Tage-Serie lebt weiter.`,
+        title: tr('home.repair.savedTitle'),
+        subtitle: tr('home.repair.savedSubtitle', { count: revived }),
       });
     }
     await onRepaired();
@@ -719,11 +750,13 @@ function RepairCard({
     <Card style={styles.noticeCard}>
       <AppText style={{ fontSize: 22 }}>💔</AppText>
       <View style={{ flex: 1 }}>
-        <AppText variant="subtitle">Deine {repair.lostStreak}-Tage-Serie ist gerissen</AppText>
+        <AppText variant="subtitle">
+          {tr('home.repair.title', { count: repair.lostStreak })}
+        </AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
           {repair.affordable
-            ? `Nur heute: repariere gestern für ${repair.cost} XP.`
-            : `Mit ${repair.cost} XP könntest du sie retten — dir fehlen noch ein paar.`}
+            ? tr('home.repair.affordable', { cost: repair.cost })
+            : tr('home.repair.tooExpensive', { cost: repair.cost })}
         </AppText>
         {repair.affordable && (
           <Pressable
@@ -731,7 +764,7 @@ function RepairCard({
             onPress={doRepair}
             style={[styles.repairBtn, { backgroundColor: t.primary, opacity: busy ? 0.6 : 1 }]}>
             <AppText variant="secondary" color="#fff" style={{ fontFamily: fonts.extrabold }}>
-              Serie reparieren · {repair.cost} XP
+              {tr('home.repair.cta', { cost: repair.cost })}
             </AppText>
           </Pressable>
         )}

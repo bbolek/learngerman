@@ -1,54 +1,65 @@
-/** Human-readable German labels for form tags ("gemacht → Partizip II"). */
-const LABELS: Record<string, string> = {
-  präsens_ich: 'Präsens, ich-Form',
-  präsens_du: 'Präsens, du-Form',
-  präsens_er: 'Präsens, er/sie/es-Form',
-  präsens_wir: 'Präsens, wir-Form',
-  präsens_ihr: 'Präsens, ihr-Form',
-  präteritum_ich: 'Präteritum, ich-Form',
-  präteritum_du: 'Präteritum, du-Form',
-  präteritum_er: 'Präteritum, er/sie/es-Form',
-  präteritum_wir: 'Präteritum, wir-Form',
-  präteritum_ihr: 'Präteritum, ihr-Form',
-  partizip2: 'Partizip II',
-  imperativ_du: 'Imperativ (du)',
-  imperativ_ihr: 'Imperativ (ihr)',
-  konjunktiv2: 'Konjunktiv II',
-  plural: 'Plural',
-  plural_dativ: 'Dativ Plural',
-  genitiv: 'Genitiv',
-  akkusativ: 'Akkusativ',
-  dativ: 'Dativ',
-  possessiv: 'Possessivform',
-  kontraktion: 'Präposition + Artikel',
-  komparativ: 'Komparativ',
-  superlativ: 'Superlativ',
-  dekliniert: 'deklinierte Form',
-};
+/**
+ * Which German form tags the app can name. The names themselves are UI copy
+ * and live in the translation catalogs (`form.*`, `exampleTag.*`); this
+ * module only knows which tags are covered, so it stays free of copy.
+ * See src/i18n/labels.ts for the lookup helpers.
+ */
 
-/** Labels for the example-sentence tags shown on the word-detail screen. */
-const EXAMPLE_TAG_LABELS: Record<string, string> = {
-  präsens: 'Präsens',
-  präteritum: 'Präteritum',
-  perfekt: 'Perfekt',
-  imperativ: 'Imperativ',
-  frage: 'Frage',
-  negation: 'Verneinung',
-  plural: 'Plural',
-  dativ: 'Dativ',
-  akkusativ: 'Akkusativ',
-  komparativ: 'Komparativ',
-  superlativ: 'Superlativ',
-  allgemein: 'Beispiel',
-};
+export const FORM_TAGS = [
+  'präsens_ich',
+  'präsens_du',
+  'präsens_er',
+  'präsens_wir',
+  'präsens_ihr',
+  'präteritum_ich',
+  'präteritum_du',
+  'präteritum_er',
+  'präteritum_wir',
+  'präteritum_ihr',
+  'partizip2',
+  'imperativ_du',
+  'imperativ_ihr',
+  'konjunktiv2',
+  'plural',
+  'plural_dativ',
+  'genitiv',
+  'akkusativ',
+  'dativ',
+  'possessiv',
+  'kontraktion',
+  'komparativ',
+  'superlativ',
+  'dekliniert',
+] as const;
 
-export function exampleTagLabel(tag: string): string {
-  return EXAMPLE_TAG_LABELS[tag] ?? tag;
+export type FormTag = (typeof FORM_TAGS)[number];
+
+export const EXAMPLE_TAGS = [
+  'präsens',
+  'präteritum',
+  'perfekt',
+  'imperativ',
+  'frage',
+  'negation',
+  'plural',
+  'dativ',
+  'akkusativ',
+  'komparativ',
+  'superlativ',
+  'allgemein',
+] as const;
+
+export type ExampleTag = (typeof EXAMPLE_TAGS)[number];
+
+const FORM_TAG_SET = new Set<string>(FORM_TAGS);
+const EXAMPLE_TAG_SET = new Set<string>(EXAMPLE_TAGS);
+
+export function isFormTag(tag: string | undefined | null): tag is FormTag {
+  return tag != null && FORM_TAG_SET.has(tag);
 }
 
-export function formLabel(tag: string | undefined | null): string | null {
-  if (!tag) return null;
-  return LABELS[tag] ?? null;
+export function isExampleTag(tag: string): tag is ExampleTag {
+  return EXAMPLE_TAG_SET.has(tag);
 }
 
 /** Article for a noun gender: "das Haus". */

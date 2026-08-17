@@ -15,71 +15,23 @@ export type GameKey =
   | 'satzbau'
   | 'diktat';
 
+/**
+ * Identity only — the title, tagline and rules of each game live in the
+ * translation catalogs under `game.<key>.*` (see src/i18n/labels.ts).
+ */
 export interface GameInfo {
   key: GameKey;
   emoji: string;
-  title: string;
-  tagline: string;
-  rules: string;
 }
 
 export const GAMES: GameInfo[] = [
-  {
-    key: 'wortblitz',
-    emoji: '⚡',
-    title: 'Wort-Blitz',
-    tagline: 'Wie viele Wörter schaffst du in 60 Sekunden?',
-    rules:
-      'Wähle die richtige Übersetzung — so schnell du kannst. Jede richtige Antwort bringt 10 Punkte, eine Serie bringt Bonuspunkte. Ein Fehler bricht die Serie.',
-  },
-  {
-    key: 'bilderraetsel',
-    emoji: '🖼️',
-    title: 'Bilderrätsel',
-    tagline: 'Erkennst du das Bild? Sag es auf Deutsch!',
-    rules:
-      'Wähle das deutsche Wort, das zum Bild passt — mit dem richtigen Artikel. 60 Sekunden, Serienbonus inklusive. Ein Fehler bricht die Serie.',
-  },
-  {
-    key: 'derdiedas',
-    emoji: '🎯',
-    title: 'Der, die oder das?',
-    tagline: 'Errate den Artikel — mit nur drei Leben.',
-    rules:
-      'Tippe den richtigen Artikel für jedes Nomen. Richtige Antworten bringen Punkte und verlängern deine Serie. Drei Fehler — und die Runde ist vorbei.',
-  },
-  {
-    key: 'wortpaare',
-    emoji: '🧩',
-    title: 'Wortpaare',
-    tagline: 'Finde die Paare — schnell und fehlerfrei.',
-    rules:
-      'Verbinde jedes deutsche Wort mit seiner Übersetzung. Drei Runden mit je sechs Paaren: je schneller und fehlerfreier, desto mehr Punkte.',
-  },
-  {
-    key: 'konjugation',
-    emoji: '🔁',
-    title: 'Konjugations-Trainer',
-    tagline: 'fahren, fährt, fuhr — sitzt jede Verbform?',
-    rules:
-      'Wähle die richtige Verbform für Person und Zeit. Richtige Antworten bringen Punkte und verlängern deine Serie. Drei Fehler — und die Runde ist vorbei.',
-  },
-  {
-    key: 'satzbau',
-    emoji: '🧱',
-    title: 'Satzbau',
-    tagline: 'Bring die Wörter in die richtige Reihenfolge!',
-    rules:
-      'Baue aus den Wortbausteinen den deutschen Satz — die Übersetzung hilft dir. Richtige Sätze bringen Punkte und verlängern deine Serie. Drei Fehler — und die Runde ist vorbei.',
-  },
-  {
-    key: 'diktat',
-    emoji: '🎧',
-    title: 'Diktat',
-    tagline: 'Hör genau hin — und schreib, was du hörst!',
-    rules:
-      'Hör dir das Wort an und tippe es ein — Nomen mit Artikel. Zehn Wörter pro Runde, richtige Antworten bringen Punkte und verlängern deine Serie. Du kannst dir jedes Wort mehrmals anhören.',
-  },
+  { key: 'wortblitz', emoji: '⚡' },
+  { key: 'bilderraetsel', emoji: '🖼️' },
+  { key: 'derdiedas', emoji: '🎯' },
+  { key: 'wortpaare', emoji: '🧩' },
+  { key: 'konjugation', emoji: '🔁' },
+  { key: 'satzbau', emoji: '🧱' },
+  { key: 'diktat', emoji: '🎧' },
 ];
 
 export function gameInfo(key: GameKey): GameInfo {
@@ -272,19 +224,28 @@ export interface KonjugationQuestion extends ChoiceQuestion<VerbWord> {
 /** Tags worth drilling: stem changes, Präteritum and Partizip II live here. */
 export const KONJUGATION_TAGS = ['präsens_du', 'präsens_er', 'präteritum_er', 'partizip2'];
 
-/** How a question frames its tag: "du ___" chip plus a tense label. */
-export function konjugationContext(tag: string, aux: string | null): { lead: string; tense: string } {
+/** Tense a drill tag belongs to; the screen translates it via `exampleTag.*`. */
+export type KonjugationTense = 'präsens' | 'präteritum' | 'perfekt';
+
+/**
+ * How a question frames its tag: the German pronoun lead for the "du ___"
+ * chip (content, never translated) plus the tense it drills.
+ */
+export function konjugationContext(
+  tag: string,
+  aux: string | null
+): { lead: string; tense: KonjugationTense | null } {
   switch (tag) {
     case 'präsens_du':
-      return { lead: 'du', tense: 'Präsens' };
+      return { lead: 'du', tense: 'präsens' };
     case 'präsens_er':
-      return { lead: 'er/sie/es', tense: 'Präsens' };
+      return { lead: 'er/sie/es', tense: 'präsens' };
     case 'präteritum_er':
-      return { lead: 'er/sie/es', tense: 'Präteritum' };
+      return { lead: 'er/sie/es', tense: 'präteritum' };
     case 'partizip2':
-      return { lead: aux === 'sein' ? 'er ist' : 'er hat', tense: 'Perfekt' };
+      return { lead: aux === 'sein' ? 'er ist' : 'er hat', tense: 'perfekt' };
     default:
-      return { lead: '', tense: tag };
+      return { lead: '', tense: null };
   }
 }
 

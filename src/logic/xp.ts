@@ -118,22 +118,37 @@ export function levelProgress(totalXp: number): LevelProgress {
   return { level, into, span, ratio: span === 0 ? 1 : into / span };
 }
 
-/** Playful German rank names shown next to the level number. */
-const LEVEL_TITLES: [minLevel: number, title: string][] = [
-  [30, 'Deutschmeister:in'],
-  [25, 'Sprachprofi'],
-  [20, 'Grammatik-Guru'],
-  [15, 'Wortschmied:in'],
-  [12, 'Sprachkenner:in'],
-  [9, 'Satzbauer:in'],
-  [6, 'Wortsammler:in'],
-  [4, 'Entdecker:in'],
-  [2, 'Lernende:r'],
-  [1, 'Neuling'],
+/**
+ * Playful rank shown next to the level number. Ids are stable; the names
+ * themselves live in the catalogs under `rank.<id>` (see i18n/labels.ts).
+ */
+export type LevelRankId =
+  | 'novice'
+  | 'learner'
+  | 'explorer'
+  | 'collector'
+  | 'sentenceBuilder'
+  | 'connoisseur'
+  | 'wordsmith'
+  | 'guru'
+  | 'pro'
+  | 'master';
+
+const LEVEL_TITLES: [minLevel: number, id: LevelRankId][] = [
+  [30, 'master'],
+  [25, 'pro'],
+  [20, 'guru'],
+  [15, 'wordsmith'],
+  [12, 'connoisseur'],
+  [9, 'sentenceBuilder'],
+  [6, 'collector'],
+  [4, 'explorer'],
+  [2, 'learner'],
+  [1, 'novice'],
 ];
 
-export function levelTitle(level: number): string {
-  for (const [min, title] of LEVEL_TITLES) if (level >= min) return title;
+export function levelRankId(level: number): LevelRankId {
+  for (const [min, id] of LEVEL_TITLES) if (level >= min) return id;
   return LEVEL_TITLES[LEVEL_TITLES.length - 1][1];
 }
 

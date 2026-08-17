@@ -23,6 +23,7 @@ import {
   type PlacementLevel,
   type StageResult,
 } from '@/logic/placement';
+import { useTr } from '@/i18n';
 import { levelRank } from '@/logic/levels';
 import { seededRng } from '@/logic/pathSession';
 import { celebrate } from '@/store/celebration';
@@ -67,6 +68,7 @@ async function buildStage(level: PlacementLevel): Promise<StageQuestion[]> {
 
 export default function PlacementScreen() {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
 
   const [started, setStarted] = useState(false);
@@ -124,11 +126,11 @@ export default function PlacementScreen() {
       celebrate({
         kind: 'record',
         emoji: '🧭',
-        title: `Eingestuft: ${outcome.placedLevel}`,
+        title: tr('placement.celebrate.title', { level: outcome.placedLevel }),
         subtitle:
           outcome.boundaryUnitSlug == null
-            ? 'Der ganze Pfad ist freigeschaltet!'
-            : 'Der Pfad ist bis zu deinem Niveau freigeschaltet.',
+            ? tr('placement.celebrate.allUnlocked')
+            : tr('placement.celebrate.unlocked'),
       });
     }
     setResult({ placedLevel: outcome.placedLevel, unlocked: outcome.boundaryOrder > 0 });
@@ -166,18 +168,20 @@ export default function PlacementScreen() {
         ]}>
         <AppText style={{ fontSize: 56 }}>🧭</AppText>
         <AppText variant="title" style={{ marginTop: spacing.lg, textAlign: 'center' }}>
-          {result.placedLevel ? `Dein Niveau: ${result.placedLevel}` : 'Fang ganz vorne an!'}
+          {result.placedLevel
+            ? tr('placement.result.level', { level: result.placedLevel })
+            : tr('placement.result.scratch')}
         </AppText>
         <AppText variant="secondary" muted style={{ marginTop: spacing.sm, textAlign: 'center' }}>
           {result.placedLevel
-            ? 'Der Lernpfad ist bis zu deinem Niveau freigeschaltet. Übersprungene Lektionen kannst du jederzeit nachholen.'
-            : 'Kein Problem — der Pfad führt dich Schritt für Schritt von den ersten Wörtern bis zu ganzen Sätzen.'}
+            ? tr('placement.result.levelBody')
+            : tr('placement.result.scratchBody')}
         </AppText>
         <Pressable
           onPress={() => router.back()}
           style={[styles.cta, { backgroundColor: t.primary, marginTop: spacing.xxl }]}>
           <AppText variant="subtitle" color="#fff">
-            Zum Lernpfad →
+            {tr('placement.result.cta')}
           </AppText>
         </Pressable>
       </View>
@@ -197,11 +201,10 @@ export default function PlacementScreen() {
         <View style={[styles.center, { flex: 1 }]}>
           <AppText style={{ fontSize: 56 }}>🧭</AppText>
           <AppText variant="title" style={{ marginTop: spacing.lg, textAlign: 'center' }}>
-            Einstufungstest
+            {tr('placement.title')}
           </AppText>
           <AppText variant="secondary" muted style={{ marginTop: spacing.sm, textAlign: 'center' }}>
-            Ein paar kurze Fragen pro Niveau — von A1 aufwärts, solange du sicher bist. Dauert etwa
-            5 Minuten. Danach startet dein Lernpfad genau auf deinem Niveau.
+            {tr('placement.intro')}
           </AppText>
           <Pressable
             onPress={() => {
@@ -210,7 +213,7 @@ export default function PlacementScreen() {
             }}
             style={[styles.cta, { backgroundColor: t.primary, marginTop: spacing.xxl }]}>
             <AppText variant="subtitle" color="#fff">
-              Los geht's →
+              {tr('placement.start')}
             </AppText>
           </Pressable>
         </View>
@@ -249,7 +252,11 @@ export default function PlacementScreen() {
         contentContainerStyle={{ padding: spacing.lg, paddingBottom: 40 }}
         keyboardShouldPersistTaps="handled">
         <AppText variant="label" muted>
-          Niveau {stageLevel} · Frage {index + 1}/{stage.length}
+          {tr('placement.questionLabel', {
+            level: stageLevel,
+            number: index + 1,
+            total: stage.length,
+          })}
         </AppText>
         {q.kind === 'vocab' ? (
           <VocabMc
@@ -281,7 +288,7 @@ export default function PlacementScreen() {
             },
           ]}>
           <AppText variant="subtitle" color={answered.correct ? t.onAccentDim : t.onDangerDim}>
-            {answered.correct ? '✓ Richtig!' : '✗ Nicht ganz'}
+            {answered.correct ? tr('feedback.correct') : tr('quiz.banner.wrong')}
           </AppText>
           <Pressable
             onPress={advance}
@@ -290,7 +297,7 @@ export default function PlacementScreen() {
               { backgroundColor: answered.correct ? t.accent : t.danger, marginTop: spacing.md },
             ]}>
             <AppText variant="subtitle" color="#fff">
-              Weiter →
+              {tr('common.next')}
             </AppText>
           </Pressable>
         </View>

@@ -10,6 +10,7 @@ import { Pressable, StyleSheet, TextInput, View } from 'react-native';
 
 import { type AnswerPhase } from '@/logic/answerFlow';
 import { articleFor } from '@/logic/formLabels';
+import { useTr } from '@/i18n';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Chip } from '@/ui/components/Chip';
@@ -140,6 +141,7 @@ export function VocabMc({
   onAnswer: (lemmaId: number, correct: boolean) => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const [tried, setTried] = useState<number[]>([]);
   const locked = phase === 'correct';
   const showCorrect = phase === 'correct' || phase === 'revealed';
@@ -148,7 +150,7 @@ export function VocabMc({
   return (
     <View>
       <AppText variant="label" muted style={{ marginTop: spacing.md }}>
-        {direction === 'de_en' ? 'Was heißt das auf Englisch?' : 'Wie heißt das auf Deutsch?'}
+        {direction === 'de_en' ? tr('vocab.promptToEnglish') : tr('vocab.promptToGerman')}
       </AppText>
       {direction === 'de_en' ? (
         <View style={styles.promptRow}>
@@ -212,19 +214,20 @@ export function VocabType({
   onAnswer: (text: string) => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const [text, setText] = useState('');
   const locked = phase === 'correct';
   return (
     <View>
       <AppText variant="label" muted style={{ marginTop: spacing.md }}>
-        Übersetze ins Deutsche
+        {tr('review.challenge.word')}
       </AppText>
       <AppText variant="section" style={{ marginTop: spacing.sm, lineHeight: 34 }}>
         {word.gloss}
       </AppText>
       {word.pos === 'noun' && (
         <AppText variant="caption" muted style={{ marginTop: spacing.xs }}>
-          Tipp: Nomen groß schreiben — der Artikel ist optional.
+          {tr('vocab.typeHint')}
         </AppText>
       )}
       <TextInput
@@ -265,7 +268,7 @@ export function VocabType({
             { backgroundColor: text.trim() ? t.primary : t.line, marginTop: spacing.lg, alignSelf: 'stretch' },
           ]}>
           <AppText variant="subtitle" color={text.trim() ? '#fff' : t.inkFaint} style={{ textAlign: 'center' }}>
-            Prüfen
+            {tr('common.check')}
           </AppText>
         </Pressable>
       )}

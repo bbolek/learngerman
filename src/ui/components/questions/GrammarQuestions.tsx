@@ -18,6 +18,7 @@ import {
   type McPayload,
   type OrderPayload,
 } from '@/logic/graders';
+import { useTr } from '@/i18n';
 import { AppText } from '@/ui/components/AppText';
 import { ExampleText } from '@/ui/components/ExampleText';
 import { ListenButton } from '@/ui/components/ListenButton';
@@ -128,6 +129,7 @@ export function FillQuestion({
   onAnswer: (text: string) => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const [text, setText] = useState('');
   const locked = phase === 'correct';
   return (
@@ -181,7 +183,7 @@ export function FillQuestion({
             { backgroundColor: text.trim() ? t.primary : t.line, marginTop: spacing.lg, alignSelf: 'stretch' },
           ]}>
           <AppText variant="subtitle" color={text.trim() ? '#fff' : t.inkFaint} style={{ textAlign: 'center' }}>
-            Prüfen
+            {tr('common.check')}
           </AppText>
         </Pressable>
       )}
@@ -203,6 +205,7 @@ export function OrderQuestion({
   onAnswer: (sequence: string[]) => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const pool = useMemo(() => shuffled(payload.tokens, seed), [payload.tokens, seed]);
   const [placed, setPlaced] = useState<number[]>([]); // indexes into pool
   const locked = phase === 'correct';
@@ -215,7 +218,7 @@ export function OrderQuestion({
         </AppText>
       )}
       <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
-        Tippe die Wörter in der richtigen Reihenfolge:
+        {tr('duel.satzbauPrompt')}
       </AppText>
       <View style={[styles.slot, { backgroundColor: t.surface, borderColor: t.inkFaint }]}>
         {placed.map((poolIdx, pos) => (
@@ -266,7 +269,7 @@ export function OrderQuestion({
             variant="subtitle"
             color={placed.length === pool.length ? '#fff' : t.inkFaint}
             style={{ textAlign: 'center' }}>
-            Prüfen
+            {tr('common.check')}
           </AppText>
         </Pressable>
       )}
@@ -288,6 +291,7 @@ export function CaseIdQuestion({
   onAnswer: (caseChoice: string, reasonIndex: number) => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const [caseChoice, setCaseChoice] = useState<string | null>(null);
   const [reason, setReason] = useState<number | null>(null);
   const locked = phase === 'correct';
@@ -368,7 +372,7 @@ export function CaseIdQuestion({
             variant="subtitle"
             color={caseChoice != null && reason != null ? '#fff' : t.inkFaint}
             style={{ textAlign: 'center' }}>
-            Prüfen
+            {tr('common.check')}
           </AppText>
         </Pressable>
       )}

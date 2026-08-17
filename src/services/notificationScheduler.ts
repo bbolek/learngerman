@@ -2,6 +2,7 @@ import * as Notifications from 'expo-notifications';
 import { Platform } from 'react-native';
 
 import { pickNotificationWord } from '@/db/vocabRepo';
+import { tr } from '@/i18n';
 import { computeUpcomingFireTimes, type NotificationSchedule } from '@/logic/notificationTimes';
 
 Notifications.setNotificationHandler({
@@ -57,7 +58,7 @@ export async function rescheduleNotifications(
   if (Platform.OS === 'android') {
     await Notifications.deleteNotificationChannelAsync(LEGACY_CHANNEL_ID).catch(() => {});
     await Notifications.setNotificationChannelAsync(CHANNEL_ID, {
-      name: 'Vokabel-Erinnerungen',
+      name: tr('settings.notifications'),
       importance: Notifications.AndroidImportance.HIGH,
     });
   }

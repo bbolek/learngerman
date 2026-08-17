@@ -18,10 +18,8 @@ describe('TOUR_STEPS invariants', () => {
     expect(new Set(ids).size).toBe(ids.length);
   });
 
-  it('every step has copy and a target', () => {
+  it('every step has a target', () => {
     for (const s of TOUR_STEPS) {
-      expect(s.title.length).toBeGreaterThan(0);
-      expect(s.body.length).toBeGreaterThan(0);
       expect(s.targetId.length).toBeGreaterThan(0);
     }
   });
@@ -195,8 +193,6 @@ describe('skipAdvanceFor', () => {
         id: 'only',
         targetId: 'only',
         route: '/games',
-        title: 't',
-        body: 'b',
         advance: { kind: 'action', name: 'tts-played' },
       },
     ];

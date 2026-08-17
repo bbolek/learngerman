@@ -36,6 +36,7 @@ import {
   reduceAnswerFlow,
   type AnswerFlowEffect,
 } from '@/logic/answerFlow';
+import { useTr } from '@/i18n';
 import { articleFor } from '@/logic/formLabels';
 import {
   gradeCaseId,
@@ -101,6 +102,7 @@ interface QueueItem {
 export default function LessonScreen() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
@@ -325,19 +327,19 @@ export default function LessonScreen() {
     if (state.phase === 'correct') {
       setBanner({
         tone: 'correct',
-        title: state.nearMiss ? '✓ Richtig (fast!)' : '✓ Richtig!',
+        title: state.nearMiss ? tr('quiz.banner.nearMiss') : tr('quiz.banner.correct'),
         detail: opts.correctDetail,
       });
     } else if (state.phase === 'wrong') {
       setBanner({
         tone: 'wrong',
-        title: '✗ Nicht ganz',
-        detail: opts.retryHint ?? 'Versuch es nochmal!',
+        title: tr('quiz.banner.wrong'),
+        detail: opts.retryHint ?? tr('quiz.banner.retry'),
       });
     } else if (state.phase === 'revealed') {
       setBanner({
         tone: correct ? 'practice' : 'revealed',
-        title: correct ? '✓ Jetzt sitzt es!' : 'Antwort',
+        title: correct ? tr('quiz.banner.nowItSticks') : tr('quiz.banner.answer'),
         detail: opts.revealDetail ?? opts.correctDetail,
       });
     }
@@ -347,7 +349,9 @@ export default function LessonScreen() {
     const { state, effect } = reduceAnswerFlow(flow, { type: 'reveal' });
     setFlow(state);
     runEffect(effect, lastAnswerRef.current);
-    if (state.phase === 'revealed') setBanner({ tone: 'revealed', title: 'Antwort', detail });
+    if (state.phase === 'revealed') {
+      setBanner({ tone: 'revealed', title: tr('quiz.banner.answer'), detail });
+    }
   };
 
   const next = () => {
@@ -401,7 +405,7 @@ export default function LessonScreen() {
           celebrate({
             kind: 'record',
             emoji: unit.emoji,
-            title: 'Einheit geschafft!',
+            title: tr('lesson.unitDone.title'),
             subtitle: `${unit.title} · ${unit.level}`,
           });
         }
@@ -442,17 +446,17 @@ export default function LessonScreen() {
             </View>
             <AppText variant="title" style={{ marginTop: spacing.lg, textAlign: 'center' }}>
               {summary.stars === 3
-                ? 'Perfekt! 🎉'
+                ? tr('lesson.summary.perfect')
                 : summary.stars === 2
-                  ? 'Gut gemacht! 💪'
-                  : 'Geschafft!'}
+                  ? tr('lesson.summary.good')
+                  : tr('lesson.summary.done')}
             </AppText>
             <AppText variant="secondary" muted style={{ marginTop: 4, textAlign: 'center' }}>
               {content.title} · {content.unitTitle}
             </AppText>
             {graded.total > 0 && (
               <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-                {graded.correct} von {graded.total} richtig
+                {tr('lesson.summary.score', { correct: graded.correct, total: graded.total })}
               </AppText>
             )}
             <View style={[styles.xpChip, { backgroundColor: t.primaryDim }]}>
@@ -464,13 +468,13 @@ export default function LessonScreen() {
               onPress={() => router.back()}
               style={[styles.cta, { backgroundColor: t.primary, marginTop: spacing.xxl, paddingHorizontal: 40 }]}>
               <AppText variant="subtitle" color="#fff">
-                Weiter
+                {tr('common.continue')}
               </AppText>
             </Pressable>
           </>
         ) : (
           <AppText variant="secondary" muted>
-            Wird gespeichert…
+            {tr('lesson.saving')}
           </AppText>
         )}
       </View>
@@ -487,7 +491,13 @@ export default function LessonScreen() {
 
   const vocabCorrectDetail = word ? `${word.lemma} — ${word.gloss}` : '';
   const vocabRevealDetail = word
-    ? `Richtig wäre „${word.pos === 'noun' && articleFor(word.gender) ? `${articleFor(word.gender)} ${word.lemma}` : word.lemma}“ — ${word.gloss}.`
+    ? tr('lesson.reveal.vocab', {
+        answer:
+          word.pos === 'noun' && articleFor(word.gender)
+            ? `${articleFor(word.gender)} ${word.lemma}`
+            : word.lemma,
+        gloss: word.gloss,
+      })
     : '';
 
   const grammarRevealDetail = (): string => {
@@ -498,11 +508,11 @@ export default function LessonScreen() {
       case 'mc':
         return explanation;
       case 'fill':
-        return `Richtig wäre „${answer}“. ${explanation}`;
+        return tr('quiz.reveal.fill', { answer, explanation });
       case 'order':
-        return `Richtig wäre: „${answer}“. ${explanation}`;
+        return tr('quiz.reveal.order', { answer, explanation });
       case 'case_id':
-        return `Es ist ${answer}. ${explanation}`;
+        return tr('quiz.reveal.caseId', { answer, explanation });
     }
   };
 
@@ -548,7 +558,7 @@ export default function LessonScreen() {
         keyboardShouldPersistTaps="handled">
         <AppText variant="label" muted>
           {content.unitEmoji} {content.unitTitle}
-          {item!.retry ? ' · Wiederholung' : ''}
+          {item!.retry ? ` · ${tr('lesson.repeat')}` : ''}
         </AppText>
         <Animated.View style={shakeStyle}>
           {ex.kind === 'intro' && word && (
@@ -590,7 +600,7 @@ export default function LessonScreen() {
                 );
                 submit(res.correct, { text }, {
                   correctDetail: res.nearMiss
-                    ? `Fast perfekt — achte auf die Schreibweise: „${res.expected}“.`
+                    ? tr('lesson.nearMiss', { expected: res.expected })
                     : vocabCorrectDetail,
                   revealDetail: vocabRevealDetail,
                   nearMiss: res.nearMiss,
@@ -601,7 +611,7 @@ export default function LessonScreen() {
           {ex.kind === 'grammar' && question && payload && (
             <View>
               <AppText variant="caption" muted style={{ marginTop: spacing.md }}>
-                📐 Grammatik · {question.topic_title}
+                {tr('lesson.grammar', { topic: question.topic_title })}
               </AppText>
               {question.qtype === 'mc' && (
                 <McQuestion
@@ -625,7 +635,10 @@ export default function LessonScreen() {
                   onAnswer={(text) => {
                     const res = gradeFillBlank(payload as FillPayload, text);
                     const correctDetail = res.nearMiss
-                      ? `Fast perfekt — achte auf die Schreibweise: „${res.expected}“. ${(payload as FillPayload).explanation}`
+                      ? tr('quiz.reveal.nearMissDetail', {
+                          expected: res.expected,
+                          explanation: (payload as FillPayload).explanation,
+                        })
                       : (payload as FillPayload).explanation;
                     submit(res.correct, { text }, {
                       correctDetail,
@@ -659,7 +672,7 @@ export default function LessonScreen() {
                     const res = gradeCaseId(payload as CaseIdPayload, c, r);
                     const retryHint =
                       !res.correct && res.caseCorrect && !res.reasonCorrect
-                        ? 'Der Fall stimmt, aber die Begründung nicht. Versuch es nochmal!'
+                        ? tr('quiz.retry.caseOnly')
                         : undefined;
                     submit(res.correct, { caseChoice: c, reasonIndex: r }, {
                       correctDetail: (payload as CaseIdPayload).explanation,
@@ -703,12 +716,12 @@ export default function LessonScreen() {
                     { flex: 1, backgroundColor: t.surface, borderWidth: 1.5, borderColor: t.danger },
                   ]}>
                   <AppText variant="subtitle" color={t.onDangerDim}>
-                    Antwort zeigen
+                    {tr('quiz.showAnswer')}
                   </AppText>
                 </Pressable>
                 <Pressable onPress={next} style={[styles.cta, { flex: 1, backgroundColor: t.danger }]}>
                   <AppText variant="subtitle" color="#fff">
-                    Weiter →
+                    {tr('common.next')}
                   </AppText>
                 </Pressable>
               </View>
@@ -717,7 +730,7 @@ export default function LessonScreen() {
                 onPress={next}
                 style={[styles.cta, { backgroundColor: ctaBg, marginTop: spacing.md }]}>
                 <AppText variant="subtitle" color="#fff">
-                  Weiter →
+                  {tr('common.next')}
                 </AppText>
               </Pressable>
             )}

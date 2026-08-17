@@ -85,9 +85,10 @@ describe('bucketDueDates', () => {
 describe('forecastLabel', () => {
   it('names today, tomorrow, then short weekdays', () => {
     const today = dayKeyOf(NOW);
-    expect(forecastLabel('2026-08-05', today)).toBe('Heute');
-    expect(forecastLabel('2026-08-06', today)).toBe('Morgen');
-    expect(forecastLabel('2026-08-07', today)).toBe('Fr.');
-    expect(forecastLabel('2026-08-09', today)).toBe('So.');
+    expect(forecastLabel('2026-08-05', today)).toEqual({ kind: 'today' });
+    expect(forecastLabel('2026-08-06', today)).toEqual({ kind: 'tomorrow' });
+    // Monday-first index: Friday is 4, Sunday 6.
+    expect(forecastLabel('2026-08-07', today)).toEqual({ kind: 'weekday', index: 4 });
+    expect(forecastLabel('2026-08-09', today)).toEqual({ kind: 'weekday', index: 6 });
   });
 });

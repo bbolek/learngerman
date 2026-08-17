@@ -629,7 +629,7 @@ export default function DuelPlayScreen() {
                   color={verdict.correct ? t.onAccentDim : t.onDangerDim}
                   numberOfLines={2}
                   style={{ fontFamily: fonts.extrabold, textAlign: 'center' }}>
-                  {verdict.correct ? '✓ Richtig!' : `✗ ${verdict.text}`}
+                  {verdict.correct ? tr('feedback.correct') : `✗ ${verdict.text}`}
                 </AppText>
               </View>
             )}

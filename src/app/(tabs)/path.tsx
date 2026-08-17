@@ -5,6 +5,7 @@ import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getPlacement, listPath, setPlacement, type PathUnit } from '@/db/pathRepo';
+import { useTr } from '@/i18n';
 import { computeNodeStates, currentPosition } from '@/logic/path';
 import { resolveBoundaryOrder } from '@/logic/pathResume';
 import { TourTarget } from '@/tour/TourTarget';
@@ -20,6 +21,7 @@ import { useTheme } from '@/ui/useTheme';
 
 export default function PathScreen() {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const [units, setUnits] = useState<PathUnit[] | null>(null);
   const [boundaryOrder, setBoundaryOrder] = useState<number | null>(null);
@@ -94,14 +96,14 @@ export default function PathScreen() {
   return (
     <View style={[styles.fill, { backgroundColor: t.bg, paddingTop: insets.top + spacing.md }]}>
       <View style={styles.titleRow}>
-        <AppText variant="title">Lernpfad</AppText>
+        <AppText variant="title">{tr('path.title')}</AppText>
         <Pressable
           hitSlop={10}
           onPress={() => router.push('/placement')}
           style={[styles.placementBtn, { backgroundColor: t.surface, borderColor: t.line }]}>
           <Ionicons name="speedometer-outline" size={16} color={t.inkMuted} />
           <AppText variant="caption" muted>
-            Einstufung
+            {tr('path.placement')}
           </AppText>
         </Pressable>
       </View>
@@ -109,17 +111,17 @@ export default function PathScreen() {
       {showPlacementBanner && (
         <View style={[styles.banner, { backgroundColor: t.primaryDim }]}>
           <AppText variant="subtitle" color={t.onPrimaryDim}>
-            Schon Vorkenntnisse?
+            {tr('path.banner.title')}
           </AppText>
           <AppText variant="secondary" color={t.onPrimaryDim} style={{ marginTop: 2, opacity: 0.9 }}>
-            Mach den Einstufungstest und starte auf deinem Niveau — oder fang ganz vorne an.
+            {tr('path.banner.body')}
           </AppText>
           <View style={{ flexDirection: 'row', gap: spacing.md, marginTop: spacing.md }}>
             <Pressable
               onPress={() => router.push('/placement')}
               style={[styles.bannerBtn, { backgroundColor: t.primary }]}>
               <AppText variant="secondary" color="#fff" style={{ fontFamily: fonts.extrabold }}>
-                Einstufungstest
+                {tr('path.banner.test')}
               </AppText>
             </Pressable>
             <Pressable
@@ -129,7 +131,7 @@ export default function PathScreen() {
               }}
               style={[styles.bannerBtn, { backgroundColor: t.surface }]}>
               <AppText variant="secondary" style={{ fontFamily: fonts.extrabold }}>
-                Bei Null anfangen
+                {tr('path.banner.fromScratch')}
               </AppText>
             </Pressable>
           </View>

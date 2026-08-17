@@ -518,6 +518,17 @@ export const de = {
   'duel.abort.full': 'Dieses Duell ist schon voll.',
   'duel.abort.network': 'Die Verbindung wurde getrennt. Versuch es noch einmal.',
 
+  // ---------------------------------------------------------- colour names
+  'color.marigold': 'Marigold',
+  'color.rose': 'Rosé',
+  'color.flieder': 'Flieder',
+  'color.blaubeere': 'Blaubeere',
+  'color.himmel': 'Himmelblau',
+  'color.petrol': 'Petrol',
+  'color.minze': 'Minze',
+  'color.salbei': 'Salbei',
+  'color.pfirsich': 'Pfirsich',
+
   // ------------------------------------------------------------- settings
   'settings.title': 'Einstellungen',
   'settings.section.appearance': 'Aussehen',
@@ -707,6 +718,15 @@ export const de = {
   'scan.empty.title': 'Kein Text erkannt 🧐',
   'scan.empty.body': 'Geh näher ran und achte auf gutes Licht.',
   'scan.unknown': 'Nicht im Wörterbuch',
+
+  // --------------------------------------------------- exercise components
+  'vocab.promptToEnglish': 'Was heißt das auf Englisch?',
+  'vocab.promptToGerman': 'Wie heißt das auf Deutsch?',
+  'vocab.typeHint': 'Tipp: Nomen groß schreiben — der Artikel ist optional.',
+  'wordPopup.missing': '„{word}“ ist noch nicht im Wörterbuch.',
+  'wordType.all': 'Alle',
+  'wordType.noun': 'Nomen',
+  'wordType.verb': 'Verben',
 
   // ---------------------------------------------------------------- search
   'search.formOf': '{form} → {label} von „{lemma}“',

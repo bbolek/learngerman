@@ -61,7 +61,7 @@ describe('registry', () => {
       'satzbau',
       'diktat',
     ]);
-    expect(gameInfo('derdiedas').title).toBe('Der, die oder das?');
+    expect(gameInfo('derdiedas').emoji).toBe('🎯');
   });
 });
 
@@ -302,7 +302,7 @@ describe('buildKonjugationQuestions', () => {
   });
 
   it('konjugationContext picks the Perfekt auxiliary from the verb', () => {
-    expect(konjugationContext('präsens_du', 'haben')).toEqual({ lead: 'du', tense: 'Präsens' });
+    expect(konjugationContext('präsens_du', 'haben')).toEqual({ lead: 'du', tense: 'präsens' });
     expect(konjugationContext('partizip2', 'haben').lead).toBe('er hat');
     expect(konjugationContext('partizip2', 'sein').lead).toBe('er ist');
   });

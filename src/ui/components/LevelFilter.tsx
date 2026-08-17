@@ -1,5 +1,6 @@
 import { Pressable, StyleSheet, View } from 'react-native';
 
+import { useTr } from '@/i18n';
 import { CEFR_LEVELS, useThemeFilter, WORD_TYPES } from '@/store/themeFilter';
 import { AppText } from '@/ui/components/AppText';
 import { fonts, spacing } from '@/ui/theme';
@@ -38,10 +39,11 @@ export function LevelFilter() {
 /** Word-type toggles (Alle/Nomen/Verben) for the Themen screens — single choice. */
 export function WordTypeFilter() {
   const t = useTheme();
+  const tr = useTr();
   const { wordType, setWordType } = useThemeFilter();
   return (
     <View style={styles.row}>
-      {WORD_TYPES.map(({ key, label }) => {
+      {WORD_TYPES.map(({ key, labelKey }) => {
         const on = wordType === key;
         return (
           <Pressable
@@ -55,7 +57,7 @@ export function WordTypeFilter() {
               variant="caption"
               color={on ? t.onPrimaryDim : t.inkMuted}
               style={{ fontFamily: fonts.extrabold }}>
-              {label}
+              {tr(labelKey)}
             </AppText>
           </Pressable>
         );

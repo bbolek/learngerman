@@ -7,6 +7,7 @@ import { Alert, Linking, Pressable, StyleSheet, Switch, TextInput, View } from '
 import { resolveLocale, systemLocale, translate, useTr, type TranslationKey } from '@/i18n';
 import { LOCALES, LOCALE_META, type LanguagePreference } from '@/i18n/locales';
 import { applyRtlAndReload, needsRtlRestart } from '@/i18n/rtl';
+import { colorThemeLabel } from '@/i18n/labels';
 import { CEFR_LEVELS } from '@/logic/levels';
 import { backupAvailable, exportBackupFile, importBackupFile } from '@/services/backup';
 import { useSettings, type ThemePreference } from '@/store/settings';
@@ -97,7 +98,7 @@ export default function SettingsScreen() {
         </View>
         <AppText variant="caption" muted style={{ marginTop: spacing.lg }}>
           {tr('settings.color', {
-            name: colorThemes[settings.colorTheme]?.label ?? colorThemes.marigold.label,
+            name: colorThemeLabel(tr, settings.colorTheme),
           })}
         </AppText>
         <ColorPicker />
@@ -513,6 +514,7 @@ function Divider() {
 /** Swatch grid for the primary/accent color pair. */
 function ColorPicker() {
   const t = useTheme();
+  const tr = useTr();
   const themeName = useThemeName();
   const colorTheme = useSettings((s) => s.colorTheme);
   const setColorTheme = useSettings((s) => s.setColorTheme);
@@ -526,7 +528,7 @@ function ColorPicker() {
           <Pressable
             key={name}
             onPress={() => setColorTheme(name)}
-            accessibilityLabel={colorThemes[name].label}
+            accessibilityLabel={colorThemeLabel(tr, name)}
             hitSlop={4}
             style={[
               styles.swatch,

@@ -4,6 +4,7 @@ import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { savedThemeKeys, THEMES, type Theme } from '@/db/themesRepo';
+import { useTr } from '@/i18n';
 import { matchesWordType, useThemeFilter, type WordType } from '@/store/themeFilter';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -14,6 +15,7 @@ import { useTheme } from '@/ui/useTheme';
 
 export default function ThemesScreen() {
   const t = useTheme();
+  const tr = useTr();
   const [savedKeys, setSavedKeys] = useState<Set<string>>(new Set());
   const levels = useThemeFilter((s) => s.levels);
   const wordType = useThemeFilter((s) => s.wordType);
@@ -34,12 +36,12 @@ export default function ThemesScreen() {
       <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
         <AppText variant="secondary" muted>
-          Zurück
+          {tr('common.back')}
         </AppText>
       </Pressable>
-      <AppText variant="title">Themen</AppText>
+      <AppText variant="title">{tr('themes.title')}</AppText>
       <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-        Wortschatz nach Thema — lerne ganze Wortfelder auf einmal.
+        {tr('themes.subtitle')}
       </AppText>
 
       <LevelFilter />
@@ -72,6 +74,7 @@ function ThemeCard({
   wordType: WordType;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const words = theme.words.filter((w) => levels.has(w.level) && matchesWordType(w.pos, wordType));
   const total = words.length;
   const learned = words.reduce((n, w) => n + (savedKeys.has(`${w.lemma}|${w.pos}`) ? 1 : 0), 0);
@@ -87,7 +90,7 @@ function ThemeCard({
         {theme.title}
       </AppText>
       <AppText variant="caption" muted style={{ marginTop: 2 }}>
-        {learned} / {total} gelernt
+        {tr('themes.progress', { learned, total })}
       </AppText>
       <View style={[styles.track, { backgroundColor: t.line }]}>
         <View

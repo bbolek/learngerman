@@ -4,10 +4,11 @@ import { CEFR_LEVELS, levelsUpTo, type CefrLevel } from '@/logic/levels';
 
 export { CEFR_LEVELS, type CefrLevel };
 
+/** Labels live in the catalogs under `wordType.*`. */
 export const WORD_TYPES = [
-  { key: 'all', label: 'Alle' },
-  { key: 'noun', label: 'Nomen' },
-  { key: 'verb', label: 'Verben' },
+  { key: 'all', labelKey: 'wordType.all' },
+  { key: 'noun', labelKey: 'wordType.noun' },
+  { key: 'verb', labelKey: 'wordType.verb' },
 ] as const;
 export type WordType = (typeof WORD_TYPES)[number]['key'];
 

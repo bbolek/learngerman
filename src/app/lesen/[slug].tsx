@@ -5,6 +5,7 @@ import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getReadingText, markTextCompleted, type ReadingText } from '@/db/readingRepo';
+import { useTr } from '@/i18n';
 import { xpForReadingText } from '@/logic/xp';
 import { awardXp, settleRewards } from '@/services/rewards';
 import { celebrate } from '@/store/celebration';
@@ -19,6 +20,7 @@ import { useTheme } from '@/ui/useTheme';
 export default function ReadingTextScreen() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
 
   const [text, setText] = useState<ReadingText | null>(null);
@@ -54,8 +56,8 @@ export default function ReadingTextScreen() {
         celebrate({
           kind: 'quest',
           emoji: '📖',
-          title: 'Text gelesen!',
-          subtitle: `${text.title} · +${xp} XP`,
+          title: tr('reading.celebrate.title'),
+          subtitle: tr('reading.celebrate.subtitle', { title: text.title, xp }),
         });
         await settleRewards(now);
       }
@@ -79,7 +81,7 @@ export default function ReadingTextScreen() {
             </AppText>
           </View>
           <AppText variant="caption" muted>
-            ≈ {text.word_count} Wörter
+            {tr('reading.wordCount', { count: text.word_count })}
           </AppText>
         </View>
 
@@ -105,7 +107,7 @@ export default function ReadingTextScreen() {
             </AppText>
           )}
           <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
-            Tippe ein beliebiges Wort an, um es nachzuschlagen.
+            {tr('reading.tapHint')}
           </AppText>
 
           <View style={{ marginTop: spacing.lg, gap: spacing.xl }}>
@@ -156,7 +158,7 @@ export default function ReadingTextScreen() {
               { backgroundColor: completed ? t.accentDim : t.primary, marginTop: spacing.xxl },
             ]}>
             <AppText variant="subtitle" color={completed ? t.onAccentDim : '#fff'}>
-              {completed ? '✓ Gelesen' : 'Fertig gelesen!'}
+              {completed ? tr('reading.finished') : tr('reading.finish')}
             </AppText>
           </Pressable>
         </ScrollView>

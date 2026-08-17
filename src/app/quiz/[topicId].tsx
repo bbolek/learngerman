@@ -23,6 +23,7 @@ import {
   reduceAnswerFlow,
   type AnswerFlowEffect,
 } from '@/logic/answerFlow';
+import { useTr } from '@/i18n';
 import { correctAnswerText, type RoundMode } from '@/logic/quizRound';
 import {
   gradeCaseId,
@@ -61,6 +62,7 @@ export default function QuizScreen() {
   const { topicId } = useLocalSearchParams<{ topicId: string }>();
   const id = Number(topicId);
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
@@ -147,11 +149,11 @@ export default function QuizScreen() {
       case 'mc':
         return explanation; // the correct option is highlighted in place
       case 'fill':
-        return `Richtig wäre „${answer}“. ${explanation}`;
+        return tr('quiz.reveal.fill', { answer, explanation });
       case 'order':
-        return `Richtig wäre: „${answer}“. ${explanation}`;
+        return tr('quiz.reveal.order', { answer, explanation });
       case 'case_id':
-        return `Es ist ${answer}. ${explanation}`;
+        return tr('quiz.reveal.caseId', { answer, explanation });
     }
   };
 
@@ -186,20 +188,20 @@ export default function QuizScreen() {
     if (state.phase === 'correct') {
       setBanner({
         tone: 'correct',
-        title: state.nearMiss ? '✓ Richtig (fast!)' : '✓ Richtig!',
+        title: state.nearMiss ? tr('quiz.banner.nearMiss') : tr('quiz.banner.correct'),
         detail: opts.correctDetail,
       });
     } else if (state.phase === 'wrong') {
       setBanner({
         tone: 'wrong',
-        title: '✗ Nicht ganz',
-        detail: opts.retryHint ?? 'Versuch es nochmal!',
+        title: tr('quiz.banner.wrong'),
+        detail: opts.retryHint ?? tr('quiz.banner.retry'),
       });
     } else if (state.phase === 'revealed') {
       // Practice after the reveal: cosmetic feedback only, nothing counts.
       setBanner({
         tone: correct ? 'practice' : 'revealed',
-        title: correct ? '✓ Jetzt sitzt es!' : 'Antwort',
+        title: correct ? tr('quiz.banner.nowItSticks') : tr('quiz.banner.answer'),
         detail: revealDetail(question),
       });
     }
@@ -211,7 +213,7 @@ export default function QuizScreen() {
     setFlow(state);
     runEffect(effect, lastAnswerRef.current);
     if (state.phase === 'revealed') {
-      setBanner({ tone: 'revealed', title: 'Antwort', detail: revealDetail(question) });
+      setBanner({ tone: 'revealed', title: tr('quiz.banner.answer'), detail: revealDetail(question) });
     }
   };
 
@@ -254,25 +256,25 @@ export default function QuizScreen() {
           <AppText style={{ fontSize: 44 }}>🏆</AppText>
         </ProgressRing>
         <AppText variant="title" style={{ marginTop: spacing.xl, textAlign: 'center' }}>
-          Thema gemeistert!
+          {tr('quiz.mastered.title')}
         </AppText>
         <AppText variant="secondary" muted style={{ marginTop: 4, textAlign: 'center' }}>
-          Du hast alle {topic.question_count} Fragen richtig beantwortet · {topic.title}
+          {tr('quiz.mastered.body', { count: topic.question_count, topic: topic.title })}
         </AppText>
         <View style={{ gap: spacing.md, marginTop: spacing.xxl, alignSelf: 'stretch' }}>
           <Pressable onPress={() => setMode('all')} style={[styles.cta, { backgroundColor: t.primary }]}>
             <AppText variant="subtitle" color="#fff">
-              Alle Fragen üben
+              {tr('quiz.practiceAll')}
             </AppText>
           </Pressable>
           <Pressable onPress={openQuestionList} style={[styles.cta, { backgroundColor: t.primaryDim }]}>
             <AppText variant="subtitle" color={t.onPrimaryDim}>
-              Fragen ansehen
+              {tr('quiz.showQuestions')}
             </AppText>
           </Pressable>
           <Pressable onPress={() => router.back()} style={styles.cta}>
             <AppText variant="subtitle" muted>
-              Fertig
+              {tr('common.done')}
             </AppText>
           </Pressable>
         </View>
@@ -296,8 +298,7 @@ export default function QuizScreen() {
             <View style={[styles.vocabHint, { backgroundColor: t.primaryDim }]}>
               <Ionicons name="book-outline" size={15} color={t.onPrimaryDim} />
               <AppText variant="caption" color={t.onPrimaryDim} style={{ flex: 1 }}>
-                {topic.vocab_count} Wörter zum Entdecken — tippe auf unterstrichene Wörter für die
-                Bedeutung.
+                {tr('quiz.vocabHint', { count: topic.vocab_count })}
               </AppText>
             </View>
           )}
@@ -313,7 +314,7 @@ export default function QuizScreen() {
             }}
             style={[styles.cta, { backgroundColor: t.primary }]}>
             <AppText variant="subtitle" color="#fff">
-              {introExplainer ? "Los geht's! →" : 'Zurück zur Übung →'}
+              {introExplainer ? tr('quiz.start') : tr('quiz.backToPractice')}
             </AppText>
           </Pressable>
         </View>
@@ -338,44 +339,52 @@ export default function QuizScreen() {
           <AppText variant="title">{Math.round(topicShare * 100)}%</AppText>
         </ProgressRing>
         <AppText variant="title" style={{ marginTop: spacing.xl, textAlign: 'center' }}>
-          {share >= 0.8 ? 'Ausgezeichnet! 🎉' : share >= 0.5 ? 'Gut gemacht! 💪' : 'Übung macht den Meister!'}
+          {share >= 0.8
+            ? tr('quiz.summary.great')
+            : share >= 0.5
+              ? tr('quiz.summary.good')
+              : tr('quiz.summary.keepGoing')}
         </AppText>
         <AppText variant="secondary" muted style={{ marginTop: 4 }}>
-          {correctCount} von {questions.length} in dieser Runde richtig · {topic.title}
+          {tr('quiz.summary.score', {
+            correct: correctCount,
+            total: questions.length,
+            topic: topic.title,
+          })}
         </AppText>
         {fullyMastered && (
           <AppText variant="secondary" color={t.onAccentDim} style={{ marginTop: spacing.md, textAlign: 'center' }}>
-            Alle Fragen dieses Themas gemeistert! 🏆
+            {tr('quiz.summary.allMastered')}
           </AppText>
         )}
         {mastery != null && !fullyMastered && mastery.mastered > 0 && (
           <AppText variant="caption" muted style={{ marginTop: spacing.md }}>
-            {mastery.mastered} von {mastery.total} Fragen gemeistert
+            {tr('quiz.summary.mastery', { mastered: mastery.mastered, total: mastery.total })}
           </AppText>
         )}
         <View style={{ flexDirection: 'row', gap: spacing.md, marginTop: spacing.xxl }}>
           {fullyMastered && mode === 'default' ? (
             <Pressable onPress={() => setMode('all')} style={[styles.cta, { backgroundColor: t.primaryDim }]}>
               <AppText variant="subtitle" color={t.onPrimaryDim}>
-                Alle Fragen üben
+                {tr('quiz.practiceAll')}
               </AppText>
             </Pressable>
           ) : (
             <Pressable onPress={restartRound} style={[styles.cta, { backgroundColor: t.primaryDim }]}>
               <AppText variant="subtitle" color={t.onPrimaryDim}>
-                Nochmal
+                {tr('common.again')}
               </AppText>
             </Pressable>
           )}
           <Pressable onPress={() => router.back()} style={[styles.cta, { backgroundColor: t.primary }]}>
             <AppText variant="subtitle" color="#fff">
-              Fertig
+              {tr('common.done')}
             </AppText>
           </Pressable>
         </View>
         <Pressable onPress={openQuestionList} hitSlop={8} style={{ marginTop: spacing.xl }}>
           <AppText variant="secondary" color={t.primary}>
-            Fragen ansehen →
+            {tr('quiz.showQuestionsArrow')}
           </AppText>
         </Pressable>
       </View>
@@ -413,7 +422,7 @@ export default function QuizScreen() {
         contentContainerStyle={{ padding: spacing.lg, paddingBottom: 40 }}
         keyboardShouldPersistTaps="handled">
         <AppText variant="label" muted>
-          {topic.title} · Frage {index + 1}
+          {tr('quiz.questionLabel', { topic: topic.title, number: index + 1 })}
         </AppText>
         <Animated.View style={shakeStyle}>
           {question.qtype === 'mc' && (
@@ -435,7 +444,10 @@ export default function QuizScreen() {
               onAnswer={(text) => {
                 const res = gradeFillBlank(question.payload as FillPayload, text);
                 const correctDetail = res.nearMiss
-                  ? `Fast perfekt — achte auf die Schreibweise: „${res.expected}“. ${(question.payload as FillPayload).explanation}`
+                  ? tr('quiz.reveal.nearMissDetail', {
+                      expected: res.expected,
+                      explanation: (question.payload as FillPayload).explanation,
+                    })
                   : (question.payload as FillPayload).explanation;
                 submit(res.correct, { text }, { correctDetail, nearMiss: res.nearMiss });
               }}
@@ -462,7 +474,7 @@ export default function QuizScreen() {
                 const res = gradeCaseId(question.payload as CaseIdPayload, c, r);
                 const retryHint =
                   !res.correct && res.caseCorrect && !res.reasonCorrect
-                    ? 'Der Fall stimmt, aber die Begründung nicht. Versuch es nochmal!'
+                    ? tr('quiz.retry.caseOnly')
                     : undefined;
                 submit(
                   res.correct,
@@ -502,12 +514,12 @@ export default function QuizScreen() {
                     { flex: 1, backgroundColor: t.surface, borderWidth: 1.5, borderColor: t.danger },
                   ]}>
                   <AppText variant="subtitle" color={t.onDangerDim}>
-                    Antwort zeigen
+                    {tr('quiz.showAnswer')}
                   </AppText>
                 </Pressable>
                 <Pressable onPress={next} style={[styles.cta, { flex: 1, backgroundColor: t.danger }]}>
                   <AppText variant="subtitle" color="#fff">
-                    Weiter →
+                    {tr('common.next')}
                   </AppText>
                 </Pressable>
               </View>
@@ -516,7 +528,7 @@ export default function QuizScreen() {
                 onPress={next}
                 style={[styles.cta, { backgroundColor: ctaBg, marginTop: spacing.md }]}>
                 <AppText variant="subtitle" color="#fff">
-                  Weiter →
+                  {tr('common.next')}
                 </AppText>
               </Pressable>
             )}

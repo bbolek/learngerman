@@ -5,6 +5,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { getTheme, themeWords, type ThemeWordRow } from '@/db/themesRepo';
+import { useTr } from '@/i18n';
 import { matchesWordType, useThemeFilter } from '@/store/themeFilter';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -19,6 +20,7 @@ import { useTheme } from '@/ui/useTheme';
 export default function ThemeDetailScreen() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
   const t = useTheme();
+  const tr = useTr();
   const theme = getTheme(slug);
 
   const [rows, setRows] = useState<ThemeWordRow[] | null>(null);
@@ -42,11 +44,11 @@ export default function ThemeDetailScreen() {
         <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
           <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
           <AppText variant="secondary" muted>
-            Zurück
+            {tr('common.back')}
           </AppText>
         </Pressable>
         <AppText variant="subtitle" muted style={{ marginTop: spacing.xl }}>
-          Thema nicht gefunden.
+          {tr('themes.notFound')}
         </AppText>
       </Screen>
     );
@@ -62,7 +64,7 @@ export default function ThemeDetailScreen() {
       <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
         <AppText variant="secondary" muted>
-          Themen
+          {tr('themes.title')}
         </AppText>
       </Pressable>
 
@@ -73,7 +75,7 @@ export default function ThemeDetailScreen() {
             {theme.title}
           </AppText>
           <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-            {learned} / {total} gelernt
+            {tr('themes.progress', { learned, total })}
           </AppText>
         </View>
       </View>
@@ -84,14 +86,14 @@ export default function ThemeDetailScreen() {
       {visibleRows && total === 0 ? (
         <View style={[styles.cta, { backgroundColor: t.surface, borderWidth: 1, borderColor: t.line }]}>
           <AppText variant="secondary" muted>
-            Keine Wörter für diese Auswahl
+            {tr('themes.noWords')}
           </AppText>
         </View>
       ) : visibleRows && learned === total ? (
         <View style={[styles.cta, { backgroundColor: t.accentDim }]}>
           <Ionicons name="checkmark-circle" size={20} color={t.onAccentDim} />
           <AppText variant="subtitle" color={t.onAccentDim}>
-            Alle Wörter gespeichert 🎉
+            {tr('themes.allSaved')}
           </AppText>
         </View>
       ) : null}

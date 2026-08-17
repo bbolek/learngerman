@@ -4,6 +4,7 @@ import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { listReadingTexts, type ReadingTextRow } from '@/db/readingRepo';
+import { useTr, type TranslationKey } from '@/i18n';
 import { withinLevel } from '@/logic/levels';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
@@ -13,17 +14,18 @@ import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
-const LEVEL_SECTIONS: { level: string; label: string }[] = [
-  { level: 'A1', label: 'A1 · Erste Texte' },
-  { level: 'A2', label: 'A2 · Kleine Geschichten' },
-  { level: 'B1', label: 'B1 · Zum Eintauchen' },
-  { level: 'B2', label: 'B2 · Längere Erzählungen' },
-  { level: 'C1', label: 'C1 · Literarisch' },
-  { level: 'C2', label: 'C2 · Anspruchsvoll' },
+const LEVEL_SECTIONS: { level: string; labelKey: TranslationKey }[] = [
+  { level: 'A1', labelKey: 'reading.level.A1' },
+  { level: 'A2', labelKey: 'reading.level.A2' },
+  { level: 'B1', labelKey: 'reading.level.B1' },
+  { level: 'B2', labelKey: 'reading.level.B2' },
+  { level: 'C1', labelKey: 'reading.level.C1' },
+  { level: 'C2', labelKey: 'reading.level.C2' },
 ];
 
 export default function LesenScreen() {
   const t = useTheme();
+  const tr = useTr();
   const [allTexts, setAllTexts] = useState<ReadingTextRow[]>([]);
   const userLevel = useSettings((s) => s.userLevel);
 
@@ -45,23 +47,23 @@ export default function LesenScreen() {
       <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
         <AppText variant="secondary" muted>
-          Zurück
+          {tr('common.back')}
         </AppText>
       </Pressable>
-      <AppText variant="title">Leseecke</AppText>
+      <AppText variant="title">{tr('reading.title')}</AppText>
       <AppText variant="secondary" muted style={{ marginTop: 2 }}>
         {texts.length > 0
-          ? `${readCount} von ${texts.length} Texten gelesen — tippe Wörter an, um sie nachzuschlagen.`
-          : 'Kurze Texte auf Deutsch — mit Übersetzung und Vorlesen.'}
+          ? tr('reading.progress', { read: readCount, total: texts.length })
+          : tr('reading.subtitle')}
       </AppText>
 
-      {LEVEL_SECTIONS.map(({ level, label }) => {
+      {LEVEL_SECTIONS.map(({ level, labelKey }) => {
         const section = texts.filter((row) => row.level === level);
         if (section.length === 0) return null;
         return (
           <View key={level}>
             <AppText variant="label" muted style={styles.levelHeader}>
-              {label}
+              {tr(labelKey)}
             </AppText>
             <View style={{ gap: spacing.md }}>
               {section.map((row) => (
@@ -77,6 +79,7 @@ export default function LesenScreen() {
 
 function TextCard({ row }: { row: ReadingTextRow }) {
   const t = useTheme();
+  const tr = useTr();
   const done = row.completed_at != null;
   return (
     <Card style={styles.card} onPress={() => router.push(`/lesen/${row.slug}`)}>
@@ -95,13 +98,13 @@ function TextCard({ row }: { row: ReadingTextRow }) {
         <View style={styles.meta}>
           <View style={[styles.chip, { backgroundColor: t.primaryDim }]}>
             <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-              ≈ {row.word_count} Wörter
+              {tr('reading.wordCount', { count: row.word_count })}
             </AppText>
           </View>
           {done && (
             <View style={[styles.chip, { backgroundColor: t.accentDim }]}>
               <AppText variant="caption" color={t.onAccentDim} style={{ fontFamily: fonts.extrabold }}>
-                Gelesen
+                {tr('reading.read')}
               </AppText>
             </View>
           )}

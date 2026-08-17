@@ -38,6 +38,7 @@ import {
   type ScanHit,
   type ScanWord,
 } from '@/logic/scan';
+import { useTr } from '@/i18n';
 import { loadScanner } from '@/services/scanner';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -61,6 +62,7 @@ const MAX_ZOOM = 5;
 
 export default function ScanScreen() {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
 
   // Stable per mount: whether the installed binary has the scanner modules.
@@ -119,10 +121,10 @@ export default function ScanScreen() {
       <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
         <AppText variant="secondary" muted>
-          Zurück
+          {tr('common.back')}
         </AppText>
       </Pressable>
-      <AppText variant="section">Text scannen</AppText>
+      <AppText variant="section">{tr('scan.title')}</AppText>
     </View>
   );
 
@@ -134,10 +136,10 @@ export default function ScanScreen() {
         <View style={styles.center}>
           <AppText style={{ fontSize: 44 }}>📷</AppText>
           <AppText variant="subtitle" muted style={{ marginTop: spacing.md, textAlign: 'center' }}>
-            Der Scanner ist in dieser App-Version noch nicht verfügbar.
+            {tr('scan.unavailable')}
           </AppText>
           <AppText variant="secondary" muted style={{ marginTop: 4, textAlign: 'center' }}>
-            Installiere das nächste Update aus dem Store, um Text mit der Kamera zu scannen.
+            {tr('scan.unavailable.body')}
           </AppText>
         </View>
       </View>
@@ -151,13 +153,13 @@ export default function ScanScreen() {
         <View style={styles.center}>
           <AppText style={{ fontSize: 44 }}>🔒</AppText>
           <AppText variant="subtitle" muted style={{ marginTop: spacing.md, textAlign: 'center' }}>
-            Ohne Kamerazugriff kann Deutschly keinen Text scannen.
+            {tr('scan.noPermission')}
           </AppText>
           <Pressable
             onPress={() => Linking.openSettings()}
             style={[styles.settingsBtn, { backgroundColor: t.primaryDim }]}>
             <AppText variant="secondary" color={t.onPrimaryDim} style={{ fontFamily: fonts.bold }}>
-              Einstellungen öffnen
+              {tr('scan.openSettings')}
             </AppText>
           </Pressable>
         </View>
@@ -187,7 +189,7 @@ export default function ScanScreen() {
           <View style={styles.busyOverlay}>
             <ActivityIndicator size="large" color={t.primary} />
             <AppText variant="secondary" muted style={{ marginTop: spacing.sm }}>
-              Erkenne Text…
+              {tr('scan.recognizing')}
             </AppText>
           </View>
         )}
@@ -195,11 +197,11 @@ export default function ScanScreen() {
       <View style={[styles.controls, { paddingBottom: insets.bottom + spacing.lg }]}>
         {failed ? (
           <AppText variant="secondary" color={t.danger} style={{ textAlign: 'center' }}>
-            Das hat nicht geklappt — versuch es noch einmal.
+            {tr('scan.failed')}
           </AppText>
         ) : (
           <AppText variant="secondary" muted style={{ textAlign: 'center' }}>
-            Richte die Kamera auf deutschen Text — Schilder, Speisekarten, Bücher.
+            {tr('scan.aim')}
           </AppText>
         )}
         <Pressable
@@ -232,6 +234,7 @@ function ResultView({
   onClosePopup: () => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const win = useWindowDimensions();
 
@@ -391,9 +394,9 @@ function ResultView({
           <>
             <View style={styles.resultHead}>
               <View style={{ flex: 1 }}>
-                <AppText variant="subtitle">Erkannte Wörter</AppText>
+                <AppText variant="subtitle">{tr('scan.results')}</AppText>
                 <AppText variant="caption" muted>
-                  Tippe ein Wort — zoome das Foto mit zwei Fingern.
+                  {tr('scan.results.hint')}
                 </AppText>
               </View>
               <Pressable
@@ -402,24 +405,23 @@ function ResultView({
                 style={[styles.rescan, { backgroundColor: t.primaryDim }]}>
                 <Ionicons name="camera" size={15} color={t.onPrimaryDim} />
                 <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                  Neu scannen
+                  {tr('scan.rescan')}
                 </AppText>
               </Pressable>
             </View>
             <View style={[styles.disclaimer, { backgroundColor: t.surface, borderColor: t.line }]}>
               <Ionicons name="information-circle-outline" size={16} color={t.inkMuted} />
               <AppText variant="caption" muted style={{ flex: 1 }}>
-                Deutschly übersetzt keine ganzen Texte: Die App arbeitet komplett offline und
-                bleibt kostenlos. Dafür kannst du jedes Wort einzeln nachschlagen und speichern.
+                {tr('scan.disclaimer')}
               </AppText>
             </View>
             {result.unique.length === 0 && (
               <View style={styles.empty}>
                 <AppText variant="subtitle" muted>
-                  Kein Text erkannt 🧐
+                  {tr('scan.empty.title')}
                 </AppText>
                 <AppText variant="secondary" muted style={{ textAlign: 'center', marginTop: 4 }}>
-                  Geh näher ran und achte auf gutes Licht.
+                  {tr('scan.empty.body')}
                 </AppText>
               </View>
             )}
@@ -448,7 +450,7 @@ function ResultView({
           unmatched.length > 0 ? (
             <>
               <AppText variant="label" muted style={styles.unknownHead}>
-                Nicht im Wörterbuch
+                {tr('scan.unknown')}
               </AppText>
               <View style={styles.unknownWrap}>
                 {unmatched.map((w) => (

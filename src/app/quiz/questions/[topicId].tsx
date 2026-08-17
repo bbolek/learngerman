@@ -11,6 +11,7 @@ import {
   type TopicRow,
 } from '@/db/grammarRepo';
 import { splitHighlight, type CaseIdPayload, type FillPayload, type McPayload, type OrderPayload } from '@/logic/graders';
+import { formatDate, useTr, type TranslationKey } from '@/i18n';
 import {
   correctAnswerText,
   formatAnswer,
@@ -24,30 +25,30 @@ import { useTheme } from '@/ui/useTheme';
 
 type Filter = 'all' | QuestionStatus;
 
-const FILTERS: { key: Filter; label: string }[] = [
-  { key: 'all', label: 'Alle' },
-  { key: 'correct', label: 'Richtig' },
-  { key: 'wrong', label: 'Falsch' },
-  { key: 'unanswered', label: 'Offen' },
+const FILTERS: { key: Filter; labelKey: TranslationKey }[] = [
+  { key: 'all', labelKey: 'questions.filter.all' },
+  { key: 'correct', labelKey: 'questions.filter.correct' },
+  { key: 'wrong', labelKey: 'questions.filter.wrong' },
+  { key: 'unanswered', labelKey: 'questions.filter.unanswered' },
 ];
 
-const QTYPE_LABEL: Record<QuestionStatusRow['qtype'], string> = {
-  mc: 'Auswahl',
-  fill: 'Lücke',
-  order: 'Satzbau',
-  case_id: 'Fall',
+const QTYPE_KEYS: Record<QuestionStatusRow['qtype'], TranslationKey> = {
+  mc: 'questions.qtype.mc',
+  fill: 'questions.qtype.fill',
+  order: 'questions.qtype.order',
+  case_id: 'questions.qtype.case_id',
 };
 
-/** "2026-07-12T09:30:00.000Z" → "12.07.2026" */
+/** Attempt date in the reader's locale ("12.07.2026", "07/12/2026", …). */
 function formatDay(iso: string): string {
-  const [y, m, d] = iso.slice(0, 10).split('-');
-  return `${d}.${m}.${y}`;
+  return formatDate(new Date(iso), { year: 'numeric', month: '2-digit', day: '2-digit' });
 }
 
 export default function QuestionListScreen() {
   const { topicId } = useLocalSearchParams<{ topicId: string }>();
   const id = Number(topicId);
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
 
   const [topic, setTopic] = useState<TopicRow | null>(null);
@@ -89,7 +90,7 @@ export default function QuestionListScreen() {
           <View style={{ flex: 1 }}>
             <AppText variant="subtitle">{topic.title}</AppText>
             <AppText variant="caption" muted>
-              {counts.correct} von {counts.all} Fragen gemeistert
+              {tr('questions.mastered', { correct: counts.correct, total: counts.all })}
             </AppText>
           </View>
         </View>
@@ -99,7 +100,7 @@ export default function QuestionListScreen() {
           showsHorizontalScrollIndicator={false}
           style={{ flexGrow: 0 }}
           contentContainerStyle={styles.filterRow}>
-          {FILTERS.map(({ key, label }) => {
+          {FILTERS.map(({ key, labelKey }) => {
             const sel = filter === key;
             const tint =
               key === 'correct'
@@ -118,7 +119,7 @@ export default function QuestionListScreen() {
                     : { backgroundColor: t.surface, borderColor: t.line },
                 ]}>
                 <AppText variant="caption" color={sel ? tint.fg : t.inkMuted}>
-                  {label} · {counts[key]}
+                  {tr(labelKey)} · {counts[key]}
                 </AppText>
               </Pressable>
             );
@@ -131,12 +132,12 @@ export default function QuestionListScreen() {
           {visible.length === 0 && (
             <AppText variant="secondary" muted style={{ textAlign: 'center', marginTop: spacing.xl }}>
               {filter === 'unanswered'
-                ? 'Keine offenen Fragen — alles schon geübt!'
+                ? tr('questions.empty.unanswered')
                 : filter === 'wrong'
-                  ? 'Keine falsch beantworteten Fragen. Weiter so!'
+                  ? tr('questions.empty.wrong')
                   : filter === 'correct'
-                    ? 'Noch keine Frage richtig beantwortet — starte eine Übungsrunde!'
-                    : 'Keine Fragen vorhanden.'}
+                    ? tr('questions.empty.correct')
+                    : tr('questions.empty.all')}
             </AppText>
           )}
           {visible.map((row) => (
@@ -170,6 +171,7 @@ function QuestionCard({
   onToggle: () => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const summary = questionSummary(row.qtype, row.payload);
   return (
     <Pressable
@@ -182,8 +184,13 @@ function QuestionCard({
             {summary}
           </AppText>
           <AppText variant="caption" muted style={{ marginTop: 2 }}>
-            {QTYPE_LABEL[row.qtype]} · Stufe {row.difficulty}
-            {row.attempts > 0 ? ` · ${row.attempts}× geübt` : ''}
+            {tr('questions.meta', {
+              qtype: tr(QTYPE_KEYS[row.qtype]),
+              difficulty: row.difficulty,
+            })}
+            {row.attempts > 0
+              ? ` · ${tr('questions.meta.attempts', { count: row.attempts })}`
+              : ''}
           </AppText>
         </View>
         <Ionicons name={expanded ? 'chevron-up' : 'chevron-down'} size={16} color={t.inkFaint} />
@@ -195,6 +202,7 @@ function QuestionCard({
 
 function QuestionDetail({ row }: { row: QuestionStatusRow }) {
   const t = useTheme();
+  const tr = useTr();
   const { qtype, payload } = row;
   const yourAnswer = formatAnswer(qtype, payload, row.lastAnswer);
   const explanation = (payload as { explanation: string }).explanation;
@@ -204,7 +212,7 @@ function QuestionDetail({ row }: { row: QuestionStatusRow }) {
       <QuestionPrompt row={row} />
 
       <AppText variant="caption" muted style={{ marginTop: spacing.md }}>
-        Richtige Antwort
+        {tr('questions.correctAnswer')}
       </AppText>
       <AppText variant="secondary" color={t.onAccentDim} style={{ marginTop: 2 }}>
         {correctAnswerText(qtype, payload)}
@@ -213,7 +221,9 @@ function QuestionDetail({ row }: { row: QuestionStatusRow }) {
       {yourAnswer != null && (
         <>
           <AppText variant="caption" muted style={{ marginTop: spacing.md }}>
-            Deine Antwort{row.lastAttemptedAt ? ` (${formatDay(row.lastAttemptedAt)})` : ''}
+            {row.lastAttemptedAt
+              ? tr('questions.yourAnswerOn', { date: formatDay(row.lastAttemptedAt) })
+              : tr('questions.yourAnswer')}
           </AppText>
           <AppText
             variant="secondary"
@@ -227,7 +237,7 @@ function QuestionDetail({ row }: { row: QuestionStatusRow }) {
       {explanation ? (
         <>
           <AppText variant="caption" muted style={{ marginTop: spacing.md }}>
-            Erklärung
+            {tr('questions.explanation')}
           </AppText>
           <AppText variant="secondary" style={{ marginTop: 2 }}>
             <VocabText text={explanation} color={t.ink} />
@@ -241,6 +251,7 @@ function QuestionDetail({ row }: { row: QuestionStatusRow }) {
 /** Full question text; mc lists its options, case_id highlights the phrase. */
 function QuestionPrompt({ row }: { row: QuestionStatusRow }) {
   const t = useTheme();
+  const tr = useTr();
   const { qtype, payload } = row;
   if (qtype === 'mc') {
     const p = payload as McPayload;
@@ -270,7 +281,9 @@ function QuestionPrompt({ row }: { row: QuestionStatusRow }) {
     const p = payload as OrderPayload;
     return (
       <View>
-        <AppText variant="secondary">Bilde den Satz: {p.tokens.join(' / ')}</AppText>
+        <AppText variant="secondary">
+          {tr('questions.buildSentence', { tokens: p.tokens.join(' / ') })}
+        </AppText>
         {p.translation ? (
           <AppText variant="caption" muted style={{ marginTop: 2 }}>
             “{p.translation}”

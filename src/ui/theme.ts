@@ -104,17 +104,16 @@ const colorTokensOf = (p: Palette): ColorTokens => ({
   onAccentDim: p.onAccentDim,
 });
 
-export const colorThemes: Record<
-  ColorThemeName,
-  { label: string; light: ColorTokens; dark: ColorTokens }
-> = {
+/**
+ * Swatch names are UI copy and live in the catalogs under `color.<name>`;
+ * this module keeps only the palettes.
+ */
+export const colorThemes: Record<ColorThemeName, { light: ColorTokens; dark: ColorTokens }> = {
   marigold: {
-    label: 'Marigold',
     light: colorTokensOf(light),
     dark: colorTokensOf(palettes.dark),
   },
   rose: {
-    label: 'Rosé',
     light: {
       primary: '#D96C8A',
       primaryDim: '#FAE3EA',
@@ -133,7 +132,6 @@ export const colorThemes: Record<
     },
   },
   flieder: {
-    label: 'Flieder',
     light: {
       primary: '#9678C9',
       primaryDim: '#ECE5F7',
@@ -152,7 +150,6 @@ export const colorThemes: Record<
     },
   },
   blaubeere: {
-    label: 'Blaubeere',
     light: {
       primary: '#6D83C9',
       primaryDim: '#E5E9F7',
@@ -171,7 +168,6 @@ export const colorThemes: Record<
     },
   },
   himmel: {
-    label: 'Himmelblau',
     light: {
       primary: '#5495CE',
       primaryDim: '#DEEBF8',
@@ -190,7 +186,6 @@ export const colorThemes: Record<
     },
   },
   petrol: {
-    label: 'Petrol',
     light: {
       primary: '#2F9BA4',
       primaryDim: '#D7EEF0',
@@ -209,7 +204,6 @@ export const colorThemes: Record<
     },
   },
   minze: {
-    label: 'Minze',
     light: {
       primary: '#43A47E',
       primaryDim: '#DCF0E8',
@@ -228,7 +222,6 @@ export const colorThemes: Record<
     },
   },
   salbei: {
-    label: 'Salbei',
     light: {
       primary: '#85984D',
       primaryDim: '#EBEFDA',
@@ -247,7 +240,6 @@ export const colorThemes: Record<
     },
   },
   pfirsich: {
-    label: 'Pfirsich',
     light: {
       primary: '#E08268',
       primaryDim: '#FAE6DF',

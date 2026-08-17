@@ -12,24 +12,25 @@ import { articleFor } from '@/logic/formLabels';
 import { lookupGerman } from '@/logic/lookup';
 import { normalize } from '@/logic/normalize';
 import { useSettings } from '@/store/settings';
+import { useTr, type TranslationKey } from '@/i18n';
 import { AppText } from '@/ui/components/AppText';
 import { Chip, GenderChip } from '@/ui/components/Chip';
 import { ListenButton } from '@/ui/components/ListenButton';
 import { radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
-const POS_LABEL: Record<string, string> = {
-  verb: 'Verb',
-  noun: 'Nomen',
-  adj: 'Adjektiv',
-  adv: 'Adverb',
-  prep: 'Präposition',
-  pron: 'Pronomen',
-  det: 'Artikelwort',
-  conj: 'Konjunktion',
-  num: 'Zahlwort',
-  name: 'Eigenname',
-  other: 'Wort',
+const POS_KEYS: Record<string, TranslationKey> = {
+  verb: 'word.pos.verb',
+  noun: 'word.pos.noun',
+  adj: 'word.pos.adj',
+  adv: 'word.pos.adv',
+  prep: 'word.pos.prep',
+  pron: 'word.pos.pron',
+  det: 'word.pos.det',
+  conj: 'word.pos.conj',
+  num: 'word.pos.num',
+  name: 'word.pos.name',
+  other: 'word.pos.other',
 };
 
 interface WordPopupProps {
@@ -44,6 +45,7 @@ interface WordPopupProps {
  */
 export function WordPopup({ word, onClose }: WordPopupProps) {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const pathname = usePathname();
   const haptics = useSettings((s) => s.hapticsEnabled);
@@ -132,7 +134,7 @@ export function WordPopup({ word, onClose }: WordPopupProps) {
 
         {missing && (
           <AppText variant="secondary" muted style={{ textAlign: 'center', marginVertical: spacing.lg }}>
-            „{word}“ ist noch nicht im Wörterbuch.
+            {tr('wordPopup.missing', { word: word ?? '' })}
           </AppText>
         )}
 
@@ -188,7 +190,11 @@ export function WordPopup({ word, onClose }: WordPopupProps) {
             <View style={styles.chipRow}>
               <Chip label={lemma.level} kind="level" small />
               <GenderChip gender={lemma.gender} small />
-              <Chip label={POS_LABEL[lemma.pos] ?? lemma.pos} kind="neutral" small />
+              <Chip
+                label={POS_KEYS[lemma.pos] ? tr(POS_KEYS[lemma.pos]) : lemma.pos}
+                kind="neutral"
+                small
+              />
             </View>
 
             <View style={{ marginTop: spacing.md, gap: spacing.md }}>

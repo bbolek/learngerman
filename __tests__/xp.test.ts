@@ -2,7 +2,7 @@ import {
   isStreakMilestone,
   levelForXp,
   levelProgress,
-  levelTitle,
+  levelRankId,
   xpForGameScore,
   xpForLevel,
   xpForQuizAnswer,
@@ -51,10 +51,10 @@ describe('level curve', () => {
     expect(p.ratio).toBeCloseTo(10 / 75);
   });
 
-  it('level titles exist for every level', () => {
-    for (let l = 1; l <= 40; l++) expect(levelTitle(l).length).toBeGreaterThan(0);
-    expect(levelTitle(1)).toBe('Neuling');
-    expect(levelTitle(30)).toBe('Deutschmeister:in');
+  it('level ranks exist for every level', () => {
+    for (let l = 1; l <= 40; l++) expect(levelRankId(l).length).toBeGreaterThan(0);
+    expect(levelRankId(1)).toBe('novice');
+    expect(levelRankId(30)).toBe('master');
   });
 });
 

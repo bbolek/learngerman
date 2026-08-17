@@ -10,6 +10,12 @@ import type { GameKey } from '@/logic/games';
 import type { ForecastLabel } from '@/logic/heatmap';
 import type { IntervalPreview } from '@/logic/sm2';
 import { levelRankId } from '@/logic/xp';
+import type { ColorThemeName } from '@/ui/theme';
+
+/** Display name of a colour swatch ("Marigold", "Rosé", …). */
+export function colorThemeLabel(tr: TranslateFn, name: ColorThemeName): string {
+  return tr(`color.${name}`);
+}
 
 /** Playful rank name for an XP level ("Neuling", "Deutschmeister:in", …). */
 export function levelTitle(tr: TranslateFn, level: number): string {

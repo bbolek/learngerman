@@ -23,7 +23,7 @@ describe('questsForDay', () => {
       for (const q of quests) {
         expect(q.target).toBeGreaterThan(0);
         expect(q.xp).toBeGreaterThan(0);
-        expect(q.title.length).toBeGreaterThan(0);
+        expect(q.emoji.length).toBeGreaterThan(0);
       }
     }
   });
@@ -43,7 +43,7 @@ describe('questsForDay', () => {
 describe('questProgress', () => {
   const quest = questsForDay('2026-07-14').find((q) => q.metric === 'reviews') ??
     // metric mix varies by day — fall back to a fixed def for the math check
-    { key: 'reviews-10', metric: 'reviews' as const, target: 10, title: 'x', emoji: 'x', xp: 20 };
+    { key: 'reviews-10', metric: 'reviews' as const, target: 10, emoji: 'x', xp: 20 };
 
   it('caps current at the target and flags completion', () => {
     expect(questProgress(quest, NO_PROGRESS).done).toBe(false);

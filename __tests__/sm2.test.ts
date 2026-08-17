@@ -74,9 +74,9 @@ describe('schedule', () => {
 
 describe('previewInterval', () => {
   it('labels each rating', () => {
-    expect(previewInterval(fresh, 0, NOW)).toBe('10 Min');
-    expect(previewInterval(fresh, 2, NOW)).toBe('1 Tag');
-    expect(previewInterval(fresh, 3, NOW)).toBe('3 Tage');
+    expect(previewInterval(fresh, 0, NOW)).toEqual({ unit: 'minutes', count: 10 });
+    expect(previewInterval(fresh, 2, NOW)).toEqual({ unit: 'days', count: 1 });
+    expect(previewInterval(fresh, 3, NOW)).toEqual({ unit: 'days', count: 3 });
   });
 });
 

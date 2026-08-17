@@ -6,6 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { listSavedWords, unsaveWord, type SavedWordRow } from '@/db/vocabRepo';
+import { useTr } from '@/i18n';
 import { phaseOf } from '@/logic/sm2';
 import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
@@ -18,6 +19,7 @@ import { useTheme } from '@/ui/useTheme';
 
 export default function WordsScreen() {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const [words, setWords] = useState<SavedWordRow[] | null>(null);
   const [images, setImages] = useState<Map<number, string>>(new Map());
@@ -44,13 +46,13 @@ export default function WordsScreen() {
           <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
             <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
             <AppText variant="secondary" muted>
-              Zurück
+              {tr('common.back')}
             </AppText>
           </Pressable>
         </TourTarget>
-        <AppText variant="section">Meine Wörter</AppText>
+        <AppText variant="section">{tr('words.title')}</AppText>
         <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-          {words ? `${words.length} gespeichert` : ' '}
+          {words ? tr('words.savedCount', { count: words.length }) : ' '}
         </AppText>
       </View>
       <FlatList
@@ -73,10 +75,10 @@ export default function WordsScreen() {
             <View style={styles.empty}>
               <AppText style={{ fontSize: 44 }}>📖</AppText>
               <AppText variant="subtitle" muted style={{ marginTop: spacing.md }}>
-                Noch keine Wörter
+                {tr('words.empty.title')}
               </AppText>
               <AppText variant="secondary" muted style={{ textAlign: 'center', marginTop: 4 }}>
-                Suche ein Wort im Wörterbuch und tippe auf das Herz, um es zu speichern.
+                {tr('words.empty.body')}
               </AppText>
             </View>
           ) : null
@@ -98,6 +100,7 @@ function WordRow({
   onRemove: (id: number) => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const state =
     word.reps == null
       ? null
@@ -106,13 +109,19 @@ function WordRow({
   const spokenArticle =
     word.gender === 'm' ? 'der ' : word.gender === 'f' ? 'die ' : word.gender === 'n' ? 'das ' : '';
 
-  let srsChip: { label: string; kind: 'new' | 'learning' | 'due' } = { label: 'Neu', kind: 'new' };
+  let srsChip: { label: string; kind: 'new' | 'learning' | 'due' } = {
+    label: tr('words.state.new'),
+    kind: 'new',
+  };
   if (state && word.due_at) {
     const due = new Date(word.due_at);
-    if (state.reps > 0 && due.getTime() <= now) srsChip = { label: 'Fällig', kind: 'due' };
-    else if (phaseOf({ ...state, intervalDays: 22 }) === 'review' && state.reps >= 6)
-      srsChip = { label: 'Reif', kind: 'learning' };
-    else if (state.reps > 0) srsChip = { label: 'Lernen', kind: 'learning' };
+    if (state.reps > 0 && due.getTime() <= now) {
+      srsChip = { label: tr('words.state.due'), kind: 'due' };
+    } else if (phaseOf({ ...state, intervalDays: 22 }) === 'review' && state.reps >= 6) {
+      srsChip = { label: tr('words.state.mature'), kind: 'learning' };
+    } else if (state.reps > 0) {
+      srsChip = { label: tr('words.state.learning'), kind: 'learning' };
+    }
   }
 
   return (

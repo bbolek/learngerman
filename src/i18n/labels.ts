@@ -6,8 +6,9 @@
 
 import type { TranslateFn } from '@/i18n';
 import { isExampleTag, isFormTag } from '@/logic/formLabels';
-import type { ForecastLabel } from '@/logic/heatmap';
 import type { GameKey } from '@/logic/games';
+import type { ForecastLabel } from '@/logic/heatmap';
+import type { IntervalPreview } from '@/logic/sm2';
 import { levelRankId } from '@/logic/xp';
 
 /** Playful rank name for an XP level ("Neuling", "Deutschmeister:in", …). */
@@ -42,6 +43,11 @@ export function questTitle(tr: TranslateFn, key: string): string {
 /** Named German form tag ("Partizip II"), or null for tags with no label. */
 export function formLabel(tr: TranslateFn, tag: string | undefined | null): string | null {
   return isFormTag(tag) ? tr(`form.${tag}`) : null;
+}
+
+/** "10 Min" / "3 Tage" / "5 Mon." for the review rating buttons. */
+export function intervalLabel(tr: TranslateFn, preview: IntervalPreview): string {
+  return tr(`interval.${preview.unit}`, { count: preview.count });
 }
 
 const WEEKDAY_SHORT_KEYS = [

@@ -9,6 +9,8 @@ import { buildClozes } from '@/db/clozeRepo';
 import { getLemmaImages } from '@/db/dictionaryRepo';
 import { applyRating, buildQueue, type ReviewCard } from '@/db/srsRepo';
 import { CLOZE_BLANK, type Cloze } from '@/logic/cloze';
+import { useTr } from '@/i18n';
+import { intervalLabel } from '@/i18n/labels';
 import { articleFor } from '@/logic/formLabels';
 import { gradeFillBlank, type FillResult } from '@/logic/graders';
 import { previewInterval, type Rating } from '@/logic/sm2';
@@ -50,6 +52,7 @@ interface SessionStats {
 
 export default function ReviewScreen() {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const { sessionCap, dailyNewLimit, hapticsEnabled, typedRecall } = useSettings();
 
@@ -148,16 +151,16 @@ export default function ReviewScreen() {
     return (
       <View style={[styles.fill, styles.center, { backgroundColor: t.bg, padding: spacing.xl }]}>
         <AppText variant="title" style={{ textAlign: 'center' }}>
-          Alles gelernt! 🎉
+          {tr('review.empty.title')}
         </AppText>
         <AppText variant="secondary" muted style={{ textAlign: 'center', marginTop: spacing.sm }}>
-          Keine Karten fällig. Speichere neue Wörter im Wörterbuch, um mehr zu üben.
+          {tr('review.empty.body')}
         </AppText>
         <Pressable
           onPress={() => router.back()}
           style={[styles.cta, { backgroundColor: t.primary, marginTop: spacing.xl }]}>
           <AppText variant="subtitle" color="#fff">
-            Zurück
+            {tr('common.back')}
           </AppText>
         </Pressable>
       </View>
@@ -220,7 +223,7 @@ export default function ReviewScreen() {
                 {card.lemma}
               </AppText>
               <AppText variant="secondary" muted style={{ marginTop: spacing.lg }}>
-                Was heißt das auf Englisch?
+                {tr('review.prompt')}
               </AppText>
             </>
           }
@@ -249,7 +252,7 @@ export default function ReviewScreen() {
               </AppText>
               {card.plural && (
                 <AppText variant="secondary" muted style={{ marginTop: 4 }}>
-                  Plural: {card.plural}
+                  {tr('review.plural', { plural: card.plural })}
                 </AppText>
               )}
               {card.example_de && (
@@ -274,15 +277,15 @@ export default function ReviewScreen() {
 
       {revealed ? (
         <View style={[styles.rating, { paddingBottom: insets.bottom + spacing.md }]}>
-          <RateButton bg={t.dangerDim} fg={t.onDangerDim} label="Nochmal" sub={previewInterval(cardState, 0, now)} onPress={() => rate(0)} />
-          <RateButton bg={t.primaryDim} fg={t.onPrimaryDim} label="Schwer" sub={previewInterval(cardState, 1, now)} onPress={() => rate(1)} />
-          <RateButton bg={t.accentDim} fg={t.onAccentDim} label="Gut" sub={previewInterval(cardState, 2, now)} onPress={() => rate(2)} />
-          <RateButton bg={t.successDim} fg={t.onSuccessDim} label="Einfach" sub={previewInterval(cardState, 3, now)} onPress={() => rate(3)} />
+          <RateButton bg={t.dangerDim} fg={t.onDangerDim} label={tr('review.rate.again')} sub={intervalLabel(tr, previewInterval(cardState, 0, now))} onPress={() => rate(0)} />
+          <RateButton bg={t.primaryDim} fg={t.onPrimaryDim} label={tr('review.rate.hard')} sub={intervalLabel(tr, previewInterval(cardState, 1, now))} onPress={() => rate(1)} />
+          <RateButton bg={t.accentDim} fg={t.onAccentDim} label={tr('review.rate.good')} sub={intervalLabel(tr, previewInterval(cardState, 2, now))} onPress={() => rate(2)} />
+          <RateButton bg={t.successDim} fg={t.onSuccessDim} label={tr('review.rate.easy')} sub={intervalLabel(tr, previewInterval(cardState, 3, now))} onPress={() => rate(3)} />
         </View>
       ) : challenge ? null : (
         <View style={[styles.tapHint, { borderColor: t.line, marginBottom: insets.bottom + spacing.md }]}>
           <AppText variant="secondary" muted>
-            Tippen zum Umdrehen
+            {tr('review.tapToFlip')}
           </AppText>
         </View>
       )}
@@ -319,6 +322,7 @@ function TypeCard({
   onCheck: (result: FillResult) => void;
 }) {
   const t = useTheme();
+  const tr = useTr();
   const [text, setText] = useState('');
   const locked = answered != null;
 
@@ -343,10 +347,10 @@ function TypeCard({
       <CardChips card={card} />
       <AppText variant="label" muted style={{ marginTop: spacing.xxl }}>
         {challenge.kind === 'cloze'
-          ? 'Lückentext · welches Wort fehlt?'
+          ? tr('review.challenge.cloze')
           : challenge.kind === 'listen'
-            ? 'Hör zu und tippe, was du hörst'
-            : 'Übersetze ins Deutsche'}
+            ? tr('review.challenge.listen')
+            : tr('review.challenge.word')}
       </AppText>
 
       {challenge.kind === 'cloze' ? (
@@ -376,7 +380,7 @@ function TypeCard({
             <Ionicons name="volume-high" size={40} color={t.onPrimaryDim} />
           </Pressable>
           <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
-            Tippen zum Wiederholen
+            {tr('review.tapToRepeat')}
           </AppText>
         </View>
       ) : (
@@ -396,9 +400,9 @@ function TypeCard({
           <AppText variant="subtitle" color={answerColor} style={{ fontFamily: fonts.extrabold }}>
             {answered!.correct
               ? answered!.nearMiss
-                ? '✓ Fast — achte auf die Umlaute'
-                : '✓ Richtig!'
-              : `✗ Richtig wäre „${challenge.answer}“`}
+                ? tr('review.result.nearMiss')
+                : tr('review.result.correct')
+              : tr('review.result.wrong', { answer: challenge.answer })}
           </AppText>
           <View style={[styles.rule, { backgroundColor: t.primary }]} />
           {image && <VocabImage svg={image} gender={card.gender} size={56} style={{ marginBottom: spacing.sm }} />}
@@ -416,7 +420,7 @@ function TypeCard({
             onChangeText={setText}
             autoCapitalize="none"
             autoCorrect={false}
-            placeholder="Fehlendes Wort…"
+            placeholder={tr('review.inputPlaceholder')}
             placeholderTextColor={t.inkFaint}
             onSubmitEditing={check}
             style={[styles.clozeInput, { backgroundColor: t.bg, borderColor: t.primary, color: t.ink }]}
@@ -436,7 +440,7 @@ function TypeCard({
             onPress={check}
             style={[styles.clozeCta, { backgroundColor: text.trim() ? t.primary : t.line }]}>
             <AppText variant="subtitle" color={text.trim() ? '#fff' : t.inkFaint}>
-              Prüfen
+              {tr('common.check')}
             </AppText>
           </Pressable>
         </>
@@ -478,6 +482,7 @@ function RateButton({
 
 function Summary({ stats, xpEarned }: { stats: SessionStats; xpEarned: number }) {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const total = stats.again + stats.hard + stats.good + stats.easy;
   const goodShare = total === 0 ? 0 : (stats.good + stats.easy) / total;
@@ -498,10 +503,10 @@ function Summary({ stats, xpEarned }: { stats: SessionStats; xpEarned: number })
         <AppText variant="title">{Math.round(goodShare * 100)}%</AppText>
       </ProgressRing>
       <AppText variant="title" style={{ marginTop: spacing.xl }}>
-        {goodShare >= 0.8 ? 'Super gemacht! 🎉' : 'Geschafft! 💪'}
+        {goodShare >= 0.8 ? tr('review.summary.great') : tr('review.summary.ok')}
       </AppText>
       <AppText variant="secondary" muted style={{ marginTop: 4 }}>
-        {total} Karten wiederholt
+        {tr('review.summary.count', { count: total })}
       </AppText>
       {xpEarned > 0 && (
         <View style={[styles.xpChip, { backgroundColor: t.primaryDim }]}>
@@ -511,16 +516,16 @@ function Summary({ stats, xpEarned }: { stats: SessionStats; xpEarned: number })
         </View>
       )}
       <View style={styles.statRow}>
-        <Stat label="Nochmal" value={stats.again} color={t.onDangerDim} />
-        <Stat label="Schwer" value={stats.hard} color={t.onPrimaryDim} />
-        <Stat label="Gut" value={stats.good} color={t.onAccentDim} />
-        <Stat label="Einfach" value={stats.easy} color={t.onSuccessDim} />
+        <Stat label={tr('review.rate.again')} value={stats.again} color={t.onDangerDim} />
+        <Stat label={tr('review.rate.hard')} value={stats.hard} color={t.onPrimaryDim} />
+        <Stat label={tr('review.rate.good')} value={stats.good} color={t.onAccentDim} />
+        <Stat label={tr('review.rate.easy')} value={stats.easy} color={t.onSuccessDim} />
       </View>
       <Pressable
         onPress={() => router.back()}
         style={[styles.cta, { backgroundColor: t.primary, marginTop: spacing.xxl }]}>
         <AppText variant="subtitle" color="#fff">
-          Fertig
+          {tr('common.done')}
         </AppText>
       </Pressable>
     </View>

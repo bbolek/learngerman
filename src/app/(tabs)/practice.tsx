@@ -6,6 +6,7 @@ import { StyleSheet, View } from 'react-native';
 import { listTopics, type TopicRow } from '@/db/grammarRepo';
 import { grammarDueSlugs } from '@/db/grammarSrsRepo';
 import { dueCounts } from '@/db/srsRepo';
+import { useTr, type TranslationKey } from '@/i18n';
 import { withinLevel } from '@/logic/levels';
 import { useSettings } from '@/store/settings';
 import { TourTarget } from '@/tour/TourTarget';
@@ -18,13 +19,13 @@ import { SearchBar } from '@/ui/components/SearchBar';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
-const LEVEL_SECTIONS: { level: TopicRow['level']; label: string }[] = [
-  { level: 'A1', label: 'A1 · Grundlagen' },
-  { level: 'A2', label: 'A2 · Aufbau' },
-  { level: 'B1', label: 'B1 · Fortgeschritten' },
-  { level: 'B2', label: 'B2 · Sicher' },
-  { level: 'C1', label: 'C1 · Souverän' },
-  { level: 'C2', label: 'C2 · Meisterhaft' },
+const LEVEL_SECTIONS: { level: TopicRow['level']; labelKey: TranslationKey }[] = [
+  { level: 'A1', labelKey: 'practice.level.A1' },
+  { level: 'A2', labelKey: 'practice.level.A2' },
+  { level: 'B1', labelKey: 'practice.level.B1' },
+  { level: 'B2', labelKey: 'practice.level.B2' },
+  { level: 'C1', labelKey: 'practice.level.C1' },
+  { level: 'C2', labelKey: 'practice.level.C2' },
 ];
 
 /** Lowercase + fold umlauts so "prasens" finds "Präsens". */
@@ -40,6 +41,7 @@ function searchFold(s: string): string {
 
 export default function PracticeScreen() {
   const t = useTheme();
+  const tr = useTr();
   const [topics, setTopics] = useState<TopicRow[]>([]);
   const [due, setDue] = useState({ due: 0, fresh: 0 });
   const [dueSlugs, setDueSlugs] = useState<Set<string>>(new Set());
@@ -69,18 +71,18 @@ export default function PracticeScreen() {
 
   return (
     <Screen>
-      <AppText variant="section">Üben</AppText>
+      <AppText variant="section">{tr('practice.title')}</AppText>
 
       <TourTarget id="practice-cards">
         <Card style={[styles.flashcards, { backgroundColor: t.primary }]} onPress={() => router.push('/review')}>
           <View style={{ flex: 1 }}>
             <AppText variant="subtitle" color="#fff">
-              Karteikarten 🃏
+              {tr('practice.flashcards')}
             </AppText>
             <AppText variant="secondary" color="#FFFFFFDD" style={{ marginTop: 2 }}>
               {pending > 0
-                ? `${pending} Karten warten auf dich`
-                : 'Keine Karten fällig — super!'}
+                ? tr('practice.flashcards.pending', { count: pending })
+                : tr('practice.flashcards.none')}
             </AppText>
           </View>
           <Ionicons name="arrow-forward-circle" size={34} color="#fff" />
@@ -92,9 +94,9 @@ export default function PracticeScreen() {
           <AppText style={{ fontSize: 20 }}>🗂️</AppText>
         </View>
         <View style={{ flex: 1 }}>
-          <AppText variant="subtitle">Themen</AppText>
+          <AppText variant="subtitle">{tr('practice.themes')}</AppText>
           <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-            Wortschatz nach Thema lernen
+            {tr('practice.themes.caption')}
           </AppText>
         </View>
         <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
@@ -105,20 +107,26 @@ export default function PracticeScreen() {
           <AppText style={{ fontSize: 20 }}>📖</AppText>
         </View>
         <View style={{ flex: 1 }}>
-          <AppText variant="subtitle">Leseecke</AppText>
+          <AppText variant="subtitle">{tr('practice.reading')}</AppText>
           <AppText variant="secondary" muted style={{ marginTop: 2 }}>
-            Kurze Geschichten auf Deutsch lesen
+            {tr('practice.reading.caption')}
           </AppText>
         </View>
         <Ionicons name="chevron-forward" size={18} color={t.inkFaint} />
       </Card>
 
       <AppText variant="label" muted style={{ marginTop: spacing.xl, marginBottom: spacing.sm }}>
-        {dueSlugs.size > 0 ? `Grammatik · ${dueSlugs.size} fällig` : 'Grammatik'}
+        {dueSlugs.size > 0
+          ? tr('practice.grammar.due', { count: dueSlugs.size })
+          : tr('practice.grammar')}
       </AppText>
-      <SearchBar value={query} onChangeText={setQuery} placeholder="Thema suchen…" />
+      <SearchBar
+        value={query}
+        onChangeText={setQuery}
+        placeholder={tr('practice.searchPlaceholder')}
+      />
 
-      {LEVEL_SECTIONS.map(({ level, label }) => {
+      {LEVEL_SECTIONS.map(({ level, labelKey }) => {
         // Browsing stays at the user's Sprachniveau; an explicit search
         // still finds topics of every level.
         if (query.trim().length === 0 && !withinLevel(level, userLevel)) return null;
@@ -127,7 +135,7 @@ export default function PracticeScreen() {
         return (
           <View key={level}>
             <AppText variant="label" muted style={styles.levelHeader}>
-              {label}
+              {tr(labelKey)}
             </AppText>
             <View style={styles.grid}>
               {sectionTopics.map((topic) => (
@@ -141,10 +149,10 @@ export default function PracticeScreen() {
       {query.trim().length > 0 && filtered.length === 0 && (
         <View style={styles.empty}>
           <AppText variant="subtitle" muted style={{ textAlign: 'center' }}>
-            Keine Themen gefunden
+            {tr('practice.empty.title')}
           </AppText>
           <AppText variant="secondary" muted style={{ textAlign: 'center', marginTop: 4 }}>
-            Versuch es z. B. mit „Dativ“ oder „Perfekt“.
+            {tr('practice.empty.body')}
           </AppText>
         </View>
       )}
@@ -154,6 +162,7 @@ export default function PracticeScreen() {
 
 function TopicCard({ topic, due }: { topic: TopicRow; due: boolean }) {
   const t = useTheme();
+  const tr = useTr();
   // Coverage of the topic (questions ever mastered), not accuracy — a few
   // perfect answers on a 48-question topic shouldn't read as "100% done".
   const progress = topic.question_count > 0 ? topic.mastered_count / topic.question_count : 0;
@@ -173,9 +182,9 @@ function TopicCard({ topic, due }: { topic: TopicRow; due: boolean }) {
           </AppText>
         </ProgressRing>
         {due ? (
-          <Chip label="Fällig" kind="due" small />
+          <Chip label={tr('practice.chip.due')} kind="due" small />
         ) : mastered ? (
-          <Chip label="🏆 Gemeistert" kind="new" small />
+          <Chip label={tr('practice.chip.mastered')} kind="new" small />
         ) : (
           <View style={[styles.levelBadge, { backgroundColor: t.primaryDim }]}>
             <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
@@ -188,9 +197,13 @@ function TopicCard({ topic, due }: { topic: TopicRow; due: boolean }) {
         {topic.title}
       </AppText>
       <AppText variant="caption" muted style={{ marginTop: 2 }}>
-        {topic.question_count} Fragen
-        {topic.vocab_count > 0 ? ` · ${topic.vocab_count} Wörter` : ''}
-        {topic.attempts > 0 ? ` · ${topic.attempts} geübt` : ''}
+        {tr('practice.topic.questions', { count: topic.question_count })}
+        {topic.vocab_count > 0
+          ? ` · ${tr('practice.topic.words', { count: topic.vocab_count })}`
+          : ''}
+        {topic.attempts > 0
+          ? ` · ${tr('practice.topic.attempts', { count: topic.attempts })}`
+          : ''}
       </AppText>
     </Card>
   );

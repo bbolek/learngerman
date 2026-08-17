@@ -39,6 +39,8 @@ import {
   type SatzbauQuestion,
 } from '@/logic/games';
 import { XP_DUEL_PLAYED, XP_DUEL_WIN } from '@/logic/xp';
+import { useTr, type TranslationKey } from '@/i18n';
+import { gameTitle } from '@/i18n/labels';
 import { awardXp, settleRewards } from '@/services/rewards';
 import { playSound } from '@/services/sound';
 import { SPEECH_RATE_SLOW, speakGerman } from '@/services/speech';
@@ -54,13 +56,14 @@ import { useTheme } from '@/ui/useTheme';
 
 const MEDALS = ['🥇', '🥈', '🥉'];
 
-const PROMPTS: Record<string, string> = {
-  wortblitz: 'Was bedeutet das?',
-  derdiedas: 'Der, die oder das?',
-  bilderraetsel: 'Was ist das?',
-  konjugation: 'Wähle die richtige Form!',
-  diktat: 'Schreib, was du hörst!',
-};
+/** Round prompt per game; the copy lives at `duel.prompt.<game>`. */
+const PROMPT_KEYS = {
+  wortblitz: 'duel.prompt.wortblitz',
+  derdiedas: 'duel.prompt.derdiedas',
+  bilderraetsel: 'duel.prompt.bilderraetsel',
+  konjugation: 'duel.prompt.konjugation',
+  diktat: 'duel.prompt.diktat',
+} as const satisfies Record<string, TranslationKey>;
 
 const UMLAUTS = ['ä', 'ö', 'ü', 'ß'] as const;
 
@@ -112,6 +115,7 @@ function StandingRow({
 export default function DuelPlayScreen() {
   useKeepAwake();
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
@@ -359,14 +363,14 @@ export default function DuelPlayScreen() {
         <View style={[styles.fill, styles.center, { padding: spacing.xl }]}>
           <AppText style={{ fontSize: 44 }}>📡</AppText>
           <AppText variant="title" style={{ marginTop: spacing.lg, textAlign: 'center' }}>
-            Duell beendet
+            {tr('duel.ended')}
           </AppText>
           <AppText variant="secondary" muted style={styles.message}>
-            Die Verbindung wurde getrennt.
+            {tr('duel.connectionLost')}
           </AppText>
           <Pressable onPress={quit} style={[styles.cta, { backgroundColor: t.primary }]}>
             <AppText variant="subtitle" color="#fff">
-              Zurück
+              {tr('common.back')}
             </AppText>
           </Pressable>
         </View>
@@ -380,12 +384,12 @@ export default function DuelPlayScreen() {
     const { rank, of } = duelRank(results);
     const headline =
       duel.outcome === 'forfeitWin'
-        ? { emoji: '🏆', title: 'Alle anderen sind raus — du gewinnst!' }
+        ? { emoji: '🏆', title: tr('duel.result.forfeitWin') }
         : duel.outcome === 'win'
-          ? { emoji: '🏆', title: 'Gewonnen!' }
+          ? { emoji: '🏆', title: tr('duel.result.win') }
           : duel.outcome === 'tie'
-            ? { emoji: '🤝', title: 'Unentschieden an der Spitze!' }
-            : { emoji: rank <= 3 ? '🎉' : '😅', title: `Platz ${rank} von ${of}` };
+            ? { emoji: '🤝', title: tr('duel.result.tie') }
+            : { emoji: rank <= 3 ? '🎉' : '😅', title: tr('duel.result.place', { rank, of }) };
     const isHost = duel.role === 'host';
     const hostConnected = isHost || duel.peers.some((p) => p.id === HOST_ID && p.connected);
 
@@ -398,9 +402,14 @@ export default function DuelPlayScreen() {
             {headline.title}
           </AppText>
           <AppText variant="caption" muted style={{ marginTop: spacing.xs }}>
-            {gameInfo(duel.game).title} · Beste Serie: {duel.me.bestStreak}
+            {tr('duel.result.meta', {
+              game: gameTitle(tr, duel.game),
+              bestStreak: duel.me.bestStreak,
+            })}
             {duel.me.correct > 0
-              ? ` · ${(duel.durationMs / 1000 / duel.me.correct).toFixed(1)}s pro Aufgabe`
+              ? tr('duel.result.perTask', {
+                  seconds: (duel.durationMs / 1000 / duel.me.correct).toFixed(1),
+                })
               : ''}
           </AppText>
         </View>
@@ -423,8 +432,8 @@ export default function DuelPlayScreen() {
           {!isHost && (
             <AppText variant="caption" muted style={{ textAlign: 'center', marginTop: spacing.md }}>
               {hostConnected
-                ? 'Der Host kann eine neue Runde starten — bleib einfach hier.'
-                : 'Der Host hat das Duell verlassen.'}
+                ? tr('duel.hostMayRestart')
+                : tr('duel.hostLeft')}
             </AppText>
           )}
         </ScrollView>
@@ -443,13 +452,13 @@ export default function DuelPlayScreen() {
               <AppText
                 variant="subtitle"
                 color={activeOthers.length ? t.onPrimaryDim : t.inkFaint}>
-                Neue Runde
+                {tr('duel.newRound')}
               </AppText>
             </Pressable>
           )}
           <Pressable onPress={quit} style={[styles.cta, styles.grow, { backgroundColor: t.primary, marginTop: 0 }]}>
             <AppText variant="subtitle" color="#fff">
-              Fertig
+              {tr('common.done')}
             </AppText>
           </Pressable>
         </View>
@@ -469,17 +478,17 @@ export default function DuelPlayScreen() {
                 {countLeft}
               </AppText>
               <AppText variant="secondary" muted>
-                {gameInfo(duel.game).title} —{' '}
+                {tr('duel.countdown', { game: gameTitle(tr, duel.game) })}{' '}
                 {activeOthers.length === 1
-                  ? `gegen ${activeOthers[0].name}!`
-                  : `gegen ${activeOthers.length} Mitspieler!`}
+                  ? tr('duel.versusOne', { name: activeOthers[0].name })
+                  : tr('duel.versusMany', { count: activeOthers.length })}
               </AppText>
             </>
           ) : (
             <>
               <ActivityIndicator color={t.primary} />
               <AppText variant="secondary" muted style={styles.message}>
-                Neue Runde wird vorbereitet …
+                {tr('duel.preparing')}
               </AppText>
             </>
           )}
@@ -529,11 +538,11 @@ export default function DuelPlayScreen() {
       {/* Live room strip — updated by relayed progress messages. */}
       <View style={[styles.oppStrip, { backgroundColor: t.surface, borderColor: t.line }]}>
         <AppText variant="caption" color={t.ink} style={{ fontFamily: fonts.extrabold }}>
-          🏅 Platz {rank}/{of}
+          {tr('duel.standing', { rank, of })}
         </AppText>
         {rival && (
           <AppText variant="caption" muted numberOfLines={1} style={{ flex: 1, textAlign: 'right' }}>
-            {rank === 1 ? 'Verfolger' : 'Vorne'}: {rival.name} · {rival.score}
+            {rank === 1 ? tr('duel.chaser') : tr('duel.leader')}: {rival.name} · {rival.score}
           </AppText>
         )}
       </View>
@@ -565,7 +574,7 @@ export default function DuelPlayScreen() {
           {duel.me.streak >= 2 && (
             <View style={[styles.streakChip, { backgroundColor: t.primaryDim, alignSelf: 'center' }]}>
               <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                🔥 Serie ×{duel.me.streak}
+                {tr('gameHud.streak', { count: duel.me.streak })}
               </AppText>
             </View>
           )}
@@ -573,7 +582,7 @@ export default function DuelPlayScreen() {
             “{satzbauQ.en}”
           </AppText>
           <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
-            Tippe die Wörter in der richtigen Reihenfolge:
+            {tr('duel.satzbauPrompt')}
           </AppText>
           <View style={[styles.slot, { backgroundColor: t.surface, borderColor: t.inkFaint }]}>
             {placed.map((tileIdx, pos) => (
@@ -639,7 +648,7 @@ export default function DuelPlayScreen() {
               <AppText
                 variant="subtitle"
                 color={placed.length === satzbauQ.tiles.length ? '#fff' : t.inkFaint}>
-                Prüfen
+                {tr('common.check')}
               </AppText>
             </Pressable>
           )}
@@ -651,7 +660,7 @@ export default function DuelPlayScreen() {
               {duel.me.streak >= 2 && (
                 <View style={[styles.streakChip, { backgroundColor: t.primaryDim }]}>
                   <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                    🔥 Serie ×{duel.me.streak}
+                    {tr('gameHud.streak', { count: duel.me.streak })}
                   </AppText>
                 </View>
               )}
@@ -661,7 +670,7 @@ export default function DuelPlayScreen() {
                 <Ionicons name="volume-high" size={38} color={speaking ? '#fff' : t.onPrimaryDim} />
               </Pressable>
               <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
-                {PROMPTS.diktat} Zum Wiederholen antippen.
+                {tr('duel.diktatReplayHint')}
               </AppText>
             </View>
 
@@ -703,7 +712,7 @@ export default function DuelPlayScreen() {
                   value={typed}
                   onChangeText={setTyped}
                   editable={verdict == null}
-                  placeholder="Schreib, was du hörst …"
+                  placeholder={tr('game.diktat.placeholder')}
                   placeholderTextColor={t.inkFaint}
                   autoCapitalize="none"
                   autoCorrect={false}
@@ -751,7 +760,7 @@ export default function DuelPlayScreen() {
             {duel.me.streak >= 2 && (
               <View style={[styles.streakChip, { backgroundColor: t.primaryDim }]}>
                 <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                  🔥 Serie ×{duel.me.streak}
+                  {tr('gameHud.streak', { count: duel.me.streak })}
                 </AppText>
               </View>
             )}
@@ -780,7 +789,7 @@ export default function DuelPlayScreen() {
               </View>
             )}
             <AppText variant="secondary" muted style={{ marginTop: spacing.sm }}>
-              {PROMPTS[duel.game] ?? PROMPTS.wortblitz}
+              {tr(PROMPT_KEYS[duel.game as keyof typeof PROMPT_KEYS] ?? PROMPT_KEYS.wortblitz)}
             </AppText>
           </View>
 

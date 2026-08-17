@@ -18,7 +18,9 @@ import {
   type SynonymRow,
 } from '@/db/dictionaryRepo';
 import { isSaved, saveWord, unsaveWord } from '@/db/vocabRepo';
-import { articleFor, exampleTagLabel } from '@/logic/formLabels';
+import { useTr, type TranslationKey } from '@/i18n';
+import { exampleTagLabel } from '@/i18n/labels';
+import { articleFor } from '@/logic/formLabels';
 import { useSettings } from '@/store/settings';
 import { tourEmit } from '@/tour/tourStore';
 import { useTourTarget } from '@/tour/useTourTarget';
@@ -39,24 +41,25 @@ import { VocabImage } from '@/ui/components/VocabImage';
 import { fonts, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
-const POS_LABEL: Record<string, string> = {
-  verb: 'Verb',
-  noun: 'Nomen',
-  adj: 'Adjektiv',
-  adv: 'Adverb',
-  prep: 'Präposition',
-  pron: 'Pronomen',
-  det: 'Artikelwort',
-  conj: 'Konjunktion',
-  num: 'Zahlwort',
-  name: 'Eigenname',
-  other: 'Wort',
+const POS_KEYS: Record<string, TranslationKey> = {
+  verb: 'word.pos.verb',
+  noun: 'word.pos.noun',
+  adj: 'word.pos.adj',
+  adv: 'word.pos.adv',
+  prep: 'word.pos.prep',
+  pron: 'word.pos.pron',
+  det: 'word.pos.det',
+  conj: 'word.pos.conj',
+  num: 'word.pos.num',
+  name: 'word.pos.name',
+  other: 'word.pos.other',
 };
 
 export default function WordDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const lemmaId = Number(id);
   const t = useTheme();
+  const tr = useTr();
   const haptics = useSettings((s) => s.hapticsEnabled);
 
   const [lemma, setLemma] = useState<LemmaDetail | null>(null);
@@ -133,12 +136,16 @@ export default function WordDetailScreen() {
         style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
         <AppText variant="secondary" muted>
-          Zurück
+          {tr('common.back')}
         </AppText>
       </Pressable>
 
       <View style={styles.search}>
-        <SearchBar value={query} onChangeText={setQuery} placeholder="Deutsch oder English…" />
+        <SearchBar
+          value={query}
+          onChangeText={setQuery}
+          placeholder={tr('dict.searchPlaceholder')}
+        />
       </View>
 
       {searching ? (
@@ -164,7 +171,7 @@ export default function WordDetailScreen() {
           )}
           {searched && searchRows.length === 0 && (
             <AppText variant="subtitle" muted style={styles.noResults}>
-              Nichts gefunden 🕵️
+              {tr('dict.empty.title')}
             </AppText>
           )}
         </View>
@@ -214,7 +221,7 @@ export default function WordDetailScreen() {
       <View style={styles.chipRow}>
         <Chip label={lemma.level} kind="level" />
         <GenderChip gender={lemma.gender} />
-        <Chip label={POS_LABEL[lemma.pos] ?? lemma.pos} kind="neutral" />
+        <Chip label={POS_KEYS[lemma.pos] ? tr(POS_KEYS[lemma.pos]) : lemma.pos} kind="neutral" />
         {lemma.pos === 'verb' && lemma.verb_aux === 'sein' && <Chip label="+ sein" kind="case" />}
       </View>
 
@@ -245,7 +252,7 @@ export default function WordDetailScreen() {
 
       {synonyms.length > 0 && (
         <Card style={styles.formsCard}>
-          <AppText variant="subtitle">Synonyme</AppText>
+          <AppText variant="subtitle">{tr('word.synonyms')}</AppText>
           <View style={{ marginTop: spacing.xs }}>
             {synonyms.map((syn, i) => (
               <Pressable
@@ -285,12 +292,12 @@ export default function WordDetailScreen() {
 
       {examples.length > 0 && (
         <Card style={styles.formsCard}>
-          <AppText variant="subtitle">Beispiele</AppText>
+          <AppText variant="subtitle">{tr('word.examples')}</AppText>
           <View style={{ marginTop: spacing.sm, gap: spacing.md }}>
             {examples.map((ex, i) => (
               <View key={i} style={[styles.example, i > 0 && { borderTopWidth: 1, borderTopColor: t.line }]}>
                 <View style={styles.exampleTag}>
-                  <Chip label={exampleTagLabel(ex.tag)} kind="case" small />
+                  <Chip label={exampleTagLabel(tr, ex.tag)} kind="case" small />
                   <ListenButton text={ex.de} size={18} style={{ marginLeft: 'auto' }} />
                 </View>
                 <ExampleText
@@ -311,7 +318,7 @@ export default function WordDetailScreen() {
         <Card style={styles.formsCard}>
           <Pressable onPress={() => setShowForms((v) => !v)} style={styles.formsHead}>
             <AppText variant="subtitle">
-              {lemma.pos === 'verb' ? 'Konjugation' : 'Formen'}
+              {lemma.pos === 'verb' ? tr('word.conjugation') : tr('word.forms')}
             </AppText>
             <Ionicons name={showForms ? 'chevron-up' : 'chevron-down'} size={19} color={t.inkMuted} />
           </Pressable>
@@ -327,6 +334,7 @@ export default function WordDetailScreen() {
 
 /** Principal parts (verbs) or plural (nouns) under the headword. */
 function Subline({ lemma }: { lemma: LemmaDetail }) {
+  const tr = useTr();
   if (lemma.pos === 'verb') {
     const parts = [lemma.verb_praeteritum, perfectOf(lemma)].filter(Boolean).join(' · ');
     if (!parts) return null;
@@ -339,7 +347,7 @@ function Subline({ lemma }: { lemma: LemmaDetail }) {
   if (lemma.pos === 'noun') {
     return (
       <AppText variant="secondary" muted style={{ marginTop: 4 }}>
-        {lemma.plural ? `Plural: ${lemma.plural}` : 'kein Plural'}
+        {lemma.plural ? tr('word.plural', { plural: lemma.plural }) : tr('word.noPlural')}
       </AppText>
     );
   }
@@ -352,37 +360,41 @@ function perfectOf(lemma: LemmaDetail): string | null {
   return `${aux} ${lemma.verb_partizip2}`;
 }
 
-const VERB_ROWS: [string, string][] = [
-  ['präsens_ich', 'ich'],
-  ['präsens_du', 'du'],
-  ['präsens_er', 'er/sie/es'],
-  ['präsens_wir', 'wir / sie / Sie'],
-  ['präsens_ihr', 'ihr'],
-  ['präteritum_ich', 'Präteritum (ich/er)'],
-  ['partizip2', 'Perfekt'],
-  ['konjunktiv2', 'Konjunktiv II'],
-  ['imperativ_du', 'Imperativ (du)'],
+/**
+ * Table rows as [form tag, label key]. The pronoun rows keep the German
+ * pronoun as their label — that is the content, not UI chrome.
+ */
+const VERB_ROWS: [string, TranslationKey][] = [
+  ['präsens_ich', 'word.row.presentIch'],
+  ['präsens_du', 'word.row.presentDu'],
+  ['präsens_er', 'word.row.presentEr'],
+  ['präsens_wir', 'word.row.presentWir'],
+  ['präsens_ihr', 'word.row.presentIhr'],
+  ['präteritum_ich', 'word.row.preteriteIchEr'],
+  ['partizip2', 'word.row.perfect'],
+  ['konjunktiv2', 'form.konjunktiv2'],
+  ['imperativ_du', 'form.imperativ_du'],
 ];
 
-const NOUN_ROWS: [string, string][] = [
-  ['plural', 'Plural'],
-  ['plural_dativ', 'Dativ Plural'],
-  ['genitiv', 'Genitiv'],
+const NOUN_ROWS: [string, TranslationKey][] = [
+  ['plural', 'form.plural'],
+  ['plural_dativ', 'form.plural_dativ'],
+  ['genitiv', 'form.genitiv'],
 ];
 
-const ADJ_ROWS: [string, string][] = [
-  ['komparativ', 'Komparativ'],
-  ['superlativ', 'Superlativ'],
+const ADJ_ROWS: [string, TranslationKey][] = [
+  ['komparativ', 'form.komparativ'],
+  ['superlativ', 'form.superlativ'],
 ];
 
 /** Function words have few forms but several per case, so each row lists them all. */
-const FUNCTION_ROWS: [string, string][] = [
-  ['dekliniert', 'Formen'],
-  ['akkusativ', 'Akkusativ'],
-  ['dativ', 'Dativ'],
-  ['genitiv', 'Genitiv'],
-  ['possessiv', 'Possessivform'],
-  ['kontraktion', 'mit Artikel'],
+const FUNCTION_ROWS: [string, TranslationKey][] = [
+  ['dekliniert', 'word.forms'],
+  ['akkusativ', 'form.akkusativ'],
+  ['dativ', 'form.dativ'],
+  ['genitiv', 'form.genitiv'],
+  ['possessiv', 'form.possessiv'],
+  ['kontraktion', 'word.row.withArticle'],
 ];
 
 const FUNCTION_POS = new Set(['pron', 'det', 'prep', 'conj', 'adv', 'num', 'other']);
@@ -400,6 +412,7 @@ const SPOKEN_PREFIX: Record<string, string> = {
 
 function FormsTable({ lemma, forms }: { lemma: LemmaDetail; forms: FormRow[] }) {
   const t = useTheme();
+  const tr = useTr();
   const byTag = new Map<string, string[]>();
   for (const f of forms) {
     const list = byTag.get(f.tag) ?? [];
@@ -418,7 +431,7 @@ function FormsTable({ lemma, forms }: { lemma: LemmaDetail; forms: FormRow[] }) 
 
   return (
     <View style={{ marginTop: spacing.sm }}>
-      {rows.map(([tag, label]) => {
+      {rows.map(([tag, labelKey]) => {
         const all = byTag.get(tag);
         let value = functionWord ? all?.join(' · ') : all?.[0];
         if (tag === 'partizip2' && value) value = `${lemma.verb_aux === 'sein' ? 'ist' : 'hat'} ${value}`;
@@ -429,7 +442,7 @@ function FormsTable({ lemma, forms }: { lemma: LemmaDetail; forms: FormRow[] }) 
         return (
           <View key={tag} style={[styles.tr, { borderTopColor: t.line }]}>
             <AppText variant="caption" muted style={styles.trLabel}>
-              {label}
+              {tr(labelKey)}
             </AppText>
             <AppText variant="body" style={{ fontFamily: fonts.semibold, flex: 1 }}>
               {value}

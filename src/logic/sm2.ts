@@ -70,15 +70,29 @@ export function schedule(state: CardState, rating: Rating, now: Date): ScheduleR
   return { next, dueAt: new Date(now.getTime() + interval * DAY_MS) };
 }
 
-/** Preview label for rating buttons: "10 Min", "1 Tag", "3 Tage"… */
-export function previewInterval(state: CardState, rating: Rating, now: Date): string {
-  if (rating === 0) return `${AGAIN_MINUTES} Min`;
+/**
+ * How far out a rating pushes the card, as a unit and a count — the rating
+ * buttons render it as "10 Min", "3 Tage"… via `intervalLabel` in
+ * src/i18n/labels.ts.
+ */
+export type IntervalPreview =
+  | { unit: 'minutes'; count: number }
+  | { unit: 'days'; count: number }
+  | { unit: 'months'; count: number }
+  | { unit: 'years'; count: number };
+
+export function previewInterval(
+  state: CardState,
+  rating: Rating,
+  now: Date
+): IntervalPreview {
+  if (rating === 0) return { unit: 'minutes', count: AGAIN_MINUTES };
   const { dueAt } = schedule(state, rating, now);
   const days = Math.round((dueAt.getTime() - now.getTime()) / DAY_MS);
-  if (days <= 1) return '1 Tag';
-  if (days < 30) return `${days} Tage`;
-  if (days < 360) return `${Math.round(days / 30)} Mon.`;
-  return '1 Jahr';
+  if (days <= 1) return { unit: 'days', count: 1 };
+  if (days < 30) return { unit: 'days', count: days };
+  if (days < 360) return { unit: 'months', count: Math.round(days / 30) };
+  return { unit: 'years', count: 1 };
 }
 
 export type SrsPhase = 'new' | 'learning' | 'review';

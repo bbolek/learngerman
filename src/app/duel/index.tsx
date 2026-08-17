@@ -5,6 +5,8 @@ import { ActivityIndicator, Pressable, ScrollView, StyleSheet, TextInput, View }
 
 import { DUEL_GAMES, DUEL_MAX_PLAYERS, HOST_ID, type DuelAbortReason, type DuelState } from '@/logic/duel';
 import { isValidRoomCode, ROOM_CODE_LENGTH } from '@/logic/duelCode';
+import { useTr, type TranslationKey } from '@/i18n';
+import { gameTagline, gameTitle } from '@/i18n/labels';
 import { gameInfo, type GameKey } from '@/logic/games';
 import { useDuel, type DuelError } from '@/store/duel';
 import { AppText } from '@/ui/components/AppText';
@@ -16,21 +18,21 @@ import { useTheme } from '@/ui/useTheme';
 
 type Mode = 'menu' | 'pick' | 'host' | 'join';
 
-const ERROR_COPY: Record<DuelError, string> = {
-  noWifi: 'Kein WLAN gefunden. Verbinde alle Geräte mit demselben WLAN.',
-  noPort: 'Duell konnte nicht gestartet werden. Versuch es gleich noch einmal.',
-  invalidCode: 'Der Code ist ungültig — prüfe die Zeichen und versuch es erneut.',
-  connectFailed: 'Keine Verbindung. Sind alle Geräte im selben WLAN?',
-  noWords: 'Für dieses Spiel fehlen Inhalte auf deinem Gerät — wähle ein anderes Spiel.',
-};
+const ERROR_KEYS = {
+  noWifi: 'duel.error.noWifi',
+  noPort: 'duel.error.noPort',
+  invalidCode: 'duel.error.invalidCode',
+  connectFailed: 'duel.error.connectFailed',
+  noWords: 'duel.error.noWords',
+} as const satisfies Record<DuelError, TranslationKey>;
 
-const ABORT_COPY: Record<DuelAbortReason, string> = {
-  peerLeft: 'Der Host hat das Duell beendet.',
-  version: 'Eure App-Versionen passen nicht zusammen — bitte aktualisiert die App.',
-  busy: 'Die Runde läuft schon — warte kurz und tritt vor der nächsten Runde bei.',
-  full: `Dieses Duell ist schon voll (max. ${DUEL_MAX_PLAYERS} Spieler).`,
-  network: 'Die Verbindung wurde getrennt. Versuch es noch einmal.',
-};
+const ABORT_KEYS = {
+  peerLeft: 'duel.abort.peerLeft',
+  version: 'duel.abort.version',
+  busy: 'duel.abort.busy',
+  full: 'duel.abort.full',
+  network: 'duel.abort.network',
+} as const satisfies Record<DuelAbortReason, TranslationKey>;
 
 /** Everyone currently in the room, host first, from either side's view. */
 function roster(duel: DuelState): { id: string; label: string }[] {
@@ -46,6 +48,7 @@ function roster(duel: DuelState): { id: string; label: string }[] {
 
 export default function DuelLobbyScreen() {
   const t = useTheme();
+  const tr = useTr();
   const [mode, setMode] = useState<Mode>('menu');
   const [code, setCode] = useState('');
 
@@ -81,7 +84,7 @@ export default function DuelLobbyScreen() {
   };
 
   const players = duel ? roster(duel) : [];
-  const gameTitle = duel ? `${gameInfo(duel.game).emoji} ${gameInfo(duel.game).title}` : '';
+  const roundTitle = duel ? `${gameInfo(duel.game).emoji} ${gameTitle(tr, duel.game)}` : '';
 
   return (
     <GameScreen>
@@ -89,23 +92,22 @@ export default function DuelLobbyScreen() {
         <Pressable hitSlop={10} onPress={back}>
           <Ionicons name={mode === 'menu' ? 'close' : 'arrow-back'} size={24} color={t.inkMuted} />
         </Pressable>
-        <AppText variant="subtitle">⚔️ Multiplayer</AppText>
+        <AppText variant="subtitle">{tr('duel.title')}</AppText>
       </View>
 
       {mode === 'menu' && (
         <View style={{ padding: spacing.lg, gap: spacing.md }}>
           <AppText variant="secondary" muted style={{ marginBottom: spacing.sm }}>
-            Spielt gemeinsam im selben WLAN — gleiche Aufgaben, gleiche Zeit, bis zu{' '}
-            {DUEL_MAX_PLAYERS} Spieler. Wer die meisten Punkte holt, gewinnt.
+            {tr('duel.intro', { max: DUEL_MAX_PLAYERS })}
           </AppText>
           <Card style={styles.choice} onPress={() => setMode('pick')}>
             <View style={[styles.emojiBox, { backgroundColor: t.primaryDim }]}>
               <AppText style={{ fontSize: 26 }}>🤝</AppText>
             </View>
             <View style={{ flex: 1 }}>
-              <AppText variant="subtitle">Duell erstellen</AppText>
+              <AppText variant="subtitle">{tr('duel.host.title')}</AppText>
               <AppText variant="caption" muted style={{ marginTop: 2 }}>
-                Wähle ein Spiel und teile den Code mit allen Mitspielern.
+                {tr('duel.host.caption')}
               </AppText>
             </View>
             <Ionicons name="chevron-forward" size={20} color={t.inkFaint} />
@@ -115,9 +117,9 @@ export default function DuelLobbyScreen() {
               <AppText style={{ fontSize: 26 }}>🔑</AppText>
             </View>
             <View style={{ flex: 1 }}>
-              <AppText variant="subtitle">Duell beitreten</AppText>
+              <AppText variant="subtitle">{tr('duel.join.title')}</AppText>
               <AppText variant="caption" muted style={{ marginTop: 2 }}>
-                Gib den Code vom Host-Gerät ein.
+                {tr('duel.join.caption')}
               </AppText>
             </View>
             <Ionicons name="chevron-forward" size={20} color={t.inkFaint} />
@@ -128,7 +130,7 @@ export default function DuelLobbyScreen() {
       {mode === 'pick' && (
         <View style={{ padding: spacing.lg, gap: spacing.md }}>
           <AppText variant="label" muted>
-            Welches Spiel?
+            {tr('duel.pickGame')}
           </AppText>
           {DUEL_GAMES.map((key) => {
             const info = gameInfo(key);
@@ -138,9 +140,9 @@ export default function DuelLobbyScreen() {
                   <AppText style={{ fontSize: 26 }}>{info.emoji}</AppText>
                 </View>
                 <View style={{ flex: 1 }}>
-                  <AppText variant="subtitle">{info.title}</AppText>
+                  <AppText variant="subtitle">{gameTitle(tr, key)}</AppText>
                   <AppText variant="caption" muted style={{ marginTop: 2 }}>
-                    {info.tagline}
+                    {gameTagline(tr, key)}
                   </AppText>
                 </View>
                 <Ionicons name="chevron-forward" size={20} color={t.inkFaint} />
@@ -156,13 +158,13 @@ export default function DuelLobbyScreen() {
             <View style={[styles.fill, styles.center]}>
               <AppText style={{ fontSize: 44 }}>📡</AppText>
               <AppText variant="body" style={styles.message}>
-                {ERROR_COPY[error]}
+                {tr(ERROR_KEYS[error])}
               </AppText>
               <Pressable
                 onPress={() => setMode('pick')}
                 style={[styles.cta, { backgroundColor: t.primary }]}>
                 <AppText variant="subtitle" color="#fff">
-                  Nochmal versuchen
+                  {tr('duel.retry')}
                 </AppText>
               </Pressable>
             </View>
@@ -170,13 +172,13 @@ export default function DuelLobbyScreen() {
             <View style={[styles.fill, styles.center]}>
               <AppText style={{ fontSize: 44 }}>📡</AppText>
               <AppText variant="body" style={styles.message}>
-                {ABORT_COPY.network}
+                {tr(ABORT_KEYS.network)}
               </AppText>
               <Pressable
                 onPress={() => setMode('pick')}
                 style={[styles.cta, { backgroundColor: t.primary }]}>
                 <AppText variant="subtitle" color="#fff">
-                  Nochmal versuchen
+                  {tr('duel.retry')}
                 </AppText>
               </Pressable>
             </View>
@@ -188,10 +190,10 @@ export default function DuelLobbyScreen() {
             <>
               <View style={styles.center}>
                 <AppText variant="caption" muted>
-                  {gameTitle}
+                  {roundTitle}
                 </AppText>
                 <AppText variant="label" muted style={{ marginTop: spacing.md }}>
-                  Dein Duell-Code
+                  {tr('duel.yourCode')}
                 </AppText>
                 <AppText
                   color={t.primary}
@@ -199,14 +201,14 @@ export default function DuelLobbyScreen() {
                   {roomCode}
                 </AppText>
                 <AppText variant="caption" muted style={{ marginTop: spacing.sm, textAlign: 'center' }}>
-                  Alle im selben WLAN können mit diesem Code beitreten.
+                  {tr('duel.codeHint')}
                 </AppText>
               </View>
 
               {duel?.phase === 'lobby' ? (
                 <>
                   <AppText variant="label" muted style={{ marginTop: spacing.xl }}>
-                    Im Raum ({players.length}/{DUEL_MAX_PLAYERS})
+                    {tr('duel.inRoom', { count: players.length, max: DUEL_MAX_PLAYERS })}
                   </AppText>
                   <ScrollView style={styles.fill} contentContainerStyle={styles.chipWrap}>
                     {players.map((p) => (
@@ -217,7 +219,7 @@ export default function DuelLobbyScreen() {
                     onPress={startRound}
                     style={[styles.cta, { backgroundColor: t.primary, alignSelf: 'stretch' }]}>
                     <AppText variant="subtitle" color="#fff">
-                      Los geht&apos;s ({players.length} Spieler) →
+                      {tr('duel.startRound', { count: players.length })}
                     </AppText>
                   </Pressable>
                 </>
@@ -225,7 +227,7 @@ export default function DuelLobbyScreen() {
                 <View style={[styles.fill, styles.center]}>
                   <ActivityIndicator color={t.inkMuted} />
                   <AppText variant="secondary" muted style={styles.message}>
-                    Warte auf Mitspieler … alle Geräte müssen im selben WLAN sein.
+                    {tr('duel.waiting')}
                   </AppText>
                 </View>
               )}
@@ -237,7 +239,7 @@ export default function DuelLobbyScreen() {
       {mode === 'join' && (
         <View style={{ padding: spacing.xl, flex: 1 }}>
           <AppText variant="label" muted>
-            Code eingeben
+            {tr('duel.enterCode')}
           </AppText>
           <TextInput
             value={code}
@@ -259,21 +261,21 @@ export default function DuelLobbyScreen() {
           />
           {error != null && (
             <AppText variant="caption" color={t.danger} style={{ marginTop: spacing.sm }}>
-              {ERROR_COPY[error]}
+              {tr(ERROR_KEYS[error])}
             </AppText>
           )}
           {duel?.phase === 'aborted' && duel.abortReason != null && (
             <AppText variant="caption" color={t.danger} style={{ marginTop: spacing.sm }}>
-              {ABORT_COPY[duel.abortReason]}
+              {tr(ABORT_KEYS[duel.abortReason])}
             </AppText>
           )}
           {duel?.phase === 'lobby' ? (
             <View style={{ marginTop: spacing.xl, flex: 1 }}>
               <View style={styles.center}>
-                <AppText variant="subtitle">{gameTitle}</AppText>
+                <AppText variant="subtitle">{roundTitle}</AppText>
                 <ActivityIndicator color={t.primary} style={{ marginTop: spacing.md }} />
                 <AppText variant="secondary" muted style={styles.message}>
-                  Verbunden! {players.length} Spieler im Raum — warte auf den Start …
+                  {tr('duel.connected', { count: players.length })}
                 </AppText>
               </View>
               <ScrollView contentContainerStyle={[styles.chipWrap, { justifyContent: 'center' }]}>
@@ -298,7 +300,7 @@ export default function DuelLobbyScreen() {
                 <ActivityIndicator color="#fff" />
               ) : (
                 <AppText variant="subtitle" color={isValidRoomCode(code) ? '#fff' : t.inkFaint}>
-                  Beitreten
+                  {tr('duel.joinCta')}
                 </AppText>
               )}
             </Pressable>

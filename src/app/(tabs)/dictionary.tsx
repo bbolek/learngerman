@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { useTr } from '@/i18n';
 import { scannerAvailable } from '@/services/scanner';
 import { tourEmit } from '@/tour/tourStore';
 import { TourTarget } from '@/tour/TourTarget';
@@ -19,6 +20,7 @@ import { useTheme } from '@/ui/useTheme';
 
 export default function DictionaryScreen() {
   const t = useTheme();
+  const tr = useTr();
   const insets = useSafeAreaInsets();
   const [query, setQuery] = useState('');
   const { rows, searched } = useDictionarySearch(query);
@@ -42,7 +44,7 @@ export default function DictionaryScreen() {
     <View style={[styles.fill, { backgroundColor: t.bg, paddingTop: insets.top + spacing.md }]}>
       <View style={styles.pad}>
         <View style={styles.headerRow}>
-          <AppText variant="section">Wörterbuch</AppText>
+          <AppText variant="section">{tr('dict.title')}</AppText>
           <View style={styles.headerActions}>
             {scannerAvailable() && (
               <Pressable
@@ -59,7 +61,7 @@ export default function DictionaryScreen() {
                 style={[styles.savedLink, { backgroundColor: t.primaryDim }]}>
                 <Ionicons name="heart" size={15} color={t.onPrimaryDim} />
                 <AppText variant="caption" color={t.onPrimaryDim} style={{ fontFamily: fonts.extrabold }}>
-                  Meine Wörter
+                  {tr('dict.savedLink')}
                 </AppText>
               </Pressable>
             </TourTarget>
@@ -71,7 +73,7 @@ export default function DictionaryScreen() {
             ref={searchRef}
             value={query}
             onChangeText={setQuery}
-            placeholder="Deutsch oder English…"
+            placeholder={tr('dict.searchPlaceholder')}
           />
         </TourTarget>
       </View>
@@ -95,17 +97,16 @@ export default function DictionaryScreen() {
           searched ? (
             <View style={styles.empty}>
               <AppText variant="subtitle" muted>
-                Nichts gefunden 🕵️
+                {tr('dict.empty.title')}
               </AppText>
               <AppText variant="secondary" muted style={{ marginTop: 4, textAlign: 'center' }}>
-                Prüfe die Schreibweise — oder das Wort ist noch nicht im A1/A2-Wortschatz.
+                {tr('dict.empty.body')}
               </AppText>
             </View>
           ) : (
             <View style={styles.empty}>
               <AppText variant="secondary" muted style={{ textAlign: 'center' }}>
-                Tippe ein deutsches Wort in jeder Form („macht“, „gemacht“)
-                oder ein englisches Wort.
+                {tr('dict.hint')}
               </AppText>
             </View>
           )

@@ -4,6 +4,9 @@ import { router } from 'expo-router';
 import { useState, type ReactNode } from 'react';
 import { Alert, Linking, Pressable, StyleSheet, Switch, TextInput, View } from 'react-native';
 
+import { resolveLocale, systemLocale, translate, useTr, type TranslationKey } from '@/i18n';
+import { LOCALES, LOCALE_META, type LanguagePreference } from '@/i18n/locales';
+import { applyRtlAndReload, needsRtlRestart } from '@/i18n/rtl';
 import { CEFR_LEVELS } from '@/logic/levels';
 import { backupAvailable, exportBackupFile, importBackupFile } from '@/services/backup';
 import { useSettings, type ThemePreference } from '@/store/settings';
@@ -14,40 +17,44 @@ import { Screen } from '@/ui/components/Screen';
 import { colorThemeNames, colorThemes, fonts, spacing } from '@/ui/theme';
 import { useTheme, useThemeName } from '@/ui/useTheme';
 
-const THEME_OPTIONS: { value: ThemePreference; label: string }[] = [
-  { value: 'system', label: 'System' },
-  { value: 'light', label: 'Hell' },
-  { value: 'dark', label: 'Dunkel' },
-];
+const THEME_OPTIONS: ThemePreference[] = ['system', 'light', 'dark'];
 
 const DONATE_URL = 'https://ko-fi.com/bbolek';
 
 const NEW_LIMITS = [5, 10, 20];
 const SESSION_CAPS = [20, 30, 50];
 
-const DAY_OPTIONS: { value: number; label: string }[] = [
-  { value: 1, label: 'Mo' },
-  { value: 2, label: 'Di' },
-  { value: 3, label: 'Mi' },
-  { value: 4, label: 'Do' },
-  { value: 5, label: 'Fr' },
-  { value: 6, label: 'Sa' },
-  { value: 0, label: 'So' },
-];
+/** Monday-first, matching how German (and most European) calendars read. */
+const DAY_OPTIONS = [
+  { value: 1, labelKey: 'settings.day.mon' },
+  { value: 2, labelKey: 'settings.day.tue' },
+  { value: 3, labelKey: 'settings.day.wed' },
+  { value: 4, labelKey: 'settings.day.thu' },
+  { value: 5, labelKey: 'settings.day.fri' },
+  { value: 6, labelKey: 'settings.day.sat' },
+  { value: 0, labelKey: 'settings.day.sun' },
+] as const satisfies { value: number; labelKey: TranslationKey }[];
 
 const INTERVAL_OPTIONS = [
-  { value: 30, label: '30 Min' },
-  { value: 60, label: '1 Std' },
-  { value: 180, label: '3 Std' },
-  { value: 360, label: '6 Std' },
-];
+  { value: 30, labelKey: 'settings.interval.30' },
+  { value: 60, labelKey: 'settings.interval.60' },
+  { value: 180, labelKey: 'settings.interval.180' },
+  { value: 360, labelKey: 'settings.interval.360' },
+] as const satisfies { value: number; labelKey: TranslationKey }[];
 
 function formatHour(h: number): string {
   return `${String(h).padStart(2, '0')}:00`;
 }
 
+const THEME_LABEL_KEYS = {
+  system: 'settings.theme.system',
+  light: 'settings.theme.light',
+  dark: 'settings.theme.dark',
+} as const satisfies Record<ThemePreference, TranslationKey>;
+
 export default function SettingsScreen() {
   const t = useTheme();
+  const tr = useTr();
   const settings = useSettings();
 
   return (
@@ -55,23 +62,25 @@ export default function SettingsScreen() {
       <Pressable onPress={() => router.back()} hitSlop={10} style={styles.back}>
         <Ionicons name="arrow-back" size={20} color={t.inkMuted} />
         <AppText variant="secondary" muted>
-          Zurück
+          {tr('common.back')}
         </AppText>
       </Pressable>
-      <AppText variant="title">Einstellungen</AppText>
+      <AppText variant="title">{tr('settings.title')}</AppText>
 
-      <SectionLabel>Aussehen</SectionLabel>
+      <LanguageCard />
+
+      <SectionLabel>{tr('settings.section.appearance')}</SectionLabel>
       <Card style={styles.section}>
         <AppText variant="caption" muted>
-          Design
+          {tr('settings.theme')}
         </AppText>
         <View style={styles.segmentRow}>
-          {THEME_OPTIONS.map((opt) => {
-            const selected = settings.themePreference === opt.value;
+          {THEME_OPTIONS.map((option) => {
+            const selected = settings.themePreference === option;
             return (
               <Pressable
-                key={opt.value}
-                onPress={() => settings.setThemePreference(opt.value)}
+                key={option}
+                onPress={() => settings.setThemePreference(option)}
                 style={[
                   styles.segment,
                   {
@@ -80,41 +89,42 @@ export default function SettingsScreen() {
                   },
                 ]}>
                 <AppText variant="secondary" color={selected ? t.onPrimaryDim : t.inkMuted}>
-                  {opt.label}
+                  {tr(THEME_LABEL_KEYS[option])}
                 </AppText>
               </Pressable>
             );
           })}
         </View>
         <AppText variant="caption" muted style={{ marginTop: spacing.lg }}>
-          Farbe · {colorThemes[settings.colorTheme]?.label ?? colorThemes.marigold.label}
+          {tr('settings.color', {
+            name: colorThemes[settings.colorTheme]?.label ?? colorThemes.marigold.label,
+          })}
         </AppText>
         <ColorPicker />
       </Card>
 
-      <SectionLabel>Profil</SectionLabel>
+      <SectionLabel>{tr('settings.section.profile')}</SectionLabel>
       <Card style={styles.section}>
-        <AppText variant="subtitle">Spielername</AppText>
+        <AppText variant="subtitle">{tr('settings.playerName')}</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
-          So sehen dich andere im Multiplayer-Duell. Leer lassen, um den Gerätenamen zu verwenden.
+          {tr('settings.playerName.caption')}
         </AppText>
         <TextInput
           value={settings.userName}
           onChangeText={settings.setUserName}
           maxLength={24}
           autoCorrect={false}
-          placeholder={Device.deviceName?.trim() || 'Spieler'}
+          placeholder={Device.deviceName?.trim() || tr('settings.playerName.placeholder')}
           placeholderTextColor={t.inkFaint}
           style={[styles.nameInput, { backgroundColor: t.surface, borderColor: t.line, color: t.ink }]}
         />
       </Card>
 
-      <SectionLabel>Lernen</SectionLabel>
+      <SectionLabel>{tr('settings.section.learning')}</SectionLabel>
       <Card style={styles.section}>
-        <AppText variant="subtitle">Mein Sprachniveau</AppText>
+        <AppText variant="subtitle">{tr('settings.userLevel')}</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
-          Empfehlungen, Spiele und Texte zeigen Inhalte bis zu diesem Niveau. Der
-          Einstufungstest im Lernpfad passt es automatisch an.
+          {tr('settings.userLevel.caption')}
         </AppText>
         <View style={styles.segmentRow}>
           {CEFR_LEVELS.map((level) => {
@@ -141,7 +151,7 @@ export default function SettingsScreen() {
         <Divider />
 
         <AppText variant="caption" muted>
-          Neue Karten pro Tag
+          {tr('settings.newPerDay')}
         </AppText>
         <View style={styles.segmentRow}>
           {NEW_LIMITS.map((n) => {
@@ -166,7 +176,7 @@ export default function SettingsScreen() {
         </View>
 
         <AppText variant="caption" muted style={{ marginTop: spacing.lg }}>
-          Karten pro Lernsession
+          {tr('settings.sessionCap')}
         </AppText>
         <View style={styles.segmentRow}>
           {SESSION_CAPS.map((n) => {
@@ -194,10 +204,9 @@ export default function SettingsScreen() {
 
         <View style={styles.switchRow}>
           <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Aktives Tippen</AppText>
+            <AppText variant="subtitle">{tr('settings.typedRecall')}</AppText>
             <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              Bekannte Wörter aktiv eintippen statt nur umdrehen — als Lückentext oder
-              Übersetzung. Stärkt das aktive Erinnern.
+              {tr('settings.typedRecall.caption')}
             </AppText>
           </View>
           <Switch
@@ -209,14 +218,13 @@ export default function SettingsScreen() {
         </View>
       </Card>
 
-      <SectionLabel>Erinnerungen</SectionLabel>
+      <SectionLabel>{tr('settings.section.reminders')}</SectionLabel>
       <Card style={styles.section}>
         <View style={styles.switchRow}>
           <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Vokabel-Erinnerungen</AppText>
+            <AppText variant="subtitle">{tr('settings.notifications')}</AppText>
             <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              Push-Benachrichtigung mit deinen gespeicherten Wörtern — ohne gespeicherte Wörter
-              mit zufälligen Wörtern aus dem Wörterbuch
+              {tr('settings.notifications.caption')}
             </AppText>
           </View>
           <Switch
@@ -230,8 +238,7 @@ export default function SettingsScreen() {
         {settings.notificationsEnabled && settings.notificationStatus === 'permission-denied' && (
           <View style={[styles.permissionWarning, { backgroundColor: t.dangerDim }]}>
             <AppText variant="caption" color={t.onDangerDim}>
-              ⚠️ Benachrichtigungen sind auf Systemebene blockiert. Bitte erlaube sie in den
-              Geräte-Einstellungen für Deutschly, sonst kann nichts gesendet werden.
+              {tr('settings.notifications.denied')}
             </AppText>
           </View>
         )}
@@ -239,7 +246,7 @@ export default function SettingsScreen() {
         {settings.notificationsEnabled && (
           <>
             <AppText variant="caption" muted style={{ marginTop: spacing.lg }}>
-              Tage
+              {tr('settings.notifications.days')}
             </AppText>
             <View style={styles.segmentRow}>
               {DAY_OPTIONS.map((d) => {
@@ -261,7 +268,7 @@ export default function SettingsScreen() {
                       },
                     ]}>
                     <AppText variant="caption" color={selected ? t.onPrimaryDim : t.inkMuted}>
-                      {d.label}
+                      {tr(d.labelKey)}
                     </AppText>
                   </Pressable>
                 );
@@ -269,7 +276,7 @@ export default function SettingsScreen() {
             </View>
 
             <AppText variant="caption" muted style={{ marginTop: spacing.lg }}>
-              Zeitfenster
+              {tr('settings.notifications.window')}
             </AppText>
             <View style={styles.hourRow}>
               <HourStepper
@@ -278,7 +285,7 @@ export default function SettingsScreen() {
                 max={settings.notificationEndHour - 1}
               />
               <AppText variant="secondary" muted>
-                bis
+                {tr('settings.notifications.until')}
               </AppText>
               <HourStepper
                 value={settings.notificationEndHour}
@@ -288,7 +295,7 @@ export default function SettingsScreen() {
             </View>
 
             <AppText variant="caption" muted style={{ marginTop: spacing.lg }}>
-              Intervall
+              {tr('settings.notifications.interval')}
             </AppText>
             <View style={styles.segmentRow}>
               {INTERVAL_OPTIONS.map((opt) => {
@@ -305,7 +312,7 @@ export default function SettingsScreen() {
                       },
                     ]}>
                     <AppText variant="secondary" color={selected ? t.onPrimaryDim : t.inkMuted}>
-                      {opt.label}
+                      {tr(opt.labelKey)}
                     </AppText>
                   </Pressable>
                 );
@@ -315,13 +322,13 @@ export default function SettingsScreen() {
         )}
       </Card>
 
-      <SectionLabel>Töne & Haptik</SectionLabel>
+      <SectionLabel>{tr('settings.section.sound')}</SectionLabel>
       <Card style={styles.section}>
         <View style={styles.switchRow}>
           <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Soundeffekte</AppText>
+            <AppText variant="subtitle">{tr('settings.sound')}</AppText>
             <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              Kurze Töne bei Antworten, Level-Aufstiegen und Erfolgen
+              {tr('settings.sound.caption')}
             </AppText>
           </View>
           <Switch
@@ -336,9 +343,9 @@ export default function SettingsScreen() {
 
         <View style={styles.switchRow}>
           <View style={{ flex: 1 }}>
-            <AppText variant="subtitle">Haptik</AppText>
+            <AppText variant="subtitle">{tr('settings.haptics')}</AppText>
             <AppText variant="caption" muted style={{ marginTop: 2 }}>
-              Vibration bei richtigen/falschen Antworten
+              {tr('settings.haptics.caption')}
             </AppText>
           </View>
           <Switch
@@ -352,11 +359,11 @@ export default function SettingsScreen() {
 
       <BackupCard />
 
-      <SectionLabel>Hilfe & Info</SectionLabel>
+      <SectionLabel>{tr('settings.section.help')}</SectionLabel>
       <Card style={styles.section}>
-        <AppText variant="subtitle">App-Guide</AppText>
+        <AppText variant="subtitle">{tr('settings.guide')}</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
-          Interaktive Tour durch alle Funktionen der App (auf Englisch)
+          {tr('settings.guide.caption')}
         </AppText>
         <Pressable
           onPress={() => {
@@ -369,29 +376,25 @@ export default function SettingsScreen() {
           ]}>
           <Ionicons name="compass-outline" size={18} color={t.primary} />
           <AppText variant="secondary" color={t.primary}>
-            Guide starten
+            {tr('settings.guide.cta')}
           </AppText>
         </Pressable>
       </Card>
 
       <Card style={styles.section}>
-        <AppText variant="subtitle">Über Deutschly</AppText>
+        <AppText variant="subtitle">{tr('settings.about')}</AppText>
         <AppText variant="secondary" muted style={{ marginTop: 6, lineHeight: 21 }}>
-          Offline Deutsch-Lern-App: Wörterbuch (Goethe A1/A2-Wortschatz), Karteikarten
-          mit Spaced Repetition und Grammatik-Übungen zu den Fällen. Alle Daten bleiben
-          auf deinem Gerät.
+          {tr('settings.about.body')}
         </AppText>
         <AppText variant="caption" muted style={{ marginTop: spacing.md, lineHeight: 17 }}>
-          Wortbilder: Noto Emoji © Google — Apache License 2.0 / SIL Open Font License.
+          {tr('settings.about.credits')}
         </AppText>
       </Card>
 
       <Card style={styles.section}>
-        <AppText variant="subtitle">Deutschly unterstützen</AppText>
+        <AppText variant="subtitle">{tr('settings.donate')}</AppText>
         <AppText variant="secondary" muted style={{ marginTop: 6, lineHeight: 21 }}>
-          Deutschly ist kostenlos und bleibt es auch — ohne Werbung und ohne Abo. Wenn dir
-          die App beim Deutschlernen hilft, kannst du die Weiterentwicklung freiwillig mit
-          einer kleinen Spende unterstützen.
+          {tr('settings.donate.body')}
         </AppText>
         <Pressable
           onPress={() => Linking.openURL(DONATE_URL)}
@@ -401,11 +404,96 @@ export default function SettingsScreen() {
           ]}>
           <Ionicons name="heart" size={18} color={t.primary} />
           <AppText variant="secondary" color={t.primary}>
-            Spenden ☕
+            {tr('settings.donate.cta')}
           </AppText>
         </Pressable>
       </Card>
     </Screen>
+  );
+}
+
+/**
+ * App language. Switching to or from Arabic flips the layout direction,
+ * which React Native only applies on a fresh start — so that one case asks
+ * first and then restarts the app.
+ */
+function LanguageCard() {
+  const t = useTheme();
+  const tr = useTr();
+  const uiLanguage = useSettings((s) => s.uiLanguage);
+  const setUiLanguage = useSettings((s) => s.setUiLanguage);
+
+  const choose = (preference: LanguagePreference) => {
+    if (preference === uiLanguage) return;
+    const next = resolveLocale(preference);
+    if (!needsRtlRestart(next)) {
+      setUiLanguage(preference);
+      return;
+    }
+    // Ask in the language being switched to — that is what the user just
+    // picked, and it is the one they can read after the restart.
+    Alert.alert(
+      translate(next, 'settings.language.restartTitle'),
+      translate(next, 'settings.language.restartBody'),
+      [
+        { text: translate(next, 'common.cancel'), style: 'cancel' },
+        {
+          text: translate(next, 'common.continue'),
+          onPress: () => {
+            setUiLanguage(preference);
+            applyRtlAndReload(next).catch(() => {});
+          },
+        },
+      ]
+    );
+  };
+
+  const options: LanguagePreference[] = ['system', ...LOCALES];
+
+  return (
+    <>
+      <SectionLabel>{tr('settings.section.language')}</SectionLabel>
+      <Card style={styles.section}>
+        <AppText variant="subtitle">{tr('settings.language.label')}</AppText>
+        <AppText variant="caption" muted style={{ marginTop: 2 }}>
+          {tr('settings.language.caption')}
+        </AppText>
+        <View style={styles.languageList}>
+          {options.map((option) => {
+            const selected = uiLanguage === option;
+            const isSystem = option === 'system';
+            return (
+              <Pressable
+                key={option}
+                onPress={() => choose(option)}
+                style={[
+                  styles.languageRow,
+                  {
+                    backgroundColor: selected ? t.primaryDim : t.surface,
+                    borderColor: selected ? t.primary : t.line,
+                  },
+                ]}>
+                <View style={{ flex: 1 }}>
+                  <AppText variant="secondary" color={selected ? t.onPrimaryDim : t.ink}>
+                    {isSystem
+                      ? tr('settings.language.system')
+                      : LOCALE_META[option].nativeName}
+                  </AppText>
+                  {isSystem && (
+                    <AppText variant="caption" muted style={{ marginTop: 1 }}>
+                      {tr('settings.language.systemCaption', {
+                        name: LOCALE_META[systemLocale()].nativeName,
+                      })}
+                    </AppText>
+                  )}
+                </View>
+                {selected && <Ionicons name="checkmark" size={18} color={t.primary} />}
+              </Pressable>
+            );
+          })}
+        </View>
+      </Card>
+    </>
   );
 }
 
@@ -457,6 +545,7 @@ function ColorPicker() {
 
 function BackupCard() {
   const t = useTheme();
+  const tr = useTr();
   const [busy, setBusy] = useState(false);
   // Stable per mount: whether the installed binary has the backup native modules.
   const [available] = useState(backupAvailable);
@@ -467,7 +556,7 @@ function BackupCard() {
     try {
       await exportBackupFile();
     } catch (err) {
-      Alert.alert('Backup fehlgeschlagen', err instanceof Error ? err.message : String(err));
+      Alert.alert(tr('settings.backup.failed'), err instanceof Error ? err.message : String(err));
     } finally {
       setBusy(false);
     }
@@ -475,12 +564,12 @@ function BackupCard() {
 
   const onImport = () => {
     Alert.alert(
-      'Backup wiederherstellen?',
-      'Alle aktuellen Lerndaten auf diesem Gerät werden durch das Backup ersetzt. Das kann nicht rückgängig gemacht werden.',
+      tr('settings.backup.confirmTitle'),
+      tr('settings.backup.confirmBody'),
       [
-        { text: 'Abbrechen', style: 'cancel' },
+        { text: tr('common.cancel'), style: 'cancel' },
         {
-          text: 'Wiederherstellen',
+          text: tr('settings.backup.confirmCta'),
           style: 'destructive',
           onPress: async () => {
             setBusy(true);
@@ -489,16 +578,16 @@ function BackupCard() {
               if (summary) {
                 await useSettings.getState().hydrate();
                 Alert.alert(
-                  'Backup wiederhergestellt',
-                  `${summary.restored} Einträge wiederhergestellt.` +
+                  tr('settings.backup.restoredTitle'),
+                  tr('settings.backup.restoredBody', { count: summary.restored }) +
                     (summary.dropped > 0
-                      ? ` ${summary.dropped} Einträge übersprungen (Inhalt existiert nicht mehr).`
+                      ? ` ${tr('settings.backup.restoredDropped', { count: summary.dropped })}`
                       : '')
                 );
               }
             } catch (err) {
               Alert.alert(
-                'Wiederherstellung fehlgeschlagen',
+                tr('settings.backup.restoreFailed'),
                 err instanceof Error ? err.message : String(err)
               );
             } finally {
@@ -512,13 +601,11 @@ function BackupCard() {
 
   return (
     <>
-      <SectionLabel>Daten</SectionLabel>
+      <SectionLabel>{tr('settings.section.data')}</SectionLabel>
       <Card style={styles.section}>
-        <AppText variant="subtitle">Backup</AppText>
+        <AppText variant="subtitle">{tr('settings.backup')}</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
-          Sichere alle Lerndaten (Wörter, XP, Streak, Fortschritt) als Datei — z. B. in iCloud
-          Drive, Google Drive oder Downloads. Die Datei bleibt beim Löschen der App erhalten und
-          kann nach einer Neuinstallation wiederhergestellt werden.
+          {tr('settings.backup.caption')}
         </AppText>
         <Pressable
           disabled={busy}
@@ -533,7 +620,7 @@ function BackupCard() {
           ]}>
           <Ionicons name="share-outline" size={18} color={t.primary} />
           <AppText variant="secondary" color={t.primary}>
-            Backup exportieren
+            {tr('settings.backup.export')}
           </AppText>
         </Pressable>
         <Pressable
@@ -549,7 +636,7 @@ function BackupCard() {
           ]}>
           <Ionicons name="download-outline" size={18} color={t.inkMuted} />
           <AppText variant="secondary" muted>
-            Backup wiederherstellen
+            {tr('settings.backup.restore')}
           </AppText>
         </Pressable>
       </Card>
@@ -608,6 +695,16 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     fontSize: 16,
     marginTop: spacing.md,
+  },
+  languageList: { gap: spacing.sm, marginTop: spacing.md },
+  languageRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    borderWidth: 1.5,
+    borderRadius: 11,
+    paddingHorizontal: spacing.md,
+    paddingVertical: 11,
   },
   segmentRow: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.md },
   segment: {

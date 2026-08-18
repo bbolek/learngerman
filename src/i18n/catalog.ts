@@ -11,6 +11,7 @@ import { fr } from '@/i18n/locales/fr';
 import { it } from '@/i18n/locales/it';
 import { pl } from '@/i18n/locales/pl';
 import { pt } from '@/i18n/locales/pt';
+import { ru } from '@/i18n/locales/ru';
 import { tr } from '@/i18n/locales/tr';
 import type { Locale } from '@/i18n/locales';
 import type { Message } from '@/i18n/message';
@@ -27,6 +28,7 @@ export const CATALOGS: Record<Locale, Catalog> = {
   it,
   pl,
   pt,
+  ru,
   tr,
 } as Record<Locale, Catalog>;
 

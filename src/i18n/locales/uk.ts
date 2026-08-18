@@ -556,7 +556,7 @@ export const uk: Catalog = {
   'settings.language.caption':
     'Мова інтерфейсу. Навчальний матеріал — слова, приклади речень і граматика — звісно, залишається німецьким.',
   'settings.language.system': 'Мова системи',
-  'settings.language.systemCaption': 'Слідує за мовою твого пристрою ({name})',
+  'settings.language.systemCaption': 'На цьому пристрої: {name}',
   'settings.language.restartTitle': 'Потрібен перезапуск',
   'settings.language.restartBody':
     'Застосунок зараз перезапуститься, щоб перейти на письмо справа наліво.',

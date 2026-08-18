@@ -2,7 +2,7 @@ import { create } from 'zustand';
 
 import { loadSettings, persistSettings } from '@/db/settingsRepo';
 import { resolveLocale, setLocale } from '@/i18n';
-import { isLocale, type LanguagePreference } from '@/i18n/locales';
+import { isEnabledLocale, type LanguagePreference } from '@/i18n/locales';
 import { levelsUpTo, type CefrLevel } from '@/logic/levels';
 import {
   rescheduleNotifications,
@@ -15,7 +15,7 @@ export type ThemePreference = 'system' | 'light' | 'dark';
 
 interface SettingsState {
   themePreference: ThemePreference;
-  /** UI language; 'system' follows the device, falling back to German. */
+  /** UI language; 'system' follows the device, falling back to English. */
   uiLanguage: LanguagePreference;
   /** Primary/accent color pair applied on top of the light/dark palette. */
   colorTheme: ColorThemeName;
@@ -152,8 +152,9 @@ export const useSettings = create<SettingsState>((set, get) => ({
     const stored = await loadSettings();
     // Guard against unknown color names from older backups or future versions.
     if (stored.colorTheme && !(stored.colorTheme in colorThemes)) delete stored.colorTheme;
-    // Same for a language a newer build shipped and this one doesn't have.
-    if (stored.uiLanguage && stored.uiLanguage !== 'system' && !isLocale(stored.uiLanguage)) {
+    // Same for a language this build doesn't offer — from a backup taken on a
+    // build that shipped more of them, or one that shipped fewer.
+    if (stored.uiLanguage && stored.uiLanguage !== 'system' && !isEnabledLocale(stored.uiLanguage)) {
       delete stored.uiLanguage;
     }
     set({ ...stored, hydrated: true });

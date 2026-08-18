@@ -1,16 +1,26 @@
 /**
- * The languages the UI ships in. Pure data — no RN imports — so both the
+ * The languages the UI has copy for. Pure data — no RN imports — so both the
  * runtime and the jest catalog tests can read it.
- *
- * German stays the default: the app is a German course and every learner
- * eventually wants the German labels. `system` follows the device.
  */
 
 export const LOCALES = ['de', 'en', 'tr', 'es', 'fr', 'it', 'pt', 'pl', 'ru', 'uk', 'ar'] as const;
 
 export type Locale = (typeof LOCALES)[number];
 
-export const DEFAULT_LOCALE: Locale = 'de';
+/**
+ * The languages actually offered to users. Every catalog in `LOCALES` is
+ * complete and type-checked, but only these appear in the picker and only
+ * these can be reached by following the device language — shipping another
+ * one is a matter of adding it here.
+ */
+export const ENABLED_LOCALES = ['en', 'de'] as const satisfies readonly Locale[];
+
+/**
+ * English is the default: it is the language most learners of German have in
+ * common, and it is what a device set to anything we do not ship falls back
+ * to.
+ */
+export const DEFAULT_LOCALE: Locale = 'en';
 
 /** Stored language preference: an explicit locale, or "follow the device". */
 export type LanguagePreference = Locale | 'system';
@@ -41,15 +51,21 @@ export function isLocale(value: unknown): value is Locale {
   return typeof value === 'string' && (LOCALES as readonly string[]).includes(value);
 }
 
+/** A locale the app currently offers, as opposed to one it merely has copy for. */
+export function isEnabledLocale(value: unknown): value is Locale {
+  return isLocale(value) && (ENABLED_LOCALES as readonly Locale[]).includes(value);
+}
+
 /**
- * Best supported locale for a list of device language tags
- * (["pt-BR", "en-US"] → "pt"). Regions are dropped; unsupported tags fall
- * through to the next candidate and finally to German.
+ * Best offered locale for a list of device language tags
+ * (["de-AT", "en-US"] → "de"). Regions are dropped; a language the app does
+ * not currently offer — Turkish, say — falls through to the next candidate
+ * and finally to English.
  */
 export function matchLocale(deviceTags: readonly string[]): Locale {
   for (const raw of deviceTags) {
     const base = raw.toLowerCase().replace('_', '-').split('-')[0];
-    if (isLocale(base)) return base;
+    if (isEnabledLocale(base)) return base;
   }
   return DEFAULT_LOCALE;
 }

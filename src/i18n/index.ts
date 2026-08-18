@@ -11,10 +11,10 @@
 import { useCallback, useSyncExternalStore } from 'react';
 
 import { CATALOGS, type TranslationKey } from '@/i18n/catalog';
-import { de } from '@/i18n/locales/de';
 import { deviceLanguageTags } from '@/i18n/deviceLocale';
 import {
   DEFAULT_LOCALE,
+  isEnabledLocale,
   LOCALE_META,
   matchLocale,
   type LanguagePreference,
@@ -44,9 +44,14 @@ export function getLocale(): Locale {
   return activeLocale;
 }
 
-/** Resolve a stored preference ('system' or a locale) to a concrete locale. */
+/**
+ * Resolve a stored preference ('system' or a locale) to a concrete locale.
+ * A preference naming a language the app no longer offers falls back to the
+ * default rather than rendering a catalog the picker cannot show.
+ */
 export function resolveLocale(preference: LanguagePreference): Locale {
-  return preference === 'system' ? systemLocale() : preference;
+  if (preference === 'system') return systemLocale();
+  return isEnabledLocale(preference) ? preference : DEFAULT_LOCALE;
 }
 
 export function setLocale(locale: Locale): void {
@@ -63,15 +68,15 @@ function subscribe(listener: () => void): () => void {
 
 /**
  * Look up `key` in the active catalog. Missing entries (only possible for a
- * catalog that fell behind) fall back to German rather than rendering the
- * raw key.
+ * catalog that fell behind) fall back to the default language rather than
+ * rendering the raw key.
  */
 export function translate(
   locale: Locale,
   key: TranslationKey,
   vars?: MessageVars
 ): string {
-  const message = CATALOGS[locale]?.[key] ?? de[key];
+  const message = CATALOGS[locale]?.[key] ?? CATALOGS[DEFAULT_LOCALE][key];
   if (message == null) return key;
   return formatMessage(message, locale, vars);
 }

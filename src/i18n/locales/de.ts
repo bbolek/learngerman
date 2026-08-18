@@ -1,5 +1,6 @@
 /**
- * German UI copy — the source of truth for every other language.
+ * German UI copy. This catalog defines the key set every other language is
+ * checked against; English is what the app defaults to at runtime.
  *
  * Keys are flat and dotted so a translated catalog is a plain key→string map
  * that TypeScript can check for completeness (see catalog.ts). Values are
@@ -548,7 +549,7 @@ export const de = {
   'settings.language.caption':
     'Die Sprache der Bedienoberfläche. Die Lerninhalte — Wörter, Beispielsätze und Grammatik — bleiben natürlich Deutsch.',
   'settings.language.system': 'Systemsprache',
-  'settings.language.systemCaption': 'Folgt der Sprache deines Geräts ({name})',
+  'settings.language.systemCaption': 'Auf diesem Gerät: {name}',
   'settings.language.restartTitle': 'Neustart nötig',
   'settings.language.restartBody':
     'Für die Schreibrichtung von rechts nach links startet die App jetzt neu.',

@@ -556,7 +556,7 @@ export const pl: Catalog = {
   'settings.language.caption':
     'Język interfejsu. Materiał do nauki — słowa, zdania przykładowe i gramatyka — pozostaje oczywiście po niemiecku.',
   'settings.language.system': 'Język systemu',
-  'settings.language.systemCaption': 'Podąża za językiem twojego urządzenia ({name})',
+  'settings.language.systemCaption': 'Na tym urządzeniu: {name}',
   'settings.language.restartTitle': 'Wymagane ponowne uruchomienie',
   'settings.language.restartBody':
     'Aplikacja uruchomi się teraz ponownie, aby przejść na pismo od prawej do lewej.',

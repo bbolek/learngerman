@@ -523,7 +523,7 @@ export const tr: Catalog = {
   'settings.language.caption':
     'Arayüzün dili. Öğrenme içeriği — kelimeler, örnek cümleler ve dilbilgisi — elbette Almanca kalır.',
   'settings.language.system': 'Sistem dili',
-  'settings.language.systemCaption': 'Cihazının dilini izler ({name})',
+  'settings.language.systemCaption': 'Bu cihazda: {name}',
   'settings.language.restartTitle': 'Yeniden başlatma gerekli',
   'settings.language.restartBody':
     'Sağdan sola yazım yönü için uygulama şimdi yeniden başlayacak.',

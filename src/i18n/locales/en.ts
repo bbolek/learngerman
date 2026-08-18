@@ -532,7 +532,7 @@ export const en: Catalog = {
   'settings.language.caption':
     'The language of the interface. The learning content — words, example sentences and grammar — stays German, of course.',
   'settings.language.system': 'System language',
-  'settings.language.systemCaption': "Follows your device's language ({name})",
+  'settings.language.systemCaption': 'Uses {name} on this device',
   'settings.language.restartTitle': 'Restart needed',
   'settings.language.restartBody':
     'The app will restart now to switch to right-to-left layout.',

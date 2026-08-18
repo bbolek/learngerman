@@ -5,7 +5,7 @@ import { useState, type ReactNode } from 'react';
 import { Alert, Linking, Pressable, StyleSheet, Switch, TextInput, View } from 'react-native';
 
 import { resolveLocale, systemLocale, translate, useTr, type TranslationKey } from '@/i18n';
-import { LOCALES, LOCALE_META, type LanguagePreference } from '@/i18n/locales';
+import { ENABLED_LOCALES, LOCALE_META, type LanguagePreference } from '@/i18n/locales';
 import { applyRtlAndReload, needsRtlRestart } from '@/i18n/rtl';
 import { colorThemeLabel } from '@/i18n/labels';
 import { CEFR_LEVELS } from '@/logic/levels';
@@ -449,7 +449,7 @@ function LanguageCard() {
     );
   };
 
-  const options: LanguagePreference[] = ['system', ...LOCALES];
+  const options: LanguagePreference[] = ['system', ...ENABLED_LOCALES];
 
   return (
     <>

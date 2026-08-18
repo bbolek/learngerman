@@ -532,7 +532,7 @@ export const fr: Catalog = {
   'settings.language.caption':
     'La langue de l’interface. Le contenu d’apprentissage — mots, phrases d’exemple et grammaire — reste bien sûr en allemand.',
   'settings.language.system': 'Langue du système',
-  'settings.language.systemCaption': 'Suit la langue de ton appareil ({name})',
+  'settings.language.systemCaption': 'Sur cet appareil : {name}',
   'settings.language.restartTitle': 'Redémarrage nécessaire',
   'settings.language.restartBody':
     'L’application va redémarrer pour passer à l’écriture de droite à gauche.',

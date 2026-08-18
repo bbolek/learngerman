@@ -531,7 +531,7 @@ export const es: Catalog = {
   'settings.language.caption':
     'El idioma de la interfaz. El contenido de aprendizaje —palabras, frases de ejemplo y gramática— sigue siendo alemán, por supuesto.',
   'settings.language.system': 'Idioma del sistema',
-  'settings.language.systemCaption': 'Sigue el idioma de tu dispositivo ({name})',
+  'settings.language.systemCaption': 'En este dispositivo: {name}',
   'settings.language.restartTitle': 'Hay que reiniciar',
   'settings.language.restartBody':
     'La app se reiniciará ahora para cambiar a la escritura de derecha a izquierda.',

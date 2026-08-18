@@ -26,10 +26,16 @@ Offline German learning app (Expo SDK 57, TypeScript, expo-router, expo-sqlite).
   use the module-level `tr()`. Lemmas, example sentences, grammar explainers,
   the pronouns in the conjugation table and the der/die/das articles stay
   German everywhere — that is the subject being taught.
+- **Eleven catalogs exist; `ENABLED_LOCALES` decides which ship.** Today that
+  is English (the default) and German. The other nine are complete and stay
+  under test, so releasing one means adding it to that array — nothing else.
+  `matchLocale` only resolves to enabled locales, so a device set to Turkish
+  gets English rather than a language the picker cannot show, and
+  `resolveLocale` clamps a stored preference the same way.
 - `src/logic/` never holds copy: games, badges, quests, tour steps, form tags,
   level ranks, SRS interval previews and forecast labels return stable ids, and
   `src/i18n/labels.ts` turns an id plus `tr` into a string. Adding a game or a
-  badge therefore means adding catalog entries in all eleven languages —
+  badge therefore means adding catalog entries in all eleven catalogs —
   `npm test` checks key parity, `{placeholder}` parity against German, and the
   plural rules per language.
 - Plurals: a catalog value is a string or a `{ one, few, other, … }` record;

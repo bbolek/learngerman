@@ -1,6 +1,14 @@
 import { CATALOGS } from '@/i18n/catalog';
 import { de } from '@/i18n/locales/de';
-import { LOCALES, LOCALE_META, matchLocale, isLocale } from '@/i18n/locales';
+import {
+  DEFAULT_LOCALE,
+  ENABLED_LOCALES,
+  LOCALES,
+  LOCALE_META,
+  isEnabledLocale,
+  isLocale,
+  matchLocale,
+} from '@/i18n/locales';
 import {
   formatMessage,
   interpolate,
@@ -75,21 +83,42 @@ describe('catalogs', () => {
   });
 });
 
-describe('matchLocale', () => {
-  it('drops the region and takes the first supported tag', () => {
-    expect(matchLocale(['pt-BR', 'en-US'])).toBe('pt');
-    expect(matchLocale(['de_AT'])).toBe('de');
-    expect(matchLocale(['sv-SE', 'tr-TR'])).toBe('tr');
+describe('enabled locales', () => {
+  it('offers only languages the app has catalogs for', () => {
+    for (const locale of ENABLED_LOCALES) expect(LOCALES).toContain(locale);
   });
 
-  it('falls back to German for unsupported or empty input', () => {
-    expect(matchLocale(['ja-JP'])).toBe('de');
-    expect(matchLocale([])).toBe('de');
+  it('offers English and German, and defaults to English', () => {
+    expect([...ENABLED_LOCALES].sort()).toEqual(['de', 'en']);
+    expect(DEFAULT_LOCALE).toBe('en');
+    expect(isEnabledLocale(DEFAULT_LOCALE)).toBe(true);
   });
 
-  it('recognises supported locale codes', () => {
-    expect(isLocale('uk')).toBe(true);
+  it('separates "has a catalog" from "is offered"', () => {
+    // Turkish is fully translated but not currently shipped.
+    expect(isLocale('tr')).toBe(true);
+    expect(isEnabledLocale('tr')).toBe(false);
     expect(isLocale('ja')).toBe(false);
+  });
+});
+
+describe('matchLocale', () => {
+  it('drops the region and takes the first offered tag', () => {
+    expect(matchLocale(['de_AT'])).toBe('de');
+    expect(matchLocale(['en-GB'])).toBe('en');
+    expect(matchLocale(['pt-BR', 'de-DE'])).toBe('de');
+  });
+
+  it('falls back to English for a language the app does not offer', () => {
+    // A Turkish phone gets English, not the Turkish catalog.
+    expect(matchLocale(['tr-TR'])).toBe('en');
+    expect(matchLocale(['ru-RU', 'ar'])).toBe('en');
+    expect(matchLocale(['ja-JP'])).toBe('en');
+    expect(matchLocale([])).toBe('en');
+  });
+
+  it('still prefers a later tag the app does offer', () => {
+    expect(matchLocale(['tr-TR', 'de-DE'])).toBe('de');
   });
 });
 

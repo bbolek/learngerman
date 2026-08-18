@@ -557,7 +557,7 @@ export const ru: Catalog = {
   'settings.language.caption':
     'Язык интерфейса. Учебное содержание — слова, примеры предложений и грамматика — конечно, остаётся немецким.',
   'settings.language.system': 'Язык системы',
-  'settings.language.systemCaption': 'Следует языку твоего устройства ({name})',
+  'settings.language.systemCaption': 'На этом устройстве: {name}',
   'settings.language.restartTitle': 'Нужен перезапуск',
   'settings.language.restartBody':
     'Приложение сейчас перезапустится, чтобы перейти на письмо справа налево.',

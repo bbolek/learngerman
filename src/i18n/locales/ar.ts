@@ -593,7 +593,7 @@ export const ar: Catalog = {
   'settings.language.caption':
     'لغة الواجهة. أما محتوى التعلّم — الكلمات والجمل النموذجية والقواعد — فيبقى بالألمانية بالطبع.',
   'settings.language.system': 'لغة النظام',
-  'settings.language.systemCaption': 'تتبع لغة جهازك ({name})',
+  'settings.language.systemCaption': 'على هذا الجهاز: {name}',
   'settings.language.restartTitle': 'يلزم إعادة التشغيل',
   'settings.language.restartBody':
     'سيُعاد تشغيل التطبيق الآن للانتقال إلى الكتابة من اليمين إلى اليسار.',

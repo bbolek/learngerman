@@ -532,7 +532,7 @@ export const pt: Catalog = {
   'settings.language.caption':
     'O idioma da interface. O conteúdo de aprendizagem — palavras, frases de exemplo e gramática — continua, claro, em alemão.',
   'settings.language.system': 'Idioma do sistema',
-  'settings.language.systemCaption': 'Segue o idioma do teu dispositivo ({name})',
+  'settings.language.systemCaption': 'Neste dispositivo: {name}',
   'settings.language.restartTitle': 'É preciso reiniciar',
   'settings.language.restartBody':
     'A aplicação vai reiniciar para passar à escrita da direita para a esquerda.',

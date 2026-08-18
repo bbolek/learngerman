@@ -60,13 +60,18 @@ export function pluralCategory(locale: Locale, n: number): PluralCategory {
   }
 }
 
-/** Narrower forms fall back to wider ones, and everything ends at `other`. */
+/**
+ * A missing form falls back to `other` — the only category every message is
+ * required to carry — before trying its neighbours. Languages whose widest
+ * form is the catch-all (Polish, Russian, Ukrainian write their "many" form
+ * as `other`) therefore resolve correctly without duplicating the text.
+ */
 const CATEGORY_FALLBACKS: Record<PluralCategory, PluralCategory[]> = {
   zero: ['zero', 'other'],
   one: ['one', 'other'],
-  two: ['two', 'few', 'many', 'other'],
-  few: ['few', 'many', 'other'],
-  many: ['many', 'few', 'other'],
+  two: ['two', 'other', 'few', 'many'],
+  few: ['few', 'other', 'many'],
+  many: ['many', 'other', 'few'],
   other: ['other'],
 };
 

@@ -5,6 +5,9 @@
  */
 
 import { de } from '@/i18n/locales/de';
+import { en } from '@/i18n/locales/en';
+import { es } from '@/i18n/locales/es';
+import { tr } from '@/i18n/locales/tr';
 import type { Locale } from '@/i18n/locales';
 import type { Message } from '@/i18n/message';
 
@@ -14,7 +17,9 @@ export type Catalog = Record<TranslationKey, Message>;
 
 export const CATALOGS: Record<Locale, Catalog> = {
   de,
-  // Filled in as each translation lands; see locales/*.ts.
+  en,
+  es,
+  tr,
 } as Record<Locale, Catalog>;
 
 export { de };

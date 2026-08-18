@@ -8,7 +8,7 @@
  * called `tr` throughout.
  */
 
-import { useSyncExternalStore } from 'react';
+import { useCallback, useSyncExternalStore } from 'react';
 
 import { CATALOGS, type TranslationKey } from '@/i18n/catalog';
 import { de } from '@/i18n/locales/de';
@@ -87,10 +87,14 @@ export function useLocale(): Locale {
   return useSyncExternalStore(subscribe, getLocale, getLocale);
 }
 
-/** `const tr = useTr();` — the translate function bound to the active locale. */
+/**
+ * `const tr = useTr();` — the translate function bound to the active locale.
+ * Stable for as long as the locale is, so callers can list it in a hook's
+ * dependency array without churning on every render.
+ */
 export function useTr(): TranslateFn {
   const locale = useLocale();
-  return (key, vars) => translate(locale, key, vars);
+  return useCallback((key, vars) => translate(locale, key, vars), [locale]);
 }
 
 // ------------------------------------------------------------ formatting

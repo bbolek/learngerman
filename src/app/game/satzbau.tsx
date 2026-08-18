@@ -102,7 +102,7 @@ export default function SatzbauScreen() {
       }
       setPhase('done');
     })();
-  }, []);
+  }, [tr]);
 
   const grade = (q: SatzbauQuestion, tileIds: number[]) => {
     const sequence = tileIds.map((id) => q.tiles.find((tile) => tile.id === id)!.text);

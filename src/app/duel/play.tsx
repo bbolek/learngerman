@@ -27,7 +27,6 @@ import {
 } from '@/logic/duel';
 import {
   addReviewWord,
-  gameInfo,
   gradeDiktat,
   gradeSatzbau,
   konjugationContext,

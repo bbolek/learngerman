@@ -108,7 +108,7 @@ export default function DerDieDasScreen() {
       }
       setPhase('done');
     })();
-  }, []);
+  }, [tr]);
 
   const answer = (gender: string) => {
     const word = words[index];

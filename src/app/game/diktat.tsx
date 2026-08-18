@@ -131,7 +131,7 @@ export default function DiktatScreen() {
       }
       setPhase('done');
     })();
-  }, []);
+  }, [tr]);
 
   const submit = () => {
     const q = questions[index];

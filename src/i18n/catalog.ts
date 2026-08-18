@@ -4,6 +4,7 @@
  * rather than a German string leaking into a translated screen.
  */
 
+import { ar } from '@/i18n/locales/ar';
 import { de } from '@/i18n/locales/de';
 import { en } from '@/i18n/locales/en';
 import { es } from '@/i18n/locales/es';
@@ -22,6 +23,7 @@ export type TranslationKey = keyof typeof de;
 export type Catalog = Record<TranslationKey, Message>;
 
 export const CATALOGS: Record<Locale, Catalog> = {
+  ar,
   de,
   en,
   es,
@@ -32,6 +34,6 @@ export const CATALOGS: Record<Locale, Catalog> = {
   ru,
   tr,
   uk,
-} as Record<Locale, Catalog>;
+};
 
 export { de };

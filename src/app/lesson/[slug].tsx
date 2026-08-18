@@ -413,7 +413,7 @@ export default function LessonScreen() {
       await settleRewards(now).catch(() => {});
       setSummary({ stars, accuracy, xp });
     })().catch(() => {});
-  }, [done, content, pool, graded, queue, questionsById]);
+  }, [done, content, pool, graded, queue, questionsById, tr]);
 
   if (!content || !queue) return <View style={[styles.fill, { backgroundColor: t.bg }]} />;
 

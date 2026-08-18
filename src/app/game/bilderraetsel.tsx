@@ -116,7 +116,7 @@ export default function BilderraetselScreen() {
       }
       setPhase('done');
     })();
-  }, []);
+  }, [tr]);
 
   // Countdown driven by wall clock so paused JS frames can't stretch the round.
   useEffect(() => {

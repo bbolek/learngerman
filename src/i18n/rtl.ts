@@ -32,6 +32,7 @@ export async function applyRtlAndReload(locale: Locale): Promise<void> {
   try {
     // Imported lazily: older store binaries may predate expo-updates, and a
     // top-level require would crash them at import time.
+    // eslint-disable-next-line @typescript-eslint/no-require-imports -- deliberately lazy
     const Updates = require('expo-updates') as typeof import('expo-updates');
     await Updates.reloadAsync();
   } catch {

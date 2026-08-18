@@ -103,7 +103,7 @@ export default function KonjugationScreen() {
       }
       setPhase('done');
     })();
-  }, []);
+  }, [tr]);
 
   const answer = (i: number) => {
     const q = questions[index];

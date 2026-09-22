@@ -13,16 +13,16 @@ export function levelRank(level: string): number {
 }
 
 /**
- * All levels from A1 up to and including `level` — the pool a learner at
- * that level should see. Unknown input degrades to every level (no gate).
+ * The level pool a learner at `level` should see — exactly that level.
+ * Unknown input degrades to every level (no gate).
  */
-export function levelsUpTo(level: string): CefrLevel[] {
+export function levelPool(level: string): CefrLevel[] {
   const rank = levelRank(level);
-  return rank < 0 ? [...CEFR_LEVELS] : CEFR_LEVELS.slice(0, rank + 1);
+  return rank < 0 ? [...CEFR_LEVELS] : [CEFR_LEVELS[rank]];
 }
 
-/** Whether content at `level` belongs in a `maxLevel` learner's view. */
-export function withinLevel(level: string, maxLevel: string): boolean {
+/** Whether content at `level` belongs in a `userLevel` learner's view. */
+export function atLevel(level: string, userLevel: string): boolean {
   const rank = levelRank(level);
-  return rank >= 0 && rank <= levelRank(maxLevel);
+  return rank >= 0 && rank === levelRank(userLevel);
 }

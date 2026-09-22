@@ -6,7 +6,7 @@ import { StyleSheet, View } from 'react-native';
 import { listTopics, type TopicRow } from '@/db/grammarRepo';
 import { grammarDueSlugs } from '@/db/grammarSrsRepo';
 import { dueCounts } from '@/db/srsRepo';
-import { withinLevel } from '@/logic/levels';
+import { atLevel } from '@/logic/levels';
 import { useSettings } from '@/store/settings';
 import { TourTarget } from '@/tour/TourTarget';
 import { AppText } from '@/ui/components/AppText';
@@ -121,7 +121,7 @@ export default function PracticeScreen() {
       {LEVEL_SECTIONS.map(({ level, label }) => {
         // Browsing stays at the user's Sprachniveau; an explicit search
         // still finds topics of every level.
-        if (query.trim().length === 0 && !withinLevel(level, userLevel)) return null;
+        if (query.trim().length === 0 && !atLevel(level, userLevel)) return null;
         const sectionTopics = filtered.filter((topic) => topic.level === level);
         if (sectionTopics.length === 0) return null;
         return (

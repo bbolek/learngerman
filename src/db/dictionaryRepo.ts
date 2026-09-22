@@ -218,7 +218,7 @@ async function lookupParts(
 
 export async function getWordOfTheDay(
   daySeed: string,
-  /** Restrict the pool to these CEFR levels (e.g. up to the user's Sprachniveau). */
+  /** Restrict the pool to these CEFR levels (the user's Sprachniveau). */
   levels?: string[]
 ): Promise<{
   id: number;

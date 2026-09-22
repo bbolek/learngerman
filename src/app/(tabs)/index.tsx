@@ -33,7 +33,7 @@ import {
   type HeroAction,
   type ResumeItem,
 } from '@/logic/homeFeed';
-import { levelsUpTo, withinLevel } from '@/logic/levels';
+import { atLevel, levelPool } from '@/logic/levels';
 import { pickNextTopic, type NextTopic } from '@/logic/nextTopic';
 import { findPathResume, resolveBoundaryOrder } from '@/logic/pathResume';
 import { isStreakMilestone, levelProgress, levelTitle, type LevelProgress } from '@/logic/xp';
@@ -90,7 +90,7 @@ export default function HomeScreen() {
     const now = new Date();
     const today = now.toISOString().slice(0, 10);
     // Everything recommended below stays at the user's Sprachniveau.
-    const maxLevel = useSettings.getState().userLevel;
+    const userLevel = useSettings.getState().userLevel;
     // Pay out anything earned since the last visit (quests finished off-screen,
     // badges crossed) before reading the state we render.
     await settleRewards(now);
@@ -113,7 +113,7 @@ export default function HomeScreen() {
       recentActivity(1, now),
       savedCount(),
       listTopics(),
-      getWordOfTheDay(today, levelsUpTo(maxLevel)),
+      getWordOfTheDay(today, levelPool(userLevel)),
       grammarDueSlugs(now),
       dailyQuests(now),
       xpTotals(),
@@ -124,9 +124,9 @@ export default function HomeScreen() {
     ]);
     const doneToday = week.find((a) => a.day === today)?.reviews_done ?? 0;
     const wotdImage = wotd ? await getLemmaImage(wotd.id) : null;
-    const levelTopics = topics.filter((tp) => withinLevel(tp.level, maxLevel));
+    const levelTopics = topics.filter((tp) => atLevel(tp.level, userLevel));
     const topicsWithDue = levelTopics.map((tp) => ({ ...tp, due: dueSlugs.has(tp.slug) }));
-    const levelTexts = readingTexts.filter((r) => withinLevel(r.level, maxLevel));
+    const levelTexts = readingTexts.filter((r) => atLevel(r.level, userLevel));
 
     const pathNext = findPathResume(pathUnits, resolveBoundaryOrder(pathUnits, placement));
     const hero = pickHeroAction(counts.due, counts.fresh, pathNext);
@@ -171,7 +171,7 @@ export default function HomeScreen() {
       readingRead: levelTexts.filter((r) => r.completed_at != null).length,
       readingTotal: levelTexts.length,
       themeTip: pickDailyTheme(
-        THEMES.filter((th) => th.words.some((w) => withinLevel(w.level, maxLevel))),
+        THEMES.filter((th) => th.words.some((w) => atLevel(w.level, userLevel))),
         today
       ),
     });

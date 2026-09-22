@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 
 import { loadSettings, persistSettings } from '@/db/settingsRepo';
-import { levelsUpTo, type CefrLevel } from '@/logic/levels';
+import { levelPool, type CefrLevel } from '@/logic/levels';
 import {
   rescheduleNotifications,
   type NotificationScheduleStatus,
@@ -115,7 +115,7 @@ function reschedule(
       intervalMinutes: notificationIntervalMinutes,
     },
     new Date(),
-    levelsUpTo(get().userLevel)
+    levelPool(get().userLevel)
   )
     .then((notificationStatus) => set({ notificationStatus }))
     .catch(() => {});

@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-import { CEFR_LEVELS, levelsUpTo, type CefrLevel } from '@/logic/levels';
+import { CEFR_LEVELS, levelPool, type CefrLevel } from '@/logic/levels';
 
 export { CEFR_LEVELS, type CefrLevel };
 
@@ -18,22 +18,25 @@ interface ThemeFilterState {
   wordType: WordType;
   /** The user tapped a chip — stop following the profile level. */
   touched: boolean;
+  /** Last seeded Sprachniveau — the fallback when the filter would go empty. */
+  seededLevel: CefrLevel;
   toggle: (level: CefrLevel) => void;
   setWordType: (type: WordType) => void;
 }
 
 export const useThemeFilter = create<ThemeFilterState>((set) => ({
-  levels: levelsUpTo('A1'),
+  levels: levelPool('A1'),
   wordType: 'all',
   touched: false,
+  seededLevel: 'A1',
   setWordType: (wordType) => set({ wordType }),
   toggle: (level) =>
     set((s) => {
       const next = s.levels.includes(level)
         ? s.levels.filter((l) => l !== level)
         : [...s.levels, level];
-      // Never leave the filter empty — fall back to everything up to A1.
-      return { levels: next.length === 0 ? levelsUpTo('A1') : next, touched: true };
+      // Never leave the filter empty — fall back to the profile level.
+      return { levels: next.length === 0 ? levelPool(s.seededLevel) : next, touched: true };
     }),
 }));
 
@@ -42,7 +45,8 @@ export const useThemeFilter = create<ThemeFilterState>((set) => ({
  * Called on settings hydration and whenever the level setting changes.
  */
 export function seedThemeFilter(userLevel: CefrLevel) {
-  if (!useThemeFilter.getState().touched) {
-    useThemeFilter.setState({ levels: levelsUpTo(userLevel) });
-  }
+  const touched = useThemeFilter.getState().touched;
+  useThemeFilter.setState(
+    touched ? { seededLevel: userLevel } : { seededLevel: userLevel, levels: levelPool(userLevel) }
+  );
 }

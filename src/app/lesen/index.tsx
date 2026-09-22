@@ -4,7 +4,7 @@ import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { listReadingTexts, type ReadingTextRow } from '@/db/readingRepo';
-import { withinLevel } from '@/logic/levels';
+import { atLevel } from '@/logic/levels';
 import { useSettings } from '@/store/settings';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
@@ -36,7 +36,7 @@ export default function LesenScreen() {
   // Show texts at the user's Sprachniveau — but never hide a level the
   // reader already started, so finished stories stay reachable.
   const texts = allTexts.filter(
-    (row) => withinLevel(row.level, userLevel) || row.completed_at != null
+    (row) => atLevel(row.level, userLevel) || row.completed_at != null
   );
   const readCount = texts.filter((row) => row.completed_at != null).length;
 

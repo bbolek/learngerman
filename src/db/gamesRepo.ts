@@ -6,7 +6,7 @@ import {
   type SentenceWord,
   type VerbWord,
 } from '@/logic/games';
-import { CEFR_LEVELS, levelsUpTo } from '@/logic/levels';
+import { CEFR_LEVELS, levelPool } from '@/logic/levels';
 import { useSettings } from '@/store/settings';
 
 // ---------- word pools ----------
@@ -21,7 +21,7 @@ const WORD_SELECT = `
  * when every level is allowed so it composes with WHERE/AND either way.
  */
 function levelCond(): string {
-  const levels = levelsUpTo(useSettings.getState().userLevel);
+  const levels = levelPool(useSettings.getState().userLevel);
   if (levels.length >= CEFR_LEVELS.length) return '1=1';
   return `l.level IN (${levels.map((l) => `'${l}'`).join(', ')})`;
 }

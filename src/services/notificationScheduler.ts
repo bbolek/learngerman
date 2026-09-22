@@ -43,7 +43,7 @@ export async function requestNotificationPermission(): Promise<boolean> {
 export async function rescheduleNotifications(
   schedule: NotificationSchedule,
   now: Date,
-  /** CEFR levels the reminder words may come from (defaults to A1–B1). */
+  /** CEFR levels the reminder words may come from (the user's Sprachniveau). */
   wordLevels?: string[]
 ): Promise<NotificationScheduleStatus> {
   await Notifications.cancelAllScheduledNotificationsAsync();

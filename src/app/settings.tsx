@@ -113,7 +113,7 @@ export default function SettingsScreen() {
       <Card style={styles.section}>
         <AppText variant="subtitle">Mein Sprachniveau</AppText>
         <AppText variant="caption" muted style={{ marginTop: 2 }}>
-          Empfehlungen, Spiele und Texte zeigen Inhalte bis zu diesem Niveau. Der
+          Empfehlungen, Grammatik, Spiele und Texte zeigen Inhalte auf diesem Niveau. Der
           Einstufungstest im Lernpfad passt es automatisch an.
         </AppText>
         <View style={styles.segmentRow}>

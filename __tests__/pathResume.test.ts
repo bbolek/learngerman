@@ -41,6 +41,52 @@ describe('resolveBoundaryOrder', () => {
       resolveBoundaryOrder(units, { boundaryUnitSlug: 'dead', boundaryOrder: 1 })
     ).toBe(1);
   });
+
+  describe('with the Sprachniveau from Einstellungen', () => {
+    const leveled = [
+      unit('a1', 0, [0, 0], 'A1'),
+      unit('a2', 2, [0, 0], 'A2'),
+      unit('b1', 4, [0, 0], 'B1'),
+      unit('b2', 6, [0, 0], 'B2'),
+    ];
+
+    it('A1 changes nothing', () => {
+      expect(resolveBoundaryOrder(leveled, null, 'A1')).toBeNull();
+      expect(resolveBoundaryOrder(leveled, { skipped: true }, 'A1')).toBeNull();
+    });
+
+    it('unlocks up to the first unit of the selected level without a test', () => {
+      expect(resolveBoundaryOrder(leveled, null, 'B1')).toBe(4);
+      expect(resolveBoundaryOrder(leveled, { skipped: true }, 'B1')).toBe(4);
+      expect(findPathResume(leveled, resolveBoundaryOrder(leveled, null, 'B1'))?.slug).toBe(
+        'b1-n0'
+      );
+    });
+
+    it('skips to the next authored unit when the level has none', () => {
+      const gap = [unit('a1', 0, [0, 0], 'A1'), unit('b1', 2, [0, 0], 'B1')];
+      expect(resolveBoundaryOrder(gap, null, 'A2')).toBe(2);
+    });
+
+    it('unlocks the whole path when the level is beyond every unit', () => {
+      expect(resolveBoundaryOrder(leveled, null, 'C1')).toBe(Number.MAX_SAFE_INTEGER);
+      expect(findPathResume(leveled, resolveBoundaryOrder(leveled, null, 'C1'))?.slug).toBe(
+        'a1-n0'
+      );
+    });
+
+    it('never moves a further placement boundary backwards', () => {
+      expect(
+        resolveBoundaryOrder(leveled, { boundaryUnitSlug: 'b2', boundaryOrder: 6 }, 'A2')
+      ).toBe(6);
+    });
+
+    it('raises a lower placement boundary to the selected level', () => {
+      expect(
+        resolveBoundaryOrder(leveled, { boundaryUnitSlug: 'a2', boundaryOrder: 2 }, 'B1')
+      ).toBe(4);
+    });
+  });
 });
 
 describe('findPathResume', () => {

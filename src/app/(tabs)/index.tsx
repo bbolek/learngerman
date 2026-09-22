@@ -128,7 +128,7 @@ export default function HomeScreen() {
     const topicsWithDue = levelTopics.map((tp) => ({ ...tp, due: dueSlugs.has(tp.slug) }));
     const levelTexts = readingTexts.filter((r) => atLevel(r.level, userLevel));
 
-    const pathNext = findPathResume(pathUnits, resolveBoundaryOrder(pathUnits, placement));
+    const pathNext = findPathResume(pathUnits, resolveBoundaryOrder(pathUnits, placement, userLevel));
     const hero = pickHeroAction(counts.due, counts.fresh, pathNext);
     const nextReading = nextUnreadText(levelTexts);
     const resume = buildResumeShelf({

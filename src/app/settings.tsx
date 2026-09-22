@@ -8,6 +8,7 @@ import { CEFR_LEVELS } from '@/logic/levels';
 import { backupAvailable, exportBackupFile, importBackupFile } from '@/services/backup';
 import { useSettings, type ThemePreference } from '@/store/settings';
 import { useTourStore } from '@/tour/tourStore';
+import { VERSION_LABEL } from '@/version';
 import { AppText } from '@/ui/components/AppText';
 import { Card } from '@/ui/components/Card';
 import { Screen } from '@/ui/components/Screen';
@@ -383,6 +384,9 @@ export default function SettingsScreen() {
         </AppText>
         <AppText variant="caption" muted style={{ marginTop: spacing.md, lineHeight: 17 }}>
           Wortbilder: Noto Emoji © Google — Apache License 2.0 / SIL Open Font License.
+        </AppText>
+        <AppText variant="caption" muted style={{ marginTop: spacing.sm }}>
+          Version {VERSION_LABEL}
         </AppText>
       </Card>
 

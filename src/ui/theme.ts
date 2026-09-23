@@ -30,6 +30,14 @@ const light = {
     onDieChip: '#A75560',
     dasChip: '#E9F1E3',
     onDasChip: '#5C8447',
+    // Leo the mascot (a silver-cream tabby Scottish Fold) — see Leo.tsx.
+    mascotFur: '#E9DFD3',
+    mascotBelly: '#F8F3EC',
+    mascotStripe: '#A8927C',
+    mascotEye: '#7FB3D9',
+    mascotNose: '#E89A94',
+    mascotBlush: '#F4B6B0',
+    mascotLine: '#4A3B30',
   shadow: '#2B2118',
 };
 
@@ -65,6 +73,13 @@ export const palettes: Record<ThemeName, Palette> = {
     onDieChip: '#E3AEB6',
     dasChip: '#2B3626',
     onDasChip: '#B4D0A3',
+    mascotFur: '#DCD0C2',
+    mascotBelly: '#EFE7DC',
+    mascotStripe: '#9A8570',
+    mascotEye: '#8CC0E3',
+    mascotNose: '#E08F89',
+    mascotBlush: '#E6A39D',
+    mascotLine: '#1C1814',
     shadow: '#000000',
   },
 };

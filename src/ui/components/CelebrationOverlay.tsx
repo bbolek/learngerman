@@ -5,6 +5,7 @@ import Animated, {
   FadeOut,
   interpolate,
   useAnimatedStyle,
+  useReducedMotion,
   useSharedValue,
   withTiming,
   ZoomIn,
@@ -13,6 +14,7 @@ import Animated, {
 
 import { useCelebration, type QueuedCelebration } from '@/store/celebration';
 import { AppText } from '@/ui/components/AppText';
+import { Leo, leoCheer } from '@/ui/components/Leo';
 import { confetti, fonts, radius, spacing } from '@/ui/theme';
 import { useTheme } from '@/ui/useTheme';
 
@@ -20,9 +22,11 @@ import { useTheme } from '@/ui/useTheme';
  * Global reward overlay (issue #38): confetti rain + a centered banner for
  * level-ups, streak milestones, badge unlocks, new records and finished
  * Tagesziele. Mounted once in the root layout; screens enqueue moments via
- * `celebrate()`. Non-interactive — it never blocks the flow underneath.
+ * `celebrate()`. Leo the cat walks in under the banner, cheers, waves and
+ * walks off. Non-interactive — it never blocks the flow underneath.
  */
-const DURATION_MS = 2400;
+const DURATION_MS = 3600;
+const LEO_SIZE = 110;
 const PIECES = 42;
 
 export function CelebrationOverlay() {
@@ -36,6 +40,7 @@ function Burst({ event }: { event: QueuedCelebration }) {
   const advance = useCelebration((s) => s.advance);
   const { width, height } = useWindowDimensions();
   const progress = useSharedValue(0);
+  const reduceMotion = useReducedMotion();
 
   useEffect(() => {
     progress.value = withTiming(1, { duration: DURATION_MS, easing: Easing.linear });
@@ -70,6 +75,17 @@ function Burst({ event }: { event: QueuedCelebration }) {
           ) : null}
         </Animated.View>
       </View>
+      {reduceMotion ? null : (
+        <View style={[styles.leoTrack, { top: Math.min(height / 2 + 120, height - LEO_SIZE * 1.5) }]}>
+          <Leo
+            progress={progress}
+            durationMs={DURATION_MS}
+            width={width}
+            size={LEO_SIZE}
+            cheer={leoCheer(event.id)}
+          />
+        </View>
+      )}
     </View>
   );
 }
@@ -156,4 +172,5 @@ const styles = StyleSheet.create({
     elevation: 8,
   },
   piece: { position: 'absolute', top: 0, left: 0 },
+  leoTrack: { position: 'absolute', left: 0, right: 0 },
 });

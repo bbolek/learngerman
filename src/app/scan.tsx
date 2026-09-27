@@ -34,6 +34,7 @@ import {
   dedupeScanWords,
   mapFrameToView,
   resolveScanWords,
+  uprightPhotoSize,
   uprightScanFrame,
   type ScanHit,
   type ScanWord,
@@ -244,12 +245,14 @@ function ResultView({
   // Fixed-size inner canvas, aspect-fit to the expanded viewport. Overlay
   // boxes are positioned once in canvas coordinates; zoom and collapse are
   // pure transforms, so the boxes always track the image.
-  const photoOk = result.photo.width > 0 && result.photo.height > 0;
-  const fit = photoOk
-    ? Math.min(viewportW / result.photo.width, expandedH / result.photo.height)
-    : 1;
-  const canvasW = photoOk ? result.photo.width * fit : viewportW;
-  const canvasH = photoOk ? result.photo.height * fit : expandedH;
+  // The camera may report un-rotated sensor dimensions (Samsung & co. store
+  // landscape pixels + EXIF rotation); the decoded image tells us the truth.
+  const [decoded, setDecoded] = useState<{ width: number; height: number } | null>(null);
+  const photo = uprightPhotoSize(result.photo, decoded);
+  const photoOk = photo.width > 0 && photo.height > 0;
+  const fit = photoOk ? Math.min(viewportW / photo.width, expandedH / photo.height) : 1;
+  const canvasW = photoOk ? photo.width * fit : viewportW;
+  const canvasH = photoOk ? photo.height * fit : expandedH;
 
   const scrollY = useSharedValue(0);
   const zoom = useSharedValue(1);
@@ -354,10 +357,11 @@ function ResultView({
               style={styles.fill}
               contentFit="contain"
               transition={150}
+              onLoad={(e) => setDecoded({ width: e.source.width, height: e.source.height })}
             />
-            {result.words.map((w, i) => {
+            {decoded && result.words.map((w, i) => {
               if (!w.frame) return null;
-              const box = mapFrameToView(w.frame, result.photo, { width: canvasW, height: canvasH });
+              const box = mapFrameToView(w.frame, photo, { width: canvasW, height: canvasH });
               if (!box) return null;
               const known = result.hits.has(w.norm);
               return (

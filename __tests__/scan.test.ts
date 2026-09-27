@@ -8,6 +8,7 @@ import {
   dedupeScanWords,
   mapFrameToView,
   resolveScanWords,
+  uprightPhotoSize,
   uprightScanFrame,
 } from '@/logic/scan';
 
@@ -187,5 +188,22 @@ describe('mapFrameToView', () => {
     const frame = { left: 0, top: 0, width: 10, height: 10 };
     expect(mapFrameToView(frame, { width: 0, height: 0 }, { width: 400, height: 600 })).toBeNull();
     expect(mapFrameToView(frame, photo, { width: 0, height: 0 })).toBeNull();
+  });
+});
+
+describe('uprightPhotoSize', () => {
+  const landscape = { width: 4000, height: 3000 };
+
+  it('swaps un-rotated camera dims when the decoded image is portrait (Samsung)', () => {
+    expect(uprightPhotoSize(landscape, { width: 1500, height: 2000 })).toEqual({
+      width: 3000,
+      height: 4000,
+    });
+  });
+
+  it('keeps dims when orientations agree or decode is unknown', () => {
+    expect(uprightPhotoSize(landscape, { width: 2000, height: 1500 })).toEqual(landscape);
+    expect(uprightPhotoSize(landscape, null)).toEqual(landscape);
+    expect(uprightPhotoSize(landscape, { width: 0, height: 0 })).toEqual(landscape);
   });
 });

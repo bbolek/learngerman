@@ -186,3 +186,23 @@ export function mapFrameToView(
     height: frame.height * scale,
   };
 }
+
+/**
+ * Reconcile the camera-reported photo size with the size the image actually
+ * decodes to (EXIF applied). Some Android devices (e.g. Samsung) store the
+ * sensor's landscape pixels with an EXIF rotation and expo-camera reports
+ * those un-rotated dimensions, while ML Kit and the image view both work in
+ * the upright orientation. If the decoded aspect disagrees with the reported
+ * one, swap width/height so frames and the preview share one space.
+ */
+export function uprightPhotoSize(
+  reported: { width: number; height: number },
+  decoded: { width: number; height: number } | null
+): { width: number; height: number } {
+  if (!decoded || decoded.width <= 0 || decoded.height <= 0) return reported;
+  if (reported.width === reported.height) return reported;
+  const reportedPortrait = reported.height > reported.width;
+  const decodedPortrait = decoded.height > decoded.width;
+  if (decoded.width === decoded.height || reportedPortrait === decodedPortrait) return reported;
+  return { width: reported.height, height: reported.width };
+}
